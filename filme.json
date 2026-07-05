@@ -1,0 +1,12 @@
+[
+  {
+    "id": "yt-dummy123",
+    "title": "Willkommen bei TubeFilme",
+    "youtubeId": "dQw4w9WgXcQ",
+    "genres": ["Info"],
+    "year": "2026",
+    "description": "Das ist der erste Testeintrag für unsere Mediathek.",
+    "coverUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop",
+    "language": "de"
+  }
+]
