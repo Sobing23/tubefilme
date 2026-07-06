@@ -2,13 +2,11 @@ name: Automatischer Film-Update-Scan
 
 on:
   schedule:
-    # Läuft jede Nacht um 02:00 Uhr UTC
     - cron: '0 2 * * *'
   workflow_dispatch:
-    # Ermöglicht es uns, das Skript jederzeit manuell zu starten
 
 permissions:
-  contents: write # Wichtig, damit das Skript neue Filme in die JSON schreiben darf
+  contents: write
 
 jobs:
   update-database:
@@ -21,12 +19,17 @@ jobs:
       - name: Node.js einrichten
         uses: actions/setup-node@v4
         with:
-          node-version: '24' # Korrigiert und auf dem neuesten Stand!
+          node-version: '24'
+
+      - name: yt-dlp installieren und komplettes Archiv laden
+        run: |
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
+          yt-dlp --dump-json --flat-playlist "https://www.youtube.com/channel/UCJ5v_MCY6GNUBTO8-D3XoAg" > youtube-daten.jsonl || true
 
       - name: Filme aktualisieren (Skript ausführen)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: node update-movies.js
 
       - name: Änderungen auf GitHub speichern (Commit & Push)
