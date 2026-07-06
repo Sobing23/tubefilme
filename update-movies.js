@@ -65,21 +65,27 @@ async function main() {
     return;
   }
 
-  // Die von yt-dlp erstellte Datei auslesen
   const fileContent = fs.readFileSync(YT_DATA_FILE, 'utf-8');
   const lines = fileContent.split('\n').filter(line => line.trim() !== '');
   
   const videos = [];
+  // Wörter, die wir NIEMALS in unserer Spielfilm-Mediathek haben wollen
+  const blacklist = /trailer|teaser|clip|preview|shorts|interview/i;
+
   for (const line of lines) {
     try {
       const videoData = JSON.parse(line);
       if (videoData.id && videoData.title) {
+        // Filter: Wenn der Titel Blacklist-Wörter enthält, ignorieren
+        if (blacklist.test(videoData.title)) {
+            continue; 
+        }
         videos.push({ id: videoData.id, title: videoData.title });
       }
     } catch (e) {}
   }
 
-  console.log(`${videos.length} Videos erfolgreich aus dem YouTube-Archiv geladen.`);
+  console.log(`${videos.length} echte Lang-Videos erfolgreich aus dem YouTube-Archiv geladen.`);
 
   let existingMovies = [];
   if (fs.existsSync(MOVIES_FILE)) {
@@ -87,7 +93,6 @@ async function main() {
     catch (e) { existingMovies = []; }
   }
   
-  // Dummy entfernen und existierende IDs merken
   existingMovies = existingMovies.filter(m => m.id !== 'yt-dummy123');
   const existingIds = new Set(existingMovies.map(m => m.youtubeId));
 
@@ -97,7 +102,6 @@ async function main() {
   for (const video of videos) {
     if (existingIds.has(video.id)) continue;
 
-    // Schutz vor TMDB-Überlastung (max 200 neue Filme pro Durchlauf)
     if (tmdbRequests >= 200) {
         console.log("Limit von 200 TMDB-Abfragen erreicht. Der Rest folgt im nächsten Durchlauf!");
         break;
@@ -126,7 +130,6 @@ async function main() {
       }
     }
     
-    // Ganz kurze Pause, um die TMDB-API nicht zu blockieren
     await new Promise(r => setTimeout(r, 200)); 
   }
 
