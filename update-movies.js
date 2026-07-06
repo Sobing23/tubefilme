@@ -1,13 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
-
 const MOVIES_FILE = path.join(__dirname, 'filme.json');
 const IMG_DIR = path.join(__dirname, 'img');
 
-// Falls der img-Ordner noch nicht existiert, erstellen
 if (!fs.existsSync(IMG_DIR)) {
   fs.mkdirSync(IMG_DIR, { recursive: true });
 }
@@ -18,72 +15,57 @@ async function fetchJson(url, options = {}) {
   return response.json();
 }
 
-// 1. YouTube-Videos über RapidAPI holen (mit Paginierung für das gesamte Archiv)
-async function getChannelVideos(channelId, maxPages = 5) {
-  let allVideos = [];
-  let currentCursor = "";
-  let page = 1;
-
-  console.log(`Starte Archiv-Scan für Kanal ${channelId}...`);
-
-  while (page <= maxPages) {
-    console.log(`Lade Seite ${page}...`);
-    const url = 'https://youtube138.p.rapidapi.com/channel/videos/';
-    const options = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-rapidapi-host': 'youtube138.p.rapidapi.com',
-        'x-rapidapi-key': RAPIDAPI_KEY
-      },
-      body: JSON.stringify({
-        id: channelId,
-        filter: 'videos_latest',
-        cursor: currentCursor,
-        hl: 'de',
-        gl: 'DE'
-      })
-    };
-
-    try {
-      const data = await fetchJson(url, options);
-      
-      if (!data.contents || data.contents.length === 0) {
-        console.log('Keine weiteren Videos gefunden.');
-        break;
-      }
-
-      // Videos extrahieren
-      const items = data.contents
-        .filter(item => item.video)
-        .map(item => ({
-          id: item.video.videoId,
-          title: item.video.title
-        }));
-
-      allVideos = allVideos.concat(items);
-      console.log(`${items.length} Videos auf dieser Seite gefunden.`);
-
-      // Nächsten Cursor holen für die Folgeseite
-      if (data.cursorNext) {
-        currentCursor = data.cursorNext;
-        page++;
-        // Kurze Pause, um die API zu schonen
-        await new Promise(resolve => setTimeout(resolve, 1000));
-      } else {
-        console.log('Ende des Archivs erreicht.');
-        break;
-      }
-    } catch (error) {
-      console.error(`Fehler beim Laden von Seite ${page}:`, error);
-      break;
+// Holt die Videos direkt über das öffentliche YouTube-Frontend (Kein API-Key nötig!)
+async function getChannelVideosPublic(channelId) {
+  // Wir nutzen die "videos"-Ansicht des Kanals, wo die neuesten Uploads gelistet sind
+  const url = `https://www.youtube.com/channel/${channelId}/videos`;
+  console.log(`Rufe öffentliche Video-Seite auf für Kanal: ${channelId}...`);
+  
+  try {
+    const response = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' }
+    });
+    const html = await response.text();
+    
+    // Wir extrahieren das versteckte JSON-Objekt, das YouTube zur Darstellung nutzt
+    const match = html.match(/var ytInitialData = ({.*?});<\/script>/);
+    if (!match) {
+      console.log('Konnte ytInitialData nicht im HTML finden.');
+      return [];
     }
+    
+    const data = JSON.parse(match[1]);
+    
+    // Tiefer Klick in die YouTube-Datenstruktur, um die Video-Liste zu finden
+    const tabs = data.contents.twoColumnBrowseResultsRenderer.tabs;
+    const videosTab = tabs.find(tab => tab.tabRenderer && tab.tabRenderer.title === "Videos" || tab.tabRenderer && tab.tabRenderer.selected);
+    
+    if (!videosTab) {
+      console.log('Videos-Tab in den Daten nicht gefunden.');
+      return [];
+    }
+    
+    const contents = videosTab.tabRenderer.content.richGridRenderer.contents;
+    const videos = [];
+    
+    for (const item of contents) {
+      if (item.richItemRenderer && item.richItemRenderer.content.videoRenderer) {
+        const videoRenderer = item.richItemRenderer.content.videoRenderer;
+        videos.push({
+          id: videoRenderer.videoId,
+          title: videoRenderer.title.runs[0].text
+        });
+      }
+    }
+    
+    console.log(`${videos.length} Videos erfolgreich aus dem Web-Frontend extrahiert.`);
+    return videos;
+  } catch (error) {
+    console.error('Fehler beim Public Scraping:', error);
+    return [];
   }
-
-  return allVideos;
 }
 
-// 2. TMDB nach dem Film durchsuchen
 async function getTmdbData(title) {
   let cleanTitle = title
     .replace(/\[.*?\]|\(.*?\)/g, '')
@@ -96,7 +78,7 @@ async function getTmdbData(title) {
     const data = await fetchJson(searchUrl);
     if (data.results && data.results.length > 0) {
       const match = data.results[0];
-      if (!match.backdrop_path) return null; // Wichtig für edle Querformat-Bilder
+      if (!match.backdrop_path) return null;
 
       return {
         title: match.title,
@@ -112,7 +94,6 @@ async function getTmdbData(title) {
   return null;
 }
 
-// 3. Cover sichern
 async function downloadCover(backdropPath, youtubeId) {
   const imgUrl = `https://image.tmdb.org/t/p/w780${backdropPath}`;
   const filename = `${youtubeId}.jpg`;
@@ -129,7 +110,6 @@ async function downloadCover(backdropPath, youtubeId) {
   }
 }
 
-// Hauptfunktion
 async function main() {
   let existingMovies = [];
   if (fs.existsSync(MOVIES_FILE)) {
@@ -138,12 +118,11 @@ async function main() {
     } catch (e) { existingMovies = []; }
   }
 
-  // Dummy filtern
   existingMovies = existingMovies.filter(m => m.id !== 'yt-dummy123');
   const existingIds = new Set(existingMovies.map(m => m.youtubeId));
 
-  // Wir scannen Netzkino (maxPages = 5 holt ca. 150 Videos auf einmal. Kannst du später erhöhen!)
-  const videos = await getChannelVideos('UCJ5v_MCY6GNUBTO8-D3XoAg', 5);
+  // Wir nutzen die Netzkino Kanal-ID
+  const videos = await getChannelVideosPublic('UCJ5v_MCY6GNUBTO8-D3XoAg');
   let newCount = 0;
 
   for (const video of videos) {
