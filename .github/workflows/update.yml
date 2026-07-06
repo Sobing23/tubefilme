@@ -26,6 +26,7 @@ jobs:
       - name: Filme aktualisieren (Skript ausführen)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: node update-movies.js
 
       - name: Änderungen auf GitHub speichern (Commit & Push)
