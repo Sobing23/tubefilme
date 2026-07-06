@@ -2,8 +2,14 @@ name: Automatischer Film-Update-Scan
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 * * *' # Nachts immer nur die neuesten 50 Videos prüfen
   workflow_dispatch:
+    inputs:
+      full_sync:
+        description: 'Vollständiger Archiv-Scan? (Häkchen setzen, wenn du neue Kanäle in die channels.txt eingetragen hast)'
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -21,19 +27,26 @@ jobs:
         with:
           node-version: '24'
 
-      - name: yt-dlp installieren und alle Kanäle scannen
+      - name: yt-dlp installieren und Kanäle scannen
         run: |
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
-          # Liest channels.txt (-a) und ignoriert alles, was kürzer als 20 Minuten (1200s) ist
-          yt-dlp --dump-json --flat-playlist --match-filter "duration > 1200" -a channels.txt > youtube-daten.jsonl || true
+          
+          # Prüfen, ob der User das Häkchen für den Vollscan gesetzt hat
+          if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
+            echo "🚀 VOLLSTÄNDIGER ARCHIV-SCAN: Scanne die komplette Historie aller Kanäle..."
+            yt-dlp --dump-json --flat-playlist --match-filter "duration > 1200" -a channels.txt > youtube-daten.jsonl || true
+          else
+            echo "⏱️ INKREMENTELLER SCAN: Hole nur die 50 neuesten Videos pro Kanal..."
+            yt-dlp --dump-json --flat-playlist --playlist-end 50 --match-filter "duration > 1200" -a channels.txt > youtube-daten.jsonl || true
+          fi
 
       - name: Filme aktualisieren (Skript ausführen)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node update-movies.js
 
-      - name: Änderungen auf GitHub保存 (Commit & Push)
+      - name: Änderungen auf GitHub speichern (Commit & Push)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
