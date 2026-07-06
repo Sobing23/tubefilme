@@ -4,66 +4,14 @@ const path = require('path');
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const MOVIES_FILE = path.join(__dirname, 'filme.json');
 const IMG_DIR = path.join(__dirname, 'img');
+const YT_DATA_FILE = path.join(__dirname, 'youtube-daten.jsonl');
 
-if (!fs.existsSync(IMG_DIR)) {
-  fs.mkdirSync(IMG_DIR, { recursive: true });
-}
+if (!fs.existsSync(IMG_DIR)) fs.mkdirSync(IMG_DIR, { recursive: true });
 
 async function fetchJson(url, options = {}) {
   const response = await fetch(url, options);
   if (!response.ok) throw new Error(`HTTP Fehler: ${response.status}`);
   return response.json();
-}
-
-// Holt die Videos direkt über das öffentliche YouTube-Frontend (Kein API-Key nötig!)
-async function getChannelVideosPublic(channelId) {
-  // Wir nutzen die "videos"-Ansicht des Kanals, wo die neuesten Uploads gelistet sind
-  const url = `https://www.youtube.com/channel/${channelId}/videos`;
-  console.log(`Rufe öffentliche Video-Seite auf für Kanal: ${channelId}...`);
-  
-  try {
-    const response = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' }
-    });
-    const html = await response.text();
-    
-    // Wir extrahieren das versteckte JSON-Objekt, das YouTube zur Darstellung nutzt
-    const match = html.match(/var ytInitialData = ({.*?});<\/script>/);
-    if (!match) {
-      console.log('Konnte ytInitialData nicht im HTML finden.');
-      return [];
-    }
-    
-    const data = JSON.parse(match[1]);
-    
-    // Tiefer Klick in die YouTube-Datenstruktur, um die Video-Liste zu finden
-    const tabs = data.contents.twoColumnBrowseResultsRenderer.tabs;
-    const videosTab = tabs.find(tab => tab.tabRenderer && tab.tabRenderer.title === "Videos" || tab.tabRenderer && tab.tabRenderer.selected);
-    
-    if (!videosTab) {
-      console.log('Videos-Tab in den Daten nicht gefunden.');
-      return [];
-    }
-    
-    const contents = videosTab.tabRenderer.content.richGridRenderer.contents;
-    const videos = [];
-    
-    for (const item of contents) {
-      if (item.richItemRenderer && item.richItemRenderer.content.videoRenderer) {
-        const videoRenderer = item.richItemRenderer.content.videoRenderer;
-        videos.push({
-          id: videoRenderer.videoId,
-          title: videoRenderer.title.runs[0].text
-        });
-      }
-    }
-    
-    console.log(`${videos.length} Videos erfolgreich aus dem Web-Frontend extrahiert.`);
-    return videos;
-  } catch (error) {
-    console.error('Fehler beim Public Scraping:', error);
-    return [];
-  }
 }
 
 async function getTmdbData(title) {
@@ -79,7 +27,6 @@ async function getTmdbData(title) {
     if (data.results && data.results.length > 0) {
       const match = data.results[0];
       if (!match.backdrop_path) return null;
-
       return {
         title: match.title,
         genres: match.genre_ids,
@@ -111,26 +58,56 @@ async function downloadCover(backdropPath, youtubeId) {
 }
 
 async function main() {
-  let existingMovies = [];
-  if (fs.existsSync(MOVIES_FILE)) {
-    try {
-      existingMovies = JSON.parse(fs.readFileSync(MOVIES_FILE, 'utf8'));
-    } catch (e) { existingMovies = []; }
+  console.log("Lese extrahiertes YouTube-Archiv von yt-dlp...");
+  
+  if (!fs.existsSync(YT_DATA_FILE)) {
+    console.error("Fehler: youtube-daten.jsonl wurde nicht gefunden.");
+    return;
   }
 
+  // Die von yt-dlp erstellte Datei auslesen
+  const fileContent = fs.readFileSync(YT_DATA_FILE, 'utf-8');
+  const lines = fileContent.split('\n').filter(line => line.trim() !== '');
+  
+  const videos = [];
+  for (const line of lines) {
+    try {
+      const videoData = JSON.parse(line);
+      if (videoData.id && videoData.title) {
+        videos.push({ id: videoData.id, title: videoData.title });
+      }
+    } catch (e) {}
+  }
+
+  console.log(`${videos.length} Videos erfolgreich aus dem YouTube-Archiv geladen.`);
+
+  let existingMovies = [];
+  if (fs.existsSync(MOVIES_FILE)) {
+    try { existingMovies = JSON.parse(fs.readFileSync(MOVIES_FILE, 'utf8')); } 
+    catch (e) { existingMovies = []; }
+  }
+  
+  // Dummy entfernen und existierende IDs merken
   existingMovies = existingMovies.filter(m => m.id !== 'yt-dummy123');
   const existingIds = new Set(existingMovies.map(m => m.youtubeId));
 
-  // Wir nutzen die Netzkino Kanal-ID
-  const videos = await getChannelVideosPublic('UCJ5v_MCY6GNUBTO8-D3XoAg');
   let newCount = 0;
+  let tmdbRequests = 0;
 
   for (const video of videos) {
     if (existingIds.has(video.id)) continue;
 
+    // Schutz vor TMDB-Überlastung (max 200 neue Filme pro Durchlauf)
+    if (tmdbRequests >= 200) {
+        console.log("Limit von 200 TMDB-Abfragen erreicht. Der Rest folgt im nächsten Durchlauf!");
+        break;
+    }
+
+    tmdbRequests++;
+    console.log(`Prüfe neuen Film: ${video.title}`);
+    
     const tmdb = await getTmdbData(video.title);
     if (tmdb) {
-      console.log(`Match gefunden: ${tmdb.title}`);
       const coverUrl = await downloadCover(tmdb.backdropPath, video.id);
 
       if (coverUrl) {
@@ -148,6 +125,9 @@ async function main() {
         existingIds.add(video.id);
       }
     }
+    
+    // Ganz kurze Pause, um die TMDB-API nicht zu blockieren
+    await new Promise(r => setTimeout(r, 200)); 
   }
 
   if (newCount > 0) {
