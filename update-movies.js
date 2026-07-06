@@ -1,53 +1,92 @@
 const fs = require('fs');
 const path = require('path');
 
-// Kanäle, die wir überwachen wollen (Start mit Netzkino)
-const CHANNELS = [
-  { name: 'Netzkino', id: 'UC5twjMskb4YVl9U_S-4wYkw' }
-];
-
+const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
+
 const MOVIES_FILE = path.join(__dirname, 'filme.json');
 const IMG_DIR = path.join(__dirname, 'img');
 
-// Hilfsfunktion für fetch im alten Node.js Stil
+// Falls der img-Ordner noch nicht existiert, erstellen
+if (!fs.existsSync(IMG_DIR)) {
+  fs.mkdirSync(IMG_DIR, { recursive: true });
+}
+
 async function fetchJson(url, options = {}) {
   const response = await fetch(url, options);
   if (!response.ok) throw new Error(`HTTP Fehler: ${response.status}`);
   return response.json();
 }
 
-// 1. YouTube RSS Feed auslesen (Ersatz für die YouTube API)
-async function getLatestYoutubeVideos(channelId) {
-  const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
-  try {
-    const response = await fetch(url);
-    const xmlText = await response.text();
-    
-    // Einfaches Regex-Parsing für Video-IDs und Titel aus dem XML
-    const videoIds = [...xmlText.matchAll(/<yt:videoId>([^<]+)<\/yt:videoId>/g)].map(m => m[1]);
-    const titles = [...xmlText.matchAll(/<title>([^<]+)<\/title>/g)].map(m => m[1]);
-    
-    // Das erste Element im RSS-Feed ist meist der Kanalname, daher überspringen wir das erste Title-Match
-    const videos = [];
-    for (let i = 0; i < videoIds.length; i++) {
-      videos.push({
-        id: videoIds[i],
-        title: titles[i + 1] || 'Unbekannter Titel'
-      });
+// 1. YouTube-Videos über RapidAPI holen (mit Paginierung für das gesamte Archiv)
+async function getChannelVideos(channelId, maxPages = 5) {
+  let allVideos = [];
+  let currentCursor = "";
+  let page = 1;
+
+  console.log(`Starte Archiv-Scan für Kanal ${channelId}...`);
+
+  while (page <= maxPages) {
+    console.log(`Lade Seite ${page}...`);
+    const url = 'https://youtube138.p.rapidapi.com/channel/videos/';
+    const options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-rapidapi-host': 'youtube138.p.rapidapi.com',
+        'x-rapidapi-key': RAPIDAPI_KEY
+      },
+      body: JSON.stringify({
+        id: channelId,
+        filter: 'videos_latest',
+        cursor: currentCursor,
+        hl: 'de',
+        gl: 'DE'
+      })
+    };
+
+    try {
+      const data = await fetchJson(url, options);
+      
+      if (!data.contents || data.contents.length === 0) {
+        console.log('Keine weiteren Videos gefunden.');
+        break;
+      }
+
+      // Videos extrahieren
+      const items = data.contents
+        .filter(item => item.video)
+        .map(item => ({
+          id: item.video.videoId,
+          title: item.video.title
+        }));
+
+      allVideos = allVideos.concat(items);
+      console.log(`${items.length} Videos auf dieser Seite gefunden.`);
+
+      // Nächsten Cursor holen für die Folgeseite
+      if (data.cursorNext) {
+        currentCursor = data.cursorNext;
+        page++;
+        // Kurze Pause, um die API zu schonen
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      } else {
+        console.log('Ende des Archivs erreicht.');
+        break;
+      }
+    } catch (error) {
+      console.error(`Fehler beim Laden von Seite ${page}:`, error);
+      break;
     }
-    return videos;
-  } catch (error) {
-    console.error(`Fehler beim Laden des RSS-Feeds für ${channelId}:`, error);
-    return [];
   }
+
+  return allVideos;
 }
 
-// 2. TMDB nach dem Film durchsuchen und Metadaten + Querformat-Cover holen
+// 2. TMDB nach dem Film durchsuchen
 async function getTmdbData(title) {
-  // Bereinige den YouTube-Titel (entferne Zusätze wie "Ganzer Film", "HD", etc.)
   let cleanTitle = title
-    .replace(/\[.*?\]|\(.*?\)/g, '') // Entfernt Klammern
+    .replace(/\[.*?\]|\(.*?\)/g, '')
     .replace(/ganzer film|kostenlos|auf deutsch|full movie|hd|in voller länge/gi, '')
     .trim();
 
@@ -56,26 +95,24 @@ async function getTmdbData(title) {
   try {
     const data = await fetchJson(searchUrl);
     if (data.results && data.results.length > 0) {
-      const match = data.results[0]; // Wir nehmen den besten Treffer
-      
-      // Falls kein Querformat-Bild (backdrop_path) existiert, überspringen wir es
-      if (!match.backdrop_path) return null;
+      const match = data.results[0];
+      if (!match.backdrop_path) return null; // Wichtig für edle Querformat-Bilder
 
       return {
         title: match.title,
-        genres: match.genre_ids, // Liefert IDs, die wir später im Frontend mappen können
+        genres: match.genre_ids,
         year: match.release_date ? match.release_date.split('-')[0] : 'Unbekannt',
         description: match.overview,
         backdropPath: match.backdrop_path
       };
     }
   } catch (error) {
-    console.error(`TMDB Suche fehlgeschlagen für: ${cleanTitle}`, error);
+    console.error(`TMDB Fehler für: ${cleanTitle}`, error);
   }
   return null;
 }
 
-// 3. Cover herunterladen und im Repository speichern
+// 3. Cover sichern
 async function downloadCover(backdropPath, youtubeId) {
   const imgUrl = `https://image.tmdb.org/t/p/w780${backdropPath}`;
   const filename = `${youtubeId}.jpg`;
@@ -85,74 +122,60 @@ async function downloadCover(backdropPath, youtubeId) {
     const response = await fetch(imgUrl);
     if (!response.ok) return null;
     const arrayBuffer = await response.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-    fs.writeFileSync(destPath, buffer);
-    return `img/${filename}`; // Relativer Pfad für unser JSON
+    fs.writeFileSync(destPath, Buffer.from(arrayBuffer));
+    return `img/${filename}`;
   } catch (error) {
-    console.error(`Fehler beim Download des Covers für ${youtubeId}:`, error);
     return null;
   }
 }
 
 // Hauptfunktion
 async function main() {
-  console.log('Starte automatischen Film-Import über RSS...');
-  
-  // Bestehende Filme laden
   let existingMovies = [];
   if (fs.existsSync(MOVIES_FILE)) {
     try {
       existingMovies = JSON.parse(fs.readFileSync(MOVIES_FILE, 'utf8'));
-    } catch (e) {
-      existingMovies = [];
-    }
+    } catch (e) { existingMovies = []; }
   }
 
-  // Wir filtern den Dummy-Eintrag heraus, sobald echte Filme da sind
+  // Dummy filtern
   existingMovies = existingMovies.filter(m => m.id !== 'yt-dummy123');
-
   const existingIds = new Set(existingMovies.map(m => m.youtubeId));
-  let newMoviesCount = 0;
 
-  for (const channel of CHANNELS) {
-    console.log(`Scanne Kanal: ${channel.name}...`);
-    const videos = await getLatestYoutubeVideos(channel.id);
-    
-    for (const video of videos) {
-      if (existingIds.has(video.id)) continue; // Film existiert schon, überspringen
+  // Wir scannen Netzkino (maxPages = 5 holt ca. 150 Videos auf einmal. Kannst du später erhöhen!)
+  const videos = await getChannelVideos('UCJ5v_MCY6GNUBTO8-D3XoAg', 5);
+  let newCount = 0;
 
-      console.log(`Neuer Film gefunden: ${video.title}. Suche auf TMDB...`);
-      const tmdbData = await getTmdbData(video.title);
+  for (const video of videos) {
+    if (existingIds.has(video.id)) continue;
 
-      if (tmdbData) {
-        console.log(`TMDB Treffer! Lade Querformat-Cover für "${tmdbData.title}" herunter...`);
-        const coverUrl = await downloadCover(tmdbData.backdropPath, video.id);
+    const tmdb = await getTmdbData(video.title);
+    if (tmdb) {
+      console.log(`Match gefunden: ${tmdb.title}`);
+      const coverUrl = await downloadCover(tmdb.backdropPath, video.id);
 
-        if (coverUrl) {
-          existingMovies.push({
-            id: `yt-${video.id}`,
-            title: tmdbData.title,
-            youtubeId: video.id,
-            genres: tmdbData.genres,
-            year: tmdbData.year,
-            description: tmdbData.description,
-            coverUrl: coverUrl,
-            language: 'de'
-          });
-          newMoviesCount++;
-          existingIds.add(video.id);
-        }
-      } else {
-        console.log(`Kein passender TMDB-Eintrag mit Querformat-Bild gefunden für: ${video.title}`);
+      if (coverUrl) {
+        existingMovies.push({
+          id: `yt-${video.id}`,
+          title: tmdb.title,
+          youtubeId: video.id,
+          genres: tmdb.genres,
+          year: tmdb.year,
+          description: tmdb.description,
+          coverUrl: coverUrl,
+          language: 'de'
+        });
+        newCount++;
+        existingIds.add(video.id);
       }
     }
   }
 
-  if (newMoviesCount > 0) {
+  if (newCount > 0) {
     fs.writeFileSync(MOVIES_FILE, JSON.stringify(existingMovies, null, 2), 'utf8');
-    console.log(`Erfolg! ${newMoviesCount} neue Filme zur filme.json hinzugefügt.`);
+    console.log(`Fertig! ${newCount} neue Filme ins Archiv aufgenommen.`);
   } else {
-    console.log('Keine neuen Filme gefunden.');
+    console.log('Keine neuen passenden Filme gefunden.');
   }
 }
 
