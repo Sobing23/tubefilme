@@ -1,0 +1,41 @@
+name: Automatischer Film-Update-Scan
+
+on:
+  schedule:
+    # Läuft jede Nacht um 02:00 Uhr UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Ermöglicht es uns, das Skript jederzeit manuell zu starten
+
+permissions:
+  contents: write # Wichtig, damit das Skript neue Filme in die JSON schreiben darf
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Node.js einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-node-version: '20'
+
+      - name: Filme aktualisieren (Skript ausführen)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node update-movies.js
+
+      - name: Änderungen auf GitHub speichern (Commit & Push)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add filme.json img/*
+          if ! git diff --cached --quiet; then
+            git commit -m "Automatisches Update: Neue Filme hinzugefügt"
+            git push
+          else
+            echo "Keine Änderungen vorhanden."
+          fi
