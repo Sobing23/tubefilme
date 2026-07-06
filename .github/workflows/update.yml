@@ -21,18 +21,19 @@ jobs:
         with:
           node-version: '24'
 
-      - name: yt-dlp installieren und komplettes Archiv laden
+      - name: yt-dlp installieren und alle Kanäle scannen
         run: |
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
-          yt-dlp --dump-json --flat-playlist "https://www.youtube.com/channel/UCJ5v_MCY6GNUBTO8-D3XoAg" > youtube-daten.jsonl || true
+          # Liest channels.txt (-a) und ignoriert alles, was kürzer als 20 Minuten (1200s) ist
+          yt-dlp --dump-json --flat-playlist --match-filter "duration > 1200" -a channels.txt > youtube-daten.jsonl || true
 
       - name: Filme aktualisieren (Skript ausführen)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node update-movies.js
 
-      - name: Änderungen auf GitHub speichern (Commit & Push)
+      - name: Änderungen auf GitHub保存 (Commit & Push)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
