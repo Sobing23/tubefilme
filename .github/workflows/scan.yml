@@ -1,0 +1,32 @@
+name: YouTube Scan
+
+on:
+  workflow_dispatch: {}     # manueller Start über den "Run workflow"-Button
+  schedule:
+    - cron: "0 2 * * *"     # 02:00 UTC = 03:00 oder 04:00 MEZ/MESZ, je nach Jahreszeit
+
+permissions:
+  contents: write            # damit die Action Ergebnisse zurückcommitten darf
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: YouTube-Daten abrufen
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/fetch-youtube.js
+
+      - name: Ergebnisse committen
+        run: |
+          git config user.name "tubefilme-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Automatischer Scan: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
