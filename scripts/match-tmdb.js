@@ -11,6 +11,9 @@
 // Unsichere/fehlende Treffer landen in data/unmatched.json statt falsch
 // zugeordnet zu werden. data/manual-matches.json (videoId -> tmdbId) hat
 // immer Vorrang vor der automatischen Suche.
+//
+// INKREMENTELL: Videos, die schon in data/filme.json ODER data/unmatched.json
+// stehen, werden nicht erneut gegen TMDB gesucht.
 
 import fs from "fs/promises";
 
@@ -126,14 +129,45 @@ async function main() {
     // Datei existiert noch nicht -- kein Problem, einfach ohne manuelle Treffer weitermachen
   }
 
-  const matched = [];
-  const unmatched = [];
+  // Bereits verarbeitete Videos laden (egal ob erfolgreich zugeordnet oder nicht) --
+  // die werden NICHT erneut gegen TMDB gesucht. Das spart bei jedem Lauf fast alle Requests,
+  // sobald der Kanal einmal durchgescannt wurde.
+  let matched = [];
+  let unmatched = [];
+  try {
+    matched = JSON.parse(await fs.readFile(OUT_MATCHED, "utf-8"));
+  } catch {
+    // erster Lauf, noch keine Datei
+  }
+  try {
+    unmatched = JSON.parse(await fs.readFile(OUT_UNMATCHED, "utf-8"));
+  } catch {
+    // erster Lauf, noch keine Datei
+  }
+
+  const alreadyProcessed = new Set([
+    ...matched.map((m) => m.videoId),
+    ...unmatched.map((u) => u.videoId),
+  ]);
+
+  const newCandidates = candidates.filter((c) => !alreadyProcessed.has(c.videoId));
+
+  console.log(
+    `${candidates.length} Kandidaten insgesamt, ${alreadyProcessed.size} bereits verarbeitet, ` +
+      `${newCandidates.length} neu zu prüfen.`
+  );
+
+  if (newCandidates.length === 0) {
+    console.log("Nichts Neues zu tun.");
+    return;
+  }
+
   let processed = 0;
 
-  for (const video of candidates) {
+  for (const video of newCandidates) {
     processed++;
     if (processed % 200 === 0) {
-      console.log(`... ${processed} / ${candidates.length} verarbeitet`);
+      console.log(`... ${processed} / ${newCandidates.length} verarbeitet`);
     }
 
     // Manuelle Zuordnung hat immer Vorrang
@@ -177,7 +211,7 @@ async function main() {
   await fs.writeFile(OUT_MATCHED, JSON.stringify(matched, null, 2), "utf-8");
   await fs.writeFile(OUT_UNMATCHED, JSON.stringify(unmatched, null, 2), "utf-8");
 
-  console.log(`\nGesamt: ${candidates.length}`);
+  console.log(`\nGesamtstand nach diesem Lauf (${newCandidates.length} neu geprüft):`);
   console.log(`Zugeordnet:      ${matched.length}  -> ${OUT_MATCHED}`);
   console.log(`Nicht zugeordnet: ${unmatched.length}  -> ${OUT_UNMATCHED}`);
 
