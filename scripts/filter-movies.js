@@ -55,10 +55,14 @@ async function main() {
 
   const candidates = [];
   const excluded = [];
+  const seenVideoIds = new Set();
 
   for (const file of files) {
     const videos = JSON.parse(await fs.readFile(path.join(RAW_DIR, file), "utf-8"));
     for (const video of videos) {
+      if (seenVideoIds.has(video.videoId)) continue; // Sicherheitsnetz gegen Duplikate
+      seenVideoIds.add(video.videoId);
+
       const { include, reason } = classify(video);
       if (include) {
         candidates.push(video);
