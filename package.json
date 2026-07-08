@@ -8,6 +8,8 @@
   },
   "scripts": {
     "fetch": "node scripts/fetch-youtube.js",
+    "filter": "node scripts/filter-movies.js",
+    "match": "node scripts/match-tmdb.js",
     "resolve": "node scripts/resolve-channel.js"
   }
 }
