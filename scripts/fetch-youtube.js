@@ -46,6 +46,17 @@ async function loadJson(filePath, fallback) {
   }
 }
 
+// Dedupliziert nach videoId -- der erste Treffer gewinnt (also newVideos vor existing).
+// Das räumt nebenbei auch etwaige Altlasten auf, falls durch einen früheren
+// Lauf mal versehentlich Duplikate reingerutscht sind.
+function dedupeByVideoId(videos) {
+  const map = new Map();
+  for (const v of videos) {
+    if (!map.has(v.videoId)) map.set(v.videoId, v);
+  }
+  return [...map.values()];
+}
+
 // Playlist-Items abrufen, bis entweder die Liste zu Ende ist ODER
 // stopAtVideoId wiedergetroffen wird (dann NICHT mehr im Ergebnis enthalten).
 async function fetchNewPlaylistItems(playlistId, stopAtVideoId) {
@@ -133,11 +144,13 @@ async function processChannel(channel, state) {
 
   const outPath = path.join(RAW_DIR, `${channel.channelId}.json`);
   const existing = await loadJson(outPath, []);
-  const merged = [...newVideos, ...existing]; // neueste zuerst, wie die Playlist selbst
+  const merged = dedupeByVideoId([...newVideos, ...existing]); // neueste zuerst, ohne Duplikate
 
   await fs.mkdir(RAW_DIR, { recursive: true });
   await fs.writeFile(outPath, JSON.stringify(merged, null, 2), "utf-8");
-  console.log(`   ${newVideos.length} neue Videos, insgesamt ${merged.length} gespeichert`);
+  console.log(
+    `   ${newVideos.length} neue Videos verarbeitet, ${merged.length} insgesamt gespeichert (dedupliziert)`
+  );
 
   // Neuestes Video dieses Laufs wird der neue Referenzpunkt fürs nächste Mal
   state[channel.channelId] = {
