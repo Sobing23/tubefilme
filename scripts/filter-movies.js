@@ -18,7 +18,7 @@ const OUT_EXCLUDED = "data/excluded.json";
 // -- Stellschrauben --
 const MIN_DURATION_SECONDS = 15 * 60; // alles darunter fliegt raus (Shorts/Clips)
 const PROMO_KEYWORDS = /trailer|teaser|\bclip\b/i;
-const SERIES_KEYWORDS = /\bfolge\b|\bserie\b/i;
+const SERIES_KEYWORDS = /\bfolgen?\b|\bstaffel\b|miniserie|\bserie\b/i;
 
 function parseDuration(iso) {
   if (!iso) return 0;
