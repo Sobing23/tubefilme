@@ -1,9 +1,8 @@
 {
-  "_hinweis": "Hier trägst du die Kanäle ein, die gescannt werden sollen. Die 'channelId' MUSS mit UC beginnen (nicht die @handle-URL). Falls du nur die @handle-URL hast, nutze 'npm run resolve -- @handle-name' um die channelId zu bekommen.",
   "channels": [
     {
-      "name": "Beispiel-Kanal",
-      "channelId": "UCxxxxxxxxxxxxxxxxxxxxxx"
+      "name": "Netzkino",
+      "channelId": "UCGkHFrwE8KEuOHPVsIOskAg"
     }
   ]
 }
