@@ -26,6 +26,11 @@ jobs:
       - name: Shorts/Trailer/Serien rausfiltern
         run: node scripts/filter-movies.js
 
+      - name: TMDB-Metadaten zuordnen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/match-tmdb.js
+
       - name: Ergebnisse committen
         run: |
           git config user.name "tubefilme-bot"
