@@ -48589,5 +48589,29 @@
     ],
     "matchSource": "titel-fallback",
     "matchConfidence": "niedrig"
+  },
+  {
+    "videoId": "bKfRTD1xkvA",
+    "youtubeTitle": "Ihre beste Stunde - Drehbuch einer Heldin (Britische KOMÖDIE mit BILL NIGHY | ganzer Film Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bKfRTD1xkvA/hqdefault.jpg",
+    "duration": "PT1H57M25S",
+    "publishedAt": "2026-07-08T17:00:18Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 340101,
+    "title": "Ihre beste Stunde",
+    "originalTitle": "Their Finest",
+    "overview": "London im Zweiten Weltkrieg: Catrin Cole wird vom British Ministry of Information damit beauftragt, das Drehbuch zu einem Propagandafilm zu überarbeiten und dem Skript eine weibliche Note zu verpassen. Schnell erweckt Catrin mit ihrer lebhaften Art die Aufmerksamkeit des schneidigen Filmemachers Tom Buckley dem sie unter normalen Umständen wohl nie über den Weg gelaufen wäre. Während der Krieg um sie herum tobt, arbeiten Catrin, Buckley und ihre bunt zusammengewürfelte Filmcrew fieberhaft daran, einen Film zu drehen, der das Herz der ganzen Nation erwärmt und dafür sorgt, dass die Menschen wieder Mut schöpfen. Während Catrins Freund, der Künstler Ellis ihre neu gefundene Arbeit naserümpfend betrachtet, ist sie bald Feuer und Flamme für den Job, der hinter der Kamera aber nicht nur viel Spaß, sondern auch großes Drama zu bieten hat – ganz wie die Geschichten, die sie für die Leinwand schreibt.",
+    "releaseDate": "2017-02-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rzjIJxNUfcN90xi90ooCY5oRkDn.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vZbAwP1LthxHzRnodvVwXKwUk4n.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      10749,
+      10752,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch"
   }
 ]
