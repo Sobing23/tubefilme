@@ -10,6 +10,7 @@
     "fetch": "node scripts/fetch-youtube.js",
     "filter": "node scripts/filter-movies.js",
     "match": "node scripts/match-tmdb.js",
+    "cache-images": "node scripts/cache-images.js",
     "resolve": "node scripts/resolve-channel.js"
   }
 }
