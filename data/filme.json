@@ -51645,5 +51645,54 @@
     "matchSource": "titel-fallback",
     "matchConfidence": "niedrig",
     "posterLocal": "img/posters/14370.jpg"
+  },
+  {
+    "videoId": "HT2gNOmtc4M",
+    "youtubeTitle": "Mean Queen (HIGHSCHOOL THRILLER ganzer Film Deutsch, Thriller Filme Deutsch komplett, Filme 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/HT2gNOmtc4M/hqdefault.jpg",
+    "duration": "PT1H26M51S",
+    "publishedAt": "2026-07-09T17:00:22Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 559302,
+    "title": "Mean Queen",
+    "originalTitle": "Psycho Prom Queen",
+    "overview": "Gefährliche Bekanntschaft: Die Tochter einer Aushilfslehrerin freundet sich in dem Thrillerdrama mit einer biestigen Highschool-Göre an. Die ist zu allem bereit, um Abschlussballkönigin zu werden",
+    "releaseDate": "2018-11-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qIrnmT5kcqeT2MELbouTNpIc4Nb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vCmQHXfkMp0bKEJ05TBArqoE451.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/559302.jpg"
+  },
+  {
+    "videoId": "cAFJNS-9ww0",
+    "youtubeTitle": "Sein Mädchen für besondere Fälle (1940) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cAFJNS-9ww0/hqdefault.jpg",
+    "duration": "PT1H32M16S",
+    "publishedAt": "2026-07-09T14:00:23Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 3085,
+    "title": "Sein Mädchen für besondere Fälle",
+    "originalTitle": "His Girl Friday",
+    "overview": "Als Chefredakteur Walter Burns erfährt, dass seine beste Autorin und Ex-Frau Hildy Johnson, ihren Job hinschmeißen will, um mit dem Versicherungsvertreter Bruce Baldwin glücklich zu werden, setzt er alle Hebel in Bewegung um den Verlust abzuwenden. Um sie bei der Stange zu halten bietet er ihr schließlich eine Story über den Mörder Earl Williams und den unbeholfenen Sheriff Hartwell an.",
+    "releaseDate": "1940-01-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xFAHBFDmagEkxqUsBt5DsnvqDHD.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ihoQaiMFAz4YCTAaSIsQjRknsNH.jpg",
+    "voteAverage": 7.4,
+    "genreIds": [
+      35,
+      10749,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "posterLocal": "img/posters/3085.jpg"
   }
 ]
