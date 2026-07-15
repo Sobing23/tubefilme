@@ -51965,5 +51965,30 @@
     "matchSource": "titel-fallback",
     "matchConfidence": "niedrig",
     "posterLocal": "img/posters/11694.jpg"
+  },
+  {
+    "videoId": "Q7eVcWELo-g",
+    "youtubeTitle": "Corner Office (BÜRO SATIRE ganzer Film Deutsch, Komödien Filme Deutsch komplett neu, Filme 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Q7eVcWELo-g/hqdefault.jpg",
+    "duration": "PT1H41M42S",
+    "publishedAt": "2026-07-14T17:00:27Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 800279,
+    "title": "Corner Office",
+    "originalTitle": "Corner Office",
+    "overview": "Orson ist ein neuer Mitarbeiter in der Verwaltung eines Unternehmens. Die oberflächliche Arbeitsweise seiner Kollegen ekelt ihn an. Er hält sich strikt an die Regel: 55 Minuten hart arbeiten und 5 Minuten Pause pro Stunde – jeden Tag. Bis Orson ein elegant eingerichtetes, leeres Büro in der Ecke gegenüber dem Aufzug findet. Wann immer er Zeit hat, zieht er sich dorthin zurück, um innere Ruhe zu finden und seine Arbeit bestmöglich zu erledigen. Deshalb wird er von seinen Vorgesetzten sehr geschätzt, was den Unmut seiner Kollegen erregt. Doch kein Kollege kann das magische Büro sehen, das Orson als sicheren Hafen betrachtet.",
+    "releaseDate": "2023-08-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2JOPMnpaaTBvhy0HCby9uSBkt11.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5SBgIj4PejTBe3gGMb2zTTCMkXB.jpg",
+    "voteAverage": 6.503,
+    "genreIds": [
+      35,
+      9648,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/800279.jpg"
   }
 ]
