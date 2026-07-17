@@ -52014,5 +52014,28 @@
     "matchSource": "originaltitel+jahr",
     "matchConfidence": "hoch",
     "posterLocal": "img/posters/127894.jpg"
+  },
+  {
+    "videoId": "7d3_E_UJCd4",
+    "youtubeTitle": "Neid - Envy (2004) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7d3_E_UJCd4/hqdefault.jpg",
+    "duration": "PT1H39M22S",
+    "publishedAt": "2026-07-16T14:00:16Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 10710,
+    "title": "Neid",
+    "originalTitle": "Envy",
+    "overview": "Tim und Nick sind Nachbarn, Arbeitskollegen und gute Freunde. Nick erfindet ein Spray, das Hundekot verschwinden lässt und wird dadurch stinkreich. Tim wird neidisch auf seinen Kumpel, der mit seinem Luxus rumprotzt. Bestärkt wird sein Neid durch den dubiosen J-Mann, der ihn zu einer verhängnisvollen Tat überredet.",
+    "releaseDate": "2004-04-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dVeY84MSx3z5ofqg8chbM2i3H8d.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rgImWBvvXCGTl4mNJ3L5960svfV.jpg",
+    "voteAverage": 4.883,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "posterLocal": "img/posters/10710.jpg"
   }
 ]
