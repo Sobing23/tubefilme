@@ -52037,5 +52037,53 @@
     "matchSource": "titel-fallback",
     "matchConfidence": "niedrig",
     "posterLocal": "img/posters/10710.jpg"
+  },
+  {
+    "videoId": "06cDkRnoa8I",
+    "youtubeTitle": "Tagebuch einer Nymphomanin (LIEBESDRAMA ganzer Film Deutsch, Filme Deutsch komplett neu 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/06cDkRnoa8I/hqdefault.jpg",
+    "duration": "PT1H24M24S",
+    "publishedAt": "2026-07-17T17:00:30Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 19173,
+    "title": "Tagebuch einer Nymphomanin",
+    "originalTitle": "Diario de una ninfómana",
+    "overview": "Valerie, eine junge Französin in Barcelona, erhält von ihrer einzigen Vertrauten, der Oma, den Ratschlag, die wichtigen Dinge in ihrem Leben einem Tagebuch anzuvertrauen. Valerie erinnert sich an ihre erste Beziehung, und wie sie den Sex schätzen und lieben lernte. An Jaime, ihre große Liebe, der sie mit Luxus überschüttete, und dem sie doch nicht treu bleiben konnte, weil er im Bett versagte. Und an Madame Christina, in deren edlem Escort-Service Valerie ihr Hobby zum Beruf machte.",
+    "releaseDate": "2008-10-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hEEhNYrgReaWFWCpqvFMBZm9DFJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/s7MXg9Srra1aptzaTkvtnHVYSF8.jpg",
+    "voteAverage": 5.653,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/19173.jpg"
+  },
+  {
+    "videoId": "6KK_10QHflY",
+    "youtubeTitle": "Das Geld liegt auf der Straße: Fun with Dick and Jane (1977) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6KK_10QHflY/hqdefault.jpg",
+    "duration": "PT1H35M57S",
+    "publishedAt": "2026-07-17T14:00:11Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 24109,
+    "title": "Das Geld liegt auf der Straße",
+    "originalTitle": "Fun with Dick and Jane",
+    "overview": "Als Manager Dick entlassen wird, stellt sich heraus, dass es gar nicht so einfach ist, mit dem Arbeitslosengeld den gewohnten Lebensstandard zu halten - zumal sich er und seine Frau Jane für ihr Haus überschuldet haben. Da ein neuer Job nicht in Sichtweite ist, kommen Dick und Jane per Zufall auf die Idee, sich das nötige Kleingeld auf verbrecherische Weise zu beschaffen. Nach anfänglichen Stümpereien wird klar, dass die beiden dafür ausgesprochenes Talent besitzen.",
+    "releaseDate": "1977-03-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/reqNWbJhAZQkrKMIHV2GzJtWzcz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1bW98zLNHjlcAy8jBC4SmuRSwh2.jpg",
+    "voteAverage": 6.608,
+    "genreIds": [
+      35,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "posterLocal": "img/posters/24109.jpg"
   }
 ]
