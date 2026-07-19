@@ -52085,5 +52085,56 @@
     "matchSource": "titel-fallback",
     "matchConfidence": "niedrig",
     "posterLocal": "img/posters/24109.jpg"
+  },
+  {
+    "videoId": "P5m-tcKOrxg",
+    "youtubeTitle": "Secret Agency (ACTION KOMÖDIE mit STARBESETZUNG, ganzer Film Deutsch, Action Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/P5m-tcKOrxg/hqdefault.jpg",
+    "duration": "PT1H37M47S",
+    "publishedAt": "2026-07-18T17:00:14Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 248574,
+    "title": "Secret Agency: Barely Lethal",
+    "originalTitle": "Barely Lethal",
+    "overview": "Die sechzehnjährige Auftragskillerin Nr. 83  ist in der Lage blind Waffen zusammenzubauen und diese auch zielsicher zu benutzen, sie kann so gut wie ein Rennfahrer fahren und so zuschlagen wie Jackie Chan. Eigentlich wünscht sie sich jedoch nichts sehnlicher als eine normale Jugend zu haben - eine richtige Schule zu besuchen, Freunde zu finden und einmal auf eine Party zu gehen. Während eines Einsatzes beschließt sie daher ihren eigenen Tod vorzutäuschen und sich anschließend an einer Schule anzumelden. Als Austauschschülerin Megan Walsh muss sie jedoch bald feststellen, dass das Schulleben nicht so spaßig und einfach ist, wie sie es sich zunächst vorgestellt hatte. Ihre Lage verkompliziert sich zusätzlich, als ihr die skrupellose Terroristin Victoria Knox  auf die Schliche kommt.",
+    "releaseDate": "2015-04-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ompsDlD3bchOdkhBSgJD1Y6r0bx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uP1guP2SGUTZleJkvfKynWpSCS.jpg",
+    "voteAverage": 5.709,
+    "genreIds": [
+      28,
+      35,
+      12,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/248574.jpg"
+  },
+  {
+    "videoId": "B-eO5BG6Nvc",
+    "youtubeTitle": "Vilja und die Räuber (FAMILIENABENTEUER ganzer Film Deutsch, Abenteuer Filme Deutsch komplett 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/B-eO5BG6Nvc/hqdefault.jpg",
+    "duration": "PT1H21M40S",
+    "publishedAt": "2026-07-18T13:00:13Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 361980,
+    "title": "Vilja und die Räuber",
+    "originalTitle": "Me Rosvolat",
+    "overview": "Eigentlich hat die kleine Vilja ja nichts gegen große Ferien, doch mit ihren spießigen Eltern und der nervigen Schwester zur Großmutter zu reisen, entspricht so gar nicht ihrer Vorstellung von Vergnügen. Da trifft es sich gut, als der Wagen im Wald von einer im Familienverbund operierenden Räuberbande gestoppt und ausgeplündert wird. Unter der Beute befindet sich zufällig auch Vilja, und nach einer anfänglichen Phase des Zögerns gefällt es dieser, sich den bei näherer Betrachtung ganz freundlichen Räubern anzuschließen...",
+    "releaseDate": "2015-03-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qtmC1qwWaShktTBWH9wpNa6L0RV.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1TzCn82kkHpUfj5uESxIyyRQf0V.jpg",
+    "voteAverage": 4.7,
+    "genreIds": [
+      12,
+      10751,
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/361980.jpg"
   }
 ]
