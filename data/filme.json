@@ -52136,5 +52136,53 @@
     "matchSource": "originaltitel+jahr",
     "matchConfidence": "hoch",
     "posterLocal": "img/posters/361980.jpg"
+  },
+  {
+    "videoId": "m43kFADpR1k",
+    "youtubeTitle": "Transsiberian (THRILLER mit WOODY HARRELSON Filme Deutsch komplett, ganzer Film Deutsch Thriller)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/m43kFADpR1k/hqdefault.jpg",
+    "duration": "PT1H46M29S",
+    "publishedAt": "2026-07-19T15:00:28Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 6687,
+    "title": "Transsiberian - Reise in den Tod",
+    "originalTitle": "TransSiberian",
+    "overview": "In China macht sich das leicht gegensätzliche Ehepaar Roy und Jessie auf die Heimreise - allerdings wählen sie den langen Weg und wollen die Strecke Peking-Moskau mittels der transsibirischen Eisenbahn bewältigen. Im Zug müssen sie bald das Abteil mit einem anderen Pärchen teilen: der jungen Abby und dem Spanier Carlos. Carlos flirtet dann auch schon bald recht offensiv Jessie an, die aber aufgrund ihrer recht unsteten Jugend ganz gern mit dem biederen Roy verheiratet ist. Was sie nicht wissen ist, daß Carlos und Abby heiße Ware schmuggeln und das US-Pärchen in ihren Plan miteinbeziehen wollen. Bei einem Zwischenstopp ist Roy plötzlich verschwunden - während Jessie an der nächsten Station wartet, schließen sich Carlos und Abby ihr an. Doch ein Ausflug zu einer fotogenen Kirche in der Umgebung nimmt eine grauenhafte Wendung und schon bald ist Jessie ein nervliches Wrack - zumal der russische Polizist Grinko zusteigt und ausgerechnet in ihrem Abteil landet...",
+    "releaseDate": "2008-01-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/A4N4PI9NUq2enUVsTjhpzA5yfWI.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dpSrTZIWeI3u025LSUOjV9FHFvf.jpg",
+    "voteAverage": 6.383,
+    "genreIds": [
+      53,
+      80,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/6687.jpg"
+  },
+  {
+    "videoId": "z0f0mX225mk",
+    "youtubeTitle": "Romys Salon (Einfühlsamer Film über Alzheimer, ganzer Film Deutsch, Filme Deutsch komplett neu 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/z0f0mX225mk/hqdefault.jpg",
+    "duration": "PT1H30M12S",
+    "publishedAt": "2026-07-19T13:00:01Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 622139,
+    "title": "Romys Salon",
+    "originalTitle": "Kapsalon Romy",
+    "overview": "Seit ihre Mutter so viel arbeitet, geht Romy (Vita Heijmen) nach der Schule zu ihrer Oma. Sie hilft ihr dann meist im Frisiersalon. Doch in letzter Zeit ist Oma Stine Rasmussen (Beppie Melissen) anders, sie vergisst vieles, spricht plötzlich Dänisch und erzählt immer wieder von ihrer Kindheit in Dänemark und vom Meer. Romy unterstützt ihre Oma, wo sie kann, damit keiner etwas merkt - bis zu dem Tag, an dem ihre Oma im Nachthemd im Salon steht. Oma Stine kommt in ein Pflegeheim. Ob es ihr dort wirklich gut geht? Bestimmt würde sie sich riesig freuen, wenn Romy noch einmal mit ihr an den Strand ihrer Kindheit fahren würde...",
+    "releaseDate": "2020-01-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jdNCYVN9UIoR3q6qoOYgvPdLbR3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ahw6wX1e0VgxR1GKMdeIORhCTtS.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/622139.jpg"
   }
 ]
