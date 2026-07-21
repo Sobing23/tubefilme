@@ -42,11 +42,28 @@ function sleep(ms) {
 }
 
 // -- Titel/Jahr aus der YouTube-Beschreibung extrahieren --
+
+// Entfernt ein versehentlich mitgefangenes "(JAHR)" am Ende des Suchtexts --
+// passiert, wenn Netzkino Originaltitel und Jahr in einer Zeile schreibt.
+// "A Boy Called Sailboat (2018)" als TMDB-Suchtext ist etwas anderes als
+// "A Boy Called Sailboat" mit Jahr als separatem Filter.
+function stripTrailingYear(text) {
+  return text.replace(/\s*\(\d{4}\)\s*$/, "").trim();
+}
+
 function extractSearchInfo(video) {
   const desc = video.description || "";
+  const fallbackQuery = video.title.split("(")[0].trim();
 
   let m = desc.match(/\(\s*(\d{4})\s*\)\s*[\r\n]+Originaltitel:\s*(.+?)\s*[\r\n]/);
-  if (m) return { year: m[1], query: m[2].trim(), source: "originaltitel+jahr" };
+  if (m) {
+    return {
+      year: m[1],
+      query: stripTrailingYear(m[2].trim()),
+      fallbackQuery,
+      source: "originaltitel+jahr",
+    };
+  }
 
   m = desc.match(/Originaltitel:\s*(.+?)\s*[\r\n]/);
   if (m) {
@@ -54,13 +71,13 @@ function extractSearchInfo(video) {
     const yearMatch = desc.slice(0, contextEnd).match(/\((\d{4})\)/);
     return {
       year: yearMatch ? yearMatch[1] : null,
-      query: m[1].trim(),
+      query: stripTrailingYear(m[1].trim()),
+      fallbackQuery,
       source: "originaltitel-ohne-jahr",
     };
   }
 
-  const cleaned = video.title.split("(")[0].trim();
-  return { year: null, query: cleaned, source: "titel-fallback" };
+  return { year: null, query: fallbackQuery, fallbackQuery, source: "titel-fallback" };
 }
 
 async function tmdbSearch(query, year) {
@@ -96,33 +113,63 @@ async function findBestMatch(video) {
     yearWasApplied = false;
   }
 
+  // Immer noch nichts -> zweite, unabhängige Suchvariante über den
+  // bereinigten YouTube-Titel probieren (fängt Fälle, in denen der
+  // "Originaltitel" aus der Beschreibung selbst fehlerhaft/untypisch ist)
+  let usedFallbackQuery = false;
+  if (
+    results.length === 0 &&
+    info.fallbackQuery &&
+    info.fallbackQuery.toLowerCase() !== info.query.toLowerCase()
+  ) {
+    await sleep(DELAY_MS);
+    results = await tmdbSearch(info.fallbackQuery, info.year);
+    if (results.length === 0 && info.year) {
+      await sleep(DELAY_MS);
+      results = await tmdbSearch(info.fallbackQuery, null);
+    }
+    if (results.length > 0) {
+      usedFallbackQuery = true;
+      yearWasApplied = false;
+    }
+  }
+
   if (results.length === 0) {
     return { match: null, info, reason: "kein TMDB-Treffer" };
   }
 
-  // Wenn wir ein Jahr erwartet haben, das Ergebnis dagegen prüfen
   const top = results[0];
+
+  // Jahr-Abgleich: nur relevant, wenn wir ein erwartetes Jahr haben UND es
+  // nicht schon als exakter API-Filter gegriffen hat
+  let yearNote = null;
   if (info.year && !yearWasApplied) {
     const resultYear = (top.release_date || "").slice(0, 4);
-    const diff = Math.abs(parseInt(resultYear || "0", 10) - parseInt(info.year, 10));
-    if (!resultYear || diff > 1) {
+    const diff = resultYear ? Math.abs(parseInt(resultYear, 10) - parseInt(info.year, 10)) : null;
+
+    if (diff === null || diff > 3) {
       return {
         match: null,
         info,
-        reason: `Jahr weicht ab (erwartet ${info.year}, TMDB-Top-Treffer ${resultYear || "?"})`,
+        reason: `Jahr weicht stark ab (erwartet ${info.year}, TMDB-Top-Treffer ${resultYear || "?"})`,
         topCandidate: { id: top.id, title: top.title, release_date: top.release_date },
       };
     }
+    if (diff > 1) {
+      yearNote = `Jahr weicht ab: erwartet ${info.year}, TMDB ${resultYear}`;
+    }
   }
 
-  const confidence =
+  let confidence =
     info.source === "originaltitel+jahr"
       ? "hoch"
       : info.source === "originaltitel-ohne-jahr"
       ? "mittel"
       : "niedrig";
 
-  return { match: top, info, confidence };
+  if (usedFallbackQuery || yearNote) confidence = "niedrig";
+
+  return { match: top, info, confidence, yearNote };
 }
 
 async function main() {
@@ -203,9 +250,9 @@ async function main() {
     }
 
     try {
-      const { match, info, reason, topCandidate, confidence } = await findBestMatch(video);
+      const { match, info, reason, topCandidate, confidence, yearNote } = await findBestMatch(video);
       if (match) {
-        addResult(video, match, info.source, confidence);
+        addResult(video, match, info.source, confidence, yearNote);
       } else {
         unmatched.push({
           videoId: video.videoId,
@@ -229,7 +276,7 @@ async function main() {
 
   // Entscheidet, ob ein gefundener Treffer neu in die Bibliothek kommt
   // oder als kanalübergreifendes Duplikat markiert wird.
-  function addResult(video, tmdbMovie, matchSource, matchConfidence) {
+  function addResult(video, tmdbMovie, matchSource, matchConfidence, hinweis) {
     const existingChannel = tmdbIdToChannel.get(tmdbMovie.id);
     if (existingChannel) {
       duplicates.push({
@@ -242,7 +289,7 @@ async function main() {
       });
       return;
     }
-    matched.push(buildEntry(video, tmdbMovie, matchSource, matchConfidence));
+    matched.push(buildEntry(video, tmdbMovie, matchSource, matchConfidence, hinweis));
     tmdbIdToChannel.set(tmdbMovie.id, video.channelName);
   }
 
@@ -262,7 +309,7 @@ async function main() {
   console.log("Konfidenz-Verteilung:", confidenceCounts);
 }
 
-function buildEntry(video, tmdbMovie, matchSource, matchConfidence) {
+function buildEntry(video, tmdbMovie, matchSource, matchConfidence, hinweis) {
   return {
     videoId: video.videoId,
     youtubeTitle: video.title,
@@ -286,6 +333,7 @@ function buildEntry(video, tmdbMovie, matchSource, matchConfidence) {
     genreIds: tmdbMovie.genre_ids || [],
     matchSource,
     matchConfidence,
+    ...(hinweis ? { hinweis } : {}),
   };
 }
 
