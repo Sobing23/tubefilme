@@ -12,8 +12,13 @@
 // zugeordnet zu werden. data/manual-matches.json (videoId -> tmdbId) hat
 // immer Vorrang vor der automatischen Suche.
 //
-// INKREMENTELL: Videos, die schon in data/filme.json ODER data/unmatched.json
-// stehen, werden nicht erneut gegen TMDB gesucht.
+// KANALÜBERGREIFENDES DEDUP: Lädt derselbe Film (gleiche tmdbId) über zwei
+// verschiedene Kanäle in die Bibliothek, bleibt nur der zuerst gefundene
+// Eintrag in data/filme.json ("erster Kanal gewinnt"). Der zweite Fund
+// landet in data/duplicates.json, damit nichts kommentarlos verschwindet.
+//
+// INKREMENTELL: Videos, die schon in data/filme.json, data/unmatched.json
+// ODER data/duplicates.json stehen, werden nicht erneut gegen TMDB gesucht.
 
 import fs from "fs/promises";
 
@@ -22,6 +27,7 @@ const CANDIDATES_PATH = "data/candidates.json";
 const MANUAL_MATCHES_PATH = "data/manual-matches.json";
 const OUT_MATCHED = "data/filme.json";
 const OUT_UNMATCHED = "data/unmatched.json";
+const OUT_DUPLICATES = "data/duplicates.json";
 
 const TMDB_BASE = "https://api.themoviedb.org/3";
 const DELAY_MS = 120; // kleine Pause zwischen Requests, um TMDB nicht zu stressen
@@ -129,11 +135,13 @@ async function main() {
     // Datei existiert noch nicht -- kein Problem, einfach ohne manuelle Treffer weitermachen
   }
 
-  // Bereits verarbeitete Videos laden (egal ob erfolgreich zugeordnet oder nicht) --
-  // die werden NICHT erneut gegen TMDB gesucht. Das spart bei jedem Lauf fast alle Requests,
-  // sobald der Kanal einmal durchgescannt wurde.
+  // Bereits verarbeitete Videos laden (egal ob erfolgreich zugeordnet, nicht
+  // zugeordnet, oder als Duplikat erkannt) -- die werden NICHT erneut gegen
+  // TMDB gesucht. Das spart bei jedem Lauf fast alle Requests, sobald der
+  // Kanal einmal durchgescannt wurde.
   let matched = [];
   let unmatched = [];
+  let duplicates = [];
   try {
     matched = JSON.parse(await fs.readFile(OUT_MATCHED, "utf-8"));
   } catch {
@@ -144,11 +152,22 @@ async function main() {
   } catch {
     // erster Lauf, noch keine Datei
   }
+  try {
+    duplicates = JSON.parse(await fs.readFile(OUT_DUPLICATES, "utf-8"));
+  } catch {
+    // erster Lauf, noch keine Datei
+  }
 
   const alreadyProcessed = new Set([
     ...matched.map((m) => m.videoId),
     ...unmatched.map((u) => u.videoId),
+    ...duplicates.map((d) => d.videoId),
   ]);
+
+  // Welche Filme (per tmdbId) sind schon in der Bibliothek? "Erster Kanal
+  // gewinnt" -- kommt derselbe Film von einem zweiten Kanal, wird er nicht
+  // nochmal aufgenommen, sondern in duplicates.json vermerkt.
+  const tmdbIdToChannel = new Map(matched.map((m) => [m.tmdbId, m.channelName]));
 
   const newCandidates = candidates.filter((c) => !alreadyProcessed.has(c.videoId));
 
@@ -178,7 +197,7 @@ async function main() {
       });
       if (res.ok) {
         const movie = await res.json();
-        matched.push(buildEntry(video, movie, "manuell", "hoch"));
+        addResult(video, movie, "manuell", "hoch");
         continue;
       }
     }
@@ -186,7 +205,7 @@ async function main() {
     try {
       const { match, info, reason, topCandidate, confidence } = await findBestMatch(video);
       if (match) {
-        matched.push(buildEntry(video, match, info.source, confidence));
+        addResult(video, match, info.source, confidence);
       } else {
         unmatched.push({
           videoId: video.videoId,
@@ -208,12 +227,33 @@ async function main() {
     await sleep(DELAY_MS);
   }
 
+  // Entscheidet, ob ein gefundener Treffer neu in die Bibliothek kommt
+  // oder als kanalübergreifendes Duplikat markiert wird.
+  function addResult(video, tmdbMovie, matchSource, matchConfidence) {
+    const existingChannel = tmdbIdToChannel.get(tmdbMovie.id);
+    if (existingChannel) {
+      duplicates.push({
+        videoId: video.videoId,
+        youtubeTitle: video.title,
+        channelName: video.channelName,
+        tmdbId: tmdbMovie.id,
+        title: tmdbMovie.title,
+        bereitsVorhandenAufKanal: existingChannel,
+      });
+      return;
+    }
+    matched.push(buildEntry(video, tmdbMovie, matchSource, matchConfidence));
+    tmdbIdToChannel.set(tmdbMovie.id, video.channelName);
+  }
+
   await fs.writeFile(OUT_MATCHED, JSON.stringify(matched, null, 2), "utf-8");
   await fs.writeFile(OUT_UNMATCHED, JSON.stringify(unmatched, null, 2), "utf-8");
+  await fs.writeFile(OUT_DUPLICATES, JSON.stringify(duplicates, null, 2), "utf-8");
 
   console.log(`\nGesamtstand nach diesem Lauf (${newCandidates.length} neu geprüft):`);
   console.log(`Zugeordnet:      ${matched.length}  -> ${OUT_MATCHED}`);
   console.log(`Nicht zugeordnet: ${unmatched.length}  -> ${OUT_UNMATCHED}`);
+  console.log(`Duplikate (Kanal-übergreifend): ${duplicates.length}  -> ${OUT_DUPLICATES}`);
 
   const confidenceCounts = {};
   for (const m of matched) {
