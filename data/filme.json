@@ -52210,5 +52210,29 @@
     "matchSource": "originaltitel+jahr",
     "matchConfidence": "hoch",
     "posterLocal": "img/posters/1019637.jpg"
+  },
+  {
+    "videoId": "SHYj2f3WZjI",
+    "youtubeTitle": "Salz auf unserer Haut (LIEBESDRAMA mit VINCENT D'ONOFRIO Filme Deutsch komplett, Liebesfilme 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SHYj2f3WZjI/hqdefault.jpg",
+    "duration": "PT1H44M17S",
+    "publishedAt": "2026-07-21T17:00:21Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 117202,
+    "title": "Salz auf unserer Haut",
+    "originalTitle": "Salt on Our Skin",
+    "overview": "George die junge und hübsche Tochter einer Französin und eines Schotten aus besseren Verhältnissen, verbringt jede Sommerferien in einem kleinen schottischen Dorf und verliebt sich eines Tages in den Bauernsohn Gavin. Trotz vieler Gegensätze, wird diese Liebe die beiden ein Leben lang nicht mehr loslassen, obwohl George später In Paris lebt und arbeitet und Gavin ein einfacher Fischer und verheirateter Familienvater in Schottland ist...",
+    "releaseDate": "1992-09-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/VucDHQHvv00ZZfR8bNyP2ZhLN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/waSil3v5wY9NIbJRwkCrK0Y3Bq3.jpg",
+    "voteAverage": 4.946,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/117202.jpg"
   }
 ]
