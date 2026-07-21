@@ -52184,5 +52184,31 @@
     "matchSource": "originaltitel+jahr",
     "matchConfidence": "hoch",
     "posterLocal": "img/posters/622139.jpg"
+  },
+  {
+    "videoId": "n8DmASe8HyM",
+    "youtubeTitle": "Streets of Fear (ACTION THRILLER ganzer Film Deutsch, Action Filme Deutsch komplett in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/n8DmASe8HyM/hqdefault.jpg",
+    "duration": "PT1H42M57S",
+    "publishedAt": "2026-07-20T17:00:08Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 1019637,
+    "title": "Streets of Fear",
+    "originalTitle": "Sans peur",
+    "overview": "Elon, der an einer bipolaren Störung leidet, möchte sich vor seinem Vater - dem Kopf der Mafia in Südfrankreich - beweisen und beteiligt sich deshalb trotz seiner Ängste an kriminellen Machenschaften. Doch jede Tat hat Konsequenzen und einen hohen Preis.",
+    "releaseDate": "2022-11-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yzg6bNS8XUXDZARayPyaiMZOGy6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/u1OJoWvkeJtU8tveopdszZy88Sa.jpg",
+    "voteAverage": 5.536,
+    "genreIds": [
+      80,
+      28,
+      53,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "posterLocal": "img/posters/1019637.jpg"
   }
 ]
