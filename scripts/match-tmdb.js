@@ -53,7 +53,7 @@ function stripTrailingYear(text) {
 
 function extractSearchInfo(video) {
   const desc = video.description || "";
-  const fallbackQuery = video.title.split("(")[0].trim();
+  const fallbackQuery = primaryTitleSegment(video.title);
 
   let m = desc.match(/\(\s*(\d{4})\s*\)\s*[\r\n]+Originaltitel:\s*(.+?)\s*[\r\n]/);
   if (m) {
@@ -80,6 +80,17 @@ function extractSearchInfo(video) {
   return { year: null, query: fallbackQuery, fallbackQuery, source: "titel-fallback" };
 }
 
+// Schneidet den Video-Titel am ersten "(" ODER "|" ab, je nachdem was zuerst
+// kommt -- fängt sowohl Netzkinos "Titel (GENRE ganzer Film...)" als auch
+// Comfy Movies' "Titel | Ganzer Film auf Deutsch" Format ab.
+function primaryTitleSegment(title) {
+  const candidates = ["(", "|"]
+    .map((ch) => title.indexOf(ch))
+    .filter((i) => i !== -1);
+  if (candidates.length === 0) return title.trim();
+  return title.slice(0, Math.min(...candidates)).trim();
+}
+
 // -- Zusätzliche Such-Varianten für hartnäckige Fälle --
 
 // "JET LI - Once Upon a Time in China & America" -> "Once Upon a Time in China & America"
@@ -102,10 +113,38 @@ function splitSlashVariants(text) {
     .filter(Boolean);
 }
 
+// Generische Füllwörter, die bei Comfy Movies nach einem "|" stehen können
+// und selbst kein Suchbegriff sind (z.B. "Ganzer Film auf Deutsch").
+const GENERIC_SEGMENT = /ganzer film|ganze filme|in voller l[äa]nge|kostenlos anschauen|^komplett/i;
+
+// "Eisfieber: Eine Liebe im Schnee | Ice Castles (1978) | Ganzer Film..."
+// -> ["Eisfieber: Eine Liebe im Schnee", "Ice Castles"]
+// Comfy Movies schreibt bei manchen (oft älteren/US-)Filmen den echten
+// englischen Originaltitel direkt hinter einem "|" -- der ist bei TMDB
+// meist viel eher zu finden als der deutsche Verleihtitel davor.
+function splitPipeVariants(rawTitle) {
+  if (!rawTitle.includes("|")) return [];
+  return rawTitle
+    .split("|")
+    .map((s) => stripTrailingYear(s.trim()))
+    .filter((s) => s && !GENERIC_SEGMENT.test(s));
+}
+
+// "Shampoo: Das totale Liebeschaos!" -> "Shampoo"
+// Niedrigste Priorität, weil ein Doppelpunkt auch mal echter Titelbestandteil
+// sein kann -- wird deshalb erst probiert, wenn alles andere fehlschlägt.
+function stripColonSubtitle(text) {
+  if (!text) return null;
+  const idx = text.indexOf(":");
+  if (idx < 2) return null;
+  const before = text.slice(0, idx).trim();
+  return before.length >= 2 ? before : null;
+}
+
 // Baut eine deduplizierte, priorisierte Liste an Suchbegriffen aus allen
 // bekannten Varianten (Originaltitel, bereinigter YouTube-Titel, und deren
 // Ableitungen).
-function buildQueryCandidates(info) {
+function buildQueryCandidates(info, video) {
   const candidates = [];
   const seen = new Set();
   const add = (q) => {
@@ -125,6 +164,12 @@ function buildQueryCandidates(info) {
     add(stripActorPrefix(info.fallbackQuery));
     splitSlashVariants(info.fallbackQuery).forEach(add);
   }
+
+  splitPipeVariants(video.title).forEach(add);
+
+  // Zuletzt: Doppelpunkt-Untertitel abtrennen, niedrigste Priorität
+  add(stripColonSubtitle(info.fallbackQuery));
+  add(stripColonSubtitle(info.query));
 
   return candidates;
 }
@@ -162,7 +207,7 @@ async function tmdbSearch(query, year) {
 
 async function findBestMatch(video) {
   const info = extractSearchInfo(video);
-  const queryCandidates = buildQueryCandidates(info);
+  const queryCandidates = buildQueryCandidates(info, video);
 
   let results = [];
   let usedQuery = null;
