@@ -80,6 +80,66 @@ function extractSearchInfo(video) {
   return { year: null, query: fallbackQuery, fallbackQuery, source: "titel-fallback" };
 }
 
+// -- Zusätzliche Such-Varianten für hartnäckige Fälle --
+
+// "JET LI - Once Upon a Time in China & America" -> "Once Upon a Time in China & America"
+// Netzkino stellt bei vielen Actionfilmen den Schauspielernamen in Großbuchstaben
+// voran. Das killt die TMDB-Suche, weil der echte Titel dann nicht mehr vorne steht.
+function stripActorPrefix(text) {
+  const m = text.match(/^([A-ZÄÖÜ][A-ZÄÖÜ.\s]{1,40})\s+(?:ist|in|-)\s+(.+)$/);
+  return m ? m[2].trim() : null;
+}
+
+// "Yi jiu si er / AT: Back to 1942" -> ["Yi jiu si er", "Back to 1942"]
+// Netzkino gibt bei asiatischen Filmen manchmal Originalsprache + Alternativtitel
+// getrennt durch "/" an. Der Alternativtitel (oft Englisch) ist bei TMDB meist
+// deutlich eher zu finden als die romanisierte Originalsprache.
+function splitSlashVariants(text) {
+  if (!text.includes("/")) return [];
+  return text
+    .split("/")
+    .map((s) => s.replace(/^\s*AT:\s*/i, "").trim())
+    .filter(Boolean);
+}
+
+// Baut eine deduplizierte, priorisierte Liste an Suchbegriffen aus allen
+// bekannten Varianten (Originaltitel, bereinigter YouTube-Titel, und deren
+// Ableitungen).
+function buildQueryCandidates(info) {
+  const candidates = [];
+  const seen = new Set();
+  const add = (q) => {
+    if (!q) return;
+    const key = q.toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    candidates.push(q);
+  };
+
+  add(info.query);
+  add(stripActorPrefix(info.query));
+  splitSlashVariants(info.query).forEach(add);
+
+  if (info.fallbackQuery) {
+    add(info.fallbackQuery);
+    add(stripActorPrefix(info.fallbackQuery));
+    splitSlashVariants(info.fallbackQuery).forEach(add);
+  }
+
+  return candidates;
+}
+
+// Normalisiert einen Titel für den Exakt-Vergleich (Groß/Klein, Akzente,
+// Satzzeichen spielen dabei keine Rolle).
+function normalizeTitle(s) {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
 async function tmdbSearch(query, year) {
   const params = new URLSearchParams({ query, language: "de-DE", include_adult: "false" });
   if (year) params.set("primary_release_year", year);
@@ -102,36 +162,30 @@ async function tmdbSearch(query, year) {
 
 async function findBestMatch(video) {
   const info = extractSearchInfo(video);
+  const queryCandidates = buildQueryCandidates(info);
 
-  let results = await tmdbSearch(info.query, info.year);
-  let yearWasApplied = Boolean(info.year);
+  let results = [];
+  let usedQuery = null;
+  let yearWasApplied = false;
 
-  // Mit Jahr nichts gefunden -> ohne Jahr nochmal versuchen
-  if (results.length === 0 && info.year) {
-    await sleep(DELAY_MS);
-    results = await tmdbSearch(info.query, null);
-    yearWasApplied = false;
-  }
-
-  // Immer noch nichts -> zweite, unabhängige Suchvariante über den
-  // bereinigten YouTube-Titel probieren (fängt Fälle, in denen der
-  // "Originaltitel" aus der Beschreibung selbst fehlerhaft/untypisch ist)
-  let usedFallbackQuery = false;
-  if (
-    results.length === 0 &&
-    info.fallbackQuery &&
-    info.fallbackQuery.toLowerCase() !== info.query.toLowerCase()
-  ) {
-    await sleep(DELAY_MS);
-    results = await tmdbSearch(info.fallbackQuery, info.year);
-    if (results.length === 0 && info.year) {
+  for (const q of queryCandidates) {
+    if (info.year) {
+      results = await tmdbSearch(q, info.year);
+      if (results.length > 0) {
+        usedQuery = q;
+        yearWasApplied = true;
+        break;
+      }
       await sleep(DELAY_MS);
-      results = await tmdbSearch(info.fallbackQuery, null);
     }
+
+    results = await tmdbSearch(q, null);
     if (results.length > 0) {
-      usedFallbackQuery = true;
+      usedQuery = q;
       yearWasApplied = false;
+      break;
     }
+    await sleep(DELAY_MS);
   }
 
   if (results.length === 0) {
@@ -139,6 +193,7 @@ async function findBestMatch(video) {
   }
 
   const top = results[0];
+  const usedFallbackQuery = usedQuery.toLowerCase() !== info.query.toLowerCase();
 
   // Jahr-Abgleich: nur relevant, wenn wir ein erwartetes Jahr haben UND es
   // nicht schon als exakter API-Filter gegriffen hat
@@ -147,15 +202,37 @@ async function findBestMatch(video) {
     const resultYear = (top.release_date || "").slice(0, 4);
     const diff = resultYear ? Math.abs(parseInt(resultYear, 10) - parseInt(info.year, 10)) : null;
 
-    if (diff === null || diff > 3) {
+    if (diff === null) {
       return {
         match: null,
         info,
-        reason: `Jahr weicht stark ab (erwartet ${info.year}, TMDB-Top-Treffer ${resultYear || "?"})`,
+        reason: "TMDB-Treffer ohne Erscheinungsdatum",
         topCandidate: { id: top.id, title: top.title, release_date: top.release_date },
       };
     }
-    if (diff > 1) {
+
+    if (diff > 3) {
+      // Große Jahres-Differenz ist normalerweise ein Zeichen für einen falschen
+      // Treffer -- AUSSER der gefundene Titel stimmt exakt mit unserer Suche
+      // überein. Dann ist es wahrscheinlicher, dass Netzkinos Jahresangabe
+      // schlicht falsch ist, als dass zwei komplett unterschiedliche Filme
+      // zufällig exakt denselben Titel tragen. Ab 20 Jahren Differenz ist
+      // aber auch das zu riskant (z.B. Neuverfilmungen mit identischem Titel).
+      const exactTitleMatch =
+        normalizeTitle(top.title) === normalizeTitle(usedQuery) ||
+        normalizeTitle(top.original_title || "") === normalizeTitle(usedQuery);
+
+      if (exactTitleMatch && diff <= 20) {
+        yearNote = `Jahr weicht deutlich ab (erwartet ${info.year}, TMDB ${resultYear}), aber Titel exakt getroffen`;
+      } else {
+        return {
+          match: null,
+          info,
+          reason: `Jahr weicht stark ab (erwartet ${info.year}, TMDB-Top-Treffer ${resultYear})`,
+          topCandidate: { id: top.id, title: top.title, release_date: top.release_date },
+        };
+      }
+    } else if (diff > 1) {
       yearNote = `Jahr weicht ab: erwartet ${info.year}, TMDB ${resultYear}`;
     }
   }
