@@ -1,1 +1,902 @@
-[]
+[
+  {
+    "videoId": "E3AozW6nAp0",
+    "youtubeTitle": "Peter der Große - Teil 4 (HISTORIENFILM ganzer Film Deutsch, Historische Filme Deutsch komplett neu)",
+    "suchbegriff": "Peter the Great",
+    "erwartetesJahr": "1986",
+    "grund": "Jahr weicht stark ab (erwartet 1986, TMDB-Top-Treffer 1922)",
+    "tmdbTopKandidat": {
+      "id": 536878,
+      "title": "Peter der Große",
+      "release_date": "1922-11-02"
+    }
+  },
+  {
+    "videoId": "E37pyDy35aM",
+    "youtubeTitle": "Peter der Große - Teil 3 (HISTORIENFILM ganzer Film Deutsch, Historische Filme Deutsch komplett neu)",
+    "suchbegriff": "Peter the Great",
+    "erwartetesJahr": "1986",
+    "grund": "Jahr weicht stark ab (erwartet 1986, TMDB-Top-Treffer 1922)",
+    "tmdbTopKandidat": {
+      "id": 536878,
+      "title": "Peter der Große",
+      "release_date": "1922-11-02"
+    }
+  },
+  {
+    "videoId": "PjxDdnII738",
+    "youtubeTitle": "Peter der Große - Teil 2 (HISTORIENFILM ganzer Film Deutsch, Historische Filme Deutsch komplett neu)",
+    "suchbegriff": "Peter the Great",
+    "erwartetesJahr": "1986",
+    "grund": "Jahr weicht stark ab (erwartet 1986, TMDB-Top-Treffer 1922)",
+    "tmdbTopKandidat": {
+      "id": 536878,
+      "title": "Peter der Große",
+      "release_date": "1922-11-02"
+    }
+  },
+  {
+    "videoId": "GcbuqRRTYyQ",
+    "youtubeTitle": "Peter der Große - Teil 1 (HISTORIENFILM ganzer Film Deutsch, Historische Filme Deutsch komplett neu)",
+    "suchbegriff": "Peter the Great",
+    "erwartetesJahr": "1986",
+    "grund": "Jahr weicht stark ab (erwartet 1986, TMDB-Top-Treffer 1922)",
+    "tmdbTopKandidat": {
+      "id": 536878,
+      "title": "Peter der Große",
+      "release_date": "1922-11-02"
+    }
+  },
+  {
+    "videoId": "VGXABR93DbI",
+    "youtubeTitle": "Die Melodie der Liebe (ROMANTISCHE KOMÖDIE ganzer Film, Liebesfilme in voller Länge, Romanze)",
+    "suchbegriff": "Coup de foudre sur un air de Noël",
+    "erwartetesJahr": "2020",
+    "grund": "Jahr weicht stark ab (erwartet 2020, TMDB-Top-Treffer 2015)",
+    "tmdbTopKandidat": {
+      "id": 271674,
+      "title": "Suite Française - Melodie der Liebe",
+      "release_date": "2015-03-12"
+    }
+  },
+  {
+    "videoId": "PUUAeB3BfHo",
+    "youtubeTitle": "Young Ip Man: Crisis Time forced (Ganze Kung Fu Filme, Actionfilme in voller Länge, Martial Arts)",
+    "suchbegriff": "Shao Nian Ye Wen: Wei Ji Shi Ke",
+    "erwartetesJahr": "2020",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "uyou7cdQ1G0",
+    "youtubeTitle": "Sie nannten ihn Knochenbrecher (JACKI CHAN MARTIAL ARTS ganzer Film auf Deutsch, Klassiker Filme)",
+    "suchbegriff": "Drunken Master / Jui kuen",
+    "erwartetesJahr": "1980",
+    "grund": "Jahr weicht stark ab (erwartet 1980, TMDB-Top-Treffer 1994)",
+    "tmdbTopKandidat": {
+      "id": 66018,
+      "title": "Drunken Master III",
+      "release_date": "1994-07-02"
+    }
+  },
+  {
+    "videoId": "K2YR6ljlxcY",
+    "youtubeTitle": "JACKIE CHAN ist THE PRISONER (Actionfilm in voller Länge, Action Filme Deutsch komplett neu 2025)",
+    "suchbegriff": "Island of Fire",
+    "erwartetesJahr": "1991",
+    "grund": "TMDB-Treffer ohne Erscheinungsdatum",
+    "tmdbTopKandidat": {
+      "id": 1470975,
+      "title": "Kaiju: Island of Fire",
+      "release_date": ""
+    }
+  },
+  {
+    "videoId": "mPm44QgqdtQ",
+    "youtubeTitle": "Lady Musketier - Alle für Eine (TEIL 2, Action Abenteuer ganzer Film auf Deutsch, Abenteuerfilme)",
+    "suchbegriff": "La Femme Musketeer",
+    "erwartetesJahr": "2004",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ddC3rkpVg_0",
+    "youtubeTitle": "Lady Musketier - Alle für Eine (TEIL 1, Abenteuerfilm Deutsch, Action Abenteuer ganzer Film Deutsch)",
+    "suchbegriff": "La Femme Musketeer",
+    "erwartetesJahr": "2004",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "BOP5yq2TI7g",
+    "youtubeTitle": "Der Chaos-Cop – Thunder Road (KOMÖDIE ganzer Film auf Deutsch, Comedy Filme Deutsch, Tragikomödien)",
+    "suchbegriff": "Thunder Road",
+    "erwartetesJahr": "2019",
+    "grund": "Jahr weicht stark ab (erwartet 2019, TMDB-Top-Treffer 1958)",
+    "tmdbTopKandidat": {
+      "id": 19368,
+      "title": "Kilometerstein 375",
+      "release_date": "1958-05-10"
+    }
+  },
+  {
+    "videoId": "1H2VHw5OKjk",
+    "youtubeTitle": "US Sniper (ACTION DRAMA ganzer Film nach WAHREN BEGEBENHEITEN in voller Länge, Actionfilme Deutsch)",
+    "suchbegriff": "US Sniper",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "hhEZ3ntsPkk",
+    "youtubeTitle": "Frohes Schaffen - Ein Film zur Senkung der Arbeitsmoral (KOMÖDIE in voller Länge Deutsch, Satire)",
+    "suchbegriff": "Frohes Schaffen - Ein Film zur Senkung der Arbeitsmoral",
+    "erwartetesJahr": "2012",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "6AOvUWH-C7k",
+    "youtubeTitle": "Die Melodie der Liebe (LIEBESKOMÖDIE in voller Länge, Liebesdrama Filme auf Deutsch, neue Filme)",
+    "suchbegriff": "Coup de foudre sur un air de Noël",
+    "erwartetesJahr": "2020",
+    "grund": "Jahr weicht stark ab (erwartet 2020, TMDB-Top-Treffer 2015)",
+    "tmdbTopKandidat": {
+      "id": 271674,
+      "title": "Suite Française - Melodie der Liebe",
+      "release_date": "2015-03-12"
+    }
+  },
+  {
+    "videoId": "BEyrRVgCZ7o",
+    "youtubeTitle": "Kahlschlag (Spannendes KRIMI DRAMA auf Deutsch, Thriller Filme komplett, ganzer Krimi auf Deutsch)",
+    "suchbegriff": "Kahlschlag",
+    "erwartetesJahr": "2018",
+    "grund": "Jahr weicht stark ab (erwartet 2018, TMDB-Top-Treffer 1993)",
+    "tmdbTopKandidat": {
+      "id": 262809,
+      "title": "Kahlschlag",
+      "release_date": "1993-10-09"
+    }
+  },
+  {
+    "videoId": "xC_PNBUrCGw",
+    "youtubeTitle": "Ein Schrei in der Nacht – A cry in the night (PSYCHOTHRILLER ganzer Film nach MARY HIGGINS CLARK)",
+    "suchbegriff": "A Cry in the Night",
+    "erwartetesJahr": "1991",
+    "grund": "Jahr weicht stark ab (erwartet 1991, TMDB-Top-Treffer 1956)",
+    "tmdbTopKandidat": {
+      "id": 35895,
+      "title": "Schrei in der Nacht",
+      "release_date": "1956-08-17"
+    }
+  },
+  {
+    "videoId": "cm48CLmLmEk",
+    "youtubeTitle": "Family Business (KRIMI THRILLER mit SIR SEAN CONNERY & DUSTIN HOFFMAN, neue Filme Deutsch komplett)",
+    "suchbegriff": "Family Business",
+    "erwartetesJahr": "1990",
+    "grund": "Jahr weicht stark ab (erwartet 1990, TMDB-Top-Treffer 2021)",
+    "tmdbTopKandidat": {
+      "id": 459151,
+      "title": "Boss Baby - Schluss mit Kindergarten",
+      "release_date": "2021-07-01"
+    }
+  },
+  {
+    "videoId": "K7hIYCbI5Ag",
+    "youtubeTitle": "Kommissar Klefisch – Tod am Meer (KRIMI THRILLER ganzer Film, Deutsche Krimis in voller Länge)",
+    "suchbegriff": "Kommissar Klefisch – Tod am Meer",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "V63AXRrdAMo",
+    "youtubeTitle": "Rivalinnen – Weep no more my Lady (KRIMI THRILLER mit KRISTIN SCOTT THOMAS Filme Deutsch komplett)",
+    "suchbegriff": "Rivalinnen – Weep no more my Lady",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "EA61KjSZkag",
+    "youtubeTitle": "Freiheit – John Newton's Amazing Grace (ABENTEUER mit CUBA GOODING JR. Filme Deutsch komplett)",
+    "suchbegriff": "Freiheit – John Newton's Amazing Grace",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "TU47CcW-QY8",
+    "youtubeTitle": "Die Unschuldigen mit den schmutzigen Händen (KRIMI THRILLER ganzer Film, Filme Deutsch komplett)",
+    "suchbegriff": "Die Unschuldigen mit den schmutzigen Händen",
+    "erwartetesJahr": "1975",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "1vSWSDUNH8o",
+    "youtubeTitle": "Fury of Heart (Historisches ACTION ABENTEUER ganzer Film, Filme Deutsch komplett in voller Länge)",
+    "suchbegriff": "Fury of Hearts",
+    "erwartetesJahr": "2017",
+    "grund": "Jahr weicht stark ab (erwartet 2017, TMDB-Top-Treffer 2007)",
+    "tmdbTopKandidat": {
+      "id": 48017,
+      "title": "Zwischen den Fronten - The Poet",
+      "release_date": "2007-08-07"
+    }
+  },
+  {
+    "videoId": "0Br-P3_yuZ8",
+    "youtubeTitle": "Ein perfekter Bruch (BANKRAUB KLASSIKER mit MARTIN SHEEN, Banküberfall Heist Filme Deutsch komplett)",
+    "suchbegriff": "The Loophole",
+    "erwartetesJahr": "1981",
+    "grund": "Jahr weicht stark ab (erwartet 1981, TMDB-Top-Treffer 2019)",
+    "tmdbTopKandidat": {
+      "id": 698390,
+      "title": "The Loophole",
+      "release_date": "2019-07-01"
+    }
+  },
+  {
+    "videoId": "y5RwicXAJck",
+    "youtubeTitle": "Russland 1941 Teil 2 – Der Kampf mit den Deutschen (ZWEITER WELTKRIEG ACTION Filme Deutsch komplett)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "UM-IuPbV0EA",
+    "youtubeTitle": "Russland 1941 Teil 1 – Konvoi in den Tod (ZWEITER WELTKRIEG ACTION ganzer Film Deutsch, Kriegsfilme)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "FIRxWW1gxTk",
+    "youtubeTitle": "Der falsche Mann (KRIMI THRILLER ganzer Film, Deutsche Filme komplett in voller Länge anschauen)",
+    "suchbegriff": "Der falsche Mann",
+    "erwartetesJahr": "2011",
+    "grund": "Jahr weicht stark ab (erwartet 2011, TMDB-Top-Treffer 1956)",
+    "tmdbTopKandidat": {
+      "id": 22527,
+      "title": "Der falsche Mann",
+      "release_date": "1956-12-22"
+    }
+  },
+  {
+    "videoId": "a0kdaNDQObI",
+    "youtubeTitle": "Nuclear War (SCIFI ACTION ganzer Film, Science Fiction Filme Deutsch komplett streamen, Actionfilme)",
+    "suchbegriff": "Fallout",
+    "erwartetesJahr": "1999",
+    "grund": "Jahr weicht stark ab (erwartet 1999, TMDB-Top-Treffer 2018)",
+    "tmdbTopKandidat": {
+      "id": 353081,
+      "title": "Mission: Impossible - Fallout",
+      "release_date": "2018-07-25"
+    }
+  },
+  {
+    "videoId": "xzENSyh4SG4",
+    "youtubeTitle": "Günter Wallraff Undercover – Unter Null (DOKU Leben auf der Straße, obdachlos Dokumentation Deutsch)",
+    "suchbegriff": "Günter Wallraff Undercover – Unter Null",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "cs3S55rZrQ8",
+    "youtubeTitle": "Savage Love (HORROR KOMÖDIE ganzer Film Deutsch, komplette Horrorfilme in voller Länge anschauen)",
+    "suchbegriff": "Savage Love",
+    "erwartetesJahr": "2012",
+    "grund": "Jahr weicht stark ab (erwartet 2012, TMDB-Top-Treffer 1981)",
+    "tmdbTopKandidat": {
+      "id": 353894,
+      "title": "Savage/Love",
+      "release_date": "1981-08-10"
+    }
+  },
+  {
+    "videoId": "0qfAjLdbnNo",
+    "youtubeTitle": "Camp Bravo (KRIEGSFILM ganzer Film Deutsch neu 2024, ganze Filme nach wahren Begebenheiten ansehen)",
+    "suchbegriff": "A Good Kill",
+    "erwartetesJahr": "2016",
+    "grund": "Jahr weicht stark ab (erwartet 2016, TMDB-Top-Treffer 2005)",
+    "tmdbTopKandidat": {
+      "id": 84687,
+      "title": "A Good Band Is Easy to Kill",
+      "release_date": "2005-07-29"
+    }
+  },
+  {
+    "videoId": "wF6fggLRoco",
+    "youtubeTitle": "Die fünf Frankfurter (Ganzes Theaterstück auf Deutsch, Film in voller Länge kostenlos anschauen)",
+    "suchbegriff": "Die fünf Frankfurter",
+    "erwartetesJahr": "1995",
+    "grund": "Jahr weicht stark ab (erwartet 1995, TMDB-Top-Treffer 1922)",
+    "tmdbTopKandidat": {
+      "id": 517449,
+      "title": "Die fünf Frankfurter",
+      "release_date": "1922-10-04"
+    }
+  },
+  {
+    "videoId": "DpSe0GKEhoA",
+    "youtubeTitle": "American Soldiers – Ein Tag im Irak (Actionfilm auf Deutsch in voller Länge, Kriegsfilme anschauen)",
+    "suchbegriff": "American Soldiers",
+    "erwartetesJahr": "2005",
+    "grund": "Jahr weicht stark ab (erwartet 2005, TMDB-Top-Treffer 1991)",
+    "tmdbTopKandidat": {
+      "id": 244738,
+      "title": "Memorial: Letters from American Soldiers",
+      "release_date": "1991-01-01"
+    }
+  },
+  {
+    "videoId": "IfqhIHUbr54",
+    "youtubeTitle": "Dead End (Ganzer Thriller auf Deutsch kostenlos anschauen, Spielfilme in voller Länge, Thriller)",
+    "suchbegriff": "Hard Shoulder",
+    "erwartetesJahr": "2012",
+    "grund": "Jahr weicht stark ab (erwartet 2012, TMDB-Top-Treffer 1993)",
+    "tmdbTopKandidat": {
+      "id": 202236,
+      "title": "Soft Top Hard Shoulder",
+      "release_date": "1993-01-15"
+    }
+  },
+  {
+    "videoId": "FtIRaP0w7ec",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (Kompletter Krimi auf Deutsch, Film in voller Länge kostenlos anschauen)",
+    "suchbegriff": "Der Hexer - Ein kriminalistisches Panoptikum",
+    "erwartetesJahr": "1963",
+    "grund": "Jahr weicht stark ab (erwartet 1963, TMDB-Top-Treffer 1932)",
+    "tmdbTopKandidat": {
+      "id": 265300,
+      "title": "Der Hexer",
+      "release_date": "1932-07-21"
+    }
+  },
+  {
+    "videoId": "opKve3JSjmQ",
+    "youtubeTitle": "Charles Dickens – Ein Weihnachtslied in Prosa oder: Eine Geistergeschichte zum Christfest (Film)",
+    "suchbegriff": "Charles Dickens – Ein Weihnachtslied in Prosa oder: Eine Geistergeschichte zum Christfest",
+    "erwartetesJahr": "1960",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "MsxhhwvqcCk",
+    "youtubeTitle": "Russland 1941 Teil 2 – Der Kampf mit den Deutschen (Ganzer Kriegsfilm auf Deutsch, kompletter Film)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "4ROo03J3zLA",
+    "youtubeTitle": "The Love Police (Dokumentation in voller Länge kostenlos anschauen, ganze Dokumentation auf Deutsch)",
+    "suchbegriff": "The Love Police: Social Controls",
+    "erwartetesJahr": "2011",
+    "grund": "Jahr weicht stark ab (erwartet 2011, TMDB-Top-Treffer 1978)",
+    "tmdbTopKandidat": {
+      "id": 260840,
+      "title": "Casa dell'amore... la polizia interviene",
+      "release_date": "1978-10-08"
+    }
+  },
+  {
+    "videoId": "DXsLSPNXjCQ",
+    "youtubeTitle": "Ein perfekter Bruch (kompletter Actionfilm auf Deutsch anschauen, ganzer Thriller auf Deutsch)",
+    "suchbegriff": "The Loophole",
+    "erwartetesJahr": "1981",
+    "grund": "Jahr weicht stark ab (erwartet 1981, TMDB-Top-Treffer 2019)",
+    "tmdbTopKandidat": {
+      "id": 698390,
+      "title": "The Loophole",
+      "release_date": "2019-07-01"
+    }
+  },
+  {
+    "videoId": "6EYdFZ-vLYM",
+    "youtubeTitle": "Der Dritte Weltkrieg – Russische Invasion auf die USA (Thriller in voller Länge auf Deutsch)",
+    "suchbegriff": "World War III",
+    "erwartetesJahr": "1982",
+    "grund": "Jahr weicht stark ab (erwartet 1982, TMDB-Top-Treffer 2022)",
+    "tmdbTopKandidat": {
+      "id": 972009,
+      "title": "Katt Williams: World War III",
+      "release_date": "2022-05-17"
+    }
+  },
+  {
+    "videoId": "COWBfb-9P6c",
+    "youtubeTitle": "Russland 1941 Teil 1 – Konvoi in den Tod (Kriegsfilm in voller Länge auf Deutsch anschauen)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "I7Mk-YOzyTs",
+    "youtubeTitle": "American Marines – Die Elite Einheit (Achtionfilm auf Deutsch anschauen, ganzer Kriegsfilm Deutsch)",
+    "suchbegriff": "American Soldiers",
+    "erwartetesJahr": "2005",
+    "grund": "Jahr weicht stark ab (erwartet 2005, TMDB-Top-Treffer 1991)",
+    "tmdbTopKandidat": {
+      "id": 244738,
+      "title": "Memorial: Letters from American Soldiers",
+      "release_date": "1991-01-01"
+    }
+  },
+  {
+    "videoId": "4JiXkpamD_I",
+    "youtubeTitle": "Günter Wallraff – Der Mann, der bei BILD Hans Esser war (Dokumentation in voller Länge)",
+    "suchbegriff": "Günter Wallraff – Der Mann, der bei BILD Hans Esser war",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Z1FnHBM2vI0",
+    "youtubeTitle": "Freiheit – John Newton's Amazing Grace (Spielfilm mit CUBA GOODING JR, ganzer Film auf deutsch) *HD*",
+    "suchbegriff": "Freiheit – John Newton's Amazing Grace",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bexCaRaqtTQ",
+    "youtubeTitle": "Wallraff – Undercover „Das Recht des Stärkeren“ (GÜNTER WALLRAFF Reportage auf deutsch)",
+    "suchbegriff": "Das Recht des Stärkeren",
+    "erwartetesJahr": "2011",
+    "grund": "Jahr weicht stark ab (erwartet 2011, TMDB-Top-Treffer 2007)",
+    "tmdbTopKandidat": {
+      "id": 13721,
+      "title": "Halb Tot 2 - Das Recht des Stärkeren",
+      "release_date": "2007-05-11"
+    }
+  },
+  {
+    "videoId": "ClohLa-2KH4",
+    "youtubeTitle": "Kolle - Ein Leben für Liebe und S*x (ganze Filme auf Deutsch anschauen, kompletter Film Deutsch)*HD*",
+    "suchbegriff": "Kolle - Ein Leben für Liebe und S*x",
+    "erwartetesJahr": "2002",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "AM0yW2xPZ1A",
+    "youtubeTitle": "American Soldiers - Ein Tag im Irak (Action, Kriegsfilm, ganzer Film, kompletter Film) *HD*",
+    "suchbegriff": "American Soldiers",
+    "erwartetesJahr": "2005",
+    "grund": "Jahr weicht stark ab (erwartet 2005, TMDB-Top-Treffer 1991)",
+    "tmdbTopKandidat": {
+      "id": 244738,
+      "title": "Memorial: Letters from American Soldiers",
+      "release_date": "1991-01-01"
+    }
+  },
+  {
+    "videoId": "ImjPLAnl2rM",
+    "youtubeTitle": "Ein perfekter Bruch (ganze Krimi Filme in voller Länge, komplette Filme auf Deutsch)",
+    "suchbegriff": "The Loophole",
+    "erwartetesJahr": "1981",
+    "grund": "Jahr weicht stark ab (erwartet 1981, TMDB-Top-Treffer 2019)",
+    "tmdbTopKandidat": {
+      "id": 698390,
+      "title": "The Loophole",
+      "release_date": "2019-07-01"
+    }
+  },
+  {
+    "videoId": "dajWH2V2Ur4",
+    "youtubeTitle": "Nuclear War (Actionfilme auf Deutsch anschauen in voller Länge, Science Fiction Filme Deutsch)",
+    "suchbegriff": "Fallout",
+    "erwartetesJahr": "1999",
+    "grund": "Jahr weicht stark ab (erwartet 1999, TMDB-Top-Treffer 2018)",
+    "tmdbTopKandidat": {
+      "id": 353081,
+      "title": "Mission: Impossible - Fallout",
+      "release_date": "2018-07-25"
+    }
+  },
+  {
+    "videoId": "wimDk6sEMAY",
+    "youtubeTitle": "Die Kampfmaschine – Uncut (Actionfilm in voller Länge anschauen auf Deutsch, kompletter Filme )",
+    "suchbegriff": "Die Kampfmaschine – Uncut",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "YSyqvpLrM2o",
+    "youtubeTitle": "Sex Geflüster (Romantische Komödie mit Mila Kunis & Taryn Manning ganze Komödien Filme Deutsch) *HD*",
+    "suchbegriff": "Sex Geflüster",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "CSMZjPao2ac",
+    "youtubeTitle": "Dead Eye Collector (Horror, Thriller, ganzer Film auf Deutsch, komplette Filme schauen) *HD*",
+    "suchbegriff": "Dead Eye Collector",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "7RPyqFPxnW4",
+    "youtubeTitle": "Cassius Clay: Die Muhammad Ali Story (Dokumentation Deutsch, ganze Dokumentation Deutsch)",
+    "suchbegriff": "Cassius Clay: Die Muhammad Ali Story",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "MLFyTeSmy_c",
+    "youtubeTitle": "Vincent will das Geld (Action, Thriller in voller Länge, ganze Filme auf Deutsch anschauen)",
+    "suchbegriff": "Vincent will das Geld",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "fSJ0PAsPXUk",
+    "youtubeTitle": "Prince of Persia - Die Legende von Omar (Abenteuer, Historiendrama in voller Länge auf Deutsch) *HD*",
+    "suchbegriff": "Prince of Persia - Die Legende von Omar",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "AhIsVL4xkms",
+    "youtubeTitle": "Boris Karloff - Snake People (Horror, Sci-Fi, ganzer Film auf Deutsch, komplette Filme anschauen)",
+    "suchbegriff": "Boris Karloff - Snake People",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "hltujr_vnnY",
+    "youtubeTitle": "Meet The Cleavers - Familienfeste und andere Katastrophen (Komödie in voller Länge, ganzer Film)",
+    "suchbegriff": "Meet The Cleavers - Familienfeste und andere Katastrophen",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "BQBvr54rlXU",
+    "youtubeTitle": "Kommissar Klefisch – Tod am Meer (Drama, Thriller in voller Länge, ganze Filme auf Deutsch)",
+    "suchbegriff": "Kommissar Klefisch – Tod am Meer",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "pT4A76qP9gw",
+    "youtubeTitle": "Kickbox Hero 1 (Actionfilm in voller Länge, ganze Filme auf Deutsch anschauen)",
+    "suchbegriff": "Kickbox Hero 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bLrccMjR4m8",
+    "youtubeTitle": "Schuld & Sühne - Du sollst nicht töten (Thriller mit Superstar VANESSA REDGRAVE, ganzer Film legal)",
+    "suchbegriff": "Schuld & Sühne - Du sollst nicht töten",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Iv1Uhos1IXU",
+    "youtubeTitle": "Men of Honor 2 – Fighting Force (Action, Kriegsfilm, ganzer Film, kompletter Film auf Deutsch)",
+    "suchbegriff": "Men of Honor 2 – Fighting Force",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "J0wAcEWaITY",
+    "youtubeTitle": "The Night After Tomorrow (Actionthriller in voller Länge, ganze Filme auf Deutsch) *HD*",
+    "suchbegriff": "The Night After Tomorrow",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "UBWGQCEUmJA",
+    "youtubeTitle": "Der Dritte Weltkrieg – Russische Invasion auf die USA (Drama, Thriller, ganzer Film Deutsch)",
+    "suchbegriff": "World War III",
+    "erwartetesJahr": "1982",
+    "grund": "Jahr weicht stark ab (erwartet 1982, TMDB-Top-Treffer 2022)",
+    "tmdbTopKandidat": {
+      "id": 972009,
+      "title": "Katt Williams: World War III",
+      "release_date": "2022-05-17"
+    }
+  },
+  {
+    "videoId": "1DkyPfBrG6E",
+    "youtubeTitle": "Sinbads Abenteuer – Der wahre Prinz von Persien (Fantasty, Abenteuer, kompletter Film Deutsch)",
+    "suchbegriff": "Sinbads Abenteuer – Der wahre Prinz von Persien",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "iudmkoJ_mzs",
+    "youtubeTitle": "US Sniper (Kriegsdrama, Actionfilm in voller Länge, ganzer Film)",
+    "suchbegriff": "US Sniper",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "LCvgmf5K2iY",
+    "youtubeTitle": "Die 7 Weltwunder (Dokumentation in voller Länge)",
+    "suchbegriff": "Die 7 Weltwunder",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_XxqRYiFJd4",
+    "youtubeTitle": "Planet Ocean 2 – Giganten der Weltmeere – Das Leben in der Tiefsee Japans (Dokumentation)",
+    "suchbegriff": "Planet Ocean 2 – Giganten der Weltmeere – Das Leben in der Tiefsee Japans",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "WbU4PxfZ4iI",
+    "youtubeTitle": "Prometheus Trap – Stehle nicht von den Göttern (Sci-Fi in ganzer Länge) *HD*",
+    "suchbegriff": "Prometheus Trap – Stehle nicht von den Göttern",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "wk7D6cqkVmA",
+    "youtubeTitle": "The Princess and the Swordman (Abenteuer mit Eric Roberts und Ron Perlman in ganzer Länge)",
+    "suchbegriff": "The Princess and the Swordman",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "WsCZ_359A9k",
+    "youtubeTitle": "Fremde Verwandte - Teil 2 (Drama mit Dieter Pfaff in voller Länge)",
+    "suchbegriff": "Fremde Verwandte - Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "byk13SEfhbc",
+    "youtubeTitle": "Fremde Verwandte - Teil 1 (Drama mit Dieter Pfaffin voller Länge)",
+    "suchbegriff": "Fremde Verwandte - Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "G5Dw5qp9ltw",
+    "youtubeTitle": "Arche Noah - Die Geschichte der Sintflut (Animation, Familienfilm in voller Länge)",
+    "suchbegriff": "Arche Noah - Die Geschichte der Sintflut",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "171tNN5CuqE",
+    "youtubeTitle": "Gamera gegen Zigra – Frankenstein's Weltraumbestie schlägt zu (Fantasy, ganzer Film)",
+    "suchbegriff": "Gamera gegen Zigra – Frankenstein's Weltraumbestie schlägt zu",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "wl3uTtf8Lzk",
+    "youtubeTitle": "Einsatz auf 4 Pfoten 2 - Das Weihnachtsmärchen geht weiter (Komödie in voller Länge)",
+    "suchbegriff": "Einsatz auf 4 Pfoten 2 - Das Weihnachtsmärchen geht weiter",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "RWVweZaKDbc",
+    "youtubeTitle": "M.S. Brittanica – Kreuzfahrtschiff auf Todeskurs (Action, ganzer Film)",
+    "suchbegriff": "M.S. Brittanica – Kreuzfahrtschiff auf Todeskurs",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "xuerdGf_bDE",
+    "youtubeTitle": "Auf der Spur der Dinosaurier (Dokumentation, Familienfilm in voller Länge)",
+    "suchbegriff": "Auf der Spur der Dinosaurier",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "jqvYj3SyBzQ",
+    "youtubeTitle": "175 Jahre Eisenbahn in Deutschland (Dokumentation in ganzer Länge)",
+    "suchbegriff": "175 Jahre Eisenbahn in Deutschland",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "n8HR4HbuQRs",
+    "youtubeTitle": "Planet Ocean 2 – Giganten der Weltmeere – Die Seetangwälder an der Westküste der USA (Doku)",
+    "suchbegriff": "Planet Ocean 2 – Giganten der Weltmeere – Die Seetangwälder an der Westküste der USA",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "JXrSQzg27eg",
+    "youtubeTitle": "Planet Ocean 2 – Giganten der Weltmeere – Ein Meer der Fruchtbarkeit (Dokumentation)",
+    "suchbegriff": "Planet Ocean 2 – Giganten der Weltmeere – Ein Meer der Fruchtbarkeit",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "7iozo8UCs_8",
+    "youtubeTitle": "Planet Ocean 2 – Giganten der Weltmeere – Im Seelöwen-Himmel (Dokumentation)",
+    "suchbegriff": "Planet Ocean 2 – Giganten der Weltmeere – Im Seelöwen-Himmel",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "zNmM9QGezDs",
+    "youtubeTitle": "Planet Ocean 2 – Giganten der Weltmeere – Ogasawara – Die Heimat der Buckelwale (Dokumentation)",
+    "suchbegriff": "Planet Ocean 2 – Giganten der Weltmeere – Ogasawara – Die Heimat der Buckelwale",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "JKgNk6KN_Gs",
+    "youtubeTitle": "Vancouver Island und der wunderbare Ozean (Dokumentation in ganzer Länge)",
+    "suchbegriff": "Vancouver Island und der wunderbare Ozean",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Kxh4Y1WrEO4",
+    "youtubeTitle": "Planet Ocean 2 – Giganten der Weltmeere – Die Kinderstube der Grauwale (Dokumentation)",
+    "suchbegriff": "Planet Ocean 2 – Giganten der Weltmeere – Die Kinderstube der Grauwale",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vr37I0faEvg",
+    "youtubeTitle": "Planet Ocean 2 – Giganten der Weltmeere – Den Hammerhaien auf der Spur (Dokumentation)",
+    "suchbegriff": "Planet Ocean 2 – Giganten der Weltmeere – Den Hammerhaien auf der Spur",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "IiE8C35n0tw",
+    "youtubeTitle": "Der Jakobsweg – El Camino (Pilgerer Doku, Dokumentation auf Deutsch, Dokus Deutsch, Dokumentationen)",
+    "suchbegriff": "Der Jakobsweg – El Camino",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "jjblDGfKhM4",
+    "youtubeTitle": "Shampoo: Das totale Liebeschaos! (1975) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Shampoo: Das totale Liebeschaos!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "kvtMpB8_3-A",
+    "youtubeTitle": "Eisfieber 2: Liebe auf dem Eis | Ice Castles (2010) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Eisfieber 2: Liebe auf dem Eis | Ice Castles",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "uI3WRQWLoOo",
+    "youtubeTitle": "Wendy 2 – Freundschaft für immer | Ganzer Film auf Deutsch",
+    "suchbegriff": "Wendy 2 – Freundschaft für immer | Ganzer Film auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "l9JWRHbTeNU",
+    "youtubeTitle": "Die Vampirschwestern Teil 2 | (2014) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Die Vampirschwestern Teil 2 |",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "9uEugZs7g1o",
+    "youtubeTitle": "Eisfieber: Eine Liebe im Schnee | Ice Castles (1978) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Eisfieber: Eine Liebe im Schnee | Ice Castles",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_engkJ98Ch4",
+    "youtubeTitle": "Tess und ihr Bodyguard 🕴 | Ganzer Film auf Deutsch",
+    "suchbegriff": "Tess und ihr Bodyguard 🕴 | Ganzer Film auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "HFSjB4t68co",
+    "youtubeTitle": "CALIFORNIA SPLIT | Ganzer Film auf Deutsch",
+    "suchbegriff": "CALIFORNIA SPLIT | Ganzer Film auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "uYzOqx-OV-A",
+    "youtubeTitle": "Husbands and Wives | Ganzer Film auf Deutsch",
+    "suchbegriff": "Husbands and Wives | Ganzer Film auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "KVJaXnuN0tI",
+    "youtubeTitle": "Dawn Anna – Gegen jeden Sturm | Ganzer Film auf Deutsch",
+    "suchbegriff": "Dawn Anna – Gegen jeden Sturm | Ganzer Film auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "W25efqKwOKE",
+    "youtubeTitle": "Walk Hard: Die Dewey Cox Story 🍿 | Ganzer Film auf Deutsch",
+    "suchbegriff": "Walk Hard: Die Dewey Cox Story 🍿 | Ganzer Film auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "AyonOxR4Tag",
+    "youtubeTitle": "Heirat mit Hindernissen 💍 | Confessions of a Young Bride (2005) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Heirat mit Hindernissen 💍 | Confessions of a Young Bride",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "GolZRIWQ_lo",
+    "youtubeTitle": "City Slickers 2 – Die goldene Legende (1994) | Ganzer Film auf Deutsch",
+    "suchbegriff": "City Slickers 2 – Die goldene Legende",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ucu0pPik7MU",
+    "youtubeTitle": "19th Wife - Flucht aus der Dunkelheit (2010) | Ganzer Film",
+    "suchbegriff": "19th Wife - Flucht aus der Dunkelheit",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  }
+]
