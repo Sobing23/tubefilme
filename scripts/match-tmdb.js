@@ -185,6 +185,26 @@ function normalizeTitle(s) {
     .trim();
 }
 
+// Kurze, generische Ein-Wort-Anfragen (z.B. "After", "Boar", "Whiteout")
+// sind bei TMDB besonders anfällig für zufällige Fehltreffer, weil die
+// Textsuche bei so wenig Kontext leicht danebengreift. Längere/mehrteilige
+// Anfragen sind auch bei fremdsprachigen Originaltiteln ohne Wortüberlappung
+// zur deutschen TMDB-Übersetzung meistens trotzdem korrekt -- die Prüfung
+// gilt deshalb NUR für die riskante Kurzform.
+function isRiskyShortQuery(q) {
+  const words = q.trim().split(/\s+/).filter(Boolean);
+  return words.length <= 1 && q.trim().length <= 8;
+}
+
+// Für riskante Kurz-Anfragen reicht eine lockere Wortüberlappung nicht --
+// "After" steckt z.B. als eigenständiges Wort in "Tangled Ever After",
+// obwohl das ein komplett anderer Film ist. Deshalb hier bewusst strenger:
+// nur eine EXAKTE Übereinstimmung (Titel oder Originaltitel) zählt.
+function isExactTitleMatch(query, resultTitle, resultOriginalTitle) {
+  const nq = normalizeTitle(query);
+  return nq === normalizeTitle(resultTitle) || nq === normalizeTitle(resultOriginalTitle || "");
+}
+
 async function tmdbSearch(query, year) {
   const params = new URLSearchParams({ query, language: "de-DE", include_adult: "false" });
   if (year) params.set("primary_release_year", year);
@@ -209,35 +229,62 @@ async function findBestMatch(video) {
   const info = extractSearchInfo(video);
   const queryCandidates = buildQueryCandidates(info, video);
 
-  let results = [];
+  let top = null;
   let usedQuery = null;
   let yearWasApplied = false;
 
-  for (const q of queryCandidates) {
-    if (info.year) {
-      results = await tmdbSearch(q, info.year);
-      if (results.length > 0) {
-        usedQuery = q;
-        yearWasApplied = true;
-        break;
-      }
-      await sleep(DELAY_MS);
-    }
+  // Falls bei riskanten Kurz-Anfragen kein exakter Treffer gefunden wird,
+  // merken wir uns den ersten verfügbaren als Fallback -- besser mit
+  // niedriger Konfidenz behalten als riskieren, einen eigentlich richtigen
+  // (aber z.B. übersetzten) Treffer komplett zu verlieren.
+  let fallbackTop = null;
+  let fallbackQuery = null;
+  let fallbackYearApplied = false;
 
-    results = await tmdbSearch(q, null);
-    if (results.length > 0) {
+  candidateLoop:
+  for (const q of queryCandidates) {
+    const yearAttempts = info.year ? [true, false] : [false];
+    for (const useYear of yearAttempts) {
+      const results = await tmdbSearch(q, useYear ? info.year : null);
+      await sleep(DELAY_MS);
+      if (results.length === 0) continue;
+
+      const candidateTop = results[0];
+
+      if (isRiskyShortQuery(q)) {
+        if (isExactTitleMatch(q, candidateTop.title, candidateTop.original_title)) {
+          top = candidateTop;
+          usedQuery = q;
+          yearWasApplied = useYear;
+          break candidateLoop;
+        }
+        if (!fallbackTop) {
+          fallbackTop = candidateTop;
+          fallbackQuery = q;
+          fallbackYearApplied = useYear;
+        }
+        continue; // riskant + nicht exakt -> nächste Variante probieren
+      }
+
+      top = candidateTop;
       usedQuery = q;
-      yearWasApplied = false;
-      break;
+      yearWasApplied = useYear;
+      break candidateLoop;
     }
-    await sleep(DELAY_MS);
   }
 
-  if (results.length === 0) {
+  let forcedLowConfidence = false;
+  if (!top && fallbackTop) {
+    top = fallbackTop;
+    usedQuery = fallbackQuery;
+    yearWasApplied = fallbackYearApplied;
+    forcedLowConfidence = true;
+  }
+
+  if (!top) {
     return { match: null, info, reason: "kein TMDB-Treffer" };
   }
 
-  const top = results[0];
   const usedFallbackQuery = usedQuery.toLowerCase() !== info.query.toLowerCase();
 
   // Jahr-Abgleich: nur relevant, wenn wir ein erwartetes Jahr haben UND es
@@ -289,7 +336,10 @@ async function findBestMatch(video) {
       ? "mittel"
       : "niedrig";
 
-  if (usedFallbackQuery || yearNote) confidence = "niedrig";
+  if (usedFallbackQuery || yearNote || forcedLowConfidence) confidence = "niedrig";
+  if (forcedLowConfidence && !yearNote) {
+    yearNote = "Kurze/generische Suchanfrage ohne exakten Titel-Treffer bei TMDB -- bitte bei Gelegenheit prüfen";
+  }
 
   return { match: top, info, confidence, yearNote };
 }
