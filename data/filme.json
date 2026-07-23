@@ -12920,39 +12920,6 @@
     ]
   },
   {
-    "videoId": "STTal8jfFEY",
-    "youtubeTitle": "Outback – Tödliche Jagd (Rasanter HORRORFILM in voller Länge, Horror Filme Deutsch komplett 2025)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/STTal8jfFEY/hqdefault.jpg",
-    "duration": "PT1H37M29S",
-    "publishedAt": "2025-08-13T17:00:39Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 74943,
-    "title": "Evil Bong 3: The Wrath of Bong",
-    "originalTitle": "Evil Bong 3: The Wrath of Bong",
-    "overview": "",
-    "releaseDate": "2011-04-08",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/da5UVMB9021zljUAxExAS38IAlG.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yHHKGasc0OIdWyIdlK84w7JKpWR.jpg",
-    "voteAverage": 4.1,
-    "genreIds": [
-      35,
-      27,
-      878
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "posterLocal": "img/posters/74943.jpg",
-    "hinweis": "Kurze/generische Suchanfrage ohne exakten Titel-Treffer bei TMDB -- bitte bei Gelegenheit prüfen",
-    "cast": [
-      "John Patrick Jordan",
-      "Brian Lloyd",
-      "Mitch Eakins",
-      "Peter Stickles",
-      "Christina DeRosa"
-    ]
-  },
-  {
     "videoId": "HcHzDa1x6vw",
     "youtubeTitle": "Crypto - Angst ist die härteste Währung (THRILLER in voller Länge, neue Filme Deutsch komplett 2025)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/HcHzDa1x6vw/hqdefault.jpg",
@@ -63848,5 +63815,33 @@
       "Bolo Yeung",
       "Ed Neil"
     ]
+  },
+  {
+    "videoId": "STTal8jfFEY",
+    "youtubeTitle": "Outback – Tödliche Jagd (Rasanter HORRORFILM in voller Länge, Horror Filme Deutsch komplett 2025)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/STTal8jfFEY/hqdefault.jpg",
+    "duration": "PT1H37M29S",
+    "publishedAt": "2025-08-13T17:00:39Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 118952,
+    "title": "Outback - Tödliche Jagd",
+    "originalTitle": "Wrath",
+    "overview": "Auf einmal fällt ein Schuss, aus dem Nichts, ohne ersichtlichen Grund. Die junge Frau rettet sich aus ihrem getroffenen Wagen in die nächste Tankstelle. Wieder fällt ein Schuss. Panisch flüchtet sie in das Auto von Caroline, Matthew, Erik und Javier. Damit zieht sie die vier hinein in eine blutige Hatz durch den australischen Outback.",
+    "releaseDate": "2012-06-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zrI3BdmvPk5A9wVGOCjwtpZNTyM.jpg",
+    "backdropUrl": null,
+    "voteAverage": 3.7,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Corey Page",
+      "Stef Dawson",
+      "Rebecca Ratcliff",
+      "Xavier Fernández",
+      "Bianca Bradey"
+    ],
+    "posterLocal": "img/posters/118952.jpg"
   }
 ]
