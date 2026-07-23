@@ -388,14 +388,60 @@ async function main() {
   // nochmal aufgenommen, sondern in duplicates.json vermerkt.
   const tmdbIdToChannel = new Map(matched.map((m) => [m.tmdbId, m.channelName]));
 
+  // Manuelle Overrides IMMER zuerst anwenden -- unabhängig davon, ob das
+  // Video schon (ggf. falsch) zugeordnet wurde. Ohne diesen Schritt würde
+  // die Inkrementell-Logik ein bereits verarbeitetes Video nie erneut
+  // anfassen, selbst wenn data/manual-matches.json inzwischen eine Korrektur
+  // dafür enthält -- der eigentliche Zweck der Datei.
+  const candById = new Map(candidates.map((c) => [c.videoId, c]));
+  let overridesApplied = 0;
+
+  for (const [videoId, tmdbId] of Object.entries(manualMatches)) {
+    const existingIdx = matched.findIndex((m) => m.videoId === videoId);
+    if (existingIdx !== -1 && matched[existingIdx].tmdbId === tmdbId) {
+      continue; // schon korrekt, nichts zu tun
+    }
+
+    const video = candById.get(videoId);
+    if (!video) {
+      console.log(`   Hinweis: manueller Override für ${videoId} -- Video nicht in candidates.json gefunden, übersprungen.`);
+      continue;
+    }
+
+    const res = await fetch(`${TMDB_BASE}/movie/${tmdbId}?language=de-DE`, {
+      headers: { Authorization: `Bearer ${BEARER_TOKEN}`, accept: "application/json" },
+    });
+    if (!res.ok) {
+      console.log(`   Hinweis: manueller Override für ${videoId} -- TMDB-ID ${tmdbId} nicht abrufbar.`);
+      continue;
+    }
+    const movie = await res.json();
+
+    if (existingIdx !== -1) {
+      tmdbIdToChannel.delete(matched[existingIdx].tmdbId);
+      matched.splice(existingIdx, 1);
+    }
+    const umIdx = unmatched.findIndex((u) => u.videoId === videoId);
+    if (umIdx !== -1) unmatched.splice(umIdx, 1);
+    const dpIdx = duplicates.findIndex((d) => d.videoId === videoId);
+    if (dpIdx !== -1) duplicates.splice(dpIdx, 1);
+
+    addResult(video, movie, "manuell", "hoch");
+    alreadyProcessed.add(videoId);
+    overridesApplied++;
+    console.log(`   Manueller Override angewendet: "${video.title}" -> "${movie.title}"`);
+
+    await sleep(DELAY_MS);
+  }
+
   const newCandidates = candidates.filter((c) => !alreadyProcessed.has(c.videoId));
 
   console.log(
     `${candidates.length} Kandidaten insgesamt, ${alreadyProcessed.size} bereits verarbeitet, ` +
-      `${newCandidates.length} neu zu prüfen.`
+      `${newCandidates.length} neu zu prüfen. (${overridesApplied} manuelle Overrides angewendet)`
   );
 
-  if (newCandidates.length === 0) {
+  if (newCandidates.length === 0 && overridesApplied === 0) {
     console.log("Nichts Neues zu tun.");
     return;
   }
@@ -408,18 +454,8 @@ async function main() {
       console.log(`... ${processed} / ${newCandidates.length} verarbeitet`);
     }
 
-    // Manuelle Zuordnung hat immer Vorrang
-    if (manualMatches[video.videoId]) {
-      const tmdbId = manualMatches[video.videoId];
-      const res = await fetch(`${TMDB_BASE}/movie/${tmdbId}?language=de-DE`, {
-        headers: { Authorization: `Bearer ${BEARER_TOKEN}`, accept: "application/json" },
-      });
-      if (res.ok) {
-        const movie = await res.json();
-        addResult(video, movie, "manuell", "hoch");
-        continue;
-      }
-    }
+    // Manuelle Overrides wurden bereits oben zentral angewendet -- an dieser
+    // Stelle sind nur noch Videos, die KEINEN manuellen Override haben.
 
     try {
       const { match, info, reason, topCandidate, confidence, yearNote } = await findBestMatch(video);
