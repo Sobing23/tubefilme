@@ -50,6 +50,14 @@
     color: var(--text);
     font-size: 14px;
   }
+  select {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: var(--text);
+    font-size: 14px;
+  }
   button {
     padding: 10px 16px;
     border-radius: 8px;
@@ -134,6 +142,7 @@
     header h1 { width: 100%; }
     header h1 small { display: none; }
     input[type="search"] { max-width: none; order: 3; width: 100%; }
+    select { order: 4; width: 100%; }
     #grid { padding: 14px; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); }
     #count { padding: 0 14px; }
     .player-wrap { padding: 0 12px; margin: 70px auto 30px; }
@@ -222,7 +231,10 @@
 
 <header>
   <h1>tube<span>filme</span> <small style="color:var(--text-dim); font-size:12px;">(Test-Ansicht, kein Design)</small></h1>
-  <input type="search" id="search" placeholder="Filme durchsuchen...">
+  <input type="search" id="search" placeholder="Filme oder Genre durchsuchen...">
+  <select id="genreFilter">
+    <option value="">Alle Genres</option>
+  </select>
   <button id="randomBtn">🎲 Zufall</button>
   <button id="watchlistBtn">♥ Merkliste</button>
 </header>
@@ -338,7 +350,7 @@ function escapeHtml(s) {
 
 function openPlayer(movie) {
   if (!movie) return;
-  document.getElementById("player").src = `https://www.youtube.com/embed/${movie.videoId}?autoplay=1`;
+  document.getElementById("player").src = `https://www.youtube.com/embed/${movie.videoId}`;
   document.getElementById("playerTitle").textContent = movie.title;
   document.getElementById("playerSub").textContent =
     `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)} · Quelle: ${movie.channelName}`;
@@ -366,7 +378,13 @@ function currentlyShown() { return lastFiltered; }
 
 function applyFilters() {
   const query = document.getElementById("search").value.trim();
+  const selectedGenre = document.getElementById("genreFilter").value;
+
   let result = query && fuse ? fuse.search(query).map(r => r.item) : allMovies;
+
+  if (selectedGenre) {
+    result = result.filter(m => (m.genreIds || []).some(id => GENRES[id] === selectedGenre));
+  }
   if (watchlistMode) {
     const wl = getWatchlist();
     result = result.filter(m => wl.has(m.tmdbId));
@@ -376,6 +394,7 @@ function applyFilters() {
 }
 
 document.getElementById("search").addEventListener("input", applyFilters);
+document.getElementById("genreFilter").addEventListener("change", applyFilters);
 document.getElementById("closeBtn").addEventListener("click", closePlayer);
 
 // Zusätzliche, robustere Wege das Overlay zu schließen: Escape-Taste,
@@ -452,14 +471,32 @@ fetch(FILME_URL)
   })
   .then(data => {
     allMovies = data;
+    // Genre-Namen pro Film vorberechnen -- einmal hier, statt bei jeder
+    // Suche neu, und als eigenes Suchfeld nutzbar (z.B. "Drama" eintippen)
+    allMovies.forEach(m => { m.genreText = (m.genreIds || []).map(id => GENRES[id]).filter(Boolean).join(" "); });
+
     lastFiltered = data;
-    fuse = new Fuse(allMovies, { keys: ["title", "originalTitle"], threshold: 0.35 });
+    fuse = new Fuse(allMovies, { keys: ["title", "originalTitle", "genreText"], threshold: 0.3 });
+
+    populateGenreFilter(allMovies);
     document.getElementById("status").style.display = "none";
     renderGrid(allMovies);
   })
   .catch(err => {
     document.getElementById("status").textContent = "Fehler beim Laden: " + err.message;
   });
+
+function populateGenreFilter(movies) {
+  const present = new Set();
+  movies.forEach(m => (m.genreIds || []).forEach(id => GENRES[id] && present.add(GENRES[id])));
+  const select = document.getElementById("genreFilter");
+  [...present].sort((a, b) => a.localeCompare(b, "de")).forEach(name => {
+    const opt = document.createElement("option");
+    opt.value = name;
+    opt.textContent = name;
+    select.appendChild(opt);
+  });
+}
 </script>
 
 </body>
