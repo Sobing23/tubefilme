@@ -34,6 +34,11 @@ jobs:
       - name: Datenqualität bereinigen (Altlast-Duplikate, riskante Treffer)
         run: node scripts/cleanup-matches.js
 
+      - name: Cast-Daten für Schauspieler-Suche nachladen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/fetch-cast.js
+
       - name: Cover-Bilder cachen
         run: node scripts/cache-images.js
 
