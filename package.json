@@ -10,6 +10,8 @@
     "fetch": "node scripts/fetch-youtube.js",
     "filter": "node scripts/filter-movies.js",
     "match": "node scripts/match-tmdb.js",
+    "cleanup": "node scripts/cleanup-matches.js",
+    "cast": "node scripts/fetch-cast.js",
     "cache-images": "node scripts/cache-images.js",
     "resolve": "node scripts/resolve-channel.js"
   }
