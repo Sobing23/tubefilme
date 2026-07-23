@@ -31,6 +31,9 @@ jobs:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/match-tmdb.js
 
+      - name: Datenqualität bereinigen (Altlast-Duplikate, riskante Treffer)
+        run: node scripts/cleanup-matches.js
+
       - name: Cover-Bilder cachen
         run: node scripts/cache-images.js
 
