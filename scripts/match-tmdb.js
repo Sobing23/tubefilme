@@ -28,6 +28,7 @@ const MANUAL_MATCHES_PATH = "data/manual-matches.json";
 const OUT_MATCHED = "data/filme.json";
 const OUT_UNMATCHED = "data/unmatched.json";
 const OUT_DUPLICATES = "data/duplicates.json";
+const IGNORED_PATH = "data/ignored.json"; // manuell als "nicht auffindbar" markierte Videos (Review-Seite)
 
 const TMDB_BASE = "https://api.themoviedb.org/3";
 const DELAY_MS = 120; // kleine Pause zwischen Requests, um TMDB nicht zu stressen
@@ -377,10 +378,20 @@ async function main() {
     // erster Lauf, noch keine Datei
   }
 
+  // Videos, die über die Review-Seite explizit als "nicht auffindbar"
+  // markiert wurden -- werden nie wieder automatisch versucht.
+  let ignored = [];
+  try {
+    ignored = JSON.parse(await fs.readFile(IGNORED_PATH, "utf-8"));
+  } catch {
+    // Datei existiert noch nicht -- kein Problem
+  }
+
   const alreadyProcessed = new Set([
     ...matched.map((m) => m.videoId),
     ...unmatched.map((u) => u.videoId),
     ...duplicates.map((d) => d.videoId),
+    ...ignored,
   ]);
 
   // Welche Filme (per tmdbId) sind schon in der Bibliothek? "Erster Kanal
