@@ -130,6 +130,57 @@
     padding: 2px 5px;
     color: var(--text-dim);
   }
+  .card .rating {
+    position: absolute;
+    bottom: 62px;
+    left: 6px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 2px 6px;
+    color: #ffd166;
+  }
+  .poster-placeholder {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    border-radius: 6px;
+    background: linear-gradient(160deg, #2a2a2a, #1a1a1a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.3;
+  }
+
+  .similar-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 22px;
+  }
+  .similar-row h4 {
+    grid-column: 1 / -1;
+    margin: 0 0 4px 0;
+    font-size: 13px;
+    color: var(--text-dim);
+    font-weight: normal;
+  }
+  .similar-card { cursor: pointer; }
+  .similar-card img, .similar-card .poster-placeholder {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+  }
+  .similar-card .similar-title {
+    font-size: 12px;
+    margin-top: 4px;
+    line-height: 1.3;
+  }
 
   #count {
     padding: 0 20px;
@@ -231,7 +282,7 @@
 
 <header>
   <h1>tube<span>filme</span> <small style="color:var(--text-dim); font-size:12px;">(Test-Ansicht, kein Design)</small></h1>
-  <input type="search" id="search" placeholder="Filme oder Genre durchsuchen...">
+  <input type="search" id="search" placeholder="Filme, Genre, Schauspieler oder Regie durchsuchen...">
   <select id="genreFilter">
     <option value="">Alle Genres</option>
   </select>
@@ -250,8 +301,11 @@
     <div class="player-info">
       <h2 id="playerTitle"></h2>
       <div class="sub" id="playerSub"></div>
+      <div class="sub" id="playerCast" style="margin-top:-8px;"></div>
+      <div class="sub" id="playerCrew" style="margin-top:-8px;"></div>
       <button id="playerFav">♥ Zur Merkliste</button>
       <p id="playerOverview"></p>
+      <div class="similar-row" id="playerSimilar"></div>
     </div>
   </div>
 </div>
@@ -307,11 +361,19 @@ function genreNames(ids) {
   return (ids || []).map(id => GENRES[id]).filter(Boolean).slice(0, 2).join(", ");
 }
 
+function posterHtml(m, extraClass) {
+  if (m.posterUrl) {
+    return `<img class="${extraClass||''}" src="${m.posterUrl}" loading="lazy" alt="${escapeHtml(m.title)}">`;
+  }
+  return `<div class="poster-placeholder ${extraClass||''}">${escapeHtml(m.title)}</div>`;
+}
+
 function movieCardHtml(m, wl) {
   return `
     ${m.matchConfidence === "niedrig" ? '<div class="low-confidence" title="Zuordnung unsicher">?</div>' : ""}
+    ${m.voteAverage ? `<div class="rating">★ ${m.voteAverage.toFixed(1)}</div>` : ""}
     <button class="fav ${wl.has(m.tmdbId) ? "active" : ""}" data-fav="${m.tmdbId}">♥</button>
-    <img src="${m.posterUrl || ''}" loading="lazy" alt="${escapeHtml(m.title)}">
+    ${posterHtml(m)}
     <div class="meta">
       <div>${escapeHtml(m.title)}</div>
       <div class="year">${(m.releaseDate || "").slice(0,4)} · ${genreNames(m.genreIds)}</div>
@@ -352,9 +414,19 @@ function openPlayer(movie) {
   if (!movie) return;
   document.getElementById("player").src = `https://www.youtube.com/embed/${movie.videoId}`;
   document.getElementById("playerTitle").textContent = movie.title;
+  const ratingText = movie.voteAverage ? ` · ★ ${movie.voteAverage.toFixed(1)}` : "";
   document.getElementById("playerSub").textContent =
-    `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)} · Quelle: ${movie.channelName}`;
+    `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)}${ratingText} · Quelle: ${movie.channelName}`;
   document.getElementById("playerOverview").textContent = movie.overview || "Keine Beschreibung verfügbar.";
+  document.getElementById("playerCast").textContent =
+    movie.cast && movie.cast.length ? "Mit: " + movie.cast.join(", ") : "";
+
+  const crewParts = [];
+  if (movie.director && movie.director.length) crewParts.push("Regie: " + movie.director.join(", "));
+  if (movie.writer && movie.writer.length) crewParts.push("Drehbuch: " + movie.writer.join(", "));
+  document.getElementById("playerCrew").textContent = crewParts.join(" · ");
+
+  renderSimilar(movie);
 
   const favBtn = document.getElementById("playerFav");
   const wl = getWatchlist();
@@ -371,6 +443,46 @@ function openPlayer(movie) {
 function closePlayer() {
   document.getElementById("overlay").classList.remove("open");
   document.getElementById("player").src = ""; // Video stoppen
+}
+
+// Einfache, schnelle Empfehlung: gleiche Genres, mehr gemeinsame Genres
+// zuerst, bei Gleichstand höhere Bewertung zuerst. Rein client-seitig,
+// keine zusätzlichen Anfragen nötig, weil alle Filmdaten schon geladen sind.
+function getSimilarMovies(movie, count) {
+  const genreSet = new Set(movie.genreIds || []);
+  if (genreSet.size === 0) return [];
+
+  return allMovies
+    .filter(m => m.tmdbId !== movie.tmdbId)
+    .map(m => ({ m, shared: (m.genreIds || []).filter(id => genreSet.has(id)).length }))
+    .filter(x => x.shared > 0)
+    .sort((a, b) => b.shared - a.shared || (b.m.voteAverage || 0) - (a.m.voteAverage || 0))
+    .slice(0, count)
+    .map(x => x.m);
+}
+
+function renderSimilar(movie) {
+  const container = document.getElementById("playerSimilar");
+  const similar = getSimilarMovies(movie, 3);
+
+  if (similar.length === 0) {
+    container.innerHTML = "";
+    return;
+  }
+
+  container.innerHTML = `<h4>Ähnliche Filme</h4>` + similar.map(m => `
+    <div class="similar-card" data-id="${m.tmdbId}">
+      ${posterHtml(m)}
+      <div class="similar-title">${escapeHtml(m.title)}</div>
+    </div>
+  `).join("");
+
+  container.querySelectorAll(".similar-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const id = parseInt(card.dataset.id);
+      openPlayer(allMovies.find(m => m.tmdbId === id));
+    });
+  });
 }
 
 let lastFiltered = [];
@@ -471,12 +583,14 @@ fetch(FILME_URL)
   })
   .then(data => {
     allMovies = data;
-    // Genre-Namen pro Film vorberechnen -- einmal hier, statt bei jeder
-    // Suche neu, und als eigenes Suchfeld nutzbar (z.B. "Drama" eintippen)
-    allMovies.forEach(m => { m.genreText = (m.genreIds || []).map(id => GENRES[id]).filter(Boolean).join(" "); });
+    // Genre-Namen und Cast pro Film vorberechnen -- einmal hier statt bei
+    // jeder Suche neu, und als eigene Suchfelder nutzbar
+    allMovies.forEach(m => {
+      m.genreText = (m.genreIds || []).map(id => GENRES[id]).filter(Boolean).join(" ");
+    });
 
     lastFiltered = data;
-    fuse = new Fuse(allMovies, { keys: ["title", "originalTitle", "genreText"], threshold: 0.3 });
+    fuse = new Fuse(allMovies, { keys: ["title", "originalTitle", "genreText", "cast", "director", "writer"], threshold: 0.3 });
 
     populateGenreFilter(allMovies);
     document.getElementById("status").style.display = "none";

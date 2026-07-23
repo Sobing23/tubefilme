@@ -159,6 +159,8 @@
   <div class="tabs">
     <div class="tab active" data-tab="unmatched">Unmatched (<span id="countUnmatched">–</span>)</div>
     <div class="tab" data-tab="niedrig">Niedrig-Konfidenz (<span id="countNiedrig">–</span>)</div>
+    <div class="tab" data-tab="alle">Alle Filme / Löschen</div>
+    <div class="tab" data-tab="kanaele">Kanäle</div>
   </div>
 
   <main>
@@ -169,6 +171,15 @@
     <div class="panel" id="panel-niedrig">
       <div id="count-niedrig" class="count-line">Lade...</div>
       <div id="list-niedrig"></div>
+    </div>
+    <div class="panel" id="panel-alle">
+      <div id="count-alle" class="count-line">Filme durchsuchen, um zu löschen (z.B. Titel eintippen)</div>
+      <input type="text" id="searchAlle" placeholder="Filmtitel suchen..." style="width:100%; padding:10px 12px; border-radius:8px; border:1px solid #333; background:#1a1a1a; color:var(--text); font-size:14px; margin-bottom:14px;">
+      <div id="list-alle"></div>
+    </div>
+    <div class="panel" id="panel-kanaele">
+      <div id="count-kanaele" class="count-line">Lade...</div>
+      <div id="list-kanaele"></div>
     </div>
   </main>
 </div>
@@ -184,6 +195,7 @@ const TOKEN_KEY = "tubefilme_review_token";
 let token = localStorage.getItem(TOKEN_KEY);
 let candidatesById = new Map();
 let reviewedSet = new Set();
+let allFilme = []; // für den "Alle Filme"-Tab
 
 // -- Auth-Gate --
 document.getElementById("tokenSave").addEventListener("click", () => {
@@ -272,18 +284,21 @@ function parseTmdbId(input) {
 async function loadAll() {
   document.getElementById("count-unmatched").textContent = "Lade...";
   document.getElementById("count-niedrig").textContent = "Lade...";
+  document.getElementById("count-kanaele").textContent = "Lade...";
 
-  const [unmatched, filme, candidates, reviewed, ignored] = await Promise.all([
+  const [unmatched, filme, candidates, reviewed, ignored, channels] = await Promise.all([
     fetchJson(`${RAW_BASE}/data/unmatched.json`),
     fetchJson(`${RAW_BASE}/data/filme.json`),
     fetchJson(`${RAW_BASE}/data/candidates.json`),
     fetchJson(`${RAW_BASE}/data/reviewed.json`).catch(() => []),
     fetchJson(`${RAW_BASE}/data/ignored.json`).catch(() => []),
+    fetchJson(`${RAW_BASE}/config/channels.json`).catch(() => ({ channels: [] })),
   ]);
 
   candidatesById = new Map(candidates.map(c => [c.videoId, c]));
   reviewedSet = new Set(reviewed);
   const ignoredSet = new Set(ignored);
+  allFilme = filme;
 
   const unmatchedFiltered = unmatched.filter(u => !ignoredSet.has(u.videoId));
   const niedrig = filme.filter(m => m.matchConfidence === "niedrig" && !reviewedSet.has(m.videoId));
@@ -295,6 +310,73 @@ async function loadAll() {
 
   renderUnmatched(unmatchedFiltered);
   renderNiedrig(niedrig);
+  renderKanaele(channels.channels || [], filme);
+}
+
+function renderKanaele(channels, filme) {
+  const counts = new Map();
+  filme.forEach(m => counts.set(m.channelName, (counts.get(m.channelName) || 0) + 1));
+
+  const sorted = [...channels].sort((a, b) => a.name.localeCompare(b.name, "de"));
+  document.getElementById("count-kanaele").textContent = `${sorted.length} Kanäle konfiguriert`;
+  document.getElementById("list-kanaele").innerHTML = sorted.map(c => `
+    <div class="card" style="grid-template-columns: 1fr;">
+      <div>
+        <h3>${escapeHtml(c.name)}</h3>
+        <div class="meta">
+          <b>Channel-ID:</b> ${escapeHtml(c.channelId)} ·
+          <b>Filme in der Bibliothek:</b> ${counts.get(c.name) || 0}
+        </div>
+      </div>
+    </div>
+  `).join("");
+}
+
+document.getElementById("searchAlle").addEventListener("input", (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  const list = document.getElementById("list-alle");
+  if (q.length < 2) {
+    list.innerHTML = "";
+    document.getElementById("count-alle").textContent = "Filme durchsuchen, um zu löschen (z.B. Titel eintippen)";
+    return;
+  }
+  const results = allFilme.filter(m => m.title.toLowerCase().includes(q) || (m.youtubeTitle||"").toLowerCase().includes(q)).slice(0, 30);
+  document.getElementById("count-alle").textContent = `${results.length} Treffer (max. 30 angezeigt)`;
+  list.innerHTML = results.map(m => `
+    <div class="card" id="card-al-${m.videoId}">
+      <img src="${m.posterUrl || ''}" loading="lazy" alt="">
+      <div>
+        <h3>${escapeHtml(m.title)} (${(m.releaseDate||"").slice(0,4)})</h3>
+        <div class="meta">
+          <b>YouTube-Titel:</b> ${escapeHtml(m.youtubeTitle)}<br>
+          <b>Kanal:</b> ${escapeHtml(m.channelName)} · <b>Konfidenz:</b> ${escapeHtml(m.matchConfidence)}
+        </div>
+        <div class="row">
+          <button class="danger" onclick="deleteMovie('${m.videoId}', 'al-${m.videoId}')">Löschen</button>
+        </div>
+        <div class="status" id="status-al-${m.videoId}"></div>
+      </div>
+    </div>
+  `).join("");
+});
+
+async function deleteMovie(videoId, cardSuffix) {
+  const statusEl = document.getElementById(`status-${cardSuffix}`);
+  if (statusEl) { statusEl.textContent = "Lösche..."; statusEl.className = "status"; }
+  try {
+    const fm = await ghGetFile("data/filme.json");
+    const filtered = fm.content.filter(m => m.videoId !== videoId);
+    await ghPutFile("data/filme.json", filtered, fm.sha, `Film gelöscht über Review-Seite: ${videoId}`);
+
+    const ig = await ghGetFile("data/ignored.json");
+    if (!ig.content.includes(videoId)) ig.content.push(videoId);
+    await ghPutFile("data/ignored.json", ig.content, ig.sha, `Als gelöscht markiert (nie wieder automatisch zuordnen): ${videoId}`);
+
+    if (statusEl) { statusEl.textContent = "Gelöscht."; statusEl.className = "status ok"; }
+    document.getElementById(`card-${cardSuffix}`)?.classList.add("done");
+  } catch (err) {
+    if (statusEl) { statusEl.textContent = "Fehler: " + err.message; statusEl.className = "status err"; }
+  }
 }
 
 async function fetchJson(url) {
@@ -417,6 +499,7 @@ function renderNiedrig(items) {
             <input type="text" placeholder="Korrekte TMDB-ID oder Link" id="input-nk-${m.videoId}">
             <button class="primary" onclick="correctNiedrig('${m.videoId}')">Korrigieren</button>
             <button onclick="confirmNiedrig('${m.videoId}')">Sieht korrekt aus</button>
+            <button class="danger" onclick="deleteMovie('${m.videoId}', 'nk-${m.videoId}')">Löschen</button>
           </div>
           <div class="status" id="status-nk-${m.videoId}"></div>
         </div>
