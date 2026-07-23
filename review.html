@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>tubefilme – Review (privat)</title>
+<style>
+  :root {
+    --bg: #121212;
+    --bg-card: #1e1e1e;
+    --text: #f2f2f2;
+    --text-dim: #9a9a9a;
+    --accent: #e5533c;
+    --ok: #4caf7d;
+    --warn: #e5b73c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    padding-bottom: 80px;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+    padding: 16px 20px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  header h1 { font-size: 20px; margin: 0 0 4px 0; }
+  header h1 span { color: var(--accent); }
+  header .warning {
+    font-size: 12px;
+    color: var(--warn);
+  }
+  .tabs {
+    display: flex;
+    gap: 8px;
+    padding: 14px 20px 0 20px;
+  }
+  .tab {
+    padding: 10px 16px;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #333;
+    border-bottom: none;
+    background: #1a1a1a;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .tab.active { background: var(--bg-card); color: var(--text); border-color: var(--accent); }
+
+  main { padding: 20px; max-width: 1100px; margin: 0 auto; }
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  #gate {
+    max-width: 480px;
+    margin: 80px auto;
+    padding: 24px;
+    background: var(--bg-card);
+    border-radius: 12px;
+  }
+  #gate h2 { margin-top: 0; }
+  #gate p { color: var(--text-dim); font-size: 14px; line-height: 1.5; }
+  #gate input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: var(--text);
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  button {
+    padding: 9px 14px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 13px;
+  }
+  button:hover { border-color: var(--accent); }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  button.primary { background: var(--accent); border-color: var(--accent); }
+  button.danger { border-color: #7a3b33; }
+
+  .card {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 14px;
+    background: var(--bg-card);
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 12px;
+  }
+  .card img {
+    width: 90px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-radius: 6px;
+    background: #222;
+  }
+  .card h3 { margin: 0 0 4px 0; font-size: 15px; }
+  .card .meta { color: var(--text-dim); font-size: 12px; margin-bottom: 8px; line-height: 1.5; }
+  .card .meta b { color: var(--text); }
+  .card .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+  .card input[type="text"] {
+    flex: 1;
+    min-width: 160px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: var(--text);
+    font-size: 13px;
+  }
+  .card .status { font-size: 12px; margin-top: 6px; }
+  .card .status.ok { color: var(--ok); }
+  .card .status.err { color: var(--accent); }
+  .card.done { opacity: 0.4; }
+
+  #count { color: var(--text-dim); font-size: 13px; margin-bottom: 14px; }
+  #tokenBar { font-size: 12px; color: var(--text-dim); padding: 14px 20px 0 20px; }
+  #tokenBar button { font-size: 11px; padding: 4px 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>tube<span>filme</span> – Review (privat)</h1>
+  <div class="warning">Nicht verlinkt, nicht für die Öffentlichkeit gedacht. Änderungen committen direkt ins Repo.</div>
+</header>
+
+<div id="gate">
+  <h2>GitHub-Token</h2>
+  <p>
+    Zum Speichern von Korrekturen braucht diese Seite einen GitHub-Token mit Schreibrecht auf das
+    <code>tubefilme</code>-Repo. Am besten ein <b>fine-grained Token</b>, beschränkt auf genau dieses Repo,
+    nur mit "Contents: Read and write"-Berechtigung. Der Token bleibt ausschließlich in deinem Browser
+    (localStorage) und wird nirgendwo sonst hingeschickt außer direkt an die GitHub-API.
+  </p>
+  <input type="password" id="tokenInput" placeholder="ghp_... oder github_pat_...">
+  <button class="primary" id="tokenSave">Speichern & starten</button>
+</div>
+
+<div id="app" style="display:none;">
+  <div id="tokenBar">
+    Token gespeichert. <button id="tokenClear">Token ändern</button>
+    <button id="reloadBtn">Daten neu laden</button>
+  </div>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="unmatched">Unmatched (<span id="countUnmatched">–</span>)</div>
+    <div class="tab" data-tab="niedrig">Niedrig-Konfidenz (<span id="countNiedrig">–</span>)</div>
+  </div>
+
+  <main>
+    <div class="panel active" id="panel-unmatched">
+      <div id="count-unmatched" class="count-line">Lade...</div>
+      <div id="list-unmatched"></div>
+    </div>
+    <div class="panel" id="panel-niedrig">
+      <div id="count-niedrig" class="count-line">Lade...</div>
+      <div id="list-niedrig"></div>
+    </div>
+  </main>
+</div>
+
+<script>
+const OWNER = "Sobing23";
+const REPO = "tubefilme";
+const BRANCH = "main";
+const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}`;
+const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
+const TOKEN_KEY = "tubefilme_review_token";
+
+let token = localStorage.getItem(TOKEN_KEY);
+let candidatesById = new Map();
+let reviewedSet = new Set();
+
+// -- Auth-Gate --
+document.getElementById("tokenSave").addEventListener("click", () => {
+  const val = document.getElementById("tokenInput").value.trim();
+  if (!val) return;
+  localStorage.setItem(TOKEN_KEY, val);
+  token = val;
+  boot();
+});
+document.getElementById("tokenClear")?.addEventListener("click", () => {
+  localStorage.removeItem(TOKEN_KEY);
+  location.reload();
+});
+
+if (token) {
+  boot();
+}
+
+function boot() {
+  document.getElementById("gate").style.display = "none";
+  document.getElementById("app").style.display = "block";
+  loadAll();
+}
+
+document.getElementById("reloadBtn")?.addEventListener("click", loadAll);
+
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById("panel-" + tab.dataset.tab).classList.add("active");
+  });
+});
+
+// -- GitHub Contents API Helper --
+// Base64<->UTF8 sicher, weil btoa/atob nur Latin1 können
+function b64EncodeUtf8(str) {
+  return btoa(unescape(encodeURIComponent(str)));
+}
+function b64DecodeUtf8(str) {
+  return decodeURIComponent(escape(atob(str)));
+}
+
+async function ghGetFile(path) {
+  const res = await fetch(`${API_BASE}/${path}?ref=${BRANCH}&t=${Date.now()}`, {
+    headers: { Authorization: `token ${token}`, Accept: "application/vnd.github+json" },
+  });
+  if (!res.ok) throw new Error(`GitHub GET ${path}: ${res.status}`);
+  const json = await res.json();
+  const content = JSON.parse(b64DecodeUtf8(json.content));
+  return { content, sha: json.sha };
+}
+
+async function ghPutFile(path, dataObj, sha, message) {
+  const res = await fetch(`${API_BASE}/${path}`, {
+    method: "PUT",
+    headers: {
+      Authorization: `token ${token}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      message,
+      content: b64EncodeUtf8(JSON.stringify(dataObj, null, 2)),
+      sha,
+      branch: BRANCH,
+    }),
+  });
+  if (!res.ok) {
+    const errText = await res.text();
+    throw new Error(`GitHub PUT ${path}: ${res.status} ${errText}`);
+  }
+  return res.json();
+}
+
+function parseTmdbId(input) {
+  const trimmed = input.trim();
+  const urlMatch = trimmed.match(/\/movie\/(\d+)/);
+  if (urlMatch) return parseInt(urlMatch[1], 10);
+  if (/^\d+$/.test(trimmed)) return parseInt(trimmed, 10);
+  return null;
+}
+
+// -- Daten laden (lesend über raw.githubusercontent, schnell & ohne Rate-Limit) --
+async function loadAll() {
+  document.getElementById("count-unmatched").textContent = "Lade...";
+  document.getElementById("count-niedrig").textContent = "Lade...";
+
+  const [unmatched, filme, candidates, reviewed, ignored] = await Promise.all([
+    fetchJson(`${RAW_BASE}/data/unmatched.json`),
+    fetchJson(`${RAW_BASE}/data/filme.json`),
+    fetchJson(`${RAW_BASE}/data/candidates.json`),
+    fetchJson(`${RAW_BASE}/data/reviewed.json`).catch(() => []),
+    fetchJson(`${RAW_BASE}/data/ignored.json`).catch(() => []),
+  ]);
+
+  candidatesById = new Map(candidates.map(c => [c.videoId, c]));
+  reviewedSet = new Set(reviewed);
+  const ignoredSet = new Set(ignored);
+
+  const unmatchedFiltered = unmatched.filter(u => !ignoredSet.has(u.videoId));
+  const niedrig = filme.filter(m => m.matchConfidence === "niedrig" && !reviewedSet.has(m.videoId));
+
+  document.getElementById("countUnmatched").textContent = unmatchedFiltered.length;
+  document.getElementById("countNiedrig").textContent = niedrig.length;
+  document.getElementById("count-unmatched").textContent = `${unmatchedFiltered.length} offen`;
+  document.getElementById("count-niedrig").textContent = `${niedrig.length} offen`;
+
+  renderUnmatched(unmatchedFiltered);
+  renderNiedrig(niedrig);
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now());
+  if (!res.ok) throw new Error(`Laden fehlgeschlagen: ${url}`);
+  return res.json();
+}
+
+function escapeHtml(s) {
+  return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+// -- Unmatched-Tab --
+function renderUnmatched(items) {
+  const list = document.getElementById("list-unmatched");
+  list.innerHTML = items.map(u => {
+    const cand = candidatesById.get(u.videoId);
+    const thumb = cand?.thumbnail || "";
+    const channel = cand?.channelName || "?";
+    const searchQuery = encodeURIComponent(u.suchbegriff || u.youtubeTitle);
+    return `
+      <div class="card" id="card-um-${u.videoId}">
+        <img src="${thumb}" loading="lazy" alt="">
+        <div>
+          <h3>${escapeHtml(u.youtubeTitle)}</h3>
+          <div class="meta">
+            <b>Kanal:</b> ${escapeHtml(channel)} ·
+            <b>Suchbegriff:</b> ${escapeHtml(u.suchbegriff || "–")} ·
+            <b>Jahr:</b> ${u.erwartetesJahr || "–"}<br>
+            <b>Grund:</b> ${escapeHtml(u.grund)}
+            ${u.tmdbTopKandidat ? `<br><b>TMDB-Top-Kandidat war:</b> ${escapeHtml(u.tmdbTopKandidat.title)} (${(u.tmdbTopKandidat.release_date||"").slice(0,4)})` : ""}
+          </div>
+          <div class="row">
+            <a href="https://www.themoviedb.org/search?query=${searchQuery}" target="_blank" rel="noopener">
+              <button type="button">Bei TMDB suchen ↗</button>
+            </a>
+            <input type="text" placeholder="TMDB-ID oder Link einfügen" id="input-um-${u.videoId}">
+            <button class="primary" onclick="assignUnmatched('${u.videoId}')">Zuordnen</button>
+            <button class="danger" onclick="ignoreUnmatched('${u.videoId}')">Nicht auffindbar</button>
+          </div>
+          <div class="status" id="status-um-${u.videoId}"></div>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+async function assignUnmatched(videoId) {
+  const input = document.getElementById(`input-um-${videoId}`);
+  const tmdbId = parseTmdbId(input.value);
+  const statusEl = document.getElementById(`status-um-${videoId}`);
+  if (!tmdbId) {
+    statusEl.textContent = "Bitte eine gültige TMDB-ID oder einen TMDB-Link einfügen.";
+    statusEl.className = "status err";
+    return;
+  }
+
+  statusEl.textContent = "Speichere...";
+  statusEl.className = "status";
+  try {
+    const mm = await ghGetFile("data/manual-matches.json");
+    mm.content[videoId] = tmdbId;
+    await ghPutFile("data/manual-matches.json", mm.content, mm.sha, `Manuelle Zuordnung: ${videoId} -> ${tmdbId}`);
+
+    const um = await ghGetFile("data/unmatched.json");
+    const filtered = um.content.filter(u => u.videoId !== videoId);
+    await ghPutFile("data/unmatched.json", filtered, um.sha, `Aus unmatched entfernt (manuell zugeordnet): ${videoId}`);
+
+    statusEl.textContent = "Gespeichert. Wird beim nächsten Lauf übernommen.";
+    statusEl.className = "status ok";
+    document.getElementById(`card-um-${videoId}`).classList.add("done");
+  } catch (err) {
+    statusEl.textContent = "Fehler: " + err.message;
+    statusEl.className = "status err";
+  }
+}
+
+async function ignoreUnmatched(videoId) {
+  const statusEl = document.getElementById(`status-um-${videoId}`);
+  statusEl.textContent = "Speichere...";
+  statusEl.className = "status";
+  try {
+    const ig = await ghGetFile("data/ignored.json");
+    if (!ig.content.includes(videoId)) ig.content.push(videoId);
+    await ghPutFile("data/ignored.json", ig.content, ig.sha, `Als nicht auffindbar markiert: ${videoId}`);
+
+    const um = await ghGetFile("data/unmatched.json");
+    const filtered = um.content.filter(u => u.videoId !== videoId);
+    await ghPutFile("data/unmatched.json", filtered, um.sha, `Aus unmatched entfernt (ignoriert): ${videoId}`);
+
+    statusEl.textContent = "Als nicht auffindbar markiert.";
+    statusEl.className = "status ok";
+    document.getElementById(`card-um-${videoId}`).classList.add("done");
+  } catch (err) {
+    statusEl.textContent = "Fehler: " + err.message;
+    statusEl.className = "status err";
+  }
+}
+
+// -- Niedrig-Konfidenz-Tab --
+function renderNiedrig(items) {
+  const list = document.getElementById("list-niedrig");
+  list.innerHTML = items.map(m => {
+    const searchQuery = encodeURIComponent(m.title);
+    return `
+      <div class="card" id="card-nk-${m.videoId}">
+        <img src="${m.posterUrl || ''}" loading="lazy" alt="">
+        <div>
+          <h3>${escapeHtml(m.title)} (${(m.releaseDate||"").slice(0,4)})</h3>
+          <div class="meta">
+            <b>YouTube-Titel:</b> ${escapeHtml(m.youtubeTitle)}<br>
+            <b>Kanal:</b> ${escapeHtml(m.channelName)} ·
+            <b>Quelle:</b> ${escapeHtml(m.matchSource)}
+            ${m.hinweis ? `<br><b>Hinweis:</b> ${escapeHtml(m.hinweis)}` : ""}
+          </div>
+          <div class="row">
+            <a href="https://www.themoviedb.org/search?query=${searchQuery}" target="_blank" rel="noopener">
+              <button type="button">Bei TMDB suchen ↗</button>
+            </a>
+            <input type="text" placeholder="Korrekte TMDB-ID oder Link" id="input-nk-${m.videoId}">
+            <button class="primary" onclick="correctNiedrig('${m.videoId}')">Korrigieren</button>
+            <button onclick="confirmNiedrig('${m.videoId}')">Sieht korrekt aus</button>
+          </div>
+          <div class="status" id="status-nk-${m.videoId}"></div>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+async function correctNiedrig(videoId) {
+  const input = document.getElementById(`input-nk-${videoId}`);
+  const tmdbId = parseTmdbId(input.value);
+  const statusEl = document.getElementById(`status-nk-${videoId}`);
+  if (!tmdbId) {
+    statusEl.textContent = "Bitte eine gültige TMDB-ID oder einen TMDB-Link einfügen.";
+    statusEl.className = "status err";
+    return;
+  }
+
+  statusEl.textContent = "Speichere...";
+  statusEl.className = "status";
+  try {
+    const mm = await ghGetFile("data/manual-matches.json");
+    mm.content[videoId] = tmdbId;
+    await ghPutFile("data/manual-matches.json", mm.content, mm.sha, `Korrektur: ${videoId} -> ${tmdbId}`);
+
+    statusEl.textContent = "Gespeichert. Wird beim nächsten Lauf übernommen.";
+    statusEl.className = "status ok";
+    document.getElementById(`card-nk-${videoId}`).classList.add("done");
+  } catch (err) {
+    statusEl.textContent = "Fehler: " + err.message;
+    statusEl.className = "status err";
+  }
+}
+
+async function confirmNiedrig(videoId) {
+  const statusEl = document.getElementById(`status-nk-${videoId}`);
+  statusEl.textContent = "Speichere...";
+  statusEl.className = "status";
+  try {
+    const rv = await ghGetFile("data/reviewed.json");
+    if (!rv.content.includes(videoId)) rv.content.push(videoId);
+    await ghPutFile("data/reviewed.json", rv.content, rv.sha, `Als geprüft markiert: ${videoId}`);
+
+    statusEl.textContent = "Als geprüft markiert.";
+    statusEl.className = "status ok";
+    document.getElementById(`card-nk-${videoId}`).classList.add("done");
+  } catch (err) {
+    statusEl.textContent = "Fehler: " + err.message;
+    statusEl.className = "status err";
+  }
+}
+</script>
+
+</body>
+</html>
