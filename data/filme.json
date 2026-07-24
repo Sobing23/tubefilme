@@ -21794,42 +21794,6 @@
     "fsk": null
   },
   {
-    "videoId": "SPGPA1W06do",
-    "youtubeTitle": "Wolf - Er wird dich holen (GANZER HORRORFILM auf Deutsch, Historische Horrorfilme, ganzer Film neu)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/SPGPA1W06do/hqdefault.jpg",
-    "duration": "PT1H25M2S",
-    "publishedAt": "2025-02-12T18:00:20Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 689071,
-    "title": "Cedar Wolf",
-    "originalTitle": "Cedar Wolf",
-    "overview": "",
-    "releaseDate": "2019-05-11",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/2IQIZlsOfIhIT42bI2WXa8YI4tv.jpg",
-    "backdropUrl": null,
-    "voteAverage": 5,
-    "genreIds": [
-      18
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "posterLocal": "img/posters/689071.jpg",
-    "hinweis": "Kurze/generische Suchanfrage ohne exakten Titel-Treffer bei TMDB -- bitte bei Gelegenheit prüfen",
-    "cast": [
-      "Mahdi Karimi",
-      "Άρης Σερβετάλης",
-      "Νίκος Φλέσσας"
-    ],
-    "director": [
-      "Sofia Georgovassili"
-    ],
-    "writer": [
-      "Sofia Georgovassili"
-    ],
-    "fsk": null
-  },
-  {
     "videoId": "6DXsBEa44no",
     "youtubeTitle": "Dark Mutants - Out of Control (PSYCHOTHRILLER ganzer Film Deutsch, Thriller Filme Deutsch komplett)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/6DXsBEa44no/hqdefault.jpg",
@@ -79445,5 +79409,120 @@
     "writer": [],
     "fsk": "16",
     "posterLocal": "img/posters/391773.jpg"
+  },
+  {
+    "videoId": "SPGPA1W06do",
+    "youtubeTitle": "Wolf - Er wird dich holen (GANZER HORRORFILM auf Deutsch, Historische Horrorfilme, ganzer Film neu)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SPGPA1W06do/hqdefault.jpg",
+    "duration": "PT1H25M2S",
+    "publishedAt": "2025-02-12T18:00:20Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 549773,
+    "title": "Wolf - Er wird dich holen",
+    "originalTitle": "Wolf",
+    "overview": "Bei einer Friedensmission ins pestgeplagte Kaledonien, dem heutigen Schottland, verschwinden vier Boten des römischen Reichs. Um sie wiederzufinden, entsendet Rom zehn seiner besten Soldaten in die unwirtliche Winterlandschaft nördlich des Hadrianswalls. Doch dort stehen die tapferen Krieger bald einem Gegner gegenüber, der weitaus gefährlicher ist als die Pest oder marodierende Söldner. Einer nach dem anderen fällt dem Grauen aus den Wäldern zum Opfer ...",
+    "releaseDate": "2019-09-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sToENynDXVJmGNcbOjsy7zNK6Ld.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dz8gnU8GgTZUwoIfJqorOEXg8lq.jpg",
+    "voteAverage": 4.38,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Stuart Brennan",
+      "Mark Paul Wake",
+      "George McCluskey",
+      "Victoria Morrison",
+      "Adanna Oji"
+    ],
+    "director": [
+      "Stuart Brennan"
+    ],
+    "writer": [
+      "Stuart Brennan",
+      "George McCluskey"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/549773.jpg"
+  },
+  {
+    "videoId": "kT2WdPaBfwM",
+    "youtubeTitle": "Die Mädchen von Tanner Hall (COMING OF AGE mit BRIE LARSON & ROONEY MARA Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kT2WdPaBfwM/hqdefault.jpg",
+    "duration": "PT1H30M30S",
+    "publishedAt": "2026-07-24T17:00:15Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 71866,
+    "title": "Die Mädchen von Tanner Hall",
+    "originalTitle": "Tanner Hall",
+    "overview": "An der noblen Damenprivatschule Tanner Hall sind Fernanda, Lucasta und Kate die dicksten Freundinnen der Welt. Jedenfalls schien es so, bis im neuen und letzten Schuljahr Fernandas alte Jugendfreundin Victoria hinzu stieß. Von der sie sich einst im Streit trennte. Victoria umgarnt im Nu Fernandas beste Freundinnen und manipuliert jede in ihrem Sinne. Unterdessen sammeln die Mädchen unterschiedlich dramatische Sexerfahrungen. Kate mit dem Lehrkörper, Fernanda mit einem verheirateten Mann.",
+    "releaseDate": "2011-09-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/54sKyXzEB1zm2ZyhZEDTkMJI1Jh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ceqx5sLqBlLqskux7pjtnJnK8NM.jpg",
+    "voteAverage": 5.55,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Jahr weicht ab: erwartet 2009, TMDB 2011",
+    "cast": [
+      "Rooney Mara",
+      "Georgia King",
+      "Brie Larson",
+      "Amy Ferguson",
+      "Tom Everett Scott"
+    ],
+    "director": [
+      "Francesca Gregorini",
+      "Tatiana von Fürstenberg"
+    ],
+    "writer": [
+      "Tatiana von Fürstenberg",
+      "Francesca Gregorini"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/71866.jpg"
+  },
+  {
+    "videoId": "cg3deEuV_Bc",
+    "youtubeTitle": "Hände weg von meiner Tochter - She's Out of Control (1989) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cg3deEuV_Bc/hqdefault.jpg",
+    "duration": "PT1H34M40S",
+    "publishedAt": "2026-07-24T14:00:26Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 47045,
+    "title": "Hände weg von meiner Tochter",
+    "originalTitle": "She's Out of Control",
+    "overview": "Doug Simpson, erfolgreicher Manager einer Radiostation, muß mit einem Schlag wahrnehmen, daß seine Tochter Katie kein Kind mehr ist. Zunächst versucht er durch totale Kontrolle Katies Verabredungen zu unterbinden. Dann folgt er dem Rat des Psychologen Fishbinder, der ihm empfiehlt, sich mit Katies Verehrern anzufreunden, um sie in Katies Augen unattraktiv zu machen. Fishbinders Weisheiten treiben den geplagten Vater schließlich zur Raserei und lassen ihn um ein Haar endgültig das Vertrauen seiner Tochter verlieren.",
+    "releaseDate": "1989-04-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vaqtSEgcfx5fXMMijdeNB3XGeal.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sS5DVCBBN59SC7SUbIl9KbwIUm4.jpg",
+    "voteAverage": 5.246,
+    "genreIds": [
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "cast": [
+      "Tony Danza",
+      "Catherine Hicks",
+      "Wallace Shawn",
+      "Dick O'Neill",
+      "Ami Dolenz"
+    ],
+    "director": [
+      "Stan Dragoti"
+    ],
+    "writer": [
+      "Michael J. Nathanson",
+      "Seth Winston"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/47045.jpg"
   }
 ]
