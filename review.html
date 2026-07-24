@@ -308,9 +308,30 @@ async function ghPutFile(path, dataObj, sha, message) {
   });
   if (!res.ok) {
     const errText = await res.text();
-    throw new Error(`GitHub PUT ${path}: ${res.status} ${errText}`);
+    const err = new Error(`GitHub PUT ${path}: ${res.status} ${errText}`);
+    err.status = res.status;
+    throw err;
   }
   return res.json();
+}
+
+// Führt eine Lese-Ändere-Schreibe-Operation robust aus. Bei einem 409-Konflikt
+// (Datei wurde seit dem Lesen anderweitig geändert -- z.B. weil GitHub direkt
+// nach einem vorherigen Schreibvorgang kurzzeitig noch keinen ganz frischen
+// Stand zurückgibt) wird automatisch neu gelesen und der Schreibvorgang
+// wiederholt, statt einen Fehler anzuzeigen.
+async function ghUpdateFile(path, mutateFn, message, retries = 3) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const file = await ghGetFile(path);
+    const newContent = mutateFn(file.content);
+    try {
+      return await ghPutFile(path, newContent, file.sha, message);
+    } catch (err) {
+      const isConflict = err.status === 409;
+      if (!isConflict || attempt === retries) throw err;
+      await new Promise((resolve) => setTimeout(resolve, 400 * (attempt + 1)));
+    }
+  }
 }
 
 function parseTmdbId(input) {
@@ -407,11 +428,12 @@ async function setFsk(videoId) {
   statusEl.textContent = "Speichere...";
   statusEl.className = "status";
   try {
-    const fm = await ghGetFile("data/filme.json");
-    const movie = fm.content.find(m => m.videoId === videoId);
-    if (!movie) throw new Error("Film nicht mehr in filme.json gefunden.");
-    movie.fsk = value;
-    await ghPutFile("data/filme.json", fm.content, fm.sha, `FSK nachgetragen: ${videoId} -> FSK ${value}`);
+    await ghUpdateFile("data/filme.json", (content) => {
+      const movie = content.find(m => m.videoId === videoId);
+      if (!movie) throw new Error("Film nicht mehr in filme.json gefunden.");
+      movie.fsk = value;
+      return content;
+    }, `FSK nachgetragen: ${videoId} -> FSK ${value}`);
 
     statusEl.textContent = `Gespeichert: FSK ${value}.`;
     statusEl.className = "status ok";
@@ -473,13 +495,12 @@ async function deleteMovie(videoId, cardSuffix) {
   const statusEl = document.getElementById(`status-${cardSuffix}`);
   if (statusEl) { statusEl.textContent = "Lösche..."; statusEl.className = "status"; }
   try {
-    const fm = await ghGetFile("data/filme.json");
-    const filtered = fm.content.filter(m => m.videoId !== videoId);
-    await ghPutFile("data/filme.json", filtered, fm.sha, `Film gelöscht über Review-Seite: ${videoId}`);
+    await ghUpdateFile("data/filme.json", (content) => content.filter(m => m.videoId !== videoId), `Film gelöscht über Review-Seite: ${videoId}`);
 
-    const ig = await ghGetFile("data/ignored.json");
-    if (!ig.content.includes(videoId)) ig.content.push(videoId);
-    await ghPutFile("data/ignored.json", ig.content, ig.sha, `Als gelöscht markiert (nie wieder automatisch zuordnen): ${videoId}`);
+    await ghUpdateFile("data/ignored.json", (content) => {
+      if (!content.includes(videoId)) content.push(videoId);
+      return content;
+    }, `Als gelöscht markiert (nie wieder automatisch zuordnen): ${videoId}`);
 
     if (statusEl) { statusEl.textContent = "Gelöscht."; statusEl.className = "status ok"; }
     document.getElementById(`card-${cardSuffix}`)?.classList.add("done");
@@ -541,13 +562,12 @@ async function assignUnmatched(videoId) {
   statusEl.textContent = "Speichere...";
   statusEl.className = "status";
   try {
-    const mm = await ghGetFile("data/manual-matches.json");
-    mm.content[videoId] = tmdbId;
-    await ghPutFile("data/manual-matches.json", mm.content, mm.sha, `Manuelle Zuordnung: ${videoId} -> ${tmdbId}`);
+    await ghUpdateFile("data/manual-matches.json", (content) => {
+      content[videoId] = tmdbId;
+      return content;
+    }, `Manuelle Zuordnung: ${videoId} -> ${tmdbId}`);
 
-    const um = await ghGetFile("data/unmatched.json");
-    const filtered = um.content.filter(u => u.videoId !== videoId);
-    await ghPutFile("data/unmatched.json", filtered, um.sha, `Aus unmatched entfernt (manuell zugeordnet): ${videoId}`);
+    await ghUpdateFile("data/unmatched.json", (content) => content.filter(u => u.videoId !== videoId), `Aus unmatched entfernt (manuell zugeordnet): ${videoId}`);
 
     statusEl.textContent = "Gespeichert. Wird beim nächsten Lauf übernommen.";
     statusEl.className = "status ok";
@@ -563,13 +583,12 @@ async function ignoreUnmatched(videoId) {
   statusEl.textContent = "Speichere...";
   statusEl.className = "status";
   try {
-    const ig = await ghGetFile("data/ignored.json");
-    if (!ig.content.includes(videoId)) ig.content.push(videoId);
-    await ghPutFile("data/ignored.json", ig.content, ig.sha, `Als nicht auffindbar markiert: ${videoId}`);
+    await ghUpdateFile("data/ignored.json", (content) => {
+      if (!content.includes(videoId)) content.push(videoId);
+      return content;
+    }, `Als nicht auffindbar markiert: ${videoId}`);
 
-    const um = await ghGetFile("data/unmatched.json");
-    const filtered = um.content.filter(u => u.videoId !== videoId);
-    await ghPutFile("data/unmatched.json", filtered, um.sha, `Aus unmatched entfernt (ignoriert): ${videoId}`);
+    await ghUpdateFile("data/unmatched.json", (content) => content.filter(u => u.videoId !== videoId), `Aus unmatched entfernt (ignoriert): ${videoId}`);
 
     statusEl.textContent = "Als nicht auffindbar markiert.";
     statusEl.className = "status ok";
@@ -588,13 +607,12 @@ async function deleteUnmatched(videoId) {
   statusEl.textContent = "Speichere...";
   statusEl.className = "status";
   try {
-    const ig = await ghGetFile("data/ignored.json");
-    if (!ig.content.includes(videoId)) ig.content.push(videoId);
-    await ghPutFile("data/ignored.json", ig.content, ig.sha, `Gelöscht über Review-Seite: ${videoId}`);
+    await ghUpdateFile("data/ignored.json", (content) => {
+      if (!content.includes(videoId)) content.push(videoId);
+      return content;
+    }, `Gelöscht über Review-Seite: ${videoId}`);
 
-    const um = await ghGetFile("data/unmatched.json");
-    const filtered = um.content.filter(u => u.videoId !== videoId);
-    await ghPutFile("data/unmatched.json", filtered, um.sha, `Aus unmatched entfernt (gelöscht): ${videoId}`);
+    await ghUpdateFile("data/unmatched.json", (content) => content.filter(u => u.videoId !== videoId), `Aus unmatched entfernt (gelöscht): ${videoId}`);
 
     statusEl.textContent = "Gelöscht.";
     statusEl.className = "status ok";
@@ -650,9 +668,10 @@ async function correctNiedrig(videoId) {
   statusEl.textContent = "Speichere...";
   statusEl.className = "status";
   try {
-    const mm = await ghGetFile("data/manual-matches.json");
-    mm.content[videoId] = tmdbId;
-    await ghPutFile("data/manual-matches.json", mm.content, mm.sha, `Korrektur: ${videoId} -> ${tmdbId}`);
+    await ghUpdateFile("data/manual-matches.json", (content) => {
+      content[videoId] = tmdbId;
+      return content;
+    }, `Korrektur: ${videoId} -> ${tmdbId}`);
 
     statusEl.textContent = "Gespeichert. Wird beim nächsten Lauf übernommen.";
     statusEl.className = "status ok";
@@ -668,9 +687,10 @@ async function confirmNiedrig(videoId) {
   statusEl.textContent = "Speichere...";
   statusEl.className = "status";
   try {
-    const rv = await ghGetFile("data/reviewed.json");
-    if (!rv.content.includes(videoId)) rv.content.push(videoId);
-    await ghPutFile("data/reviewed.json", rv.content, rv.sha, `Als geprüft markiert: ${videoId}`);
+    await ghUpdateFile("data/reviewed.json", (content) => {
+      if (!content.includes(videoId)) content.push(videoId);
+      return content;
+    }, `Als geprüft markiert: ${videoId}`);
 
     statusEl.textContent = "Als geprüft markiert.";
     statusEl.className = "status ok";
