@@ -12,6 +12,7 @@
     "match": "node scripts/match-tmdb.js",
     "cleanup": "node scripts/cleanup-matches.js",
     "cast": "node scripts/fetch-cast.js",
+    "fsk": "node scripts/fetch-fsk.js",
     "cache-images": "node scripts/cache-images.js",
     "resolve": "node scripts/resolve-channel.js"
   }
