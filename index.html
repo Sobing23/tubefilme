@@ -69,7 +69,6 @@
     cursor: pointer;
   }
   .search-clear:hover { color: var(--text); }
-  .search-wrap.has-text .search-clear { display: block; }
   select {
     padding: 10px 14px;
     border-radius: 8px;
@@ -159,6 +158,19 @@
     font-size: 11px;
     padding: 2px 6px;
     color: #ffd166;
+  }
+  .fsk-badge {
+    display: inline-block;
+    background: #333;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 1px 6px;
+    font-weight: bold;
+  }
+  .card .fsk-badge {
+    position: absolute;
+    bottom: 38px;
+    left: 6px;
   }
   .poster-placeholder {
     width: 100%;
@@ -309,6 +321,14 @@
   <select id="genreFilter">
     <option value="">Alle Genres</option>
   </select>
+  <select id="fskFilter">
+    <option value="">Alle FSK</option>
+    <option value="0">FSK 0</option>
+    <option value="6">FSK 6</option>
+    <option value="12">FSK 12</option>
+    <option value="16">FSK 16</option>
+    <option value="18">FSK 18</option>
+  </select>
   <button id="randomBtn">🎲 Zufall</button>
   <button id="watchlistBtn">♥ Merkliste</button>
 </header>
@@ -395,6 +415,7 @@ function movieCardHtml(m, wl) {
   return `
     ${m.matchConfidence === "niedrig" ? '<div class="low-confidence" title="Zuordnung unsicher">?</div>' : ""}
     ${m.voteAverage ? `<div class="rating">★ ${m.voteAverage.toFixed(1)}</div>` : ""}
+    ${m.fsk ? `<div class="fsk-badge">FSK ${m.fsk}</div>` : ""}
     <button class="fav ${wl.has(m.tmdbId) ? "active" : ""}" data-fav="${m.tmdbId}">♥</button>
     ${posterHtml(m)}
     <div class="meta">
@@ -438,8 +459,9 @@ function openPlayer(movie) {
   document.getElementById("player").src = `https://www.youtube.com/embed/${movie.videoId}`;
   document.getElementById("playerTitle").textContent = movie.title;
   const ratingText = movie.voteAverage ? ` · ★ ${movie.voteAverage.toFixed(1)}` : "";
+  const fskText = movie.fsk ? ` · FSK ${movie.fsk}` : "";
   document.getElementById("playerSub").textContent =
-    `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)}${ratingText} · Quelle: ${movie.channelName}`;
+    `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)}${ratingText}${fskText} · Quelle: ${movie.channelName}`;
   document.getElementById("playerOverview").textContent = movie.overview || "Keine Beschreibung verfügbar.";
   document.getElementById("playerCast").textContent =
     movie.cast && movie.cast.length ? "Mit: " + movie.cast.join(", ") : "";
@@ -514,11 +536,15 @@ function currentlyShown() { return lastFiltered; }
 function applyFilters() {
   const query = document.getElementById("search").value.trim();
   const selectedGenre = document.getElementById("genreFilter").value;
+  const selectedFsk = document.getElementById("fskFilter").value;
 
   let result = query && fuse ? fuse.search(query).map(r => r.item) : allMovies;
 
   if (selectedGenre) {
     result = result.filter(m => (m.genreIds || []).some(id => GENRES[id] === selectedGenre));
+  }
+  if (selectedFsk) {
+    result = result.filter(m => m.fsk === selectedFsk);
   }
   if (watchlistMode) {
     const wl = getWatchlist();
@@ -528,18 +554,25 @@ function applyFilters() {
   renderGrid(result);
 }
 
+function updateClearButton() {
+  const hasText = document.getElementById("search").value.length > 0;
+  document.getElementById("searchClear").style.display = hasText ? "block" : "none";
+}
+
 document.getElementById("search").addEventListener("input", () => {
-  document.getElementById("searchWrap").classList.toggle("has-text", document.getElementById("search").value.length > 0);
+  updateClearButton();
   applyFilters();
 });
 document.getElementById("searchClear").addEventListener("click", () => {
   const input = document.getElementById("search");
   input.value = "";
-  document.getElementById("searchWrap").classList.remove("has-text");
+  updateClearButton();
   input.focus();
   applyFilters();
 });
+updateClearButton(); // Anfangszustand setzen
 document.getElementById("genreFilter").addEventListener("change", applyFilters);
+document.getElementById("fskFilter").addEventListener("change", applyFilters);
 document.getElementById("closeBtn").addEventListener("click", closePlayer);
 
 // Zusätzliche, robustere Wege das Overlay zu schließen: Escape-Taste,
