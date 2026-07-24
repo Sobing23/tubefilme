@@ -21870,46 +21870,6 @@
     "fsk": "16"
   },
   {
-    "videoId": "Dee437q48ck",
-    "youtubeTitle": "Der Zoo (Zauberhafter FAMILIENFILM ganzer Film Deutsch, Filme NACH WAHREN BEGEBENHEITEN)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Dee437q48ck/hqdefault.jpg",
-    "duration": "PT1H35M11S",
-    "publishedAt": "2025-02-09T12:00:15Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 289222,
-    "title": "Die Frau des Zoodirektors",
-    "originalTitle": "The Zookeeper's Wife",
-    "overview": "Antonina ist mit Jan Żabiński verheiratet, der im Polen der 1930er Jahre den beliebten Warschauer Zoo leitet und auch in seiner Villa viele Tiere beherbergt. Doch als am 1. September 1939 Nazi-Deutschland seine Invasion in Polen startet, fallen die Bomben auch auf den Zoo und das Ehepaar schließt sich dem polnischen Widerstand an. Sie versuchen zu verhindern, dass ihre geliebten Tiere unschuldige Opfer des Zweiten Weltkrieges werden. Als klar wird, dass auch vielen Juden ihres Heimatlandes ein furchtbares Schicksal droht, bieten sie diesen Verfolgten eine Zufluchtsstätte an.",
-    "releaseDate": "2017-03-24",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/6gComMnWyj7t0JXPSjtAO9pIl2o.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rE6W3KHdIuTdgRDLOOOMR3gfGgc.jpg",
-    "voteAverage": 7.317,
-    "genreIds": [
-      18,
-      36,
-      10752
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "posterLocal": "img/posters/289222.jpg",
-    "hinweis": "Kurze/generische Suchanfrage ohne exakten Titel-Treffer bei TMDB -- bitte bei Gelegenheit prüfen",
-    "cast": [
-      "Jessica Chastain",
-      "Daniel Brühl",
-      "Johan Heldenbergh",
-      "Michael McElhatton",
-      "Timothy Radford"
-    ],
-    "director": [
-      "Niki Caro"
-    ],
-    "writer": [
-      "Angela Workman"
-    ],
-    "fsk": "12"
-  },
-  {
     "videoId": "Mzw3ZABeGO4",
     "youtubeTitle": "RICHARD GERE in TIME OUT OF MIND (Bewegender Film, ganzer Film Deutsch, Filme Deutsch komplett 2025)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/Mzw3ZABeGO4/hqdefault.jpg",
@@ -79417,5 +79377,73 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/660335.jpg"
+  },
+  {
+    "videoId": "BOP5yq2TI7g",
+    "youtubeTitle": "Der Chaos-Cop – Thunder Road (KOMÖDIE ganzer Film auf Deutsch, Comedy Filme Deutsch, Tragikomödien)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/BOP5yq2TI7g/hqdefault.jpg",
+    "duration": "PT1H30M17S",
+    "publishedAt": "2024-03-19T18:00:06Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 502422,
+    "title": "Der Chaos-Cop",
+    "originalTitle": "Thunder Road",
+    "overview": "Jimmy Arnaud steht vor der größten Herausforderung seines Lebens: Der Polizeibeamte aus Texas muss seine Scheidung überstehen, das Herz seiner Tochter Crystal für sich gewinnen – und damit zurechtkommen, dass der Kassettenrekorder mit Bruce Springsteens „Thunder Road“ auf der Beerdigung seiner Mutter nicht funktioniert hat. Kein leichtes Spiel für den Chaos-Cop, der auf die bisherigen Rückschläge in seinem Leben mit Wut, Aggression und einem merkwürdigen Tanzstil reagiert hat!  Eigenwillige wie faszinierende Tragikomödie, mit der sich Jim Cummings als Kultregisseur von morgen empfiehlt.",
+    "releaseDate": "2018-09-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/TpOC8H9F3buubU6HTR5t8xQhf3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6cKpUk38U7GziP548cZ1AGs0RPV.jpg",
+    "voteAverage": 6.774,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Jim Cummings",
+      "Kendal Farr",
+      "Nican Robinson",
+      "Jocelyn DeBoer",
+      "Chelsea Edmundson"
+    ],
+    "director": [
+      "Jim Cummings"
+    ],
+    "writer": [
+      "Jim Cummings"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/502422.jpg"
+  },
+  {
+    "videoId": "0qfAjLdbnNo",
+    "youtubeTitle": "Camp Bravo (KRIEGSFILM ganzer Film Deutsch neu 2024, ganze Filme nach wahren Begebenheiten ansehen)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0qfAjLdbnNo/hqdefault.jpg",
+    "duration": "PT1H18M4S",
+    "publishedAt": "2021-04-23T14:03:27Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 391773,
+    "title": "Camp Bravo",
+    "originalTitle": "Kamp Holland",
+    "overview": "Afghanistan, 2008: Eine explosive Sprengfalle am Straßenrand beendet das Leben eines jungen Soldaten und stürzt den Rest der Bravo-Einheit in Entsetzen. Im Chaos des Anschlags erschießt Leutnant Postma einen Einheimischen, den er für einen der Angreifer hält. Im anschließenden Verhör mit der Militärpolizei kann er jedoch weder beweisen, ob sein Opfer eine Waffe hatte noch erklären, ob Sergeant Mulder, sein direkter Vorgesetzter, überhaupt jemals den Befehl zum Feuern gab. Die Rekapitulation der schicksalhaften Stunden vor dem Anschlag enthüllt schließlich auf dramatische Weise, wie es zu der Kettenreaktion kam, die eine Maschine in Gang setzte, die nicht mehr aufzuhalten war. Eine Routinemission lässt die Soldaten zu Zeugen eines entsetzlichen Massakers werden, und die Konsequenz ihrer Entscheidungen führt sie geradewegs in eine tödliche Falle …",
+    "releaseDate": "2016-05-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qcUE5bbFo3C637dOiCwmLIzBIqA.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yCWL5NuxtLawKPAhR7MKQEER1uu.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Matthijs van de Sande Bakhuyzen",
+      "Yannick van de Velde",
+      "Hajo Bruins",
+      "Jochum ten Haaf",
+      "Lourens van den Akker"
+    ],
+    "director": [
+      "Boris Paval Conen"
+    ],
+    "writer": [],
+    "fsk": "16",
+    "posterLocal": "img/posters/391773.jpg"
   }
 ]
