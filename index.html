@@ -104,6 +104,8 @@
   }
   .card {
     cursor: pointer;
+  }
+  .poster-frame {
     position: relative;
   }
   .card img {
@@ -149,16 +151,6 @@
     padding: 2px 5px;
     color: var(--text-dim);
   }
-  .card .rating {
-    position: absolute;
-    bottom: 62px;
-    left: 6px;
-    background: rgba(0,0,0,0.7);
-    border-radius: 4px;
-    font-size: 11px;
-    padding: 2px 6px;
-    color: #ffd166;
-  }
   .fsk-badge {
     display: inline-block;
     background: #333;
@@ -167,10 +159,11 @@
     padding: 1px 6px;
     font-weight: bold;
   }
-  .card .fsk-badge {
+  .poster-frame .fsk-badge {
     position: absolute;
-    bottom: 38px;
-    left: 6px;
+    bottom: 6px;
+    right: 6px;
+    background: rgba(0,0,0,0.75);
   }
   .poster-placeholder {
     width: 100%;
@@ -347,6 +340,7 @@
       <div class="sub" id="playerCast" style="margin-top:-8px;"></div>
       <div class="sub" id="playerCrew" style="margin-top:-8px;"></div>
       <button id="playerFav">♥ Zur Merkliste</button>
+      <p id="playerRating" style="color: #ffd166; font-size: 13px; margin: 14px 0 0 0;"></p>
       <p id="playerOverview"></p>
       <div class="similar-row" id="playerSimilar"></div>
     </div>
@@ -413,11 +407,12 @@ function posterHtml(m, extraClass) {
 
 function movieCardHtml(m, wl) {
   return `
-    ${m.matchConfidence === "niedrig" ? '<div class="low-confidence" title="Zuordnung unsicher">?</div>' : ""}
-    ${m.voteAverage ? `<div class="rating">★ ${m.voteAverage.toFixed(1)}</div>` : ""}
-    ${m.fsk ? `<div class="fsk-badge">FSK ${m.fsk}</div>` : ""}
-    <button class="fav ${wl.has(m.tmdbId) ? "active" : ""}" data-fav="${m.tmdbId}">♥</button>
-    ${posterHtml(m)}
+    <div class="poster-frame">
+      ${m.matchConfidence === "niedrig" ? '<div class="low-confidence" title="Zuordnung unsicher">?</div>' : ""}
+      ${m.fsk ? `<div class="fsk-badge">FSK ${m.fsk}</div>` : ""}
+      <button class="fav ${wl.has(m.tmdbId) ? "active" : ""}" data-fav="${m.tmdbId}">♥</button>
+      ${posterHtml(m)}
+    </div>
     <div class="meta">
       <div>${escapeHtml(m.title)}</div>
       <div class="year">${(m.releaseDate || "").slice(0,4)} · ${genreNames(m.genreIds)}</div>
@@ -458,11 +453,12 @@ function openPlayer(movie) {
   if (!movie) return;
   document.getElementById("player").src = `https://www.youtube.com/embed/${movie.videoId}`;
   document.getElementById("playerTitle").textContent = movie.title;
-  const ratingText = movie.voteAverage ? ` · ★ ${movie.voteAverage.toFixed(1)}` : "";
   const fskText = movie.fsk ? ` · FSK ${movie.fsk}` : "";
   document.getElementById("playerSub").textContent =
-    `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)}${ratingText}${fskText} · Quelle: ${movie.channelName}`;
+    `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)}${fskText} · Quelle: ${movie.channelName}`;
   document.getElementById("playerOverview").textContent = movie.overview || "Keine Beschreibung verfügbar.";
+  document.getElementById("playerRating").textContent =
+    movie.voteAverage ? `★ ${movie.voteAverage.toFixed(1)} / 10 (TMDB-Nutzerwertung)` : "";
   document.getElementById("playerCast").textContent =
     movie.cast && movie.cast.length ? "Mit: " + movie.cast.join(", ") : "";
 

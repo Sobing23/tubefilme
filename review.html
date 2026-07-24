@@ -159,6 +159,7 @@
   <div class="tabs">
     <div class="tab active" data-tab="unmatched">Unmatched (<span id="countUnmatched">–</span>)</div>
     <div class="tab" data-tab="niedrig">Niedrig-Konfidenz (<span id="countNiedrig">–</span>)</div>
+    <div class="tab" data-tab="fsk">Fehlende FSK (<span id="countFsk">–</span>)</div>
     <div class="tab" data-tab="alle">Alle Filme / Löschen</div>
     <div class="tab" data-tab="kanaele">Kanäle</div>
   </div>
@@ -171,6 +172,10 @@
     <div class="panel" id="panel-niedrig">
       <div id="count-niedrig" class="count-line">Lade...</div>
       <div id="list-niedrig"></div>
+    </div>
+    <div class="panel" id="panel-fsk">
+      <div id="count-fsk" class="count-line">Lade...</div>
+      <div id="list-fsk"></div>
     </div>
     <div class="panel" id="panel-alle">
       <div id="count-alle" class="count-line">Filme durchsuchen, um zu löschen (z.B. Titel eintippen)</div>
@@ -345,15 +350,76 @@ async function loadAll() {
 
   const unmatchedFiltered = unmatched.filter(u => !ignoredSet.has(u.videoId));
   const niedrig = filme.filter(m => m.matchConfidence === "niedrig" && !reviewedSet.has(m.videoId));
+  const fehlendeFsk = filme.filter(m => m.fsk === null || m.fsk === undefined);
 
   document.getElementById("countUnmatched").textContent = unmatchedFiltered.length;
   document.getElementById("countNiedrig").textContent = niedrig.length;
+  document.getElementById("countFsk").textContent = fehlendeFsk.length;
   document.getElementById("count-unmatched").textContent = `${unmatchedFiltered.length} offen`;
   document.getElementById("count-niedrig").textContent = `${niedrig.length} offen`;
+  document.getElementById("count-fsk").textContent = `${fehlendeFsk.length} ohne FSK-Angabe`;
 
   renderUnmatched(unmatchedFiltered);
   renderNiedrig(niedrig);
+  renderFsk(fehlendeFsk);
   renderKanaele(channels.channels || [], filme);
+}
+
+// -- Fehlende-FSK-Tab --
+function renderFsk(items) {
+  const list = document.getElementById("list-fsk");
+  list.innerHTML = items.slice(0, 100).map(m => `
+    <div class="card" id="card-fsk-${m.videoId}">
+      ${posterHtmlSimple(m)}
+      <div>
+        <h3>${escapeHtml(m.title)} (${(m.releaseDate||"").slice(0,4)})</h3>
+        <div class="meta">
+          <b>YouTube-Titel:</b> ${escapeHtml(m.youtubeTitle)}<br>
+          <b>Kanal:</b> ${escapeHtml(m.channelName)}
+        </div>
+        <div class="row">
+          <select id="select-fsk-${m.videoId}">
+            <option value="0">FSK 0</option>
+            <option value="6">FSK 6</option>
+            <option value="12">FSK 12</option>
+            <option value="16">FSK 16</option>
+            <option value="18">FSK 18</option>
+          </select>
+          <button class="primary" onclick="setFsk('${m.videoId}')">Speichern</button>
+        </div>
+        <div class="status" id="status-fsk-${m.videoId}"></div>
+      </div>
+    </div>
+  `).join("");
+  if (items.length > 100) {
+    list.innerHTML += `<p style="color:var(--text-dim); font-size:13px;">... und ${items.length - 100} weitere (erstmal nur die ersten 100 angezeigt).</p>`;
+  }
+}
+
+function posterHtmlSimple(m) {
+  return m.posterUrl ? `<img src="${m.posterUrl}" loading="lazy" alt="">` : `<div style="width:90px; aspect-ratio:2/3; background:#222; border-radius:6px;"></div>`;
+}
+
+async function setFsk(videoId) {
+  const select = document.getElementById(`select-fsk-${videoId}`);
+  const value = select.value;
+  const statusEl = document.getElementById(`status-fsk-${videoId}`);
+  statusEl.textContent = "Speichere...";
+  statusEl.className = "status";
+  try {
+    const fm = await ghGetFile("data/filme.json");
+    const movie = fm.content.find(m => m.videoId === videoId);
+    if (!movie) throw new Error("Film nicht mehr in filme.json gefunden.");
+    movie.fsk = value;
+    await ghPutFile("data/filme.json", fm.content, fm.sha, `FSK nachgetragen: ${videoId} -> FSK ${value}`);
+
+    statusEl.textContent = `Gespeichert: FSK ${value}.`;
+    statusEl.className = "status ok";
+    document.getElementById(`card-fsk-${videoId}`).classList.add("done");
+  } catch (err) {
+    statusEl.textContent = "Fehler: " + err.message;
+    statusEl.className = "status err";
+  }
 }
 
 function renderKanaele(channels, filme) {
@@ -453,6 +519,7 @@ function renderUnmatched(items) {
             <input type="text" placeholder="TMDB-ID oder Link einfügen" id="input-um-${u.videoId}">
             <button class="primary" onclick="assignUnmatched('${u.videoId}')">Zuordnen</button>
             <button class="danger" onclick="ignoreUnmatched('${u.videoId}')">Nicht auffindbar</button>
+            <button class="danger" onclick="deleteUnmatched('${u.videoId}')">Löschen</button>
           </div>
           <div class="status" id="status-um-${u.videoId}"></div>
         </div>
@@ -505,6 +572,31 @@ async function ignoreUnmatched(videoId) {
     await ghPutFile("data/unmatched.json", filtered, um.sha, `Aus unmatched entfernt (ignoriert): ${videoId}`);
 
     statusEl.textContent = "Als nicht auffindbar markiert.";
+    statusEl.className = "status ok";
+    document.getElementById(`card-um-${videoId}`).classList.add("done");
+  } catch (err) {
+    statusEl.textContent = "Fehler: " + err.message;
+    statusEl.className = "status err";
+  }
+}
+
+// Gleiche Wirkung wie "Nicht auffindbar" (raus aus unmatched, dauerhaft in
+// ignored.json, damit die Pipeline nie wieder danach sucht) -- eigene
+// Beschriftung für den Fall, dass "einfach löschen" der klarere Gedanke ist.
+async function deleteUnmatched(videoId) {
+  const statusEl = document.getElementById(`status-um-${videoId}`);
+  statusEl.textContent = "Speichere...";
+  statusEl.className = "status";
+  try {
+    const ig = await ghGetFile("data/ignored.json");
+    if (!ig.content.includes(videoId)) ig.content.push(videoId);
+    await ghPutFile("data/ignored.json", ig.content, ig.sha, `Gelöscht über Review-Seite: ${videoId}`);
+
+    const um = await ghGetFile("data/unmatched.json");
+    const filtered = um.content.filter(u => u.videoId !== videoId);
+    await ghPutFile("data/unmatched.json", filtered, um.sha, `Aus unmatched entfernt (gelöscht): ${videoId}`);
+
+    statusEl.textContent = "Gelöscht.";
     statusEl.className = "status ok";
     document.getElementById(`card-um-${videoId}`).classList.add("done");
   } catch (err) {
@@ -595,9 +687,11 @@ async function confirmNiedrig(videoId) {
 // überschreiben sich parallele Lese-Schreib-Vorgänge gegenseitig.
 window.assignUnmatched = withLock(assignUnmatched);
 window.ignoreUnmatched = withLock(ignoreUnmatched);
+window.deleteUnmatched = withLock(deleteUnmatched);
 window.correctNiedrig = withLock(correctNiedrig);
 window.confirmNiedrig = withLock(confirmNiedrig);
 window.deleteMovie = withLock(deleteMovie);
+window.setFsk = withLock(setFsk);
 </script>
 
 </body>
