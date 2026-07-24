@@ -173,6 +173,31 @@ function stripColonSubtitle(text) {
   return before.length >= 2 ? before : null;
 }
 
+// Mehrere Kanäle hängen Werbetext direkt an den Titel an, getrennt durch
+// Gedankenstrich statt Klammer oder Pipe:
+//   "Destroyer – mit Nicole Kidman & Sebastian Stan, ganzer Film auf Deutsch..."
+//   "Fear of Rain - Die Angst in Dir – ganzer Film auf Deutsch kostenlos..."
+// Ohne Bereinigung geht der komplette Werbetext als Suchbegriff an TMDB und
+// liefert null Treffer.
+//
+// Bewusst NICHT an Kommata getrennt: deutsche Filmtitel enthalten häufig
+// welche ("Der Spion, der niemals stirbt") -- die würden sonst verstümmelt.
+// Der "mit Schauspieler, ..."-Fall wird trotzdem erfasst, weil das Segment
+// nach dem Gedankenstrich mit "mit " beginnt.
+const MARKETING_SEGMENT =
+  /ganzer?\b|ganze\b|auf deutsch|kostenlos|\bin hd\b|voller länge|komplett|^mit\s|jetzt (an)?schauen/i;
+
+function stripMarketingSuffix(title) {
+  const parts = title.split(/\s+[–—|]\s+|\s+-\s+/);
+  if (parts.length <= 1) return title.trim();
+  const clean = [];
+  for (const p of parts) {
+    if (MARKETING_SEGMENT.test(p)) break;
+    clean.push(p.trim());
+  }
+  return clean.length ? clean.join(" - ").trim() : title.trim();
+}
+
 // Baut eine deduplizierte, priorisierte Liste an Suchbegriffen aus allen
 // bekannten Varianten (Originaltitel, bereinigter YouTube-Titel, und deren
 // Ableitungen).
@@ -198,6 +223,13 @@ function buildQueryCandidates(info, video) {
   }
 
   splitPipeVariants(video.title).forEach(add);
+
+  // Werbetext-bereinigte Varianten. Bewusst NACH den bisherigen Varianten
+  // eingereiht und nicht als deren Ersatz: Filme, die mit ihrem bisherigen
+  // Suchbegriff schon sicher gefunden werden, brechen die Suche vorher ab
+  // und bleiben damit unverändert.
+  add(stripMarketingSuffix(info.fallbackQuery || ""));
+  add(stripMarketingSuffix(video.title));
 
   // Zuletzt: Doppelpunkt-Untertitel abtrennen, niedrigste Priorität
   add(stripColonSubtitle(info.fallbackQuery));
