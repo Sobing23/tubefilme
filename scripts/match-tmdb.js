@@ -52,9 +52,38 @@ function stripTrailingYear(text) {
   return text.replace(/\s*\(\d{4}\)\s*$/, "").trim();
 }
 
+// Zieht die Schauspieler aus der "Mit: A; B; C"-Zeile der Beschreibung
+// (72% der Videos haben eine) und die Regie aus "Regie: X" (88%). Beides
+// sind starke, bisher ungenutzte Signale, um zwischen mehreren ähnlich
+// betitelten TMDB-Treffern den richtigen zu finden.
+function extractPeople(desc) {
+  const cast = [];
+  const castLine = desc.match(/^\s*Mit:\s*(.+)$/m);
+  if (castLine) {
+    castLine[1]
+      .split(/[;,]/)
+      .map((s) => s.trim())
+      .filter((s) => s.length > 2 && s.length < 60)
+      .forEach((s) => cast.push(s));
+  }
+
+  const directors = [];
+  const dirLine = desc.match(/^\s*Regie:\s*(.+)$/m);
+  if (dirLine) {
+    dirLine[1]
+      .split(/[;,]/)
+      .map((s) => s.trim())
+      .filter((s) => s.length > 2 && s.length < 60)
+      .forEach((s) => directors.push(s));
+  }
+
+  return { cast: cast.slice(0, 6), directors: directors.slice(0, 3) };
+}
+
 function extractSearchInfo(video) {
   const desc = video.description || "";
   const fallbackQuery = primaryTitleSegment(video.title);
+  const people = extractPeople(desc);
 
   let m = desc.match(/\(\s*(\d{4})\s*\)\s*[\r\n]+Originaltitel:\s*(.+?)\s*[\r\n]/);
   if (m) {
@@ -62,6 +91,7 @@ function extractSearchInfo(video) {
       year: m[1],
       query: stripTrailingYear(m[2].trim()),
       fallbackQuery,
+      ...people,
       source: "originaltitel+jahr",
     };
   }
@@ -74,11 +104,12 @@ function extractSearchInfo(video) {
       year: yearMatch ? yearMatch[1] : null,
       query: stripTrailingYear(m[1].trim()),
       fallbackQuery,
+      ...people,
       source: "originaltitel-ohne-jahr",
     };
   }
 
-  return { year: null, query: fallbackQuery, fallbackQuery, source: "titel-fallback" };
+  return { year: null, query: fallbackQuery, fallbackQuery, ...people, source: "titel-fallback" };
 }
 
 // Schneidet den Video-Titel am ersten "(" ODER "|" ab, je nachdem was zuerst
@@ -186,26 +217,6 @@ function normalizeTitle(s) {
     .trim();
 }
 
-// Kurze, generische Ein-Wort-Anfragen (z.B. "After", "Boar", "Whiteout")
-// sind bei TMDB besonders anfällig für zufällige Fehltreffer, weil die
-// Textsuche bei so wenig Kontext leicht danebengreift. Längere/mehrteilige
-// Anfragen sind auch bei fremdsprachigen Originaltiteln ohne Wortüberlappung
-// zur deutschen TMDB-Übersetzung meistens trotzdem korrekt -- die Prüfung
-// gilt deshalb NUR für die riskante Kurzform.
-function isRiskyShortQuery(q) {
-  const words = q.trim().split(/\s+/).filter(Boolean);
-  return words.length <= 1 && q.trim().length <= 8;
-}
-
-// Für riskante Kurz-Anfragen reicht eine lockere Wortüberlappung nicht --
-// "After" steckt z.B. als eigenständiges Wort in "Tangled Ever After",
-// obwohl das ein komplett anderer Film ist. Deshalb hier bewusst strenger:
-// nur eine EXAKTE Übereinstimmung (Titel oder Originaltitel) zählt.
-function isExactTitleMatch(query, resultTitle, resultOriginalTitle) {
-  const nq = normalizeTitle(query);
-  return nq === normalizeTitle(resultTitle) || nq === normalizeTitle(resultOriginalTitle || "");
-}
-
 async function tmdbSearch(query, year) {
   const params = new URLSearchParams({ query, language: "de-DE", include_adult: "false" });
   if (year) params.set("primary_release_year", year);
@@ -226,123 +237,187 @@ async function tmdbSearch(query, year) {
   return json.results || [];
 }
 
+// -- Bewertung eines einzelnen TMDB-Suchtreffers --
+//
+// Der frühere Ansatz nahm blind results[0] -- die Reihenfolge von TMDB
+// richtet sich aber nach Popularität, nicht nach Passgenauigkeit. Dadurch
+// gewannen z.B. obskure gleichnamige Kurzfilme gegen den gesuchten Spielfilm.
+// Stattdessen bewerten wir JEDEN Treffer und nehmen den besten.
+function scoreResult(r, query, expectedYear) {
+  const nq = normalizeTitle(query);
+  const nt = normalizeTitle(r.title);
+  const no = normalizeTitle(r.original_title || "");
+  let score = 0;
+  let exactTitle = false;
+
+  // 1. Titel
+  if (nq && (nt === nq || no === nq)) {
+    score += 100;
+    exactTitle = true;
+  } else {
+    const qTokens = nq.split(" ").filter((w) => w.length > 2);
+    if (qTokens.length) {
+      const hay = nt + " " + no;
+      const hits = qTokens.filter((w) => hay.includes(w)).length;
+      score += (hits / qTokens.length) * 55;
+    }
+  }
+
+  // 2. Jahr
+  if (expectedYear) {
+    const ry = parseInt((r.release_date || "").slice(0, 4), 10);
+    if (ry) {
+      const diff = Math.abs(ry - parseInt(expectedYear, 10));
+      if (diff === 0) score += 45;
+      else if (diff <= 1) score += 35;
+      else if (diff <= 3) score += 18;
+      else if (diff <= 10) score -= 12;
+      else score -= 35;
+    } else {
+      score -= 10;
+    }
+  }
+
+  // 3. Substanz des Datensatzes. Ein Film, der auf einem lizenzierten
+  // Kanal ausgewertet wird, hat bei TMDB praktisch immer Bewertungen,
+  // Genres und eine Beschreibung. Leere Datensätze (Festivalmitschnitte,
+  // Kurzfilme, Namensdubletten) sind fast nie der gesuchte Film -- genau
+  // die haben früher die falschen Treffer verursacht.
+  const votes = r.vote_count || 0;
+  if (votes >= 50) score += 18;
+  else if (votes >= 10) score += 12;
+  else if (votes >= 1) score += 5;
+  else score -= 25;
+
+  score += (r.genre_ids || []).length > 0 ? 8 : -15;
+  score += (r.overview || "").trim() ? 8 : -15;
+  score += Math.min(r.popularity || 0, 30) * 0.25;
+
+  return { score, exactTitle };
+}
+
+// Holt die Besetzung eines TMDB-Films, um sie gegen die Namen aus der
+// YouTube-Beschreibung abzugleichen. Wird nur bei unklaren Fällen aufgerufen.
+async function fetchTmdbPeople(tmdbId) {
+  const res = await fetch(`${TMDB_BASE}/movie/${tmdbId}/credits`, {
+    headers: { Authorization: `Bearer ${BEARER_TOKEN}`, accept: "application/json" },
+  });
+  if (res.status === 429) {
+    await sleep(1000);
+    return fetchTmdbPeople(tmdbId);
+  }
+  if (!res.ok) return { cast: [], directors: [] };
+  const json = await res.json();
+  return {
+    cast: (json.cast || []).slice(0, 15).map((c) => normalizeTitle(c.name)),
+    directors: (json.crew || []).filter((c) => c.job === "Director").map((c) => normalizeTitle(c.name)),
+  };
+}
+
+// Wie viele der in der Beschreibung genannten Personen tauchen bei TMDB auf?
+function personOverlap(expectedNames, tmdbNames) {
+  if (!expectedNames.length || !tmdbNames.length) return null;
+  const hay = tmdbNames.join(" | ");
+  const hits = expectedNames.filter((n) => {
+    const nn = normalizeTitle(n);
+    if (!nn) return false;
+    if (hay.includes(nn)) return true;
+    // Nachname allein zählt auch -- Netzkino schreibt Namen gelegentlich
+    // mit Tippfehlern im Vornamen ("BRIAN AUSTIN FREEN")
+    const last = nn.split(" ").pop();
+    return last && last.length > 3 && hay.includes(last);
+  }).length;
+  return hits / expectedNames.length;
+}
+
+const CONFIDENT_SCORE = 140; // ab hier ist der Treffer so klar, dass wir aufhören zu suchen
+const MIN_ACCEPT_SCORE = 45; // darunter lieber gar kein Treffer als ein falscher
+
 async function findBestMatch(video) {
   const info = extractSearchInfo(video);
   const queryCandidates = buildQueryCandidates(info, video);
 
-  let top = null;
-  let usedQuery = null;
-  let yearWasApplied = false;
+  let best = null; // { r, score, exactTitle, query, yearApplied }
 
-  // Falls bei riskanten Kurz-Anfragen kein exakter Treffer gefunden wird,
-  // merken wir uns den ersten verfügbaren als Fallback -- besser mit
-  // niedriger Konfidenz behalten als riskieren, einen eigentlich richtigen
-  // (aber z.B. übersetzten) Treffer komplett zu verlieren.
-  let fallbackTop = null;
-  let fallbackQuery = null;
-  let fallbackYearApplied = false;
-
-  candidateLoop:
   for (const q of queryCandidates) {
     const yearAttempts = info.year ? [true, false] : [false];
+
     for (const useYear of yearAttempts) {
       const results = await tmdbSearch(q, useYear ? info.year : null);
       await sleep(DELAY_MS);
       if (results.length === 0) continue;
 
-      const candidateTop = results[0];
-
-      if (isRiskyShortQuery(q)) {
-        if (isExactTitleMatch(q, candidateTop.title, candidateTop.original_title)) {
-          top = candidateTop;
-          usedQuery = q;
-          yearWasApplied = useYear;
-          break candidateLoop;
+      // ALLE Treffer bewerten, nicht nur den ersten
+      for (const r of results.slice(0, 10)) {
+        const { score, exactTitle } = scoreResult(r, q, info.year);
+        if (!best || score > best.score) {
+          best = { r, score, exactTitle, query: q, yearApplied: useYear };
         }
-        if (!fallbackTop) {
-          fallbackTop = candidateTop;
-          fallbackQuery = q;
-          fallbackYearApplied = useYear;
-        }
-        continue; // riskant + nicht exakt -> nächste Variante probieren
       }
-
-      top = candidateTop;
-      usedQuery = q;
-      yearWasApplied = useYear;
-      break candidateLoop;
     }
+
+    if (best && best.score >= CONFIDENT_SCORE) break; // eindeutig, nicht weitersuchen
   }
 
-  let forcedLowConfidence = false;
-  if (!top && fallbackTop) {
-    top = fallbackTop;
-    usedQuery = fallbackQuery;
-    yearWasApplied = fallbackYearApplied;
-    forcedLowConfidence = true;
-  }
-
-  if (!top) {
+  if (!best) {
     return { match: null, info, reason: "kein TMDB-Treffer" };
   }
 
-  const usedFallbackQuery = usedQuery.toLowerCase() !== info.query.toLowerCase();
+  // Bei unklarer Lage: Besetzung/Regie aus der Beschreibung gegen TMDB
+  // abgleichen. Das ist das stärkste verfügbare Signal und kostet nur in
+  // den wenigen Zweifelsfällen einen zusätzlichen Aufruf.
+  let personNote = null;
+  const hasPeople = info.cast.length > 0 || info.directors.length > 0;
+  if (hasPeople && best.score < CONFIDENT_SCORE) {
+    const tmdbPeople = await fetchTmdbPeople(best.r.id);
+    await sleep(DELAY_MS);
+    const castHit = personOverlap(info.cast, tmdbPeople.cast);
+    const dirHit = personOverlap(info.directors, tmdbPeople.directors);
 
-  // Jahr-Abgleich: nur relevant, wenn wir ein erwartetes Jahr haben UND es
-  // nicht schon als exakter API-Filter gegriffen hat
-  let yearNote = null;
-  if (info.year && !yearWasApplied) {
-    const resultYear = (top.release_date || "").slice(0, 4);
-    const diff = resultYear ? Math.abs(parseInt(resultYear, 10) - parseInt(info.year, 10)) : null;
-
-    if (diff === null) {
-      return {
-        match: null,
-        info,
-        reason: "TMDB-Treffer ohne Erscheinungsdatum",
-        topCandidate: { id: top.id, title: top.title, release_date: top.release_date },
-      };
-    }
-
-    if (diff > 3) {
-      // Große Jahres-Differenz ist normalerweise ein Zeichen für einen falschen
-      // Treffer -- AUSSER der gefundene Titel stimmt exakt mit unserer Suche
-      // überein. Dann ist es wahrscheinlicher, dass Netzkinos Jahresangabe
-      // schlicht falsch ist, als dass zwei komplett unterschiedliche Filme
-      // zufällig exakt denselben Titel tragen. Ab 20 Jahren Differenz ist
-      // aber auch das zu riskant (z.B. Neuverfilmungen mit identischem Titel).
-      const exactTitleMatch =
-        normalizeTitle(top.title) === normalizeTitle(usedQuery) ||
-        normalizeTitle(top.original_title || "") === normalizeTitle(usedQuery);
-
-      if (exactTitleMatch && diff <= 20) {
-        yearNote = `Jahr weicht deutlich ab (erwartet ${info.year}, TMDB ${resultYear}), aber Titel exakt getroffen`;
-      } else {
-        return {
-          match: null,
-          info,
-          reason: `Jahr weicht stark ab (erwartet ${info.year}, TMDB-Top-Treffer ${resultYear})`,
-          topCandidate: { id: top.id, title: top.title, release_date: top.release_date },
-        };
-      }
-    } else if (diff > 1) {
-      yearNote = `Jahr weicht ab: erwartet ${info.year}, TMDB ${resultYear}`;
+    if ((castHit !== null && castHit >= 0.34) || (dirHit !== null && dirHit >= 0.5)) {
+      best.score += 60;
+      best.personConfirmed = true;
+      personNote = "Besetzung/Regie stimmen mit der Videobeschreibung überein";
+    } else if (castHit === 0 && dirHit === 0) {
+      best.score -= 40;
+      personNote = "Weder Besetzung noch Regie stimmen mit der Videobeschreibung überein -- bitte prüfen";
     }
   }
 
-  let confidence =
-    info.source === "originaltitel+jahr"
-      ? "hoch"
-      : info.source === "originaltitel-ohne-jahr"
-      ? "mittel"
-      : "niedrig";
-
-  if (usedFallbackQuery || yearNote || forcedLowConfidence) confidence = "niedrig";
-  if (forcedLowConfidence && !yearNote) {
-    yearNote = "Kurze/generische Suchanfrage ohne exakten Titel-Treffer bei TMDB -- bitte bei Gelegenheit prüfen";
+  if (best.score < MIN_ACCEPT_SCORE) {
+    return {
+      match: null,
+      info,
+      reason: `Kein ausreichend plausibler Treffer (bester Wert ${Math.round(best.score)})`,
+      topCandidate: { id: best.r.id, title: best.r.title, release_date: best.r.release_date },
+    };
   }
 
-  return { match: top, info, confidence, yearNote };
+  // Konfidenz ergibt sich jetzt aus der Bewertung, nicht mehr nur aus der
+  // Herkunft des Suchbegriffs.
+  let confidence;
+  if (best.score >= CONFIDENT_SCORE || best.personConfirmed) confidence = "hoch";
+  else if (best.score >= 95) confidence = "mittel";
+  else confidence = "niedrig";
+
+  const notes = [];
+  if (personNote) notes.push(personNote);
+  if (info.year) {
+    const ry = (best.r.release_date || "").slice(0, 4);
+    if (ry && Math.abs(parseInt(ry, 10) - parseInt(info.year, 10)) > 1) {
+      notes.push(`Jahr weicht ab: erwartet ${info.year}, TMDB ${ry}`);
+    }
+  }
+  if (confidence !== "hoch") {
+    notes.push(`Zuordnungswert ${Math.round(best.score)} (Suchbegriff: "${best.query}")`);
+  }
+
+  return {
+    match: best.r,
+    info,
+    confidence,
+    yearNote: notes.length ? notes.join(" · ") : null,
+  };
 }
 
 async function main() {
