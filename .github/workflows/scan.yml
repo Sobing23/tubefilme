@@ -39,6 +39,11 @@ jobs:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/fetch-cast.js
 
+      - name: FSK-Einstufung nachladen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/fetch-fsk.js
+
       - name: Cover-Bilder cachen
         run: node scripts/cache-images.js
 
