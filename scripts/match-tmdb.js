@@ -56,7 +56,7 @@ function stripTrailingYear(text) {
 // (72% der Videos haben eine) und die Regie aus "Regie: X" (88%). Beides
 // sind starke, bisher ungenutzte Signale, um zwischen mehreren ähnlich
 // betitelten TMDB-Treffern den richtigen zu finden.
-function extractPeople(desc) {
+function extractPeople(desc, title) {
   const cast = [];
   const castLine = desc.match(/^\s*Mit:\s*(.+)$/m);
   if (castLine) {
@@ -64,6 +64,24 @@ function extractPeople(desc) {
       .split(/[;,]/)
       .map((s) => s.trim())
       .filter((s) => s.length > 2 && s.length < 60)
+      .forEach((s) => cast.push(s));
+  }
+
+  // Manche Kanäle nennen die Besetzung ausschließlich im Videotitel:
+  //   "Destroyer – mit Nicole Kidman & Sebastian Stan, ganzer Film ..."
+  //   "Hijacking – ganzer Thriller mit GOT-Star Pilou Asbæk, ..."
+  // Ohne diese Quelle blieben solche Filme ungeprüft -- und genau dort sind
+  // Fehltreffer bei gleichnamigen Filmen entstanden (z.B. "Night Moves"
+  // 1975 statt 2013).
+  const titleCast = (title || "").match(/\bmit\s+([^,–—(|]{4,70})/i);
+  if (titleCast) {
+    titleCast[1]
+      .split(/\s*&\s*|\s+und\s+/i)
+      .map((s) => s.replace(/^[A-ZÄÖÜ0-9]+-Star\s+/i, "").trim())
+      // nur echte Personennamen (Vor- UND Nachname groß geschrieben) --
+      // verhindert, dass Titelbestandteile wie "mit dem goldenen Colt"
+      // fälschlich als Schauspieler gelesen werden
+      .filter((s) => /^[A-ZÄÖÜ][\wäöüß.'-]*\s+[A-ZÄÖÜ]/.test(s))
       .forEach((s) => cast.push(s));
   }
 
@@ -83,7 +101,7 @@ function extractPeople(desc) {
 function extractSearchInfo(video) {
   const desc = video.description || "";
   const fallbackQuery = primaryTitleSegment(video.title);
-  const people = extractPeople(desc);
+  const people = extractPeople(desc, video.title);
 
   let m = desc.match(/\(\s*(\d{4})\s*\)\s*[\r\n]+Originaltitel:\s*(.+?)\s*[\r\n]/);
   if (m) {
@@ -369,7 +387,10 @@ async function findBestMatch(video) {
   const info = extractSearchInfo(video);
   const queryCandidates = buildQueryCandidates(info, video);
 
-  let best = null; // { r, score, exactTitle, query, yearApplied }
+  // Alle gefundenen Filme sammeln (nach tmdbId dedupliziert, bester Wert
+  // gewinnt) -- damit steht am Ende eine Rangliste zur Verfügung und nicht
+  // nur ein einzelner Favorit.
+  const scored = new Map();
 
   for (const q of queryCandidates) {
     const yearAttempts = info.year ? [true, false] : [false];
@@ -382,38 +403,51 @@ async function findBestMatch(video) {
       // ALLE Treffer bewerten, nicht nur den ersten
       for (const r of results.slice(0, 10)) {
         const { score, exactTitle } = scoreResult(r, q, info.year);
-        if (!best || score > best.score) {
-          best = { r, score, exactTitle, query: q, yearApplied: useYear };
+        const vorher = scored.get(r.id);
+        if (!vorher || score > vorher.score) {
+          scored.set(r.id, { r, score, exactTitle, query: q });
         }
       }
     }
 
-    if (best && best.score >= CONFIDENT_SCORE) break; // eindeutig, nicht weitersuchen
+    const bisherBester = [...scored.values()].sort((a, b) => b.score - a.score)[0];
+    if (bisherBester && bisherBester.score >= CONFIDENT_SCORE) break; // eindeutig
   }
 
-  if (!best) {
+  if (scored.size === 0) {
     return { match: null, info, reason: "kein TMDB-Treffer" };
   }
 
-  // Bei unklarer Lage: Besetzung/Regie aus der Beschreibung gegen TMDB
-  // abgleichen. Das ist das stärkste verfügbare Signal und kostet nur in
-  // den wenigen Zweifelsfällen einen zusätzlichen Aufruf.
+  let rangliste = [...scored.values()].sort((a, b) => b.score - a.score);
+  let best = rangliste[0];
   let personNote = null;
+
+  // Bei unklarer Lage: Besetzung/Regie gegen TMDB abgleichen -- und zwar für
+  // die drei besten Kandidaten, nicht nur für den Favoriten. Sonst würde ein
+  // falscher Treffer zwar abgewertet, der richtige aber nie gefunden (z.B.
+  // "Night Moves": ohne Vergleich gewinnt die bekanntere Fassung von 1975,
+  // obwohl im Titel Jesse Eisenberg steht, der in der von 2013 spielt).
   const hasPeople = info.cast.length > 0 || info.directors.length > 0;
   if (hasPeople && best.score < CONFIDENT_SCORE) {
-    const tmdbPeople = await fetchTmdbPeople(best.r.id);
-    await sleep(DELAY_MS);
-    const castHit = personOverlap(info.cast, tmdbPeople.cast);
-    const dirHit = personOverlap(info.directors, tmdbPeople.directors);
+    for (const kandidat of rangliste.slice(0, 3)) {
+      const tmdbPeople = await fetchTmdbPeople(kandidat.r.id);
+      await sleep(DELAY_MS);
+      const castHit = personOverlap(info.cast, tmdbPeople.cast);
+      const dirHit = personOverlap(info.directors, tmdbPeople.directors);
 
-    if ((castHit !== null && castHit >= 0.34) || (dirHit !== null && dirHit >= 0.5)) {
-      best.score += 60;
-      best.personConfirmed = true;
-      personNote = "Besetzung/Regie stimmen mit der Videobeschreibung überein";
-    } else if (castHit === 0 && dirHit === 0) {
-      best.score -= 40;
-      personNote = "Weder Besetzung noch Regie stimmen mit der Videobeschreibung überein -- bitte prüfen";
+      if ((castHit !== null && castHit >= 0.34) || (dirHit !== null && dirHit >= 0.5)) {
+        kandidat.score += 60;
+        kandidat.personConfirmed = true;
+      } else if (castHit === 0 || dirHit === 0) {
+        kandidat.score -= 40;
+      }
     }
+
+    rangliste = rangliste.sort((a, b) => b.score - a.score);
+    best = rangliste[0];
+    personNote = best.personConfirmed
+      ? "Besetzung/Regie stimmen mit den Angaben im Video überein"
+      : "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen";
   }
 
   if (best.score < MIN_ACCEPT_SCORE) {
