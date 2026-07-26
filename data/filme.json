@@ -81336,5 +81336,82 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/228933.jpg"
+  },
+  {
+    "videoId": "H4UcqLfawYQ",
+    "youtubeTitle": "Meine wunderbar seltsame Woche mit Tess (ABENTEUER ganzer Film, Abenteuerfilme in voller Länge 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/H4UcqLfawYQ/hqdefault.jpg",
+    "duration": "PT1H24M3S",
+    "publishedAt": "2026-07-25T15:00:37Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 575803,
+    "title": "Meine wunderbar seltsame Woche mit Tess",
+    "originalTitle": "Mijn bijzonder rare week met Tess",
+    "overview": "Sam verbringt mit seiner Familie den ersten Urlaubstag auf der niederländischen Insel 'Terschelling' und direkt bricht sich sein älterer Bruder das Bein. Doof für ihn, aber gut für Sam. Warum? Weil es dazu führt, dass Sam der eigensinnigen Tess begegnet, die einen genialen Plan hat, um endlich ihren Vater kennenzulernen, der noch nicht weiß dass er eine Tochter hat. Für ihren Plan hat Tess nur eine Woche Zeit, in der sie dringend Sams Hilfe benötigt. Der ist aber gerade mit sich und ganz anderen Dingen beschäftigt. Doch durch ihr gemeinsam anstehendes Abenteuer entdecken beide, wie viel Familie und Freundschaft wirklich bedeuten...",
+    "releaseDate": "2019-07-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/k2kgbfSXRP2sbD96LCaCXEWq3kL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sXuVkmxG9qNL40rXrOuu9IS0TxW.jpg",
+    "voteAverage": 7.1,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Sonny Coops van Utteren",
+      "Josephine Arendsen",
+      "Julian Ras",
+      "Tjebbo Gerritsma",
+      "Suzan Boogaerdt"
+    ],
+    "director": [
+      "Steven Wouterlood"
+    ],
+    "writer": [
+      "Laura van Dijk"
+    ],
+    "fsk": "0",
+    "posterLocal": "img/posters/575803.jpg"
+  },
+  {
+    "videoId": "_h0G01k2fWs",
+    "youtubeTitle": "Das Geheimnis der Schokoladenkekse (2015) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_h0G01k2fWs/hqdefault.jpg",
+    "duration": "PT1H24M4S",
+    "publishedAt": "2026-07-25T14:00:12Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 328848,
+    "title": "Verbrechen sind ihr Hobby: Das Geheimnis der Schokoladenkekse",
+    "originalTitle": "Murder, She Baked: A Chocolate Chip Cookie Mystery",
+    "overview": "Eigentlich war das Leben von Hannah Swensen immer ruhig und unbeschwert, bis sie eines Tages hinter ihrer Bäckerei ihren Lieferanten erschossen findet. Prompt wird aus der Bäckerin eine Amateur-Detektivin, die es sich zur Aufgabe gemacht hat, den Mörder ihres Freundes zu stellen.",
+    "releaseDate": "2015-05-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bJoPkl5kZUlfe9gxMJ5wpDobUSG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6d9Pwb28G7CNzEvtAjQ84erJlSy.jpg",
+    "voteAverage": 7.1,
+    "genreIds": [
+      10770,
+      9648,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Das Geheimnis der Schokoladenkekse\")",
+    "cast": [
+      "Alison Sweeney",
+      "Cameron Mathison",
+      "Barbara Niven",
+      "Gabriel Hogan",
+      "Lisa Durupt"
+    ],
+    "director": [
+      "Mark Jean"
+    ],
+    "writer": [
+      "Donald Martin"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/328848.jpg"
   }
 ]
