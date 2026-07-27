@@ -71100,46 +71100,6 @@
     "posterLocal": "img/posters/28646.jpg"
   },
   {
-    "videoId": "CjhJdLe6wZE",
-    "youtubeTitle": "Beginn einer Legende: Ip Man - The Awakening, ganzer Martial-Arts-Film auf Deutsch kostenlos in HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/CjhJdLe6wZE/hqdefault.jpg",
-    "duration": "PT1H16M19S",
-    "publishedAt": "2026-02-05T19:15:06Z",
-    "channelName": "Free Films Action",
-    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 26320,
-    "title": "Taking Woodstock - Der Beginn einer Legende",
-    "originalTitle": "Taking Woodstock",
-    "overview": "Eigentlich träumt der junge Elliot von einer Karriere als Innenausstatter in New York. Doch das Motel seiner Eltern läuft alles andere als gut. Also kehrt er in sein Heimatkaff zurück und sinnt nach einer Idee, wie man das Geschäft wieder zum Laufen bringen könnte. Als er aus der Zeitung erfährt, dass einem bereits angekündigten Open Air Konzert die Genehmigung entzogen wurde, wittert Elliot die ganz große Chance: Er bietet den Veranstaltern eine Kuhwiese in der unmittelbaren Nachbarschaft als Austragungsort an, ohne zu ahnen, welche Lawine er damit lostritt. Denn schon bald zieht nicht nur ein Bataillon von Organisatoren und schrillen Künstlern in die kleine, konservative Gemeinde. Auch mehr als 500.000 Musikfans und Hippies machen sich auf den Weg, um das größte Happening aller Zeiten zu feiern. Nach diesen drei Tagen \"Love, Peace and Music\" wird nichts mehr sein wie zuvor...",
-    "releaseDate": "2009-08-26",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/zHKE6tFKtQGzVvl3pGFbY8Mcaez.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uhPAPblYLrp6UJXi0LdUHPTovkY.jpg",
-    "voteAverage": 6.198,
-    "genreIds": [
-      10402,
-      35,
-      18
-    ],
-    "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 90 (Suchbegriff: \"Beginn einer Legende\")",
-    "cast": [
-      "Demetri Martin",
-      "Imelda Staunton",
-      "Henry Goodman",
-      "Jonathan Groff",
-      "Eugene Levy"
-    ],
-    "director": [
-      "Ang Lee"
-    ],
-    "writer": [
-      "James Schamus"
-    ],
-    "fsk": "6",
-    "posterLocal": "img/posters/26320.jpg"
-  },
-  {
     "videoId": "Gcqq2st-4vY",
     "youtubeTitle": "American Siege – Ganzer Actionfilm mit Bruce Willis auf Deutsch kostenlos in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/Gcqq2st-4vY/hqdefault.jpg",
@@ -81491,5 +81451,42 @@
     ],
     "fsk": "12",
     "posterLocal": "img/posters/3101.jpg"
+  },
+  {
+    "videoId": "CjhJdLe6wZE",
+    "youtubeTitle": "Beginn einer Legende: Ip Man - The Awakening, ganzer Martial-Arts-Film auf Deutsch kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CjhJdLe6wZE/hqdefault.jpg",
+    "duration": "PT1H16M19S",
+    "publishedAt": "2026-02-05T19:15:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 875104,
+    "title": "Ip Man: The Awakening",
+    "originalTitle": "叶问宗师觉醒",
+    "overview": "Ip Man kommt als Jüngling aus der Provinz in das damals noch von Großbritannien regierte Hongkong, um dort zu studieren. Schnell findet er in dem ebenfalls kampfsportbegeisterten Buefeng einen guten Freund. Als die zwei eines Abends zum Essen ausgehen, werden sie Zeugen, wie ein Mädchen durch eine offenbar von Engländern finanzierte Bande entführt wird. Obwohl Buefeng ihn anfleht, sich nicht einzumischen, kann Ip Man nicht anders und rettet das Opfer sowie weitere gekidnappte Frauen, bevor sie von ihren Peinigern als Sexsklaven nach Europa verschifft werden können. Diese Aktion kommt beim Boss der Gangster, dem Kolonialisten Starke, natürlich alles andere als gut an …",
+    "releaseDate": "2021-09-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ejF3BiPRnuBmSzedOz8Z7e2b0m1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/Xfn9eDOaZKSz5W3PRoJI928I9c.jpg",
+    "voteAverage": 6.766,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "谢苗",
+      "Chen Guanying",
+      "Sergio De Ieso",
+      "Hou Tongjiang",
+      "Gu Lei"
+    ],
+    "director": [
+      "Zhang Zhulin",
+      "Li Xijie"
+    ],
+    "writer": [
+      "Fang Lan",
+      "刘巴音"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/875104.jpg"
   }
 ]
