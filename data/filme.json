@@ -73640,7 +73640,7 @@
       80,
       27
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "mittel",
     "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Crawlspace\")",
     "cast": [
@@ -73679,7 +73679,7 @@
       28,
       53
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "mittel",
     "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Die Asse der stählernen Adler\")",
     "cast": [
@@ -73698,6 +73698,47 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/2038.jpg"
+  },
+  {
+    "videoId": "Ld4D_QvzRaM",
+    "youtubeTitle": "Office Uprising - Die Arbeit bringt mich um – Ganzer Actionfilm auf Deutsch kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Ld4D_QvzRaM/hqdefault.jpg",
+    "duration": "PT1H28M42S",
+    "publishedAt": "2025-07-02T22:00:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 381237,
+    "title": "Office Uprising",
+    "originalTitle": "Office Uprising",
+    "overview": "In einer Waffen-Manufaktur lässt sich der Vorstand etwas Fieses einfallen, um die Angestellten effektiver arbeiten zu lassen: Ihnen wird einfach eine Art Dopingmittel in die Getränke gemischt. Zunächst läuft alles nach Plan und die Produktivität steigt enorm, doch dann versemmelt der schusselige und verplante Mitarbeiter Desmond die Formel der Mixtur und die Kollegen verwandeln sich alsbald in gewalttätige Psychopathen.",
+    "releaseDate": "2018-06-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ih5aGpxmHYB5mwYk66MTrSUXiQ3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/k98zx90KvkGmGxJ7inYYmvSHdkV.jpg",
+    "voteAverage": 5.34,
+    "genreIds": [
+      35,
+      27,
+      28
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Office Uprising\")",
+    "cast": [
+      "Brenton Thwaites",
+      "Jane Levy",
+      "Karan Soni",
+      "Zachary Levi",
+      "Ian Harding"
+    ],
+    "director": [
+      "Lin Oeding"
+    ],
+    "writer": [
+      "Ian Shorr",
+      "Peter Gamble"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/381237.jpg"
   },
   {
     "videoId": "ogMwilKejPs",
@@ -73720,7 +73761,7 @@
       27,
       35
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
     "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Assassination Nation\")",
     "cast": [
@@ -73738,6 +73779,46 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/446101.jpg"
+  },
+  {
+    "videoId": "2OXhsMp-TiU",
+    "youtubeTitle": "Fear of Rain - Die Angst in Dir – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2OXhsMp-TiU/hqdefault.jpg",
+    "duration": "PT1H48M54S",
+    "publishedAt": "2025-01-22T23:00:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 599281,
+    "title": "Fear of Rain",
+    "originalTitle": "Fear of Rain",
+    "overview": "Die 17-jährige Rain leidet an schizophrenen Schüben und schrecklichen Halluzinationen. Nach einem längeren Krankenhausaufenthalt versucht sie, ihr Leben wieder auf die Reihe zu kriegen und vielleicht sogar bei ihrem Schwarm Caleb zu landen. Einstweilen bereitet ihr aber die neue Nachbarin Kopfzerbrechen. Rain ist überzeugt, dass die Frau ein Kind in ihre Gewalt gebracht hat. Nur Caleb kann Rain helfen. Dabei ist nicht ganz sicher, ob er nicht einfach nur in ihrer Fantasie existiert.",
+    "releaseDate": "2021-02-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iIVDpqD7PBfw5z3ndzBXtghOQBG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dJR6dZJHXcXOBbNkVzsjuquWFU4.jpg",
+    "voteAverage": 6.9,
+    "genreIds": [
+      53,
+      27,
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Fear of Rain\")",
+    "cast": [
+      "Madison Iseman",
+      "Israel Broussard",
+      "Eugenie Bondurant",
+      "Katherine Heigl",
+      "Harry Connick Jr."
+    ],
+    "director": [
+      "Castille Landon"
+    ],
+    "writer": [
+      "Castille Landon"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/599281.jpg"
   },
   {
     "videoId": "jOC7U0XFssA",
@@ -73760,9 +73841,8 @@
       18,
       12
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Salyut-7\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Владимир Вдовиченков",
       "Павел Деревянко",
@@ -73802,9 +73882,9 @@
       18,
       14
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"The House at the End of Time\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"La casa del fin de los tiempos\")",
     "cast": [
       "Ruddy Rodriguez",
       "Gonzalo Cubero",
@@ -73838,9 +73918,8 @@
     "backdropUrl": null,
     "voteAverage": 6.5,
     "genreIds": [],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 58 (Suchbegriff: \"Bissige Hunde\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Tobias Oertel",
       "Jörg Witte",
@@ -73878,9 +73957,8 @@
       80,
       9648
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Narrow Margin - 12 Stunden Angst\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Gene Hackman",
       "Anne Archer",
@@ -73898,6 +73976,83 @@
     "posterLocal": "img/posters/31597.jpg"
   },
   {
+    "videoId": "a74REkiUGWo",
+    "youtubeTitle": "John Carpenter's Sie leben – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/a74REkiUGWo/hqdefault.jpg",
+    "duration": "PT1H30M27S",
+    "publishedAt": "2024-09-04T22:00:07Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 8337,
+    "title": "Sie leben!",
+    "originalTitle": "They Live",
+    "overview": "Zwischen Mülltonnen entdeckt der desillusionierte Arbeiter John einen Karton mit Sonnenbrillen, durch die er Werbetafeln als manipulative Propaganda zum hemmungslosen Konsum und einige Mitbürger als skelettähnliche Aliens erkennen kann. Gemeinsam mit einer Gruppe Widerständler, die ebenfalls hinter diese außerirdische Invasion gekommen sind, nimmt John den bewaffneten Kampf auf und wird daraufhin als Terrorist gesucht. Nach wilden Verfolgungsjagden und heftigen Feuergefechten gelingt es ihm, in die Kommandozentrale der Außerirdischen einzudringen und die Maschine zu zerstören, die ihnen ihr menschliches Aussehen verleiht.",
+    "releaseDate": "1988-11-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hcBTqhyR6L4Rd5XAAhKyBSs54dw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3k2DQBryXzaL7DoAtu6veWWluwt.jpg",
+    "voteAverage": 7.302,
+    "genreIds": [
+      878,
+      28,
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Roddy Piper",
+      "Keith David",
+      "Meg Foster",
+      "George Buck Flower",
+      "Peter Jason"
+    ],
+    "director": [
+      "John Carpenter"
+    ],
+    "writer": [
+      "John Carpenter"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/8337.jpg"
+  },
+  {
+    "videoId": "CTZITy2bizk",
+    "youtubeTitle": "Mit aller Macht – mit John Travolta & Emma Thompson, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CTZITy2bizk/hqdefault.jpg",
+    "duration": "PT2H23M26S",
+    "publishedAt": "2024-06-26T22:00:07Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 9440,
+    "title": "Mit aller Macht",
+    "originalTitle": "Primary Colors",
+    "overview": "Der Südstaaten-Gouverneur Jack Stanton muß die Vorwahlen gewinnen, um als Präsidentschaftskandidat seiner Partei aufgestellt zu werden. Dank seines charismatischen Auftretens und unwiderstehlichen Charmes fesselt er Wähler aller Schichten und schwört ein kleines, höchst effizientes Beraterteam auf sich ein. Nichts scheint Stanton auf seinem Weg zum höchsten Amt im Staat aufhalten zu können. Außer vielleicht dieser Trieb, der ihn förmlich dazu zwingt, weibliche Mitbürgerinnen ebensogerne zu vernaschen wie Doughnuts...",
+    "releaseDate": "1998-03-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gpC5gBZRKlMdkMFIZh5POTWdv2A.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8S0fdn8FumgyqEN2yQDeVfBFOk1.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      18,
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "John Travolta",
+      "Emma Thompson",
+      "Billy Bob Thornton",
+      "Adrian Lester",
+      "Maura Tierney"
+    ],
+    "director": [
+      "Mike Nichols"
+    ],
+    "writer": [
+      "Elaine May"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/9440.jpg"
+  },
+  {
     "videoId": "ldiZ6iReRGg",
     "youtubeTitle": "Das Versteck – ganzer Film auf Deutsch kostenlos schauen in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/ldiZ6iReRGg/hqdefault.jpg",
@@ -73905,38 +74060,32 @@
     "publishedAt": "2024-06-12T22:00:07Z",
     "channelName": "Free Films Action",
     "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 286391,
+    "tmdbId": 71191,
     "title": "Das Versteck",
-    "originalTitle": "Das Versteck",
-    "overview": "Eines Morgens steht Max vor der Tür seiner geschiedenen Frau Wanda und bittet um Einlass. Er werde von der Polizei gesucht, sei aber nicht schuldig. Irgendwann am kommenden Wochenende werde sich der Fall klären, und bis dahin brauche er Unterschlupf. Die verstörte Wanda, die gerade ihren neuen Freund zu Besuch hat, nimmt Max bei sich auf. Doch Max hat Wanda angelogen, er wird gar nicht gesucht, es ist nur ein Trick, um wieder in ihrer Nähe zu sein, vielleicht wieder mit ihr zu leben. So werden die Tage im “Versteck” zu Tagen der Prüfung…",
-    "releaseDate": "1978-11-06",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/k2SB9YTfsIhWEKoUyok3BG8d97t.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3PXPWjLMs7FEHmg2WWw6s6gbhxJ.jpg",
-    "voteAverage": 7,
+    "originalTitle": "La Planque",
+    "overview": "Die drei Ganoven Kiko, Gilles und Pera planen und begehen gemeinsam einen Banküberfall. Die Beute: satte 50 Millionen Dollar. Doch als sie mitsamt dem Geld aus der Bankfiliale fliehen wollen, stellen sie zu ihrem Erschrecken fest, dass Titi, der Fahrer des Fluchtwagens, scheinbar kalte Füße bekommen hat und abgehauen ist. In Panik macht sich das halbstarke Trio auf die Suche nach einem neuen Versteck. Der Kopf der Bande Kiko schlägt verrückterweise die anliegende Polizeistation als Unterschlupf vor. Der Plan scheint zunächst tatsächlich zu funktionieren. Die Gauner fallen nicht auf und werden sogar für echte Polizisten gehalten. Aber es ist auch klar, aus dieser Situation kommen sie so schnell nicht einfach wieder heraus.",
+    "releaseDate": "2011-09-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sGmM99GdR80M05PPtw30SfmQ9Og.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2X7nv7IVEQK4LuGFFYhnF94DO8Z.jpg",
+    "voteAverage": 6.7,
     "genreIds": [
-      10749,
-      18,
       35
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 121 (Suchbegriff: \"Das Versteck\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
-      "Jutta Hoffmann",
-      "Manfred Krug",
-      "Marita Böhme",
-      "Brigitte Beier",
-      "Dieter Mann"
+      "Jalil Naciri",
+      "Gilles Bellomi",
+      "Ahcen Titi",
+      "Guillaume Verdier",
+      "Samira Lachhab"
     ],
     "director": [
-      "Frank Beyer"
+      "Akim Isker"
     ],
-    "writer": [
-      "Frank Beyer",
-      "Jurek Becker"
-    ],
-    "fsk": null,
-    "posterLocal": "img/posters/286391.jpg"
+    "writer": [],
+    "fsk": "12",
+    "posterLocal": "img/posters/71191.jpg"
   },
   {
     "videoId": "qm7U_hObGYU",
@@ -73961,9 +74110,8 @@
       18,
       37
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 50 (Suchbegriff: \"Extreme Prejudice - Ausgelöscht\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Nick Nolte",
       "Powers Boothe",
@@ -74004,9 +74152,8 @@
       35,
       878
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Nightbreakers - The Undead\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Felicity Mason",
       "Mungo McKay",
@@ -74046,9 +74193,8 @@
       28,
       9648
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"The Blind Man\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Jacques Gamblin",
       "Lambert Wilson",
@@ -74084,9 +74230,8 @@
     "genreIds": [
       37
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 88 (Suchbegriff: \"In einem wilden Land\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Emilia Schüle",
       "Nadja Uhl",
@@ -74112,37 +74257,36 @@
     "publishedAt": "2024-05-08T22:00:07Z",
     "channelName": "Free Films Action",
     "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 9945,
-    "title": "John Carpenters Vampire",
-    "originalTitle": "Vampires",
-    "overview": "Im Geheimauftrag des Vatikans betreibt Jack Crow sein martialisches Geschäft. Im Schutz des Tageslichtes vernichtet er mit seinen Gefolgsleuten Vampirnester. Als bei einem nächtlichen Überfall der Untoten seine gesamte Crew dahingemetzelt wird, können nur Jack und ein treuer Begleiter fliehen. Sie schwören Rache! Mit Hilfe eines Pastors stößt Jack auf Valek den „Meister“. Seit 600 Jahren ist der einstige Priester in einer Mission unterwegs: Er sucht das legendäre Kreuz von Bezier, mit dem Vampire das Sonnenlicht ertragen könnten – ein Alptraum für die Menschheit. Das Duell entwickelt sich zum Wettlauf mit der Zeit und findet sein grandioses Finale im Wüstensand.",
-    "releaseDate": "1998-10-30",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/o9JeXDPUPrAO1a88PKf47S7cl0s.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uzlGbsQkpK6C3ZiqRqKw9CwK0Do.jpg",
-    "voteAverage": 6.316,
+    "tmdbId": 10605,
+    "title": "John Carpenter's Vampires: Los Muertos",
+    "originalTitle": "Vampires: Los Muertos",
+    "overview": "Der Vampirjäger Derek Bliss wird von einem anonymen Kunden beauftragt, in Mexiko eine Gruppe von Vampiren unter der Herrschaft der mächtigen Vampirkönigin Una auszulöschen, die es auf das legendäre Schwarze Kreuz von Berziers abgesehen hat, das den Untoten mit Hilfe eines Rituals dazu verhelfen soll, sich auch bei Tageslicht draußen bewegen zu können. Da seine eigentlichen Mitstreiter alle durch Vampire umgekommen sind, stellt Derek notgedrungen eine Gruppe von Jägern zusammen, darunter der fünfzehnjährige Schulschwänzer Sancho, die Halbvampirin Zoey, die mit Medikamenten ihren Blutdurst bekämpft und Pater Rodrigo, der ein Vampir-Massaker in einem Kloster überlebt hat. Der einzige richtige Jäger ist der aus Memphis stammende Ray Collins.",
+    "releaseDate": "2002-09-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/q5kRjaLtYB7mf16FrTrixOWwuWA.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/468byqw036ZvHhjLpCWifITnElQ.jpg",
+    "voteAverage": 5.346,
     "genreIds": [
-      28,
-      14,
-      27
+      27,
+      53,
+      28
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"John Carpenters Vampire\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
-      "James Woods",
-      "Daniel Baldwin",
-      "Sheryl Lee",
-      "Thomas Ian Griffith",
-      "Maximilian Schell"
+      "Jon Bon Jovi",
+      "Cristián de la Fuente",
+      "Diego Luna",
+      "Natasha Gregson Wagner",
+      "Antonio Muñiz"
     ],
     "director": [
-      "John Carpenter"
+      "Tommy Lee Wallace"
     ],
     "writer": [
-      "Don Jakoby"
+      "Tommy Lee Wallace"
     ],
-    "fsk": "18",
-    "posterLocal": "img/posters/9945.jpg"
+    "fsk": "16",
+    "posterLocal": "img/posters/10605.jpg"
   },
   {
     "videoId": "Y90RMhMFKjI",
@@ -74165,9 +74309,9 @@
       9648,
       27
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Jacob's Ladder - In der Gewalt des Jenseits\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Jacob’s Ladder\")",
     "cast": [
       "Tim Robbins",
       "Elizabeth Peña",
@@ -74183,6 +74327,47 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/2291.jpg"
+  },
+  {
+    "videoId": "GUuPGeuRiVQ",
+    "youtubeTitle": "Jud Süss - Film ohne Gewissen – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GUuPGeuRiVQ/hqdefault.jpg",
+    "duration": "PT1H54M32S",
+    "publishedAt": "2024-01-17T23:00:12Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 172214,
+    "title": "Jud Süß",
+    "originalTitle": "Jew Süss",
+    "overview": "",
+    "releaseDate": "1934-10-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jeEGYshrQp2P6xfa6cKLvmXYZQR.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kYYUPPq2OAUYQnEmeZD1dObr4sa.jpg",
+    "voteAverage": 5.714,
+    "genreIds": [
+      18,
+      36,
+      10749
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 53 (Suchbegriff: \"Jud Süss\")",
+    "cast": [
+      "Conrad Veidt",
+      "Benita Hume",
+      "Frank Vosper",
+      "Cedric Hardwicke",
+      "Gerald du Maurier"
+    ],
+    "director": [
+      "Lothar Mendes"
+    ],
+    "writer": [
+      "Dorothy Farnum",
+      "A.R. Rawlinson"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/172214.jpg"
   },
   {
     "videoId": "fCwH4zu7g8w",
@@ -74206,9 +74391,8 @@
       9648,
       53
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"In Ihrem Haus\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Fabrice Luchini",
       "Ernst Umhauer",
@@ -74246,7 +74430,7 @@
       53,
       35
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
     "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Shocker\")",
     "cast": [
@@ -74285,7 +74469,7 @@
       28,
       18
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
     "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Birth of the Dragon\")",
     "cast": [
@@ -74306,6 +74490,87 @@
     "posterLocal": "img/posters/408266.jpg"
   },
   {
+    "videoId": "Sbj_7inW5LE",
+    "youtubeTitle": "Agatha Christie's Zeugin der Anklage - ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Sbj_7inW5LE/hqdefault.jpg",
+    "duration": "PT1H57M36S",
+    "publishedAt": "2023-10-11T22:00:12Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 37257,
+    "title": "Zeugin der Anklage",
+    "originalTitle": "Witness for the Prosecution",
+    "overview": "Eigentlich ist Sir Wilfrid Robarts gesundheitlich noch gar nicht imstande, Leonard Vole vor einem Londoner Schwurgericht zu verteidigen. Aber der berühmte Anwalt kann dem Reiz des Falls nicht widerstehen: Leonard Vole wird beschuldigt, sich aus Habgier an die reiche Witwe Emily French herangemacht und sie ermordet zu haben. Und ausgerechnet Voles Frau Christine tritt als Zeugin der Anklage auf.",
+    "releaseDate": "1957-12-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sjfYeye0DG0siCCvt4Lt1REr9cq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
+    "voteAverage": 8.206,
+    "genreIds": [
+      18,
+      9648,
+      80
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 54 (Suchbegriff: \"The Witness for the Prosecution\")",
+    "cast": [
+      "Tyrone Power",
+      "Marlene Dietrich",
+      "Charles Laughton",
+      "Elsa Lanchester",
+      "John Williams"
+    ],
+    "director": [
+      "Billy Wilder"
+    ],
+    "writer": [
+      "Harry Kurnitz",
+      "Billy Wilder"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/37257.jpg"
+  },
+  {
+    "videoId": "RBXVLY7vtgE",
+    "youtubeTitle": "The Clovehitch Killer– ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RBXVLY7vtgE/hqdefault.jpg",
+    "duration": "PT1H49M37S",
+    "publishedAt": "2023-08-30T22:00:26Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 544431,
+    "title": "The Clovehitch Killer",
+    "originalTitle": "The Clovehitch Killer",
+    "overview": "Der junge Tyler führt ein glückliches Leben in einer amerikanischen Kleinstadt, die vor zehn Jahren von einem Serienkiller heimgesucht wurde. Der sogenannte Clovehitch-Killer tötete mehrere Frauen, die er stets gefesselt an seinen Tatorten hinterließ. Eines Tages findet Tyler im Auto seines Vaters das Bild eines strangulierten Mädchens. Schockiert von diesem Ereignis, keimt in ihm der Verdacht auf, dass eventuell sein Vater der langgesuchte Clovehitch-Killer sein könnte. Mithilfe der gleichaltrigen Kassi geht er seiner Eingebung nach, um eine ungeheuerliche Wahrheit ans Licht zu bringen.",
+    "releaseDate": "2018-11-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6NmsbUJqnopbnLun2E4KvtVNj8T.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vSPUZQr6bsvFOJPsd6NPxGkDd2v.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      18,
+      9648,
+      80
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Dylan McDermott",
+      "Charlie Plummer",
+      "Samantha Mathis",
+      "Madisen Beaty",
+      "Brenna Sherman"
+    ],
+    "director": [
+      "Duncan Skiles"
+    ],
+    "writer": [
+      "Christopher Ford"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/544431.jpg"
+  },
+  {
     "videoId": "HWE16y-62VY",
     "youtubeTitle": "Pursued – ein Headhunter kennt keine Gnade – ganzer Film auf Deutsch kostenlos schauen in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/HWE16y-62VY/hqdefault.jpg",
@@ -74313,36 +74578,61 @@
     "publishedAt": "2023-08-03T22:00:08Z",
     "channelName": "Free Films Action",
     "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 39403,
-    "title": "Pursued - Ein Headhunter kennt keine Gnade",
+    "tmdbId": 1576034,
+    "title": "Pursued",
     "originalTitle": "Pursued",
-    "overview": "Sein Job könnte ihn den Kopf kosten: Vincent Palmer wirbt als professioneller Headhunter Topkräfte für Großkonzerne ab. Gegen siebenstellige Beträge - und ohne jede Skrupel. Sein neuestes Opfer ist der Biochemiker Ben Keats, der sich weder mit Geld noch Macht ködern lässt. Also schleicht sich Vincent als \"guter Onkel\" und Freund in Bens Familie ein und beginnt ein hinterhältiges Spiel. Schließlich bedroht er Bens Frau Madeleine und schreckt auch vor Mord nicht zurück. Keats muss den Eindringling mit dessen eigenen Waffen schlagen... denn diese Agentur für Arbeit ist mörderisch.",
-    "releaseDate": "2004-12-21",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/qEn9ZZuCS57EuwoqCM3vPC6TnS6.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/t6m28u6MvSrwD46joToO3MfKrkW.jpg",
-    "voteAverage": 5.226,
+    "overview": "",
+    "releaseDate": "1925-08-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uAFyOKEDQVuG2p14vUMbK1832GE.jpg",
+    "backdropUrl": null,
+    "voteAverage": 8,
     "genreIds": [
-      53,
-      28
+      18
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 88 (Suchbegriff: \"Pursued - ein Headhunter kennt keine Gnade\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Pursued\")",
     "cast": [
-      "Christian Slater",
-      "Estella Warren",
-      "Gil Bellows",
-      "Chelah Horsdal",
-      "Michael Clarke Duncan"
+      "Gaston Glass",
+      "Marcella Daly",
+      "George Siegmann",
+      "Arthur Rankin",
+      "Gertrude Astor"
     ],
     "director": [
-      "Kristoffer Tabori"
+      "Dell Henderson"
     ],
     "writer": [
-      "Maggie April"
+      "J. Benson Stafford"
     ],
     "fsk": null,
-    "posterLocal": "img/posters/39403.jpg"
+    "posterLocal": "img/posters/1576034.jpg"
+  },
+  {
+    "videoId": "rvHRvix-m_E",
+    "youtubeTitle": "Bruce Lee – Todesgrüße aus Shanghai – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rvHRvix-m_E/hqdefault.jpg",
+    "duration": "PT1H41M45S",
+    "publishedAt": "2023-07-26T22:00:09Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 77002,
+    "title": "Bruce Lee - O Dragão Chines",
+    "originalTitle": "Bruce Lee - O Dragão Chines",
+    "overview": "",
+    "releaseDate": "1972-05-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/q5SR0JUsYsw1N92bSigKuzwKYdS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/b4GbXv9ziSC3Q1eSAgn4dP5ynhB.jpg",
+    "voteAverage": 7,
+    "genreIds": [],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 75 (Suchbegriff: \"Bruce Lee\")",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/77002.jpg"
   },
   {
     "videoId": "nE2VHmgxjUY",
@@ -74352,35 +74642,35 @@
     "publishedAt": "2023-07-23T22:00:08Z",
     "channelName": "Free Films Action",
     "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 40572,
-    "title": "How Bruce Lee Changed the World - Das Leben und Wirken einer Ikone",
-    "originalTitle": "How Bruce Lee Changed the World",
-    "overview": "Diese bahnbrechende Dokumentation wirft einen völlig neuen Blick auf das Erbe Bruce Lees. Mehr als nur eine Biografie, erforscht sie Bruce Lees weltweite Wirkung und zeigt, wie er alle Bereiche der Popkultur wie beispielsweise Fitness, Kino, Musik, Sport, Tanz, Computerspiele und Philosophie beeinflusst hat. Gedreht in High Definition, reist der Film zusammen mit Bruce Lees Tochter Shannon Lee durch die USA, Europa und Asien - zu den Wurzeln ihres Vaters in Hong Kongo und China. Außerdem erhielten die Filmemacher exklusive Einblicke in das Familienarchiv mit Fotos, Videos und weiterem Material der Bruce Lee Stiftung.",
-    "releaseDate": "2009-05-17",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/4AZebV9VllVpaRna69pMX8P4EQK.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/h4lqGVzWwBnK55QhPPfxtPAAggA.jpg",
-    "voteAverage": 8,
+    "tmdbId": 44645,
+    "title": "Bruce Lee - Die Legende",
+    "originalTitle": "Bruce Lee, the Legend",
+    "overview": "Spannend und bewegend: das Leben und die Karriere des Bruce Lee! Bruce Lee – geboren 1940 im Jahre des Drachen – auf dem Zenit seines künstlerischen Schaffens im Alter von nur 32 Jahren verstorben, war bereits zu Lebzeiten eine Legende. Auch fast 40 Jahre nach seinem Tod steht eine riesige Fan-Gemeinde hinter ihm. Der vorliegende Film zeigt in vier Kapiteln Leben und Karriere des Schauspielers, Autors, Regisseurs und Produzenten Bruce Lee. Ausschnitte früherer Filme, private Aufnahmen und selten vorgeführte Testaufnahmen zusammen mit Interviews und spektakulären Kampfszenen aus Bruce Lee-Filmen ergeben einen Einblick in sein bewegendes Leben und seinen frühen und mysteriösen Tod. Wer war Bruce Lee, wie kam er zum Film und wie sahen ihn seine Freunde? Antworten hierauf gibt diese außergewöhnliche Dokumentation.",
+    "releaseDate": "1984-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fdD3whXbdfHjlcDNt2oEy6jsxjD.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8uhQyS0nKh0MAgiZbxw42ZL8NSG.jpg",
+    "voteAverage": 7.9,
     "genreIds": [
       99
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 83 (Suchbegriff: \"Bruce Lee\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Bruce Lee – the legend\")",
     "cast": [
+      "James B. Nicholson",
       "Bruce Lee",
       "Linda Lee Cadwell",
-      "Charles Parnell",
-      "Shannon Lee",
-      "Jackie Chan"
+      "Raymond Chow",
+      "Robert Clouse"
     ],
     "director": [
-      "Steve Webb"
+      "Raymond Chow"
     ],
     "writer": [
-      "Steve Webb"
+      "Russell Cawthorne"
     ],
-    "fsk": "16",
-    "posterLocal": "img/posters/40572.jpg"
+    "fsk": null,
+    "posterLocal": "img/posters/44645.jpg"
   },
   {
     "videoId": "a3S-PB9dUH8",
@@ -74402,9 +74692,9 @@
       28,
       18
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"The Gunfighters\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Blunt Force Trauma\")",
     "cast": [
       "Ryan Kwanten",
       "Freida Pinto",
@@ -74422,6 +74712,83 @@
     "posterLocal": "img/posters/360387.jpg"
   },
   {
+    "videoId": "k3G65PI4Klg",
+    "youtubeTitle": "Bruce Lee - Die Todeskralle schlägt wieder zu - ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/k3G65PI4Klg/hqdefault.jpg",
+    "duration": "PT1H34M37S",
+    "publishedAt": "2023-06-20T22:00:08Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 40572,
+    "title": "How Bruce Lee Changed the World - Das Leben und Wirken einer Ikone",
+    "originalTitle": "How Bruce Lee Changed the World",
+    "overview": "Diese bahnbrechende Dokumentation wirft einen völlig neuen Blick auf das Erbe Bruce Lees. Mehr als nur eine Biografie, erforscht sie Bruce Lees weltweite Wirkung und zeigt, wie er alle Bereiche der Popkultur wie beispielsweise Fitness, Kino, Musik, Sport, Tanz, Computerspiele und Philosophie beeinflusst hat. Gedreht in High Definition, reist der Film zusammen mit Bruce Lees Tochter Shannon Lee durch die USA, Europa und Asien - zu den Wurzeln ihres Vaters in Hong Kongo und China. Außerdem erhielten die Filmemacher exklusive Einblicke in das Familienarchiv mit Fotos, Videos und weiterem Material der Bruce Lee Stiftung.",
+    "releaseDate": "2009-05-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4AZebV9VllVpaRna69pMX8P4EQK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/h4lqGVzWwBnK55QhPPfxtPAAggA.jpg",
+    "voteAverage": 8,
+    "genreIds": [
+      99
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 83 (Suchbegriff: \"Bruce Lee\")",
+    "cast": [
+      "Bruce Lee",
+      "Linda Lee Cadwell",
+      "Charles Parnell",
+      "Shannon Lee",
+      "Jackie Chan"
+    ],
+    "director": [
+      "Steve Webb"
+    ],
+    "writer": [
+      "Steve Webb"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/40572.jpg"
+  },
+  {
+    "videoId": "sb0pAiy4V3w",
+    "youtubeTitle": "MARA– Horrorfilm mit Olga Korylenko, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sb0pAiy4V3w/hqdefault.jpg",
+    "duration": "PT1H38M19S",
+    "publishedAt": "2023-05-24T22:00:24Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 514277,
+    "title": "Mara",
+    "originalTitle": "Mara",
+    "overview": "Alles deutet daraufhin, dass eine Frau ihren Gatten im Schlaf getötet hat. Zeugin der Tat: deren Tochter Sophie. Der Fall wird alsbald zu den Akten gelegt. Doch dann stößt die Kriminalpsychologin Kate Fuller auf ähnlich gelagerte Verbrechen, die schließlich nur eine Vermutung zulassen: Der wahre Mörder ist ein uralter Dämon, der seine Opfer im Schlaf heimsucht. Von nun an darf Kate eines definitiv nicht mehr: die Augen zumachen. Sie könnte sonst nie wieder aufwachen…",
+    "releaseDate": "2018-08-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/x9Zzu8d8DNcaXY2mcMwXqaG0y8y.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5v60mZhF7nLgmPS3qZ9JUwDr33l.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Olga Kurylenko",
+      "Javier Botet",
+      "Mitch Eakins",
+      "Lance E. Nichols",
+      "Rosie Fellner"
+    ],
+    "director": [
+      "Clive Tonge"
+    ],
+    "writer": [
+      "Clive Tonge",
+      "Jonathan Frank"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/514277.jpg"
+  },
+  {
     "videoId": "YdtZ7gerIrI",
     "youtubeTitle": "Die Besucher – Sturm auf die Bastille – Jean Reno, Christian Clavier, ganzer Film kostenlos in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/YdtZ7gerIrI/hqdefault.jpg",
@@ -74429,37 +74796,77 @@
     "publishedAt": "2023-04-13T22:00:15Z",
     "channelName": "Free Films Action",
     "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 248705,
-    "title": "Die Besucher - Sturm auf die Bastille",
-    "originalTitle": "Les Visiteurs : La Révolution",
-    "overview": "Der Ritter Godefroy ist mit seinem Diener Jacquouille mithilfe eines Wundermittels bereits zweimal aus dem 12. Jahrhundert in die Gegenwart gereist. Dabei haben sie allerlei Abenteuer erlebt, aber jetzt wird es nochmal richtig chaotisch, denn die zwei Knalltüten verschlägt es dieses Mal ins Jahr 1793 und damit mitten rein in die Französische Revolution. Als ob ein Besuch in einem Land im Umbruch und voller Tumulte nicht schon haarig genug ist, bringen die mittelalterlichen Haudegen zu allem Überfluss auch noch schlechte Angewohnheiten und Erfahrungen aus der Neuzeit mit. Dass zu diesem Zeitpunkt noch keine Glühbirnen existierten, ist noch das geringste Problem für die mit modernen Flüchen um sich schmeißenden Besucher mit zweifelhaftem Benehmen. Aber wie kommen sie nur wieder aus diesem Schlamassel heraus?",
-    "releaseDate": "2016-03-23",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/dCzdftRC3TbNVKMHJrBtvo08VLb.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qfKTXby3fKjCKvt8M6uYD3l3SvD.jpg",
-    "voteAverage": 4.201,
+    "tmdbId": 102699,
+    "title": "Die Besucher",
+    "originalTitle": "The Visitors",
+    "overview": "Bill lebt mit seiner Frau Martha und dem gemeinsamen Kind in völliger Harmonie. Eines Tages besuchen ihn die ehemaligen Vietnamsoldaten Mike und Tony. Was Martha nicht weiß: Bill hatte die beiden einst wegen Vergewaltigung einer Vietnamesin angezeigt.",
+    "releaseDate": "1972-02-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rlnSJXYfCzbmBN2utn7BRZX5Lak.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5FavuUTRtloz41DYWqN4CWOHwdZ.jpg",
+    "voteAverage": 6.036,
     "genreIds": [
-      35,
-      14
+      18,
+      80,
+      53
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Die Besucher - Sturm auf die Bastille\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 128 (Suchbegriff: \"Die Besucher\")",
     "cast": [
-      "Jean Reno",
-      "Christian Clavier",
-      "Franck Dubosc",
-      "Karin Viard",
-      "Sylvie Testud"
+      "Patrick McVey",
+      "Patricia Joyce",
+      "James Woods",
+      "Steve Railsback",
+      "Chico Martínez"
     ],
     "director": [
-      "Jean-Marie Poiré"
+      "Elia Kazan"
     ],
     "writer": [
-      "Jean-Marie Poiré",
-      "Christian Clavier"
+      "Chris Kazan"
     ],
-    "fsk": "12",
-    "posterLocal": "img/posters/248705.jpg"
+    "fsk": null,
+    "posterLocal": "img/posters/102699.jpg"
+  },
+  {
+    "videoId": "JzFrgjqYl3M",
+    "youtubeTitle": "Das Geheimnis von Marrowbone– Mia Goth und Anya Taylor-Joy, ganzer Film auf Deutsch kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JzFrgjqYl3M/hqdefault.jpg",
+    "duration": "PT1H50M46S",
+    "publishedAt": "2023-03-15T23:00:08Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 399366,
+    "title": "Das Geheimnis von Marrowbone",
+    "originalTitle": "El secreto de Marrowbone",
+    "overview": "Um ihrem gewalttätigen Ehemann zu entkommen, flieht Rose mit ihren vier Kindern von England nach Amerika und lässt sich dort auf dem abgelegenen Anwesen Marrowbone nieder. Doch das neu gewonnene Familienglück währt nicht lange, da Rose plötzlich erkrankt und wenige Tage später stirbt. Um dem Waisenhaus und einer Trennung zu entgehen, versuchen die vier Geschwister, den Tod der Mutter bis zum 21. Geburtstag des ältesten Sohnes, Jack, zu verheimlichen. Als sich Jack in ein Mädchen aus der Umgebung verliebt und zudem der neugierige Anwalt Porter in Marrowbone auftaucht, wird es immer schwieriger, ihr Geheimnis zu bewahren. Jedoch ist das nicht das einzige Problem der Geschwister. Denn offenbar geht es in ihrem Haus nicht mit rechten Dingen zu. Schon bald macht sich eine unheimliche Präsenz bemerkbar und die Dämonen der Vergangenheit scheinen sie einzuholen!",
+    "releaseDate": "2017-10-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/snwmeKR5kUoCOsQn0yZ4kaHyZGj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mc7w3y83wQU9YAIAmP1hoxqQped.jpg",
+    "voteAverage": 7.284,
+    "genreIds": [
+      53,
+      27,
+      9648
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Das Geheimnis von Marrowbone\")",
+    "cast": [
+      "George MacKay",
+      "Anya Taylor-Joy",
+      "Charlie Heaton",
+      "Mia Goth",
+      "Matthew Stagg"
+    ],
+    "director": [
+      "Sergio G. Sánchez"
+    ],
+    "writer": [
+      "Sergio G. Sánchez"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/399366.jpg"
   },
   {
     "videoId": "4ewtAfqwh6Q",
@@ -74522,7 +74929,7 @@
       53,
       9648
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
     "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Keepers - Die Leuchtturmwärter\")",
     "cast": [
@@ -74562,9 +74969,8 @@
       53,
       28
     ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Accident - Mörderischer Unfall\")",
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
     "cast": [
       "Stephanie Schildknecht",
       "Roxane Hayward",
@@ -74580,6 +74986,86 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/441762.jpg"
+  },
+  {
+    "videoId": "DKWT2DkoInI",
+    "youtubeTitle": "Getaway– Actionthriller mit Alec Baldwin, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DKWT2DkoInI/hqdefault.jpg",
+    "duration": "PT1H55M14S",
+    "publishedAt": "2023-01-19T23:00:10Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 489280,
+    "title": "Getaway",
+    "originalTitle": "Getaway",
+    "overview": "",
+    "releaseDate": "2020-04-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ngY0w6vy7AP08HGaDxlhvplVCzc.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/m9NPheSjUODmBM7uIK0uFjtY3IR.jpg",
+    "voteAverage": 4.29,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 105 (Suchbegriff: \"Getaway\")",
+    "cast": [
+      "Jaclyn Betham",
+      "Scout Taylor-Compton",
+      "Landry Allbright",
+      "Lane Toran",
+      "Lane Caudell"
+    ],
+    "director": [
+      "Lane Toran"
+    ],
+    "writer": [
+      "Jaclyn Betham",
+      "Lane Toran"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/489280.jpg"
+  },
+  {
+    "videoId": "kLqcUuin9Fw",
+    "youtubeTitle": "Operation Anthropoid– Actionthriller, Jamie Dornan, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kLqcUuin9Fw/hqdefault.jpg",
+    "duration": "PT1H55M44S",
+    "publishedAt": "2022-12-31T23:00:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 351339,
+    "title": "Operation Anthropoid",
+    "originalTitle": "Anthropoid",
+    "overview": "Zweiter-Weltkrieg-Thriller, basierend auf einer wahren Geschichte, über die versuchte Ermordung von SS-Führer Reinhard Heydrich, dem Leiter des Reichssicherheitshauptamts und Organisator des Holocaust, der hinter Adolf Hitler und Heinrich Himmler zu einem der mächtigsten Drahtziehern des Dritten Reichs gehörte. Die beiden tschechischen Ex-Soldaten Josef Gabčík und Jan Kubiš kehren im kalten Dezember 1941 aus dem Exil zurück und lassen sich per Fallschirm in ihr von Nazis besetztes Heimatland abwerfen. Den beiden ausgebildeten Kriegs-Veteranen fehlen zwar sämtliche Mittel, um die sogenannte „Operation Anthropoid“ durchzuführen, dennoch könnte das Attentat auf Heydrich die Zukunft Europas gänzlich verändern und den Krieg vielleicht sogar beenden. Alle Hoffnungen ruhen in dem minutiös ausgearbeiteten Plan.",
+    "releaseDate": "2016-08-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/a0uByPDBeOgLPEIdlSbvHJvDPnM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lTjRJ18JzsSfpwIdhCjv5BAMs03.jpg",
+    "voteAverage": 7.1,
+    "genreIds": [
+      36,
+      53,
+      10752
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Anthropoid\")",
+    "cast": [
+      "Jamie Dornan",
+      "Cillian Murphy",
+      "Charlotte Le Bon",
+      "Anna Geislerová",
+      "Harry Lloyd"
+    ],
+    "director": [
+      "Sean Ellis"
+    ],
+    "writer": [
+      "Sean Ellis",
+      "Anthony Frewin"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/351339.jpg"
   },
   {
     "videoId": "UubFdKnVtak",
@@ -74602,9 +75088,9 @@
       18,
       9648
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 88 (Suchbegriff: \"Tom Thorne: Die Tränen des Mörders\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 88 (Suchbegriff: \"Thorne: Scaredycat\")",
     "cast": [
       "David Morrissey",
       "Joe Absolom",
@@ -74620,6 +75106,47 @@
     "posterLocal": "img/posters/603409.jpg"
   },
   {
+    "videoId": "viTjbThGr7M",
+    "youtubeTitle": "LIZENZENDE Nur noch 60 Sekunden – Actionfilm-Klassiker, ganzer Film auf Deutsch kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/viTjbThGr7M/hqdefault.jpg",
+    "duration": "PT1H38M2S",
+    "publishedAt": "2022-09-28T22:00:12Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 16246,
+    "title": "Die Blechpiraten",
+    "originalTitle": "Gone in 60 Seconds",
+    "overview": "Die Blechorgie im Land der unbegrenzten Möglichkeiten beginnt damit, daß dem zukünftigen Schwiegersohn von Sheriff Gibbs der heißgeliebte Sportwagen geklaut wird. Schon geht das Spektakel los. Los Angeles wird zur Hölle. Ganze Polizeiregimenter nehmen mit Sirenengeheul die Verfolgung auf. Doch die Organisation ist clever. Die Jungs, die nie unversicherte Autos klauen, retten ihren Kumpel schließlich mit einem Helikopter aus der fahrenden Kiste. Mandrian Pace, der Boß der Autoknackerbande, erhält nun einen Großauftrag über 45 exklusive Automobile. 44 gehen glatt über die Bühne, doch das letzte wird zum Problem...",
+    "releaseDate": "1974-07-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/grHbNygABoUWIcKP3H4QcW4MbJB.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gK26TXnveEnyp8WV49zMyfvWMSR.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      28,
+      80,
+      53,
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Gone in 60 Seconds\")",
+    "cast": [
+      "H.B. Halicki",
+      "Marion Busia",
+      "Jerry Daugirda",
+      "James McIntyre",
+      "George Cole"
+    ],
+    "director": [
+      "H.B. Halicki"
+    ],
+    "writer": [
+      "H.B. Halicki"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/16246.jpg"
+  },
+  {
     "videoId": "zd_05OuJ0U8",
     "youtubeTitle": "Der Übergang - Rites of Passage - Thriller, ganzer Film auf Deutsch kostenlos schauen in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/zd_05OuJ0U8/hqdefault.jpg",
@@ -74627,36 +75154,35 @@
     "publishedAt": "2022-09-21T22:00:12Z",
     "channelName": "Free Films Action",
     "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 93077,
-    "title": "Der Übergang - Rites of Passage",
-    "originalTitle": "Rites of Passage",
-    "overview": "Der strebsame und fleißige Anthropologie-Student Nathan ist unglücklich über sein Ansehen unter den Kommilitonen. Daher beschließt er, ein spirituelles Ritual durchzuführen, welches seinen Übergang zur Männlichkeit markieren soll. Unter dem Vorwand eines Party-Wochenendes lockt er seine Studenten-Freunde und ihren Professor Nash auf das Anwesen seiner Familie direkt am Strand. Was die anderen jedoch nicht wissen: Dort leben auch zwei äußerst seltsame Gestalten, die sich nicht besonders über die ungebetenen Gäste freuen, Nathans Bruder Benny und dessen Freund Delgado. Während Benny durch seine starke Drogenabhängigkeit nahezu unberechenbar ist, ist Delgado seit dem Unfalltod seiner Frau und seines Sohnes erfüllt von Rachegelüsten, die er an jedem auslässt, der ihm über den Weg läuft. Während die Studenten ihre Party feiern, ist ihnen nicht klar, dass sie sich bereits in tödlicher Gefahr befinden.",
-    "releaseDate": "2012-04-24",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/9vE0QDdCi8WShIlMj83nBYS20BE.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gsv3MgUCs3sMk5XtMZmmt7ccnm3.jpg",
-    "voteAverage": 4.937,
+    "tmdbId": 601519,
+    "title": "Der Übergang",
+    "originalTitle": "Der Übergang",
+    "overview": "",
+    "releaseDate": "1978-09-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/a5adN8aaq7FZKsC86KDEnczsfMW.jpg",
+    "backdropUrl": null,
+    "voteAverage": 10,
     "genreIds": [
-      53
+      18
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Der Übergang - Rites of Passage\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Der Übergang\")",
     "cast": [
-      "Wes Bentley",
-      "Kate Maberly",
-      "Ryan Donowho",
-      "Travis Van Winkle",
-      "Briana Evigan"
+      "Adelaida Arias",
+      "Óscar Castro",
+      "Hugo Medina",
+      "Aníbal Reyna",
+      "Dimitar Keranov"
     ],
     "director": [
-      "W. Peter Iliff"
+      "Orlando Lübbert"
     ],
     "writer": [
-      "W. Peter Iliff",
-      "Rick Halsey"
+      "Orlando Lübbert"
     ],
-    "fsk": "16",
-    "posterLocal": "img/posters/93077.jpg"
+    "fsk": null,
+    "posterLocal": "img/posters/601519.jpg"
   },
   {
     "videoId": "X5hsD8Pny2g",
@@ -74678,9 +75204,9 @@
       18,
       53
     ],
-    "matchSource": "titel-fallback",
+    "matchSource": "originaltitel-ohne-jahr",
     "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Made in France - Im Namen des Terrors\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Made in France\")",
     "cast": [
       "Malik Zidi",
       "Dimitri Storoge",
@@ -75240,6 +75766,39 @@
     "posterLocal": "img/posters/22527.jpg"
   },
   {
+    "videoId": "xzENSyh4SG4",
+    "youtubeTitle": "Günter Wallraff Undercover – Unter Null (DOKU Leben auf der Straße, obdachlos Dokumentation Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xzENSyh4SG4/hqdefault.jpg",
+    "duration": "PT44M20S",
+    "publishedAt": "2021-06-10T13:00:34Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 951471,
+    "title": "Günter Wallraff Undercover: Wo Arbeit weh tut",
+    "originalTitle": "Günter Wallraff Undercover: Wo Arbeit weh tut",
+    "overview": "Diesmal hat sich der Undercover-Journalist Wallraff das Thema ‘Billigproduktion für Großdiscounter’ mit versteckter Kamera vorgenommen. Unter anderer Identität heuerte er bei einer Großbäckerei im Rheinland an, die für Lidl Billigbrötchen liefert.",
+    "releaseDate": "2008-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/h1MMQKCMSIXuCopwIbLof9ekyXF.jpg",
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      99
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Günter Wallraff"
+    ],
+    "director": [
+      "Pagonis Pagonakis",
+      "Georg Lolos"
+    ],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/951471.jpg"
+  },
+  {
     "videoId": "BGOrxenvnDM",
     "youtubeTitle": "Der Geizhals (Komödie in voller Länge anschauen, Ganzer kostenloser Theaterfilm, Kompletter Film)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/BGOrxenvnDM/hqdefault.jpg",
@@ -75595,80 +76154,37 @@
     "publishedAt": "2016-11-06T17:00:06Z",
     "channelName": "Netzkino",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 4985,
-    "title": "Die Kampfmaschine",
-    "originalTitle": "The Longest Yard",
-    "overview": "Paul Crewe, ehemaliger Football Star und jetzt hauptsächlich Playboy, überwirft sich mit einer reichen Freundin, flitzt mit ihrem Sportwagen davon und landet umgehend im Gefängnis. In diesem Gefängnis ist die Hölle los. Auch Crewe gerät in die Zwistigkeiten zwischen Oberaufseher und Direktor und fällt in Ungnade, als er dem sportbegeisterten Direktor abschlägt, seine Fastprofi-Aufsehermannschaft zu trainieren. Nach einem Aufenthalt im mörderischen Straflager zeigt er sich dann doch geneigt, eine Football-Mannschaft zu trainieren - allerdings die gegnerische, die Mannschaft der Sträflinge, und es gelingt ihm, trotz aller Schwächen, sie zu einer Kampfmaschine hochzupuschen.",
-    "releaseDate": "1974-08-21",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/pqyRuET7xdp4Ryj3hj1ZIBIMNyd.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tIXJy1WbgtILBrD1HALZiBhlfAD.jpg",
-    "voteAverage": 6.744,
+    "tmdbId": 97125,
+    "title": "Deadly Ransom - Tödliches Lösegeld",
+    "originalTitle": "Deadly Ransom",
+    "overview": "Der Bänker Merlin und seine Tochter Jackie werden in Brasilien von einer Terrorgruppe entführt, die 50 Millionen Dollar Lösegeld verlangt. Das ruft Jackies Verlobten Max auf den Plan. Der ist nicht nur ein Kampfspezialist, er hat auch das zweite Gesicht: Max kann spüren, wie es Jackie geht. Wutschnaubend und um sich tretend macht er sich auf den Weg.",
+    "releaseDate": "1998-10-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rm4XLRkp1mIZ3p9KpK6ihN7WgSW.jpg",
+    "backdropUrl": null,
+    "voteAverage": 7.667,
     "genreIds": [
-      35,
-      18,
-      80
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Die Kampfmaschine\")",
-    "cast": [
-      "Burt Reynolds",
-      "Eddie Albert",
-      "Ed Lauter",
-      "Michael Conrad",
-      "James Hampton"
-    ],
-    "director": [
-      "Robert Aldrich"
-    ],
-    "writer": [
-      "Tracy Keenan Wynn",
-      "Albert S. Ruddy"
-    ],
-    "fsk": "12",
-    "posterLocal": "img/posters/4985.jpg"
-  },
-  {
-    "videoId": "fSJ0PAsPXUk",
-    "youtubeTitle": "Prince of Persia - Die Legende von Omar (Abenteuer, Historiendrama in voller Länge auf Deutsch) *HD*",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/fSJ0PAsPXUk/hqdefault.jpg",
-    "duration": "PT1H35M13S",
-    "publishedAt": "2016-04-20T17:00:04Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 9543,
-    "title": "Prince of Persia - Der Sand der Zeit",
-    "originalTitle": "Prince of Persia: The Sands of Time",
-    "overview": "Im Persien des sechsten Jahrhunderts führt das Schicksal den Draufgänger Prinz Dastan und die schöne, selbstbewusste Prinzessin Tamina zusammen. Nach anfänglichen Abneigungen schmieden sie bald ein Bündnis gegen das Böse. Nizam, der Bruder des Königs, giert nach Macht, Scheich Amar strebt nach Reichtum. Beide könnten ihre Wünsche mit Prinz Dastans Dolch erfüllen, dessen Griff den Sand der Zeit enthält, mit dem die Zeit zurückgedreht werden kann.",
-    "releaseDate": "2010-05-19",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/jLRObwK783hQdBHc47hbxwwyibV.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iP0capCU4w5nxCDl398CH7yR1r9.jpg",
-    "voteAverage": 6.308,
-    "genreIds": [
-      12,
-      14,
+      53,
       28
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 51 (Suchbegriff: \"Prince of Persia\")",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
     "cast": [
-      "Jake Gyllenhaal",
-      "Gemma Arterton",
-      "Ben Kingsley",
-      "Alfred Molina",
-      "Steve Toussaint"
+      "Loren Avedon",
+      "Lisa K. Crosato",
+      "Brion James",
+      "John Aprea",
+      "Clayton J. Barber"
     ],
     "director": [
-      "Mike Newell"
+      "Robert Hyatt"
     ],
     "writer": [
-      "Boaz Yakin",
-      "Doug Miro",
-      "Carlo Bernard"
+      "Loren Avedon",
+      "Robert Hyatt"
     ],
-    "fsk": "12",
-    "posterLocal": "img/posters/9543.jpg"
+    "fsk": "18",
+    "posterLocal": "img/posters/97125.jpg"
   },
   {
     "videoId": "V0rzrvTCTXw",
@@ -75710,39 +76226,40 @@
     "publishedAt": "2016-02-28T15:00:00Z",
     "channelName": "Netzkino",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 25293,
-    "title": "Sherlock Holmes - Der Hund von Baskerville",
-    "originalTitle": "The Hound of the Baskervilles",
-    "overview": "Sir Henry Baskerville, der letzte Erbe eines schottischen Adelsgeschlechtes, begibt sich nach dem Tod seines Onkels auf das Familieanwesen der Baskervilles nach Dartmore. Doch er fürchtet um seine Sicherheit. Denn auf der Familie Baskerville liegt angeblich ein Fluch, der bis ins 18. Jahrhundert zurückgeht, als einer der Ahnherren von einem wütenden Hund angefallen und getötet wurde. Meisterdetektiv Sherlock Holmes soll den Vorkommnissen im schottischen Hochmoor auf den Grund gehen.",
-    "releaseDate": "2000-10-28",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/kOaXPlbnWAGIgcu6amLr7v7yCqK.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mQaN0BrITQIwQHGYoEmASvXA7jS.jpg",
-    "voteAverage": 6.013,
+    "tmdbId": 107918,
+    "title": "Der Hund von Baskerville",
+    "originalTitle": "Sherlock Holmes and the Baskerville Curse",
+    "overview": "Ein Fluch lastet über dem Herrenhaus von Baskerville. Immer, wenn sich ein riesengroßer Hund mit den Verhaltensweisen eines Ungeheuers blicken läßt, ist der Tod nicht mehr weit. Wird es Sherlock Homles, unterstützt von seinem treuen Assistenten Watson, gelingen, den letzten Erben der Baskervilles vor dem sicheren Tode zu retten?",
+    "releaseDate": "1983-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/a1oMe9mpgyiXZQsFRsp06C2f1uM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wO8MttyU6JTlF4QZ3R5bX98mvOc.jpg",
+    "voteAverage": 6.6,
     "genreIds": [
-      80,
+      16,
       18,
-      9648,
+      28,
+      35,
       53,
+      9648,
+      27,
       10770
     ],
     "matchSource": "titel-fallback",
     "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 128 (Suchbegriff: \"Sherlock Holmes - Der Hund von Baskerville\")",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 121 (Suchbegriff: \"Sherlock Holmes - Der Hund von Baskerville\")",
     "cast": [
-      "Matt Frewer",
-      "Kenneth Welsh",
-      "Jason London",
-      "Emma Campbell",
-      "Gordon Masten"
+      "Peter O'Toole",
+      "Ron Haddrick",
+      "Earle Cross",
+      "Helen Morse",
+      "Robin Stewart"
     ],
     "director": [
-      "Rodney Gibbons"
+      "Ryszard Słapczyński"
     ],
-    "writer": [
-      "Joe Wiesenfeld"
-    ],
+    "writer": [],
     "fsk": null,
-    "posterLocal": "img/posters/25293.jpg"
+    "posterLocal": "img/posters/107918.jpg"
   },
   {
     "videoId": "1MlbLcd_TWs",
@@ -76145,8 +76662,8 @@
       10749
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Ich liebe Dich zu Tode - I love you to death\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Ich liebe Dich zu Tode\")",
     "cast": [
       "Kevin Kline",
       "Tracey Ullman",
@@ -76224,8 +76741,8 @@
       10749
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Hände weg von meiner Tochter - She's Out of Control\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Hände weg von meiner Tochter\")",
     "cast": [
       "Tony Danza",
       "Catherine Hicks",
@@ -76264,8 +76781,8 @@
       18
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Letzte Runde - Last Orders\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Letzte Runde\")",
     "cast": [
       "Michael Caine",
       "Tom Courtenay",
@@ -76419,8 +76936,8 @@
       35
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Neid - Envy\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Neid\")",
     "cast": [
       "Ben Stiller",
       "Jack Black",
@@ -76859,8 +77376,7 @@
       10749
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Nicht so schnell, mein Junge\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Cary Grant",
       "Samantha Eggar",
@@ -77048,37 +77564,37 @@
     "publishedAt": "2026-06-14T14:00:00Z",
     "channelName": "Comfy Movies",
     "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
-    "tmdbId": 3558,
+    "tmdbId": 13685,
     "title": "Durchgeknallt",
-    "originalTitle": "Girl, Interrupted",
-    "overview": "Im konservativen Nordwesten der USA leidet die 17-jährige Susanna unter Ängsten, Depressionen und dem Gefühl, vom Leben ausgeschlossen zu sein. Ihre ersten Erfahrungen mit Männern waren deprimierend und haben dazu beigetragen, dass sie versucht hat, sich mit Schlaftabletten das Leben zu nehmen. Susanna wird gerettet und in die Psychiatrie eingeliefert. Dort freundet sie sich mit der Soziopathin Lisa an, die sie ebenso verehrt wie fürchtet. Eingesperrt unter gewalttätigen und durchgedrehten Mitpatienten, hilflos den Schikanen der Anstaltsleitung ausgeliefert, dämmert ihr allmählich, dass sie wieder frei sein möchte ...",
-    "releaseDate": "1999-12-21",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/tGaQDQgx0VVDmCoqjzcSJCErXvM.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jDePFWhpfkY4GJm41qiRffJ0NGq.jpg",
-    "voteAverage": 7.561,
+    "originalTitle": "Bottle Rocket",
+    "overview": "Der Film handelt von den drei Möchtegern-Kriminellen Anthony, Dignan und Bob. Zu Beginn des Films wird Anthony, der Patient in einer psychiatrischen Klinik ist, von seinem Schulfreund Dignan besucht. Obwohl es Anthony jederzeit freisteht, die Klinik zu verlassen, in die er sich freiwillig hatte einweisen lassen, organisiert Dignan eine dramatische Flucht.  Im Gegensatz zum eher nachdenklichen Anthony ist Dignan voller Tatendrang; er präsentiert Anthony ausgearbeitete Tagespläne zur Ausgestaltung seines neuen Lebens und drückt immer wieder seine Begeisterung für die Tatkraft und Lebensweisheit eines gewissen Mr. Henry aus, mit dem er Anthony unbedingt bekanntmachen will. Dignans \"Self Improvement\"-Pläne haben das Ziel, die Beiden im organisierten Verbrechen zu etablieren.",
+    "releaseDate": "1996-02-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/x2eiNg7RzwCryx5mNFFsWwVXtEe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yTDwyUEYHZTK35z7Iyp4QHxvVj9.jpg",
+    "voteAverage": 6.698,
     "genreIds": [
+      35,
+      80,
       18
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 136 (Suchbegriff: \"Durchgeknallt\")",
+    "matchConfidence": "hoch",
     "cast": [
-      "Winona Ryder",
-      "Angelina Jolie",
-      "Clea DuVall",
-      "Brittany Murphy",
-      "Elisabeth Moss"
+      "Luke Wilson",
+      "Owen Wilson",
+      "Robert Musgrave",
+      "Lumi Cavazos",
+      "James Caan"
     ],
     "director": [
-      "James Mangold"
+      "Wes Anderson"
     ],
     "writer": [
-      "Lisa Loomer",
-      "Anna Hamilton Phelan",
-      "James Mangold"
+      "Wes Anderson",
+      "Owen Wilson"
     ],
-    "fsk": "12",
-    "posterLocal": "img/posters/3558.jpg"
+    "fsk": null,
+    "posterLocal": "img/posters/13685.jpg"
   },
   {
     "videoId": "K2IXeARokAc",
@@ -77355,6 +77871,46 @@
     "posterLocal": "img/posters/1773.jpg"
   },
   {
+    "videoId": "KVJaXnuN0tI",
+    "youtubeTitle": "Dawn Anna – Gegen jeden Sturm | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/KVJaXnuN0tI/hqdefault.jpg",
+    "duration": "PT1H28M9S",
+    "publishedAt": "2026-05-31T14:00:40Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 27382,
+    "title": "Dawn Anna",
+    "originalTitle": "Dawn Anna",
+    "overview": "Um ihre vier Kinder ernähren zu können, sucht die allein erziehende Mutter Dawn Anna eine Lehrerstelle. Als sie endlich einen Job als Lehrerin und Trainerin gefunden hat und sich sogar verliebt, wird bei ihr eine schwere Krankheit, die sie körperlich stark einzuschränken droht, diagnostiziert. Nach einer komplizierten Operation muss sie noch einmal sprechen und laufen lernen. Als ihre nächste Krise jedoch gleichzeitig eine nationale Katastrophe ist, braucht Dawn ihre gesamte innere Kraft und die Liebe der Familie, die sie groß gezogen hat, um die unglaubliche Tragödie durchzustehen und ihr Leben mutig weiterzuführen.",
+    "releaseDate": "2005-01-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ozYycVA7nK5gHPq3rKbfxA8tSDL.jpg",
+    "backdropUrl": null,
+    "voteAverage": 7.107,
+    "genreIds": [
+      18,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Dawn Anna\")",
+    "cast": [
+      "Debra Winger",
+      "Alex Van",
+      "Tatiana Maslany",
+      "Sam Howard",
+      "Stephen Warner"
+    ],
+    "director": [
+      "Arliss Howard"
+    ],
+    "writer": [
+      "Robert Munic",
+      "Arliss Howard"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/27382.jpg"
+  },
+  {
     "videoId": "W25efqKwOKE",
     "youtubeTitle": "Walk Hard: Die Dewey Cox Story 🍿 | Ganzer Film auf Deutsch",
     "youtubeThumbnail": "https://i.ytimg.com/vi/W25efqKwOKE/hqdefault.jpg",
@@ -77456,8 +78012,7 @@
       80
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Hanky Panky - der Geisterflieger\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Gene Wilder",
       "Gilda Radner",
@@ -77497,8 +78052,7 @@
       9648
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Wer ist Harry Crumb?\")",
+    "matchConfidence": "hoch",
     "cast": [
       "John Candy",
       "Jeffrey Jones",
@@ -77618,8 +78172,8 @@
       35
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Troop Beverly Hills - Die Wilde von Beverly Hills\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Troop Beverly Hills\")",
     "cast": [
       "Shelley Long",
       "Craig T. Nelson",
@@ -77637,6 +78191,47 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/22102.jpg"
+  },
+  {
+    "videoId": "GolZRIWQ_lo",
+    "youtubeTitle": "City Slickers 2 – Die goldene Legende (1994) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GolZRIWQ_lo/hqdefault.jpg",
+    "duration": "PT1H56M21S",
+    "publishedAt": "2026-05-14T14:43:07Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 11310,
+    "title": "City Slickers 2 - Die goldenen Jungs",
+    "originalTitle": "City Slickers II: The Legend of Curly's Gold",
+    "overview": "Mitch Roberts findet an seinem 40. Geburtstag im Hut des toten Treckführers Curly eine alte Schatzkarte, und sofort bricht das Goldfieber aus. Gemeinsam mit seinem Bruder Glen und seinem Kumpel Phil macht er sich auf den Weg in die Wildnis von Nevada, um den sagenhaften Schatz zu bergen. Doch nicht nur das Städter-Trio interessiert sich für die Goldbarren. Neben zwei Schurken taucht auch noch der alte Duke auf, der nicht nur wie der verstorbene Curly aussieht, sondern auch vorgibt, dessen Zwillingsbruder zu sein...",
+    "releaseDate": "1994-06-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/e8zF8gYjIx9Pwa7Hf7Bgax1RfdM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kuq99XpsY2wyI0yMMNjK5pTLafY.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      35,
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"City Slickers 2\")",
+    "cast": [
+      "Billy Crystal",
+      "Daniel Stern",
+      "Jon Lovitz",
+      "Jack Palance",
+      "Patricia Wettig"
+    ],
+    "director": [
+      "Paul Weiland"
+    ],
+    "writer": [
+      "Billy Crystal",
+      "Lowell Ganz",
+      "Babaloo Mandel"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/11310.jpg"
   },
   {
     "videoId": "w6pzaPAQqw4",
@@ -77660,8 +78255,8 @@
       10749
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Bell, Book and Candle - Meine Braut ist übersinnlich\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Bell, Book and Candle\")",
     "cast": [
       "James Stewart",
       "Kim Novak",
@@ -77686,36 +78281,38 @@
     "publishedAt": "2026-05-08T14:00:16Z",
     "channelName": "Comfy Movies",
     "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
-    "tmdbId": 21780,
-    "title": "Annie - Ein königliches Abenteuer",
-    "originalTitle": "Annie: A Royal Adventure",
-    "overview": "Das kleine Waisenmädchen, das durch nichts unterzukriegen ist, hat in diesem Film der Woche sein Fernsehdebüt. Daddy Warbucks wird nach London berufen, wo er zum Ritter geschlagen werden soll. Auf diese Reise nimmt er Annie und ihre Freundin Hannah mit sowie Dr. Eli Eon und die treuen Angestellten Asp und Punjab. Die kleine Molly aus dem Waisenhaus darf auch mit – als blinder Passagier.",
-    "releaseDate": "1995-11-18",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/hXSZSwjHf8NZ0d6pnfS7dVhifVf.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rmBXb9M13dSPbtpE1VMjQlPkvzW.jpg",
-    "voteAverage": 6,
+    "tmdbId": 196867,
+    "title": "Annie",
+    "originalTitle": "Annie",
+    "overview": "Annie ist ein Waisenmädchen in New York, das mit der temperamentvollen Miss Hannigan als Pflegemutter ein schweres Los gezogenen hat. Ausgestattet mit einer schlagfertigen, optimistischen Art versucht das junge Mädchen jedoch so gut es geht, ihr schwieriges Leben zu meistern. Doch dann will sich der milliardenschwere Unternehmer und angehende Politiker Will Stacks im Wahlkampf um das Amt des New Yorker Bürgermeisters als selbstlos und kinderliebend inszenieren – und adoptiert Annie kurzerhand, was ihren Alltag genauso plötzlich wie mächtig auf den Kopf stellt. Stacks betrachtet sich selbst als Annies großer Retter. Dabei ist sie es, deren Selbstbewusstsein und lebensbejahende Einstellung sich schon bald sehr positiv auf den knallharten Karrierepolitiker auswirken…",
+    "releaseDate": "2014-12-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aKAM9V0izx4VhsdyAdBvAB26UCZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/j3snmrxqxT60FrH1Z8i54fGnHZJ.jpg",
+    "voteAverage": 6.243,
     "genreIds": [
-      10402,
+      35,
+      18,
       10751
     ],
     "matchSource": "titel-fallback",
     "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Annie – Ein königliches Abenteuer\")",
+    "hinweis": "Zuordnungswert 136 (Suchbegriff: \"Annie\")",
     "cast": [
-      "Ashley Johnson",
-      "Joan Collins",
-      "George Hearn",
-      "Ian McDiarmid",
-      "Emily Ann Lloyd"
+      "Quvenzhané Wallis",
+      "Jamie Foxx",
+      "Rose Byrne",
+      "Cameron Diaz",
+      "Bobby Cannavale"
     ],
     "director": [
-      "Ian Toynton"
+      "Will Gluck"
     ],
     "writer": [
-      "Trish Soodik"
+      "Aline Brosh McKenna",
+      "Will Gluck"
     ],
-    "fsk": null,
-    "posterLocal": "img/posters/21780.jpg"
+    "fsk": "0",
+    "posterLocal": "img/posters/196867.jpg"
   },
   {
     "videoId": "o0b1kcaBNq8",
@@ -77738,8 +78335,8 @@
       10749
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 62 (Suchbegriff: \"The Way We Were - So wie wir waren\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"The Way We Were\")",
     "cast": [
       "Barbra Streisand",
       "Robert Redford",
@@ -77777,8 +78374,8 @@
       18
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"About Alex – Eine Geschichte über Freundschaft\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"About Alex\")",
     "cast": [
       "Aubrey Plaza",
       "Jane Levy",
@@ -77816,8 +78413,8 @@
       10749
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Die schreckliche Wahrheit - The Awful Truth\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Die schreckliche Wahrheit\")",
     "cast": [
       "Irene Dunne",
       "Cary Grant",
@@ -77854,8 +78451,8 @@
       35
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Another you - Das andere Ich\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Another you\")",
     "cast": [
       "Richard Pryor",
       "Gene Wilder",
@@ -78152,6 +78749,45 @@
     "posterLocal": "img/posters/61434.jpg"
   },
   {
+    "videoId": "ucu0pPik7MU",
+    "youtubeTitle": "19th Wife - Flucht aus der Dunkelheit (2010) | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ucu0pPik7MU/hqdefault.jpg",
+    "duration": "PT1H33M12S",
+    "publishedAt": "2026-03-14T17:01:13Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 61420,
+    "title": "Die 19te Frau",
+    "originalTitle": "The 19th Wife",
+    "overview": "In einem kleinen Ort, der von einer mormonischen Sekte beherrscht wird, wird ein Mann erschossen. Alles spricht dafür, dass eine seiner Ehefrauen, BeckyLyn (Patricia Wettig), ihn ermordet hat. Aber die junge Nachbarin Queenie (Chyler Leigh) glaubt das nicht. Sie bittet den Sohn der Beschuldigten (Matt Czuchny), der als Jugendlicher aus der Sekte ausgestoßen wurde, die Unschuld seiner Mutter zu beweisen. - Düsteres Krimidrama im Milieu der Polygamie.",
+    "releaseDate": "2010-09-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jJoRaomFiukI7hP4dg66GYr2FwO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1A1df5Il0SpghJIhRNKndsTiMj6.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      18,
+      9648,
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 83 (Suchbegriff: \"19th Wife\")",
+    "cast": [
+      "Chyler Leigh",
+      "Matt Czuchry",
+      "Alexia Fast",
+      "Jeff Hephner",
+      "Patrick Garrow"
+    ],
+    "director": [
+      "Rod Holcomb"
+    ],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/61420.jpg"
+  },
+  {
     "videoId": "S2GHAhvnNdU",
     "youtubeTitle": "Charm School (2007) | Ganzer Film auf Deutsch",
     "youtubeThumbnail": "https://i.ytimg.com/vi/S2GHAhvnNdU/hqdefault.jpg",
@@ -78311,6 +78947,48 @@
     "posterLocal": "img/posters/14370.jpg"
   },
   {
+    "videoId": "sJccJw_pSn8",
+    "youtubeTitle": "SHARKS – Gefährlicher als der Der Weiße Hai? Die Wahrheit ohne Käfig! | DOKU auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sJccJw_pSn8/hqdefault.jpg",
+    "duration": "PT53M41S",
+    "publishedAt": "2026-07-25T15:00:34Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 320846,
+    "title": "Sky Sharks",
+    "originalTitle": "Sky Sharks",
+    "overview": "Ein Team aus Geologen macht beim Freilegen einer Höhle im tiefen Eis der Arktis eine fürchterliche Entdeckung. Die Wissenschaftler stoßen auf ein intaktes Nazi-Forschungslabor. Dort forschten die Nationalsozialisten und führten streng geheime sowie gefährliche Experimente durch. Um die Welt zu unterjochen, züchteten die Nazis tödliche Kreaturen: gefräßige Haie, die auch noch zu fliegen in der Lage sind. Ihre Reiter sind genetisch mutierte, mit übernatürlichen Kräften ausgestattete untote Supermenschen. Es muss schleunigst eine schlagkräftige Taskforce zusammengestellt werden, um die Menschheit und den Planeten Erde vor dem scheinbar sicheren Untergang zu bewahren. Verantwortlich dafür sind Dr. Klaus Richter, der das Projekt einst selbst in die Wege leitete, und seine Töchter Angelique und Diabla sowie Generalmajor Frost...",
+    "releaseDate": "2020-10-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ne2xAzlgSaWvBrYGw2LkO8W5pHi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/u4tKjjTBmCI2z3GRs2WfR6zVYRJ.jpg",
+    "voteAverage": 4.955,
+    "genreIds": [
+      27,
+      878,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"SHARKS\")",
+    "cast": [
+      "Barbara Nedeljakova",
+      "Eva Habermann",
+      "Michaela Schaffrath",
+      "Micaela Schäfer",
+      "Tony Todd"
+    ],
+    "director": [
+      "Marc Fehse"
+    ],
+    "writer": [
+      "Marc Fehse",
+      "Carsten Fehse",
+      "A.D. Morel"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/320846.jpg"
+  },
+  {
     "videoId": "q-uzfr_6Wq4",
     "youtubeTitle": "EAST L.A. WARRIORS | Absoluter 80er-Jahre Action-Klassiker | Ganzer Film auf DEUTSCH",
     "youtubeThumbnail": "https://i.ytimg.com/vi/q-uzfr_6Wq4/hqdefault.jpg",
@@ -78349,6 +79027,47 @@
     ],
     "fsk": "18",
     "posterLocal": "img/posters/227407.jpg"
+  },
+  {
+    "videoId": "b2hE4ZCK3U0",
+    "youtubeTitle": "AMERICAN CRIME — Vertraue niemals dem ersten Urteil | Ganzer THRILLERFILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/b2hE4ZCK3U0/hqdefault.jpg",
+    "duration": "PT1H31M51S",
+    "publishedAt": "2026-07-04T14:30:11Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 73442,
+    "title": "American Crime: Video Kills",
+    "originalTitle": "American Crime",
+    "overview": "Bei Recherchen im Stripperinnenmilieu fördert Sudelmagazin-Reporteuse Jessie St. Claire ein mysteriöses Videoband zutage, auf dem eine erst vor kurzem spurlos verschwundene und offenbar ahnungslose junge Frau aus Voyeursperspektive beobachtet wird. Als sich die Polizei für den Fund nicht näher interessiert, stellt Jessie mit ihrem aus Produzentin und Kameraknaben bestehenden Team eigene Nachforschungen an, nur um sich bei Betrachtung eines weiteren Videos selbst im Visier des unbekannten Stalkers wieder zu finden.",
+    "releaseDate": "2004-04-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/l3tc6krbXQlBvUyBAV3MWrAG9hK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aEovyrXPd0gnsy43bNVmew4aZV8.jpg",
+    "voteAverage": 3.81,
+    "genreIds": [
+      53,
+      80,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"AMERICAN CRIME\")",
+    "cast": [
+      "Cary Elwes",
+      "Kip Pardue",
+      "Rachael Leigh Cook",
+      "Annabella Sciorra",
+      "Cyia Batten"
+    ],
+    "director": [
+      "Dan Mintz"
+    ],
+    "writer": [
+      "Jaclyn Moore",
+      "Jeff Ritchie"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/73442.jpg"
   },
   {
     "videoId": "5kyVm4Wqkeo",
@@ -78464,6 +79183,44 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/259984.jpg"
+  },
+  {
+    "videoId": "_7T5ST8iiQU",
+    "youtubeTitle": "DON'T SPEAK - Kannst du ein Geheimnis bewahren? | Ganzer THRILLER-FILM auf Deutsch HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_7T5ST8iiQU/hqdefault.jpg",
+    "duration": "PT1H21M53S",
+    "publishedAt": "2026-06-06T15:00:38Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 341741,
+    "title": "Don't Speak: Sag kein Wort!",
+    "originalTitle": "Don’t speak",
+    "overview": "Eine Gruppe von Freunden feiert ausgelassen auf einem Partyboot, in Küstennähe einer kleinen Stadt. Als sich einer von ihnen ernsthaft verletzt, macht sich die Gruppe auf den Weg zum Festland, um Hilfe zu organisieren. Dort angekommen, kümmert sich jedoch niemand um sie. Ganz im Gegenteil, die wenigen Einwohner die sie antreffen, fordern sie eindringlich auf ganz still zu sein. Plötzlich nehmen entsetzliche Dinge ihren Lauf. Die verängstigten Überlebenden haben nur eine Chance, den unheimlichen Ort lebend zu verlassen: Sie dürfen keinen Laut von sich geben.",
+    "releaseDate": "2015-10-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wOc0XrxLCmaNU2yR1GqZsuKOWaL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4YaoOPKs3RN0qet3K14X6eUFowt.jpg",
+    "voteAverage": 2.9,
+    "genreIds": [
+      53,
+      27,
+      9648
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"DON'T SPEAK\")",
+    "cast": [
+      "Natalia Jerez",
+      "Jake Klamburg",
+      "Melina Matthews",
+      "Benjamin Nathan-Serio",
+      "Jake Sullivan"
+    ],
+    "director": [
+      "Amadeu Artasona"
+    ],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/341741.jpg"
   },
   {
     "videoId": "q8bmIT95VAc",
@@ -78702,6 +79459,47 @@
     "posterLocal": "img/posters/171648.jpg"
   },
   {
+    "videoId": "vFKS6ChLHZA",
+    "youtubeTitle": "ROAD TO YOUR HEART — Fünf Tage Bis Zur Liebe | Herzerwärmende Romantische Komödie | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/vFKS6ChLHZA/hqdefault.jpg",
+    "duration": "PT1H56M36S",
+    "publishedAt": "2026-04-04T14:01:21Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 273598,
+    "title": "Road to your Heart - Fünf Tage bis Kapstadt",
+    "originalTitle": "Pad Na Jou Hart",
+    "overview": "Basson van Rensburg Junior bleiben fünf Tage, um zur Beerdigung seines Vaters nach Kapstadt zu kommen. Doch der direkte Weg in die südafrikanische Metropole ist keine Möglichkeit, denn er muss auf der Reise einige Aufgaben bestehen und Halt an diversen Stationen machen. Erst wenn er sich an den Plan hält und ihn in die Tat umsetzt, kann er das Familienunternehmen seines Vaters sein eigen nennen. Noch über 1200 Kilometer von seinem Ziel entfernt, soll er zu Fuß weiterziehen und seinen Wagen zurücklassen. Er folgt der irrsinnigen Forderung und begegnet der attraktiven und offenherzigen Amory, die seine Hilfe gebrauchen kann. Die beiden treffen eine Vereinbarung: Er repariert ihren Reifen und sie bringt ihn an sein Ziel. Auf ihrem Roadtrip begegnen sie wundervollen Menschen, erleben fröhliche Momente und machen lebensverändernde Erfahrungen. Doch der Ausflug nimmt eine überraschende Wende, als jemand auftaucht, der verhindern will, dass Basson Kapstadt erreicht...",
+    "releaseDate": "2014-02-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dbj7TvyKCAZREexhlXUvPEfb7yR.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iHLzCpGn8a8qYtx2pIGcq48KrQm.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      12,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 83 (Suchbegriff: \"ROAD TO YOUR HEART\")",
+    "cast": [
+      "Ivan Botha",
+      "DonnaLee Roberts",
+      "Wim Beukes",
+      "Marius Weyers",
+      "Jaco Muller"
+    ],
+    "director": [
+      "Jaco Smit"
+    ],
+    "writer": [
+      "Beer Adriaanse",
+      "Ivan Botha",
+      "DonnaLee Roberts"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/273598.jpg"
+  },
+  {
     "videoId": "W_40FHt6kVU",
     "youtubeTitle": "KISS DADDY GOOD NIGHT | Uma Thurman | Ganzer THRILLER-FILM auf DEUTSCH",
     "youtubeThumbnail": "https://i.ytimg.com/vi/W_40FHt6kVU/hqdefault.jpg",
@@ -78743,6 +79541,44 @@
     "posterLocal": "img/posters/37143.jpg"
   },
   {
+    "videoId": "Zz5ZHFbvmE4",
+    "youtubeTitle": "SKY BANDITS - Flug Durchs Zeitloch | Ganzer SCIENCE-FICTION-FILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Zz5ZHFbvmE4/hqdefault.jpg",
+    "duration": "PT1H28M20S",
+    "publishedAt": "2026-03-21T15:30:31Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 44091,
+    "title": "Gunbus",
+    "originalTitle": "Sky Bandits",
+    "overview": "Zwei Cowboys können sich einer Gefängnisstrafe entziehen, indem sie sich freiwillig zum Militärdienst melden. Im I. Weltkrieg werden sie nach Frankreich versetzt und erzielen mit unkonventionellen Strategien verblüffende Erfolge.",
+    "releaseDate": "1986-10-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/t7VxQgQcehY8U75M58wD3Wzff0f.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8SbnM6C4AhnwJ59GscT8tn3xDRa.jpg",
+    "voteAverage": 5.833,
+    "genreIds": [
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"SKY BANDITS\")",
+    "cast": [
+      "Scott McGinnis",
+      "Jeff Osterhage",
+      "Ronald Lacey",
+      "Miles Anderson",
+      "Valérie Steffen"
+    ],
+    "director": [
+      "Zoran Perisic"
+    ],
+    "writer": [
+      "Thom Keyes"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/44091.jpg"
+  },
+  {
     "videoId": "Bma5JnnpKaM",
     "youtubeTitle": "DEEP CORE – DIE ERDE BRENNT | Ganzer KATASTROPHENFILM auf DEUTSCH in HD | Science-Fiction",
     "youtubeThumbnail": "https://i.ytimg.com/vi/Bma5JnnpKaM/hqdefault.jpg",
@@ -78782,6 +79618,45 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/89068.jpg"
+  },
+  {
+    "videoId": "W2wvp8nAxIw",
+    "youtubeTitle": "BODY COUNT - DIE MATHEMATIK DES SCHRECKENS | Ganzer TERRORFILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/W2wvp8nAxIw/hqdefault.jpg",
+    "duration": "PT1H20M5S",
+    "publishedAt": "2026-02-21T15:30:16Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 31015,
+    "title": "Body Count - Flucht nach Miami",
+    "originalTitle": "Body Count",
+    "overview": "Nachdem Pike aus dem Gefängnis entlassen wird, stiehlt er mit einem Trupp Kleinkrimineller Gemälde aus dem Boston Museum of Fine Arts. Ihr wagemutiger Plan, die kostbare Beute in Florida zu verkaufen, gerät erst recht in schiefe Bahnen, als sie eine unbekannte Frau auf dem Weg dorthin mitnehmen.",
+    "releaseDate": "1998-04-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/950z1yFHb8UGl3vJIczg0E1V2Im.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iG868T25Wb0cvbWrb4wAQ0IYtFr.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      28,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"BODY COUNT\")",
+    "cast": [
+      "David Caruso",
+      "Linda Fiorentino",
+      "John Leguizamo",
+      "Ving Rhames",
+      "Donnie Wahlberg"
+    ],
+    "director": [
+      "Robert Patton-Spruill"
+    ],
+    "writer": [
+      "Theodore Witcher"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/31015.jpg"
   },
   {
     "videoId": "VwNIJ871Jtg",
@@ -78862,6 +79737,42 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/27786.jpg"
+  },
+  {
+    "videoId": "XKQase3QfxY",
+    "youtubeTitle": "WESLEY SNIPES - ZIGZAG: Zeitüberschreitung | Ganzer KRIMI DRAMA FILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XKQase3QfxY/hqdefault.jpg",
+    "duration": "PT1H39M39S",
+    "publishedAt": "2025-12-12T16:01:03Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 165343,
+    "title": "Masters of the Martial Arts Presented by Wesley Snipes",
+    "originalTitle": "Masters of the Martial Arts Presented by Wesley Snipes",
+    "overview": "",
+    "releaseDate": "1998-08-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/71ybAjosGUER1a1IqZEO74CraEm.jpg",
+    "backdropUrl": null,
+    "voteAverage": 9,
+    "genreIds": [
+      99
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 53 (Suchbegriff: \"WESLEY SNIPES\")",
+    "cast": [
+      "Wesley Snipes",
+      "Jackie Chan",
+      "Cynthia Rothrock",
+      "Billy Blanks",
+      "Benny Urquidez"
+    ],
+    "director": [
+      "Joe Perota"
+    ],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/165343.jpg"
   },
   {
     "videoId": "dNH1gb-ydY8",
@@ -79045,6 +79956,167 @@
     "posterLocal": "img/posters/167679.jpg"
   },
   {
+    "videoId": "SaEAJ0Ar-AM",
+    "youtubeTitle": "CYPHER - DAS ZEICHEN DES KILLERS | Ganzer KRIMI ACTIONFILM auf DEUTSCH in HD mit Heather Locklear",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SaEAJ0Ar-AM/hqdefault.jpg",
+    "duration": "PT1H27M36S",
+    "publishedAt": "2025-09-12T14:30:20Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 213439,
+    "title": "Cypher",
+    "originalTitle": "Double Tap",
+    "overview": "Die Unterwelt von L. A. ist in Angst, seit ein geheimnisvoller Killer namens Cypher mit chirurgischer Präzision einen Gangsterboss nach dem anderen tötet. Die junge FBI-Agentin Katherine jagt den Unbekannten - und fühlt sich dabei immer stärker von ihm fasziniert. Sie stellt ihm eine Falle, doch Cypher kann entkommen und taucht kurz darauf in der Wohnung der FBI-Agentin auf. Hier erfährt Katherine seine wahren Motive - sie beschließt, ihm beim Untertauchen zu helfen ...",
+    "releaseDate": "1997-09-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1Bnse7SjMkB1XUKK083DTnt32u1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uT0ItQMpvC4W1c8RRG5wOfQBRgb.jpg",
+    "voteAverage": 5.083,
+    "genreIds": [
+      53,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Stephen Rea",
+      "Heather Locklear",
+      "Peter Greene",
+      "Mykelti Williamson",
+      "Kevin Gage"
+    ],
+    "director": [
+      "Greg Yaitanes"
+    ],
+    "writer": [
+      "Alfred Gough",
+      "Erik Saltzgaber",
+      "Miles Millar"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/213439.jpg"
+  },
+  {
+    "videoId": "c8CtOHij4XE",
+    "youtubeTitle": "ALIEN INCURSION - Der Wald Ist Nur Der Anfang... | Ganzer SCIENCE-FICTION-FILM auf DEUTSCH in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/c8CtOHij4XE/hqdefault.jpg",
+    "duration": "PT1H25M18S",
+    "publishedAt": "2025-08-29T14:30:28Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 312448,
+    "title": "Alien Warrior",
+    "originalTitle": "Alien Incursion",
+    "overview": "Parkwächterin Kelly Jones genießt die Idylle ihres Naturschutzgebiets – bis Meteoriteneinschläge hungrige Aliens entfesseln. Während Touristen zur leichten Beute werden, schaltet sich das Militär mit einem brutalen Sonderkommando ein: Die Mission lautet, nicht nur die Invasoren, sondern auch alle Augenzeugen zu eliminieren. Kelly geht in die Offensive. Ihr Trumpf ist ihr Vater Harry: Ex-Bundesagent, Survival-Experte und Besitzer einer Jagdhütte, deren privates Arsenal für beide Fronten tödlich ist.",
+    "releaseDate": "2006-08-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fDSaKsmFSxUXQW1VPGb2cArgsPd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cpuanAy86uHDmjmqJVGDEactfpC.jpg",
+    "voteAverage": 4.1,
+    "genreIds": [
+      878,
+      27,
+      35,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"ALIEN INCURSION\")",
+    "cast": [
+      "Kiara Hunter",
+      "Tom O'Brien",
+      "Ken Roberts",
+      "Kristina Copeland",
+      "Brad Dryborough"
+    ],
+    "director": [
+      "Jeffery Scott Lando"
+    ],
+    "writer": [
+      "Jeff O'Brien"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/312448.jpg"
+  },
+  {
+    "videoId": "RimC8mxBC8E",
+    "youtubeTitle": "OHNE GEWISSEN - Verführung, Verrat, Mord. Eine Familie, gefangen. | Ganzer KRIMINALFILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RimC8mxBC8E/hqdefault.jpg",
+    "duration": "PT1H30M",
+    "publishedAt": "2025-08-01T15:03:00Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 60033,
+    "title": "Ohne Gewissen",
+    "originalTitle": "This World, Then the Fireworks",
+    "overview": "Das traumatische Erlebnis, mit ansehen zu müssen, wie der eigene Vater den Mann seiner Geliebten tötet, schweißt die Zwillinge Marty und Carol noch enger zusammen. Im Jugendalter beginnen die beiden ein inzestuöses Verhältnis. Dann zieht Marty nach Chicago, heiratet und wird Journalist. Nachdem er sich mit der dortigen Polizei angelegt hat, kehrt er in sein Heimatstädtchen zurück, wo sich seine Schwester als Prostituierte über Wasser hält. Die alte Liebe der Geschwister flammt wieder auf. Um die gemeinsame Zukunft auch finanziell zu sichern, gehen die beiden über Leichen.",
+    "releaseDate": "1997-07-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ziHleHxPFihL57D4eoLn7eP7mkO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yQQkeVg8AyXHF4FObrdHD2KntVG.jpg",
+    "voteAverage": 5.226,
+    "genreIds": [
+      80,
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"OHNE GEWISSEN\")",
+    "cast": [
+      "Billy Zane",
+      "Gina Gershon",
+      "Sheryl Lee",
+      "Philip Locke",
+      "Elis Imboden"
+    ],
+    "director": [
+      "Michael Oblowitz"
+    ],
+    "writer": [
+      "Larry Gross"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/60033.jpg"
+  },
+  {
+    "videoId": "PoESX-Pqtw8",
+    "youtubeTitle": "PRAY FOR MORNING - Nacht Im Verfluchten Hotel | Ganzer THRILLERFILM auf Deutsch in Voller Länge HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/PoESX-Pqtw8/hqdefault.jpg",
+    "duration": "PT1H27M15S",
+    "publishedAt": "2025-07-18T15:30:11Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 45641,
+    "title": "Pray for Morning",
+    "originalTitle": "Pray for Morning",
+    "overview": "Der Plan war ganz einfach: Acht Freunde wollen eine Nacht in dem alten verlassenen Royal Crescent Hotel verbringen; es zieht sie magisch an. Vor langer Zeit wurden dort einst fünf Studenten ermordet, der Killer wurde jedoch nie gefasst.  Doch aus dem nächtlichen Abenteuer wird ein Terror Trip: Nachdem sie eine Hand finden, erwecken sie auch noch eine sehr böse mystische Präsenz in dem Grusel Hotel. Jetzt müssen sie um ihr Leben fürchten und ein Geheimnis von vor langer Zeit lösen, um nicht für ein Jahrhundert in der Düsternis des Hotels eingesperrt zu werden...",
+    "releaseDate": "2006-05-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uZ9GsA6ycFL1JUTRKqcOkGHQj7f.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4.974,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"PRAY FOR MORNING\")",
+    "cast": [
+      "Udo Kier",
+      "Jonathon Trent",
+      "Jessica Stroup",
+      "Dennis Flanagan",
+      "Ashlee Turner"
+    ],
+    "director": [
+      "Cartney Wearn"
+    ],
+    "writer": [
+      "Cartney Wearn"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/45641.jpg"
+  },
+  {
     "videoId": "bYEjRrWpTog",
     "youtubeTitle": "SAVAGE ISLAND - Hasse Deinen Nächsten | Ganzer THRILLER ÜBERLEBENSFILM auf DEUTSCH in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/bYEjRrWpTog/hqdefault.jpg",
@@ -79052,39 +80124,36 @@
     "publishedAt": "2025-07-04T15:01:10Z",
     "channelName": "FFF Kino",
     "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
-    "tmdbId": 108789,
-    "title": "Hasse deinen Nächsten",
-    "originalTitle": "Odia il prossimo tuo",
-    "overview": "Ken Dakota will den gewaltsamen Tod seines Bruders rächen und gerät dabei an den hinterhältigen Großgrundbesitzer Chris. Der will mit allen Mitteln eine Goldmine in seinen Besitz bringen und schreckt auch vor Mord nicht zurück...",
-    "releaseDate": "1968-07-26",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/vrgMgNGDTVQk3JmScdQrCRmTqKV.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/icw9JX8NzqhpbvOze0PydX0bahH.jpg",
-    "voteAverage": 5,
+    "tmdbId": 135760,
+    "title": "Savage Island",
+    "originalTitle": "Savage Island",
+    "overview": "Steven und Julia haben Eheprobleme, doch ein Wochenendbesuch bei Julias Familie auf einer abgeschiedenen Insel lässt diese zu ihrer kleinsten Sorge werden. Die einzigen anderen Inselbewohner sind die Savages, eine Familie, die dem Begriff “Hinterwäldler” eine ganz neue Dimension hinzufügt. Als sie Stevens und Julias Neugeborenen als Ersatz für ihren getöteten Sohn fordern, entfesseln Gier und Selbstsucht ein schonungsloses Chaos fernab jeglicher Zivilisation. In bester Tradition von 70er-Jahre-Horrorklassikern wie Wes Cravens “Hügel Der Blutigen Augen” schufen die Filmemacher einen schauerlichen Trip in die Wildnis. Der von Regisseur Jeffery Lando eigens kreierte Savage Look zeigt in rohen Bildern die einsame Insel, auf der nur überlebt, wer alle Kultur hinter sich lässt.",
+    "releaseDate": "2004-04-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/a5TyU7U5rnW1FRA4vZDQWHoPMsh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5bx2wjafR4PUmG6KHQZyA5MXiKh.jpg",
+    "voteAverage": 5.1,
     "genreIds": [
-      37,
-      28,
-      18
+      27
     ],
     "matchSource": "titel-fallback",
     "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Hasse Deinen Nächsten\")",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"SAVAGE ISLAND\")",
     "cast": [
-      "Spiros Focás",
-      "George Eastman",
-      "Horst Frank",
-      "Nicoletta Machiavelli",
-      "Ivy Holzer"
+      "Kristina Copeland",
+      "Steven Man",
+      "Mathew Turner",
+      "Brendan Beiser",
+      "Beverley Breuer"
     ],
     "director": [
-      "Ferdinando Baldi"
+      "Jeffery Scott Lando"
     ],
     "writer": [
-      "Roberto Natale",
-      "Luigi Angelo",
-      "Ferdinando Baldi"
+      "Kevin Mosley",
+      "Jeffery Scott Lando"
     ],
-    "fsk": null,
-    "posterLocal": "img/posters/108789.jpg"
+    "fsk": "18",
+    "posterLocal": "img/posters/135760.jpg"
   },
   {
     "videoId": "q4NP5HSjLF0",
@@ -79730,8 +80799,8 @@
       27
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 52 (Suchbegriff: \"RECREATOR - DU WIRST REPLIZIERT\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"RECREATOR\")",
     "cast": [
       "Stella Maeve",
       "J. Mallory McCree",
@@ -79796,32 +80865,40 @@
     "publishedAt": "2024-05-21T19:40:43Z",
     "channelName": "FFF Kino",
     "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
-    "tmdbId": 390815,
-    "title": "Die Rückkehr",
-    "originalTitle": "Die Rückkehr",
-    "overview": "Deutsche TV-Komödie",
-    "releaseDate": "2002-10-14",
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": 7,
+    "tmdbId": 37135,
+    "title": "Tarzan",
+    "originalTitle": "Tarzan",
+    "overview": "Atemberaubend schwingt sich Tarzan wie ein Affe von Liane zu Liane und surft in rasantem Tempo durch die Baumwipfel. Seine lustigen Freunde, das freche Gorillamädchen Terk und der hyperängstliche Elefant Tantor eilen stets zu Hilfe, wenn Tarzan mal wieder in der Patsche sitzt, und dann gehts erst richtig rund! Denn Tarzan muss viele Abenteuer bestehen, bevor er zum Herrn des Dschungels wird.",
+    "releaseDate": "1999-06-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kiooaH0Qaxn6gUY3zfSddKAdLiw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/a0E1mbejev56Ii51hCnYUDj4tZS.jpg",
+    "voteAverage": 7.409,
     "genreIds": [
-      35
+      16,
+      10751,
+      12
     ],
     "matchSource": "titel-fallback",
     "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"DIE RÜCKKEHR\")",
+    "hinweis": "Zuordnungswert 137 (Suchbegriff: \"TARZAN\")",
     "cast": [
-      "Harald Schrott",
-      "Lisa Martinek",
-      "Deborah Kaufmann",
-      "Tilo Prückner",
-      "Branko Samarovski"
+      "Tony Goldwyn",
+      "Minnie Driver",
+      "Glenn Close",
+      "Alex D. Linz",
+      "Rosie O'Donnell"
     ],
     "director": [
-      "Christoph Stark"
+      "Chris Buck",
+      "Kevin Lima"
     ],
-    "writer": [],
-    "fsk": null
+    "writer": [
+      "Tab Murphy",
+      "Bob Tzudiker",
+      "Noni White"
+    ],
+    "fsk": "0",
+    "posterLocal": "img/posters/37135.jpg"
   },
   {
     "videoId": "6FJzJkSCPK0",
@@ -80049,7 +81126,7 @@
     ],
     "matchSource": "titel-fallback",
     "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 50 (Suchbegriff: \"KARA MURAT - DER RÄCHER ANATOLIENS\")",
+    "hinweis": "Zuordnungswert 83 (Suchbegriff: \"KARA MURAT\")",
     "cast": [
       "Cüneyt Arkın",
       "Daniela Giordano",
@@ -80264,6 +81341,1458 @@
     "posterLocal": "img/posters/69056.jpg"
   },
   {
+    "videoId": "AnCg3MCiTtE",
+    "youtubeTitle": "Valley of Love - Tal der Liebe - brillanter Spielfilm mit Gérard Depardieu - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AnCg3MCiTtE/hqdefault.jpg",
+    "duration": "PT1H32M46S",
+    "publishedAt": "2026-07-26T07:00:37Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 337107,
+    "title": "Valley of Love - Tal der Liebe",
+    "originalTitle": "Valley of Love",
+    "overview": "Nach 35 Jahren sind die beiden Größen des französischen Films Isabelle Huppert und Gérard Depardieu endlich wieder auf der Leinwand vereint: Isabelle und Gérard reisen zu einer seltsamen Verabredung im Death Valley in Kalifornien. Sie leben getrennt und haben sich seit Jahren nicht gesehen. Nun folgen sie einer Einladung ihres Sohnes Michael, die sie sechs Monate nach seinem Selbstmord erhalten haben. Ungeachtet der absurden Situation entschließen sie sich, sich auf das Programm einzulassen, das Michael als eine Art Nachlass für sie entworfen hat…",
+    "releaseDate": "2015-06-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/e5yhTSp5mCzJsEjX2hXa4uZEZ3p.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/bBl5kEyRs4YKAIn3lFa95hyhA1e.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Gérard Depardieu",
+      "Isabelle Huppert",
+      "Dan Warner",
+      "Dionne Houle",
+      "Aurélia Thiérrée"
+    ],
+    "director": [
+      "Guillaume Nicloux"
+    ],
+    "writer": [
+      "Guillaume Nicloux"
+    ],
+    "fsk": "0",
+    "posterLocal": "img/posters/337107.jpg"
+  },
+  {
+    "videoId": "U1XP77YYr64",
+    "youtubeTitle": "The Stylist - packender Psychothriller - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/U1XP77YYr64/hqdefault.jpg",
+    "duration": "PT1H44M37S",
+    "publishedAt": "2026-07-21T14:00:21Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 741612,
+    "title": "The Stylist",
+    "originalTitle": "The Stylist",
+    "overview": "Jeder träumt davon, jemand anderes zu sein, aber für Claire wird dieser Traum von einer Besessenheit zu einem lebenden Albtraum. Ihr Job als Friseurin erlaubt es ihr, sich in die Welten anderer Menschen hinein- und wieder herauszubewegen, aber wenn die richtige Zielperson auf ihrem Stuhl sitzt, tut sie mehr als nur das Leben des Kunden zu beobachten – sie beendet es und behält ein dauerhaftes Andenken daran. Claires einsames Leben, ihre akribische Methode und ihre schockierenden Geheimnisse werden plötzlich in Aufruhr versetzt, als ihre Stammkundin Olivia sie bittet, ihr die Haare für ihre Hochzeit zu stylen.",
+    "releaseDate": "2020-09-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hv5vuazGhvwcVw69KBPTG5JErJf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/scLrexML7LjHlIEkvjjSvwrDHyv.jpg",
+    "voteAverage": 5.23,
+    "genreIds": [
+      27,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Najarra Townsend",
+      "Brea Grant",
+      "Laura Kirk",
+      "Millie Milan",
+      "Kimberly Igla"
+    ],
+    "director": [
+      "Jill Gevargizian"
+    ],
+    "writer": [
+      "Jill Gevargizian",
+      "Eric Havens",
+      "Eric Stolze"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/741612.jpg"
+  },
+  {
+    "videoId": "v0JX4Flgk0U",
+    "youtubeTitle": "Inside Hollywood - Schwarze Komödie mit Robert De Niro - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/v0JX4Flgk0U/hqdefault.jpg",
+    "duration": "PT1H44M11S",
+    "publishedAt": "2026-07-18T07:00:20Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 8944,
+    "title": "Inside Hollywood",
+    "originalTitle": "What Just Happened",
+    "overview": "Hollywood-Produzent Ben steckt tief in der Krise: Seine Tochter Zoe tanzt ihm auf der Nase herum, der neue Film von Sean Penn der in Cannes uraufgeführt werden soll, macht nur Probleme und Bruce Willis will sich für seine aktuelle Produktion nicht von seinem Vollbart trennen.",
+    "releaseDate": "2008-10-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cdlOsHDtOvUD64Lkjflzw76VWfe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/d8azJCepCuGlJeEc4kw3AxzzvYS.jpg",
+    "voteAverage": 5.444,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Robert De Niro",
+      "Sean Penn",
+      "Bruce Willis",
+      "Robin Wright",
+      "Stanley Tucci"
+    ],
+    "director": [
+      "Barry Levinson"
+    ],
+    "writer": [
+      "Art Linson"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/8944.jpg"
+  },
+  {
+    "videoId": "xxvabl_WNgg",
+    "youtubeTitle": "Mozart und der Wal - bewegender Spielfilm mit JOSH HARTNETT - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xxvabl_WNgg/hqdefault.jpg",
+    "duration": "PT1H30M15S",
+    "publishedAt": "2026-07-16T14:00:37Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 23478,
+    "title": "Mozart und der Wal",
+    "originalTitle": "Mozart and the Whale",
+    "overview": "Wenn es um Zahlen geht, vollbringt der introvertierte Donald Unglaubliches. Die Kommunikation mit seinen Mitmenschen fällt ihm als Autisten hingegen schwer. Als die superimpulsive und extrovertierte Leidensgenossin Isabelle, die ständig sagt, was sie denkt, in derselben Selbsthilfegruppe auftaucht, wird nicht nur Donalds Welt, sondern auch sein Herz auf den Kopf gestellt. Der Beginn einer Beziehung, die alles andere als leicht ist.",
+    "releaseDate": "2005-09-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wCHhqrH0ldYzd4T2uwJDKoBnPtm.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4umzequ4lJsoihonwaAyHNe05ac.jpg",
+    "voteAverage": 6.13,
+    "genreIds": [
+      18,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"Mozart und der Wal\")",
+    "cast": [
+      "Josh Hartnett",
+      "Radha Mitchell",
+      "Gary Cole",
+      "Sheila Kelley",
+      "Erica Leerhsen"
+    ],
+    "director": [
+      "Petter Næss"
+    ],
+    "writer": [
+      "Ronald Bass"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/23478.jpg"
+  },
+  {
+    "videoId": "YjlYalkYulU",
+    "youtubeTitle": "Mr. Nobody - unglaublicher Fantasy-Thriller mit JARED LETO - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YjlYalkYulU/hqdefault.jpg",
+    "duration": "PT2H19M13S",
+    "publishedAt": "2026-07-14T14:00:20Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 31011,
+    "title": "Mr. Nobody",
+    "originalTitle": "Mr. Nobody",
+    "overview": "Die Medizin ist mittlerweile soweit fortgeschritten, dass Menschen unsterblich sind. Der 118-jährige Nemo Nobody ist der letzte Mensch, der noch sterben wird - das wissenschaftliche und journalistische Interesse an ihm könnte folglich kaum größer sein. Der alte Mann blickt zurück auf sein vergangenes Leben, kann sich aber nur schwer an Einzelheiten erinnern: Nach der Trennung seiner Eltern steht der junge Nemo vor der Wahl, bei seinem Vater in England zu bleiben oder mit seiner Mutter nach Nordamerika auszuwandern. Von dieser Entscheidung ausgehend werden unterschiedliche Lebensabläufe skizziert: In einem verliebt er sich in die Tochter des neuen Geliebten seiner Mutter, verliert sie jedoch aus den Augen und trifft sie erst als erwachsene Frau wieder. Der greise Nemo erinnert sich auch an das komplizierte Leben mit der schwer depressiven Elise, die er trotzdem über alles liebt und für die er nach ihrem Tod sogar auf den Mars reist, um dort ihre Asche zu verstreuen...",
+    "releaseDate": "2009-11-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qNkIONc4Rgmzo23ph7qWp9QfVnW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/y9zcjxEilWr44c4vJbEaLTgE0Uw.jpg",
+    "voteAverage": 7.791,
+    "genreIds": [
+      878,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Jared Leto",
+      "Sarah Polley",
+      "Diane Kruger",
+      "Linh-Dan Pham",
+      "Rhys Ifans"
+    ],
+    "director": [
+      "Jaco Van Dormael"
+    ],
+    "writer": [
+      "Jaco Van Dormael"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/31011.jpg"
+  },
+  {
+    "videoId": "0PmWOJtOfeM",
+    "youtubeTitle": "Ich liebe Dick - grandioser Comedyfilm mit Kirsten Dunst - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0PmWOJtOfeM/hqdefault.jpg",
+    "duration": "PT1H34M37S",
+    "publishedAt": "2026-07-09T14:00:29Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 16406,
+    "title": "Ich liebe Dick",
+    "originalTitle": "Dick",
+    "overview": "Die Geschichte von Watergate muss neu geschrieben werden, denn sie ist zum Brüllen komisch! Die Freundinnen Arlene und Betsy geraten zufällig in den Strudel des Watergate-Skandals, als sie dem CIA-Agenten Gordon Liddy beim Einbruch ins Watergate-Hotel über den Weg laufen. Beim anschließenden Klassenausflug ins Weiße Haus lernen sie nicht nur Präsident Nixon höchstpersönlich kennen, sondern gelangen auch in den Besitz einer streng geheimen Bestechungsliste. Als \"Dick\" sich als Ekel entpuppt, leiten die Mädels seinen Rücktritt in die Wege. Und so bekommen nicht nur Nixon und seine Berater, sondern auch das berühmte Journalistenduo Bernstein und Woodward ihr Fett ab.",
+    "releaseDate": "1999-08-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4zz1v8ziTiRy3mjGaVhVK0vrn08.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5WLdmRWfTpohU3aSbBgvF4zljfM.jpg",
+    "voteAverage": 5.96,
+    "genreIds": [
+      35,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Kirsten Dunst",
+      "Michelle Williams",
+      "Dan Hedaya",
+      "Will Ferrell",
+      "Bruce McCulloch"
+    ],
+    "director": [
+      "Andrew Fleming"
+    ],
+    "writer": [
+      "Andrew Fleming",
+      "Sheryl Longin"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/16406.jpg"
+  },
+  {
+    "videoId": "XeZM_f8h35Y",
+    "youtubeTitle": "The Mental State - Unter Verdacht - fesselnder Mystery-Thriller - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XeZM_f8h35Y/hqdefault.jpg",
+    "duration": "PT1H44M42S",
+    "publishedAt": "2026-06-28T07:00:16Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 685709,
+    "title": "The Mental State",
+    "originalTitle": "The Mental State",
+    "overview": "Nach einem hinterhältigen Schusswaffenattentat vermutet Andy, dass ein gefährlicher Amokläufer in seiner Heimat Kentucky auf freiem Fuß ist. Er deckt dessen Identität auf und glaubt, einer dunklen Verschwörung auf die Spur zu kommen, die mit dem Mädchen zu tun hat, das er liebt. Als Andys Verhalten an der High School jedoch immer irrationaler wird, sucht seine Mutter professionelle Hilfe.",
+    "releaseDate": "2022-10-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mGu492p9ZY8st3DXsytIr9rR5Vc.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kcvOAu2gzrJAQrULqhakRC36RPW.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      18,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Jance Enslin",
+      "Carly Pope",
+      "Alyssa Sutherland",
+      "Alison Thornton",
+      "Bryan Greenberg"
+    ],
+    "director": [
+      "James Camali"
+    ],
+    "writer": [
+      "Jeremy Anderson",
+      "Joshua Barclay",
+      "James Camali"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/685709.jpg"
+  },
+  {
+    "videoId": "eMNMZyCvbA0",
+    "youtubeTitle": "Außer Kontrolle - Halt nicht an! - hochspannender Thriller - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eMNMZyCvbA0/hqdefault.jpg",
+    "duration": "PT1H25M20S",
+    "publishedAt": "2026-06-25T14:00:23Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 12123,
+    "title": "Außer Kontrolle",
+    "originalTitle": "Chain Reaction",
+    "overview": "In einem Glas Wasser befindet sich genug Energie, um den Bedarf von 100.000 Menschen ein Jahr lang zu decken. Ein Forschungsteam der Chicagoer Universität versucht, diese Theorie zu beweisen. Das Unglaubliche gelingt – und ein junger Mitarbeiter des Projektes entdeckt die letzte fehlende Komponente des Energiepuzzles. Am nächsten Tag allerdings ist sein Professor tot und in seiner Wohnung wird Geld gefunden. Geld, das er angeblich von einem chinesischen Agenten dafür erhalten hat, dass er ihm das Geheimnis der Energiegewinnung verkauft hat. Dem jungen Mann und einer ebenfalls in die Geschichte verwickelten Kollegin bleibt nur die Flucht, um ihre Unschuld zu beweisen. Was nicht einfach ist, wenn das FBI, die Staatspolizei und jede Menge Kopfgeldjäger hinter einem her sind.",
+    "releaseDate": "1996-08-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vlOK8Er8cEwxJ5PzYBDNqlYQAfU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8coSVxxbsV69T81nMILkiPdUKrP.jpg",
+    "voteAverage": 5.818,
+    "genreIds": [
+      53,
+      28,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Außer Kontrolle\")",
+    "cast": [
+      "Keanu Reeves",
+      "Morgan Freeman",
+      "Rachel Weisz",
+      "Fred Ward",
+      "Kevin Dunn"
+    ],
+    "director": [
+      "Andrew Davis"
+    ],
+    "writer": [
+      "J.F. Lawton",
+      "Michael Bortman",
+      "Arne Schmidt"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/12123.jpg"
+  },
+  {
+    "videoId": "DLPr0ON7LcE",
+    "youtubeTitle": "Fahrkarte ins Jenseits - großartiger Western mit Randolph Scott - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DLPr0ON7LcE/hqdefault.jpg",
+    "duration": "PT1H17M15S",
+    "publishedAt": "2026-06-07T07:00:38Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 39557,
+    "title": "Fahrkarte ins Jenseits",
+    "originalTitle": "Decision at Sundown",
+    "overview": "Bart Allison zieht rastlos durch die Lande, immer auf der Suche nach Tate Kimbrough. Der hatte sich einst mit Barts Frau aus dem Staub gemacht und sie später angeblich in den Selbstmord getrieben. In Sundown spürt Bart den Ehebrecher endlich auf und fordert ihn zum Duell.",
+    "releaseDate": "1957-11-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nslMbh5rp9hnCO9iRmcsXRHezcF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2LYrEd13m5dGGmONbefiI2sjN5X.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Randolph Scott",
+      "John Carroll",
+      "Karen Steele",
+      "Valerie French",
+      "Noah Beery Jr."
+    ],
+    "director": [
+      "Budd Boetticher"
+    ],
+    "writer": [
+      "Charles Lang",
+      "Vernon L. Fluharty"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/39557.jpg"
+  },
+  {
+    "videoId": "g0H5EPcbQcE",
+    "youtubeTitle": "The Cave - Tauchgang geht schief, packender Überlebensfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/g0H5EPcbQcE/hqdefault.jpg",
+    "duration": "PT1H15M58S",
+    "publishedAt": "2026-05-31T07:00:26Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 9042,
+    "title": "The Cave",
+    "originalTitle": "The Cave",
+    "overview": "Ein Team von Wissenschaftlern stößt in den rumänischen Wäldern in den Ruinen einer Abtei aus dem 13. Jahrhundert auf den Eingang zu einem verborgenen unterirdischen Höhlensystem, das 30 Jahre zuvor nach einem Unglück versiegelt wurde. Dr. Nicolai, ein Team von Profihöhlentauchern und Spezialisten machen sich auf den Weg, das möglicherweise unentdeckte Ökosystem zu erforschen. Doch schon bald passieren merkwürdige Dinge. Das Expeditionsteam ist anscheinend nicht allein in den Höhlen. Als erste “Unfälle” geschehen, steigt die Verunsicherung. Dazu benimmt sich Anführer Jack äußerst seltsam…",
+    "releaseDate": "2005-08-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tyDZbOIm1NybJLVhI3KqAV3ztnw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hHhZBHknSjrtSnIEVqQtAjMBNu9.jpg",
+    "voteAverage": 5.446,
+    "genreIds": [
+      28,
+      12,
+      27,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"The Cave\")",
+    "cast": [
+      "Cole Hauser",
+      "Lena Headey",
+      "Morris Chestnut",
+      "Eddie Cibrian",
+      "Piper Perabo"
+    ],
+    "director": [
+      "Bruce Hunt"
+    ],
+    "writer": [
+      "Tegan West",
+      "Michael Steinberg"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/9042.jpg"
+  },
+  {
+    "videoId": "KOVIgrJU2jc",
+    "youtubeTitle": "Dragon Knight - epischer Fantasy-Mittelalterfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/KOVIgrJU2jc/hqdefault.jpg",
+    "duration": "PT1H39M5S",
+    "publishedAt": "2026-05-28T14:00:17Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 919355,
+    "title": "Dragon Knight",
+    "originalTitle": "Dragon Knight",
+    "overview": "Jahre, nachdem der Krieg verloren ging und sämtliche Drachen erschlagen wurden, reist der einsame Ritter Braedyn (Ryan Livingstone) durch die Länder von Agonos. Sein Ziel ist es, eine Armee gegen Abaddon aufzustellen. Doch die verbliebenen Könige und Feldherren sind ängstlich – lieber leiden sie unter der Herrschaft des Dämonenfürsten als sich gegen ihn zu erheben und wahrscheinlich ausgelöscht zu werden. Aber es gibt Hoffnung für Braedyn, als die Vision einer Heilerin (Emily Louise Knutsson) offenbart, dass doch noch ein Drache überlebt haben könne. Zusammen mit seinem eifrigen jungen Knappen Edwin (Regan Walker) und der zum Guten bekehrten Meuchelmörderin Jigme (Megan Tremethick) macht sich der Ritter auf die Suche nach der sagenumwobenen Kreatur. Als die Armeen des Schreckensherrschers auf die menschlichen Königreiche herabstürzen, ist der Drache ihre letzte Hoffnung. Nur er kann die Horde abwehren, bevor sie das Land unwiederbringlich verwüsten. ...",
+    "releaseDate": "2022-03-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nUNc18U4trB8nY6eAK6gmE5TBsY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/l99dylTOAMkwKSr54X5ytiEtnLA.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      14,
+      12,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Ryan Livingstone",
+      "Megan Tremethick",
+      "Regan Walker",
+      "Michael Daviot",
+      "Erich Redman"
+    ],
+    "director": [
+      "Lawrie Brewster"
+    ],
+    "writer": [
+      "Sarah Daly"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/919355.jpg"
+  },
+  {
+    "videoId": "0qnY8eubwJk",
+    "youtubeTitle": "Enter the Phoenix - Action-Abenteuerfilm mit Jackie Chan - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0qnY8eubwJk/hqdefault.jpg",
+    "duration": "PT1H40M44S",
+    "publishedAt": "2026-05-26T14:00:02Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 21522,
+    "title": "Enter the Phoenix",
+    "originalTitle": "大佬愛美麗",
+    "overview": "Triadenboss Hung aus Hongkong sieht auf die alten Tage dem natürlichen Tod ins Auge und möchte seinen nach Bangkok exilierten, offen zu seiner Homosexualität stehenden Sohnemann Georgie in seiner Nachfolge wissen. Georgie jedoch verspürt wenig Lust auf hohe Unterweltämter und schiebt, weil der sich gar so sehr danach drängelt, den besten Kumpel Sam vor. Der muss als frischgebackener Gangsterboss sogleich eine Bandenfehde meistern, ist sich der damit verbundenen Risiken jedoch nur bedingt bewusst.",
+    "releaseDate": "2004-04-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wwGS2UMI635naMjZUnCbvc0xRdY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fAM3zlePdmzWGGKOBoPJcdR6Xgv.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      53,
+      28,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Daniel Wu",
+      "陳奕迅",
+      "莫文蔚",
+      "羅家英",
+      "Chapman To Man-Chat"
+    ],
+    "director": [
+      "馮德倫"
+    ],
+    "writer": [
+      "馮德倫",
+      "羅耀輝"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/21522.jpg"
+  },
+  {
+    "videoId": "G6UsNyb9h1k",
+    "youtubeTitle": "Der arme Teufel und das Glück - wundervoller Märchenfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/G6UsNyb9h1k/hqdefault.jpg",
+    "duration": "PT1H37M53S",
+    "publishedAt": "2026-05-08T14:00:29Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 494642,
+    "title": "Der arme Teufel und das Glück",
+    "originalTitle": "Nejlepší přítel",
+    "overview": "Der Teufel Matej wurde bestraft und muss die Wünsche von Ondra, einem armen jungen Mann erfüllen, bis er zugibt, ausnahmslos glücklich zu sein. Aber kann man diese Art von Glück jemals erreichen? Ondra verliebt sich in Rézinka, die junge Gräfin, doch kurz darauf erscheint ein perfider Baron auf dem Schloss. Er wurde von Graf Hubert eingeladen, Rézinka den Hof zu machen und die Verlobung ist schon geplant. Schnell wird klar, dass aus dieser höllischen Lage nichts Gutes werden kann, vor allem als Ondra dem Grafen verspricht, bis zum nächsten Morgen ein prächtiges Schloss für Rézinka zu bauen..",
+    "releaseDate": "2017-12-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fDfF9dG4uy384rBmNJAEZlQ5mpY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4PsSs6qSeR2UTM0IPgzKNLu4WYJ.jpg",
+    "voteAverage": 7.7,
+    "genreIds": [
+      10751,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Zdeněk Piškula",
+      "Kristína Svarinská",
+      "Hana Vagnerová",
+      "Jiří Lábus",
+      "Marek Adamczyk"
+    ],
+    "director": [
+      "Karel Janák"
+    ],
+    "writer": [
+      "Lucie Konášová"
+    ],
+    "fsk": "0",
+    "posterLocal": "img/posters/494642.jpg"
+  },
+  {
+    "videoId": "UvitldvNUkY",
+    "youtubeTitle": "Payback - The Debt Collector - packender Action-Thriller - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/UvitldvNUkY/hqdefault.jpg",
+    "duration": "PT1H27M13S",
+    "publishedAt": "2026-04-21T14:00:50Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 284361,
+    "title": "Von Polizisten terrorisiert",
+    "originalTitle": "Payback",
+    "overview": "Als die Restaurantbesitezrin Kathryn einen unheimlichen Mann in einem Auto entdeckt, ruft sie die Polizei. Sie muß beobachten wie Kaleen, einer der Polizisten, den Fremden grundlos schlägt und tritt. Nachdem sie vor Gericht wegen des Vorfalls gegen ihn ausgesagt hat, kommt es zu merkwürdigen Zwischenfällen, unter anderem erhält sie eigenartige Anrufe und ihr Sohn wird ins Gefängnis gesteckt. Wie sich zeigt, ist selbst die Karriere ihres Mannes in Gefahr! Und dies nur, weil Kaleen sich an Kathryn wegen ihrer Aussage rächen will ...",
+    "releaseDate": "1997-02-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/slmSDOc5fuytqikPz0Bl0fYUubU.jpg",
+    "backdropUrl": null,
+    "voteAverage": 6.75,
+    "genreIds": [
+      18,
+      80,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 121 (Suchbegriff: \"Payback\")",
+    "cast": [
+      "Mary Tyler Moore",
+      "Ed Asner",
+      "Denis Arndt",
+      "Fredric Lehne",
+      "Adam Scott"
+    ],
+    "director": [
+      "Ken Cameron"
+    ],
+    "writer": [
+      "Dennis Nemec"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/284361.jpg"
+  },
+  {
+    "videoId": "SDf-pWUGAA0",
+    "youtubeTitle": "Into the Sun - Im Netz der Yakuza - Actionkracher mit Steven Seagal - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SDf-pWUGAA0/hqdefault.jpg",
+    "duration": "PT1H36M53S",
+    "publishedAt": "2026-04-14T14:00:00Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 24546,
+    "title": "Into the Sun - Im Netz der Yakuza",
+    "originalTitle": "Into the Sun",
+    "overview": "Als der Gouverneur von Tokyo ermordet wird, soll der ehemalige CIA-Agent Travis Hunter die verantwortlichen Terroristen zur Strecke bringen. Schnell findet er heraus, dass der Mord an dem Gouverneur Teil eines undurchdringlichen Netzes aus Korruption und Gewalt ist, denn Hunter hat den Plan eines ehrgeizigen Yakuza-Bosses aufgedeckt, der gemeinsam mit der chinesischen Mafia ein mächtiges Drogenkartell aufbauen will. Die Zeit wird immer knapper, während die Yakuza über Leichen geht, um ihren Plan durchzuziehen. Hunter muss das Komplott vereiteln - und dabei möglichst die eigene Haut retten.",
+    "releaseDate": "2005-11-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rrfGzNwsIycS8uQZ9eb0iJhPbgs.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kgpHkygDOnHL7MWNuZUnBTRK8on.jpg",
+    "voteAverage": 4.573,
+    "genreIds": [
+      28,
+      12,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Steven Seagal",
+      "Matthew Davis",
+      "Takao Osawa",
+      "大村波彦",
+      "本田大輔"
+    ],
+    "director": [
+      "mink"
+    ],
+    "writer": [
+      "Joe Halpin",
+      "Steven Seagal",
+      "Trevor Miller"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/24546.jpg"
+  },
+  {
+    "videoId": "eR7wMxOKhGw",
+    "youtubeTitle": "Elvis - Aufstieg und Fall des King - Filmbiografie mit Jonathan Rhys Meyers - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eR7wMxOKhGw/hqdefault.jpg",
+    "duration": "PT2H44M53S",
+    "publishedAt": "2026-04-12T07:00:29Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 614934,
+    "title": "Elvis",
+    "originalTitle": "Elvis",
+    "overview": "Neben Talent und seiner magischen Bühnenpräsenz verdankte es Elvis Presley auch den wichtigsten Menschen an seiner Seite, damit aus ihm der international erfolgreiche Superstar werden konnte, als den ihn die Welt noch heute kennt. Colonel Tom Parker, sein Manager, war einer davon, auch wenn ihre über 20 Jahre andauernde Beziehung nicht gerade von Harmonie geprägt war. Die komplexen Probleme zwischen den beiden Männern vor dem Hintergrund des kulturellen Wandels in Amerika spielten beim Aufstieg und Fall des „King of Rock'n'Roll“ eine wichtige Rolle. Doch die Hauptrolle im Leben des Stars spielte seine Frau – Priscilla Presley.",
+    "releaseDate": "2022-06-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jMiZMjN9Z2NS1uvjIDv8IeBrfTa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rLo9T9jEg67UZPq3midjLnTUYYi.jpg",
+    "voteAverage": 7.455,
+    "genreIds": [
+      10402,
+      36,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 96 (Suchbegriff: \"Elvis\")",
+    "cast": [
+      "Austin Butler",
+      "Tom Hanks",
+      "Olivia DeJonge",
+      "Helen Thomson",
+      "Richard Roxburgh"
+    ],
+    "director": [
+      "Baz Luhrmann"
+    ],
+    "writer": [
+      "Jeremy Doner",
+      "Baz Luhrmann",
+      "Sam Bromell"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/614934.jpg"
+  },
+  {
+    "videoId": "xuP2CUw5AfU",
+    "youtubeTitle": "Gloria - spannender Kriminalfilm mit Sharon Stone - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xuP2CUw5AfU/hqdefault.jpg",
+    "duration": "PT1H47M56S",
+    "publishedAt": "2026-04-05T07:00:50Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 45712,
+    "title": "Gloria",
+    "originalTitle": "Gloria",
+    "overview": "Nach ihrer Entlassung aus dem Gefängnis kehrt Gloria (Sharon Stone) zu ihrem Ex-Lover, dem Gangster Kevin (Jeremy Northam), zurück. Als dieser jedoch gemeinsam mit seinen Mafiosi-Freunden den kleinen Nicky (Jean-Luke Figueroa), dessen Familie diese bereits ausgelöscht haben, als unliebsamen Zeugen beseitigen will, nimmt sie mit dem Jungen Reißaus. Von nun an wird Gloria von der ganzen Bande quer durch New York gejagt...",
+    "releaseDate": "1999-01-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1AKAfnT3nm7asU9qyNT6gtS1vbe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6rlOgCIxCuJj1cmlPcaBekgQuRb.jpg",
+    "voteAverage": 5.97,
+    "genreIds": [
+      18,
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Sharon Stone",
+      "Jeremy Northam",
+      "Cathy Moriarty",
+      "Jean-Luke Figueroa",
+      "Mike Starr"
+    ],
+    "director": [
+      "Sidney Lumet"
+    ],
+    "writer": [
+      "Steve Antin"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/45712.jpg"
+  },
+  {
+    "videoId": "w2uXIprnd7o",
+    "youtubeTitle": "Bathory - Die Blutgräfin - düsterer Historienfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/w2uXIprnd7o/hqdefault.jpg",
+    "duration": "PT2H19M29S",
+    "publishedAt": "2026-03-12T15:01:40Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 15208,
+    "title": "Bathory - Die Blutgräfin",
+    "originalTitle": "Bathory",
+    "overview": "Im 16. Jahrhundert heiratet die junge Gräfin Erzsebet Bathory den ungarischen Fürsten Franz Nadasdy und wird dadurch zu einer der mächtigsten Regentinnen im Reiche Habsburg. Während ihr Gatte sich in Schlachten gegen die Osmanen einen Namen als \"Schwarzer Ritter\" macht, genehmigt sich Elisabeth daheim eine Affäre mit dem Maler Caravaggio, lässt sich von einer vermeintlichen Hexe Schönheitstipps geben und verhält sich zuweilen grob gegen ihre Mägde. Als Franz stirbt und König und Kirche auf ihre Güter schielen, dreht man ihr daraus einen Strick.",
+    "releaseDate": "2008-07-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qZsQ02liDzz9Ydb1dzFwLxef7me.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yZjUslqxhYqvbUNlAk3HSOO5Xba.jpg",
+    "voteAverage": 5.664,
+    "genreIds": [
+      18,
+      14
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Anna Friel",
+      "Karel Roden",
+      "Vincent Regan",
+      "Hans Matheson",
+      "Deana Horváthová"
+    ],
+    "director": [
+      "Juraj Jakubisko"
+    ],
+    "writer": [
+      "Juraj Jakubisko"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/15208.jpg"
+  },
+  {
+    "videoId": "1glZCpNPr8w",
+    "youtubeTitle": "Die Hochzeitsregel - wundervoller Liebesfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1glZCpNPr8w/hqdefault.jpg",
+    "duration": "PT1H30M23S",
+    "publishedAt": "2026-03-08T08:00:06Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 1040805,
+    "title": "Die Hochzeitsregel",
+    "originalTitle": "The Wedding Rule",
+    "overview": "Gemma und Max waren enge Freunde, doch nach dem Schulabschluss haben sie sich aus den Augen verloren. Als Rosa, die Besitzerin des gemütlichen Restaurants, in dem beide damals in den Ferien gearbeitet haben, unerwartet verstirbt, treffen sie nach langer Zeit wieder aufeinander – denn Rosa hat in ihrem Testament verfügt, dass Gemma und Max das Lokal erben und weiterführen sollen. Allerdings hat die Sache einen gewaltigen Haken: Wenn die beiden nicht jeweils verheiratet sind, fällt das Restaurant innerhalb von drei Wochen an Rosas unsympathischen Neffen. Kurzentschlossen lassen sich Gemma und Max auf den Deal ein – und damit beginnt ein chaotischer Wettlauf gegen die Zeit mit verunglückten Blind Dates und allerlei romantischen Verirrungen, um rechtzeitig den geeigneten Kandidaten zur Eheschließung zu finden.",
+    "releaseDate": "2023-04-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lm4k23ndPlM1EnItTKV5dwMEOjH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ytUh8xQSzdgqxz45NurDEavM763.jpg",
+    "voteAverage": 6.023,
+    "genreIds": [
+      10770,
+      10749,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Dennis Andres",
+      "Julie Nolke",
+      "Brittany Charlotte Smith",
+      "Joey Coleman",
+      "Marisa McIntyre"
+    ],
+    "director": [
+      "Alpha Nicky Mulowa"
+    ],
+    "writer": [
+      "Erynn Marcus"
+    ],
+    "fsk": "0",
+    "posterLocal": "img/posters/1040805.jpg"
+  },
+  {
+    "videoId": "R4Pei6qwRLI",
+    "youtubeTitle": "Liebe auf Safari - fantastischer Liebesfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/R4Pei6qwRLI/hqdefault.jpg",
+    "duration": "PT1H26M58S",
+    "publishedAt": "2026-02-25T15:00:54Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 525454,
+    "title": "Liebe auf Safari",
+    "originalTitle": "Love on Safari",
+    "overview": "Die Amerikanerin Kira erbt ein Tierreservat in Südafrika - und muss vor Ort mit Ranger Tom um dessen Erhalt kämpfen. Wird sie sich in das Land, die Tiere und vielleicht sogar in Tom verlieben?",
+    "releaseDate": "2018-07-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yrEt9tlovd6FSRPyNWBxScECFwf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hJhHbIyt9crOOIsmv80HNqFEcH0.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      10770,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Lacey Chabert",
+      "Jon Cor",
+      "Brittany Bristow",
+      "Francis Chouler",
+      "John Indi"
+    ],
+    "director": [
+      "Leif Bristow"
+    ],
+    "writer": [
+      "Elizabeth Stewart"
+    ],
+    "fsk": "0",
+    "posterLocal": "img/posters/525454.jpg"
+  },
+  {
+    "videoId": "BvOEqAs5620",
+    "youtubeTitle": "Das perfekte Hochzeitskleid - wunderschöner Liebesfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/BvOEqAs5620/hqdefault.jpg",
+    "duration": "PT1H31M41S",
+    "publishedAt": "2026-02-18T15:00:19Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 1039066,
+    "title": "Das perfekte Hochzeitskleid",
+    "originalTitle": "Team Bride",
+    "overview": "Hannah arbeitet im traditionsreichen Stammhaus der Brautmoden-Kette Millington’s, doch ihren wahren Traum erfüllt sie sich außerhalb der Öffnungszeiten: Mit der alten Nähmaschine ihrer Großmutter ändert sie Vintage-Hochzeitskleider zu wunderschönen Neukreationen und wird so bald zum Geheimtipp der Stadt. Eines Tages steht Will Millington im Laden – unverschämt gutaussehend, Erbe des Millionenimperiums und Single. Allerdings steht vor dem Erfolg der Schweiß, und so hat ihn sein Vater dazu verdonnert, erst einmal als Praktikant Geschäftsluft zu schnuppern. Ausgerechnet Hannah soll sich um ihn kümmern, und während Will sich mühsam mit Nadel, Faden und Brautkleidformen beschäftigt, beginnt es langsam, zwischen den beiden zu knistern – doch ein Missverständnis wirft plötzlich dunkle Schatten auf die aufkeimende Zuneigung. Jetzt ist es Will, der ganz schnell Hilfe braucht.",
+    "releaseDate": "2023-04-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cwX1V5hiFCS0WdbKYJLAjZsNwz6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/f72fvaJ6ywtGDnbbjs5hMkMuTvs.jpg",
+    "voteAverage": 6.846,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Rhiannon Fish",
+      "Marcus Rosner",
+      "Anna Primiani",
+      "Nikki Rae Hallow",
+      "Reamonn Joshee"
+    ],
+    "director": [
+      "Dylan Pearce"
+    ],
+    "writer": [
+      "Katy Breier",
+      "Erica Deutschman"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/1039066.jpg"
+  },
+  {
+    "videoId": "TlKyrx1Ro1E",
+    "youtubeTitle": "Rhapsodie in Blei - unterhaltsamer Western mit Tom Berenger - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TlKyrx1Ro1E/hqdefault.jpg",
+    "duration": "PT1H28M37S",
+    "publishedAt": "2026-02-01T08:00:27Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 19014,
+    "title": "Rhapsodie in Blei",
+    "originalTitle": "Rustlers' Rhapsody",
+    "overview": "Der stets in Weiß gekleidete und nicht selten singende Edel-Cowboy Rex O'Herlihan, dessen Gitarre einmal Jimi Hendrix spielen wird, reitet durch den wilden Westen, beseelt von der Mission, Gutes zu tun. Das ist auch bitter nötig, denn der reiche Viehbaron Colonel Ticonderoga hat es auf die bescheidenen Eigenheime der kleinen Farmer abgesehen und schreckt auch nicht vor Gewalt zurück. Rex muss sich also mächtig ins Zeug legen, um den Colonel und seine Schergen zu besiegen. Klar, dass Rex mit Colt, Gitarre und Gesang auch bald das Herz einer schönen Dame, in diesem Fall das von Miss Tracy, erobert. Ticonderoga bleibt keine andere Wahl, als seinen Gegner mit gleichen Waffen zu schlagen: Er hetzt den gefürchteten, ebenfalls singenden Cowboy Bob Barber auf Rex.",
+    "releaseDate": "1985-05-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gm0BhC6Q2uTggUpAWG6NLaPpHWj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/21QnPWq9Fcih2JmEylPG6Opus5T.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      28,
+      35,
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Tom Berenger",
+      "G.W. Bailey",
+      "Marilu Henner",
+      "Andy Griffith",
+      "Fernando Rey"
+    ],
+    "director": [
+      "Hugh Wilson"
+    ],
+    "writer": [
+      "Hugh Wilson"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/19014.jpg"
+  },
+  {
+    "videoId": "zEFTFRuui4Q",
+    "youtubeTitle": "Luther -  Er veränderte die Welt für immer - Historienfilm mit Joseph Fiennes - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zEFTFRuui4Q/hqdefault.jpg",
+    "duration": "PT2H3M23S",
+    "publishedAt": "2026-01-11T08:01:14Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 5653,
+    "title": "Luther",
+    "originalTitle": "Luther",
+    "overview": "Ein Nahtod-Erlebnis reißt im Jahre 1505 den Studenten Martin Luther aus seinem bis dato eher von Müßiggang geprägten Alltag und treibt ihn in die aufnahmebereiten Arme der katholischen Klosterkirche. Schon bald stoßen dort dem kritischen Geist Diskrepanzen zwischen Wort und Wirklichkeit auf. Besonders den grassierenden Ablasshandel nimmt er ins Visier, als er seine 95 Thesen als Protest an die Wittenberger Schlosskirche nagelt. Als der Papst den Ketzer nachdrücklich um Widerruf ersucht, bleibt Luther standhaft. Er wird für vogelfrei erklärt, muss fliehen, und erarbeitet in der Enklave zur Wartburg die erste deutschsprachige Übersetzung der Bibel, nicht ahnend, welche Revolution sein Werk entfachen wird.",
+    "releaseDate": "2003-10-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pBxZ3NxtTMdUE6tXq6QvAlugOcY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5tsQ6QrKa7to3S2DCosSOYrJ6OE.jpg",
+    "voteAverage": 6.476,
+    "genreIds": [
+      18,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Joseph Fiennes",
+      "Jonathan Firth",
+      "Claire Cox",
+      "Alfred Molina",
+      "Peter Ustinov"
+    ],
+    "director": [
+      "Eric Till"
+    ],
+    "writer": [
+      "Camille Thomasson",
+      "Bart Gavigan"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/5653.jpg"
+  },
+  {
+    "videoId": "UcAYr1TL9qw",
+    "youtubeTitle": "RED CLIFF - epischer HISTORIENFILM mit großen Schlachten - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/UcAYr1TL9qw/hqdefault.jpg",
+    "duration": "PT2H23M1S",
+    "publishedAt": "2025-11-04T15:01:03Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 12289,
+    "title": "Red Cliff",
+    "originalTitle": "赤壁",
+    "overview": "China, 208 n. Chr. Die letzten Tage der Han Dynastie sind gezählt. Der machtbesessene Premierminister Cao Cao überzeugt den jungen Kaiser Han, dass es nur einen Weg gibt, China zu vereinen: Er muss den Königreichen Xu im Westen und Wu im Süden den Krieg erklären. So beginnt ein beispielloser Krieg, angeführt von Premierminister Cao Cao mit 800.000 Soldaten und 2.000 Schiffen. In ihrer Not schließen die Regenten von Shu und Wu eine Allianz gegen den übermächtigen Feind. Mit Kampfkunst, List, Tapferkeit und unter großen Opfern bringen sie dem vorrückenden Riesenheer erste Niederlagen bei. Doch die Entscheidung fällt erst in der legendären Schlacht am Red Cliff, am Jangtse, in der die Helden der Allianz dem Tod furchtlos die Stirn bieten und die Geschichte Chinas neu geschrieben wird...",
+    "releaseDate": "2008-07-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oogOlFlKsaWTrYCb0vaRpcP7DPl.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pkcW3uu862e41ol1JXEVP4RSo0N.jpg",
+    "voteAverage": 7.109,
+    "genreIds": [
+      12,
+      18,
+      36,
+      28,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Tony Leung Chiu-wai",
+      "Takeshi Kaneshiro",
+      "Zhang Fengyi",
+      "Chang Chen",
+      "Zhao Wei"
+    ],
+    "director": [
+      "John Woo"
+    ],
+    "writer": [
+      "John Woo",
+      "郭筝",
+      "盛和煜"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/12289.jpg"
+  },
+  {
+    "videoId": "E8zDUXLQWiw",
+    "youtubeTitle": "JET LI - KUNG FU CULT MASTER - Martial-Arts, Actionfilm - Ganzer Film kostenlos bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/E8zDUXLQWiw/hqdefault.jpg",
+    "duration": "PT1H43M22S",
+    "publishedAt": "2025-09-29T14:00:32Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 18725,
+    "title": "Jet Li is The Hero",
+    "originalTitle": "給爸爸的信",
+    "overview": "Jet Li spielt einen Polizist der Undercover gegen einen Schmugglerring ermittelt: Zu allem übel wird er noch von Anita Mui verfolgt, die als Inspektorin der Hongkonger Polizei arbeitet. Als Jet Lis schwerkranke Frau stirbt, beschließt er seinen kleinen Sohn mit sich zu nehmen. Als Anita Mui von seinem Schicksal erfährt, beschließt sie, zusammen mit Jet Li und seinem Sohn zu arbeiten. Jet Li schafft es sogar soweit, dass er in die Organisation eingeschleust wird, doch es kommt zu Problemen, als Mitglieder des Schmugglerrings einen kleinen Spion erwischen, der aber in Wirklichkeit Je Lis Sohn ist. Jet Li soll den kleinen Jungen vor den Augen des Anführers umbringen...",
+    "releaseDate": "1995-02-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9obaHn6QhCA0jL1cvhb3dRwTSB8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aAhljX3GsM5k2NgIXHIVDDGKcu2.jpg",
+    "voteAverage": 6.74,
+    "genreIds": [
+      28,
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 50 (Suchbegriff: \"JET LI\")",
+    "cast": [
+      "Jet Li",
+      "谢苗",
+      "Anita Mui",
+      "Blackie Ko",
+      "Yu Rongguang"
+    ],
+    "director": [
+      "Corey Yuen"
+    ],
+    "writer": [
+      "Jing Wong",
+      "邵麗瓊"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/18725.jpg"
+  },
+  {
+    "videoId": "Sh0QctyIrss",
+    "youtubeTitle": "DIE BAUMHAUSKÖNIGE - Familien-Abenteuerfilm - Ganzer Film kostenlos in HD bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Sh0QctyIrss/hqdefault.jpg",
+    "duration": "PT1H27M42S",
+    "publishedAt": "2025-09-28T06:00:33Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 244054,
+    "title": "Die Baumhauskönige",
+    "originalTitle": "Bouwdorp",
+    "overview": "Kurz vor den Sommerferien: Ziggy und Bas sind beste Freunde. Ein letztes Mal wollen die beiden beim großen Abenteuercamp „Bouwdorp“ teilnehmen. Aus altem Holz, Paletten und Türen sollen hohe Türme gebaut werden und Ziggy und Bas sind die amtierenden Meister. Kein Wunder, dass sie auch dieses Jahr wieder auf den Titel der Baumhauskönige hoffen. Besonders weil sie nach den Ferien auf getrennte Schulen gehen werden, wollen sie in diesem Sommer gemeinsam den höchsten Turm von allen bauen. Aber im Camp läuft alles anders als geplant. Bas fängt an mit den coolen Jungs der Cola-Gang rumzuhängen und Ziggy muss mit seinem kleinen Bruder in die Mannschaft. Der gemeinsame Traum verwandelt sich schnell in eine ungeahnte Rivalität, an der ihre Freundschaft zu zerbrechen droht.",
+    "releaseDate": "2014-01-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/z9EnxvyjoUOQhkCRjIGeVfElZxP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vWzro1B2kZ7bHCQ5UXd2wvH0BXN.jpg",
+    "voteAverage": 5.143,
+    "genreIds": [
+      10751,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Kees Nieuwerf",
+      "Julian Ras",
+      "Maria Kraakman",
+      "Mara van Vlijmen",
+      "Jeroen de Man"
+    ],
+    "director": [
+      "Margien Rogaar"
+    ],
+    "writer": [
+      "Tijs van Marle"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/244054.jpg"
+  },
+  {
+    "videoId": "DjQmwhVTY0E",
+    "youtubeTitle": "GALVESTON - packender RACHEFILM mit Ben Foster und Elle Fanning - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DjQmwhVTY0E/hqdefault.jpg",
+    "duration": "PT1H32M59S",
+    "publishedAt": "2025-09-20T06:00:10Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 283601,
+    "title": "Galveston - Die Hölle ist ein Paradies",
+    "originalTitle": "Galveston",
+    "overview": "Einzelgänger Roy führt ein Leben außerhalb geregelter Bahnen und hat soeben eine schwerwiegende gesundheitliche Diagnose erhalten. Abhängig von seinem zwielichtigen Auftraggeber Stan muss er dessen Drecksarbeit erledigen – ohne mit der Wimper zu zucken. Als ein scheinbar gewöhnlicher Auftrag aus dem Ruder läuft, steht er mehr als je zuvor mit dem Rücken zur Wand: Mit einer blutjungen Prostituierten und ihrer kleinen Schwester am Hals muss er fliehen. Krimineller Abschaum und Gesetzeshüter sind dem Trio dicht auf den Fersen.",
+    "releaseDate": "2018-10-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dJ4onbc0D9HeLijSgbA0enrqH3i.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3liOPiruqLCqH8Ucsj3ImIeGaMj.jpg",
+    "voteAverage": 6.114,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Ben Foster",
+      "Elle Fanning",
+      "Beau Bridges",
+      "Lili Reinhart",
+      "Adepero Oduye"
+    ],
+    "director": [
+      "Mélanie Laurent"
+    ],
+    "writer": [
+      "Nic Pizzolatto"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/283601.jpg"
+  },
+  {
+    "videoId": "zV47sLbNRbk",
+    "youtubeTitle": "Strange Nature - fesselnder Mystery-Horrorfilm - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zV47sLbNRbk/hqdefault.jpg",
+    "duration": "PT1H39M34S",
+    "publishedAt": "2025-09-13T06:00:49Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 549214,
+    "title": "Strange Nature",
+    "originalTitle": "Strange Nature",
+    "overview": "Kim Sweet will mit ihrem elfjährigen Sohn Brody zu ihrem an Krebs erkrankten Vater in Duluth ziehen. Die Hütte, in die sie ziehen, ist wie die ganze Stadt von Sümpfen umgeben. Doch als überall missgebildete Frösche und Tiere in der Wildnis auftauchen und Menschen spurlos verschwinden, steigt die Sorge in der Bevölkerung. Aber trotz zahlreicher Beweise, die Kim zusammengetragen hat, scheint die Stadtspitze keine Maßnahmen treffen zu wollen. Erst als das erste menschliche Todesopfer zu beklagen ist, wird der Sheriff aufmerksam und stellt einen Suchtrupp für die Sümpfe zusammen. Dort vermutet man ein großes Raubtier, dass aufgescheucht nun Jagd auf die Menschen macht. Es stellt sich jedoch heraus, dass jahrzehntelanger zu starker Pestizid-Einsatz in der Landwirtschaft Mensch und Tier langsam vergiftet hat und das die daraus entstandenen Mutationen nun zum Gegenschlag gegen die Menschen ausholen...",
+    "releaseDate": "2018-09-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yXFkg7S6OBkuevT54Tm2XsJjKRa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7F7ZOLrR1cRh6fziPz2EyMwGD1o.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27,
+      14,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Tiffany Shepis",
+      "Stephen Tobolowsky",
+      "Lisa Sheridan",
+      "David Mattey",
+      "Carlos Alazraqui"
+    ],
+    "director": [
+      "James Ojala"
+    ],
+    "writer": [
+      "James Ojala"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/549214.jpg"
+  },
+  {
+    "videoId": "ivP3QduEgmU",
+    "youtubeTitle": "HAUNTER - Jenseits des Todes - Horror, Mystery - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ivP3QduEgmU/hqdefault.jpg",
+    "duration": "PT1H37M2S",
+    "publishedAt": "2025-08-31T06:00:43Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 166271,
+    "title": "Haunter - Jenseits des Todes",
+    "originalTitle": "Haunter",
+    "overview": "Was, wenn die Lebenden die Geister der Toten sind? Die junge Lisa erlebt mit ihrer Familie den gleichen Tag stets aufs Neue und sieht sich zudem mit geisterhaften Erscheinungen in einem Haus konfrontiert, das sie offenbar nicht verlassen kann. Die schrecklichen Taten eines grausamen Mörders scheinen Jenseits und Diesseits unauflösbar miteinander zu verbinden. Und Lisa ist die einzige Rettung für einen Geist, der keiner ist ...",
+    "releaseDate": "2013-10-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mlStNcqKmOiSYEuSHF3Nqg3aeuE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/be1ePwAZVHgZmy8Jxs0WEzaWk5b.jpg",
+    "voteAverage": 6.123,
+    "genreIds": [
+      27,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Abigail Breslin",
+      "Stephen McHattie",
+      "David Hewlett",
+      "David Knoll",
+      "Peter Outerbridge"
+    ],
+    "director": [
+      "Vincenzo Natali"
+    ],
+    "writer": [
+      "Brian King",
+      "Matthew Brian King"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/166271.jpg"
+  },
+  {
+    "videoId": "sIYtTwgJ5_k",
+    "youtubeTitle": "Spitfire Over Berlin - packender Kriegsfilm - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sIYtTwgJ5_k/hqdefault.jpg",
+    "duration": "PT1H15M27S",
+    "publishedAt": "2025-08-24T06:00:47Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 976906,
+    "title": "Spitfire Over Berlin",
+    "originalTitle": "Spitfire Over Berlin",
+    "overview": "August 1944, der Zweite Weltkrieg befindet sich an einem wichtigen Wendepunkt: Die US-Airforce bereitet sich auf einen Großangriff auf die deutsche Hauptstadt Berlin vor. Da erhält der britische Geheimdienst Informationen, nach denen die Alliierten mit einer solchen Attacke geradewegs in eine von den Nazis aufgebaute, tödliche Falle tappen könnten. Leutnant Edward Barnes (Kris Saddler) bleiben nur wenige Stunden, um mit seiner unbewaffneten Maschine vom Typ Spitfire eine Aufklärungsmission über Berlin zu fliegen. Sein Auftrag lautet, fotografisches Beweismaterial zu beschaffen, um potentiell das Leben von 1200 amerikanischen Soldaten zu retten. Wird er es schaffen, unerkannt von der feindlichen Luftabwehr, hinter die deutschen Linien zu gelangen, dort seinen Job zu erledigen und auch noch unbeschadet zurückzukehren?",
+    "releaseDate": "2022-05-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kSlvFr4iLNEXhHOYvcH7oHbJ2Z9.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ilK1JRbMjo4sMJtNKLOKnqRf1RH.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      10752,
+      28,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Kris Saddler",
+      "Tom Gordon",
+      "David Dobson",
+      "Vin Hawke"
+    ],
+    "director": [
+      "Callum Burn"
+    ],
+    "writer": [
+      "Andrew Burn",
+      "Callum Burn"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/976906.jpg"
+  },
+  {
+    "videoId": "bBuA6FjIrcQ",
+    "youtubeTitle": "DEAD WATER - Action-Thriller mit Casper Van Dien - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bBuA6FjIrcQ/hqdefault.jpg",
+    "duration": "PT1H27M32S",
+    "publishedAt": "2025-08-12T14:00:55Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 618433,
+    "title": "Dead Water",
+    "originalTitle": "Dead Water",
+    "overview": "David Cooper war bis vor kurzem als Marine im Nahen Osten. Seit seiner Rückkehr bemüht sich seine Frau Vivian wieder Normalität in ihren gemeinsamen Alltag zu bringen. Doch Coops erlittenes Trauma lässt ihn nicht zur Ruhe kommen. John, ein alter Freund der Familie, lädt das Ehepaar deshalb kurzerhand für eine Auszeit auf seine Yacht ein. Doch was als entspannende Ablenkung von Coops Albträumen und Panikattacken gedacht war, entwickelt sich mehr und mehr zu einem Horrortrip auf dem offenen Meer - ohne Aussicht auf Entkommen. Coop muss erneut sein Leben aufs Spiel setzen, dieses Mal um Vivian zu beschützen und der Krieg, den er eigentlich hinter sich lassen wollte, scheint ihn wieder einzuholen.",
+    "releaseDate": "2020-05-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/333UycccGJRndunuFXRhQnkIyij.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3M799IXQ2e54RTSXBOSXWXIK1Y0.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Casper Van Dien",
+      "Judd Nelson",
+      "Brianne Davis",
+      "Griff Furst"
+    ],
+    "director": [
+      "Chris Helton"
+    ],
+    "writer": [
+      "Jason Usry"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/618433.jpg"
+  },
+  {
+    "videoId": "q2Z7f9PzS-U",
+    "youtubeTitle": "Rescue Under Fire - Action, Abenteuerfilm - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/q2Z7f9PzS-U/hqdefault.jpg",
+    "duration": "PT1H33M23S",
+    "publishedAt": "2025-08-07T14:01:29Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 437031,
+    "title": "Rescue Under Fire",
+    "originalTitle": "Zona hostil",
+    "overview": "Die Welt wächst durch die Globalisierung immer weiter zusammen, doch hat dies im Umkehrschluss auch zur Folge, dass die Anzahl bewaffneter Konflikte ebenfalls stetig anwächst. Durch Verträge und internationale Abkommen ist es daher keine Besonderheit mehr, dass auch die spanischen Streitkräfte in Konfliktzonen abgeordert werden, die nicht in ihrer Heimat liegen. Bei einer dieser Militäroperationen in Afghanistan wird ein spanischer Rettungshelikopter abgeschossen. Die Besatzung der Maschine rund um Capitán Varel ist fortan von zahlreichen Taliban-Terroristen eingekesselt, ohne Chance, sich zur Wehr zu setzen. Die spanische Armee hat nur eine Nacht Zeit, die Überlebenden der Absturzstelle zu befreien und das Fluggerät zu bergen, während die Übermacht des Feindes sich formiert. Eine dramatische Schlacht entbrennt, bei der die Kameradschaft und das taktische Geschick der spanischen Soldaten auf eine harte Probe gestellt werden.",
+    "releaseDate": "2017-03-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8611rHmCAsJfPxbqCJuFEiN8s7d.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/AfpToyq0MaRMgR8D8blMcajXgDn.jpg",
+    "voteAverage": 6.914,
+    "genreIds": [
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Ariadna Gil",
+      "Roberto Álamo",
+      "Antonio Garrido",
+      "Raúl Mérida",
+      "Mariano Hernández"
+    ],
+    "director": [
+      "Adolfo Martínez Pérez"
+    ],
+    "writer": [
+      "Luis Arranz",
+      "Andrés M. Koppel"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/437031.jpg"
+  },
+  {
+    "videoId": "lc0vdnv73Zg",
+    "youtubeTitle": "137 KARAT - Ein fast perfekter Coup - spannender Diamantenraub Film - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/lc0vdnv73Zg/hqdefault.jpg",
+    "duration": "PT1H44M30S",
+    "publishedAt": "2025-07-24T14:01:17Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 269714,
+    "title": "137 Karat - Ein fast perfekter Coup",
+    "originalTitle": "Le Dernier diamant",
+    "overview": "Der professionelle Dieb Simon ist vorrübergehend auf Bewährung, was ihn jedoch nicht davon abhält mit seinem Partner Albert den nächsten Coup zu planen. Dieser überredet ihn nun zu einem besonders gewagten Streifzug: Albert bekommt die Gelegenheit, den legendären Florentiner-Diamanten im Wert von 40 Millionen Euro zu stehlen, wofür er und Simon sich mit einer kriminellen Gruppe zusammenschließen müssen. Für Simon ist der Raub eine Gelegenheit, die sich einem nur einmal im Leben bietet, und dafür freundet er sich mit der wunderschönen Julia an, die die Chefin der Diamanten-Auktion ist. Simon gibt vor, ein Sicherheitsexperte zu sein und erschleicht sich letztlich nicht nur ihr Vertrauen. Doch nach und nach überschlagen sich die Ereignisse…",
+    "releaseDate": "2014-04-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/XjDtrAeFESr1LKgN2NsDWgMQKf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nVF5CPRqtG3DQHyhGBMH4Sdb7VL.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      18,
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Yvan Attal",
+      "Bérénice Bejo",
+      "Jean-François Stévenin",
+      "Antoine Basler",
+      "Jacques Spiesser"
+    ],
+    "director": [
+      "Eric Barbier"
+    ],
+    "writer": [
+      "Marie Eynard",
+      "Eric Barbier",
+      "Trân-Minh Nam"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/269714.jpg"
+  },
+  {
+    "videoId": "jPN_EuTHiNk",
+    "youtubeTitle": "DOPPELTES SPIEL - Mysteryfilm mit SAMARA WEAVING - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jPN_EuTHiNk/hqdefault.jpg",
+    "duration": "PT1H25M50S",
+    "publishedAt": "2025-07-22T14:01:15Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 567608,
+    "title": "Doppeltes Spiel",
+    "originalTitle": "Last Moment of Clarity",
+    "overview": "Sam flieht nach Paris, nachdem seine Freundin Georgie auf brutale Art und Weise von Gangstern umgebracht wurde. In Frankreich versucht der junge Mann unterzutauchen. Als er drei Jahre später in einem Hollywood-Film eine Frau entdeckt, die seiner verstorbenenden Liebsten verblüffend ähnelt, verbeißt er sich in den Gedanken, dass seine große Liebe womöglich doch noch am Leben sein könnte und reist nach Los Angeles. Dort begibt er sich auf die Suche nach der mysteriösen Schauspielerin und erhält dabei Unterstützung von der undurchsichtigen Kat. Als er der Frau schließlich gegenübersteht, gerät sein ganzes Leben völlig aus der Bahn...",
+    "releaseDate": "2020-05-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3uluvbVEBsH45dsR7w3Zjlb3M1v.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zFbhLim5PWLTmQgvMAlj48ExCsv.jpg",
+    "voteAverage": 5.18,
+    "genreIds": [
+      18,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Zach Avery",
+      "Samara Weaving",
+      "Carly Chaikin",
+      "Pasha D. Lychnikoff",
+      "Hal Ozsan"
+    ],
+    "director": [
+      "James Krisel",
+      "Colin Krisel"
+    ],
+    "writer": [
+      "Colin Krisel",
+      "James Krisel"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/567608.jpg"
+  },
+  {
+    "videoId": "8NTvvXjzaPU",
+    "youtubeTitle": "The Family - Fürchte Deine Nächsten - erschreckender Horrorfilm - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8NTvvXjzaPU/hqdefault.jpg",
+    "duration": "PT1H44M32S",
+    "publishedAt": "2025-07-11T14:00:13Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 112205,
+    "title": "Malavita - The Family",
+    "originalTitle": "The Family",
+    "overview": "Er war einer der mächtigsten Männer der USA: Fred, einst gefürchteter Pate in New York, hat durch seine Aussagen eine ganze Reihe einflussreicher Mafiosi hinter Gitter gebracht. Nun lebt er mit seiner Frau Maggi und den beiden Kindern Belle und Warren im Zeugenschutzprogramm in der Normandie – unter dem wachsamen Auge des knallharten FBI-Agenten Stansfield. Ziel ist es, sich unauffällig zu verhalten und unter allen Umständen unter dem Radar zu bleiben – nicht so einfach, denn Freds aufbrausendes Temperament geht gerne mit ihm durch. Und dann noch diese Franzosen – wie kann man da Ruhe bewahren?! Der Kulturschock sitzt tief. Und so ist es nur eine Frage der Zeit, dass die Mafia die Fährte der Familie wieder aufnimmt und gleich mehrere Killer in das beschauliche Dörfchen schickt. Jedoch haben die nicht mit der Entschlossenheit dieser Familie gerechnet ...",
+    "releaseDate": "2013-09-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/37oKRDTASr5CtQuYpi2NWECEhJr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mt4cfjeFHNKda7KDSvvJlG50swc.jpg",
+    "voteAverage": 6.363,
+    "genreIds": [
+      80,
+      35,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"The Family\")",
+    "cast": [
+      "Robert De Niro",
+      "Michelle Pfeiffer",
+      "Tommy Lee Jones",
+      "Dianna Agron",
+      "John D'Leo"
+    ],
+    "director": [
+      "Luc Besson"
+    ],
+    "writer": [
+      "Luc Besson",
+      "Michael Caleo"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/112205.jpg"
+  },
+  {
+    "videoId": "j2Mr7LxQyOM",
+    "youtubeTitle": "ANIMAL - DAS TIER IN DIR - psychologischer Thriller - Ganzer Film kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/j2Mr7LxQyOM/hqdefault.jpg",
+    "duration": "PT1H53M7S",
+    "publishedAt": "2025-07-08T14:01:11Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 499925,
+    "title": "Animal - Das Tier in dir",
+    "originalTitle": "Animal",
+    "overview": "Antonio Decoud ist ein konservativer Familienvater, der in Animal vom Schicksal in eine erschütternde unerwartete Situation gedrängt wird und so gezwungen ist, sein ganzes Leben auf dem Kopf zu stellen, seine Prioritäten zu ändern und die Dinge, an die er immer geglaubt hat, infrage zu stellen. Nun darf er nur einem Instinkt folgen: Dem animalischen Instinkt.",
+    "releaseDate": "2018-05-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dL44SbXxd4arcHeM7KiukuVmeIm.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4xaSUkSjvojI0mvIMk2Zs881d7I.jpg",
+    "voteAverage": 6.587,
+    "genreIds": [
+      53,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Guillermo Francella",
+      "Carla Peterson",
+      "Federico Salles",
+      "Mercedes De Santis",
+      "Gloria Carrá"
+    ],
+    "director": [
+      "Armando Bo"
+    ],
+    "writer": [
+      "Armando Bo",
+      "Nicolás Giacobone"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/499925.jpg"
+  },
+  {
     "videoId": "H-THa9EbgIU",
     "youtubeTitle": "ROBIN WILLIAMS in: The Night Listener - Mysteryfilm mit Rory Culkin - Ganzer Film kostenlos in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/H-THa9EbgIU/hqdefault.jpg",
@@ -80298,6 +82827,43 @@
     "writer": [],
     "fsk": "16",
     "posterLocal": "img/posters/493100.jpg"
+  },
+  {
+    "videoId": "VrRPeI88i6U",
+    "youtubeTitle": "Katharina von Alexandrien - monumentaler Historienfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VrRPeI88i6U/hqdefault.jpg",
+    "duration": "PT1H46M23S",
+    "publishedAt": "2025-06-08T06:00:20Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 272923,
+    "title": "Katharina von Alexandrien",
+    "originalTitle": "Katherine of Alexandria",
+    "overview": "Der Legende nach wurde Katharina von Nomaden groß gezogen. Eines Tages erblickte Kaiser Maxentius die junge Katharina und war sofort Feuer und Flamme. Neben ihrer Schönheit verfügte sie über eine sprühende Intelligenz und ein außergewöhnliches Sprachentalent. Maxentius entführte das Mädchen und ließ ihre gesamte Familie töten, alleine ihm sollte sie gehören. All das wurde jedoch von Katharinas Freund Konstantin, dem späteren Kaiser des Römischen Reiches, beobachtet. Fortan macht er es sich zur Aufgabe, Katharina zu finden. Diese weigert sich indessen strikt, den Heiratsanträgen Maxentius nachzugeben. Mehr noch: Als glühende Christin leistet sie erbitterten Widerstand gegen seine brutalen Versuche, das Heidentum durchzusetzen. Kein leichtes Unterfangen in einer Zeit, in der bekennende Christen einfach umgebracht wurden. Es kommt zu einem öffentlichen Prozess in Alexandria.",
+    "releaseDate": "2014-02-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pBK3EGctiAqKjmtTIJkBynfoWLk.jpg",
+    "backdropUrl": null,
+    "voteAverage": 2.7,
+    "genreIds": [
+      18,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Nicole Keniheart",
+      "Jack Goddard",
+      "Peter O'Toole",
+      "Joss Ackland",
+      "Steven Berkoff"
+    ],
+    "director": [
+      "Michael Redwood"
+    ],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/272923.jpg"
   },
   {
     "videoId": "m1m7S3YVIP4",
@@ -80341,6 +82907,47 @@
     "posterLocal": "img/posters/31027.jpg"
   },
   {
+    "videoId": "Y91K0O2oBoc",
+    "youtubeTitle": "TAI CHI HERO - Kung Fu Action-Spektakel - Ganzer Film in HD bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Y91K0O2oBoc/hqdefault.jpg",
+    "duration": "PT1H42M37S",
+    "publishedAt": "2025-02-13T15:00:48Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 149085,
+    "title": "Tai Chi Hero",
+    "originalTitle": "太極２ 英雄崛起",
+    "overview": "Nachdem er dem Dorf Chen in großer Gefahr siegreich beistand, soll Lu Chan nun endlich jenes legendäre Kung Fu lernen dürfen, das die Chen ansonsten nur an Clanmitglieder weitergeben. Eine Hochzeit mit der schönen Tochter des Hauses scheitert jedoch in letzter Minute, dafür bahnen sich neue Verwicklungen an mit einem alten Erzfeind der Chen, der nun mächtige Verbündete gefunden hat in Form der Ostindienkompanie und der British Railroad. Jetzt steht dem Fortschritt nur noch das Dorf im Weg. Doch das hat zähe Verteidiger.",
+    "releaseDate": "2012-10-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/d9eIaUQY6NO3qP7wgTW8ORjaBMb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/v1vkK6RXcix0ZsCWy4ZodAsUsKn.jpg",
+    "voteAverage": 6.088,
+    "genreIds": [
+      28,
+      12
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "袁晓超",
+      "袁文康",
+      "Angelababy",
+      "Shu Qi",
+      "馮德倫"
+    ],
+    "director": [
+      "馮德倫"
+    ],
+    "writer": [
+      "陳國富",
+      "张家鲁",
+      "程孝澤"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/149085.jpg"
+  },
+  {
     "videoId": "0mcJQv8Gkt4",
     "youtubeTitle": "The Assassin Next Door - Rachethriller mit Olga Kurylenko - Ganzer Film kostenlos bei Moviedome",
     "youtubeThumbnail": "https://i.ytimg.com/vi/0mcJQv8Gkt4/hqdefault.jpg",
@@ -80348,75 +82955,78 @@
     "publishedAt": "2024-09-19T14:00:01Z",
     "channelName": "Moviedome",
     "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
-    "tmdbId": 1476453,
-    "title": "Kirot",
-    "originalTitle": "Kirot",
-    "overview": "",
-    "releaseDate": "2025-09-30",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/l1vVrAs2dtxiSYnD1f5G8iFc6UH.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/z0aPAt0WQ4GXWj20eE90IMT1B6V.jpg",
-    "voteAverage": 5.5,
+    "tmdbId": 37714,
+    "title": "The Assassin Next Door",
+    "originalTitle": "קירות",
+    "overview": "Galia gerät in Israel in die Hände der russischen Mafia. Sie wird erpresst, muss für den Mafia-Boss auf den Strich gehen und wird gezwungen für ihn zu morden. Dabei wünscht sie sich nichts mehr als wieder mit ihrer kleinen Tochter zusammen zu sein, die sie zu Hause zurückgelassen hat.Dann lernt Galia ihre Nachbarin Elinor kennen, die von ihrem Ehemann immer wieder brutal misshandelt wird. Die beiden schließen sich zusammen, denn sie teilen zwei Dinge: eine angrenzende Mauer und den starken Drang sich gegen ihre Peiniger zu wehren. Als Galia ihren nächsten Auftrag, die Frau eines Konkurrenten zu töten, nicht ausführt und Elinor erfährt, dass sie schwanger ist, schlagen sie zurück. Sie fliehen und enden in einem Kampf ums Überleben und für Freiheit ...",
+    "releaseDate": "2009-12-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/f5TmGJDMY0hALoIRCis3jCzfX8v.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/eztduq6HLq1PMAdJKy7SH9VWotZ.jpg",
+    "voteAverage": 5.465,
     "genreIds": [
-      18
+      18,
+      53,
+      28,
+      80
     ],
     "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 60 (Suchbegriff: \"Kirot\")",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
     "cast": [
-      "Jenn Rosa",
-      "Ashley Lopez",
-      "JC Tan",
-      "Dio De Jesus",
-      "Rinoa Halili"
+      "Olga Kurylenko",
+      "נינט טייב",
+      "ולדימיר פרידמן",
+      "זהר שטראוס",
+      "Liron Levo"
     ],
     "director": [
-      "Bobby Bonifacio"
+      "Danny Lerner"
     ],
     "writer": [
-      "Bobby Bonifacio",
-      "Juvy Galamiton"
+      "Danny Lerner"
     ],
-    "fsk": null,
-    "posterLocal": "img/posters/1476453.jpg"
+    "fsk": "16",
+    "posterLocal": "img/posters/37714.jpg"
   },
   {
-    "videoId": "8zhgumyNNm8",
-    "youtubeTitle": "Die Tochter des Teufels - okkulter Horrorfilm - Ganzer Film kostenlos in HD bei Moviedome",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/8zhgumyNNm8/hqdefault.jpg",
-    "duration": "PT1H34M29S",
-    "publishedAt": "2024-08-27T14:00:12Z",
+    "videoId": "8oK-gE9rOlA",
+    "youtubeTitle": "The Sniper - hochspannender Action-Thriller - Ganzer Film kostenlos in HD bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8oK-gE9rOlA/hqdefault.jpg",
+    "duration": "PT1H23M3S",
+    "publishedAt": "2024-08-29T14:00:15Z",
     "channelName": "Moviedome",
     "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
-    "tmdbId": 1177839,
-    "title": "February",
-    "originalTitle": "February",
-    "overview": "",
-    "releaseDate": "2024-04-07",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/rQgzcYCLjRe7B0InyHGVNl6sPTY.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/di97hfqpouPzdDMf41Im5zuzedn.jpg",
-    "voteAverage": 0,
+    "tmdbId": 17082,
+    "title": "The Sniper",
+    "originalTitle": "神鎗手",
+    "overview": "Hartman ist seit Jahren erfolgreicher Kopf des Scharfschützenteams der Polizei Hong Kongs. Zugleich ist er stets darauf bedacht, Nachwuchs für seine Einheit auszubilden. Als der überdurchschnittlich begabte Schütze OJ in die Einheit kommt, gibt es allerdings bald Ärger... OJ hat ein loses Mundwerk und lässt sich nur ungern etwas sagen. Zwar ist er beeindruckt von Hartmans bisherigen Erfolgen, glaubt jedoch, mit seiner eigenen Art den vorbildlichen Sniper schlagen zu können. Rebellisch lehnt er sich gegen die strenge Hand des Ausbilders auf und trifft sich sogar mit Hartmans größtem Widersacher Lincoln, der ihm eine spezielle Schusstechnik beibringt. Nachdem Hartman davon erfährt, überlegt er wutentbrannt sogar, den jungen Wilden aus dem Team zu werfen.",
+    "releaseDate": "2009-03-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hh3bnpdBwBQE2Id9F39Lqz5Wer4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/eCVak2cYV6OvsJ5GajrTIFzzcOB.jpg",
+    "voteAverage": 6.065,
     "genreIds": [
-      35,
-      18
+      28,
+      53
     ],
     "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 68 (Suchbegriff: \"February\")",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
     "cast": [
-      "David Ezekial Duran",
-      "Ritchie Gordon",
-      "Nayeli Hernandez",
-      "Erick Inestroza",
-      "R. Scott Purdy"
+      "Richie Jen",
+      "陳冠希",
+      "黄晓明",
+      "Mango Wong",
+      "林保怡"
     ],
     "director": [
-      "Nathan Deming"
+      "林超賢"
     ],
     "writer": [
-      "Nathan Deming"
+      "Jack Ng",
+      "林超賢"
     ],
     "fsk": null,
-    "posterLocal": "img/posters/1177839.jpg"
+    "posterLocal": "img/posters/17082.jpg"
   },
   {
     "videoId": "VuheTRWZlt4",
@@ -80458,6 +83068,46 @@
     "posterLocal": "img/posters/11599.jpg"
   },
   {
+    "videoId": "z5gT7Ywm7ps",
+    "youtubeTitle": "RESET - actionreicher Science-Fiction-Thriller - Ganzer Film kostenlos in HD bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/z5gT7Ywm7ps/hqdefault.jpg",
+    "duration": "PT1H45M46S",
+    "publishedAt": "2024-02-27T15:00:52Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 594001,
+    "title": "Reset",
+    "originalTitle": "Reset",
+    "overview": "",
+    "releaseDate": "2016-09-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5PKpCXnZYoRwwMLlLV4una7pBLb.jpg",
+    "backdropUrl": null,
+    "voteAverage": 7,
+    "genreIds": [
+      878
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"RESET\")",
+    "cast": [
+      "Jacqueline Bourque",
+      "Zach Chorney",
+      "Jesse Collin",
+      "John Cross",
+      "Darcy Ellison"
+    ],
+    "director": [
+      "Steve Austin Stihl",
+      "Ty Reynolds"
+    ],
+    "writer": [
+      "Ty Reynolds",
+      "Steve Austin Stihl"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/594001.jpg"
+  },
+  {
     "videoId": "1hxrowIhKRg",
     "youtubeTitle": "Badges of Fury - mit Jet Li - Martial Arts, Action - Ganzer Film kostenlos in HD bei Moviedome",
     "youtubeThumbnail": "https://i.ytimg.com/vi/1hxrowIhKRg/hqdefault.jpg",
@@ -80497,6 +83147,47 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/202220.jpg"
+  },
+  {
+    "videoId": "FcLQuh9jSC8",
+    "youtubeTitle": "KONFUZIUS - Historienfilm, Action - Ganzen Film kostenlos in HD schauen bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FcLQuh9jSC8/hqdefault.jpg",
+    "duration": "PT2H5M13S",
+    "publishedAt": "2023-05-30T14:00:08Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 34182,
+    "title": "Konfuzius",
+    "originalTitle": "孔子",
+    "overview": "Im 5. Jahrhundert vor Christus zählt der weise Schriftgelehrte Kong Qiu zu den einflussreicheren Bürgern im Königreich Lu. Im Zuge eines Streits mit despotischen Clanführern entdeckt der König sein Talent und befördert ihn erst zum Minister und dann zum offiziellen Strategen in den Auseinandersetzungen mit benachbarten Fürstentümern. Seine Rivalen aber warten nur auf eine Gelegenheit, es ihm heimzuzahlen, und so muss Kong Qiu vorübergehend sogar ins Exil fliehen. Seine Philosophie aber wird zur geistigen Grundlage des geeinten China.",
+    "releaseDate": "2010-02-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sr8KPdegs3D6ia1DD6JLGYcsWN6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/c53R0h6c4Rwb30tGbX2gNUpeJkw.jpg",
+    "voteAverage": 5.947,
+    "genreIds": [
+      18,
+      36
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"KONFUZIUS\")",
+    "cast": [
+      "Chow Yun-Fat",
+      "周迅",
+      "Wang Ban",
+      "陈建斌",
+      "任泉"
+    ],
+    "director": [
+      "Hu Mei"
+    ],
+    "writer": [
+      "陈汗",
+      "He Yanjiang",
+      "Jiang Qitao"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/34182.jpg"
   },
   {
     "videoId": "xfSTn3WcStM",
@@ -80582,6 +83273,45 @@
     "posterLocal": "img/posters/440374.jpg"
   },
   {
+    "videoId": "R8A2tyTpV8I",
+    "youtubeTitle": "RED EAGLE - Superhelden, Action - Jetzt den ganzen Film kostenlos in HD schauen bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/R8A2tyTpV8I/hqdefault.jpg",
+    "duration": "PT2H10M18S",
+    "publishedAt": "2022-10-18T14:00:10Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 50583,
+    "title": "Red Eagle",
+    "originalTitle": "อินทรีแดง",
+    "overview": "In naher Zukunft droht Bangkok in einem Sumpf aus Verbrechen und Korruption zu versinken. Wehrlos stehen die Bürger der Polizei und den Politikern gegenüber, die eine menschenverachtende Politik betreiben. Doch es besteht noch Hoffnung: \"Red Eagle\", ein Superheld mit roter Maske, rächt das geknechtete Volk und richtet den Abschaum der Stadt. Seine Mission führt den ehemaligen Special Task Force Soldaten und seine beiden Verbündeten direkt ins Zentrum des korrupten Apparats. Doch nicht nur die Mächtigen des Staates macht er sich zum Feind, auch die Unterwelt will den Störenfried loswerden. Und so trifft er bald auf Black Devil, einen grausamen Attentäter...",
+    "releaseDate": "2010-10-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/u3tAhyuSyyVV9Q2OwMYYaeX3TkL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/bq3DtzvFaGaNED7pr8TL9uHrEX6.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      28,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "อนันดา เอเวอริ่งแฮม",
+      "ญารินดา บุนนาค",
+      "Wannasing Prasertkul",
+      "Ron Smoorenburg",
+      "Pornwut Sarasin"
+    ],
+    "director": [
+      "วิศิษฏ์ ศาสนเที่ยง"
+    ],
+    "writer": [
+      "วิศิษฏ์ ศาสนเที่ยง"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/50583.jpg"
+  },
+  {
     "videoId": "9gL7ujuWY2U",
     "youtubeTitle": "Zombies: An Undead Road Movie - Zombie, Comedy - Jetzt ganzen Film kostenlos schauen bei Moviedome",
     "youtubeThumbnail": "https://i.ytimg.com/vi/9gL7ujuWY2U/hqdefault.jpg",
@@ -80589,39 +83319,37 @@
     "publishedAt": "2022-10-11T14:00:09Z",
     "channelName": "Moviedome",
     "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
-    "tmdbId": 10925,
-    "title": "Verdammt, die Zombies kommen",
-    "originalTitle": "The Return of the Living Dead",
-    "overview": "Freddy hat einen neuen Job als Hilfskraft in einem medizinischen Versandhaus. Dort gibt es Skelette, halbe Hunde und eine Leiche in einer Kühlkammer. Als er seinen Chef fragt, was das Unheimlichste sei, dem dieser hier begegnet wäre, hört er Folgendes: Der Film „Night of the Living Dead“ beruhe auf Tatsachen, und nur weil die Army Druck gemacht habe, sei die Geschichte geändert worden. Freddy glaubt’s nicht, doch sein Vorgesetzter will den Beweis antreten. Er zeigt ihm einen Keller, in dem Fässer lagern, die einige mumifizierte Leichen beherbergen. Ein unachtsamer Stoß gegen einen der Behälter lässt Gas ausströmen, wovon die beiden bewusstlos werden. Als sie wieder erwachen, ist der Teufel los. Die aufgespießten Schmetterlinge schlagen mit den Flügeln, die „halben“ Hunde hecheln und die Leichen in der Kühlkammer beginnen zu randalieren. Verzweifelt rufen sie ihren Chef zu Hilfe. Als dieser erscheint, versucht der Tote gerade die Tür zur Kammer aufzubrechen …",
-    "releaseDate": "1985-04-25",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/9dLl3JFAljhZODkNmkEuloV8ZbC.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1FrQyuhqvQm5G1SqTEgpZtrkitd.jpg",
-    "voteAverage": 7.2,
+    "tmdbId": 270064,
+    "title": "Zombies - An Undead Road Movie",
+    "originalTitle": "April Apocalypse",
+    "overview": "Seit Jahren schon schwärmt Artie für April, dem Mädchen von Nebenan. Doch als er endlich den Mut findet, ihr seine Liebe zu gestehen, erfährt er, dass sie wegziehen wird. Das versetzt Artie in eine tiefe Depression, die er erst drei Jahre später überwunden hat. Er beschließt, seine Angebetete zu suchen. Auf dem Weg dorthin hat er allerdings einen Autounfall und als er wieder erwacht, befindet er sich unversehens inmitten einer Zombieplage. Auf der Suche nach seiner großen Liebe entwickelt Artie sich vom Nerd zu einem knallharten Untoten-Schlächter, der alles niedermetzelt, was sich ihm in den Weg stellt.",
+    "releaseDate": "2013-10-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cgmnCQN3IXTSvFjsQ1C8EZrKEpX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aoUD4d5urXCSpziPqv2Mv0GrLZW.jpg",
+    "voteAverage": 5.7,
     "genreIds": [
+      10749,
       35,
-      27,
-      878
+      27
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 90 (Suchbegriff: \"Zombies\")",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
     "cast": [
-      "Clu Gulager",
-      "James Karen",
-      "Don Calfa",
-      "Thom Mathews",
-      "Miguel A. Núñez Jr."
+      "Reece Thompson",
+      "Rebekah Brandes",
+      "Brent Tarnol",
+      "Stephanie Hunt",
+      "Todd Stashwick"
     ],
     "director": [
-      "Dan O'Bannon"
+      "Jarret Tarnol"
     ],
     "writer": [
-      "Dan O'Bannon",
-      "John A. Russo",
-      "Rudy Ricci"
+      "Brent Tarnol"
     ],
-    "fsk": "16",
-    "posterLocal": "img/posters/10925.jpg"
+    "fsk": "18",
+    "posterLocal": "img/posters/270064.jpg"
   },
   {
     "videoId": "FSYbXOKRLP0",
@@ -80683,8 +83411,8 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 56 (Suchbegriff: \"Banshee Chapter - Illegale Experimente der C.I.A.\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Banshee Chapter\")",
     "cast": [
       "Ted Levine",
       "Katia Winter",
@@ -80701,6 +83429,89 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/207769.jpg"
+  },
+  {
+    "videoId": "vrtboIjFStg",
+    "youtubeTitle": "The Dragonphoenix Chronicles– Fantasy-Abenteuer -Jetzt den ganzen Film kostenlos in HD bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/vrtboIjFStg/hqdefault.jpg",
+    "duration": "PT2H11M36S",
+    "publishedAt": "2022-04-26T14:00:22Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 245950,
+    "title": "The Dragonphoenix Chronicles",
+    "originalTitle": "Τα Χρονικά Του Δρακοφοίνικα: Αδάμαστος",
+    "overview": "Einst in der Antike: Valeria, die verwöhnte Tochter des wohlhabenden Generals, wünscht sich zum Geburtstag den Sklaven Dragar. Der ist nicht irgendein Sklave, sondern ein Elitekrieger aus dem Norden, der bereits Dutzende von Gegnern im Gladiatorenring zur Strecke brachte. Dragar nutzt die erstbeste Gelegenheit zur Flucht, nicht ohne sich vorher Valeria als Geisel unter den Arm zu klemmen. Sein von Gefahren gesäumter Weg führt nach Norden der vermissten Heimat entgegen. Der General aber schickt ihm seine Häscher hinterher.",
+    "releaseDate": "2013-11-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tCeWoOqzpfmuCz5UF2hM6jQD2Ma.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/y8VynDwOg7fNbjisRopS0WikPGl.jpg",
+    "voteAverage": 5.25,
+    "genreIds": [
+      12,
+      28,
+      14
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Θάνος Κερμίτσης",
+      "Γιάννης Ρουμπούλιας",
+      "Κωνσταντίνα Γεωργαντά",
+      "Γεωργία Γιαννακούδη",
+      "Μελέτης Γεωργιάδης"
+    ],
+    "director": [
+      "Θάνος Κερμίτσης"
+    ],
+    "writer": [
+      "Θάνος Κερμίτσης",
+      "Γιάννης Ρουμπούλιας",
+      "Γιάννης Τζουβελέκης"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/245950.jpg"
+  },
+  {
+    "videoId": "fwDCwbKCU0I",
+    "youtubeTitle": "The Jurassic Games - Sci-Fi-Thriller - Jetzt den ganzen Film kostenlos schauen in HD bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fwDCwbKCU0I/hqdefault.jpg",
+    "duration": "PT1H26M16S",
+    "publishedAt": "2022-04-05T14:00:20Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 504982,
+    "title": "The Jurassic Games",
+    "originalTitle": "The Jurassic Games",
+    "overview": "In der nahen Zukunft bekommen Todeskandidaten noch einmal eine Chance nicht nur zu überleben, sondern sogar wieder freigelassen zu werden. In einer Virtual-Reality-Show müssen sie dabei gegeneinander antreten. Wer in dem Spiel auf Leben und Tod stirbt, ist allerdings auch im echten Leben tot. Und nur einer gewinnt am Ende und kann sich über seine Freiheit freuen. Dabei treten die Kandidaten nicht nur gegeneinander an, sondern müssen sich in der Spielarena auch gegen Dinosaurier verteidigen. Anthony Tucker ist bei der neuesten Ausgabe einer der Kandidaten. Er wurde verurteilt, seine Frau ermordet zu haben, obwohl er unschuldig ist. Die Teilnahme an dem Spiel ist seine einzige Möglichkeit, seine Kinder wieder zu sehen. Doch der fiese Spielmeister wirft ihm immer wieder Knüppel zwischen die Beine und scheint Anthonys Sieg unbedingt verhindern zu wollen…",
+    "releaseDate": "2018-05-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nfenHmVDk50m1b7onVyFbVJMWvJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/s30qeq9lamHfP7GH14DiIJdpbpw.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      878,
+      28,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Ryan Merriman",
+      "Perrey Reeves",
+      "Adam Hampton",
+      "Katie Burgess",
+      "Daniel Barton"
+    ],
+    "director": [
+      "Ryan Bellgardt"
+    ],
+    "writer": [
+      "Ryan Bellgardt",
+      "Galen Christy"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/504982.jpg"
   },
   {
     "videoId": "bnYgsLlBd9A",
@@ -80895,8 +83706,8 @@
       "Thomas Zellen"
     ],
     "writer": [
-      "Thomas Zellen",
-      "Jordan Champine"
+      "Jordan Champine",
+      "Thomas Zellen"
     ],
     "fsk": "12",
     "posterLocal": "img/posters/401222.jpg"
@@ -81010,47 +83821,6 @@
     "writer": [],
     "fsk": "0",
     "posterLocal": "img/posters/293266.jpg"
-  },
-  {
-    "videoId": "KMafNfQjvZA",
-    "youtubeTitle": "Tai Chi Hero - ganzen Film kostenlos schauen in HD bei Moviedome",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/KMafNfQjvZA/hqdefault.jpg",
-    "duration": "PT1H42M37S",
-    "publishedAt": "2021-07-22T19:00:12Z",
-    "channelName": "Moviedome",
-    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
-    "tmdbId": 149085,
-    "title": "Tai Chi Hero",
-    "originalTitle": "太極２ 英雄崛起",
-    "overview": "Nachdem er dem Dorf Chen in großer Gefahr siegreich beistand, soll Lu Chan nun endlich jenes legendäre Kung Fu lernen dürfen, das die Chen ansonsten nur an Clanmitglieder weitergeben. Eine Hochzeit mit der schönen Tochter des Hauses scheitert jedoch in letzter Minute, dafür bahnen sich neue Verwicklungen an mit einem alten Erzfeind der Chen, der nun mächtige Verbündete gefunden hat in Form der Ostindienkompanie und der British Railroad. Jetzt steht dem Fortschritt nur noch das Dorf im Weg. Doch das hat zähe Verteidiger.",
-    "releaseDate": "2012-10-25",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/d9eIaUQY6NO3qP7wgTW8ORjaBMb.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/v1vkK6RXcix0ZsCWy4ZodAsUsKn.jpg",
-    "voteAverage": 6.088,
-    "genreIds": [
-      28,
-      12
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Tai Chi Hero\")",
-    "cast": [
-      "袁晓超",
-      "袁文康",
-      "Angelababy",
-      "Shu Qi",
-      "馮德倫"
-    ],
-    "director": [
-      "馮德倫"
-    ],
-    "writer": [
-      "陳國富",
-      "张家鲁",
-      "程孝澤"
-    ],
-    "fsk": "12",
-    "posterLocal": "img/posters/149085.jpg"
   },
   {
     "videoId": "mzpKPcCFlX0",
@@ -81395,8 +84165,7 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 95 (Suchbegriff: \"Marauders\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Bruce Willis",
       "Dave Bautista",
