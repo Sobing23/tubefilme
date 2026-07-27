@@ -81413,5 +81413,83 @@
     ],
     "fsk": "6",
     "posterLocal": "img/posters/328848.jpg"
+  },
+  {
+    "videoId": "SvYf-uEMfcw",
+    "youtubeTitle": "Rossini - oder Die mörderische Frage, wer mit wem schlief (KULT KOMÖDIE Filme Deutsch komplett 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SvYf-uEMfcw/hqdefault.jpg",
+    "duration": "PT1H54M18S",
+    "publishedAt": "2026-07-26T13:00:02Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 9643,
+    "title": "Rossini, oder die mörderische Frage, wer mit wem schlief",
+    "originalTitle": "Rossini, oder die mörderische Frage, wer mit wem schlief",
+    "overview": "In dem italienischen Szene-Restaurant \"Rossini\" trifft sich täglich die Münchner Schickeria. Hier stellt man sich dar, spinnt Intrigen, schließt Geschäfte ab, diskutiert seine Probleme oder stürzt sich ganz einfach mal wieder in eine Liebesaffäre. Doch an diesem Abend kündigt sich eine Tragödie an, in die nicht nur der verklemmte Schriftsteller, der liebeshungrige Wirt des Restaurants, seine Angebetete und der nervöse Regisseur verwickelt sind.",
+    "releaseDate": "1997-01-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xTWkqGS5i9bPTwHCgHsNiiurn25.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/t9xHPcekGuPl7BvflYMtLLGb4b6.jpg",
+    "voteAverage": 6.111,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Götz George",
+      "Mario Adorf",
+      "Heiner Lauterbach",
+      "Veronica Ferres",
+      "Joachim Król"
+    ],
+    "director": [
+      "Helmut Dietl"
+    ],
+    "writer": [
+      "Patrick Süskind",
+      "Helmut Dietl"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/9643.jpg"
+  },
+  {
+    "videoId": "c8qmZpDzIFI",
+    "youtubeTitle": "Ich liebe Dich zu Tode - I love you to death (1990) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/c8qmZpDzIFI/hqdefault.jpg",
+    "duration": "PT1H37M30S",
+    "publishedAt": "2026-07-26T14:00:23Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 3101,
+    "title": "Ich liebe dich zu Tode",
+    "originalTitle": "I Love You to Death",
+    "overview": "Unglaublich, aber diese Geschichte hat sich wirklich zugetragen: Pizzabäcker Joey Boca ist nicht nur ein Ausbund an Energie, er ist auch ein echter Hallodri. Kein Rock in der kleinen Ortschaft Tacoma ist vor ihm sicher. Die Frauen lieben Joey, nur Rosalie, seine eigene, hasst ihn. Und das abgrundtief. Von ihrer Mutter Nadja und ihrem Verehrer Devo angestachelt, beschließt sie den Mord an Joey. Doch dieser entgeht wie durch ein Wunder einer Attacke mit einem Baseballschläger und einer Autobombe. Auch ein vergiftetes Abendessen macht ihm nicht den Garaus, und die als Killer angeheuerten Cousins von Devo schießen ihm zwar in den Kopf, können Joey aber nicht töten: Rumtreiber Joey scheint mehr Leben zu haben als eine läufige Katze...",
+    "releaseDate": "1990-04-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kpOYek8OuXpOgS1YJyVTqzpSxw2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/joBJxmTxjQNN9q14UoCMkTBiIMH.jpg",
+    "voteAverage": 6.409,
+    "genreIds": [
+      35,
+      80,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 89 (Suchbegriff: \"Ich liebe Dich zu Tode - I love you to death\")",
+    "cast": [
+      "Kevin Kline",
+      "Tracey Ullman",
+      "Joan Plowright",
+      "River Phoenix",
+      "William Hurt"
+    ],
+    "director": [
+      "Lawrence Kasdan"
+    ],
+    "writer": [
+      "John Kostmayer"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/3101.jpg"
   }
 ]
