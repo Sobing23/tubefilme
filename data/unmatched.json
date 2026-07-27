@@ -176,7 +176,7 @@
     "youtubeTitle": "Bruce Lee - Die Todeskralle schlägt wieder zu - ganzer Film auf Deutsch kostenlos schauen in HD",
     "suchbegriff": "Bruce Lee - Die Todeskralle schlägt wieder zu - ganzer Film auf Deutsch kostenlos schauen in HD",
     "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 32)",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 33)",
     "tmdbTopKandidat": {
       "id": 9462,
       "title": "Die Todeskralle schlägt wieder zu",
@@ -700,6 +700,14 @@
     "tmdbTopKandidat": null
   },
   {
+    "videoId": "sJccJw_pSn8",
+    "youtubeTitle": "SHARKS – Gefährlicher als der Der Weiße Hai? Die Wahrheit ohne Käfig! | DOKU auf Deutsch",
+    "suchbegriff": "SHARKS – Gefährlicher als der Der Weiße Hai? Die Wahrheit ohne Käfig!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
     "videoId": "MVnVBXL8odI",
     "youtubeTitle": "DER LETZTE NEW YORKER | Ein Liebesbrief an ein verschwindendes Manhattan | Ganzer Film auf Deutsch",
     "suchbegriff": "DER LETZTE NEW YORKER",
@@ -744,7 +752,7 @@
     "youtubeTitle": "SKY BANDITS - Flug Durchs Zeitloch | Ganzer SCIENCE-FICTION-FILM auf DEUTSCH",
     "suchbegriff": "SKY BANDITS - Flug Durchs Zeitloch",
     "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 29)",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
     "tmdbTopKandidat": {
       "id": 86298,
       "title": "Dakota Harris",
@@ -983,6 +991,22 @@
     "videoId": "RJ29PdV_1XM",
     "youtubeTitle": "DER KICKFIGHTER | Ganzer ACTIONFILM auf Deutsch in Voller Länge",
     "suchbegriff": "DER KICKFIGHTER",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "AnCg3MCiTtE",
+    "youtubeTitle": "Valley of Love - Tal der Liebe - brillanter Spielfilm mit Gérard Depardieu - Ganzer Film",
+    "suchbegriff": "Valley of Love - Tal der Liebe - brillanter Spielfilm mit Gérard Depardieu - Ganzer Film",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "N0RkgKyusVI",
+    "youtubeTitle": "The Clovehitch Killer - spannender Serienkiller-Thriller - Ganzer Film bei Moviedome",
+    "suchbegriff": "The Clovehitch Killer - spannender Serienkiller-Thriller - Ganzer Film bei Moviedome",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
@@ -2703,30 +2727,6 @@
     "videoId": "mAWeEyQGDOQ",
     "youtubeTitle": "Echo der Delphin - Eine Freundschaft fürs Leben - Ganzen Film kostenlos schauen in HD bei Moviedome",
     "suchbegriff": "Echo der Delphin - Eine Freundschaft fürs Leben - Ganzen Film kostenlos schauen in HD bei Moviedome",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "sJccJw_pSn8",
-    "youtubeTitle": "SHARKS – Gefährlicher als der Der Weiße Hai? Die Wahrheit ohne Käfig! | DOKU auf Deutsch",
-    "suchbegriff": "SHARKS – Gefährlicher als der Der Weiße Hai? Die Wahrheit ohne Käfig!",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "N0RkgKyusVI",
-    "youtubeTitle": "The Clovehitch Killer - spannender Serienkiller-Thriller - Ganzer Film bei Moviedome",
-    "suchbegriff": "The Clovehitch Killer - spannender Serienkiller-Thriller - Ganzer Film bei Moviedome",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "AnCg3MCiTtE",
-    "youtubeTitle": "Valley of Love - Tal der Liebe - brillanter Spielfilm mit Gérard Depardieu - Ganzer Film",
-    "suchbegriff": "Valley of Love - Tal der Liebe - brillanter Spielfilm mit Gérard Depardieu - Ganzer Film",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
