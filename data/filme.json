@@ -74609,32 +74609,6 @@
     "posterLocal": "img/posters/1576034.jpg"
   },
   {
-    "videoId": "rvHRvix-m_E",
-    "youtubeTitle": "Bruce Lee – Todesgrüße aus Shanghai – ganzer Film auf Deutsch kostenlos schauen in HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/rvHRvix-m_E/hqdefault.jpg",
-    "duration": "PT1H41M45S",
-    "publishedAt": "2023-07-26T22:00:09Z",
-    "channelName": "Free Films Action",
-    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 77002,
-    "title": "Bruce Lee - O Dragão Chines",
-    "originalTitle": "Bruce Lee - O Dragão Chines",
-    "overview": "",
-    "releaseDate": "1972-05-14",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/q5SR0JUsYsw1N92bSigKuzwKYdS.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/b4GbXv9ziSC3Q1eSAgn4dP5ynhB.jpg",
-    "voteAverage": 7,
-    "genreIds": [],
-    "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 75 (Suchbegriff: \"Bruce Lee\")",
-    "cast": [],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "posterLocal": "img/posters/77002.jpg"
-  },
-  {
     "videoId": "nE2VHmgxjUY",
     "youtubeTitle": "Bruce Lee – die Legende, ganzer Film auf Deutsch kostenlos schauen in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/nE2VHmgxjUY/hqdefault.jpg",
@@ -84258,5 +84232,175 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/228933.jpg"
+  },
+  {
+    "videoId": "-bPkP4ZJPvc",
+    "youtubeTitle": "Tödlicher Hai-Horror: Shark Evil – ganzer Film auf Deutsch kostenlos in HD schauen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-bPkP4ZJPvc/hqdefault.jpg",
+    "duration": "PT1H12M30S",
+    "publishedAt": "2026-05-14T18:15:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 1370704,
+    "title": "Shark Evil",
+    "originalTitle": "食人鲨",
+    "overview": "Einer Gruppe skrupelloser, illegal im Meer fischender Seefahrer (Wei Dai, Bao Guang, Weifeng Rong und Hao Wu) gelingt es, den Zorn eines riesigen Hais zu erregen. Gnadenlos rammt er immer wieder ihren Kutter, bis dieser sinkt und die Männer in die kalten Fluten springen müssen. Dort finden sie schnell ihr Ende zwischen den langen und extrem scharfen Zähnen des Raubfisches. Doch damit ist der Terror auf offener See noch längst nicht vorbei. Denn das gigantische Ungetüm hat noch immer Hunger. Als Nächstes nimmt es Kurs auf eine private Yacht mit ein paar jungen Leuten (Xin Zer Tan, Fan Dong, Xiaoxuan Wei und Xin Cai), die rausgefahren sind, um eine Party zu feiern. Was für sie noch ganz entspannt mit ein paar Drinks, ein wenig Flirten an Bord und Schwimmen im Meer begann, verwandelt sich schnell in einen brutalen Überlebenskampf gegen die tödliche Bestie. Denn wie sich zeigt, wird diese durch den Beschuss mit kleinen Harpunen nicht abgeschreckt, sondern nur noch weiter angestachelt.",
+    "releaseDate": "2023-08-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ntmyMqjSNtqH3aFV3wfNohzI7tD.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xpsEJ2tXX92v9suohZN24RtUgkX.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Tan Xin Zer",
+      "Fan Dong",
+      "Wei Xiaohuan",
+      "Ziling Huang"
+    ],
+    "director": [
+      "陈幻翔"
+    ],
+    "writer": [],
+    "fsk": "16",
+    "posterLocal": "img/posters/1370704.jpg"
+  },
+  {
+    "videoId": "ZAEmNCVSrh8",
+    "youtubeTitle": "Düsterer Psychothriller: Captive - Get Out Alive – ganzer Film auf Deutsch kostenlos in HD schauen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZAEmNCVSrh8/hqdefault.jpg",
+    "duration": "PT1H29M47S",
+    "publishedAt": "2026-05-07T18:15:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 759213,
+    "title": "Captive",
+    "originalTitle": "Captive",
+    "overview": "Eine jugendliche Ausreißerin wird von einem wahnhaften Mann gefangen gehalten und gibt sich, um zu entkommen, als dessen Tochter aus.",
+    "releaseDate": "2020-10-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8ofszdXTti3my1RGvyruu3rl9Hc.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tINu5EWHiQfMDPxEbVOKUqvlOon.jpg",
+    "voteAverage": 6.511,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "William Kircher",
+      "Tori Kostic",
+      "Jolene Andersen",
+      "Meghan Hanako",
+      "Jairus Carey"
+    ],
+    "director": [
+      "Σάββας Χρίστου"
+    ],
+    "writer": [
+      "Σάββας Χρίστου"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/759213.jpg"
+  },
+  {
+    "videoId": "rvHRvix-m_E",
+    "youtubeTitle": "Bruce Lee – Todesgrüße aus Shanghai – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rvHRvix-m_E/hqdefault.jpg",
+    "duration": "PT1H41M45S",
+    "publishedAt": "2023-07-26T22:00:09Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 11713,
+    "title": "Todesgrüße aus Shanghai",
+    "originalTitle": "精武門",
+    "overview": "Der Tod seines Lehrers hinterlässt Cheng in tiefer Trauer. Doch er kann nicht glauben, dass alles mit rechten Dingen zuging. Er vermutet, dass die Mitglieder der rivalisierenden Kampfkunstschule seinen Lehrer auf dem Gewissen haben, denn die konnten noch nie gut mit Konkurrenz umgehen. Ein erster, auf eigene Faust durchgeführter Rachefeldzug bringt ihm aber keinen Beweis für seinen Verdacht. Der Lehrmeister der Japaner fordert, dass man Cheng als Bestrafung für seinen Rachekampf an ihn ausliefert. Daraufhin flieht Cheng und findet schließlich handfeste Beweise für seine Vermutungen!",
+    "releaseDate": "1972-03-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5KksLFeYd6eAZhATZancm7CySa7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/AddgRVGaQg3FCFS0Ew8yixzjG1t.jpg",
+    "voteAverage": 7.226,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Bruce Lee",
+      "Nora Miao",
+      "Maria Yi",
+      "James Tien",
+      "Tien Feng"
+    ],
+    "director": [
+      "羅維"
+    ],
+    "writer": [
+      "羅維"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/11713.jpg"
+  },
+  {
+    "videoId": "Y9Au_RcsKYE",
+    "youtubeTitle": "Kampf um Hongkong: Ip Man And the Four King - ganzer Film kostenlos auf Deutsch schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Y9Au_RcsKYE/hqdefault.jpg",
+    "duration": "PT1H23M45S",
+    "publishedAt": "2026-04-09T18:15:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 643413,
+    "title": "Ip Man - And The Four Kings",
+    "originalTitle": "叶问之九龙城寨",
+    "overview": "Im Jahr 1950 strömen zahlreiche Kampfsportmeister nach Hongkong, um dort Kampfsportschulen zu eröffnen. Unter ihnen ist auch der Wing Chun-Meister Ip Man, dessen Kampfkunst einzigartig ist. Er bleibt ungeschlagen und gewinnt schnell an Ruhm, was die Aufmerksamkeit von Zheng Delong, dem Herrscher der berüchtigten Kowloon Walled City, auf sich zieht. In seiner Machtposition bedroht, setzt dieser alles daran, Ip Man loszuwerden, und beschuldigt ihn zu Unrecht eines Verbrechens. Um seine Unschuld zu beweisen, muss sich Meister Ip den Respekt der vier himmlischen Könige erkämpfen - die Herren über Glücksspiel, Prostitution, Alkohol und Gastronomie in Hongkong.",
+    "releaseDate": "2019-10-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hLiw7gR0lIDeqTgKvvsZuIPhpSK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/9mK4J45FrtXzp4Z15rt0c64iPHO.jpg",
+    "voteAverage": 6.214,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "唐文龍",
+      "林枫烨",
+      "樓南光",
+      "Zhao Lin",
+      "Chen Yuyong"
+    ],
+    "director": [
+      "Fu Liwei"
+    ],
+    "writer": [
+      "Jia Wanying",
+      "Cui Zouzhao",
+      "Fu Liwei"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/643413.jpg"
+  },
+  {
+    "videoId": "2QwKfGB4jbE",
+    "youtubeTitle": "Knallharte Action mit Steven Seagal in True Justice II - Ganzer Film auf Deutsch kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2QwKfGB4jbE/hqdefault.jpg",
+    "duration": "PT1H30M39S",
+    "publishedAt": "2025-12-16T19:15:07Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 38239,
+    "title": "On Sight",
+    "originalTitle": "On Sight",
+    "overview": "",
+    "releaseDate": "2008-05-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pMSGvh5pmHPPKQyGzIPnuXAraZE.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Pete Robins",
+      "James McHaffie",
+      "Leo Houlding",
+      "Adam Long",
+      "Ricky Bell"
+    ],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/38239.jpg"
   }
 ]
