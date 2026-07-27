@@ -58,7 +58,9 @@ function stripTrailingYear(text) {
 // betitelten TMDB-Treffern den richtigen zu finden.
 function extractPeople(desc, title) {
   const cast = [];
-  const castLine = desc.match(/^\s*Mit:\s*(.+)$/m);
+  // "Mit:" (Netzkino & Co.) oder "Darsteller:" (Free Films Action) --
+  // unterschiedliche Kanäle, gleiches Feld.
+  const castLine = desc.match(/^\s*(?:Mit|Darsteller):\s*(.+)$/m);
   if (castLine) {
     castLine[1]
       .split(/[;,]/)
@@ -98,12 +100,22 @@ function extractPeople(desc, title) {
   return { cast: cast.slice(0, 6), directors: directors.slice(0, 3) };
 }
 
+// Manche (ältere) Netzkino-Beschreibungen nennen das Jahr nicht in Klammern
+// direkt am Titel, sondern im Fließtext: "Actionthriller von X aus dem
+// Jahr 2009." -- betrifft 538 Kandidaten, bisher komplett ungenutzt.
+function extractProseYear(desc) {
+  const m = desc.match(/aus dem Jahr\s+(\d{4})/i);
+  return m ? m[1] : null;
+}
+
 function extractSearchInfo(video) {
   const desc = video.description || "";
   const fallbackQuery = primaryTitleSegment(video.title);
   const people = extractPeople(desc, video.title);
 
-  let m = desc.match(/\(\s*(\d{4})\s*\)\s*[\r\n]+Originaltitel:\s*(.+?)\s*[\r\n]/);
+  // "Originaltitel:" (Netzkino & Co.) oder "Originalname Film:" (Free Films
+  // Action) -- unterschiedliche Kanäle, gleiches Feld.
+  let m = desc.match(/\(\s*(\d{4})\s*\)\s*[\r\n]+(?:Originaltitel|Originalname Film):\s*(.+?)\s*[\r\n]/);
   if (m) {
     return {
       year: m[1],
@@ -114,12 +126,12 @@ function extractSearchInfo(video) {
     };
   }
 
-  m = desc.match(/Originaltitel:\s*(.+?)\s*[\r\n]/);
+  m = desc.match(/(?:Originaltitel|Originalname Film):\s*(.+?)\s*[\r\n]/);
   if (m) {
     const contextEnd = desc.indexOf(m[0]) + 50;
     const yearMatch = desc.slice(0, contextEnd).match(/\((\d{4})\)/);
     return {
-      year: yearMatch ? yearMatch[1] : null,
+      year: yearMatch ? yearMatch[1] : extractProseYear(desc),
       query: stripTrailingYear(m[1].trim()),
       fallbackQuery,
       ...people,
@@ -127,7 +139,7 @@ function extractSearchInfo(video) {
     };
   }
 
-  return { year: null, query: fallbackQuery, fallbackQuery, ...people, source: "titel-fallback" };
+  return { year: extractProseYear(desc), query: fallbackQuery, fallbackQuery, ...people, source: "titel-fallback" };
 }
 
 // Schneidet den Video-Titel am ersten "(" ODER "|" ab, je nachdem was zuerst
@@ -206,7 +218,7 @@ const MARKETING_SEGMENT =
   /ganzer?\b|ganze\b|auf deutsch|kostenlos|\bin hd\b|voller länge|komplett|^mit\s|jetzt (an)?schauen/i;
 
 function stripMarketingSuffix(title) {
-  const parts = title.split(/\s+[–—|]\s+|\s+-\s+/);
+  const parts = title.split(/\s*[–—|]\s+|\s+-\s+/);
   if (parts.length <= 1) return title.trim();
   const clean = [];
   for (const p of parts) {
@@ -214,6 +226,22 @@ function stripMarketingSuffix(title) {
     clean.push(p.trim());
   }
   return clean.length ? clean.join(" - ").trim() : title.trim();
+}
+
+// Letzter, bewusst aggressiver Versuch: nur das allererste Segment vor dem
+// ersten Gedankenstrich/Bindestrich, unabhängig davon, ob ein späteres
+// Segment als Werbetext erkannt wurde. Notwendig für Kanäle wie Moviedome,
+// die GAR KEINE strukturierten Felder (kein "Originaltitel:", keine
+// Klammer-Jahresangabe) verwenden, sondern reinen Fließtext:
+//   "Valley of Love - Tal der Liebe - brillanter Spielfilm mit Gérard
+//    Depardieu - Ganzer Film" -> "Valley of Love" (der echte Originaltitel)
+// Ohne diesen Schritt bleibt selbst stripMarketingSuffix() an "Tal der
+// Liebe" hängen, weil dieses Segment kein Werbe-Schlüsselwort enthält.
+// Wird zuletzt eingereiht: alle spezifischeren Varianten werden immer zuerst
+// probiert, das hier greift nur, wenn sonst nichts einen Treffer brachte.
+function firstDashSegment(title) {
+  const first = (title || "").split(/\s*[–—|]\s+|\s+-\s+/)[0];
+  return first ? first.trim() : (title || "").trim();
 }
 
 // Baut eine deduplizierte, priorisierte Liste an Suchbegriffen aus allen
@@ -252,6 +280,9 @@ function buildQueryCandidates(info, video) {
   // Zuletzt: Doppelpunkt-Untertitel abtrennen, niedrigste Priorität
   add(stripColonSubtitle(info.fallbackQuery));
   add(stripColonSubtitle(info.query));
+
+  // Allerletzter Versuch, bevor aufgegeben wird: reines Erst-Segment
+  add(firstDashSegment(video.title));
 
   return candidates;
 }
