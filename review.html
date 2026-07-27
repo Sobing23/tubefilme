@@ -269,9 +269,14 @@ function b64DecodeUtf8(str) {
 
 async function ghGetFile(path) {
   // Metadaten holen -- funktioniert auch für Dateien über 1MB (nur der
-  // Inline-Inhalt fehlt dann, die sha ist trotzdem immer dabei)
+  // Inline-Inhalt fehlt dann, die sha ist trotzdem immer dabei).
+  // "cache: no-store" ist Pflicht: ohne das darf der Browser dieselbe
+  // GET-Antwort wiederverwenden, obwohl sich die Datei inzwischen durch
+  // eine vorherige Aktion geändert hat -- dann liest auch ein automatischer
+  // Wiederholungsversuch immer wieder denselben veralteten Stand.
   const metaRes = await fetch(`${API_BASE}/${path}?ref=${BRANCH}`, {
     headers: { Authorization: `token ${token}`, Accept: "application/vnd.github+json" },
+    cache: "no-store",
   });
   if (!metaRes.ok) throw new Error(`GitHub GET ${path}: ${metaRes.status}`);
   const meta = await metaRes.json();
@@ -285,6 +290,7 @@ async function ghGetFile(path) {
   // sondern direkt aus dem Git-Objektspeicher, also immer aktuell.
   const blobRes = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/git/blobs/${meta.sha}`, {
     headers: { Authorization: `token ${token}`, Accept: "application/vnd.github+json" },
+    cache: "no-store",
   });
   if (!blobRes.ok) throw new Error(`GitHub Blob ${path}: ${blobRes.status}`);
   const blob = await blobRes.json();
