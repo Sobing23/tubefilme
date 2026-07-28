@@ -75728,45 +75728,6 @@
     "posterLocal": "img/posters/124692.jpg"
   },
   {
-    "videoId": "FtIRaP0w7ec",
-    "youtubeTitle": "Edgar Wallace: Der Hexer (Kompletter Krimi auf Deutsch, Film in voller Länge kostenlos anschauen)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/FtIRaP0w7ec/hqdefault.jpg",
-    "duration": "PT1H27M50S",
-    "publishedAt": "2020-12-30T14:00:03Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 1663,
-    "title": "Der Zinker",
-    "originalTitle": "Der Zinker",
-    "overview": "Unter Londons Dieben greifen Schlangengiftmorde um sich. Dahinter steckt „Der Zinker“, der von jedem Raubzug in der Stadt seinen Anteil fordert und keine Zeugen duldet. Inspektor Elford will ihm den Giftzahn ziehen.",
-    "releaseDate": "1963-04-26",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/vktJzwdCk5bpfUfAuoL6cuey2x7.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5iLg9gTyORDu6rS8Lcp9Epu2qZ7.jpg",
-    "voteAverage": 6.511,
-    "genreIds": [
-      80,
-      9648
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
-    "cast": [
-      "Heinz Drache",
-      "Barbara Rütting",
-      "Günter Pfitzmann",
-      "Agnes Windeck",
-      "Eddi Arent"
-    ],
-    "director": [
-      "Alfred Vohrer"
-    ],
-    "writer": [
-      "Harald G. Petersson"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/1663.jpg"
-  },
-  {
     "videoId": "33BVzRuyafo",
     "youtubeTitle": "Die Diebin (Ganzer Actionfilm auf Deutsch, Spielfilm kostenlos anschauen, Komödie in voller Länge)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/33BVzRuyafo/hqdefault.jpg",
@@ -84607,5 +84568,41 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/1136318.jpg"
+  },
+  {
+    "videoId": "FtIRaP0w7ec",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (Kompletter Krimi auf Deutsch, Film in voller Länge kostenlos anschauen)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FtIRaP0w7ec/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2020-12-30T14:00:03Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 9630,
+    "title": "Der Hexer",
+    "originalTitle": "Der Hexer",
+    "overview": "Nachdem er zwei seiner Komplizen getötet hat, findet ein Gangsterboss selbst den Tod durch das steckbrieflich gesuchte Verbrecherphantom „Der Hexer“, der damit die Ermordung seiner Schwester rächt. Inspektor Higgins und Kommissar Wesby von Scotland Yard sollen den Rächer stoppen, bevor er noch weitere Selbstjustizmorde begehen kann.",
+    "releaseDate": "1964-08-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mkrGRYJgifUSzP0WlDUBH9AiZGO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/AhsYBiX63CkMNK9MGT12TztRXZr.jpg",
+    "voteAverage": 6.746,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Joachim Fuchsberger",
+      "Heinz Drache",
+      "Sophie Hardy",
+      "Siegfried Lowitz",
+      "Margot Trooger"
+    ],
+    "director": [
+      "Alfred Vohrer"
+    ],
+    "writer": [
+      "Herbert Reinecker",
+      "Harald G. Petersson"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/9630.jpg"
   }
 ]
