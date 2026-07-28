@@ -74686,44 +74686,6 @@
     "posterLocal": "img/posters/360387.jpg"
   },
   {
-    "videoId": "k3G65PI4Klg",
-    "youtubeTitle": "Bruce Lee - Die Todeskralle schlägt wieder zu - ganzer Film auf Deutsch kostenlos schauen in HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/k3G65PI4Klg/hqdefault.jpg",
-    "duration": "PT1H34M37S",
-    "publishedAt": "2023-06-20T22:00:08Z",
-    "channelName": "Free Films Action",
-    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
-    "tmdbId": 40572,
-    "title": "How Bruce Lee Changed the World - Das Leben und Wirken einer Ikone",
-    "originalTitle": "How Bruce Lee Changed the World",
-    "overview": "Diese bahnbrechende Dokumentation wirft einen völlig neuen Blick auf das Erbe Bruce Lees. Mehr als nur eine Biografie, erforscht sie Bruce Lees weltweite Wirkung und zeigt, wie er alle Bereiche der Popkultur wie beispielsweise Fitness, Kino, Musik, Sport, Tanz, Computerspiele und Philosophie beeinflusst hat. Gedreht in High Definition, reist der Film zusammen mit Bruce Lees Tochter Shannon Lee durch die USA, Europa und Asien - zu den Wurzeln ihres Vaters in Hong Kongo und China. Außerdem erhielten die Filmemacher exklusive Einblicke in das Familienarchiv mit Fotos, Videos und weiterem Material der Bruce Lee Stiftung.",
-    "releaseDate": "2009-05-17",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/4AZebV9VllVpaRna69pMX8P4EQK.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/h4lqGVzWwBnK55QhPPfxtPAAggA.jpg",
-    "voteAverage": 8,
-    "genreIds": [
-      99
-    ],
-    "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 83 (Suchbegriff: \"Bruce Lee\")",
-    "cast": [
-      "Bruce Lee",
-      "Linda Lee Cadwell",
-      "Charles Parnell",
-      "Shannon Lee",
-      "Jackie Chan"
-    ],
-    "director": [
-      "Steve Webb"
-    ],
-    "writer": [
-      "Steve Webb"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/40572.jpg"
-  },
-  {
     "videoId": "sb0pAiy4V3w",
     "youtubeTitle": "MARA– Horrorfilm mit Olga Korylenko, ganzer Film auf Deutsch kostenlos schauen in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/sb0pAiy4V3w/hqdefault.jpg",
@@ -75279,37 +75241,6 @@
     ],
     "fsk": "6",
     "posterLocal": "img/posters/2687.jpg"
-  },
-  {
-    "videoId": "GBLf4lE7_rY",
-    "youtubeTitle": "Wir sind das Volk - Liebe kennt keine Grenzen (GANZER SPIELFILM auf Deutsch, Neue Filme, DDR Filme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/GBLf4lE7_rY/hqdefault.jpg",
-    "duration": "PT2H6M8S",
-    "publishedAt": "2026-05-01T13:00:34Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 325000,
-    "title": "Das Wunder von Leipzig - Wir sind das Volk",
-    "originalTitle": "Das Wunder von Leipzig - Wir sind das Volk",
-    "overview": "Das Doku-Drama \"Das Wunder von Leipzig - Wir sind das Volk\" kombiniert Interviews mit teilweise unveröffentlichtem Archiv-Material und aufwendig inszenierten Spielszenen. Zum ersten Mal werden die dramatischen Geschehnisse in Leipzig im Herbst '89, die Ängste und Hoffnungen aller Beteiligten anhand persönlicher Erlebnisse beleuchtet. Damit trägt der Film dem besonderen Stellenwert dieses historischen Ereignisses Rechnung. Der Mut der Bürger in Leipzig, ihre Zivilcourage und ihr Einsatz für Demokratie legten den Grundstein für die erste friedliche Revolution der deutschen Geschichte, für \"Das Wunder von Leipzig\".\r Was im September 1989 in der Leipziger Nikolaikirche als Friedensgebet begann, entwickelt sich innerhalb weniger Wochen zu machtvollen \"Montagsdemonstrationen\" für mehr Freiheit, für Reformen und freie Wahlen in der DDR. Die einzige Waffe der Demonstranten ist der friedliche Protest.",
-    "releaseDate": "2009-10-22",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/cfZShJ3aNkPlvH6GLGo7oia954Q.jpg",
-    "backdropUrl": null,
-    "voteAverage": 8,
-    "genreIds": [
-      99,
-      18
-    ],
-    "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 71 (Suchbegriff: \"Wir sind das Volk\")",
-    "cast": [
-      "Manfred Bols"
-    ],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "posterLocal": "img/posters/325000.jpg"
   },
   {
     "videoId": "PUUAeB3BfHo",
@@ -84577,5 +84508,78 @@
     "writer": [],
     "fsk": null,
     "posterLocal": "img/posters/283687.jpg"
+  },
+  {
+    "videoId": "k3G65PI4Klg",
+    "youtubeTitle": "Bruce Lee - Die Todeskralle schlägt wieder zu - ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/k3G65PI4Klg/hqdefault.jpg",
+    "duration": "PT1H34M37S",
+    "publishedAt": "2023-06-20T22:00:08Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 9462,
+    "title": "Die Todeskralle schlägt wieder zu",
+    "originalTitle": "猛龍過江",
+    "overview": "Tang Lung, ein junger Mann aus Hongkong, reist nach Rom, um einer Freundin der Familie im Kampf gegen eine Gangsterbande beizustehen, die mit allen Mitteln versucht, ihr Restaurant zu übernehmen. Nachdem Tang Lung die ersten Schlägertrupps mühelos in die Flucht geschlagen hat, holt sich der Gangsterboss Verstärkung in Gestalt eines amerikanischen und eines japanischen Kampfkunstexperten. Nachdem es ihnen nicht gelingt, Tang Lung unschädlich zu machen, wartet der brutale amerikanische Kämpfer Colt auf ihn. Im Kolosseum von Rom kommt es zum Zweikampf der Giganten.",
+    "releaseDate": "1972-12-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/CacILc2A0RZ7DOUhjv9nHv5Td.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yaql2veoJrsw9TH6qbWho7cjG9t.jpg",
+    "voteAverage": 7.4,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Bruce Lee",
+      "Nora Miao",
+      "Chuck Norris",
+      "魏平澳",
+      "黃宗迅"
+    ],
+    "director": [
+      "Bruce Lee"
+    ],
+    "writer": [
+      "Bruce Lee",
+      "張同祖"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/9462.jpg"
+  },
+  {
+    "videoId": "GBLf4lE7_rY",
+    "youtubeTitle": "Wir sind das Volk - Liebe kennt keine Grenzen (GANZER SPIELFILM auf Deutsch, Neue Filme, DDR Filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GBLf4lE7_rY/hqdefault.jpg",
+    "duration": "PT2H6M8S",
+    "publishedAt": "2026-05-01T13:00:34Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 80780,
+    "title": "Prey of the Jaguar",
+    "originalTitle": "Prey of the Jaguar",
+    "overview": "Als seine Frau und sein Sohn auf brutalste Weise von einem Drogen-Baron ermordet werden, schwört der ehemalige Special-Ops-Agent Derek Leigh (Prey of the Jaguar) blutige Rache. Dafür unterzieht er sich einem harten Martial-Arts-Training und nimmt die Identität des Superhelden \"Jaguar\" an, in dessen Namen er das Unrecht und die Ungerechtigkeit bekämpft.",
+    "releaseDate": "1996-11-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/psPlpdnICpAiKJXwDiE6ynoqXOt.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4HJvCOuZf31DDHtuvq5C27rvwN5.jpg",
+    "voteAverage": 5.667,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Maxwell Caulfield",
+      "Stacy Keach",
+      "Trevor Goddard",
+      "Paul Regina",
+      "Linda Blair"
+    ],
+    "director": [
+      "David DeCoteau"
+    ],
+    "writer": [
+      "Rory Johnston",
+      "Bud Robertson",
+      "Nick Spagnoli"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/80780.jpg"
   }
 ]
