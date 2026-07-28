@@ -75359,46 +75359,6 @@
     "posterLocal": "img/posters/23520.jpg"
   },
   {
-    "videoId": "rye3eWYmLyI",
-    "youtubeTitle": "ORLANDO BLOOM jagt DÄMONEN DER VERGANGENHEIT (THRILLER ganzer Film Deutsch, Filme Deutsch komplett)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/rye3eWYmLyI/hqdefault.jpg",
-    "duration": "PT1H31M54S",
-    "publishedAt": "2025-07-30T17:01:15Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 447665,
-    "title": "Kickboxer - Die Abrechnung",
-    "originalTitle": "Kickboxer: Retaliation",
-    "overview": "Kurt Sloane hat geschworen, nie wieder nach Thailand zurückzugehen. Doch dann wird er entführt, in das Land verschleppt und dort in einen Knast gesteckt. Seine Entführer fordern, dass der nach seinem Kampf gegen Tong Po zur Legende gewordene Sloane gegen den gigantisch großen Muskelberg Mongkut antritt. Im Gegenzug werden ihm viel Geld und seine Freiheit angeboten. Sloane will nicht kämpfen, doch er muss bald einsehen, dass er keine andere Wahl hat. Um überhaupt eine Chance gegen Mongkut zu haben, muss er aber das härteste Training bewältigen, dem er sich je unterzogen hat, und zudem bei sehr ungewöhnlichen Lehrern neue Techniken erlernen.",
-    "releaseDate": "2018-01-26",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/Ahj9I1UHv7vnoQY5W2WIJarV3U5.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kU4EafCWSksRo8Lnno91mzOURgN.jpg",
-    "voteAverage": 5.4,
-    "genreIds": [
-      28,
-      18
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 85 (Suchbegriff: \"Retaliation\")",
-    "cast": [
-      "Alain Moussi",
-      "Christopher Lambert",
-      "Jean-Claude Van Damme",
-      "Mike Tyson",
-      "Sara Malakul Lane"
-    ],
-    "director": [
-      "Dimitri Logothetis"
-    ],
-    "writer": [
-      "Jim McGrath",
-      "Dimitri Logothetis"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/447665.jpg"
-  },
-  {
     "videoId": "3oI53R8ioJs",
     "youtubeTitle": "Von oben nach unten (KOMÖDIE in voller Länge auf Deutsch, neue Filme 2025, Comedy Filme kostenlos)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/3oI53R8ioJs/hqdefault.jpg",
@@ -75468,45 +75428,6 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/269440.jpg"
-  },
-  {
-    "videoId": "V63AXRrdAMo",
-    "youtubeTitle": "Rivalinnen – Weep no more my Lady (KRIMI THRILLER mit KRISTIN SCOTT THOMAS Filme Deutsch komplett)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/V63AXRrdAMo/hqdefault.jpg",
-    "duration": "PT1H30M26S",
-    "publishedAt": "2023-07-21T15:00:32Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 265793,
-    "title": "Rivalinnen",
-    "originalTitle": "Nadia et Sarra",
-    "overview": "",
-    "releaseDate": "2004-10-28",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/8ThdkCDAPisyEXCHGzOpK5Vkgiy.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qmMrT1Y4tdvPcByi5ey1pwaqH9H.jpg",
-    "voteAverage": 2,
-    "genreIds": [
-      18
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 58 (Suchbegriff: \"Rivalinnen\")",
-    "cast": [
-      "Hiam Abbass",
-      "Dorra",
-      "Hichem Rostom",
-      "Nejia Ouerghi",
-      "Mohamed Ali Ben Jemaa"
-    ],
-    "director": [
-      "Moufida Tlatli"
-    ],
-    "writer": [
-      "Moufida Tlatli",
-      "Hélène Couturier"
-    ],
-    "fsk": null,
-    "posterLocal": "img/posters/265793.jpg"
   },
   {
     "videoId": "NP2BBh5orx8",
@@ -84616,5 +84537,115 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/17097.jpg"
+  },
+  {
+    "videoId": "rye3eWYmLyI",
+    "youtubeTitle": "ORLANDO BLOOM jagt DÄMONEN DER VERGANGENHEIT (THRILLER ganzer Film Deutsch, Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rye3eWYmLyI/hqdefault.jpg",
+    "duration": "PT1H31M54S",
+    "publishedAt": "2025-07-30T17:01:15Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 451764,
+    "title": "Romans",
+    "originalTitle": "Romans",
+    "overview": "Malky ist Abrissarbeiter. Er kehrt in seine Heimatstadt zurück, weil er dort beim Abriss der lokalen Kirche helfen soll. Dieser Job konfrontiert ihn mit seiner Vergangenheit. In dieser Kirche nämlich wurde Malky, inzwischen in seinen Dreißigern, als Junge von einem Priester sexuell missbraucht. Das Trauma wirkt bis heute. Der Abrissarbeiter kann keine normale Beziehung führen und wird schnell gewalttätig. Dann steht Malky plötzlich dem Mann gegenüber, der ihn als Kind peinigte. Das Treffen passiert unerwartet. Malky will Rache. Aber eigentlich will er sich sein künftiges Leben nicht von einer Vergeltungstat bestimmen lassen…",
+    "releaseDate": "2017-12-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nFeOQgl8ECa2BW69hr1VmuGueGZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/s9e2pmm4VZSJ321O6fofcyn8pYY.jpg",
+    "voteAverage": 5.073,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Orlando Bloom",
+      "Janet Montgomery",
+      "Charlie Creed-Miles",
+      "Anne Reid",
+      "Josh Myers"
+    ],
+    "director": [
+      "Ludwig Shammasian",
+      "Paul Shammasian"
+    ],
+    "writer": [
+      "Geoff Thompson"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/451764.jpg"
+  },
+  {
+    "videoId": "V63AXRrdAMo",
+    "youtubeTitle": "Rivalinnen – Weep no more my Lady (KRIMI THRILLER mit KRISTIN SCOTT THOMAS Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/V63AXRrdAMo/hqdefault.jpg",
+    "duration": "PT1H30M26S",
+    "publishedAt": "2023-07-21T15:00:32Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 225193,
+    "title": "Weep No More, My Lady",
+    "originalTitle": "Weep No More, My Lady",
+    "overview": "",
+    "releaseDate": "1992-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eyBRj1Wm2y2Dj7Z3YUBOKexJGkb.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4.4,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Kristin Scott Thomas",
+      "Daniel J. Travanti",
+      "Francesca Annis",
+      "Pascal Ternisien",
+      "Cécile Paoli"
+    ],
+    "director": [
+      "Michel Andrieu"
+    ],
+    "writer": [
+      "Michel Andrieu",
+      "Leila Basen"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/225193.jpg"
+  },
+  {
+    "videoId": "dJnC_4JCLR0",
+    "youtubeTitle": "Battle Over Britain (KRIEGSFILM nach WAHREN BEGEBENHEITEN ganzer Film Deutsch, Kriegsdrama Filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dJnC_4JCLR0/hqdefault.jpg",
+    "duration": "PT1H20M40S",
+    "publishedAt": "2026-07-28T17:00:16Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 1136318,
+    "title": "Battle Over Britain",
+    "originalTitle": "Battle Over Britain",
+    "overview": "England, August 1940: Ein frisch ausgebildeter Pilot wird zu seinem ersten Kampfeinsatz berufen. Ganze 24 Stunden lang liefern er und seine Kameraden sich am Himmel über England heftige Luftkämpfe und müssen nach jeder Schlacht den Verlust weiterer Kameraden hinnehmen. Doch die Männer sind nicht bereit zu kapitulieren und vereinen sich ein letztes Mal - wild entschlossen, ihr Land zu retten.",
+    "releaseDate": "2023-12-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fhOBxGrYLAexWWrWMIwxCZgPFbL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/11G6N5zW0KykVS0EcNKeXHUmQj8.jpg",
+    "voteAverage": 7.13,
+    "genreIds": [
+      10752
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Arnold Voysey",
+      "Vin Hawke",
+      "Hannah Harris",
+      "Chris Clynes",
+      "Tom Gordon"
+    ],
+    "director": [
+      "Callum Burn"
+    ],
+    "writer": [
+      "Callum Burn",
+      "Andrew Burn"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/1136318.jpg"
   }
 ]
