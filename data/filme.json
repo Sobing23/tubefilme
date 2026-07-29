@@ -79221,42 +79221,6 @@
     "posterLocal": "img/posters/27786.jpg"
   },
   {
-    "videoId": "XKQase3QfxY",
-    "youtubeTitle": "WESLEY SNIPES - ZIGZAG: Zeitüberschreitung | Ganzer KRIMI DRAMA FILM auf DEUTSCH",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/XKQase3QfxY/hqdefault.jpg",
-    "duration": "PT1H39M39S",
-    "publishedAt": "2025-12-12T16:01:03Z",
-    "channelName": "FFF Kino",
-    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
-    "tmdbId": 165343,
-    "title": "Masters of the Martial Arts Presented by Wesley Snipes",
-    "originalTitle": "Masters of the Martial Arts Presented by Wesley Snipes",
-    "overview": "",
-    "releaseDate": "1998-08-18",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/71ybAjosGUER1a1IqZEO74CraEm.jpg",
-    "backdropUrl": null,
-    "voteAverage": 9,
-    "genreIds": [
-      99
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 53 (Suchbegriff: \"WESLEY SNIPES\")",
-    "cast": [
-      "Wesley Snipes",
-      "Jackie Chan",
-      "Cynthia Rothrock",
-      "Billy Blanks",
-      "Benny Urquidez"
-    ],
-    "director": [
-      "Joe Perota"
-    ],
-    "writer": [],
-    "fsk": null,
-    "posterLocal": "img/posters/165343.jpg"
-  },
-  {
     "videoId": "dNH1gb-ydY8",
     "youtubeTitle": "SCARED - TÖDLICHER HORRORDREH | Ganzer THRILLERFILM auf Deutsch in Voller Länge",
     "youtubeThumbnail": "https://i.ytimg.com/vi/dNH1gb-ydY8/hqdefault.jpg",
@@ -79294,36 +79258,6 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/303898.jpg"
-  },
-  {
-    "videoId": "FSFWG5efLSY",
-    "youtubeTitle": "Willem Dafoe: HIGHWAY 66 | Ganzer 80er Jahre ROADMOVIE (mit Action-Komödie) auf DEUTSCH HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/FSFWG5efLSY/hqdefault.jpg",
-    "duration": "PT1H27M25S",
-    "publishedAt": "2025-11-21T16:00:34Z",
-    "channelName": "FFF Kino",
-    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
-    "tmdbId": 1519835,
-    "title": "Willem Dafoe",
-    "originalTitle": "Willem Dafoe",
-    "overview": "",
-    "releaseDate": "2023-10-05",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/4EX1ZTJ7xdoJsBgMxX6GGay8Zfm.jpg",
-    "backdropUrl": null,
-    "voteAverage": 5,
-    "genreIds": [],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 75 (Suchbegriff: \"Willem Dafoe\")",
-    "cast": [
-      "Willem Dafoe"
-    ],
-    "director": [
-      "Jack Davison"
-    ],
-    "writer": [],
-    "fsk": null,
-    "posterLocal": "img/posters/1519835.jpg"
   },
   {
     "videoId": "92KTuIGHN_k",
@@ -84435,5 +84369,76 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/66799.jpg"
+  },
+  {
+    "videoId": "XKQase3QfxY",
+    "youtubeTitle": "WESLEY SNIPES - ZIGZAG: Zeitüberschreitung | Ganzer KRIMI DRAMA FILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XKQase3QfxY/hqdefault.jpg",
+    "duration": "PT1H39M39S",
+    "publishedAt": "2025-12-12T16:01:03Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 13442,
+    "title": "Zig Zag",
+    "originalTitle": "Zig Zag",
+    "overview": "Der 15 Jahre alte ZigZag hat die einzigartige Fähigkeit sich jegliche Kombinationen von Zahlen zu merken, einschließlich Safekombinationen. Auf Grund seiner Fähigkeiten beschließt er, seinen Boß Toad Geld aus dem Safe zu klauen, um seinem Vater bei der Miete fürs Appartement zu unterstützen. Als Toad bemerkt, dass er beklaut wurde, setzt er sofort Detektive Hawke auf den Fall an. Als ZigZag realisiert, daß auch er als Verdächtiger in Frage kommt, vertraut er sich seinem Freund, Singer an. Gemeinsam beschließen sie das Geld so schnell wie möglich zurückzubringen. Aber als ZigZags Vater das Geld bei ihm findet, wirft er ihn aus dem Haus und behält das Geld. Der Plan scheint ruiniert, doch die beiden entschliessen sich das Geld von einem Geldhai namens Cadillac Tom zu leihen. Ein Wettlauf mit der Zeit beginnt!",
+    "releaseDate": "2002-06-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cPIs4TAPuIyRSw74AXepN1xTi7e.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vJPt0k5yWlnfbiph8PU0sQqqwqa.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "John Leguizamo",
+      "Wesley Snipes",
+      "Oliver Platt",
+      "Natasha Lyonne",
+      "Luke Goss"
+    ],
+    "director": [
+      "David S. Goyer"
+    ],
+    "writer": [
+      "David S. Goyer"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/13442.jpg"
+  },
+  {
+    "videoId": "FSFWG5efLSY",
+    "youtubeTitle": "Willem Dafoe: HIGHWAY 66 | Ganzer 80er Jahre ROADMOVIE (mit Action-Komödie) auf DEUTSCH HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FSFWG5efLSY/hqdefault.jpg",
+    "duration": "PT1H27M25S",
+    "publishedAt": "2025-11-21T16:00:34Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 128826,
+    "title": "Highway 66",
+    "originalTitle": "Roadhouse 66",
+    "overview": "Ein verwöhnter Sprössling aus reichem Hause beschließt, ein letztes Mal das echte Amerika zu erleben, bevor er in das Unternehmen seines Vaters einsteigen muss. Er bricht in seinem klassischen alten T-Bird auf und landet zusammen mit einem weltklugen mysteriösen Anhalter in einem abgelegenen Ort in Arizona, wo er seine Ehre gegen großspurige einheimische Rennfahrer verteidigen muss.",
+    "releaseDate": "1984-08-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pesakl0gFiXaeOSCa5FMGv7ZWBb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vPkv7QDDa6sVHYOORP0ux7F1Ix2.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Willem Dafoe",
+      "Judge Reinhold",
+      "Kaaren Lee",
+      "Kate Vernon",
+      "Stephen Elliott"
+    ],
+    "director": [
+      "John Mark Robinson"
+    ],
+    "writer": [
+      "Galen Lee",
+      "George Simpson"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/128826.jpg"
   }
 ]
