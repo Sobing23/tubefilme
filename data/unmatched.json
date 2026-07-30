@@ -1330,5 +1330,153 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_WDUUj1ATjE",
+    "youtubeTitle": "Strassensperre | Krimi-Drama | Filmklassiker in Farbe",
+    "suchbegriff": "Strassensperre",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
+    "tmdbTopKandidat": {
+      "id": 67431,
+      "title": "Straßensperre",
+      "release_date": "1955-10-18"
+    }
+  },
+  {
+    "videoId": "7p_UV95GEsA",
+    "youtubeTitle": "Des Lebens Überfluss | Kolorierter Filmklassiker",
+    "suchbegriff": "Des Lebens Überfluss",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 35)",
+    "tmdbTopKandidat": {
+      "id": 298647,
+      "title": "Des Lebens Überfluß",
+      "release_date": "1950-05-17"
+    }
+  },
+  {
+    "videoId": "QdXT-Vrm_18",
+    "youtubeTitle": "Dick & Doof Klassiker - Teil 2 | Laurel & Hardy Klassiker",
+    "suchbegriff": "Dick & Doof Klassiker - Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "60_T_i41s4o",
+    "youtubeTitle": "Dick & Doof Klassiker - Teil 1 | Laurel & Hardy Filme",
+    "suchbegriff": "Dick & Doof Klassiker - Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "gaGFFXhLe-8",
+    "youtubeTitle": "Dick & Doof Klassiker - Teil 2 | Kultfilme mit Laurel & Hardy",
+    "suchbegriff": "Dick & Doof Klassiker - Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "k_fEMph5Vuc",
+    "youtubeTitle": "Dick & Doof Klassiker - Teil 1 | Kult Kurzfilme mit Laurel & Hardy",
+    "suchbegriff": "Dick & Doof Klassiker - Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "RjFC5YIepdM",
+    "youtubeTitle": "Flammender Sommer - Der Lange, Heiße Sommer - Teil 1 | Liebesdrama",
+    "suchbegriff": "Flammender Sommer - Der Lange, Heiße Sommer - Teil 1",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 5)",
+    "tmdbTopKandidat": {
+      "id": 46466,
+      "title": "Eine leidenschaftliche Affäre",
+      "release_date": "1999-09-12"
+    }
+  },
+  {
+    "videoId": "bYulA4rLwMk",
+    "youtubeTitle": "Zwei total verrückte Typen | ACTIONFILM | Fimklassiker",
+    "suchbegriff": "Zwei total verrückte Typen",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "fYZ7ha6CLKI",
+    "youtubeTitle": "Laurel & Hardy Chroniken - Teil 1 | Laurel & Hardy Klassiker IN FARBE",
+    "suchbegriff": "Laurel & Hardy Chroniken - Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "XD8BQZ-nf7Y",
+    "youtubeTitle": "Laurel & Hardy Chroniken - Teil 2 | Komödie auf Deutsch",
+    "suchbegriff": "Laurel & Hardy Chroniken - Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "h_hPUFT0c_g",
+    "youtubeTitle": "Laurel & Hardy Chroniken - Teil 1 | Kult Filmklassiker",
+    "suchbegriff": "Laurel & Hardy Chroniken - Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_OI_xIRqJ8A",
+    "youtubeTitle": "Flammender Sommer - Der Lange, Heiße Sommer - Teil 2 | Romantisches Drama",
+    "suchbegriff": "Flammender Sommer - Der Lange, Heiße Sommer - Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "2qjoV3GD-HE",
+    "youtubeTitle": "Vier junge Detektive | Alter Deutscher Film",
+    "suchbegriff": "Vier junge Detektive",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 21)",
+    "tmdbTopKandidat": {
+      "id": 486212,
+      "title": "Die Freunde meiner Frau",
+      "release_date": "1949-08-25"
+    }
+  },
+  {
+    "videoId": "2ZTdw5XwFvY",
+    "youtubeTitle": "Die Taverne von Jamaika | Klassischer Piratenfilm",
+    "suchbegriff": "Die Taverne von Jamaika",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 34)",
+    "tmdbTopKandidat": {
+      "id": 31995,
+      "title": "Riff-Piraten",
+      "release_date": "1939-05-11"
+    }
+  },
+  {
+    "videoId": "cRCT8_dBeg4",
+    "youtubeTitle": "Die Abenteuer des Fu Man Chu | KOLORIERT",
+    "suchbegriff": "Die Abenteuer des Fu Man Chu",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "OKPfwME0-yk",
+    "youtubeTitle": "Die Rache Des Ritters Ivanhoe | Klassischer Film",
+    "suchbegriff": "Die Rache Des Ritters Ivanhoe",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
   }
 ]
