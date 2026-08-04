@@ -148526,5 +148526,81 @@
     ],
     "fsk": "0",
     "posterLocal": "img/posters/1257.jpg"
+  },
+  {
+    "videoId": "bJfzeo7fbes",
+    "youtubeTitle": "SCHOCKENDER HORROR | Abattoir – Er erwartet dich! (Mystery Thriller, Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bJfzeo7fbes/hqdefault.jpg",
+    "duration": "PT1H39M11S",
+    "publishedAt": "2026-08-03T17:30:05Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 245627,
+    "title": "Abattoir",
+    "originalTitle": "Abattoir",
+    "overview": "Nach dem Tod ihrer Schwester und ihres Neffen versucht eine junge Immobilienmaklerin, das dunkle Geheimnis eines Mannes zu lüften der all jene Häuser kaufte, in denen schreckliches geschah.  Das Leben von Immobilienmaklerin Julia Talben ändert sich schlagartig, als ein Teil ihrer Familie brutal ermordet wird. Ein klarer Fall, so scheint es zunächst, aber Julia merkt schnell, dass hinter diesem Verbrechen noch viel mehr steckt. Am Tatort entdeckt sie, dass quasi der gesamte Raum aus den Haus ihrer Schwester entfernt wurde. Gemeinsam mit ihrem Ex-Freund Detective Grady folgt sie einer geheimnisvollen Spur, die sie schliesslich zu dem rätselhaften Jebediah Crone und seinem Abattoir führt - ein Geisterhaus, bestehend aus endlos vielen Räumen, voll mit toten und verfluchten Seelen.",
+    "releaseDate": "2016-11-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sJn5ZJ0hmp2paNAQP1HS8wym1ut.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iXQevmq5ArdvVEr3aHX815esZVO.jpg",
+    "voteAverage": 4.5,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Jessica Lowndes",
+      "Joe Anderson",
+      "Lin Shaye",
+      "Dayton Callie",
+      "Michael Paré"
+    ],
+    "director": [
+      "Darren Lynn Bousman"
+    ],
+    "writer": [
+      "Christopher Monfette"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/245627.jpg"
+  },
+  {
+    "videoId": "1-NWZb7luas",
+    "youtubeTitle": "Zombie Nation (2004) [Horror] | Rache aus dem Jenseits | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1-NWZb7luas/hqdefault.jpg",
+    "duration": "PT1H19M35S",
+    "publishedAt": "2026-08-03T16:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 25061,
+    "title": "Zombie Nation",
+    "originalTitle": "Zombie Nation",
+    "overview": "",
+    "releaseDate": "2004-10-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ytseovnJpFlHkLZVlfOk67OrsBv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/v5jwtrkKSjtanOxkEuznPLZric0.jpg",
+    "voteAverage": 2.896,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Gunter Ziegler",
+      "Brandon Dean",
+      "Axel Montgomery",
+      "Phil Lander",
+      "David Hess"
+    ],
+    "director": [
+      "Ulli Lommel"
+    ],
+    "writer": [
+      "Ulli Lommel"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/25061.jpg"
   }
 ]
