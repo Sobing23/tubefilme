@@ -148602,5 +148602,44 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/25061.jpg"
+  },
+  {
+    "videoId": "lQDgQ5FEfmA",
+    "youtubeTitle": "WESTERN KLASSIKER | Stunde der Abrechnung (Ganzer Western, Action, Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/lQDgQ5FEfmA/hqdefault.jpg",
+    "duration": "PT1H12M56S",
+    "publishedAt": "2026-08-04T17:30:07Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 126891,
+    "title": "Stunde der Abrechnung",
+    "originalTitle": "Ambush at Tomahawk Gap",
+    "overview": "Die Banditen Doc, McCord  Kid  und Egan  werden nach fünf Jahren aus dem Yuma Territorial Prison entlassen. Nun kehren sie zurück in die Geisterstadt Tomahawk Gap, um die 10.000 Dollar auszugraben, die sie einst bei einem Überfall  erbeutet haben. Doch bald stellen sie fest, dass sie ihr ehemaliger Partner betrogen hat. Aber nicht nur das, sondern sie befinden sich mitten im Indianerland und Angriffe von Apachen erfolgen häufig –  und die sind mit ihren Mitteln nicht gerade zimperlich…",
+    "releaseDate": "1953-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/s8CwmbX6mjgIfP2oqbbCXA4IDQJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2zabbuYcEJSAdmXWpDlRiIdbchH.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      37,
+      28
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "John Hodiak",
+      "John Derek",
+      "David Brian",
+      "María Elena Marqués",
+      "Ray Teal"
+    ],
+    "director": [
+      "Fred F. Sears"
+    ],
+    "writer": [
+      "David Lang"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/126891.jpg"
   }
 ]
