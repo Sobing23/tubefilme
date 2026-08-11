@@ -149355,5 +149355,83 @@
     ],
     "fsk": "16",
     "posterLocal": "img/posters/333381.jpg"
+  },
+  {
+    "videoId": "Zxn7IGnL3dE",
+    "youtubeTitle": "Please Stand By (COMING OF AGE mit DAKOTA FANNING Filme Deutsch komplett, ganzer Film Deutsch 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Zxn7IGnL3dE/hqdefault.jpg",
+    "duration": "PT1H32M41S",
+    "publishedAt": "2026-08-10T17:00:05Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 338768,
+    "title": "Please Stand By",
+    "originalTitle": "Please Stand By",
+    "overview": "Für Wendy ist die Welt kein leichtes Pflaster. Die brillante junge Frau mit ihrem Hang zur Heiterkeit könnte ein unbeschwertes Leben führen – wäre da nicht ihr Autismus. Für Wendy sind Menschen ein schwer zu entschlüsselndes Rätsel, dabei will auch sie nur ihren Platz in der Welt einnehmen. Eines Tages erfährt sie von einem Drehbuch-Wettbewerb in Hollywood. Ihr Ausbruch aus dem Heim katapultiert sie auf die Reise ihres Lebens, an deren Ende sie ihre 500-seitige Star-Trek- Geschichte für den Wettbewerb einreichen möchte.",
+    "releaseDate": "2018-01-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yKhrjxmbdCjdxROc7lJhmfZ9trx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oSS43fHkamqQzgqXVOUD9q6Hq4V.jpg",
+    "voteAverage": 6.762,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Dakota Fanning",
+      "Alice Eve",
+      "Toni Collette",
+      "River Alexander",
+      "Shawn Roe"
+    ],
+    "director": [
+      "Ben Lewin"
+    ],
+    "writer": [
+      "Michael Golamco"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/338768.jpg"
+  },
+  {
+    "videoId": "s5BOGpxpFsg",
+    "youtubeTitle": "Forever - Ab jetzt für immer (TOLLE LIEBESKOMÖDIE auf Deutsch, ganze Liebesfilme kostenlos)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/s5BOGpxpFsg/hqdefault.jpg",
+    "duration": "PT1H44M31S",
+    "publishedAt": "2026-08-10T14:00:32Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 397451,
+    "title": "Forever - Ab jetzt für immer",
+    "originalTitle": "Vir Altyd",
+    "overview": "Nina und Hugo sind Freunde von Kindesbeinen an und haben viel miteinander erlebt. Mittlerweile sind jedoch über zehn Jahre seit ihrem letzten Treffen vergangen. Genau einen Tag vor Ninas Hochzeit kehrt Hugo wieder nach Hause zurück. Als Ninas Bräutigam direkt vorm Altar einen Rückzieher macht, muss Hugo miterleben, wie Ninas Traum vom Eheglück platzt. Geschockt und völlig hysterisch besteht sie darauf, dass die Hochzeitsfeierlichkeiten wie geplant weiterlaufen - egal ob mit oder ohne Ehemann. Nach zu viel Champagner und einer langen Partynacht, erwachen Nina und Hugo am nächsten Morgen in einem Flugzeug, dessen Pilot sie auf Mauritius - der Insel der Liebe - begrüßt. Der unfreiwillige Urlaubstrip fördert bei beiden schmerzhafte Erinnerungen zu Tage, offenbart aber auch ihre nie verlorene Liebe zueinander.",
+    "releaseDate": "2016-02-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xFmCC9Ewq6N8yWPI10BwA55diwA.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qaU5OctowDEcHDIeX4eFBMP4jFH.jpg",
+    "voteAverage": 6.9,
+    "genreIds": [
+      35,
+      10749,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Ivan Botha",
+      "DonnaLee Roberts",
+      "Elize Cawood",
+      "Wilson Dunster",
+      "Dirk Stoltz"
+    ],
+    "director": [
+      "Jaco Smit"
+    ],
+    "writer": [
+      "DonnaLee Roberts",
+      "Ivan Botha"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/397451.jpg"
   }
 ]
