@@ -149433,5 +149433,125 @@
     ],
     "fsk": "6",
     "posterLocal": "img/posters/397451.jpg"
+  },
+  {
+    "videoId": "YWrbBJ29Qss",
+    "youtubeTitle": "STROMAUSFALL IN BERLIN | 380.000 Volt – Der große Stromausfall (Deutscher Katastrophen-Thriller)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YWrbBJ29Qss/hqdefault.jpg",
+    "duration": "PT1H31M43S",
+    "publishedAt": "2026-08-11T17:30:14Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 53517,
+    "title": "380.000 Volt - Der große Stromausfall",
+    "originalTitle": "380.000 Volt - Der große Stromausfall",
+    "overview": "Katastrophaler Stromausfall in Berlin. Schuld sind schlecht gewartete Netze, geldgierige Stromkonzerne und korrupte Politiker. Die Folge sind Ausschreitungen und Plünderungen. Kann die leitende Ingenieurin Anja Radke die Situation retten? Doch dann gerät sie in den Verdacht in die Vorfälle verwickelt zu sein",
+    "releaseDate": "2010-11-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nATljNiVDsFi1jzdDgPTq8uGWPV.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nJtwhgsnH1tk0CWBNVCBY7DJ4CG.jpg",
+    "voteAverage": 4,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Ann-Kathrin Kramer",
+      "Tobias Oertel",
+      "Rolf Kanies",
+      "Michael Lott",
+      "Sina Tkotsch"
+    ],
+    "director": [
+      "Sebastian Vigg"
+    ],
+    "writer": [
+      "Christoph Darnstädt"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/53517.jpg"
+  },
+  {
+    "videoId": "b0iwD1Ne774",
+    "youtubeTitle": "Spider - Mysteryfilm mit RALPH FIENNES von DAVID CRONENBERG - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/b0iwD1Ne774/hqdefault.jpg",
+    "duration": "PT1H37M47S",
+    "publishedAt": "2026-08-11T14:00:12Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 315635,
+    "title": "Spider-Man: Homecoming",
+    "originalTitle": "Spider-Man: Homecoming",
+    "overview": "Nach seinem Aufeinandertreffen mit den Avengers ist Peter Parker alias Spider-Man wieder zurück in New York, wo er bei seiner Tante May wohnt. Seitdem er mit bzw. gegen die anderen Helden kämpfte, fragt er sich, ob er mit seinen herausragenden Fähigkeiten nicht mehr machen sollte, als nur die freundliche Spinne aus der Nachbarschaft zu sein, die den einen oder anderen Einbruch verhindert und Taschendiebe stoppt. Doch daneben muss der von seinem neuen Mentor Tony Stark geförderte Jugendliche auch noch den Alltag auf die Reihe bekommen, den Alltag als Teenager an einer Highschool, wo er sich in Liz verguckt hat. Blöd, dass ausgerechnet in dieser Situation ein Bösewicht für Unruhe sorgt, der technisch bestens ausgestattet ist und von Rachedurst getrieben: der Vogelmann Vulture.",
+    "releaseDate": "2017-07-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/elU7H73qN3WEQmmfdn0CdH3q8H8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
+    "voteAverage": 7.332,
+    "genreIds": [
+      28,
+      12,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 97 (Suchbegriff: \"Spider\")",
+    "cast": [
+      "Tom Holland",
+      "Michael Keaton",
+      "Robert Downey Jr.",
+      "Marisa Tomei",
+      "Jon Favreau"
+    ],
+    "director": [
+      "Jon Watts"
+    ],
+    "writer": [
+      "Jonathan Goldstein",
+      "John Francis Daley",
+      "Jon Watts"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/315635.jpg"
+  },
+  {
+    "videoId": "D8aDcfLDU6Y",
+    "youtubeTitle": "Freakshow – Kap des Horrors (2007) [Horror] [Thriller] | Der Albtraum im Zirkuszelt | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/D8aDcfLDU6Y/hqdefault.jpg",
+    "duration": "PT1H28M17S",
+    "publishedAt": "2026-08-11T16:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 27416,
+    "title": "Freakshow",
+    "originalTitle": "Freakshow",
+    "overview": "",
+    "releaseDate": "1995-10-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/z05mSsztxiGj5tePrnWdnl2W2G0.jpg",
+    "backdropUrl": null,
+    "voteAverage": 3,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Freakshow\")",
+    "cast": [
+      "Gunnar Hansen",
+      "Veronica Carlson",
+      "Jennifer Peluso",
+      "Jasi Cotton Lanier",
+      "Shannon Michelle Parsons"
+    ],
+    "director": [
+      "William Cooke",
+      "Paul Talbot"
+    ],
+    "writer": [
+      "Paul Talbot",
+      "William Cooke"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/27416.jpg"
   }
 ]
