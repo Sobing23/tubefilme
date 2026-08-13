@@ -402,6 +402,13 @@ function posterHtml(m, extraClass) {
   if (m.posterUrl) {
     return `<img class="${extraClass||''}" src="${m.posterUrl}" loading="lazy" alt="${escapeHtml(m.title)}">`;
   }
+  // Filme ohne TMDB-Poster (aus YouTube-Daten übernommen): das Vorschaubild
+  // des Videos nutzen. Es ist im Querformat, wird per object-fit auf das
+  // Hochformat der Kachel beschnitten -- immer noch deutlich aussagekräftiger
+  // als ein reiner Textplatzhalter.
+  if (m.youtubeThumbnail) {
+    return `<img class="${extraClass||''}" src="${m.youtubeThumbnail}" loading="lazy" alt="${escapeHtml(m.title)}">`;
+  }
   return `<div class="poster-placeholder ${extraClass||''}">${escapeHtml(m.title)}</div>`;
 }
 
