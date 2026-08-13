@@ -56,13 +56,22 @@ function stripTrailingYear(text) {
 // (72% der Videos haben eine) und die Regie aus "Regie: X" (88%). Beides
 // sind starke, bisher ungenutzte Signale, um zwischen mehreren ähnlich
 // betitelten TMDB-Treffern den richtigen zu finden.
+// Entfernt Klammer-Zusätze aus einer Besetzungszeile, BEVOR an Kommata
+// getrennt wird. Manche Kanäle nennen zu jedem Darsteller seine bekanntesten
+// Filme: "Mit: Odessa Young (The Professor, Shirley), Abra (Abra: Fruit)".
+// Ohne diese Bereinigung zerfiele das beim Trennen zu unbrauchbaren
+// Bruchstücken wie "Odessa Young (The Professor" und "Shirley)".
+function stripKlammerZusaetze(zeile) {
+  return (zeile || "").replace(/\([^)]*\)/g, " ").replace(/\s{2,}/g, " ").trim();
+}
+
 function extractPeople(desc, title) {
   const cast = [];
   // "Mit:" (Netzkino & Co.) oder "Darsteller:" (Free Films Action) --
   // unterschiedliche Kanäle, gleiches Feld.
   const castLine = desc.match(/^\s*(?:Mit|Darsteller):\s*(.+)$/m);
   if (castLine) {
-    castLine[1]
+    stripKlammerZusaetze(castLine[1])
       .split(/[;,]/)
       .map((s) => s.trim())
       .filter((s) => s.length > 2 && s.length < 60)
@@ -108,6 +117,28 @@ function extractProseYear(desc) {
   return m ? m[1] : null;
 }
 
+// Viele Kanäle schreiben das Erscheinungsjahr direkt in den Videotitel:
+//   "Morningstar (2024) [Western] | ..."
+//   "Helden der Hölle (1988) [Action] [Kriegsfilm] | ..."
+// Das ist ein sehr verlässliches Signal und war bisher komplett ungenutzt --
+// betrifft allein bei den nicht zugeordneten Filmen 174 Fälle.
+function extractTitleYear(title) {
+  const m = (title || "").match(/\((19|20)(\d{2})\)/);
+  if (!m) return null;
+  const jahr = m[1] + m[2];
+  const aktuell = new Date().getFullYear();
+  // Unplausible Jahre ignorieren (z.B. Zahlen, die zufällig wie ein Jahr
+  // aussehen, aber Teil des Titels sind)
+  if (parseInt(jahr, 10) < 1900 || parseInt(jahr, 10) > aktuell + 1) return null;
+  return jahr;
+}
+
+// Ermittelt das Jahr aus allen verfügbaren Quellen, in absteigender
+// Verlässlichkeit.
+function resolveYear(desc, title) {
+  return extractProseYear(desc) || extractTitleYear(title);
+}
+
 function extractSearchInfo(video) {
   const desc = video.description || "";
   const fallbackQuery = primaryTitleSegment(video.title);
@@ -131,7 +162,7 @@ function extractSearchInfo(video) {
     const contextEnd = desc.indexOf(m[0]) + 50;
     const yearMatch = desc.slice(0, contextEnd).match(/\((\d{4})\)/);
     return {
-      year: yearMatch ? yearMatch[1] : extractProseYear(desc),
+      year: yearMatch ? yearMatch[1] : resolveYear(desc, video.title),
       query: stripTrailingYear(m[1].trim()),
       fallbackQuery,
       ...people,
@@ -139,18 +170,39 @@ function extractSearchInfo(video) {
     };
   }
 
-  return { year: extractProseYear(desc), query: fallbackQuery, fallbackQuery, ...people, source: "titel-fallback" };
+  return { year: resolveYear(desc, video.title), query: fallbackQuery, fallbackQuery, ...people, source: "titel-fallback" };
 }
 
 // Schneidet den Video-Titel am ersten "(" ODER "|" ab, je nachdem was zuerst
 // kommt -- fängt sowohl Netzkinos "Titel (GENRE ganzer Film...)" als auch
 // Comfy Movies' "Titel | Ganzer Film auf Deutsch" Format ab.
+// Entfernt Genre-Marker in eckigen Klammern, die manche Kanäle in den Titel
+// setzen: "Morningstar (2024) [Western] [Action] | ..." -- die stören sowohl
+// die TMDB-Suche als auch die Segment-Zerlegung.
+function stripGenreBrackets(text) {
+  return (text || "").replace(/\[[^\]]{1,30}\]/g, " ").replace(/\s{2,}/g, " ").trim();
+}
+
 function primaryTitleSegment(title) {
+  const cleaned = stripGenreBrackets(title);
   const candidates = ["(", "|"]
-    .map((ch) => title.indexOf(ch))
+    .map((ch) => cleaned.indexOf(ch))
     .filter((i) => i !== -1);
-  if (candidates.length === 0) return title.trim();
-  return title.slice(0, Math.min(...candidates)).trim();
+
+  let segment = candidates.length === 0 ? cleaned : cleaned.slice(0, Math.min(...candidates));
+  segment = segment.trim();
+
+  // Absicherung: manche Titel beginnen mit einem Marker in Klammern
+  // ("(x) The Binding (2016) ..."). Dann wäre das Segment leer und die
+  // TMDB-Suche liefe mit leerem Suchbegriff ins Nichts. In dem Fall lieber
+  // den Marker überspringen und danach erneut schneiden.
+  if (segment.length < 2) {
+    const ohneMarker = cleaned.replace(/^\s*\([^)]{0,12}\)\s*/, "").trim();
+    const idx = ["(", "|"].map((ch) => ohneMarker.indexOf(ch)).filter((i) => i !== -1);
+    segment = (idx.length === 0 ? ohneMarker : ohneMarker.slice(0, Math.min(...idx))).trim();
+  }
+
+  return segment || cleaned;
 }
 
 // -- Zusätzliche Such-Varianten für hartnäckige Fälle --
