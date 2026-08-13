@@ -21,6 +21,7 @@ import fs from "fs/promises";
 const FILME_PATH = "data/filme.json";
 const UNMATCHED_PATH = "data/unmatched.json";
 const REVIEWED_PATH = "data/reviewed.json";
+const REJECTED_PATH = "data/rejected-matches.json";
 const CANDIDATES_PATH = "data/candidates.json";
 
 function normalizeName(s) {
@@ -81,6 +82,32 @@ function namenTreffer(erwartet, vorhanden) {
   return treffer / erwartet.length;
 }
 
+
+// Stimmen Titel und Jahr des zugeordneten Films mit den Angaben im
+// Videotitel überein? Dann ist die Zuordnung sehr wahrscheinlich korrekt,
+// unabhängig von der Besetzung.
+function titelUndJahrPassen(m) {
+  // Der Videotitel wird auf sein erstes, werbefreies Segment reduziert und
+  // dann EXAKT verglichen. Ein reiner Teilstring-Vergleich wäre zu locker:
+  // "Duell am Wind River" enthält "Wind River", ist aber ein anderer Film.
+  const bereinigt = normalizeName(
+    (m.youtubeTitle || "")
+      // Bewusst NICHT am einfachen Bindestrich getrennt: Untertitel sind
+      // Teil des echten Titels ("El Dorado - Stadt aus Gold" ist ein anderer
+      // Film als "El Dorado").
+      .split(/\s*[–—|]\s+|\(/)[0]
+      .replace(/\[[^\]]{1,30}\]/g, " ")
+  );
+  const filmTitel = normalizeName(m.title || "");
+  if (!filmTitel || filmTitel.length < 4) return false;
+  if (bereinigt !== filmTitel) return false;
+
+  const jahrImVideo = (m.youtubeTitle || "").match(/\((19|20)(\d{2})\)/);
+  if (!jahrImVideo) return true; // Titel exakt gleich, kein Jahr zum Vergleich
+  const jahrFilm = (m.releaseDate || "").slice(0, 4);
+  return jahrFilm === jahrImVideo[1] + jahrImVideo[2];
+}
+
 async function main() {
   const filme = JSON.parse(await fs.readFile(FILME_PATH, "utf-8"));
 
@@ -113,6 +140,16 @@ async function main() {
   let bestaetigt = 0;
   let widerlegt = 0;
   let nichtPruefbar = 0;
+  let geschuetzt = 0;
+
+  // Bereits als falsch erkannte Zuordnungen -- werden bei der nächsten Suche
+  // ausgeschlossen, damit nicht erneut derselbe Fehltreffer entsteht.
+  let gesperrt = {};
+  try {
+    gesperrt = JSON.parse(await fs.readFile(REJECTED_PATH, "utf-8"));
+  } catch {
+    // erster Lauf
+  }
 
   for (const m of filme) {
     // Nur unsichere, automatisch entstandene Zuordnungen anfassen.
@@ -135,21 +172,34 @@ async function main() {
       continue;
     }
 
-    // Verwerfen nur bei belastbarer Datenlage: Wir speichern pro Film nur
-    // fünf Hauptdarsteller. Nennt die Videobeschreibung Nebendarsteller,
-    // sieht das fälschlich nach Widerspruch aus. Deshalb wird nur verworfen,
-    // wenn MEHRERE erwartete Namen vorliegen UND die TMDB-Besetzung
-    // ausreichend gefüllt ist -- und selbst dann keiner passt.
+    // Schutz vor Fehlverwerfung: Stimmen Titel UND Jahr exakt mit dem
+    // überein, was im Videotitel steht, ist die Zuordnung mit hoher
+    // Wahrscheinlichkeit richtig -- auch wenn die Besetzung nicht passt.
+    // Wir speichern nur fünf Hauptdarsteller; nennt die Beschreibung
+    // Nebendarsteller, sähe das sonst fälschlich nach Widerspruch aus
+    // (Beispiel: "Birth of the Dragon" mit chinesischen Nebenrollen).
+    if (quote === 0 && titelUndJahrPassen(m)) {
+      behalten.push(m);
+      if (!reviewedSet.has(m.videoId)) reviewedSet.add(m.videoId);
+      geschuetzt++;
+      continue;
+    }
+
+    // Verwerfen nur bei belastbarer Datenlage: MEHRERE erwartete Namen UND
+    // eine ausreichend gefüllte TMDB-Besetzung -- und trotzdem kein Treffer.
     const belastbar = erwartet.length >= 2 && (m.cast || []).length >= 3;
     if (quote === 0 && belastbar) {
-      unmatched.push({
-        videoId: m.videoId,
-        youtubeTitle: m.youtubeTitle,
-        suchbegriff: m.title,
-        erwartetesJahr: (m.releaseDate || "").slice(0, 4) || null,
-        grund: `Automatisch verworfen: keiner der genannten Darsteller (${erwartet.slice(0, 3).join(", ")}) kommt in "${m.title}" vor`,
-        tmdbTopKandidat: { id: m.tmdbId, title: m.title, release_date: m.releaseDate },
-      });
+      // Die verworfene TMDB-ID kommt auf eine Sperrliste, und der Film wird
+      // NICHT nach unmatched geschrieben. Dadurch gilt er beim nächsten Lauf
+      // wieder als unbearbeitet und wird neu gesucht -- diesmal ohne den
+      // bereits als falsch erkannten Kandidaten. So arbeitet sich das System
+      // Runde für Runde zum richtigen Film vor, statt in einer Schleife
+      // immer wieder denselben Fehltreffer zu liefern.
+      if (m.tmdbId) {
+        gesperrt[m.videoId] = gesperrt[m.videoId] || [];
+        if (!gesperrt[m.videoId].includes(m.tmdbId)) gesperrt[m.videoId].push(m.tmdbId);
+      }
+      console.log(`   verworfen: "${m.youtubeTitle.slice(0, 55)}" war "${m.title}" -- erwartet: ${erwartet.slice(0, 3).join(", ")}`);
       widerlegt++;
       continue;
     }
@@ -168,9 +218,11 @@ async function main() {
   await fs.writeFile(FILME_PATH, JSON.stringify(behalten, null, 2), "utf-8");
   await fs.writeFile(UNMATCHED_PATH, JSON.stringify(unmatched, null, 2), "utf-8");
   await fs.writeFile(REVIEWED_PATH, JSON.stringify([...reviewedSet], null, 2), "utf-8");
+  await fs.writeFile(REJECTED_PATH, JSON.stringify(gesperrt, null, 2), "utf-8");
 
   console.log(`Durch Besetzungsabgleich bestätigt:   ${bestaetigt}`);
   console.log(`Als Fehlzuordnung verworfen:          ${widerlegt}`);
+  console.log(`Trotz Besetzungsabweichung behalten:  ${geschuetzt} (Titel und Jahr passen exakt)`);
   console.log(`Nicht prüfbar, als gesichtet vermerkt:${nichtPruefbar}`);
   console.log(`Bibliothek jetzt:                     ${behalten.length}`);
 }
