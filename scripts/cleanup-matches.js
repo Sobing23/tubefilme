@@ -32,6 +32,15 @@ async function main() {
   let removedDuplicates = 0;
 
   for (const m of filme) {
+    // Filme ohne TMDB-ID (aus YouTube-Daten übernommen) haben keine
+    // gemeinsame ID, über die sich Duplikate erkennen ließen. Ohne diese
+    // Ausnahme würden sie alle als Duplikate desselben "null"-Eintrags
+    // gewertet und bis auf einen gelöscht.
+    if (m.tmdbId === null || m.tmdbId === undefined) {
+      keep.push(m);
+      continue;
+    }
+
     if (seenTmdbIds.has(m.tmdbId)) {
       duplicates.push({
         videoId: m.videoId,
