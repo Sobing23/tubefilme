@@ -1,14 +1,6 @@
 {
   "channels": [
-    { "name": "Netzkino", "channelId": "UCGkHFrwE8KEuOHPVsIOskAg" },
-    { "name": "Comfy Movies", "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw" },
-    { "name": "Moviedome", "channelId": "UCh4JH8axA_jUjB8YoRnm0cg" },
-    {
-      "name": "FFF Kino",
-      "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
-      "profil": { "pipeAlsTitelvariante": false }
-    },
-    { "name": "Free Films Action", "channelId": "UC40R8fSroyRd52QDEBf4Mqw" },
+    { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
     {
       "name": "Artflix",
       "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
@@ -19,21 +11,37 @@
       "channelId": "UCMo_16a109pQo75cZOtNObg",
       "profil": { "pipeAlsTitelvariante": false }
     },
+    { "name": "Bulldox", "channelId": "UCgsih0dGYPncJxONFcz3-UA" },
     {
       "name": "CiNENET Deutschland",
       "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
       "profil": { "pipeAlsTitelvariante": false }
     },
-    { "name": "FABELLA", "channelId": "UCww-ReMpc2FgiGb6vIQddWg" },
-    { "name": "Dzango", "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ" },
+    { "name": "CineCult Reloaded", "channelId": "UCwwiMLsk1AHfPU0n88BEzHg" },
+    { "name": "Comfy Movies", "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw" },
     {
       "name": "Deutsch Knallhart",
       "channelId": "UChdsePumnXsycplDMEVY4zw",
       "profil": { "pipeAlsTitelvariante": false }
     },
-    { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" },
-    { "name": "Bulldox", "channelId": "UCgsih0dGYPncJxONFcz3-UA" },
-    { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
-    { "name": "CineCult Reloaded", "channelId": "UCwwiMLsk1AHfPU0n88BEzHg" }
+    { "name": "Dzango", "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ" },
+    { "name": "FABELLA", "channelId": "UCww-ReMpc2FgiGb6vIQddWg" },
+    {
+      "name": "FFF Kino",
+      "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+      "profil": { "pipeAlsTitelvariante": false }
+    },
+    { "name": "Filmhof Welt", "channelId": "UCiovhvaqFD8vLmE4tTte9og" },
+    { "name": "Free Films Action", "channelId": "UC40R8fSroyRd52QDEBf4Mqw" },
+    { "name": "Free Movies Deutschland", "channelId": "UCzEM7lABab3RcmVAZXbYhig" },
+    { "name": "Heimatkino", "channelId": "UChJySzurS1PVmE_gvVQX_ng" },
+    { "name": "Kinohof", "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ" },
+    { "name": "Lichtprojektor", "channelId": "UCmxqkfX9mlB9g8e0aGg94wA" },
+    { "name": "Moviedome", "channelId": "UCh4JH8axA_jUjB8YoRnm0cg" },
+    { "name": "Movies Select", "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug" },
+    { "name": "Netzkino", "channelId": "UCGkHFrwE8KEuOHPVsIOskAg" },
+    { "name": "Planet Movies", "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw" },
+    { "name": "Starkino", "channelId": "UC7Hs00gZvManlHy0rXw1UMw" },
+    { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" }
   ]
 }
