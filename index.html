@@ -165,8 +165,40 @@
     right: 6px;
     background: rgba(0,0,0,0.75);
   }
-  .poster-placeholder {
+  /* Vorschaubild im Querformat, eingepasst in den Hochformat-Rahmen der
+     Kachel. Der freie Rand wird mit einer unscharfen Version desselben
+     Bildes gefüllt -- dadurch geht kein Bildinhalt durch Beschnitt verloren
+     und die Kachel wirkt trotzdem wie ein Poster. Beide Bilder nutzen
+     dieselbe URL, der Browser lädt sie also nur einmal. */
+  .poster-yt {
+    position: relative;
     width: 100%;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #111;
+  }
+  .poster-yt-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(20px) brightness(0.45);
+    transform: scale(1.15);
+  }
+  .poster-yt-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* Leicht über die Kachelbreite hinaus vergrößert: so füllt das Motiv
+       den Rahmen spürbar besser aus, ohne dass -- wie bei einem harten
+       Zuschnitt auf Hochformat -- der halbe Bildinhalt verloren geht. */
+    width: 145%;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+  .poster-placeholder {    width: 100%;
     aspect-ratio: 2 / 3;
     border-radius: 6px;
     background: linear-gradient(160deg, #2a2a2a, #1a1a1a);
@@ -194,7 +226,7 @@
     font-weight: normal;
   }
   .similar-card { cursor: pointer; }
-  .similar-card img, .similar-card .poster-placeholder {
+  .similar-card > img, .similar-card .poster-placeholder, .similar-card .poster-yt {
     width: 100%;
     aspect-ratio: 2/3;
     object-fit: cover;
@@ -402,13 +434,28 @@ function posterHtml(m, extraClass) {
   if (m.posterUrl) {
     return `<img class="${extraClass||''}" src="${m.posterUrl}" loading="lazy" alt="${escapeHtml(m.title)}">`;
   }
+
   // Filme ohne TMDB-Poster (aus YouTube-Daten übernommen): das Vorschaubild
-  // des Videos nutzen. Es ist im Querformat, wird per object-fit auf das
-  // Hochformat der Kachel beschnitten -- immer noch deutlich aussagekräftiger
-  // als ein reiner Textplatzhalter.
-  if (m.youtubeThumbnail) {
-    return `<img class="${extraClass||''}" src="${m.youtubeThumbnail}" loading="lazy" alt="${escapeHtml(m.title)}">`;
+  // des Videos nutzen. Es liegt im Querformat vor -- statt es hart auf das
+  // Hochformat der Kachel zu beschneiden (dabei ginge der halbe Bildinhalt
+  // verloren), wird es vollständig eingepasst und der freie Rand mit einer
+  // unscharfen, abgedunkelten Version desselben Bildes gefüllt.
+  //
+  // Die im Datensatz gespeicherte Variante ist "hqdefault" (480x360) -- die
+  // hat bei 16:9-Videos schwarze Balken. Deshalb zuerst "maxresdefault"
+  // versuchen und nur bei Nichtverfügbarkeit auf die gespeicherte
+  // zurückfallen; welche Videos eine hochauflösende Fassung haben, lässt
+  // sich nur zur Laufzeit feststellen.
+  const gespeichert = m.youtubeThumbnail || (m.videoId ? `https://i.ytimg.com/vi/${m.videoId}/hqdefault.jpg` : "");
+  if (gespeichert) {
+    const hoch = m.videoId ? `https://i.ytimg.com/vi/${m.videoId}/maxresdefault.jpg` : gespeichert;
+    const fallback = `this.onerror=null;this.src='${gespeichert}'`;
+    return `<div class="poster-yt ${extraClass||''}">
+      <img class="poster-yt-bg" src="${hoch}" onerror="${fallback}" alt="" aria-hidden="true">
+      <img class="poster-yt-img" src="${hoch}" onerror="${fallback}" loading="lazy" alt="${escapeHtml(m.title)}">
+    </div>`;
   }
+
   return `<div class="poster-placeholder ${extraClass||''}">${escapeHtml(m.title)}</div>`;
 }
 

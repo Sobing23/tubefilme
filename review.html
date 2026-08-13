@@ -425,7 +425,11 @@ async function loadAll() {
   const unmatchedFiltered = unmatched.filter(u => !ignoredSet.has(u.videoId));
   const niedrig = filme.filter(m => m.matchConfidence === "niedrig" && !reviewedSet.has(m.videoId));
   const fehlendeFsk = filme.filter(m => m.fsk === null || m.fsk === undefined);
-  const keinCover = filme.filter(m => !m.posterUrl && !coverDismissedSet.has(m.videoId));
+  // Aus YouTube-Daten übernommene Filme haben systembedingt kein
+  // TMDB-Poster -- sie zeigen im Frontend das Videovorschaubild und gehören
+  // nicht in eine Warteschlange, die man abarbeiten könnte. Sonst stünden
+  // hier dauerhaft mehrere hundert nicht lösbare Einträge.
+  const keinCover = filme.filter(m => !m.posterUrl && m.matchSource !== "youtube" && !coverDismissedSet.has(m.videoId));
 
   document.getElementById("countUnmatched").textContent = unmatchedFiltered.length;
   document.getElementById("countNiedrig").textContent = niedrig.length;
