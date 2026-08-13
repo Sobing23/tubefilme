@@ -354,6 +354,9 @@
     <option value="16">FSK 16</option>
     <option value="18">FSK 18</option>
   </select>
+  <select id="jahrFilter">
+    <option value="">Alle Jahre</option>
+  </select>
   <button id="randomBtn">🎲 Zufall</button>
   <button id="watchlistBtn">♥ Merkliste</button>
 </header>
@@ -587,6 +590,7 @@ function applyFilters() {
   const query = document.getElementById("search").value.trim();
   const selectedGenre = document.getElementById("genreFilter").value;
   const selectedFsk = document.getElementById("fskFilter").value;
+  const selectedJahrzehnt = document.getElementById("jahrFilter").value;
 
   let result = query && fuse ? fuse.search(query).map(r => r.item) : allMovies;
 
@@ -595,6 +599,13 @@ function applyFilters() {
   }
   if (selectedFsk) {
     result = result.filter(m => m.fsk === selectedFsk);
+  }
+  if (selectedJahrzehnt) {
+    const von = parseInt(selectedJahrzehnt, 10);
+    result = result.filter(m => {
+      const j = parseInt((m.releaseDate || "").slice(0, 4), 10);
+      return j >= von && j < von + 10;
+    });
   }
   if (watchlistMode) {
     const wl = getWatchlist();
@@ -623,6 +634,7 @@ document.getElementById("searchClear").addEventListener("click", () => {
 updateClearButton(); // Anfangszustand setzen
 document.getElementById("genreFilter").addEventListener("change", applyFilters);
 document.getElementById("fskFilter").addEventListener("change", applyFilters);
+document.getElementById("jahrFilter").addEventListener("change", applyFilters);
 document.getElementById("closeBtn").addEventListener("click", closePlayer);
 
 // Zusätzliche, robustere Wege das Overlay zu schließen: Escape-Taste,
@@ -709,6 +721,7 @@ fetch(FILME_URL)
     fuse = new Fuse(allMovies, { keys: ["title", "originalTitle", "genreText", "cast", "director", "writer"], threshold: 0.3 });
 
     populateGenreFilter(allMovies);
+    populateJahrFilter(allMovies);
     document.getElementById("status").style.display = "none";
     renderGrid(allMovies);
   })
@@ -724,6 +737,25 @@ function populateGenreFilter(movies) {
     const opt = document.createElement("option");
     opt.value = name;
     opt.textContent = name;
+    select.appendChild(opt);
+  });
+}
+
+// Der Bestand reicht von 1915 bis heute -- über hundert einzelne Jahrgänge
+// wären als Auswahlliste unbrauchbar. Deshalb nach Jahrzehnten gruppiert,
+// und nur die, zu denen es auch wirklich Filme gibt.
+function populateJahrFilter(movies) {
+  const jahrzehnte = new Set();
+  movies.forEach(m => {
+    const j = parseInt((m.releaseDate || "").slice(0, 4), 10);
+    if (j > 1880 && j < 2100) jahrzehnte.add(Math.floor(j / 10) * 10);
+  });
+
+  const select = document.getElementById("jahrFilter");
+  [...jahrzehnte].sort((a, b) => b - a).forEach(d => {
+    const opt = document.createElement("option");
+    opt.value = String(d);
+    opt.textContent = `${d}er`;
     select.appendChild(opt);
   });
 }

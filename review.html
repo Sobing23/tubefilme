@@ -460,6 +460,7 @@ function renderCover(items) {
           <b>Kanal:</b> ${escapeHtml(m.channelName)}
         </div>
         <div class="row">
+          ${ytLink(m.videoId)}
           <a href="https://www.themoviedb.org/movie/${m.tmdbId}/images/posters" target="_blank" rel="noopener">
             <button type="button">Poster bei TMDB suchen ↗</button>
           </a>
@@ -550,6 +551,7 @@ function renderFsk(items) {
             <option value="16">FSK 16</option>
             <option value="18">FSK 18</option>
           </select>
+          ${ytLink(m.videoId)}
           <button class="primary" onclick="setFsk('${m.videoId}')">Speichern</button>
         </div>
         <div class="status" id="status-fsk-${m.videoId}"></div>
@@ -628,6 +630,7 @@ document.getElementById("searchAlle").addEventListener("input", (e) => {
           ${m.tmdbId ? ` · <b>TMDB:</b> <a href="https://www.themoviedb.org/movie/${m.tmdbId}" target="_blank" rel="noopener">${m.tmdbId}</a>` : " · <b>ohne TMDB-Eintrag</b>"}
         </div>
         <div class="row">
+          ${ytLink(m.videoId)}
           <button onclick="toggleEdit('${m.videoId}')">Bearbeiten</button>
           <button class="danger" onclick="deleteMovie('${m.videoId}', 'al-${m.videoId}')">Löschen</button>
         </div>
@@ -734,6 +737,14 @@ async function deleteMovie(videoId, cardSuffix) {
   }
 }
 
+// Direktlink zum Video -- damit sich im Zweifel in Sekunden nachsehen lässt,
+// welcher Film tatsächlich läuft (der echte Titel steht bei manchen Kanälen
+// nur in der Grafik, nicht in den Metadaten).
+function ytLink(videoId) {
+  return `<a href="https://www.youtube.com/watch?v=${videoId}" target="_blank" rel="noopener">
+    <button type="button">▶ Video ansehen ↗</button></a>`;
+}
+
 function escapeHtml(s) {
   return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
@@ -762,6 +773,7 @@ function renderUnmatched(items) {
             <a href="https://www.themoviedb.org/search?query=${searchQuery}" target="_blank" rel="noopener">
               <button type="button">Bei TMDB suchen ↗</button>
             </a>
+            ${ytLink(m.videoId)}
             <input type="text" placeholder="TMDB-ID oder Link einfügen" id="input-um-${u.videoId}">
             <button class="primary" onclick="assignUnmatched('${u.videoId}')">Zuordnen</button>
             <button class="danger" onclick="ignoreUnmatched('${u.videoId}')">Nicht auffindbar</button>
@@ -868,6 +880,7 @@ function renderNiedrig(items) {
             <a href="https://www.themoviedb.org/search?query=${searchQuery}" target="_blank" rel="noopener">
               <button type="button">Bei TMDB suchen ↗</button>
             </a>
+            ${ytLink(m.videoId)}
             <input type="text" placeholder="Korrekte TMDB-ID oder Link" id="input-nk-${m.videoId}">
             <button class="primary" onclick="correctNiedrig('${m.videoId}')">Korrigieren</button>
             <button onclick="confirmNiedrig('${m.videoId}')">Sieht korrekt aus</button>
