@@ -439,6 +439,10 @@ function buildQueryCandidates(info, video) {
 function normalizeTitle(s) {
   return (s || "")
     .toLowerCase()
+    // ß vor der Zeichenbereinigung zu "ss" auflösen -- sonst würde es
+    // ersatzlos wegfallen ("muß" -> "mu") und wäre nicht mehr mit der
+    // Schreibweise "muss" vergleichbar. Betrifft viele deutsche Titel.
+    .replace(/ß/g, "ss")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, " ")
@@ -561,6 +565,30 @@ function personOverlap(expectedNames, tmdbNames) {
 const CONFIDENT_SCORE = 140; // ab hier ist der Treffer so klar, dass wir aufhören zu suchen
 const MIN_ACCEPT_SCORE = 45; // darunter lieber gar kein Treffer als ein falscher
 
+// Unterhalb dieses Werts reicht die Bewertung allein nicht aus. Ein schwacher
+// Treffer entsteht typischerweise durch zufällige Wortüberschneidung -- etwa
+// als der Suchbegriff "Verloren Alles" (aus einem reißerischen Videotitel
+// ohne echten Filmnamen) auf "Detox: Wenn du alles verloren hast" traf.
+// Die Bewertung schlicht anzuheben wäre falsch: Auch richtige Treffer landen
+// hier unten, wenn deutscher und Originaltitel weit auseinanderliegen
+// ("Winter in Wartime" -> "Mein Kriegswinter"). Der Unterschied ist nicht die
+// Höhe der Bewertung, sondern ob es einen UNABHÄNGIGEN Beleg gibt.
+const BELEG_NOETIG_UNTER = 90;
+
+// Gibt es außer der reinen Textähnlichkeit noch einen zweiten, unabhängigen
+// Hinweis darauf, dass die Zuordnung stimmt?
+function hatUnabhaengigenBeleg(best, info) {
+  if (best.personConfirmed) return true; // Besetzung/Regie bestätigt
+  if (best.exactTitle) return true; // Titel stimmt exakt (nach Normalisierung)
+
+  if (info.year) {
+    const trefferJahr = (best.r.release_date || "").slice(0, 4);
+    if (trefferJahr && trefferJahr === info.year) return true; // Jahr stimmt genau
+  }
+
+  return false;
+}
+
 async function findBestMatch(video) {
   const info = extractSearchInfo(video);
   const queryCandidates = buildQueryCandidates(info, video);
@@ -635,6 +663,19 @@ async function findBestMatch(video) {
       match: null,
       info,
       reason: `Kein ausreichend plausibler Treffer (bester Wert ${Math.round(best.score)})`,
+      topCandidate: { id: best.r.id, title: best.r.title, release_date: best.r.release_date },
+    };
+  }
+
+  // Schwacher Treffer ohne zweiten, unabhängigen Beleg wird nicht übernommen.
+  // Besser gar keine Zuordnung (der Film wird dann später mit seinen
+  // YouTube-Angaben aufgenommen) als ein plausibel aussehender Fehltreffer,
+  // der mit falschem Titel, Poster und Beschreibung in der Bibliothek landet.
+  if (best.score < BELEG_NOETIG_UNTER && !hatUnabhaengigenBeleg(best, info)) {
+    return {
+      match: null,
+      info,
+      reason: `Schwache Übereinstimmung (Wert ${Math.round(best.score)}) ohne Bestätigung durch Titel, Jahr oder Besetzung`,
       topCandidate: { id: best.r.id, title: best.r.title, release_date: best.r.release_date },
     };
   }
