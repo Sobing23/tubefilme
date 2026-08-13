@@ -22,6 +22,38 @@
 
 import fs from "fs/promises";
 
+// -- Anbieter-Profile --
+//
+// Die Kanäle unterscheiden sich systematisch darin, wie sie Titel und
+// Beschreibung aufbauen. Statt diese Eigenheiten über den Code zu verstreuen,
+// stehen sie als "profil" beim jeweiligen Kanal in config/channels.json:
+//
+//   { "name": "Artflix", "channelId": "UC...", "profil": {
+//       "pipeAlsTitelvariante": false } }
+//
+// Bekannte Schalter:
+//   pipeAlsTitelvariante  Stehen hinter einem "|" alternative Filmtitel
+//                         (true, Standard) oder nur Genre-/Werbeangaben
+//                         (false, z.B. Artflix, Bigtime, FFF Kino)?
+//
+// Fehlt ein Profil, gelten die Standardwerte -- neue Kanäle funktionieren
+// also ohne Eintrag, lassen sich bei Bedarf aber gezielt nachschärfen.
+const CHANNELS_PATH = "config/channels.json";
+let PROFILE = new Map();
+
+async function ladeProfile() {
+  try {
+    const cfg = JSON.parse(await fs.readFile(CHANNELS_PATH, "utf-8"));
+    PROFILE = new Map((cfg.channels || []).map((c) => [c.channelId, c.profil || {}]));
+  } catch {
+    // ohne Konfiguration gelten überall die Standardwerte
+  }
+}
+
+function channelProfile(channelId) {
+  return PROFILE.get(channelId) || {};
+}
+
 const BEARER_TOKEN = process.env.TMDB_BEARER_TOKEN;
 const CANDIDATES_PATH = "data/candidates.json";
 const MANUAL_MATCHES_PATH = "data/manual-matches.json";
@@ -231,6 +263,37 @@ function splitSlashVariants(text) {
 // und selbst kein Suchbegriff sind (z.B. "Ganzer Film auf Deutsch").
 const GENERIC_SEGMENT = /ganzer film|ganze filme|in voller l[äa]nge|kostenlos anschauen|^komplett/i;
 
+// Reine Genre- und Gattungsbezeichnungen. Solche Wörter stehen bei vielen
+// Kanälen als eigenes Segment im Titel ("... | Sandalenfilm auf Deutsch |
+// Kriegsfilm") und sind als Suchbegriff wertlos bis schädlich: Eine Suche
+// nach "Kriegsfilm" findet zuverlässig irgendeinen Film, der das Wort im
+// Titel trägt -- und der hat mit dem gesuchten nichts zu tun.
+const GENERIC_TERMS = new Set([
+  "action", "actionfilm", "actionthriller", "abenteuer", "abenteuerfilm",
+  "agentenfilm", "animation", "animationsfilm", "biografie", "doku",
+  "dokumentarfilm", "dokumentation", "drama", "eastern", "endzeitfilm",
+  "erotik", "familie", "familienfilm", "fantasy", "fantasyfilm", "film",
+  "filmklassiker", "gangsterfilm", "giallo", "historienfilm", "horror",
+  "horrorfilm", "katastrophenfilm", "kinderfilm", "klassiker", "komödie",
+  "komoedie", "krimi", "kriminalfilm", "krieg", "kriegsdrama", "kriegsfilm",
+  "kultfilm", "liebesdrama", "liebesfilm", "martial arts", "monumentalfilm",
+  "musical", "mystery", "piratenfilm", "psychothriller", "ritterfilm",
+  "romanze", "romantik", "sandalenfilm", "satire", "science fiction",
+  "sci-fi", "scifi", "slasher", "spielfilm", "stummfilm", "thriller",
+  "tierfilm", "western", "zombiefilm", "deutsch", "hd", "neu",
+]);
+
+// Prüft, ob ein Suchbegriff ausschließlich aus solchen Allerweltsbegriffen
+// besteht -- dann darf er gar nicht erst an TMDB geschickt werden.
+function istGenerischerBegriff(q) {
+  const norm = (q || "").toLowerCase().replace(/[^a-zäöüß0-9 -]/g, " ").replace(/\s{2,}/g, " ").trim();
+  if (!norm) return true;
+  if (GENERIC_TERMS.has(norm)) return true;
+  // auch Kombinationen wie "Action Thriller" oder "Horror Film"
+  const teile = norm.split(/\s+/);
+  return teile.length <= 3 && teile.every((t) => GENERIC_TERMS.has(t));
+}
+
 // "Eisfieber: Eine Liebe im Schnee | Ice Castles (1978) | Ganzer Film..."
 // -> ["Eisfieber: Eine Liebe im Schnee", "Ice Castles"]
 // Comfy Movies schreibt bei manchen (oft älteren/US-)Filmen den echten
@@ -304,11 +367,16 @@ function buildQueryCandidates(info, video) {
   const seen = new Set();
   const add = (q) => {
     if (!q) return;
+    // Zentrale Sperre: Allerweltsbegriffe kommen gar nicht erst als
+    // Suchbegriff in Frage, egal aus welcher Zerlegung sie stammen.
+    if (istGenerischerBegriff(q)) return;
     const key = q.toLowerCase();
     if (seen.has(key)) return;
     seen.add(key);
     candidates.push(q);
   };
+
+  const profil = channelProfile(video.channelId);
 
   add(info.query);
   add(stripActorPrefix(info.query));
@@ -320,7 +388,14 @@ function buildQueryCandidates(info, video) {
     splitSlashVariants(info.fallbackQuery).forEach(add);
   }
 
-  splitPipeVariants(video.title).forEach(add);
+  // Weitere Titelsegmente hinter einem Strich sind NUR bei manchen Anbietern
+  // alternative Filmtitel (Comfy Movies etwa schreibt dort den englischen
+  // Originaltitel). Bei anderen -- Artflix, Bigtime, FFF Kino -- stehen dort
+  // ausschließlich Genre- und Werbeangaben, die als Suchbegriff in die Irre
+  // führen. Das steuert das Anbieter-Profil in config/channels.json.
+  if (profil.pipeAlsTitelvariante !== false) {
+    splitPipeVariants(video.title).forEach(add);
+  }
 
   // Werbetext-bereinigte Varianten. Bewusst NACH den bisherigen Varianten
   // eingereiht und nicht als deren Ersatz: Filme, die mit ihrem bisherigen
@@ -570,6 +645,7 @@ async function findBestMatch(video) {
 }
 
 async function main() {
+  await ladeProfile();
   const candidates = JSON.parse(await fs.readFile(CANDIDATES_PATH, "utf-8"));
 
   let manualMatches = {};
