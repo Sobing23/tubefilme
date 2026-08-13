@@ -31,8 +31,14 @@ jobs:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/match-tmdb.js
 
-      - name: Datenqualität bereinigen (Altlast-Duplikate, riskante Treffer)
+      - name: Datenqualität bereinigen (Duplikate)
         run: node scripts/cleanup-matches.js
+
+      - name: Unsichere Zuordnungen automatisch nachprüfen
+        run: node scripts/auto-verify.js
+
+      - name: Nicht auffindbare Filme aus YouTube-Daten übernehmen
+        run: node scripts/absorb-unmatched.js
 
       - name: Cast-Daten für Schauspieler-Suche nachladen
         env:
