@@ -39,7 +39,27 @@ import fs from "fs/promises";
 // Fehlt ein Profil, gelten die Standardwerte -- neue Kanäle funktionieren
 // also ohne Eintrag, lassen sich bei Bedarf aber gezielt nachschärfen.
 const CHANNELS_PATH = "config/channels.json";
+const REJECTED_PATH = "data/rejected-matches.json";
 let PROFILE = new Map();
+
+// Zuordnungen, die die automatische Nachprüfung bereits als falsch erkannt
+// hat (Schlüssel: videoId, Wert: Liste verworfener TMDB-IDs). Diese Filme
+// werden bei der Suche übersprungen, damit nicht erneut derselbe
+// Fehltreffer entsteht und stattdessen der nächstbeste Kandidat zum Zug kommt.
+let GESPERRT = {};
+
+async function ladeSperrliste() {
+  try {
+    GESPERRT = JSON.parse(await fs.readFile(REJECTED_PATH, "utf-8"));
+  } catch {
+    GESPERRT = {};
+  }
+}
+
+function istGesperrt(videoId, tmdbId) {
+  const liste = GESPERRT[videoId];
+  return Array.isArray(liste) && liste.includes(tmdbId);
+}
 
 async function ladeProfile() {
   try {
@@ -560,6 +580,8 @@ async function findBestMatch(video) {
 
       // ALLE Treffer bewerten, nicht nur den ersten
       for (const r of results.slice(0, 10)) {
+        // Bereits als falsch erkannte Zuordnung für genau dieses Video
+        if (istGesperrt(video.videoId, r.id)) continue;
         const { score, exactTitle } = scoreResult(r, q, info.year);
         const vorher = scored.get(r.id);
         if (!vorher || score > vorher.score) {
@@ -646,6 +668,7 @@ async function findBestMatch(video) {
 
 async function main() {
   await ladeProfile();
+  await ladeSperrliste();
   const candidates = JSON.parse(await fs.readFile(CANDIDATES_PATH, "utf-8"));
 
   let manualMatches = {};
