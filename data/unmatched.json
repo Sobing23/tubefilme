@@ -6104,5 +6104,665 @@
     "videoId": "0SsHa1_xQX4",
     "youtubeTitle": "Der Tod kommt zweimal (1984) | Ganzer Film Deutsch",
     "grund": "Fehler: TMDB Fehler 400: {\"success\":false,\"status_code\":50,\"status_message\":\"Invalid query: Maximum length is 500 characters.\"}"
+  },
+  {
+    "videoId": "GUuPGeuRiVQ",
+    "youtubeTitle": "Jud Süss - Film ohne Gewissen – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "suchbegriff": "Jud Süß",
+    "erwartetesJahr": "1934",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Tobias Moretti, Martina Gedeck und Moritz Bleibtreu) kommt in \"Jud Süß\" vor",
+    "tmdbTopKandidat": {
+      "id": 172214,
+      "title": "Jud Süß",
+      "release_date": "1934-10-13"
+    }
+  },
+  {
+    "videoId": "TfIIYyi1ZAs",
+    "youtubeTitle": "Birth of the Dragon – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "suchbegriff": "Birth of the Dragon",
+    "erwartetesJahr": "2017",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Yu Xia, Wang Xi’An und Hai Yu) kommt in \"Birth of the Dragon\" vor",
+    "tmdbTopKandidat": {
+      "id": 408266,
+      "title": "Birth of the Dragon",
+      "release_date": "2017-08-25"
+    }
+  },
+  {
+    "videoId": "Sbj_7inW5LE",
+    "youtubeTitle": "Agatha Christie's Zeugin der Anklage - ganzer Film auf Deutsch kostenlos schauen in HD",
+    "suchbegriff": "Zeugin der Anklage",
+    "erwartetesJahr": "1957",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Billy Howle, Monica Dolan und Kim Cattrall) kommt in \"Zeugin der Anklage\" vor",
+    "tmdbTopKandidat": {
+      "id": 37257,
+      "title": "Zeugin der Anklage",
+      "release_date": "1957-12-17"
+    }
+  },
+  {
+    "videoId": "HWE16y-62VY",
+    "youtubeTitle": "Pursued – ein Headhunter kennt keine Gnade – ganzer Film auf Deutsch kostenlos schauen in HD",
+    "suchbegriff": "Pursued",
+    "erwartetesJahr": "1925",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Christian Slater, Gil Bellows, Estella Warren) kommt in \"Pursued\" vor",
+    "tmdbTopKandidat": {
+      "id": 1576034,
+      "title": "Pursued",
+      "release_date": "1925-08-30"
+    }
+  },
+  {
+    "videoId": "YdtZ7gerIrI",
+    "youtubeTitle": "Die Besucher – Sturm auf die Bastille – Jean Reno, Christian Clavier, ganzer Film kostenlos in HD",
+    "suchbegriff": "Die Besucher",
+    "erwartetesJahr": "1972",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Christian Clavier, Jean Reno, Franck Dubosc) kommt in \"Die Besucher\" vor",
+    "tmdbTopKandidat": {
+      "id": 102699,
+      "title": "Die Besucher",
+      "release_date": "1972-02-02"
+    }
+  },
+  {
+    "videoId": "DKWT2DkoInI",
+    "youtubeTitle": "Getaway– Actionthriller mit Alec Baldwin, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "suchbegriff": "Getaway",
+    "erwartetesJahr": "2020",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Alec Baldwin, Kim Basinger, Michael Madsen) kommt in \"Getaway\" vor",
+    "tmdbTopKandidat": {
+      "id": 489280,
+      "title": "Getaway",
+      "release_date": "2020-04-14"
+    }
+  },
+  {
+    "videoId": "zd_05OuJ0U8",
+    "youtubeTitle": "Der Übergang - Rites of Passage - Thriller, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "suchbegriff": "Der Übergang",
+    "erwartetesJahr": "1978",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Wes Bentley, Kate Maberly, Christian Slater) kommt in \"Der Übergang\" vor",
+    "tmdbTopKandidat": {
+      "id": 601519,
+      "title": "Der Übergang",
+      "release_date": "1978-09-08"
+    }
+  },
+  {
+    "videoId": "PUUAeB3BfHo",
+    "youtubeTitle": "Young Ip Man: Crisis Time forced (Ganze Kung Fu Filme, Actionfilme in voller Länge, Martial Arts)",
+    "suchbegriff": "Young Ip Man: Crisis Time",
+    "erwartetesJahr": "2020",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Pantheras Freedman, Jonathan Kos-Read, Hao-xuan Li) kommt in \"Young Ip Man: Crisis Time\" vor",
+    "tmdbTopKandidat": {
+      "id": 751391,
+      "title": "Young Ip Man: Crisis Time",
+      "release_date": "2020-10-08"
+    }
+  },
+  {
+    "videoId": "NP2BBh5orx8",
+    "youtubeTitle": "Baby (Provokativer deutscher Film in voller Länge, Roadmovies & Drama Filme Deutsch komplett 2023)",
+    "suchbegriff": "A Baby Blues Christmas Special",
+    "erwartetesJahr": "2002",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Alice Dwyer, Lars Rudolph, Filip Peeters) kommt in \"A Baby Blues Christmas Special\" vor",
+    "tmdbTopKandidat": {
+      "id": 312222,
+      "title": "A Baby Blues Christmas Special",
+      "release_date": "2002-02-24"
+    }
+  },
+  {
+    "videoId": "EA61KjSZkag",
+    "youtubeTitle": "Freiheit – John Newton's Amazing Grace (ABENTEUER mit CUBA GOODING JR. Filme Deutsch komplett)",
+    "suchbegriff": "Große Freiheit",
+    "erwartetesJahr": "2021",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Cuba Gooding Jr., Sharon Leal, David Rasche) kommt in \"Große Freiheit\" vor",
+    "tmdbTopKandidat": {
+      "id": 835975,
+      "title": "Große Freiheit",
+      "release_date": "2021-11-18"
+    }
+  },
+  {
+    "videoId": "FIRxWW1gxTk",
+    "youtubeTitle": "Der falsche Mann (KRIMI THRILLER ganzer Film, Deutsche Filme komplett in voller Länge anschauen)",
+    "suchbegriff": "Der falsche Mann",
+    "erwartetesJahr": "1956",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Patricia Aulitzky, Marcus Ballin, Aurel Baldur Bereuter) kommt in \"Der falsche Mann\" vor",
+    "tmdbTopKandidat": {
+      "id": 22527,
+      "title": "Der falsche Mann",
+      "release_date": "1956-12-22"
+    }
+  },
+  {
+    "videoId": "QGlxXpiRw0E",
+    "youtubeTitle": "Sherlock Holmes - Der Hund von Baskerville (Krimi, Horror in voller Länge, ganzer Film auf Deutsch)",
+    "suchbegriff": "Der Hund von Baskerville",
+    "erwartetesJahr": "1983",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Ian Richardson, Donald Churchill) kommt in \"Der Hund von Baskerville\" vor",
+    "tmdbTopKandidat": {
+      "id": 107918,
+      "title": "Der Hund von Baskerville",
+      "release_date": "1983-01-01"
+    }
+  },
+  {
+    "videoId": "46LDhhWd--Q",
+    "youtubeTitle": "Eine Hochzeit zu Weihnachten (Familienfilm in voller Länge)",
+    "suchbegriff": "Eine Hochzeit zu Weihnachten",
+    "erwartetesJahr": "2013",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Sarah Paulson, Eric Mabius) kommt in \"Eine Hochzeit zu Weihnachten\" vor",
+    "tmdbTopKandidat": {
+      "id": 235662,
+      "title": "Eine Hochzeit zu Weihnachten",
+      "release_date": "2013-11-09"
+    }
+  },
+  {
+    "videoId": "sa2TmSjBm3E",
+    "youtubeTitle": "Staudamm Inferno - Nur der Tod ist kälter (Action Thriller, Drama auf Deutsch in voller Länge)",
+    "suchbegriff": "Whiteout",
+    "erwartetesJahr": "2009",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Yûji Oda, Nanako Matsushima, Kôichi Satô) kommt in \"Whiteout\" vor",
+    "tmdbTopKandidat": {
+      "id": 22787,
+      "title": "Whiteout",
+      "release_date": "2009-09-09"
+    }
+  },
+  {
+    "videoId": "8_e5mzNJXco",
+    "youtubeTitle": "Das Narbengesicht | 1954 | Koloriert | Krimi | Thriller auf Deutsch",
+    "suchbegriff": "Engelmacher - Der Usedom-Krimi",
+    "erwartetesJahr": "2016",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Mark Stevens, Martha Hyer, Skip Homeier) kommt in \"Engelmacher - Der Usedom-Krimi\" vor",
+    "tmdbTopKandidat": {
+      "id": 385018,
+      "title": "Engelmacher - Der Usedom-Krimi",
+      "release_date": "2016-11-09"
+    }
+  },
+  {
+    "videoId": "NoLUkcgJOQk",
+    "youtubeTitle": "Das Narbengesicht | 1954 | Krimi | Film Noir | Ganzer Film auf Deutsch",
+    "suchbegriff": "Der große Muppet Krimi",
+    "erwartetesJahr": "1981",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Mark Stevens, Martha Hyer, Skip Homeier) kommt in \"Der große Muppet Krimi\" vor",
+    "tmdbTopKandidat": {
+      "id": 14900,
+      "title": "Der große Muppet Krimi",
+      "release_date": "1981-06-26"
+    }
+  },
+  {
+    "videoId": "4ZC8TftA998",
+    "youtubeTitle": "🤠 WESTERN-DRAMA | Das Halbblut – Ein Mann gegen die Mächtigen des Wilden Westens ⚖️💥",
+    "suchbegriff": "Der letzte Ritt der Daltons",
+    "erwartetesJahr": "1975",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Lou Diamond Phillips, Ernest Borgnine, Lee Majors) kommt in \"Der letzte Ritt der Daltons\" vor",
+    "tmdbTopKandidat": {
+      "id": 282662,
+      "title": "Der letzte Ritt der Daltons",
+      "release_date": "1975-02-15"
+    }
+  },
+  {
+    "videoId": "zUr1iKGw0tY",
+    "youtubeTitle": "🔥 OUTBACK TÖDLICHE JAGD | Ein Schuss und alles eskaliert, Survival Thriller pur, Filme Deutsch",
+    "suchbegriff": "Zorn der Titanen",
+    "erwartetesJahr": "2012",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Stefanie Elizabeth Dawson, Xavier Fernandez, Corey Page) kommt in \"Zorn der Titanen\" vor",
+    "tmdbTopKandidat": {
+      "id": 57165,
+      "title": "Zorn der Titanen",
+      "release_date": "2012-03-28"
+    }
+  },
+  {
+    "videoId": "K0YCKqb_pxI",
+    "youtubeTitle": "🔥 PSYCHO THRILLER – Born Bad (2011) | Ganzer Film Deutsch, Thriller, Filme auf Deutsch anschauen",
+    "suchbegriff": "Katie Fforde - Zum Teufel mit David",
+    "erwartetesJahr": "2011",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Meredith Monroe, Bonnie Dennison) kommt in \"Katie Fforde - Zum Teufel mit David\" vor",
+    "tmdbTopKandidat": {
+      "id": 135891,
+      "title": "Katie Fforde - Zum Teufel mit David",
+      "release_date": "2011-03-06"
+    }
+  },
+  {
+    "videoId": "3cbbh8raV8Y",
+    "youtubeTitle": "DIE SPUR DES FALKEN – GOJKO MITIĆ IM EPISCHEN WESTERNKAMPF, Filme auf Deutsch, Westernfilme",
+    "suchbegriff": "Die Spur des Falken",
+    "erwartetesJahr": "1941",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Gojko Mitić, Hannjo Hasse, Jirí Vrstála) kommt in \"Die Spur des Falken\" vor",
+    "tmdbTopKandidat": {
+      "id": 963,
+      "title": "Die Spur des Falken",
+      "release_date": "1941-10-18"
+    }
+  },
+  {
+    "videoId": "BkWWSShpecE",
+    "youtubeTitle": "Duell am Wind River (WESTERN, WESTERN-KLASSIKER AUF DEUTSCH, Filme auf Deutsch in voller Länge)",
+    "suchbegriff": "Wind River",
+    "erwartetesJahr": "2000",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Rex Reason, Beverly Garland, Forrest Tucker) kommt in \"Wind River\" vor",
+    "tmdbTopKandidat": {
+      "id": 66796,
+      "title": "Wind River",
+      "release_date": "2000-06-07"
+    }
+  },
+  {
+    "videoId": "GLWbYmQaZtA",
+    "youtubeTitle": "Edgar Wallace - Der Hexer (Krimi-Thriller auf Deutsch, Film von RAINER ERLER, schwarz weiß Filme)",
+    "suchbegriff": "Der Zinker",
+    "erwartetesJahr": "1963",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Peter Pasetti, Eva Maria Meineke, Hermann Lenschau) kommt in \"Der Zinker\" vor",
+    "tmdbTopKandidat": {
+      "id": 1663,
+      "title": "Der Zinker",
+      "release_date": "1963-04-26"
+    }
+  },
+  {
+    "videoId": "RiEkN4EEVqY",
+    "youtubeTitle": "The House (Geisterfilm in ganzer länge, Horrorfilm auf Deutsch komplett)",
+    "suchbegriff": "The House at Night",
+    "erwartetesJahr": "2021",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Michael Madsen, Leslie Easterbrook) kommt in \"The House at Night\" vor",
+    "tmdbTopKandidat": {
+      "id": 547565,
+      "title": "The House at Night",
+      "release_date": "2021-07-15"
+    }
+  },
+  {
+    "videoId": "NRseILkNhmE",
+    "youtubeTitle": "Sherlock Holmes - Der Hund von Baskerville (Old School Action, Thriller, Klassischer Krimi, Deutsch)",
+    "suchbegriff": "Sherlock Holmes - Der Hund von Baskerville",
+    "erwartetesJahr": "2000",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Ian Richardson, Donald Churchill) kommt in \"Sherlock Holmes - Der Hund von Baskerville\" vor",
+    "tmdbTopKandidat": {
+      "id": 25293,
+      "title": "Sherlock Holmes - Der Hund von Baskerville",
+      "release_date": "2000-10-28"
+    }
+  },
+  {
+    "videoId": "Qf68Kyz1ivk",
+    "youtubeTitle": "CRACK (Krimi mit RICHARD GERE, kompletter Spielfilm) - ganze Filme deutsch auf Youtube schauen",
+    "suchbegriff": "Crack",
+    "erwartetesJahr": "2000",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Cliff Gorman, Richard Gere, RICHARD GERE) kommt in \"Crack\" vor",
+    "tmdbTopKandidat": {
+      "id": 521589,
+      "title": "Crack",
+      "release_date": "2000-01-01"
+    }
+  },
+  {
+    "videoId": "eUSW5UOrWNI",
+    "youtubeTitle": "Blutiges Geld | 4K | Ganzer Actionfilm | Thriller auf Deutsch",
+    "suchbegriff": "Hunted - Blutiges Geld",
+    "erwartetesJahr": "2020",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Toby Barron, Byron J. Brochmann, Alex Castro) kommt in \"Hunted - Blutiges Geld\" vor",
+    "tmdbTopKandidat": {
+      "id": 691812,
+      "title": "Hunted - Blutiges Geld",
+      "release_date": "2020-05-15"
+    }
+  },
+  {
+    "videoId": "u3eZpADC_FA",
+    "youtubeTitle": "El Dorado - Stadt aus Gold | Actionfilm mit Shane West",
+    "suchbegriff": "El Dorado",
+    "erwartetesJahr": "2025",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Shane West, Luke Goss, Natalie Martinez) kommt in \"El Dorado\" vor",
+    "tmdbTopKandidat": {
+      "id": 1538163,
+      "title": "El Dorado",
+      "release_date": "2025-10-31"
+    }
+  },
+  {
+    "videoId": "NieuIiFUjuk",
+    "youtubeTitle": "Running Hero | Actionfilm | THRILLER",
+    "suchbegriff": "Michael Jackson's Thriller",
+    "erwartetesJahr": "1983",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Daniel Greene, George H. Thausanij, Savina Gersak) kommt in \"Michael Jackson's Thriller\" vor",
+    "tmdbTopKandidat": {
+      "id": 92060,
+      "title": "Michael Jackson's Thriller",
+      "release_date": "1983-11-21"
+    }
+  },
+  {
+    "videoId": "ZLmDH0w0MP0",
+    "youtubeTitle": "Rag Doll (2023) [Horror] | Unheimliche Fluch-Puppe | Ganzer Film",
+    "suchbegriff": "Rag Doll",
+    "erwartetesJahr": "2020",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Benjamin Schnau, Chrissie Wunna, Danielle Scott) kommt in \"Rag Doll\" vor",
+    "tmdbTopKandidat": {
+      "id": 750638,
+      "title": "Rag Doll",
+      "release_date": "2020-09-24"
+    }
+  },
+  {
+    "videoId": "F2UpqjQVWjs",
+    "youtubeTitle": "Recall - Experiment des Grauens (2005) [Horror] [Mystery] | Blick ins Unterbewusstsein | ganzer Film",
+    "suchbegriff": "Total Recall",
+    "erwartetesJahr": "2012",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (John Hopkins, Georgina French, Mem Ferda) kommt in \"Total Recall\" vor",
+    "tmdbTopKandidat": {
+      "id": 64635,
+      "title": "Total Recall",
+      "release_date": "2012-08-02"
+    }
+  },
+  {
+    "videoId": "lwNcMp1ic6M",
+    "youtubeTitle": "Wizard of Oz: The Dead Walk (2025) [Horror] [Fantasy] | Der Ziegelweg des Grauens | ganzer Film",
+    "suchbegriff": "Der Zauberer von OZ - Zauberwelten",
+    "erwartetesJahr": "1991",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Alina Desmond, Stephen Samson, Jonathan Livingstone) kommt in \"Der Zauberer von OZ - Zauberwelten\" vor",
+    "tmdbTopKandidat": {
+      "id": 415009,
+      "title": "Der Zauberer von OZ - Zauberwelten",
+      "release_date": "1991-01-01"
+    }
+  },
+  {
+    "videoId": "0z7TfrXmVTM",
+    "youtubeTitle": "Bruce Lee - Der brüllende Tiger (1973) [Eastern] | Bruceploitation pur! |  ganzer Film auf deutsch",
+    "suchbegriff": "I Am Bruce Lee",
+    "erwartetesJahr": "2012",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Chin-Tang Tang, Tony Liu, Meng-Hwa Chang) kommt in \"I Am Bruce Lee\" vor",
+    "tmdbTopKandidat": {
+      "id": 84383,
+      "title": "I Am Bruce Lee",
+      "release_date": "2012-02-09"
+    }
+  },
+  {
+    "videoId": "2HzTcwsyvNU",
+    "youtubeTitle": "Survivor - Zum Überleben verdammt (1987) [SciFi] [Action] | Postapokalypse | ganzer Film auf deutsch",
+    "suchbegriff": "Survivor - Das Grauen aus dem ewigen Eis",
+    "erwartetesJahr": "1999",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Christopher „Chip“ Mayer, Richard Moll, Sue Kiel) kommt in \"Survivor - Das Grauen aus dem ewigen Eis\" vor",
+    "tmdbTopKandidat": {
+      "id": 362844,
+      "title": "Survivor - Das Grauen aus dem ewigen Eis",
+      "release_date": "1999-05-13"
+    }
+  },
+  {
+    "videoId": "8Jjtu22RqsM",
+    "youtubeTitle": "Die gelbe Hölle des Shaolin (1978) [Action] [Eastern] | Blutige Spur der Vergeltung | Ganzer Film",
+    "suchbegriff": "Die gelbe Hölle des Shaolin",
+    "erwartetesJahr": "1978",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Hua Yueh, Yin-Tze Pan, Carter Wong) kommt in \"Die gelbe Hölle des Shaolin\" vor",
+    "tmdbTopKandidat": {
+      "id": 106781,
+      "title": "Die gelbe Hölle des Shaolin",
+      "release_date": "1978-03-10"
+    }
+  },
+  {
+    "videoId": "XMAoCOUXXyM",
+    "youtubeTitle": "Nackte Gewalt (1993) [Action] [Thriller] | Regie: Mark L. Lester | ganzer Film auf deutsch",
+    "suchbegriff": "Nackte Gewalt",
+    "erwartetesJahr": "1953",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Lou Diamond Phillips, Scott Glenn, Chelsea Field) kommt in \"Nackte Gewalt\" vor",
+    "tmdbTopKandidat": {
+      "id": 20442,
+      "title": "Nackte Gewalt",
+      "release_date": "1953-01-29"
+    }
+  },
+  {
+    "videoId": "Difg3e43Kn4",
+    "youtubeTitle": "The Escapee 2 (2023) [Action] [Thriller] | Die Frau in schwarz | ganzer Film auf deutsch",
+    "suchbegriff": "Die Frau in Schwarz",
+    "erwartetesJahr": "2012",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Chrissie Wunna, N Walters, Simon Ellis) kommt in \"Die Frau in Schwarz\" vor",
+    "tmdbTopKandidat": {
+      "id": 65086,
+      "title": "Die Frau in Schwarz",
+      "release_date": "2012-02-03"
+    }
+  },
+  {
+    "videoId": "dXITp0qQjjU",
+    "youtubeTitle": "Billy the Kid - Showdown in Lincoln County (2017) [Western] [Action] | Ganzer Film auf deutsch",
+    "suchbegriff": "Geächtet, gefürchtet, geliebt - Billy the Kid",
+    "erwartetesJahr": "1930",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Cody McCarver, Christopher Bowman, William Adams) kommt in \"Geächtet, gefürchtet, geliebt - Billy the Kid\" vor",
+    "tmdbTopKandidat": {
+      "id": 183832,
+      "title": "Geächtet, gefürchtet, geliebt - Billy the Kid",
+      "release_date": "1930-10-16"
+    }
+  },
+  {
+    "videoId": "lSzMEcmJXHc",
+    "youtubeTitle": "Stephen King: Dolan's Cadillac (2009) [Thriller] [Crime] | Rache ist ein tiefer Grab | Ganzer Film",
+    "suchbegriff": "Stephen King's Golden Tales",
+    "erwartetesJahr": "1993",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Christian Slater, Emmanuelle Vaugier, Wes Bentley) kommt in \"Stephen King's Golden Tales\" vor",
+    "tmdbTopKandidat": {
+      "id": 460730,
+      "title": "Stephen King's Golden Tales",
+      "release_date": "1993-02-08"
+    }
+  },
+  {
+    "videoId": "ag0TxI2sUco",
+    "youtubeTitle": "Demonic Plastic Surgeon, MD (2022) [Horror] | Schönheit hat ihren Preis | Ganzer Film auf deutsch",
+    "suchbegriff": "Shell - Schönheit hat ihren Preis",
+    "erwartetesJahr": "2025",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Danielle Scott, Chrissie Wunna, Danielle Ronald) kommt in \"Shell - Schönheit hat ihren Preis\" vor",
+    "tmdbTopKandidat": {
+      "id": 787747,
+      "title": "Shell - Schönheit hat ihren Preis",
+      "release_date": "2025-10-01"
+    }
+  },
+  {
+    "videoId": "CqkgSwNosB8",
+    "youtubeTitle": "Blind Vengeance (1994) [Action] [Thriller] | Verrat zwischen Freunden | Ganzer Film auf Deutsch",
+    "suchbegriff": "Blind Vengeance",
+    "erwartetesJahr": "1994",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Gerald McRaney, Marg Helgenberger, Richard Gant) kommt in \"Blind Vengeance\" vor",
+    "tmdbTopKandidat": {
+      "id": 529471,
+      "title": "Blind Vengeance",
+      "release_date": "1994-03-22"
+    }
+  },
+  {
+    "videoId": "mO0zKtn7xLo",
+    "youtubeTitle": "Der Auftragskiller (1979) [Action] [Drama] | Zwischen Loyalität und Gewalt | ganzer Film auf deutsch",
+    "suchbegriff": "Der Auftragskiller",
+    "erwartetesJahr": "2009",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Jack Palance, Rod Steiger, Bo Svenson) kommt in \"Der Auftragskiller\" vor",
+    "tmdbTopKandidat": {
+      "id": 45080,
+      "title": "Der Auftragskiller",
+      "release_date": "2009-06-01"
+    }
+  },
+  {
+    "videoId": "3RzXiiUKFOM",
+    "youtubeTitle": "Emma - Königin der Südsee (Teil 2) (1988) [Drama] [Biografie] | ganzer Film auf deutsch",
+    "suchbegriff": "Emma, die Perle",
+    "erwartetesJahr": "1932",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Rebecca Rigg, Henk Johannes, Hal Holbrook) kommt in \"Emma, die Perle\" vor",
+    "tmdbTopKandidat": {
+      "id": 104221,
+      "title": "Emma, die Perle",
+      "release_date": "1932-01-02"
+    }
+  },
+  {
+    "videoId": "8lViiXMveOg",
+    "youtubeTitle": "Der jüngste Tag (1999) [Action] [Science-Fiction] | Ganzer Film auf Deutsch",
+    "suchbegriff": "Der jüngste Tag",
+    "erwartetesJahr": "1951",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Ice-T, Suzy Amis, Coolio) kommt in \"Der jüngste Tag\" vor",
+    "tmdbTopKandidat": {
+      "id": 16380,
+      "title": "Der jüngste Tag",
+      "release_date": "1951-09-14"
+    }
+  },
+  {
+    "videoId": "A_uZvKQCVSc",
+    "youtubeTitle": "Black Beauty (2005) [Familie] [Abenteuer] | Es geht um ein Pferd | ganzer Film auf deutsch",
+    "suchbegriff": "Black Beauty",
+    "erwartetesJahr": "1971",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Dean Stockwell, Danielle Keaton, Mark Kelly) kommt in \"Black Beauty\" vor",
+    "tmdbTopKandidat": {
+      "id": 28356,
+      "title": "Black Beauty",
+      "release_date": "1971-04-01"
+    }
+  },
+  {
+    "videoId": "w5F4vdXu2vQ",
+    "youtubeTitle": "Street - Get ready to fight (2015) [Action] [Martial Arts] | Ganzer Film auf Deutsch",
+    "suchbegriff": "22 Jump Street",
+    "erwartetesJahr": "2014",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Beau Casper Smart, Kate Miner, Shashawnee Hall) kommt in \"22 Jump Street\" vor",
+    "tmdbTopKandidat": {
+      "id": 187017,
+      "title": "22 Jump Street",
+      "release_date": "2014-06-05"
+    }
+  },
+  {
+    "videoId": "Nt29wTQxrC0",
+    "youtubeTitle": "Menschenjagd (1987) [Action] [Thriller] Duell im Schatten der Unterwelt | Ganzer Film auf Deutsch",
+    "suchbegriff": "Hunted - Menschenjagd",
+    "erwartetesJahr": "2022",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Niels Arestrup, Charlotte Very, Daniel Duval) kommt in \"Hunted - Menschenjagd\" vor",
+    "tmdbTopKandidat": {
+      "id": 935999,
+      "title": "Hunted - Menschenjagd",
+      "release_date": "2022-10-21"
+    }
+  },
+  {
+    "videoId": "l5yTSuJLBeM",
+    "youtubeTitle": "Bruce Lee - Die Todesklaue des Tigers [Eastern] | ganzer Film mit Bruce Lea, Bruce Li etc. (deutsch)",
+    "suchbegriff": "How Bruce Lee Changed the World - Das Leben und Wirken einer Ikone",
+    "erwartetesJahr": "2009",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Ryong Keo, Il-do Jang, Lik Cheung) kommt in \"How Bruce Lee Changed the World - Das Leben und Wirken einer Ikone\" vor",
+    "tmdbTopKandidat": {
+      "id": 40572,
+      "title": "How Bruce Lee Changed the World - Das Leben und Wirken einer Ikone",
+      "release_date": "2009-05-17"
+    }
+  },
+  {
+    "videoId": "19DfPnjwmt4",
+    "youtubeTitle": "Compulsion (2017) [Thriller] | ganzer Film (deutsch) ᴴᴰ",
+    "suchbegriff": "Der Zwang zum Bösen",
+    "erwartetesJahr": "1959",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Susana Abaitua, Pol Cardona, Marina Esteve) kommt in \"Der Zwang zum Bösen\" vor",
+    "tmdbTopKandidat": {
+      "id": 35921,
+      "title": "Der Zwang zum Bösen",
+      "release_date": "1959-04-01"
+    }
+  },
+  {
+    "videoId": "bGkP1WHKKQI",
+    "youtubeTitle": "Suddenly (TÜRKISCHES DRAMA ganzer Film kostenlos, Drama Filme in voller Länge, Filme auf türkisch)",
+    "suchbegriff": "Operation Olympus - White House Taken",
+    "erwartetesJahr": "2013",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Defne Kayalar, Öner Erkan, Serif Erol) kommt in \"Operation Olympus - White House Taken\" vor",
+    "tmdbTopKandidat": {
+      "id": 217896,
+      "title": "Operation Olympus - White House Taken",
+      "release_date": "2013-08-08"
+    }
+  },
+  {
+    "videoId": "w9WhEgZExiQ",
+    "youtubeTitle": "Fremde Verwandte TEIL 2 (Ganzer Film auf Deutsch kostenlos, Drama Filme, deutsche Filme ansehen)",
+    "suchbegriff": "Relative Strangers",
+    "erwartetesJahr": "2006",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Brenda Fricker, Robin Laing, Karen Ardiff) kommt in \"Relative Strangers\" vor",
+    "tmdbTopKandidat": {
+      "id": 14930,
+      "title": "Relative Strangers",
+      "release_date": "2006-05-01"
+    }
+  },
+  {
+    "videoId": "2-q6yPW_JGw",
+    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 4 – Zweite Chancen (LIEBESFILME, Serien Deutsch, Abenteuer)",
+    "suchbegriff": "Lost And Found",
+    "erwartetesJahr": "2007",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Erin Krakow, Daniel Lissing, Chelah Horsdal) kommt in \"Lost And Found\" vor",
+    "tmdbTopKandidat": {
+      "id": 74429,
+      "title": "Lost And Found",
+      "release_date": "2007-01-01"
+    }
+  },
+  {
+    "videoId": "pAXJvk8rMXQ",
+    "youtubeTitle": "Stella – Die Lolita Prostituierte (Drama in voller Länge, kompletter Film auf Deutsch anschauen)",
+    "suchbegriff": "Stella",
+    "erwartetesJahr": "1982",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Kelly Macdonald, James Bolam) kommt in \"Stella\" vor",
+    "tmdbTopKandidat": {
+      "id": 346821,
+      "title": "Stella",
+      "release_date": "1982-03-14"
+    }
+  },
+  {
+    "videoId": "D8aDcfLDU6Y",
+    "youtubeTitle": "Freakshow – Kap des Horrors (2007) [Horror] [Thriller] | Der Albtraum im Zirkuszelt | Ganzer Film",
+    "suchbegriff": "Freakshow",
+    "erwartetesJahr": "1995",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (J.D. Hart, Gene Witham, Colin Fickes) kommt in \"Freakshow\" vor",
+    "tmdbTopKandidat": {
+      "id": 27416,
+      "title": "Freakshow",
+      "release_date": "1995-10-17"
+    }
+  },
+  {
+    "videoId": "Ta67fQz5tnw",
+    "youtubeTitle": "Die drei Musketiere - Kampf, Liebe, Abenteuer (ACTION ABENTEUER mit FECHTKAMPF, ganzer Film)",
+    "suchbegriff": "Die drei Musketiere",
+    "erwartetesJahr": "1948",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Yuri Chursin, Rinal Mukhametow, Ekaterina Vilkova) kommt in \"Die drei Musketiere\" vor",
+    "tmdbTopKandidat": {
+      "id": 41609,
+      "title": "Die drei Musketiere",
+      "release_date": "1948-10-20"
+    }
+  },
+  {
+    "videoId": "xO81EXfjXVE",
+    "youtubeTitle": "Bruce Lee - Das Spiel des Todes (MARTIAL ARTS KLASSIKER der 70er mit der LEGENDE BRUCE LEE)",
+    "suchbegriff": "Mit den Fäusten von Bruce Lee",
+    "erwartetesJahr": "1978",
+    "grund": "Automatisch verworfen: keiner der genannten Darsteller (Bruce Le, Bolo Yeung, Chi Ling Chiu) kommt in \"Mit den Fäusten von Bruce Lee\" vor",
+    "tmdbTopKandidat": {
+      "id": 54853,
+      "title": "Mit den Fäusten von Bruce Lee",
+      "release_date": "1978-12-01"
+    }
   }
 ]
