@@ -189592,5 +189592,329 @@
     "director": [],
     "writer": [],
     "fsk": null
+  },
+  {
+    "videoId": "eABqjm8MS1s",
+    "youtubeTitle": "DIESER Film zeigt die wahre Tragik von MARILYN MONROE • Biografie Film Deutsch: BLOND - TEIL 2",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eABqjm8MS1s/hqdefault.jpg",
+    "duration": "PT1H22M38S",
+    "publishedAt": "2026-05-30T16:30:30Z",
+    "channelName": "Starkino",
+    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
+    "tmdbId": 258827,
+    "title": "Blonde Poison: The Making of 'Basic Instinct'",
+    "originalTitle": "Blonde Poison: The Making of 'Basic Instinct'",
+    "overview": "",
+    "releaseDate": "2001-09-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hnzQ9GVG6Fhoiz768s7twl5NMuY.jpg",
+    "backdropUrl": null,
+    "voteAverage": 6.8,
+    "genreIds": [
+      99
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Blonde\")",
+    "cast": [
+      "Gary Goldman",
+      "Frank J. Urioste",
+      "Paul Verhoeven",
+      "Alan Marshall",
+      "Michael Douglas"
+    ],
+    "director": [
+      "Jeffrey Schwarz"
+    ],
+    "writer": [],
+    "fsk": null,
+    "posterLocal": "img/posters/258827.jpg"
+  },
+  {
+    "videoId": "GLWbYmQaZtA",
+    "youtubeTitle": "Edgar Wallace - Der Hexer (Krimi-Thriller auf Deutsch, Film von RAINER ERLER, schwarz weiß Filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GLWbYmQaZtA/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2021-01-03T18:30:06Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 178695,
+    "title": "Der Henker von London",
+    "originalTitle": "Der Henker von London",
+    "overview": "Der sogenannte „Henker von London“ hält die britische Hauptstadt in Atem. Mit seiner Verschwörerbande hat der mysteriöse Mann bereits drei Verbrecher, deren Taten bis dahin nicht aufgedeckt wurden, zum Tode durch den Strang verurteilt und hingerichtet. Inspektor John Hillier und der mit ihm befreundete Polizeiarzt Dr. Philip Trooper finden bei den Toten jeweils eine „Beweisakte“ sowie den historischen Henkersstrick, der vorher aus dem Kriminalmuseum von Scotland Yard entwendet wurde.",
+    "releaseDate": "1963-11-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gPWA0mnF09Z5HrkMW2ZHiPkHUnw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xQf1piuJPKFlsivsdjkrqVTqyGl.jpg",
+    "voteAverage": 6.348,
+    "genreIds": [
+      80,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
+    "cast": [
+      "Hansjörg Felmy",
+      "Maria Perschy",
+      "Dieter Borsche",
+      "Wolfgang Preiss",
+      "Harry Riebauer"
+    ],
+    "director": [
+      "Edwin Zbonek"
+    ],
+    "writer": [
+      "Robert A. Stemmle"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/178695.jpg"
+  },
+  {
+    "videoId": "RiEkN4EEVqY",
+    "youtubeTitle": "The House (Geisterfilm in ganzer länge, Horrorfilm auf Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RiEkN4EEVqY/hqdefault.jpg",
+    "duration": "PT1H28M18S",
+    "publishedAt": "2016-03-30T14:00:01Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 672582,
+    "title": "The Deep House",
+    "originalTitle": "The Deep House",
+    "overview": "Ein junges Paar, das sich auf Unterwasser-Erkundungsvideos spezialisiert hat, entdeckt beim Tauchen ein Haus, das in den Tiefen des abgelegenen französischen Sees versunken ist. Was zunächst ein einzigartiger Fund war, verwandelt sich bald in einen Albtraum, als sie entdecken, dass das Haus der Schauplatz grausamer Verbrechen war.",
+    "releaseDate": "2021-06-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5xhAPxRr64oQPEFnUOrttuI4ZEU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hzPcEqyxZauvKZmUT2aJxntWPVf.jpg",
+    "voteAverage": 5.984,
+    "genreIds": [
+      27,
+      9648
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 90 (Suchbegriff: \"The House\")",
+    "cast": [
+      "James Jagger",
+      "Camille Rowe",
+      "Éric Savin",
+      "Marie Bernard",
+      "Marie Caffier"
+    ],
+    "director": [
+      "Alexandre Bustillo",
+      "Julien Maury"
+    ],
+    "writer": [
+      "Alexandre Bustillo",
+      "Julien Maury"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/672582.jpg"
+  },
+  {
+    "videoId": "4cklYPLLU6Q",
+    "youtubeTitle": "Eclipse - Kampf der Magie | Zauberer und Magier | Fantasy-Epos | ganzer Film auf Deutsch in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4cklYPLLU6Q/hqdefault.jpg",
+    "duration": "PT1H23M30S",
+    "publishedAt": "2025-05-10T07:00:09Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 36834,
+    "title": "Total Eclipse - Die Affäre von Rimbaud und Verlaine",
+    "originalTitle": "Total Eclipse",
+    "overview": "Paul Verlaine ist bereits ein recht angesehener Dichter, als er 1871 von dem jungen Arthur Rimbaud einige Verse geschickt bekommt. Als Verlaine Rimbaud nach Paris einlädt, gibt der sich provozierend flegelhaft. Doch gerade Rimbauds Arroganz angesichts der Konventionen seiner Zeit imponieren Verlaine. Schon am ersten Abend verliebt er sich Hals über Kopf in den jungen Poeten. Mathilde  Rimbauds hochschwangere Frau, sieht den wachsenden Einfluss Rimbauds auf ihren Gatten mit Besorgnis.  Tatsächlich dauert die Liaison der ungleichen Dichter, die gemeinsam durch Europa reisen, über zwei Jahre. Als sich Rimbaud, geschwächt von Alkoholexzessen und Hasch, der grundlegenden Verschiedenheit endlich bewußt wird und Verlaine zu verlassen droht, kommt es zum Drama...",
+    "releaseDate": "1995-11-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yJ51LlIWWpWxvsmbj1lcyF1ZxxK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3FYltaTkmrFeVquPOXbAXgYVuqZ.jpg",
+    "voteAverage": 6.418,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 90 (Suchbegriff: \"Eclipse\")",
+    "cast": [
+      "Leonardo DiCaprio",
+      "David Thewlis",
+      "Romane Bohringer",
+      "Dominique Blanc",
+      "Nita Klein"
+    ],
+    "director": [
+      "Agnieszka Holland"
+    ],
+    "writer": [
+      "Christopher Hampton"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/36834.jpg"
+  },
+  {
+    "videoId": "E6wg1PPwZ88",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (MYSTERY KRIMIFILM, ganzer film deutsch, krimifilme, krimis, spielfilme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/E6wg1PPwZ88/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2025-07-15T15:30:06Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 9634,
+    "title": "Das indische Tuch",
+    "originalTitle": "Das indische Tuch",
+    "overview": "Nachdem Lord Lebanon mit einem indischen Tuch erwürgt wurde, fiebert seine Verwandtschaft der Testamentseröffnung entgegen. Doch zur allgemeinen Überraschung verliest Rechtsanwalt Tanner nur den „vorletzten Willen“ des Spaßvogels. Darin verlangt dieser, dass die zerstrittene Familie sechs Tage gemeinsam auf dem Schloss verbringen soll. Erst danach soll das Testament – „der letzte Wille“ – verlesen werden. Nachdem der erste Erbe in dem durch einen Sturm von der Außenwelt abgeschnittenen Schloss ermordet wird, übernimmt Tanner die Ermittlungen.",
+    "releaseDate": "1963-09-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4ZGA0m8J9r8GGHqo0jhcS01anXE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/baSfWto9f4Js2h0VY8JwXf9tnQP.jpg",
+    "voteAverage": 6.782,
+    "genreIds": [
+      80,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
+    "cast": [
+      "Heinz Drache",
+      "Corny Collins",
+      "Klaus Kinski",
+      "Gisela Uhlen",
+      "Hans Nielsen"
+    ],
+    "director": [
+      "Alfred Vohrer"
+    ],
+    "writer": [
+      "George Hurdalek",
+      "Harald G. Petersson"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/9634.jpg"
+  },
+  {
+    "videoId": "8gwxtlK7I_o",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (deutscher KRIMI KLASSIKER, ganzer film deutsch, krimifilme, spielfilm, hd)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8gwxtlK7I_o/hqdefault.jpg",
+    "duration": "PT1H18M51S",
+    "publishedAt": "2024-12-15T16:30:01Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 1663,
+    "title": "Der Zinker",
+    "originalTitle": "Der Zinker",
+    "overview": "Unter Londons Dieben greifen Schlangengiftmorde um sich. Dahinter steckt „Der Zinker“, der von jedem Raubzug in der Stadt seinen Anteil fordert und keine Zeugen duldet. Inspektor Elford will ihm den Giftzahn ziehen.",
+    "releaseDate": "1963-04-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vktJzwdCk5bpfUfAuoL6cuey2x7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5iLg9gTyORDu6rS8Lcp9Epu2qZ7.jpg",
+    "voteAverage": 6.511,
+    "genreIds": [
+      80,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
+    "cast": [
+      "Heinz Drache",
+      "Barbara Rütting",
+      "Günter Pfitzmann",
+      "Agnes Windeck",
+      "Eddi Arent"
+    ],
+    "director": [
+      "Alfred Vohrer"
+    ],
+    "writer": [
+      "Harald G. Petersson"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/1663.jpg"
+  },
+  {
+    "videoId": "3RzXiiUKFOM",
+    "youtubeTitle": "Emma - Königin der Südsee (Teil 2) (1988) [Drama] [Biografie] | ganzer Film auf deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/3RzXiiUKFOM/hqdefault.jpg",
+    "duration": "PT1H33M11S",
+    "publishedAt": "2026-03-28T17:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 61108,
+    "title": "Emmanuelle 6",
+    "originalTitle": "Emmanuelle 6",
+    "overview": "Eine junge Frau wird von Mädchenhändlern in die Karibik entführt und muß dort ein traumatisches Erlebnis gehabt haben, denn nach ihrer Rückkehr kann sie sich an nichts mehr erinnern und muß sich daher in psychiatrische Behandlung begeben.",
+    "releaseDate": "1988-07-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8FdT0UlOfqn5Ii94lpZPeBzfaO4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8hPu8mZwUxPHJPKVEjY2VLUuzKx.jpg",
+    "voteAverage": 3.946,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 89 (Suchbegriff: \"Emma\")",
+    "cast": [
+      "Natalie Uher",
+      "Jean-René Gossart",
+      "Thomas Obermuller",
+      "Gustavo Rodríguez",
+      "François Guerrar"
+    ],
+    "director": [
+      "Bruno Zincone",
+      "Jean Rollin"
+    ],
+    "writer": [
+      "Jean Rollin"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/61108.jpg"
+  },
+  {
+    "videoId": "eAUJLtYLBFA",
+    "youtubeTitle": "Sie Nahmen Ihm Alles, Doch Er Kam Zurück, Um Es Zu Beenden | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eAUJLtYLBFA/hqdefault.jpg",
+    "duration": "PT1H15M5S",
+    "publishedAt": "2026-08-13T10:02:12Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "Sie Nahmen Ihm Alles, Doch Er Kam Zurück, Um Es Zu Beenden",
+    "originalTitle": null,
+    "overview": "Ein Mann mit einer explosiven Vergangenheit hat gelernt, seine Wut unter Kontrolle zu halten und ein ruhiges Leben zu führen. Doch als eine Person aus seiner Vergangenheit brutal aus dem Leben gerissen wird, zerbricht diese Ruhe. Er beginnt auf eigene Faust nach den Verantwortlichen zu suchen und gerät dabei immer tiefer in eine gefährliche Welt, in der mächtige Gegner ihre Spuren um jeden Preis beseitigen wollen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "MI2Gt0QeK5w",
+    "youtubeTitle": "Wenn die Wahrheit das Leben zerstört: Ein Drama über Schmerz und Verlust | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MI2Gt0QeK5w/hqdefault.jpg",
+    "duration": "PT1H27M54S",
+    "publishedAt": "2026-08-13T17:00:16Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn die Wahrheit das Leben zerstört: Ein Drama über Schmerz und Verlust",
+    "originalTitle": null,
+    "overview": "Nach dem plötzlichen Absturz eines Passagierflugzeugs verliert die Flugunfall-Ermittlerin Sophia ihren eigenen Bruder, den sie kurz vor dem Start an Bord zurückließ. Geplagt von schweren Schuldgefühlen und gegen den ausdrücklichen Befehl ihrer Vorgesetzten nimmt sie die Ermittlungen auf eigene Faust auf. Mysteriöse Funde in den Zeitschriftenfächern und verdächtige Verhaltensmuster von Passagieren offenbaren bald, dass ein gezielter Anschlag mit einer chemischen Brandbombe hinter der Katastrophe steckt. Während die Behörden den Fall schnell als tragischen Unfall abtun wollen, deckt Sophia Schritt für Schritt die Spuren eines gefährlichen Terrornetzwerks auf. Ein dramatisch geladener Film voller Schmerz, persönlicher Ermittlungsarbeit und der kompromisslosen Suche nach der Wahrheit.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null
   }
 ]
