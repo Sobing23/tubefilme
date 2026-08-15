@@ -189594,280 +189594,6 @@
     "fsk": null
   },
   {
-    "videoId": "eABqjm8MS1s",
-    "youtubeTitle": "DIESER Film zeigt die wahre Tragik von MARILYN MONROE • Biografie Film Deutsch: BLOND - TEIL 2",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/eABqjm8MS1s/hqdefault.jpg",
-    "duration": "PT1H22M38S",
-    "publishedAt": "2026-05-30T16:30:30Z",
-    "channelName": "Starkino",
-    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
-    "tmdbId": 258827,
-    "title": "Blonde Poison: The Making of 'Basic Instinct'",
-    "originalTitle": "Blonde Poison: The Making of 'Basic Instinct'",
-    "overview": "",
-    "releaseDate": "2001-09-28",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/hnzQ9GVG6Fhoiz768s7twl5NMuY.jpg",
-    "backdropUrl": null,
-    "voteAverage": 6.8,
-    "genreIds": [
-      99
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Blonde\")",
-    "cast": [
-      "Gary Goldman",
-      "Frank J. Urioste",
-      "Paul Verhoeven",
-      "Alan Marshall",
-      "Michael Douglas"
-    ],
-    "director": [
-      "Jeffrey Schwarz"
-    ],
-    "writer": [],
-    "fsk": null,
-    "posterLocal": "img/posters/258827.jpg"
-  },
-  {
-    "videoId": "GLWbYmQaZtA",
-    "youtubeTitle": "Edgar Wallace - Der Hexer (Krimi-Thriller auf Deutsch, Film von RAINER ERLER, schwarz weiß Filme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/GLWbYmQaZtA/hqdefault.jpg",
-    "duration": "PT1H27M50S",
-    "publishedAt": "2021-01-03T18:30:06Z",
-    "channelName": "Dzango",
-    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
-    "tmdbId": 178695,
-    "title": "Der Henker von London",
-    "originalTitle": "Der Henker von London",
-    "overview": "Der sogenannte „Henker von London“ hält die britische Hauptstadt in Atem. Mit seiner Verschwörerbande hat der mysteriöse Mann bereits drei Verbrecher, deren Taten bis dahin nicht aufgedeckt wurden, zum Tode durch den Strang verurteilt und hingerichtet. Inspektor John Hillier und der mit ihm befreundete Polizeiarzt Dr. Philip Trooper finden bei den Toten jeweils eine „Beweisakte“ sowie den historischen Henkersstrick, der vorher aus dem Kriminalmuseum von Scotland Yard entwendet wurde.",
-    "releaseDate": "1963-11-22",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/gPWA0mnF09Z5HrkMW2ZHiPkHUnw.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xQf1piuJPKFlsivsdjkrqVTqyGl.jpg",
-    "voteAverage": 6.348,
-    "genreIds": [
-      80,
-      9648
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
-    "cast": [
-      "Hansjörg Felmy",
-      "Maria Perschy",
-      "Dieter Borsche",
-      "Wolfgang Preiss",
-      "Harry Riebauer"
-    ],
-    "director": [
-      "Edwin Zbonek"
-    ],
-    "writer": [
-      "Robert A. Stemmle"
-    ],
-    "fsk": "12",
-    "posterLocal": "img/posters/178695.jpg"
-  },
-  {
-    "videoId": "RiEkN4EEVqY",
-    "youtubeTitle": "The House (Geisterfilm in ganzer länge, Horrorfilm auf Deutsch komplett)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/RiEkN4EEVqY/hqdefault.jpg",
-    "duration": "PT1H28M18S",
-    "publishedAt": "2016-03-30T14:00:01Z",
-    "channelName": "Dzango",
-    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
-    "tmdbId": 672582,
-    "title": "The Deep House",
-    "originalTitle": "The Deep House",
-    "overview": "Ein junges Paar, das sich auf Unterwasser-Erkundungsvideos spezialisiert hat, entdeckt beim Tauchen ein Haus, das in den Tiefen des abgelegenen französischen Sees versunken ist. Was zunächst ein einzigartiger Fund war, verwandelt sich bald in einen Albtraum, als sie entdecken, dass das Haus der Schauplatz grausamer Verbrechen war.",
-    "releaseDate": "2021-06-30",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/5xhAPxRr64oQPEFnUOrttuI4ZEU.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hzPcEqyxZauvKZmUT2aJxntWPVf.jpg",
-    "voteAverage": 5.984,
-    "genreIds": [
-      27,
-      9648
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 90 (Suchbegriff: \"The House\")",
-    "cast": [
-      "James Jagger",
-      "Camille Rowe",
-      "Éric Savin",
-      "Marie Bernard",
-      "Marie Caffier"
-    ],
-    "director": [
-      "Alexandre Bustillo",
-      "Julien Maury"
-    ],
-    "writer": [
-      "Alexandre Bustillo",
-      "Julien Maury"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/672582.jpg"
-  },
-  {
-    "videoId": "4cklYPLLU6Q",
-    "youtubeTitle": "Eclipse - Kampf der Magie | Zauberer und Magier | Fantasy-Epos | ganzer Film auf Deutsch in HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/4cklYPLLU6Q/hqdefault.jpg",
-    "duration": "PT1H23M30S",
-    "publishedAt": "2025-05-10T07:00:09Z",
-    "channelName": "Planet Movies",
-    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
-    "tmdbId": 36834,
-    "title": "Total Eclipse - Die Affäre von Rimbaud und Verlaine",
-    "originalTitle": "Total Eclipse",
-    "overview": "Paul Verlaine ist bereits ein recht angesehener Dichter, als er 1871 von dem jungen Arthur Rimbaud einige Verse geschickt bekommt. Als Verlaine Rimbaud nach Paris einlädt, gibt der sich provozierend flegelhaft. Doch gerade Rimbauds Arroganz angesichts der Konventionen seiner Zeit imponieren Verlaine. Schon am ersten Abend verliebt er sich Hals über Kopf in den jungen Poeten. Mathilde  Rimbauds hochschwangere Frau, sieht den wachsenden Einfluss Rimbauds auf ihren Gatten mit Besorgnis.  Tatsächlich dauert die Liaison der ungleichen Dichter, die gemeinsam durch Europa reisen, über zwei Jahre. Als sich Rimbaud, geschwächt von Alkoholexzessen und Hasch, der grundlegenden Verschiedenheit endlich bewußt wird und Verlaine zu verlassen droht, kommt es zum Drama...",
-    "releaseDate": "1995-11-03",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/yJ51LlIWWpWxvsmbj1lcyF1ZxxK.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3FYltaTkmrFeVquPOXbAXgYVuqZ.jpg",
-    "voteAverage": 6.418,
-    "genreIds": [
-      18,
-      10749
-    ],
-    "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 90 (Suchbegriff: \"Eclipse\")",
-    "cast": [
-      "Leonardo DiCaprio",
-      "David Thewlis",
-      "Romane Bohringer",
-      "Dominique Blanc",
-      "Nita Klein"
-    ],
-    "director": [
-      "Agnieszka Holland"
-    ],
-    "writer": [
-      "Christopher Hampton"
-    ],
-    "fsk": "12",
-    "posterLocal": "img/posters/36834.jpg"
-  },
-  {
-    "videoId": "E6wg1PPwZ88",
-    "youtubeTitle": "Edgar Wallace: Der Hexer (MYSTERY KRIMIFILM, ganzer film deutsch, krimifilme, krimis, spielfilme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/E6wg1PPwZ88/hqdefault.jpg",
-    "duration": "PT1H27M50S",
-    "publishedAt": "2025-07-15T15:30:06Z",
-    "channelName": "Heimatkino",
-    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
-    "tmdbId": 9634,
-    "title": "Das indische Tuch",
-    "originalTitle": "Das indische Tuch",
-    "overview": "Nachdem Lord Lebanon mit einem indischen Tuch erwürgt wurde, fiebert seine Verwandtschaft der Testamentseröffnung entgegen. Doch zur allgemeinen Überraschung verliest Rechtsanwalt Tanner nur den „vorletzten Willen“ des Spaßvogels. Darin verlangt dieser, dass die zerstrittene Familie sechs Tage gemeinsam auf dem Schloss verbringen soll. Erst danach soll das Testament – „der letzte Wille“ – verlesen werden. Nachdem der erste Erbe in dem durch einen Sturm von der Außenwelt abgeschnittenen Schloss ermordet wird, übernimmt Tanner die Ermittlungen.",
-    "releaseDate": "1963-09-13",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/4ZGA0m8J9r8GGHqo0jhcS01anXE.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/baSfWto9f4Js2h0VY8JwXf9tnQP.jpg",
-    "voteAverage": 6.782,
-    "genreIds": [
-      80,
-      53
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
-    "cast": [
-      "Heinz Drache",
-      "Corny Collins",
-      "Klaus Kinski",
-      "Gisela Uhlen",
-      "Hans Nielsen"
-    ],
-    "director": [
-      "Alfred Vohrer"
-    ],
-    "writer": [
-      "George Hurdalek",
-      "Harald G. Petersson"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/9634.jpg"
-  },
-  {
-    "videoId": "8gwxtlK7I_o",
-    "youtubeTitle": "Edgar Wallace: Der Hexer (deutscher KRIMI KLASSIKER, ganzer film deutsch, krimifilme, spielfilm, hd)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/8gwxtlK7I_o/hqdefault.jpg",
-    "duration": "PT1H18M51S",
-    "publishedAt": "2024-12-15T16:30:01Z",
-    "channelName": "Heimatkino",
-    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
-    "tmdbId": 1663,
-    "title": "Der Zinker",
-    "originalTitle": "Der Zinker",
-    "overview": "Unter Londons Dieben greifen Schlangengiftmorde um sich. Dahinter steckt „Der Zinker“, der von jedem Raubzug in der Stadt seinen Anteil fordert und keine Zeugen duldet. Inspektor Elford will ihm den Giftzahn ziehen.",
-    "releaseDate": "1963-04-26",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/vktJzwdCk5bpfUfAuoL6cuey2x7.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5iLg9gTyORDu6rS8Lcp9Epu2qZ7.jpg",
-    "voteAverage": 6.511,
-    "genreIds": [
-      80,
-      9648
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
-    "cast": [
-      "Heinz Drache",
-      "Barbara Rütting",
-      "Günter Pfitzmann",
-      "Agnes Windeck",
-      "Eddi Arent"
-    ],
-    "director": [
-      "Alfred Vohrer"
-    ],
-    "writer": [
-      "Harald G. Petersson"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/1663.jpg"
-  },
-  {
-    "videoId": "3RzXiiUKFOM",
-    "youtubeTitle": "Emma - Königin der Südsee (Teil 2) (1988) [Drama] [Biografie] | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/3RzXiiUKFOM/hqdefault.jpg",
-    "duration": "PT1H33M11S",
-    "publishedAt": "2026-03-28T17:00:06Z",
-    "channelName": "CiNENET Deutschland",
-    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
-    "tmdbId": 61108,
-    "title": "Emmanuelle 6",
-    "originalTitle": "Emmanuelle 6",
-    "overview": "Eine junge Frau wird von Mädchenhändlern in die Karibik entführt und muß dort ein traumatisches Erlebnis gehabt haben, denn nach ihrer Rückkehr kann sie sich an nichts mehr erinnern und muß sich daher in psychiatrische Behandlung begeben.",
-    "releaseDate": "1988-07-06",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/8FdT0UlOfqn5Ii94lpZPeBzfaO4.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8hPu8mZwUxPHJPKVEjY2VLUuzKx.jpg",
-    "voteAverage": 3.946,
-    "genreIds": [
-      18,
-      10749
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 89 (Suchbegriff: \"Emma\")",
-    "cast": [
-      "Natalie Uher",
-      "Jean-René Gossart",
-      "Thomas Obermuller",
-      "Gustavo Rodríguez",
-      "François Guerrar"
-    ],
-    "director": [
-      "Bruno Zincone",
-      "Jean Rollin"
-    ],
-    "writer": [
-      "Jean Rollin"
-    ],
-    "fsk": "18",
-    "posterLocal": "img/posters/61108.jpg"
-  },
-  {
     "videoId": "eAUJLtYLBFA",
     "youtubeTitle": "Sie Nahmen Ihm Alles, Doch Er Kam Zurück, Um Es Zu Beenden | Ganzer Film Deutsch",
     "youtubeThumbnail": "https://i.ytimg.com/vi/eAUJLtYLBFA/hqdefault.jpg",
@@ -189914,6 +189640,251 @@
     "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
     "cast": [],
     "director": [],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "34RiGDlqZn0",
+    "youtubeTitle": "Die zweite Wahl - Eine Romanze (1985) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/34RiGDlqZn0/hqdefault.jpg",
+    "duration": "PT1H47M41S",
+    "publishedAt": "2026-08-14T16:00:04Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 34322,
+    "title": "Die zweite Wahl - Eine Romanze",
+    "originalTitle": "Murphy's Romance",
+    "overview": "Emma (Sally Field) hat endgültig die Nase voll. Nach der Scheidung zieht sie mit Sohn Jake (Corey Haim) auf eine Pferderanch nach Arizona. Dort lernt sie den 60-jährigen Drugstore-Besitzer Murphy Jones (James Garner) kennen und schätzen. Ausgerechnet jetzt taucht Emmas Ex-Mann Bobby (Brian Kerwin) auf und macht es sich in ihrem neuen Zuhause gemütlich. Er kehrt schnell zu seinen unangenehmen Gewohnheiten zurück und legt sich mit Murphy an… Mit Regisseur Martin Ritt drehte Sally Field auch das Politdrama „Norma Rae – Eine Frau steht ihren Mann“, für den sie 1979 den Oscar erhielt.",
+    "releaseDate": "1985-12-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hCl1X4Fh8LTQV283AJ5sKUanxV7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oFKibkbBsT6Uy8Iih4xGyXlwKQg.jpg",
+    "voteAverage": 6.169,
+    "genreIds": [
+      35,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Sally Field",
+      "James Garner",
+      "Brian Kerwin",
+      "Corey Haim",
+      "Dennis Burkley"
+    ],
+    "director": [
+      "Martin Ritt"
+    ],
+    "writer": [
+      "Harriet Frank Jr.",
+      "Irving Ravetch"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/34322.jpg"
+  },
+  {
+    "videoId": "VIQKoSkR3uI",
+    "youtubeTitle": "Nereus - Geh' nicht ins Wasser | 2018 | Thriller | Ganzer Horrorfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VIQKoSkR3uI/hqdefault.jpg",
+    "duration": "PT1H47M19S",
+    "publishedAt": "2026-08-14T17:00:15Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 492713,
+    "title": "Nereus",
+    "originalTitle": "Nereus",
+    "overview": "Während dessen Frau auf Geschäftsreise ist, besucht Sara ihren Kindheitsfreund Will in einem Apartmentkomplex. Am Abend feiern die beiden eine Poolparty mit einigen anderen Bewohnern des Gebäudes. Auf der Feier befindet sich auch Alex, der Sara rät, von dem Ort zu verschwinden, da sie dort nicht sicher sei. Die junge Frau nimmt die Warnung zunächst nicht ernst, wird aber schon kurz darauf von gruseligen Visionen geplagt. Als sie dann auch noch durch die Bewohnerin Kate erfährt, dass einige Monate zuvor jemand beim Schwimmen im Pool verschwunden ist, läuten ihre Alarmglocken. Schon bald entdeckt Sara, dass nicht nur sie, sondern jeder, der mit dem Wasser in Berührung kam, in akuter Lebensgefahr schwebt. Aus diesem Grund beschließt sie, sich der mysteriösen und gefährlichen Kreatur zu stellen, die am Boden des Pools lauert...",
+    "releaseDate": "2019-08-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/atvznIhyHItHBNUETG8VLphY0X7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7oNT7ahlYiblii153PZVuKBJARu.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      27,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"Nereus\")",
+    "cast": [
+      "Itziar Martinez",
+      "Dennis Mencia",
+      "Raul Walder",
+      "Sean Ormond",
+      "Josephine Phoenix"
+    ],
+    "director": [
+      "Georges Padey"
+    ],
+    "writer": [
+      "Georges Padey",
+      "Itziar Martinez"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/492713.jpg"
+  },
+  {
+    "videoId": "mH3P-Y85API",
+    "youtubeTitle": "Ein Toter spielt Klavier - Scream of Fear (1961) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mH3P-Y85API/hqdefault.jpg",
+    "duration": "PT1H21M47S",
+    "publishedAt": "2026-08-14T16:00:02Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 64568,
+    "title": "Ein Toter spielt Klavier",
+    "originalTitle": "Taste of Fear",
+    "overview": "Die an den Rollstuhl gefesselte Penny Appleby will zum ersten Mal seit zehn Jahren ihren Vater an der französischen Riviera besuchen. Vor Ort wird sie von ihrer neuen Stiefmutter Jane empfangen und erfährt, dass sich ihr Vater auf einer überraschenden Geschäftsreise befindet. Umso schockierter ist Penny, als sie nachts die Leiche ihres Vaters im Gästehaus zu sehen glaubt. In den nächsten Tagen trifft sie wiederholt auf die Leiche, ohne dass eine Spur von ihr zurückbleibt. Der Arzt Dr. Gerrard verkündet, dass Penny unter Halluzinationen leidet, doch in dem attraktiven Chauffeur Bob scheint sie einen Verbündeten zu haben.",
+    "releaseDate": "1961-04-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/v3ruaPi7oneTrqkQaFzpxW0htFP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jI2r5DoPdZHlRdIdYC8SbDh73At.jpg",
+    "voteAverage": 7.107,
+    "genreIds": [
+      53,
+      9648,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Susan Strasberg",
+      "Ronald Lewis",
+      "Ann Todd",
+      "Christopher Lee",
+      "John Serret"
+    ],
+    "director": [
+      "Seth Holt"
+    ],
+    "writer": [
+      "Jimmy Sangster"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/64568.jpg"
+  },
+  {
+    "videoId": "pz85_rvQEcA",
+    "youtubeTitle": "Winterromantik & Hochzeitschaos: Marry Christmas - Eine Hochzeit kommt selten allein | GANZER FILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pz85_rvQEcA/hqdefault.jpg",
+    "duration": "PT1H31M59S",
+    "publishedAt": "2026-02-28T17:15:04Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": null,
+    "title": "Winterromantik & Hochzeitschaos: Marry Christmas - Eine Hochzeit kommt selten allein",
+    "originalTitle": null,
+    "overview": "Als Hochzeitsplanerin Rachel von einem reichen Influencer-Pärchen für die Organisation ihrer opulenten Hochzeit engagiert wird, trifft sie plötzlich ihre erste große Liebe Logan wieder, der sie einst sitzengelassen hat. Das Wiedersehen erinnert Rachel daran, was es bedeutet jemanden zu lieben und der Zauber der Weihnachtszeit lässt sie einen Teil ihres Herzens wiederentdecken, den sie vor langer Zeit verschlossen hat.\n#ganzerFilm #ganzerFilmaufDeutsch #Film\n#Weihnachten #Weihnachten2025 #Weihnachtsfilm #Weihnachtsfilme #MarryChristmas",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Mary Antonini",
+      "Peter Porte",
+      "Kelley Jakle"
+    ],
+    "director": [
+      "Nanea Miyata"
+    ],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "7R76uhGEJEQ",
+    "youtubeTitle": "Spannender PSYCHOTHRILLER: Mary Higgins Clark: Dass du ewig denkst an mich | Mystery Filme DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7R76uhGEJEQ/hqdefault.jpg",
+    "duration": "PT1H26M50S",
+    "publishedAt": "2026-02-08T17:15:00Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": null,
+    "title": "Spannender PSYCHOTHRILLER: Mary Higgins Clark: Dass du ewig denkst an mich - Mystery Filme DEUTSCH",
+    "originalTitle": null,
+    "overview": "Als der beliebte College-Professor Allan Grant (Kevin Jubinville) ermordet wird, trauern viele um ihn. Aber auch seine Frau Karen (Nastassja Kinski) weiß, dass er nicht nur gerne flirtetet , sondern ein regelrechter Frauenheld war. Wegen dieses Rufs ist eine seiner attraktiven Studentinnen, Laurie Kinmount (Kim Schraner), schnell die Hauptverdächtige bei den Ermittlungen, vor allem nachdem sie sich öffentlich mit dem Professor gestritten hatte. Dies macht die Dinge schnell kompliziert, da Lauries Schwester Sarah (Andrea Roth) die Staatsanwältin ist, und mit dem Fall betraut wurde. Da Laurie sich nicht an die Geschehnisse in der Mordnacht erinnern kann, ziehen Sarah und Detective Brandon Moody (Ron Lea) einen Psychiater hinzu, um Lauries Erinnerungvermögen wieder herzustellen. Dieser diagnostiziert eine dissoziative Identitätsstörung. Er findet aber Zugang zu Laurie und kann Schritt für S",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Lesley-Anne Down",
+      "Jonathan Kerrigan",
+      "Barclay Hope"
+    ],
+    "director": [
+      "Paolo Barzman"
+    ],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "M7jqUAt66qM",
+    "youtubeTitle": "Astronaut: Mission Überleben | großes Sci-Fi Thriller-Epos und Actionspektakel | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/M7jqUAt66qM/hqdefault.jpg",
+    "duration": "PT1H28M13S",
+    "publishedAt": "2024-08-24T08:00:23Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": null,
+    "title": "Astronaut: Mission Überleben - großes Sci-Fi Thriller-Epos und Actionspektakel",
+    "originalTitle": null,
+    "overview": "Aktuelle Fotos haben Leben in den Ozeanen des Jupitermondes Europa gezeigt. Der Abenteurer Walter Moffitt steckt seine Milliarden in ein kleines Raumschiff, das zwei Astronauten, Nathan Miller und Michael Forrest, zum Jupitermond Europa befördern soll. Leider kommt es zu einer Katastrophe. Miller wird getötet und Forrest muss sich ohne Verbindung zur Erde in dem Raumschiff allein durchschlagen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Lance Henriksen",
+      "Khary Payton",
+      "Brian Baumgartner",
+      "James Madio"
+    ],
+    "director": [
+      "Eric Hayden"
+    ],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "42JeRTZu26w",
+    "youtubeTitle": "Fremde Verwandte - Teil 2 (DRAMA in voller länge, ganzer film deutsch, deutsche filme, spielfilm)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/42JeRTZu26w/hqdefault.jpg",
+    "duration": "PT1H28M41S",
+    "publishedAt": "2025-10-21T15:30:04Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": null,
+    "title": "Fremde Verwandte - Teil 2",
+    "originalTitle": null,
+    "overview": "Nach dem plötzlichen Tod ihres Mannes kehrt Maureen unter dem Vorwand, dort dessen geschäftliche angelegenheiten zu regeln, aus Deutschland zurück nach Irland. In Wahrheit will sie mehr über seine Geliebte und deren fünfjährigen Sohn herausfinden. Ihre Absicht, ihren eigenen Kindern das Wissen über die Untreue ihres Vaters zu ersparen zerbricht, als sie erfährt, dass der Sohn der Geliebten an Leukämie zu sterben droht.\n#Spielfilm #ganzerFilm #FilmeaufDeutsch",
+    "releaseDate": "1999-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Brenda Fricker",
+      "Robin Laing",
+      "Karen Ardiff"
+    ],
+    "director": [
+      "Giles Foster"
+    ],
     "writer": [],
     "fsk": null
   }
