@@ -240,7 +240,6 @@ const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
 const TOKEN_KEY = "tubefilme_review_token";
 
 let token = localStorage.getItem(TOKEN_KEY);
-let candidatesById = new Map();
 let reviewedSet = new Set();
 let allFilme = []; // für den "Alle Filme"-Tab
 
@@ -398,10 +397,13 @@ async function loadAll() {
   document.getElementById("count-kanaele").textContent = "Lade...";
   document.getElementById("count-cover").textContent = "Lade...";
 
-  const [unmatchedR, filmeR, candidatesR, reviewedR, ignoredR, channelsR, coverDismissedR] = await Promise.all([
+  // candidates.json wird hier bewusst NICHT geladen: die Datei ist auf über
+  // 20 MB angewachsen und wurde nur für Vorschaubild und Kanalname der
+  // Unmatched-Liste gebraucht. Das Vorschaubild lässt sich direkt aus der
+  // videoId bilden -- der Download hätte die Seite sonst unbenutzbar gemacht.
+  const [unmatchedR, filmeR, reviewedR, ignoredR, channelsR, coverDismissedR] = await Promise.all([
     ghGetFile("data/unmatched.json"),
     ghGetFile("data/filme.json"),
-    ghGetFile("data/candidates.json"),
     ghGetFile("data/reviewed.json").catch(() => ({ content: [] })),
     ghGetFile("data/ignored.json").catch(() => ({ content: [] })),
     ghGetFile("config/channels.json").catch(() => ({ content: { channels: [] } })),
@@ -410,13 +412,11 @@ async function loadAll() {
 
   const unmatched = unmatchedR.content;
   const filme = filmeR.content;
-  const candidates = candidatesR.content;
   const reviewed = reviewedR.content;
   const ignored = ignoredR.content;
   const channels = channelsR.content;
   const coverDismissed = coverDismissedR.content;
 
-  candidatesById = new Map(candidates.map(c => [c.videoId, c]));
   reviewedSet = new Set(reviewed);
   const ignoredSet = new Set(ignored);
   const coverDismissedSet = new Set(coverDismissed);
@@ -753,9 +753,7 @@ function escapeHtml(s) {
 function renderUnmatched(items) {
   const list = document.getElementById("list-unmatched");
   list.innerHTML = items.map(u => {
-    const cand = candidatesById.get(u.videoId);
-    const thumb = cand?.thumbnail || "";
-    const channel = cand?.channelName || "?";
+    const thumb = `https://i.ytimg.com/vi/${u.videoId}/hqdefault.jpg`;
     const searchQuery = encodeURIComponent(u.suchbegriff || u.youtubeTitle);
     return `
       <div class="card" id="card-um-${u.videoId}">
@@ -763,7 +761,6 @@ function renderUnmatched(items) {
         <div>
           <h3>${escapeHtml(u.youtubeTitle)}</h3>
           <div class="meta">
-            <b>Kanal:</b> ${escapeHtml(channel)} ·
             <b>Suchbegriff:</b> ${escapeHtml(u.suchbegriff || "–")} ·
             <b>Jahr:</b> ${u.erwartetesJahr || "–"}<br>
             <b>Grund:</b> ${escapeHtml(u.grund)}
