@@ -190502,45 +190502,6 @@
     "fsk": null
   },
   {
-    "videoId": "eABqjm8MS1s",
-    "youtubeTitle": "DIESER Film zeigt die wahre Tragik von MARILYN MONROE • Biografie Film Deutsch: BLOND - TEIL 2",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/eABqjm8MS1s/hqdefault.jpg",
-    "duration": "PT1H22M38S",
-    "publishedAt": "2026-05-30T16:30:30Z",
-    "channelName": "Starkino",
-    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
-    "tmdbId": 8835,
-    "title": "Natürlich blond",
-    "originalTitle": "Legally Blonde",
-    "overview": "Elle Woods ist der Star ihrer Schule. Blond, stets in Pink gekleidet, liegen ihr alle zu Füßen. Das Lernen fällt ihr leicht und das Leben ist für sie ein großes Spiel, in dem sogar der künftige Ehemann schon feststeht: Der schnieke Schnösel heißt Warner und hat eine steile Karriere vor sich. Als der ihr statt des erhofften Heiratsantrags den Laufpass gibt, bricht für sie die Welt zusammen. Nach kurzer Trauer beschließt sie zu kämpfen und schreibt sich wie er an der Edel-Uni Harvard ein, um als Jura-Studentin zu zeigen, dass sie mehr als ein Blondinenwitz ist.",
-    "releaseDate": "2001-07-13",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/5y8cOUNwZOzPigdoOY6AxRDMslk.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/viU23X3BIycUFf6TOlm9c7TxLgM.jpg",
-    "voteAverage": 6.818,
-    "genreIds": [
-      35
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Blonde\")",
-    "cast": [
-      "Reese Witherspoon",
-      "Luke Wilson",
-      "Selma Blair",
-      "Matthew Davis",
-      "Victor Garber"
-    ],
-    "director": [
-      "Robert Luketic"
-    ],
-    "writer": [
-      "Kirsten Smith",
-      "Karen McCullah"
-    ],
-    "fsk": "0",
-    "posterLocal": "img/posters/8835.jpg"
-  },
-  {
     "videoId": "r8U0FxHJQYo",
     "youtubeTitle": "ERDBEBEN UND TSUNAMI – DIE FLUCHT BEGINNT! | End of the World – (Großes Katastrophen-Epos)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/r8U0FxHJQYo/hqdefault.jpg",
@@ -190580,86 +190541,6 @@
     "posterLocal": "img/posters/573641.jpg"
   },
   {
-    "videoId": "E6wg1PPwZ88",
-    "youtubeTitle": "Edgar Wallace: Der Hexer (MYSTERY KRIMIFILM, ganzer film deutsch, krimifilme, krimis, spielfilme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/E6wg1PPwZ88/hqdefault.jpg",
-    "duration": "PT1H27M50S",
-    "publishedAt": "2025-07-15T15:30:06Z",
-    "channelName": "Heimatkino",
-    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
-    "tmdbId": 5634,
-    "title": "Der Würger von Schloss Blackmoor",
-    "originalTitle": "Der Würger von Schloss Blackmoor",
-    "overview": "Kurz nachdem der gerade aus Afrika zurückgekehrte Lucius Clark bei einem Empfang verkündet hat, dass er demnächst in den Adelsstand erhoben werde, taucht in dem von ihm gemieteten Schloss Blackmoor ein maskierter Würger auf, dem bald mehrere Menschen zum Opfer fallen. Der Unbekannte behauptet, rechtmäßiger Besitzer der gestohlenen Rohdiamanten zu sein, die Clark im Heizungskeller des Schlosses versteckt und von seinem angeblichen Butler Anthony zu wahren Meisterwerken schleifen lässt. Neben Anthony vermutet Clark zunächst den eigentlichen Schlossbesitzer, den verarmten Lord Edgar Blackmoor, hinter der Maske des Phantoms. Aber schon bald tauchen noch mehr Verdächtige auf.",
-    "releaseDate": "1963-06-21",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/cttMjb9YW66UTczOf6R0sAl5EQ8.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uCIvYH1LT3Cfxoevy6DCbYeGj0z.jpg",
-    "voteAverage": 6.348,
-    "genreIds": [
-      80,
-      53,
-      27
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
-    "cast": [
-      "Karin Dor",
-      "Harry Riebauer",
-      "Ingmar Zeisberg",
-      "Walter Giller",
-      "Rudolf Fernau"
-    ],
-    "director": [
-      "Harald Reinl"
-    ],
-    "writer": [
-      "Ladislas Fodor",
-      "Gustav Kampendonk"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/5634.jpg"
-  },
-  {
-    "videoId": "8gwxtlK7I_o",
-    "youtubeTitle": "Edgar Wallace: Der Hexer (deutscher KRIMI KLASSIKER, ganzer film deutsch, krimifilme, spielfilm, hd)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/8gwxtlK7I_o/hqdefault.jpg",
-    "duration": "PT1H18M51S",
-    "publishedAt": "2024-12-15T16:30:01Z",
-    "channelName": "Heimatkino",
-    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
-    "tmdbId": 178695,
-    "title": "Der Henker von London",
-    "originalTitle": "Der Henker von London",
-    "overview": "Der sogenannte „Henker von London“ hält die britische Hauptstadt in Atem. Mit seiner Verschwörerbande hat der mysteriöse Mann bereits drei Verbrecher, deren Taten bis dahin nicht aufgedeckt wurden, zum Tode durch den Strang verurteilt und hingerichtet. Inspektor John Hillier und der mit ihm befreundete Polizeiarzt Dr. Philip Trooper finden bei den Toten jeweils eine „Beweisakte“ sowie den historischen Henkersstrick, der vorher aus dem Kriminalmuseum von Scotland Yard entwendet wurde.",
-    "releaseDate": "1963-11-22",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/gPWA0mnF09Z5HrkMW2ZHiPkHUnw.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xQf1piuJPKFlsivsdjkrqVTqyGl.jpg",
-    "voteAverage": 6.348,
-    "genreIds": [
-      80,
-      9648
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
-    "cast": [
-      "Hansjörg Felmy",
-      "Maria Perschy",
-      "Dieter Borsche",
-      "Wolfgang Preiss",
-      "Harry Riebauer"
-    ],
-    "director": [
-      "Edwin Zbonek"
-    ],
-    "writer": [
-      "Robert A. Stemmle"
-    ],
-    "fsk": "12",
-    "posterLocal": "img/posters/178695.jpg"
-  },
-  {
     "videoId": "HJlhDQmuW3c",
     "youtubeTitle": "Stadt der Toten (1960) [Horror] [Klassiker] | Mit Christopher Lee | Ganzer Film auf Deutsch",
     "youtubeThumbnail": "https://i.ytimg.com/vi/HJlhDQmuW3c/hqdefault.jpg",
@@ -190697,46 +190578,6 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/39890.jpg"
-  },
-  {
-    "videoId": "3RzXiiUKFOM",
-    "youtubeTitle": "Emma - Königin der Südsee (Teil 2) (1988) [Drama] [Biografie] | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/3RzXiiUKFOM/hqdefault.jpg",
-    "duration": "PT1H33M11S",
-    "publishedAt": "2026-03-28T17:00:06Z",
-    "channelName": "CiNENET Deutschland",
-    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
-    "tmdbId": 3573,
-    "title": "Jane Austens Emma",
-    "originalTitle": "Emma",
-    "overview": "Emma Woodhouse sucht einen Mann für ihre Freundin Harriet und merkt nicht, daß sie selbst verliebt ist. Mrs. Weston: Emmas ehemalige Lehrerin. Dank Emmas Hilfe jetzt glücklich verheiratet. Mr. Elton: Harriet sehnt sich nach diesem Snob, der aber nur für Emma Augen hat. Mr. Knightley: Emmas Schwager, Freund, Vertrauter und vielleicht auch mehr? Mr. Churchill: Wen wird dieser begehrte Junggeselle zur Frau nehmen? Jane Fairfax taucht überraschend auf und verzaubert alle Männer. Mr. Martin: Ist dieser einfache Farmer wirklich der Richtige für Harriet? Harriet Smith: Emma will sie mit Mr. Elton verkuppeln, und als der Emma den Hof macht, mit Mr. Churchill. Aber Harriet verliebt sich in Mr. Knightley – sehr zu Emmas Kummer. Eine bezaubernde Komödie nach Jane Austen's Klassiker.",
-    "releaseDate": "1996-08-02",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/s8DBIitsNoKHv3FyCfqA2ZlFtWd.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/eBQc24VRzNXz3gFMrvdSvwd6Ire.jpg",
-    "voteAverage": 6.609,
-    "genreIds": [
-      10749,
-      35,
-      18
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Jahr weicht ab: erwartet 1988, TMDB 1996 · Zuordnungswert 83 (Suchbegriff: \"Emma\")",
-    "cast": [
-      "Gwyneth Paltrow",
-      "Jeremy Northam",
-      "Toni Collette",
-      "Alan Cumming",
-      "Ewan McGregor"
-    ],
-    "director": [
-      "Douglas McGrath"
-    ],
-    "writer": [
-      "Douglas McGrath"
-    ],
-    "fsk": "0",
-    "posterLocal": "img/posters/3573.jpg"
   },
   {
     "videoId": "B1Hqg07rk6w",
@@ -190843,6 +190684,96 @@
     "director": [
       "Rainer Erler"
     ],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "O0G6YX4Qi30",
+    "youtubeTitle": "U-Boot Wars (1985) [Action] [Thriller] | Ziel: Die Totale Vernichtung! | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/O0G6YX4Qi30/hqdefault.jpg",
+    "duration": "PT1H23M39S",
+    "publishedAt": "2026-08-18T16:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 396869,
+    "title": "First Strike - Atom-U-Boot in geheimer Mission",
+    "originalTitle": "First Strike",
+    "overview": "Die USA und die Sowjetunion planen den Austausch zweier Top-Agenten. Bei dem Austausch kommt es zu einem geplanten Beschuss der USS Cobra. Ein internationaler Konflikt bahnt sich an, die Drähte des roten Telefons zwischen Moskau und Washington laufen heiß. Die Welt steht am Rande des 3. Weltkrieges...",
+    "releaseDate": "1985-05-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ifKSVnj0B58l6hC0s0Vwv2BgSpy.jpg",
+    "backdropUrl": null,
+    "voteAverage": 6,
+    "genreIds": [
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Stuart Whitman",
+      "Persis Khambatta",
+      "Angus Scrimm",
+      "Leon Askin",
+      "Martin Beck"
+    ],
+    "director": [
+      "Alan Kuskowski"
+    ],
+    "writer": [
+      "Dave Hanson",
+      "Alan Kuskowski"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/396869.jpg"
+  },
+  {
+    "videoId": "aWBALyfgKSw",
+    "youtubeTitle": "DER MAFIABOSS SCHIEN UNBESIEGBAR – BIS SEINE RECHTE HAND IHN VERRIET | Ganzer Film Deutsch 2026",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/aWBALyfgKSw/hqdefault.jpg",
+    "duration": "PT1H49M37S",
+    "publishedAt": "2026-08-17T15:26:41Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "DER MAFIABOSS SCHIEN UNBESIEGBAR - BIS SEINE RECHTE HAND IHN VERRIET",
+    "originalTitle": null,
+    "overview": "ER WAR UNANTASTBAR – BIS SEIN EIGENER KREIS IHN ZU FALL BRACHTE. Ein ehrgeiziger Außenseiter arbeitet sich mit Härte, Loyalität und kompromisslosen Entscheidungen an die Spitze einer mächtigen kriminellen Organisation. Schon bald kontrolliert er große Teile des Geschäfts, lebt im Luxus und genießt einen Ruf, der ihn beinahe unangreifbar erscheinen lässt. Selbst die Behörden können ihm lange nichts anhaben, während er immer selbstbewusster mit seiner Macht umgeht.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "sApC7wn62gU",
+    "youtubeTitle": "19 Jahre wartete er auf diesen Tag – jetzt beginnt sein gnadenloser Rachefeldzug | Nicolas Cage",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sApC7wn62gU/hqdefault.jpg",
+    "duration": "PT1H36M16S",
+    "publishedAt": "2026-08-17T15:00:27Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "19 Jahre wartete er auf diesen Tag - jetzt beginnt sein gnadenloser Rachefeldzug - Nicolas Cage",
+    "originalTitle": null,
+    "overview": "Nach 19 Jahren im Gefängnis kommt ein ehemaliger Vollstrecker eines Verbrechersyndikats endlich wieder auf freien Fuß. Doch Freiheit bedeutet für ihn nicht Frieden. Er ist überzeugt, dass ehemalige Verbündete für seine lange Haft verantwortlich sind – und hat all die Jahre nur auf eine Gelegenheit gewartet, mit ihnen abzurechnen. Sein Plan scheint klar: die Männer aus seiner Vergangenheit finden und sich einen nach dem anderen vornehmen. Doch dann tritt sein Sohn wieder in sein Leben. Plötzlich steht er vor einer Entscheidung, auf die ihn keine Jahre hinter Gittern vorbereiten konnten. Während die Vergangenheit ihn immer tiefer in eine Welt aus Gewalt, Verrat und alten Rechnungen zurückzieht, könnte die Beziehung zu seinem Sohn seine letzte Chance auf ein anderes Leben sein. Ein düsterer Rache-Thriller über verlorene Jahre, Familie und einen Mann, der entscheiden muss, was ihm am Ende wi",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
     "writer": [],
     "fsk": null
   }
