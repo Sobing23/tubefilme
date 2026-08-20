@@ -48,10 +48,13 @@ jobs:
       - name: Cover-Bilder cachen
         run: node scripts/cache-images.js
 
+      - name: Seite bauen (Index, Filmseiten, Sitemap)
+        run: node scripts/build-site.js
+
       - name: Ergebnisse committen
         run: |
           git config user.name "tubefilme-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/ img/
+          git add data/ img/ film/ sitemap.xml robots.txt
           git diff --staged --quiet || git commit -m "Neu-Zuordnung: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
