@@ -104,7 +104,13 @@
   }
   .card {
     cursor: pointer;
+    /* Die Kacheln sind Verweise. Ohne diese Angaben färbt der Browser die
+       Titel blau bzw. besuchte Kacheln lila und unterstreicht sie. */
+    display: block;
+    color: inherit;
+    text-decoration: none;
   }
+  .card:visited { color: inherit; }
   .poster-frame {
     position: relative;
   }
