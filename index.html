@@ -357,6 +357,14 @@
   <select id="jahrFilter">
     <option value="">Alle Jahre</option>
   </select>
+  <select id="sortierung">
+    <option value="relevanz">Sortierung: Standard</option>
+    <option value="bewertung">Beste Bewertung</option>
+    <option value="az">Titel A–Z</option>
+    <option value="za">Titel Z–A</option>
+    <option value="neu">Neueste zuerst</option>
+    <option value="alt">Älteste zuerst</option>
+  </select>
   <button id="randomBtn">🎲 Zufall</button>
   <button id="watchlistBtn">♥ Merkliste</button>
 </header>
@@ -364,23 +372,6 @@
 <div id="status">Lade Filme...</div>
 <div id="count"></div>
 <div id="grid"></div>
-
-<div id="overlay">
-  <button id="closeBtn">✕ Schließen</button>
-  <div class="player-wrap">
-    <iframe id="player" src="" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    <div class="player-info">
-      <h2 id="playerTitle"></h2>
-      <div class="sub" id="playerSub"></div>
-      <div class="sub" id="playerCast" style="margin-top:-8px;"></div>
-      <div class="sub" id="playerCrew" style="margin-top:-8px;"></div>
-      <button id="playerFav">♥ Zur Merkliste</button>
-      <p id="playerRating" style="color: #ffd166; font-size: 13px; margin: 14px 0 0 0;"></p>
-      <p id="playerOverview"></p>
-      <div class="similar-row" id="playerSimilar"></div>
-    </div>
-  </div>
-</div>
 
 <div id="randomOverlay">
   <div class="random-panel">
@@ -394,7 +385,9 @@
 </div>
 
 <script>
-const FILME_URL = "https://raw.githubusercontent.com/Sobing23/tubefilme/main/data/filme.json";
+// Schlanker Index von der eigenen Domain (rund 1,9 statt 7 MB) -- die
+// vollständigen Angaben zu einem Film stehen auf dessen eigener Seite.
+const FILME_URL = "/data/index.json";
 
 // TMDB-Genre-IDs -> deutsche Namen (stabile, öffentliche Liste)
 const GENRES = {28:"Action",12:"Abenteuer",16:"Animation",35:"Komödie",80:"Krimi",
@@ -414,11 +407,11 @@ function getWatchlist() {
 function saveWatchlist(set) {
   localStorage.setItem(WATCHLIST_KEY, JSON.stringify([...set]));
 }
-function toggleWatchlist(tmdbId) {
+function toggleWatchlist(videoId) {
   const wl = getWatchlist();
-  wl.has(tmdbId) ? wl.delete(tmdbId) : wl.add(tmdbId);
+  wl.has(videoId) ? wl.delete(videoId) : wl.add(videoId);
   saveWatchlist(wl);
-  return wl.has(tmdbId);
+  return wl.has(videoId);
 }
 
 function parseDuration(iso) {
@@ -467,7 +460,7 @@ function movieCardHtml(m, wl) {
     <div class="poster-frame">
       ${m.matchConfidence === "niedrig" ? '<div class="low-confidence" title="Zuordnung unsicher">?</div>' : ""}
       ${m.fsk ? `<div class="fsk-badge">FSK ${m.fsk}</div>` : ""}
-      <button class="fav ${wl.has(m.tmdbId) ? "active" : ""}" data-fav="${m.tmdbId}">♥</button>
+      <button class="fav ${wl.has(m.videoId) ? "active" : ""}" data-fav="${m.videoId}">♥</button>
       ${posterHtml(m)}
     </div>
     <div class="meta">
@@ -482,19 +475,16 @@ function renderGrid(movies) {
   const wl = getWatchlist();
   document.getElementById("count").textContent = `${movies.length} Film${movies.length === 1 ? "" : "e"}`;
 
-  grid.innerHTML = movies.map(m => `<div class="card" data-id="${m.tmdbId}">${movieCardHtml(m, wl)}</div>`).join("");
-
-  grid.querySelectorAll(".card").forEach(card => {
-    card.addEventListener("click", (e) => {
-      if (e.target.dataset.fav) return; // Herz-Klick nicht als Karten-Klick werten
-      const id = parseInt(card.dataset.id);
-      openPlayer(allMovies.find(m => m.tmdbId === id));
-    });
-  });
+  // Jede Kachel ist ein echter Link auf die Seite des Films -- dadurch
+  // funktionieren Mittelklick, "in neuem Tab öffnen" und Lesezeichen, und
+  // Suchmaschinen können dem Verweis folgen.
+  grid.innerHTML = movies.map(m =>
+    `<a class="card" href="/film/${m.slug}">${movieCardHtml(m, wl)}</a>`
+  ).join("");
   grid.querySelectorAll("[data-fav]").forEach(btn => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
-      const id = parseInt(btn.dataset.fav);
+      const id = btn.dataset.fav;
       const isActive = toggleWatchlist(id);
       btn.classList.toggle("active", isActive);
       if (watchlistMode) applyFilters(); // Karte verschwindet ggf. aus der Merkliste-Ansicht
@@ -506,85 +496,38 @@ function escapeHtml(s) {
   return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
-function openPlayer(movie) {
-  if (!movie) return;
-  document.getElementById("player").src = `https://www.youtube.com/embed/${movie.videoId}`;
-  document.getElementById("playerTitle").textContent = movie.title;
-  const fskText = movie.fsk ? ` · FSK ${movie.fsk}` : "";
-  document.getElementById("playerSub").textContent =
-    `${(movie.releaseDate||"").slice(0,4)} · ${parseDuration(movie.duration)} · ${genreNames(movie.genreIds)}${fskText} · Quelle: ${movie.channelName}`;
-  document.getElementById("playerOverview").textContent = movie.overview || "Keine Beschreibung verfügbar.";
-  document.getElementById("playerRating").textContent =
-    movie.voteAverage ? `★ ${movie.voteAverage.toFixed(1)} / 10 (TMDB-Nutzerwertung)` : "";
-  document.getElementById("playerCast").textContent =
-    movie.cast && movie.cast.length ? "Mit: " + movie.cast.join(", ") : "";
-
-  const crewParts = [];
-  if (movie.director && movie.director.length) crewParts.push("Regie: " + movie.director.join(", "));
-  if (movie.writer && movie.writer.length) crewParts.push("Drehbuch: " + movie.writer.join(", "));
-  document.getElementById("playerCrew").textContent = crewParts.join(" · ");
-
-  renderSimilar(movie);
-
-  const favBtn = document.getElementById("playerFav");
-  const wl = getWatchlist();
-  favBtn.classList.toggle("active", wl.has(movie.tmdbId));
-  favBtn.onclick = () => {
-    const isActive = toggleWatchlist(movie.tmdbId);
-    favBtn.classList.toggle("active", isActive);
-    renderGrid(currentlyShown());
-  };
-
-  document.getElementById("overlay").classList.add("open");
-}
-
-function closePlayer() {
-  document.getElementById("overlay").classList.remove("open");
-  document.getElementById("player").src = ""; // Video stoppen
-}
-
-// Einfache, schnelle Empfehlung: gleiche Genres, mehr gemeinsame Genres
-// zuerst, bei Gleichstand höhere Bewertung zuerst. Rein client-seitig,
-// keine zusätzlichen Anfragen nötig, weil alle Filmdaten schon geladen sind.
-function getSimilarMovies(movie, count) {
-  const genreSet = new Set(movie.genreIds || []);
-  if (genreSet.size === 0) return [];
-
-  return allMovies
-    .filter(m => m.tmdbId !== movie.tmdbId)
-    .map(m => ({ m, shared: (m.genreIds || []).filter(id => genreSet.has(id)).length }))
-    .filter(x => x.shared > 0)
-    .sort((a, b) => b.shared - a.shared || (b.m.voteAverage || 0) - (a.m.voteAverage || 0))
-    .slice(0, count)
-    .map(x => x.m);
-}
-
-function renderSimilar(movie) {
-  const container = document.getElementById("playerSimilar");
-  const similar = getSimilarMovies(movie, 3);
-
-  if (similar.length === 0) {
-    container.innerHTML = "";
-    return;
-  }
-
-  container.innerHTML = `<h4>Ähnliche Filme</h4>` + similar.map(m => `
-    <div class="similar-card" data-id="${m.tmdbId}">
-      ${posterHtml(m)}
-      <div class="similar-title">${escapeHtml(m.title)}</div>
-    </div>
-  `).join("");
-
-  container.querySelectorAll(".similar-card").forEach(card => {
-    card.addEventListener("click", () => {
-      const id = parseInt(card.dataset.id);
-      openPlayer(allMovies.find(m => m.tmdbId === id));
-    });
-  });
-}
+// Der Player und die Ähnliche-Filme-Liste sind entfallen: beides gehört
+// jetzt auf die eigene Seite des Films, die auch für Suchmaschinen sichtbar
+// ist und sich verlinken lässt.
 
 let lastFiltered = [];
 function currentlyShown() { return lastFiltered; }
+
+// Sortiert die gefilterte Auswahl. "Standard" lässt die Reihenfolge so, wie
+// sie ankommt -- bei aktiver Suche ist das die Treffergenauigkeit, sonst die
+// Reihenfolge aus dem Index.
+function sortiere(liste, modus) {
+  if (!modus || modus === "relevanz") return liste;
+  const kopie = [...liste];
+  const jahr = m => parseInt((m.releaseDate || "").slice(0, 4), 10) || 0;
+
+  switch (modus) {
+    case "bewertung":
+      // Filme ohne Bewertung ans Ende, nicht mit 0 dazwischen
+      return kopie.sort((a, b) => (b.voteAverage || -1) - (a.voteAverage || -1));
+    case "az":
+      return kopie.sort((a, b) => a.title.localeCompare(b.title, "de"));
+    case "za":
+      return kopie.sort((a, b) => b.title.localeCompare(a.title, "de"));
+    case "neu":
+      return kopie.sort((a, b) => jahr(b) - jahr(a));
+    case "alt":
+      // Filme ohne Jahresangabe ans Ende statt an den Anfang
+      return kopie.sort((a, b) => (jahr(a) || 9999) - (jahr(b) || 9999));
+    default:
+      return kopie;
+  }
+}
 
 function applyFilters() {
   const query = document.getElementById("search").value.trim();
@@ -592,7 +535,21 @@ function applyFilters() {
   const selectedFsk = document.getElementById("fskFilter").value;
   const selectedJahrzehnt = document.getElementById("jahrFilter").value;
 
-  let result = query && fuse ? fuse.search(query).map(r => r.item) : allMovies;
+  let result = allMovies;
+  if (query) {
+    if (fuse) {
+      result = fuse.search(query).map(r => r.item);
+    } else {
+      const q = query.toLowerCase();
+      result = allMovies.filter(m =>
+        (m.title || "").toLowerCase().includes(q) ||
+        (m.originalTitle || "").toLowerCase().includes(q) ||
+        (m.genreText || "").toLowerCase().includes(q) ||
+        (m.cast || []).some(c => c.toLowerCase().includes(q)) ||
+        (m.director || []).some(d => d.toLowerCase().includes(q))
+      );
+    }
+  }
 
   if (selectedGenre) {
     result = result.filter(m => (m.genreIds || []).some(id => GENRES[id] === selectedGenre));
@@ -609,8 +566,9 @@ function applyFilters() {
   }
   if (watchlistMode) {
     const wl = getWatchlist();
-    result = result.filter(m => wl.has(m.tmdbId));
+    result = result.filter(m => wl.has(m.videoId));
   }
+  result = sortiere(result, document.getElementById("sortierung").value);
   lastFiltered = result;
   renderGrid(result);
 }
@@ -635,18 +593,14 @@ updateClearButton(); // Anfangszustand setzen
 document.getElementById("genreFilter").addEventListener("change", applyFilters);
 document.getElementById("fskFilter").addEventListener("change", applyFilters);
 document.getElementById("jahrFilter").addEventListener("change", applyFilters);
-document.getElementById("closeBtn").addEventListener("click", closePlayer);
+document.getElementById("sortierung").addEventListener("change", applyFilters);
 
 // Zusätzliche, robustere Wege das Overlay zu schließen: Escape-Taste,
 // Klick auf den dunklen Hintergrund außerhalb des Players
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
-    closePlayer();
     closeRandomPanel();
   }
-});
-document.getElementById("overlay").addEventListener("click", (e) => {
-  if (e.target.id === "overlay") closePlayer();
 });
 
 function pickRandomMovies(pool, count) {
@@ -664,20 +618,13 @@ function openRandomPanel() {
 function renderRandomGrid(movies) {
   const grid = document.getElementById("randomGrid");
   const wl = getWatchlist();
-  grid.innerHTML = movies.map(m => `<div class="card" data-id="${m.tmdbId}">${movieCardHtml(m, wl)}</div>`).join("");
-
-  grid.querySelectorAll(".card").forEach(card => {
-    card.addEventListener("click", (e) => {
-      if (e.target.dataset.fav) return;
-      const id = parseInt(card.dataset.id);
-      closeRandomPanel();
-      openPlayer(allMovies.find(m => m.tmdbId === id));
-    });
-  });
+  grid.innerHTML = movies.map(m =>
+    `<a class="card" href="/film/${m.slug}">${movieCardHtml(m, wl)}</a>`
+  ).join("");
   grid.querySelectorAll("[data-fav]").forEach(btn => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
-      const id = parseInt(btn.dataset.fav);
+      const id = btn.dataset.fav;
       const isActive = toggleWatchlist(id);
       btn.classList.toggle("active", isActive);
     });
@@ -710,7 +657,15 @@ fetch(FILME_URL)
     return r.json();
   })
   .then(data => {
-    allMovies = data;
+    // Der Index nutzt Kurzschlüssel, um Ladezeit zu sparen. Hier einmalig
+    // auf die ausgeschriebenen Feldnamen abbilden.
+    allMovies = data.map(d => ({
+      videoId: d.v, slug: d.s, title: d.t, originalTitle: d.o,
+      releaseDate: d.y ? d.y + "-01-01" : null,
+      posterUrl: d.p, youtubeThumbnail: d.th, genreIds: d.g,
+      fsk: d.f, voteAverage: d.r, matchConfidence: d.c,
+      cast: d.ca, director: d.d,
+    }));
     // Genre-Namen und Cast pro Film vorberechnen -- einmal hier statt bei
     // jeder Suche neu, und als eigene Suchfelder nutzbar
     allMovies.forEach(m => {
@@ -718,7 +673,15 @@ fetch(FILME_URL)
     });
 
     lastFiltered = data;
-    fuse = new Fuse(allMovies, { keys: ["title", "originalTitle", "genreText", "cast", "director", "writer"], threshold: 0.3 });
+    // Die Suchbibliothek kommt von einem fremden Anbieter. Ist sie nicht
+    // erreichbar, darf das nicht die ganze Seite lahmlegen -- dann wird auf
+    // eine einfache Textsuche zurückgefallen.
+    if (typeof Fuse === "function") {
+      fuse = new Fuse(allMovies, { keys: ["title", "originalTitle", "genreText", "cast", "director", "writer"], threshold: 0.3 });
+    } else {
+      fuse = null;
+      console.warn("Suchbibliothek nicht geladen -- einfache Textsuche aktiv.");
+    }
 
     populateGenreFilter(allMovies);
     populateJahrFilter(allMovies);
