@@ -1,66 +1,26 @@
 [
   {
-    "videoId": "oNRndTq_g8Q",
-    "youtubeTitle": "SIE DACHTEN, GELD KÖNNE IHN KAUFEN – DA HATTEN SIE SICH GETÄUSCHT | Ganzer Film HD",
-    "suchbegriff": "SIE DACHTEN, GELD KÖNNE IHN KAUFEN – DA HATTEN SIE SICH GETÄUSCHT",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "xzXQ3vsiiys",
-    "youtubeTitle": "Ein uralter Fluch, ein brutaler Mord und ein Detektiv, der an nichts Übernatürliches glaubt",
-    "suchbegriff": "Ein uralter Fluch, ein brutaler Mord und ein Detektiv, der an nichts Übernatürliches glaubt",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "egI1W9PGpd8",
-    "youtubeTitle": "Großartiger Abenteuerfilm! Allein in einer fremden Galaxie gegen blutrünstige Monster!",
-    "suchbegriff": "Großartiger Abenteuerfilm! Allein in einer fremden Galaxie gegen blutrünstige Monster!",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "-oaiceLBolI",
-    "youtubeTitle": "🤣🍿 Bei Dieser Komödie Werden Sie Bis Zum Schluss Nicht Aufhören Zu Lachen! | Ganzer Film auf Deutsch",
-    "suchbegriff": "🤣🍿 Bei Dieser Komödie Werden Sie Bis Zum Schluss Nicht Aufhören Zu Lachen!",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "jkSUSBP5RMg",
-    "youtubeTitle": "Tag der Abrechnung (2012) [Thriller] [Action] | Danny Glover, Michael Madsen | Ganzer Film",
-    "suchbegriff": "Tag der Abrechnung",
-    "erwartetesJahr": "2012",
-    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "eABqjm8MS1s",
+    "youtubeTitle": "DIESER Film zeigt die wahre Tragik von MARILYN MONROE • Biografie Film Deutsch: BLOND - TEIL 2",
+    "suchbegriff": "Blonde / Blonde - Part 2",
+    "erwartetesJahr": "2001",
+    "grund": "Schwache Übereinstimmung (Wert 69) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 56913,
-      "title": "Sacrifice - Tag der Abrechnung",
-      "release_date": "2011-04-26"
+      "id": 10327,
+      "title": "Natürlich blond 2",
+      "release_date": "2003-07-02"
     }
   },
   {
-    "videoId": "sDtEqwIjGpE",
-    "youtubeTitle": "Ein actionreicher Abenteuerfilm! Eine alte Grabung birgt ein schreckliches Geheimnis | Filme Deutsch",
-    "suchbegriff": "Ein actionreicher Abenteuerfilm! Eine alte Grabung birgt ein schreckliches Geheimnis",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "8gwxtlK7I_o",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (deutscher KRIMI KLASSIKER, ganzer film deutsch, krimifilme, spielfilm, hd)",
+    "suchbegriff": "Der Hexer - Ein kriminalistisches Panoptikum",
+    "erwartetesJahr": "1963",
+    "grund": "Schwache Übereinstimmung (Wert 57) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 56694,
-      "title": "Deutschland 09 - 13 kurze Filme zur Lage der Nation",
-      "release_date": "2009-02-13"
+      "id": 9630,
+      "title": "Der Hexer",
+      "release_date": "1964-08-21"
     }
-  },
-  {
-    "videoId": "50zYrZ5PZ98",
-    "youtubeTitle": "5 Wege zur wahren Liebe? Eine herzerwärmende Romanze | Ganzer Film",
-    "suchbegriff": "A Love Yarn) entstand im Jahr 2021 unter der Regie von Peter Burger. In den Hauptrollen überzeugen Anna Hutchison als passionierte Wollgeschäft-Besitzerin Sophie und Simon Arblaster als zielstrebiger Auditor Samuel mit einer spürbaren Chemie vor der malerischen Kulisse Neuseelands.",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
   }
 ]
