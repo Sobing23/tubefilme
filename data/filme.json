@@ -191197,45 +191197,6 @@
     "fsk": null
   },
   {
-    "videoId": "E6wg1PPwZ88",
-    "youtubeTitle": "Edgar Wallace: Der Hexer (MYSTERY KRIMIFILM, ganzer film deutsch, krimifilme, krimis, spielfilme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/E6wg1PPwZ88/hqdefault.jpg",
-    "duration": "PT1H27M50S",
-    "publishedAt": "2025-07-15T15:30:06Z",
-    "channelName": "Heimatkino",
-    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
-    "tmdbId": 1663,
-    "title": "Der Zinker",
-    "originalTitle": "Der Zinker",
-    "overview": "Unter Londons Dieben greifen Schlangengiftmorde um sich. Dahinter steckt „Der Zinker“, der von jedem Raubzug in der Stadt seinen Anteil fordert und keine Zeugen duldet. Inspektor Elford will ihm den Giftzahn ziehen.",
-    "releaseDate": "1963-04-26",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/vktJzwdCk5bpfUfAuoL6cuey2x7.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5iLg9gTyORDu6rS8Lcp9Epu2qZ7.jpg",
-    "voteAverage": 6.511,
-    "genreIds": [
-      80,
-      9648
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\")",
-    "cast": [
-      "Heinz Drache",
-      "Barbara Rütting",
-      "Günter Pfitzmann",
-      "Agnes Windeck",
-      "Eddi Arent"
-    ],
-    "director": [
-      "Alfred Vohrer"
-    ],
-    "writer": [
-      "Harald G. Petersson"
-    ],
-    "fsk": "16",
-    "posterLocal": "img/posters/1663.jpg"
-  },
-  {
     "videoId": "oNRndTq_g8Q",
     "youtubeTitle": "SIE DACHTEN, GELD KÖNNE IHN KAUFEN – DA HATTEN SIE SICH GETÄUSCHT | Ganzer Film HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/oNRndTq_g8Q/hqdefault.jpg",
@@ -191418,6 +191379,266 @@
     "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
     "cast": [],
     "director": [],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "9PFpmHF5TzI",
+    "youtubeTitle": "Twenty Bucks: Geld stinkt nicht - oder doch? (1993) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9PFpmHF5TzI/hqdefault.jpg",
+    "duration": "PT1H27M45S",
+    "publishedAt": "2026-08-21T16:00:20Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 50536,
+    "title": "20 Bucks - Geld stinkt nicht, oder doch?",
+    "originalTitle": "Twenty Bucks",
+    "overview": "Zwanzig Dollar sind zwanzig Dollar. Für gewöhnlich. Doch dieser Geldschein geht durch ganz besondere Hände. '20 Bucks' macht Karriere: Er bringt die Pennerin Angeline  fast um den Verstand, vermasselt Sam die Hochzeit mit einer 20 Millionen-Dollar-Erbin, hilft reichen Ladies beim Koksen. Schließlich landet er als blutverschmiertes Beweisstück bei der Polizei. Und schon geht's auf den nächsten Abenteuertrip...",
+    "releaseDate": "1993-10-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pAZxoG13a8nGTQ5jrs7xzz0t59b.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6X9XblP5yfF2YCoPm2DmZubxDdb.jpg",
+    "voteAverage": 5.706,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Linda Hunt",
+      "Sam Sorbo",
+      "George Morfogen",
+      "Brendan Fraser",
+      "Concetta Tomei"
+    ],
+    "director": [
+      "Keva Rosenfeld"
+    ],
+    "writer": [
+      "Leslie Bohem",
+      "Endre Bohem"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/50536.jpg"
+  },
+  {
+    "videoId": "e71uxzZc45w",
+    "youtubeTitle": "ROSAMUNDE PILCHER: DAS GROSSE ERBE (Teil 1) | Bewegendes Liebesdrama | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/e71uxzZc45w/hqdefault.jpg",
+    "duration": "PT1H29M51S",
+    "publishedAt": "2026-08-21T16:15:00Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 138212,
+    "title": "Rosamunde Pilcher: Das große Erbe",
+    "originalTitle": "Nancherrow",
+    "overview": "Die Geschichte handelt von Lovedays Kampf, das Anwesen Nancherrow nach dem Tod ihres Vaters in Familienbesitz zu halten.",
+    "releaseDate": "1999-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pXwmWQoAW4RluwtU3CdMMNcZeSr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tyDS9ArGhO94MVvDPanA2L2W1Pm.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Susan Hampshire",
+      "Joanna Lumley",
+      "Patrick Macnee",
+      "Senta Berger",
+      "Donald Sinden"
+    ],
+    "director": [
+      "Simon Langton"
+    ],
+    "writer": [
+      "John Goldsmith"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/138212.jpg"
+  },
+  {
+    "videoId": "VR9brWXv_gY",
+    "youtubeTitle": "6-HEADED SHARK ATTACK – EIN SECHSKÖPFIGER HAI MACHT DIE INSEL ZUM TODESFALLE! 🦈🔥 (MONSTER-HORROR)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VR9brWXv_gY/hqdefault.jpg",
+    "duration": "PT1H29M1S",
+    "publishedAt": "2026-08-21T15:00:14Z",
+    "channelName": "Bulldox",
+    "channelId": "UCgsih0dGYPncJxONFcz3-UA",
+    "tmdbId": 522438,
+    "title": "6-Headed Shark Attack",
+    "originalTitle": "6-Headed Shark Attack",
+    "overview": "Um ihren Beziehungen wieder neuen Schwung zu geben, besuchen Paare eine Therapiegruppe auf einer wunderschönen, einsam gelegenen Insel in der Nähe der mexikanischen Küste. Auch der Initiator und Leiter der Therapiegruppe, Will, kämpft um die Rettung seiner Beziehung. Doch dies alles wird schnell zur Nebensache, als ein Sturm aufzieht und ein 6-köpfiges Haimonster vor der Küste auftaucht...",
+    "releaseDate": "2018-08-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pFUBy1KaIcIs49NtThthYA6EKIX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/n0lRst3H7o82lGHdL3Rh1oiJJLZ.jpg",
+    "voteAverage": 4.621,
+    "genreIds": [
+      27,
+      28,
+      878,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Brandon Auret",
+      "Thandi Sebe",
+      "Cord Newman",
+      "Naima Sebe",
+      "Tapiwa Musvosvi"
+    ],
+    "director": [
+      "Mark Atkins"
+    ],
+    "writer": [
+      "Mark Atkins",
+      "Koichi Petetsky"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/522438.jpg"
+  },
+  {
+    "videoId": "LaKzGbnP0Qs",
+    "youtubeTitle": "Das Schloss meiner Mutter (1990) [Drama] [Komödie] | Eine zauberhafte Kindheit | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/LaKzGbnP0Qs/hqdefault.jpg",
+    "duration": "PT1H37M37S",
+    "publishedAt": "2026-08-21T16:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 12717,
+    "title": "Das Schloss meiner Mutter",
+    "originalTitle": "Le Château de ma mère",
+    "overview": "Familienfilm aus dem Jahr 1990 basierend auf dem Roman \"Eine Kindheit in der Provence\" des Schriftstellers Marcel Pagnol. Fortsetzung von \"Der Ruhm meines Vaters\". Marcel erlebt bei einem Ferienaufenthalt mit seiner Familie in der Provence so manches Abenteuer. Er lernt u.a. seine erste große Liebe kennen, doch er muss eine bittere Enttäuschung verkraften.",
+    "releaseDate": "1990-10-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ns1NIgQcWOZ2blKxG0b5v2sWDbG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2fwWnSmA9huDwvIdpAn1cyrEw2e.jpg",
+    "voteAverage": 7.167,
+    "genreIds": [
+      12,
+      35,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Philippe Caubère",
+      "Nathalie Roussel",
+      "Didier Pain",
+      "Thérèse Liotard",
+      "Julien Ciamaca"
+    ],
+    "director": [
+      "Yves Robert"
+    ],
+    "writer": [
+      "Jérôme Tonnerre",
+      "Yves Robert"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/12717.jpg"
+  },
+  {
+    "videoId": "U5EXBICf5CM",
+    "youtubeTitle": "Die erste Fahrt zum Mond - First men in the moon (1964) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/U5EXBICf5CM/hqdefault.jpg",
+    "duration": "PT1H43M25S",
+    "publishedAt": "2026-08-21T16:00:34Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 34276,
+    "title": "Die erste Fahrt zum Mond",
+    "originalTitle": "First Men in the Moon",
+    "overview": "Als der erste amerikanische Astronaut auf dem Mond landet und zu einer Exkursion startet, starrt er plötzlich wie gebannt auf eine britische Flagge und ein Manuskript aus dem Jahr 1899. Nach seiner Rückkehr beginnt eine fieberhafte Suche nach den Hintergründen dieser unglaublichen Weltraumexpedition am Ende des vorletzten Jahrhunderts. Und tatsächlich, Journalisten spüren einen alten Engländer auf, der bei dieser ersten Mondfahrt dabei war und seitdem versteckt lebt. Nicht ohne Grund. Denn was er zu erzählen hat, übersteigt die menschliche Phantasie ...",
+    "releaseDate": "1964-08-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/s63HDfmXza1T5JxiHtUDaUmctEI.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ispyRJVbcB3c9y6AhuZdbgMuzi.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      12,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Edward Judd",
+      "Martha Hyer",
+      "Lionel Jeffries",
+      "Miles Malleson",
+      "Norman Bird"
+    ],
+    "director": [
+      "Nathan Juran"
+    ],
+    "writer": [
+      "Jan Read",
+      "Nigel Kneale"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/34276.jpg"
+  },
+  {
+    "videoId": "eABqjm8MS1s",
+    "youtubeTitle": "DIESER Film zeigt die wahre Tragik von MARILYN MONROE • Biografie Film Deutsch: BLOND - TEIL 2",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eABqjm8MS1s/hqdefault.jpg",
+    "duration": "PT1H22M38S",
+    "publishedAt": "2026-05-30T16:30:30Z",
+    "channelName": "Starkino",
+    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
+    "tmdbId": null,
+    "title": "DIESER Film zeigt die wahre Tragik von MARILYN MONROE • Biografie Film Deutsch: BLOND - TEIL 2",
+    "originalTitle": null,
+    "overview": "Norma Jean Baker, als Marilyn Monroe bekannt, führte eine turbulente Karriere als ikonische Blondine der 1950er-Jahre. Diese Biographie beleuchtet ihre Kindheit, Ehen, Filmkarriere und Skandale.\n#marilynmonroe #biografie #drama #hollywood\n#ganzerfilm #ganzerfilmdeutsch #filmeaufdeutsch\n#bekannteschauspieler #starbesetztefilme #viralvideo",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Poppy Montgomery",
+      "Patricia Richardson",
+      "Patrick Dempsey",
+      "Kirstie Alley",
+      "Ann-Margret"
+    ],
+    "director": [
+      "Joyce Chopra"
+    ],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "8gwxtlK7I_o",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (deutscher KRIMI KLASSIKER, ganzer film deutsch, krimifilme, spielfilm, hd)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8gwxtlK7I_o/hqdefault.jpg",
+    "duration": "PT1H18M51S",
+    "publishedAt": "2024-12-15T16:30:01Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": null,
+    "title": "Edgar Wallace: Der Hexer",
+    "originalTitle": null,
+    "overview": "Seitdem seine Schwester Gwenda, Sekretärin beim reichen Rechtsanwalt Maurice Messer, unter ungeklärten Umständen ums Leben kam, ist Henry Milton ein Phantom. Er will Rache, und zwar an Messer, der am Tode Brendas die Schuld tragen soll. Da Milton untergetaucht, skrupellos und gleichzeitig Meister der Verkleidung ist, hat Scotland Yard eine schwere Nuss zu knacken, um den \"Hexer\" zu erwischen.\n#Spielfilm #ganzerFilm #FilmeaufDeutsch",
+    "releaseDate": "1963-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Peter Pasetti",
+      "Eva Maria Meineke",
+      "Hermann Lenschau"
+    ],
+    "director": [
+      "Rainer Erler"
+    ],
     "writer": [],
     "fsk": null
   }
