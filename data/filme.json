@@ -192318,47 +192318,6 @@
     "posterLocal": "img/posters/26617.jpg"
   },
   {
-    "videoId": "kGOLQ0QpFQc",
-    "youtubeTitle": "HARALD JUHNKE & EDDI ARENT im herrlichen Wohnungschaos • Komödie: Ein seltsames Paar",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/kGOLQ0QpFQc/hqdefault.jpg",
-    "duration": "PT1H28M12S",
-    "publishedAt": "2026-08-23T16:30:02Z",
-    "channelName": "Starkino",
-    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
-    "tmdbId": 162,
-    "title": "Edward mit den Scherenhänden",
-    "originalTitle": "Edward Scissorhands",
-    "overview": "Ein Erfinder hat den großen Traum, einen künstlichen Menschen zu erschaffen. Doch bevor er Edward vollenden kann, stirbt er an einem Herzinfarkt. Von da an lebt Edward alleine in dessen Schloss weiter und hat dort Scheren wo eigentlich seine Hände sein sollten. Eines Tages macht sein Leben eine Wendung, als die Avon-Vertreterin Peg das Schloss betritt. Peg nimmt den Jungen mit den Scherenhänden bei sich auf. Schnell macht er sich bei der Nachbarschaft beliebt, indem er ihre Büsche in den unterschiedlichsten Formen trimmt und später sogar die Haare der Frauen des Vorortes frisiert. Als er sich allerdings in Pegs Tochter Kim verliebt und deren Freund Edward für seine Zwecke missbraucht, droht diese anfängliche Begeisterung langsam zu schwinden.",
-    "releaseDate": "1990-12-07",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/tIBPewcePmv3AxL5cdabt2H9Kn0.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uNLIMPxknsV4n3IAEDpS1iqF5dm.jpg",
-    "voteAverage": 7.72,
-    "genreIds": [
-      14,
-      18,
-      10749
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 128 (Suchbegriff: \"Mit\")",
-    "cast": [
-      "Johnny Depp",
-      "Winona Ryder",
-      "Dianne Wiest",
-      "Anthony Michael Hall",
-      "Kathy Baker"
-    ],
-    "director": [
-      "Tim Burton"
-    ],
-    "writer": [
-      "Tim Burton",
-      "Caroline Thompson"
-    ],
-    "fsk": "6",
-    "posterLocal": "img/posters/162.jpg"
-  },
-  {
     "videoId": "ArZ6V1qDoc4",
     "youtubeTitle": "Don't Go - Zwischen Leben und Tod (MYSTERYFILM ganzer Film Deutsch, Mystery Filme Deutsch komplett)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/ArZ6V1qDoc4/hqdefault.jpg",
@@ -193724,6 +193683,147 @@
     "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
     "cast": [],
     "director": [],
+    "writer": [],
+    "fsk": null
+  },
+  {
+    "videoId": "VWKz78blP9Q",
+    "youtubeTitle": "John Carpenter's Ghosts of Mars | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VWKz78blP9Q/hqdefault.jpg",
+    "duration": "PT1H34M9S",
+    "publishedAt": "2026-07-27T12:11:25Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 10016,
+    "title": "Ghosts of Mars",
+    "originalTitle": "Ghosts of Mars",
+    "overview": "Der Mars im Jahre 2176: Mehr als 640.000 Menschen haben die überbevölkerte Erde verlassen und leben mittlerweile in versprengten Siedlungen auf dem roten Planeten. Dort werden in unzähligen Minen die wertvollen Bodenschätze abgetragen. Doch in Shining Canyon ereignet sich bei einer dieser Operationen ein verheerender Zwischenfall: Eine lange verschwundene Ur-Zivilisation des Mars wird zu neuem Leben erweckt - und beginnt einen unbarmherzigen Feldzug gegen die menschlichen Einwanderer. Commander Helena Braddock und ihr Team gehören zu denjenigen, die sich den bösen Kräften erwehren müssen. Eigentlich sollten sie nur den Schwerverbrecher Desolation Williams abholen, aber nun kämpfen sie mit von Geistern besessenen Mienenarbeitern.",
+    "releaseDate": "2001-08-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pbtzydM8zMe4LSxwUnTt5Y9wFHw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1loG5dSesKgwakjOET0Ll27jKgI.jpg",
+    "voteAverage": 5.165,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Natasha Henstridge",
+      "Ice Cube",
+      "Pam Grier",
+      "Jason Statham",
+      "Clea DuVall"
+    ],
+    "director": [
+      "John Carpenter"
+    ],
+    "writer": [
+      "John Carpenter",
+      "Larry Sulkis"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/10016.jpg"
+  },
+  {
+    "videoId": "DOINodA4IlE",
+    "youtubeTitle": "Unsichtbarer Gegner | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DOINodA4IlE/hqdefault.jpg",
+    "duration": "PT1H23M28S",
+    "publishedAt": "2026-07-01T10:00:18Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 147903,
+    "title": "Unsichtbare Gegner",
+    "originalTitle": "Santa Fe",
+    "overview": "Britt Canfield  einer von vier Brüdern, ist ehemaliger Konföderierter, dessen Plantage von einigen Siegern des Bürgerkrieges besetzt wurde. So also hat er keine andere Wahl, als bei dem Bau der Eisenbahnlinie, die von den Yankees finanziert wird, zu helfen. Doch das ganze wird zu einem harten Kampf, denn er muss nicht nur gegen Indianer, Spielsüchtige und rachsüchtige Kriegswitwen angehen, sondern in erster Linie gegen seine Brüder, die den Yankees äußerst feindlich gegenüber stehen.",
+    "releaseDate": "1951-04-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/amxwfxxh9MTX6gr2AcKPHu7Vh2k.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lLYLF28MkKikw0owUdWBUrYiwiu.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Randolph Scott",
+      "Janis Carter",
+      "Jerome Courtland",
+      "Peter M. Thompson",
+      "John Archer"
+    ],
+    "director": [
+      "Irving Pichel"
+    ],
+    "writer": [
+      "Louis Stevens",
+      "Kenneth Gamet"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/147903.jpg"
+  },
+  {
+    "videoId": "hd5vM_PtV6M",
+    "youtubeTitle": "Ein Horrorfilm, der dich erschrecken wird! Etwas Schreckliches geschah in einem verlassenen Gebäude",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hd5vM_PtV6M/hqdefault.jpg",
+    "duration": "PT1H27M56S",
+    "publishedAt": "2026-08-25T15:21:22Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 27370,
+    "title": "Paranormal Investigations 3 - Tödliche Geister",
+    "originalTitle": "Paranormal Entity",
+    "overview": "Im Hause der Familie Finley geschieht Seltsames: Tochter Samantha hat Nacht für Nacht gruselige Träume. Türen krachen, der Fernsehapparat schaltet sich von selbst an und komische Geräusche sind zu hören. Als diese Dinge jedoch auch passieren als sie wach ist, bekommt es Samantha mit der Angst zu tun. Ihre Eltern Thomas und Ellen engagieren einen Profi für paranormale Aktivitäten. Edgar Lauren versucht den Geist zu filmen, was sich als schwieriger erweist als gedacht. Unterdessen werden die Ereignisse dramatischer. Es tauchen blutige Fußspuren auf, und Samantha wird nackt in der Badewanne von dem Geist heimgesucht- denn er will nur sie.",
+    "releaseDate": "2009-12-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xc4UQKEHprJjCbmGRjtXYCgVyRb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/A1LRVEFpOj0gorB6pWvtkcM44Uh.jpg",
+    "voteAverage": 5.172,
+    "genreIds": [],
+    "matchSource": "manuell",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Erin Marie Hogan",
+      "Fia Perera",
+      "Norman Saleet",
+      "Shane van Dyke"
+    ],
+    "director": [
+      "Shane van Dyke"
+    ],
+    "writer": [
+      "Shane van Dyke"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/27370.jpg"
+  },
+  {
+    "videoId": "E6wg1PPwZ88",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (MYSTERY KRIMIFILM, ganzer film deutsch, krimifilme, krimis, spielfilme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/E6wg1PPwZ88/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2025-07-15T15:30:06Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 1152388,
+    "title": "The Ringer",
+    "originalTitle": "The Ringer",
+    "overview": "",
+    "releaseDate": "1928-08-29",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": 7,
+    "genreIds": [
+      80
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Jahr weicht ab: erwartet 1963, TMDB 1928 · Zuordnungswert 63 (Suchbegriff: \"The Ringer\")",
+    "cast": [
+      "Leslie Faber",
+      "Annette Benson",
+      "Lawson Butt",
+      "Nigel Barrie",
+      "Hayford Hobbs"
+    ],
+    "director": [
+      "Arthur Maude"
+    ],
     "writer": [],
     "fsk": null
   }
