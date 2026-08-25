@@ -1,16 +1,88 @@
 [
   {
-    "videoId": "E2aZd4NvgO4",
-    "youtubeTitle": "DAS FLUGZEUG LANDete NACHTS – UND KEINER SOLLTE WISSEN, WAS DRIN WAR | Ganzer Film HD 2026",
-    "suchbegriff": "DAS FLUGZEUG LANDete NACHTS – UND KEINER SOLLTE WISSEN, WAS DRIN WAR",
+    "videoId": "T1kTwtn0nns",
+    "youtubeTitle": "Der wilder Haufen von Navaronne | kompletter Film | Deutsch",
+    "suchbegriff": "Der wilder Haufen von Navaronne",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "yvnS9JBI9zw",
-    "youtubeTitle": "🤣💞 Diese Lustige Romantische Komödie Bringt Sie Jede Minute Zum Lachen! | Ganzer Film auf Deutsch",
-    "suchbegriff": "🤣💞 Diese Lustige Romantische Komödie Bringt Sie Jede Minute Zum Lachen!",
+    "videoId": "VWKz78blP9Q",
+    "youtubeTitle": "John Carpenter's Ghosts of Mars | kompletter Film | Deutsch",
+    "suchbegriff": "John Carpenter's Ghosts of Mars",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 10016,
+      "title": "Ghosts of Mars",
+      "release_date": "2001-08-14"
+    }
+  },
+  {
+    "videoId": "DOINodA4IlE",
+    "youtubeTitle": "Unsichtbarer Gegner | kompletter Film | Deutsch",
+    "suchbegriff": "Unsichtbarer Gegner",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "mAdNdnugBZU",
+    "youtubeTitle": "Die Abendheuer des Baron von Münchhausen | kompletter Film | Deutsch",
+    "suchbegriff": "Die Abendheuer des Baron von Münchhausen",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "MjJkSXBYd4o",
+    "youtubeTitle": "City Slickers 2 | kompletter Film | Deutsch",
+    "suchbegriff": "City Slickers 2",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 11310,
+      "title": "City Slickers 2 - Die goldenen Jungs",
+      "release_date": "1994-06-10"
+    }
+  },
+  {
+    "videoId": "jQp3d7UzmSc",
+    "youtubeTitle": "So wie wir waren | kompletter Film | Deutsch",
+    "suchbegriff": "So wie wir waren",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 35)",
+    "tmdbTopKandidat": {
+      "id": 10236,
+      "title": "Cherie Bitter",
+      "release_date": "1973-10-17"
+    }
+  },
+  {
+    "videoId": "J2bPsnWIPpU",
+    "youtubeTitle": "DIRECTOR’S TAKE: EIN PODCAST VON SONY PICTURES – Episode 2 mit Eli Roth (Englisch - komplett)",
+    "suchbegriff": "DIRECTOR’S TAKE: EIN PODCAST VON SONY PICTURES – Episode 2 mit Eli Roth",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "TpuEe0Qqezw",
+    "youtubeTitle": "John Carpenter's Starman | kompletter Film | Deutsch",
+    "suchbegriff": "John Carpenter's Starman",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 54) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 9663,
+      "title": "Starman",
+      "release_date": "1984-12-13"
+    }
+  },
+  {
+    "videoId": "hd5vM_PtV6M",
+    "youtubeTitle": "Ein Horrorfilm, der dich erschrecken wird! Etwas Schreckliches geschah in einem verlassenen Gebäude",
+    "suchbegriff": "Ein Horrorfilm, der dich erschrecken wird! Etwas Schreckliches geschah in einem verlassenen Gebäude",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
