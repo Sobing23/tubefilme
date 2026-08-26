@@ -193793,38 +193793,42 @@
     "posterLocal": "img/posters/27370.jpg"
   },
   {
-    "videoId": "E6wg1PPwZ88",
-    "youtubeTitle": "Edgar Wallace: Der Hexer (MYSTERY KRIMIFILM, ganzer film deutsch, krimifilme, krimis, spielfilme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/E6wg1PPwZ88/hqdefault.jpg",
-    "duration": "PT1H27M50S",
-    "publishedAt": "2025-07-15T15:30:06Z",
-    "channelName": "Heimatkino",
-    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
-    "tmdbId": 1152388,
-    "title": "The Ringer",
-    "originalTitle": "The Ringer",
-    "overview": "",
-    "releaseDate": "1928-08-29",
-    "posterUrl": null,
+    "videoId": "kGOLQ0QpFQc",
+    "youtubeTitle": "HARALD JUHNKE & EDDI ARENT im herrlichen Wohnungschaos • Komödie: Ein seltsames Paar",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kGOLQ0QpFQc/hqdefault.jpg",
+    "duration": "PT1H28M12S",
+    "publishedAt": "2026-08-23T16:30:02Z",
+    "channelName": "Starkino",
+    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
+    "tmdbId": 568511,
+    "title": "Engel mit einem Flügel",
+    "originalTitle": "Engel mit einem Flügel",
+    "overview": "Am Tag, als die bange Befürchtung ärztlich bestätigte Gewissheit wird, bricht für Elke eine Welt zusammen: Ihr kleiner Adoptivsohn Rico ist geistig behindert. Viel Zuwendung und Geduld wird es kosten, dem Kind trotzdem eine optimale Entwicklung zu ermöglichen",
+    "releaseDate": "1991-08-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pwL3AD8wagSBzoOwgUL0VotL6o6.jpg",
     "backdropUrl": null,
-    "voteAverage": 7,
+    "voteAverage": 9,
     "genreIds": [
-      80
+      35,
+      18
     ],
     "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Jahr weicht ab: erwartet 1963, TMDB 1928 · Zuordnungswert 63 (Suchbegriff: \"The Ringer\")",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 121 (Suchbegriff: \"Mit\")",
     "cast": [
-      "Leslie Faber",
-      "Annette Benson",
-      "Lawson Butt",
-      "Nigel Barrie",
-      "Hayford Hobbs"
+      "Arianne Borbach",
+      "Jörg Schüttauf",
+      "Monika Lennartz",
+      "Annett Kruschke",
+      "Marga Legal"
     ],
     "director": [
-      "Arthur Maude"
+      "Dagmar Wittmers"
     ],
-    "writer": [],
-    "fsk": null
+    "writer": [
+      "Anne Dessau"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/568511.jpg"
   }
 ]
