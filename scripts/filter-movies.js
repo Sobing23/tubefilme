@@ -2,7 +2,8 @@
 // nur echte Einzelfilme herausfiltern. Ausgeschlossen werden:
 //   - Shorts/Clips/Teaser (per Mindestlaufzeit)
 //   - Titel mit "Trailer"/"Teaser"/"Clip"
-//   - mehrteilige Serien (per Schlüsselwort "Folge"/"Serie" im Titel)
+//   - Serieninhalte (Schlüsselwörter "Folge", "Staffel", "Serie",
+//     "Episode", "Webserie" im Titel)
 //
 // Ausgeschlossenes landet NICHT im Nirwana, sondern in data/excluded.json
 // mit Begründung -- damit du das jederzeit nachvollziehen und Regeln
@@ -18,7 +19,7 @@ const OUT_EXCLUDED = "data/excluded.json";
 // -- Stellschrauben --
 const MIN_DURATION_SECONDS = 15 * 60; // alles darunter fliegt raus (Shorts/Clips)
 const PROMO_KEYWORDS = /trailer|teaser|\bclip\b/i;
-const SERIES_KEYWORDS = /\bfolgen?\b|\bstaffel\b|miniserie|\bserie\b/i;
+const SERIES_KEYWORDS = /\bfolgen?\b|\bstaffel\b|miniserie|\bserie\b|\bepisoden?\b|\bwebserie\b/i;
 
 function parseDuration(iso) {
   if (!iso) return 0;
