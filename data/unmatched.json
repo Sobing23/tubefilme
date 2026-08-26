@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "videoId": "xKkz74ZmHwo",
+    "youtubeTitle": "Rosamunde Pilcher: Vier Frauen - Lauras Liebe | Teil 2 - ganzer Film auf Deutsch kostenlos in HD",
+    "suchbegriff": "A Healing Heart",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1220643,
+      "title": "Rosamunde Pilcher: Amys Wunschkind",
+      "release_date": "2023-11-04"
+    }
+  },
+  {
+    "videoId": "ux-wClpwbA8",
+    "youtubeTitle": "Rosamunde Pilcher: Vier Jahreszeiten - Das Geschenk des Frühlings - ganzer Film in HD",
+    "suchbegriff": "ROSAMUNDE PILCHER: THE FOUR SEASONS - SPRING (IV)",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1220643,
+      "title": "Rosamunde Pilcher: Amys Wunschkind",
+      "release_date": "2023-11-04"
+    }
+  },
+  {
+    "videoId": "r0uDZSohEa4",
+    "youtubeTitle": "Rosamunde Pilcher: Vier Jahreszeiten - Ein Sommer in Endellion - ganzer Film, HD",
+    "suchbegriff": "ROSAMUNDE PILCHER: THE FOUR SEASONS - SUMMER (I)",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1220643,
+      "title": "Rosamunde Pilcher: Amys Wunschkind",
+      "release_date": "2023-11-04"
+    }
+  },
+  {
+    "videoId": "fdKiH63ZgGY",
+    "youtubeTitle": "Rosamunde Pilcher: Vier Frauen - Alexas Glück | Teil 4 - ganzer Film auf Deutsch kostenlos in HD",
+    "suchbegriff": "Rosamunde Pilcher’s Shades of Love PART 4)",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1220643,
+      "title": "Rosamunde Pilcher: Amys Wunschkind",
+      "release_date": "2023-11-04"
+    }
+  },
+  {
+    "videoId": "dyW6PpVo2po",
+    "youtubeTitle": "Rosamunde Pilcher: Vier Frauen - Olivias Schicksal | Teil 3 - ganzer Film auf Deutsch kostenlos, HD",
+    "suchbegriff": "The Scandal",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 464719,
+      "title": "Rosamunde Pilcher: Ghostwriter",
+      "release_date": "2015-07-05"
+    }
+  },
+  {
+    "videoId": "8Ghtfel2E4E",
+    "youtubeTitle": "Rosamunde Pilcher: Vier Frauen - Virginias Geheimnis | Teil 1- ganzer Film auf Deutsch kostenlos, HD",
+    "suchbegriff": "Rosamunde Pilcher’s shades of love",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1220643,
+      "title": "Rosamunde Pilcher: Amys Wunschkind",
+      "release_date": "2023-11-04"
+    }
+  }
+]
