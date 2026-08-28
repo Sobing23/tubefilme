@@ -1,17 +1,45 @@
 [
   {
-    "videoId": "xMIHZt6B96A",
-    "youtubeTitle": "NACH DER EXPLOSION WAR SEINE TOCHTER WEG – UND ALLES WURDE NOCH VERRÜCKTER | Ganzer Film 2026 HD",
-    "suchbegriff": "NACH DER EXPLOSION WAR SEINE TOCHTER WEG – UND ALLES WURDE NOCH VERRÜCKTER",
+    "videoId": "UfwO2UFcfB4",
+    "youtubeTitle": "DREI MÄNNER GEGEN EINE GANZE BANDE – UND KEINER GAB NACH | Ganzer Film HD",
+    "suchbegriff": "DREI MÄNNER GEGEN EINE GANZE BANDE – UND KEINER GAB NACH",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "IT4w2vl66kU",
-    "youtubeTitle": "😍🍿 Diesen Lustigen FILM über die Erste Liebe Werden Sie Immer Wieder Ansehen! | Film auf Deutsch",
-    "suchbegriff": "😍🍿 Diesen Lustigen FILM über die Erste Liebe Werden Sie Immer Wieder Ansehen!",
+    "videoId": "NXwaRDKGia8",
+    "youtubeTitle": "Sie wollen aus ihm eine perfekte Kampfmaschine machen – doch er schlägt zurück",
+    "suchbegriff": "Sie wollen aus ihm eine perfekte Kampfmaschine machen – doch er schlägt zurück",
     "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bEsJv4-ABQY",
+    "youtubeTitle": "😍🤣 Diese Verrückte Romantische Komödie Sollten Sie Bis Zum Ende Anschauen! | Filme Deutsch Komplett",
+    "suchbegriff": "😍🤣 Diese Verrückte Romantische Komödie Sollten Sie Bis Zum Ende Anschauen!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "VEu9zYbtH0Y",
+    "youtubeTitle": "Ein Thriller, der unter die Haut geht! Er kämpft ums Überleben hinter Gefängnismauern| Filme Deutsch",
+    "suchbegriff": "Ein Thriller, der unter die Haut geht! Er kämpft ums Überleben hinter Gefängnismauern",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 56694,
+      "title": "Deutschland 09 - 13 kurze Filme zur Lage der Nation",
+      "release_date": "2009-02-13"
+    }
+  },
+  {
+    "videoId": "2JXET3827PU",
+    "youtubeTitle": "Darf man für die große Liebe lügen? Unglaublich bewegender Film",
+    "suchbegriff": "Darf man für die große Liebe lügen? Unglaublich bewegender Film",
+    "erwartetesJahr": "2012",
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   }
