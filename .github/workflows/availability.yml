@@ -1,0 +1,54 @@
+name: Verfügbarkeit prüfen
+
+# Läuft nur auf Knopfdruck. Prüft, welche Filme bei YouTube nicht mehr
+# abspielbar sind, und schreibt das Ergebnis nach data/unavailable.json.
+# Die Bibliothek selbst wird dabei NICHT verändert.
+on:
+  workflow_dispatch:
+    inputs:
+      kanal:
+        description: "Nur einen Kanal prüfen (Name genau wie in channels.json). Leer = alle."
+        required: false
+        default: ""
+      video:
+        description: "Nur ein einzelnes Video prüfen (videoId). Hat Vorrang vor Kanal."
+        required: false
+        default: ""
+      limit:
+        description: "Höchstens so viele Filme prüfen (leer = ohne Begrenzung)."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Verfügbarkeit prüfen
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          KANAL: ${{ inputs.kanal }}
+          VIDEO: ${{ inputs.video }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          ARGS=""
+          if [ -n "$VIDEO" ]; then ARGS="--video $VIDEO";
+          elif [ -n "$KANAL" ]; then ARGS="--kanal \"$KANAL\""; fi
+          if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          eval node scripts/check-availability.js $ARGS
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "tubefilme-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/unavailable.json
+          git diff --staged --quiet || git commit -m "Verfügbarkeitsprüfung: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
