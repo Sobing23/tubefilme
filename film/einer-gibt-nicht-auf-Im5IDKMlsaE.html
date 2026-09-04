@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Einer gibt nicht auf (1960) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Jeff Cody ist ein ehemaliger Bürgerkriegs-Offizier, dessen Frau von Indianern entführt wird. Er macht sich auf die Suche nach ihr, heftet sich an die Ferse…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/einer-gibt-nicht-auf-Im5IDKMlsaE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Einer gibt nicht auf (1960)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

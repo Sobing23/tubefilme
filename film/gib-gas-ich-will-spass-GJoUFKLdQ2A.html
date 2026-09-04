@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gib Gas - Ich will Spaß (1983) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Tina, gespielt von Nena, sollte eigentlich fürs Abi lernen, doch das langweilt sie. Sie trifft sich lieber auf dem Rummelplatz mit dem gut aussehenden, läs…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/gib-gas-ich-will-spass-GJoUFKLdQ2A">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Gib Gas - Ich will Spaß (1983)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

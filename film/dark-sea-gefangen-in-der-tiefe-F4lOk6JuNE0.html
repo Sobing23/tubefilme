@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dark Sea - Gefangen in der Tiefe (2022) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="1940: Während die Soldaten der Alliierten aus dem französischen Dunkerque evakuiert werden, startet ein U-Boot eine gefährliche Mission in der Nordsee. Bed…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dark-sea-gefangen-in-der-tiefe-F4lOk6JuNE0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Dark Sea - Gefangen in der Tiefe (2022)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

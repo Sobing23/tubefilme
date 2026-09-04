@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Großartiger Abenteuerfilm! Allein in einer fremden Galaxie gegen blutrünstige Monster! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In ferner Zukunft gelangt Steve Armstrong auf eine Raumstation voller außergewöhnlicher Wesen aus allen Teilen der Galaxie. In einer Welt, die von Macht, G…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/grossartiger-abenteuerfilm-allein-in-einer-fremden-galaxie-g-egI1W9PGpd8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Großartiger Abenteuerfilm! Allein in einer fremden Galaxie gegen blutrünstige Monster!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

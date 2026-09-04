@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Banditen aus den Bergen Fernost-Robin Hood (1985) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Doch Zhang spielt ein riskantes Doppelleben. Während er tagsüber in seiner offiziellen Funktion für Ordnung sorgt, streift er nachts als maskierter Bandit…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-banditen-aus-den-bergen-fernost-robin-hood-xuSOUo7eBfw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Banditen aus den Bergen Fernost-Robin Hood (1985)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

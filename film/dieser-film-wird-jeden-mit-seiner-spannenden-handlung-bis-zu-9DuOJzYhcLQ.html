@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>😨 Dieser FILM Wird Jeden Mit Seiner Spannenden Handlung Bis Zum Großen Finale Fesseln! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;ELLE&quot; ist eine fesselnde Geschichte über innere Stärke, persönliche Entscheidungen und die Suche nach Klarheit. Im Mittelpunkt steht eine Frau, die sich d…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dieser-film-wird-jeden-mit-seiner-spannenden-handlung-bis-zu-9DuOJzYhcLQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="😨 Dieser FILM Wird Jeden Mit Seiner Spannenden Handlung Bis Zum Großen Finale Fesseln!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

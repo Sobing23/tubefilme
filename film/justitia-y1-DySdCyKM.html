@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Justitia (2024) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Justitia (2024) Familie, Krimi — kostenlos und in voller Länge auf Deutsch ansehen.">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/justitia-y1-DySdCyKM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Justitia (2024)">
@@ -39,24 +40,24 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/die-olsenbande-sieht-rot-BORJqnfwGnc">
-        <img src="https://image.tmdb.org/t/p/w500/4YSz2AYqodXAMnBJliXYYOd0dX7.jpg" loading="lazy" alt="Die Olsenbande sieht rot">
-        <div>Die Olsenbande sieht rot</div>
-      </a><a href="/film/der-voraussichtlich-letzte-streich-der-olsenbande-wcnrehnPdmo">
-        <img src="https://image.tmdb.org/t/p/w500/djSxws7UUBolzq2Ve3iWzAQW5A.jpg" loading="lazy" alt="Der (voraussichtlich) letzte Streich der Olsenbande">
-        <div>Der (voraussichtlich) letzte Streich der Olsenbande</div>
-      </a><a href="/film/die-olsenbande-q3CbPoIf2hQ">
-        <img src="https://image.tmdb.org/t/p/w500/jug8HXA8EP8pm4Ld6YwESlncTKs.jpg" loading="lazy" alt="Die Olsenbande">
-        <div>Die Olsenbande</div>
-      </a><a href="/film/little-gangster--C3tKiPn-qY">
+      <a href="/film/little-gangster--C3tKiPn-qY">
         <img src="https://image.tmdb.org/t/p/w500/5xwSkMqssy6oBvDOkj71TE0gk0p.jpg" loading="lazy" alt="Little Gangster">
         <div>Little Gangster</div>
-      </a><a href="/film/die-olsenbande-steigt-aufs-dach-PlvvL2IXfkw">
-        <img src="https://image.tmdb.org/t/p/w500/uBFeB6F7GaBemqEzhbjon0hJd4.jpg" loading="lazy" alt="Die Olsenbande steigt aufs Dach">
-        <div>Die Olsenbande steigt aufs Dach</div>
       </a><a href="/film/mistaken-identity-mVIq84ozR2g">
         <img src="https://image.tmdb.org/t/p/w500/koR6jHZYmwGwBLB1am8vaIQlgof.jpg" loading="lazy" alt="Mistaken Identity">
         <div>Mistaken Identity</div>
+      </a><a href="/film/im-nest-der-gelben-viper-oTL18roEuUk">
+        <img src="https://image.tmdb.org/t/p/w500/djXI5wtu97IUYTv4jXIN0Pogihj.jpg" loading="lazy" alt="Im Nest der gelben Viper">
+        <div>Im Nest der gelben Viper</div>
+      </a><a href="/film/horse-camp-sommer-der-abenteuer-wl724d1GQho">
+        <img src="https://image.tmdb.org/t/p/w500/ppBhvOUbNNCzxHI7ouyyCy1HneJ.jpg" loading="lazy" alt="Horse Camp - Sommer der Abenteuer">
+        <div>Horse Camp - Sommer der Abenteuer</div>
+      </a><a href="/film/der-sanfte-ben-lcD5xoeK-QA">
+        <img src="https://image.tmdb.org/t/p/w500/rSeDS8eB2gH052cP5jKoGStk5Zm.jpg" loading="lazy" alt="Der sanfte Ben">
+        <div>Der sanfte Ben</div>
+      </a><a href="/film/kalle-und-der-engel-B2xhNEEguvE">
+        <img src="https://image.tmdb.org/t/p/w500/iWre2QzpJnTMACMdHEEv1SCcEL.jpg" loading="lazy" alt="Kalle und der Engel">
+        <div>Kalle und der Engel</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

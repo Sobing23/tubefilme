@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vier junge Detektive - Alter Deutscher Film – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;Regie: Hans Deppe, Altmeister-Fachmann für schlichte Filmgeschichten mit kunstvoll eingefädelten Pseudo-Komplikationen, milden Scherzen und herzigen Unter…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/vier-junge-detektive-alter-deutscher-film-2qjoV3GD-HE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Vier junge Detektive - Alter Deutscher Film">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zwischen Himmel und Hölle (1993) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Vietnam 1965: Le Ly ist zwölf Jahre alt, als US-Soldaten in ihr Dorf einmarschieren. Weil sie mit den Kommunisten sympathisiert, wird sie von den südvietna…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/zwischen-himmel-und-hoelle-Cez8v7uW5tc">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Zwischen Himmel und Hölle (1993)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

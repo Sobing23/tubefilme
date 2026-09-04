@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🤣🍿 Ein Lustiger FILM, Der Keine Langeweile Aufkommen Lässt! Abenteuerkomödie auf Deutsch | Film HD – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;Harold &amp; Kumar Go to White Castle&quot; erzählt von zwei Freunden, die gemeinsam einen ungewöhnlichen Abend erleben. Harold und Kumar könnten kaum unterschiedl…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-lustiger-film-der-keine-langeweile-aufkommen-laesst-aben-uCAYLqdSJ4A">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="🤣🍿 Ein Lustiger FILM, Der Keine Langeweile Aufkommen Lässt! Abenteuerkomödie auf Deutsch | Film HD">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

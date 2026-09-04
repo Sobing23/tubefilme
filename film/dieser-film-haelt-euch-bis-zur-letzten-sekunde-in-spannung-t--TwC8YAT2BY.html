@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🎬 Dieser FILM Hält Euch Bis Zur Letzten Sekunde In Spannung! 😨 Thriller Auf Deutsch | Ganzer Film HD – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;Crazy, Rich and Deadly&quot; entführt die Zuschauer in eine Welt voller Luxus, exklusiver Villen und geheimnisvoller Beziehungen. Brandi entdeckt eine Familie,…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dieser-film-haelt-euch-bis-zur-letzten-sekunde-in-spannung-t--TwC8YAT2BY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="🎬 Dieser FILM Hält Euch Bis Zur Letzten Sekunde In Spannung! 😨 Thriller Auf Deutsch | Ganzer Film HD">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

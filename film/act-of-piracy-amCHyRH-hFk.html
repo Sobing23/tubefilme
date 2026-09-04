@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Act of Piracy (1988) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Auf einer Kreuzfahrt verliert ein junger Amerikaner seine Hochseeyacht und seine beiden Kinder an eine Bande internationaler Waffenschieber und Terroristen…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/act-of-piracy-amCHyRH-hFk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Act of Piracy (1988)">
@@ -42,9 +43,6 @@
       <a href="/film/shelter-Gs8fyA85Ckk">
         <img src="https://image.tmdb.org/t/p/w500/fz8fhY5xuE6NenYDuBsHbB7wUdj.jpg" loading="lazy" alt="Shelter">
         <div>Shelter</div>
-      </a><a href="/film/diablo-mm1CmspikGw">
-        <img src="https://image.tmdb.org/t/p/w500/AhSPX1r0TRcFZ80SfHSwLkfgqCD.jpg" loading="lazy" alt="Diablo">
-        <div>Diablo</div>
       </a><a href="/film/the-operation-im-sumpf-der-korruption-rZpLTAIRVJo">
         <img src="https://image.tmdb.org/t/p/w500/qL4sMcXGjg36NtiAbh3mDnjVOrn.jpg" loading="lazy" alt="The Operation - Im Sumpf der Korruption">
         <div>The Operation - Im Sumpf der Korruption</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/kung-fu-killer-skb4P1QHYBc">
         <img src="https://image.tmdb.org/t/p/w500/jqPq4ZJ3nBMTGlMvczKX0iWReFK.jpg" loading="lazy" alt="Kung Fu Killer">
         <div>Kung Fu Killer</div>
+      </a><a href="/film/der-wildeste-von-allen-mIk1Jl9tMyI">
+        <img src="https://image.tmdb.org/t/p/w500/d5NJ1RvXCzQc9RStNmmDqSFDezl.jpg" loading="lazy" alt="Der Wildeste von allen">
+        <div>Der Wildeste von allen</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

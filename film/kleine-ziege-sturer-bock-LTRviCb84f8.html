@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kleine Ziege, sturer Bock (2015) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Kleine Ziege, sturer Bock – das umschreibt Jakob und seine frisch entdeckte 12-jährige Tochter Mai ganz gut. Dabei hat Jakob selbst sich immer als vogelfre…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/kleine-ziege-sturer-bock-LTRviCb84f8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Kleine Ziege, sturer Bock (2015)">
@@ -54,9 +55,9 @@
       </a><a href="/film/el-infierno-kfosDV0YL9w">
         <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
         <div>El Infierno</div>
-      </a><a href="/film/paper-moon-dze2NBcNcI8">
-        <img src="https://image.tmdb.org/t/p/w500/3GHG0kTcBWHKdXjj3RdK8GjBCd6.jpg" loading="lazy" alt="Paper Moon">
-        <div>Paper Moon</div>
+      </a><a href="/film/die-kinder-des-monsieur-mathieu-FhOzL8CyX_c">
+        <img src="https://image.tmdb.org/t/p/w500/d2PnrEEPEECB3p69Zl3xnhSSg31.jpg" loading="lazy" alt="Die Kinder des Monsieur Mathieu">
+        <div>Die Kinder des Monsieur Mathieu</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

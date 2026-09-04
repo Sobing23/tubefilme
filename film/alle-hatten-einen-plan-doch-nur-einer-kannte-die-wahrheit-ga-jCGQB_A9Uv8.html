@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alle Hatten Einen Plan, Doch Nur Einer Kannte Die Wahrheit Ganzer Film auf Deutsch - Action komplett – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine Gruppe ehrgeiziger Kleinkrimineller plant einen Coup, der sie mit einem Schlag reich machen soll. Anfangs läuft alles nach Plan, doch während der Fluc…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/alle-hatten-einen-plan-doch-nur-einer-kannte-die-wahrheit-ga-jCGQB_A9Uv8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Alle Hatten Einen Plan, Doch Nur Einer Kannte Die Wahrheit Ganzer Film auf Deutsch - Action komplett">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

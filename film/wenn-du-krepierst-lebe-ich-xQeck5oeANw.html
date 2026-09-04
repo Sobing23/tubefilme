@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wenn Du krepierst - lebe ich (1977) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Das von Millionenräuber Adam schikaniertes Ehepaar Walter und Eve kann sich des Gangsters schließlich entledigen, was jedoch auch für die dabei verwundete…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wenn-du-krepierst-lebe-ich-xQeck5oeANw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wenn Du krepierst - lebe ich (1977)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

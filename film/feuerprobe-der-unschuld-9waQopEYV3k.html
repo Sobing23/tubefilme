@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Feuerprobe der Unschuld (2017) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Mike hat seinen Job als Anwalt an den Nagel gehängt, um Pastor zu werden. Als eine ältere Dame ihn bittet, ihren exzentrischen Ehemann Sam anwaltlich zu ve…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/feuerprobe-der-unschuld-9waQopEYV3k">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Feuerprobe der Unschuld (2017)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

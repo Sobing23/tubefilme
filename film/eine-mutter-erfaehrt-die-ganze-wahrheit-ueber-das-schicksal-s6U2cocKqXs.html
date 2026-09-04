@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>😨 Eine Mutter Erfährt Die Ganze Wahrheit Über Das Schicksal Ihrer Familie | Ganzer Film – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="„Jedini izlaz“ erzählt eine fesselnde Geschichte über Erinnerungen, Vertrauen und die Suche nach der Wahrheit. Eine unerwartete Wendung bringt die Hauptfig…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/eine-mutter-erfaehrt-die-ganze-wahrheit-ueber-das-schicksal-s6U2cocKqXs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="😨 Eine Mutter Erfährt Die Ganze Wahrheit Über Das Schicksal Ihrer Familie | Ganzer Film">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

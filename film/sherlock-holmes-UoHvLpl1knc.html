@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sherlock Holmes (2009) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Sherlock Holmes und sein Partner Dr. Watson haben es geschafft, einen der kaltblütigsten Mörder des 19. Jahrhunderts festzunehmen. Lord Blackwood hat zahlr…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/sherlock-holmes-UoHvLpl1knc">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Sherlock Holmes (2009)">
@@ -48,15 +49,15 @@
       </a><a href="/film/detective-dee-und-das-geheimnis-der-phantomflammen-9b7VwuotnKM">
         <img src="https://image.tmdb.org/t/p/w500/vJ6yFHoFVBZccQVpyvZEjp6DVFQ.jpg" loading="lazy" alt="Detective Dee und das Geheimnis der Phantomflammen">
         <div>Detective Dee und das Geheimnis der Phantomflammen</div>
-      </a><a href="/film/auferstanden-m9RW2YJqMXI">
-        <img src="https://image.tmdb.org/t/p/w500/3mWSTlgea72EharkGAi71TWYtnk.jpg" loading="lazy" alt="Auferstanden">
-        <div>Auferstanden</div>
       </a><a href="/film/detective-dee-und-die-legende-der-vier-himmlischen-koenige-hm4_i4DcKpY">
         <img src="https://image.tmdb.org/t/p/w500/angWmwBp9OftxKo08pJFuijUslt.jpg" loading="lazy" alt="Detective Dee und die Legende der vier himmlischen Könige">
         <div>Detective Dee und die Legende der vier himmlischen Könige</div>
       </a><a href="/film/die-baereninsel-in-der-hoelle-der-arktis-XO02gKsKsRE">
         <img src="https://image.tmdb.org/t/p/w500/6llnar1CoSHewGorNP5pSS7Dju7.jpg" loading="lazy" alt="Die Bäreninsel in der Hölle der Arktis">
         <div>Die Bäreninsel in der Hölle der Arktis</div>
+      </a><a href="/film/getaway-auf-der-flucht-DKWT2DkoInI">
+        <img src="https://image.tmdb.org/t/p/w500/sl3yGfP4Ds6QPSf9pAbbupZ8vVQ.jpg" loading="lazy" alt="Getaway - Auf der Flucht">
+        <div>Getaway - Auf der Flucht</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

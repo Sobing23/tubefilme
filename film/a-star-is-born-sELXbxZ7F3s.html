@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>A Star Is Born (2018) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Jackson Maines Country-Karriere befindet sich am Tiefpunkt, als er eine begabte Unbekannte namens Ally entdeckt. Die beiden beginnen eine leidenschaftliche…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/a-star-is-born-sELXbxZ7F3s">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="A Star Is Born (2018)">
@@ -48,15 +49,15 @@
       </a><a href="/film/the-way-she-moves-JgJDOcUwY4A">
         <img src="https://image.tmdb.org/t/p/w500/hp1QIZ9tWIqDi2JXTMu5J4STfoj.jpg" loading="lazy" alt="The Way She Moves">
         <div>The Way She Moves</div>
-      </a><a href="/film/one-last-dance-stPP5CnHFlE">
-        <img src="https://image.tmdb.org/t/p/w500/lTsJTjYdw4LzaCNJFxfcBP7pfRk.jpg" loading="lazy" alt="One Last Dance">
-        <div>One Last Dance</div>
       </a><a href="/film/vom-suchen-und-finden-der-liebe-AUxDTlU-JaA">
         <img src="https://image.tmdb.org/t/p/w500/eauZ3KLBcBejZDyXge5HoWJ6zwn.jpg" loading="lazy" alt="Vom Suchen und Finden der Liebe">
         <div>Vom Suchen und Finden der Liebe</div>
       </a><a href="/film/tor-zum-himmel-degZbJkB54M">
         <img src="https://image.tmdb.org/t/p/w500/reNXBhJ407hk7716eq4nKrIhqO3.jpg" loading="lazy" alt="Tor zum Himmel">
         <div>Tor zum Himmel</div>
+      </a><a href="/film/horse-camp-sommer-der-abenteuer-wl724d1GQho">
+        <img src="https://image.tmdb.org/t/p/w500/ppBhvOUbNNCzxHI7ouyyCy1HneJ.jpg" loading="lazy" alt="Horse Camp - Sommer der Abenteuer">
+        <div>Horse Camp - Sommer der Abenteuer</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

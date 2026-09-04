@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Don&#39;t Go - Zwischen Leben und Tod (2018) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ben und seine Frau verlieren ihre Tochter bei einem tödlichen Bootsunfall. Um das tragische Ereignis zu überwinden, ziehen sie in ein altes Hotel an der ir…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/don-t-go-zwischen-leben-und-tod-ArZ6V1qDoc4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Don&#39;t Go - Zwischen Leben und Tod (2018)">
@@ -45,7 +46,7 @@
       </a><a href="/film/beruechtigt-ONlmmrkbf90">
         <img src="https://image.tmdb.org/t/p/w500/bHymOtR55daLAUFt7LLjzTxWKG3.jpg" loading="lazy" alt="Berüchtigt">
         <div>Berüchtigt</div>
-      </a><a href="/film/die-spur-des-falken-3cbbh8raV8Y">
+      </a><a href="/film/die-spur-des-falken-CqM6xeuyy3U">
         <img src="https://image.tmdb.org/t/p/w500/7MaTwWm6pKkmm23YR9az4K8YZcH.jpg" loading="lazy" alt="Die Spur des Falken">
         <div>Die Spur des Falken</div>
       </a><a href="/film/mord-mit-kleinen-fehlern-Kl25Pq3LnQQ">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

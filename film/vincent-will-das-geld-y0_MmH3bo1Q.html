@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vincent will das Geld (2004) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der linkische Einbrecher Vincent Papineau schlägt sich eher schlecht als recht durch. Der große Coup blieb ihm bislang untersagt. Eines Tages erbeutet er b…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/vincent-will-das-geld-y0_MmH3bo1Q">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Vincent will das Geld (2004)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

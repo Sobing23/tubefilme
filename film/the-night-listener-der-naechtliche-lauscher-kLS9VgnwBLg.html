@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Night Listener - Der nächtliche Lauscher (2006) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der schwule Schriftsteller Gabriel Noone steckt in einer akuten Lebenskrise, denn sein Lebensgefährte hat sich eine längere Auszeit genommen und damit bric…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-night-listener-der-naechtliche-lauscher-kLS9VgnwBLg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Night Listener - Der nächtliche Lauscher (2006)">
@@ -54,7 +55,7 @@
       </a><a href="/film/curse-of-the-zodiac-C6tOhDLiyqc">
         <img src="https://image.tmdb.org/t/p/w500/fx0djmTL5eKTdbsEgNk70zHmC5f.jpg" loading="lazy" alt="Curse of the Zodiac">
         <div>Curse of the Zodiac</div>
-      </a><a href="/film/die-spur-des-falken-3cbbh8raV8Y">
+      </a><a href="/film/die-spur-des-falken-CqM6xeuyy3U">
         <img src="https://image.tmdb.org/t/p/w500/7MaTwWm6pKkmm23YR9az4K8YZcH.jpg" loading="lazy" alt="Die Spur des Falken">
         <div>Die Spur des Falken</div>
       </a>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sklaven der Semiramis (1963) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="König Ninurte ist der Herrscher über Assyrien. Aber hinter seinem Rücken werden Intrigen gesponnen. Der oberste Feldherr Onnos will die Macht an sich reiße…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/sklaven-der-semiramis-jUcu_f2IbpM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Sklaven der Semiramis (1963)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/reds-76nl5rpaBfE">
-        <img src="https://image.tmdb.org/t/p/w500/8i09Z9tFINlR2mRGxEcZHDBkswl.jpg" loading="lazy" alt="Reds">
-        <div>Reds</div>
-      </a><a href="/film/el-cid-u6I6wSwzORw">
+      <a href="/film/el-cid-u6I6wSwzORw">
         <img src="https://image.tmdb.org/t/p/w500/piDvr9V7ZkBK4TJgTcyAO7AXg0l.jpg" loading="lazy" alt="El Cid">
         <div>El Cid</div>
       </a><a href="/film/samson-und-delilah-2MDmOqw2Z4c">
@@ -54,9 +52,12 @@
       </a><a href="/film/savannah-rehutxq-y8A">
         <img src="https://image.tmdb.org/t/p/w500/6MAuG6SU0yTIvCweElDNBXcofwQ.jpg" loading="lazy" alt="Savannah">
         <div>Savannah</div>
-      </a><a href="/film/alexander-84xZ68Bs8EU">
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
+      </a><a href="/film/holodomor-bittere-ernte-Kl7IPpGhZL8">
+        <img src="https://image.tmdb.org/t/p/w500/fWsRZ3LCmmyp2ZptWCBc3rHp7VS.jpg" loading="lazy" alt="Holodomor: Bittere Ernte">
+        <div>Holodomor: Bittere Ernte</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

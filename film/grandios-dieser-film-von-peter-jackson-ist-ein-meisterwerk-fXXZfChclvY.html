@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grandios! Dieser Film von Peter Jackson ist ein Meisterwerk! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Das Leben der 14-jährigen Susie Salmon verläuft absolut harmonisch. Kleinere Spannungen mit ihren Eltern Jack und Abigail gibt es höchstens, wenn das Geld…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/grandios-dieser-film-von-peter-jackson-ist-ein-meisterwerk-fXXZfChclvY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Grandios! Dieser Film von Peter Jackson ist ein Meisterwerk!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

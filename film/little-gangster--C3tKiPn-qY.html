@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Little Gangster (2015) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der Teenager Rik Boskamp wird in der Schule ständig gehänselt. Doch als er mit seiner Familie in eine andere Stadt zieht, hat er die Idee: Er sorgt dafür,…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/little-gangster--C3tKiPn-qY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Little Gangster (2015)">
@@ -48,15 +49,15 @@
       </a><a href="/film/oliver-twist-_d4FaNv-xLA">
         <img src="https://image.tmdb.org/t/p/w500/tQAj0h1qS0txg6PgVyimPDq8XpB.jpg" loading="lazy" alt="Oliver Twist">
         <div>Oliver Twist</div>
-      </a><a href="/film/die-olsenbande-sieht-rot-BORJqnfwGnc">
-        <img src="https://image.tmdb.org/t/p/w500/4YSz2AYqodXAMnBJliXYYOd0dX7.jpg" loading="lazy" alt="Die Olsenbande sieht rot">
-        <div>Die Olsenbande sieht rot</div>
       </a><a href="/film/boss-baby-schluss-mit-kindergarten-vU0QMLdVrt8">
         <img src="https://image.tmdb.org/t/p/w500/sv6ypWSEDyYKSWXjCU2jpQZgdoz.jpg" loading="lazy" alt="Boss Baby - Schluss mit Kindergarten">
         <div>Boss Baby - Schluss mit Kindergarten</div>
-      </a><a href="/film/der-voraussichtlich-letzte-streich-der-olsenbande-wcnrehnPdmo">
-        <img src="https://image.tmdb.org/t/p/w500/djSxws7UUBolzq2Ve3iWzAQW5A.jpg" loading="lazy" alt="Der (voraussichtlich) letzte Streich der Olsenbande">
-        <div>Der (voraussichtlich) letzte Streich der Olsenbande</div>
+      </a><a href="/film/paulie-ein-plappermaul-macht-seinen-weg-qm4v0yIhubQ">
+        <img src="https://image.tmdb.org/t/p/w500/qXhFdtZtopMP7YlsrYDS9BiTz8x.jpg" loading="lazy" alt="Paulie - Ein Plappermaul macht seinen Weg">
+        <div>Paulie - Ein Plappermaul macht seinen Weg</div>
+      </a><a href="/film/ice-age-3-die-dinosaurier-sind-los-ixOHI804M2Y">
+        <img src="https://image.tmdb.org/t/p/w500/lIbYpUjwGTk0FZOSB3UfGZtNsJc.jpg" loading="lazy" alt="Ice Age 3 - Die Dinosaurier sind los">
+        <div>Ice Age 3 - Die Dinosaurier sind los</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

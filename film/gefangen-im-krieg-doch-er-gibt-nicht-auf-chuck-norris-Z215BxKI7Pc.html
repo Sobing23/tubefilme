@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gefangen im Krieg… doch er gibt nicht auf - Chuck Norris – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein Soldat gerät in die Hölle eines brutalen Krieges. Gefangen in einem feindlichen Lager, umgeben von Gewalt und Hoffnungslosigkeit, scheint jede Flucht u…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/gefangen-im-krieg-doch-er-gibt-nicht-auf-chuck-norris-Z215BxKI7Pc">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Gefangen im Krieg… doch er gibt nicht auf - Chuck Norris">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

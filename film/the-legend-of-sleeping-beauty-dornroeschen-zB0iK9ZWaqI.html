@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Legend of Sleeping Beauty - Dornröschen (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Als Prinzessin Aramanda aus einem 100-jährigen Tiefschlaf erwacht, muss sie feststellen, dass die Welt, wie sie sie kannte, nicht mehr existiert. Stattdess…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-legend-of-sleeping-beauty-dornroeschen-zB0iK9ZWaqI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Legend of Sleeping Beauty - Dornröschen (2014)">
@@ -51,12 +52,12 @@
       </a><a href="/film/20-000-meilen-unter-dem-meer-AKnyzFFDFS4">
         <img src="https://image.tmdb.org/t/p/w500/lIG7hFveDF1wLnWrMwacbAh7sj1.jpg" loading="lazy" alt="20.000 Meilen unter dem Meer">
         <div>20.000 Meilen unter dem Meer</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/black-butler-ncWq_koJt9w">
         <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
         <div>Black Butler</div>
+      </a><a href="/film/die-abenteuer-des-baron-muenchhausen-OUxxO1YIuWU">
+        <img src="https://image.tmdb.org/t/p/w500/yinT0Edu8qRtYev8YSlrBj3Q8uu.jpg" loading="lazy" alt="Die Abenteuer des Baron Münchhausen">
+        <div>Die Abenteuer des Baron Münchhausen</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

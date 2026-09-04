@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Twilight of the Dogs (1995) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Low-Budget-Endzeitfilm mit einem Ex-Piloten, einer Halb-Außerirdischen und einer Kuh. Ex-Kampfpilot Sam Asgarde zählt zu den wenigen Überlebenden einer wel…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/twilight-of-the-dogs-_lX_2z0cmRE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Twilight of the Dogs (1995)">
@@ -54,9 +55,9 @@
       </a><a href="/film/die-nacht-der-lebenden-toten-8hi_KKDblbI">
         <img src="https://image.tmdb.org/t/p/w500/duPDqFFRkwKcGfVibBvtVKA7VNh.jpg" loading="lazy" alt="Die Nacht der lebenden Toten">
         <div>Die Nacht der lebenden Toten</div>
-      </a><a href="/film/gamera-attack-of-the-legion-bhwnPYWlpTI">
-        <img src="https://image.tmdb.org/t/p/w500/35VLXxTYUrkPDavGIPMlQs0n7sp.jpg" loading="lazy" alt="Gamera - Attack of the Legion">
-        <div>Gamera - Attack of the Legion</div>
+      </a><a href="/film/die-rueckkehr-des-sherlock-holmes-6kjTmfmk9h0">
+        <img src="https://image.tmdb.org/t/p/w500/rM1v2UgkLgU1FrWkimDVGXCeAhR.jpg" loading="lazy" alt="Die Rückkehr des Sherlock Holmes">
+        <div>Die Rückkehr des Sherlock Holmes</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

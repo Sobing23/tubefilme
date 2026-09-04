@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Amerikana (2001) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Amerikana ist ein Road-Movie zweier Freunde, die auf einer Vespa in Süd Dakota starten und auf Los Angeles zusteuern. Der eine flüchtet vor einer unglückli…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/amerikana-rlBv_VA6-wY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Amerikana (2001)">
@@ -51,12 +52,12 @@
       </a><a href="/film/boss-baby-schluss-mit-kindergarten-vU0QMLdVrt8">
         <img src="https://image.tmdb.org/t/p/w500/sv6ypWSEDyYKSWXjCU2jpQZgdoz.jpg" loading="lazy" alt="Boss Baby - Schluss mit Kindergarten">
         <div>Boss Baby - Schluss mit Kindergarten</div>
-      </a><a href="/film/brancaleone-auf-kreuzzug-ins-heilige-land-X2VxSkImq5U">
-        <img src="https://image.tmdb.org/t/p/w500/7iML7nTQ7uZTaZQlkZwdNcCLLm5.jpg" loading="lazy" alt="Brancaleone auf Kreuzzug ins Heilige Land">
-        <div>Brancaleone auf Kreuzzug ins Heilige Land</div>
       </a><a href="/film/jackie-chan-ist-nobody-WG2rfoUD2Ls">
         <img src="https://image.tmdb.org/t/p/w500/fx4xMPjwbbLKR3ktGo0WyPwMQbH.jpg" loading="lazy" alt="Jackie Chan ist Nobody">
         <div>Jackie Chan ist Nobody</div>
+      </a><a href="/film/100-000-dollar-in-der-sonne-x-0wJeMKe3Q">
+        <img src="https://image.tmdb.org/t/p/w500/jtMxacoQU1wWjCgOOuPcThHxK9B.jpg" loading="lazy" alt="100.000 Dollar in der Sonne">
+        <div>100.000 Dollar in der Sonne</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

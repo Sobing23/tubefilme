@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Airliner Sky Battle (2020) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Russische Agenten entführen ein amerikanisches Verkehrsflugzeug und planen, es in ein Atomkraftwerk in der Nähe von Washington D.C. zu stürzen, was zu eine…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/airliner-sky-battle-XnKGcJ5Kd_U">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Airliner Sky Battle (2020)">
@@ -54,9 +55,9 @@
       </a><a href="/film/sie-leben-a74REkiUGWo">
         <img src="https://image.tmdb.org/t/p/w500/hcBTqhyR6L4Rd5XAAhKyBSs54dw.jpg" loading="lazy" alt="Sie leben!">
         <div>Sie leben!</div>
-      </a><a href="/film/diablo-mm1CmspikGw">
-        <img src="https://image.tmdb.org/t/p/w500/AhSPX1r0TRcFZ80SfHSwLkfgqCD.jpg" loading="lazy" alt="Diablo">
-        <div>Diablo</div>
+      </a><a href="/film/jackie-chan-ist-nobody-WG2rfoUD2Ls">
+        <img src="https://image.tmdb.org/t/p/w500/fx4xMPjwbbLKR3ktGo0WyPwMQbH.jpg" loading="lazy" alt="Jackie Chan ist Nobody">
+        <div>Jackie Chan ist Nobody</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

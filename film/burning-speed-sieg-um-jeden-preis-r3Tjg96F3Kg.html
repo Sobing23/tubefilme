@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Burning Speed - Sieg um jeden Preis (2019) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der ehemalige Rennfahrer Sam Munroe war früher mal eine große Nummer im Rennsport, doch seine aktiven Zeiten sind schon lange vorbei. Nun soll sein Sohn Ca…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/burning-speed-sieg-um-jeden-preis-r3Tjg96F3Kg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Burning Speed - Sieg um jeden Preis (2019)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

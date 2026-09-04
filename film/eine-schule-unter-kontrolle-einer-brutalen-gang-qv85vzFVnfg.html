@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Eine Schule unter Kontrolle einer brutalen Gang – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine brutale Jugendgang terrorisiert eine Highschool und verbreitet Angst unter Schülern und Lehrern. Einschüchterung, Gewalt und Machtspiele bestimmen den…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/eine-schule-unter-kontrolle-einer-brutalen-gang-qv85vzFVnfg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Eine Schule unter Kontrolle einer brutalen Gang">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

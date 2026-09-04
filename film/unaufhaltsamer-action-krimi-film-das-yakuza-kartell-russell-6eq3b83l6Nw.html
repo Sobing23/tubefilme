@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Unaufhaltsamer Action-Krimi Film 💀 Das Yakuza-Kartell - Russell Crowe – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein engagierter FBI-Agent verliert bei einem fehlgeschlagenen Einsatz seinen Partner und wird von Schuldgefühlen sowie dem Drang nach Aufklärung getrieben.…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/unaufhaltsamer-action-krimi-film-das-yakuza-kartell-russell-6eq3b83l6Nw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Unaufhaltsamer Action-Krimi Film 💀 Das Yakuza-Kartell - Russell Crowe">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

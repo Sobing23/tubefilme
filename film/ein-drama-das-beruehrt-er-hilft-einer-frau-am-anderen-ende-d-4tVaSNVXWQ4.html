@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ein Drama Das Berührt! Er hilft einer Frau am anderen Ende der Welt – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein junger Techniker überwacht von Nordamerika aus mithilfe eines ferngesteuerten Roboters eine abgelegene Pipeline in einer Wüstenregion. Während seiner A…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-drama-das-beruehrt-er-hilft-einer-frau-am-anderen-ende-d-4tVaSNVXWQ4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ein Drama Das Berührt! Er hilft einer Frau am anderen Ende der Welt">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

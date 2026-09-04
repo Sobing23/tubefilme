@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cassius Clay: Die Muhammad Ali Story – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Bereits zu Lebzeiten eine Legende: Cassius Clay alias Muhamed Ali. Er boxte sich aus einfachsten Verhältnissen auf den Olymp des internationalen Boxsports…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/cassius-clay-die-muhammad-ali-story-7RPyqFPxnW4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Cassius Clay: Die Muhammad Ali Story">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

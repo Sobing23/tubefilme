@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>African Poltergeist 👻 Ein Geist erwacht! 🌍 Ganzer Film auf Deutsch (1987) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="African Poltergeist 👻 Ein Geist erwacht! 🌍 Ganzer Film auf Deutsch (1987) Horror, Mystery — kostenlos und in voller Länge auf Deutsch ansehen.">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/african-poltergeist-ein-geist-erwacht-ganzer-film-auf-deutsc-iSGIcyJvtHs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="African Poltergeist 👻 Ein Geist erwacht! 🌍 Ganzer Film auf Deutsch (1987)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/jacob-s-ladder-in-der-gewalt-des-jenseits-Y90RMhMFKjI">
-        <img src="https://image.tmdb.org/t/p/w500/ufLcHIi1aXjjH8MediAMvnwDsVI.jpg" loading="lazy" alt="Jacob&#39;s Ladder - In der Gewalt des Jenseits">
-        <div>Jacob&#39;s Ladder - In der Gewalt des Jenseits</div>
-      </a><a href="/film/das-geheimnis-von-marrowbone-JzFrgjqYl3M">
+      <a href="/film/das-geheimnis-von-marrowbone-JzFrgjqYl3M">
         <img src="https://image.tmdb.org/t/p/w500/snwmeKR5kUoCOsQn0yZ4kaHyZGj.jpg" loading="lazy" alt="Das Geheimnis von Marrowbone">
         <div>Das Geheimnis von Marrowbone</div>
       </a><a href="/film/ein-toter-spielt-klavier-mH3P-Y85API">
@@ -57,6 +55,9 @@
       </a><a href="/film/summer-of-84-TtuvJOqsBek">
         <img src="https://image.tmdb.org/t/p/w500/3KhJAhrHbjFd5t3S1Z5sOIxYyt9.jpg" loading="lazy" alt="Summer of 84">
         <div>Summer of 84</div>
+      </a><a href="/film/tanz-der-toten-seelen-lYvttk1DGcs">
+        <img src="https://image.tmdb.org/t/p/w500/uHj0G5ewaxN764WNkudMfwOF2s8.jpg" loading="lazy" alt="Tanz der toten Seelen">
+        <div>Tanz der toten Seelen</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mein Freund, der Clown (2019) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der Beginn einer wunderbaren Freundschaft: Adrien, der um seinen Vater trauert, trifft zufällig einen Clown am Strand. Mit Zaubertricks und ohne Worte zeig…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mein-freund-der-clown-4YRe9aFVVe8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Mein Freund, der Clown (2019)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

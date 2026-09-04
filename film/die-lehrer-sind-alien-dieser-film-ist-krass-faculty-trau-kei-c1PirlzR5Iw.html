@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Lehrer sind Alien! Dieser Film ist KRASS: Faculty - Trau keinem Lehrer – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine ganz gewöhnliche High School in einer amerikanischen Kleinstadt bildet den Schauplatz: Die Schülerschaft ist in Cliquen zerfallen, während viele Lehrk…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-lehrer-sind-alien-dieser-film-ist-krass-faculty-trau-kei-c1PirlzR5Iw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Lehrer sind Alien! Dieser Film ist KRASS: Faculty - Trau keinem Lehrer">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

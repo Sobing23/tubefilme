@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Brotherhood of Blades (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="1627, als die Ming-Dynastie ihrem Ende zugeht, dienen drei Brüder als Assassins in einer Elitetruppe der kaiserlichen Garde. Ihr erster Auftrag vom frisch…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/brotherhood-of-blades-9Aw2Mvh656I">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Brotherhood of Blades (2014)">
@@ -54,7 +55,7 @@
       </a><a href="/film/greenfingers-harte-jungs-und-zarte-triebe-OeltpL9kd9M">
         <img src="https://image.tmdb.org/t/p/w500/1AO271C23zMzAd3RCraycpIB5zV.jpg" loading="lazy" alt="Greenfingers - Harte Jungs und zarte Triebe">
         <div>Greenfingers - Harte Jungs und zarte Triebe</div>
-      </a><a href="/film/alexander-84xZ68Bs8EU">
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
       </a>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

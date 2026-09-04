@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ANUK III - DIE DUNKLE FLUT - EPISCHER FANTASY FILM voller Krieg und Magie, Filme Deutsch schauen – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Um 2300 v. Chr. befindet sich die Welt im Umbruch: Während in Stonehenge mysteriöse Rituale stattfinden, die Cheops-Pyramide in Ägypten vollendet wird und…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/anuk-iii-die-dunkle-flut-epischer-fantasy-film-voller-krieg-yHWK_5Y1wJg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="ANUK III - DIE DUNKLE FLUT - EPISCHER FANTASY FILM voller Krieg und Magie, Filme Deutsch schauen">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

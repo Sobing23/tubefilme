@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DER BRUTALSTE FILM! Trauernder Vater will Rache für seine Tochter 🔪 Filme Deutsch Komplett – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine Reihe grausamer Verbrechen erschüttert die Stadt und verbindet das Schicksal dreier Männer auf gefährliche Weise. Ein trauernder Vater, der seine Toch…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-brutalste-film-trauernder-vater-will-rache-fuer-seine-to-pH65Uz6gZVM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="DER BRUTALSTE FILM! Trauernder Vater will Rache für seine Tochter 🔪 Filme Deutsch Komplett">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

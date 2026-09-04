@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jurassic Shark (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein Öl-Unternehmen setzt unwissentlich bei ihren Bohrungen in mehreren tausend Meter Tiefe einen prähistorischen Monster-Hai frei, der unter einer dicken E…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/jurassic-shark-HRt3uwsWbhQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Jurassic Shark (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

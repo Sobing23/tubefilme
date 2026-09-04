@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kann Liebe alles retten? Das dramatische Schicksal einer Familie – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein tiefgreifendes Familiendrama entfaltet sich um den Chemiker Fritz Hofmann, dessen unkontrollierte Spielsucht die finanzielle Existenz seiner Angehörige…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/kann-liebe-alles-retten-das-dramatische-schicksal-einer-fami-tWIslrpDf0o">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Kann Liebe alles retten? Das dramatische Schicksal einer Familie">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

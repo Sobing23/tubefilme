@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Karate-Tiger (1974) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Als ihr Bruder, ein Undercover-Polizist im Drogenmilieu, in HongKong vermisst wird, ist es an der Koryu Lee, sein Verschwinden zu klären. Die ausgebildete…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-karate-tiger-L_U-Osi0hzM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Karate-Tiger (1974)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

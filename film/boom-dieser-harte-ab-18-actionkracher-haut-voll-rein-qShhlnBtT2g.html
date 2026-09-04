@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BOOM! Dieser harte AB 18 Actionkracher haut voll rein! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der ehemalige Marine Jake Carter ist gemeinsam mit seinem früheren Kameraden Luke unterwegs. Luke hat es sich zur Aufgabe gemacht, anderen Kriegsveteranen…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/boom-dieser-harte-ab-18-actionkracher-haut-voll-rein-qShhlnBtT2g">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="BOOM! Dieser harte AB 18 Actionkracher haut voll rein!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

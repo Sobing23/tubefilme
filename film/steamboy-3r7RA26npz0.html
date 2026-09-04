@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Steamboy (2004) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="London zur Zeit der industriellen Revolution: Der junge Erfinder Ray Steam gelangt in den Besitz einer geheimnisvollen Metallkugel, die eine neue Energiefo…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/steamboy-3r7RA26npz0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Steamboy (2004)">
@@ -39,16 +40,13 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-attack-of-the-legion-bhwnPYWlpTI">
-        <img src="https://image.tmdb.org/t/p/w500/35VLXxTYUrkPDavGIPMlQs0n7sp.jpg" loading="lazy" alt="Gamera - Attack of the Legion">
-        <div>Gamera - Attack of the Legion</div>
-      </a><a href="/film/der-rattenfaenger-von-hameln-1ONjDoRluCA">
+      <a href="/film/der-rattenfaenger-von-hameln-1ONjDoRluCA">
         <img src="https://image.tmdb.org/t/p/w500/9fbJZYCK9mZidjHUcm9Qtwj2oTj.jpg" loading="lazy" alt="Der Rattenfänger von Hameln">
         <div>Der Rattenfänger von Hameln</div>
-      </a><a href="/film/gamera-revenge-of-iris-PT_KolfuhZc">
+      </a><a href="/film/gamera-revenge-of-iris-jkfioZsxKyQ">
         <img src="https://image.tmdb.org/t/p/w500/6tXXrZK4P8qKiXbIP3HUYOfu0dZ.jpg" loading="lazy" alt="Gamera - Revenge of Iris">
         <div>Gamera - Revenge of Iris</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
       </a><a href="/film/cj7-nicht-von-dieser-welt-ZQDGUHWOOYQ">
@@ -57,6 +55,9 @@
       </a><a href="/film/appgefahren-alles-ist-moeglich-dtOec-gM8O8">
         <img src="https://image.tmdb.org/t/p/w500/7Gg5abFqH3RIANGG9L56Eqrj9G3.jpg" loading="lazy" alt="Appgefahren - Alles ist möglich">
         <div>Appgefahren - Alles ist möglich</div>
+      </a><a href="/film/phineas-und-ferb-der-film-candace-gegen-das-universum-NW195PnAaaQ">
+        <img src="https://image.tmdb.org/t/p/w500/wIWn5dJPxKrj7eECNbxCw3lLioB.jpg" loading="lazy" alt="Phineas und Ferb - Der Film: Candace gegen das Universum">
+        <div>Phineas und Ferb - Der Film: Candace gegen das Universum</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

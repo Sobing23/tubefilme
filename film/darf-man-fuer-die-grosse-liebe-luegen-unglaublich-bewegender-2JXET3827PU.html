@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Darf man für die große Liebe lügen? Unglaublich bewegender Film (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Erlebe diesen Deutschen Film voller Emotionen und schaue dir diese packende Tragikomödie komplett an. Zwei Freunde, eine unfassbare Lüge und die harte Real…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/darf-man-fuer-die-grosse-liebe-luegen-unglaublich-bewegender-2JXET3827PU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Darf man für die große Liebe lügen? Unglaublich bewegender Film (2012)">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

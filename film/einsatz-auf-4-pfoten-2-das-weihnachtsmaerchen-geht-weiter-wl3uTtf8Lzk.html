@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Einsatz auf 4 Pfoten 2 - Das Weihnachtsmärchen geht weiter – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Amerika in den 1930ern. Ein paar Jahre, nachdem sie dort auf spektakuläre Weise ein Heim für ausrangierte Haus- und Hoftiere errichtete, kehrt Emma aus Anl…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/einsatz-auf-4-pfoten-2-das-weihnachtsmaerchen-geht-weiter-wl3uTtf8Lzk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Einsatz auf 4 Pfoten 2 - Das Weihnachtsmärchen geht weiter">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

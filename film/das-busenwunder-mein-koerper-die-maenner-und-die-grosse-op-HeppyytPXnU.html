@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Das Busenwunder: Mein Körper, die Männer und die große OP – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im Zentrum dieser Dokumentation steht der persönliche Konflikt einer Frau, deren Identität jahrelang über ihre außergewöhnliche Oberweite definiert wurde.…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/das-busenwunder-mein-koerper-die-maenner-und-die-grosse-op-HeppyytPXnU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Das Busenwunder: Mein Körper, die Männer und die große OP">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

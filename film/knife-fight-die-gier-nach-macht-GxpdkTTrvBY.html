@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Knife Fight - Die Gier nach Macht (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Wenn es darum geht, einem Politiker den bestmöglichen Wahlkampf zu bescheren, ist der versierte Stratege Paul Turner der Beste, den man konsultieren kann.…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/knife-fight-die-gier-nach-macht-GxpdkTTrvBY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Knife Fight - Die Gier nach Macht (2013)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

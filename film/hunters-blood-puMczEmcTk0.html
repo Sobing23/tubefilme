@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hunters Blood – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eigentlich wollten die fünf Freunde in den Wäldern von Arkansas nur ein vergnügliches Jagdwochenende verbringen. Doch schon bald stoßen sie auf ein paar ei…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/hunters-blood-puMczEmcTk0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Hunters Blood">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mad Mom (2019) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Amber Vickers ist begeistert, dass sie endlich mit ihrem Prinzen Luke vor den Traualtar treten kann. Nach mehreren gescheiterten Beziehungen begann sie zu…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mad-mom-tsl70jc0m6k">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Mad Mom (2019)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

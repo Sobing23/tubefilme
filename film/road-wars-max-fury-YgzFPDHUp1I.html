@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Road Wars: Max Fury (2024) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im Jahr 2050, in der postapokalyptischen Zukunft, haben große weltweite Dürren und Hungersnöte zu einem Massensterben und unerbittlichen Kriegen geführt. D…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/road-wars-max-fury-YgzFPDHUp1I">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Road Wars: Max Fury (2024)">
@@ -45,18 +46,18 @@
       </a><a href="/film/spider-man-homecoming-b0iwD1Ne774">
         <img src="https://image.tmdb.org/t/p/w500/elU7H73qN3WEQmmfdn0CdH3q8H8.jpg" loading="lazy" alt="Spider-Man: Homecoming">
         <div>Spider-Man: Homecoming</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/lorelei-i-507-deutsche-wunderwaffe-im-pazifik-3q7gRsuIZ50">
         <img src="https://image.tmdb.org/t/p/w500/bfwKz1VkWjIYY9SzWcp5uKB9B5e.jpg" loading="lazy" alt="Lorelei I-507 - Deutsche Wunderwaffe im Pazifik">
         <div>Lorelei I-507 - Deutsche Wunderwaffe im Pazifik</div>
       </a><a href="/film/mega-time-squad-9l9CHEgX0e0">
         <img src="https://image.tmdb.org/t/p/w500/cLQpEpxyBIvpuDOQ76nfQlrtLG8.jpg" loading="lazy" alt="Mega Time Squad">
         <div>Mega Time Squad</div>
-      </a><a href="/film/gamera-gegen-gaos-frankensteins-kampf-der-ungeheuer-h_wwLcUX1LU">
-        <img src="https://image.tmdb.org/t/p/w500/twoVm7irqE5pipU2h8vdwcUu9y.jpg" loading="lazy" alt="Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer">
-        <div>Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer</div>
+      </a><a href="/film/die-reise-zum-mittelpunkt-der-erde-WkSduJEx1Wg">
+        <img src="https://image.tmdb.org/t/p/w500/uSjkRIk3EQf85PQ1srNmvvj2EFw.jpg" loading="lazy" alt="Die Reise zum Mittelpunkt der Erde">
+        <div>Die Reise zum Mittelpunkt der Erde</div>
+      </a><a href="/film/kin-GGhz_YpZrig">
+        <img src="https://image.tmdb.org/t/p/w500/kCzAGbHKKh2OT7MXhuWWbE5VVs8.jpg" loading="lazy" alt="Kin">
+        <div>Kin</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

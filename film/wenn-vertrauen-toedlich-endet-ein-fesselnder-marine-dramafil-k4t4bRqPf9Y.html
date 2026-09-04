@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wenn Vertrauen tödlich endet: Ein fesselnder Marine-Dramafilm über Verrat - Film – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Voller Ehrgeiz startet die junge Lilli Borchert ihre Ausbildung bei der Sanitätstruppe der Marine, um ihren Traum von einer medizinischen Karriere auf See…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wenn-vertrauen-toedlich-endet-ein-fesselnder-marine-dramafil-k4t4bRqPf9Y">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wenn Vertrauen tödlich endet: Ein fesselnder Marine-Dramafilm über Verrat - Film">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

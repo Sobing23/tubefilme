@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alien Warrior (2006) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Parkwächterin Kelly Jones genießt die Idylle ihres Naturschutzgebiets – bis Meteoriteneinschläge hungrige Aliens entfesseln. Während Touristen zur leichten…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/alien-warrior-c8CtOHij4XE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Alien Warrior (2006)">
@@ -54,9 +55,9 @@
       </a><a href="/film/der-unsichtbare-EXMLjfb8EqY">
         <img src="https://image.tmdb.org/t/p/w500/q2I1yFqDFyuIT3wfmv7fPIV05DV.jpg" loading="lazy" alt="Der Unsichtbare">
         <div>Der Unsichtbare</div>
-      </a><a href="/film/housebound-A7fYsw16qYc">
-        <img src="https://image.tmdb.org/t/p/w500/jPKEeHmUuoDnIaRs6VUqSr4qRGR.jpg" loading="lazy" alt="Housebound">
-        <div>Housebound</div>
+      </a><a href="/film/the-endless-s41HGX6_Ftg">
+        <img src="https://image.tmdb.org/t/p/w500/flfHm6Pajler2rXj1UjgHfeU0in.jpg" loading="lazy" alt="The Endless">
+        <div>The Endless</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

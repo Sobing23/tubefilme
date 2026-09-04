@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kiss Me Deadly - Codename: Delphi (2008) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der ehemalige NATO-Geheimagent Jacob Keane wird durch einen Anschlag auf seine ehemalige Partnerin Marta in die Schattenwelt der Spionage zurückgeholt. Mar…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/kiss-me-deadly-codename-delphi-HqMcMnlq-DM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Kiss Me Deadly - Codename: Delphi (2008)">
@@ -48,15 +49,15 @@
       </a><a href="/film/air-terror-killerjagd-ueber-dem-pazifik-FE4XbaT-qts">
         <img src="https://image.tmdb.org/t/p/w500/ftDy3GkHnI7oRYCvXQpDdF2Tbzw.jpg" loading="lazy" alt="Air Terror - Killerjagd über dem Pazifik">
         <div>Air Terror - Killerjagd über dem Pazifik</div>
-      </a><a href="/film/the-shepherd-0JmCSrH5afw">
-        <img src="https://image.tmdb.org/t/p/w500/gntsO8yN1xiFp1CldoJkk0jzxh7.jpg" loading="lazy" alt="The Shepherd">
-        <div>The Shepherd</div>
       </a><a href="/film/global-storm-die-finale-katastrophe-LQtbA3fQKbs">
         <img src="https://image.tmdb.org/t/p/w500/zf8oNxl7SEIui8pr58TzQ8uELmR.jpg" loading="lazy" alt="Global Storm - Die finale Katastrophe">
         <div>Global Storm - Die finale Katastrophe</div>
       </a><a href="/film/tornado-niemand-wird-ihm-entkommen-qOV9upg9OjI">
         <img src="https://image.tmdb.org/t/p/w500/onn3v7U0t4N24X9GrnZxON6VV6g.jpg" loading="lazy" alt="Tornado - Niemand wird ihm entkommen">
         <div>Tornado - Niemand wird ihm entkommen</div>
+      </a><a href="/film/hurrikan-im-auge-des-wirbelsturms-fHZAhnbMZyE">
+        <img src="https://image.tmdb.org/t/p/w500/dqqM62oMd3UYawnzzOyurdu9zAo.jpg" loading="lazy" alt="Hurrikan - Im Auge des Wirbelsturms">
+        <div>Hurrikan - Im Auge des Wirbelsturms</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Colombian Connection - Dieser Krieg ist persönlich (2011) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Es ist das Jahr 1976. Jack Hooks ist ein ehemaliger Cop, der von seinem Partner Frank Rossi verraten wurde und für ein Verbrechen, mit dem er nichts zu tun…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-colombian-connection-dieser-krieg-ist-persoenlich-7W_UMZ6H048">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Colombian Connection - Dieser Krieg ist persönlich (2011)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

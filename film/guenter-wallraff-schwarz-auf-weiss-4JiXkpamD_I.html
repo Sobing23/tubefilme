@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Günter Wallraff: Schwarz auf Weiss (2009) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Günter Wallraff unterwegs - Der bekannte Journalist und Buchautor auf einer Reise durch Deutschland. Unerkannt und undercover ermöglicht eine neue Identitä…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/guenter-wallraff-schwarz-auf-weiss-4JiXkpamD_I">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Günter Wallraff: Schwarz auf Weiss (2009)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

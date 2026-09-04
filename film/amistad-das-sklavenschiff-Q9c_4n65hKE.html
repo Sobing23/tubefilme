@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Amistad - Das Sklavenschiff (1997) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Sklavenhändler entführen aus der britischen Kolonie Sierra Leone eine Gruppe von Afrikanern. Die Sklaven wehren sich, indem sie das Sklavenschiff entführen…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/amistad-das-sklavenschiff-Q9c_4n65hKE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Amistad - Das Sklavenschiff (1997)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/auferstanden-m9RW2YJqMXI">
-        <img src="https://image.tmdb.org/t/p/w500/3mWSTlgea72EharkGAi71TWYtnk.jpg" loading="lazy" alt="Auferstanden">
-        <div>Auferstanden</div>
-      </a><a href="/film/american-tank-force-yQOsbC7PliM">
+      <a href="/film/american-tank-force-yQOsbC7PliM">
         <img src="https://image.tmdb.org/t/p/w500/3KfsmIMZ94Vt1wlk9kqKLls2Clb.jpg" loading="lazy" alt="American Tank Force">
         <div>American Tank Force</div>
       </a><a href="/film/tage-der-freiheit-schlacht-um-mexico-r9HYdpqKIUU">
@@ -57,6 +55,9 @@
       </a><a href="/film/anatomie-eines-mordes-13wEZz1cmso">
         <img src="https://image.tmdb.org/t/p/w500/rvxbXTNqDJ0jSfOkK7HYdJMXhaH.jpg" loading="lazy" alt="Anatomie eines Mordes">
         <div>Anatomie eines Mordes</div>
+      </a><a href="/film/hachiko-wahre-freundschaft-waehrt-ewig-4ZMfD1zp8KY">
+        <img src="https://image.tmdb.org/t/p/w500/pcpbNBWqf6FUr1FLHW47BK3MYPR.jpg" loading="lazy" alt="Hachiko - Wahre Freundschaft währt ewig">
+        <div>Hachiko - Wahre Freundschaft währt ewig</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

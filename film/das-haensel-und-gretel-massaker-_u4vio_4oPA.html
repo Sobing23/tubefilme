@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Das Hänsel und Gretel Massaker – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Angie, ein alterndes Starlet, dreht für einen gierigen Produzenten noch einen letzten Film. Drehort ist eine einsame Hütte, tief in einem unheimlichen Wald…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/das-haensel-und-gretel-massaker-_u4vio_4oPA">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Das Hänsel und Gretel Massaker">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

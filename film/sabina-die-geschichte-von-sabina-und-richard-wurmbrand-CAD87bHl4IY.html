@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sabina: Die Geschichte von Sabina und Richard Wurmbrand (2021) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine Filmbiografie über das Ehepaar Sabina und Richard Wurmbrand, die mit der „Hilfsaktion Märtyrerkirche“ eine Organisation gründeten, die verfolgten Chri…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/sabina-die-geschichte-von-sabina-und-richard-wurmbrand-CAD87bHl4IY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Sabina: Die Geschichte von Sabina und Richard Wurmbrand (2021)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

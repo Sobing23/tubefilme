@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gruselfaktor 100! Dieser Mysteryfilm bereitet dir Gänsehaut! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein düsterer Fluch fesselt die Zwillinge Rachel und Edward an das verfallene, einsame Landhaus ihrer verstorbenen Eltern. Während Edward das Anwesen aus An…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/gruselfaktor-100-dieser-mysteryfilm-bereitet-dir-gaensehaut-vvTMmfgnZ4M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Gruselfaktor 100! Dieser Mysteryfilm bereitet dir Gänsehaut!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

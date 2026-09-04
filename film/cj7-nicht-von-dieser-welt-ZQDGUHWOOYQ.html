@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CJ7 - Nicht von dieser Welt (2008) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ti arbeitet auf dem Bau und schränkt sich tagtäglich stark ein, um seinem Sohn Dicky den Besuch einer teuren Privatschule finanzieren zu können. Schließlic…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/cj7-nicht-von-dieser-welt-ZQDGUHWOOYQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="CJ7 - Nicht von dieser Welt (2008)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

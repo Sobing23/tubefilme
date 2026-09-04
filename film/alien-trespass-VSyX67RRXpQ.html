@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alien Trespass (2009) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Amerika im Jahr 1957. In einem kleinen kalifornischen Städtchen nahe der Mojave-Wüste beobachtet der Astronom Ted Lewis gerade den nächtlichen Himmel, als…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/alien-trespass-VSyX67RRXpQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Alien Trespass (2009)">
@@ -42,9 +43,6 @@
       <a href="/film/mega-time-squad-9l9CHEgX0e0">
         <img src="https://image.tmdb.org/t/p/w500/cLQpEpxyBIvpuDOQ76nfQlrtLG8.jpg" loading="lazy" alt="Mega Time Squad">
         <div>Mega Time Squad</div>
-      </a><a href="/film/gamera-gegen-gaos-frankensteins-kampf-der-ungeheuer-h_wwLcUX1LU">
-        <img src="https://image.tmdb.org/t/p/w500/twoVm7irqE5pipU2h8vdwcUu9y.jpg" loading="lazy" alt="Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer">
-        <div>Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer</div>
       </a><a href="/film/die-reise-zum-mittelpunkt-der-erde-WkSduJEx1Wg">
         <img src="https://image.tmdb.org/t/p/w500/uSjkRIk3EQf85PQ1srNmvvj2EFw.jpg" loading="lazy" alt="Die Reise zum Mittelpunkt der Erde">
         <div>Die Reise zum Mittelpunkt der Erde</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/iceman-der-krieger-aus-dem-eis-8CU7TGDoG9Y">
         <img src="https://image.tmdb.org/t/p/w500/juAYTbpP05NR8co9GhDTPwEKqde.jpg" loading="lazy" alt="Iceman - Der Krieger aus dem Eis">
         <div>Iceman - Der Krieger aus dem Eis</div>
+      </a><a href="/film/nightbreakers-the-undead-3GtML-FltxA">
+        <img src="https://image.tmdb.org/t/p/w500/zal5KiAkJDJfOly83LevfUXkkul.jpg" loading="lazy" alt="Nightbreakers - The Undead">
+        <div>Nightbreakers - The Undead</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

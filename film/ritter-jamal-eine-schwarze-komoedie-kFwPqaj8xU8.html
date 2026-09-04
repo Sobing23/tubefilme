@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ritter Jamal - Eine schwarze Komödie (2001) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Jamal ist ein recht fauler Mitarbeiter eines Mittelalter-Vergnügungsparks und schlägt nur mit Mühe und Not die Zeit tot. Als er jedoch in den künstlichen B…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ritter-jamal-eine-schwarze-komoedie-kFwPqaj8xU8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ritter Jamal - Eine schwarze Komödie (2001)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

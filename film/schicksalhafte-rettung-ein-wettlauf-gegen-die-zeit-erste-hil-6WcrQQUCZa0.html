@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Schicksalhafte Rettung - Ein Wettlauf gegen die Zeit - Erste Hilfe (2015) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;First Response&quot; ist ein fesselnder Thriller aus dem Jahr 2015, der in den belebten Straßen Montreals spielt. Unter der Regie von Philippe Gagnon und nach…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/schicksalhafte-rettung-ein-wettlauf-gegen-die-zeit-erste-hil-6WcrQQUCZa0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Schicksalhafte Rettung - Ein Wettlauf gegen die Zeit - Erste Hilfe (2015)">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

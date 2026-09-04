@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Psychologin und der Geiselnehmer: Ein Spiel auf Leben und Tod – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der Film zeigt den Einsatz der Kriminalpsychologin Dr. Cameron Granger, die in einem hochdramatischen Banküberfall in Detroit als Vermittlerin fungiert. Di…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-psychologin-und-der-geiselnehmer-ein-spiel-auf-leben-und-W0FIIvbNBXo">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Psychologin und der Geiselnehmer: Ein Spiel auf Leben und Tod">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

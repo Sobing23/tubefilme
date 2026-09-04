@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mean Queen (2018) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Gefährliche Bekanntschaft: Die Tochter einer Aushilfslehrerin freundet sich in dem Thrillerdrama mit einer biestigen Highschool-Göre an. Die ist zu allem b…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mean-queen-HT2gNOmtc4M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Mean Queen (2018)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

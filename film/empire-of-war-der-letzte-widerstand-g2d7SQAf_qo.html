@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Empire of War - Der letzte Widerstand (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im China der frühen 40er Jahre des 20. Jahrhunderts haben die Soldaten Japans weite Teile des Landes besetzt, in den übrigen grassiert eine verheerende Hun…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/empire-of-war-der-letzte-widerstand-g2d7SQAf_qo">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Empire of War - Der letzte Widerstand (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

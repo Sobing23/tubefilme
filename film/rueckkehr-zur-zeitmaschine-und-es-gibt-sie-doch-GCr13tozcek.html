@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rückkehr zur Zeitmaschine Und es gibt sie doch! (2005) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Würden Sie Ihre Vergangenheit ändern – auch wenn Sie dabei Ihre größte Liebe verlieren könnten?…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/rueckkehr-zur-zeitmaschine-und-es-gibt-sie-doch-GCr13tozcek">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Rückkehr zur Zeitmaschine Und es gibt sie doch! (2005)">
@@ -51,7 +52,7 @@
       </a><a href="/film/cj7-nicht-von-dieser-welt-ZQDGUHWOOYQ">
         <img src="https://image.tmdb.org/t/p/w500/nrZscPdpTfZJMwQh8MtzwXgFhnd.jpg" loading="lazy" alt="CJ7 - Nicht von dieser Welt">
         <div>CJ7 - Nicht von dieser Welt</div>
-      </a><a href="/film/starman-9X0zeNVwN7I">
+      </a><a href="/film/starman-TpuEe0Qqezw">
         <img src="https://image.tmdb.org/t/p/w500/rmpXoSkoi5sFs4NWfpkW94tLKd4.jpg" loading="lazy" alt="Starman">
         <div>Starman</div>
       </a><a href="/film/the-fountain-2aV-dYfSk1I">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

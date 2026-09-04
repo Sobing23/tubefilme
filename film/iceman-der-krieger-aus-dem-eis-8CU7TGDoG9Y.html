@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Iceman - Der Krieger aus dem Eis (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ying (Donnie Yen) bekleidet zur Zeit der Ming Dynastie die höchste Position innerhalb der kaiserlichen Wachen. Nachdem er den Anführer der japanischen Trup…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/iceman-der-krieger-aus-dem-eis-8CU7TGDoG9Y">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Iceman - Der Krieger aus dem Eis (2014)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
-      </a><a href="/film/mega-time-squad-9l9CHEgX0e0">
+      <a href="/film/mega-time-squad-9l9CHEgX0e0">
         <img src="https://image.tmdb.org/t/p/w500/cLQpEpxyBIvpuDOQ76nfQlrtLG8.jpg" loading="lazy" alt="Mega Time Squad">
         <div>Mega Time Squad</div>
       </a><a href="/film/die-reise-zum-mittelpunkt-der-erde-WkSduJEx1Wg">
@@ -57,6 +55,9 @@
       </a><a href="/film/tumak-der-herr-des-urwalds-hhFhi3uxVQM">
         <img src="https://image.tmdb.org/t/p/w500/tYkS35d48Us08cY3yZVwuuP5ESs.jpg" loading="lazy" alt="Tumak, der Herr des Urwalds">
         <div>Tumak, der Herr des Urwalds</div>
+      </a><a href="/film/dragon-kingdom-das-koenigreich-der-drachen-1Cd_qW8rPB8">
+        <img src="https://image.tmdb.org/t/p/w500/4kWGZYrTqBRsPIsnZmV3DzJtTi9.jpg" loading="lazy" alt="Dragon Kingdom - Das Königreich der Drachen">
+        <div>Dragon Kingdom - Das Königreich der Drachen</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

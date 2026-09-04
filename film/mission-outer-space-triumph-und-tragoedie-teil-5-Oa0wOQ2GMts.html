@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mission Outer Space - Triumph und Tragödie Teil 5 – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Über 50 Jahre der Weltraumforschung. Gewinnen Sie nie bisher dargebotene Einblicke in die Arbeit der NASA und das amerikanische Raumfahrtprogramm. Fiebern…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mission-outer-space-triumph-und-tragoedie-teil-5-Oa0wOQ2GMts">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Mission Outer Space - Triumph und Tragödie Teil 5">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

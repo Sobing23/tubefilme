@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>WolfCop (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein Bilderbuch-Cop war Lou nie: Alkoholabhängig, respektlos und ohne Motivation ging er seinem Job nach. Mehr oder weniger zumindest. Bis sich sein eintöni…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wolfcop-AXLh37gAbqs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="WolfCop (2014)">
@@ -48,15 +49,15 @@
       </a><a href="/film/das-vermaechtnis-des-professor-bondi-xoN2iq8LvlQ">
         <img src="https://image.tmdb.org/t/p/w500/u7yTNVZ7JCRDHcUGdtoNAMW9szu.jpg" loading="lazy" alt="Das Vermächtnis des Professor Bondi">
         <div>Das Vermächtnis des Professor Bondi</div>
-      </a><a href="/film/housebound-A7fYsw16qYc">
-        <img src="https://image.tmdb.org/t/p/w500/jPKEeHmUuoDnIaRs6VUqSr4qRGR.jpg" loading="lazy" alt="Housebound">
-        <div>Housebound</div>
       </a><a href="/film/edison-leo-vcPGuf7GqJw">
         <img src="https://image.tmdb.org/t/p/w500/oRWVakC4UfXAgdh7wrrugiwO4JC.jpg" loading="lazy" alt="Edison &amp; Leo">
         <div>Edison &amp; Leo</div>
       </a><a href="/film/kleiner-laden-voller-schrecken-Jddncm5q7kM">
         <img src="https://image.tmdb.org/t/p/w500/wQYvD0NOWns6tlEmwjeou0Zrl2.jpg" loading="lazy" alt="Kleiner Laden voller Schrecken">
         <div>Kleiner Laden voller Schrecken</div>
+      </a><a href="/film/john-dies-at-the-end-X7mo_5T5X64">
+        <img src="https://image.tmdb.org/t/p/w500/1IsviP0Tb05xUAFWz5b7FJ0qIHP.jpg" loading="lazy" alt="John Dies at the End">
+        <div>John Dies at the End</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

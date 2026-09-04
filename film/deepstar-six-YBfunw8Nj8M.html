@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DeepStar Six (1989) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Tief unten auf dem dunklen Meeresboden liegt das Unterwasserlabor Deep Star Six. Seine Crew ist seit über sechs Monaten unter Wasser - eingeschlossen in di…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/deepstar-six-YBfunw8Nj8M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="DeepStar Six (1989)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

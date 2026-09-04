@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mary Higgins Clark - Haben wir uns nicht schon mal gesehen (2002) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Aushilfskellnerin Emily Winton (Nicolette Sheridan) wird von Stephen König (Page Fletcher) in ihrem Apartment überfallen und kommt nur knapp mit dem Leben…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mary-higgins-clark-haben-wir-uns-nicht-schon-mal-gesehen-36Lie0s8d9M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Mary Higgins Clark - Haben wir uns nicht schon mal gesehen (2002)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

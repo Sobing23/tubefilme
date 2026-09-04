@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Personal Effects - Gemeinsam stärker (2009) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Walters Schwester wurde kürzlich brutal misshandelt und getötet. Die Erinnerungen an seine Schwester und die Ereignisse quälen den 24-jährigen Wrestling-Ch…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/personal-effects-gemeinsam-staerker-TySVREvyOis">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Personal Effects - Gemeinsam stärker (2009)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

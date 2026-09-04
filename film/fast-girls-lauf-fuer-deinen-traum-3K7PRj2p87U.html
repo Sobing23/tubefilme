@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fast Girls: Lauf für deinen Traum (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die jungen Leichtathletik-Talente Shania und Lisa verbindet der unbedingte Wille zum Erfolg und der Traum von einer Teilnahme an den Weltmeisterschaften –…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/fast-girls-lauf-fuer-deinen-traum-3K7PRj2p87U">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Fast Girls: Lauf für deinen Traum (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

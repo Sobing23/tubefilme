@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Animations-Abenteuerfilm für die ganze Familie! Ein träumerischer Junge reist in die Ferne! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In einem Königreich, in dem Regeln und Bürokratie wichtiger geworden sind als Mut und Ehre, träumt ein junger Außenseiter davon, ein Ritter zu werden wie e…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/animations-abenteuerfilm-fuer-die-ganze-familie-ein-traeumer-2izqPXgn6vM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Animations-Abenteuerfilm für die ganze Familie! Ein träumerischer Junge reist in die Ferne!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

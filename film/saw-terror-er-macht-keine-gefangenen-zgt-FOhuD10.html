@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Saw Terror - Er macht keine Gefangenen! (2008) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Liz (Jessica Graves) studiert Kunst an der Universität. Eines Tages beschließen sie und fünf Kommilitonen, ein Kunst-Festival zu besuchen, um sich neue Ein…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/saw-terror-er-macht-keine-gefangenen-zgt-FOhuD10">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Saw Terror - Er macht keine Gefangenen! (2008)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

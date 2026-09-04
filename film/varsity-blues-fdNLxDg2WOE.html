@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Varsity Blues (1999) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In West Canaan dreht sich alles um Highschool-Football, die schönsten Mädchen gehen mit den besten Spielern aus und auch die Polizei drückt beide Augen zu,…">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.tubefilme.de/film/varsity-blues-fdNLxDg2WOE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Varsity Blues (1999)">
@@ -21,11 +22,9 @@
   <h1>Varsity Blues</h1>
   <div class="sub">1999 · 1 Std 35 Min · Komödie, Drama, Romantik · FSK 12 · ★ 6.1</div>
 
-  <div class="player" id="player" data-video="fdNLxDg2WOE">
-    <img src="https://image.tmdb.org/t/p/w500/kZQBEkTTBk9gwUzGtiAzEW42wvJ.jpg" alt="Varsity Blues" onerror="this.src='https://i.ytimg.com/vi/fdNLxDg2WOE/hqdefault.jpg'">
-    <div class="play" aria-label="Film abspielen">
-      <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
-    </div>
+  <div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>Dieser Film wurde beim anbietenden Kanal entfernt. Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>
 
   <div class="meta">
@@ -54,9 +53,9 @@
       </a><a href="/film/hier-ist-john-doe-OrPbjJEz45E">
         <img src="https://image.tmdb.org/t/p/w500/dnBZbFE2OGlTGNGBVTn6t83tJtd.jpg" loading="lazy" alt="Hier ist John Doe">
         <div>Hier ist John Doe</div>
-      </a><a href="/film/der-sieger-7fGwfmaA9ic">
-        <img src="https://image.tmdb.org/t/p/w500/z9qmB9kef7f7kluAjYQjFdcuTK0.jpg" loading="lazy" alt="Der Sieger">
-        <div>Der Sieger</div>
+      </a><a href="/film/der-wunschzettel-7leCO8z2uOU">
+        <img src="https://image.tmdb.org/t/p/w500/nZWcMv3TvKzUvX7dnlC1x78xxNP.jpg" loading="lazy" alt="Der Wunschzettel">
+        <div>Der Wunschzettel</div>
       </a>
     </div>
   </div>
@@ -68,7 +67,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

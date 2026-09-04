@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Princess of Mars (2009) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Während sich der US-Soldat John Carter in Arizona aufhält, findet er sich unerklärlicherweise plötzlich auf dem Mars wieder. Schon bald bemerkt Carter, das…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/princess-of-mars-y7Y-M0luWPU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Princess of Mars (2009)">
@@ -42,12 +43,9 @@
       <a href="/film/grenzgaenger-zwischen-den-zeiten-8b6L-oQqsuE">
         <img src="https://image.tmdb.org/t/p/w500/oV6vGI155d0ty1mNdlvbOqhCzyw.jpg" loading="lazy" alt="Grenzgänger - Zwischen den Zeiten">
         <div>Grenzgänger - Zwischen den Zeiten</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/lorelei-i-507-deutsche-wunderwaffe-im-pazifik-3q7gRsuIZ50">
         <img src="https://image.tmdb.org/t/p/w500/bfwKz1VkWjIYY9SzWcp5uKB9B5e.jpg" loading="lazy" alt="Lorelei I-507 - Deutsche Wunderwaffe im Pazifik">
         <div>Lorelei I-507 - Deutsche Wunderwaffe im Pazifik</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/tumak-der-herr-des-urwalds-hhFhi3uxVQM">
         <img src="https://image.tmdb.org/t/p/w500/tYkS35d48Us08cY3yZVwuuP5ESs.jpg" loading="lazy" alt="Tumak, der Herr des Urwalds">
         <div>Tumak, der Herr des Urwalds</div>
+      </a><a href="/film/dragon-kingdom-das-koenigreich-der-drachen-1Cd_qW8rPB8">
+        <img src="https://image.tmdb.org/t/p/w500/4kWGZYrTqBRsPIsnZmV3DzJtTi9.jpg" loading="lazy" alt="Dragon Kingdom - Das Königreich der Drachen">
+        <div>Dragon Kingdom - Das Königreich der Drachen</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

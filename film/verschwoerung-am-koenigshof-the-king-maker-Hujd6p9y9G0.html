@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VERSCHWÖRUNG AM KÖNIGSHOF - The King Maker – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="1547 reist der Portugiese Fernando De Gama nach Südostasien, um in die Dienst des Königreichs von Lanna zu treten. Ein Sturm versenkt sein Schiff, doch er…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/verschwoerung-am-koenigshof-the-king-maker-Hujd6p9y9G0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="VERSCHWÖRUNG AM KÖNIGSHOF - The King Maker">
@@ -46,7 +47,8 @@ In der Schlacht gegen Lanna zeigt Fernando solchen Mut, dass er mit seinem siame
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Execution (1985) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ihre schreckliche Vergangenheit haben die 5 Frauen, Marysia, Elsa, Hannah, Gertrude und Sophie, längst verdrängt. Vergessen sind die fürchterlichen Qualen,…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-execution-ETyckTXhkFs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Execution (1985)">
@@ -54,7 +55,7 @@
       </a><a href="/film/jane-austens-verfuehrung-VwNIJ871Jtg">
         <img src="https://image.tmdb.org/t/p/w500/qnEW4OLndLbswuSdxZSBrvkcRAH.jpg" loading="lazy" alt="Jane Austens Verführung">
         <div>Jane Austens Verführung</div>
-      </a><a href="/film/die-cleveland-entfuehrung-szpHpT6ycKA">
+      </a><a href="/film/die-cleveland-entfuehrung-UiMLLFcmq4o">
         <img src="https://image.tmdb.org/t/p/w500/j2iCc5fjyJvKRQAW7d6XWwDFzmr.jpg" loading="lazy" alt="Die Cleveland - Entführung">
         <div>Die Cleveland - Entführung</div>
       </a>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

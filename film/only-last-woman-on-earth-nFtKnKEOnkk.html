@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Only: Last Woman on Earth (2020) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein Komet mit einem tödlichen Virus schlägt auf der Erde ein und tötet alle Frauen, die sich mit ihm infizieren. Als Eva und Will flüchten müssen, begegnen…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/only-last-woman-on-earth-nFtKnKEOnkk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Only: Last Woman on Earth (2020)">
@@ -48,7 +49,7 @@
       </a><a href="/film/das-zeichen-des-zorro-WOCzwRT8jbs">
         <img src="https://image.tmdb.org/t/p/w500/1N1gSSJs9ULgSWUM0W7zCXSR2QK.jpg" loading="lazy" alt="Das Zeichen des Zorro">
         <div>Das Zeichen des Zorro</div>
-      </a><a href="/film/starman-9X0zeNVwN7I">
+      </a><a href="/film/starman-TpuEe0Qqezw">
         <img src="https://image.tmdb.org/t/p/w500/rmpXoSkoi5sFs4NWfpkW94tLKd4.jpg" loading="lazy" alt="Starman">
         <div>Starman</div>
       </a><a href="/film/wing-chun-gefaehrlich-wie-eine-pantherkatze-odZ1HWDIERQ">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

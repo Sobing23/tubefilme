@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frau Holle (1985) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein Wanderzirkus zieht durch eine verschneite Landschaft, als plötzlich eine Lawine die Gaukler mit ihren Wagen und Tieren unter sich begräbt. Einmal mehr…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/frau-holle-YzxyumRUjtE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Frau Holle (1985)">
@@ -51,12 +52,12 @@
       </a><a href="/film/mein-freund-der-kobold-e3LX_rh9IzA">
         <img src="https://image.tmdb.org/t/p/w500/8MYddxdxU0wb8o77XT9klYcObAT.jpg" loading="lazy" alt="Mein Freund, der Kobold">
         <div>Mein Freund, der Kobold</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/rapunzel-b4FXDZ62NyY">
         <img src="https://image.tmdb.org/t/p/w500/pE30K0u3Ie1UiIfhnihXlBPeCST.jpg" loading="lazy" alt="Rapunzel">
         <div>Rapunzel</div>
+      </a><a href="/film/haensel-und-gretel-R21Qb9EOrrw">
+        <img src="https://image.tmdb.org/t/p/w500/qmfUMar69MAVJ9TtLNQgaWvveaL.jpg" loading="lazy" alt="Hänsel und Gretel">
+        <div>Hänsel und Gretel</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

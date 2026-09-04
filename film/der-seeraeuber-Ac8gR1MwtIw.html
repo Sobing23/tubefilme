@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Seeräuber (1942) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der englische Pirat James &quot;Jamie Boy&quot; Waring plündert spanische Schiffe in der Karibik. Als sich England mit Spanien verbündet, wird Piratenführer Henry Mo…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-seeraeuber-Ac8gR1MwtIw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Seeräuber (1942)">
@@ -51,12 +52,12 @@
       </a><a href="/film/die-todespagode-des-gelben-tigers-sTqpwAZQkoQ">
         <img src="https://image.tmdb.org/t/p/w500/spIArJBuxCLPF95m95Fa3JGo7co.jpg" loading="lazy" alt="Die Todespagode des gelben Tigers">
         <div>Die Todespagode des gelben Tigers</div>
-      </a><a href="/film/das-schloss-meiner-mutter-LaKzGbnP0Qs">
-        <img src="https://image.tmdb.org/t/p/w500/ns1NIgQcWOZ2blKxG0b5v2sWDbG.jpg" loading="lazy" alt="Das Schloss meiner Mutter">
-        <div>Das Schloss meiner Mutter</div>
       </a><a href="/film/das-leuchten-der-erinnerung-wOxNbDklckU">
         <img src="https://image.tmdb.org/t/p/w500/m65FykUd7z7KUZWCT3WWySiA3jg.jpg" loading="lazy" alt="Das Leuchten der Erinnerung">
         <div>Das Leuchten der Erinnerung</div>
+      </a><a href="/film/the-fountain-2aV-dYfSk1I">
+        <img src="https://image.tmdb.org/t/p/w500/4XTf8GuCVLWolubANaKkpk62YPq.jpg" loading="lazy" alt="The Fountain">
+        <div>The Fountain</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

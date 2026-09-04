@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PREIS DES RUHMS: Verrat, Eifersucht und ein Stich ins Herz - Thriller – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die gefeierte Erfolgsautorin Henna Ryan steht im Mittelpunkt einer Geschichte, die sie selbst nie hätte schreiben wollen. Nach ihrer schmerzhaften Scheidun…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/preis-des-ruhms-verrat-eifersucht-und-ein-stich-ins-herz-thr-dPv1H5c9hsY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="PREIS DES RUHMS: Verrat, Eifersucht und ein Stich ins Herz - Thriller">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

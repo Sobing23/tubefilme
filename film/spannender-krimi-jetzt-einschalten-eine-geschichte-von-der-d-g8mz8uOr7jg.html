@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>⚡ Spannender Krimi - JETZT einschalten! Eine Geschichte, von der du nicht loskommst – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="The Last Lullaby” ist eine stilvolle Geschichte über Entscheidung, Reue und die Möglichkeit, sich selbst neu zu definieren. In einer Atmosphäre aus Schatte…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/spannender-krimi-jetzt-einschalten-eine-geschichte-von-der-d-g8mz8uOr7jg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="⚡ Spannender Krimi - JETZT einschalten! Eine Geschichte, von der du nicht loskommst">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

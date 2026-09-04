@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Romantische Liebesgeschichte! Der einsame Witwer findet wieder die Liebe! Komplette Filme – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein talentierter Koch aus London verliert nach einem schweren persönlichen Schicksalsschlag die Freude an seinem Leben und seiner Arbeit. Er zieht sich zur…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/romantische-liebesgeschichte-der-einsame-witwer-findet-wiede-L5BM9PISN5E">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Romantische Liebesgeschichte! Der einsame Witwer findet wieder die Liebe! Komplette Filme">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

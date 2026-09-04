@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Verlobungsplanerin - How To Find Forever (2022) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Als die professionelle Verlobungsplanerin Marley Kennedy den Auftrag erhält, den Antrag für ihre beste Freundin Lara zu organisieren, hat sie gleich eine I…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-verlobungsplanerin-how-to-find-forever-CfRRwB8cpZ4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Verlobungsplanerin - How To Find Forever (2022)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

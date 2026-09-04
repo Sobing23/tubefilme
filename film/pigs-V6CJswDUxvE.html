@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pigs (1973) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Den Schock, den Linda erlitt, als sie ihr eigener Vater vergewaltigte, hat sie nie überwunden. Auch der Aufenthalt in einer psychiatrischen Anstalt bringt…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/pigs-V6CJswDUxvE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Pigs (1973)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

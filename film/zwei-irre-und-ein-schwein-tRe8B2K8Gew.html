@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zwei Irre und ein Schwein (1995) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Für Patrick sind die Folgen einer betrunkenen Nacht immer schwierig. Zumal der Kampf, den er heute Abend gegen N&#39;Gono, einen großen Boxer, ausfechten muss,…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/zwei-irre-und-ein-schwein-tRe8B2K8Gew">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Zwei Irre und ein Schwein (1995)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

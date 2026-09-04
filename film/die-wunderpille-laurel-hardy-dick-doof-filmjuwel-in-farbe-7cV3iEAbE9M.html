@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Wunderpille - Laurel &amp; Hardy - Dick &amp; Doof Filmjuwel in Farbe – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im Vergleich zu einigen ihrer Zeitgenossen stehen die Filme von Stan Laurel und Oliver Hardy für eine leichtere, sanftere Art der Komödie. Auch wenn der Hu…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-wunderpille-laurel-hardy-dick-doof-filmjuwel-in-farbe-7cV3iEAbE9M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Wunderpille - Laurel &amp; Hardy - Dick &amp; Doof Filmjuwel in Farbe">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

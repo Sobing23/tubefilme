@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ein Mädchen sieht ein Verbrechen aus der eigenen Familie 😮 Thriller Kostenlos Auf Deutsch – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Kurz vor ihrem 16. Geburtstag scheint eine Jugendliche ein perfektes Leben zu führen. Familie, Freunde und die bevorstehende Feier lassen keinen Raum für Z…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-maedchen-sieht-ein-verbrechen-aus-der-eigenen-familie-th-eSfb9pNKlVI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ein Mädchen sieht ein Verbrechen aus der eigenen Familie 😮 Thriller Kostenlos Auf Deutsch">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sex on the Beach 2 (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die Schule ist vorbei, doch Will, Jay, Simon und Neil sind noch immer beste Freunde und Notgeil bis zum Anschlag. Jay hat mittlerweile auf seiner Suche nac…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/sex-on-the-beach-2-_tMNgW1HODw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Sex on the Beach 2 (2014)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

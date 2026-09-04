@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Narrow Margin - 12 Stunden Angst (1990) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die attraktive Single-Frau Carol Hunnicut wird heimlich Zeuge bei einem eiskalten Mord, verübt von dem mächtigen Gangsterboss Leo Watts. Voller Angst um ih…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/narrow-margin-12-stunden-angst-t_uanqHDox4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Narrow Margin - 12 Stunden Angst (1990)">
@@ -51,12 +52,12 @@
       </a><a href="/film/getaway-auf-der-flucht-DKWT2DkoInI">
         <img src="https://image.tmdb.org/t/p/w500/sl3yGfP4Ds6QPSf9pAbbupZ8vVQ.jpg" loading="lazy" alt="Getaway - Auf der Flucht">
         <div>Getaway - Auf der Flucht</div>
-      </a><a href="/film/saigon-51tQrqjvuWA">
-        <img src="https://image.tmdb.org/t/p/w500/5cMorM1lNYG4MU7zthaoZhem3j1.jpg" loading="lazy" alt="Saigon">
-        <div>Saigon</div>
       </a><a href="/film/killers-anonymous-jc5lF3q90AE">
         <img src="https://image.tmdb.org/t/p/w500/pvLeCPXtMSxYaVMsSHE6XM7GZQJ.jpg" loading="lazy" alt="Killers Anonymous">
         <div>Killers Anonymous</div>
+      </a><a href="/film/shelter-Gs8fyA85Ckk">
+        <img src="https://image.tmdb.org/t/p/w500/fz8fhY5xuE6NenYDuBsHbB7wUdj.jpg" loading="lazy" alt="Shelter">
+        <div>Shelter</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

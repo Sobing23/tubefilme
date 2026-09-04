@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ALLE DACHTEN, ER SEI TOT - BIS ER PLÖTZLICH WIEDER AUFTAUCHTE – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="ER SPRANG ALLEIN IN DIE HÖLLE ZURÜCK, UM SEIN KIND ZU RETTEN. Ein ehemaliger Soldat erfährt nach Jahren, dass seine Familie entgegen aller Erwartungen noch…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/alle-dachten-er-sei-tot-bis-er-ploetzlich-wieder-auftauchte-SEHKj66WhWs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="ALLE DACHTEN, ER SEI TOT - BIS ER PLÖTZLICH WIEDER AUFTAUCHTE">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

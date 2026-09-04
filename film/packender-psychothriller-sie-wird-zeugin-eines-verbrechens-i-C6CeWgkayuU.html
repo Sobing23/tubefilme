@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Packender Psychothriller! Sie wird Zeugin eines Verbrechens ihres Ehemannes - Thriller Filme Deutsch – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine erfolgreiche Unternehmerin führt gemeinsam mit ihrer besten Freundin ein florierendes Geschäft und scheint auch privat das perfekte Leben zu führen. D…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/packender-psychothriller-sie-wird-zeugin-eines-verbrechens-i-C6CeWgkayuU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Packender Psychothriller! Sie wird Zeugin eines Verbrechens ihres Ehemannes - Thriller Filme Deutsch">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

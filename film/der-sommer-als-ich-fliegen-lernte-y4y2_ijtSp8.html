@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Sommer, als ich fliegen lernte (2022) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Mit ihren zwölf Jahren wünscht sich Sofia (Klara Hrvanović) nichts sehnlicher als den Sommer zusammen mit ihren Freunden beim Camping zu verbringen. Doch d…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-sommer-als-ich-fliegen-lernte-y4y2_ijtSp8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Sommer, als ich fliegen lernte (2022)">
@@ -42,9 +43,6 @@
       <a href="/film/der-wunschzettel-7leCO8z2uOU">
         <img src="https://image.tmdb.org/t/p/w500/nZWcMv3TvKzUvX7dnlC1x78xxNP.jpg" loading="lazy" alt="Der Wunschzettel">
         <div>Der Wunschzettel</div>
-      </a><a href="/film/das-schloss-meiner-mutter-LaKzGbnP0Qs">
-        <img src="https://image.tmdb.org/t/p/w500/ns1NIgQcWOZ2blKxG0b5v2sWDbG.jpg" loading="lazy" alt="Das Schloss meiner Mutter">
-        <div>Das Schloss meiner Mutter</div>
       </a><a href="/film/eine-prinzessin-zu-weihnachten-GvPqNy07aAw">
         <img src="https://image.tmdb.org/t/p/w500/bhLD6A3Cc6Z0nVyGcMuSWwMeQ5K.jpg" loading="lazy" alt="Eine Prinzessin zu Weihnachten">
         <div>Eine Prinzessin zu Weihnachten</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/nur-fuer-den-sommer-IaxIxuOOkFY">
         <img src="https://image.tmdb.org/t/p/w500/Ecd2Z3gjylU8zcbHxU73kgas2K.jpg" loading="lazy" alt="Nur für den Sommer">
         <div>Nur für den Sommer</div>
+      </a><a href="/film/pinot-noir-und-ein-tropfen-liebe-HlqpQtU8Ctg">
+        <img src="https://image.tmdb.org/t/p/w500/7DUssRsuwKihOvS4CPX8FJkXUE.jpg" loading="lazy" alt="Pinot Noir und ein Tropfen Liebe">
+        <div>Pinot Noir und ein Tropfen Liebe</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

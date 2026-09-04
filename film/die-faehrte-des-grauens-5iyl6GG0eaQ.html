@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Fährte des Grauens (2007) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In den Tiefen des afrikanischen Dschungels lauert ein bestialischer Killer, der die Einwohner eines kleinen, vom Bürgerkrieg zerrütteten, Dorfes zusätzlich…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-faehrte-des-grauens-5iyl6GG0eaQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Fährte des Grauens (2007)">
@@ -48,15 +49,15 @@
       </a><a href="/film/der-killer-mit-der-todesmaske-l4HUXRXHp8A">
         <img src="https://image.tmdb.org/t/p/w500/3xTG3BuKyAtykJloKcQsUOlrdoH.jpg" loading="lazy" alt="Der Killer mit der Todesmaske">
         <div>Der Killer mit der Todesmaske</div>
-      </a><a href="/film/gamera-gegen-gaos-frankensteins-kampf-der-ungeheuer-h_wwLcUX1LU">
-        <img src="https://image.tmdb.org/t/p/w500/twoVm7irqE5pipU2h8vdwcUu9y.jpg" loading="lazy" alt="Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer">
-        <div>Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer</div>
       </a><a href="/film/blood-the-last-vampire-og404CtPVMs">
         <img src="https://image.tmdb.org/t/p/w500/7ekFRPl8tUfeimI4cH6Yn1RwzuS.jpg" loading="lazy" alt="Blood: The Last Vampire">
         <div>Blood: The Last Vampire</div>
       </a><a href="/film/outpost-zum-kaempfen-geboren-P-O_ie_fX1I">
         <img src="https://image.tmdb.org/t/p/w500/MqTDINkT2nJf6kAkDaOQXR6MdZ.jpg" loading="lazy" alt="Outpost - Zum Kämpfen geboren">
         <div>Outpost - Zum Kämpfen geboren</div>
+      </a><a href="/film/the-cave-g0H5EPcbQcE">
+        <img src="https://image.tmdb.org/t/p/w500/tyDZbOIm1NybJLVhI3KqAV3ztnw.jpg" loading="lazy" alt="The Cave">
+        <div>The Cave</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

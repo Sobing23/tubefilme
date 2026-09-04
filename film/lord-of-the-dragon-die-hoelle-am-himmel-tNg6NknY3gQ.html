@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lord of the Dragon - Die Hölle am Himmel (2005) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein junger Mann erhält ein Amulett, mit dem er die Kraft einer mythischen geflügelten Schlange herbeirufen kann, die er benutzt, um sich an den Mördern sei…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/lord-of-the-dragon-die-hoelle-am-himmel-tNg6NknY3gQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Lord of the Dragon - Die Hölle am Himmel (2005)">
@@ -39,13 +40,10 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-attack-of-the-legion-bhwnPYWlpTI">
-        <img src="https://image.tmdb.org/t/p/w500/35VLXxTYUrkPDavGIPMlQs0n7sp.jpg" loading="lazy" alt="Gamera - Attack of the Legion">
-        <div>Gamera - Attack of the Legion</div>
-      </a><a href="/film/gamera-revenge-of-iris-PT_KolfuhZc">
+      <a href="/film/gamera-revenge-of-iris-jkfioZsxKyQ">
         <img src="https://image.tmdb.org/t/p/w500/6tXXrZK4P8qKiXbIP3HUYOfu0dZ.jpg" loading="lazy" alt="Gamera - Revenge of Iris">
         <div>Gamera - Revenge of Iris</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
       </a><a href="/film/flying-monkeys-5KqkVDmxkuw">
@@ -57,6 +55,9 @@
       </a><a href="/film/robocroc-tJdBFv0oHvk">
         <img src="https://image.tmdb.org/t/p/w500/gsurzan9Ml5OyUR7ybzhqw60yz5.jpg" loading="lazy" alt="Robocroc">
         <div>Robocroc</div>
+      </a><a href="/film/big-octopus-qkqi3qEhqcc">
+        <img src="https://image.tmdb.org/t/p/w500/P2hBOToiBRjRgLXwNntvL1iZSM.jpg" loading="lazy" alt="Big Octopus">
+        <div>Big Octopus</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

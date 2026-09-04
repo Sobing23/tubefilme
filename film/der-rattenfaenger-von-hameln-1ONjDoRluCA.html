@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Rattenfänger von Hameln (1986) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine düster-brillante Stop-Motion-Adaption des Rattenfängers von Hameln über eine Rattenplage, die die durch Gier verdorbenen Städter bestraft. Eines der e…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-rattenfaenger-von-hameln-1ONjDoRluCA">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Rattenfänger von Hameln (1986)">
@@ -54,9 +55,9 @@
       </a><a href="/film/cj7-nicht-von-dieser-welt-ZQDGUHWOOYQ">
         <img src="https://image.tmdb.org/t/p/w500/nrZscPdpTfZJMwQh8MtzwXgFhnd.jpg" loading="lazy" alt="CJ7 - Nicht von dieser Welt">
         <div>CJ7 - Nicht von dieser Welt</div>
-      </a><a href="/film/in-meinem-himmel-UV0qxQ9-YJU">
-        <img src="https://image.tmdb.org/t/p/w500/lHOOwtlY9EbmcRmX50Dw8VbWS9L.jpg" loading="lazy" alt="In meinem Himmel">
-        <div>In meinem Himmel</div>
+      </a><a href="/film/wenn-traeume-fliegen-lernen-0NVeQBAU0LQ">
+        <img src="https://image.tmdb.org/t/p/w500/3ErdhYRrDl7uQ9xFOvP97LzHZ3D.jpg" loading="lazy" alt="Wenn Träume fliegen lernen">
+        <div>Wenn Träume fliegen lernen</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

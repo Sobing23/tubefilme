@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TARZAN UND DIE KÖNIGIN VON OPAR – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Wenn Sie Legend Of Tarzan und Robin Hood mögen, dürfen Sie sich diesen spannenden Abenteurfilm aus den 90er Jahren mit Joe Lara in der Hauptrolle nicht ent…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/tarzan-und-die-koenigin-von-opar-8rWIxcffVfg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="TARZAN UND DIE KÖNIGIN VON OPAR">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dieser FILM schockiert alle! Sie stecken in rauen Winterbergen fest – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Drei Freunde verbringen einen Wintertag in einem abgelegenen Skigebiet und überreden einen Mitarbeiter, ihnen kurz vor der Schließung noch eine letzte Fahr…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dieser-film-schockiert-alle-sie-stecken-in-rauen-winterberge-ZBqJ8DEQEMk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Dieser FILM schockiert alle! Sie stecken in rauen Winterbergen fest">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

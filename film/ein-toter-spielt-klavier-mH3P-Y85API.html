@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ein Toter spielt Klavier (1961) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die an den Rollstuhl gefesselte Penny Appleby will zum ersten Mal seit zehn Jahren ihren Vater an der französischen Riviera besuchen. Vor Ort wird sie von…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-toter-spielt-klavier-mH3P-Y85API">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ein Toter spielt Klavier (1961)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

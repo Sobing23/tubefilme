@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bathory - Die Blutgräfin (2008) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im 16. Jahrhundert heiratet die junge Gräfin Erzsebet Bathory den ungarischen Fürsten Franz Nadasdy und wird dadurch zu einer der mächtigsten Regentinnen i…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/bathory-die-blutgraefin-w2uXIprnd7o">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Bathory - Die Blutgräfin (2008)">
@@ -51,12 +52,12 @@
       </a><a href="/film/cj7-nicht-von-dieser-welt-ZQDGUHWOOYQ">
         <img src="https://image.tmdb.org/t/p/w500/nrZscPdpTfZJMwQh8MtzwXgFhnd.jpg" loading="lazy" alt="CJ7 - Nicht von dieser Welt">
         <div>CJ7 - Nicht von dieser Welt</div>
+      </a><a href="/film/wenn-traeume-fliegen-lernen-0NVeQBAU0LQ">
+        <img src="https://image.tmdb.org/t/p/w500/3ErdhYRrDl7uQ9xFOvP97LzHZ3D.jpg" loading="lazy" alt="Wenn Träume fliegen lernen">
+        <div>Wenn Träume fliegen lernen</div>
       </a><a href="/film/in-meinem-himmel-UV0qxQ9-YJU">
         <img src="https://image.tmdb.org/t/p/w500/lHOOwtlY9EbmcRmX50Dw8VbWS9L.jpg" loading="lazy" alt="In meinem Himmel">
         <div>In meinem Himmel</div>
-      </a><a href="/film/black-butler-ncWq_koJt9w">
-        <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
-        <div>Black Butler</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

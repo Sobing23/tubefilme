@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>😱 Eine Witwe untersucht den Tod ihres Mannes und entdeckt schockierende Wahrheit – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;Deception&quot; ist eine fesselnde Geschichte über Geheimnisse und die Suche nach Wahrheit. Der Film schafft eine dichte Atmosphäre, in der jede Entdeckung neu…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/eine-witwe-untersucht-den-tod-ihres-mannes-und-entdeckt-scho-WhC4xFs0L5w">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="😱 Eine Witwe untersucht den Tod ihres Mannes und entdeckt schockierende Wahrheit">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

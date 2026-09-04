@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Clown of Fear - Camp Blood 1 - Der Killer-Clown ist los (1999) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Clown of Fear - Camp Blood 1 - Der Killer-Clown ist los (1999) Horror — kostenlos und in voller Länge auf Deutsch ansehen.">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/clown-of-fear-camp-blood-1-der-killer-clown-ist-los-id07npQuNfs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Clown of Fear - Camp Blood 1 - Der Killer-Clown ist los (1999)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

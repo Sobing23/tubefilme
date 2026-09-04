@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nate und der Colonel (2003) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Es sind die letzten Tage des amerikanischen Bürgerkriegs. Unter dem Kommando von Colonel Ben Loftin stiehlt eine kleine Gruppe konföderierter Soldaten eine…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/nate-und-der-colonel-63D_OPK1dMw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Nate und der Colonel (2003)">
@@ -54,7 +55,7 @@
       </a><a href="/film/lauf-um-dein-leben-aGjw9uUavO8">
         <img src="https://image.tmdb.org/t/p/w500/pQqLVh0toIJSeIj8FncORsKiBX7.jpg" loading="lazy" alt="Lauf um Dein Leben">
         <div>Lauf um Dein Leben</div>
-      </a><a href="/film/700-meilen-westwaerts-KUiVWp6JTks">
+      </a><a href="/film/700-meilen-westwaerts--onIQTt2mPQ">
         <img src="https://image.tmdb.org/t/p/w500/aGjj3Tz2C85UqrYMThiRHvgWvVq.jpg" loading="lazy" alt="700 Meilen westwärts">
         <div>700 Meilen westwärts</div>
       </a>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

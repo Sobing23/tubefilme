@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The City of Gold (2018) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Jonathan Davenport, Sohn des Medienmagnats Richard Davenport, fällt aus allen Wolken als sein stinkreicher Vater plötzlich Suizid begeht. Um sich von seine…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-city-of-gold-V0zaI0C9clQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The City of Gold (2018)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

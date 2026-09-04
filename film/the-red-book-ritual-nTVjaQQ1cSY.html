@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Red Book Ritual (2022) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="„The Red Book Ritual“ ist eine Horror-Anthologie mit einer Rahmenhandlung und fünf darin eingebetteten Kurzgeschichten. Die Rahmenstory präsentiert ein paa…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-red-book-ritual-nTVjaQQ1cSY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Red Book Ritual (2022)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

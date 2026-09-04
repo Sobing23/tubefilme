@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tom&#39;s geheimer Garten - Als die Uhr 13 schlug (1999) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="All die schönen Ferienpläne sind dahin, denn Tom&#39;s Bruder hat die Masern! Um sich nicht anzustecken, wird Tom zu Onkel und Tante geschickt - in eine kleine…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/tom-s-geheimer-garten-als-die-uhr-13-schlug-IC9Wn4Gwa08">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Tom&#39;s geheimer Garten - Als die Uhr 13 schlug (1999)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
-      </a><a href="/film/black-butler-ncWq_koJt9w">
+      <a href="/film/black-butler-ncWq_koJt9w">
         <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
         <div>Black Butler</div>
       </a><a href="/film/sindbads-7-reise-9iq99KI0avM">
@@ -57,6 +55,9 @@
       </a><a href="/film/die-schwanenprinzessin-NtY_3kKw-Ms">
         <img src="https://image.tmdb.org/t/p/w500/9Rl7h1fgqkwnQzqsCxGmEKJTRVj.jpg" loading="lazy" alt="Die Schwanenprinzessin">
         <div>Die Schwanenprinzessin</div>
+      </a><a href="/film/sindbad-und-das-auge-des-tigers-In4AqyTtFS4">
+        <img src="https://image.tmdb.org/t/p/w500/nKXfroOtayhLzBPnq8IyegiaOBG.jpg" loading="lazy" alt="Sindbad und das Auge des Tigers">
+        <div>Sindbad und das Auge des Tigers</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

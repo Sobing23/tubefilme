@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verloren Alles - Jetzt Kämpfen Sie Um Die Letzte Chance Ihres Lebens – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Vier Männer kämpfen in einer gnadenlosen Geschäftswelt um ihre Existenz, nachdem ihnen klar wird, dass nur die Besten bleiben dürfen. Unter enormem Druck,…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/verloren-alles-jetzt-kaempfen-sie-um-die-letzte-chance-ihres-8023joYFXfk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Verloren Alles - Jetzt Kämpfen Sie Um Die Letzte Chance Ihres Lebens">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

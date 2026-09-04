@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Das Leuchten der Erinnerung (2018) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Schon seit vielen Jahren sind Ella und John glücklich miteinander verheiratet, doch mittlerweile macht sich das Alter bemerkbar. Die beiden haben das Gefüh…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/das-leuchten-der-erinnerung-wOxNbDklckU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Das Leuchten der Erinnerung (2018)">
@@ -48,15 +49,15 @@
       </a><a href="/film/das-zeichen-des-zorro-WOCzwRT8jbs">
         <img src="https://image.tmdb.org/t/p/w500/1N1gSSJs9ULgSWUM0W7zCXSR2QK.jpg" loading="lazy" alt="Das Zeichen des Zorro">
         <div>Das Zeichen des Zorro</div>
-      </a><a href="/film/das-schloss-meiner-mutter-LaKzGbnP0Qs">
-        <img src="https://image.tmdb.org/t/p/w500/ns1NIgQcWOZ2blKxG0b5v2sWDbG.jpg" loading="lazy" alt="Das Schloss meiner Mutter">
-        <div>Das Schloss meiner Mutter</div>
       </a><a href="/film/the-fountain-2aV-dYfSk1I">
         <img src="https://image.tmdb.org/t/p/w500/4XTf8GuCVLWolubANaKkpk62YPq.jpg" loading="lazy" alt="The Fountain">
         <div>The Fountain</div>
       </a><a href="/film/der-letzte-musketier-MGApapMbo7Y">
         <img src="https://image.tmdb.org/t/p/w500/epckw507yjtbdV1PZGAIrCBpV9l.jpg" loading="lazy" alt="Der letzte Musketier">
         <div>Der letzte Musketier</div>
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
+        <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
+        <div>Alexander</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

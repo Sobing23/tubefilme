@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Abbott und Costello Hans und die Bohnenstange (1952) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die Geschichte beginnt, als Herr Dinkle (Bud Abbott) und Jack (Lou Costello) von der Arbeitsvermittlung zu Eloise Larkin (Shaye Cogan) geschickt werden, um…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/abbott-und-costello-hans-und-die-bohnenstange-eZS1Ulfjcjw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Abbott und Costello Hans und die Bohnenstange (1952)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

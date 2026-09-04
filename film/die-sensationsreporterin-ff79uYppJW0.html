@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Sensationsreporterin (1981) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Kann man einen Mann schuldig sprechen, bevor seine Schuld zweifelsfrei erwiesen ist? Stellen Sie sich vor, Sie nehmen die Morgenzeitung zur Hand und finden…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-sensationsreporterin-ff79uYppJW0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Sensationsreporterin (1981)">
@@ -42,21 +43,21 @@
       <a href="/film/badlands-zerschossene-traeume-po80P7_uutA">
         <img src="https://image.tmdb.org/t/p/w500/8H1ZmqyIvtgeiv97G3GBAmJZdR7.jpg" loading="lazy" alt="Badlands – Zerschossene Träume">
         <div>Badlands – Zerschossene Träume</div>
-      </a><a href="/film/ein-platz-an-der-sonne-z2CI7i5SCFg">
-        <img src="https://image.tmdb.org/t/p/w500/rRNgebOasRivOZCMUZxvryS9HBq.jpg" loading="lazy" alt="Ein Platz an der Sonne">
-        <div>Ein Platz an der Sonne</div>
       </a><a href="/film/priceless-DFWe5Jdt6_U">
         <img src="https://image.tmdb.org/t/p/w500/w19TVSy0DWloEd3WUDxkRD9Dtuc.jpg" loading="lazy" alt="Priceless">
         <div>Priceless</div>
       </a><a href="/film/as-tears-go-by-zpcPMYwRZKg">
         <img src="https://image.tmdb.org/t/p/w500/91YPLgNP9XzbSxgD266AYWx9wFr.jpg" loading="lazy" alt="As Tears Go By">
         <div>As Tears Go By</div>
-      </a><a href="/film/u-turn-kein-weg-zurueck-rC7009U_PzQ">
-        <img src="https://image.tmdb.org/t/p/w500/bgZ0yN3Y7cLxWHTdPqQGjT0Y9hq.jpg" loading="lazy" alt="U-Turn - Kein Weg zurück">
-        <div>U-Turn - Kein Weg zurück</div>
       </a><a href="/film/der-wilde-2CPa48nWsTY">
         <img src="https://image.tmdb.org/t/p/w500/mlSRP2xNSrrL2VxpyGa5th2n2h0.jpg" loading="lazy" alt="Der Wilde">
         <div>Der Wilde</div>
+      </a><a href="/film/greenfingers-harte-jungs-und-zarte-triebe-OeltpL9kd9M">
+        <img src="https://image.tmdb.org/t/p/w500/1AO271C23zMzAd3RCraycpIB5zV.jpg" loading="lazy" alt="Greenfingers - Harte Jungs und zarte Triebe">
+        <div>Greenfingers - Harte Jungs und zarte Triebe</div>
+      </a><a href="/film/clay-pigeons-lebende-ziele-x_9z0mxDXpI">
+        <img src="https://image.tmdb.org/t/p/w500/6cxoftMuiwcQ9xzXfvGWAQfWUmK.jpg" loading="lazy" alt="Clay Pigeons - Lebende Ziele">
+        <div>Clay Pigeons - Lebende Ziele</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

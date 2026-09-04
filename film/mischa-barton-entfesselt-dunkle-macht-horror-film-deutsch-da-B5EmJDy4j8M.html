@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MISCHA BARTON entfesselt DUNKLE MACHT • HORROR FILM DEUTSCH: Das Ouija House - Domizil des Teufels – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Laurie (Carly Schroeder) will endlich die letzten Arbeiten an ihrem Studienprojekt beenden und das dazu gehörige Buch veröffentlichen. Mit dem daraus gener…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mischa-barton-entfesselt-dunkle-macht-horror-film-deutsch-da-B5EmJDy4j8M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="MISCHA BARTON entfesselt DUNKLE MACHT • HORROR FILM DEUTSCH: Das Ouija House - Domizil des Teufels">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

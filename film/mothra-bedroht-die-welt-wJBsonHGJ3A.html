@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mothra bedroht die Welt (1961) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der skrupellose Kunsthändler Nelson entführt von einer Insel im Südpazifik zwei winzige Zwillingsfeen, um diese in Tokio in seiner Show auftreten und singe…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mothra-bedroht-die-welt-wJBsonHGJ3A">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Mothra bedroht die Welt (1961)">
@@ -42,9 +43,6 @@
       <a href="/film/20-000-meilen-unter-dem-meer-AKnyzFFDFS4">
         <img src="https://image.tmdb.org/t/p/w500/lIG7hFveDF1wLnWrMwacbAh7sj1.jpg" loading="lazy" alt="20.000 Meilen unter dem Meer">
         <div>20.000 Meilen unter dem Meer</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/krull-4l5sfuufTlo">
         <img src="https://image.tmdb.org/t/p/w500/sbeC57I9z21UHkc6pA7lJo6zH15.jpg" loading="lazy" alt="Krull">
         <div>Krull</div>
@@ -54,9 +52,12 @@
       </a><a href="/film/versunkene-welt-taK0VJ8nPcA">
         <img src="https://image.tmdb.org/t/p/w500/mWGRXNkTxygpj3uies2vHhc6501.jpg" loading="lazy" alt="Versunkene Welt">
         <div>Versunkene Welt</div>
-      </a><a href="/film/gamera-gegen-jiggar-frankensteins-daemon-bedroht-die-welt-TwcGiBaQVk4">
-        <img src="https://image.tmdb.org/t/p/w500/4ruqFYJnTuc7axmCP3WFQFDN6YJ.jpg" loading="lazy" alt="Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt">
-        <div>Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt</div>
+      </a><a href="/film/dragon-kingdom-das-koenigreich-der-drachen-1Cd_qW8rPB8">
+        <img src="https://image.tmdb.org/t/p/w500/4kWGZYrTqBRsPIsnZmV3DzJtTi9.jpg" loading="lazy" alt="Dragon Kingdom - Das Königreich der Drachen">
+        <div>Dragon Kingdom - Das Königreich der Drachen</div>
+      </a><a href="/film/iceman-der-krieger-aus-dem-eis-8CU7TGDoG9Y">
+        <img src="https://image.tmdb.org/t/p/w500/juAYTbpP05NR8co9GhDTPwEKqde.jpg" loading="lazy" alt="Iceman - Der Krieger aus dem Eis">
+        <div>Iceman - Der Krieger aus dem Eis</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

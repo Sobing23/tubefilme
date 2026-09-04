@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jesse Eisenberg MUSS Drogen für seine Mutter besorgen – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eli (Jesse Eisenberg) ist ein hochtalentierter Pianist, der kurz vor seinem Vorspiel für eine renommierte Musikschule steht. Doch sein chaotisches Familien…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/jesse-eisenberg-muss-drogen-fuer-seine-mutter-besorgen-mwfR2s8kkJE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Jesse Eisenberg MUSS Drogen für seine Mutter besorgen">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

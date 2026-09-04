@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sherlock Holmes und der Stern von Afrika (1992) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="König Edward bittet Sherlock Holmes, den Stern von Afrika, einen der weltgrößten Diamanten, sicher von Afrika nach England zu bringen. Um potentielle Diebe…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/sherlock-holmes-und-der-stern-von-afrika-DPIxlSs1DQE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Sherlock Holmes und der Stern von Afrika (1992)">
@@ -45,7 +46,7 @@
       </a><a href="/film/ruf-der-wildnis-Z4-hxRSI538">
         <img src="https://image.tmdb.org/t/p/w500/m8pElTWt38orhwUP86ZrFhMiuUg.jpg" loading="lazy" alt="Ruf der Wildnis">
         <div>Ruf der Wildnis</div>
-      </a><a href="/film/die-cleveland-entfuehrung-szpHpT6ycKA">
+      </a><a href="/film/die-cleveland-entfuehrung-UiMLLFcmq4o">
         <img src="https://image.tmdb.org/t/p/w500/j2iCc5fjyJvKRQAW7d6XWwDFzmr.jpg" loading="lazy" alt="Die Cleveland - Entführung">
         <div>Die Cleveland - Entführung</div>
       </a><a href="/film/black-butler-ncWq_koJt9w">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

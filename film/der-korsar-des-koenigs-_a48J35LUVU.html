@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Korsar des Königs (1953) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Spanien 1808: Hauptmann Miguel de Cabanil hat sich gerade im Unabhängigkeitskrieg gegen die Franzosen erfolgreich geschlagen, da wird er überraschend unehr…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-korsar-des-koenigs-_a48J35LUVU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Korsar des Königs (1953)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

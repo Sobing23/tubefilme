@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rob Lowe - One Hell of a Guy (2000) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="em Teufel in seiner Hölle ist die Kleinstadt Kellnerin Casssie in diesem Film, der auch unter dem deutschen Titel &quot;Dorf der Engel&quot; bekannt ist, ein Dorn im…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/rob-lowe-one-hell-of-a-guy-4DvkzgBGafc">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Rob Lowe - One Hell of a Guy (2000)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

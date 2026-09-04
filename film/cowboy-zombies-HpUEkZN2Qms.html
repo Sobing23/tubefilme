@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cowboy Zombies (2016) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Arizona um 1870: Marshall Frank Wilcox muss zusammen mit dem afroamerikanischen Nordstaaten-Soldaten Bale, dem gefangenen Mörder George Rivers und einem al…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/cowboy-zombies-HpUEkZN2Qms">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Cowboy Zombies (2016)">
@@ -45,18 +46,18 @@
       </a><a href="/film/macumba-love-nSnYwarpGpE">
         <img src="https://image.tmdb.org/t/p/w500/aAJyPkGOnB0ZJI8C6b9eM3rWsoS.jpg" loading="lazy" alt="Macumba Love">
         <div>Macumba Love</div>
-      </a><a href="/film/gamera-attack-of-the-legion-bhwnPYWlpTI">
-        <img src="https://image.tmdb.org/t/p/w500/35VLXxTYUrkPDavGIPMlQs0n7sp.jpg" loading="lazy" alt="Gamera - Attack of the Legion">
-        <div>Gamera - Attack of the Legion</div>
-      </a><a href="/film/gamera-revenge-of-iris-PT_KolfuhZc">
+      </a><a href="/film/gamera-revenge-of-iris-jkfioZsxKyQ">
         <img src="https://image.tmdb.org/t/p/w500/6tXXrZK4P8qKiXbIP3HUYOfu0dZ.jpg" loading="lazy" alt="Gamera - Revenge of Iris">
         <div>Gamera - Revenge of Iris</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
       </a><a href="/film/dracula-die-auferstehung-vQWu4cjw2v8">
         <img src="https://image.tmdb.org/t/p/w500/pcNwDuieKeSxz6CyOqASdp9oqzt.jpg" loading="lazy" alt="Dracula - Die Auferstehung">
         <div>Dracula - Die Auferstehung</div>
+      </a><a href="/film/black-butler-ncWq_koJt9w">
+        <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
+        <div>Black Butler</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

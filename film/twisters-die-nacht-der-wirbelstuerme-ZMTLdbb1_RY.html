@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Twisters - Die Nacht der Wirbelstürme (1996) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine Serie von Tornados verwüstet in einer einzigen Nacht die Kleinstadt Blainsworth. Der 15-jährige Dan macht sich zusammen mit einer Freundin auf die Suc…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/twisters-die-nacht-der-wirbelstuerme-ZMTLdbb1_RY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Twisters - Die Nacht der Wirbelstürme (1996)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

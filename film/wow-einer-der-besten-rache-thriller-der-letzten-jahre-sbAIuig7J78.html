@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wow! Einer der besten Rache-Thriller der letzten Jahre! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Roy (Ben Foster), dessen Gesundheit schwer angeschlagen ist, verdient sein Geld in New Orleans als Auftragskiller für den Gangsterboss Stan (Beau Bridges)…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wow-einer-der-besten-rache-thriller-der-letzten-jahre-sbAIuig7J78">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wow! Einer der besten Rache-Thriller der letzten Jahre!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

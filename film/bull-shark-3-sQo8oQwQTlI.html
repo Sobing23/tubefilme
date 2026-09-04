@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bull Shark 3 (2025) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Das Finale der Bull-Shark-Trilogie, in dem eine Bullenhai-Familie gegen eine kleine texanische Seegemeinde antritt.…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/bull-shark-3-sQo8oQwQTlI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Bull Shark 3 (2025)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/housebound-A7fYsw16qYc">
-        <img src="https://image.tmdb.org/t/p/w500/jPKEeHmUuoDnIaRs6VUqSr4qRGR.jpg" loading="lazy" alt="Housebound">
-        <div>Housebound</div>
-      </a><a href="/film/assassination-nation-ogMwilKejPs">
+      <a href="/film/assassination-nation-ogMwilKejPs">
         <img src="https://image.tmdb.org/t/p/w500/o9xPqd1aJPYUUBJlfjuV0g4kTCq.jpg" loading="lazy" alt="Assassination Nation">
         <div>Assassination Nation</div>
       </a><a href="/film/lowlife-american-bastards-7l4Q2yIIVjY">
@@ -57,6 +55,9 @@
       </a><a href="/film/botched-voll-verkackt-c5QwMFblbF4">
         <img src="https://image.tmdb.org/t/p/w500/egKO9qDFAGobRov6QbKYjkUIfDG.jpg" loading="lazy" alt="Botched - Voll verkackt">
         <div>Botched - Voll verkackt</div>
+      </a><a href="/film/bull-shark-I4LZqGXUn1M">
+        <img src="https://image.tmdb.org/t/p/w500/wGE4ImqYjJZQi3xFu4I2OLm8m0w.jpg" loading="lazy" alt="Bull Shark">
+        <div>Bull Shark</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

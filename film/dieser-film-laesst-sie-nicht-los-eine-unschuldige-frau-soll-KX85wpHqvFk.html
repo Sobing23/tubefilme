@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>😮 Dieser FILM Lässt Sie Nicht Los! Eine Unschuldige Frau Soll Hinter Gitter – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;Body of Evidence&quot; erzählt eine vielschichtige Geschichte über eine Frau, deren Leben durch ein öffentliches Gerichtsverfahren vollkommen verändert wird. I…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dieser-film-laesst-sie-nicht-los-eine-unschuldige-frau-soll-KX85wpHqvFk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="😮 Dieser FILM Lässt Sie Nicht Los! Eine Unschuldige Frau Soll Hinter Gitter">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

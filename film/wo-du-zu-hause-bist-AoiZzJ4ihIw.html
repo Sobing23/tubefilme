@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wo du zu Hause bist (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Faith kehrt in ihre Heimat zurück, als ihr Mann Luke wegen Betrugs im Gefängnis landet. Dort trifft sie nicht nur auf ihren verwitweten Vater, der sich übe…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wo-du-zu-hause-bist-AoiZzJ4ihIw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wo du zu Hause bist (2013)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

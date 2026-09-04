@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Universal Soldier - Blutiges Geschäft (1998) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die Flucht der Reporterin Veronica vor den Unisol-Häschern geht weiter: In Toronto gerät sie auf eine Party der Internet-Giganten, die von &quot;Weltverbesserer…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/universal-soldier-blutiges-geschaeft-du-nQEFR8pg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Universal Soldier - Blutiges Geschäft (1998)">
@@ -42,7 +43,7 @@
       <a href="/film/the-return-of-the-first-avenger-ToMn68ApvFk">
         <img src="https://image.tmdb.org/t/p/w500/14vWmCoZHXajYmtqSsswWpSOdrd.jpg" loading="lazy" alt="The Return of the First Avenger">
         <div>The Return of the First Avenger</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
       </a><a href="/film/spider-man-homecoming-b0iwD1Ne774">
@@ -51,12 +52,12 @@
       </a><a href="/film/sie-leben-a74REkiUGWo">
         <img src="https://image.tmdb.org/t/p/w500/hcBTqhyR6L4Rd5XAAhKyBSs54dw.jpg" loading="lazy" alt="Sie leben!">
         <div>Sie leben!</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/battle-cabin-kampf-ums-ueberleben-ZF2Vqqghoag">
         <img src="https://image.tmdb.org/t/p/w500/c7QQREaUOav0y9t59lcpENvoYpw.jpg" loading="lazy" alt="Battle Cabin - Kampf ums Überleben">
         <div>Battle Cabin - Kampf ums Überleben</div>
+      </a><a href="/film/existenz-ZJZ0H7ULqMI">
+        <img src="https://image.tmdb.org/t/p/w500/d9GxVDsUEXIgrOsb3OYqmTdMkOE.jpg" loading="lazy" alt="eXistenZ">
+        <div>eXistenZ</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

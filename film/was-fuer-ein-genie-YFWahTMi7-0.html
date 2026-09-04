@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Was für ein Genie! (1985) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Was für ein Genie – Weil er eigentlich mehr zufällig eine bahnbrechende Erfindung in der Lasertechnik machte, darf der 15-jährige Mitch nun auf die Schule…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/was-fuer-ein-genie-YFWahTMi7-0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Was für ein Genie! (1985)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

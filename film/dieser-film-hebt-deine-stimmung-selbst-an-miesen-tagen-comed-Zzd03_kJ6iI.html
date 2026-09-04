@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>✨ Dieser Film hebt deine Stimmung selbst an miesen Tagen! Comedy-Drama, das du zweimal sehen wirst! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;The Women&quot; is a stylish, dialogue-driven film about friendship, self-respect, and fresh starts. Set in an upscale New York world of busy schedules, social…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dieser-film-hebt-deine-stimmung-selbst-an-miesen-tagen-comed-Zzd03_kJ6iI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="✨ Dieser Film hebt deine Stimmung selbst an miesen Tagen! Comedy-Drama, das du zweimal sehen wirst!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

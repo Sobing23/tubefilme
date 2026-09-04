@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Schön muß man sein (1951) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im Wirbel der Premierenvorbereitung einer Revue gibt sich ein begabtes Chorgirl als kapriziöse Diva aus und erhält die Hauptrolle, da sie Komponist und Tex…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/schoen-muss-man-sein-IH8AJRzjXXE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Schön muß man sein (1951)">
@@ -54,7 +55,7 @@
       </a><a href="/film/weisse-weihnachten-xaUb9dkZHBo">
         <img src="https://image.tmdb.org/t/p/w500/1UbbRkXtZdvaPRx40Sem8DDeZhV.jpg" loading="lazy" alt="Weiße Weihnachten">
         <div>Weiße Weihnachten</div>
-      </a><a href="/film/mr-collins-zweiter-fruehling-t-Hn1z9g9lc">
+      </a><a href="/film/mr-collins-zweiter-fruehling-fGKSXaVlKHI">
         <img src="https://image.tmdb.org/t/p/w500/fgsUp03yITZDp6FLGKon4bX3zbO.jpg" loading="lazy" alt="Mr. Collins&#39; zweiter Frühling">
         <div>Mr. Collins&#39; zweiter Frühling</div>
       </a>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

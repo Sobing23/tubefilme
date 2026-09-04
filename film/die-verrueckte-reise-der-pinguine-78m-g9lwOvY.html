@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die verrückte Reise der Pinguine (2006) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Parodie auf Pinguin-Naturdokumentationen wie Die Reise der Pinguine von Luc Jacquet, die von prominenten Sprechern eingesprochen wurde und 2007 als Direct-…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-verrueckte-reise-der-pinguine-78m-g9lwOvY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die verrückte Reise der Pinguine (2006)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Fast and the Dangerous (2002) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Zuckerschnecke Brittany hat Angst vor Geschwindigkeit, während ihr Freund Max an illegalen Autorennen teinimmt. Die Rennszene wird gesteuert von Drogenboss…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-fast-and-the-dangerous-1r2ScgPMyP8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Fast and the Dangerous (2002)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

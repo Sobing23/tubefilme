@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home of the Brave (2006) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine letzte Mission noch. In einem Ort kurz vor den Stadtgrenzen von Bagdad ersehnt eine Gruppe von Soldaten der National Guard ihre Heimreise in die USA.…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/home-of-the-brave-alSK88QTLqM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Home of the Brave (2006)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

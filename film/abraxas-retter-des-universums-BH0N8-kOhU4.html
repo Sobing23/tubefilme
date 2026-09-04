@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Abraxas - Retter des Universums (1990) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Weltraumpolizist Abraxas verfolgt seinen abtrünnigen Kollegen Secundus, einen unsterblichen Androiden, bis auf die Erde. Noch bevor er gefangengenommen wir…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/abraxas-retter-des-universums-BH0N8-kOhU4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Abraxas - Retter des Universums (1990)">
@@ -48,7 +49,7 @@
       </a><a href="/film/lorelei-i-507-deutsche-wunderwaffe-im-pazifik-3q7gRsuIZ50">
         <img src="https://image.tmdb.org/t/p/w500/bfwKz1VkWjIYY9SzWcp5uKB9B5e.jpg" loading="lazy" alt="Lorelei I-507 - Deutsche Wunderwaffe im Pazifik">
         <div>Lorelei I-507 - Deutsche Wunderwaffe im Pazifik</div>
-      </a><a href="/film/foxtrot-six-5IJ09ST5iuc">
+      </a><a href="/film/foxtrot-six-2XkC9lNv8JU">
         <img src="https://image.tmdb.org/t/p/w500/WTKTypNs5mGvKB9wbMOU9jxwzX.jpg" loading="lazy" alt="Foxtrot Six">
         <div>Foxtrot Six</div>
       </a><a href="/film/sanctuary-population-one-Upd3-ylLSZA">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

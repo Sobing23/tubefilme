@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Engländer, der auf einen Hügel stieg und von einem Berg herunterkam (1995) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Aufruhr im idyllischen Ffynnon Garw: Landvermesser Reginald Anson hat soeben festgestellt, dass der ganze Stolz des Dorfes – der einzige Berg von Wales – g…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-englaender-der-auf-einen-huegel-stieg-und-von-einem-berg-mBSEoSgjV5U">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Engländer, der auf einen Hügel stieg und von einem Berg herunterkam (1995)">
@@ -54,9 +55,9 @@
       </a><a href="/film/hier-ist-john-doe-OrPbjJEz45E">
         <img src="https://image.tmdb.org/t/p/w500/dnBZbFE2OGlTGNGBVTn6t83tJtd.jpg" loading="lazy" alt="Hier ist John Doe">
         <div>Hier ist John Doe</div>
-      </a><a href="/film/der-sieger-7fGwfmaA9ic">
-        <img src="https://image.tmdb.org/t/p/w500/z9qmB9kef7f7kluAjYQjFdcuTK0.jpg" loading="lazy" alt="Der Sieger">
-        <div>Der Sieger</div>
+      </a><a href="/film/der-wunschzettel-7leCO8z2uOU">
+        <img src="https://image.tmdb.org/t/p/w500/nZWcMv3TvKzUvX7dnlC1x78xxNP.jpg" loading="lazy" alt="Der Wunschzettel">
+        <div>Der Wunschzettel</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cy Warrior (1989) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Bei einem Schiffsunglück entkommt der Prototyp des Cy-Warriors, ein zu Kriegszwecken erstellter Kampfroboter. Der ehrgeizige Agent Matt Turner soll den unp…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/cy-warrior-nefkI4FOzKY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Cy Warrior (1989)">
@@ -39,24 +40,24 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/virtuosity-WM-du28mE7E">
-        <img src="https://image.tmdb.org/t/p/w500/w2iNzElPosV84D5qnH4n3XZ9lrA.jpg" loading="lazy" alt="Virtuosity">
-        <div>Virtuosity</div>
-      </a><a href="/film/shelter-Gs8fyA85Ckk">
+      <a href="/film/shelter-Gs8fyA85Ckk">
         <img src="https://image.tmdb.org/t/p/w500/fz8fhY5xuE6NenYDuBsHbB7wUdj.jpg" loading="lazy" alt="Shelter">
         <div>Shelter</div>
       </a><a href="/film/sie-leben-a74REkiUGWo">
         <img src="https://image.tmdb.org/t/p/w500/hcBTqhyR6L4Rd5XAAhKyBSs54dw.jpg" loading="lazy" alt="Sie leben!">
         <div>Sie leben!</div>
-      </a><a href="/film/diablo-mm1CmspikGw">
-        <img src="https://image.tmdb.org/t/p/w500/AhSPX1r0TRcFZ80SfHSwLkfgqCD.jpg" loading="lazy" alt="Diablo">
-        <div>Diablo</div>
       </a><a href="/film/the-operation-im-sumpf-der-korruption-rZpLTAIRVJo">
         <img src="https://image.tmdb.org/t/p/w500/qL4sMcXGjg36NtiAbh3mDnjVOrn.jpg" loading="lazy" alt="The Operation - Im Sumpf der Korruption">
         <div>The Operation - Im Sumpf der Korruption</div>
       </a><a href="/film/the-fast-and-the-furious-YkW8GDJy72k">
         <img src="https://image.tmdb.org/t/p/w500/qmRrB8HFhEThLDhqJ7bZqZb6pm9.jpg" loading="lazy" alt="The Fast and the Furious">
         <div>The Fast and the Furious</div>
+      </a><a href="/film/payback-zahltag-tOmwB1Hk4SQ">
+        <img src="https://image.tmdb.org/t/p/w500/3jTjiWOS97OHp5sw8TwLi2yLpIo.jpg" loading="lazy" alt="Payback - Zahltag">
+        <div>Payback - Zahltag</div>
+      </a><a href="/film/kung-fu-killer-skb4P1QHYBc">
+        <img src="https://image.tmdb.org/t/p/w500/jqPq4ZJ3nBMTGlMvczKX0iWReFK.jpg" loading="lazy" alt="Kung Fu Killer">
+        <div>Kung Fu Killer</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

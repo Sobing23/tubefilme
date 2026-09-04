@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Roar - Die Löwen sind los (1981) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Mitten in Afrika betreibt Hank eine Forschungsstation für große Wildkatzen. Als seine ahnungslose Familie aus den Staaten anreist und er sie am Flugplatz v…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/roar-die-loewen-sind-los-grNmW2s3FVA">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Roar - Die Löwen sind los (1981)">
@@ -45,9 +46,6 @@
       </a><a href="/film/graf-zaroff-genie-des-boesen-rwGNx4A6O20">
         <img src="https://image.tmdb.org/t/p/w500/sk5NZIjZXdelZHZC2oNrtoIBSxi.jpg" loading="lazy" alt="Graf Zaroff - Genie des Bösen">
         <div>Graf Zaroff - Genie des Bösen</div>
-      </a><a href="/film/housebound-A7fYsw16qYc">
-        <img src="https://image.tmdb.org/t/p/w500/jPKEeHmUuoDnIaRs6VUqSr4qRGR.jpg" loading="lazy" alt="Housebound">
-        <div>Housebound</div>
       </a><a href="/film/edison-leo-vcPGuf7GqJw">
         <img src="https://image.tmdb.org/t/p/w500/oRWVakC4UfXAgdh7wrrugiwO4JC.jpg" loading="lazy" alt="Edison &amp; Leo">
         <div>Edison &amp; Leo</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/sukiyaki-western-django-7NpEN-9yKr0">
         <img src="https://image.tmdb.org/t/p/w500/zt6bnSf5ZViGlZ0MCOYaFymWXfI.jpg" loading="lazy" alt="Sukiyaki Western Django">
         <div>Sukiyaki Western Django</div>
+      </a><a href="/film/lowlife-american-bastards-7l4Q2yIIVjY">
+        <img src="https://image.tmdb.org/t/p/w500/i0gduMH2xDTwfJQ450ON6EEtfd4.jpg" loading="lazy" alt="Lowlife - American Bastards">
+        <div>Lowlife - American Bastards</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

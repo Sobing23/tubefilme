@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>I am an Alien - Als Mensch geboren...und doch nicht von dieser Welt (SCI-FI) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="unter Schuldgefühlen: Ein Unfall nahm ihm seine Familie. Eines Tages bekommt er ein Stück eines Meteoriten in die Hände. Während er schläft, erobert ein fr…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/i-am-an-alien-als-mensch-geboren-und-doch-nicht-von-dieser-w-hEAcukf5GiM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="I am an Alien - Als Mensch geboren...und doch nicht von dieser Welt (SCI-FI)">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

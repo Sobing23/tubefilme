@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Karen Kingsbury´s Eine Buchhandlung zu Weihnachten - Teil 2 – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Sieben Jahre später steckt „The Bridge&quot; wieder in der Krise: Inhaber Charlie liegt im Koma und die Lage scheint aussichtslos. Doch Molly und Ryan sind nich…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/karen-kingsbury-s-eine-buchhandlung-zu-weihnachten-teil-2-G5AyxuMTi3o">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Karen Kingsbury´s Eine Buchhandlung zu Weihnachten - Teil 2">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

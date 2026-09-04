@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Scrooge (1970) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Verfilmung von Charles Dickens’ Weihnachtsgeschichte um den reichen aber geizigen Ebenezer Scrooge, der in der Weihnachtsnacht von drei Geistern besucht un…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/scrooge-ENhQ0wVVdE0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Scrooge (1970)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Good Night Hell (1989) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein chemischer Krieg hat die Menschheit ausgerottet! In einem unterirdischen Labor hat eine Gruppe von Wissenschaftlern die wahnsinnige ApokaIypse überstan…">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.tubefilme.de/film/good-night-hell-gWxDOKK8zNI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Good Night Hell (1989)">
@@ -21,11 +22,9 @@
   <h1>Good Night Hell</h1>
   <div class="sub">1989 · 1 Std 27 Min · Horror, Science Fiction · FSK 18 · ★ 4.5</div>
 
-  <div class="player" id="player" data-video="gWxDOKK8zNI">
-    <img src="https://image.tmdb.org/t/p/w500/b8VCxr7HOAhHo8IJjDcP0kQ4QUq.jpg" alt="Good Night Hell" onerror="this.src='https://i.ytimg.com/vi/gWxDOKK8zNI/hqdefault.jpg'">
-    <div class="play" aria-label="Film abspielen">
-      <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
-    </div>
+  <div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>Dieser Film wurde beim anbietenden Kanal entfernt. Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>
 
   <div class="meta">
@@ -42,13 +41,10 @@
       <a href="/film/die-nacht-der-lebenden-toten-8hi_KKDblbI">
         <img src="https://image.tmdb.org/t/p/w500/duPDqFFRkwKcGfVibBvtVKA7VNh.jpg" loading="lazy" alt="Die Nacht der lebenden Toten">
         <div>Die Nacht der lebenden Toten</div>
-      </a><a href="/film/gamera-attack-of-the-legion-bhwnPYWlpTI">
-        <img src="https://image.tmdb.org/t/p/w500/35VLXxTYUrkPDavGIPMlQs0n7sp.jpg" loading="lazy" alt="Gamera - Attack of the Legion">
-        <div>Gamera - Attack of the Legion</div>
-      </a><a href="/film/gamera-revenge-of-iris-PT_KolfuhZc">
+      </a><a href="/film/gamera-revenge-of-iris-jkfioZsxKyQ">
         <img src="https://image.tmdb.org/t/p/w500/6tXXrZK4P8qKiXbIP3HUYOfu0dZ.jpg" loading="lazy" alt="Gamera - Revenge of Iris">
         <div>Gamera - Revenge of Iris</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
       </a><a href="/film/der-unsichtbare-EXMLjfb8EqY">
@@ -57,6 +53,9 @@
       </a><a href="/film/the-last-man-on-earth-dbcURQEQCk0">
         <img src="https://image.tmdb.org/t/p/w500/ojyO0eyLuMVY7KW7FjgRYgKq1gi.jpg" loading="lazy" alt="The Last Man on Earth">
         <div>The Last Man on Earth</div>
+      </a><a href="/film/frankensteins-rache-dttOjHysLXQ">
+        <img src="https://image.tmdb.org/t/p/w500/8IoHviVFYCx133Ecs3KaCsUNTr5.jpg" loading="lazy" alt="Frankensteins Rache">
+        <div>Frankensteins Rache</div>
       </a>
     </div>
   </div>
@@ -68,7 +67,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

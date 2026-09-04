@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>At the Gate of the Ghost (2011) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der junge buddhistische Mönch Arnont (Mario Maurer) zweifelt an seinem Glauben, seit er mitansehen musste, wie der stadtbekannte Gangster Singh Kam (Dom He…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/at-the-gate-of-the-ghost-cW66PIkY2Z4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="At the Gate of the Ghost (2011)">
@@ -45,9 +46,6 @@
       </a><a href="/film/beruechtigt-ONlmmrkbf90">
         <img src="https://image.tmdb.org/t/p/w500/bHymOtR55daLAUFt7LLjzTxWKG3.jpg" loading="lazy" alt="Berüchtigt">
         <div>Berüchtigt</div>
-      </a><a href="/film/jacob-s-ladder-in-der-gewalt-des-jenseits-Y90RMhMFKjI">
-        <img src="https://image.tmdb.org/t/p/w500/ufLcHIi1aXjjH8MediAMvnwDsVI.jpg" loading="lazy" alt="Jacob&#39;s Ladder - In der Gewalt des Jenseits">
-        <div>Jacob&#39;s Ladder - In der Gewalt des Jenseits</div>
       </a><a href="/film/die-lady-von-shanghai-QCo45ybkn-8">
         <img src="https://image.tmdb.org/t/p/w500/xnMPVFpznGISjb2fAOPDUhC5loe.jpg" loading="lazy" alt="Die Lady von Shanghai">
         <div>Die Lady von Shanghai</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/in-ihrem-haus-fCwH4zu7g8w">
         <img src="https://image.tmdb.org/t/p/w500/9PgK7yDdfb2nar4fkMzLavWjYmH.jpg" loading="lazy" alt="In ihrem Haus">
         <div>In ihrem Haus</div>
+      </a><a href="/film/feuerprobe-der-unschuld-9waQopEYV3k">
+        <img src="https://image.tmdb.org/t/p/w500/Ac4VC4RFmkN1QeTMNqFsDUM4QVC.jpg" loading="lazy" alt="Feuerprobe der Unschuld">
+        <div>Feuerprobe der Unschuld</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

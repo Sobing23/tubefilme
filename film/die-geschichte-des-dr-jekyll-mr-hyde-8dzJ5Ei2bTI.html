@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Geschichte des Dr. Jekyll &amp; Mr. Hyde (1968) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Fernsehverfilmung des Stevenson Romans &quot;Dr. Jekyll und Mr. Hyde&quot; aus Canada und den USA von 1968. London 1888: Der begabte Arzt Dr. Jekyll sucht nach einem…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-geschichte-des-dr-jekyll-mr-hyde-8dzJ5Ei2bTI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Geschichte des Dr. Jekyll &amp; Mr. Hyde (1968)">
@@ -48,15 +49,15 @@
       </a><a href="/film/tornado-niemand-wird-ihm-entkommen-qOV9upg9OjI">
         <img src="https://image.tmdb.org/t/p/w500/onn3v7U0t4N24X9GrnZxON6VV6g.jpg" loading="lazy" alt="Tornado - Niemand wird ihm entkommen">
         <div>Tornado - Niemand wird ihm entkommen</div>
-      </a><a href="/film/the-lost-kpvs0HRjUN8">
-        <img src="https://image.tmdb.org/t/p/w500/kaqziDs3hAixDLX9GQYFZlTwAct.jpg" loading="lazy" alt="The Lost">
-        <div>The Lost</div>
       </a><a href="/film/living-hell-das-grauen-hat-seine-wurzeln-ze2r8l29Q5c">
         <img src="https://image.tmdb.org/t/p/w500/o9wvCa5ycdK24GOHrGRxrq2tUyk.jpg" loading="lazy" alt="Living Hell - Das Grauen hat seine Wurzeln">
         <div>Living Hell - Das Grauen hat seine Wurzeln</div>
       </a><a href="/film/fatal-getaway-kMvlXmZLq2Y">
         <img src="https://image.tmdb.org/t/p/w500/1b03sF8mTobgMog1oJkXF8j1gBg.jpg" loading="lazy" alt="Fatal Getaway">
         <div>Fatal Getaway</div>
+      </a><a href="/film/alien-apocalypse-tVwl7Wh36H0">
+        <img src="https://image.tmdb.org/t/p/w500/kMCLTS7tjfzYpd6JAiLYs07ZLd1.jpg" loading="lazy" alt="Alien Apocalypse">
+        <div>Alien Apocalypse</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

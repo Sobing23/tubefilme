@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wenn aus &quot;Therapie&quot; Folter wird... - Thriller – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Nach vier Jahren Haft ist Alia Kolaj (Taneshia Abt) endlich frei, doch ihre Freiheit hat einen Preis. Sie muss sich einer Therapie bei dem angesehenen Psyc…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wenn-aus-therapie-folter-wird-thriller-TphXsU7xbKw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wenn aus &quot;Therapie&quot; Folter wird... - Thriller">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

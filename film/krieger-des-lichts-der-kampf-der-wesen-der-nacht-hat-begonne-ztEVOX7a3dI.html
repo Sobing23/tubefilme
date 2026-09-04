@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Krieger des Lichts - Der Kampf der Wesen der Nacht hat begonnen (2009) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Jacob mag zwar wissen, wie man eine scharfe Klinge führt, aber seit dem gewaltsamen Tod seiner Familie fühlt er sich entwurzelt, immer auf Wanderschaft, au…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/krieger-des-lichts-der-kampf-der-wesen-der-nacht-hat-begonne-ztEVOX7a3dI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Krieger des Lichts - Der Kampf der Wesen der Nacht hat begonnen (2009)">
@@ -45,7 +46,7 @@
       </a><a href="/film/die-todesgrotten-der-shaolin-nPyDVBflMaw">
         <img src="https://image.tmdb.org/t/p/w500/lk0Fm2zFhGySkQuFvsVWucmRwKj.jpg" loading="lazy" alt="Die Todesgrotten der Shaolin">
         <div>Die Todesgrotten der Shaolin</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
       </a><a href="/film/tanz-der-toten-seelen-lYvttk1DGcs">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

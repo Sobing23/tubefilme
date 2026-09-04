@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Fountain (2006) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In drei Zeitaltern folgt ein Mann seinem Ziel: 1535 reist der spanische Conquistador Tomás Verde mit Vater Avila in den tiefsten südamerikanischen Dschunge…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-fountain-2aV-dYfSk1I">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Fountain (2006)">
@@ -54,9 +55,9 @@
       </a><a href="/film/das-zeichen-des-zorro-WOCzwRT8jbs">
         <img src="https://image.tmdb.org/t/p/w500/1N1gSSJs9ULgSWUM0W7zCXSR2QK.jpg" loading="lazy" alt="Das Zeichen des Zorro">
         <div>Das Zeichen des Zorro</div>
-      </a><a href="/film/das-schloss-meiner-mutter-LaKzGbnP0Qs">
-        <img src="https://image.tmdb.org/t/p/w500/ns1NIgQcWOZ2blKxG0b5v2sWDbG.jpg" loading="lazy" alt="Das Schloss meiner Mutter">
-        <div>Das Schloss meiner Mutter</div>
+      </a><a href="/film/das-leuchten-der-erinnerung-wOxNbDklckU">
+        <img src="https://image.tmdb.org/t/p/w500/m65FykUd7z7KUZWCT3WWySiA3jg.jpg" loading="lazy" alt="Das Leuchten der Erinnerung">
+        <div>Das Leuchten der Erinnerung</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

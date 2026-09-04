@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Titanic 2 - Die Rückkehr (2010) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Zum 100jährigen Jubiläum der “Titanic”-Jungfernfahrt und der Katastrophe im Jahr 1912 läuft im Jahr 2012 ein hochmoderner Luxusliner mit dem Namen “Titanic…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/titanic-2-die-rueckkehr-RkgRE52Slk8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Titanic 2 - Die Rückkehr (2010)">
@@ -51,7 +52,7 @@
       </a><a href="/film/lorelei-i-507-deutsche-wunderwaffe-im-pazifik-3q7gRsuIZ50">
         <img src="https://image.tmdb.org/t/p/w500/bfwKz1VkWjIYY9SzWcp5uKB9B5e.jpg" loading="lazy" alt="Lorelei I-507 - Deutsche Wunderwaffe im Pazifik">
         <div>Lorelei I-507 - Deutsche Wunderwaffe im Pazifik</div>
-      </a><a href="/film/alexander-84xZ68Bs8EU">
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
       </a><a href="/film/getaway-auf-der-flucht-DKWT2DkoInI">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

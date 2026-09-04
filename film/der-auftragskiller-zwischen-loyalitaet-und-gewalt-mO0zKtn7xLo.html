@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Auftragskiller - Zwischen Loyalität und Gewalt (1979) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Gibt es im organisierten Verbrechen so etwas wie „Freundschaft“, oder ist am Ende jeder sich selbst der Nächste, wenn der Preis stimmt?…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-auftragskiller-zwischen-loyalitaet-und-gewalt-mO0zKtn7xLo">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Auftragskiller - Zwischen Loyalität und Gewalt (1979)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

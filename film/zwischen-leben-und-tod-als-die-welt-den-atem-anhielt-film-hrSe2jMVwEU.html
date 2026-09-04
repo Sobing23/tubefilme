@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zwischen Leben und Tod - Als die Welt den Atem anhielt - Film (2010) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Diese einzigartige Dokumentation zeichnet einige dieser weltbewegenden Ereignisse nach. Mit teilweise restaurierten Originalaufnahmen erleben Sie das gewal…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/zwischen-leben-und-tod-als-die-welt-den-atem-anhielt-film-hrSe2jMVwEU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Zwischen Leben und Tod - Als die Welt den Atem anhielt - Film (2010)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

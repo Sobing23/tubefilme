@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tödlicher Virus - Das Ende der Welt - 1980 - Pandemie-Thriller - Apokalypse - Endzeitfilm – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Nach dem Absturz eines Flugzeugs breitet sich ein vom US-Militär entwickelter Virus über die ganze Welt aus. Es scheint kein wirksames Gegenmittel zu geben…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/toedlicher-virus-das-ende-der-welt-1980-pandemie-thriller-ap-S268hjjSRRs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Tödlicher Virus - Das Ende der Welt - 1980 - Pandemie-Thriller - Apokalypse - Endzeitfilm">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

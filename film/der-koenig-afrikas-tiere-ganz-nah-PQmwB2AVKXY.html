@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der König Afrikas - Tiere ganz nah – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Unterhalb des riesigen afrikanischen Himmels liegt ein beeindruckender männlicher Löwe, der sein - sich über das Rift Valley erstreckendes - Reich begutach…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-koenig-afrikas-tiere-ganz-nah-PQmwB2AVKXY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der König Afrikas - Tiere ganz nah">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

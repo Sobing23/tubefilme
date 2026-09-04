@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ein Psychologischer Thriller! 🚨 Studentin Wird Brutalen Verbrechens Beschuldigt – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="„Mommy’s Cheating Scandal“ erzählt von einer ehrgeizigen Schülerin, die von einer erfolgreichen Zukunft an einem angesehenen College träumt. Um ihre Chance…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-psychologischer-thriller-studentin-wird-brutalen-verbrec-eZHAQEk1A6g">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ein Psychologischer Thriller! 🚨 Studentin Wird Brutalen Verbrechens Beschuldigt">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

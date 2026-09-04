@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mensch, Dave! (2008) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Dave stammt aus dem Weltall und ist ein Raumschiff, welches von einer Crew kleiner Menschen durch New York gelenkt wird. Er sucht einen Stein, der für das…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/mensch-dave-qHGwMB5wuio">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Mensch, Dave! (2008)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

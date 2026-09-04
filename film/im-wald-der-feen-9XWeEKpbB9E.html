@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Im Wald der Feen (1981) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die fünfjährige Lisa hat ihre Mutter verloren und durfte vorübergehend bei den Großeltern auf dem Land leben. Als der Vater und seine neue Frau sie zu sich…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/im-wald-der-feen-9XWeEKpbB9E">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Im Wald der Feen (1981)">
@@ -51,12 +52,12 @@
       </a><a href="/film/macumba-love-nSnYwarpGpE">
         <img src="https://image.tmdb.org/t/p/w500/aAJyPkGOnB0ZJI8C6b9eM3rWsoS.jpg" loading="lazy" alt="Macumba Love">
         <div>Macumba Love</div>
-      </a><a href="/film/gamera-attack-of-the-legion-bhwnPYWlpTI">
-        <img src="https://image.tmdb.org/t/p/w500/35VLXxTYUrkPDavGIPMlQs0n7sp.jpg" loading="lazy" alt="Gamera - Attack of the Legion">
-        <div>Gamera - Attack of the Legion</div>
       </a><a href="/film/die-muppets-weihnachtsgeschichte-PoInIsEXf70">
         <img src="https://image.tmdb.org/t/p/w500/7dcMDkenpMV0FM4jOOoKNfftpHg.jpg" loading="lazy" alt="Die Muppets Weihnachtsgeschichte">
         <div>Die Muppets Weihnachtsgeschichte</div>
+      </a><a href="/film/der-rattenfaenger-von-hameln-1ONjDoRluCA">
+        <img src="https://image.tmdb.org/t/p/w500/9fbJZYCK9mZidjHUcm9Qtwj2oTj.jpg" loading="lazy" alt="Der Rattenfänger von Hameln">
+        <div>Der Rattenfänger von Hameln</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

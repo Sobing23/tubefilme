@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dämon des Todes (1988) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Sarah hat große Angst davor, unattraktiv oder unerwünscht zu sein. In ihrer Verzweiflung spricht sie vor ihrem Spiegel einen alten Zauberspruch aus und ver…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/daemon-des-todes-v0qwPaGcH4A">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Dämon des Todes (1988)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

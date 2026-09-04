@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hustle Down (2021) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Cully (Tom Sizemore), ein kleiner Gauner und Fahrer für ein Drogenkartell in Baja, muss sich auf den geschickten, aber zurückhaltenden Kopfgeldjäger Turk (…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/hustle-down-FZ0W8j-PEx4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Hustle Down (2021)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

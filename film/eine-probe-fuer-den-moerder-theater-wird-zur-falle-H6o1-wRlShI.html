@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Eine Probe für den Mörder Theater wird zur Falle (1982) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Glaubt ihr, ihr würdet in so einem perfiden Spiel den Mörder rechtzeitig entlarven?…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/eine-probe-fuer-den-moerder-theater-wird-zur-falle-H6o1-wRlShI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Eine Probe für den Mörder Theater wird zur Falle (1982)">
@@ -48,15 +49,15 @@
       </a><a href="/film/el-infierno-kfosDV0YL9w">
         <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
         <div>El Infierno</div>
-      </a><a href="/film/paper-moon-dze2NBcNcI8">
-        <img src="https://image.tmdb.org/t/p/w500/3GHG0kTcBWHKdXjj3RdK8GjBCd6.jpg" loading="lazy" alt="Paper Moon">
-        <div>Paper Moon</div>
       </a><a href="/film/anatomie-eines-mordes-13wEZz1cmso">
         <img src="https://image.tmdb.org/t/p/w500/rvxbXTNqDJ0jSfOkK7HYdJMXhaH.jpg" loading="lazy" alt="Anatomie eines Mordes">
         <div>Anatomie eines Mordes</div>
       </a><a href="/film/kaltbluetig-mjCwKpJNbRQ">
         <img src="https://image.tmdb.org/t/p/w500/4V3Hpo84jmvuhUmuDCumKEfhtDj.jpg" loading="lazy" alt="Kaltblütig">
         <div>Kaltblütig</div>
+      </a><a href="/film/the-man-who-wasn-t-there-oOg4-w-uvCc">
+        <img src="https://image.tmdb.org/t/p/w500/s5HQmuQJehnvVnTLNgPRiiLkyxj.jpg" loading="lazy" alt="The Man Who Wasn&#39;t There">
+        <div>The Man Who Wasn&#39;t There</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

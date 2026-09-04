@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Embryo des Bösen (1973) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="England im Jahre 1795: Charles Fengriffen kehrt mit seiner jungen Verlobten Catherine auf sein Schloss auf dem Lande zurück. Während die Beiden sich auf di…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/embryo-des-boesen-2_Iie4iyh9s">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Embryo des Bösen (1973)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Operation - Im Sumpf der Korruption (2017) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In den frühen Morgenstunden wartet eine Einheit der brasilianischen Bundespolizei auf ihren großen Einsatz: Ein LKW, beladen mit knapp 700 Kilogramm reinst…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-operation-im-sumpf-der-korruption-rZpLTAIRVJo">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Operation - Im Sumpf der Korruption (2017)">
@@ -42,9 +43,6 @@
       <a href="/film/shelter-Gs8fyA85Ckk">
         <img src="https://image.tmdb.org/t/p/w500/fz8fhY5xuE6NenYDuBsHbB7wUdj.jpg" loading="lazy" alt="Shelter">
         <div>Shelter</div>
-      </a><a href="/film/diablo-mm1CmspikGw">
-        <img src="https://image.tmdb.org/t/p/w500/AhSPX1r0TRcFZ80SfHSwLkfgqCD.jpg" loading="lazy" alt="Diablo">
-        <div>Diablo</div>
       </a><a href="/film/the-fast-and-the-furious-YkW8GDJy72k">
         <img src="https://image.tmdb.org/t/p/w500/qmRrB8HFhEThLDhqJ7bZqZb6pm9.jpg" loading="lazy" alt="The Fast and the Furious">
         <div>The Fast and the Furious</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/der-wildeste-von-allen-mIk1Jl9tMyI">
         <img src="https://image.tmdb.org/t/p/w500/d5NJ1RvXCzQc9RStNmmDqSFDezl.jpg" loading="lazy" alt="Der Wildeste von allen">
         <div>Der Wildeste von allen</div>
+      </a><a href="/film/paradox-kill-zone-bangkok-We70BrQf06M">
+        <img src="https://image.tmdb.org/t/p/w500/y3CxmhlL0fiHepHyX0GsJ0Yb60X.jpg" loading="lazy" alt="Paradox - Kill Zone Bangkok">
+        <div>Paradox - Kill Zone Bangkok</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

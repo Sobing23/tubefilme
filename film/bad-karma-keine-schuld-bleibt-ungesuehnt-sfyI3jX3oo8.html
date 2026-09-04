@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bad Karma - Keine Schuld bleibt ungesühnt (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Jack Malloy war einst ein knallharter Berufsgangster, kannte keine Skrupel und keine Reue, bis er sich komplett den Drogen und Alkohol hingegeben hat. Nach…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/bad-karma-keine-schuld-bleibt-ungesuehnt-sfyI3jX3oo8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Bad Karma - Keine Schuld bleibt ungesühnt (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

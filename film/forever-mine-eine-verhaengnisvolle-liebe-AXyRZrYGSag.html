@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Forever Mine - Eine verhängnisvolle Liebe (1999) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Kellner Alan (Joseph Fiennes) verliebt sich in Ella (Gretchen Mol). Doch Ella ist mit dem skrupellosen Geschäftsmann Mark Brice (Ray Liotta) verheiratet. A…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/forever-mine-eine-verhaengnisvolle-liebe-AXyRZrYGSag">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Forever Mine - Eine verhängnisvolle Liebe (1999)">
@@ -39,13 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/u-turn-kein-weg-zurueck-rC7009U_PzQ">
-        <img src="https://image.tmdb.org/t/p/w500/bgZ0yN3Y7cLxWHTdPqQGjT0Y9hq.jpg" loading="lazy" alt="U-Turn - Kein Weg zurück">
-        <div>U-Turn - Kein Weg zurück</div>
-      </a><a href="/film/in-secret-geheime-leidenschaft-FxcLiYOwJsM">
-        <img src="https://image.tmdb.org/t/p/w500/hziGCBOMIFyDpH5i7LTIPMluxVs.jpg" loading="lazy" alt="In Secret - Geheime Leidenschaft">
-        <div>In Secret - Geheime Leidenschaft</div>
-      </a><a href="/film/far-north-WoTKprLjJ74">
+      <a href="/film/far-north-WoTKprLjJ74">
         <img src="https://image.tmdb.org/t/p/w500/d31sugp9MHWv7YHGxgM5iYQVmXB.jpg" loading="lazy" alt="Far North">
         <div>Far North</div>
       </a><a href="/film/mo-money-meh-geld-HwP6kg8awIc">
@@ -57,6 +52,12 @@
       </a><a href="/film/das-verhoer-00yLvAK16z4">
         <img src="https://image.tmdb.org/t/p/w500/nDV4WX6M8quGP5Y8ChLz8ZsVphu.jpg" loading="lazy" alt="Das Verhör">
         <div>Das Verhör</div>
+      </a><a href="/film/gilda-R7geqeKaYzU">
+        <img src="https://image.tmdb.org/t/p/w500/rl0ccUEy1tur34A57xehYpd1YQH.jpg" loading="lazy" alt="Gilda">
+        <div>Gilda</div>
+      </a><a href="/film/badlands-zerschossene-traeume-po80P7_uutA">
+        <img src="https://image.tmdb.org/t/p/w500/8H1ZmqyIvtgeiv97G3GBAmJZdR7.jpg" loading="lazy" alt="Badlands – Zerschossene Träume">
+        <div>Badlands – Zerschossene Träume</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

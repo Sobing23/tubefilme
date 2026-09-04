@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Family Business (1989) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der ehemalige Chemiestudent Adam überredet seinen Großvater, den Überzeugungsgauner Jessie McMullen, zu einem todsicheren Bruch. Für eine Million Dollar so…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/family-business-cm48CLmLmEk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Family Business (1989)">
@@ -42,9 +43,6 @@
       <a href="/film/el-infierno-kfosDV0YL9w">
         <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
         <div>El Infierno</div>
-      </a><a href="/film/paper-moon-dze2NBcNcI8">
-        <img src="https://image.tmdb.org/t/p/w500/3GHG0kTcBWHKdXjj3RdK8GjBCd6.jpg" loading="lazy" alt="Paper Moon">
-        <div>Paper Moon</div>
       </a><a href="/film/oliver-twist-_d4FaNv-xLA">
         <img src="https://image.tmdb.org/t/p/w500/tQAj0h1qS0txg6PgVyimPDq8XpB.jpg" loading="lazy" alt="Oliver Twist">
         <div>Oliver Twist</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/die-kampfmaschine-kkCjXeOJpMY">
         <img src="https://image.tmdb.org/t/p/w500/pqyRuET7xdp4Ryj3hj1ZIBIMNyd.jpg" loading="lazy" alt="Die Kampfmaschine">
         <div>Die Kampfmaschine</div>
+      </a><a href="/film/durchgeknallt-byvSmAe2aps">
+        <img src="https://image.tmdb.org/t/p/w500/x2eiNg7RzwCryx5mNFFsWwVXtEe.jpg" loading="lazy" alt="Durchgeknallt">
+        <div>Durchgeknallt</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

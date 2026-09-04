@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Floating Castle - Festung der Samurai (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Japan gegen Ende des 16. Jahrhunderts: Der japanische Kaiser Ishida will die nationale Einigung. Und so hat er ein Heer von zwanzigtausend Männern um sich…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-floating-castle-festung-der-samurai-qKKMBy4aB5k">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Floating Castle - Festung der Samurai (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

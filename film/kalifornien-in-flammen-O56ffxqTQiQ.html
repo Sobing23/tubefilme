@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kalifornien in Flammen (1952) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein spanischer Edelmann, der um 1840 den Anschluß des mexikanischen Kalifornien an die USA betreibt, setzt sich gegen einen Verräter durch, der das Land an…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/kalifornien-in-flammen-O56ffxqTQiQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Kalifornien in Flammen (1952)">
@@ -48,7 +49,7 @@
       </a><a href="/film/auf-zorros-spuren-BpW6VYoSGpk">
         <img src="https://image.tmdb.org/t/p/w500/mO1bBAzm0vfp49k9sdScmTiBIxC.jpg" loading="lazy" alt="Auf Zorros Spuren">
         <div>Auf Zorros Spuren</div>
-      </a><a href="/film/alexander-84xZ68Bs8EU">
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
       </a><a href="/film/die-dame-und-der-killer-O-akxjVDpiw">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hold Your Breath (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine Gruppe junger Leute unterwegs zu einem Campingtrip in die wilde Natur passiert einen provinziellen Friedhof und begeht den fatalen Fehler, nicht die L…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/hold-your-breath-yDH5D4X_Hrk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Hold Your Breath (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

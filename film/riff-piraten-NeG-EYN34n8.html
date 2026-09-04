@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Riff-Piraten (1939) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="An Cornwalls Küste treiben Piraten ihr Unwesen: Mit falschen Zeichen vom Leuchtturm lassen sie Schiffe an den Felsen auflaufen, deren wertvolle Fracht sie…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/riff-piraten-NeG-EYN34n8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Riff-Piraten (1939)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

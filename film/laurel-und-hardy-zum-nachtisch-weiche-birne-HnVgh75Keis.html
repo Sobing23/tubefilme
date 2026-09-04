@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Laurel und Hardy: Zum Nachtisch weiche Birne (1935) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Oliver hat Ärger mit seiner Frau nachdem er Geld, das für die Zahlung der Möbel vorgesehen war, an Stan gegeben hat, der es Mrs. Hardy für Unterkunft und V…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/laurel-und-hardy-zum-nachtisch-weiche-birne-HnVgh75Keis">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Laurel und Hardy: Zum Nachtisch weiche Birne (1935)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

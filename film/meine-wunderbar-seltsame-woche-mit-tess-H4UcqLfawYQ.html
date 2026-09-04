@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Meine wunderbar seltsame Woche mit Tess (2019) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Sam verbringt mit seiner Familie den ersten Urlaubstag auf der niederländischen Insel &#39;Terschelling&#39; und direkt bricht sich sein älterer Bruder das Bein. D…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/meine-wunderbar-seltsame-woche-mit-tess-H4UcqLfawYQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Meine wunderbar seltsame Woche mit Tess (2019)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Runaway Jane - Allein gegen alle! (2001) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Nachdem ihr Sohn Michael entführt wurde, befolgt die Computerexpertin Jane Doe panisch alle Anweisungen der Kidnapper. Als man jedoch vor ihren Augen ihren…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/runaway-jane-allein-gegen-alle-Ec0jTHRVpQ0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Runaway Jane - Allein gegen alle! (2001)">
@@ -45,9 +46,6 @@
       </a><a href="/film/air-terror-killerjagd-ueber-dem-pazifik-FE4XbaT-qts">
         <img src="https://image.tmdb.org/t/p/w500/ftDy3GkHnI7oRYCvXQpDdF2Tbzw.jpg" loading="lazy" alt="Air Terror - Killerjagd über dem Pazifik">
         <div>Air Terror - Killerjagd über dem Pazifik</div>
-      </a><a href="/film/the-shepherd-0JmCSrH5afw">
-        <img src="https://image.tmdb.org/t/p/w500/gntsO8yN1xiFp1CldoJkk0jzxh7.jpg" loading="lazy" alt="The Shepherd">
-        <div>The Shepherd</div>
       </a><a href="/film/global-storm-die-finale-katastrophe-LQtbA3fQKbs">
         <img src="https://image.tmdb.org/t/p/w500/zf8oNxl7SEIui8pr58TzQ8uELmR.jpg" loading="lazy" alt="Global Storm - Die finale Katastrophe">
         <div>Global Storm - Die finale Katastrophe</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/hurrikan-im-auge-des-wirbelsturms-fHZAhnbMZyE">
         <img src="https://image.tmdb.org/t/p/w500/dqqM62oMd3UYawnzzOyurdu9zAo.jpg" loading="lazy" alt="Hurrikan - Im Auge des Wirbelsturms">
         <div>Hurrikan - Im Auge des Wirbelsturms</div>
+      </a><a href="/film/jagd-auf-den-totengott-YC-QcSdR1Ek">
+        <img src="https://image.tmdb.org/t/p/w500/zTuDJtHzUzvtETXN7bYgPbELePR.jpg" loading="lazy" alt="Jagd auf den Totengott">
+        <div>Jagd auf den Totengott</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

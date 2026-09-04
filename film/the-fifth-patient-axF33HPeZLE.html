@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Fifth Patient (2007) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Als John Reilly in einem afrikanischen Krankenhaus wieder sie Augen öffnet, hat er keine Ahnung wer er ist oder wie er dort hin gekommen ist, als er dann a…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-fifth-patient-axF33HPeZLE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Fifth Patient (2007)">
@@ -48,15 +49,15 @@
       </a><a href="/film/getaway-auf-der-flucht-DKWT2DkoInI">
         <img src="https://image.tmdb.org/t/p/w500/sl3yGfP4Ds6QPSf9pAbbupZ8vVQ.jpg" loading="lazy" alt="Getaway - Auf der Flucht">
         <div>Getaway - Auf der Flucht</div>
-      </a><a href="/film/saigon-51tQrqjvuWA">
-        <img src="https://image.tmdb.org/t/p/w500/5cMorM1lNYG4MU7zthaoZhem3j1.jpg" loading="lazy" alt="Saigon">
-        <div>Saigon</div>
       </a><a href="/film/die-lady-von-shanghai-QCo45ybkn-8">
         <img src="https://image.tmdb.org/t/p/w500/xnMPVFpznGISjb2fAOPDUhC5loe.jpg" loading="lazy" alt="Die Lady von Shanghai">
         <div>Die Lady von Shanghai</div>
       </a><a href="/film/ploetzlich-im-letzten-sommer-EzGIkVS-qLY">
         <img src="https://image.tmdb.org/t/p/w500/r4SeJTubOwcRLGigH1bLukQWH3T.jpg" loading="lazy" alt="Plötzlich im letzten Sommer">
         <div>Plötzlich im letzten Sommer</div>
+      </a><a href="/film/in-ihrem-haus-fCwH4zu7g8w">
+        <img src="https://image.tmdb.org/t/p/w500/9PgK7yDdfb2nar4fkMzLavWjYmH.jpg" loading="lazy" alt="In ihrem Haus">
+        <div>In ihrem Haus</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

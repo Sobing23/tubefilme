@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Betrayal: Zwischen den Fronten (2023) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der deutsch-niederländische Offizier Ludwig Mengelberg verkraftet das Grauen des Zweiten Weltkrieges nur schwer. Als seine Frau und seine Tochter bei einem…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/betrayal-zwischen-den-fronten-48yoYFMmxWs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Betrayal: Zwischen den Fronten (2023)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

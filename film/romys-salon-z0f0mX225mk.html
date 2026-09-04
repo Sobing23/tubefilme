@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Romys Salon (2020) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Seit ihre Mutter so viel arbeitet, geht Romy (Vita Heijmen) nach der Schule zu ihrer Oma. Sie hilft ihr dann meist im Frisiersalon. Doch in letzter Zeit is…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/romys-salon-z0f0mX225mk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Romys Salon (2020)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

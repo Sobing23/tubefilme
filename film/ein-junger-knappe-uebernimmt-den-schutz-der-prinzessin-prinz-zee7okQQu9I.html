@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ein junger Knappe übernimmt den Schutz der Prinzessin ⚔️ Prinz Eisenherz – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In einer längst vergangenen Zeit herrscht König Artus über das legendäre Camelot, während die Ritter der Tafelrunde für Gerechtigkeit und Abenteuer sorgen.…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-junger-knappe-uebernimmt-den-schutz-der-prinzessin-prinz-zee7okQQu9I">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ein junger Knappe übernimmt den Schutz der Prinzessin ⚔️ Prinz Eisenherz">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

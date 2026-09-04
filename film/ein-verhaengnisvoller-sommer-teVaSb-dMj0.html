@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ein verhängnisvoller Sommer (2008) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein Sommer im Pittsburgh der frühen Achtziger: Art nennt ihn &quot;seinen letzten Sommer&quot;. Denn danach will er als Börsenmakler dem Ernst des Lebens begegnen. D…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-verhaengnisvoller-sommer-teVaSb-dMj0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ein verhängnisvoller Sommer (2008)">
@@ -45,9 +46,6 @@
       </a><a href="/film/oliver-twist-_d4FaNv-xLA">
         <img src="https://image.tmdb.org/t/p/w500/tQAj0h1qS0txg6PgVyimPDq8XpB.jpg" loading="lazy" alt="Oliver Twist">
         <div>Oliver Twist</div>
-      </a><a href="/film/das-schloss-meiner-mutter-LaKzGbnP0Qs">
-        <img src="https://image.tmdb.org/t/p/w500/ns1NIgQcWOZ2blKxG0b5v2sWDbG.jpg" loading="lazy" alt="Das Schloss meiner Mutter">
-        <div>Das Schloss meiner Mutter</div>
       </a><a href="/film/paulie-ein-plappermaul-macht-seinen-weg-qm4v0yIhubQ">
         <img src="https://image.tmdb.org/t/p/w500/qXhFdtZtopMP7YlsrYDS9BiTz8x.jpg" loading="lazy" alt="Paulie - Ein Plappermaul macht seinen Weg">
         <div>Paulie - Ein Plappermaul macht seinen Weg</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/crystal-fairy-hangover-in-chile-qwvo6JRSAyo">
         <img src="https://image.tmdb.org/t/p/w500/jX34ccG13P66S4qVqLRRyR0hZLS.jpg" loading="lazy" alt="Crystal Fairy - Hangover in Chile">
         <div>Crystal Fairy - Hangover in Chile</div>
+      </a><a href="/film/race-the-sun-im-wettlauf-mit-der-zeit-NBJrat6pNrI">
+        <img src="https://image.tmdb.org/t/p/w500/jQA7TXgmEi35Zab6fHQ8VZ7Zhfn.jpg" loading="lazy" alt="Race the Sun - Im Wettlauf mit der Zeit">
+        <div>Race the Sun - Im Wettlauf mit der Zeit</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

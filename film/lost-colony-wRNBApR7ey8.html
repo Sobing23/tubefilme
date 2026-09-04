@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lost Colony (2007) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Es ist das Jahr 1587. Englische Kolonisten machen sich auf, die Neue Welt zu erobern. Sie landen auf der Insel Roanoke und finden ein Fort vor, das vor Jah…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/lost-colony-wRNBApR7ey8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Lost Colony (2007)">
@@ -54,9 +55,9 @@
       </a><a href="/film/mermaid-down-65NenhXLXs4">
         <img src="https://image.tmdb.org/t/p/w500/oB281saxibom0KC3Ndz81aJJtaa.jpg" loading="lazy" alt="Mermaid Down">
         <div>Mermaid Down</div>
-      </a><a href="/film/the-lost-kpvs0HRjUN8">
-        <img src="https://image.tmdb.org/t/p/w500/kaqziDs3hAixDLX9GQYFZlTwAct.jpg" loading="lazy" alt="The Lost">
-        <div>The Lost</div>
+      </a><a href="/film/strange-nature-zV47sLbNRbk">
+        <img src="https://image.tmdb.org/t/p/w500/yXFkg7S6OBkuevT54Tm2XsJjKRa.jpg" loading="lazy" alt="Strange Nature">
+        <div>Strange Nature</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

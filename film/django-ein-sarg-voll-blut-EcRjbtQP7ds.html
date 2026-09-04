@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Django - Ein Sarg voll Blut (1968) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="George Hilton und Walter Barnes bilden ein perfektes Team in diesem knallharten Italo-Western. Im Kampf um den Besitz eines versteckten Goldschatzes zerfle…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/django-ein-sarg-voll-blut-EcRjbtQP7ds">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Django - Ein Sarg voll Blut (1968)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

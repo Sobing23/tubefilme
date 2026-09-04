@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wow! Dieser tolle Weihnachtsfilm ist ein Muss: Mistelzweige küsst man nicht – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Über die Feiertage kehrt Darcy in ihre Heimat zurück und trifft dort unerwartet auf ihren früheren Highschool-Rivalen Luke. Während sie gemeinsam eine weih…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wow-dieser-tolle-weihnachtsfilm-ist-ein-muss-mistelzweige-ku-SO9Hbqvin4o">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wow! Dieser tolle Weihnachtsfilm ist ein Muss: Mistelzweige küsst man nicht">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

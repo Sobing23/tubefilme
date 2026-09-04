@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Horse Camp - Sommer der Abenteuer (2022) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Lisa leitet die Black River Farm, auf der Mädchen an Camp-Aktivitäten teilnehmen und reiten können. Sie tritt in große Fußstapfen, die ihre beliebte Vorgän…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/horse-camp-sommer-der-abenteuer-wl724d1GQho">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Horse Camp - Sommer der Abenteuer (2022)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

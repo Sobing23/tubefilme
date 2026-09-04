@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dead Man Working (2016) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der hochrangige Investmentbanker Jochen Walther ist auf dem Höhepunkt seiner Karriere bei der Bank der Deutschen. Zusammen mit seinem persönlichen Assisten…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dead-man-working-4kRltNAGKnI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Dead Man Working (2016)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

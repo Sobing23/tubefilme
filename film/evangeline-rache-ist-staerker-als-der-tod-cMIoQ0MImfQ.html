@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Evangeline - Rache ist stärker als der Tod (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Für Evangeline wird es Zeit, aus ihrer Schale zu kriechen und die behütete Erziehung hinter sich zu lassen. Ein neuer Lebensabschnitt steht an und sie will…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/evangeline-rache-ist-staerker-als-der-tod-cMIoQ0MImfQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Evangeline - Rache ist stärker als der Tod (2013)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

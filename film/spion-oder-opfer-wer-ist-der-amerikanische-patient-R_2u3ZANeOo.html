@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Spion oder Opfer? Wer ist &quot;Der amerikanische Patient&quot;? – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="John Reilly erwacht mit einer schweren Kopfverletzung in einem afrikanischen Krankenhaus – ohne Erinnerung an sein früheres Leben. Schnell wird er von Offi…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/spion-oder-opfer-wer-ist-der-amerikanische-patient-R_2u3ZANeOo">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Spion oder Opfer? Wer ist &quot;Der amerikanische Patient&quot;?">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

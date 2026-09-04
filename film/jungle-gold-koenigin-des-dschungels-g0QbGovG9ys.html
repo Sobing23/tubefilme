@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jungle Gold - Königin des Dschungels (1944) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Zwei Ölkonzerne wollen einen Eingeborenenstamm von seinem Land vertreiben. Die weiße Anführerin möchte das jedoch nicht zulassen...…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/jungle-gold-koenigin-des-dschungels-g0QbGovG9ys">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Jungle Gold - Königin des Dschungels (1944)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

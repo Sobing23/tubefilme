@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Schock (1982) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Martin Terrier, bezahlter Mörder und am Ende seine Karriere angelangt, will sich absetzen und in sein Vaterland zurückziehen. Aber seine &quot;Arbeitgeber&quot; glau…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-schock-v58kkSHD5U4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Schock (1982)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

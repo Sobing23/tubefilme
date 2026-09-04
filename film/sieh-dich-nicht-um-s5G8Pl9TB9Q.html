@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sieh dich nicht um (2002) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Was passiert, wenn eine junge Frau zufällig in einen gefährlichen Kriminalfall verwickelt wird, nur weil sie zur falschen Zeit am falschen Platz ist? Lacey…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/sieh-dich-nicht-um-s5G8Pl9TB9Q">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Sieh dich nicht um (2002)">
@@ -39,7 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/die-cleveland-entfuehrung-szpHpT6ycKA">
+      <a href="/film/die-cleveland-entfuehrung-UiMLLFcmq4o">
         <img src="https://image.tmdb.org/t/p/w500/j2iCc5fjyJvKRQAW7d6XWwDFzmr.jpg" loading="lazy" alt="Die Cleveland - Entführung">
         <div>Die Cleveland - Entführung</div>
       </a><a href="/film/die-wahrheit-ueber-jenny-rand-Lv2YFUEA33U">
@@ -51,12 +52,12 @@
       </a><a href="/film/glueckstag-O9RItGBdbVc">
         <img src="https://image.tmdb.org/t/p/w500/ruJuAb8slA7G4MvWzk4nNI9uRrF.jpg" loading="lazy" alt="Glückstag">
         <div>Glückstag</div>
-      </a><a href="/film/auf-den-strassen-von-l-a-9gCPJxivo3Q">
-        <img src="https://image.tmdb.org/t/p/w500/vJM70EeSbIe7gnkGrDxbBE1Kiqt.jpg" loading="lazy" alt="Auf den Straßen von L.A.">
-        <div>Auf den Straßen von L.A.</div>
       </a><a href="/film/mord-im-orientexpress-CP5uyyQXdzM">
         <img src="https://image.tmdb.org/t/p/w500/iv6KgKDdDAqou3WxWEO7lN6FBUN.jpg" loading="lazy" alt="Mord im Orientexpress">
         <div>Mord im Orientexpress</div>
+      </a><a href="/film/sherlock-fOgczgRHlyk">
+        <img src="https://image.tmdb.org/t/p/w500/kVo5OypOo5xElsEBucyKr0gcxUZ.jpg" loading="lazy" alt="Sherlock">
+        <div>Sherlock</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

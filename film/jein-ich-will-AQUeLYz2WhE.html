@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jein, ich will! (2004) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Für die Hochzeit von Johanna und Benjamin ist alles vorbereitet. Doch dann verschwinden die Trauringe, die Brauteltern streiten, Geheimnisse kommen ans Tag…">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.tubefilme.de/film/jein-ich-will-AQUeLYz2WhE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Jein, ich will! (2004)">
@@ -21,11 +22,9 @@
   <h1>Jein, ich will!</h1>
   <div class="sub">2004 · 1 Std 36 Min · Komödie, Drama · ★ 5.2</div>
 
-  <div class="player" id="player" data-video="AQUeLYz2WhE">
-    <img src="https://image.tmdb.org/t/p/w500/5LoAIPEUDiQXB1iYeit7TOoWrqC.jpg" alt="Jein, ich will!" onerror="this.src='https://i.ytimg.com/vi/AQUeLYz2WhE/hqdefault.jpg'">
-    <div class="play" aria-label="Film abspielen">
-      <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
-    </div>
+  <div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>Dieser Film wurde beim anbietenden Kanal entfernt. Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>
 
   <div class="meta">
@@ -54,9 +53,9 @@
       </a><a href="/film/el-infierno-kfosDV0YL9w">
         <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
         <div>El Infierno</div>
-      </a><a href="/film/paper-moon-dze2NBcNcI8">
-        <img src="https://image.tmdb.org/t/p/w500/3GHG0kTcBWHKdXjj3RdK8GjBCd6.jpg" loading="lazy" alt="Paper Moon">
-        <div>Paper Moon</div>
+      </a><a href="/film/die-kinder-des-monsieur-mathieu-FhOzL8CyX_c">
+        <img src="https://image.tmdb.org/t/p/w500/d2PnrEEPEECB3p69Zl3xnhSSg31.jpg" loading="lazy" alt="Die Kinder des Monsieur Mathieu">
+        <div>Die Kinder des Monsieur Mathieu</div>
       </a>
     </div>
   </div>
@@ -68,7 +67,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

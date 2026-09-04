@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tango Shalom (2021) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Rabbi Moshe Yehuda hat eine schwere Zeit hinter sich und Jobs sind rar. Seine Familie ist aber auf sein Einkommen angewiesen und als seine Stunden als Lehr…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/tango-shalom-_L7n_3PqKo0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Tango Shalom (2021)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Reisende (2022) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Auf den letzten Befehl seines Meisters kurz vor dessen Tod sucht der Kämpfer Kwan im Süden nach einem Magier, um seine verborgene Macht gegen den Mörder vo…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-reisende-T-2o1-sGWxk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Reisende (2022)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
-      </a><a href="/film/black-butler-ncWq_koJt9w">
+      <a href="/film/black-butler-ncWq_koJt9w">
         <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
         <div>Black Butler</div>
       </a><a href="/film/sindbads-7-reise-9iq99KI0avM">
@@ -57,6 +55,9 @@
       </a><a href="/film/turbulence-DR8XLsoGv6o">
         <img src="https://image.tmdb.org/t/p/w500/2Y2o2lIsgXZJdmfgxD4NQO8RI12.jpg" loading="lazy" alt="Turbulence">
         <div>Turbulence</div>
+      </a><a href="/film/heavenly-sword-Jo4L3tSSjng">
+        <img src="https://image.tmdb.org/t/p/w500/wZzMbYDomCgj6LUN1b33ha7BiGh.jpg" loading="lazy" alt="Heavenly Sword">
+        <div>Heavenly Sword</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Apostel Petrus und das letzte Abendmahl (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der gealterte Apostel Petrus sitzt in einem römischen Kerker. Der Kerkermeister Martinian zeigt großes Interesse an Petrus&#39; Erinnerungen an die gemeinsame…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/apostel-petrus-und-das-letzte-abendmahl-2g92oZpaUXY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Apostel Petrus und das letzte Abendmahl (2013)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EASTERN ACTION - Das blutige Schwert des Königstigers – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine böse Bande greift die Chi-Schule des Goldenen Schwertes Kung Fu an. Ein Schüler opfert sein Leben, um seinen Lehrer und seine Schule zu retten. Sein l…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/eastern-action-das-blutige-schwert-des-koenigstigers-7k8T-n1X1wU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="EASTERN ACTION - Das blutige Schwert des Königstigers">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

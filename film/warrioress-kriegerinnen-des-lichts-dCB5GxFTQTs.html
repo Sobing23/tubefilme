@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Warrioress - Kriegerinnen des Lichts (2011) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Eine Welt voller Mythen und Philosophien, doch gefangen im festen und rücksichtslosen Griff des bösartigen Falonex-Imperiums. In dieser schweren Zeit halte…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/warrioress-kriegerinnen-des-lichts-dCB5GxFTQTs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Warrioress - Kriegerinnen des Lichts (2011)">
@@ -42,12 +43,9 @@
       <a href="/film/der-reisende-T-2o1-sGWxk">
         <img src="https://image.tmdb.org/t/p/w500/csRDYeLEHYztjTiUDvOZo7IBlkS.jpg" loading="lazy" alt="Der Reisende">
         <div>Der Reisende</div>
-      </a><a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      </a><a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/black-butler-ncWq_koJt9w">
         <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
         <div>Black Butler</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/the-kung-fu-cult-master-Fm229Xcte1A">
         <img src="https://image.tmdb.org/t/p/w500/4mWUMtvlls20l0UMIQPJs3DbC1e.jpg" loading="lazy" alt="The Kung Fu Cult Master">
         <div>The Kung Fu Cult Master</div>
+      </a><a href="/film/sindbads-gefaehrliche-abenteuer-e3B2ZJtUKSc">
+        <img src="https://image.tmdb.org/t/p/w500/laYMPwV1kL4AR2HxHYTcBaPUH8G.jpg" loading="lazy" alt="Sindbads gefährliche Abenteuer">
+        <div>Sindbads gefährliche Abenteuer</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

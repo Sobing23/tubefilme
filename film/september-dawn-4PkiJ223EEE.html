@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>September Dawn (2007) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im Jahre 1857 reist ein Zug von Siedlern durch Utah und wird von den dort ansässigen religiös-faschistoiden Mormonen, die die Einwanderer nicht dulden woll…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/september-dawn-4PkiJ223EEE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="September Dawn (2007)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

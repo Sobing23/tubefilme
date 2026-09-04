@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HORRORFILM! Der beängstigendste Film, den Zuschauer sahen! Komplette Filme auf Deutsch – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein junges Paar reist in eine abgelegene Waldregion, die seit Jahrzehnten für Berichte über ein mysteriöses, affenähnliches Wesen bekannt ist. Während er f…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/horrorfilm-der-beaengstigendste-film-den-zuschauer-sahen-kom-lAkkMDl128I">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="HORRORFILM! Der beängstigendste Film, den Zuschauer sahen! Komplette Filme auf Deutsch">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

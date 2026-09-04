@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🎬 Ein FILM, Der Jeden Mit Seiner Spannenden Handlung Bis Zum Ende Fesseln Wird! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;MAINA&quot; erzählt eine emotionale Geschichte über Mut, Hoffnung und die Suche nach dem eigenen Platz in einer rauen und beeindruckenden Landschaft. Vor der K…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-film-der-jeden-mit-seiner-spannenden-handlung-bis-zum-en-J1PyXlvztj8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="🎬 Ein FILM, Der Jeden Mit Seiner Spannenden Handlung Bis Zum Ende Fesseln Wird!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

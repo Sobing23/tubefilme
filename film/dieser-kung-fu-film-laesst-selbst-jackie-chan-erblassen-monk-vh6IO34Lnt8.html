@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dieser Kung-Fu-Film lässt selbst JACKIE CHAN erblassen: Monk Comes Down the Mountain – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="China in den 1930er-Jahren: Nachdem der junge Priester He Anxia (Baoqiang Wang), der zugleich ein versierter Kampfkünstler ist, gezwungen wird, sein Kloste…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dieser-kung-fu-film-laesst-selbst-jackie-chan-erblassen-monk-vh6IO34Lnt8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Dieser Kung-Fu-Film lässt selbst JACKIE CHAN erblassen: Monk Comes Down the Mountain">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

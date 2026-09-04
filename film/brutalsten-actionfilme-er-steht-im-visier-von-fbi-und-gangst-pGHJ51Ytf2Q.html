@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🔥 Brutalsten Actionfilme! Er steht im Visier von FBI und Gangstern! Filme Deutsch Komplett – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein diskreter Spezialkurier übernimmt einen Auftrag, der sich zunächst nicht von seinen üblichen Lieferungen unterscheidet. Seine Aufgabe besteht darin, ei…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/brutalsten-actionfilme-er-steht-im-visier-von-fbi-und-gangst-pGHJ51Ytf2Q">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="🔥 Brutalsten Actionfilme! Er steht im Visier von FBI und Gangstern! Filme Deutsch Komplett">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wayne&#39;s World 2 (1993) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Wayne ist in einer schweren Krise: Er fragt sich, was der Sinn seines Lebens ist. Die Antwort gibt ihm Jim Morrison, dem er bei einer Vision begegnet: Wayn…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wayne-s-world-2-na0VD_-Zack">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wayne&#39;s World 2 (1993)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>A.I. Rising (2018) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der sowjetische Kosmonaut Milutin und die zu seinen Diensten programmierte Androide Nimani werden von der multinationalen Ederlezi Corporation zu einer Pio…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/a-i-rising-gr4d215B7JM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="A.I. Rising (2018)">
@@ -45,18 +46,18 @@
       </a><a href="/film/a-billion-stars-im-universum-ist-man-nicht-allein-9uesRACeuRc">
         <img src="https://image.tmdb.org/t/p/w500/yGyOfneMYcbZgrBXt0UMUKa63GM.jpg" loading="lazy" alt="A Billion Stars - Im Universum ist man nicht allein">
         <div>A Billion Stars - Im Universum ist man nicht allein</div>
-      </a><a href="/film/starman-9X0zeNVwN7I">
+      </a><a href="/film/starman-TpuEe0Qqezw">
         <img src="https://image.tmdb.org/t/p/w500/rmpXoSkoi5sFs4NWfpkW94tLKd4.jpg" loading="lazy" alt="Starman">
         <div>Starman</div>
       </a><a href="/film/the-fountain-2aV-dYfSk1I">
         <img src="https://image.tmdb.org/t/p/w500/4XTf8GuCVLWolubANaKkpk62YPq.jpg" loading="lazy" alt="The Fountain">
         <div>The Fountain</div>
-      </a><a href="/film/how-i-live-now-IAIeqQ4exww">
-        <img src="https://image.tmdb.org/t/p/w500/iLJcNKON3hBaMBm6jPSAW7psY8C.jpg" loading="lazy" alt="How I Live Now">
-        <div>How I Live Now</div>
       </a><a href="/film/back-to-love-zeitreise-in-die-vergangenheit-uxVQy-dtTIo">
         <img src="https://image.tmdb.org/t/p/w500/vlz2Jm5TYohYSIhdOVv2WGvb95x.jpg" loading="lazy" alt="Back to Love - Zeitreise in die Vergangenheit">
         <div>Back to Love - Zeitreise in die Vergangenheit</div>
+      </a><a href="/film/upside-down-uqZE3LTi_zw">
+        <img src="https://image.tmdb.org/t/p/w500/juy0pkdEe5ziQUFittvKujjbgeh.jpg" loading="lazy" alt="Upside Down">
+        <div>Upside Down</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

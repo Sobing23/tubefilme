@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Marshal Bass Reeves (2022) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der Deputy US-Marshal Bass Reeves (Isaiah Washington) trifft auf seinen ehemaligen Partner Sam Tanner (Jason Johnson), der zum Flüchtigen wurde. In einem W…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/marshal-bass-reeves-P0zfkJmrN2s">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Marshal Bass Reeves (2022)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

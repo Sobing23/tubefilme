@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Robot &amp; Frank (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In nicht allzu ferner Zukunft: Der griesgrämige Frank weigert sich, mit der Zeit zu gehen. Während um ihn herum alles durch Maschinen ersetzt und durch Tec…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/robot-frank-4mzRzyFNJCk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Robot &amp; Frank (2012)">
@@ -51,12 +52,12 @@
       </a><a href="/film/el-infierno-kfosDV0YL9w">
         <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
         <div>El Infierno</div>
-      </a><a href="/film/paper-moon-dze2NBcNcI8">
-        <img src="https://image.tmdb.org/t/p/w500/3GHG0kTcBWHKdXjj3RdK8GjBCd6.jpg" loading="lazy" alt="Paper Moon">
-        <div>Paper Moon</div>
       </a><a href="/film/he-laughed-last-uaNMk4lQPHY">
         <img src="https://image.tmdb.org/t/p/w500/eWaNI0YWYUO5W1g2PbT7Kyzisca.jpg" loading="lazy" alt="He Laughed Last">
         <div>He Laughed Last</div>
+      </a><a href="/film/brazil-uCGzuY6mmQ4">
+        <img src="https://image.tmdb.org/t/p/w500/aewan59WcFThBimkTVVoNf2o5Vb.jpg" loading="lazy" alt="Brazil">
+        <div>Brazil</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

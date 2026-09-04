@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Operation Comeback (1983) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Laos 1977. Der unerschrockene Journalist John Everingham schleust geheime Informationen über das durch die Militärs terrorisierte Land an die Weltpresse. E…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/operation-comeback-LwV9FMk_hO8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Operation Comeback (1983)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

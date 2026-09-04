@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Reise zum Mittelpunkt der Erde (2008) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Wissenschaftler Trevor Anderson geht voll und ganz in seiner Arbeit auf - und seinen Theorien über einen möglichen Zugang zum Mittelpunkt der Erde. Bewaffn…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-reise-zum-mittelpunkt-der-erde-WkSduJEx1Wg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Reise zum Mittelpunkt der Erde (2008)">
@@ -39,10 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
-      </a><a href="/film/mega-time-squad-9l9CHEgX0e0">
+      <a href="/film/mega-time-squad-9l9CHEgX0e0">
         <img src="https://image.tmdb.org/t/p/w500/cLQpEpxyBIvpuDOQ76nfQlrtLG8.jpg" loading="lazy" alt="Mega Time Squad">
         <div>Mega Time Squad</div>
       </a><a href="/film/jimmy-neutron-der-mutige-erfinder-vPACeysX4ik">
@@ -54,9 +52,12 @@
       </a><a href="/film/the-vortex-kGzUM3sjJ3s">
         <img src="https://image.tmdb.org/t/p/w500/2yU1bzwgfIAQBaEgXmUPgTAEDJc.jpg" loading="lazy" alt="The Vortex">
         <div>The Vortex</div>
-      </a><a href="/film/gamera-gegen-jiggar-frankensteins-daemon-bedroht-die-welt-TwcGiBaQVk4">
-        <img src="https://image.tmdb.org/t/p/w500/4ruqFYJnTuc7axmCP3WFQFDN6YJ.jpg" loading="lazy" alt="Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt">
-        <div>Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt</div>
+      </a><a href="/film/iceman-der-krieger-aus-dem-eis-8CU7TGDoG9Y">
+        <img src="https://image.tmdb.org/t/p/w500/juAYTbpP05NR8co9GhDTPwEKqde.jpg" loading="lazy" alt="Iceman - Der Krieger aus dem Eis">
+        <div>Iceman - Der Krieger aus dem Eis</div>
+      </a><a href="/film/mensch-dave-qHGwMB5wuio">
+        <img src="https://image.tmdb.org/t/p/w500/ig0lQ6H4uKuc1kqYgZNkZEyaD.jpg" loading="lazy" alt="Mensch, Dave!">
+        <div>Mensch, Dave!</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

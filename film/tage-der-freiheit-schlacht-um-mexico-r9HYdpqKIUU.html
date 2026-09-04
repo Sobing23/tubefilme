@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tage der Freiheit - Schlacht um Mexico (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Unter der Führung von General Ignacio Zaragoza stellt sich eine mexikanische Armee am 5. Mai 1862 gegen die Invasoren der französischen Expeditionsarmee. E…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/tage-der-freiheit-schlacht-um-mexico-r9HYdpqKIUU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Tage der Freiheit - Schlacht um Mexico (2013)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

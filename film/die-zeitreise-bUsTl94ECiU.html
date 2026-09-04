@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die Zeitreise (2003) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Das Jahr 1890: Bibelprofessor Russell Carlisle hat ein neues Buch, &quot;Die sich verändernden Zeiten&quot;, geschrieben. Als jedoch Dr. Norris Anderson anmerkt, das…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-zeitreise-bUsTl94ECiU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die Zeitreise (2003)">
@@ -51,12 +52,12 @@
       </a><a href="/film/die-muppets-weihnachtsgeschichte-PoInIsEXf70">
         <img src="https://image.tmdb.org/t/p/w500/7dcMDkenpMV0FM4jOOoKNfftpHg.jpg" loading="lazy" alt="Die Muppets Weihnachtsgeschichte">
         <div>Die Muppets Weihnachtsgeschichte</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/der-junge-der-nicht-luegen-konnte-Y7xP4kmelb4">
         <img src="https://image.tmdb.org/t/p/w500/nWgIATVyRdCF2LT2whsuUjj8pVn.jpg" loading="lazy" alt="Der Junge, der nicht lügen konnte">
         <div>Der Junge, der nicht lügen konnte</div>
+      </a><a href="/film/the-jacket-lDQWZGy3lxY">
+        <img src="https://image.tmdb.org/t/p/w500/7kb7FGRLEe4plFZ1ubmeseFhfGs.jpg" loading="lazy" alt="The Jacket">
+        <div>The Jacket</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

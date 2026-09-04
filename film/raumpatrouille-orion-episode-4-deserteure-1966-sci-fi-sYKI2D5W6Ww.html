@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Raumpatrouille Orion: Episode 4 - Deserteure - 1966 - Sci-Fi – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der Kommandant eines Raumschiffes wollte das Operationsgebiet des außerirdischen Feindes ansteuern, konnte aber noch in letzter Minute abgefangen werden. W…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/raumpatrouille-orion-episode-4-deserteure-1966-sci-fi-sYKI2D5W6Ww">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Raumpatrouille Orion: Episode 4 - Deserteure - 1966 - Sci-Fi">
@@ -47,7 +48,8 @@ McLane will nun zum Schein den außerirdischen Befehlen gehorchen, um auf diese 
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

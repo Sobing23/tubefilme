@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dieses magische Weihnachtsmärchen könnte ich immer wieder schauen: Wunder einer Winternacht – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Weit oben in Lappland lebt der Waisenjunge Nikolas. Die Menschen im Dorf sorgen gemeinsam für ihn, indem er jedes Jahr bei einer anderen Familie wohnt. Am…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dieses-magische-weihnachtsmaerchen-koennte-ich-immer-wieder-7yoqbHvDGb8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Dieses magische Weihnachtsmärchen könnte ich immer wieder schauen: Wunder einer Winternacht">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

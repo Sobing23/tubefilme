@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Toll! Dieser Animationsfilm nimmt dich mit auf ein großes Abenteuer! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Vor einem Jahrtausend wünscht sich der junge Bilal, ein bedeutender Kämpfer zu werden. Doch die brutale Realität holt ihn ein, als er zusammen mit seiner S…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/toll-dieser-animationsfilm-nimmt-dich-mit-auf-ein-grosses-ab-rKFPsa0-71s">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Toll! Dieser Animationsfilm nimmt dich mit auf ein großes Abenteuer!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zwei Männer, ein unmöglicher Durchbruch - eine Geschichte, die Leben rettete – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In einer Zeit, in der Vorurteile stärker waren als Fortschritt, treffen zwei außergewöhnliche Männer aufeinander: ein visionärer Chirurg und ein genialer A…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/zwei-maenner-ein-unmoeglicher-durchbruch-eine-geschichte-die-STXpY3Ppf0w">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Zwei Männer, ein unmöglicher Durchbruch - eine Geschichte, die Leben rettete">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

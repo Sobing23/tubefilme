@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dotty and Soul (2023) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der erfolgreiche Unternehmer Ethan Cox (Adam Saunders) scheint kurz davor zu stehen, seine Autofirma zu verkaufen und seine Investoren steinreich zu machen…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/dotty-and-soul-j05ERC9nPYg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Dotty and Soul (2023)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

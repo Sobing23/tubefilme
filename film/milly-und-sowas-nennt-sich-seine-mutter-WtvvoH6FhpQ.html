@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Milly... und sowas nennt sich seine Mutter (1989) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der überraschende Besuch von Milly (Marilyn Adams), die offensichtlich aus der geschlossenen Anstalt entlassen wurde, sorgt für Aufruhr. Ihr Sohn Bill (Joe…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/milly-und-sowas-nennt-sich-seine-mutter-WtvvoH6FhpQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Milly... und sowas nennt sich seine Mutter (1989)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

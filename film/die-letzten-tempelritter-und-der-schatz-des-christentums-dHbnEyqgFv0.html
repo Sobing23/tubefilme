@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die letzten Tempelritter und der Schatz des Christentums (2006) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein abenteuerlustiger Anthropologe versucht den &quot;Code&quot; zu entschlüsseln, der in Werken Leonardo Da Vincis versteckt sein soll. Doch die Suche nach dem viel…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-letzten-tempelritter-und-der-schatz-des-christentums-dHbnEyqgFv0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die letzten Tempelritter und der Schatz des Christentums (2006)">
@@ -45,9 +46,6 @@
       </a><a href="/film/detective-dee-und-das-geheimnis-der-phantomflammen-9b7VwuotnKM">
         <img src="https://image.tmdb.org/t/p/w500/vJ6yFHoFVBZccQVpyvZEjp6DVFQ.jpg" loading="lazy" alt="Detective Dee und das Geheimnis der Phantomflammen">
         <div>Detective Dee und das Geheimnis der Phantomflammen</div>
-      </a><a href="/film/auferstanden-m9RW2YJqMXI">
-        <img src="https://image.tmdb.org/t/p/w500/3mWSTlgea72EharkGAi71TWYtnk.jpg" loading="lazy" alt="Auferstanden">
-        <div>Auferstanden</div>
       </a><a href="/film/getaway-auf-der-flucht-DKWT2DkoInI">
         <img src="https://image.tmdb.org/t/p/w500/sl3yGfP4Ds6QPSf9pAbbupZ8vVQ.jpg" loading="lazy" alt="Getaway - Auf der Flucht">
         <div>Getaway - Auf der Flucht</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/the-tiger-legende-einer-jagd-KYDucgXTbdo">
         <img src="https://image.tmdb.org/t/p/w500/5kPoQuxpvuBWVebIsOrJ1gi9txQ.jpg" loading="lazy" alt="The Tiger - Legende einer Jagd">
         <div>The Tiger - Legende einer Jagd</div>
+      </a><a href="/film/mulan-legende-einer-kriegerin-6btgkyraU1s">
+        <img src="https://image.tmdb.org/t/p/w500/h5Y3jQ7Kxrz6zG82U9xyXpIfSEX.jpg" loading="lazy" alt="Mulan - Legende einer Kriegerin">
+        <div>Mulan - Legende einer Kriegerin</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

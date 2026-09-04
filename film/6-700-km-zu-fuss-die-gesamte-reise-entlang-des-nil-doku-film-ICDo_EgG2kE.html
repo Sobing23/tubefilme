@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>6.700 km zu Fuß: Die gesamte Reise entlang des Nil - Doku Film – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Dieser Doku Film begleitet den Entdecker Levison Wood entlang des Nil auf seinem beispiellosen Versuch, den gesamten Lauf des Nils von der Quelle in Ruanda…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/6-700-km-zu-fuss-die-gesamte-reise-entlang-des-nil-doku-film-ICDo_EgG2kE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="6.700 km zu Fuß: Die gesamte Reise entlang des Nil - Doku Film">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

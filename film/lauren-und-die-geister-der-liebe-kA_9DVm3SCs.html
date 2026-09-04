@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lauren und die Geister der Liebe (2021) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Als Lauren sich weigert, ihre Beziehung zu ihrem besten Freund Nate aus der &quot;Friend Zone&quot; herauszuführen, bekommt sie Besuch von den „Geistern“ ihrer vier…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/lauren-und-die-geister-der-liebe-kA_9DVm3SCs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Lauren und die Geister der Liebe (2021)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

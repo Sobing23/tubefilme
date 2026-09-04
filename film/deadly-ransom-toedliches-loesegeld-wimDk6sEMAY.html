@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Deadly Ransom - Tödliches Lösegeld (1998) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der Bänker Merlin und seine Tochter Jackie werden in Brasilien von einer Terrorgruppe entführt, die 50 Millionen Dollar Lösegeld verlangt. Das ruft Jackies…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/deadly-ransom-toedliches-loesegeld-wimDk6sEMAY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Deadly Ransom - Tödliches Lösegeld (1998)">
@@ -51,12 +52,12 @@
       </a><a href="/film/sie-leben-a74REkiUGWo">
         <img src="https://image.tmdb.org/t/p/w500/hcBTqhyR6L4Rd5XAAhKyBSs54dw.jpg" loading="lazy" alt="Sie leben!">
         <div>Sie leben!</div>
-      </a><a href="/film/diablo-mm1CmspikGw">
-        <img src="https://image.tmdb.org/t/p/w500/AhSPX1r0TRcFZ80SfHSwLkfgqCD.jpg" loading="lazy" alt="Diablo">
-        <div>Diablo</div>
       </a><a href="/film/jackie-chan-ist-nobody-WG2rfoUD2Ls">
         <img src="https://image.tmdb.org/t/p/w500/fx4xMPjwbbLKR3ktGo0WyPwMQbH.jpg" loading="lazy" alt="Jackie Chan ist Nobody">
         <div>Jackie Chan ist Nobody</div>
+      </a><a href="/film/the-operation-im-sumpf-der-korruption-rZpLTAIRVJo">
+        <img src="https://image.tmdb.org/t/p/w500/qL4sMcXGjg36NtiAbh3mDnjVOrn.jpg" loading="lazy" alt="The Operation - Im Sumpf der Korruption">
+        <div>The Operation - Im Sumpf der Korruption</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

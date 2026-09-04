@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fabio Montale Teil 3: Blutiges Finale (2001) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Montales Freundin Babette (Elena Sofia Ricci), eine mutige Journalistin, entkommt in Rom nur knapp einem tödlichen Attentat. Doch der Schrecken ist noch la…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/fabio-montale-teil-3-blutiges-finale-DdjydYBg5A0">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Fabio Montale Teil 3: Blutiges Finale (2001)">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

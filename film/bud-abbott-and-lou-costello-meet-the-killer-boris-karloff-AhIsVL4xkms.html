@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bud Abbott and Lou Costello Meet the Killer, Boris Karloff (1949) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Bud Abbott and Lou Costello Meet the Killer, Boris Karloff (1949) Komödie, Horror, Mystery — kostenlos und in voller Länge auf Deutsch ansehen.">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/bud-abbott-and-lou-costello-meet-the-killer-boris-karloff-AhIsVL4xkms">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Bud Abbott and Lou Costello Meet the Killer, Boris Karloff (1949)">
@@ -45,18 +46,18 @@
       </a><a href="/film/camp-wedding-eYGaO6qf2DE">
         <img src="https://image.tmdb.org/t/p/w500/aNKM96WUUb3AbzU5nFvCXi55G2K.jpg" loading="lazy" alt="Camp Wedding">
         <div>Camp Wedding</div>
-      </a><a href="/film/beverly-hills-bodysnatchers-37rqdJgDv5c">
+      </a><a href="/film/beverly-hills-bodysnatchers-KNnx-KvNrI4">
         <img src="https://image.tmdb.org/t/p/w500/wItbPhH30x83vWPvmIeydSzH6CJ.jpg" loading="lazy" alt="Beverly Hills Bodysnatchers">
         <div>Beverly Hills Bodysnatchers</div>
-      </a><a href="/film/jacob-s-ladder-in-der-gewalt-des-jenseits-Y90RMhMFKjI">
-        <img src="https://image.tmdb.org/t/p/w500/ufLcHIi1aXjjH8MediAMvnwDsVI.jpg" loading="lazy" alt="Jacob&#39;s Ladder - In der Gewalt des Jenseits">
-        <div>Jacob&#39;s Ladder - In der Gewalt des Jenseits</div>
       </a><a href="/film/das-geheimnis-von-marrowbone-JzFrgjqYl3M">
         <img src="https://image.tmdb.org/t/p/w500/snwmeKR5kUoCOsQn0yZ4kaHyZGj.jpg" loading="lazy" alt="Das Geheimnis von Marrowbone">
         <div>Das Geheimnis von Marrowbone</div>
       </a><a href="/film/in-ihrem-haus-fCwH4zu7g8w">
         <img src="https://image.tmdb.org/t/p/w500/9PgK7yDdfb2nar4fkMzLavWjYmH.jpg" loading="lazy" alt="In ihrem Haus">
         <div>In ihrem Haus</div>
+      </a><a href="/film/eine-leiche-zum-dessert-KqTtXwwm0Bs">
+        <img src="https://image.tmdb.org/t/p/w500/tJVegdM9HmNbn66qFi0kNubC3PC.jpg" loading="lazy" alt="Eine Leiche zum Dessert">
+        <div>Eine Leiche zum Dessert</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt (1970) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Bei einer Ausgrabung auf einer Insel wird eine uralte Statue gefunden und mit nach Osaka genommen. Durch das Entfernen des Relikts wird das Monster Jiggar…">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.tubefilme.de/film/gamera-gegen-jiggar-frankensteins-daemon-bedroht-die-welt-TwcGiBaQVk4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt (1970)">
@@ -21,11 +22,9 @@
   <h1>Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt</h1>
   <div class="sub">1970 · 1 Std 19 Min · Action, Abenteuer, Science Fiction, Familie, Fantasy · FSK 12 · ★ 5.8</div>
 
-  <div class="player" id="player" data-video="TwcGiBaQVk4">
-    <img src="https://image.tmdb.org/t/p/w500/4ruqFYJnTuc7axmCP3WFQFDN6YJ.jpg" alt="Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt" onerror="this.src='https://i.ytimg.com/vi/TwcGiBaQVk4/hqdefault.jpg'">
-    <div class="play" aria-label="Film abspielen">
-      <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
-    </div>
+  <div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>Dieser Film wurde beim anbietenden Kanal entfernt. Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>
 
   <div class="meta">
@@ -39,10 +38,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
-      </a><a href="/film/sindbads-7-reise-9iq99KI0avM">
+      <a href="/film/sindbads-7-reise-9iq99KI0avM">
         <img src="https://image.tmdb.org/t/p/w500/a2jwwnWkwxa3zfidmlCMxshmgIw.jpg" loading="lazy" alt="Sindbads 7. Reise">
         <div>Sindbads 7. Reise</div>
       </a><a href="/film/sindbads-gefaehrliche-abenteuer-e3B2ZJtUKSc">
@@ -57,6 +53,9 @@
       </a><a href="/film/krull-4l5sfuufTlo">
         <img src="https://image.tmdb.org/t/p/w500/sbeC57I9z21UHkc6pA7lJo6zH15.jpg" loading="lazy" alt="Krull">
         <div>Krull</div>
+      </a><a href="/film/tumak-der-herr-des-urwalds-hhFhi3uxVQM">
+        <img src="https://image.tmdb.org/t/p/w500/tYkS35d48Us08cY3yZVwuuP5ESs.jpg" loading="lazy" alt="Tumak, der Herr des Urwalds">
+        <div>Tumak, der Herr des Urwalds</div>
       </a>
     </div>
   </div>
@@ -68,7 +67,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

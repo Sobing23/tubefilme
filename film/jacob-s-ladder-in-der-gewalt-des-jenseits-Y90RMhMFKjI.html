@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jacob&#39;s Ladder - In der Gewalt des Jenseits (1990) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Grausame Visionen, die seinen Blick für die Realität trüben, quälen den New Yorker Postbeamten Jacob Singer. In der U-Bahn haben Fremde Hörner und Schwänze…">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.tubefilme.de/film/jacob-s-ladder-in-der-gewalt-des-jenseits-Y90RMhMFKjI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Jacob&#39;s Ladder - In der Gewalt des Jenseits (1990)">
@@ -21,11 +22,9 @@
   <h1>Jacob&#39;s Ladder - In der Gewalt des Jenseits</h1>
   <div class="sub">1990 · 1 Std 53 Min · Drama, Mystery, Horror · FSK 16 · ★ 7.4</div>
 
-  <div class="player" id="player" data-video="Y90RMhMFKjI">
-    <img src="https://image.tmdb.org/t/p/w500/ufLcHIi1aXjjH8MediAMvnwDsVI.jpg" alt="Jacob&#39;s Ladder - In der Gewalt des Jenseits" onerror="this.src='https://i.ytimg.com/vi/Y90RMhMFKjI/hqdefault.jpg'">
-    <div class="play" aria-label="Film abspielen">
-      <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
-    </div>
+  <div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>Dieser Film lässt sich hier nicht abspielen -- der Kanal erlaubt die Einbindung auf anderen Seiten nicht. Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>
 
   <div class="meta">
@@ -68,7 +67,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

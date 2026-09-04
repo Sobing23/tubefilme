@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jeder Im Gebäude Hatte Einen Grund Zu Töten Ganzer Film auf Deutsch - Action komplett – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein hochrangiger Regierungsbeamter wird tot in einem streng bewachten Bereich des Machtzentrums gefunden. Da kaum jemand Zugang zu diesem Ort hatte, muss d…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/jeder-im-gebaeude-hatte-einen-grund-zu-toeten-ganzer-film-au-Ejq9nB0Oj8M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Jeder Im Gebäude Hatte Einen Grund Zu Töten Ganzer Film auf Deutsch - Action komplett">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

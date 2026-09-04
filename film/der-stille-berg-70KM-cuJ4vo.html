@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der stille Berg (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="1914: Der österreichische Hotelierssohn Andreas Gruber lernt auf der Hochzeit seiner Schwester Elisabeth die junge Francesca Calzolari, eine Klosterschüler…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-stille-berg-70KM-cuJ4vo">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der stille Berg (2014)">
@@ -39,7 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/alexander-84xZ68Bs8EU">
+      <a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
       </a><a href="/film/das-toedliche-dreieck-aPI6e4vETBU">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

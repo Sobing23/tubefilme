@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Forget and Forgive (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Spannendes Thrillerdrama über eine toughe Cop-Frau und ihre Vergangenheit: Anna Walker (Elisabeth Röhm) entkommt nach einem Angriff nur knapp dem Tod. Als…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/forget-and-forgive-LyuKHp-K4YI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Forget and Forgive (2014)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

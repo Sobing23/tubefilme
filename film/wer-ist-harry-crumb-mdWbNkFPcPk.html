@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wer ist Harry Crumb? (1989) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der vollschlanke Privatdetektiv Harry Crumb hält sich für die genialste Spürnase seiner Zunft und besitzt einen Kostümfundus, der selbst Inspektor Clouseau…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wer-ist-harry-crumb-mdWbNkFPcPk">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wer ist Harry Crumb? (1989)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

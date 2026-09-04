@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wer steckt hinter der Entführung? - Ein fesselnder Psycho Thriller – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die Doku erkundet die schrecklichen Folgen eines Entführungsfalls, der auf einem Akt der Rache basiert. Eine verzweifelte Mutter muss sich einem perfiden P…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/wer-steckt-hinter-der-entfuehrung-ein-fesselnder-psycho-thri-Sv2suAkBVMY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Wer steckt hinter der Entführung? - Ein fesselnder Psycho Thriller">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

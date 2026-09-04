@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>STARBESETZUNG! Dieser Thriller lässt das Blut in den Adern gefrieren! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="In der ruhigen Kleinstadt Port Dundas lebt Hauptkommissarin Hazel Micallef (Susan Sarandon) ein zurückgezogenes Leben, das sie mit ihrer Mutter (Ellen Burs…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/starbesetzung-dieser-thriller-laesst-das-blut-in-den-adern-g-5-PLtevSEvM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="STARBESETZUNG! Dieser Thriller lässt das Blut in den Adern gefrieren!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

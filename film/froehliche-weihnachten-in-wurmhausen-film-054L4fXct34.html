@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fröhliche Weihnachten in Wurmhausen - Film (1984) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Wurmhausen ist eine sehr kleine Stadt, denn die meisten der Würmchen, die hier leben, sind kaum fünf Zentimeter groß. Weihnachten in Wurmhausen ist für all…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/froehliche-weihnachten-in-wurmhausen-film-054L4fXct34">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Fröhliche Weihnachten in Wurmhausen - Film (1984)">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

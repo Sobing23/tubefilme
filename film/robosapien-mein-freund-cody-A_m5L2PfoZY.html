@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Robosapien - Mein Freund Cody (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Allan Topher ist ein genialer Wissenschaftler, der für die Firma Kineteach Labs in New Orleans einen intelligenten, lernfähigen Roboter entwickelt, der für…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/robosapien-mein-freund-cody-A_m5L2PfoZY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Robosapien - Mein Freund Cody (2013)">
@@ -39,24 +40,24 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
-      </a><a href="/film/jimmy-neutron-der-mutige-erfinder-vPACeysX4ik">
+      <a href="/film/jimmy-neutron-der-mutige-erfinder-vPACeysX4ik">
         <img src="https://image.tmdb.org/t/p/w500/s7DzD1nHrMV7kZyXKM1sfXfpfOY.jpg" loading="lazy" alt="Jimmy Neutron - Der mutige Erfinder">
         <div>Jimmy Neutron - Der mutige Erfinder</div>
       </a><a href="/film/die-reise-zum-mittelpunkt-der-erde-WkSduJEx1Wg">
         <img src="https://image.tmdb.org/t/p/w500/uSjkRIk3EQf85PQ1srNmvvj2EFw.jpg" loading="lazy" alt="Die Reise zum Mittelpunkt der Erde">
         <div>Die Reise zum Mittelpunkt der Erde</div>
-      </a><a href="/film/gamera-gegen-jiggar-frankensteins-daemon-bedroht-die-welt-TwcGiBaQVk4">
-        <img src="https://image.tmdb.org/t/p/w500/4ruqFYJnTuc7axmCP3WFQFDN6YJ.jpg" loading="lazy" alt="Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt">
-        <div>Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt</div>
-      </a><a href="/film/gamera-gegen-viras-frankensteins-weltraummonster-greift-an-yI0Qkiv8fVQ">
-        <img src="https://image.tmdb.org/t/p/w500/8yfA44k2BNPt2eTsY0FpZ7K7RmU.jpg" loading="lazy" alt="Gamera gegen Viras - Frankensteins Weltraummonster greift an">
-        <div>Gamera gegen Viras - Frankensteins Weltraummonster greift an</div>
       </a><a href="/film/mensch-dave-qHGwMB5wuio">
         <img src="https://image.tmdb.org/t/p/w500/ig0lQ6H4uKuc1kqYgZNkZEyaD.jpg" loading="lazy" alt="Mensch, Dave!">
         <div>Mensch, Dave!</div>
+      </a><a href="/film/clockstoppers-7JLZ4xGUe28">
+        <img src="https://image.tmdb.org/t/p/w500/6XZJ58gStdLZV8uJyTRcA5bGNyi.jpg" loading="lazy" alt="Clockstoppers">
+        <div>Clockstoppers</div>
+      </a><a href="/film/jurassic-school-44f1X1Ge7IY">
+        <img src="https://image.tmdb.org/t/p/w500/5XLKstULpr4QYeZeFG041HYM7pw.jpg" loading="lazy" alt="Jurassic School">
+        <div>Jurassic School</div>
+      </a><a href="/film/magie-auf-4-pfoten-1ewBLQDvXVY">
+        <img src="https://image.tmdb.org/t/p/w500/d3bQijMX92mGzNU1ILVPnQ9oNDE.jpg" loading="lazy" alt="Magie auf 4 Pfoten">
+        <div>Magie auf 4 Pfoten</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

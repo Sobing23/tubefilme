@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>They Reach - Manche Tore sollte man nie öffnen (2020) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="1979: Jessica Daniels (Mary Madaline Roe) ist nicht wie andere Mädchen ihres Alters. Sie steht auf Wissenschaft und Technik und ist entschlossen, mit ihrem…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/they-reach-manche-tore-sollte-man-nie-oeffnen-lTb7kXkmPKI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="They Reach - Manche Tore sollte man nie öffnen (2020)">
@@ -54,9 +55,9 @@
       </a><a href="/film/edison-leo-vcPGuf7GqJw">
         <img src="https://image.tmdb.org/t/p/w500/oRWVakC4UfXAgdh7wrrugiwO4JC.jpg" loading="lazy" alt="Edison &amp; Leo">
         <div>Edison &amp; Leo</div>
-      </a><a href="/film/gamera-gegen-gaos-frankensteins-kampf-der-ungeheuer-h_wwLcUX1LU">
-        <img src="https://image.tmdb.org/t/p/w500/twoVm7irqE5pipU2h8vdwcUu9y.jpg" loading="lazy" alt="Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer">
-        <div>Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer</div>
+      </a><a href="/film/die-faehrte-des-grauens-5iyl6GG0eaQ">
+        <img src="https://image.tmdb.org/t/p/w500/3AaCEmdDCPB62Umv35KGpZvhRlS.jpg" loading="lazy" alt="Die Fährte des Grauens">
+        <div>Die Fährte des Grauens</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

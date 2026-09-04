@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Holodomor: Bittere Ernte (2017) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Sowjetunion 1932. Ukrainische Bauern leisten heftigen Widerstand gegen die Kollektivierung ihres Eigentums. Um ihren Willen zu brechen, zwingt Stalin die U…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/holodomor-bittere-ernte-Kl7IPpGhZL8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Holodomor: Bittere Ernte (2017)">
@@ -45,7 +46,7 @@
       </a><a href="/film/die-liebe-der-charlotte-gray-jIV5PmeD2cM">
         <img src="https://image.tmdb.org/t/p/w500/az2cuHNzmkTn6jXOQZKXVRHNnS2.jpg" loading="lazy" alt="Die Liebe der Charlotte Gray">
         <div>Die Liebe der Charlotte Gray</div>
-      </a><a href="/film/alexander-84xZ68Bs8EU">
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
       </a><a href="/film/mata-hari-agent-h-21-DF0yjteBhnE">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

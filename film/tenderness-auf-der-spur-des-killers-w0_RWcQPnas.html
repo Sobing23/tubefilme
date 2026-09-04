@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tenderness - Auf der Spur des Killers (2009) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Detective Cristofuoro ist überzeugt: Eric Poole ist ein Killer. Er hat mehr als einmal getötet und er wird es wieder tun. Doch der 18jährige hat seine Juge…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/tenderness-auf-der-spur-des-killers-w0_RWcQPnas">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Tenderness - Auf der Spur des Killers (2009)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

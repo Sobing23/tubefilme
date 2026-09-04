@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Killer mit der Todesmaske (1980) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein mysteriöser und schattenhafter Charakter, der als »Fledermaus ohne Flügel« bekannt ist verbreitet Angst und Schrecken. Mit seiner perfiden Raffinesse s…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/der-killer-mit-der-todesmaske-l4HUXRXHp8A">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Der Killer mit der Todesmaske (1980)">
@@ -54,9 +55,9 @@
       </a><a href="/film/die-todesgrotten-der-shaolin-nPyDVBflMaw">
         <img src="https://image.tmdb.org/t/p/w500/lk0Fm2zFhGySkQuFvsVWucmRwKj.jpg" loading="lazy" alt="Die Todesgrotten der Shaolin">
         <div>Die Todesgrotten der Shaolin</div>
-      </a><a href="/film/auferstanden-m9RW2YJqMXI">
-        <img src="https://image.tmdb.org/t/p/w500/3mWSTlgea72EharkGAi71TWYtnk.jpg" loading="lazy" alt="Auferstanden">
-        <div>Auferstanden</div>
+      </a><a href="/film/detective-dee-und-die-legende-der-vier-himmlischen-koenige-hm4_i4DcKpY">
+        <img src="https://image.tmdb.org/t/p/w500/angWmwBp9OftxKo08pJFuijUslt.jpg" loading="lazy" alt="Detective Dee und die Legende der vier himmlischen Könige">
+        <div>Detective Dee und die Legende der vier himmlischen Könige</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

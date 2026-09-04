@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Prince of Persia - Die Legende von Omar (2005) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Prince of Persia: Der 12-jährige Kamran findet heraus, dass einer seiner Ahnen Omar Khayyam war: ein großer Mathematiker, Astronom und Poet aus dem 11. Jah…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/prince-of-persia-die-legende-von-omar-4eTgwTrzK9c">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Prince of Persia - Die Legende von Omar (2005)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

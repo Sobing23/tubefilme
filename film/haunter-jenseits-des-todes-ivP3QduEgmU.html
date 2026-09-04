@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Haunter - Jenseits des Todes (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Was, wenn die Lebenden die Geister der Toten sind? Die junge Lisa erlebt mit ihrer Familie den gleichen Tag stets aufs Neue und sieht sich zudem mit geiste…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/haunter-jenseits-des-todes-ivP3QduEgmU">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Haunter - Jenseits des Todes (2013)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

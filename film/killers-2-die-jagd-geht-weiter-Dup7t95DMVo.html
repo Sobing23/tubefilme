@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Killers 2: Die Jagd geht weiter (2002) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Sie ist eine Gefangene, eingesperrt im Hochsicherheitstrakt einer Psychiatrie. Ihr bleibt keine andere Wahl, sie muss entkommen. Nicht nur die Dämonen in i…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/killers-2-die-jagd-geht-weiter-Dup7t95DMVo">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Killers 2: Die Jagd geht weiter (2002)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

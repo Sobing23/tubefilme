@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>You Kill Me (2007) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Frank Falenczyk arbeitet in Buffalo als Killer für die polnische Mafia. Obwohl er seinen Job exzellent beherrscht, wenn er nüchtern ist, läßt die Qualität…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/you-kill-me-F3a2irF07Aw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="You Kill Me (2007)">
@@ -48,15 +49,15 @@
       </a><a href="/film/11-14-GOxmGSjmKpQ">
         <img src="https://image.tmdb.org/t/p/w500/j7tPW4DKrwHZJkVZRSQVtZuGUMa.jpg" loading="lazy" alt="11:14">
         <div>11:14</div>
-      </a><a href="/film/u-turn-kein-weg-zurueck-rC7009U_PzQ">
-        <img src="https://image.tmdb.org/t/p/w500/bgZ0yN3Y7cLxWHTdPqQGjT0Y9hq.jpg" loading="lazy" alt="U-Turn - Kein Weg zurück">
-        <div>U-Turn - Kein Weg zurück</div>
       </a><a href="/film/der-lange-tod-des-stuntman-cameron-54EuRRUqZ4w">
         <img src="https://image.tmdb.org/t/p/w500/ej1ZpuoxAvnAIEQMZiT7GbFx6Lq.jpg" loading="lazy" alt="Der lange Tod des Stuntman Cameron">
         <div>Der lange Tod des Stuntman Cameron</div>
       </a><a href="/film/ich-liebe-dich-zu-tode-c8qmZpDzIFI">
         <img src="https://image.tmdb.org/t/p/w500/kpOYek8OuXpOgS1YJyVTqzpSxw2.jpg" loading="lazy" alt="Ich liebe dich zu Tode">
         <div>Ich liebe dich zu Tode</div>
+      </a><a href="/film/cheap-thrills-2OecriC96u8">
+        <img src="https://image.tmdb.org/t/p/w500/sHt3X8XEF4fSWgMR1cLu2ojuCrS.jpg" loading="lazy" alt="Cheap Thrills">
+        <div>Cheap Thrills</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

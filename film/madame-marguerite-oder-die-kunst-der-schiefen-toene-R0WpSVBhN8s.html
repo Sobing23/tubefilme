@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Madame Marguerite oder die Kunst der schiefen Töne (2015) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Zu Beginn der &quot;Goldenen Zwanziger&quot; des vergangenen Jahrhunderts widmet die reiche Marguerite Dumont ihr Leben der Musik. Umgeben von falschen Freunden und…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/madame-marguerite-oder-die-kunst-der-schiefen-toene-R0WpSVBhN8s">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Madame Marguerite oder die Kunst der schiefen Töne (2015)">
@@ -51,12 +52,12 @@
       </a><a href="/film/die-commitments-sBIBFs0f9cA">
         <img src="https://image.tmdb.org/t/p/w500/tzVRDThC29cPJYF9IG1D9IrvKs2.jpg" loading="lazy" alt="Die Commitments">
         <div>Die Commitments</div>
-      </a><a href="/film/mr-collins-zweiter-fruehling-t-Hn1z9g9lc">
+      </a><a href="/film/mr-collins-zweiter-fruehling-fGKSXaVlKHI">
         <img src="https://image.tmdb.org/t/p/w500/fgsUp03yITZDp6FLGKon4bX3zbO.jpg" loading="lazy" alt="Mr. Collins&#39; zweiter Frühling">
         <div>Mr. Collins&#39; zweiter Frühling</div>
-      </a><a href="/film/kinky-boots-man-n-traegt-stiefel-8b7XHWXFUTI">
-        <img src="https://image.tmdb.org/t/p/w500/1fVe2gErJ5LQwpESuJCgayYycjg.jpg" loading="lazy" alt="Kinky Boots - Man(n) trägt Stiefel">
-        <div>Kinky Boots - Man(n) trägt Stiefel</div>
+      </a><a href="/film/die-fabelhaften-baker-boys-FRNT9jxHYa8">
+        <img src="https://image.tmdb.org/t/p/w500/9qXEHuDj16XjGhyhMFhlfgn38e1.jpg" loading="lazy" alt="Die fabelhaften Baker Boys">
+        <div>Die fabelhaften Baker Boys</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

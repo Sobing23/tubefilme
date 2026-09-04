@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🎬 Du wirst diesen FILM nicht ausschalten, bis du ihn zu Ende gesehen hast! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;Out of Season&quot; ist eine atmosphärische Geschichte über einen Ort im Zwischenraum: wenn die Saison vorbei ist, die Straßen leerer werden und jedes Geräusch…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/du-wirst-diesen-film-nicht-ausschalten-bis-du-ihn-zu-ende-ge-zUi56QHbnXM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="🎬 Du wirst diesen FILM nicht ausschalten, bis du ihn zu Ende gesehen hast!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

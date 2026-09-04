@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Für immer Weihnachten - Und täglich grüßt das Rentier (2021) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Lacy (Claire Van der Linden) ist eine Frau, die ganz in ihrer Karriere aufgeht. Anlässe wie Weihnachten nerven sie eher, als dass sie in Feiertagsstimmung…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/fuer-immer-weihnachten-und-taeglich-gruesst-das-rentier-TrVWv6Ew5hA">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Für immer Weihnachten - Und täglich grüßt das Rentier (2021)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

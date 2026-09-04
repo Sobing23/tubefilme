@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Agonie (2016) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der 24-jährige Student Christian lernt die 19-jährige Sandra kennen und verliebt sich. Aus bürgerlichen Verhältnissen stammend, gibt er vor mehr zu sein, a…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/agonie-27uezucq8ag">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Agonie (2016)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

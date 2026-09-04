@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Invincible - Die Krieger des Lichts (2001) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Einst war Os der beste Kämpfer der Schattenmänner, die viel Übel auf die Erde gebracht haben und zur Zeit den Weltuntergang planen. Doch die magische weiße…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/invincible-die-krieger-des-lichts-wXnsndYLO2E">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Invincible - Die Krieger des Lichts (2001)">
@@ -54,9 +55,9 @@
       </a><a href="/film/jackie-chan-ist-nobody-WG2rfoUD2Ls">
         <img src="https://image.tmdb.org/t/p/w500/fx4xMPjwbbLKR3ktGo0WyPwMQbH.jpg" loading="lazy" alt="Jackie Chan ist Nobody">
         <div>Jackie Chan ist Nobody</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
+      </a><a href="/film/black-butler-ncWq_koJt9w">
+        <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
+        <div>Black Butler</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

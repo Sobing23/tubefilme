@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vince&#39;s American Hangover - Die Wilde Partynacht (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Vince (Matt Kawczynski) führt ein perfektes Leben. Er hat einen guten Job, jeder Schritt auf der Karriereleiter ist bis ins Detail durchgeplant und als Krö…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/vince-s-american-hangover-die-wilde-partynacht-JibcVcQtCiM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Vince&#39;s American Hangover - Die Wilde Partynacht (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kult-Komödie: 2 Tage Paris - Eifersucht, Ex-Freunde und jede Menge Chaos! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein New Yorker Paar (Julie Delpy und Adam Goldberg) macht auf dem Rückweg aus Italien einen zweitägigen Zwischenstopp in Paris. Doch die Stadt der Liebe wi…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/kult-komoedie-2-tage-paris-eifersucht-ex-freunde-und-jede-me-85cvcHETKCQ">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Kult-Komödie: 2 Tage Paris - Eifersucht, Ex-Freunde und jede Menge Chaos!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

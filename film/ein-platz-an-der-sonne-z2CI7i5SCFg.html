@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ein Platz an der Sonne (1951) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="George ist in ärmlichen Verhältnissen aufgewachsen. Durch seinen reichen Onkel lernt er die schöne Angela kennen und verliebt sich sofort in sie. Doch noch…">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.tubefilme.de/film/ein-platz-an-der-sonne-z2CI7i5SCFg">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ein Platz an der Sonne (1951)">
@@ -21,11 +22,9 @@
   <h1>Ein Platz an der Sonne</h1>
   <div class="sub">1951 · 1 Std 56 Min · Drama, Romantik, Krimi · FSK 12 · ★ 7.3</div>
 
-  <div class="player" id="player" data-video="z2CI7i5SCFg">
-    <img src="https://image.tmdb.org/t/p/w500/rRNgebOasRivOZCMUZxvryS9HBq.jpg" alt="Ein Platz an der Sonne" onerror="this.src='https://i.ytimg.com/vi/z2CI7i5SCFg/hqdefault.jpg'">
-    <div class="play" aria-label="Film abspielen">
-      <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
-    </div>
+  <div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>Dieser Film wurde beim anbietenden Kanal entfernt. Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>
 
   <div class="meta">
@@ -51,12 +50,12 @@
       </a><a href="/film/die-sensationsreporterin-ff79uYppJW0">
         <img src="https://image.tmdb.org/t/p/w500/xFCXjOtW4sTPx3n9IDXpNI6n1YL.jpg" loading="lazy" alt="Die Sensationsreporterin">
         <div>Die Sensationsreporterin</div>
-      </a><a href="/film/u-turn-kein-weg-zurueck-rC7009U_PzQ">
-        <img src="https://image.tmdb.org/t/p/w500/bgZ0yN3Y7cLxWHTdPqQGjT0Y9hq.jpg" loading="lazy" alt="U-Turn - Kein Weg zurück">
-        <div>U-Turn - Kein Weg zurück</div>
       </a><a href="/film/der-wilde-2CPa48nWsTY">
         <img src="https://image.tmdb.org/t/p/w500/mlSRP2xNSrrL2VxpyGa5th2n2h0.jpg" loading="lazy" alt="Der Wilde">
         <div>Der Wilde</div>
+      </a><a href="/film/greenfingers-harte-jungs-und-zarte-triebe-OeltpL9kd9M">
+        <img src="https://image.tmdb.org/t/p/w500/1AO271C23zMzAd3RCraycpIB5zV.jpg" loading="lazy" alt="Greenfingers - Harte Jungs und zarte Triebe">
+        <div>Greenfingers - Harte Jungs und zarte Triebe</div>
       </a>
     </div>
   </div>
@@ -68,7 +67,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

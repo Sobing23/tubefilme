@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Savage Love (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die beiden Gangsterkollegen Lukas und Marc haben einen ganz besonderen Abend geplant. Die beiden fahren zu einem abgelegenen Bordell in dem absolut jeder W…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/savage-love-cs3S55rZrQ8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Savage Love (2013)">
@@ -48,15 +49,15 @@
       </a><a href="/film/macumba-love-nSnYwarpGpE">
         <img src="https://image.tmdb.org/t/p/w500/aAJyPkGOnB0ZJI8C6b9eM3rWsoS.jpg" loading="lazy" alt="Macumba Love">
         <div>Macumba Love</div>
-      </a><a href="/film/jacob-s-ladder-in-der-gewalt-des-jenseits-Y90RMhMFKjI">
-        <img src="https://image.tmdb.org/t/p/w500/ufLcHIi1aXjjH8MediAMvnwDsVI.jpg" loading="lazy" alt="Jacob&#39;s Ladder - In der Gewalt des Jenseits">
-        <div>Jacob&#39;s Ladder - In der Gewalt des Jenseits</div>
       </a><a href="/film/das-geheimnis-von-marrowbone-JzFrgjqYl3M">
         <img src="https://image.tmdb.org/t/p/w500/snwmeKR5kUoCOsQn0yZ4kaHyZGj.jpg" loading="lazy" alt="Das Geheimnis von Marrowbone">
         <div>Das Geheimnis von Marrowbone</div>
       </a><a href="/film/sherlock-holmes-UoHvLpl1knc">
         <img src="https://image.tmdb.org/t/p/w500/e9kRhrDgboGcC5CIyXNtds4fLU0.jpg" loading="lazy" alt="Sherlock Holmes">
         <div>Sherlock Holmes</div>
+      </a><a href="/film/ein-toter-spielt-klavier-mH3P-Y85API">
+        <img src="https://image.tmdb.org/t/p/w500/v3ruaPi7oneTrqkQaFzpxW0htFP.jpg" loading="lazy" alt="Ein Toter spielt Klavier">
+        <div>Ein Toter spielt Klavier</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

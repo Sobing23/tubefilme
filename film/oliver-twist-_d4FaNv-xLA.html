@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Oliver Twist (1948) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Oliver Twist wächst als Waise im Armenhaus auf, wird von einem Sargmacher adoptiert, läuft nach einem Streit davon und kommt nach London, wo er an eine Ban…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/oliver-twist-_d4FaNv-xLA">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Oliver Twist (1948)">
@@ -45,18 +46,18 @@
       </a><a href="/film/el-infierno-kfosDV0YL9w">
         <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
         <div>El Infierno</div>
-      </a><a href="/film/paper-moon-dze2NBcNcI8">
-        <img src="https://image.tmdb.org/t/p/w500/3GHG0kTcBWHKdXjj3RdK8GjBCd6.jpg" loading="lazy" alt="Paper Moon">
-        <div>Paper Moon</div>
       </a><a href="/film/adaption-der-orchideen-dieb-JdFE_Xeafv4">
         <img src="https://image.tmdb.org/t/p/w500/y3FmHPqfRYvOUonGcdRuQ7Q7Rc3.jpg" loading="lazy" alt="Adaption - Der Orchideen-Dieb">
         <div>Adaption - Der Orchideen-Dieb</div>
       </a><a href="/film/therapie-fuer-wikinger-pHbtj3n42dU">
         <img src="https://image.tmdb.org/t/p/w500/ruVN5sZbvC7Slq5IoJ6wzxX6L0G.jpg" loading="lazy" alt="Therapie für Wikinger">
         <div>Therapie für Wikinger</div>
-      </a><a href="/film/das-schloss-meiner-mutter-LaKzGbnP0Qs">
-        <img src="https://image.tmdb.org/t/p/w500/ns1NIgQcWOZ2blKxG0b5v2sWDbG.jpg" loading="lazy" alt="Das Schloss meiner Mutter">
-        <div>Das Schloss meiner Mutter</div>
+      </a><a href="/film/little-gangster--C3tKiPn-qY">
+        <img src="https://image.tmdb.org/t/p/w500/5xwSkMqssy6oBvDOkj71TE0gk0p.jpg" loading="lazy" alt="Little Gangster">
+        <div>Little Gangster</div>
+      </a><a href="/film/black-butler-ncWq_koJt9w">
+        <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
+        <div>Black Butler</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

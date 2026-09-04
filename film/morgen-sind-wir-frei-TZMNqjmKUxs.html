@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Morgen sind wir frei (2019) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Im Februar 1979 fegt die „Islamische Revolution“ über den Iran. Die ostdeutsche Chemikerin Beate (37) folgt ihrem Ehemann Omid (44), einem in der DDR leben…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/morgen-sind-wir-frei-TZMNqjmKUxs">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Morgen sind wir frei (2019)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

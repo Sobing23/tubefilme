@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Heavenly Sword (2014) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Das himmlische Schwert wurde einst von einer göttlichen Macht geschaffen, um den bösen Kriegsherrn Raven Lord zu bekämpfen. Zwar blieb es nach dessen Niede…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/heavenly-sword-Jo4L3tSSjng">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Heavenly Sword (2014)">
@@ -42,9 +43,6 @@
       <a href="/film/der-reisende-T-2o1-sGWxk">
         <img src="https://image.tmdb.org/t/p/w500/csRDYeLEHYztjTiUDvOZo7IBlkS.jpg" loading="lazy" alt="Der Reisende">
         <div>Der Reisende</div>
-      </a><a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
       </a><a href="/film/black-butler-ncWq_koJt9w">
         <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
         <div>Black Butler</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/der-eisdrache-und-die-legende-der-blauen-blumen-TEx7BHVpTvo">
         <img src="https://image.tmdb.org/t/p/w500/ceiru0OQjYHTpZXiE7oN6ihfjse.jpg" loading="lazy" alt="Der Eisdrache und die Legende der blauen Blumen">
         <div>Der Eisdrache und die Legende der blauen Blumen</div>
+      </a><a href="/film/sindbads-gefaehrliche-abenteuer-e3B2ZJtUKSc">
+        <img src="https://image.tmdb.org/t/p/w500/laYMPwV1kL4AR2HxHYTcBaPUH8G.jpg" loading="lazy" alt="Sindbads gefährliche Abenteuer">
+        <div>Sindbads gefährliche Abenteuer</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

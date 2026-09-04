@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Buana - Die weißen Löwen von Timbawati (1981) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der amerikanische Professor Chris McBride, Experte für Wildtiere, zieht mit seiner Frau Jeannie und der gemeinsamen Tochter Laura in die afrikanische Wildn…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/buana-die-weissen-loewen-von-timbawati-sUjDzl3FGn4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Buana - Die weißen Löwen von Timbawati (1981)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

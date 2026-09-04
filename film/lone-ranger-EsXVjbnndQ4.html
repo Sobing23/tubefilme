@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lone Ranger (2013) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der kauzige Indianer Tonto erzählt seine ganz eigene Version der sagenhaften Geschichte des maskierten Lone Rangers: Die berühmten Texas-Ranger sorgen für…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/lone-ranger-EsXVjbnndQ4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Lone Ranger (2013)">
@@ -48,7 +49,7 @@
       </a><a href="/film/uncas-der-letzte-mohikaner-Jq0CmxcgSsM">
         <img src="https://image.tmdb.org/t/p/w500/2ibLAbhb06RmHOyZE3Cz8Es9rqp.jpg" loading="lazy" alt="Uncas, der letzte Mohikaner">
         <div>Uncas, der letzte Mohikaner</div>
-      </a><a href="/film/700-meilen-westwaerts-KUiVWp6JTks">
+      </a><a href="/film/700-meilen-westwaerts--onIQTt2mPQ">
         <img src="https://image.tmdb.org/t/p/w500/aGjj3Tz2C85UqrYMThiRHvgWvVq.jpg" loading="lazy" alt="700 Meilen westwärts">
         <div>700 Meilen westwärts</div>
       </a><a href="/film/sukiyaki-western-django-7NpEN-9yKr0">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

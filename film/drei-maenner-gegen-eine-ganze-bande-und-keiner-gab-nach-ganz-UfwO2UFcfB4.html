@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DREI MÄNNER GEGEN EINE GANZE BANDE – UND KEINER GAB NACH | Ganzer Film HD – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Für diesen Auftrag holt er zwei Männer zurück, die eigentlich mit ihrem alten Leben abgeschlossen hatten. Einer von ihnen war früher sein Partner, der ande…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/drei-maenner-gegen-eine-ganze-bande-und-keiner-gab-nach-ganz-UfwO2UFcfB4">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="DREI MÄNNER GEGEN EINE GANZE BANDE – UND KEINER GAB NACH | Ganzer Film HD">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

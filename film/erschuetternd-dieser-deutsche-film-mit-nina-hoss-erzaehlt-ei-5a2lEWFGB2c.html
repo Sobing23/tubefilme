@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Erschütternd! Dieser deutsche Film mit Nina Hoss erzählt eine wahre Geschichte! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Nach dem Ende des Zweiten Weltkriegs liegt Berlin in Trümmern. Eine Journalistin (Nina Hoss) hofft in der zerstörten Stadt auf die Rückkehr ihres Mannes, w…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/erschuetternd-dieser-deutsche-film-mit-nina-hoss-erzaehlt-ei-5a2lEWFGB2c">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Erschütternd! Dieser deutsche Film mit Nina Hoss erzählt eine wahre Geschichte!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

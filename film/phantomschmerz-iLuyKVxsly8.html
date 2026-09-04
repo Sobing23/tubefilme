@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Phantomschmerz (2018) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein krimineller Taxifahrer sucht den Schuldigen für den Tod seines kleinen Bruders und trifft dabei auf den behandelnden Chefarzt. Als dieser zwei Jahre na…">
+<meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.tubefilme.de/film/phantomschmerz-iLuyKVxsly8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Phantomschmerz (2018)">
@@ -21,11 +22,9 @@
   <h1>Phantomschmerz</h1>
   <div class="sub">2018 · 1 Std 38 Min · Drama, Thriller · ★ 4.9</div>
 
-  <div class="player" id="player" data-video="iLuyKVxsly8">
-    <img src="https://image.tmdb.org/t/p/w500/f0Inu3Mu3vYJyYh7tGX70kou3Vd.jpg" alt="Phantomschmerz" onerror="this.src='https://i.ytimg.com/vi/iLuyKVxsly8/hqdefault.jpg'">
-    <div class="play" aria-label="Film abspielen">
-      <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
-    </div>
+  <div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>Dieser Film ist in Deutschland nicht abrufbar. Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>
 
   <div class="meta">
@@ -68,7 +67,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

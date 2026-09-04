@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🎬 Schaut Diesen Film Nur Kurz - Ihr Werdet Ihn Bis Zum Ende Nicht Ausschalten! – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="&quot;Bad Influence&quot; erzählt eine fesselnde Geschichte über Vertrauen, Zusammenhalt und die Herausforderungen des Alltags. Im Mittelpunkt stehen persönliche Ent…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/schaut-diesen-film-nur-kurz-ihr-werdet-ihn-bis-zum-ende-nich-10NXZOoa_4M">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="🎬 Schaut Diesen Film Nur Kurz - Ihr Werdet Ihn Bis Zum Ende Nicht Ausschalten!">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

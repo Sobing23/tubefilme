@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ginger &amp; Rosa (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="London 1962: Die besten Freundinnen Ginger und Rosa rebellieren gegen Eltern und gesellschaftlichen Mief, schwänzen die Schule, ziehen mit Jungs um die Häu…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/ginger-rosa-ikdRJfq4oSI">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Ginger &amp; Rosa (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

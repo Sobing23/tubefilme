@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Is was, Kanzler? (1984) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Bonn, im Oktober 1982: Die deutsche Politszene stellt sich als Scheinwelt heraus, die von den USA aus gesteuert wird. &quot;Aus Sicherheitsgründen&quot; lässt die CI…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/is-was-kanzler-jEKefG6G69o">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Is was, Kanzler? (1984)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

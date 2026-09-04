@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Musketeer (2001) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Frankreich im 17.Jahrhundert. Der schwache König wird von Spanien und England bedrängt, doch die größte Gefahr für Land und Leute wohnt im Schloß gleich ne…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-musketeer-Ck2JaRDRjvE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The Musketeer (2001)">
@@ -48,7 +49,7 @@
       </a><a href="/film/das-toedliche-duo-7IUa_fCljU8">
         <img src="https://image.tmdb.org/t/p/w500/v8SVMeVfiJnF5hzhje3uazbvUn.jpg" loading="lazy" alt="Das tödliche Duo">
         <div>Das tödliche Duo</div>
-      </a><a href="/film/alexander-84xZ68Bs8EU">
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
       </a><a href="/film/im-mond-des-jaegers-AnGhA-YNxBs">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

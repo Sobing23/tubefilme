@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Er sollte sie töten… doch stattdessen verliebte er sich - Michael Madsen – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein erfahrener Auftragskiller nimmt einen scheinbar gewöhnlichen Auftrag an. Doch als sein Ziel ausgerechnet die Frau ist, in die er sich verliebt, gerät s…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/er-sollte-sie-toeten-doch-stattdessen-verliebte-er-sich-mich-KjphTwHDKoE">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Er sollte sie töten… doch stattdessen verliebte er sich - Michael Madsen">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

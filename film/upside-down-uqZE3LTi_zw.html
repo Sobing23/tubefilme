@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Upside Down (2012) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Stell dir vor, du schaust in den Himmel und siehst dort ganze Städte, Wälder und Ozeane mit einer eigenen Schwerkraft. Du siehst ein anderes Universum, gan…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/upside-down-uqZE3LTi_zw">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Upside Down (2012)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

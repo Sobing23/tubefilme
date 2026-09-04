@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Five Easy Pieces - Ein Mann sucht sich selbst (1970) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Robert Dupea, ein hochbegabter klassischer Pianist aus einer reichen Intellektuellenfamilie, hat es sich offenbar zur Aufgabe gemacht, sich von Job zu Job…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/five-easy-pieces-ein-mann-sucht-sich-selbst-v092idySKag">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Five Easy Pieces - Ein Mann sucht sich selbst (1970)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

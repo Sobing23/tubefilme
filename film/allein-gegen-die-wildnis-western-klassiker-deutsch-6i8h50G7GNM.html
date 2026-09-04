@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Allein gegen die Wildnis - Western Klassiker Deutsch – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Nach einem verheerenden Angriff bleiben nur wenige Überlebende eines Wagentrecks zurück. Ihre einzige Hoffnung? Ein Mann in Ketten – ein verurteilter Gefan…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/allein-gegen-die-wildnis-western-klassiker-deutsch-6i8h50G7GNM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Allein gegen die Wildnis - Western Klassiker Deutsch">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

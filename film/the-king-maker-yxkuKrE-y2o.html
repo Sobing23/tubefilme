@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The King Maker (2005) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="1547 reist der Portugiese Fernando De Gama nach Südostasien, um in die Dienst des Königreichs von Lanna zu treten. Ein Sturm versenkt sein Schiff, doch er…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/the-king-maker-yxkuKrE-y2o">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="The King Maker (2005)">
@@ -42,7 +43,7 @@
       <a href="/film/das-zeichen-des-zorro-WOCzwRT8jbs">
         <img src="https://image.tmdb.org/t/p/w500/1N1gSSJs9ULgSWUM0W7zCXSR2QK.jpg" loading="lazy" alt="Das Zeichen des Zorro">
         <div>Das Zeichen des Zorro</div>
-      </a><a href="/film/alexander-84xZ68Bs8EU">
+      </a><a href="/film/alexander-VfU_lD2Ngc0">
         <img src="https://image.tmdb.org/t/p/w500/yzHw5MziYQvTJDYRHCjAVHiaKF.jpg" loading="lazy" alt="Alexander">
         <div>Alexander</div>
       </a><a href="/film/im-mond-des-jaegers-AnGhA-YNxBs">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

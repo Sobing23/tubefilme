@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Die letzte Rechnung schreibt der Tod (1976) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Ein Raubüberfall auf ein großes Industriegebäude. Die Polizei umstellt das Haus. Zwei der Gangster können mit dem Geld fliehen, die beiden anderen erzwinge…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/die-letzte-rechnung-schreibt-der-tod-od6bSE3W1Ls">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Die letzte Rechnung schreibt der Tod (1976)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

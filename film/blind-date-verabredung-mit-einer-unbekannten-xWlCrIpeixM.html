@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blind Date - Verabredung mit einer Unbekannten (1987) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Da hat sich Walter Davis ja etwas schönes eingebrockt: Als sein Chef ihn zu einem Geschäftsessen mit einem japanischen Industriellen einlädt, ist eine Dame…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/blind-date-verabredung-mit-einer-unbekannten-xWlCrIpeixM">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Blind Date - Verabredung mit einer Unbekannten (1987)">
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

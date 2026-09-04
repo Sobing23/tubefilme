@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Magie auf 4 Pfoten (2015) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der junge Bobby Spade (Will Spencer), der an einer Angststörung leidet, entdeckt, dass sein Therapiehund Ozzy in Wirklichkeit 600 Jahre alt ist und einst e…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/magie-auf-4-pfoten-1ewBLQDvXVY">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Magie auf 4 Pfoten (2015)">
@@ -39,13 +40,7 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-the-brave-v5ozFH0uEpw">
-        <img src="https://image.tmdb.org/t/p/w500/jwUnOPupUQ5GoA58KiO88zRWVQP.jpg" loading="lazy" alt="Gamera the Brave">
-        <div>Gamera the Brave</div>
-      </a><a href="/film/gamera-gegen-jiggar-frankensteins-daemon-bedroht-die-welt-TwcGiBaQVk4">
-        <img src="https://image.tmdb.org/t/p/w500/4ruqFYJnTuc7axmCP3WFQFDN6YJ.jpg" loading="lazy" alt="Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt">
-        <div>Gamera gegen Jiggar - Frankensteins Dämon bedroht die Welt</div>
-      </a><a href="/film/cj7-nicht-von-dieser-welt-ZQDGUHWOOYQ">
+      <a href="/film/cj7-nicht-von-dieser-welt-ZQDGUHWOOYQ">
         <img src="https://image.tmdb.org/t/p/w500/nrZscPdpTfZJMwQh8MtzwXgFhnd.jpg" loading="lazy" alt="CJ7 - Nicht von dieser Welt">
         <div>CJ7 - Nicht von dieser Welt</div>
       </a><a href="/film/mothra-bedroht-die-welt-wJBsonHGJ3A">
@@ -57,6 +52,12 @@
       </a><a href="/film/sindbads-7-reise-9iq99KI0avM">
         <img src="https://image.tmdb.org/t/p/w500/a2jwwnWkwxa3zfidmlCMxshmgIw.jpg" loading="lazy" alt="Sindbads 7. Reise">
         <div>Sindbads 7. Reise</div>
+      </a><a href="/film/der-eisdrache-und-die-legende-der-blauen-blumen-TEx7BHVpTvo">
+        <img src="https://image.tmdb.org/t/p/w500/ceiru0OQjYHTpZXiE7oN6ihfjse.jpg" loading="lazy" alt="Der Eisdrache und die Legende der blauen Blumen">
+        <div>Der Eisdrache und die Legende der blauen Blumen</div>
+      </a><a href="/film/sindbads-gefaehrliche-abenteuer-e3B2ZJtUKSc">
+        <img src="https://image.tmdb.org/t/p/w500/laYMPwV1kL4AR2HxHYTcBaPUH8G.jpg" loading="lazy" alt="Sindbads gefährliche Abenteuer">
+        <div>Sindbads gefährliche Abenteuer</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

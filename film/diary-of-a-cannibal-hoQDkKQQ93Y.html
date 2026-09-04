@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Diary of a Cannibal (2007) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Die Begegnung einer jungen Frau und eines Mannes im Internet hat schwerwiegende Folgen. Als sie sich näher kennen lernen und beginnen eine Beziehung aufzub…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/diary-of-a-cannibal-hoQDkKQQ93Y">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="Diary of a Cannibal (2007)">
@@ -45,9 +46,6 @@
       </a><a href="/film/bram-stokers-dracula-0o_SpKvzxK4">
         <img src="https://image.tmdb.org/t/p/w500/5jkixIm1Tm2lRMkkZHW8Dr5envx.jpg" loading="lazy" alt="Bram Stokers Dracula">
         <div>Bram Stokers Dracula</div>
-      </a><a href="/film/ein-platz-an-der-sonne-z2CI7i5SCFg">
-        <img src="https://image.tmdb.org/t/p/w500/rRNgebOasRivOZCMUZxvryS9HBq.jpg" loading="lazy" alt="Ein Platz an der Sonne">
-        <div>Ein Platz an der Sonne</div>
       </a><a href="/film/dracula-die-auferstehung-vQWu4cjw2v8">
         <img src="https://image.tmdb.org/t/p/w500/pcNwDuieKeSxz6CyOqASdp9oqzt.jpg" loading="lazy" alt="Dracula - Die Auferstehung">
         <div>Dracula - Die Auferstehung</div>
@@ -57,6 +55,9 @@
       </a><a href="/film/jessy-die-treppe-in-den-tod-Ao-V5SN5cEA">
         <img src="https://image.tmdb.org/t/p/w500/vNTtbmk0V7PBJFy02HoX3mAfSGW.jpg" loading="lazy" alt="Jessy - Die Treppe in den Tod">
         <div>Jessy - Die Treppe in den Tod</div>
+      </a><a href="/film/black-butler-ncWq_koJt9w">
+        <img src="https://image.tmdb.org/t/p/w500/rFX3JgcDY9M1yjmqSAxGgQvkdYq.jpg" loading="lazy" alt="Black Butler">
+        <div>Black Butler</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

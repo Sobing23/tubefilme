@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>I Am Omega (2007) – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Nachdem nahezu die gesamte Menschheit von einer rätselhaften Seuche ausgerottet wurde, nimmt Ranchard als letzter Überlebender den Kampf gegen menschenfres…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/i-am-omega-I4cQp6UWNW8">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="I Am Omega (2007)">
@@ -39,16 +40,13 @@
   <div class="similar">
     <h2>Ähnliche Filme</h2>
     <div class="similar-grid">
-      <a href="/film/gamera-guardian-of-the-universe-AZWDlEHIi_4">
+      <a href="/film/gamera-guardian-of-the-universe-0eOtvOC324M">
         <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
         <div>Gamera - Guardian of the Universe</div>
       </a><a href="/film/gantz-spiel-um-dein-leben-h58XaBDhtW4">
         <img src="https://image.tmdb.org/t/p/w500/stFygUb6wC0NsqNS3VAIVbFo0t.jpg" loading="lazy" alt="Gantz - Spiel um dein Leben">
         <div>Gantz - Spiel um dein Leben</div>
-      </a><a href="/film/gamera-gegen-gaos-frankensteins-kampf-der-ungeheuer-h_wwLcUX1LU">
-        <img src="https://image.tmdb.org/t/p/w500/twoVm7irqE5pipU2h8vdwcUu9y.jpg" loading="lazy" alt="Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer">
-        <div>Gamera gegen Gaos - Frankensteins Kampf der Ungeheuer</div>
-      </a><a href="/film/gamera-frankensteins-monster-aus-dem-eis-kor6ghJ344I">
+      </a><a href="/film/gamera-frankensteins-monster-aus-dem-eis-uFL5GK7qzy4">
         <img src="https://image.tmdb.org/t/p/w500/xJxQNWm1KlgzIkWC1gqj66UVDwF.jpg" loading="lazy" alt="Gamera - Frankensteins Monster aus dem Eis">
         <div>Gamera - Frankensteins Monster aus dem Eis</div>
       </a><a href="/film/blood-the-last-vampire-og404CtPVMs">
@@ -57,6 +55,9 @@
       </a><a href="/film/ice-storm-eTXe1pcxKXA">
         <img src="https://image.tmdb.org/t/p/w500/m4JRqdjBnuKSuqK8syBNr8CyLlB.jpg" loading="lazy" alt="Ice Storm">
         <div>Ice Storm</div>
+      </a><a href="/film/megalodon-die-bestie-aus-der-tiefe-IX7eJKlE0MU">
+        <img src="https://image.tmdb.org/t/p/w500/mnEZd2HxhqJSsn71shEyHYIuTsK.jpg" loading="lazy" alt="Megalodon - Die Bestie aus der Tiefe">
+        <div>Megalodon - Die Bestie aus der Tiefe</div>
       </a>
     </div>
   </div>
@@ -68,7 +69,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';

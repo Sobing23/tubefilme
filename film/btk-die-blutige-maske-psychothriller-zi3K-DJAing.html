@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BTK: Die blutige Maske - Psychothriller – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="Der Psychothriller taucht ein in das beunruhigende Doppelleben eines der berüchtigtsten Serienkiller der amerikanischen Geschichte. Er war bekannt als BTK:…">
+
 <link rel="canonical" href="https://www.tubefilme.de/film/btk-die-blutige-maske-psychothriller-zi3K-DJAing">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="BTK: Die blutige Maske - Psychothriller">
@@ -45,7 +46,8 @@
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
