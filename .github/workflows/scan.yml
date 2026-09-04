@@ -54,6 +54,8 @@ jobs:
         run: node scripts/cache-images.js
 
       - name: Nicht abspielbare Filme reparieren
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/repair-unavailable.js
 
       - name: Seite bauen (Index, Filmseiten, Sitemap)
