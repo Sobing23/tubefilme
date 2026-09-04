@@ -70,7 +70,12 @@ function escapeHtml(s) {
 
 // Erzeugt aus dem Titel einen sprechenden Adressbestandteil. Die videoId
 // hängt hinten dran, damit gleichnamige Filme sich nicht überschreiben.
-function makeSlug(title, videoId) {
+// Erzeugt aus dem Titel einen lesbaren Adressbestandteil -- OHNE Video-ID.
+// Nur wenn derselbe Titel mehrfach vorkommt (89 von 5526 Filmen), bekommen
+// die weiteren eine laufende Nummer. So heißt es "/film/das-china-syndrom"
+// statt "/film/das-china-syndrom-2VwXectO6Rk": besser lesbar, besser zu
+// merken und ein deutlicheres Signal für Suchmaschinen.
+function makeSlug(title) {
   const basis = String(title || "film")
     .toLowerCase()
     .replace(/ß/g, "ss")
@@ -80,7 +85,15 @@ function makeSlug(title, videoId) {
     .replace(/^-+|-+$/g, "")
     .slice(0, 60)
     .replace(/-+$/g, "");
-  return `${basis || "film"}-${videoId}`;
+  return basis || "film";
+}
+
+// Adressen der ersten Fassung endeten auf die Video-ID. Die werden einmalig
+// neu vergeben -- jetzt, solange die Seiten erst wenige Stunden alt sind und
+// Suchmaschinen sie kaum erfasst haben. Später wäre der Wechsel deutlich
+// teurer.
+function istAlteAdresse(slug, videoId) {
+  return typeof slug === "string" && videoId && slug.endsWith(`-${videoId}`);
 }
 
 function jahrVon(m) {
@@ -275,12 +288,22 @@ async function main() {
   // Film eine andere Adresse -- bestehende Verweise liefen ins Leere und die
   // bei Suchmaschinen aufgebaute Sichtbarkeit wäre verloren. Genau das soll
   // der Austausch ja verhindern.
+  // Alte Adressen (mit angehängter Video-ID) einmalig verwerfen
+  filme.forEach((m) => {
+    if (istAlteAdresse(m.slug, m.videoId)) delete m.slug;
+  });
+
   const vergeben = new Set(filme.map((m) => m.slug).filter(Boolean));
   let neueSlugs = 0;
   filme.forEach((m) => {
     if (m.slug) return; // bereits vergeben, bleibt für immer
-    let slug = makeSlug(m.title, m.videoId);
-    while (vergeben.has(slug)) slug += "-2";
+    const basis = makeSlug(m.title);
+    let slug = basis;
+    let n = 1;
+    while (vergeben.has(slug)) {
+      n++;
+      slug = `${basis}-${n}`;
+    }
     vergeben.add(slug);
     m.slug = slug;
     neueSlugs++;
