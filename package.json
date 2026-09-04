@@ -16,6 +16,6 @@
     "cache-images": "node scripts/cache-images.js",
     "resolve": "node scripts/resolve-channel.js",
     "check-availability": "node scripts/check-availability.js",
-    "build": "node scripts/build-site.js"
+    "site": "node scripts/build-site.js"
   }
 }
