@@ -28,6 +28,45 @@
 
 import fs from "fs/promises";
 
+const API_KEY = process.env.YOUTUBE_API_KEY;
+
+// Prüft eine Liste von Video-IDs bei YouTube und gibt zurück, welche davon
+// tatsächlich abspielbar sind.
+//
+// Das ist zwingend nötig: Die Ersatz-Uploads stammen aus duplicates.json und
+// wurden nie auf Verfügbarkeit geprüft -- die Prüfung lief nur über die
+// Bibliothek. Ohne diesen Schritt wird ein totes Video womöglich durch ein
+// ebenso totes ersetzt, und der Fehler bleibt unbemerkt.
+async function pruefeAbspielbar(ids) {
+  const abspielbar = new Set();
+  if (!API_KEY || ids.length === 0) return abspielbar;
+
+  for (let i = 0; i < ids.length; i += 50) {
+    const stapel = ids.slice(i, i + 50);
+    const url =
+      `https://www.googleapis.com/youtube/v3/videos` +
+      `?part=status,contentDetails&id=${stapel.join(",")}&key=${API_KEY}`;
+    try {
+      const res = await fetch(url);
+      if (!res.ok) continue;
+      const json = await res.json();
+      for (const item of json.items || []) {
+        const st = item.status || {};
+        const reg = (item.contentDetails || {}).regionRestriction || {};
+        if (st.privacyStatus && st.privacyStatus !== "public") continue;
+        if (st.embeddable === false) continue;
+        if (Array.isArray(reg.blocked) && reg.blocked.includes("DE")) continue;
+        if (Array.isArray(reg.allowed) && !reg.allowed.includes("DE")) continue;
+        abspielbar.add(item.id);
+      }
+    } catch {
+      // Bei einem Fehler lieber keinen Ersatz einsetzen als einen ungeprüften
+    }
+    await new Promise((r) => setTimeout(r, 60));
+  }
+  return abspielbar;
+}
+
 const FILME_PATH = "data/filme.json";
 const UNAVAILABLE_PATH = "data/unavailable.json";
 const DUPLICATES_PATH = "data/duplicates.json";
@@ -58,6 +97,19 @@ async function main() {
   // auf einen Upload zeigen, der ohnehin schon als eigener Film geführt wird.
   const inBibliothek = new Set(filme.map((m) => m.videoId));
 
+  // Alle in Frage kommenden Ersatz-Uploads vorab sammeln und in einem Zug
+  // gegen YouTube prüfen -- ein einziger Aufruf je 50 Kandidaten.
+  const kandidatenIds = new Set();
+  for (const film of filme) {
+    if (!befundNachVideo.has(film.videoId) || !film.tmdbId) continue;
+    duplicates
+      .filter((d) => d.tmdbId === film.tmdbId && d.videoId !== film.videoId && !totIds.has(d.videoId) && !inBibliothek.has(d.videoId))
+      .forEach((d) => kandidatenIds.add(d.videoId));
+  }
+
+  const geprueftAbspielbar = await pruefeAbspielbar([...kandidatenIds]);
+  console.log(`Ersatzkandidaten geprüft: ${kandidatenIds.size}, davon abspielbar: ${geprueftAbspielbar.size}\n`);
+
   const reparaturen = [];
   const verbrauchteErsatzIds = new Set();
   let getauscht = 0;
@@ -86,7 +138,8 @@ async function main() {
             d.videoId !== film.videoId &&
             !totIds.has(d.videoId) &&
             !verbrauchteErsatzIds.has(d.videoId) &&
-            !inBibliothek.has(d.videoId)
+            !inBibliothek.has(d.videoId) &&
+            geprueftAbspielbar.has(d.videoId)
         )
       : null;
 
