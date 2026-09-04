@@ -46,6 +46,9 @@ h1{font-size:26px;margin:0 0 6px}
 .player .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.35)}
 .player .play svg{width:68px;height:48px}
 .player iframe{width:100%;height:100%;border:0;display:block}
+.hinweis{background:#2a1f1c;border:1px solid #5c3a33;border-radius:8px;padding:18px 20px}
+.hinweis strong{color:#e5533c;display:block;margin-bottom:6px}
+.hinweis p{margin:0;color:#ddd}
 .meta{margin-top:20px;color:#ddd}
 .meta p{margin:0 0 14px}
 .meta .label{color:var(--text-dim);font-size:13px}
@@ -150,6 +153,14 @@ function filmSeite(m, aehnliche) {
     m.voteAverage ? `★ ${Number(m.voteAverage).toFixed(1)}` : "",
   ].filter(Boolean).join(" · ");
 
+  const nichtVerfuegbar = m.verfuegbar === false;
+  const grundText = {
+    geloescht: "Dieser Film wurde beim anbietenden Kanal entfernt.",
+    gesperrt_de: "Dieser Film ist in Deutschland nicht abrufbar.",
+    nicht_einbettbar: "Dieser Film lässt sich hier nicht abspielen -- der Kanal erlaubt die Einbindung auf anderen Seiten nicht.",
+    nicht_oeffentlich: "Dieser Film ist beim anbietenden Kanal nicht mehr öffentlich.",
+  }[m.nichtVerfuegbarGrund] || "Dieser Film ist derzeit nicht abrufbar.";
+
   return `<!DOCTYPE html>
 <html lang="de">
 <head>
@@ -157,6 +168,7 @@ function filmSeite(m, aehnliche) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${escapeHtml(titelMitJahr)} – ganzer Film auf Deutsch | tubefilme</title>
 <meta name="description" content="${escapeHtml(beschreibung)}">
+${nichtVerfuegbar ? '<meta name="robots" content="noindex, follow">' : ""}
 <link rel="canonical" href="${url}">
 <meta property="og:type" content="video.movie">
 <meta property="og:title" content="${escapeHtml(titelMitJahr)}">
@@ -173,12 +185,15 @@ ${poster ? `<meta property="og:image" content="${escapeHtml(poster)}">` : ""}
   <h1>${escapeHtml(m.title)}</h1>
   <div class="sub">${escapeHtml(infoZeile)}</div>
 
-  <div class="player" id="player" data-video="${escapeHtml(m.videoId)}">
+  ${nichtVerfuegbar ? `<div class="hinweis">
+    <strong>Derzeit nicht abspielbar</strong>
+    <p>${escapeHtml(grundText)} Vielleicht ist einer der Filme unten etwas für dich.</p>
+  </div>` : `<div class="player" id="player" data-video="${escapeHtml(m.videoId)}">
     ${poster ? `<img src="${escapeHtml(poster)}" alt="${escapeHtml(m.title)}" onerror="this.src='https://i.ytimg.com/vi/${escapeHtml(m.videoId)}/hqdefault.jpg'">` : ""}
     <div class="play" aria-label="Film abspielen">
       <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
     </div>
-  </div>
+  </div>`}
 
   <div class="meta">
     <p>${escapeHtml(m.overview || "Für diesen Film liegt keine Beschreibung vor.")}</p>
@@ -205,7 +220,8 @@ ${poster ? `<meta property="og:image" content="${escapeHtml(poster)}">` : ""}
 // Das Video wird erst auf Klick geladen. Ein sofort eingebundener Player
 // würde die Seite deutlich verlangsamen und Daten laden, die die meisten
 // Besucher gar nicht abrufen.
-document.getElementById("player").addEventListener("click", function () {
+var playerEl = document.getElementById("player");
+if (playerEl) playerEl.addEventListener("click", function () {
   var id = this.dataset.video;
   this.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id +
     '?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
@@ -229,7 +245,7 @@ function findeAehnliche(film, alle, anzahl) {
   const genres = new Set(film.genreIds || []);
   if (genres.size === 0) return [];
   return alle
-    .filter((a) => a.videoId !== film.videoId)
+    .filter((a) => a.videoId !== film.videoId && a.verfuegbar !== false)
     .map((a) => ({ a, gemeinsam: (a.genreIds || []).filter((g) => genres.has(g)).length }))
     .filter((x) => x.gemeinsam > 0)
     .sort((x, y) => y.gemeinsam - x.gemeinsam || (y.a.voteAverage || 0) - (x.a.voteAverage || 0))
@@ -251,14 +267,29 @@ async function schreibeWennGeaendert(pfad, inhalt) {
 async function main() {
   const filme = JSON.parse(await fs.readFile(FILME_PATH, "utf-8"));
 
-  // Adressbestandteil je Film festlegen und Doppelungen ausschließen
-  const vergeben = new Set();
+  // Adressbestandteil je Film festlegen -- EINMALIG und danach unveränderlich.
+  //
+  // Der Slug wird in data/filme.json gespeichert und nie wieder neu berechnet.
+  // Grund: Wird ein totes Video durch den Upload eines anderen Kanals ersetzt,
+  // ändert sich die videoId. Würde die Adresse daraus neu gebildet, bekäme der
+  // Film eine andere Adresse -- bestehende Verweise liefen ins Leere und die
+  // bei Suchmaschinen aufgebaute Sichtbarkeit wäre verloren. Genau das soll
+  // der Austausch ja verhindern.
+  const vergeben = new Set(filme.map((m) => m.slug).filter(Boolean));
+  let neueSlugs = 0;
   filme.forEach((m) => {
+    if (m.slug) return; // bereits vergeben, bleibt für immer
     let slug = makeSlug(m.title, m.videoId);
     while (vergeben.has(slug)) slug += "-2";
     vergeben.add(slug);
     m.slug = slug;
+    neueSlugs++;
   });
+
+  // Neu vergebene Adressen zurückschreiben, damit sie dauerhaft feststehen
+  if (neueSlugs > 0) {
+    await fs.writeFile(FILME_PATH, JSON.stringify(filme, null, 2), "utf-8");
+  }
 
   await fs.mkdir(FILM_DIR, { recursive: true });
 
@@ -267,7 +298,11 @@ async function main() {
   await schreibeWennGeaendert(path.join(FILM_DIR, "style.css"), SEITEN_CSS);
 
   // 1. Schlanker Index fürs Raster
-  const index = filme.map((m) => ({
+  // Nicht verfügbare Filme erscheinen nicht mehr im Kachelraster -- niemand
+  // soll auf einen Film klicken, der ohnehin nicht abspielbar ist. Ihre
+  // Seite bleibt aber bestehen, damit Verweise von außen nicht ins Leere
+  // laufen.
+  const index = filme.filter((m) => m.verfuegbar !== false).map((m) => ({
     v: m.videoId,
     s: m.slug,
     t: m.title,
@@ -317,6 +352,7 @@ async function main() {
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     `  <url><loc>${BASE_URL}/</loc><lastmod>${heute}</lastmod><priority>1.0</priority></url>\n` +
     filme
+      .filter((m) => m.verfuegbar !== false)
       .map((m) => `  <url><loc>${BASE_URL}/${FILM_DIR}/${m.slug}</loc><lastmod>${heute}</lastmod><priority>0.7</priority></url>`)
       .join("\n") +
     `\n</urlset>\n`;
@@ -324,11 +360,13 @@ async function main() {
   await schreibeWennGeaendert("robots.txt", `User-agent: *\nAllow: /\nDisallow: /review\n\nSitemap: ${BASE_URL}/sitemap.xml\n`);
 
   const groesse = (JSON.stringify(index).length / 1048576).toFixed(2);
+  console.log(`Adressen neu vergeben:   ${neueSlugs}`);
   console.log(`Index geschrieben:      ${index.length} Filme, ${groesse} MB -> ${INDEX_PATH}`);
   console.log(`Filmseiten neu:         ${neu}`);
   console.log(`Filmseiten aktualisiert:${geaendert}`);
   console.log(`Verwaiste entfernt:     ${entfernt}`);
-  console.log(`Sitemap:                ${filme.length + 1} Adressen`);
+  console.log(`Sitemap:                ${index.length + 1} Adressen`);
+  console.log(`Nicht verfügbar (ohne Raster/Sitemap): ${filme.length - index.length}`);
 }
 
 main();
