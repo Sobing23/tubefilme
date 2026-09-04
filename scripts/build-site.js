@@ -88,12 +88,19 @@ function makeSlug(title) {
   return basis || "film";
 }
 
-// Adressen der ersten Fassung endeten auf die Video-ID. Die werden einmalig
-// neu vergeben -- jetzt, solange die Seiten erst wenige Stunden alt sind und
-// Suchmaschinen sie kaum erfasst haben. Später wäre der Wechsel deutlich
-// teurer.
-function istAlteAdresse(slug, videoId) {
-  return typeof slug === "string" && videoId && slug.endsWith(`-${videoId}`);
+// Erkennt Adressen aus der ersten Fassung, die noch auf eine Video-ID enden.
+//
+// Bewusst NICHT über einen Vergleich mit der aktuellen Video-ID: Wurde ein
+// totes Video zuvor im selben Lauf gegen einen anderen Upload getauscht,
+// steht in der Adresse noch die ALTE ID -- der Vergleich ginge dann ins
+// Leere. Stattdessen wird geprüft, ob die Adresse dem sauberen Titel
+// entspricht (oder dessen nummerierter Variante). Tut sie das nicht, stammt
+// sie aus der alten Vergabe und wird neu erzeugt.
+function istAlteAdresse(slug, titel) {
+  if (typeof slug !== "string" || !slug) return false;
+  const basis = makeSlug(titel);
+  if (slug === basis) return false;
+  return !new RegExp(`^${basis.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}-\\d+$`).test(slug);
 }
 
 function jahrVon(m) {
@@ -290,7 +297,7 @@ async function main() {
   // der Austausch ja verhindern.
   // Alte Adressen (mit angehängter Video-ID) einmalig verwerfen
   filme.forEach((m) => {
-    if (istAlteAdresse(m.slug, m.videoId)) delete m.slug;
+    if (istAlteAdresse(m.slug, m.title)) delete m.slug;
   });
 
   const vergeben = new Set(filme.map((m) => m.slug).filter(Boolean));
