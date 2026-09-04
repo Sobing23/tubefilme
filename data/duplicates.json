@@ -13900,14 +13900,6 @@
     "bereitsVorhandenAufKanal": "Netzkino"
   },
   {
-    "videoId": "3YGYDe5hkOI",
-    "youtubeTitle": "Zurück im Sommer | RYAN REYNOLDS | Feature Film",
-    "channelName": "Bigtime",
-    "tmdbId": 7353,
-    "title": "Zurück im Sommer",
-    "bereitsVorhandenAufKanal": "Bigtime"
-  },
-  {
     "videoId": "VLAE14ULQ0o",
     "youtubeTitle": "24 Stunden Angst | Kevin Bacon | Actionfilm",
     "channelName": "Bigtime",
@@ -17450,14 +17442,6 @@
     "tmdbId": 34812,
     "title": "Krieg der Welten 3",
     "bereitsVorhandenAufKanal": "CiNENET Deutschland"
-  },
-  {
-    "videoId": "MmpJ3FFQN2k",
-    "youtubeTitle": "Guardian Of The Universe",
-    "channelName": "CiNENET Deutschland",
-    "tmdbId": 54433,
-    "title": "Gamera - Guardian of the Universe",
-    "bereitsVorhandenAufKanal": "Netzkino"
   },
   {
     "videoId": "DGm1YFJvjTE",
@@ -28244,14 +28228,6 @@
     "bereitsVorhandenAufKanal": "Netzkino"
   },
   {
-    "videoId": "-cFje4UfjcY",
-    "youtubeTitle": "Thunderstorm (2011) [Fantasy] [Action] ⚡ Der Erbe Thors erhebt sich ⚔️ | Ganzer Film auf Deutsch",
-    "channelName": "CiNENET Deutschland",
-    "tmdbId": 103696,
-    "title": "Thunderstorm - Die Legende Thor lebt weiter",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
     "videoId": "KWfYSA7f5Mc",
     "youtubeTitle": "War Devils (1969) [Kriegsfilm] [Abenteuer] Feinde in der Hölle der Wüste 💣 | Ganzer Film auf Deutsch",
     "channelName": "CiNENET Deutschland",
@@ -35732,14 +35708,6 @@
     "bereitsVorhandenAufKanal": "Netzkino"
   },
   {
-    "videoId": "mpACEcUJ0BY",
-    "youtubeTitle": "While She Was Out | 2008 | Thriller | Ganzer Film auf Deutsch",
-    "channelName": "Bigtime",
-    "tmdbId": 15749,
-    "title": "Stille Nacht, mörderische Nacht",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
     "videoId": "7RxD0KoGKJk",
     "youtubeTitle": "Valley of Love - Tal der Liebe (TOLLER FILM mit GERARD DEPARDIEU, Drama Filme auf Deutsch)",
     "channelName": "FABELLA",
@@ -35898,14 +35866,6 @@
     "tmdbId": 514277,
     "title": "Mara",
     "bereitsVorhandenAufKanal": "Free Films Action"
-  },
-  {
-    "videoId": "uZgDFkw1MHQ",
-    "youtubeTitle": "Das China Syndrom | kompletter Film | Deutsch",
-    "channelName": "Sony Pics at Home DE",
-    "tmdbId": 988,
-    "title": "Das China-Syndrom",
-    "bereitsVorhandenAufKanal": "Netzkino"
   },
   {
     "videoId": "6I5-oGM1WUE",
@@ -36954,5 +36914,45 @@
     "tmdbId": 10236,
     "title": "Cherie Bitter",
     "bereitsVorhandenAufKanal": "Comfy Movies"
+  },
+  {
+    "videoId": "2VwXectO6Rk",
+    "youtubeTitle": "Das China-Syndrom",
+    "channelName": "Dzango",
+    "tmdbId": null,
+    "title": "Das China-Syndrom",
+    "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
+  },
+  {
+    "videoId": "WhmTc3YgDXY",
+    "youtubeTitle": "Thunderstorm - Die Legende Thor lebt weiter",
+    "channelName": "Netzkino",
+    "tmdbId": null,
+    "title": "Thunderstorm - Die Legende Thor lebt weiter",
+    "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
+  },
+  {
+    "videoId": "0eOtvOC324M",
+    "youtubeTitle": "Gamera - Guardian of the Universe",
+    "channelName": "Netzkino",
+    "tmdbId": null,
+    "title": "Gamera - Guardian of the Universe",
+    "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
+  },
+  {
+    "videoId": "PaZaiRSTUVM",
+    "youtubeTitle": "Stille Nacht, mörderische Nacht",
+    "channelName": "Moviedome",
+    "tmdbId": null,
+    "title": "Stille Nacht, mörderische Nacht",
+    "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
+  },
+  {
+    "videoId": "b24zBuOITJ4",
+    "youtubeTitle": "Zurück im Sommer",
+    "channelName": "Bigtime",
+    "tmdbId": null,
+    "title": "Zurück im Sommer",
+    "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
   }
 ]
