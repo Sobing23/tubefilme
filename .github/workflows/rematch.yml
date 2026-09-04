@@ -48,6 +48,9 @@ jobs:
       - name: Cover-Bilder cachen
         run: node scripts/cache-images.js
 
+      - name: Nicht abspielbare Filme reparieren
+        run: node scripts/repair-unavailable.js
+
       - name: Seite bauen (Index, Filmseiten, Sitemap)
         run: node scripts/build-site.js
 
