@@ -95387,9 +95387,9 @@
     "slug": "operation-osaka"
   },
   {
-    "videoId": "gWxDOKK8zNI",
-    "youtubeTitle": "The Terror Within (1989) [Horror] | ganzer Film mit George Kennedy (deutsch) ᴴᴰ",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/gWxDOKK8zNI/hqdefault.jpg",
+    "videoId": "9SrE5j5V1Oc",
+    "youtubeTitle": "The Terror Within (1989) [Science-Fiction] [Horror] | Mit George Kennedy | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9SrE5j5V1Oc/hqdefault.jpg",
     "duration": "PT1H27M40S",
     "publishedAt": "2024-08-18T16:00:37Z",
     "channelName": "CiNENET Deutschland",
@@ -95424,8 +95424,6 @@
     ],
     "fsk": "18",
     "posterLocal": "img/posters/29345.jpg",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
     "slug": "good-night-hell"
   },
   {
@@ -206368,5 +206366,381 @@
     "fsk": "16",
     "posterLocal": "img/posters/9997.jpg",
     "slug": "gabriel-die-rache-ist-mein"
+  },
+  {
+    "videoId": "0NVeQBAU0LQ",
+    "youtubeTitle": "Neverland | Teil 2 | ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0NVeQBAU0LQ/hqdefault.jpg",
+    "duration": "PT1H30M8S",
+    "publishedAt": "2026-01-09T23:00:06Z",
+    "channelName": "Free Films Emotion",
+    "channelId": "UC6DTsN_DKPGsPVckgfzYznw",
+    "tmdbId": 1020414,
+    "title": "Peter Pan's Neverland Nightmare",
+    "originalTitle": "Peter Pan's Neverland Nightmare",
+    "overview": "In dieser Version von J.M. Barries Originalgeschichte terrorisiert Peter eine kleine Stadt und entführt deren Kinder. „Peter Pan’s Neverland Nightmare“ macht keine halben Sachen.\r Wendy Darling macht sich auf den Weg, um ihren Bruder Michael aus \"den Klauen des bösen Peter Pan\" zu retten. Unterwegs trifft sie Tinkerbell, die Heroin nimmt, weil sie glaubt, es sei Feenstaub.",
+    "releaseDate": "2025-01-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zFrv7hYLxcRKGPEvEqGHdeiK0BG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/w3R8LTPU3ocl6oXuNkXmqw5bIFi.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27,
+      53,
+      14
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 90 (Suchbegriff: \"Neverland\")",
+    "cast": [
+      "Megan Placito",
+      "Martin Portlock",
+      "Kit Green",
+      "Peter DeSouza-Feighoney",
+      "Teresa Banham"
+    ],
+    "director": [
+      "Scott Chambers"
+    ],
+    "writer": [
+      "Scott Chambers"
+    ],
+    "fsk": "18",
+    "posterLocal": "img/posters/1020414.jpg",
+    "slug": "peter-pan-s-neverland-nightmare"
+  },
+  {
+    "videoId": "QNMjd4k8jYI",
+    "youtubeTitle": "Black Belt (ACTION DRAMA ganzer Film Deutsch, Actionfilme in voller Länge, Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/QNMjd4k8jYI/hqdefault.jpg",
+    "duration": "PT1H31M36S",
+    "publishedAt": "2026-09-05T17:00:01Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 20225,
+    "title": "Black Belt",
+    "originalTitle": "黒帯",
+    "overview": "Mitte der 30er Jahre erlässt das japanische Militär ein Edikt, nach dem alle Kampfsportschulen der Armee untergeordnet werden. In Kyushu lehrt man Karate allein als Meditation und Verteidigungstechnik, weshalb die Schule geschlossen wird. Getrennte Wege gehen ab sofort deren Musterschüler: Während Giryu sich einfachen Bauern anschließt, avanciert Taikan zum obersten Militärausbilder und Günstling eines kriminellen Obristen. Als der nach Giryus Bauern greift, wird ein Duell der ehemaligen Freunde unvermeidlich. Mit “Black Belt” liefert Regisseur Shunichi Nagasaki (“Shikoku”) einen spektakulären und actionreichen Spielfilm für alle begeisterten Martial-Arts-Fans. Japanische Karate-Meister und Träger des schwarzen Gürtels zeigen ihre unvergleichliche Kampfkunst in realer, authentischer und unübertroffen präziser Darbietung.",
+    "releaseDate": "2007-10-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bU0SXpRVVssydUUXQSNwFM5aiR2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rRC1g3a4xRhz2EluSDUi1J7ZNoP.jpg",
+    "voteAverage": 6.738,
+    "genreIds": [
+      28,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "八木明人",
+      "中達也",
+      "神尾佑",
+      "深澤嵐",
+      "白竜"
+    ],
+    "director": [
+      "長崎俊一"
+    ],
+    "writer": [
+      "Jōji Iida"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/20225.jpg",
+    "slug": "black-belt"
+  },
+  {
+    "videoId": "sNoiWN804F8",
+    "youtubeTitle": "25 km/h (2018) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sNoiWN804F8/hqdefault.jpg",
+    "duration": "PT1H54M57S",
+    "publishedAt": "2026-09-05T14:00:13Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 480736,
+    "title": "25 km/h",
+    "originalTitle": "25 km/h",
+    "overview": "Die Brüder Christian und Georg haben sich seit 30 Jahren nicht gesehen und treffen sich ausgerechnet auf der Beerdigung ihres Vaters wieder. Zunächst herrscht zwischen den beiden ungleichen Geschwistern noch Funkstille, Tischler Georg hat den gemeinsamen Vater bis zu dessen Tod gepflegt, Manager Christian war hingegen seit Jahren nicht mehr in der Heimat. Doch auf dem Leichenschmaus kommt dann Alkohol ins Spiel und so beschließen die beiden Ü-40er kurzerhand, die Mofa-Tour quer durch Deutschland nachzuholen, die sie eigentlich schon als Jugendliche unternehmen wollten. Vom Schwarzwald bis nach Rügen soll die Reise gehen und dabei nie schneller als 25 km/h – dafür haben die entfremdeten Brüder auf diese Art umso mehr Gelegenheit für jede Menge Abenteuer und umso mehr Zeit, sich wieder näherzukommen.",
+    "releaseDate": "2018-10-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gux7726i4VdKCGZFyeN6lL4Rvr3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/UVAmU63ORkBRVtUuT3HK0EP1BU.jpg",
+    "voteAverage": 6.852,
+    "genreIds": [
+      35,
+      18,
+      12,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Lars Eidinger",
+      "Bjarne Mädel",
+      "Sandra Hüller",
+      "Franka Potente",
+      "Alexandra Maria Lara"
+    ],
+    "director": [
+      "Markus Goller"
+    ],
+    "writer": [
+      "Oliver Ziegenbalg"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/480736.jpg",
+    "slug": "25-km-h"
+  },
+  {
+    "videoId": "cHrhB5jPpc8",
+    "youtubeTitle": "Codename: Der Löwe | Dany Boon im Kampf gegen eine tödliche Verschwörung | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cHrhB5jPpc8/hqdefault.jpg",
+    "duration": "PT1H31M49S",
+    "publishedAt": "2026-09-05T07:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 589970,
+    "title": "Codename: Der Löwe",
+    "originalTitle": "Le Lion",
+    "overview": "Milan ist ein top ausgebildeter, internationaler Agent. Das zumindest erzählt er seinem Arzt Romain. Denn Leo sitzt in der geschlossenen Psychiatrie. Romain ist von den überzeugenden Lügengeschichten fasziniert, bis seine Verlobte entführt wird. Wie von Leo prophezeit. Gemeinsam fliehen sie aus dem Krankenhaus, denn nur \"Der Löwe\" kann Romain helfen. Falls es diesen überhaupt gibt.",
+    "releaseDate": "2020-01-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/amOGqyqSxtI2CEIbe6h0jjCS2Rp.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fpX67PBBlozc2UOf2LBB5IiQHT8.jpg",
+    "voteAverage": 5.407,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Dany Boon",
+      "Philippe Katerine",
+      "Anne Serra",
+      "Samuel Jouy",
+      "Sophie Verbeeck"
+    ],
+    "director": [
+      "Ludovic Colbeau-Justin"
+    ],
+    "writer": [
+      "Alexandre Coquelle",
+      "Matthieu Le Naour"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/589970.jpg",
+    "slug": "codename-der-loewe"
+  },
+  {
+    "videoId": "Pnu-pTfcJqQ",
+    "youtubeTitle": "FATAL SECRETS – SCHULD UND VERGELTUNG | Weiblichen Rache-Thriller | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Pnu-pTfcJqQ/hqdefault.jpg",
+    "duration": "PT1H23M57S",
+    "publishedAt": "2026-09-05T15:30:25Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 102737,
+    "title": "Fatal Secrets - Schuld und Vergeltung",
+    "originalTitle": "Fatal Secrets",
+    "overview": "Nach einem Date erlebt die geschiedene Julia (Dina Meyer) einen Albtraum, als sie von Scott (Vincent Spano) vergewaltigt wird. Sie findet heraus, dass der aalglatte Macho das nicht zum ersten Mal getan hat. Zusammen mit ihren Freundinnen startet sie eine Rache-Aktion, die jedoch eine dramatische Wendung nimmt.",
+    "releaseDate": "2009-01-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7ToVaPqRR8m94kXwXWY0KZgJSMx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/digYQnLAsMJekw6vlChD5gqSnSH.jpg",
+    "voteAverage": 3.8,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"FATAL SECRETS – SCHULD UND VERGELTUNG\")",
+    "cast": [
+      "Dina Meyer",
+      "Vincent Spano",
+      "Lela Rochon",
+      "Lea Thompson",
+      "Ed Begley Jr."
+    ],
+    "director": [
+      "Meir Sharony"
+    ],
+    "writer": [
+      "Kathy Cotter",
+      "Meir Sharony"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/102737.jpg",
+    "slug": "fatal-secrets-schuld-und-vergeltung"
+  },
+  {
+    "videoId": "ff8B6K010vA",
+    "youtubeTitle": "The Rookies - Action-Abenteuerfilm mit Milla Jovovich - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ff8B6K010vA/hqdefault.jpg",
+    "duration": "PT1H53M11S",
+    "publishedAt": "2026-09-05T07:00:05Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 546110,
+    "title": "The Rookies",
+    "originalTitle": "素人特工",
+    "overview": "Draufgänger und Extremsportler Zhao Feng (Talu Wang) hat schon immer ein Leben am Limit geführt. Doch als er ersehentlich in einen illegalen Handel verwickelt wird, ändert sich sein Schicksal. Er wird von der mysteriösen Spezialagentin Bruce (Milla Jovovich) rekrutiert, um einem geheimnisvollen Orden beizutreten. Ab sofort bildet er zusammen mit der miesen Polizistin Miao Yan (Sandrine Pinne), dem Wissenschaftler Ding Shan (Timmy Xu) und der arbeitslosen Ärztin LV (Meitong Liu) die neueste Amateureinheit zur internationalen Verbrechensbekämpfung. Mit Unterstützung von Agentin Bruce begeben sich die vier Rookies auf ihre erste Mission, um die Welt vor dem Untergang zu retten.",
+    "releaseDate": "2019-07-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lcoa0qe3Yte90zGe8VdbPK1LLF6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/l98xxSREW3yM2hR0bVtDURSXtZR.jpg",
+    "voteAverage": 5.337,
+    "genreIds": [
+      28,
+      12,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Milla Jovovich",
+      "王大陸",
+      "張榕容",
+      "許魏洲",
+      "刘美彤"
+    ],
+    "director": [
+      "袁錦麟"
+    ],
+    "writer": [
+      "南派三叔",
+      "袁錦麟"
+    ],
+    "fsk": "16",
+    "posterLocal": "img/posters/546110.jpg",
+    "slug": "the-rookies"
+  },
+  {
+    "videoId": "RHa3RfU6aE4",
+    "youtubeTitle": "Quartett D'Amour – Liebe, wen du willst (FRANZÖSISCHER LIEBESFILM, Liebesfilme auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RHa3RfU6aE4/hqdefault.jpg",
+    "duration": "PT1H33M6S",
+    "publishedAt": "2026-09-05T14:00:27Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 59507,
+    "title": "Quartett D'Amour - Liebe, wen du willst",
+    "originalTitle": "Happy Few",
+    "overview": "Franck und Rachel führen eine glückliche Ehe, ebenso wie Thomas und Teri. Eine zufällige Begegnung zwischen Rachel und Thomas führt zu einer Einladung zu einem Dinner zu Viert. Die beiden Paare verstehen sich ausgezeichnet – es wird viel getrunken und gelacht. Als Thomas für einen Augenblick den Raum verlässt küsst Franck Teri. Die Anziehungskraft zwischen den beiden lässt die Atmosphäre buchstäblich knistern. Später am Abend macht Franck keinen Hehl aus der Tatsache, dass er sich zu Teri hingezogen fühlt. Doch statt der erwarteten Eifersuchtsszene macht Rachel ihm den Vorschlag, die beiden bald wieder zu sehen. Denn auch sie ist einem erotischen Abenteuer mit Thomas nicht abgeneigt. Einem erotischen Spiel zu Viert steht also nichts im Wege.",
+    "releaseDate": "2010-09-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hMyYQnUaBSRnl75KQc0mRojgzMj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/riVwkxmcW3WsWNg0al9EItHzCEN.jpg",
+    "voteAverage": 5.903,
+    "genreIds": [
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Marina Foïs",
+      "Élodie Bouchez",
+      "Roschdy Zem",
+      "Nicolas Duvauchelle",
+      "Alexia Stresi"
+    ],
+    "director": [
+      "Antony Cordier"
+    ],
+    "writer": [
+      "Julie Peyr",
+      "Antony Cordier"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/59507.jpg",
+    "slug": "quartett-d-amour-liebe-wen-du-willst"
+  },
+  {
+    "videoId": "gdhmIaLaAm4",
+    "youtubeTitle": "In den Fesseln von Shangri-La - LOST HORIZON (1937) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gdhmIaLaAm4/hqdefault.jpg",
+    "duration": "PT2H12M43S",
+    "publishedAt": "2026-09-05T16:00:08Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 3598,
+    "title": "In den Fesseln von Shangri La",
+    "originalTitle": "Lost Horizon",
+    "overview": "Ein amerikanischer Regierungsvertreter, dessen Flugzeug in den Schnefeldern des Himalaja abstürzt, wird wie die anderen Überlebenden in das sagenumwobene Shangri-La gebracht. Ihnen wird die Einladung übermittelt für immer da zu bleiben.",
+    "releaseDate": "1937-03-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iEw01VWGJ0SkI1UdaDotSES0uRO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fi7ZCnJ6TeZTFf4NHnz8ns3SW6.jpg",
+    "voteAverage": 6.94,
+    "genreIds": [
+      12,
+      14,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Ronald Colman",
+      "Jane Wyatt",
+      "Edward Everett Horton",
+      "John Howard",
+      "Thomas Mitchell"
+    ],
+    "director": [
+      "Frank Capra"
+    ],
+    "writer": [
+      "Robert Riskin",
+      "Sidney Buchman"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/3598.jpg",
+    "slug": "in-den-fesseln-von-shangri-la"
+  },
+  {
+    "videoId": "ZKoE9zM-YWo",
+    "youtubeTitle": "ER STELLTE DIE FALSCHE FRAGE – UND PLÖTZLICH WOLLTE MAN IHN LOSWERDEN | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZKoE9zM-YWo/hqdefault.jpg",
+    "duration": "PT1H43M10S",
+    "publishedAt": "2026-09-04T09:56:31Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "ER STELLTE DIE FALSCHE FRAGE - UND PLÖTZLICH WOLLTE MAN IHN LOSWERDEN",
+    "originalTitle": null,
+    "overview": "Je tiefer er gräbt, desto mehr Menschen versuchen, die Wahrheit unter den Teppich zu kehren. Zeugen verschwinden, Spuren werden beseitigt und selbst hochrangige Entscheidungsträger geraten unter Verdacht. Schließlich muss der junge Ermittler erkennen, dass der Skandal nicht irgendwo am Rand der Stadt beginnt, sondern mitten in den höchsten politischen Kreisen. Und je näher er der Wahrheit kommt, desto höher wird der Preis dafür.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "er-stellte-die-falsche-frage-und-ploetzlich-wollte-man-ihn-l"
+  },
+  {
+    "videoId": "oBqtGpFbhYU",
+    "youtubeTitle": "CIA-Agent landet im brutalsten Gefängnis Russlands und kämpft ums Überleben | Ganzer Film Actionfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oBqtGpFbhYU/hqdefault.jpg",
+    "duration": "PT1H24M13S",
+    "publishedAt": "2026-09-04T16:46:08Z",
+    "channelName": "Filmhof Welt",
+    "channelId": "UCiovhvaqFD8vLmE4tTte9og",
+    "tmdbId": null,
+    "title": "CIA-Agent landet im brutalsten Gefängnis Russlands und kämpft ums Überleben",
+    "originalTitle": null,
+    "overview": "Ein CIA-Agent gerät bei einer geheimen Mission in das brutalste Gefängnis Russlands. Hinter den Mauern herrschen Gewalt, Korruption und eigene Gesetze. Ohne Verbündete muss er sich gegen gefährliche Häftlinge und skrupellose Wärter behaupten. Sein einziges Ziel: überleben und einen Weg in die Freiheit finden.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "cia-agent-landet-im-brutalsten-gefaengnis-russlands-und-kaem"
   }
 ]
