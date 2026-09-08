@@ -11,6 +11,8 @@
       "channelId": "UCMo_16a109pQo75cZOtNObg",
       "profil": { "pipeAlsTitelvariante": false }
     },
+    { "name": "Boxoffice", "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ" },
+    { "name": "Braventa Films", "channelId": "UCz8hnri6mJv2ZmHJrSvGyAA" },
     { "name": "Bulldox", "channelId": "UCgsih0dGYPncJxONFcz3-UA" },
     {
       "name": "CiNENET Deutschland",
@@ -18,6 +20,7 @@
       "profil": { "pipeAlsTitelvariante": false }
     },
     { "name": "CineCult Reloaded", "channelId": "UCwwiMLsk1AHfPU0n88BEzHg" },
+    { "name": "CinemaLegenden", "channelId": "UC0zy7qZplGz1sX_xeXdhd_g" },
     { "name": "Comfy Movies", "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw" },
     {
       "name": "Deutsch Knallhart",
@@ -31,6 +34,7 @@
       "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
       "profil": { "pipeAlsTitelvariante": false }
     },
+    { "name": "Filmalarm", "channelId": "UCFOSAYaXLPMdruA2oUpo0yg" },
     { "name": "Filmhof Welt", "channelId": "UCiovhvaqFD8vLmE4tTte9og" },
     { "name": "Free Films Action", "channelId": "UC40R8fSroyRd52QDEBf4Mqw" },
     { "name": "Free Films Emotion", "channelId": "UC6DTsN_DKPGsPVckgfzYznw" },
@@ -44,6 +48,7 @@
     { "name": "Planet Movies", "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw" },
     { "name": "Sony Pics at Home DE", "channelId": "UCXsB2iMamYqS_t-Kpo61tOw" },
     { "name": "Starkino", "channelId": "UC7Hs00gZvManlHy0rXw1UMw" },
+    { "name": "Unfassbare Filme", "channelId": "UCxjFB79ChibMp-hr1vlK7sg" },
     { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" }
   ]
 }
