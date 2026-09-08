@@ -235,8 +235,17 @@ function stripGenreBrackets(text) {
   return (text || "").replace(/\[[^\]]{1,30}\]/g, " ").replace(/\s{2,}/g, " ").trim();
 }
 
+// Entfernt Emoji und Symbole am Titelanfang. Mehrere Kanäle stellen ihren
+// Titeln solche Zeichen voran ("💀 Blind - Du bist niemals allein"). Als Teil
+// des Suchbegriffs verhindern sie jeden Treffer bei TMDB.
+function stripLeadingSymbols(text) {
+  return (text || "")
+    .replace(/^[^\p{L}\p{N}(]+/u, "")
+    .trim();
+}
+
 function primaryTitleSegment(title) {
-  const cleaned = stripGenreBrackets(title);
+  const cleaned = stripLeadingSymbols(stripGenreBrackets(title));
   const candidates = ["(", "|"]
     .map((ch) => cleaned.indexOf(ch))
     .filter((i) => i !== -1);
@@ -379,6 +388,37 @@ function firstDashSegment(title) {
   return first ? first.trim() : (title || "").trim();
 }
 
+// Manche Kanäle nennen im Videotitel gar keinen Filmnamen, sondern nur einen
+// reißerischen Aufhänger ("KOMÖDIENFILM, den man mindestens einmal im Leben
+// gesehen haben sollte"). Der echte Titel steht dann als kurze, eigenständige
+// Zeile am Anfang der Beschreibung ("St. Daisy"). Diese Zeile ist bei den
+// betroffenen Kanälen in nahezu allen Fällen der gesuchte Filmtitel.
+//
+// Erkennungsmerkmale: kurz, wenige Wörter, kein Satzzeichen am Ende (also
+// kein Fließtext), kein Verweis -- und nur unter den ersten Zeilen.
+function kopfzeileAusBeschreibung(desc) {
+  const zeilen = (desc || "")
+    .split(/\n+/)
+    .map((z) => z.trim())
+    .filter(Boolean);
+
+  // Überschriften und Kennzahlen, die manche Kanäle an den Anfang setzen --
+  // sie sehen wie ein Titel aus, sind aber keiner ("Cast & Crew" bei CiNENET,
+  // "IMDb: *6,8* von 10" bei Moviedome).
+  const KEINE_TITEL = /^(cast\s*&\s*crew|besetzung|darsteller|regie|inhalt|handlung|imdb|fsk|filmname|originaltitel|originalname|trailer|highlights|kapitel)\b/i;
+
+  for (const zeile of zeilen.slice(0, 4)) {
+    if (/https?:\/\//.test(zeile)) continue;
+    if (zeile.length < 2 || zeile.length > 60) continue;
+    if (/[.!?:]$/.test(zeile)) continue; // Fließtext, kein Titel
+    if (zeile.split(/\s+/).length > 8) continue;
+    if (KEINE_TITEL.test(zeile)) continue;
+    if (istGenerischerBegriff(zeile)) continue;
+    return stripLeadingSymbols(zeile);
+  }
+  return null;
+}
+
 // Baut eine deduplizierte, priorisierte Liste an Suchbegriffen aus allen
 // bekannten Varianten (Originaltitel, bereinigter YouTube-Titel, und deren
 // Ableitungen).
@@ -427,6 +467,11 @@ function buildQueryCandidates(info, video) {
   // Zuletzt: Doppelpunkt-Untertitel abtrennen, niedrigste Priorität
   add(stripColonSubtitle(info.fallbackQuery));
   add(stripColonSubtitle(info.query));
+
+  // Kurze Kopfzeile der Beschreibung -- greift bei Kanälen, deren Videotitel
+  // gar keinen Filmnamen enthält. Bewusst weit hinten eingereiht, damit sie
+  // bestehende, funktionierende Zuordnungen nicht verdrängt.
+  add(kopfzeileAusBeschreibung(video.description));
 
   // Allerletzter Versuch, bevor aufgegeben wird: reines Erst-Segment
   add(firstDashSegment(video.title));
