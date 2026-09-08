@@ -284,6 +284,143 @@ async function schreibeWennGeaendert(pfad, inhalt) {
   return true;
 }
 
+
+// -- Startseite --
+//
+// Die Startseite wird als fertiges HTML erzeugt und lädt KEINE Daten nach.
+// Bei über 5000 Filmen wäre ein einziges endloses Raster erschlagend, und ein
+// clientseitiger Aufbau würde erst nach dem Download des gesamten Index
+// beginnen. So ist die Seite sofort da -- und Suchmaschinen sehen den Inhalt
+// unmittelbar, ohne JavaScript ausführen zu müssen.
+
+const REIHEN_GENRES = [
+  ["Action", 28], ["Komödie", 35], ["Thriller", 53], ["Drama", 18],
+  ["Horror", 27], ["Science Fiction", 878], ["Western", 37],
+  ["Familie", 10751], ["Krimi", 80], ["Romantik", 10749],
+];
+
+const FILME_JE_REIHE = 18;
+
+function kachel(m) {
+  const jahr = jahrVon(m);
+  const poster = posterFuer(m);
+  return `<a class="kachel" href="/${FILM_DIR}/${m.slug}">
+    <img src="${escapeHtml(poster)}" loading="lazy" alt="${escapeHtml(m.title)}">
+    <span class="kachel-titel">${escapeHtml(m.title)}</span>
+    <span class="kachel-jahr">${jahr}</span>
+  </a>`;
+}
+
+function reihe(titel, filme, mehrLink) {
+  if (filme.length === 0) return "";
+  return `<section class="reihe">
+    <h2>${escapeHtml(titel)}${mehrLink ? ` <a class="mehr" href="${mehrLink}">alle ansehen</a>` : ""}</h2>
+    <div class="reihe-strip">${filme.map(kachel).join("")}</div>
+  </section>`;
+}
+
+function baueStartseite(filme) {
+  const verfuegbar = filme.filter((m) => m.verfuegbar !== false);
+  const jahr = (m) => parseInt(jahrVon(m), 10) || 0;
+
+  const neu = [...verfuegbar]
+    .sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")))
+    .slice(0, FILME_JE_REIHE);
+
+  // Für die Bestenliste nur Filme mit belastbarer Bewertung
+  const besteBewertung = verfuegbar
+    .filter((m) => m.voteAverage >= 6.5)
+    .sort((a, b) => b.voteAverage - a.voteAverage)
+    .slice(0, FILME_JE_REIHE);
+
+  const klassiker = verfuegbar
+    .filter((m) => jahr(m) > 0 && jahr(m) < 1980)
+    .sort((a, b) => (b.voteAverage || 0) - (a.voteAverage || 0))
+    .slice(0, FILME_JE_REIHE);
+
+  // Genre-Reihen: nach Bewertung sortiert, damit oben Sehenswertes steht
+  const genreReihen = REIHEN_GENRES.map(([name, id]) => {
+    const auswahl = verfuegbar
+      .filter((m) => (m.genreIds || []).includes(id))
+      .sort((a, b) => (b.voteAverage || 0) - (a.voteAverage || 0))
+      .slice(0, FILME_JE_REIHE);
+    return reihe(name, auswahl, `/alle?genre=${encodeURIComponent(name)}`);
+  }).join("\n");
+
+  const beschreibung =
+    `${verfuegbar.length} deutschsprachige Filme, die legal und kostenlos in voller Länge ` +
+    `auf YouTube verfügbar sind -- gesammelt, sortiert und durchsuchbar.`;
+
+  return `<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tubefilme -- ${verfuegbar.length} ganze Filme kostenlos auf Deutsch</title>
+<meta name="description" content="${escapeHtml(beschreibung)}">
+<link rel="canonical" href="${BASE_URL}/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="tubefilme -- ganze Filme kostenlos auf Deutsch">
+<meta property="og:description" content="${escapeHtml(beschreibung)}">
+<meta property="og:url" content="${BASE_URL}/">
+<link rel="stylesheet" href="/film/style.css">
+<style>
+header.top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
+header.top .marke{font-size:20px;font-weight:bold;color:var(--text);text-decoration:none}
+header.top .marke span{color:var(--accent)}
+header.top nav{margin-left:auto;display:flex;gap:14px}
+header.top nav a{color:var(--text-dim);text-decoration:none;font-size:14px}
+header.top nav a:hover{color:var(--text)}
+.intro{max-width:1400px;margin:0 auto;padding:22px 20px 4px}
+.intro h1{font-size:22px;margin:0 0 6px}
+.intro p{margin:0;color:var(--text-dim);font-size:14px}
+.reihe{max-width:1400px;margin:0 auto;padding:22px 0 4px}
+.reihe h2{font-size:16px;margin:0 0 10px;padding:0 20px;font-weight:600}
+.reihe h2 .mehr{font-size:12px;color:var(--text-dim);text-decoration:none;font-weight:normal;margin-left:8px}
+.reihe h2 .mehr:hover{color:var(--accent)}
+.reihe-strip{display:flex;gap:12px;overflow-x:auto;padding:0 20px 10px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+.reihe-strip::-webkit-scrollbar{height:8px}
+.reihe-strip::-webkit-scrollbar-thumb{background:#333;border-radius:4px}
+.kachel{flex:0 0 132px;text-decoration:none;color:var(--text);scroll-snap-align:start}
+.kachel img{width:132px;height:198px;object-fit:cover;border-radius:6px;background:#222;display:block}
+.kachel-titel{display:block;font-size:12px;margin-top:6px;line-height:1.3;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.kachel-jahr{display:block;font-size:11px;color:var(--text-dim)}
+@media(max-width:640px){
+  .kachel{flex:0 0 108px}
+  .kachel img{width:108px;height:162px}
+  .reihe h2{padding:0 14px}
+  .reihe-strip{padding:0 14px 10px}
+  .intro{padding:16px 14px 4px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="marke" href="/">tube<span>filme</span></a>
+  <nav>
+    <a href="/alle">Alle Filme</a>
+    <a href="/alle?sort=bewertung">Beste Bewertungen</a>
+  </nav>
+</header>
+
+<div class="intro">
+  <h1>Ganze Filme, kostenlos und auf Deutsch</h1>
+  <p>${verfuegbar.length} Filme, die legal und in voller Länge auf YouTube verfügbar sind.</p>
+</div>
+
+${reihe("Neu dazugekommen", neu, "/alle?sort=neu-aufgenommen")}
+${reihe("Beste Bewertungen", besteBewertung, "/alle?sort=bewertung")}
+${genreReihen}
+${reihe("Klassiker vor 1980", klassiker, "/alle?jahrzehnt=1970")}
+
+<footer>
+  <a href="/alle">Alle ${verfuegbar.length} Filme durchsuchen</a> -- Wiedergabe über YouTube
+</footer>
+</body>
+</html>`;
+}
+
 async function main() {
   const filme = JSON.parse(await fs.readFile(FILME_PATH, "utf-8"));
 
@@ -376,11 +513,15 @@ async function main() {
     }
   }
 
+  // 3b. Startseite als fertiges HTML
+  await schreibeWennGeaendert("index.html", baueStartseite(filme));
+
   // 4. Sitemap und robots.txt
   const heute = new Date().toISOString().slice(0, 10);
   const sitemap =
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     `  <url><loc>${BASE_URL}/</loc><lastmod>${heute}</lastmod><priority>1.0</priority></url>\n` +
+    `  <url><loc>${BASE_URL}/alle</loc><lastmod>${heute}</lastmod><priority>0.9</priority></url>\n` +
     filme
       .filter((m) => m.verfuegbar !== false)
       .map((m) => `  <url><loc>${BASE_URL}/${FILM_DIR}/${m.slug}</loc><lastmod>${heute}</lastmod><priority>0.7</priority></url>`)
