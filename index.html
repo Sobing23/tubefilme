@@ -3,732 +3,1050 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<title>tubefilme (Test)</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+<title>tubefilme -- 5408 ganze Filme kostenlos auf Deutsch</title>
+<meta name="description" content="5408 deutschsprachige Filme, die legal und kostenlos in voller Länge auf YouTube verfügbar sind -- gesammelt, sortiert und durchsuchbar.">
+<link rel="canonical" href="https://www.tubefilme.de/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="tubefilme -- ganze Filme kostenlos auf Deutsch">
+<meta property="og:description" content="5408 deutschsprachige Filme, die legal und kostenlos in voller Länge auf YouTube verfügbar sind -- gesammelt, sortiert und durchsuchbar.">
+<meta property="og:url" content="https://www.tubefilme.de/">
+<link rel="stylesheet" href="/film/style.css">
 <style>
-  :root {
-    --bg: #121212;
-    --bg-card: #1e1e1e;
-    --text: #f2f2f2;
-    --text-dim: #9a9a9a;
-    --accent: #e5533c;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
-  }
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background: var(--bg);
-    padding: 16px 20px;
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    flex-wrap: wrap;
-    border-bottom: 1px solid #2a2a2a;
-  }
-  header h1 {
-    font-size: 20px;
-    margin: 0;
-    margin-right: auto;
-  }
-  header h1 span { color: var(--accent); }
-  input[type="search"] {
-    flex: 1;
-    min-width: 180px;
-    max-width: 360px;
-    padding: 10px 34px 10px 14px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    background: #1a1a1a;
-    color: var(--text);
-    font-size: 14px;
-  }
-  /* Browser-eigenes Clear-Kreuz bei type="search" ausblenden, wir bauen ein eigenes */
-  input[type="search"]::-webkit-search-cancel-button { display: none; }
-  .search-wrap { position: relative; flex: 1; min-width: 180px; max-width: 360px; }
-  .search-wrap input[type="search"] { max-width: none; width: 100%; }
-  .search-clear {
-    display: none;
-    position: absolute;
-    right: 6px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    color: var(--text-dim);
-    font-size: 18px;
-    line-height: 1;
-    padding: 4px 8px;
-    cursor: pointer;
-  }
-  .search-clear:hover { color: var(--text); }
-  select {
-    padding: 10px 14px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    background: #1a1a1a;
-    color: var(--text);
-    font-size: 14px;
-  }
-  button {
-    padding: 10px 16px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    background: #1a1a1a;
-    color: var(--text);
-    cursor: pointer;
-    font-size: 14px;
-    white-space: nowrap;
-  }
-  button:hover { border-color: var(--accent); }
-  button.active { background: var(--accent); border-color: var(--accent); }
-
-  #status {
-    padding: 40px 20px;
-    text-align: center;
-    color: var(--text-dim);
-  }
-
-  #grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 14px;
-    padding: 20px;
-  }
-  .card {
-    cursor: pointer;
-    /* Die Kacheln sind Verweise. Ohne diese Angaben färbt der Browser die
-       Titel blau bzw. besuchte Kacheln lila und unterstreicht sie. */
-    display: block;
-    color: inherit;
-    text-decoration: none;
-  }
-  .card:visited { color: inherit; }
-  .poster-frame {
-    position: relative;
-  }
-  .card img {
-    width: 100%;
-    aspect-ratio: 2 / 3;
-    object-fit: cover;
-    border-radius: 6px;
-    background: #222;
-    display: block;
-  }
-  .card .meta {
-    padding-top: 6px;
-    font-size: 13px;
-    line-height: 1.3;
-  }
-  .card .year {
-    color: var(--text-dim);
-    font-size: 12px;
-  }
-  .card .fav {
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    background: rgba(0,0,0,0.6);
-    border: none;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-  }
-  .card .fav.active { color: var(--accent); }
-  .card .low-confidence {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    background: rgba(0,0,0,0.6);
-    border-radius: 4px;
-    font-size: 10px;
-    padding: 2px 5px;
-    color: var(--text-dim);
-  }
-  .fsk-badge {
-    display: inline-block;
-    background: #333;
-    border-radius: 4px;
-    font-size: 11px;
-    padding: 1px 6px;
-    font-weight: bold;
-  }
-  .poster-frame .fsk-badge {
-    position: absolute;
-    bottom: 6px;
-    right: 6px;
-    background: rgba(0,0,0,0.75);
-  }
-  /* Vorschaubild im Querformat, eingepasst in den Hochformat-Rahmen der
-     Kachel. Der freie Rand wird mit einer unscharfen Version desselben
-     Bildes gefüllt -- dadurch geht kein Bildinhalt durch Beschnitt verloren
-     und die Kachel wirkt trotzdem wie ein Poster. Beide Bilder nutzen
-     dieselbe URL, der Browser lädt sie also nur einmal. */
-  .poster-yt {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 2 / 3;
-    overflow: hidden;
-    border-radius: 6px;
-    background: #111;
-  }
-  .poster-yt-bg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(20px) brightness(0.45);
-    transform: scale(1.15);
-  }
-  .poster-yt-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* Leicht über die Kachelbreite hinaus vergrößert: so füllt das Motiv
-       den Rahmen spürbar besser aus, ohne dass -- wie bei einem harten
-       Zuschnitt auf Hochformat -- der halbe Bildinhalt verloren geht. */
-    width: 145%;
-    transform: translate(-50%, -50%);
-    display: block;
-  }
-  .poster-placeholder {    width: 100%;
-    aspect-ratio: 2 / 3;
-    border-radius: 6px;
-    background: linear-gradient(160deg, #2a2a2a, #1a1a1a);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    font-size: 12px;
-    color: var(--text-dim);
-    line-height: 1.3;
-  }
-
-  .similar-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin-top: 22px;
-  }
-  .similar-row h4 {
-    grid-column: 1 / -1;
-    margin: 0 0 4px 0;
-    font-size: 13px;
-    color: var(--text-dim);
-    font-weight: normal;
-  }
-  .similar-card { cursor: pointer; }
-  .similar-card > img, .similar-card .poster-placeholder, .similar-card .poster-yt {
-    width: 100%;
-    aspect-ratio: 2/3;
-    object-fit: cover;
-    border-radius: 6px;
-    display: block;
-  }
-  .similar-card .similar-title {
-    font-size: 12px;
-    margin-top: 4px;
-    line-height: 1.3;
-  }
-
-  #count {
-    padding: 0 20px;
-    color: var(--text-dim);
-    font-size: 13px;
-  }
-
-  @media (max-width: 640px) {
-    header { padding: 12px 14px; gap: 8px; }
-    header h1 { width: 100%; }
-    header h1 small { display: none; }
-    .search-wrap { max-width: none; width: 100%; order: 3; }
-    select { order: 4; width: 100%; }
-    #grid { padding: 14px; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); }
-    #count { padding: 0 14px; }
-    .player-wrap { padding: 0 12px; margin: 70px auto 30px; }
-    #closeBtn { top: 10px; right: 12px; }
-  }
-
-  /* Kino-Modus Overlay */
-  #overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.95);
-    z-index: 100;
-    overflow-y: auto;
-  }
-  #overlay.open { display: block; }
-  .player-wrap {
-    max-width: 960px;
-    margin: 40px auto;
-    padding: 0 20px;
-  }
-  .player-wrap iframe {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border: none;
-    border-radius: 8px;
-  }
-  .player-info {
-    padding-top: 18px;
-  }
-  .player-info h2 {
-    margin: 0 0 6px 0;
-  }
-  .player-info .sub {
-    color: var(--text-dim);
-    font-size: 14px;
-    margin-bottom: 14px;
-  }
-  .player-info p {
-    line-height: 1.5;
-    color: #ddd;
-  }
-  #closeBtn {
-    position: fixed;
-    top: 16px;
-    right: 20px;
-    z-index: 110;
-  }
-
-  /* Zufalls-Auswahl */
-  #randomOverlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.85);
-    z-index: 120;
-    align-items: center;
-    justify-content: center;
-  }
-  #randomOverlay.open { display: flex; }
-  .random-panel {
-    background: var(--bg-card);
-    border-radius: 12px;
-    padding: 24px;
-    max-width: 720px;
-    width: 90%;
-    max-height: 85vh;
-    overflow-y: auto;
-  }
-  .random-panel h3 {
-    margin: 0 0 16px 0;
-  }
-  .random-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    gap: 14px;
-    margin-bottom: 18px;
-  }
-  .random-panel .actions {
-    display: flex;
-    gap: 10px;
-  }
+header.top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
+header.top .marke{font-size:20px;font-weight:bold;color:var(--text);text-decoration:none}
+header.top .marke span{color:var(--accent)}
+header.top nav{margin-left:auto;display:flex;gap:14px}
+header.top nav a{color:var(--text-dim);text-decoration:none;font-size:14px}
+header.top nav a:hover{color:var(--text)}
+.intro{max-width:1400px;margin:0 auto;padding:22px 20px 4px}
+.intro h1{font-size:22px;margin:0 0 6px}
+.intro p{margin:0;color:var(--text-dim);font-size:14px}
+.reihe{max-width:1400px;margin:0 auto;padding:22px 0 4px}
+.reihe h2{font-size:16px;margin:0 0 10px;padding:0 20px;font-weight:600}
+.reihe h2 .mehr{font-size:12px;color:var(--text-dim);text-decoration:none;font-weight:normal;margin-left:8px}
+.reihe h2 .mehr:hover{color:var(--accent)}
+.reihe-strip{display:flex;gap:12px;overflow-x:auto;padding:0 20px 10px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+.reihe-strip::-webkit-scrollbar{height:8px}
+.reihe-strip::-webkit-scrollbar-thumb{background:#333;border-radius:4px}
+.kachel{flex:0 0 132px;text-decoration:none;color:var(--text);scroll-snap-align:start}
+.kachel img{width:132px;height:198px;object-fit:cover;border-radius:6px;background:#222;display:block}
+.kachel-titel{display:block;font-size:12px;margin-top:6px;line-height:1.3;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.kachel-jahr{display:block;font-size:11px;color:var(--text-dim)}
+@media(max-width:640px){
+  .kachel{flex:0 0 108px}
+  .kachel img{width:108px;height:162px}
+  .reihe h2{padding:0 14px}
+  .reihe-strip{padding:0 14px 10px}
+  .intro{padding:16px 14px 4px}
+}
 </style>
 </head>
 <body>
-
-<header>
-  <h1>tube<span>filme</span> <small style="color:var(--text-dim); font-size:12px;">(Test-Ansicht, kein Design)</small></h1>
-  <div class="search-wrap" id="searchWrap">
-    <input type="search" id="search" placeholder="Filme, Genre, Schauspieler oder Regie durchsuchen...">
-    <button type="button" class="search-clear" id="searchClear" aria-label="Suche löschen">×</button>
-  </div>
-  <select id="genreFilter">
-    <option value="">Alle Genres</option>
-  </select>
-  <select id="fskFilter">
-    <option value="">Alle FSK</option>
-    <option value="0">FSK 0</option>
-    <option value="6">FSK 6</option>
-    <option value="12">FSK 12</option>
-    <option value="16">FSK 16</option>
-    <option value="18">FSK 18</option>
-  </select>
-  <select id="jahrFilter">
-    <option value="">Alle Jahre</option>
-  </select>
-  <select id="sortierung">
-    <option value="relevanz">Sortierung: Standard</option>
-    <option value="bewertung">Beste Bewertung</option>
-    <option value="az">Titel A–Z</option>
-    <option value="za">Titel Z–A</option>
-    <option value="neu">Neueste zuerst</option>
-    <option value="alt">Älteste zuerst</option>
-  </select>
-  <button id="randomBtn">🎲 Zufall</button>
-  <button id="watchlistBtn">♥ Merkliste</button>
+<header class="top">
+  <a class="marke" href="/">tube<span>filme</span></a>
+  <nav>
+    <a href="/alle">Alle Filme</a>
+    <a href="/alle?sort=bewertung">Beste Bewertungen</a>
+  </nav>
 </header>
 
-<div id="status">Lade Filme...</div>
-<div id="count"></div>
-<div id="grid"></div>
-
-<div id="randomOverlay">
-  <div class="random-panel">
-    <h3>Was hältst du von diesen?</h3>
-    <div class="random-grid" id="randomGrid"></div>
-    <div class="actions">
-      <button id="randomRerollBtn">🎲 Nochmal würfeln</button>
-      <button id="randomCloseBtn">Abbrechen</button>
-    </div>
-  </div>
+<div class="intro">
+  <h1>Ganze Filme, kostenlos und auf Deutsch</h1>
+  <p>5408 Filme, die legal und in voller Länge auf YouTube verfügbar sind.</p>
 </div>
 
-<script>
-// Schlanker Index von der eigenen Domain (rund 1,9 statt 7 MB) -- die
-// vollständigen Angaben zu einem Film stehen auf dessen eigener Seite.
-const FILME_URL = "/data/index.json";
+<section class="reihe">
+    <h2>Neu dazugekommen <a class="mehr" href="/alle?sort=neu-aufgenommen">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/student-body">
+    <img src="https://image.tmdb.org/t/p/w500/yxVUJYTDC2tNQzSD7IapaeWGVuU.jpg" loading="lazy" alt="Student Body">
+    <span class="kachel-titel">Student Body</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/sie-beschlossen-den-gefaehrlichsten-politiker-des-landes-zu">
+    <img src="https://i.ytimg.com/vi/OaA7vz7a11c/maxresdefault.jpg" loading="lazy" alt="Sie Beschlossen den Gefährlichsten Politiker des Landes zu Eliminieren">
+    <span class="kachel-titel">Sie Beschlossen den Gefährlichsten Politiker des Landes zu Eliminieren</span>
+    <span class="kachel-jahr"></span>
+  </a><a class="kachel" href="/film/die-spannung-steigt-mit-jeder-minute-er-wurde-fuer-experimen">
+    <img src="https://i.ytimg.com/vi/EEYFcIymV34/maxresdefault.jpg" loading="lazy" alt="😱 Die Spannung Steigt Mit Jeder Minute! Er Wurde Für Experimente Eingesperrt">
+    <span class="kachel-titel">😱 Die Spannung Steigt Mit Jeder Minute! Er Wurde Für Experimente Eingesperrt</span>
+    <span class="kachel-jahr"></span>
+  </a><a class="kachel" href="/film/afflicted">
+    <img src="https://image.tmdb.org/t/p/w500/fDRk4B6uTkTDq2hTpMZOc2LYtEp.jpg" loading="lazy" alt="Afflicted">
+    <span class="kachel-titel">Afflicted</span>
+    <span class="kachel-jahr">2014</span>
+  </a><a class="kachel" href="/film/ein-cop-macht-urlaub-in-den-bergen-dann-uebernehmen-terroris">
+    <img src="https://i.ytimg.com/vi/0YtmS7TqrqM/maxresdefault.jpg" loading="lazy" alt="Ein Cop macht Urlaub in den Bergen… dann übernehmen Terroristen das Hotel - Action Thriller">
+    <span class="kachel-titel">Ein Cop macht Urlaub in den Bergen… dann übernehmen Terroristen das Hotel - Action Thriller</span>
+    <span class="kachel-jahr"></span>
+  </a><a class="kachel" href="/film/d-a-r-y-l-der-aussergewoehnliche">
+    <img src="https://image.tmdb.org/t/p/w500/tspcXFKVpx7QKIp6ISBUers8sOj.jpg" loading="lazy" alt="D.A.R.Y.L. - Der Außergewöhnliche">
+    <span class="kachel-titel">D.A.R.Y.L. - Der Außergewöhnliche</span>
+    <span class="kachel-jahr">1985</span>
+  </a><a class="kachel" href="/film/mit-dem-colt-unterm-kissen">
+    <img src="https://image.tmdb.org/t/p/w500/329hi0sbm3paiF8UoVIqlLAlhNa.jpg" loading="lazy" alt="Mit dem Colt unterm Kissen">
+    <span class="kachel-titel">Mit dem Colt unterm Kissen</span>
+    <span class="kachel-jahr">1957</span>
+  </a><a class="kachel" href="/film/einer-der-spannendsten-thrillerfilme-eine-grausame-mordserie">
+    <img src="https://i.ytimg.com/vi/ocqAn2dJOmY/maxresdefault.jpg" loading="lazy" alt="Einer der spannendsten Thrillerfilme! 😨 Eine grausame Mordserie schockiert alle - Filme Deutsch">
+    <span class="kachel-titel">Einer der spannendsten Thrillerfilme! 😨 Eine grausame Mordserie schockiert alle - Filme Deutsch</span>
+    <span class="kachel-jahr"></span>
+  </a><a class="kachel" href="/film/leih-mir-deinen-mann">
+    <img src="https://image.tmdb.org/t/p/w500/pG1mI69r4vgNZ6YaEvXvGYVPZzt.jpg" loading="lazy" alt="Leih mir deinen Mann">
+    <span class="kachel-titel">Leih mir deinen Mann</span>
+    <span class="kachel-jahr">1964</span>
+  </a><a class="kachel" href="/film/eine-ganz-heisse-nummer-2-0">
+    <img src="https://image.tmdb.org/t/p/w500/ig7zM5AjjU8GEVAwvINa53wS88V.jpg" loading="lazy" alt="Eine ganz heiße Nummer 2.0">
+    <span class="kachel-titel">Eine ganz heiße Nummer 2.0</span>
+    <span class="kachel-jahr">2019</span>
+  </a><a class="kachel" href="/film/ein-geheimnis-verwandelte-eine-normale-familie-in-verdaechti-2">
+    <img src="https://i.ytimg.com/vi/wrEljnOyf3c/maxresdefault.jpg" loading="lazy" alt="Ein Geheimnis Verwandelte Eine Normale Familie In Verdächtige">
+    <span class="kachel-titel">Ein Geheimnis Verwandelte Eine Normale Familie In Verdächtige</span>
+    <span class="kachel-jahr"></span>
+  </a><a class="kachel" href="/film/minnesota-clay">
+    <img src="https://image.tmdb.org/t/p/w500/y0ShrwiQ8t6SqMFdGzB423h0pgY.jpg" loading="lazy" alt="Minnesota Clay">
+    <span class="kachel-titel">Minnesota Clay</span>
+    <span class="kachel-jahr">1964</span>
+  </a><a class="kachel" href="/film/wenn-der-krieg-alles-veraendert-kehrt-er-je-zu-ihr-zurueck-f">
+    <img src="https://i.ytimg.com/vi/NLb_F_Sm_MA/maxresdefault.jpg" loading="lazy" alt="Wenn der Krieg alles verändert: Kehrt er je zu ihr zurück? - Film">
+    <span class="kachel-titel">Wenn der Krieg alles verändert: Kehrt er je zu ihr zurück? - Film</span>
+    <span class="kachel-jahr"></span>
+  </a><a class="kachel" href="/film/black-belt">
+    <img src="https://image.tmdb.org/t/p/w500/bU0SXpRVVssydUUXQSNwFM5aiR2.jpg" loading="lazy" alt="Black Belt">
+    <span class="kachel-titel">Black Belt</span>
+    <span class="kachel-jahr">2007</span>
+  </a><a class="kachel" href="/film/in-den-fesseln-von-shangri-la">
+    <img src="https://image.tmdb.org/t/p/w500/iEw01VWGJ0SkI1UdaDotSES0uRO.jpg" loading="lazy" alt="In den Fesseln von Shangri La">
+    <span class="kachel-titel">In den Fesseln von Shangri La</span>
+    <span class="kachel-jahr">1937</span>
+  </a><a class="kachel" href="/film/fatal-secrets-schuld-und-vergeltung">
+    <img src="https://image.tmdb.org/t/p/w500/7ToVaPqRR8m94kXwXWY0KZgJSMx.jpg" loading="lazy" alt="Fatal Secrets - Schuld und Vergeltung">
+    <span class="kachel-titel">Fatal Secrets - Schuld und Vergeltung</span>
+    <span class="kachel-jahr">2009</span>
+  </a><a class="kachel" href="/film/quartett-d-amour-liebe-wen-du-willst">
+    <img src="https://image.tmdb.org/t/p/w500/hMyYQnUaBSRnl75KQc0mRojgzMj.jpg" loading="lazy" alt="Quartett D&#39;Amour - Liebe, wen du willst">
+    <span class="kachel-titel">Quartett D&#39;Amour - Liebe, wen du willst</span>
+    <span class="kachel-jahr">2010</span>
+  </a><a class="kachel" href="/film/ein-spieler-schuldet-der-mafia-geld-jetzt-muss-er-um-sein-le">
+    <img src="https://i.ytimg.com/vi/6HsMfNJf5_g/maxresdefault.jpg" loading="lazy" alt="Ein Spieler schuldet der Mafia Geld… jetzt muss er um sein Leben kämpfen - Action Thriller">
+    <span class="kachel-titel">Ein Spieler schuldet der Mafia Geld… jetzt muss er um sein Leben kämpfen - Action Thriller</span>
+    <span class="kachel-jahr"></span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Beste Bewertungen <a class="mehr" href="/alle?sort=bewertung">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/dr-berg-nur-das-leben-zaehlt">
+    <img src="https://image.tmdb.org/t/p/w500/nHxbdFgrdcktmAfOeZlt6aFA52C.jpg" loading="lazy" alt="Dr. Berg - Nur das Leben zählt">
+    <span class="kachel-titel">Dr. Berg - Nur das Leben zählt</span>
+    <span class="kachel-jahr">1998</span>
+  </a><a class="kachel" href="/film/feiertag">
+    <img src="https://image.tmdb.org/t/p/w500/lb9T3TgkNQMFEK8M2SQ5mEHOydR.jpg" loading="lazy" alt="Feiertag">
+    <span class="kachel-titel">Feiertag</span>
+    <span class="kachel-jahr">2002</span>
+  </a><a class="kachel" href="/film/is-was-kanzler">
+    <img src="https://image.tmdb.org/t/p/w500/eeFlLFk87dg90ZLQfl65gNDxJa1.jpg" loading="lazy" alt="Is was, Kanzler?">
+    <span class="kachel-titel">Is was, Kanzler?</span>
+    <span class="kachel-jahr">1984</span>
+  </a><a class="kachel" href="/film/tequila-express">
+    <img src="https://image.tmdb.org/t/p/w500/qW1iFWam2UQRFqZf36qxcUUVCQK.jpg" loading="lazy" alt="Tequila Express">
+    <span class="kachel-titel">Tequila Express</span>
+    <span class="kachel-jahr">2002</span>
+  </a><a class="kachel" href="/film/das-wiedersehen">
+    <img src="https://image.tmdb.org/t/p/w500/hxFXQWbdlvMUHbnqGVDv61ENsB1.jpg" loading="lazy" alt="Das Wiedersehen">
+    <span class="kachel-titel">Das Wiedersehen</span>
+    <span class="kachel-jahr">2018</span>
+  </a><a class="kachel" href="/film/die-hoelle-am-river-thai">
+    <img src="https://image.tmdb.org/t/p/w500/bq6b0AkncijZLpRgowqVVGJZvsy.jpg" loading="lazy" alt="Die Hölle am River Thai">
+    <span class="kachel-titel">Die Hölle am River Thai</span>
+    <span class="kachel-jahr">1959</span>
+  </a><a class="kachel" href="/film/campana">
+    <img src="https://image.tmdb.org/t/p/w500/ml4GwnlgJafEoatbu8YaBzsQnjY.jpg" loading="lazy" alt="Campana">
+    <span class="kachel-titel">Campana</span>
+    <span class="kachel-jahr">1970</span>
+  </a><a class="kachel" href="/film/brennan-groesser-als-dein-herz">
+    <img src="https://image.tmdb.org/t/p/w500/sO1cGFuOTeSIneYfQOdv2J31HWu.jpg" loading="lazy" alt="Brennan - Größer als dein Herz">
+    <span class="kachel-titel">Brennan - Größer als dein Herz</span>
+    <span class="kachel-jahr">2016</span>
+  </a><a class="kachel" href="/film/ragdoll">
+    <img src="https://image.tmdb.org/t/p/w500/ulcWMBC01byZa3xsoFpvBtaeb3x.jpg" loading="lazy" alt="Ragdoll">
+    <span class="kachel-titel">Ragdoll</span>
+    <span class="kachel-jahr">2023</span>
+  </a><a class="kachel" href="/film/kinder-der-berge">
+    <img src="https://image.tmdb.org/t/p/w500/mMsZ5QY5mN9Se272Zp8x45aqCZ.jpg" loading="lazy" alt="Kinder der Berge">
+    <span class="kachel-titel">Kinder der Berge</span>
+    <span class="kachel-jahr">1958</span>
+  </a><a class="kachel" href="/film/der-reisende">
+    <img src="https://image.tmdb.org/t/p/w500/csRDYeLEHYztjTiUDvOZo7IBlkS.jpg" loading="lazy" alt="Der Reisende">
+    <span class="kachel-titel">Der Reisende</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/des-lebens-ueberfluss">
+    <img src="https://image.tmdb.org/t/p/w500/q092qNjH9rIsnx29LSbw77sOaYx.jpg" loading="lazy" alt="Des Lebens Überfluß">
+    <span class="kachel-titel">Des Lebens Überfluß</span>
+    <span class="kachel-jahr">1950</span>
+  </a><a class="kachel" href="/film/columbus-entdeckt-kraehwinkel">
+    <img src="https://image.tmdb.org/t/p/w500/7EEAwVflzXyK9sDOPzxRWj5A4mQ.jpg" loading="lazy" alt="Columbus entdeckt Krähwinkel">
+    <span class="kachel-titel">Columbus entdeckt Krähwinkel</span>
+    <span class="kachel-jahr">1954</span>
+  </a><a class="kachel" href="/film/unternehmen-schlafsack">
+    <img src="https://image.tmdb.org/t/p/w500/5CkFX6hqLA0mQZTdIdAygxbH9hQ.jpg" loading="lazy" alt="Unternehmen Schlafsack">
+    <span class="kachel-titel">Unternehmen Schlafsack</span>
+    <span class="kachel-jahr">1955</span>
+  </a><a class="kachel" href="/film/kaetchen-fuer-alles">
+    <img src="https://image.tmdb.org/t/p/w500/x7avtngIFDDad3waadcBvI6XYmG.jpg" loading="lazy" alt="Kätchen für alles">
+    <span class="kachel-titel">Kätchen für alles</span>
+    <span class="kachel-jahr">1949</span>
+  </a><a class="kachel" href="/film/buana-die-weissen-loewen-von-timbawati">
+    <img src="https://image.tmdb.org/t/p/w500/gCTE3YnbX5cL68IMWxe5GTMUKdM.jpg" loading="lazy" alt="Buana - Die weißen Löwen von Timbawati">
+    <span class="kachel-titel">Buana - Die weißen Löwen von Timbawati</span>
+    <span class="kachel-jahr">1981</span>
+  </a><a class="kachel" href="/film/das-leben-im-wattenmeer">
+    <img src="https://image.tmdb.org/t/p/w500/g1Igqyez1SgU7gkpfAzXV8y46Ac.jpg" loading="lazy" alt="Das Leben im Wattenmeer">
+    <span class="kachel-titel">Das Leben im Wattenmeer</span>
+    <span class="kachel-jahr">2002</span>
+  </a><a class="kachel" href="/film/charlie-chaplin">
+    <img src="https://image.tmdb.org/t/p/w500/uYmAXuMiNoBrRHKZlyvfYYCo9zN.jpg" loading="lazy" alt="Charlie Chaplin">
+    <span class="kachel-titel">Charlie Chaplin</span>
+    <span class="kachel-jahr">1999</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Action <a class="mehr" href="/alle?genre=Action">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/tequila-express">
+    <img src="https://image.tmdb.org/t/p/w500/qW1iFWam2UQRFqZf36qxcUUVCQK.jpg" loading="lazy" alt="Tequila Express">
+    <span class="kachel-titel">Tequila Express</span>
+    <span class="kachel-jahr">2002</span>
+  </a><a class="kachel" href="/film/die-hoelle-am-river-thai">
+    <img src="https://image.tmdb.org/t/p/w500/bq6b0AkncijZLpRgowqVVGJZvsy.jpg" loading="lazy" alt="Die Hölle am River Thai">
+    <span class="kachel-titel">Die Hölle am River Thai</span>
+    <span class="kachel-jahr">1959</span>
+  </a><a class="kachel" href="/film/der-reisende">
+    <img src="https://image.tmdb.org/t/p/w500/csRDYeLEHYztjTiUDvOZo7IBlkS.jpg" loading="lazy" alt="Der Reisende">
+    <span class="kachel-titel">Der Reisende</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/die-todeshand-des-schwarzen-panthers">
+    <img src="https://image.tmdb.org/t/p/w500/yMmZHAWthiZ57OQoGA0uF4tmkpJ.jpg" loading="lazy" alt="Die Todeshand des schwarzen Panthers">
+    <span class="kachel-titel">Die Todeshand des schwarzen Panthers</span>
+    <span class="kachel-jahr">1977</span>
+  </a><a class="kachel" href="/film/final-fight">
+    <img src="https://image.tmdb.org/t/p/w500/luSw8TyfrC1X81zB0zW8hlWUm3p.jpg" loading="lazy" alt="FINAL FIGHT">
+    <span class="kachel-titel">FINAL FIGHT</span>
+    <span class="kachel-jahr">2021</span>
+  </a><a class="kachel" href="/film/unter-der-flagge-der-freibeuter">
+    <img src="https://image.tmdb.org/t/p/w500/oClw9D7XdIbedXOtDBLWF1Jnbvp.jpg" loading="lazy" alt="Unter der Flagge der Freibeuter">
+    <span class="kachel-titel">Unter der Flagge der Freibeuter</span>
+    <span class="kachel-jahr">1961</span>
+  </a><a class="kachel" href="/film/im-nest-der-gelben-viper">
+    <img src="https://image.tmdb.org/t/p/w500/djXI5wtu97IUYTv4jXIN0Pogihj.jpg" loading="lazy" alt="Im Nest der gelben Viper">
+    <span class="kachel-titel">Im Nest der gelben Viper</span>
+    <span class="kachel-jahr">1964</span>
+  </a><a class="kachel" href="/film/kung-fu-die-toedliche-rache">
+    <img src="https://image.tmdb.org/t/p/w500/pssOIHPleh6Y2DhcMna0WcbyRck.jpg" loading="lazy" alt="Kung Fu - Die tödliche Rache">
+    <span class="kachel-titel">Kung Fu - Die tödliche Rache</span>
+    <span class="kachel-jahr">1973</span>
+  </a><a class="kachel" href="/film/l-a-task-force">
+    <img src="https://image.tmdb.org/t/p/w500/y9PN91V4CBY0z8Bz6HGtaKIt8Pe.jpg" loading="lazy" alt="L.A. Task Force">
+    <span class="kachel-titel">L.A. Task Force</span>
+    <span class="kachel-jahr">1994</span>
+  </a><a class="kachel" href="/film/crazy-horse-der-stolze-krieger">
+    <img src="https://image.tmdb.org/t/p/w500/7r4ZsO94xsywEJ3ZH8JHjDhj8EG.jpg" loading="lazy" alt="Crazy Horse - Der stolze Krieger">
+    <span class="kachel-titel">Crazy Horse - Der stolze Krieger</span>
+    <span class="kachel-jahr">1996</span>
+  </a><a class="kachel" href="/film/mission-death-countdown-zur-ewigkeit">
+    <img src="https://image.tmdb.org/t/p/w500/lHCd4MV4ds26wBqucYVuuLFspAx.jpg" loading="lazy" alt="Mission Death - Countdown zur Ewigkeit">
+    <span class="kachel-titel">Mission Death - Countdown zur Ewigkeit</span>
+    <span class="kachel-jahr">1998</span>
+  </a><a class="kachel" href="/film/american-tank-force">
+    <img src="https://image.tmdb.org/t/p/w500/3KfsmIMZ94Vt1wlk9kqKLls2Clb.jpg" loading="lazy" alt="American Tank Force">
+    <span class="kachel-titel">American Tank Force</span>
+    <span class="kachel-jahr">1968</span>
+  </a><a class="kachel" href="/film/lederstrumpf-der-letzte-mohikaner">
+    <img src="https://image.tmdb.org/t/p/w500/1XiamNXL89inel5lVK3lRRE7rxu.jpg" loading="lazy" alt="Lederstrumpf - Der letzte Mohikaner">
+    <span class="kachel-titel">Lederstrumpf - Der letzte Mohikaner</span>
+    <span class="kachel-jahr">1965</span>
+  </a><a class="kachel" href="/film/el-infierno">
+    <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
+    <span class="kachel-titel">El Infierno</span>
+    <span class="kachel-jahr">2010</span>
+  </a><a class="kachel" href="/film/wo-der-wind-weht">
+    <img src="https://image.tmdb.org/t/p/w500/rK7C7Vya1QpCLY9eoybRlGugVk9.jpg" loading="lazy" alt="Wo der Wind weht">
+    <span class="kachel-titel">Wo der Wind weht</span>
+    <span class="kachel-jahr">2018</span>
+  </a><a class="kachel" href="/film/shelter">
+    <img src="https://image.tmdb.org/t/p/w500/fz8fhY5xuE6NenYDuBsHbB7wUdj.jpg" loading="lazy" alt="Shelter">
+    <span class="kachel-titel">Shelter</span>
+    <span class="kachel-jahr">2026</span>
+  </a><a class="kachel" href="/film/zorro-der-blutrote-adler">
+    <img src="https://image.tmdb.org/t/p/w500/b3mKe8bMVcBP0WOY3mrlmfFANyO.jpg" loading="lazy" alt="Zorro - Der Blutrote Adler">
+    <span class="kachel-titel">Zorro - Der Blutrote Adler</span>
+    <span class="kachel-jahr">1936</span>
+  </a><a class="kachel" href="/film/die-warriors">
+    <img src="https://image.tmdb.org/t/p/w500/2KnekNUjeYQZf9te6aDgIv8DVpQ.jpg" loading="lazy" alt="Die Warriors">
+    <span class="kachel-titel">Die Warriors</span>
+    <span class="kachel-jahr">1979</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Komödie <a class="mehr" href="/alle?genre=Kom%C3%B6die">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/is-was-kanzler">
+    <img src="https://image.tmdb.org/t/p/w500/eeFlLFk87dg90ZLQfl65gNDxJa1.jpg" loading="lazy" alt="Is was, Kanzler?">
+    <span class="kachel-titel">Is was, Kanzler?</span>
+    <span class="kachel-jahr">1984</span>
+  </a><a class="kachel" href="/film/des-lebens-ueberfluss">
+    <img src="https://image.tmdb.org/t/p/w500/q092qNjH9rIsnx29LSbw77sOaYx.jpg" loading="lazy" alt="Des Lebens Überfluß">
+    <span class="kachel-titel">Des Lebens Überfluß</span>
+    <span class="kachel-jahr">1950</span>
+  </a><a class="kachel" href="/film/columbus-entdeckt-kraehwinkel">
+    <img src="https://image.tmdb.org/t/p/w500/7EEAwVflzXyK9sDOPzxRWj5A4mQ.jpg" loading="lazy" alt="Columbus entdeckt Krähwinkel">
+    <span class="kachel-titel">Columbus entdeckt Krähwinkel</span>
+    <span class="kachel-jahr">1954</span>
+  </a><a class="kachel" href="/film/unternehmen-schlafsack">
+    <img src="https://image.tmdb.org/t/p/w500/5CkFX6hqLA0mQZTdIdAygxbH9hQ.jpg" loading="lazy" alt="Unternehmen Schlafsack">
+    <span class="kachel-titel">Unternehmen Schlafsack</span>
+    <span class="kachel-jahr">1955</span>
+  </a><a class="kachel" href="/film/kaetchen-fuer-alles">
+    <img src="https://image.tmdb.org/t/p/w500/x7avtngIFDDad3waadcBvI6XYmG.jpg" loading="lazy" alt="Kätchen für alles">
+    <span class="kachel-titel">Kätchen für alles</span>
+    <span class="kachel-jahr">1949</span>
+  </a><a class="kachel" href="/film/charlie-chaplin">
+    <img src="https://image.tmdb.org/t/p/w500/uYmAXuMiNoBrRHKZlyvfYYCo9zN.jpg" loading="lazy" alt="Charlie Chaplin">
+    <span class="kachel-titel">Charlie Chaplin</span>
+    <span class="kachel-jahr">1999</span>
+  </a><a class="kachel" href="/film/mistaken-identity">
+    <img src="https://image.tmdb.org/t/p/w500/koR6jHZYmwGwBLB1am8vaIQlgof.jpg" loading="lazy" alt="Mistaken Identity">
+    <span class="kachel-titel">Mistaken Identity</span>
+    <span class="kachel-jahr">1988</span>
+  </a><a class="kachel" href="/film/tor-zum-himmel">
+    <img src="https://image.tmdb.org/t/p/w500/reNXBhJ407hk7716eq4nKrIhqO3.jpg" loading="lazy" alt="Tor zum Himmel">
+    <span class="kachel-titel">Tor zum Himmel</span>
+    <span class="kachel-jahr">2003</span>
+  </a><a class="kachel" href="/film/marmor-stein-eisen">
+    <img src="https://image.tmdb.org/t/p/w500/6qL8WilGkchCSYQ9XjaJFsfi3Cy.jpg" loading="lazy" alt="Marmor, Stein &amp; Eisen">
+    <span class="kachel-titel">Marmor, Stein &amp; Eisen</span>
+    <span class="kachel-jahr">2000</span>
+  </a><a class="kachel" href="/film/was-waere-wenn">
+    <img src="https://image.tmdb.org/t/p/w500/6ookXxqzJkXWOE5bicZgXVIYeBK.jpg" loading="lazy" alt="Was wäre, wenn...?">
+    <span class="kachel-titel">Was wäre, wenn...?</span>
+    <span class="kachel-jahr">1960</span>
+  </a><a class="kachel" href="/film/ein-seltsames-paar">
+    <img src="https://image.tmdb.org/t/p/w500/mYBr3jIRWolUy9b1zzc0LQfhjSr.jpg" loading="lazy" alt="Ein seltsames Paar">
+    <span class="kachel-titel">Ein seltsames Paar</span>
+    <span class="kachel-jahr">1991</span>
+  </a><a class="kachel" href="/film/arche-nora">
+    <img src="https://image.tmdb.org/t/p/w500/A8pAajp17vh3uuvwnyDupCQaeV1.jpg" loading="lazy" alt="Arche Nora">
+    <span class="kachel-titel">Arche Nora</span>
+    <span class="kachel-jahr">1948</span>
+  </a><a class="kachel" href="/film/engel-im-abendkleid">
+    <img src="https://image.tmdb.org/t/p/w500/l1a5U5HrsJZrITJnvBimkaTzUgV.jpg" loading="lazy" alt="Engel im Abendkleid">
+    <span class="kachel-titel">Engel im Abendkleid</span>
+    <span class="kachel-jahr">1951</span>
+  </a><a class="kachel" href="/film/der-sommer-als-ich-fliegen-lernte">
+    <img src="https://image.tmdb.org/t/p/w500/pWgG8qoCMFQJK3KFSHm9Sdweq0U.jpg" loading="lazy" alt="Der Sommer, als ich fliegen lernte">
+    <span class="kachel-titel">Der Sommer, als ich fliegen lernte</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/schoen-muss-man-sein">
+    <img src="https://image.tmdb.org/t/p/w500/WIDgeNhZByMayI0t2NbSgiIFae.jpg" loading="lazy" alt="Schön muß man sein">
+    <span class="kachel-titel">Schön muß man sein</span>
+    <span class="kachel-jahr">1951</span>
+  </a><a class="kachel" href="/film/kreuzfeuer">
+    <img src="https://image.tmdb.org/t/p/w500/yKI214TJNjhk2MPB9Dp4TqTVry7.jpg" loading="lazy" alt="Kreuzfeuer">
+    <span class="kachel-titel">Kreuzfeuer</span>
+    <span class="kachel-jahr">1997</span>
+  </a><a class="kachel" href="/film/der-general">
+    <img src="https://image.tmdb.org/t/p/w500/tiiBh045iOo6xUh2EbGNDj7f9ZD.jpg" loading="lazy" alt="Der General">
+    <span class="kachel-titel">Der General</span>
+    <span class="kachel-jahr">1926</span>
+  </a><a class="kachel" href="/film/el-infierno">
+    <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
+    <span class="kachel-titel">El Infierno</span>
+    <span class="kachel-jahr">2010</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Thriller <a class="mehr" href="/alle?genre=Thriller">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/dr-berg-nur-das-leben-zaehlt">
+    <img src="https://image.tmdb.org/t/p/w500/nHxbdFgrdcktmAfOeZlt6aFA52C.jpg" loading="lazy" alt="Dr. Berg - Nur das Leben zählt">
+    <span class="kachel-titel">Dr. Berg - Nur das Leben zählt</span>
+    <span class="kachel-jahr">1998</span>
+  </a><a class="kachel" href="/film/l-a-task-force">
+    <img src="https://image.tmdb.org/t/p/w500/y9PN91V4CBY0z8Bz6HGtaKIt8Pe.jpg" loading="lazy" alt="L.A. Task Force">
+    <span class="kachel-titel">L.A. Task Force</span>
+    <span class="kachel-jahr">1994</span>
+  </a><a class="kachel" href="/film/atomic-city">
+    <img src="https://image.tmdb.org/t/p/w500/1wKiAWIiHX9jqwi5bt8mIHzKEsL.jpg" loading="lazy" alt="Atomic City">
+    <span class="kachel-titel">Atomic City</span>
+    <span class="kachel-jahr">1973</span>
+  </a><a class="kachel" href="/film/obsession-du-sollst-mich-lieben">
+    <img src="https://image.tmdb.org/t/p/w500/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg" loading="lazy" alt="Obsession – Du sollst mich lieben">
+    <span class="kachel-titel">Obsession – Du sollst mich lieben</span>
+    <span class="kachel-jahr">2026</span>
+  </a><a class="kachel" href="/film/ermittlungen-gegen-einen-ueber-jeden-verdacht-erhabenen-buer">
+    <img src="https://image.tmdb.org/t/p/w500/rNh0rr05KbU54Ub5moqUzDK38gT.jpg" loading="lazy" alt="Ermittlungen gegen einen über jeden Verdacht erhabenen Bürger">
+    <span class="kachel-titel">Ermittlungen gegen einen über jeden Verdacht erhabenen Bürger</span>
+    <span class="kachel-jahr">1970</span>
+  </a><a class="kachel" href="/film/m-eine-stadt-sucht-einen-moerder">
+    <img src="https://image.tmdb.org/t/p/w500/oZheqlzWYyo1uinAN5CSXilX5Wb.jpg" loading="lazy" alt="M - Eine Stadt sucht einen Mörder">
+    <span class="kachel-titel">M - Eine Stadt sucht einen Mörder</span>
+    <span class="kachel-jahr">1931</span>
+  </a><a class="kachel" href="/film/crack-2">
+    <img src="https://image.tmdb.org/t/p/w500/4Ns0F2y1wZPcxJNfwERDjTgsmf8.jpg" loading="lazy" alt="Crack">
+    <span class="kachel-titel">Crack</span>
+    <span class="kachel-jahr">2024</span>
+  </a><a class="kachel" href="/film/shelter">
+    <img src="https://image.tmdb.org/t/p/w500/fz8fhY5xuE6NenYDuBsHbB7wUdj.jpg" loading="lazy" alt="Shelter">
+    <span class="kachel-titel">Shelter</span>
+    <span class="kachel-jahr">2026</span>
+  </a><a class="kachel" href="/film/mord-mit-kleinen-fehlern">
+    <img src="https://image.tmdb.org/t/p/w500/l4vzU0PJLVJDhNG7GhRIyZ6rMOf.jpg" loading="lazy" alt="Mord mit kleinen Fehlern">
+    <span class="kachel-titel">Mord mit kleinen Fehlern</span>
+    <span class="kachel-jahr">1972</span>
+  </a><a class="kachel" href="/film/die-warriors">
+    <img src="https://image.tmdb.org/t/p/w500/2KnekNUjeYQZf9te6aDgIv8DVpQ.jpg" loading="lazy" alt="Die Warriors">
+    <span class="kachel-titel">Die Warriors</span>
+    <span class="kachel-jahr">1979</span>
+  </a><a class="kachel" href="/film/deadly-ransom-toedliches-loesegeld">
+    <img src="https://image.tmdb.org/t/p/w500/rm4XLRkp1mIZ3p9KpK6ihN7WgSW.jpg" loading="lazy" alt="Deadly Ransom - Tödliches Lösegeld">
+    <span class="kachel-titel">Deadly Ransom - Tödliches Lösegeld</span>
+    <span class="kachel-jahr">1998</span>
+  </a><a class="kachel" href="/film/heisses-eisen">
+    <img src="https://image.tmdb.org/t/p/w500/4yHIEat0O0TylcetNp2sF3A5jUu.jpg" loading="lazy" alt="Heißes Eisen">
+    <span class="kachel-titel">Heißes Eisen</span>
+    <span class="kachel-jahr">1953</span>
+  </a><a class="kachel" href="/film/die-nacht-der-lebenden-toten">
+    <img src="https://image.tmdb.org/t/p/w500/duPDqFFRkwKcGfVibBvtVKA7VNh.jpg" loading="lazy" alt="Die Nacht der lebenden Toten">
+    <span class="kachel-titel">Die Nacht der lebenden Toten</span>
+    <span class="kachel-jahr">1968</span>
+  </a><a class="kachel" href="/film/jfk-tatort-dallas">
+    <img src="https://image.tmdb.org/t/p/w500/akodHee7ZRyku6yfVtQOVMSES2K.jpg" loading="lazy" alt="JFK - Tatort Dallas">
+    <span class="kachel-titel">JFK - Tatort Dallas</span>
+    <span class="kachel-jahr">1991</span>
+  </a><a class="kachel" href="/film/glorreiche-verlierer">
+    <img src="https://image.tmdb.org/t/p/w500/5R9NPIKqTAjj8cCeAW0kZ12V8ZG.jpg" loading="lazy" alt="Glorreiche Verlierer">
+    <span class="kachel-titel">Glorreiche Verlierer</span>
+    <span class="kachel-jahr">2019</span>
+  </a><a class="kachel" href="/film/halloween-die-nacht-des-grauens">
+    <img src="https://image.tmdb.org/t/p/w500/mWm1FkerRpBFyaYtvcAMMTjz38o.jpg" loading="lazy" alt="Halloween - Die Nacht des Grauens">
+    <span class="kachel-titel">Halloween - Die Nacht des Grauens</span>
+    <span class="kachel-jahr">1978</span>
+  </a><a class="kachel" href="/film/das-verhoer">
+    <img src="https://image.tmdb.org/t/p/w500/nDV4WX6M8quGP5Y8ChLz8ZsVphu.jpg" loading="lazy" alt="Das Verhör">
+    <span class="kachel-titel">Das Verhör</span>
+    <span class="kachel-jahr">1981</span>
+  </a><a class="kachel" href="/film/milano-kaliber-9">
+    <img src="https://image.tmdb.org/t/p/w500/sOvBaSE0Nvlor86fYfEz2UdtyTm.jpg" loading="lazy" alt="Milano Kaliber 9">
+    <span class="kachel-titel">Milano Kaliber 9</span>
+    <span class="kachel-jahr">1972</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Drama <a class="mehr" href="/alle?genre=Drama">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/dr-berg-nur-das-leben-zaehlt">
+    <img src="https://image.tmdb.org/t/p/w500/nHxbdFgrdcktmAfOeZlt6aFA52C.jpg" loading="lazy" alt="Dr. Berg - Nur das Leben zählt">
+    <span class="kachel-titel">Dr. Berg - Nur das Leben zählt</span>
+    <span class="kachel-jahr">1998</span>
+  </a><a class="kachel" href="/film/feiertag">
+    <img src="https://image.tmdb.org/t/p/w500/lb9T3TgkNQMFEK8M2SQ5mEHOydR.jpg" loading="lazy" alt="Feiertag">
+    <span class="kachel-titel">Feiertag</span>
+    <span class="kachel-jahr">2002</span>
+  </a><a class="kachel" href="/film/tequila-express">
+    <img src="https://image.tmdb.org/t/p/w500/qW1iFWam2UQRFqZf36qxcUUVCQK.jpg" loading="lazy" alt="Tequila Express">
+    <span class="kachel-titel">Tequila Express</span>
+    <span class="kachel-jahr">2002</span>
+  </a><a class="kachel" href="/film/brennan-groesser-als-dein-herz">
+    <img src="https://image.tmdb.org/t/p/w500/sO1cGFuOTeSIneYfQOdv2J31HWu.jpg" loading="lazy" alt="Brennan - Größer als dein Herz">
+    <span class="kachel-titel">Brennan - Größer als dein Herz</span>
+    <span class="kachel-jahr">2016</span>
+  </a><a class="kachel" href="/film/kinder-der-berge">
+    <img src="https://image.tmdb.org/t/p/w500/mMsZ5QY5mN9Se272Zp8x45aqCZ.jpg" loading="lazy" alt="Kinder der Berge">
+    <span class="kachel-titel">Kinder der Berge</span>
+    <span class="kachel-jahr">1958</span>
+  </a><a class="kachel" href="/film/unternehmen-schlafsack">
+    <img src="https://image.tmdb.org/t/p/w500/5CkFX6hqLA0mQZTdIdAygxbH9hQ.jpg" loading="lazy" alt="Unternehmen Schlafsack">
+    <span class="kachel-titel">Unternehmen Schlafsack</span>
+    <span class="kachel-jahr">1955</span>
+  </a><a class="kachel" href="/film/buana-die-weissen-loewen-von-timbawati">
+    <img src="https://image.tmdb.org/t/p/w500/gCTE3YnbX5cL68IMWxe5GTMUKdM.jpg" loading="lazy" alt="Buana - Die weißen Löwen von Timbawati">
+    <span class="kachel-titel">Buana - Die weißen Löwen von Timbawati</span>
+    <span class="kachel-jahr">1981</span>
+  </a><a class="kachel" href="/film/crash-kids">
+    <img src="https://i.ytimg.com/vi/QrNryKh17X8/maxresdefault.jpg" loading="lazy" alt="Crash Kids">
+    <span class="kachel-titel">Crash Kids</span>
+    <span class="kachel-jahr">1997</span>
+  </a><a class="kachel" href="/film/tor-zum-himmel">
+    <img src="https://image.tmdb.org/t/p/w500/reNXBhJ407hk7716eq4nKrIhqO3.jpg" loading="lazy" alt="Tor zum Himmel">
+    <span class="kachel-titel">Tor zum Himmel</span>
+    <span class="kachel-jahr">2003</span>
+  </a><a class="kachel" href="/film/unter-der-flagge-der-freibeuter">
+    <img src="https://image.tmdb.org/t/p/w500/oClw9D7XdIbedXOtDBLWF1Jnbvp.jpg" loading="lazy" alt="Unter der Flagge der Freibeuter">
+    <span class="kachel-titel">Unter der Flagge der Freibeuter</span>
+    <span class="kachel-jahr">1961</span>
+  </a><a class="kachel" href="/film/kung-fu-die-toedliche-rache">
+    <img src="https://image.tmdb.org/t/p/w500/pssOIHPleh6Y2DhcMna0WcbyRck.jpg" loading="lazy" alt="Kung Fu - Die tödliche Rache">
+    <span class="kachel-titel">Kung Fu - Die tödliche Rache</span>
+    <span class="kachel-jahr">1973</span>
+  </a><a class="kachel" href="/film/die-kriegsbraut">
+    <img src="https://image.tmdb.org/t/p/w500/3siM6faiqn804vAXvjknPC6H5EG.jpg" loading="lazy" alt="Die Kriegsbraut">
+    <span class="kachel-titel">Die Kriegsbraut</span>
+    <span class="kachel-jahr">1974</span>
+  </a><a class="kachel" href="/film/horse-camp-sommer-der-abenteuer">
+    <img src="https://image.tmdb.org/t/p/w500/ppBhvOUbNNCzxHI7ouyyCy1HneJ.jpg" loading="lazy" alt="Horse Camp - Sommer der Abenteuer">
+    <span class="kachel-titel">Horse Camp - Sommer der Abenteuer</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/arche-nora">
+    <img src="https://image.tmdb.org/t/p/w500/A8pAajp17vh3uuvwnyDupCQaeV1.jpg" loading="lazy" alt="Arche Nora">
+    <span class="kachel-titel">Arche Nora</span>
+    <span class="kachel-jahr">1948</span>
+  </a><a class="kachel" href="/film/lockende-gefahr">
+    <img src="https://i.ytimg.com/vi/ktjSB7eFWDI/maxresdefault.jpg" loading="lazy" alt="Lockende Gefahr">
+    <span class="kachel-titel">Lockende Gefahr</span>
+    <span class="kachel-jahr">1950</span>
+  </a><a class="kachel" href="/film/berlin">
+    <img src="https://image.tmdb.org/t/p/w500/3VPFsQvuF0d3vFcB9GBsgwGDDP.jpg" loading="lazy" alt="BeRLiN">
+    <span class="kachel-titel">BeRLiN</span>
+    <span class="kachel-jahr">1995</span>
+  </a><a class="kachel" href="/film/der-wald">
+    <img src="https://i.ytimg.com/vi/EYjaF390cx8/maxresdefault.jpg" loading="lazy" alt="Der Wald">
+    <span class="kachel-titel">Der Wald</span>
+    <span class="kachel-jahr">1979</span>
+  </a><a class="kachel" href="/film/maschenka">
+    <img src="https://image.tmdb.org/t/p/w500/hw6lGbHcxN3xhhyQoZuIqtDww6l.jpg" loading="lazy" alt="Maschenka">
+    <span class="kachel-titel">Maschenka</span>
+    <span class="kachel-jahr">1987</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Horror <a class="mehr" href="/alle?genre=Horror">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/ragdoll">
+    <img src="https://image.tmdb.org/t/p/w500/ulcWMBC01byZa3xsoFpvBtaeb3x.jpg" loading="lazy" alt="Ragdoll">
+    <span class="kachel-titel">Ragdoll</span>
+    <span class="kachel-jahr">2023</span>
+  </a><a class="kachel" href="/film/pray-for-dawn-bunker-der-schmerzen">
+    <img src="https://image.tmdb.org/t/p/w500/bBFmevpMgX3C4bFX3WjcayZxAxE.jpg" loading="lazy" alt="Pray for Dawn - Bunker der Schmerzen">
+    <span class="kachel-titel">Pray for Dawn - Bunker der Schmerzen</span>
+    <span class="kachel-jahr">2011</span>
+  </a><a class="kachel" href="/film/obsession-du-sollst-mich-lieben">
+    <img src="https://image.tmdb.org/t/p/w500/1bAhSRf3BVOCI9zNzTLrsJA1LAq.jpg" loading="lazy" alt="Obsession – Du sollst mich lieben">
+    <span class="kachel-titel">Obsession – Du sollst mich lieben</span>
+    <span class="kachel-jahr">2026</span>
+  </a><a class="kachel" href="/film/culpa">
+    <img src="https://image.tmdb.org/t/p/w500/u2qTr8DEjDijoYSTzrta9PXCyPt.jpg" loading="lazy" alt="Culpa">
+    <span class="kachel-titel">Culpa</span>
+    <span class="kachel-jahr">2020</span>
+  </a><a class="kachel" href="/film/crack-2">
+    <img src="https://image.tmdb.org/t/p/w500/4Ns0F2y1wZPcxJNfwERDjTgsmf8.jpg" loading="lazy" alt="Crack">
+    <span class="kachel-titel">Crack</span>
+    <span class="kachel-jahr">2024</span>
+  </a><a class="kachel" href="/film/die-nacht-der-lebenden-toten">
+    <img src="https://image.tmdb.org/t/p/w500/duPDqFFRkwKcGfVibBvtVKA7VNh.jpg" loading="lazy" alt="Die Nacht der lebenden Toten">
+    <span class="kachel-titel">Die Nacht der lebenden Toten</span>
+    <span class="kachel-jahr">1968</span>
+  </a><a class="kachel" href="/film/halloween-die-nacht-des-grauens">
+    <img src="https://image.tmdb.org/t/p/w500/mWm1FkerRpBFyaYtvcAMMTjz38o.jpg" loading="lazy" alt="Halloween - Die Nacht des Grauens">
+    <span class="kachel-titel">Halloween - Die Nacht des Grauens</span>
+    <span class="kachel-jahr">1978</span>
+  </a><a class="kachel" href="/film/macumba-love">
+    <img src="https://image.tmdb.org/t/p/w500/aAJyPkGOnB0ZJI8C6b9eM3rWsoS.jpg" loading="lazy" alt="Macumba Love">
+    <span class="kachel-titel">Macumba Love</span>
+    <span class="kachel-jahr">1960</span>
+  </a><a class="kachel" href="/film/bram-stokers-dracula">
+    <img src="https://image.tmdb.org/t/p/w500/5jkixIm1Tm2lRMkkZHW8Dr5envx.jpg" loading="lazy" alt="Bram Stokers Dracula">
+    <span class="kachel-titel">Bram Stokers Dracula</span>
+    <span class="kachel-jahr">1992</span>
+  </a><a class="kachel" href="/film/gamera-guardian-of-the-universe">
+    <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
+    <span class="kachel-titel">Gamera - Guardian of the Universe</span>
+    <span class="kachel-jahr">1995</span>
+  </a><a class="kachel" href="/film/das-geheimnis-von-marrowbone">
+    <img src="https://image.tmdb.org/t/p/w500/snwmeKR5kUoCOsQn0yZ4kaHyZGj.jpg" loading="lazy" alt="Das Geheimnis von Marrowbone">
+    <span class="kachel-titel">Das Geheimnis von Marrowbone</span>
+    <span class="kachel-jahr">2017</span>
+  </a><a class="kachel" href="/film/dracula-die-auferstehung">
+    <img src="https://image.tmdb.org/t/p/w500/pcNwDuieKeSxz6CyOqASdp9oqzt.jpg" loading="lazy" alt="Dracula - Die Auferstehung">
+    <span class="kachel-titel">Dracula - Die Auferstehung</span>
+    <span class="kachel-jahr">2025</span>
+  </a><a class="kachel" href="/film/return-of-punch-and-judy">
+    <img src="https://image.tmdb.org/t/p/w500/qAzn9ZOK518mUq4MVnjO1D1RYOC.jpg" loading="lazy" alt="Return of Punch and Judy">
+    <span class="kachel-titel">Return of Punch and Judy</span>
+    <span class="kachel-jahr">2023</span>
+  </a><a class="kachel" href="/film/das-phantom-der-oper">
+    <img src="https://image.tmdb.org/t/p/w500/9SXZ8fEZv5OB83J2RytZe3nl82P.jpg" loading="lazy" alt="Das Phantom der Oper">
+    <span class="kachel-titel">Das Phantom der Oper</span>
+    <span class="kachel-jahr">1925</span>
+  </a><a class="kachel" href="/film/ein-toter-spielt-klavier">
+    <img src="https://image.tmdb.org/t/p/w500/v3ruaPi7oneTrqkQaFzpxW0htFP.jpg" loading="lazy" alt="Ein Toter spielt Klavier">
+    <span class="kachel-titel">Ein Toter spielt Klavier</span>
+    <span class="kachel-jahr">1961</span>
+  </a><a class="kachel" href="/film/der-unsichtbare">
+    <img src="https://image.tmdb.org/t/p/w500/q2I1yFqDFyuIT3wfmv7fPIV05DV.jpg" loading="lazy" alt="Der Unsichtbare">
+    <span class="kachel-titel">Der Unsichtbare</span>
+    <span class="kachel-jahr">2020</span>
+  </a><a class="kachel" href="/film/die-rabenschwarze-nacht">
+    <img src="https://image.tmdb.org/t/p/w500/xY25rKRgpZ6UP74HZqVKGoOi0yG.jpg" loading="lazy" alt="Die rabenschwarze Nacht">
+    <span class="kachel-titel">Die rabenschwarze Nacht</span>
+    <span class="kachel-jahr">1985</span>
+  </a><a class="kachel" href="/film/jessy-die-treppe-in-den-tod">
+    <img src="https://image.tmdb.org/t/p/w500/vNTtbmk0V7PBJFy02HoX3mAfSGW.jpg" loading="lazy" alt="Jessy - Die Treppe in den Tod">
+    <span class="kachel-titel">Jessy - Die Treppe in den Tod</span>
+    <span class="kachel-jahr">1974</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Science Fiction <a class="mehr" href="/alle?genre=Science%20Fiction">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/mr-nobody">
+    <img src="https://image.tmdb.org/t/p/w500/qNkIONc4Rgmzo23ph7qWp9QfVnW.jpg" loading="lazy" alt="Mr. Nobody">
+    <span class="kachel-titel">Mr. Nobody</span>
+    <span class="kachel-jahr">2009</span>
+  </a><a class="kachel" href="/film/brazil">
+    <img src="https://image.tmdb.org/t/p/w500/aewan59WcFThBimkTVVoNf2o5Vb.jpg" loading="lazy" alt="Brazil">
+    <span class="kachel-titel">Brazil</span>
+    <span class="kachel-jahr">1985</span>
+  </a><a class="kachel" href="/film/the-return-of-the-first-avenger">
+    <img src="https://image.tmdb.org/t/p/w500/14vWmCoZHXajYmtqSsswWpSOdrd.jpg" loading="lazy" alt="The Return of the First Avenger">
+    <span class="kachel-titel">The Return of the First Avenger</span>
+    <span class="kachel-jahr">2014</span>
+  </a><a class="kachel" href="/film/the-man-from-earth">
+    <img src="https://image.tmdb.org/t/p/w500/V086R82gNgWrotaXZFO4JhdgB1.jpg" loading="lazy" alt="The Man from Earth">
+    <span class="kachel-titel">The Man from Earth</span>
+    <span class="kachel-jahr">2007</span>
+  </a><a class="kachel" href="/film/die-nacht-der-lebenden-toten">
+    <img src="https://image.tmdb.org/t/p/w500/duPDqFFRkwKcGfVibBvtVKA7VNh.jpg" loading="lazy" alt="Die Nacht der lebenden Toten">
+    <span class="kachel-titel">Die Nacht der lebenden Toten</span>
+    <span class="kachel-jahr">1968</span>
+  </a><a class="kachel" href="/film/die-rueckkehr-des-sherlock-holmes">
+    <img src="https://image.tmdb.org/t/p/w500/rM1v2UgkLgU1FrWkimDVGXCeAhR.jpg" loading="lazy" alt="Die Rückkehr des Sherlock Holmes">
+    <span class="kachel-titel">Die Rückkehr des Sherlock Holmes</span>
+    <span class="kachel-jahr">1993</span>
+  </a><a class="kachel" href="/film/gamera-guardian-of-the-universe">
+    <img src="https://image.tmdb.org/t/p/w500/fvst8OS2cZ4OVuV5Cee4oL8fos7.jpg" loading="lazy" alt="Gamera - Guardian of the Universe">
+    <span class="kachel-titel">Gamera - Guardian of the Universe</span>
+    <span class="kachel-jahr">1995</span>
+  </a><a class="kachel" href="/film/a-billion-stars-im-universum-ist-man-nicht-allein">
+    <img src="https://image.tmdb.org/t/p/w500/yGyOfneMYcbZgrBXt0UMUKa63GM.jpg" loading="lazy" alt="A Billion Stars - Im Universum ist man nicht allein">
+    <span class="kachel-titel">A Billion Stars - Im Universum ist man nicht allein</span>
+    <span class="kachel-jahr">2018</span>
+  </a><a class="kachel" href="/film/cj7-nicht-von-dieser-welt">
+    <img src="https://image.tmdb.org/t/p/w500/nrZscPdpTfZJMwQh8MtzwXgFhnd.jpg" loading="lazy" alt="CJ7 - Nicht von dieser Welt">
+    <span class="kachel-titel">CJ7 - Nicht von dieser Welt</span>
+    <span class="kachel-jahr">2008</span>
+  </a><a class="kachel" href="/film/spider-man-homecoming">
+    <img src="https://image.tmdb.org/t/p/w500/elU7H73qN3WEQmmfdn0CdH3q8H8.jpg" loading="lazy" alt="Spider-Man: Homecoming">
+    <span class="kachel-titel">Spider-Man: Homecoming</span>
+    <span class="kachel-jahr">2017</span>
+  </a><a class="kachel" href="/film/sie-leben">
+    <img src="https://image.tmdb.org/t/p/w500/hcBTqhyR6L4Rd5XAAhKyBSs54dw.jpg" loading="lazy" alt="Sie leben!">
+    <span class="kachel-titel">Sie leben!</span>
+    <span class="kachel-jahr">1988</span>
+  </a><a class="kachel" href="/film/appgefahren-alles-ist-moeglich">
+    <img src="https://image.tmdb.org/t/p/w500/7Gg5abFqH3RIANGG9L56Eqrj9G3.jpg" loading="lazy" alt="Appgefahren - Alles ist möglich">
+    <span class="kachel-titel">Appgefahren - Alles ist möglich</span>
+    <span class="kachel-jahr">2018</span>
+  </a><a class="kachel" href="/film/phineas-und-ferb-der-film-candace-gegen-das-universum">
+    <img src="https://image.tmdb.org/t/p/w500/wIWn5dJPxKrj7eECNbxCw3lLioB.jpg" loading="lazy" alt="Phineas und Ferb - Der Film: Candace gegen das Universum">
+    <span class="kachel-titel">Phineas und Ferb - Der Film: Candace gegen das Universum</span>
+    <span class="kachel-jahr">2020</span>
+  </a><a class="kachel" href="/film/mothra-bedroht-die-welt">
+    <img src="https://image.tmdb.org/t/p/w500/lV14pGw3R65gwFFNZpgLauIEl4J.jpg" loading="lazy" alt="Mothra bedroht die Welt">
+    <span class="kachel-titel">Mothra bedroht die Welt</span>
+    <span class="kachel-jahr">1961</span>
+  </a><a class="kachel" href="/film/der-unsichtbare">
+    <img src="https://image.tmdb.org/t/p/w500/q2I1yFqDFyuIT3wfmv7fPIV05DV.jpg" loading="lazy" alt="Der Unsichtbare">
+    <span class="kachel-titel">Der Unsichtbare</span>
+    <span class="kachel-jahr">2020</span>
+  </a><a class="kachel" href="/film/20-000-meilen-unter-dem-meer-2">
+    <img src="https://image.tmdb.org/t/p/w500/lIG7hFveDF1wLnWrMwacbAh7sj1.jpg" loading="lazy" alt="20.000 Meilen unter dem Meer">
+    <span class="kachel-titel">20.000 Meilen unter dem Meer</span>
+    <span class="kachel-jahr">1954</span>
+  </a><a class="kachel" href="/film/reset">
+    <img src="https://image.tmdb.org/t/p/w500/5PKpCXnZYoRwwMLlLV4una7pBLb.jpg" loading="lazy" alt="Reset">
+    <span class="kachel-titel">Reset</span>
+    <span class="kachel-jahr">2016</span>
+  </a><a class="kachel" href="/film/starman">
+    <img src="https://image.tmdb.org/t/p/w500/rmpXoSkoi5sFs4NWfpkW94tLKd4.jpg" loading="lazy" alt="Starman">
+    <span class="kachel-titel">Starman</span>
+    <span class="kachel-jahr">1984</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Western <a class="mehr" href="/alle?genre=Western">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/crazy-horse-der-stolze-krieger">
+    <img src="https://image.tmdb.org/t/p/w500/7r4ZsO94xsywEJ3ZH8JHjDhj8EG.jpg" loading="lazy" alt="Crazy Horse - Der stolze Krieger">
+    <span class="kachel-titel">Crazy Horse - Der stolze Krieger</span>
+    <span class="kachel-jahr">1996</span>
+  </a><a class="kachel" href="/film/lederstrumpf-der-letzte-mohikaner">
+    <img src="https://image.tmdb.org/t/p/w500/1XiamNXL89inel5lVK3lRRE7rxu.jpg" loading="lazy" alt="Lederstrumpf - Der letzte Mohikaner">
+    <span class="kachel-titel">Lederstrumpf - Der letzte Mohikaner</span>
+    <span class="kachel-jahr">1965</span>
+  </a><a class="kachel" href="/film/el-infierno">
+    <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
+    <span class="kachel-titel">El Infierno</span>
+    <span class="kachel-jahr">2010</span>
+  </a><a class="kachel" href="/film/wir-werden-das-kind-schon-schaukeln">
+    <img src="https://image.tmdb.org/t/p/w500/rKIxCkI4UPcVT28WOOWubkdpOY2.jpg" loading="lazy" alt="Wir werden das Kind schon schaukeln">
+    <span class="kachel-titel">Wir werden das Kind schon schaukeln</span>
+    <span class="kachel-jahr">1981</span>
+  </a><a class="kachel" href="/film/zorro-der-blutrote-adler">
+    <img src="https://image.tmdb.org/t/p/w500/b3mKe8bMVcBP0WOY3mrlmfFANyO.jpg" loading="lazy" alt="Zorro - Der Blutrote Adler">
+    <span class="kachel-titel">Zorro - Der Blutrote Adler</span>
+    <span class="kachel-jahr">1936</span>
+  </a><a class="kachel" href="/film/grizzly-adams">
+    <img src="https://image.tmdb.org/t/p/w500/36JM5Qgdp2M6J53Zti7q7hqafEB.jpg" loading="lazy" alt="Grizzly Adams">
+    <span class="kachel-titel">Grizzly Adams</span>
+    <span class="kachel-jahr">1999</span>
+  </a><a class="kachel" href="/film/nate-und-der-colonel">
+    <img src="https://image.tmdb.org/t/p/w500/eZ9M6b3Q4og9XqH0dB42CKBbS8m.jpg" loading="lazy" alt="Nate und der Colonel">
+    <span class="kachel-titel">Nate und der Colonel</span>
+    <span class="kachel-jahr">2003</span>
+  </a><a class="kachel" href="/film/die-krieger-der-cheyenne">
+    <img src="https://image.tmdb.org/t/p/w500/hXgPL2kApqJtPwd76mzf6FchQp3.jpg" loading="lazy" alt="Die Krieger der Cheyenne">
+    <span class="kachel-titel">Die Krieger der Cheyenne</span>
+    <span class="kachel-jahr">1994</span>
+  </a><a class="kachel" href="/film/fliegende-hufe">
+    <img src="https://image.tmdb.org/t/p/w500/oyhDy71UV7TaSc5zpCPvASbpFrh.jpg" loading="lazy" alt="Fliegende Hufe">
+    <span class="kachel-titel">Fliegende Hufe</span>
+    <span class="kachel-jahr">1954</span>
+  </a><a class="kachel" href="/film/der-wildeste-unter-tausend">
+    <img src="https://image.tmdb.org/t/p/w500/msdUOyYyYvNlR2SBqfwVArHSefJ.jpg" loading="lazy" alt="Der Wildeste unter Tausend">
+    <span class="kachel-titel">Der Wildeste unter Tausend</span>
+    <span class="kachel-jahr">1963</span>
+  </a><a class="kachel" href="/film/das-zerrissene-lasso">
+    <img src="https://image.tmdb.org/t/p/w500/1X8ta3mpbUiWRU7ZrYaNdWju1Yo.jpg" loading="lazy" alt="Das Zerrissene Lasso">
+    <span class="kachel-titel">Das Zerrissene Lasso</span>
+    <span class="kachel-jahr">1962</span>
+  </a><a class="kachel" href="/film/wie-ein-schrei-im-wind">
+    <img src="https://image.tmdb.org/t/p/w500/oUACvXDZfG6xUzVDAdb2AszI26u.jpg" loading="lazy" alt="Wie ein Schrei im Wind">
+    <span class="kachel-titel">Wie ein Schrei im Wind</span>
+    <span class="kachel-jahr">1966</span>
+  </a><a class="kachel" href="/film/das-zeichen-des-zorro">
+    <img src="https://image.tmdb.org/t/p/w500/1N1gSSJs9ULgSWUM0W7zCXSR2QK.jpg" loading="lazy" alt="Das Zeichen des Zorro">
+    <span class="kachel-titel">Das Zeichen des Zorro</span>
+    <span class="kachel-jahr">1920</span>
+  </a><a class="kachel" href="/film/um-kopf-und-kragen">
+    <img src="https://image.tmdb.org/t/p/w500/dbNwcQfjUFlvLZZewURTJSTXHpy.jpg" loading="lazy" alt="Um Kopf und Kragen">
+    <span class="kachel-titel">Um Kopf und Kragen</span>
+    <span class="kachel-jahr">1957</span>
+  </a><a class="kachel" href="/film/der-letzte-seines-stammes">
+    <img src="https://image.tmdb.org/t/p/w500/mODg2N8vvnuDMeiYuWymCPmYF8m.jpg" loading="lazy" alt="Der Letzte seines Stammes">
+    <span class="kachel-titel">Der Letzte seines Stammes</span>
+    <span class="kachel-jahr">1992</span>
+  </a><a class="kachel" href="/film/an-der-spitze-der-apachen">
+    <img src="https://image.tmdb.org/t/p/w500/eATxKgpzOzbk1GI7fEh2MmzkJpq.jpg" loading="lazy" alt="An der Spitze der Apachen">
+    <span class="kachel-titel">An der Spitze der Apachen</span>
+    <span class="kachel-jahr">1952</span>
+  </a><a class="kachel" href="/film/der-mann-ohne-furcht">
+    <img src="https://image.tmdb.org/t/p/w500/hvWs3GFh5ZfRIvFWGee8iqRalhd.jpg" loading="lazy" alt="Der Mann ohne Furcht">
+    <span class="kachel-titel">Der Mann ohne Furcht</span>
+    <span class="kachel-jahr">1956</span>
+  </a><a class="kachel" href="/film/zwei-aasgeier-auf-dem-weg-zur-hoelle">
+    <img src="https://image.tmdb.org/t/p/w500/6RwhRuRIOFqaBRtyZB3TcRY8V4j.jpg" loading="lazy" alt="Zwei Aasgeier auf dem Weg zur Hölle">
+    <span class="kachel-titel">Zwei Aasgeier auf dem Weg zur Hölle</span>
+    <span class="kachel-jahr">1968</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Familie <a class="mehr" href="/alle?genre=Familie">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/horse-camp-sommer-der-abenteuer">
+    <img src="https://image.tmdb.org/t/p/w500/ppBhvOUbNNCzxHI7ouyyCy1HneJ.jpg" loading="lazy" alt="Horse Camp - Sommer der Abenteuer">
+    <span class="kachel-titel">Horse Camp - Sommer der Abenteuer</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/der-sanfte-ben">
+    <img src="https://image.tmdb.org/t/p/w500/rSeDS8eB2gH052cP5jKoGStk5Zm.jpg" loading="lazy" alt="Der sanfte Ben">
+    <span class="kachel-titel">Der sanfte Ben</span>
+    <span class="kachel-jahr">1967</span>
+  </a><a class="kachel" href="/film/kalle-und-der-engel">
+    <img src="https://image.tmdb.org/t/p/w500/iWre2QzpJnTMACMdHEEv1SCcEL.jpg" loading="lazy" alt="Kalle und der Engel">
+    <span class="kachel-titel">Kalle und der Engel</span>
+    <span class="kachel-jahr">1993</span>
+  </a><a class="kachel" href="/film/shelly-orphan-im-schicksal-vereint">
+    <img src="https://image.tmdb.org/t/p/w500/2HWDEQ3btazAJvEbGXA5aszln0u.jpg" loading="lazy" alt="Shelly &amp; Orphan - Im Schicksal vereint">
+    <span class="kachel-titel">Shelly &amp; Orphan - Im Schicksal vereint</span>
+    <span class="kachel-jahr">2018</span>
+  </a><a class="kachel" href="/film/der-sommer-als-ich-fliegen-lernte">
+    <img src="https://image.tmdb.org/t/p/w500/pWgG8qoCMFQJK3KFSHm9Sdweq0U.jpg" loading="lazy" alt="Der Sommer, als ich fliegen lernte">
+    <span class="kachel-titel">Der Sommer, als ich fliegen lernte</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/die-total-verrueckte-zauberinsel">
+    <img src="https://image.tmdb.org/t/p/w500/8ZOrl8tRpeYXfksdMAhpAeY20ja.jpg" loading="lazy" alt="Die total verrückte Zauberinsel">
+    <span class="kachel-titel">Die total verrückte Zauberinsel</span>
+    <span class="kachel-jahr">2019</span>
+  </a><a class="kachel" href="/film/wo-der-wind-weht">
+    <img src="https://image.tmdb.org/t/p/w500/rK7C7Vya1QpCLY9eoybRlGugVk9.jpg" loading="lazy" alt="Wo der Wind weht">
+    <span class="kachel-titel">Wo der Wind weht</span>
+    <span class="kachel-jahr">2018</span>
+  </a><a class="kachel" href="/film/hachiko-wahre-freundschaft-waehrt-ewig">
+    <img src="https://image.tmdb.org/t/p/w500/pcpbNBWqf6FUr1FLHW47BK3MYPR.jpg" loading="lazy" alt="Hachiko - Wahre Freundschaft währt ewig">
+    <span class="kachel-titel">Hachiko - Wahre Freundschaft währt ewig</span>
+    <span class="kachel-jahr">1987</span>
+  </a><a class="kachel" href="/film/nenn-mich-einfach-axel">
+    <img src="https://image.tmdb.org/t/p/w500/jCMD5sLKBrB7JUU98p1m5TAvUdz.jpg" loading="lazy" alt="Nenn’ mich einfach Axel">
+    <span class="kachel-titel">Nenn’ mich einfach Axel</span>
+    <span class="kachel-jahr">2002</span>
+  </a><a class="kachel" href="/film/der-arme-teufel-und-das-glueck">
+    <img src="https://image.tmdb.org/t/p/w500/fDfF9dG4uy384rBmNJAEZlQ5mpY.jpg" loading="lazy" alt="Der arme Teufel und das Glück">
+    <span class="kachel-titel">Der arme Teufel und das Glück</span>
+    <span class="kachel-jahr">2017</span>
+  </a><a class="kachel" href="/film/das-ultimative-geschenk">
+    <img src="https://image.tmdb.org/t/p/w500/nhGMNliY9O8Qsu73V6aPSGsXHGW.jpg" loading="lazy" alt="Das ultimative Geschenk">
+    <span class="kachel-titel">Das ultimative Geschenk</span>
+    <span class="kachel-jahr">2007</span>
+  </a><a class="kachel" href="/film/wir-sind-champions">
+    <img src="https://image.tmdb.org/t/p/w500/5ZD9GlPZz1aGwAcIZOXvvPOeP7.jpg" loading="lazy" alt="Wir sind Champions">
+    <span class="kachel-titel">Wir sind Champions</span>
+    <span class="kachel-jahr">2018</span>
+  </a><a class="kachel" href="/film/ferien-auf-dem-reiterhof">
+    <img src="https://image.tmdb.org/t/p/w500/bgAHH1m44RyRefLbUFAG0iOX03B.jpg" loading="lazy" alt="Ferien auf dem Reiterhof">
+    <span class="kachel-titel">Ferien auf dem Reiterhof</span>
+    <span class="kachel-jahr">2015</span>
+  </a><a class="kachel" href="/film/orangen-zu-weihnachten">
+    <img src="https://image.tmdb.org/t/p/w500/QJbuQ9x7k4I17S6ElYieMC6f9o.jpg" loading="lazy" alt="Orangen zu Weihnachten">
+    <span class="kachel-titel">Orangen zu Weihnachten</span>
+    <span class="kachel-jahr">2012</span>
+  </a><a class="kachel" href="/film/unser-leben">
+    <img src="https://image.tmdb.org/t/p/w500/bznQKkfyfxhgC3URKkkivE9GLQI.jpg" loading="lazy" alt="Unser Leben">
+    <span class="kachel-titel">Unser Leben</span>
+    <span class="kachel-jahr">2011</span>
+  </a><a class="kachel" href="/film/die-muppets-weihnachtsgeschichte">
+    <img src="https://image.tmdb.org/t/p/w500/7dcMDkenpMV0FM4jOOoKNfftpHg.jpg" loading="lazy" alt="Die Muppets Weihnachtsgeschichte">
+    <span class="kachel-titel">Die Muppets Weihnachtsgeschichte</span>
+    <span class="kachel-jahr">1992</span>
+  </a><a class="kachel" href="/film/das-maedchen-das-an-wunder-glaubt">
+    <img src="https://image.tmdb.org/t/p/w500/sK2U9tKQgh5W2GiQOggsx7BlBFp.jpg" loading="lazy" alt="Das Mädchen, das an Wunder glaubt">
+    <span class="kachel-titel">Das Mädchen, das an Wunder glaubt</span>
+    <span class="kachel-jahr">2021</span>
+  </a><a class="kachel" href="/film/tarzan-2">
+    <img src="https://image.tmdb.org/t/p/w500/kiooaH0Qaxn6gUY3zfSddKAdLiw.jpg" loading="lazy" alt="Tarzan">
+    <span class="kachel-titel">Tarzan</span>
+    <span class="kachel-jahr">1999</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Krimi <a class="mehr" href="/alle?genre=Krimi">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/mistaken-identity">
+    <img src="https://image.tmdb.org/t/p/w500/koR6jHZYmwGwBLB1am8vaIQlgof.jpg" loading="lazy" alt="Mistaken Identity">
+    <span class="kachel-titel">Mistaken Identity</span>
+    <span class="kachel-jahr">1988</span>
+  </a><a class="kachel" href="/film/im-nest-der-gelben-viper">
+    <img src="https://image.tmdb.org/t/p/w500/djXI5wtu97IUYTv4jXIN0Pogihj.jpg" loading="lazy" alt="Im Nest der gelben Viper">
+    <span class="kachel-titel">Im Nest der gelben Viper</span>
+    <span class="kachel-jahr">1964</span>
+  </a><a class="kachel" href="/film/m-eine-stadt-sucht-einen-moerder">
+    <img src="https://image.tmdb.org/t/p/w500/oZheqlzWYyo1uinAN5CSXilX5Wb.jpg" loading="lazy" alt="M - Eine Stadt sucht einen Mörder">
+    <span class="kachel-titel">M - Eine Stadt sucht einen Mörder</span>
+    <span class="kachel-jahr">1931</span>
+  </a><a class="kachel" href="/film/kopf-in-der-schlinge">
+    <img src="https://image.tmdb.org/t/p/w500/9ydbZnx6QuAxiQriyGkBvHRQ2sa.jpg" loading="lazy" alt="Kopf in der Schlinge">
+    <span class="kachel-titel">Kopf in der Schlinge</span>
+    <span class="kachel-jahr">1960</span>
+  </a><a class="kachel" href="/film/kreuzfeuer">
+    <img src="https://image.tmdb.org/t/p/w500/yKI214TJNjhk2MPB9Dp4TqTVry7.jpg" loading="lazy" alt="Kreuzfeuer">
+    <span class="kachel-titel">Kreuzfeuer</span>
+    <span class="kachel-jahr">1997</span>
+  </a><a class="kachel" href="/film/freedom-writers">
+    <img src="https://image.tmdb.org/t/p/w500/81AdeUQT99N0xPg3j6RVh0YGOTk.jpg" loading="lazy" alt="Freedom Writers">
+    <span class="kachel-titel">Freedom Writers</span>
+    <span class="kachel-jahr">2007</span>
+  </a><a class="kachel" href="/film/el-infierno">
+    <img src="https://image.tmdb.org/t/p/w500/icDYl4IltHcNCcCJmzVq2LK2kkD.jpg" loading="lazy" alt="El Infierno">
+    <span class="kachel-titel">El Infierno</span>
+    <span class="kachel-jahr">2010</span>
+  </a><a class="kachel" href="/film/wir-werden-das-kind-schon-schaukeln">
+    <img src="https://image.tmdb.org/t/p/w500/rKIxCkI4UPcVT28WOOWubkdpOY2.jpg" loading="lazy" alt="Wir werden das Kind schon schaukeln">
+    <span class="kachel-titel">Wir werden das Kind schon schaukeln</span>
+    <span class="kachel-jahr">1981</span>
+  </a><a class="kachel" href="/film/anatomie-eines-mordes">
+    <img src="https://image.tmdb.org/t/p/w500/rvxbXTNqDJ0jSfOkK7HYdJMXhaH.jpg" loading="lazy" alt="Anatomie eines Mordes">
+    <span class="kachel-titel">Anatomie eines Mordes</span>
+    <span class="kachel-jahr">1959</span>
+  </a><a class="kachel" href="/film/shelter">
+    <img src="https://image.tmdb.org/t/p/w500/fz8fhY5xuE6NenYDuBsHbB7wUdj.jpg" loading="lazy" alt="Shelter">
+    <span class="kachel-titel">Shelter</span>
+    <span class="kachel-jahr">2026</span>
+  </a><a class="kachel" href="/film/mord-mit-kleinen-fehlern">
+    <img src="https://image.tmdb.org/t/p/w500/l4vzU0PJLVJDhNG7GhRIyZ6rMOf.jpg" loading="lazy" alt="Mord mit kleinen Fehlern">
+    <span class="kachel-titel">Mord mit kleinen Fehlern</span>
+    <span class="kachel-jahr">1972</span>
+  </a><a class="kachel" href="/film/he-laughed-last">
+    <img src="https://image.tmdb.org/t/p/w500/eWaNI0YWYUO5W1g2PbT7Kyzisca.jpg" loading="lazy" alt="He Laughed Last">
+    <span class="kachel-titel">He Laughed Last</span>
+    <span class="kachel-jahr">1956</span>
+  </a><a class="kachel" href="/film/heisses-eisen">
+    <img src="https://image.tmdb.org/t/p/w500/4yHIEat0O0TylcetNp2sF3A5jUu.jpg" loading="lazy" alt="Heißes Eisen">
+    <span class="kachel-titel">Heißes Eisen</span>
+    <span class="kachel-jahr">1953</span>
+  </a><a class="kachel" href="/film/sky-busters-die-himmelsstuermer">
+    <img src="https://image.tmdb.org/t/p/w500/tuOXX2NqEhiEKFlgZugt7TZfado.jpg" loading="lazy" alt="Sky Busters - Die Himmelsstürmer">
+    <span class="kachel-titel">Sky Busters - Die Himmelsstürmer</span>
+    <span class="kachel-jahr">2008</span>
+  </a><a class="kachel" href="/film/kaltbluetig">
+    <img src="https://image.tmdb.org/t/p/w500/4V3Hpo84jmvuhUmuDCumKEfhtDj.jpg" loading="lazy" alt="Kaltblütig">
+    <span class="kachel-titel">Kaltblütig</span>
+    <span class="kachel-jahr">1967</span>
+  </a><a class="kachel" href="/film/the-man-who-wasn-t-there">
+    <img src="https://image.tmdb.org/t/p/w500/s5HQmuQJehnvVnTLNgPRiiLkyxj.jpg" loading="lazy" alt="The Man Who Wasn&#39;t There">
+    <span class="kachel-titel">The Man Who Wasn&#39;t There</span>
+    <span class="kachel-jahr">2001</span>
+  </a><a class="kachel" href="/film/das-verhoer">
+    <img src="https://image.tmdb.org/t/p/w500/nDV4WX6M8quGP5Y8ChLz8ZsVphu.jpg" loading="lazy" alt="Das Verhör">
+    <span class="kachel-titel">Das Verhör</span>
+    <span class="kachel-jahr">1981</span>
+  </a><a class="kachel" href="/film/oliver-twist">
+    <img src="https://image.tmdb.org/t/p/w500/tQAj0h1qS0txg6PgVyimPDq8XpB.jpg" loading="lazy" alt="Oliver Twist">
+    <span class="kachel-titel">Oliver Twist</span>
+    <span class="kachel-jahr">1948</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Romantik <a class="mehr" href="/alle?genre=Romantik">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/des-lebens-ueberfluss">
+    <img src="https://image.tmdb.org/t/p/w500/q092qNjH9rIsnx29LSbw77sOaYx.jpg" loading="lazy" alt="Des Lebens Überfluß">
+    <span class="kachel-titel">Des Lebens Überfluß</span>
+    <span class="kachel-jahr">1950</span>
+  </a><a class="kachel" href="/film/tor-zum-himmel">
+    <img src="https://image.tmdb.org/t/p/w500/reNXBhJ407hk7716eq4nKrIhqO3.jpg" loading="lazy" alt="Tor zum Himmel">
+    <span class="kachel-titel">Tor zum Himmel</span>
+    <span class="kachel-jahr">2003</span>
+  </a><a class="kachel" href="/film/horse-camp-sommer-der-abenteuer">
+    <img src="https://image.tmdb.org/t/p/w500/ppBhvOUbNNCzxHI7ouyyCy1HneJ.jpg" loading="lazy" alt="Horse Camp - Sommer der Abenteuer">
+    <span class="kachel-titel">Horse Camp - Sommer der Abenteuer</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/maschenka">
+    <img src="https://image.tmdb.org/t/p/w500/hw6lGbHcxN3xhhyQoZuIqtDww6l.jpg" loading="lazy" alt="Maschenka">
+    <span class="kachel-titel">Maschenka</span>
+    <span class="kachel-jahr">1987</span>
+  </a><a class="kachel" href="/film/der-sommer-als-ich-fliegen-lernte">
+    <img src="https://image.tmdb.org/t/p/w500/pWgG8qoCMFQJK3KFSHm9Sdweq0U.jpg" loading="lazy" alt="Der Sommer, als ich fliegen lernte">
+    <span class="kachel-titel">Der Sommer, als ich fliegen lernte</span>
+    <span class="kachel-jahr">2022</span>
+  </a><a class="kachel" href="/film/der-general">
+    <img src="https://image.tmdb.org/t/p/w500/tiiBh045iOo6xUh2EbGNDj7f9ZD.jpg" loading="lazy" alt="Der General">
+    <span class="kachel-titel">Der General</span>
+    <span class="kachel-jahr">1926</span>
+  </a><a class="kachel" href="/film/titanic">
+    <img src="https://image.tmdb.org/t/p/w500/MlnPG3oxhfmuiDwcoeElQWui9m.jpg" loading="lazy" alt="Titanic">
+    <span class="kachel-titel">Titanic</span>
+    <span class="kachel-jahr">1997</span>
+  </a><a class="kachel" href="/film/mr-nobody">
+    <img src="https://image.tmdb.org/t/p/w500/qNkIONc4Rgmzo23ph7qWp9QfVnW.jpg" loading="lazy" alt="Mr. Nobody">
+    <span class="kachel-titel">Mr. Nobody</span>
+    <span class="kachel-jahr">2009</span>
+  </a><a class="kachel" href="/film/ein-lied-von-liebe-und-tod-gloomy-sunday">
+    <img src="https://image.tmdb.org/t/p/w500/dPJcYFqnEkFLh59kE80UtKFpumT.jpg" loading="lazy" alt="Ein Lied von Liebe und Tod - Gloomy Sunday">
+    <span class="kachel-titel">Ein Lied von Liebe und Tod - Gloomy Sunday</span>
+    <span class="kachel-jahr">1999</span>
+  </a><a class="kachel" href="/film/beruechtigt">
+    <img src="https://image.tmdb.org/t/p/w500/bHymOtR55daLAUFt7LLjzTxWKG3.jpg" loading="lazy" alt="Berüchtigt">
+    <span class="kachel-titel">Berüchtigt</span>
+    <span class="kachel-jahr">1946</span>
+  </a><a class="kachel" href="/film/das-ultimative-geschenk">
+    <img src="https://image.tmdb.org/t/p/w500/nhGMNliY9O8Qsu73V6aPSGsXHGW.jpg" loading="lazy" alt="Das ultimative Geschenk">
+    <span class="kachel-titel">Das ultimative Geschenk</span>
+    <span class="kachel-jahr">2007</span>
+  </a><a class="kachel" href="/film/ein-fleck-in-der-sonne">
+    <img src="https://image.tmdb.org/t/p/w500/fxGAJFfryAgdi4ONkVyrBWKDBbI.jpg" loading="lazy" alt="Ein Fleck in der Sonne">
+    <span class="kachel-titel">Ein Fleck in der Sonne</span>
+    <span class="kachel-jahr">1961</span>
+  </a><a class="kachel" href="/film/die-orangenpflueckerin">
+    <img src="https://image.tmdb.org/t/p/w500/ya9u3B9PojvAud4M2557gTh4j1x.jpg" loading="lazy" alt="Die Orangenpflückerin">
+    <span class="kachel-titel">Die Orangenpflückerin</span>
+    <span class="kachel-jahr">2006</span>
+  </a><a class="kachel" href="/film/maurice">
+    <img src="https://image.tmdb.org/t/p/w500/8HhCyxxzoUqEBmVGK25Jq69LhVo.jpg" loading="lazy" alt="Maurice">
+    <span class="kachel-titel">Maurice</span>
+    <span class="kachel-jahr">1987</span>
+  </a><a class="kachel" href="/film/until-forever-fuer-immer-bei-dir">
+    <img src="https://image.tmdb.org/t/p/w500/x0y1iUamDx2aBAU4TU1Lh0GRiFN.jpg" loading="lazy" alt="Until Forever - Für immer bei dir">
+    <span class="kachel-titel">Until Forever - Für immer bei dir</span>
+    <span class="kachel-jahr">2016</span>
+  </a><a class="kachel" href="/film/faith-hope-love">
+    <img src="https://image.tmdb.org/t/p/w500/nUrY9trD5FCq9bFQIzcMvPMfZzf.jpg" loading="lazy" alt="Faith, Hope &amp; Love">
+    <span class="kachel-titel">Faith, Hope &amp; Love</span>
+    <span class="kachel-jahr">2019</span>
+  </a><a class="kachel" href="/film/my-sassy-girl-2">
+    <img src="https://image.tmdb.org/t/p/w500/h7xTfZbrJ86nzypPvPjwVmxZoHS.jpg" loading="lazy" alt="My Sassy Girl">
+    <span class="kachel-titel">My Sassy Girl</span>
+    <span class="kachel-jahr">2001</span>
+  </a><a class="kachel" href="/film/a-star-is-born">
+    <img src="https://image.tmdb.org/t/p/w500/qJWyFfTluFS0rkrsuEhM2d0asKf.jpg" loading="lazy" alt="A Star Is Born">
+    <span class="kachel-titel">A Star Is Born</span>
+    <span class="kachel-jahr">2018</span>
+  </a></div>
+  </section>
+<section class="reihe">
+    <h2>Klassiker vor 1980 <a class="mehr" href="/alle?jahrzehnt=1970">alle ansehen</a></h2>
+    <div class="reihe-strip"><a class="kachel" href="/film/die-hoelle-am-river-thai">
+    <img src="https://image.tmdb.org/t/p/w500/bq6b0AkncijZLpRgowqVVGJZvsy.jpg" loading="lazy" alt="Die Hölle am River Thai">
+    <span class="kachel-titel">Die Hölle am River Thai</span>
+    <span class="kachel-jahr">1959</span>
+  </a><a class="kachel" href="/film/campana">
+    <img src="https://image.tmdb.org/t/p/w500/ml4GwnlgJafEoatbu8YaBzsQnjY.jpg" loading="lazy" alt="Campana">
+    <span class="kachel-titel">Campana</span>
+    <span class="kachel-jahr">1970</span>
+  </a><a class="kachel" href="/film/kinder-der-berge">
+    <img src="https://image.tmdb.org/t/p/w500/mMsZ5QY5mN9Se272Zp8x45aqCZ.jpg" loading="lazy" alt="Kinder der Berge">
+    <span class="kachel-titel">Kinder der Berge</span>
+    <span class="kachel-jahr">1958</span>
+  </a><a class="kachel" href="/film/des-lebens-ueberfluss">
+    <img src="https://image.tmdb.org/t/p/w500/q092qNjH9rIsnx29LSbw77sOaYx.jpg" loading="lazy" alt="Des Lebens Überfluß">
+    <span class="kachel-titel">Des Lebens Überfluß</span>
+    <span class="kachel-jahr">1950</span>
+  </a><a class="kachel" href="/film/columbus-entdeckt-kraehwinkel">
+    <img src="https://image.tmdb.org/t/p/w500/7EEAwVflzXyK9sDOPzxRWj5A4mQ.jpg" loading="lazy" alt="Columbus entdeckt Krähwinkel">
+    <span class="kachel-titel">Columbus entdeckt Krähwinkel</span>
+    <span class="kachel-jahr">1954</span>
+  </a><a class="kachel" href="/film/unternehmen-schlafsack">
+    <img src="https://image.tmdb.org/t/p/w500/5CkFX6hqLA0mQZTdIdAygxbH9hQ.jpg" loading="lazy" alt="Unternehmen Schlafsack">
+    <span class="kachel-titel">Unternehmen Schlafsack</span>
+    <span class="kachel-jahr">1955</span>
+  </a><a class="kachel" href="/film/kaetchen-fuer-alles">
+    <img src="https://image.tmdb.org/t/p/w500/x7avtngIFDDad3waadcBvI6XYmG.jpg" loading="lazy" alt="Kätchen für alles">
+    <span class="kachel-titel">Kätchen für alles</span>
+    <span class="kachel-jahr">1949</span>
+  </a><a class="kachel" href="/film/die-todeshand-des-schwarzen-panthers">
+    <img src="https://image.tmdb.org/t/p/w500/yMmZHAWthiZ57OQoGA0uF4tmkpJ.jpg" loading="lazy" alt="Die Todeshand des schwarzen Panthers">
+    <span class="kachel-titel">Die Todeshand des schwarzen Panthers</span>
+    <span class="kachel-jahr">1977</span>
+  </a><a class="kachel" href="/film/broken-chains">
+    <img src="https://image.tmdb.org/t/p/w500/4suJKzLWnIo8GHN6FJNDVRVE9eN.jpg" loading="lazy" alt="Broken Chains">
+    <span class="kachel-titel">Broken Chains</span>
+    <span class="kachel-jahr">1922</span>
+  </a><a class="kachel" href="/film/unter-der-flagge-der-freibeuter">
+    <img src="https://image.tmdb.org/t/p/w500/oClw9D7XdIbedXOtDBLWF1Jnbvp.jpg" loading="lazy" alt="Unter der Flagge der Freibeuter">
+    <span class="kachel-titel">Unter der Flagge der Freibeuter</span>
+    <span class="kachel-jahr">1961</span>
+  </a><a class="kachel" href="/film/im-nest-der-gelben-viper">
+    <img src="https://image.tmdb.org/t/p/w500/djXI5wtu97IUYTv4jXIN0Pogihj.jpg" loading="lazy" alt="Im Nest der gelben Viper">
+    <span class="kachel-titel">Im Nest der gelben Viper</span>
+    <span class="kachel-jahr">1964</span>
+  </a><a class="kachel" href="/film/kung-fu-die-toedliche-rache">
+    <img src="https://image.tmdb.org/t/p/w500/pssOIHPleh6Y2DhcMna0WcbyRck.jpg" loading="lazy" alt="Kung Fu - Die tödliche Rache">
+    <span class="kachel-titel">Kung Fu - Die tödliche Rache</span>
+    <span class="kachel-jahr">1973</span>
+  </a><a class="kachel" href="/film/call-to-danger">
+    <img src="https://image.tmdb.org/t/p/w500/bl7flwx0KSO42B0ZczKEfUUNLIj.jpg" loading="lazy" alt="Call to Danger">
+    <span class="kachel-titel">Call to Danger</span>
+    <span class="kachel-jahr">1973</span>
+  </a><a class="kachel" href="/film/atomic-city">
+    <img src="https://image.tmdb.org/t/p/w500/1wKiAWIiHX9jqwi5bt8mIHzKEsL.jpg" loading="lazy" alt="Atomic City">
+    <span class="kachel-titel">Atomic City</span>
+    <span class="kachel-jahr">1973</span>
+  </a><a class="kachel" href="/film/die-kriegsbraut">
+    <img src="https://image.tmdb.org/t/p/w500/3siM6faiqn804vAXvjknPC6H5EG.jpg" loading="lazy" alt="Die Kriegsbraut">
+    <span class="kachel-titel">Die Kriegsbraut</span>
+    <span class="kachel-jahr">1974</span>
+  </a><a class="kachel" href="/film/was-waere-wenn">
+    <img src="https://image.tmdb.org/t/p/w500/6ookXxqzJkXWOE5bicZgXVIYeBK.jpg" loading="lazy" alt="Was wäre, wenn...?">
+    <span class="kachel-titel">Was wäre, wenn...?</span>
+    <span class="kachel-jahr">1960</span>
+  </a><a class="kachel" href="/film/arche-nora">
+    <img src="https://image.tmdb.org/t/p/w500/A8pAajp17vh3uuvwnyDupCQaeV1.jpg" loading="lazy" alt="Arche Nora">
+    <span class="kachel-titel">Arche Nora</span>
+    <span class="kachel-jahr">1948</span>
+  </a><a class="kachel" href="/film/engel-im-abendkleid">
+    <img src="https://image.tmdb.org/t/p/w500/l1a5U5HrsJZrITJnvBimkaTzUgV.jpg" loading="lazy" alt="Engel im Abendkleid">
+    <span class="kachel-titel">Engel im Abendkleid</span>
+    <span class="kachel-jahr">1951</span>
+  </a></div>
+  </section>
 
-// TMDB-Genre-IDs -> deutsche Namen (stabile, öffentliche Liste)
-const GENRES = {28:"Action",12:"Abenteuer",16:"Animation",35:"Komödie",80:"Krimi",
-  99:"Dokumentation",18:"Drama",10751:"Familie",14:"Fantasy",36:"Historie",
-  27:"Horror",10402:"Musik",9648:"Mystery",10749:"Romantik",878:"Science Fiction",
-  10770:"TV-Film",53:"Thriller",10752:"Kriegsfilm",37:"Western"};
-
-let allMovies = [];
-let fuse = null;
-let watchlistMode = false;
-
-const WATCHLIST_KEY = "tubefilme_merkliste";
-function getWatchlist() {
-  try { return new Set(JSON.parse(localStorage.getItem(WATCHLIST_KEY) || "[]")); }
-  catch { return new Set(); }
-}
-function saveWatchlist(set) {
-  localStorage.setItem(WATCHLIST_KEY, JSON.stringify([...set]));
-}
-function toggleWatchlist(videoId) {
-  const wl = getWatchlist();
-  wl.has(videoId) ? wl.delete(videoId) : wl.add(videoId);
-  saveWatchlist(wl);
-  return wl.has(videoId);
-}
-
-function parseDuration(iso) {
-  if (!iso) return "";
-  const m = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
-  if (!m) return "";
-  const h = parseInt(m[1] || 0), min = parseInt(m[2] || 0);
-  return h > 0 ? `${h} Std ${min} Min` : `${min} Min`;
-}
-
-function genreNames(ids) {
-  return (ids || []).map(id => GENRES[id]).filter(Boolean).slice(0, 2).join(", ");
-}
-
-function posterHtml(m, extraClass) {
-  if (m.posterUrl) {
-    return `<img class="${extraClass||''}" src="${m.posterUrl}" loading="lazy" alt="${escapeHtml(m.title)}">`;
-  }
-
-  // Filme ohne TMDB-Poster (aus YouTube-Daten übernommen): das Vorschaubild
-  // des Videos nutzen. Es liegt im Querformat vor -- statt es hart auf das
-  // Hochformat der Kachel zu beschneiden (dabei ginge der halbe Bildinhalt
-  // verloren), wird es vollständig eingepasst und der freie Rand mit einer
-  // unscharfen, abgedunkelten Version desselben Bildes gefüllt.
-  //
-  // Die im Datensatz gespeicherte Variante ist "hqdefault" (480x360) -- die
-  // hat bei 16:9-Videos schwarze Balken. Deshalb zuerst "maxresdefault"
-  // versuchen und nur bei Nichtverfügbarkeit auf die gespeicherte
-  // zurückfallen; welche Videos eine hochauflösende Fassung haben, lässt
-  // sich nur zur Laufzeit feststellen.
-  const gespeichert = m.youtubeThumbnail || (m.videoId ? `https://i.ytimg.com/vi/${m.videoId}/hqdefault.jpg` : "");
-  if (gespeichert) {
-    const hoch = m.videoId ? `https://i.ytimg.com/vi/${m.videoId}/maxresdefault.jpg` : gespeichert;
-    const fallback = `this.onerror=null;this.src='${gespeichert}'`;
-    return `<div class="poster-yt ${extraClass||''}">
-      <img class="poster-yt-bg" src="${hoch}" onerror="${fallback}" alt="" aria-hidden="true">
-      <img class="poster-yt-img" src="${hoch}" onerror="${fallback}" loading="lazy" alt="${escapeHtml(m.title)}">
-    </div>`;
-  }
-
-  return `<div class="poster-placeholder ${extraClass||''}">${escapeHtml(m.title)}</div>`;
-}
-
-function movieCardHtml(m, wl) {
-  return `
-    <div class="poster-frame">
-      ${m.matchConfidence === "niedrig" ? '<div class="low-confidence" title="Zuordnung unsicher">?</div>' : ""}
-      ${m.fsk ? `<div class="fsk-badge">FSK ${m.fsk}</div>` : ""}
-      <button class="fav ${wl.has(m.videoId) ? "active" : ""}" data-fav="${m.videoId}">♥</button>
-      ${posterHtml(m)}
-    </div>
-    <div class="meta">
-      <div>${escapeHtml(m.title)}</div>
-      <div class="year">${(m.releaseDate || "").slice(0,4)} · ${genreNames(m.genreIds)}</div>
-    </div>
-  `;
-}
-
-function renderGrid(movies) {
-  const grid = document.getElementById("grid");
-  const wl = getWatchlist();
-  document.getElementById("count").textContent = `${movies.length} Film${movies.length === 1 ? "" : "e"}`;
-
-  // Jede Kachel ist ein echter Link auf die Seite des Films -- dadurch
-  // funktionieren Mittelklick, "in neuem Tab öffnen" und Lesezeichen, und
-  // Suchmaschinen können dem Verweis folgen.
-  grid.innerHTML = movies.map(m =>
-    `<a class="card" href="/film/${m.slug}">${movieCardHtml(m, wl)}</a>`
-  ).join("");
-  grid.querySelectorAll("[data-fav]").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const id = btn.dataset.fav;
-      const isActive = toggleWatchlist(id);
-      btn.classList.toggle("active", isActive);
-      if (watchlistMode) applyFilters(); // Karte verschwindet ggf. aus der Merkliste-Ansicht
-    });
-  });
-}
-
-function escapeHtml(s) {
-  return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-
-// Der Player und die Ähnliche-Filme-Liste sind entfallen: beides gehört
-// jetzt auf die eigene Seite des Films, die auch für Suchmaschinen sichtbar
-// ist und sich verlinken lässt.
-
-let lastFiltered = [];
-function currentlyShown() { return lastFiltered; }
-
-// Sortiert die gefilterte Auswahl. "Standard" lässt die Reihenfolge so, wie
-// sie ankommt -- bei aktiver Suche ist das die Treffergenauigkeit, sonst die
-// Reihenfolge aus dem Index.
-function sortiere(liste, modus) {
-  if (!modus || modus === "relevanz") return liste;
-  const kopie = [...liste];
-  const jahr = m => parseInt((m.releaseDate || "").slice(0, 4), 10) || 0;
-
-  switch (modus) {
-    case "bewertung":
-      // Filme ohne Bewertung ans Ende, nicht mit 0 dazwischen
-      return kopie.sort((a, b) => (b.voteAverage || -1) - (a.voteAverage || -1));
-    case "az":
-      return kopie.sort((a, b) => a.title.localeCompare(b.title, "de"));
-    case "za":
-      return kopie.sort((a, b) => b.title.localeCompare(a.title, "de"));
-    case "neu":
-      return kopie.sort((a, b) => jahr(b) - jahr(a));
-    case "alt":
-      // Filme ohne Jahresangabe ans Ende statt an den Anfang
-      return kopie.sort((a, b) => (jahr(a) || 9999) - (jahr(b) || 9999));
-    default:
-      return kopie;
-  }
-}
-
-function applyFilters() {
-  const query = document.getElementById("search").value.trim();
-  const selectedGenre = document.getElementById("genreFilter").value;
-  const selectedFsk = document.getElementById("fskFilter").value;
-  const selectedJahrzehnt = document.getElementById("jahrFilter").value;
-
-  let result = allMovies;
-  if (query) {
-    if (fuse) {
-      result = fuse.search(query).map(r => r.item);
-    } else {
-      const q = query.toLowerCase();
-      result = allMovies.filter(m =>
-        (m.title || "").toLowerCase().includes(q) ||
-        (m.originalTitle || "").toLowerCase().includes(q) ||
-        (m.genreText || "").toLowerCase().includes(q) ||
-        (m.cast || []).some(c => c.toLowerCase().includes(q)) ||
-        (m.director || []).some(d => d.toLowerCase().includes(q))
-      );
-    }
-  }
-
-  if (selectedGenre) {
-    result = result.filter(m => (m.genreIds || []).some(id => GENRES[id] === selectedGenre));
-  }
-  if (selectedFsk) {
-    result = result.filter(m => m.fsk === selectedFsk);
-  }
-  if (selectedJahrzehnt) {
-    const von = parseInt(selectedJahrzehnt, 10);
-    result = result.filter(m => {
-      const j = parseInt((m.releaseDate || "").slice(0, 4), 10);
-      return j >= von && j < von + 10;
-    });
-  }
-  if (watchlistMode) {
-    const wl = getWatchlist();
-    result = result.filter(m => wl.has(m.videoId));
-  }
-  result = sortiere(result, document.getElementById("sortierung").value);
-  lastFiltered = result;
-  renderGrid(result);
-}
-
-function updateClearButton() {
-  const hasText = document.getElementById("search").value.length > 0;
-  document.getElementById("searchClear").style.display = hasText ? "block" : "none";
-}
-
-document.getElementById("search").addEventListener("input", () => {
-  updateClearButton();
-  applyFilters();
-});
-document.getElementById("searchClear").addEventListener("click", () => {
-  const input = document.getElementById("search");
-  input.value = "";
-  updateClearButton();
-  input.focus();
-  applyFilters();
-});
-updateClearButton(); // Anfangszustand setzen
-document.getElementById("genreFilter").addEventListener("change", applyFilters);
-document.getElementById("fskFilter").addEventListener("change", applyFilters);
-document.getElementById("jahrFilter").addEventListener("change", applyFilters);
-document.getElementById("sortierung").addEventListener("change", applyFilters);
-
-// Zusätzliche, robustere Wege das Overlay zu schließen: Escape-Taste,
-// Klick auf den dunklen Hintergrund außerhalb des Players
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") {
-    closeRandomPanel();
-  }
-});
-
-function pickRandomMovies(pool, count) {
-  const shuffled = [...pool].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, count);
-}
-
-function openRandomPanel() {
-  const pool = watchlistMode ? lastFiltered : allMovies;
-  if (pool.length === 0) return;
-  renderRandomGrid(pickRandomMovies(pool, 6));
-  document.getElementById("randomOverlay").classList.add("open");
-}
-
-function renderRandomGrid(movies) {
-  const grid = document.getElementById("randomGrid");
-  const wl = getWatchlist();
-  grid.innerHTML = movies.map(m =>
-    `<a class="card" href="/film/${m.slug}">${movieCardHtml(m, wl)}</a>`
-  ).join("");
-  grid.querySelectorAll("[data-fav]").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const id = btn.dataset.fav;
-      const isActive = toggleWatchlist(id);
-      btn.classList.toggle("active", isActive);
-    });
-  });
-}
-
-function closeRandomPanel() {
-  document.getElementById("randomOverlay").classList.remove("open");
-}
-
-document.getElementById("randomBtn").addEventListener("click", openRandomPanel);
-document.getElementById("randomRerollBtn").addEventListener("click", () => {
-  const pool = watchlistMode ? lastFiltered : allMovies;
-  renderRandomGrid(pickRandomMovies(pool, 6));
-});
-document.getElementById("randomCloseBtn").addEventListener("click", closeRandomPanel);
-document.getElementById("randomOverlay").addEventListener("click", (e) => {
-  if (e.target.id === "randomOverlay") closeRandomPanel();
-});
-
-document.getElementById("watchlistBtn").addEventListener("click", (e) => {
-  watchlistMode = !watchlistMode;
-  e.target.classList.toggle("active", watchlistMode);
-  applyFilters();
-});
-
-fetch(FILME_URL)
-  .then(r => {
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    return r.json();
-  })
-  .then(data => {
-    // Der Index nutzt Kurzschlüssel, um Ladezeit zu sparen. Hier einmalig
-    // auf die ausgeschriebenen Feldnamen abbilden.
-    allMovies = data.map(d => ({
-      videoId: d.v, slug: d.s, title: d.t, originalTitle: d.o,
-      releaseDate: d.y ? d.y + "-01-01" : null,
-      posterUrl: d.p, youtubeThumbnail: d.th, genreIds: d.g,
-      fsk: d.f, voteAverage: d.r, matchConfidence: d.c,
-      cast: d.ca, director: d.d,
-    }));
-    // Genre-Namen und Cast pro Film vorberechnen -- einmal hier statt bei
-    // jeder Suche neu, und als eigene Suchfelder nutzbar
-    allMovies.forEach(m => {
-      m.genreText = (m.genreIds || []).map(id => GENRES[id]).filter(Boolean).join(" ");
-    });
-
-    lastFiltered = data;
-    // Die Suchbibliothek kommt von einem fremden Anbieter. Ist sie nicht
-    // erreichbar, darf das nicht die ganze Seite lahmlegen -- dann wird auf
-    // eine einfache Textsuche zurückgefallen.
-    if (typeof Fuse === "function") {
-      fuse = new Fuse(allMovies, { keys: ["title", "originalTitle", "genreText", "cast", "director", "writer"], threshold: 0.3 });
-    } else {
-      fuse = null;
-      console.warn("Suchbibliothek nicht geladen -- einfache Textsuche aktiv.");
-    }
-
-    populateGenreFilter(allMovies);
-    populateJahrFilter(allMovies);
-    document.getElementById("status").style.display = "none";
-    renderGrid(allMovies);
-  })
-  .catch(err => {
-    document.getElementById("status").textContent = "Fehler beim Laden: " + err.message;
-  });
-
-function populateGenreFilter(movies) {
-  const present = new Set();
-  movies.forEach(m => (m.genreIds || []).forEach(id => GENRES[id] && present.add(GENRES[id])));
-  const select = document.getElementById("genreFilter");
-  [...present].sort((a, b) => a.localeCompare(b, "de")).forEach(name => {
-    const opt = document.createElement("option");
-    opt.value = name;
-    opt.textContent = name;
-    select.appendChild(opt);
-  });
-}
-
-// Der Bestand reicht von 1915 bis heute -- über hundert einzelne Jahrgänge
-// wären als Auswahlliste unbrauchbar. Deshalb nach Jahrzehnten gruppiert,
-// und nur die, zu denen es auch wirklich Filme gibt.
-function populateJahrFilter(movies) {
-  const jahrzehnte = new Set();
-  movies.forEach(m => {
-    const j = parseInt((m.releaseDate || "").slice(0, 4), 10);
-    if (j > 1880 && j < 2100) jahrzehnte.add(Math.floor(j / 10) * 10);
-  });
-
-  const select = document.getElementById("jahrFilter");
-  [...jahrzehnte].sort((a, b) => b - a).forEach(d => {
-    const opt = document.createElement("option");
-    opt.value = String(d);
-    opt.textContent = `${d}er`;
-    select.appendChild(opt);
-  });
-}
-</script>
-
+<footer>
+  <a href="/alle">Alle 5408 Filme durchsuchen</a> -- Wiedergabe über YouTube
+</footer>
 </body>
 </html>
