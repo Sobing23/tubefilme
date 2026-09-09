@@ -58,7 +58,34 @@ function stripMarketingSuffix(title) {
 }
 
 // Baut aus dem rohen YouTube-Titel einen präsentablen Filmtitel.
+
+// Zieht den echten Filmtitel aus reißerischen Videotiteln heraus. Zwei
+// Muster, die mehrere Kanäle verwenden:
+//
+//   "... • HORROR FILM DEUTSCH: Das Ouija House"   -> nach dem Doppelpunkt
+//   "Wow! Bester Rache-Thriller! (Ganzer Film: Galveston)" -> in der Klammer
+//
+// Ohne das landete die Werbeüberschrift als Filmtitel in der Bibliothek --
+// und die TMDB-Suche lief mit einem Text, der den Filmnamen gar nicht enthält.
+function titelAusWerbung(titel) {
+  if (!titel) return null;
+
+  // In Klammern hinter "Film:" bzw. "Ganzer Film:"
+  let m = titel.match(/\((?:ganzer\s+)?film:\s*([^)]{2,70})\)/i);
+  if (m) return m[1].trim();
+
+  // Nach dem letzten Doppelpunkt, sofern davor Werbeformulierungen stehen
+  m = titel.match(/^(?:.*(?:ganzer film|film deutsch|voller länge|kostenlos|auf deutsch)[^:]{0,25}):\s*(.{2,70})$/i);
+  if (m) return m[1].trim();
+
+  return null;
+}
+
 function cleanTitle(rawTitle) {
+  // Erkennbarer echter Titel hat Vorrang vor jeder Bereinigung
+  const ausWerbung = titelAusWerbung(rawTitle);
+  if (ausWerbung) return ausWerbung;
+
   let t = stripGenreBrackets(rawTitle);
   // Qualitätsmarker wie "*HD*", "*4K*", "[HD]" entfernen
   t = t.replace(/\*\s*(HD|4K|FULL HD|UHD)\s*\*/gi, " ");
