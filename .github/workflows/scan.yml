@@ -40,6 +40,9 @@ jobs:
       - name: Nicht auffindbare Filme aus YouTube-Daten übernehmen
         run: node scripts/absorb-unmatched.js
 
+      - name: Werbeüberschriften in Titeln bereinigen
+        run: node scripts/fix-titles.js
+
       - name: Cast-Daten für Schauspieler-Suche nachladen
         env:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
