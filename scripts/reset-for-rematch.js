@@ -24,7 +24,16 @@ const FILME_PATH = "data/filme.json";
 const UNMATCHED_PATH = "data/unmatched.json";
 
 function istFragwuerdig(m) {
+  // Eigene Korrekturen bleiben unangetastet
   if (m.matchSource === "manuell") return false;
+
+  // Aus YouTube-Daten übernommene Filme ebenfalls nicht anfassen. Sie haben
+  // systembedingt keine TMDB-Bewertung und keine Genres -- die Prüfung weiter
+  // unten würde sie deshalb bei JEDEM Lauf aussortieren. Sie fielen zurück in
+  // die Warteschlange und bräuchten zwei weitere Läufe, um wieder aufgenommen
+  // zu werden; die Bibliothek schrumpfte bei jeder Neu-Zuordnung.
+  if (m.matchSource === "youtube" || m.matchConfidence === "youtube") return false;
+
   if (m.matchConfidence === "niedrig" || m.matchConfidence === "mittel") return true;
   const ohneBewertung = !m.voteAverage;
   const ohneGenres = (m.genreIds || []).length === 0;
