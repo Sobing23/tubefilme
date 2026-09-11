@@ -218451,5 +218451,126 @@
     "fsk": null,
     "posterLocal": "img/posters/120773.jpg",
     "slug": "projekt-kill"
+  },
+  {
+    "videoId": "t2k4Ndps8hE",
+    "youtubeTitle": "Insel-Abenteuer auf Leben und Tod: The Most Dangerous Game - Die Jagd beginnt, ganzer Film kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/t2k4Ndps8hE/hqdefault.jpg",
+    "duration": "PT1H34M39S",
+    "publishedAt": "2026-09-10T18:15:06Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 994702,
+    "title": "The Most Dangerous Game - Die Jagd beginnt",
+    "originalTitle": "The Most Dangerous Game",
+    "overview": "Die Freunde Whitney, Rex und Sanger sowie dessen Vater Marcus sind auf dem Weg zum Kodiak-Archipel, um dort Braunbären zu jagen. Als ihr Boot dabei unerwartet explodiert, stranden die Männer auf einer Insel und entdecken voller Entsetzen, dass der deutlich ältere Whitney das Unglück nicht überlebt hat. Dann hören die drei Überlebenden plötzlich Gewehrschüsse und der reichlich exzentrisch anmutende Baron von Wolf steht vor ihnen. Von ihm erfahren sie, dass sie nicht zufällig hier gelandet sind: Vielmehr sind sie nun unfreiwillige Teilnehmer an einem von Wolfs Wochenendvergnügen, einer Menschenjagd. Wer es schafft, dem schwer bewaffneten Wahnsinnigen drei Tage lang zu entkommen, gewinnt einen stattlichen Batzen Geld, die Verlierer erwartet der Tod in der gnadenlosen Wildnis der Insel …  Der Survival-Thriller basiert auf der erstmals 1924 veröffentlichten, preisgekrönten Kurzgeschichte „Das grausamste Spiel“ von Schriftsteller und Drehbuchautor Richard Connell („Hier ist John Doe“).",
+    "releaseDate": "2022-08-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/A5Jasxcl0VnOndEHQG7Bf0sj9kG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vHjyom2NPPUTuxnXqJULi5q8afP.jpg",
+    "voteAverage": 4.565,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Tom Berenger",
+      "Chris 'C.T.' Tamburello",
+      "Bruce Dern",
+      "Judd Nelson",
+      "Casper Van Dien"
+    ],
+    "director": [
+      "Justin Lee"
+    ],
+    "writer": [
+      "Justin Lee"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/994702.jpg",
+    "slug": "the-most-dangerous-game-die-jagd-beginnt"
+  },
+  {
+    "videoId": "CmboaK35Rvk",
+    "youtubeTitle": "Eine Weihnachtsmelodie - A Christmas Melody (2015) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CmboaK35Rvk/hqdefault.jpg",
+    "duration": "PT1H23M22S",
+    "publishedAt": "2026-09-10T14:00:21Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 366018,
+    "title": "Eine Weihnachtsmelodie",
+    "originalTitle": "A Christmas Melody",
+    "overview": "Die alleinerziehende Mutter Kristin ist mit ihrem großen Traum, als Designerin Karriere zu machen, krachend gescheitert. Also zieht sie zusammen mit ihrer Tochter Emily von Los Angeles zurück in das kleine Dorf, in dem sie aufgewachsen ist. Emily ist davon zunächst überhaupt nicht begeistert, schließlich muss sie all ihre Freunde zurücklassen. Und auch Kristin, die zurück in der Heimat wieder von ihrer alten Erzfeindin Melissa gepiesakt wird, wird dort nicht wieder glücklich. Das ändert sich jedoch nach und nach – vor allem auch, weil der charmante Danny, Emilys Musiklehrer, der kleinen Familie hilft wo er kann.",
+    "releaseDate": "2015-12-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3VnBO1qiloUHDXe4PO8vITpkWYJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3yCRAFt5zUP0Yzna1Sa3u8KD0xk.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      35,
+      10749,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Lacey Chabert",
+      "Brennan Elliott",
+      "Kathy Najimy",
+      "Mariah Carey",
+      "Kevin Chamberlin"
+    ],
+    "director": [
+      "Mariah Carey"
+    ],
+    "writer": [
+      "Jennifer Notas Shapiro"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/366018.jpg",
+    "slug": "eine-weihnachtsmelodie"
+  },
+  {
+    "videoId": "URGjT6TEPfw",
+    "youtubeTitle": "Zirkus des Todes - BERSERK (1967) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/URGjT6TEPfw/hqdefault.jpg",
+    "duration": "PT1H36M38S",
+    "publishedAt": "2026-09-10T16:00:16Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 42689,
+    "title": "Zirkus des Todes",
+    "originalTitle": "Berserk!",
+    "overview": "Der Wanderzirkus von Monica Rivers (Joan Crawford) hat schon bessere Zeiten gesehen, deswegen tut die engagierte Geschäftsfrau alles, um Zuschauer anzulocken, um die Truppe wieder zu sanieren, selbst als erst ihr Hochseilstar sich Tode stürzt und dann die Truppe selbst von einer Mordserie dezimiert wird. Während sie den gutaussehenden Frank Hawkins (Ty Hardin) zum Star und in ihr Bett befördert, geht ihr vormaliger Lover (Michael Gough) gegen diesen vor. Dann platzt auch noch Monicas 16jährige Tochter Angela (Judy Geeson) in die Szenerie, nachdem sie von der Schule geflogen ist...und der Mörder macht ständig weiter...",
+    "releaseDate": "1967-11-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gGWC7AncEsAxNv01yXY2xlr8gZz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cMpnczREJPgDAE8HDvnfLqtBre5.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      80,
+      18,
+      27,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Joan Crawford",
+      "Ty Hardin",
+      "Diana Dors",
+      "Michael Gough",
+      "Judy Geeson"
+    ],
+    "director": [
+      "Jim O'Connolly"
+    ],
+    "writer": [
+      "Aben Kandel",
+      "Herman Cohen"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/42689.jpg",
+    "slug": "zirkus-des-todes"
   }
 ]
