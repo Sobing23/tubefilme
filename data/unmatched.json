@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "videoId": "IuAKIDN68mM",
+    "youtubeTitle": "ABENTEUERFILM | Er muss einen Drachen bezwingen, der droht, das Königreich zu zerstören",
+    "suchbegriff": "ABENTEUERFILM",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 16398,
+      "title": "Dragonquest",
+      "release_date": "2009-03-31"
+    }
+  },
+  {
+    "videoId": "U2f8x7ouuC0",
+    "youtubeTitle": "Ein magischer Helm macht aus einem gewöhnlichen Mann den letzten Ritter | Fantasy Action",
+    "suchbegriff": "Ein magischer Helm macht aus einem gewöhnlichen Mann den letzten Ritter",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  }
+]
