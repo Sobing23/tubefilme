@@ -3,21 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>tubefilme -- 5756 ganze Filme kostenlos auf Deutsch</title>
-<meta name="description" content="5756 deutschsprachige Filme, die legal und kostenlos in voller Länge auf YouTube verfügbar sind -- gesammelt, sortiert und durchsuchbar.">
+<title>tubefilme -- 5761 ganze Filme kostenlos auf Deutsch</title>
+<meta name="description" content="5761 deutschsprachige Filme, die legal und kostenlos in voller Länge auf YouTube verfügbar sind -- gesammelt, sortiert und durchsuchbar.">
 <link rel="canonical" href="https://www.tubefilme.de/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="tubefilme -- ganze Filme kostenlos auf Deutsch">
-<meta property="og:description" content="5756 deutschsprachige Filme, die legal und kostenlos in voller Länge auf YouTube verfügbar sind -- gesammelt, sortiert und durchsuchbar.">
+<meta property="og:description" content="5761 deutschsprachige Filme, die legal und kostenlos in voller Länge auf YouTube verfügbar sind -- gesammelt, sortiert und durchsuchbar.">
 <meta property="og:url" content="https://www.tubefilme.de/">
 <link rel="stylesheet" href="/film/style.css">
 <style>
-header.top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
-header.top .marke{font-size:20px;font-weight:bold;color:var(--text);text-decoration:none}
-header.top .marke span{color:var(--accent)}
-header.top nav{margin-left:auto;display:flex;gap:14px}
-header.top nav a{color:var(--text-dim);text-decoration:none;font-size:14px}
-header.top nav a:hover{color:var(--text)}
 .intro{max-width:1400px;margin:0 auto;padding:22px 20px 4px}
 .intro h1{font-size:22px;margin:0 0 6px}
 .intro p{margin:0;color:var(--text-dim);font-size:14px}
@@ -45,23 +39,42 @@ header.top nav a:hover{color:var(--text)}
 <body>
 <header class="top">
   <a class="marke" href="/">tube<span>filme</span></a>
+  <form class="suche" action="/alle" method="get" role="search">
+    <input type="search" name="q" placeholder="Filme, Genre, Schauspieler oder Regie durchsuchen..." aria-label="Filme durchsuchen">
+  </form>
   <nav>
     <a href="/alle">Alle Filme</a>
-    <a href="/alle?sort=bewertung">Beste Bewertungen</a>
+    <a href="/alle?merkliste=1">&#9829; Merkliste</a>
   </nav>
 </header>
 
 <div class="intro">
   <h1>Ganze Filme, kostenlos und auf Deutsch</h1>
-  <p>5756 Filme, die legal und in voller Länge auf YouTube verfügbar sind.</p>
+  <p>5761 Filme, die legal und in voller Länge auf YouTube verfügbar sind.</p>
 </div>
 
 <section class="reihe">
     <h2>Neu dazugekommen <a class="mehr" href="/alle?sort=neu-aufgenommen">alle ansehen</a></h2>
-    <div class="reihe-strip"><a class="kachel" href="/film/one-two">
+    <div class="reihe-strip"><a class="kachel" href="/film/der-kleine-lord-2">
+    <img src="https://image.tmdb.org/t/p/w500/iVToLZIETK6QGB9OaYPFi0RwqDh.jpg" loading="lazy" alt="Der kleine Lord">
+    <span class="kachel-titel">Der kleine Lord</span>
+    <span class="kachel-jahr">1936</span>
+  </a><a class="kachel" href="/film/die-hoehle-das-tor-in-eine-andere-zeit">
+    <img src="https://image.tmdb.org/t/p/w500/fZqYeZtTs3BRxB98qwx1V3jj9I3.jpg" loading="lazy" alt="Die Höhle - Das Tor in eine andere Zeit">
+    <span class="kachel-titel">Die Höhle - Das Tor in eine andere Zeit</span>
+    <span class="kachel-jahr">2017</span>
+  </a><a class="kachel" href="/film/chasing-robert-barker">
+    <img src="https://image.tmdb.org/t/p/w500/qrxBIrp36FJlcEtcwmuv5vh0ZOH.jpg" loading="lazy" alt="Chasing Robert Barker">
+    <span class="kachel-titel">Chasing Robert Barker</span>
+    <span class="kachel-jahr">2015</span>
+  </a><a class="kachel" href="/film/one-two">
     <img src="https://image.tmdb.org/t/p/w500/dc70oCMrHE8hE9EOGdYZ7GjPZfn.jpg" loading="lazy" alt="One &amp; Two">
     <span class="kachel-titel">One &amp; Two</span>
     <span class="kachel-jahr">2015</span>
+  </a><a class="kachel" href="/film/the-fire-dragon-chronicles-dragon-quest">
+    <img src="https://i.ytimg.com/vi/IuAKIDN68mM/maxresdefault.jpg" loading="lazy" alt="The Fire Dragon Chronicles - Dragon Quest">
+    <span class="kachel-titel">The Fire Dragon Chronicles - Dragon Quest</span>
+    <span class="kachel-jahr"></span>
   </a><a class="kachel" href="/film/spider">
     <img src="https://image.tmdb.org/t/p/w500/zvm4WuYxTiGkRagRqHUey0meRQL.jpg" loading="lazy" alt="Spider">
     <span class="kachel-titel">Spider</span>
@@ -114,22 +127,6 @@ header.top nav a:hover{color:var(--text)}
     <img src="https://image.tmdb.org/t/p/w500/grYMiL61HvVWSfZpLQs8jazt04C.jpg" loading="lazy" alt="The Next Step: Lebe Deinen Traum">
     <span class="kachel-titel">The Next Step: Lebe Deinen Traum</span>
     <span class="kachel-jahr">2023</span>
-  </a><a class="kachel" href="/film/last-girl-survives">
-    <img src="https://image.tmdb.org/t/p/w500/mJu5WLYLNWxX5gLQsg8dmsmdDBm.jpg" loading="lazy" alt="Last Girl Survives">
-    <span class="kachel-titel">Last Girl Survives</span>
-    <span class="kachel-jahr">2021</span>
-  </a><a class="kachel" href="/film/lilly-schoenauer-wenn-das-schicksal-ploetzlich-zwei-herzen-v">
-    <img src="https://i.ytimg.com/vi/Ih-7o7nyKBw/maxresdefault.jpg" loading="lazy" alt="Lilly Schönauer: Wenn das Schicksal plötzlich zwei Herzen vereint - Umweg ins Glück">
-    <span class="kachel-titel">Lilly Schönauer: Wenn das Schicksal plötzlich zwei Herzen vereint - Umweg ins Glück</span>
-    <span class="kachel-jahr"></span>
-  </a><a class="kachel" href="/film/zeit-zu-leben-giuliano-montaldo">
-    <img src="https://i.ytimg.com/vi/qNNYlU07Z7A/maxresdefault.jpg" loading="lazy" alt="Zeit zu leben, Giuliano Montaldo">
-    <span class="kachel-titel">Zeit zu leben, Giuliano Montaldo</span>
-    <span class="kachel-jahr"></span>
-  </a><a class="kachel" href="/film/gefaehrliche-reise-zum-mittelpunkt-der-erde">
-    <img src="https://image.tmdb.org/t/p/w500/yzmHoFiHbwSiKWogWDS0Ie7Adsq.jpg" loading="lazy" alt="Gefährliche Reise zum Mittelpunkt der Erde">
-    <span class="kachel-titel">Gefährliche Reise zum Mittelpunkt der Erde</span>
-    <span class="kachel-jahr">1993</span>
   </a></div>
   </section>
 <section class="reihe">
@@ -1046,7 +1043,7 @@ header.top nav a:hover{color:var(--text)}
   </section>
 
 <footer>
-  <a href="/alle">Alle 5756 Filme durchsuchen</a> -- Wiedergabe über YouTube
+  <a href="/alle">Alle 5761 Filme durchsuchen</a> -- Wiedergabe über YouTube
 </footer>
 </body>
 </html>

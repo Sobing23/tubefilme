@@ -1,9 +1,19 @@
 :root{--bg:#121212;--bg-card:#1e1e1e;--text:#f2f2f2;--text-dim:#9a9a9a;--accent:#e5533c}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.5}
-header{padding:16px 20px;border-bottom:1px solid #2a2a2a}
-header a{color:var(--text);text-decoration:none;font-size:20px;font-weight:bold}
-header a span{color:var(--accent)}
+header.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
+header.top .marke{font-size:20px;font-weight:bold;color:var(--text);text-decoration:none;white-space:nowrap}
+header.top .marke span{color:var(--accent)}
+header.top .suche{flex:1;min-width:180px;max-width:420px;margin:0}
+header.top .suche input{width:100%;padding:10px 14px;border-radius:8px;border:1px solid #333;background:#1a1a1a;color:var(--text);font-size:14px}
+header.top nav{margin-left:auto;display:flex;gap:14px;align-items:center}
+header.top nav a{color:var(--text-dim);text-decoration:none;font-size:14px;white-space:nowrap}
+header.top nav a:hover{color:var(--text)}
+@media(max-width:640px){
+  header.top{gap:10px;padding:12px 14px}
+  header.top .suche{order:3;max-width:none;flex-basis:100%}
+  header.top nav{margin-left:auto}
+}
 main{max-width:960px;margin:0 auto;padding:24px 20px 60px}
 h1{font-size:26px;margin:0 0 6px}
 .sub{color:var(--text-dim);font-size:14px;margin-bottom:18px}

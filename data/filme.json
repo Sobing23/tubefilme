@@ -219928,5 +219928,178 @@
     "fsk": null,
     "posterLocal": "img/posters/323435.jpg",
     "slug": "one-two"
+  },
+  {
+    "videoId": "MnObgOd38R4",
+    "youtubeTitle": "Die Höhle - Das Tor in eine andere Zeit (SCI FI ABENTEUERFILM auf Deutsch, Mystery Abenteuerfilme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MnObgOd38R4/hqdefault.jpg",
+    "duration": "PT1H23M56S",
+    "publishedAt": "2026-09-16T17:00:05Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 455839,
+    "title": "Die Höhle - Das Tor in eine andere Zeit",
+    "originalTitle": "Time Trap",
+    "overview": "Eine Gruppe von Studenten sucht nach ihrem plötzlich verschwundenen Archäologieprofessor  in einer mysteriösen Höhle in Texas. Sie finden sich dabei plötzlich in einem Riss im Raum-Zeit-Kontinuum wieder, in der die Zeit viel langsamer zu vergehen scheint, als außerhalb. Ohne Hoffnung auf Rettung steigen sie immer tiefer in die Höhle hinunter und entdecken dabei eines der gesuchtesten Mysterien der Menschheitsgeschichte.",
+    "releaseDate": "2017-05-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fZqYeZtTs3BRxB98qwx1V3jj9I3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/b99d8ye8eT5k0inDHhdqINkiFrd.jpg",
+    "voteAverage": 6.338,
+    "genreIds": [
+      878,
+      12
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Andrew Wilson",
+      "Cassidy Gifford",
+      "Brianne Howey",
+      "Reiley McClendon",
+      "Olivia Draguicevich"
+    ],
+    "director": [
+      "Ben Foster",
+      "Mark Dennis"
+    ],
+    "writer": [
+      "Mark Dennis"
+    ],
+    "fsk": "12",
+    "posterLocal": "img/posters/455839.jpg",
+    "slug": "die-hoehle-das-tor-in-eine-andere-zeit"
+  },
+  {
+    "videoId": "AyMEMcqEPIU",
+    "youtubeTitle": "Der kleine Lord | 1936 | Klassischer Familienfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AyMEMcqEPIU/hqdefault.jpg",
+    "duration": "PT1H35M50S",
+    "publishedAt": "2026-09-16T17:00:06Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 23114,
+    "title": "Der kleine Lord",
+    "originalTitle": "Little Lord Fauntleroy",
+    "overview": "Seit dem Tod seines englischen Vaters lebt der junge Cedric allein mit seiner Mutter in Brooklyn. Eines Tages erhält er Nachricht von seinem Großvater, dem Earl von Dorincourt, der seinerzeit Cedrics Vater wegen der Heirat mit Cedrics Mutter verstoßen hatte. Cedric ist der einzige lebende Nachkomme des Earls und soll nun bei ihm auf sein Erbe vorbereitet werden. Auch die Mutter darf mit nach England reisen, muss aber unter den Hausangestellten leben. Schon bald schließt der alte Earl den ebenso intelligenten wie höflichen Cedric ins Herz. Doch da meldet unerwartet eine andere Partei Ansprüche auf das Erbe an.",
+    "releaseDate": "1936-03-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iVToLZIETK6QGB9OaYPFi0RwqDh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pDSSSx5ipRMvFwVfhgGGUTxeOsi.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      18,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Freddie Bartholomew",
+      "Dolores Costello",
+      "C. Aubrey Smith",
+      "Guy Kibbee",
+      "Henry Stephenson"
+    ],
+    "director": [
+      "John Cromwell"
+    ],
+    "writer": [
+      "Hugh Walpole"
+    ],
+    "fsk": "6",
+    "posterLocal": "img/posters/23114.jpg",
+    "slug": "der-kleine-lord-2"
+  },
+  {
+    "videoId": "ZX-G8lM3Xd8",
+    "youtubeTitle": "Er verdiente an den Geheimnissen anderer, bis die Boulevardpresse ihn selbst zur Zielscheibe machte",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZX-G8lM3Xd8/hqdefault.jpg",
+    "duration": "PT1H31M3S",
+    "publishedAt": "2026-09-16T16:03:46Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 421567,
+    "title": "Chasing Robert Barker",
+    "originalTitle": "Chasing Robert Barker",
+    "overview": "",
+    "releaseDate": "2015-10-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qrxBIrp36FJlcEtcwmuv5vh0ZOH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2qA3YDzH7BC3weeLkRS0RYZ9stb.jpg",
+    "voteAverage": 4,
+    "genreIds": [
+      53,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Chasing Robert Barker\")",
+    "cast": [
+      "Gudmundur Thorvaldsson",
+      "Patrick Baladi",
+      "Kumud Pant",
+      "Hilda Péter",
+      "Patrick Regis"
+    ],
+    "director": [
+      "Daniel Florencio"
+    ],
+    "writer": [
+      "Daniel Florencio",
+      "Maria Nefeli Zygopoulou"
+    ],
+    "fsk": null,
+    "posterLocal": "img/posters/421567.jpg",
+    "slug": "chasing-robert-barker"
+  },
+  {
+    "videoId": "IuAKIDN68mM",
+    "youtubeTitle": "ABENTEUERFILM | Er muss einen Drachen bezwingen, der droht, das Königreich zu zerstören",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/IuAKIDN68mM/hqdefault.jpg",
+    "duration": "PT1H28M20S",
+    "publishedAt": "2026-09-15T17:00:27Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "The Fire Dragon Chronicles - Dragon Quest",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-fire-dragon-chronicles-dragon-quest"
+  },
+  {
+    "videoId": "U2f8x7ouuC0",
+    "youtubeTitle": "Ein magischer Helm macht aus einem gewöhnlichen Mann den letzten Ritter | Fantasy Action",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/U2f8x7ouuC0/hqdefault.jpg",
+    "duration": "PT1H29M35S",
+    "publishedAt": "2026-09-08T20:58:58Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Ein magischer Helm macht aus einem gewöhnlichen Mann den letzten Ritter - Fantasy Action",
+    "originalTitle": null,
+    "overview": "Ein ganz gewöhnlicher Mann gerät unerwartet in den Besitz eines mysteriösen Helms. Doch schon bald erkennt er, dass dieses Artefakt Teil einer viel größeren Geschichte ist. Eine geheime Gemeinschaft moderner Ritter kämpft seit Generationen gegen übernatürliche Mächte, die im Verborgenen auf ihre Chance warten. Als die Dunkelheit erneut zurückkehrt, wird der junge Mann gezwungen, sich seiner wahren Bestimmung zu stellen. Gemeinsam mit erfahrenen Kämpfern muss er lernen, seine neuen Fähigkeiten zu kontrollieren und sich einem Feind entgegenzustellen, der die Welt bedroht. Ein actionreiches Fantasy-Abenteuer voller Magie, Ritter, Humor und übernatürlicher Gefahren.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "ein-magischer-helm-macht-aus-einem-gewoehnlichen-mann-den-le"
   }
 ]

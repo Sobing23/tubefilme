@@ -17,7 +17,16 @@
 <link rel="stylesheet" href="/film/style.css">
 </head>
 <body>
-<header><a href="/">tube<span>filme</span></a></header>
+<header class="top">
+  <a class="marke" href="/">tube<span>filme</span></a>
+  <form class="suche" action="/alle" method="get" role="search">
+    <input type="search" name="q" placeholder="Filme, Genre, Schauspieler oder Regie durchsuchen..." aria-label="Filme durchsuchen">
+  </form>
+  <nav>
+    <a href="/alle">Alle Filme</a>
+    <a href="/alle?merkliste=1">&#9829; Merkliste</a>
+  </nav>
+</header>
 <main>
   <h1>Der letzte Kampf</h1>
   <div class="sub">1983 · 1 Std 32 Min · Science Fiction · FSK 16 · ★ 6.4</div>
