@@ -1,0 +1,67 @@
+name: Ungenutzte Poster entfernen (einmalig)
+
+# Entfernt den Ordner img/posters/ aus dem Repository.
+#
+# Hintergrund: Die Poster wurden von cache-images.js heruntergeladen, aber von
+# keiner Seite verwendet -- Startseite, Trefferseite und Filmseiten laden ihre
+# Bilder direkt von image.tmdb.org. Die rund 4.500 Dateien machten den größten
+# Teil der 600 MB des Repositorys aus und wurden bei JEDER Auslieferung an
+# Vercel erneut abgelegt, was dort den Speicher hat volllaufen lassen.
+#
+# Der Workflow läuft nur auf Knopfdruck und ist danach nicht mehr nötig.
+# Zur Sicherheit muss im Eingabefeld ausdrücklich bestätigt werden.
+on:
+  workflow_dispatch:
+    inputs:
+      bestaetigung:
+        description: 'Zum Löschen exakt "loeschen" eintippen'
+        required: true
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  aufraeumen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bestätigung prüfen
+        run: |
+          if [ "${{ inputs.bestaetigung }}" != "loeschen" ]; then
+            echo "Abbruch: Im Eingabefeld muss exakt 'loeschen' stehen."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+
+      - name: Umfang anzeigen
+        run: |
+          if [ -d img/posters ]; then
+            echo "Dateien:  $(find img/posters -type f | wc -l)"
+            echo "Größe:    $(du -sh img/posters | cut -f1)"
+          else
+            echo "Ordner img/posters existiert nicht (bereits entfernt)."
+          fi
+
+      - name: Ordner entfernen
+        run: |
+          if [ -d img/posters ]; then
+            git rm -r --quiet img/posters
+            echo "Entfernt."
+          else
+            echo "Nichts zu tun."
+          fi
+
+      - name: Änderung committen
+        run: |
+          git config user.name "tubefilme-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git diff --staged --quiet || git commit -m "Ungenutzte Poster-Zwischenspeicherung entfernt"
+          git push
+
+      - name: Ergebnis
+        run: |
+          echo "Verbleibende Repo-Größe (Arbeitskopie): $(du -sh --exclude=.git . | cut -f1)"
+          echo ""
+          echo "Hinweis: Das verkleinert nur kuenftige Auslieferungen."
+          echo "Bereits bei Vercel gespeicherte Auslieferungen bleiben bestehen."
