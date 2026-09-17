@@ -35,9 +35,19 @@ const GENRES = {
 const SEITEN_CSS = `:root{--bg:#121212;--bg-card:#1e1e1e;--text:#f2f2f2;--text-dim:#9a9a9a;--accent:#e5533c}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.5}
-header{padding:16px 20px;border-bottom:1px solid #2a2a2a}
-header a{color:var(--text);text-decoration:none;font-size:20px;font-weight:bold}
-header a span{color:var(--accent)}
+header.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
+header.top .marke{font-size:20px;font-weight:bold;color:var(--text);text-decoration:none;white-space:nowrap}
+header.top .marke span{color:var(--accent)}
+header.top .suche{flex:1;min-width:180px;max-width:420px;margin:0}
+header.top .suche input{width:100%;padding:10px 14px;border-radius:8px;border:1px solid #333;background:#1a1a1a;color:var(--text);font-size:14px}
+header.top nav{margin-left:auto;display:flex;gap:14px;align-items:center}
+header.top nav a{color:var(--text-dim);text-decoration:none;font-size:14px;white-space:nowrap}
+header.top nav a:hover{color:var(--text)}
+@media(max-width:640px){
+  header.top{gap:10px;padding:12px 14px}
+  header.top .suche{order:3;max-width:none;flex-basis:100%}
+  header.top nav{margin-left:auto}
+}
 main{max-width:960px;margin:0 auto;padding:24px 20px 60px}
 h1{font-size:26px;margin:0 0 6px}
 .sub{color:var(--text-dim);font-size:14px;margin-bottom:18px}
@@ -200,7 +210,7 @@ ${poster ? `<meta property="og:image" content="${escapeHtml(poster)}">` : ""}
 <link rel="stylesheet" href="/film/style.css">
 </head>
 <body>
-<header><a href="/">tube<span>filme</span></a></header>
+${kopfbereich()}
 <main>
   <h1>${escapeHtml(m.title)}</h1>
   <div class="sub">${escapeHtml(infoZeile)}</div>
@@ -301,6 +311,31 @@ const REIHEN_GENRES = [
 
 const FILME_JE_REIHE = 18;
 
+
+// Kopfbereich, identisch auf Startseite und Filmseiten.
+//
+// Das Suchfeld ist ein gewöhnliches Formular: Es schickt die Eingabe per
+// GET an /alle, wo die Trefferliste sie auswertet. Dadurch funktioniert die
+// Suche ohne JavaScript und verhält sich für Besucher überall gleich --
+// auf /alle filtert dasselbe Feld unmittelbar, hier führt es zur Trefferseite.
+//
+// Die vier Filterfelder von /alle fehlen hier bewusst: Auf Startseite und
+// Filmseiten gibt es keine Liste, auf die sie wirken könnten. Sie sähen
+// gleich aus, verhielten sich aber anders -- das wäre irreführender als ihr
+// Fehlen.
+function kopfbereich() {
+  return `<header class="top">
+  <a class="marke" href="/">tube<span>filme</span></a>
+  <form class="suche" action="/alle" method="get" role="search">
+    <input type="search" name="q" placeholder="Filme, Genre, Schauspieler oder Regie durchsuchen..." aria-label="Filme durchsuchen">
+  </form>
+  <nav>
+    <a href="/alle">Alle Filme</a>
+    <a href="/alle?merkliste=1">&#9829; Merkliste</a>
+  </nav>
+</header>`;
+}
+
 function kachel(m) {
   const jahr = jahrVon(m);
   const poster = posterFuer(m);
@@ -365,12 +400,6 @@ function baueStartseite(filme) {
 <meta property="og:url" content="${BASE_URL}/">
 <link rel="stylesheet" href="/film/style.css">
 <style>
-header.top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
-header.top .marke{font-size:20px;font-weight:bold;color:var(--text);text-decoration:none}
-header.top .marke span{color:var(--accent)}
-header.top nav{margin-left:auto;display:flex;gap:14px}
-header.top nav a{color:var(--text-dim);text-decoration:none;font-size:14px}
-header.top nav a:hover{color:var(--text)}
 .intro{max-width:1400px;margin:0 auto;padding:22px 20px 4px}
 .intro h1{font-size:22px;margin:0 0 6px}
 .intro p{margin:0;color:var(--text-dim);font-size:14px}
@@ -396,13 +425,7 @@ header.top nav a:hover{color:var(--text)}
 </style>
 </head>
 <body>
-<header class="top">
-  <a class="marke" href="/">tube<span>filme</span></a>
-  <nav>
-    <a href="/alle">Alle Filme</a>
-    <a href="/alle?sort=bewertung">Beste Bewertungen</a>
-  </nav>
-</header>
+${kopfbereich()}
 
 <div class="intro">
   <h1>Ganze Filme, kostenlos und auf Deutsch</h1>
