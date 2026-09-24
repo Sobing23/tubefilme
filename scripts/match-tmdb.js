@@ -346,12 +346,29 @@ function istGenerischerBegriff(q) {
 // Comfy Movies schreibt bei manchen (oft älteren/US-)Filmen den echten
 // englischen Originaltitel direkt hinter einem "|" -- der ist bei TMDB
 // meist viel eher zu finden als der deutsche Verleihtitel davor.
-function splitPipeVariants(rawTitle) {
+// Normalisiert für den Vergleich mit dem Kanalnamen
+function kanalNorm(s) {
+  return (s || "").toLowerCase().replace(/[^a-z0-9äöüß]/g, "");
+}
+
+function splitPipeVariants(rawTitle, channelName) {
   if (!rawTitle.includes("|")) return [];
+  const kanal = kanalNorm(channelName);
   return rawTitle
     .split("|")
     .map((s) => stripTrailingYear(s.trim()))
-    .filter((s) => s && !GENERIC_SEGMENT.test(s));
+    .filter((s) => s && !GENERIC_SEGMENT.test(s))
+    // Reine Jahreszahl als eigenes Segment ("Hurra! Ich bin Papa! | 1939 |")
+    // ist ein Erscheinungsjahr, kein Titel. Als Suchbegriff fand "1939"
+    // zuverlässig einen Film namens "1939" -- mit voller Punktzahl für die
+    // Titelübereinstimmung. Das Jahr wird separat über extractTitleYear()
+    // gewonnen und als Filter genutzt.
+    .filter((s) => !/^(19|20)\d{2}$/.test(s))
+    // Kanalname als Segment ("… | HeimatfilmeTV") ist ebenfalls kein Titel
+    .filter((s) => {
+      if (kanal.length < 4) return true;
+      return !kanalNorm(s).startsWith(kanal);
+    });
 }
 
 // "Shampoo: Das totale Liebeschaos!" -> "Shampoo"
@@ -379,13 +396,25 @@ function stripColonSubtitle(text) {
 const MARKETING_SEGMENT =
   /ganzer?\b|ganze\b|auf deutsch|kostenlos|\bin hd\b|voller länge|komplett|^mit\s|jetzt (an)?schauen/i;
 
-function stripMarketingSuffix(title) {
+function stripMarketingSuffix(title, channelName) {
   const parts = title.split(/\s*[–—|]\s+|\s+-\s+/);
   if (parts.length <= 1) return title.trim();
+  const kanal = (channelName || "").toLowerCase().replace(/[^a-z0-9äöüß]/g, "");
   const clean = [];
   for (const p of parts) {
     if (MARKETING_SEGMENT.test(p)) break;
-    clean.push(p.trim());
+    const seg = p.trim();
+    // Reine Jahreszahl und Kanalname sind kein Titelbestandteil und werden
+    // übersprungen. Sonst entstand aus "Hurra! Ich bin Papa! | 1939 |
+    // HeimatfilmeTV" der Titel "Hurra! Ich bin Papa! - 1939 - HeimatfilmeTV".
+    // Nur NACHGESTELLTE Jahreszahlen überspringen -- eine führende gehört zum
+    // Titel ("2047 - Sights of Death", "1945 - Frozen Front").
+    if (clean.length > 0 && /^(19|20)\d{2}$/.test(seg)) continue;
+    if (kanal.length >= 4) {
+      const s = seg.toLowerCase().replace(/[^a-z0-9äöüß]/g, "");
+      if (s.startsWith(kanal)) continue;
+    }
+    clean.push(seg);
   }
   return clean.length ? clean.join(" - ").trim() : title.trim();
 }
@@ -499,7 +528,7 @@ function buildQueryCandidates(info, video) {
   // ausschließlich Genre- und Werbeangaben, die als Suchbegriff in die Irre
   // führen. Das steuert das Anbieter-Profil in config/channels.json.
   if (profil.pipeAlsTitelvariante !== false) {
-    splitPipeVariants(video.title).forEach(add);
+    splitPipeVariants(video.title, video.channelName).forEach(add);
   }
 
   // Werbetext-bereinigte Varianten. Bewusst NACH den bisherigen Varianten
@@ -507,7 +536,7 @@ function buildQueryCandidates(info, video) {
   // Suchbegriff schon sicher gefunden werden, brechen die Suche vorher ab
   // und bleiben damit unverändert.
   add(stripMarketingSuffix(info.fallbackQuery || ""));
-  add(stripMarketingSuffix(video.title));
+  add(stripMarketingSuffix(video.title, video.channelName));
 
   // Zuletzt: Doppelpunkt-Untertitel abtrennen, niedrigste Priorität
   add(stripColonSubtitle(info.fallbackQuery));
