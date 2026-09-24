@@ -435,33 +435,49 @@ function firstDashSegment(title) {
   return first ? first.trim() : (title || "").trim();
 }
 
-// Manche Kanäle nennen im Videotitel gar keinen Filmnamen, sondern nur einen
-// reißerischen Aufhänger ("KOMÖDIENFILM, den man mindestens einmal im Leben
-// gesehen haben sollte"). Der echte Titel steht dann als kurze, eigenständige
-// Zeile am Anfang der Beschreibung ("St. Daisy"). Diese Zeile ist bei den
-// betroffenen Kanälen in nahezu allen Fällen der gesuchte Filmtitel.
-//
-// Erkennungsmerkmale: kurz, wenige Wörter, kein Satzzeichen am Ende (also
-// kein Fließtext), kein Verweis -- und nur unter den ersten Zeilen.
-function kopfzeileAusBeschreibung(desc) {
-  const zeilen = (desc || "")
-    .split(/\n+/)
-    .map((z) => z.trim())
-    .filter(Boolean);
+// Strenge Fassung, wörtlich aus absorb-unmatched.js übernommen. Die frühere
+// lockere Variante durchsuchte die ersten vier Zeilen und fand dadurch bei
+// fast jedem Kanal irgendetwas -- die Kanalregel (Trefferquote >= 50 %) wurde
+// so wirkungslos und ließ auch Werbung wie "Stromkosten senken" durch.
+const KEIN_TITEL =
+  /^(cast\s*&\s*crew|besetzung|darsteller|regie|inhalt|die handlung|handlung|imdb|fsk|filmname|originaltitel|originalname|trailer|highlights|kapitel|timestamps|danke|abonn|viel spa|folge uns|mehr filme|jetzt ansehen|hinweis|genre|lizenz|quelle|warum)/i;
+const NUR_GATTUNG = new Set([
+  "action", "thriller", "horror", "drama", "western", "komödie", "komoedie",
+  "krimi", "film", "deutsch", "abenteuer", "fantasy", "mystery", "romantik",
+  "klassiker", "spielfilm", "dokumentation",
+]);
 
-  // Überschriften und Kennzahlen, die manche Kanäle an den Anfang setzen --
-  // sie sehen wie ein Titel aus, sind aber keiner ("Cast & Crew" bei CiNENET,
-  // "IMDb: *6,8* von 10" bei Moviedome).
-  const KEINE_TITEL = /^(cast\s*&\s*crew|besetzung|darsteller|regie|inhalt|handlung|imdb|fsk|filmname|originaltitel|originalname|trailer|highlights|kapitel)\b/i;
+function kopfzeileAusBeschreibung(desc, videoTitel) {
+  const zeilen = (desc || "").split(/\n+/).map((z) => z.trim()).filter(Boolean);
+  const vt = String(videoTitel || "").toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 25);
 
-  for (const zeile of zeilen.slice(0, 4)) {
-    if (/https?:\/\//.test(zeile)) continue;
-    if (zeile.length < 2 || zeile.length > 60) continue;
-    if (/[.!?:]$/.test(zeile)) continue; // Fließtext, kein Titel
-    if (zeile.split(/\s+/).length > 8) continue;
-    if (KEINE_TITEL.test(zeile)) continue;
-    if (istGenerischerBegriff(zeile)) continue;
-    return stripLeadingSymbols(zeile);
+  for (const zeile of zeilen.slice(0, 3)) {
+    const vergleich = zeile.toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (vt && vergleich.startsWith(vt)) continue; // wiederholter Videotitel
+    if (/https?:\/\//.test(zeile)) continue; // Verweiszeile
+
+    // Ab hier gilt: Das ist die erste echte Inhaltszeile. Passt sie nicht,
+    // gibt es in dieser Beschreibung keinen brauchbaren Titel.
+    if (/#/.test(zeile)) return null;
+    if (/^\d{1,2}:\d{2}/.test(zeile)) return null; // Zeitmarke
+    if (zeile.length < 2 || zeile.length > 60) return null;
+    if (/[.:]$/.test(zeile)) return null;
+    if (/:\s/.test(zeile)) return null; // Strukturzeile wie "Regie: X"
+    if (/^[A-ZÄÖÜ]{4,}$/.test(zeile)) return null; // Einzelwort in Großbuchstaben
+    if (zeile.split(/\s+/).length > 8) return null;
+    if (/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]$/u.test(zeile)) return null;
+
+    // Erst Symbole und Anführungszeichen entfernen, DANN gegen die
+    // Ausschlussliste prüfen. Sonst rutschen Zeilen wie "🎬 Regie & Cast"
+    // durch, weil das führende Zeichen den Wortanfang verdeckt.
+    const sauber = zeile
+      .replace(/^[^\p{L}\p{N}(]+/u, "")
+      .replace(/[„“"»«]+/g, "")
+      .trim();
+    if (sauber.length < 2) return null;
+    if (KEIN_TITEL.test(sauber)) return null;
+    if (NUR_GATTUNG.has(sauber.toLowerCase())) return null;
+    return sauber;
   }
   return null;
 }
@@ -487,6 +503,39 @@ function titelAusWerbung(titel) {
   if (m) return m[1].trim();
 
   return null;
+}
+
+
+// Liest feste Titelzeilen aus der Beschreibung. Zwei Formen:
+//
+//   "DER VERLORENE ZUG (2022)"          -> ["DER VERLORENE ZUG"]
+//      Netzkino, Dzango, Starkino u.a.: deutscher Verleihtitel mit Jahr
+//
+//   "Tornado (Cyclone, 1978)"           -> ["Tornado", "Cyclone"]
+//      FFF Kino: deutscher Titel, Originaltitel und Jahr. Für diesen Kanal
+//      die EINZIGE Quelle des Originaltitels -- ein Feld "Originaltitel:"
+//      gibt es dort nicht.
+//
+// Streng definiert: Die ganze Zeile besteht nur aus Titel und GENAU EINEM
+// Jahr. Jahresspannen ("Lederstrumpf (1994-1995)", eine Serie) und andere
+// Klammerinhalte ("... (DDR)") fallen dadurch heraus, ebenso Zeilen mit
+// Doppelpunkt ("Produktionsland/-jahr: DDR 1989", "Regie: ...").
+function titelzeilenAusBeschreibung(desc) {
+  const zeilen = (desc || "").split(/\n+/).map((z) => z.trim()).filter(Boolean);
+  const gefunden = [];
+  const pruefe = (t) => {
+    const x = (t || "").trim();
+    if (x.length < 2 || /https?:\/\/|#|:\s/.test(x)) return;
+    if (istGenerischerBegriff(x)) return;
+    gefunden.push(x);
+  };
+  for (const zeile of zeilen.slice(0, 8)) {
+    let m = zeile.match(/^([^()]{2,70}?)\s*\(([^(),]{2,70}?),\s*(19|20)\d{2}\)$/);
+    if (m) { pruefe(m[1]); pruefe(m[2]); break; }
+    m = zeile.match(/^([^()]{2,70}?)\s*\((19|20)\d{2}\)$/);
+    if (m) { pruefe(m[1]); break; }
+  }
+  return gefunden;
 }
 
 // Baut eine deduplizierte, priorisierte Liste an Suchbegriffen aus allen
@@ -545,7 +594,13 @@ function buildQueryCandidates(info, video) {
   // Kurze Kopfzeile der Beschreibung -- greift bei Kanälen, deren Videotitel
   // gar keinen Filmnamen enthält. Bewusst weit hinten eingereiht, damit sie
   // bestehende, funktionierende Zuordnungen nicht verdrängt.
-  add(kopfzeileAusBeschreibung(video.description));
+  if (KOPFZEILEN_KANAELE.has(video.channelName)) {
+    add(kopfzeileAusBeschreibung(video.description, video.title));
+  }
+
+  // Feste Titelzeile "TITEL (JAHR)" -- gilt für alle Kanäle, weil sie so
+  // streng definiert ist, dass sie keine Werbung oder Überschriften erfasst.
+  titelzeilenAusBeschreibung(video.description).forEach(add);
 
   // Allerletzter Versuch, bevor aufgegeben wird: reines Erst-Segment
   add(firstDashSegment(video.title));
@@ -826,10 +881,38 @@ async function findBestMatch(video) {
   };
 }
 
+
+// Kanäle, bei denen die erste Beschreibungszeile verlässlich der Filmtitel
+// ist -- aus den Daten ermittelt, siehe gleichnamige Logik in
+// absorb-unmatched.js. Bei allen anderen Kanälen erwischt die Kopfzeile
+// Werbung oder Überschriften, die als Suchbegriff zu Fehltreffern führen.
+const KOPFZEILE_MINDESTANTEIL = 0.5;
+const KOPFZEILE_MINDESTVIDEOS = 10;
+let KOPFZEILEN_KANAELE = new Set();
+
+function ermittleKopfzeilenKanaele(candidates) {
+  const gesamt = new Map();
+  const treffer = new Map();
+  for (const c of candidates) {
+    gesamt.set(c.channelName, (gesamt.get(c.channelName) || 0) + 1);
+    if (kopfzeileAusBeschreibung(c.description, c.title)) {
+      treffer.set(c.channelName, (treffer.get(c.channelName) || 0) + 1);
+    }
+  }
+  const ergebnis = new Set();
+  for (const [kanal, n] of gesamt) {
+    if (n >= KOPFZEILE_MINDESTVIDEOS && (treffer.get(kanal) || 0) / n >= KOPFZEILE_MINDESTANTEIL) {
+      ergebnis.add(kanal);
+    }
+  }
+  return ergebnis;
+}
+
 async function main() {
   await ladeProfile();
   await ladeSperrliste();
   const candidates = JSON.parse(await fs.readFile(CANDIDATES_PATH, "utf-8"));
+  KOPFZEILEN_KANAELE = ermittleKopfzeilenKanaele(candidates);
 
   let manualMatches = {};
   try {
