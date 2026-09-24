@@ -1,5 +1,7 @@
 {
   "channels": [
+    { "name": "Absolute Action", "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw" },
+    { "name": "Alle Filme Auf Deutsch", "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA" },
     { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
     {
       "name": "Artflix",
@@ -13,19 +15,22 @@
     },
     { "name": "Boxoffice", "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ" },
     { "name": "Bulldox", "channelId": "UCgsih0dGYPncJxONFcz3-UA" },
+    { "name": "CineCult Reloaded", "channelId": "UCwwiMLsk1AHfPU0n88BEzHg" },
+    { "name": "CinemaLegenden", "channelId": "UC0zy7qZplGz1sX_xeXdhd_g" },
     {
       "name": "CiNENET Deutschland",
       "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
       "profil": { "pipeAlsTitelvariante": false }
     },
-    { "name": "CineCult Reloaded", "channelId": "UCwwiMLsk1AHfPU0n88BEzHg" },
-    { "name": "CinemaLegenden", "channelId": "UC0zy7qZplGz1sX_xeXdhd_g" },
     { "name": "Comfy Movies", "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw" },
+    { "name": "DEFA Filmwelt", "channelId": "UCSKbHQcEk-42lL--03lbbIw" },
+    { "name": "Deutsch Film Hub", "channelId": "UCMdvU2xCSxMUJKbwq5zEC4Q" },
     {
       "name": "Deutsch Knallhart",
       "channelId": "UChdsePumnXsycplDMEVY4zw",
       "profil": { "pipeAlsTitelvariante": false }
     },
+    { "name": "Draco Actionfilme", "channelId": "UCHAE4BV0_nvubIyNuCrtg3A" },
     { "name": "Dzango", "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ" },
     { "name": "FABELLA", "channelId": "UCww-ReMpc2FgiGb6vIQddWg" },
     {
@@ -38,8 +43,12 @@
     { "name": "Free Films Action", "channelId": "UC40R8fSroyRd52QDEBf4Mqw" },
     { "name": "Free Films Emotion", "channelId": "UC6DTsN_DKPGsPVckgfzYznw" },
     { "name": "Free Movies Deutschland", "channelId": "UCzEM7lABab3RcmVAZXbYhig" },
+    { "name": "Grjngo Westernfilme", "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw" },
+    { "name": "Heimatfilme", "channelId": "UCV8yejshmlsns86C-ZeO16Q" },
     { "name": "Heimatkino", "channelId": "UChJySzurS1PVmE_gvVQX_ng" },
+    { "name": "Kino Deutsch", "channelId": "UCBHYbV2w8dE__bS6fNdCbpw" },
     { "name": "Kinohof", "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ" },
+    { "name": "KinoWucht", "channelId": "UCCYMsl9VC3BR6M-iv5feZkg" },
     { "name": "Lichtprojektor", "channelId": "UCmxqkfX9mlB9g8e0aGg94wA" },
     { "name": "Moviedome", "channelId": "UCh4JH8axA_jUjB8YoRnm0cg" },
     { "name": "Movies Select", "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug" },
