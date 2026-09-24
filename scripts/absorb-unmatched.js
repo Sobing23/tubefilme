@@ -46,13 +46,25 @@ function stripGenreBrackets(text) {
 const MARKETING_SEGMENT =
   /ganzer?\b|ganze\b|auf deutsch|kostenlos|\bin hd\b|voller länge|komplett|^mit\s|jetzt (an)?schauen/i;
 
-function stripMarketingSuffix(title) {
+function stripMarketingSuffix(title, channelName) {
   const parts = title.split(/\s*[–—|]\s+|\s+-\s+/);
   if (parts.length <= 1) return title.trim();
+  const kanal = (channelName || "").toLowerCase().replace(/[^a-z0-9äöüß]/g, "");
   const clean = [];
   for (const p of parts) {
     if (MARKETING_SEGMENT.test(p)) break;
-    clean.push(p.trim());
+    const seg = p.trim();
+    // Reine Jahreszahl und Kanalname sind kein Titelbestandteil und werden
+    // übersprungen. Sonst entstand aus "Hurra! Ich bin Papa! | 1939 |
+    // HeimatfilmeTV" der Titel "Hurra! Ich bin Papa! - 1939 - HeimatfilmeTV".
+    // Nur NACHGESTELLTE Jahreszahlen überspringen -- eine führende gehört zum
+    // Titel ("2047 - Sights of Death", "1945 - Frozen Front").
+    if (clean.length > 0 && /^(19|20)\d{2}$/.test(seg)) continue;
+    if (kanal.length >= 4) {
+      const s = seg.toLowerCase().replace(/[^a-z0-9äöüß]/g, "");
+      if (s.startsWith(kanal)) continue;
+    }
+    clean.push(seg);
   }
   return clean.length ? clean.join(" - ").trim() : title.trim();
 }
@@ -136,7 +148,7 @@ function kopfzeileAusBeschreibung(desc, videoTitel) {
   return null;
 }
 
-function cleanTitle(rawTitle) {
+function cleanTitle(rawTitle, channelName) {
   // Erkennbarer echter Titel hat Vorrang vor jeder Bereinigung
   const ausWerbung = titelAusWerbung(rawTitle);
   if (ausWerbung) return ausWerbung;
@@ -149,7 +161,7 @@ function cleanTitle(rawTitle) {
   // Jahresangabe in Klammern entfernen (wandert in releaseDate)
   t = t.replace(/\((19|20)\d{2}\)/g, " ");
   t = t.replace(/\s{2,}/g, " ").trim();
-  t = stripMarketingSuffix(t);
+  t = stripMarketingSuffix(t, channelName);
   // führende Marker wie "(x) " abschneiden
   t = t.replace(/^\s*\([^)]{0,12}\)\s*/, "").trim();
   return t.replace(/\s*[-–—|*]\s*$/, "").trim();
@@ -307,7 +319,7 @@ async function main() {
     const titel =
       titelAusWerbung(video.title) ||
       kopfzeileAusBeschreibung(video.description, video.title) ||
-      cleanTitle(video.title);
+      cleanTitle(video.title, video.channelName);
     const overview = extractOverview(video.description);
 
     // Ohne verwertbaren Titel bringt eine Übernahme nichts
