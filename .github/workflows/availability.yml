@@ -22,6 +22,15 @@ on:
 permissions:
   contents: write
 
+# Alle Workflows, die Daten schreiben, teilen sich diese Warteschlange.
+# Startet einer, während ein anderer läuft, wartet er -- statt parallel an
+# denselben Dateien zu arbeiten. Genau das hat am 24.09. einen 29-minütigen
+# Lauf scheitern lassen: Der zeitgesteuerte Scan (von GitHub um Stunden
+# verschoben) committete, während die Neu-Zuordnung noch lief.
+concurrency:
+  group: tubefilme-daten
+  cancel-in-progress: false
+
 jobs:
   pruefen:
     runs-on: ubuntu-latest
@@ -58,5 +67,19 @@ jobs:
           git config user.name "tubefilme-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/ film/ index.html sitemap.xml robots.txt
-          git diff --staged --quiet || git commit -m "Verfügbarkeitsprüfung: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+          git commit -m "Verfügbarkeitsprüfung: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Während des Laufs eingespielten Code übernehmen (etwa ein
+          # aktualisiertes Skript). Andere Workflows laufen dank der
+          # Warteschlange nie parallel. Kollidiert trotzdem eine Datendatei --
+          # z.B. weil währenddessen über die Review-Seite gespeichert wurde --
+          # wird abgebrochen statt überschrieben.
+          if ! git pull --rebase origin main; then
+            git rebase --abort
+            echo "::error::Konflikt mit einer zwischenzeitlichen Änderung an denselben Daten. Nichts wurde überschrieben -- Workflow bitte erneut starten."
+            exit 1
+          fi
           git push
