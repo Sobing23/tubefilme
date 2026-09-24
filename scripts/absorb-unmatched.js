@@ -148,22 +148,90 @@ function kopfzeileAusBeschreibung(desc, videoTitel) {
   return null;
 }
 
+
+// Ist ein Segment ein reines Etikett (Genre, Qualität, Sprache, Werbung) und
+// kein Filmtitel? Das ist der Fall, wenn nach Abzug solcher Wörter nichts
+// Inhaltliches übrig bleibt: "KUNG FU CLASSIC", "ACTION-THRILLER",
+// "Abenteuerfilm auf Deutsch", "4K", "Italowestern", "In Farbe".
+const ETIKETT_WORT =
+  /^(film|filme|spielfilm|kinofilm|thriller|western|drama|komödie|komoedie|krimi|horror|action|abenteuer|klassiker|classic|kung|fu|martial|arts|sci|fi|scifi|fantasy|mystery|doku|dokumentation|animation|zeichentrick|deutsch|german|ganzer|ganze|kompletter|komplett|voller|volle|länge|laenge|hd|4k|uhd|kostenlos|gratis|auf|in|neu|restauriert|koloriert|farbe|und|full|movie|eastern|romanze|romantik|fantasie|spannung|aktion|satire|erotik|noir|biografie|historie|sport|klassik|spaghetti)$/;
+
+function istEtikett(segment) {
+  const woerter = (segment || "")
+    .toLowerCase()
+    .replace(/[^a-zäöüß0-9]+/g, " ")
+    .split(" ")
+    .filter(Boolean);
+  if (woerter.length === 0) return true;
+  return woerter.every(
+    (w) => ETIKETT_WORT.test(w) || /(film|thriller|western|komödie|drama)$/.test(w) || /^(19|20)\d{2}$/.test(w)
+  );
+}
+
+
+// Zerlegt an senkrechten Strichen, aber NICHT innerhalb von Klammern. Ein
+// Strich in einer Klammer trennt nie den Titel vom Beiwerk
+// ("DJANGO - DER BASTARD (Spaghetti-Western | Mystery)"); dort zu schneiden
+// hinterließ eine offene Klammer.
+function teileAnStrichen(text) {
+  const teile = [];
+  let tiefe = 0;
+  let aktuell = "";
+  for (const zeichen of text) {
+    if (zeichen === "(") tiefe++;
+    if (zeichen === ")") tiefe = Math.max(0, tiefe - 1);
+    if (zeichen === "|" && tiefe === 0) {
+      teile.push(aktuell);
+      aktuell = "";
+      continue;
+    }
+    aktuell += zeichen;
+  }
+  teile.push(aktuell);
+  return teile.map((x) => x.trim()).filter(Boolean);
+}
+
 function cleanTitle(rawTitle, channelName) {
   // Erkennbarer echter Titel hat Vorrang vor jeder Bereinigung
   const ausWerbung = titelAusWerbung(rawTitle);
   if (ausWerbung) return ausWerbung;
 
   let t = stripGenreBrackets(rawTitle);
-  // Qualitätsmarker wie "*HD*", "*4K*", "[HD]" entfernen
+
+  // ZUERST die Klammern bereinigen, DANN an den senkrechten Strichen zerlegen.
+  // Manche Kanäle setzen Striche innerhalb einer Werbeklammer: "World War II
+  // Inferno (KRIEGSFILM | ganzer Film Deutsch | Action Film)". In umgekehrter
+  // Reihenfolge wurde die Klammer mittendurch geschnitten, übrig blieb
+  // "World War II Inferno (KRIEGSFILM" mit offener Klammer.
+  // Qualitätsmarker wie "*HD*", "*4K*", "[HD]"
   t = t.replace(/\*\s*(HD|4K|FULL HD|UHD)\s*\*/gi, " ");
-  // Klammerinhalte entfernen, die reines Beiwerk sind
+  // Klammern mit Werbeformeln
   t = t.replace(/\((?:[^)]*(?:ganzer|ganze|deutsch|kostenlos|voller länge|hd|film)[^)]*)\)/gi, " ");
-  // Jahresangabe in Klammern entfernen (wandert in releaseDate)
+  // Klammern, die nur Etiketten enthalten ("(KUNG-FU / ACTION)")
+  t = t.replace(/\(([^)]*)\)/g, (ganz, innen) => (istEtikett(innen) ? " " : ganz));
+  // Jahresangabe in Klammern (wandert in releaseDate)
   t = t.replace(/\((19|20)\d{2}\)/g, " ");
   t = t.replace(/\s{2,}/g, " ").trim();
+
+  // Titel mit senkrechten Strichen: das erste Segment nehmen, das KEIN reines
+  // Etikett ist. Der Titel steht mal vorne ("Die Stimme des Anderen |
+  // KRIMIFILM"), mal hinter einem Genre ("KUNG FU CLASSIC | Die Silberfaust
+  // der Shaolin"). Bisher wurden alle Segmente wieder angehängt, und der
+  // Titel lautete etwa "Django - ... - Italowestern - 4K - Deutsch".
+  if (t.includes("|")) {
+    const segmente = teileAnStrichen(t);
+    t = segmente.find((x) => !istEtikett(x)) || segmente[0] || t;
+  }
   t = stripMarketingSuffix(t, channelName);
   // führende Marker wie "(x) " abschneiden
   t = t.replace(/^\s*\([^)]{0,12}\)\s*/, "").trim();
+
+  // Erst ganz zum Schluss, damit Klammerbereinigung und Werbetext-Erkennung
+  // vorher ihre Signale sehen: angehängte Werbeformel ohne Trennzeichen
+  // ("Ein Colt für 100 Särge Ganzer Film auf Deutsch") und ein mit Komma
+  // angehängtes Jahr ("Der letzte Schuß, 1955").
+  t = t.replace(/\s+(ganzer?|ganze)\s+(film|filme|western|thriller|actionfilm|spielfilm)\b.*$/i, "");
+  t = t.replace(/,\s*(19|20)\d{2}\s*$/, "");
   return t.replace(/\s*[-–—|*]\s*$/, "").trim();
 }
 
@@ -266,6 +334,38 @@ function saubereAbsatz(text) {
     .slice(0, 900);
 }
 
+
+// Kanäle, bei denen die erste Beschreibungszeile verlässlich der Filmtitel ist.
+//
+// Aus den Daten ermittelt statt als Liste gepflegt: Bei Kanälen, die ihre
+// Videos reißerisch betiteln (CinemaLegenden, Kinohof, Lichtprojektor, ...)
+// trifft die Kopfzeile in 87-97 % der Videos -- dort IST sie der Titel. Bei
+// allen anderen trifft sie in 0-6 % und erwischt dann Werbung ("Stromkosten
+// senken & Tarife vergleichen" bei Dzango), Firmennamen ("UCM.ONE") oder
+// Werbezeilen ("Alles wie früher -- fast!" statt "Fast wie in alten Zeiten").
+// Neue Kanäle werden so automatisch richtig eingeordnet.
+const KOPFZEILE_MINDESTANTEIL = 0.5;
+const KOPFZEILE_MINDESTVIDEOS = 10;
+let KOPFZEILEN_KANAELE = new Set();
+
+function ermittleKopfzeilenKanaele(candidates) {
+  const gesamt = new Map();
+  const treffer = new Map();
+  for (const c of candidates) {
+    gesamt.set(c.channelName, (gesamt.get(c.channelName) || 0) + 1);
+    if (kopfzeileAusBeschreibung(c.description, c.title)) {
+      treffer.set(c.channelName, (treffer.get(c.channelName) || 0) + 1);
+    }
+  }
+  const ergebnis = new Set();
+  for (const [kanal, n] of gesamt) {
+    if (n >= KOPFZEILE_MINDESTVIDEOS && (treffer.get(kanal) || 0) / n >= KOPFZEILE_MINDESTANTEIL) {
+      ergebnis.add(kanal);
+    }
+  }
+  return ergebnis;
+}
+
 async function main() {
   let unmatched = [];
   try {
@@ -283,6 +383,8 @@ async function main() {
   const candidates = JSON.parse(await fs.readFile(CANDIDATES_PATH, "utf-8"));
   const filme = JSON.parse(await fs.readFile(FILME_PATH, "utf-8"));
   const candById = new Map(candidates.map((c) => [c.videoId, c]));
+  KOPFZEILEN_KANAELE = ermittleKopfzeilenKanaele(candidates);
+  console.log(`Kanäle mit Titel in der Beschreibungs-Kopfzeile: ${[...KOPFZEILEN_KANAELE].sort().join(", ") || "keine"}`);
 
   let attempts = {};
   try {
@@ -318,7 +420,9 @@ async function main() {
     //   3. bereinigter Videotitel
     const titel =
       titelAusWerbung(video.title) ||
-      kopfzeileAusBeschreibung(video.description, video.title) ||
+      (KOPFZEILEN_KANAELE.has(video.channelName)
+        ? kopfzeileAusBeschreibung(video.description, video.title)
+        : null) ||
       cleanTitle(video.title, video.channelName);
     const overview = extractOverview(video.description);
 
