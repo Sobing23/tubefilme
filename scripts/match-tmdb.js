@@ -175,7 +175,18 @@ function extractProseYear(desc) {
 // Das ist ein sehr verlässliches Signal und war bisher komplett ungenutzt --
 // betrifft allein bei den nicht zugeordneten Filmen 174 Fälle.
 function extractTitleYear(title) {
-  const m = (title || "").match(/\((19|20)(\d{2})\)/);
+  const t = title || "";
+  // Drei Schreibweisen, in dieser Reihenfolge:
+  //   "Morningstar (2024)"                    -- Jahr in Klammern
+  //   "Ich heirate Herrn Direktor, 1960 | …"  -- Jahr mit Komma am Titelende
+  //   "Seine Hoheit war ein Mädchen | 1954 |" -- Jahr als eigenes Segment
+  // Die beiden letzten nutzt vor allem Heimatfilme. Ohne sie ging der Titel
+  // samt ", 1960" an TMDB, und bei den oft mehrfach verfilmten Stoffen aus
+  // den 40ern bis 60ern fehlte das Jahr als Beleg für die Zuordnung.
+  const m =
+    t.match(/\((19|20)(\d{2})\)/) ||
+    t.match(/,\s*(19|20)(\d{2})\s*(?:\||$)/) ||
+    t.match(/\|\s*(19|20)(\d{2})\s*(?:\||$)/);
   if (!m) return null;
   const jahr = m[1] + m[2];
   const aktuell = new Date().getFullYear();
@@ -244,6 +255,13 @@ function stripLeadingSymbols(text) {
     .trim();
 }
 
+// Entfernt ein mit Komma angehängtes Jahr am Titelende ("Der laufende Berg,
+// 1941" -> "Der laufende Berg"). Das Jahr selbst wird separat über
+// extractTitleYear() gewonnen und als Filter an TMDB übergeben.
+function stripTrailingCommaYear(text) {
+  return (text || "").replace(/,\s*(19|20)\d{2}\s*$/, "").trim();
+}
+
 function primaryTitleSegment(title) {
   const cleaned = stripLeadingSymbols(stripGenreBrackets(title));
   const candidates = ["(", "|"]
@@ -263,7 +281,7 @@ function primaryTitleSegment(title) {
     segment = (idx.length === 0 ? ohneMarker : ohneMarker.slice(0, Math.min(...idx))).trim();
   }
 
-  return segment || cleaned;
+  return stripTrailingCommaYear(segment || cleaned);
 }
 
 // -- Zusätzliche Such-Varianten für hartnäckige Fälle --
