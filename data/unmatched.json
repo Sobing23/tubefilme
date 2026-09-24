@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "videoId": "iAJGfEXfHQo",
+    "youtubeTitle": "The Young Tiger – Jackie Chan (JACKIE CHAN Karatefilm, Martial Arts Spielfilm, deutsch, MMA)",
+    "suchbegriff": "The Young Tiger – Jackie Chan",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 47) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 54864,
+      "title": "Ting Lu - Der grausame Tiger",
+      "release_date": "1973-09-06"
+    }
+  },
+  {
+    "videoId": "-0CUO9uDEuI",
+    "youtubeTitle": "Django und Sabata - Wie blutige Geier (Western I spannende Spielfilme auf deutsch, Westernfilme)",
+    "suchbegriff": "Django e Sabata... hanno venduto la pelle",
+    "erwartetesJahr": "1970",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bEsJv4-ABQY",
+    "youtubeTitle": "😍🤣 Diese Verrückte Romantische Komödie Sollten Sie Bis Zum Ende Anschauen! | Filme Deutsch Komplett",
+    "suchbegriff": "Diese Verrückte Romantische Komödie Sollten Sie Bis Zum Ende Anschauen!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "JAupTzPb5AE",
+    "youtubeTitle": "L.A. Gangster (2006) [Drama] [Thriller] Abgrund in der Stadt der Engel | Ganzer Film auf Deutsch",
+    "suchbegriff": "L.A. Gangster",
+    "erwartetesJahr": "2006",
+    "grund": "Schwache Übereinstimmung (Wert 80) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 82682,
+      "title": "Gangster Squad",
+      "release_date": "2013-01-09"
+    }
+  },
+  {
+    "videoId": "xFR-h6sKPN8",
+    "youtubeTitle": "Pferde - Das Leben der Pferde in einzigartigen Aufnahmen",
+    "suchbegriff": "Pferde - Das Leben der Pferde in einzigartigen Aufnahmen",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 512603,
+      "title": "Pferde stehlen",
+      "release_date": "2019-03-08"
+    }
+  },
+  {
+    "videoId": "GdhW33GtKfc",
+    "youtubeTitle": "🏆 Eine der stärksten Familiendramen, die lange im Gedächtnis bleiben | Casey’s Gift | Ganzer Film",
+    "suchbegriff": "Eine der stärksten Familiendramen, die lange im Gedächtnis bleiben",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 290520,
+      "title": "Casey's Gift: For Love of a Child",
+      "release_date": "1990-09-24"
+    }
+  },
+  {
+    "videoId": "_XWPJWYU2nM",
+    "youtubeTitle": "Fantasyfilm Voller Abenteuer! Sie verstecken eine geheimnisvolle Welt | Filme Deutsch Komplett",
+    "suchbegriff": "Fantasyfilm Voller Abenteuer! Sie verstecken eine geheimnisvolle Welt",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  }
+]
