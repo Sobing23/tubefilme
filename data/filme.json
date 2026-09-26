@@ -223215,9 +223215,9 @@
     "slug": "sommer-04"
   },
   {
-    "videoId": "2XkC9lNv8JU",
-    "youtubeTitle": "Foxtrot Six | ACTIONFILM | Drama",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/2XkC9lNv8JU/hqdefault.jpg",
+    "videoId": "F0I5dB4vl8I",
+    "youtubeTitle": "Foxtrot Six | 2019 | Actionfilm auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/F0I5dB4vl8I/hqdefault.jpg",
     "duration": "PT1H53M3S",
     "publishedAt": "2025-02-25T17:00:32Z",
     "channelName": "Bigtime",
@@ -223252,8 +223252,6 @@
       "Randy Korompis"
     ],
     "fsk": "16",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
     "slug": "foxtrot-six"
   },
   {
@@ -262274,5 +262272,499 @@
     "writer": [],
     "fsk": null,
     "slug": "fantasyfilm-voller-abenteuer-sie-verstecken-eine-geheimnisvo"
+  },
+  {
+    "videoId": "F39FjZXuick",
+    "youtubeTitle": "Ein Film, den man mindestens einmal im Leben gesehen haben sollte | GANZER FILM AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/F39FjZXuick/hqdefault.jpg",
+    "duration": "PT1H23M17S",
+    "publishedAt": "2026-09-25T15:00:03Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 225303,
+    "title": "The O'Briens",
+    "originalTitle": "The O'Briens",
+    "overview": "",
+    "releaseDate": "2013-10-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bBiMxkIelahU7TRlOg5MY0QuYFT.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nRoh5YUHESpP3wn3WJwdl4ThBy4.jpg",
+    "voteAverage": 4.833,
+    "genreIds": [
+      10749,
+      35,
+      18,
+      10402,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"The O'Briens\")",
+    "cast": [
+      "Liam McMahon",
+      "Tommy O'Neill",
+      "Slaine Kelly",
+      "Kellie Blaise",
+      "Lochlann Ó Mearáin"
+    ],
+    "director": [
+      "Richard Waters"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-o-briens"
+  },
+  {
+    "videoId": "56DSQiz4264",
+    "youtubeTitle": "DIE GESETZLOSEN: Drei Cowboys entkommen dem Galgen! (Western | Drama | Abenteuer)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/56DSQiz4264/hqdefault.jpg",
+    "duration": "PT1H21M48S",
+    "publishedAt": "2026-09-25T17:30:02Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 353108,
+    "title": "Die Gesetzlosen",
+    "originalTitle": "The Bandits",
+    "overview": "Drei Cowboys, die die Schlinge des Henkers bereits um den Hals haben, werden im letzten Moment von drei mexikanischen Gesetzlosen befreit. Aus Dankbarkeit schließen sie sich der Bande der drei \"Compañeros\" an. Gemeinsam bekämpfen sie fortan Sanchez und seine Soldaten, die südlich der amerikanischen Staatsgrenze operieren. Als die Bande von einem Goldschatz erfährt, der in einem alten mexikanischen Kloster versteckt sein soll, machen sie sich auf den Weg dorthin. Doch sie werden bereits erwartet…",
+    "releaseDate": "1967-12-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uo7XjeKBvoKOJMEqdHmNiYzcgHG.jpg",
+    "backdropUrl": null,
+    "voteAverage": 5.1,
+    "genreIds": [
+      37,
+      12
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Robert Conrad",
+      "Jan-Michael Vincent",
+      "Manuel López Ochoa",
+      "Roy Jenson",
+      "Pedro Armendáriz Jr."
+    ],
+    "director": [
+      "Robert Conrad",
+      "Alfredo Zacarías"
+    ],
+    "writer": [
+      "Robert Conrad"
+    ],
+    "fsk": null,
+    "slug": "die-gesetzlosen-2"
+  },
+  {
+    "videoId": "j08mpC_E35o",
+    "youtubeTitle": "JONATHAN RHYS MEYERS ist ELVIS - Aufstieg und Fall des King (Ganzer Film, Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/j08mpC_E35o/hqdefault.jpg",
+    "duration": "PT2H44M53S",
+    "publishedAt": "2026-08-22T17:00:24Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 1377813,
+    "title": "Elvis Presley: The Later Years",
+    "originalTitle": "Elvis Presley: The Later Years",
+    "overview": "",
+    "releaseDate": "2005-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/LvXauGRWKhMhuQpoXDKaV2rdg9.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/junBNx5WKqOx0qE2MX5t7KF7iq4.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      10402,
+      99
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Elvis\")",
+    "cast": [
+      "Elvis Presley"
+    ],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "elvis-presley-the-later-years"
+  },
+  {
+    "videoId": "pw9TXXPKTSc",
+    "youtubeTitle": "KOMÖDIEN-KLASSIKER | Die verrücktesten 90 Minuten vor Christi Geburt (Ganzer Spielfilm auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pw9TXXPKTSc/hqdefault.jpg",
+    "duration": "PT1H33M38S",
+    "publishedAt": "2026-08-15T15:00:40Z",
+    "channelName": "Draco Actionfilme",
+    "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
+    "tmdbId": 9461,
+    "title": "Der Mann mit der Todeskralle",
+    "originalTitle": "Enter the Dragon",
+    "overview": "Lee begibt sich auf die Inselfestung des Gangsterbosses Han, der eine Martial-Arts-Schule als Tarnung für Opium-Schmuggel und Prostitution benutzt. Um den Mord an seiner Schwester zu rächen, dringt Lee unerkannt in diese Hochburg ein und nimmt an Hans brutalem Martial-Arts-Turnier teil …",
+    "releaseDate": "1973-08-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rm46IQigWv17ZEfbkjMNFSR2Dix.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ugfBioco0L7qNvwq0d0Pl0AL8SL.jpg",
+    "voteAverage": 7.415,
+    "genreIds": [
+      28
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 93 (Suchbegriff: \"Mit\")",
+    "cast": [
+      "Bruce Lee",
+      "John Saxon",
+      "Jim Kelly",
+      "石堅",
+      "Ahna Capri"
+    ],
+    "director": [
+      "Robert Clouse"
+    ],
+    "writer": [
+      "Michael Allin"
+    ],
+    "fsk": "18",
+    "slug": "der-mann-mit-der-todeskralle"
+  },
+  {
+    "videoId": "ndObzMlZHPk",
+    "youtubeTitle": "Mit einem Bein im Kittchen - Used Cars (1980) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ndObzMlZHPk/hqdefault.jpg",
+    "duration": "PT1H52M53S",
+    "publishedAt": "2026-09-25T14:00:01Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 14475,
+    "title": "Mit einem Bein im Kittchen",
+    "originalTitle": "Used Cars",
+    "overview": "Zwei Gebrauchtwagenhändler versuchen mit allen Mitteln, sich gegenseitig die Kunden wegzulocken. Der Grund: Ihre Verkaufsplätze liegen sich direkt gegenüber an der gleichen Straße. Dieser temporeiche Film voller Gags wurde von Steven Spielberg und John Milius produziert. Mit Jack Warden und Kurt Russell als zwielichtiger, junger Autoverkäufer, der versucht, mit 10.000 Dollar einen Senatorensitz zu kaufen.",
+    "releaseDate": "1980-07-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uw78fCL25lMNo65IyekEdGh2J1H.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6zMevCRj7ybKCAqxAsZkiFreCQ9.jpg",
+    "voteAverage": 6.43,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Kurt Russell",
+      "Jack Warden",
+      "Gerrit Graham",
+      "Frank McRae",
+      "Deborah Harmon"
+    ],
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "writer": [
+      "Robert Zemeckis",
+      "Bob Gale"
+    ],
+    "fsk": "12",
+    "slug": "mit-einem-bein-im-kittchen"
+  },
+  {
+    "videoId": "2IivW5tzce8",
+    "youtubeTitle": "Winnetou II | 4K | Original | Terence Hill | Pierre Brice | 2. Teil | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2IivW5tzce8/hqdefault.jpg",
+    "duration": "PT1H29M44S",
+    "publishedAt": "2026-07-09T12:00:19Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 2057,
+    "title": "Original Sin",
+    "originalTitle": "Original Sin",
+    "overview": "Kuba, Ende des 19. Jahrhunderts: Mittels einer Zeitungsanzeige lernt Julia Russel, den reichen Kaffeeplantagen-Besitzer Louis Vargas kennen. Dieser sucht eine Frau, die ihn heiratet, damit seine gesellschaftliche Stellung gefestigt wird. Louis verliebt sich jedoch in Julia und heiratet sie kurze Zeit später. Eines Morgens muß Louis jedoch feststellten, daß seine Frau verschwunden ist und sein gesamtes Vermögen mitgenommen hat. Der betrogene Vargas macht sich nun auf dem Weg, Julia wiederzufinden, um sie zur Rede zu stellen.",
+    "releaseDate": "2001-05-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xvTtsdvvVr1NYlVJxWZibzhaEt5.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lFDeRoh5gowXWf0O3ayEAUxePcw.jpg",
+    "voteAverage": 6.136,
+    "genreIds": [
+      53,
+      18,
+      9648,
+      10749,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 92 (Suchbegriff: \"Original\")",
+    "cast": [
+      "Angelina Jolie",
+      "Antonio Banderas",
+      "Thomas Jane",
+      "Gregory Itzin",
+      "Jack Thompson"
+    ],
+    "director": [
+      "Michael Cristofer"
+    ],
+    "writer": [
+      "Michael Cristofer"
+    ],
+    "fsk": "16",
+    "slug": "original-sin"
+  },
+  {
+    "videoId": "k5bic9YFpx8",
+    "youtubeTitle": "ROMULUS & REMUS: Der blutige KAMPF UM DIE MACHT | The First King | Historienfilm Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/k5bic9YFpx8/hqdefault.jpg",
+    "duration": "PT2H7M27S",
+    "publishedAt": "2026-09-25T16:15:25Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 565179,
+    "title": "The First King - Romulus & Remus",
+    "originalTitle": "Il primo re",
+    "overview": "Die Brüder Romulus und Remus führen ein einfaches und friedliches Leben als Schafhirten an den Ufern des Tibers, bis ihnen die Götter eines Tages nicht mehr gewogen zu sein scheinen. Die Geschwister werden von einer riesigen Flutwelle überrascht und von der Strömung mitgerissen. Fernab ihrer Heimat gelingt es den geschwächten Männern sich an Land zu retten, wo sie jedoch von Kriegern der Stadt Alba Longa aufgegriffen und als Gladiatoren versklavt werden. Doch den Brüdern gelingt es, sich und ihre Mitgefangenen zu befreien. Auf der Flucht vor ihren Verfolgern beschließen Romulus und Remus, getrieben von der Hoffnung auf Freiheit, eine neue und sichere Stadt zu errichten. Aber nur einem der Brüder ist die Herrschaft über das neue Reich bestimmt, das als eines der größten Imperien in die Geschichte eingehen wird.",
+    "releaseDate": "2019-01-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mdM3dLbzF7bVhYTRQCPQiltP4vQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tKyaXRcVAxYCqU9edDgjRmEKkMX.jpg",
+    "voteAverage": 7.1,
+    "genreIds": [
+      36,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Alessandro Borghi",
+      "Alessio Lapice",
+      "Fabrizio Rongione",
+      "Massimiliano Rossi",
+      "Tania Garribba"
+    ],
+    "director": [
+      "Matteo Rovere"
+    ],
+    "writer": [
+      "Matteo Rovere",
+      "Francesca Manieri",
+      "Filippo Gravino"
+    ],
+    "fsk": "18",
+    "slug": "the-first-king-romulus-remus"
+  },
+  {
+    "videoId": "iyVoaophtz0",
+    "youtubeTitle": "Xiaos Weg | Ein begabter Junge kämpft in Peking um Musik, Liebe und seinen Vater | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iyVoaophtz0/hqdefault.jpg",
+    "duration": "PT1H53M48S",
+    "publishedAt": "2026-09-26T07:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 18385,
+    "title": "Xiaos Weg",
+    "originalTitle": "和你在一起",
+    "overview": "Um seine Ausbildung voranzutreiben, reisen der 13-jährige Violinvirtuose Xiao und sein Ziehvater Liu Cheng vom Land in den Moloch Peking. Dort erwirkt Bauer Cheng mit unerschütterlicher Beharrlichkeit, dass Xiao bei dem renommierten Violinlehrer Jiang in die Ausbildung gehen darf. Doch trotz hörbarer Erfolge will der Vater höher hinaus. Just als er den erfolgreichen Geigenprofessor Yu dazu bringt, Xiao als Schüler anzunehmen, versetzt der Junge seine Geige, um der attraktiven Lili mit einem Luxusmantel zu imponieren.",
+    "releaseDate": "2002-09-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yG67qljsdR06NzwdWM9wBQ5EkyY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/svtQAvk4P9h36cMKrsxlg4v20Xn.jpg",
+    "voteAverage": 6.9,
+    "genreIds": [
+      18,
+      10751,
+      10402
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Yun Tang",
+      "陈红",
+      "刘佩琦",
+      "程前",
+      "陈凯歌"
+    ],
+    "director": [
+      "陈凯歌"
+    ],
+    "writer": [
+      "薛晓路",
+      "陈凯歌"
+    ],
+    "fsk": null,
+    "slug": "xiaos-weg"
+  },
+  {
+    "videoId": "JM5vAhQrrc8",
+    "youtubeTitle": "Stalingrad (2014) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JM5vAhQrrc8/hqdefault.jpg",
+    "duration": "PT2H10M52S",
+    "publishedAt": "2026-09-25T16:00:15Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 203793,
+    "title": "Stalingrad",
+    "originalTitle": "Сталинград",
+    "overview": "Stalingrad 1943 - Die Stadt liegt in Trümmern und die Russen drängen, trotz großer Verluste, die Deutschen langsam aber sicher zurück. Auch auf der deutschen Seite kommt es zu extrem hohen Verlusten, der überaus harte Winter und die Verbissenheit der Russen, ist nicht länger unter Kontrolle zu bekommen. Ein besonderer Hoffnungsträger auf der Seite der Russen ist Kapitan Gromov, dem vor allem die Sicherheit der dunkelhaarigen Katya gelegen ist. Während die deutsche Streitmacht mit allen Kräften die Niederlage abzuwenden versucht, verliebt sich jedoch ein deutscher Offizier - Hauptmann Kahn in die russische Einwohnerin Masha. Was mit dem Mordversuch Mashas an Kahn beginnt, entwickelt sich somit zu etwas unter Umständen viel Gefährlicherem ...",
+    "releaseDate": "2013-10-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aeCsSBuHQMy9i9UHMDFvDN56js4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ltji3cISxWL83DW5ngYxI89MepJ.jpg",
+    "voteAverage": 6.33,
+    "genreIds": [
+      10752,
+      28,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Мария Смольникова",
+      "Янина Студилина",
+      "Pjotr Fjodorow",
+      "Thomas Kretschmann",
+      "Сергей Бондарчук"
+    ],
+    "director": [
+      "Fjodor Bondartschuk"
+    ],
+    "writer": [
+      "Илья Тилькин",
+      "Сергей Снежкин"
+    ],
+    "fsk": "16",
+    "slug": "stalingrad"
+  },
+  {
+    "videoId": "ULa0oCrxK-0",
+    "youtubeTitle": "Schweigegeld für Liebesbriefe - The Reckless Moment (1949) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ULa0oCrxK-0/hqdefault.jpg",
+    "duration": "PT1H18M25S",
+    "publishedAt": "2026-09-25T16:00:16Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 28007,
+    "title": "Schweigegeld für Liebesbriefe",
+    "originalTitle": "The Reckless Moment",
+    "overview": "Die 17jährige Bea Harper ist mit dem leichtlebigen Ted Darby liiert, der seinerseits Kontakte zur Unterwelt hat. Ihre Mutter Lucia ist darüber unglücklich, zumal ihr Mann geschäftlich in Übersee weilt, und sie sich allein um die Familie kümmert. Außer dem neunjährigen Sohn David zählt noch Schwiegervater Tom Harper dazu. Als Lucia eines Morgens neben ihrem Haus am Strand Ted Darbys Leiche entdeckt, geht sie davon aus, dass ihre Tochter den dubiosen Freund im Streit tötete. Sie schleppt den Leichnam in ihr Boot und lässt ihn verschwinden. Kurze Zeit später meldet sich ein Martin Donnelly bei der Familie Harper. Er scheint über Beas Verhältnisse gut informiert und bietet Lucia im Auftrag eines gewissen Nagle den Kauf von Liebesbriefen ihrer Tochter an. Lucia Harper sieht ihre Familie als Ziel einer handfesten Erpressung und beschließt, Zeit zu gewinnen. Denn Zeit braucht sie, um einen Plan zu schmieden…",
+    "releaseDate": "1949-12-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ufAvhWfKsPkqsL4fKBVjGk2RVbl.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/c0gCHnvEqurJAbmp4Pk2kuUH2a6.jpg",
+    "voteAverage": 6.755,
+    "genreIds": [
+      18,
+      53,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "James Mason",
+      "Joan Bennett",
+      "Geraldine Brooks",
+      "Henry O'Neill",
+      "Shepperd Strudwick"
+    ],
+    "director": [
+      "Max Ophüls"
+    ],
+    "writer": [
+      "Elisabeth Sanxay Holding",
+      "Robert Soderberg",
+      "Henry Garson"
+    ],
+    "fsk": null,
+    "slug": "schweigegeld-fuer-liebesbriefe"
+  },
+  {
+    "videoId": "ihPKiLDXGeA",
+    "youtubeTitle": "SIE FÜHRTEN IHN WIE EINEN MÖRDER VOR – DOCH DER FALSCHE MANN STAND VOR GERICHT | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ihPKiLDXGeA/hqdefault.jpg",
+    "duration": "PT1H29M6S",
+    "publishedAt": "2026-09-24T11:55:47Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "SIE FÜHRTEN IHN WIE EINEN MÖRDER VOR - DOCH DER FALSCHE MANN STAND VOR GERICHT",
+    "originalTitle": null,
+    "overview": "Nachdem seine Karriere mit einem Schlag zerstört wurde, zieht sich ein ehemaliger Anwalt an einen abgelegenen Ort zurück und versucht, mit dem Schreiben noch einmal ganz von vorne anzufangen. Dort begegnet er einem geheimnisvollen älteren Mann, der ihm ein unveröffentlichtes Manuskript anvertraut – und als dieser plötzlich stirbt, trifft er eine Entscheidung, die sein Leben für immer verändern wird: Er veröffentlicht die Geschichte unter seinem eigenen Namen und wird über Nacht reich und berühmt. Doch dann steht die Polizei vor seiner Tür und stellt eine erschreckende Frage: Woher kennt er jedes einzelne Detail mehrerer ungelöster Morde, die genauso geschehen sind, wie sie in seinem Buch beschrieben werden? Plötzlich wird aus dem gefeierten Schriftsteller der wichtigste Verdächtige, während immer mehr Beweise gegen ihn auftauchen. Um seine Unschuld zu beweisen, muss er herausfinden, wer ",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "sie-fuehrten-ihn-wie-einen-moerder-vor-doch-der-falsche-mann"
+  },
+  {
+    "videoId": "FmdAzuAz_h8",
+    "youtubeTitle": "Er reist zurück, um zu verhindern, dass er selbst zum Vampir wird | FANTASYFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FmdAzuAz_h8/hqdefault.jpg",
+    "duration": "PT1H57M56S",
+    "publishedAt": "2026-09-24T15:00:22Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Er reist zurück, um zu verhindern, dass er selbst zum Vampir wird",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "er-reist-zurueck-um-zu-verhindern-dass-er-selbst-zum-vampir"
+  },
+  {
+    "videoId": "zynqXnq0Kr0",
+    "youtubeTitle": "CIA gegen KGB – mitten in Europa beginnt eine gnadenlose Jagd | Spionage Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zynqXnq0Kr0/hqdefault.jpg",
+    "duration": "PT1H25M23S",
+    "publishedAt": "2026-09-24T16:00:34Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "CIA gegen KGB - mitten in Europa beginnt eine gnadenlose Jagd",
+    "originalTitle": null,
+    "overview": "Ein hochrangiger sowjetischer General entscheidet sich, zum Westen überzulaufen und streng geheime Informationen über das KGB-Netzwerk in Europa preiszugeben. Gemeinsam mit einem erfahrenen CIA-Agenten beginnt eine riskante Operation, die zahlreiche feindliche Agenten enttarnen soll. Doch der KGB setzt alles daran, den Überläufer zu stoppen. Die Reise durch Europa entwickelt sich zu einem tödlichen Katz-und-Maus-Spiel voller Sabotage, Verrat und bewaffneter Angriffe. Während der Zug immer weiter seinem Ziel entgegenfährt, wird klar, dass jeder Passagier ein Feind sein könnte. Ein klassischer Spionage- und Action-Thriller des Kalten Krieges voller Spannung und internationaler Intrigen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "cia-gegen-kgb-mitten-in-europa-beginnt-eine-gnadenlose-jagd"
+  },
+  {
+    "videoId": "pQhWsC6JoKA",
+    "youtubeTitle": "😱 Schauen Sie diesen Film NICHT ALLEIN | Die gruseligste Nacht beginnt hier | KOSTENLOSER Horrorfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pQhWsC6JoKA/hqdefault.jpg",
+    "duration": "PT1H29M32S",
+    "publishedAt": "2026-09-24T16:12:17Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Die Hexe - Sie war vor euch hier",
+    "originalTitle": null,
+    "overview": "Ein Horrorfilm über ein junges Paar, das sich ein neues Leben aufbauen will, indem es ein altes Bed & Breakfast in einer malerischen Gegend Neuenglands kauft. Zunächst scheint das Haus der ideale Ort für ein ruhiges Leben und ein erfolgreiches Geschäft zu sein: Gemütliche Zimmer, alte Architektur und eine besondere Atmosphäre locken Gäste an. Doch schon bald bemerkt das Paar seltsame Dinge, die sich kaum logisch erklären lassen. Ein schreckliches Geheimnis verbirgt sich in den Mauern des alten Hauses, verbunden mit seiner Vergangenheit und einer unsichtbaren Präsenz, die sich allmählich bemerkbar macht. Was anfangs wie zufällige Merkwürdigkeiten wirkt, entwickelt sich zu einem wahren Albtraum. Die jungen Besitzer müssen die Geschichte des Hauses ergründen und herausfinden, wer oder was wirklich darin lebt. Die düstere Atmosphäre, mysteriöse Ereignisse und ein ständiges Gefühl der Gefahr ",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "die-hexe-sie-war-vor-euch-hier"
   }
 ]
