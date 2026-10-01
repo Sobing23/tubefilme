@@ -249096,8 +249096,7 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 107 (Suchbegriff: \"Zero Population Growth - Die Erde stirbt\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Oliver Reed",
       "Geraldine Chaplin",
@@ -263736,86 +263735,6 @@
     "slug": "the-illusion-of-control"
   },
   {
-    "videoId": "pw9TXXPKTSc",
-    "youtubeTitle": "KOMÖDIEN-KLASSIKER | Die verrücktesten 90 Minuten vor Christi Geburt (Ganzer Spielfilm auf Deutsch)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/pw9TXXPKTSc/hqdefault.jpg",
-    "duration": "PT1H33M38S",
-    "publishedAt": "2026-08-15T15:00:40Z",
-    "channelName": "Draco Actionfilme",
-    "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
-    "tmdbId": 353070,
-    "title": "Abgang mit Stil",
-    "originalTitle": "Going in Style",
-    "overview": "Willie, Joe und Albert sind lebenslange Freunde. Als sich ihre Firmenrente plötzlich in Luft auflöst, können Rechnungen nicht mehr bezahlt und die Familien nicht mehr versorgt werden, weswegen das Senioren-Trio einen extremen Beschluss mit potentiell weitreichenden Folgen fasst: Gemeinsam wollen die drei, die sich noch nie in ihrem Leben etwas zu Schulden kommen haben lassen, nun genau die Bank ausnehmen, die dafür verantwortlich ist, dass ihr Pensionsfonds bankrottgegangen ist. Hilfe bekommen sie von einem ziemlich merkwürdigen Typen namens Jesus, Joes genialer Enkelin Brooklyn, seinem Marihuana-kundigen Ex-Schwiegersohn Murphy und der Supermarktkassiererin Annie, die mit Albert im Schlafzimmer ordentlich was laufen hat…",
-    "releaseDate": "2017-04-06",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/nnahgdqD4pCRDCY8fGZy2cR1Brl.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uARnuPezr7eZkOsHj2ujFQz6EKE.jpg",
-    "voteAverage": 6.7,
-    "genreIds": [
-      80,
-      35,
-      18
-    ],
-    "matchSource": "originaltitel-ohne-jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 91 (Suchbegriff: \"Mit\")",
-    "cast": [
-      "Morgan Freeman",
-      "Michael Caine",
-      "Alan Arkin",
-      "Ann-Margret",
-      "John Ortiz"
-    ],
-    "director": [
-      "Zach Braff"
-    ],
-    "writer": [
-      "Theodore Melfi",
-      "Edward Cannon"
-    ],
-    "fsk": "6",
-    "slug": "abgang-mit-stil"
-  },
-  {
-    "videoId": "2IivW5tzce8",
-    "youtubeTitle": "Winnetou II | 4K | Original | Terence Hill | Pierre Brice | 2. Teil | Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/2IivW5tzce8/hqdefault.jpg",
-    "duration": "PT1H29M44S",
-    "publishedAt": "2026-07-09T12:00:19Z",
-    "channelName": "Grjngo Westernfilme",
-    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
-    "tmdbId": 2671,
-    "title": "Ring - Das Original",
-    "originalTitle": "リング",
-    "overview": "In japanischen Schülerkreisen kursiert die Legende von einem geheimnisvollen Videoband, dessen Genuss genau eine Woche später zum unvermeidlichen Ableben des Betrachters führt. Nach dem von rätselhaften Umständen begleiteten Tod ihrer schulpflichtigen Cousine beschließt Zeitungsreporterin Keiko im Angesicht neuer Gerüchte, die Angelegenheit zum Gegenstand einer Story zu machen. Als sie dabei selbst in Besitz des Tapes gerät, beginnt auch für sie die Uhr zu ticken. Gemeinsam mit Ex-Mann Ryuji bricht sie auf, das Geheimnis vor Ablauf der Woche zu lüften …",
-    "releaseDate": "1998-01-31",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/aHCED5BaXin2l5k2gu97xevRkQ1.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sGhbO6muh1Fnpa7nkxYCfvmgWCo.jpg",
-    "voteAverage": 7.103,
-    "genreIds": [
-      27,
-      53
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 91 (Suchbegriff: \"Original\")",
-    "cast": [
-      "松嶋菜々子",
-      "Hiroyuki Sanada",
-      "大高力也",
-      "中谷美紀",
-      "竹内結子"
-    ],
-    "director": [
-      "中田秀夫"
-    ],
-    "writer": [
-      "高橋洋"
-    ],
-    "fsk": "16",
-    "slug": "ring-das-original"
-  },
-  {
     "videoId": "kNtcL93n8-0",
     "youtubeTitle": "FRANKA POTENTE in DEUTSCHER KOMÖDIE | ganzer film | Comedy | HD | Die drei Mädels von der Tankstelle",
     "youtubeThumbnail": "https://i.ytimg.com/vi/kNtcL93n8-0/hqdefault.jpg",
@@ -263946,5 +263865,311 @@
     "writer": [],
     "fsk": null,
     "slug": "sie-wollten-zwei-kampfjets-stehlen-doch-im-frachtraum-war-no"
+  },
+  {
+    "videoId": "2-TJ3YM0he0",
+    "youtubeTitle": "EIN FILM, den jeder mindestens einmal im Leben gesehen haben sollte | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2-TJ3YM0he0/hqdefault.jpg",
+    "duration": "PT1H22M26S",
+    "publishedAt": "2026-09-30T15:00:18Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1180538,
+    "title": "Faith in the Family",
+    "originalTitle": "Faith in the Family",
+    "overview": "",
+    "releaseDate": "2024-07-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6gPfKYXIqzOLdNClYx6Qh9nH8qe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/bug5MOwBOpeEhau4R1ktCvYoCWs.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Faith in the Family\")",
+    "cast": [
+      "Stephen Stallone Thomas",
+      "Evyn George",
+      "Tabitha Alege",
+      "Assia Jalloh",
+      "Richard Bobb-Semple"
+    ],
+    "director": [
+      "Oleksiy Andronyak"
+    ],
+    "writer": [
+      "Henry J. Wentworth"
+    ],
+    "fsk": null,
+    "slug": "faith-in-the-family"
+  },
+  {
+    "videoId": "dKUSFtQ_2CQ",
+    "youtubeTitle": "Zum Mars oder zu Dir? (KOMÖDIE ganzer Film Deutsch, Komödien Filme Deutsch komplett, neue Filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dKUSFtQ_2CQ/hqdefault.jpg",
+    "duration": "PT1H34M23S",
+    "publishedAt": "2026-09-30T17:00:15Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 843889,
+    "title": "Zum Mars oder zu Dir?",
+    "originalTitle": "Space Oddity",
+    "overview": "Seit er denken kann, begeistert sich Alex McAllister für ferne Planeten. Als er an einem privat finanzierten Mars-Kolonisierungsprojekt teilnehmen kann, zögert er nicht lange. Doch nur wenige Tage nach seiner Anmeldung lernt er die bezaubernde Daisy kennen. Alex muss sich entscheiden: Für die Liebe – oder für seinen Lebenstraum?",
+    "releaseDate": "2023-03-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/t6ey1NHMewzGK6aqThvttECC3Ib.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cDvWWDXMf4tTmtr26B40RIiqJHp.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      35,
+      10749,
+      878,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Kyle Allen",
+      "Alexandra Shipp",
+      "Kevin Bacon",
+      "Carrie Preston",
+      "Madeline Brewer"
+    ],
+    "director": [
+      "Kyra Sedgwick"
+    ],
+    "writer": [
+      "Rebecca Banner"
+    ],
+    "fsk": null,
+    "slug": "zum-mars-oder-zu-dir"
+  },
+  {
+    "videoId": "D24wrN5IBTE",
+    "youtubeTitle": "Hart am Wind - Drama / Jugendfilm (1969) DEFA",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/D24wrN5IBTE/hqdefault.jpg",
+    "duration": "PT1H18M10S",
+    "publishedAt": "2026-09-30T13:00:35Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 275047,
+    "title": "Hart am Wind",
+    "originalTitle": "Hart am Wind",
+    "overview": "",
+    "releaseDate": "1970-06-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hYm5RmQqODwpfbnX9sAH4dqRC2W.jpg",
+    "backdropUrl": null,
+    "voteAverage": 8,
+    "genreIds": [
+      18,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 133 (Suchbegriff: \"Hart am Wind\")",
+    "cast": [
+      "Frank Obermann",
+      "Regina Beyer",
+      "Klaus-Peter Thiele",
+      "Dieter Jäger",
+      "Lutz Dechant"
+    ],
+    "director": [
+      "Heinz Thiel"
+    ],
+    "writer": [
+      "Heinz Thiel",
+      "Margot Beichler",
+      "Willi Brückner"
+    ],
+    "fsk": null,
+    "slug": "hart-am-wind"
+  },
+  {
+    "videoId": "jtFNZVKA8sA",
+    "youtubeTitle": "Ein himmlischer Liebhaber | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jtFNZVKA8sA/hqdefault.jpg",
+    "duration": "PT1H44M2S",
+    "publishedAt": "2026-09-30T10:00:13Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 3064,
+    "title": "Ein himmlischer Liebhaber",
+    "originalTitle": "Chances Are",
+    "overview": "Auch der Himmel macht mal Fehler. Da hat man dem frühverstorbenen Alex Finch ein zweites Leben geschenkt, einen jüngeren Körper, ein anderes Aussehen, nur sein Gedächtnis ist unglücklicherweise das alte geblieben. Und das spielt ihm nun fortwährend muntere Streiche. Besonders, seit er seine einstige Familie wiedergetroffen hat. Der neue Alex verliebt sich in seine eigene Tochter, träumt aber von seiner Frau und von damals. Alex, hin- und hergerissen von jungen Gefühlen und alten Erinnerungen, blickt langsam nicht mehr durch...",
+    "releaseDate": "1989-03-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/n2VtoyUFuNOdz6KLzkMSexImX2Q.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rL9hKQyU7GGcoyyJttSjqEjnf48.jpg",
+    "voteAverage": 6.622,
+    "genreIds": [
+      14,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Ein himmlischer Liebhaber\")",
+    "cast": [
+      "Cybill Shepherd",
+      "Robert Downey Jr.",
+      "Ryan O'Neal",
+      "Mary Stuart Masterson",
+      "Christopher McDonald"
+    ],
+    "director": [
+      "Emile Ardolino"
+    ],
+    "writer": [
+      "Randy Howze",
+      "Perry Howze"
+    ],
+    "fsk": "12",
+    "slug": "ein-himmlischer-liebhaber"
+  },
+  {
+    "videoId": "aqGzxIrOME4",
+    "youtubeTitle": "🔥Ein Film, den man gesehen haben muss | Unglaubliche Familien-Fantasy | Baby Frankenstein |  Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/aqGzxIrOME4/hqdefault.jpg",
+    "duration": "PT1H23M35S",
+    "publishedAt": "2026-09-30T14:51:17Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 703297,
+    "title": "Baby Frankenstein",
+    "originalTitle": "Baby Frankenstein",
+    "overview": "",
+    "releaseDate": "2018-10-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/suUsjsbWKAOLGhBSJQxrkAYcH9O.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gEMQOOhzr8xhJ61vRLQ5vLjgkoM.jpg",
+    "voteAverage": 3.5,
+    "genreIds": [
+      27,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Baby Frankenstein\")",
+    "cast": [
+      "Ian Barling",
+      "Patrick McCartney",
+      "Rance Nix",
+      "Cora Savage",
+      "Eileen Rosen"
+    ],
+    "director": [
+      "Jon Yonkondy"
+    ],
+    "writer": [
+      "Mike Rutkoski",
+      "Jon Yonkondy"
+    ],
+    "fsk": null,
+    "slug": "baby-frankenstein"
+  },
+  {
+    "videoId": "TfjKHAXKOOU",
+    "youtubeTitle": "SCHMUTZIGES SPIEL: EINE FRAU, ZWEI TOTE | Denzel Washington | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TfjKHAXKOOU/hqdefault.jpg",
+    "duration": "PT1H32M59S",
+    "publishedAt": "2026-09-29T12:13:34Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "SCHMUTZIGES SPIEL: EINE FRAU, ZWEI TOTE",
+    "originalTitle": null,
+    "overview": "Um seinen Namen reinzuwaschen, muss er die Frau finden, bevor die Polizei ihn festnimmt und diejenigen, die hinter dem schmutzigen Spiel stehen, dafür sorgen, dass er als Nächster für immer schweigt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "schmutziges-spiel-eine-frau-zwei-tote"
+  },
+  {
+    "videoId": "f039Fuj7Htk",
+    "youtubeTitle": "Dieser Western ist einfach nur stark: The Ballad of Lefty Brown (Ganzer Film bei Moviedome)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/f039Fuj7Htk/hqdefault.jpg",
+    "duration": "PT1H51M26S",
+    "publishedAt": "2026-09-29T14:00:13Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": null,
+    "title": "Dieser Western ist einfach nur stark: The Ballad of Lefty Brown",
+    "originalTitle": null,
+    "overview": "Nachdem Cowboy Lefty Brown (Bill Pullman) mitansehen muss, wie sein langjähriger Freund und frisch gewählter Senator Edward Johnson (Peter Fonda) ermordet wird, begibt er sich auf einen gnadenlosen Rachefeldzug. Entschlossen, die Täter zu finden, durchquert er die weiten Landschaften Montanas und schließt sich unterwegs mit dem jungen Revolverhelden Jeremiah (Diego Josef) zusammen. Unterstützung erhalten sie zudem von einem ständig betrunkenen U.S. Marshal (Tommy Flanagan). Als Jeremiah bei einem Feuergefecht mit den Mördern schwer verletzt wird, kehrt Lefty mit den Namen der Täter im Gepäck zurück – nur um zu Hause festzustellen, dass man ihn selbst des Mordes an Johnson bezichtigt. Nun liegt es an ihm, seine Unschuld zu beweisen und die wahren Schuldigen ans Licht zu bringen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Jared Moshe"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "dieser-western-ist-einfach-nur-stark-the-ballad-of-lefty-bro"
+  },
+  {
+    "videoId": "K4lzGrKfrF0",
+    "youtubeTitle": "Ein Feldherr führt seine Armee über die Alpen… direkt gegen das mächtigste Reich der Welt",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/K4lzGrKfrF0/hqdefault.jpg",
+    "duration": "PT1H28M45S",
+    "publishedAt": "2026-09-28T20:50:45Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Ein Feldherr führt seine Armee über die Alpen… direkt gegen das mächtigste Reich der Welt",
+    "originalTitle": null,
+    "overview": "Karthago und Rom kämpfen um die Vorherrschaft im Mittelmeerraum. Im Zentrum dieses Konflikts steht ein außergewöhnlicher Feldherr, der bereit ist, alles zu riskieren, um seinen mächtigsten Gegner zu besiegen. Von seinen frühen Feldzügen auf der Iberischen Halbinsel bis zu seinem legendären Marsch über die Alpen führt er seine Armee durch extreme Bedingungen und scheinbar unüberwindbare Hindernisse. Mit überraschenden Strategien und kompromissloser Entschlossenheit bringt er Rom an den Rand einer historischen Niederlage. Doch der Krieg ist noch lange nicht entschieden. Am Ende wartet mit dem römischen Feldherrn Scipio Africanus ein Gegner, der seine Taktik verstanden hat – und eine Schlacht, die über das Schicksal zweier Großmächte entscheidet. Ein episches Historien- und Kriegsdrama über Strategie, Ehrgeiz und einen der berühmtesten Feldherren der Antike.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "ein-feldherr-fuehrt-seine-armee-ueber-die-alpen-direkt-gegen"
+  },
+  {
+    "videoId": "soI1VU3Fy3M",
+    "youtubeTitle": "Kann Geld wirklich Liebe kaufen? – Ein unterhaltsamer Spielfilm über die Jagd nach dem großen Glück",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/soI1VU3Fy3M/hqdefault.jpg",
+    "duration": "PT1H21M52S",
+    "publishedAt": "2026-09-29T17:00:34Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Kann Geld wirklich Liebe kaufen? - Ein unterhaltsamer Spielfilm über die Jagd nach dem großen Glück",
+    "originalTitle": null,
+    "overview": "Ein junger Mann steht nach einer überraschenden Enttäuschung in der Liebe vor den Trümmern seiner romantischen Vorstellungen und entwickelt eine tiefe Skepsis gegenüber Frauen. Als sein Vater stirbt und die Erbschaft an die Rettung einer maroden Tankstelle geknüpft ist, gerät sein gesamtes Leben ins Wanken. Gemeinsam mit seinen chaotischen Freunden versucht er mit skurrilen Ideen, das insolvente Geschäft vor dem sicheren Ruin zu bewahren. Dabei sorgen ungewöhnliche Erfindungen, ein dominanter Vermieter und unerwartete Begegnungen für turbulente Verwicklungen. Inmitten all dieser Hindernisse erfährt die eigene Einstellung zur Frauenwelt eine völlig überraschende Wendung. Dieser nostalgische Film verbindet schrägen Humor mit emotionalen Momenten auf dem Weg zum Neuanfang.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "kann-geld-wirklich-liebe-kaufen-ein-unterhaltsamer-spielfilm"
   }
 ]
