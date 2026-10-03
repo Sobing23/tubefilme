@@ -264364,47 +264364,6 @@
     "slug": "center-stage-2"
   },
   {
-    "videoId": "2IivW5tzce8",
-    "youtubeTitle": "Winnetou II | 4K | Original | Terence Hill | Pierre Brice | 2. Teil | Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/2IivW5tzce8/hqdefault.jpg",
-    "duration": "PT1H29M44S",
-    "publishedAt": "2026-07-09T12:00:19Z",
-    "channelName": "Grjngo Westernfilme",
-    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
-    "tmdbId": 736074,
-    "title": "Batman: The Long Halloween - Teil 2",
-    "originalTitle": "Batman: The Long Halloween, Part Two",
-    "overview": "Der Holiday Killer mordet weiter in Gotham City. Mit jedem neuen Verbrechen wachsen die Spannungen zwischen den kriminellen Familien Falcone und Maroni. Während Batman, James Gordon und Harvey Dent versuchen, den Holiday Killer aufzuspüren, kommt es im Arkham Asylum zu einem schwerwiegenden Sicherheitsvorfall.",
-    "releaseDate": "2021-07-26",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/oWRgaHNalw8rjTUOcCgfTduVfQZ.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/j14Z0pP7tpuHZlVBSuUL7tq2SGb.jpg",
-    "voteAverage": 7.395,
-    "genreIds": [
-      16,
-      9648,
-      28,
-      80
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 90 (Suchbegriff: \"2. Teil\")",
-    "cast": [
-      "Jensen Ackles",
-      "Josh Duhamel",
-      "Naya Rivera",
-      "Billy Burke",
-      "Titus Welliver"
-    ],
-    "director": [
-      "Chris Palmer"
-    ],
-    "writer": [
-      "Tim Sheridan"
-    ],
-    "fsk": "16",
-    "slug": "batman-the-long-halloween-teil-2"
-  },
-  {
     "videoId": "jC3_ivlFzA4",
     "youtubeTitle": "Christmas Overtime - Der Zauber der Weihnachtsnacht | Weihnachten 2026 | ganzer Film in HD",
     "youtubeThumbnail": "https://i.ytimg.com/vi/jC3_ivlFzA4/hqdefault.jpg",
@@ -264639,5 +264598,777 @@
     "writer": [],
     "fsk": null,
     "slug": "drei-erwachsene-eine-stadt-und-keine-kontrolle-ein-extremes"
+  },
+  {
+    "videoId": "4QTe6jjoYCs",
+    "youtubeTitle": "Ein leichter ROMANTIKFILM für einen gemütlichen Abend | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4QTe6jjoYCs/hqdefault.jpg",
+    "duration": "PT1H29M20S",
+    "publishedAt": "2026-10-02T15:00:19Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 839760,
+    "title": "Love Map",
+    "originalTitle": "Love Map",
+    "overview": "",
+    "releaseDate": "2021-09-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3rOzIAweniryqX05Wn1a9eTiaFg.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1VS19H1c9cWgybYY7i8jHz0rQ46.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      10770,
+      35,
+      10749,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Love Map\")",
+    "cast": [
+      "Ashley Bratcher",
+      "Reed Favero",
+      "Brent Harvey",
+      "Ross Jirgl",
+      "David Raizor"
+    ],
+    "director": [
+      "Damián Romay"
+    ],
+    "writer": [
+      "Julie Livingston"
+    ],
+    "fsk": null,
+    "slug": "love-map"
+  },
+  {
+    "videoId": "yiQkRnFLDmw",
+    "youtubeTitle": "Freitag der 13. - Jason kehrt zurück (TEIL 2 der KULT HORRORFILM REIHE, Horrorfilme in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yiQkRnFLDmw/hqdefault.jpg",
+    "duration": "PT1H25M44S",
+    "publishedAt": "2026-10-02T17:00:17Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 9725,
+    "title": "Freitag der 13. - Jason kehrt zurück",
+    "originalTitle": "Friday the 13th Part 2",
+    "overview": "Nach dem Mord an der verrückten Mrs. Voorhees, die den Tod ihres Sohnes Jason rächte, kann Alice wieder ruhig schlafen. Aber da gibt es noch ein kleines Problem: Jason ist gar nicht im Crystal Lake ertrunken, sondern lebt die ganze Zeit in den Wäldern in der Umgebung. Und er hat beobachtet, wie Alice seine Mutter tötete. Seine Rache nimmt ihren blutigen Lauf.",
+    "releaseDate": "1981-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kq3verF3Hh4akKYbs1aS96gNxyf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/80emEEa0svrT0YJDZLgLUu85ttp.jpg",
+    "voteAverage": 6.193,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Amy Steel",
+      "Russell Todd",
+      "John Furey",
+      "Adrienne King",
+      "Kirsten Baker"
+    ],
+    "director": [
+      "Steve Miner"
+    ],
+    "writer": [
+      "Ron Kurz"
+    ],
+    "fsk": "16",
+    "slug": "freitag-der-13-jason-kehrt-zurueck"
+  },
+  {
+    "videoId": "zSJQHTCOjwE",
+    "youtubeTitle": "Eyjafjallajökull - Der unaussprechliche Vulkanfilm (KOMÖDIE ganzer Film in voller Länge auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zSJQHTCOjwE/hqdefault.jpg",
+    "duration": "PT1H28M41S",
+    "publishedAt": "2026-10-02T15:00:27Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 219318,
+    "title": "Eyjafjallajökull - Der unaussprechliche Vulkanfilm",
+    "originalTitle": "Eyjafjallajökull",
+    "overview": "Die Welt der Reisenden kämpft mit der Aschewolke. Noch explosiver als der isländische Vulkan mit dem unaussprechlichen Namen Eyjafjallajökull ist allerdings die Beziehung zwischen Alain und Valeria: seit 20 Jahren geschieden verbindet das Ex-Ehepaar nun mehr allein der abgrundtiefe Hass füreinander. Im Flugzeug unterwegs zur Hochzeit ihrer Tochter müssen die beiden aufgrund des Vulkanausbruchs von Eyjafjallajökull in München notlanden. Die restlichen 2.100 Kilometer nach Athen sind sie gezwungen, im einzig verbliebenen und heiß umkämpften Mietwagen gemeinsam anzutreten. Ein nicht ganz reibungsloser Roadtrip und ein aberwitziger Beziehungskrieg beginnen...",
+    "releaseDate": "2013-10-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xtNnSkF9nDfQbSK4BoYkhWJKInM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zE5j0lQ5dVqSbKLMi3JwrjcT055.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Valérie Bonneton",
+      "Dany Boon",
+      "Denis Ménochet",
+      "Bérangère McNeese",
+      "Albert Delpy"
+    ],
+    "director": [
+      "Alexandre Coffre"
+    ],
+    "writer": [
+      "Laurent Zeitoun",
+      "Yoann Gromb",
+      "Alexandre Coffre"
+    ],
+    "fsk": "6",
+    "slug": "eyjafjallajoekull-der-unaussprechliche-vulkanfilm"
+  },
+  {
+    "videoId": "XmLbqZ--um4",
+    "youtubeTitle": "Tödliches Trio – Verführung zum S*x | Trois 2: Pandora's Box (2002) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XmLbqZ--um4/hqdefault.jpg",
+    "duration": "PT1H39M17S",
+    "publishedAt": "2026-10-02T14:00:02Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 92384,
+    "title": "Trois 2: Pandora's Box",
+    "originalTitle": "Trois 2: Pandora's Box",
+    "overview": "",
+    "releaseDate": "2002-08-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mclKiW7lkaTY0LSXjmraHpbISoo.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3MWp4V7RZ1LAFgzIFcysvq11yYg.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      18,
+      53,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Michael Jai White",
+      "Monica Calhoun",
+      "Chrystale Wilson",
+      "Kristoff St. John",
+      "Tyson Beckford"
+    ],
+    "director": [
+      "Rob Hardy"
+    ],
+    "writer": [
+      "Will Packer",
+      "Gregory Ramon Anderson",
+      "Rob Hardy"
+    ],
+    "fsk": null,
+    "slug": "trois-2-pandora-s-box"
+  },
+  {
+    "videoId": "00bUp0tbJCY",
+    "youtubeTitle": "Ein offener Käfig | 2014 | Psychodrama | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/00bUp0tbJCY/hqdefault.jpg",
+    "duration": "PT1H28M46S",
+    "publishedAt": "2026-10-02T17:00:24Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 293166,
+    "title": "Ein offener Käfig",
+    "originalTitle": "Ein offener Käfig",
+    "overview": "Robert Dühring ist ein angesehener Geschäftsmann und lebt mir seiner Verlobten in einer badischen Kleinstadt. Sein Bruder Georg ist ein verurteilter Sexualstraftäter. Robert hat Georg seit Jahren verleugnet, doch nun sind Haftzeit und Sicherungsverwahrung vorbei und Robert muss Georg bei sich aufnehmen und ihm bei den ersten Schritten in die Resozialisierung helfen. Seine Nachbarn und Freunde haben Angst. Im Ort macht sich langsam Pogromstimmung breit. Robert ist überfordert, er will nicht riskieren, dass sein ganzes Leben auseinanderbricht. Aber er beginnt auch zu begreifen, dass Georg eine zweite Chance zugestanden werden muss.",
+    "releaseDate": "2014-01-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4eVQJJsrFBc4Ca8xSQJXCqcIdfy.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4,
+    "genreIds": [
+      10770,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Oliver Mommsen",
+      "Martin Feifel",
+      "Anna Schudt",
+      "Mercedes Müller",
+      "Ole Puppe"
+    ],
+    "director": [
+      "Johannes Grieser"
+    ],
+    "writer": [],
+    "fsk": "16",
+    "slug": "ein-offener-kaefig"
+  },
+  {
+    "videoId": "JFJ-BHQVjuI",
+    "youtubeTitle": "Zwölf Uhr mittags | 4K | Gary Cooper | Westernfilm | Grace Kelly | Koloriert",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JFJ-BHQVjuI/hqdefault.jpg",
+    "duration": "PT1H21M18S",
+    "publishedAt": "2026-10-02T17:00:20Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 288,
+    "title": "Zwölf Uhr mittags",
+    "originalTitle": "High Noon",
+    "overview": "Marshal Will Kane möchte seiner Frau Amy zuliebe seinen Posten aufgeben, als seine Stadt plötzlich von dem Banditen Frank Miller und seiner Bande heimgesucht wird. Fest entschlossen, seine Stadt nicht im Stich zu lassen, bereitet sich der allseits beliebte Kane für den Kampf gegen die Banditen vor. Bald muss er jedoch feststellen, dass seine Mitbürger ihm aus Angst jegliche Hilfe verweigern und ihm stattdessen den Rücken kehren. Für Kane beginnt ein einsamer Kampf um das Wohlergehen seiner Kleinstadt.",
+    "releaseDate": "1952-06-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/12gprMNEzFnX4RDzbVbXlLCSSKZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/raYHhtIDyh3qDS6WdyRzeqjLyIK.jpg",
+    "voteAverage": 7.7,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Gary Cooper",
+      "Thomas Mitchell",
+      "Lloyd Bridges",
+      "Katy Jurado",
+      "Grace Kelly"
+    ],
+    "director": [
+      "Fred Zinnemann"
+    ],
+    "writer": [
+      "Carl Foreman"
+    ],
+    "fsk": "12",
+    "slug": "zwoelf-uhr-mittags"
+  },
+  {
+    "videoId": "jhGz_gadOxw",
+    "youtubeTitle": "WIR - Der Sommer als wir unsere Röcke hoben und die Welt gegen die Wand fuhr | Wildes Jugenddrama",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jhGz_gadOxw/hqdefault.jpg",
+    "duration": "PT1H31M47S",
+    "publishedAt": "2026-10-02T16:15:30Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 499546,
+    "title": "Wir - der Sommer, als wir unsere Röcke hoben und die Welt gegen die Wand fuhr",
+    "originalTitle": "Wij",
+    "overview": "Es ist der Beginn eines langen und heißen Sommers: Acht Teenager begeben sich auf einen wilden Trip ins Erwachsenwerden. Gemeinsam wollen sie der spießbürgerlichen Enge ihrer kleinen Stadt entkommen, und anfangs scheint ihr Traum von Unabhängigkeit in greifbarer Nähe. Aus romantischen Schwärmereien wird unbeschwerter Sex, und unter strahlend blauem Himmel reihen sich abenteuerliche Tage zu einer ewigen Party. Im Taumel der Gefühle zwischen Musik, Drogen und grenzenlosem Spaß dreht sich die Welt der Teenager um Geld und Lust, fern von dem langweiligen Alltag, den ihre Eltern Leben nennen. Ungehemmt vögeln und pöbeln sich die acht Freunde durch einen unfassbar intensiven Sommer, dessen Ende sie alle verändern wird ...",
+    "releaseDate": "2018-07-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mki6WgbSWJGLwsiy9wxcvQIknL1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3kb5b8IQCX4vd3baNBoZqAboP41.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      80,
+      18,
+      36
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Pauline Casteleyn",
+      "Aimé Claeys",
+      "Gaia Sofia Cozijn",
+      "Axel Daeseleire",
+      "Salomé van Grunsven"
+    ],
+    "director": [
+      "Rene Eller"
+    ],
+    "writer": [
+      "Rene Eller"
+    ],
+    "fsk": "18",
+    "slug": "wir-der-sommer-als-wir-unsere-roecke-hoben-und-die-welt-gege"
+  },
+  {
+    "videoId": "a4miIjNBcng",
+    "youtubeTitle": "Wetterfee sucht Weihnachtswunder | Weihnachten 2026 RomCom XMas Christmas | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/a4miIjNBcng/hqdefault.jpg",
+    "duration": "PT1H29M16S",
+    "publishedAt": "2026-10-03T07:00:01Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 1363127,
+    "title": "Wetterfee sucht Weihnachtswunder",
+    "originalTitle": "Snowy with a Chance of Christmas",
+    "overview": "In Wetterfee sucht Weihnachtswunder muss eine verzweifelte Meteorologin versuchen, ihren Wetter-Sender zu retten, der kurz vor dem Bankrott steht. Ihre Idee: eine gemeinnützige örtliche Aktion filmisch begleiten, schließlich kann das zu Weihnachten nur die Einschaltquoten garantieren. Doch der Verantwortliche für die Hilfsaktion will eigentlich nur ganz ohne Hintergedanken Gutes tun.",
+    "releaseDate": "2024-11-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1bguTc1SyB0wW0kYgKZuQ1Bb2of.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1nX5TQaoY0Aal3mKC6oEEi7mMYx.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Andrea Brooks",
+      "Giles Panton",
+      "Edward Lafferty",
+      "Shiraine Haas",
+      "Carly Fawcett"
+    ],
+    "director": [
+      "Nicholas Humphries"
+    ],
+    "writer": [
+      "John Dion"
+    ],
+    "fsk": null,
+    "slug": "wetterfee-sucht-weihnachtswunder"
+  },
+  {
+    "videoId": "RTpRahDbwGo",
+    "youtubeTitle": "Einsatz auf vier Pfoten – Weihnachtsmärchen | Weihnachten 2026 XMas Christmas | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RTpRahDbwGo/hqdefault.jpg",
+    "duration": "PT1H42M47S",
+    "publishedAt": "2026-10-03T06:00:38Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 26985,
+    "title": "Einsatz auf vier Pfoten - Ein Weihnachtsmärchen",
+    "originalTitle": "The 12 Dogs of Christmas",
+    "overview": "Pittsburgh, USA, in den 1930ern. Weihnachten naht, und eigentlich sollte es die Zeit der Einkehr und Besinnlichkeit werden. Doch dieses Jahr verspricht Weihnachten für die 12-jährige Halbwaise Emma alles andere als friedlich und familiär zu werden. Da sich ihr Vater aufgrund der Rezession nicht mehr um sie kümmern kann, schickt er Emma kurzerhand zu ihrer Tante Delores nach Doverville, Maine. Dort ist Emma zunächst nicht nur unwillkommen, sondern gerät auch direkt nach ihrer Ankunft in die Auseinandersetzungen über ein Hunde verboten-Gesetz, das der Bürgermeister von Doverville in der Stadt durchsetzen möchte. Mit Hilfe ihrer neuen Freunde und tierischer Unterstützung von einem ganzen Rudel süßer Hunde nimmt sich Emma dem Schicksal der Vierbeiner an und vollbringt so ihr ganz eigenes, tierisches Weihnachtswunder.",
+    "releaseDate": "2005-10-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mTlXTOlY3kYUm574UFzABo6rDv3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/u5F4IrkpUKX6kG5MIJWT5Nv6vUM.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      18,
+      10751
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Jordan-Claire Green",
+      "Tom Kemp",
+      "Susan Wood",
+      "Adam Hicks",
+      "Cathy Worthington"
+    ],
+    "director": [
+      "Kieth Merrill"
+    ],
+    "writer": [
+      "Kieth Merrill",
+      "Steven Paul Leiva"
+    ],
+    "fsk": "0",
+    "slug": "einsatz-auf-vier-pfoten-ein-weihnachtsmaerchen"
+  },
+  {
+    "videoId": "xiHd3Sm8Bak",
+    "youtubeTitle": "Eine Verlobung an Weihnachten | Weihnachten 2026 Weihnachtsfilm RomCom X-Mas | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xiHd3Sm8Bak/hqdefault.jpg",
+    "duration": "PT1H27M18S",
+    "publishedAt": "2026-10-02T17:00:20Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 1374256,
+    "title": "Eine Verlobung an Weihnachten",
+    "originalTitle": "Engaged by Christmas",
+    "overview": "Zoe vertraut in allen Lebenslagen auf „Dear Adora\". In der regelmäßigen Kolumne unterstützt die ehrwürdige Adora ihre Leser mit wertvollen Tipps. Als Zoes Beziehung kurz vor Weihnachten in eine Schieflage gerät, ist für sie klar: Adora muss helfen! Doch die Ratschläge der alten Dame gehen nach hinten los. Zoes Freund macht Schluss. Aufgebracht will Zoe ihr Idol zur Rede stellen. Sie fährt zu Adoras vermeintlichem Büro und trifft dort – Adam! Er ist der Macher von „Dear Adora\". Zoe ist schockiert, wittert aber auch eine Chance. Denn sie braucht Hilfe bei einem Projekt. Sie stellt Adam vor die Wahl: Entweder er unterstützt sie oder der Adora-Schwindel fliegt auf. Kurz darauf sind die beiden ein Team und verstehen sich besser als gedacht.",
+    "releaseDate": "2024-12-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6k1RPDPb7rDVrajNgYXed1GqhzE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/446mQgIMwDGi01FeYsXuGUGZtuN.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      10770,
+      10749
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Marcus Rosner",
+      "Brittany Bristow",
+      "Michael Lazarovitch",
+      "Megan Tracz",
+      "Colette Nwachi"
+    ],
+    "director": [
+      "Dylan Pearce"
+    ],
+    "writer": [
+      "Emily Duncan"
+    ],
+    "fsk": null,
+    "slug": "eine-verlobung-an-weihnachten"
+  },
+  {
+    "videoId": "CF1eaqKvFo0",
+    "youtubeTitle": "Weihnachten in Mistletoe | Weihnachten 2026 RomCom XMas Christmas | ganzer Film in HD | Frohes Fest",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CF1eaqKvFo0/hqdefault.jpg",
+    "duration": "PT1H41M55S",
+    "publishedAt": "2026-10-02T16:00:38Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 1563696,
+    "title": "Weihnachten In Mistletoe - Ein Wintermärchen",
+    "originalTitle": "Christmas in Mistletoe",
+    "overview": "Willow (Kabby Borders) ist ständig auf der Suche nach weihnachtlichen Dörfern und Städten als Kulissen für Filmproduktionen. Doch weil sich ihr gesamtes Leben um Weihnachten dreht, hat sie den Zauber des Festes längst verloren. Ihr letzter Auftrag führt sie in die idyllische Stadt Mistletoe – ein nahezu perfekter Ort. Besonders der hilfsbereite und charmante Bürgermeister Zach (Tom Gipson) weckt in ihr etwas, das sie längst vergessen glaubte. Könnte Willow in Mistletoe ihr eigenes festliches Happy-End finden?",
+    "releaseDate": "2025-11-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1sZV2t0TJXXdBwBUrFnZRJZYNNh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/AtqLSoAPeblZYSFCEiknp9wfxll.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      10749,
+      18,
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Kabby Borders",
+      "Tom Gipson",
+      "Chantey Colet",
+      "Wynne VanBuskirk",
+      "Kara Vasseur"
+    ],
+    "director": [
+      "Collins abbott White"
+    ],
+    "writer": [
+      "Brian S. Tedeschi",
+      "Vicki Vass"
+    ],
+    "fsk": null,
+    "slug": "weihnachten-in-mistletoe-ein-wintermaerchen"
+  },
+  {
+    "videoId": "OilDgOTJwFw",
+    "youtubeTitle": "WAS TUN, WENN'S BRENNT? | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/OilDgOTJwFw/hqdefault.jpg",
+    "duration": "PT1H36M53S",
+    "publishedAt": "2026-10-02T10:00:33Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 5261,
+    "title": "Was tun, wenn's brennt?",
+    "originalTitle": "Was tun, wenn's brennt?",
+    "overview": "13 Jahre ist es her, seit Tim, Flo, Maik, Hotte, Nele und Terror in der Hausbesetzerszene von Berlin aktiv waren und dem Establishment in kreativer Anarchie den gestreckten Mittelfinger entgegenreckten. Inzwischen sind fast alle ihren Idealen von damals untreu, einige sogar selbst Teil des einst so verhassten Establishments geworden. Als ein längst vergessener Sprengsatz, den sie einst in einer verlassenen Villa im Grunewald deponiert hatten, unerwartet explodiert, müssen sich die Sechs notgedrungen wieder mit ihrer verdrängten Vergangenheit und verlorenen Werten auseinandersetzen...",
+    "releaseDate": "2001-11-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/51o5yAqEDYHhO2a5xn7A0kfjGwD.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/whKiywHUvnuzJkGQDG0KlKE8mad.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      53,
+      18,
+      35,
+      28,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"WAS TUN, WENN'S BRENNT?\")",
+    "cast": [
+      "Til Schweiger",
+      "Doris Schretzmayer",
+      "Sebastian Blomberg",
+      "Nadja Uhl",
+      "Matthias Matschke"
+    ],
+    "director": [
+      "Gregor Schnitzler"
+    ],
+    "writer": [
+      "Stefan Dähnert",
+      "Anne Wild"
+    ],
+    "fsk": "12",
+    "slug": "was-tun-wenn-s-brennt"
+  },
+  {
+    "videoId": "iYW4ZJlS3Wg",
+    "youtubeTitle": "Überleben! - unfassbarer Überlebensfilm nach wahrer Geschichte - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iYW4ZJlS3Wg/hqdefault.jpg",
+    "duration": "PT2H6M25S",
+    "publishedAt": "2026-10-03T07:00:17Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 7305,
+    "title": "Überleben!",
+    "originalTitle": "Alive",
+    "overview": "Am Freitag, den 13. Oktober 1972, stürzt ein Flugzeug mit einem Team junger Rugby-Spieler aus Uruguay in den Anden ab. Nur einige der Passagiere sterben beim Absturz, die meisten aber überleben. Acht Tage lang warten sie darauf, gerettet zu werden. Diese Hoffnung geben sie auf, als sie im Radio hören, dass die Suche nach ihnen aufgegeben wurde. Schnell sind ihre Essens- und Trinkvorräte aufgebraucht. Um in den Temperaturen unter Null überleben zu können, treffen die Überlebenden einen unfassbaren Entschluss. In dieser verzweifelten Situation machen sich drei der Jungen, Nando Parrado, Antonio Baldi und Roberto Canessa auf den Weg, um in den Bergen Hilfe zu finden...",
+    "releaseDate": "1993-01-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qgp0UmMa088tWKIcDERmAHvnEZK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qHXdyDBgetOyetVkWGzHYGp7L72.jpg",
+    "voteAverage": 6.896,
+    "genreIds": [
+      12,
+      18,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Josh Hamilton",
+      "Bruce Ramsay",
+      "Ethan Hawke",
+      "Vincent Spano",
+      "John Newton"
+    ],
+    "director": [
+      "Frank Marshall"
+    ],
+    "writer": [
+      "John Patrick Shanley"
+    ],
+    "fsk": "12",
+    "slug": "ueberleben"
+  },
+  {
+    "videoId": "T3KYAwPdlO8",
+    "youtubeTitle": "The Curse of El Charro (2005) [Horror] [Slasher] | Blutiger Mythen-Terror | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/T3KYAwPdlO8/hqdefault.jpg",
+    "duration": "PT1H24M34S",
+    "publishedAt": "2026-10-02T16:00:10Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 89376,
+    "title": "The Curse of El Charro",
+    "originalTitle": "The Curse of El Charro",
+    "overview": "Vier College Studentinnen verbringen ihre Ferien mit einem Trip nach Mexiko, dort angekommen werden sie von dem Geist des ultimativen Bösen, des Landbarons El Charro verfolgt. El Charro hat im 18. Jahrhundert die ganze Familie einer Jungen Frau abgeschlachtet, die seine Annährungsversuche zurückwies. Doch eine der vier Studentinnen ist die Reinkarnation der jungen Frau die sich el Charro so sehr wünschte und das hat ihn erweckt, und nun schlachtet er alles ab, was sich ihn in den Weg stellt. Doch können sich die Studentinnen vor El Charro retten?",
+    "releaseDate": "2005-04-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mGwvBMgojN2ml774ygvJ3HFqLSF.jpg",
+    "backdropUrl": null,
+    "voteAverage": 3.7,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Andrew Bryniarski",
+      "Danny Trejo",
+      "Drew Mia",
+      "Kathryn Taylor Smith",
+      "Heidi Androl"
+    ],
+    "director": [
+      "Rich Ragsdale"
+    ],
+    "writer": [
+      "Ryan R. Johnson"
+    ],
+    "fsk": null,
+    "slug": "the-curse-of-el-charro"
+  },
+  {
+    "videoId": "rqsTzrV7NWQ",
+    "youtubeTitle": "KULTFILM KLASSIKER mit KEVIN BACON: Footloose (Ganzer Film auf Deutsch, Klassiker, Liebeskomödie)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rqsTzrV7NWQ/hqdefault.jpg",
+    "duration": "PT1H47M45S",
+    "publishedAt": "2026-10-02T14:00:25Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 1788,
+    "title": "Footloose",
+    "originalTitle": "Footloose",
+    "overview": "Der musik- und tanzbegeisterte Ren zieht mit der Mutter von Chicago zu Verwandten in ein verschlafenes Provinznest. Dort ist öffentliches Tanzen per Gesetz verboten. Ren verliebt sich in Ariel, Tochter des Pfarrers, der Rockmusik als Teufelswerk geißelt. Bei einem Traktor-Duell besteht Ren eine Mutprobe und beginnt, die Jugend für die Durchführung einer öffentlichen Tanzveranstaltung zu begeistern. Der Stadtrat überstimmt den Antrag. Ren überzeugt den Pfarrer. Die große Fete findet in einer Fabrikhalle statt.",
+    "releaseDate": "1984-02-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zQwCUPm7SWfo7ZqzPlg6Dky1JD3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/t8n5mvmnJUYJkyfOPWYEtvqePuM.jpg",
+    "voteAverage": 6.695,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Kevin Bacon",
+      "Lori Singer",
+      "John Lithgow",
+      "Dianne Wiest",
+      "Chris Penn"
+    ],
+    "director": [
+      "Herbert Ross"
+    ],
+    "writer": [
+      "Dean Pitchford"
+    ],
+    "fsk": "12",
+    "slug": "footloose"
+  },
+  {
+    "videoId": "vAPY41t7Rcg",
+    "youtubeTitle": "Mutantenwelt - Mutant World (2014) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/vAPY41t7Rcg/hqdefault.jpg",
+    "duration": "PT1H23M18S",
+    "publishedAt": "2026-10-02T16:00:20Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 290370,
+    "title": "Mutantenwelt",
+    "originalTitle": "Mutant World",
+    "overview": "Ein Meteoriteneinschlag hat auf der Erde eine atomare Katastrophe ausgelöst. Nur eine kleine Gruppe von Menschen überlebt in einem Bunkersystem und wagt sich nach zehn Jahren schwer bewaffnet wieder an die Oberfläche. Dort machen sie eine grausige Entdeckung: Die Menschen sind zu aggressiven Zombies mutiert.",
+    "releaseDate": "2014-09-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qW10Tx8IQsDZRr7seAz2Ld8YRLy.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/36EhzLRQsUC6onzhKb2aeqcdRPs.jpg",
+    "voteAverage": 2.8,
+    "genreIds": [
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Kim Coates",
+      "Holly Deveaux",
+      "Ashanti",
+      "Amber Marshall",
+      "Jason Cermak"
+    ],
+    "director": [
+      "David Winning"
+    ],
+    "writer": [
+      "Matthew Campagna"
+    ],
+    "fsk": "16",
+    "slug": "mutantenwelt"
+  },
+  {
+    "videoId": "oc0aILtp3Ho",
+    "youtubeTitle": "GEKAPERT ÜBER DEN WOLKEN: EIN MANN WAR NICHT AUF IHRER LISTE | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oc0aILtp3Ho/hqdefault.jpg",
+    "duration": "PT1H25M2S",
+    "publishedAt": "2026-10-01T11:06:50Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "GEKAPERT ÜBER DEN WOLKEN: EIN MANN WAR NICHT AUF IHRER LISTE",
+    "originalTitle": null,
+    "overview": "Zwischen engen Wartungsschächten, dem gewaltigen Frachtraum und tausenden Metern Höhe beginnt ein Kampf, bei dem ein einziger Mann verhindern muss, dass Flugzeug, Besatzung und eine gefährliche Militärtechnologie in die falschen Hände geraten.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "gekapert-ueber-den-wolken-ein-mann-war-nicht-auf-ihrer-liste"
+  },
+  {
+    "videoId": "B4w44zAq0X4",
+    "youtubeTitle": "Sie begruben den Arzt. 20 Jahre später kehrt er zurück | Ganzer Horrorfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/B4w44zAq0X4/hqdefault.jpg",
+    "duration": "PT1H37M23S",
+    "publishedAt": "2026-10-01T09:48:54Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Sie begruben den Arzt. 20 Jahre später kehrt er zurück",
+    "originalTitle": null,
+    "overview": "Eine junge Frau wird ohne Erinnerung an ihre Vergangenheit in die Klinik eingeliefert. Als das Gebäude von einem Erdbeben erschüttert wird, erwacht tief unter den Stationen ein längst verborgenes Grauen: Dr. Ramzi kehrt zurück, um seine schrecklichen Experimente fortzusetzen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "sie-begruben-den-arzt-20-jahre-spaeter-kehrt-er-zurueck"
+  },
+  {
+    "videoId": "pw9TXXPKTSc",
+    "youtubeTitle": "KOMÖDIEN-KLASSIKER | Die verrücktesten 90 Minuten vor Christi Geburt (Ganzer Spielfilm auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pw9TXXPKTSc/hqdefault.jpg",
+    "duration": "PT1H33M38S",
+    "publishedAt": "2026-08-15T15:00:40Z",
+    "channelName": "Draco Actionfilme",
+    "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
+    "tmdbId": null,
+    "title": "KOMÖDIEN-KLASSIKER",
+    "originalTitle": null,
+    "overview": "Im alten Rom herrschen Machtspiele, Intrigen und jede Menge Chaos. Während Julius Cäsar seine Herrschaft festigen will, gerät der gutmütige Streitwagenmechaniker Nino eher zufällig in eine Verschwörung, die das Schicksal des Imperiums verändern könnte. Zwischen tollpatschigen Helden, exzentrischen Adligen, schlagfertigen Sklaven und einer Reihe skurriler Missverständnisse entwickelt sich ein turbulentes Abenteuer, das von einer aberwitzigen Situation in die nächste führt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Coluche",
+      "Michel Serrault",
+      "Jean Yanne"
+    ],
+    "director": [
+      "Jean Yanne"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "komoedien-klassiker"
+  },
+  {
+    "videoId": "_EDxLZbnVj8",
+    "youtubeTitle": "Apocalypse Vietnam (1988) [Kriegsfilm] [Action] | Der Albtraum der USA | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_EDxLZbnVj8/hqdefault.jpg",
+    "duration": "PT1H15M28S",
+    "publishedAt": "2026-10-01T16:00:02Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Apocalypse Vietnam",
+    "originalTitle": null,
+    "overview": "",
+    "releaseDate": "1988-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [
+      10752,
+      28
+    ],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Derrick Bishop",
+      "Marco Coley",
+      "Christian Comte",
+      "Mike Abbott"
+    ],
+    "director": [
+      "Godfrey Ho"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "apocalypse-vietnam"
+  },
+  {
+    "videoId": "ipbVfPg_Lfc",
+    "youtubeTitle": "Wenn Trauer zum düsteren Geheimnis wird: Ein dramatischer Schicksalsschlag | Drama Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ipbVfPg_Lfc/hqdefault.jpg",
+    "duration": "PT2H3M38S",
+    "publishedAt": "2026-10-01T17:00:33Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn Trauer zum düsteren Geheimnis wird: Ein dramatischer Schicksalsschlag",
+    "originalTitle": null,
+    "overview": "Eine Innenarchitektin beauftragt einen bekannten Maler mit einem außergewöhnlichen Porträt ihrer beiden Kinder am Klavier. Die geplante Erstellung des Kunstwerks bringt jedoch eine tiefe Kluft ans Licht, da der verstorbene Sohn angeblich bei einem Jagdunfall ums Leben kam. Die Tochter enthüllt während der Sitzungen im Atelier schließlich die erschütternde Wahrheit über den angeblichen Unfall ihres Bruders. Schritt für Schritt treten verdrängte Schuldgefühle und der immense Druck innerhalb der wohlhabenden Familie zutage. Parallel dazu geraten auch die Ehe der Eltern sowie die Lebenspläne der Tochter immer weiter aus den Fugen. Das fertige Gemälde deckt schließlich das verdrängte Familiengeheimnis schonungslos auf.",
+    "releaseDate": "2008-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "wenn-trauer-zum-duesteren-geheimnis-wird-ein-dramatischer-sc"
   }
 ]
