@@ -1,18 +1,74 @@
 [
   {
-    "videoId": "6NBeWGWWsD4",
-    "youtubeTitle": "ALTE SCHULD: SEINE TOCHTER VERSCHWAND – DIE SPUR FÜHRTE ZUR MAFIA | Ganzer Film HD",
-    "suchbegriff": "ALTE SCHULD: SEINE TOCHTER VERSCHWAND – DIE SPUR FÜHRTE ZUR MAFIA",
+    "videoId": "P6R8Kg2Mcvw",
+    "youtubeTitle": "DIE LETZTE KOLONIE: HINTER IHNEN DIE HORDE – VOR IHNEN NUR DAS MEER | Ganzer Film HD auf Deutsch",
+    "suchbegriff": "DIE LETZTE KOLONIE: HINTER IHNEN DIE HORDE – VOR IHNEN NUR DAS MEER",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 38141,
+      "title": "Lost World - Die letzte Kolonie",
+      "release_date": "1987-10-01"
+    }
+  },
+  {
+    "videoId": "XQvjmu1ZlHM",
+    "youtubeTitle": "Er stahl das Buch eines Toten und wurde reich... Doch der Roman war ein echter Morder-Geständnis!",
+    "suchbegriff": "Er stahl das Buch eines Toten und wurde reich... Doch der Roman war ein echter Morder-Geständnis!",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "j6jsEs1hL0U",
-    "youtubeTitle": "Ein KGB-Überläufer im Expresszug durch die Alpen: Jagd auf Leben und Tod!",
-    "suchbegriff": "Ein KGB-Überläufer im Expresszug durch die Alpen: Jagd auf Leben und Tod!",
+    "videoId": "mkCYIYXTbRc",
+    "youtubeTitle": "STAHLKAMPF | ACTION, SCI-FI | Ganzer Film | Film Komplett auf Deutsch",
+    "suchbegriff": "STAHLKAMPF",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "NGwDHfnBpjo",
+    "youtubeTitle": "Straßengangs übernehmen die ganze Stadt – doch ein Mann weigert sich zu fliehen",
+    "suchbegriff": "Straßengangs übernehmen die ganze Stadt – doch ein Mann weigert sich zu fliehen",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "q3uM0OuEtOE",
+    "youtubeTitle": "🍿💰3 Millionen Dollar, ein Van und drei völlig durchgeknallte Freundinnen! 😂 | Ganzer Film kostenlos",
+    "suchbegriff": "3 Millionen Dollar, ein Van und drei völlig durchgeknallte Freundinnen! 😂",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "tbE35eDIT-M",
+    "youtubeTitle": "Polizeirevier Los Angeles-West - The New Centurions (1972) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Polizeirevier Los Angeles-West - The New Centurions",
+    "erwartetesJahr": "1972",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "lliUJepzU2g",
+    "youtubeTitle": "😱 Ein Dämon Versteckt Sich Unter Ihnen… Doch Sie Kann Ihn Erkennen! | Thriller",
+    "suchbegriff": "Ein Dämon Versteckt Sich Unter Ihnen… Doch Sie Kann Ihn Erkennen!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_pxYx4B38lU",
+    "youtubeTitle": "Zwei Frauen, ein Mann: Ruiniert die Liebe ihre Freundschaft? | Ganzes Drama Film",
+    "suchbegriff": "Zwei Frauen, ein Mann: Ruiniert die Liebe ihre Freundschaft?",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 375750,
+      "title": "Zwei Frauen, ein Mann und ein Baby",
+      "release_date": "2000-02-16"
+    }
   }
 ]
