@@ -5269,12 +5269,12 @@
     "slug": "legende"
   },
   {
-    "videoId": "q3CbPoIf2hQ",
-    "youtubeTitle": "Die Olsenbande (KRIMI KLASSIKER ganzer Film auf Deutsch, Krimi Komödie in voller Länge, Komödie)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/q3CbPoIf2hQ/hqdefault.jpg",
+    "videoId": "dFmVqyyHNL8",
+    "youtubeTitle": "Die Olsenbande - Komödie | 1968 | HD | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dFmVqyyHNL8/hqdefault.jpg",
     "duration": "PT1H16M18S",
     "publishedAt": "2026-03-14T16:01:14Z",
-    "channelName": "Netzkino",
+    "channelName": "DEFA Filmwelt",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 11389,
     "title": "Die Olsenbande",
@@ -5307,8 +5307,6 @@
       "Henning Bahs"
     ],
     "fsk": "12",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
     "slug": "die-olsenbande"
   },
   {
@@ -267056,5 +267054,295 @@
     "writer": [],
     "fsk": null,
     "slug": "die-spur-der-zweiten-frau"
+  },
+  {
+    "videoId": "oR6gZH0jnbc",
+    "youtubeTitle": "Sugar Mountain – Spurlos in Alaska – ER TÄUSCHT SEINEN EIGENEN TOD VOR! | THRILLER, Filme Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oR6gZH0jnbc/hqdefault.jpg",
+    "duration": "PT1H46M31S",
+    "publishedAt": "2026-10-07T17:30:30Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 423377,
+    "title": "Sugar Mountain - Spurlos in Alaska",
+    "originalTitle": "Sugar Mountain",
+    "overview": "Um dem örtlichen Gangster Joe Bright (Jason Momoa), bei dem er tief in der Schuld steht, zu entgehen, überzeugt Miles West (Drew Roy) seine Freundin Lauren Huxley (Haley Webb) und seinen Bruder Liam (Shane Coffey) von einem gewagten Vorhaben: Sie sollen in der Wildnis von Alaska sein Verschwinden vortäuschen. Doch der Plan droht bald aufzufliegen, denn die Einwohner der Stadt schließen sich zu einer gemeinsamen Suchaktion für Miles zusammen, während Sheriff Jim Huxley (Cary Elwes) die Lunte riecht und droht, die Wahrheit hinter dem Verschwinden aufzudecken. Der Druck auf Liam nimmt stetig zu und bald sieht er sich gemeinsam mit Lauren einem Geheimnis gegenüber, das sie bis ins Mark erschüttert. Fortan ringen die beiden darum, dem sadistischen Verbrecher und den Polizisten stets einen Schritt voraus zu sein.",
+    "releaseDate": "2016-12-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qmnqZ28H0GS02YGvPw9KrZjx6R1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/epFDTN2gqVjBBWm8YG2KSU1Jk7p.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      18,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Drew Roy",
+      "Haley Webb",
+      "Shane Coffey",
+      "Melora Walters",
+      "Anna Hutchison"
+    ],
+    "director": [
+      "Richard Gray"
+    ],
+    "writer": [
+      "Abe Pogos",
+      "Catherine Hill"
+    ],
+    "fsk": null,
+    "slug": "sugar-mountain-spurlos-in-alaska"
+  },
+  {
+    "videoId": "DZLRLqq795A",
+    "youtubeTitle": "Die Kinder enthüllen das Geheimnis des verfluchten Mantels | The Magician's Raincoat | Filme deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DZLRLqq795A/hqdefault.jpg",
+    "duration": "PT1H29M1S",
+    "publishedAt": "2026-10-07T21:00:07Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": 1277172,
+    "title": "The Magician's Raincoat",
+    "originalTitle": "The Magician's Raincoat",
+    "overview": "",
+    "releaseDate": "2024-11-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2sepxjUsrL265MGxu43CPbMZgxe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wJ7ORrqQEYyh9AQc0Wa20TCDSVW.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      10751,
+      14,
+      12,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"The Magician's Raincoat\")",
+    "cast": [
+      "Bryson Robinson",
+      "Jake Alexander Williams",
+      "Taylor Bedford",
+      "Cory Phillips",
+      "Laura Shatkus"
+    ],
+    "director": [
+      "Stephen Shimek"
+    ],
+    "writer": [
+      "Nick Pollack",
+      "Jerome Reygner-Kalfon",
+      "Sebastien Semon"
+    ],
+    "fsk": null,
+    "slug": "the-magician-s-raincoat"
+  },
+  {
+    "videoId": "2NApEQitFOk",
+    "youtubeTitle": "WELTUNTERGANG in 10 TAGEN: Asteroid vs. Earth | SCIENCE-FICTION | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2NApEQitFOk/hqdefault.jpg",
+    "duration": "PT1H31M19S",
+    "publishedAt": "2026-10-07T16:15:15Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 273756,
+    "title": "Asteroid vs Earth",
+    "originalTitle": "Asteroid vs Earth",
+    "overview": "Als Jungastronom Evan abends noch mal routinemäßig einen Blick durch das große Teleskop in den Nachthimmel wirft, entdeckt er zu seinem nicht geringen Entsetzen einen gewaltigen Meteoriten auf direktem Wege zur Erde. Zum Glück weiß Evan sofort, was in solchen Fällen zu tun ist, und setzt die Army davon in Kenntnis, das nunmehr nur noch eine Sache hilft: Die Erde aus ihrer Bahn zu schieben. Dafür bedarf es bloß einiger hundert...",
+    "releaseDate": "2014-09-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aGm87aggFQF8oAmzNYWITL0NVVv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/esden32naIpwZXXHHSF2N45v6wa.jpg",
+    "voteAverage": 4.958,
+    "genreIds": [
+      12,
+      28,
+      878,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "cast": [
+      "Tia Carrere",
+      "Robert Davi",
+      "Tim Russ",
+      "Jason Brooks",
+      "Darin Cooper"
+    ],
+    "director": [
+      "Christopher Ray"
+    ],
+    "writer": [
+      "Adam Lipsius"
+    ],
+    "fsk": "16",
+    "slug": "asteroid-vs-earth"
+  },
+  {
+    "videoId": "Yt5JcEFhCFw",
+    "youtubeTitle": "Suspect - Unter Verdacht | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Yt5JcEFhCFw/hqdefault.jpg",
+    "duration": "PT2H4M",
+    "publishedAt": "2026-10-07T14:00:18Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 12623,
+    "title": "Suspect - Unter Verdacht",
+    "originalTitle": "Suspect",
+    "overview": "Als an einem Flußufer die Leiche einer junge Frau aufgefunden wird, steht der Obdachlose Carl Anderson unter Verdacht. Er soll die Sekretärin ermordet haben, nachdem ihr Chef - ein Richter - Selbstmord begangen hat. Für die Gerichtsverhandlung wird Anderson die Pflichtverteidigerin Kathleen Riley bestellt, die von seiner Unschuld überzeugt ist. Zusammen mit dem Geschworenen Eddie Sanger versucht sie die Wahrheit herauszufinden. Eigentlich darf der Geschworene keinen Kontakt zur Anwältin aufnehmen, lässt ihr aber dennoch einen wichtigen Hinweis zukommen. Schon bald entpuppt sich der Fall als brisanter als vermutet: Die Spur des Mörders führt bis an die Spitze der Regierung...",
+    "releaseDate": "1987-10-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qFhfbIbK1FAU209nRY733FkLDe2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/b2vMEdoIYcySuE5a5y1xe643zAI.jpg",
+    "voteAverage": 6.576,
+    "genreIds": [
+      80,
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Suspect - Unter Verdacht\")",
+    "cast": [
+      "Cher",
+      "Dennis Quaid",
+      "Liam Neeson",
+      "John Mahoney",
+      "Joe Mantegna"
+    ],
+    "director": [
+      "Peter Yates"
+    ],
+    "writer": [
+      "Eric Roth"
+    ],
+    "fsk": "12",
+    "slug": "suspect-unter-verdacht"
+  },
+  {
+    "videoId": "isesxBeIMOA",
+    "youtubeTitle": "Zeugenschutzprogramm (1984) [Eastern] [Komödie] | Gastauftritt Jackie Chan | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/isesxBeIMOA/hqdefault.jpg",
+    "duration": "PT1H31M46S",
+    "publishedAt": "2026-10-07T16:00:07Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 174108,
+    "title": "Crime Land",
+    "originalTitle": "神勇雙響炮",
+    "overview": "Actionspektakel mit Eastern Superstar Jackie Chan (“Rush Hour”) in einer seiner ersten Nebenrollen. Chau und Beethoven, zwei Detectives des Hongkong Police Departement, erleben so manches Abenteuer, um die junge Zeugin Rosa vor einem unbarmherzigen Gangsterboss zu schützen, die über seine illegale Tätigkeiten aussagen will. Der vermisste Polizei-Informant und Ex-Polizist Lee hatte diese Informationen über alle asiatischen Rauschgifthändler gesammelt und sie eines Tages auf der Flucht bei seiner Freundin vergessen. Nachdem Lee getötet wurde, trachten die Verbrechen nun nach Rosas Leben. Ein rasanter Wettlauf und ein spannendes Duell zwischen der Polizei und den Rauschgifthändlern beginnt.",
+    "releaseDate": "1984-02-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2Qm8p0hhMzqTCprvkIPzUzKcmRb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rKjr3kahK7vXgIQNtEv5G0nEJ0V.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      28,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "cast": [
+      "Richard Ng",
+      "岑建勳",
+      "Deanie Ip",
+      "鍾發",
+      "吳勉勤"
+    ],
+    "director": [
+      "張同祖"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "crime-land"
+  },
+  {
+    "videoId": "REyTDl5C1oM",
+    "youtubeTitle": "Waffenbrüder - Brothers in Arms (2005) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/REyTDl5C1oM/hqdefault.jpg",
+    "duration": "PT1H26M48S",
+    "publishedAt": "2026-10-07T16:00:03Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 31390,
+    "title": "Brothers in Arms - Waffenbrüder",
+    "originalTitle": "Brothers in Arms",
+    "overview": "Die beiden meistgesuchten Cowboys in New Mexico, Link und Zane Malone, kommen in Corazon an, um einen letzten Auftrag zu erfüllen: Driscoll auszurauben, den skrupellosen Stadtherrn, der einen geliebten Menschen getötet hat. Als sie sich mit einer bunt zusammengewürfelten Truppe aus Dieben und Gaunern zusammenschließen, sind die beiden Brüder bald von Driscolls Söldnerbande umzingelt. Die Malones sind zahlenmäßig und waffentechnisch unterlegen, aber haben nicht die Absicht, sich zu ergeben.",
+    "releaseDate": "2005-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pzTi9RUMqtMSsC3vLqP8KZKxeDw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/h5gdvnhoKmgKr9LfgLmZsOIFE3e.jpg",
+    "voteAverage": 3.5,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 129 (Suchbegriff: \"Waffenbrüder - Brothers in Arms\")",
+    "cast": [
+      "David Carradine",
+      "Kenya Moore",
+      "Gabriel Casseus",
+      "Raymond Cruz",
+      "Antwon Tanner"
+    ],
+    "director": [
+      "Jean-Claude La Marre"
+    ],
+    "writer": [
+      "Antonio Olivas",
+      "Jean-Claude La Marre"
+    ],
+    "fsk": null,
+    "slug": "brothers-in-arms-waffenbrueder"
+  },
+  {
+    "videoId": "hvvA5qiBbp0",
+    "youtubeTitle": "Ein gescheiterter Geschäftsmann verliert alles… und entwickelt einen erschreckenden Plan | Sean Penn",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hvvA5qiBbp0/hqdefault.jpg",
+    "duration": "PT1H27M23S",
+    "publishedAt": "2026-10-06T21:13:26Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Ein gescheiterter Geschäftsmann verliert alles… und entwickelt einen erschreckenden Plan",
+    "originalTitle": null,
+    "overview": "Amerika in den frühen 1970er-Jahren. Ein frustrierter Geschäftsmann versucht verzweifelt, sein Leben wieder unter Kontrolle zu bringen. Seine Ehe zerbricht, berufliche Pläne scheitern und seine Wut auf Politik, Wirtschaft und die Gesellschaft wird immer größer. Mit jedem Rückschlag fühlt er sich stärker von der Welt betrogen. Aus Enttäuschung wird Besessenheit – und aus seinem Wunsch nach Veränderung entwickelt sich schließlich ein gefährlicher Plan. Während Freunde und Familie kaum erkennen, wie weit er sich bereits von der Realität entfernt hat, bewegt er sich immer näher an eine Entscheidung, die alles verändern könnte. Ein intensives True-Crime-Drama nach realen Ereignissen über Isolation, Radikalisierung und einen Mann, dessen persönlicher Zusammenbruch zunehmend politische Dimensionen annimmt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "ein-gescheiterter-geschaeftsmann-verliert-alles-und-entwicke"
+  },
+  {
+    "videoId": "RCGF1bPVBTY",
+    "youtubeTitle": "💔 Er kehrte nach 8 Jahren aus dem Gefängnis zurück… und verliebte sich in die falsche Frau | Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RCGF1bPVBTY/hqdefault.jpg",
+    "duration": "PT1H43M53S",
+    "publishedAt": "2026-10-06T14:15:14Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "💔 Er kehrte nach 8 Jahren aus dem Gefängnis zurück… und verliebte sich in die falsche Frau",
+    "originalTitle": null,
+    "overview": "In einer düsteren Metropole, die von einem autoritären Regime kontrolliert wird, treffen Menschen mit sehr unterschiedlichen Schicksalen in einem kleinen Café aufeinander. Ein ehemaliger Polizist kehrt nach acht Jahren Haft in die Stadt zurück, um sich ein neues Leben aufzubauen und seine Vergangenheit hinter sich zu lassen. Dort begegnet er seiner früheren Geliebten und einer jungen Mutter, die mit ihrem Ehemann und ihrem kleinen Sohn in der Stadt angekommen ist. Während der Ehemann aus Verzweiflung in die kriminelle Unterwelt gerät und sich durch Macht und Geld immer stärker verändert, entwickelt sich zwischen dem ehemaligen Häftling und der jungen Frau eine besondere Verbindung. Gleichzeitig geraten rivalisierende Kriminelle in einen gefährlichen Konflikt, der das Leben aller Beteiligten bedroht. Zwischen Liebe, Loyalität und Gewalt muss jeder eine Entscheidung treffen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "er-kehrte-nach-8-jahren-aus-dem-gefaengnis-zurueck-und-verli"
   }
 ]

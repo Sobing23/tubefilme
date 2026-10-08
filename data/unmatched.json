@@ -1,9 +1,37 @@
 [
   {
-    "videoId": "hvvA5qiBbp0",
-    "youtubeTitle": "Ein gescheiterter Geschäftsmann verliert alles… und entwickelt einen erschreckenden Plan | Sean Penn",
-    "suchbegriff": "Ein gescheiterter Geschäftsmann verliert alles… und entwickelt einen erschreckenden Plan",
+    "videoId": "NXGz-3-qnlA",
+    "youtubeTitle": "Dolph Lundgren | JAGD OHNE GESETZ: Die Polizei wollte ihn tot, jetzt schlägt er zurück | Ganzer Film",
+    "suchbegriff": "Dolph Lundgren",
     "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 413422,
+      "title": "Dolph Lundgren: Maximum Potential",
+      "release_date": "1987-10-08"
+    }
+  },
+  {
+    "videoId": "DV767Xd7PKk",
+    "youtubeTitle": "Für das Publikum ist ihre Familie perfekt, bis die Kamera ausgeschaltet wird | DRAMAFILM",
+    "suchbegriff": "Für das Publikum ist ihre Familie perfekt, bis die Kamera ausgeschaltet wird",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "j5q8rJczO4Q",
+    "youtubeTitle": "Eine verrückte Komödie voller unerwarteter Abenteuer | Run Fast or Fly High | Filme deutsch komplet",
+    "suchbegriff": "Eine verrückte Komödie voller unerwarteter Abenteuer",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "e-Vopob9duY",
+    "youtubeTitle": "Dick und Doof als Stierkämpfer | 1945 | Laurel & Hardy Klassiker auf Deutsch",
+    "suchbegriff": "Dick und Doof als Stierkämpfer",
+    "erwartetesJahr": "1945",
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   }
