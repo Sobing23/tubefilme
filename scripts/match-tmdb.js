@@ -81,6 +81,7 @@ const OUT_MATCHED = "data/filme.json";
 const OUT_UNMATCHED = "data/unmatched.json";
 const OUT_DUPLICATES = "data/duplicates.json";
 const IGNORED_PATH = "data/ignored.json"; // manuell als "nicht auffindbar" markierte Videos (Review-Seite)
+const KORREKTUREN_PATH = "data/titel-korrekturen.json"; // von Hand ermittelte Titel für Werbesatz-Videos
 
 const TMDB_BASE = "https://api.themoviedb.org/3";
 const DELAY_MS = 120; // kleine Pause zwischen Requests, um TMDB nicht zu stressen
@@ -1174,7 +1175,11 @@ async function main() {
 // Ersatz-Upload nutzen).
 //
 // Optional: --limit N prüft nur die ersten N Filme (für einen Probelauf).
+// Optional: --nur-korrekturen prüft nur Einträge mit von Hand ermitteltem
+// Titel (data/titel-korrekturen.json) -- das sind wenige Dutzend, deshalb
+// läuft diese Variante auch im nächtlichen Scan.
 const NACHSUCHE = process.argv.includes("--youtube-nachsuche");
+const NACHSUCHE_NUR_KORREKTUREN = process.argv.includes("--nur-korrekturen");
 const NACHSUCHE_LIMIT = (() => {
   const i = process.argv.indexOf("--limit");
   const n = i !== -1 ? parseInt(process.argv[i + 1], 10) : NaN;
@@ -1207,8 +1212,21 @@ function nachsucheAblehnung(res) {
 }
 
 async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) {
-  const ziele = matched.filter(istUebernommen).slice(0, NACHSUCHE_LIMIT);
-  console.log(`Nachsuche: ${ziele.length} aus YouTube übernommene Filme werden erneut bei TMDB gesucht.`);
+  let korrekturen = {};
+  try {
+    korrekturen = JSON.parse(await fs.readFile(KORREKTUREN_PATH, "utf-8")).titel || {};
+  } catch {
+    // keine Korrekturdatei
+  }
+
+  const ziele = matched
+    .filter(istUebernommen)
+    .filter((m) => !NACHSUCHE_NUR_KORREKTUREN || korrekturen[m.videoId])
+    .slice(0, NACHSUCHE_LIMIT);
+  console.log(
+    `Nachsuche: ${ziele.length} aus YouTube übernommene Filme werden erneut bei TMDB gesucht` +
+      (NACHSUCHE_NUR_KORREKTUREN ? " (nur Einträge mit von Hand ermitteltem Titel)." : ".")
+  );
 
   const ersetzt = [];
   const zuDuplikaten = [];
@@ -1222,10 +1240,21 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
     n++;
     if (n % 100 === 0) console.log(`... ${n} / ${ziele.length}`);
 
-    const video = candById.get(eintrag.videoId);
+    let video = candById.get(eintrag.videoId);
     if (!video) {
       ohneKandidat++;
       continue;
+    }
+
+    // Von Hand ermittelter Titel (data/titel-korrekturen.json): Der
+    // Werbesatz im Videotitel taugt nicht als Suchbegriff, der ermittelte
+    // Titel samt Jahr dagegen schon. Er wird dem Video wie eine
+    // "Originaltitel:"-Zeile vorangestellt, damit extractSearchInfo ihn
+    // als Hauptsuchbegriff mit Jahr nimmt.
+    const korrektur = korrekturen[eintrag.videoId];
+    if (korrektur) {
+      const kopf = (korrektur.jahr ? `(${korrektur.jahr})\n` : "") + `Originaltitel: ${korrektur.titel}\n`;
+      video = { ...video, description: kopf + (video.description || "") }; // title bleibt der echte YouTube-Titel (wird als youtubeTitle gespeichert)
     }
 
     // Ohne Jahr und ohne Besetzung kann keiner der beiden harten Belege

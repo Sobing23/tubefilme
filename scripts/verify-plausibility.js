@@ -35,6 +35,7 @@ const FILME_PATH = "data/filme.json";
 const CANDIDATES_PATH = "data/candidates.json";
 const REJECTED_PATH = "data/rejected-matches.json";
 const PROTOKOLL_PATH = "data/aussortiert.json";
+const KORREKTUREN_PATH = "data/titel-korrekturen.json";
 const TMDB_BASE = "https://api.themoviedb.org/3";
 const BEARER_TOKEN = process.env.TMDB_BEARER_TOKEN;
 const DELAY_MS = 120;
@@ -194,7 +195,13 @@ async function main() {
   const candById = new Map(candidates.map((c) => [c.videoId, c]));
   const heute = new Date().toISOString().slice(0, 10);
 
-  const stufen = { titel: 0, originaltitel: 0, besetzung: 0, alternativtitel: 0 };
+  const stufen = { titel: 0, korrekturtitel: 0, originaltitel: 0, besetzung: 0, alternativtitel: 0 };
+  let korrekturen = {};
+  try {
+    korrekturen = JSON.parse(await fs.readFile(KORREKTUREN_PATH, "utf-8")).titel || {};
+  } catch {
+    // keine Korrekturdatei
+  }
   const verworfen = [];
   let uebersprungen = 0;
   let fehler = 0;
@@ -211,10 +218,16 @@ async function main() {
     const desc = video ? video.description || "" : "";
     const quelle = `${m.youtubeTitle || ""} ${desc.slice(0, 800)}`;
     const ot = originaltitelZeile(desc);
+    // Von Hand ermittelter Titel (data/titel-korrekturen.json): Der
+    // Videotitel ist ein Werbesatz und kann nicht passen -- gegen den
+    // ermittelten Titel wird stattdessen geprüft.
+    const korrektur = korrekturen[m.videoId]?.titel || null;
 
     let stufe = null;
     if (titelPasst(m, quelle)) {
       stufe = "titel";
+    } else if (korrektur && Math.max(ueberschneidung(korrektur, m.title), ueberschneidung(korrektur, m.originalTitle)) >= PASST_AB) {
+      stufe = "korrekturtitel";
     } else if (ot && Math.max(ueberschneidung(ot, m.title), ueberschneidung(ot, m.originalTitle)) >= PASST_AB) {
       stufe = "originaltitel";
     } else if (/stimmen mit/.test(m.hinweis || "") || personenPassen(personenAusBeschreibung(desc), [...(m.cast || []), ...(m.director || [])])) {
@@ -225,7 +238,10 @@ async function main() {
         const alt = await alternativtitel(m.tmdbId);
         await sleep(DELAY_MS);
         const treffer = alt.find(
-          (t) => ueberschneidung(t, m.youtubeTitle) >= PASST_AB || (ot && ueberschneidung(t, ot) >= PASST_AB)
+          (t) =>
+            ueberschneidung(t, m.youtubeTitle) >= PASST_AB ||
+            (ot && ueberschneidung(t, ot) >= PASST_AB) ||
+            (korrektur && ueberschneidung(t, korrektur) >= PASST_AB)
         );
         if (treffer) {
           stufe = "alternativtitel";
@@ -275,7 +291,7 @@ async function main() {
   }
 
   console.log(`Plausibilität geprüft (${uebersprungen} bereits früher bestätigt übersprungen)`);
-  console.log(`Bestätigt über Titel: ${stufen.titel}, Originaltitel: ${stufen.originaltitel}, Besetzung: ${stufen.besetzung}, Alternativtitel: ${stufen.alternativtitel} (${anfragen} TMDB-Anfragen)`);
+  console.log(`Bestätigt über Titel: ${stufen.titel}, Korrekturtitel: ${stufen.korrekturtitel}, Originaltitel: ${stufen.originaltitel}, Besetzung: ${stufen.besetzung}, Alternativtitel: ${stufen.alternativtitel} (${anfragen} TMDB-Anfragen)`);
   console.log(`${NUR_PRUEFEN ? "Würden verworfen" : "Verworfen, werden neu gesucht"}: ${verworfen.length}${fehler ? ` (${fehler} Fehler, bleiben vorerst)` : ""}`);
   for (const m of verworfen) {
     console.log(`   [${m.channelName}] ${m.youtubeTitle.slice(0, 60)}  ->  ${m.title} (${(m.releaseDate || "").slice(0, 4) || "?"})`);

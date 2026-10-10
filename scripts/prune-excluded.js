@@ -23,6 +23,8 @@ const UNMATCHED_PATH = "data/unmatched.json";
 const DUPLICATES_PATH = "data/duplicates.json";
 const EXCLUDED_PATH = "data/excluded.json";
 const PROTOKOLL_PATH = "data/aussortiert.json";
+const KORREKTUREN_PATH = "data/titel-korrekturen.json";
+const IGNORED_PATH = "data/ignored.json";
 
 async function lade(pfad, standard) {
   try {
@@ -34,11 +36,31 @@ async function lade(pfad, standard) {
 
 async function main() {
   const excluded = await lade(EXCLUDED_PATH, []);
-  if (excluded.length === 0) {
-    console.log("excluded.json leer oder nicht vorhanden -- nichts zu tun.");
+  const grund = new Map(excluded.map((x) => [x.videoId, x.ausschlussgrund]));
+
+  // Von Hand aussortierte Videos (data/titel-korrekturen.json, Abschnitt
+  // "entfernen"): Kurzfilm-Sammlungen, Serienfolgen, Dokus, die kein
+  // Filter erkannt hat. Sie kommen zusätzlich nach ignored.json, damit
+  // match-tmdb.js sie nicht beim nächsten Lauf wieder aufnimmt.
+  const korrekturen = await lade(KORREKTUREN_PATH, {});
+  const manuell = korrekturen.entfernen || {};
+  const ignored = await lade(IGNORED_PATH, []);
+  const ignoredSet = new Set(ignored);
+  let neuIgnoriert = 0;
+  for (const [videoId, g] of Object.entries(manuell)) {
+    grund.set(videoId, `von Hand aussortiert: ${g}`);
+    if (!ignoredSet.has(videoId)) {
+      ignored.push(videoId);
+      ignoredSet.add(videoId);
+      neuIgnoriert++;
+    }
+  }
+  if (neuIgnoriert > 0) await fs.writeFile(IGNORED_PATH, JSON.stringify(ignored, null, 2), "utf-8");
+
+  if (grund.size === 0) {
+    console.log("Keine Ausschlüsse bekannt -- nichts zu tun.");
     return;
   }
-  const grund = new Map(excluded.map((x) => [x.videoId, x.ausschlussgrund]));
 
   const filme = await lade(FILME_PATH, []);
   const unmatched = await lade(UNMATCHED_PATH, []);

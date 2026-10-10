@@ -25,6 +25,7 @@ import fs from "fs/promises";
 
 const FILME_PATH = "data/filme.json";
 const CANDIDATES_PATH = "data/candidates.json";
+const KORREKTUREN_PATH = "data/titel-korrekturen.json";
 
 function titelAusWerbung(titel) {
   if (!titel) return null;
@@ -358,13 +359,38 @@ async function main() {
   const beschreibungen = new Map(candidates.map((c) => [c.videoId, c.description]));
   KOPFZEILEN_KANAELE = ermittleKopfzeilenKanaele(candidates);
 
+  // Stufe 0: von Hand ermittelte Titel (data/titel-korrekturen.json).
+  // Für Werbesatz-Titel, die keine Regel retten kann, wurde der Film aus
+  // Handlung und Darstellern der Beschreibung bestimmt. Diese Einträge
+  // bekommen den ermittelten Titel und werden von den Regel-Stufen unten
+  // nicht mehr angefasst.
+  let korrekturen = {};
+  try {
+    korrekturen = JSON.parse(await fs.readFile(KORREKTUREN_PATH, "utf-8")).titel || {};
+  } catch {
+    // keine Korrekturdatei -- nichts zu tun
+  }
+  let korrigiert = 0;
+  for (const film of filme) {
+    const k = korrekturen[film.videoId];
+    if (!k || film.matchSource !== "youtube") continue;
+    if (film.title !== k.titel) {
+      film.title = k.titel;
+      korrigiert++;
+    }
+    if (k.jahr && !film.releaseDate) film.releaseDate = `${k.jahr}-01-01`;
+    film.titelKorrigiert = true;
+    film.hinweis = "Titel aus der Videobeschreibung ermittelt -- bei TMDB nicht gefunden";
+    delete film.titelUnsicher;
+  }
+
   let geaendert = 0;
   const beispiele = [];
 
   for (const film of filme) {
     // Nur aus YouTube übernommene Einträge; TMDB-Titel und Handkorrekturen
     // bleiben unangetastet.
-    if (film.matchSource !== "youtube") continue;
+    if (film.matchSource !== "youtube" || film.titelKorrigiert) continue;
 
     const roh = rohTitel.get(film.videoId);
     if (!roh) continue;
@@ -402,7 +428,7 @@ async function main() {
   let unsicher = 0;
   const beispiele2 = [];
   for (const film of filme) {
-    if (film.matchSource !== "youtube") continue;
+    if (film.matchSource !== "youtube" || film.titelKorrigiert) continue;
     const roh = rohTitel.get(film.videoId) || film.youtubeTitle || "";
     const neu = nachbereinigen(film.title, roh, beschreibungen.get(film.videoId));
     if (neu !== film.title && !istEtikett(neu)) {
@@ -420,6 +446,7 @@ async function main() {
 
   await fs.writeFile(FILME_PATH, JSON.stringify(filme, null, 2), "utf-8");
 
+  console.log(`Titel aus Korrekturdatei gesetzt: ${korrigiert} (insgesamt ${Object.keys(korrekturen).length} Korrekturen)`);
   console.log(`Titel bereinigt: ${geaendert}`);
   console.log(`Werbetitel nachbereinigt: ${nachbereinigt}, weiterhin als Werbetitel markiert: ${unsicher}`);
   beispiele2.forEach((b) => console.log(`  ${b.alt.slice(0, 60)}  ->  ${b.neu}`));

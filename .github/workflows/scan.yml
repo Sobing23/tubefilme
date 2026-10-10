@@ -40,6 +40,15 @@ jobs:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/match-tmdb.js
 
+      # Einträge mit von Hand ermitteltem Titel (data/titel-korrekturen.json)
+      # mit diesem Titel bei TMDB suchen -- nur wenige Dutzend, deshalb auch
+      # nächtlich. Die volle Nachsuche über alle übernommenen Filme bleibt
+      # der Neu-Zuordnung vorbehalten.
+      - name: Von Hand betitelte Filme bei TMDB nachsuchen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/match-tmdb.js --youtube-nachsuche --nur-korrekturen
+
       # Neue Zuordnungen auf Plausibilität prüfen; nicht belegbare werden
       # gesperrt und beim nächsten Lauf neu gesucht.
       - name: Zuordnungen auf Plausibilität prüfen
