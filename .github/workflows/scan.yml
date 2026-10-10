@@ -43,6 +43,9 @@ jobs:
       - name: Datenqualität bereinigen (Duplikate)
         run: node scripts/cleanup-matches.js
 
+      - name: Dokumentationen entfernen (nur Spielfilme)
+        run: node scripts/remove-documentaries.js
+
       - name: Unsichere Zuordnungen automatisch nachprüfen
         run: node scripts/auto-verify.js
 

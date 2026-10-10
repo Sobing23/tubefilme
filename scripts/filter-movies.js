@@ -33,6 +33,9 @@ const OUT_EXCLUDED = "data/excluded.json";
 // -- Stellschrauben --
 const MIN_DURATION_SECONDS = 15 * 60; // alles darunter fliegt raus (Shorts/Clips)
 const PROMO_KEYWORDS = /trailer|teaser|\bclip\b/i;
+// Dokumentationen: tubefilme.de führt nur Spielfilme (Entscheidung 10.10.2026).
+// Muss mit DOKU_WORT in remove-documentaries.js übereinstimmen.
+const DOKU_KEYWORDS = /\bdokus?\b|dokumentation|dokumentarfilm|documentary|\breportage|kriegsdoku|geschichtsdoku|musikdokument/i;
 const SERIES_KEYWORDS = /\bfolgen?\b|\bstaffel\b|miniserie|\bserie\b|\bepisoden?\b|\bwebserie\b/i;
 
 function parseDuration(iso) {
@@ -62,6 +65,9 @@ function classify(video, profil) {
   }
   if (SERIES_KEYWORDS.test(video.title)) {
     return { include: false, reason: "Serienfolge (Schlüsselwort im Titel)" };
+  }
+  if (DOKU_KEYWORDS.test(video.title)) {
+    return { include: false, reason: "Dokumentation (Schlüsselwort im Titel)" };
   }
   if (profil.ausschlussMuster && new RegExp(profil.ausschlussMuster, "i").test(video.title)) {
     return { include: false, reason: "Kanalregel: Ausschlussmuster im Titel" };

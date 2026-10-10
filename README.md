@@ -45,6 +45,7 @@ scripts/
   filter-movies.js       Shorts, Trailer, Serienfolgen aussortieren
   match-tmdb.js          TMDB-Zuordnung -- das Herzstück
   cleanup-matches.js     Sicherheitsnetz gegen doppelte tmdbIds
+  remove-documentaries.js  Dokumentationen entfernen (nur Spielfilme)
   auto-verify.js         unsichere Zuordnungen gegen die Besetzung prüfen
   absorb-unmatched.js    nicht auffindbare Filme aus YouTube-Daten übernehmen
   fix-titles.js          Werbeüberschriften in Titeln durch echte Filmtitel ersetzen
@@ -80,9 +81,10 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | # | Schritt | Was passiert | API-Kosten |
 |---|---|---|---|
 | 1 | `fetch-youtube` | Neue Videos je Kanal. Über `data/state.json` inkrementell: bekannte Videos beenden die Suche vorzeitig. Neue Kanäle laufen automatisch einmal vollständig durch. | YouTube |
-| 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie) sowie **alle Videos von Kanälen mit `inPruefung`** (siehe [Anbieter und Profile](#anbieter-und-profile)). | — |
+| 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie), **Doku-Wörter** (Doku, Dokumentation, Dokumentarfilm, Documentary, Reportage) sowie **alle Videos von Kanälen mit `inPruefung`** (siehe [Anbieter und Profile](#anbieter-und-profile)). | — |
 | 3 | `match-tmdb` | Zuordnung zu TMDB. Details unten. | TMDB |
 | 4 | `cleanup-matches` | Entfernt doppelte tmdbIds. Einträge **ohne** tmdbId sind ausgenommen. | — |
+| 4a | `remove-documentaries` | Entfernt Dokus aus Bibliothek, Unmatched und Duplikaten (siehe [Nur Spielfilme](#nur-spielfilme)). | — |
 | 5 | `auto-verify` | Prüft unsichere Zuordnungen gegen die bereits gespeicherte Besetzung. | keine |
 | 6 | `absorb-unmatched` | Übernimmt endgültig nicht auffindbare Filme mit YouTube-Metadaten. | keine |
 | 7 | `fix-titles` | Ersetzt Werbeüberschriften bei übernommenen Filmen durch den echten Titel. | keine |
@@ -124,6 +126,8 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | `cover-dismissed.json` | Filme, bei denen der Platzhalter akzeptiert wurde |
 | `unavailable.json` | bei YouTube nicht abspielbare Filme mit Grund |
 | `repaired.json` | Protokoll aller Video-Austausche |
+| `dokus-entfernt.json` | Protokoll jeder entfernten Doku und jeder als Doku fehlzugeordneten, neu gesuchten Spielfilm-Zuordnung |
+| `keine-doku.json` | videoIds von Spielfilmen, die TMDB fälschlich einer Doku zuordnet und deren Videotitel keine Gattung nennt — werden neu gesucht statt entfernt |
 
 ### Felder eines Films in `filme.json`
 
@@ -235,6 +239,21 @@ Ein hoher Wert allein reicht nicht: Teiltitel + bekannter Film + richtiges Jahr 
 | weder Jahr noch Besetzung bekannt | wird gar nicht erst gesucht — keiner der Belege wäre möglich (rund 60 % der übernommenen Filme) |
 
 Es verschwindet nie ein Film. Das Protokoll des Schritts listet jede Ersetzung einzeln (vorher → nachher). Mit `--limit N` lässt sich ein Probelauf auf N Filme begrenzen.
+
+---
+
+## Nur Spielfilme
+
+**Entscheidung vom 10.10.2026: tubefilme.de führt keine Dokumentationen.** Umgesetzt an zwei Stellen:
+
+1. `filter-movies.js` lässt Videos mit Doku-Wort im Titel gar nicht erst als Kandidaten zu.
+2. `remove-documentaries.js` (direkt nach `cleanup-matches`, in Scan und Neu-Zuordnung) entfernt aus Bibliothek, `unmatched.json` und `duplicates.json` alles mit Doku-Wort im Videotitel oder TMDB-Genre 99. Nur über das Genre erkannte Dokus kommen auf `ignored.json`, sonst würden sie jede Nacht neu zugeordnet. Jeder Eintrag landet in `dokus-entfernt.json`.
+
+**Doku-Wort im Titel schlägt TMDB-Genre.** Viele YouTube-Dokus hatte TMDB einem gleichnamigen Spielfilm zugeordnet — die Madagaskar-Doku dem Animationsfilm „Madagascar", „Dinosaurier – Wie sie wirklich lebten" „Ice Age 3", „Sie – Doku" „Phantastische Tierwesen". Nach Genre allein blieben genau diese Fehltreffer stehen.
+
+**Umgekehrt: Spielfilm, falsch einer Doku zugeordnet.** Nennt der Videotitel eine Spielfilm-Gattung (Western, Horrorfilm, Thriller, Krimi …), ist die Zuordnung falsch, nicht der Film. Dann wird die tmdbId in `rejected-matches.json` gesperrt und der Film beim nächsten Lauf neu gesucht — z. B. „Camp – Tödliche Ferien (Horrorfilm)" → Doku über ein Ferienlager, „Massaker | Cowboyfilm" → gleichnamige Doku. Spielfilme ohne Gattung im Titel (reißerische KinoWelt-Titel, „Time and Tide (2000)") stehen in `keine-doku.json`.
+
+Erster Lauf: 237 Dokus aus der Bibliothek, 72 aus Unmatched, 60 aus den Duplikaten; 27 Spielfilme zur Neusuche freigegeben. Manuell bearbeitete Filme sind ausgenommen.
 
 ---
 
@@ -396,7 +415,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 
 **Befund der Aufnahme vom Oktober 2026** (sechs Kanäle, an den Rohdaten geprüft):
 - **All Time Classic Movies** — rund die Hälfte englisch (US-TV-Serien, Hollywood-Klassiker, russische Filme mit Untertiteln) → `nurMitDeutschHinweis`, 260 von 539 bleiben
-- **Rashland** — Kriegsfilme und Weltkriegs-Dokus; Dokus bleiben (die Bibliothek führt bereits 164 Dokumentarfilme, v. a. DEFA), Mehrteiler fliegen per `ausschlussMuster` raus
+- **Rashland** — Kriegsfilme und Weltkriegs-Dokus; Dokus fliegen seit 10.10. global raus (siehe [Nur Spielfilme](#nur-spielfilme)), Mehrteiler per `ausschlussMuster`
 - **Retroflix** — enthält echte Kurz- und B-Filme (Laurel-Stummfilme ab 15 Min, John-Wayne-Western um 55 Min) → keine höhere Mindestlänge; „Folge"-Dokus fängt der Serienfilter
 - **KinoWelt Deutsch** — Videotitel ohne Filmnamen, der echte Titel steht in Beschreibungszeile 2 → die Kopfzeilen-Regel schaltet sich aus den Daten automatisch ein (80 %)
 - **Stash auf Deutsch** — Kurzfilme und Serien; Serien fängt „Serie"/„Folge", echter Titel steht im mittleren `|`-Segment
