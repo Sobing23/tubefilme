@@ -1,50 +1,2270 @@
 [
   {
-    "videoId": "2u2t4apbEAs",
-    "youtubeTitle": "😂 Komödien | Ihr Neuanfang endet in einer Katastrophe | Filme deutsch komplet 4K",
-    "suchbegriff": "Komödien",
+    "videoId": "dILq_IeAmFs",
+    "youtubeTitle": "DIE JUNGE KATHARINA | Historienfilm Klassiker | Drama über Katharina die Große",
+    "suchbegriff": "Young Catherine",
+    "erwartetesJahr": "1991",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "BSS0Eg1Ldj0",
+    "youtubeTitle": "WEIHNACHTSFILM KLASSIKER: Dickens – Ein Weihnachtslied in Prosa | Deutsch",
+    "suchbegriff": "Charles Dickens – Ein Weihnachtslied in Prosa oder: Eine Geistergeschichte zum Christfest",
+    "erwartetesJahr": "1960",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "47TZypTcbzU",
+    "youtubeTitle": "Zweiter Weltkrieg – Von Berlin bis Hiroshima (Doku in voller Länge, Deutsch, ganzer Film kostenlos)",
+    "suchbegriff": "Zweiter Weltkrieg – Von Berlin bis Hiroshima",
     "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 11308,
-      "title": "Das Hotel New Hampshire",
-      "release_date": "1984-03-09"
+      "id": 636604,
+      "title": "Hollywoods Zweiter Weltkrieg",
+      "release_date": "2019-09-03"
     }
   },
   {
-    "videoId": "_-1TEDWsKi0",
-    "youtubeTitle": "Richard Löwenherz - Teil 3 | KOLORIERT",
-    "suchbegriff": "Richard Löwenherz - Teil 3",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "-UQJoWReA1Y",
+    "youtubeTitle": "Charles Dickens – Ein Weihnachtslied in Prosa oder: Eine Geistergeschichte zum Christfest",
+    "suchbegriff": "Charles Dickens – Ein Weihnachtslied in Prosa oder Eine Geistergeschichte zum Christfest",
+    "erwartetesJahr": "2015",
+    "grund": "Schwache Übereinstimmung (Wert 68) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 30840,
-      "title": "Robin Hood - Ein Leben für Richard Löwenherz",
-      "release_date": "1991-04-26"
+      "id": 450322,
+      "title": "Charles Dickens - Der Mann der Weihnachten erfand",
+      "release_date": "2017-10-12"
     }
   },
   {
-    "videoId": "WcQ-0UP1_VY",
-    "youtubeTitle": "I Want To Kill",
-    "suchbegriff": "I Want To Kill",
+    "videoId": "cNXSPDYqr5o",
+    "youtubeTitle": "Die Geheimen Flugobjekte des Dritten Reiches, Teil 1 (KRIEGSDOKUMENTATION auf Deutsch, WW2 Dokus)",
+    "suchbegriff": "Die Geheimen Flugobjekte des Dritten Reiches, Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "24l19jtX4QY",
+    "youtubeTitle": "Agatha Christie - Kleine Morde 11 - Messer am Hals (AGATHA CHRISTIE FILME, Krimi Filme kostenlos)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "bbEOVL-YmQI",
+    "youtubeTitle": "Agatha Christie - Kleine Morde 10 - Ruhe Unsanft (AGATHA CHRISTIE FILME, Krimi Klassiker Deutsch)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "rVn6aMUXMS4",
+    "youtubeTitle": "Agatha Christie - Kleine Morde 9 - Eine Leiche im Bett (KRIMI FILM KLASSIKER, Agatha Christie Filme)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "fqOO8VZMs_A",
+    "youtubeTitle": "Agatha Christie - Kleine Morde 8- Gold und Schwefel (KRIMIFILM KLASSIKER in voller Länge, kostenlos)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "ZP8qTjdp9qM",
+    "youtubeTitle": "Agatha Christie - Kleine Morde - Ich bin unschuldig (KRIMIFILM KLASSIKER in voller Länge, kostenlos)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "1vlRGFJcogc",
+    "youtubeTitle": "Agatha Christie - Kleine Morde - Das Haus der Gefahr (KRIMIFILM KLASSIKER in voller Länge gucken)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "qwjeVYnWo0s",
+    "youtubeTitle": "Agatha Christie - Kleine Morde - Ene Mene Muh (KRIMIFILM KLASSIKER in voller Länge auf Deutsch)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "7BdTHaa2Z38",
+    "youtubeTitle": "Agatha Christie - Kleine Morde - Das Mörder ABC (KRIMIFILM KLASSIKER in voller Länge auf Deutsch)",
+    "suchbegriff": "Les petits meurtres d'Agatha Christie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 42054,
+      "title": "Agatha Christie - Blausäure",
+      "release_date": "2003-10-05"
+    }
+  },
+  {
+    "videoId": "E3caijNisJs",
+    "youtubeTitle": "Die Unschuldigen mit den schmutzigen Händen (PSYCHO THRILLER mit ROMY SCHNEIDER von CLAUDE CHABROL)",
+    "suchbegriff": "Die Unschuldigen mit den schmutzigen Händen",
+    "erwartetesJahr": "1975",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ctbVYeMEF08",
+    "youtubeTitle": "Mit der Kamera an der Ostfront im Jahr 1944 (Originalaufnahmen, Archiv,vollständige Doku Geschichte)",
+    "suchbegriff": "Mit der Kamera an der Ostfront im Jahr 1944",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "jDOMEijfeGM",
+    "youtubeTitle": "Knock-out. Ein junges Mädchen - ein junger Mann (Spielfilm, Filmklassiker, Komödie, Filme)",
+    "suchbegriff": "Knock-out. Ein junges Mädchen - ein junger Mann",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "-WuQFv98Mhc",
+    "youtubeTitle": "Arnold Schwarzenegger – Die frühen Jahre (Dokumentation in voller Länge,kompletter Film auf Deutsch)",
+    "suchbegriff": "Arnold Schwarzenegger – Die frühen Jahre",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 580700,
+      "title": "Arnold Schwarzenegger - Die Verkörperung des American Dream",
+      "release_date": "2019-02-10"
+    }
+  },
+  {
+    "videoId": "XvH4L2uwJyE",
+    "youtubeTitle": "Der Kalte Krieg  – Bunker, Basen und Relikte (Wettrüsten Kalter Krieg, Geschichte Dokumentation)",
+    "suchbegriff": "Der Kalte Krieg – Bunker, Basen und Relikte",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 886596,
+      "title": "Krieg der Bilder - Der Kalte Krieg in Kindercomics und Zeichentrickfilmen",
+      "release_date": "2021-08-15"
+    }
+  },
+  {
+    "videoId": "KqNHINgPs1M",
+    "youtubeTitle": "Kampf und Untergang der deutschen Kriegsmarine 3 (GESCHICHTE, zweiter Weltkrieg Dokumentation)",
+    "suchbegriff": "Kampf und Untergang der deutschen Kriegsmarine 3",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "UbwnrRpE2t8",
+    "youtubeTitle": "Kampf und Untergang der deutschen Kriegsmarine 2 (DOKU, GESCHICHTE, zweiter Weltkrieg Dokumentation)",
+    "suchbegriff": "Kampf und Untergang der deutschen Kriegsmarine 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "FcYbnsvAcvc",
+    "youtubeTitle": "Kampf und Untergang der deutschen Kriegsmarine 1(1935-1945,2.Weltkrieg Doku, Kriegsschiffe)",
+    "suchbegriff": "Kampf und Untergang der deutschen Kriegsmarine 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "eLgcNfz7Dfg",
+    "youtubeTitle": "Geheimakte Jonastal (Geheimnisse des dritten Reiches, Nazis, Geschichte Dokumentation Deutsch)",
+    "suchbegriff": "Geheimakte Jonastal",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Afx4BEAFC5A",
+    "youtubeTitle": "Steinerne Dokumente des III  Reiches  – Teil 2  (ARCHITEKTUR IM NATIONALSOZIALISMUS, Geschichte)",
+    "suchbegriff": "Steinerne Dokumente des III Reiches – Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "xD1hh2q8I7I",
+    "youtubeTitle": "Steinerne Dokumente des III  Reiches (ARCHITEKTUR IM NATIONALSOZIALISMUS, Geschichte Doku)",
+    "suchbegriff": "Steinerne Dokumente des III Reiches",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "93CQMeRP4aE",
+    "youtubeTitle": "Adolf Hitler - Frontsoldat im 1. Weltkrieg (DOKU, Dokumentation Deutsch, Doku Deutschland, WWI)",
+    "suchbegriff": "Adolf Hitler - Frontsoldat im 1. Weltkrieg",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 238831,
+      "title": "The Strange Death of Adolf Hitler",
+      "release_date": "1943-09-10"
+    }
+  },
+  {
+    "videoId": "DgDek-7G_Rw",
+    "youtubeTitle": "Hitlers Reichskanzlei in Berchtesgaden (DOKU, Dokumentation Deutsch, Doku Deutschland ganzer Film)",
+    "suchbegriff": "Hitlers Reichskanzlei in Berchtesgaden",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "gsowdV-UgZE",
+    "youtubeTitle": "Focke Wulf FW190 (Deutsche Kampfflieger, Wehrmacht, Geschichte Dokumentation)",
+    "suchbegriff": "Focke Wulf FW190",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ux29EF1Qv6U",
+    "youtubeTitle": "Zweiter Weltkrieg  – Von Berlin bis Hiroshima (Dokumentation Deutsch, Militär Doku Deutsch, Verlauf)",
+    "suchbegriff": "Zweiter Weltkrieg – Von Berlin bis Hiroshima",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 636604,
+      "title": "Hollywoods Zweiter Weltkrieg",
+      "release_date": "2019-09-03"
+    }
+  },
+  {
+    "videoId": "k5gs-fJRdKs",
+    "youtubeTitle": "Zweiter Weltkrieg  – Stalingrad Mythos einer Schlacht (Dokumentation Deutsch, Militär Doku Deutsch)",
+    "suchbegriff": "Zweiter Weltkrieg – Stalingrad Mythos einer Schlacht",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 636604,
+      "title": "Hollywoods Zweiter Weltkrieg",
+      "release_date": "2019-09-03"
+    }
+  },
+  {
+    "videoId": "MWibJyDPumE",
+    "youtubeTitle": "Jagdflieger im Zweiten Weltkrieg – Vol. 5 – Luftschlacht um Deutschland (Kriegsdokumentation)",
+    "suchbegriff": "Ritter der Lüfte",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "n3S_5oh1hJg",
+    "youtubeTitle": "Jagdflieger im Zweiten Weltkrieg – Vol. 1 – Deutsche Jagdflieger Asse (2. Weltkrieg DOKU)",
+    "suchbegriff": "Ritter der Lüfte",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "AyEUjhy2bBs",
+    "youtubeTitle": "02 Me 262 und andere Flugzeuge im einsatz (DOKU, DOKUMENTATION AUF DEUTSCH)",
+    "suchbegriff": "02 Me 262 und andere Flugzeuge im einsatz",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "BwNW8hEPtj8",
+    "youtubeTitle": "Fliegerasse (ORIGINALAUFNAHMEN, DOKUMENTATION über die deutschen Fliegerasse des Zweiten Weltkriegs)",
+    "suchbegriff": "Fighter Aces of the Second World War",
+    "erwartetesJahr": "2010",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "fywCQeakjfI",
+    "youtubeTitle": "Die Grausamsten Serienkiller (Serienmörder Doku, Dokumentation Deutsch, True Crime Deutsch)",
+    "suchbegriff": "Die Grausamsten Serienkiller",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "MvwCHJxl4R4",
+    "youtubeTitle": "Messerschmitt BF 109 (DOKUMENTATION, Flugzeuge, zweiten Weltkrieg, WW2)",
+    "suchbegriff": "The Messerschmitt Bf109",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "A8izyXpMSlo",
+    "youtubeTitle": "Stuka JU 87 (2. WELTKRIEG, Deutsche Kampfflieger, Wehrmacht, Geschichte Dokumentation)",
+    "suchbegriff": "Stuka JU 87",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 0)",
+    "tmdbTopKandidat": {
+      "id": 927261,
+      "title": "The JU 87 Stuka",
+      "release_date": "1999-01-01"
+    }
+  },
+  {
+    "videoId": "BfaRS6jq4b8",
+    "youtubeTitle": "Marine Korps der USA  (US-NAVY Dokumentation, 2. Weltkrieg, deutsch seltene Originalaufnahmen)",
+    "suchbegriff": "Marine Korps der USA",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bagGuJtkM2g",
+    "youtubeTitle": "John Wayne Highnoon in Helltown (Western in voller Länge, ganzer Film Deutsch, komplett)",
+    "suchbegriff": "John Wayne Highnoon in Helltown",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "mdTZaXsvoHI",
+    "youtubeTitle": "Champions der Klamotte – Teil 3  (Charlie Chaplin Filme, Filmklassiker, Stummfilm Klassiker)",
+    "suchbegriff": "Champions der Klamotte",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "tWRT9Q0zGEA",
+    "youtubeTitle": "Champions der Klamotte – Teil 2 (STUMMFILM KLASSIKER, Charlie Chaplin Filme, Filmklassiker, Doku)",
+    "suchbegriff": "Champions der Klamotte",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "TVhAvXleLQg",
+    "youtubeTitle": "Struwwelpeter (Kinderfilm, Animiertes Kinderbuch vorgelesen, Bilderserie, Deutsch)",
+    "suchbegriff": "Struwwelpeter",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 250919,
+      "title": "Der Struwwelpeter",
+      "release_date": "1955-01-23"
+    }
+  },
+  {
+    "videoId": "R0OulWPqf1Q",
+    "youtubeTitle": "Die Unschuldigen mit den schmutzigen Händen (Krimi, Thriller, Filmklassiker, mit Romy Schneider)",
+    "suchbegriff": "Die Unschuldigen mit den schmutzigen Händen",
+    "erwartetesJahr": "1975",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Lco5duvTRHQ",
+    "youtubeTitle": "Champions der Klamotte – Teil 1 (Charlie Chaplin Stummfilm, Filmklassiker, kostenlos ansehen)",
+    "suchbegriff": "Champions der Klamotte – Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "6Dto0UHflrE",
+    "youtubeTitle": "Charles Dickens – Ein Weihnachtslied in Prosa oder: Eine Geistergeschichte zum Christfest",
+    "suchbegriff": "Charles Dickens – Ein Weihnachtslied in Prosa oder Eine Geistergeschichte zum Christfest",
+    "erwartetesJahr": "2015",
+    "grund": "Schwache Übereinstimmung (Wert 68) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 450322,
+      "title": "Charles Dickens - Der Mann der Weihnachten erfand",
+      "release_date": "2017-10-12"
+    }
+  },
+  {
+    "videoId": "cmD_591ynj4",
+    "youtubeTitle": "Champions der Klamotte – Teil 3 (Charlie Chaplin Stummfilm, Klassiker Filme kostenlos ansehen",
+    "suchbegriff": "Champions der Klamotte – Teil 3",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "masCCuZdJ_E",
+    "youtubeTitle": "Champions der Klamotte - Teil 2 (Charlie Chaplin Stummfilm, Klassiker Filme kostenlos ansehen)",
+    "suchbegriff": "Champions der Klamotte - Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "am4yD-XG1sk",
+    "youtubeTitle": "Laurel & Hardy – Best Comedy Team Vol. 3 ( The Show | KOMÖDIE Klassiker, Stummfilm)",
+    "suchbegriff": "Laurel & Hardy – Best Comedy Team Vol. 3",
+    "erwartetesJahr": "1925",
+    "grund": "Schwache Übereinstimmung (Wert 71) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 178452,
+      "title": "Laurel & Hardy - Hollywood Party",
+      "release_date": "1934-05-24"
+    }
+  },
+  {
+    "videoId": "JCLbNkj5dwU",
+    "youtubeTitle": "Frauen und wilde Tiere (Komödie Filmklassiker, Stummfilm synchronisiert, ganzer Film Deutsch)",
+    "suchbegriff": "Frauen und wilde Tiere",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "XB6HjeovPeo",
+    "youtubeTitle": "Der Räubermann im Hotzenwald (Puppenfilm, ganzen Film kostenlos anschauen, Filme in voller Länge)",
+    "suchbegriff": "Der Räubermann im Hotzenwald",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 23)",
+    "tmdbTopKandidat": {
+      "id": 832758,
+      "title": "Die verrückteste Puppenshow - Der Räubermann im Hotzenwald",
+      "release_date": "2019-01-01"
+    }
+  },
+  {
+    "videoId": "teAgm5vFMwk",
+    "youtubeTitle": "Laurel & Hardy Cartoonfestival  (Zeichentrick-Klassiker in voller Länge, ganzer Film, Dick und Doof)",
+    "suchbegriff": "Laurel & Hardy Cartoonfestival",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Q0EhHdqNM74",
+    "youtubeTitle": "Eine Hommage an Charlie Chaplin (Film in voller Länge, ganzer Film auf Deutsch, ganzer Spielfilm)",
+    "suchbegriff": "Eine Hommage an Charlie Chaplin",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "kziCLk0B4XY",
+    "youtubeTitle": "Stan in Chinatown (A Mandarin Mix Up | Komödie in voller Länge, Spielfilm komplett auf Deutsch)",
+    "suchbegriff": "A Mandarin Mixup",
+    "erwartetesJahr": "1924",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "UTBnrYf8w8g",
+    "youtubeTitle": "Sachen zum Lachen – Buster Keaton – Detektiv mit Hindernissen (Stummfilm Komödie)",
+    "suchbegriff": "-",
+    "erwartetesJahr": "1924",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 16)",
+    "tmdbTopKandidat": {
+      "id": 287076,
+      "title": "Sachen zum Lachen",
+      "release_date": "1992-11-11"
+    }
+  },
+  {
+    "videoId": "lPx_v8JKdpU",
+    "youtubeTitle": "Casper und seine Freunde (Trickfilm für Kinder, ganzer Kinder Cartoon auf Deutsch)",
+    "suchbegriff": "The New Casper Cartoon Show",
+    "erwartetesJahr": "1963",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "GczVaNU2aRc",
+    "youtubeTitle": "Jean-Claude Van Damme: KARATE TIGER | Der ultimative Kultfilm des 80er-Jahre-Kampfsportkinos",
+    "suchbegriff": "Jean-Claude Van Damme: KARATE TIGER",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1103705,
+      "title": "Jean-Claude Van Damme: Karate-Diva",
+      "release_date": "2023-03-17"
+    }
+  },
+  {
+    "videoId": "Y4_Qlr-v6X4",
+    "youtubeTitle": "THE KINKS: In Ihren Eigenen Worten | Ganzer MUSIKDOKUMENTÄR mit DEUTSCHEN Untertiteln in HD",
+    "suchbegriff": "THE KINKS: In Ihren Eigenen Worten",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 30)",
+    "tmdbTopKandidat": {
+      "id": 1199706,
+      "title": "The Kinks at the BBC",
+      "release_date": "2011-07-15"
+    }
+  },
+  {
+    "videoId": "GUFkk1S6e0g",
+    "youtubeTitle": "LANGE NACHT | Ganzer HISTORISCHE-FILM mit DEUTSCHEN UNTERTITELN in HD",
+    "suchbegriff": "LANGE NACHT",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 62365,
+      "title": "Die lange Nacht von 43",
+      "release_date": "1960-09-15"
+    }
+  },
+  {
+    "videoId": "Ik97wkXNXnU",
+    "youtubeTitle": "THE DELEGATION | Ganzer POLIT-DRAMA HISTORISCHE-FILM mit DEUTSCHEN Untertiteln in HD",
+    "suchbegriff": "THE DELEGATION",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 9)",
+    "tmdbTopKandidat": {
+      "id": 61793,
+      "title": "Die Delegation",
+      "release_date": "1970-09-09"
+    }
+  },
+  {
+    "videoId": "_V4Aei2h38k",
+    "youtubeTitle": "GOLDSTAUB | Ganzer LUSTIGER ABENTEURFILM auf ENGLISCH mit DEUTSCHEN Untertiteln in HD",
+    "suchbegriff": "GOLDSTAUB",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 3693,
+      "title": "Paras - Goldstaub in der Luft",
+      "release_date": "1966-06-29"
+    }
+  },
+  {
+    "videoId": "hjSV8X38YhE",
+    "youtubeTitle": "SIE LIEBT DICH ZU TODE! | Ganzer THRILLERFILM auf DEUTSCH in Voller Länge HD",
+    "suchbegriff": "SIE LIEBT DICH ZU TODE!",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 77) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1611977,
+      "title": "Housemaid - Sie liebt dich zu Tode",
+      "release_date": "2026-01-06"
+    }
+  },
+  {
+    "videoId": "eXfM063mnXY",
+    "youtubeTitle": "DER FÜNFTE PATIENT | Ganzer SPIONAGE THRILLERFILM auf DEUTSCH HD mit Nick Chinlund",
+    "suchbegriff": "DER FÜNFTE PATIENT",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "aJ2DM0Wcd5g",
+    "youtubeTitle": "🎞️ Unsere Heimfilme – Erinnerungen aus den 1970er bis 1990er Jahren ❤️ Teil 3",
+    "suchbegriff": "Unsere Heimfilme – Erinnerungen aus den 1970er bis 1990er Jahren ❤️ Teil 3",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vlLp2ml1mh4",
+    "youtubeTitle": "Glücksrad 1992 – Kultige TV-Unterhaltung der 90er",
+    "suchbegriff": "Glücksrad 1992 – Kultige TV-Unterhaltung der 90er",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "kmVgKNhlxd0",
+    "youtubeTitle": "Deutsche Kultur – Familienfilme | Klassiker & nostalgische Filme - 2. Teil",
+    "suchbegriff": "Deutsche Kultur – Familienfilme",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 308521,
+      "title": "Deutsche Polizisten: Viele Kulturen - eine Truppe",
+      "release_date": "1999-07-28"
+    }
+  },
+  {
+    "videoId": "aTQdR0Bh-6g",
+    "youtubeTitle": "WOLFGANG NEUSS – WIR KELLERKINDER (1960)",
+    "suchbegriff": "WOLFGANG NEUSS – WIR KELLERKINDER",
+    "erwartetesJahr": "1960",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "mqpv_zn3JLc",
+    "youtubeTitle": "Ich war Jack Mortimer l Deutscher Spielfilm",
+    "suchbegriff": "Ich war Jack Mortimer l Deutscher Spielfilm",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "nTuq788kcH8",
+    "youtubeTitle": "Edgar Wallace – Der Hexer | KRIMI in voller Länge | Ganzer Film auf Deutsch | Filmklassiker",
+    "suchbegriff": "Edgar Wallace – Der Hexer",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 46939,
+      "title": "Edgar Wallace: Die Kammer des Schreckens",
+      "release_date": "1940-10-12"
+    }
+  },
+  {
+    "videoId": "LTh5QXCK0jw",
+    "youtubeTitle": "Peter Alexander – Der Musterknabe (1963) | Kult-Komödie | Deutscher Filmklassiker | Ganzer Film",
+    "suchbegriff": "Peter Alexander – Der Musterknabe",
+    "erwartetesJahr": "1963",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 18)",
+    "tmdbTopKandidat": {
+      "id": 941434,
+      "title": "Peter Alexander präsentiert Walt Disneys Welt",
+      "release_date": "1976-12-02"
+    }
+  },
+  {
+    "videoId": "I6UmxAs0Ows",
+    "youtubeTitle": "Schloss in den Wolken – von Sam Locke | Klassisches Drama",
+    "suchbegriff": "Schloss in den Wolken – von Sam Locke",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "84x_mdNjwQo",
+    "youtubeTitle": "1938 – CAPRICCIO - Liebe, Intrigen und ein gefährliches Spiel!",
+    "suchbegriff": "1938 – CAPRICCIO - Liebe, Intrigen und ein gefährliches Spiel!",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 43857,
+      "title": "Broadway Melodie 1938",
+      "release_date": "1937-08-20"
+    }
+  },
+  {
+    "videoId": "x-5f61aPycw",
+    "youtubeTitle": "Ferdinand Bruckner – Fährten | Klassisches Drama",
+    "suchbegriff": "Ferdinand Bruckner – Fährten",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "EiFuwyrO_hE",
+    "youtubeTitle": "🎬 Liselotte von der Pfalz — ein historischer Film aus dem Jahr 1966",
+    "suchbegriff": "Liselotte von der Pfalz — ein historischer Film aus dem Jahr 1966",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "mUNhhbrCAtU",
+    "youtubeTitle": "Eva Bartok in „Eheinstitut Aurora“ (1961) | Filmklassiker",
+    "suchbegriff": "Eva Bartok in „Eheinstitut Aurora“",
+    "erwartetesJahr": "1961",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "xu41f2fx3Xw",
+    "youtubeTitle": "Sherlock Holmes und die verhängnisvolle Reise - Deutsche Spielfilm",
+    "suchbegriff": "Sherlock Holmes und die verhängnisvolle Reise - Deutsche Spielfilm",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "B7N7T5699Fk",
+    "youtubeTitle": "Die Abenteuer des Robinson Crusoe – Teil 2 (1964) | Ganzer Film | Robert Hoffmann, Fabian Cevallos",
+    "suchbegriff": "Die Abenteuer des Robinson Crusoe – Teil 2",
+    "erwartetesJahr": "1964",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 5)",
+    "tmdbTopKandidat": {
+      "id": 54979,
+      "title": "Robinson Crusoe",
+      "release_date": "1954-08-05"
+    }
+  },
+  {
+    "videoId": "Nx0KKRomOK4",
+    "youtubeTitle": "Sherlock Holmes und die Spieldosen – DEUTSCHER SPIELFILM",
+    "suchbegriff": "Sherlock Holmes und die Spieldosen – DEUTSCHER SPIELFILM",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "v2OuptHTtwE",
+    "youtubeTitle": "Ihr Korporal – Husarenmanöver (1956) | Peter Weck, Paul Hörbiger & Rudolf Carl | Ganzer Heimatfilm",
+    "suchbegriff": "Ihr Korporal – Husarenmanöver",
+    "erwartetesJahr": "1956",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ijq7ZkGsBis",
+    "youtubeTitle": "Ödön von Horváth: Geschichten aus dem Wienerwald | Klassiker des deutschen Theaters",
+    "suchbegriff": "Ödön von Horváth: Geschichten aus dem Wienerwald",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "uoJd9EnMkpI",
+    "youtubeTitle": "Sherlock Holmes und das Musgrave-Mysterium | Krimi-Klassiker nach Arthur Conan Doyle",
+    "suchbegriff": "Sherlock Holmes und das Musgrave-Mysterium",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Gi4JWgloxok",
+    "youtubeTitle": "OPAS KINO LEBT: Achtung Gangster! Laurel & Hardy – Dick und Doof mit der Stimme von Hans Clarin",
+    "suchbegriff": "OPAS KINO LEBT: Achtung Gangster! Laurel & Hardy – Dick und Doof mit der Stimme von Hans Clarin",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "wVoqFfsFcD0",
+    "youtubeTitle": "Heinz Erhardt: Der Kurpfuscher – Wortwitz, Chaos und beste deutsche Komik",
+    "suchbegriff": "Heinz Erhardt: Der Kurpfuscher – Wortwitz, Chaos und beste deutsche Komik",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 572099,
+      "title": "100 Jahre Heinz Erhardt - Die besten Gags, die schönsten Sketche",
+      "release_date": "2009-02-19"
+    }
+  },
+  {
+    "videoId": "szbcn_jUW_A",
+    "youtubeTitle": "Gerne habe ich dich geküsst – Deutscher Spielfilm der 1930er Jahre | Romantik & Nostalgie",
+    "suchbegriff": "Gerne habe ich dich geküsst – Deutscher Spielfilm der 1930er Jahre",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "MEZZ9GOXDlU",
+    "youtubeTitle": "Heinz Erhardt präsentiert: Wenn man baden geht auf Teneriffa | Humor, Musik & Urlaubslaune",
+    "suchbegriff": "Heinz Erhardt präsentiert: Wenn man baden geht auf Teneriffa",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "eGGQrKd0wko",
+    "youtubeTitle": "Heinz Erhardt: Eine gewisse Marietta – Humor, Verwechslung und feiner Wortwitz",
+    "suchbegriff": "Heinz Erhardt: Eine gewisse Marietta – Humor, Verwechslung und feiner Wortwitz",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 572099,
+      "title": "100 Jahre Heinz Erhardt - Die besten Gags, die schönsten Sketche",
+      "release_date": "2009-02-19"
+    }
+  },
+  {
+    "videoId": "A-uMejlvwN4",
+    "youtubeTitle": "Heinz Erhardt: Willy Winzig – Wortwitz, Charme und Humor vom Feinsten",
+    "suchbegriff": "Heinz Erhardt: Willy Winzig – Wortwitz, Charme und Humor vom Feinsten",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 572099,
+      "title": "100 Jahre Heinz Erhardt - Die besten Gags, die schönsten Sketche",
+      "release_date": "2009-02-19"
+    }
+  },
+  {
+    "videoId": "apuMIt38vW4",
+    "youtubeTitle": "Die Mutter der Kompanie (1930er) | Deutscher Spielfilm-Klassiker | Seltene Filmrarität",
+    "suchbegriff": "Die Mutter der Kompanie",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "zNwnFQce_bw",
+    "youtubeTitle": "🚨 POLIZEIALARM – „Romeo und Julia“ nach Jahrzehnten aufgetaucht! NOW IN HD",
+    "suchbegriff": "POLIZEIALARM – „Romeo und Julia“ nach Jahrzehnten aufgetaucht! NOW IN HD",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "6K2n3wiGzbw",
+    "youtubeTitle": "Ferdinand Bruckner: Fährten (1967) | Packendes TV-Drama nach dem berühmten Bühnenautor",
+    "suchbegriff": "Ferdinand Bruckner: Fährten",
+    "erwartetesJahr": "1967",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "1DMhq-gcEqg",
+    "youtubeTitle": "Heinz Erhardt: Ein ruhiges Stündchen | Wortwitz, Charme & bester deutscher Humor 🎭",
+    "suchbegriff": "Heinz Erhardt: Ein ruhiges Stündchen",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 572099,
+      "title": "100 Jahre Heinz Erhardt - Die besten Gags, die schönsten Sketche",
+      "release_date": "2009-02-19"
+    }
+  },
+  {
+    "videoId": "zThatlK-Yk0",
+    "youtubeTitle": "Heinz Erhardt: Willy Winzig – Wortwitz vom Feinsten! | Deutscher Humor-Klassiker",
+    "suchbegriff": "Heinz Erhardt: Willy Winzig – Wortwitz vom Feinsten!",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 572099,
+      "title": "100 Jahre Heinz Erhardt - Die besten Gags, die schönsten Sketche",
+      "release_date": "2009-02-19"
+    }
+  },
+  {
+    "videoId": "tE-Ide0yfDA",
+    "youtubeTitle": "Inge Meysel: Keiner erbt für sich allein (1970) | Deutscher TV-Klassiker in beeindruckender",
+    "suchbegriff": "Inge Meysel: Keiner erbt für sich allein",
+    "erwartetesJahr": "1970",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "NwEUhonbvso",
+    "youtubeTitle": "Heinz Erhardt – Der Fachmann | Kultiger Humor-Klassiker in verbesserter Bildqualität",
+    "suchbegriff": "Heinz Erhardt – Der Fachmann",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 572099,
+      "title": "100 Jahre Heinz Erhardt - Die besten Gags, die schönsten Sketche",
+      "release_date": "2009-02-19"
+    }
+  },
+  {
+    "videoId": "hbbfigOwxQo",
+    "youtubeTitle": "Das Geheimnis eines Arztes (1937) | Heinrich George in einem packenden Filmklassiker",
+    "suchbegriff": "Das Geheimnis eines Arztes",
+    "erwartetesJahr": "1937",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "CyohZKxn4EE",
+    "youtubeTitle": "Die Luftbrücke – Als Flugzeuge eine Stadt retteten | Historische Dokumentation über Berlin",
+    "suchbegriff": "Die Luftbrücke – Als Flugzeuge eine Stadt retteten",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "he0tsQvKM3Y",
+    "youtubeTitle": "DER QUALTINGER | Helmut Qualtinger in einer seiner legendärsten Rollen 🎭 | Kultfilm",
+    "suchbegriff": "DER QUALTINGER",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Vwt20N0E6zc",
+    "youtubeTitle": "FLUG IN GEFAHR ✈️ | Die Mutter aller Flugzeug-Katastrophenfilme! | Mit Hanns Lothar | Kompletter",
+    "suchbegriff": "FLUG IN GEFAHR ✈️",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "KmLDeJRtkQ0",
+    "youtubeTitle": "MARIKA RÖKK – DAS KIND DER DONAU 🌊",
+    "suchbegriff": "MARIKA RÖKK – DAS KIND DER DONAU 🌊",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "q1KsP7TE1L8",
+    "youtubeTitle": "MAX und MORITZ 🪶 Wilhelm Busch | Historischer Puppentrickfilm der Gebrüder Diehl",
+    "suchbegriff": "MAX und MORITZ 🪶 Wilhelm Busch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "xGNUPKpcIvY",
+    "youtubeTitle": "Der Dritte Handschuh - Deutscher Spielfilm",
+    "suchbegriff": "Der Dritte Handschuh - Deutscher Spielfilm",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "PVu853_LCPE",
+    "youtubeTitle": "„Wir hatten nichts – aber wir lachten viel“: Heinz Erhardt erinnert sich an seine Kindheit",
+    "suchbegriff": "Wir hatten nichts – aber wir lachten viel“: Heinz Erhardt erinnert sich an seine Kindheit",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 23)",
+    "tmdbTopKandidat": {
+      "id": 1185647,
+      "title": "Außer Männer hatten wir nichts zu verlieren",
+      "release_date": "2023-10-15"
+    }
+  },
+  {
+    "videoId": "N62UPx-unG4",
+    "youtubeTitle": "Johann Nestroy – Einen Jux will er sich machen 🎭 | Wiener Volkstheater Klassiker voller Witz & Chaos",
+    "suchbegriff": "Johann Nestroy – Einen Jux will er sich machen 🎭",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1658586,
+      "title": "Die Verhaftung des Johann Nepomuk Nestroy",
+      "release_date": "2000-10-21"
+    }
+  },
+  {
+    "videoId": "xhpM-TrnlG8",
+    "youtubeTitle": "DIE BRÜCKE DES SCHICKSALS ⚠️ Seltenes Fernsehspiel voller Drama & Geheimnisse",
+    "suchbegriff": "DIE BRÜCKE DES SCHICKSALS ⚠️ Seltenes Fernsehspiel voller Drama & Geheimnisse",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "9TYQbAA3AJk",
+    "youtubeTitle": "ICH WAR JACK MORTIMER 🔥 Düsterer Krimi-Klassiker voller Spannung & Geheimnisse",
+    "suchbegriff": "ICH WAR JACK MORTIMER 🔥 Düsterer Krimi-Klassiker voller Spannung & Geheimnisse",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "YP8yPLiJm6M",
+    "youtubeTitle": "BERICHT EINES FEIGLINGS ⚡ Bewegender Vatertags-Spielfilm voller Drama & Wahrheit | Seltene Filmperle",
+    "suchbegriff": "BERICHT EINES FEIGLINGS ⚡ Bewegender Vatertags-Spielfilm voller Drama & Wahrheit",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "65z-ojXjVqU",
+    "youtubeTitle": "ROTEN ROSEN, ROTER LIPPEN, ROTER WEIN 🌹🍷 Der unvergessene Schlager-Klassiker voller Liebe",
+    "suchbegriff": "ROTEN ROSEN, ROTER LIPPEN, ROTER WEIN 🌹🍷 Der unvergessene Schlager-Klassiker voller Liebe",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "khpi_rtUVTs",
+    "youtubeTitle": "GEHEIME NACHT-ATTACKE! ⚓ „U 47 – Priens Angriff auf Scapa Flow“ (1958) – Deutscher Kriegsfilm",
+    "suchbegriff": "GEHEIME NACHT-ATTACKE! ⚓ „U 47 – Priens Angriff auf Scapa Flow“",
+    "erwartetesJahr": "1958",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "fPuAXHMi26E",
+    "youtubeTitle": "Karl Valentin & Liesl Karlstadt im urkomischen DURCHDREH-KLASSIKER „Ein verhängnisvolles Geigensolo“",
+    "suchbegriff": "Karl Valentin & Liesl Karlstadt im urkomischen DURCHDREH-KLASSIKER „Ein verhängnisvolles Geigensolo“",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ky8yMeG6YfY",
+    "youtubeTitle": "Lass mich am Sonntag nicht allein ⭐ Georg Thomalla / Heidi Brühl",
+    "suchbegriff": "Lass mich am Sonntag nicht allein ⭐ Georg Thomalla / Heidi Brühl",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "CmjUYGVCz0k",
+    "youtubeTitle": "HEINZ ERHARDT IM INTERVIEW – WORTWITZ, CHARME UND EIN GENIE ZUM VERLIEBEN!",
+    "suchbegriff": "HEINZ ERHARDT IM INTERVIEW – WORTWITZ, CHARME UND EIN GENIE ZUM VERLIEBEN!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "nMdJ9UqIzHg",
+    "youtubeTitle": "Heinz Erhardt – Seine Tochter spricht über den großen Humoristen",
+    "suchbegriff": "Heinz Erhardt – Seine Tochter spricht über den großen Humoristen",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 572099,
+      "title": "100 Jahre Heinz Erhardt - Die besten Gags, die schönsten Sketche",
+      "release_date": "2009-02-19"
+    }
+  },
+  {
+    "videoId": "5wHuqriqd3k",
+    "youtubeTitle": "🔥 08/15 – DEUTSCHLAND IM KRIEG! 💣 Soldaten zwischen Pflicht, Angst & bitterer Realität!",
+    "suchbegriff": "08/15 – DEUTSCHLAND IM KRIEG! 💣 Soldaten zwischen Pflicht, Angst & bitterer Realität!",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
+    "tmdbTopKandidat": {
+      "id": 24771,
+      "title": "Kommissar Beck 08 - Todesengel",
+      "release_date": "1998-09-19"
+    }
+  },
+  {
+    "videoId": "CtC348gQMUc",
+    "youtubeTitle": "⚓ U 47 – PRIENS ANGRIFF AUF SCAPA FLOW (1958) | DEUTSCHER KRIEGSFILM – GANZER FILM",
+    "suchbegriff": "U 47 – PRIENS ANGRIFF AUF SCAPA FLOW",
+    "erwartetesJahr": "1958",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "l2lvbrs5h6M",
+    "youtubeTitle": "🎬 WIR SCHALTEN UM NACH HOLLYWOOD 1931! BUSTER KEATON – GANZER FILM AUF DEUTSCH!",
+    "suchbegriff": "WIR SCHALTEN UM NACH HOLLYWOOD 1931! BUSTER KEATON – GANZER FILM AUF DEUTSCH!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "r6rIqm6Xrd8",
+    "youtubeTitle": "Es war mir ein Vergnügen mit Ofarim – Musik, Charme und große Gefühle",
+    "suchbegriff": "Es war mir ein Vergnügen mit Ofarim – Musik, Charme und große Gefühle",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "62vpQcg3Eo0",
+    "youtubeTitle": "TRAFBATAILLON 999 – SPIELFILM  - Verloren im Krieg, verurteilt vom System",
+    "suchbegriff": "TRAFBATAILLON 999 – SPIELFILM - Verloren im Krieg, verurteilt vom System",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "whr-P-XufXc",
+    "youtubeTitle": "Die 7 Kleider der Katrin (1954) – Romantische Wirren zwischen Herz und Verstand",
+    "suchbegriff": "Die 7 Kleider der Katrin",
+    "erwartetesJahr": "1954",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "-phIvojpLA4",
+    "youtubeTitle": "PETER ALEXANDER – DIE LUSTIGE WITWE (1962)",
+    "suchbegriff": "PETER ALEXANDER – DIE LUSTIGE WITWE",
+    "erwartetesJahr": "1962",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 18)",
+    "tmdbTopKandidat": {
+      "id": 941434,
+      "title": "Peter Alexander präsentiert Walt Disneys Welt",
+      "release_date": "1976-12-02"
+    }
+  },
+  {
+    "videoId": "ltkPVbbOfrI",
+    "youtubeTitle": "Die Teneriffa-Ferien – Sonne, Meer und Lebensfreude auf den Kanaren",
+    "suchbegriff": "Die Teneriffa-Ferien – Sonne, Meer und Lebensfreude auf den Kanaren",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "W1yN1LDThWg",
+    "youtubeTitle": "Valentins Sündefall (1951) | Klassischer Heimatfilm",
+    "suchbegriff": "Valentins Sündefall",
+    "erwartetesJahr": "1951",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "5N9zfHrMRT0",
+    "youtubeTitle": "Klassiker: Der Postmeister (1940) | Gefühlvolles Drama nach Puschkin",
+    "suchbegriff": "Klassiker: Der Postmeister",
+    "erwartetesJahr": "1940",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "D9NEA1kCT8M",
+    "youtubeTitle": "Charlie Chaplin gegen alle – mit Heinz Erhardt",
+    "suchbegriff": "Charlie Chaplin gegen alle – mit Heinz Erhardt",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 36)",
+    "tmdbTopKandidat": {
+      "id": 53402,
+      "title": "Charlie gegen alle",
+      "release_date": "1915-02-01"
+    }
+  },
+  {
+    "videoId": "OdpvmSvg7-Q",
+    "youtubeTitle": "Die 10 Gebote (1938) | Historischer Film in deutscher Sprache",
+    "suchbegriff": "Die 10 Gebote",
+    "erwartetesJahr": "1938",
+    "grund": "Schwache Übereinstimmung (Wert 57) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 6844,
+      "title": "Die Zehn Gebote",
+      "release_date": "1956-11-08"
+    }
+  },
+  {
+    "videoId": "VYWUGxDobYs",
+    "youtubeTitle": "Der Schatten der Ninja – Spannender US-Actionfilm auf Deutsch",
+    "suchbegriff": "Der Schatten der Ninja – Spannender US-Actionfilm auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "tKxFyXd91Co",
+    "youtubeTitle": "Der kleine Horrorladen 🌱 (1960) | Deutsch I Kultfilm von Roger Corman | Komplett auf Deutsch",
+    "suchbegriff": "Der kleine Horrorladen 🌱",
+    "erwartetesJahr": "1960",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "lyOjaWD6raE",
+    "youtubeTitle": "Laurel & Hardy – Dies ist euer Leben 🎬 | Deutsche DOKU über das Kult-Duo! 68. Todestag",
+    "suchbegriff": "Laurel & Hardy – Dies ist euer Leben 🎬",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 89) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 48822,
+      "title": "Dick und Doof - Spuk um Mitternacht",
+      "release_date": "1930-08-08"
+    }
+  },
+  {
+    "videoId": "u_6pRGRTjA8",
+    "youtubeTitle": "Pat und Patachon – Verrückte Zeiten | Deutsche Kinofassung",
+    "suchbegriff": "Pat und Patachon – Verrückte Zeiten",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 357012,
+      "title": "Pat und Patachon: Mit Pauken und Trompeten",
+      "release_date": "1933-03-31"
+    }
+  },
+  {
+    "videoId": "byM7JH9pvPo",
+    "youtubeTitle": "Pat und Patachon Mädchenräuber I DEUTSCH I Pallieter – Paa og Paa som pigesnappere",
+    "suchbegriff": "Pallieter – Paa og Paa som pigesnappere",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "zO7iKxs_eKs",
+    "youtubeTitle": "Heavy Tanks (WW2 Dokumentation, ganze Dokus, Panzer Dokus, Deutsche Panzer, Weltkriegsdoku, 2026)",
+    "suchbegriff": "Der 2 Weltkrieg: Schwere Kampfpanzer - Heavy Tanks",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "7MIvQkILfFY",
+    "youtubeTitle": "Zweiter Weltkrieg: Die stärksten deutschen U-Boote & epische Schlachten | Kriegsmarine Doku | 2025",
+    "suchbegriff": "Zweiter Weltkrieg: Die stärksten deutschen U-Boote & epische Schlachten",
+    "erwartetesJahr": "2025",
+    "grund": "Schwache Übereinstimmung (Wert 64) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 636604,
+      "title": "Hollywoods Zweiter Weltkrieg",
+      "release_date": "2019-09-03"
+    }
+  },
+  {
+    "videoId": "-B9JbQL0fTE",
+    "youtubeTitle": "World War II Inferno (ACTION KRIEGSFILM in voller länge, ganzer film deutsch, kriegsfilme, ww2)",
+    "suchbegriff": "Dostavit' ljuboj cenoj",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "oWHpoDxVpKk",
+    "youtubeTitle": "Hitlers geheime Waffen (ganze DOKUMENTATION auf Deutsch, Weltkrieg Dokumentation in voller Länge)",
+    "suchbegriff": "Hitlers geheime Waffen",
+    "erwartetesJahr": "2010",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "w4OK0Hrh3tU",
+    "youtubeTitle": "Propagandakompanien - Reporter des Bösen Teil 2 (DOKU auf Deutsch in voller Länge, Weltkrieg Doku)",
+    "suchbegriff": "Propaganda Kompanie : Les reporters de Guerre du IIIe Reich",
+    "erwartetesJahr": "2012",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 24)",
+    "tmdbTopKandidat": {
+      "id": 1266045,
+      "title": "Propagandakompanien – Reporter des Bösen",
+      "release_date": "2014-04-09"
+    }
+  },
+  {
+    "videoId": "cQKLFP6QtM8",
+    "youtubeTitle": "Russland 1941 Teil 2 – Der Kampf mit den Deutschen (Kriegsfilm | Drama | ganzer Film)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "A7CXMRKHmpQ",
+    "youtubeTitle": "Russland 1941 Teil 1 – Konvoi in den Tod (Kriegsfilm, HD, kompletter Spielfilm)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ID7xjlXzYMo",
+    "youtubeTitle": "Warbirds over the trenches - Teil 2 (Militär Doku | Kampfflugzeuge Doku | ganze Doku)",
+    "suchbegriff": "Warbirds over the trenches - Teil 2",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1110874,
+      "title": "Unsere Chorausfahrt nach Großarl im Oktober 2009 – Die ganze Doku",
+      "release_date": "2009-10-30"
+    }
+  },
+  {
+    "videoId": "RR35d6yVG_U",
+    "youtubeTitle": "Warbirds over the trenches - Teil 1 (KRIEGSDOKU in voller Länge auf Deutsch, ganze WW1 Doku gucken)",
+    "suchbegriff": "Warbirds Over the Trenches",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "1JN6NPQA6nE",
+    "youtubeTitle": "American Soldiers – Ein Tag im Irak (ACTIONFILM komplett auf Deutsch, ganze Kriegsfilme ansehen)",
+    "suchbegriff": "American Soldiers",
+    "erwartetesJahr": "2005",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 1)",
+    "tmdbTopKandidat": {
+      "id": 304232,
+      "title": "Day of Days: June 6, 1944 - American Soldiers Remember D-Day",
+      "release_date": "2014-05-07"
+    }
+  },
+  {
+    "videoId": "3h4JeSzU-LE",
+    "youtubeTitle": "Legend Of War (ACTIONFILM in voller Länge auf Deutsch ansehen, Historische Drama Filme komplett)",
+    "suchbegriff": "Legend Of War",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 44)",
+    "tmdbTopKandidat": {
+      "id": 154727,
+      "title": "Legend of the Galactic Heroes - Overture to a New War",
+      "release_date": "1993-12-18"
+    }
+  },
+  {
+    "videoId": "BiRiaogKVCI",
+    "youtubeTitle": "World War II Inferno (KRIEGSFILM auf Deutsch,  Actionfilm in voller Länge, Kriegsfilme komplett)",
+    "suchbegriff": "Dostavit' ljuboj cenoj",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ObrH0KWSN_Y",
+    "youtubeTitle": "Dokumentation über Robert E  Lee (Amerikanische Bürgerkrieg, Geschichte Dokumentation, USA)",
+    "suchbegriff": "Dokumentation über Robert E Lee",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vuxsHn2bCBI",
+    "youtubeTitle": "Steinerne Dokumente des III  Reiches  – Teil 2 (ARCHITEKTUR IM NATIONALSOZIALISMUS, Geschichte)",
+    "suchbegriff": "Steinerne Dokumente des III Reiches – Teil 2",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "4vSgK5GXDAE",
+    "youtubeTitle": "Steinerne Dokumente des III Reiches (ARCHITEKTUR IM NATIONALSOZIALISMUS, Geschichte Doku)",
+    "suchbegriff": "Steinerne Dokumente des III Reiches",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Lp3WXdlrEJ0",
+    "youtubeTitle": "Adolf Hitler  – Frontsoldat im 1  Weltkrieg (BIOGRAPHY HITLER, 1. Weltkrieg Doku, Geschichte)",
+    "suchbegriff": "Adolf Hitler – Frontsoldat im 1 Weltkrieg",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 876306,
+      "title": "The Two Deaths of Adolf Hitler",
+      "release_date": "1975-04-30"
+    }
+  },
+  {
+    "videoId": "xIDQOKwym0g",
+    "youtubeTitle": "Heavy Tanks (Deutsche Panzer, Kriegsdokumentationen, Geschichte Dokumentation, Weltkrieg)",
+    "suchbegriff": "Der 2 Weltkrieg: Schwere Kampfpanzer - Heavy Tanks",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "Eah8baUlb0M",
+    "youtubeTitle": "World War II Inferno (KRIEGSFILM, Actionfilme in voller Länge auf Deutsch anschauen)",
+    "suchbegriff": "Dostavit' ljuboj cenoj",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "yNtawemmd_c",
+    "youtubeTitle": "Mittlere Kampfpanzer – Panzer 3 (2. Weltkrieg DOKU, deutsche Panzer,  seltene Originalaufnahmen)",
+    "suchbegriff": "Mittlere Kampfpanzer – Panzer 3",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bV85KRwI9vc",
+    "youtubeTitle": "Der zweite Weltkrieg - Die besten U-Boote (2. Weltkrieg DOKU, Deutsche U-BOOT Dokumentation)",
+    "suchbegriff": "Der zweite Weltkrieg - Die besten U-Boote",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "HxlnGjWjA6Q",
+    "youtubeTitle": "Marine Korps der USA (US-NAVY Dokumentation, 2. Weltkrieg, deutsch seltene Originalaufnahmen)",
+    "suchbegriff": "Marine Korps der USA",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "O68GoRT7kyU",
+    "youtubeTitle": "Der zweite Weltkrieg: Stukas – Eine Legende (Dokumentation Deutsch, Militär Doku Deutsch, Luftkampf)",
+    "suchbegriff": "Der zweite Weltkrieg: Stukas – Eine Legende",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "HR29gIZt91s",
+    "youtubeTitle": "Heavy Tanks (Ganze DOKUMENTATION auf Deutsch, komplette WW2 Doku, Panzer Doku, Zweiter Weltkrieg)",
+    "suchbegriff": "Schwere Panzer",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "yCTGpkJK5XY",
+    "youtubeTitle": "World War II Inferno (KRIEGSFILM auf Deutsch in voller Länge, kompletter WW2 Spielfilm)",
+    "suchbegriff": "Dostavit' ljuboj cenoj",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "d19BT6pXcas",
+    "youtubeTitle": "Gun Camera (Komplette Kriegsdoku auf Deutsch, Dokumentation WW2, Zweiter Weltkrieg, Luftkampf)",
+    "suchbegriff": "Gun Camera",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1311615,
+      "title": "Abschüsse im Zweiten Weltkrieg - Gun Camera Footage",
+      "release_date": "2001-02-01"
+    }
+  },
+  {
+    "videoId": "pBOGy77UR-g",
+    "youtubeTitle": "Der 2. Weltkrieg – Marines Bloodied on Tarawa (Dokumentation auf Deutsch in voller Länge)",
+    "suchbegriff": "Der 2. Weltkrieg – Marines Bloodied on Tarawa",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "U0XApXuLxFM",
+    "youtubeTitle": "Der 2. Weltkrieg – The Yalta Conference (DOKUMENTATION | Komplette Doku auf Deutsch, WW2)",
+    "suchbegriff": "Der 2. Weltkrieg – The Yalta Conference",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "RycTJvQBeCw",
+    "youtubeTitle": "Der 2. Weltkrieg – Aachen Falls (DOKUMENTATION auf Deutsch, komplette WW2 Doku)",
+    "suchbegriff": "Der 2. Weltkrieg – Aachen Falls",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "gyTQcd-1_HQ",
+    "youtubeTitle": "Der 2. Weltkrieg – Marines Forge Ahead on Saipan (DOKUMENTATION auf Deutsch, Zweiter Weltkrieg Doku)",
+    "suchbegriff": "Der 2. Weltkrieg – Marines Forge Ahead on Saipan",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "WsZcKIzerpg",
+    "youtubeTitle": "Russland 1941 Teil 2 – Der Kampf mit den Deutschen (KRIEGSFILM komplett auf Deutsch, WW2 Film)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "9HhWp6be6X8",
+    "youtubeTitle": "Der 2. Weltkrieg – Japanese Capture Mandalay (DOKUMENTATION | Komplette WW2-Doku auf Deutsch)",
+    "suchbegriff": "Der 2. Weltkrieg – Japanese Capture Mandalay",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "uoSUMVJe0Iw",
+    "youtubeTitle": "Der 2. Weltkrieg – US – Japanese Battle of Guadalcanal (DOKUMENTATION | Ganze Kriegsdoku, WW2)",
+    "suchbegriff": "Der 2. Weltkrieg – US – Japanese Battle of Guadalcanal",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "ODHW23Fh76c",
+    "youtubeTitle": "Der zweite Weltkrieg - Die besten U-Boote (KRIEGSDOKU, U-Boot Doku auf Deutsch, WW2 Dokumentation)",
+    "suchbegriff": "Der zweite Weltkrieg - Die besten U-Boote",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "o8YcPa5sXwk",
+    "youtubeTitle": "150 Jahre amerikanischer Bürgerkrieg – Teil 1 (DOKUMENTATION, Kriegsdoku auf Deutsch, Civil War)",
+    "suchbegriff": "150 Jahre amerikanischer Bürgerkrieg – Teil 1",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "rsfKINxtv-I",
+    "youtubeTitle": "Der Zweite Weltkrieg - Die deutsche Kriegsmarine (Komplette Dokumentation kostenlos auf Deutsch)",
+    "suchbegriff": "Der Zweite Weltkrieg - Die deutsche Kriegsmarine",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "DUa_bL3SYfc",
+    "youtubeTitle": "U 234 – Hitlers letztes U-Boot (Komplette Dokumentation auf Deutsch, Ganze Doku kostenlos anschauen)",
+    "suchbegriff": "U 234 – Hitlers letztes U-Boot",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 23)",
+    "tmdbTopKandidat": {
+      "id": 1620611,
+      "title": "U-234 Hitler's Last U-Boat",
+      "release_date": "2001-11-15"
+    }
+  },
+  {
+    "videoId": "8-yKaLDXmeQ",
+    "youtubeTitle": "World War II Inferno (ACTION KRIEGSFILM, Actionfilme in voller Länge auf Deutsch anschauen)",
+    "suchbegriff": "Dostavit' ljuboj cenoj",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vmxJrPCc7bU",
+    "youtubeTitle": "Deutsche Kampfflieger (Dokumentation Deutsch, Fliegerasse 2. Weltkrieg, Militär & Luftkampf Doku)",
+    "suchbegriff": "Deutsche Kampfflieger",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "iJ9ekY56JS0",
+    "youtubeTitle": "Die Hitlerjugend (HJ Dokumentation Deutsch, Alltag im Nationalsozialismus, Kindheit im 3. Reich)",
+    "suchbegriff": "Die Hitlerjugend",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 684860,
+      "title": "Die 12. SS-Panzerdivision ''Hitlerjugend''",
+      "release_date": "2020-02-18"
+    }
+  },
+  {
+    "videoId": "9mMq5U74ovY",
+    "youtubeTitle": "Geheimwaffen des 3. Reichs – Teil 2 (Dokumentation Deutsch, Militär Doku Deutsch, Zweiter Weltkrieg)",
+    "suchbegriff": "Hitlers geheime Waffen",
+    "erwartetesJahr": "2007",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ztVn_ST5YWo",
+    "youtubeTitle": "Geheimwaffen des 3. Reichs – Teil 1 (Dokumentation Deutsch, Militär Doku Deutsch, Zweiter Weltkrieg)",
+    "suchbegriff": "Hitlers geheime Waffen",
+    "erwartetesJahr": "2007",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "DINjjGh9Zno",
+    "youtubeTitle": "Gun Camera (Luftkampf Doku Deutsch, Fliegerasse im Zweiten Weltkrieg, Militär Dokumentation Deutsch)",
+    "suchbegriff": "Gun Camera",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1311615,
+      "title": "Abschüsse im Zweiten Weltkrieg - Gun Camera Footage",
+      "release_date": "2001-02-01"
+    }
+  },
+  {
+    "videoId": "iQuav1EC4w0",
+    "youtubeTitle": "Russland 1941 Teil 1 – Konvoi in den Tod (Kriegsfilm, ganzer Film Deutsch, HD Filme in voller Länge)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bIFql0WSuck",
+    "youtubeTitle": "Der 2. Weltkrieg – Die großen Seeschlachten im 2. Weltkrieg (Dokumentation Deutsch, Marine Doku, HD)",
+    "suchbegriff": "Der 2. Weltkrieg – Die großen Seeschlachten im 2. Weltkrieg",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "L231CXif1dM",
+    "youtubeTitle": "Der 2. Weltkrieg – Americans Capture Attu (💣 GESCHICHTSDOKU | Dokumentationen in voller Länge)",
+    "suchbegriff": "Der 2. Weltkrieg – Americans Capture Attu",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "E_f02W_ewgw",
+    "youtubeTitle": "Russland 1941 Teil 2 – Der Kampf mit den Deutschen (Kriegsfilm, ganzer Film Deutsch, Actionfilme)",
+    "suchbegriff": "Narkomovskiy oboz",
+    "erwartetesJahr": "2011",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "zNg8BoUu35I",
+    "youtubeTitle": "Der 2. Weltkrieg – Aachen Falls (Dokumentation Deutsch, Zweiter Weltkrieg, Westfront, Militär Doku)",
+    "suchbegriff": "Der 2. Weltkrieg – Aachen Falls",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "A7_EMyKWFgk",
+    "youtubeTitle": "Der 2. Weltkrieg – Marines Bloodied on Tarawa (Militär Doku Deutsch, ganze Dokumentation in Deutsch)",
+    "suchbegriff": "Der 2. Weltkrieg – Marines Bloodied on Tarawa",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "Vzrtiywg3tQ",
+    "youtubeTitle": "Der 2. Weltkrieg – Marines Forge Ahead on Saipan (Dokumentation Deutsch, Militär Doku Deutsch, 2.WK)",
+    "suchbegriff": "Der 2. Weltkrieg – Marines Forge Ahead on Saipan",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "JCOBxf-86Hs",
+    "youtubeTitle": "Der 2. Weltkrieg – US – Japanese Battle of Guadalcanal (Dokumentation Deutsch, Militär Doku Deutsch)",
+    "suchbegriff": "Der 2. Weltkrieg – US – Japanese Battle of Guadalcanal",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "Y4oftTutFSk",
+    "youtubeTitle": "Der deutsche Landser (Dokumentation Deutsch, Militär Doku Deutsch, Soldaten Doku, Zweiter Weltkrieg)",
+    "suchbegriff": "Der deutsche Landser",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 36)",
+    "tmdbTopKandidat": {
+      "id": 167496,
+      "title": "So war der deutsche Landser",
+      "release_date": "1955-03-25"
+    }
+  },
+  {
+    "videoId": "iU9eul_lc_w",
+    "youtubeTitle": "Helden der Hölle (Action-Kriegsfilm, ganzer Film, deutsch) *ganze Actionfilme kostenlos & legal*",
+    "suchbegriff": "Helden der Hölle",
+    "erwartetesJahr": "1987",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 8)",
+    "tmdbTopKandidat": {
+      "id": 149955,
+      "title": "Helden aus der Hölle",
+      "release_date": "1936-03-06"
+    }
+  },
+  {
+    "videoId": "yCt_OlSe92U",
+    "youtubeTitle": "Der 30-jährige Krieg (Dokumentation deutsch, Geschichtsdoku, kostenlos anschauen)",
+    "suchbegriff": "Der 30-jährige Krieg",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "JEP710JHUJ8",
+    "youtubeTitle": "American Soldiers – Ein Tag im Irak (Actionfilm, ganzer Spielfilm, deutsch, US-Militär)",
+    "suchbegriff": "American Soldiers – Ein Tag im Irak",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 304232,
+      "title": "Day of Days: June 6, 1944 - American Soldiers Remember D-Day",
+      "release_date": "2014-05-07"
+    }
+  },
+  {
+    "videoId": "tuU-xboeEYk",
+    "youtubeTitle": "Mittlere Kampfpanzer - Panzer 3 (Dokumentation komplett deutsch, in voller Länge)",
+    "suchbegriff": "Mittlere Kampfpanzer - Panzer 3",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "9SX1KkOZpGs",
+    "youtubeTitle": "Das 3. Reich in Farbe (Doku, in voller Länge, ganzer Spielfilm, Komplett auf Deutsch)",
+    "suchbegriff": "Das 3. Reich in Farbe",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "-Pzxr8kwJlo",
+    "youtubeTitle": "Heavy Tanks (History, in voller Länge, Doku, ganzer) Komplett auf Deutsch",
+    "suchbegriff": "Heavy Tanks",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "aW93hza_edY",
+    "youtubeTitle": "Der 2. Weltkrieg – Die großen Seeschlachten im 2. Weltkrieg (Geschichtsdokumentation, WW2, deutsch)",
+    "suchbegriff": "Der 2. Weltkrieg – Die großen Seeschlachten im 2. Weltkrieg",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79979,
+      "title": "WW II - Der zweite Weltkrieg in 3D",
+      "release_date": "2012-01-24"
+    }
+  },
+  {
+    "videoId": "f3k67x65jTg",
+    "youtubeTitle": "Zwischen Kunst Und Wirklichkeit Ringt Ein Künstler Um Sich Selbst | On the Edge of Time | Drama",
+    "suchbegriff": "Zwischen Kunst Und Wirklichkeit Ringt Ein Künstler Um Sich Selbst",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 13)",
+    "tmdbTopKandidat": {
+      "id": 770055,
+      "title": "Islands on the Edge of Time",
+      "release_date": "1996-11-29"
+    }
+  },
+  {
+    "videoId": "9GG1tjexR20",
+    "youtubeTitle": "Auf der Flucht findet er eine Bar – doch nichts ist, wie es scheint | Ultima | Mystery-Thriller",
+    "suchbegriff": "Auf der Flucht findet er eine Bar – doch nichts ist, wie es scheint",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 164184,
+      "title": "Bless Me, Ultima",
+      "release_date": "2013-02-22"
+    }
+  },
+  {
+    "videoId": "nsCgxoJjzzs",
+    "youtubeTitle": "Ein mysteriöser Pilz lässt sie die Toten sehen | Enter Mycel (Horrorfilm in voller Länge)",
+    "suchbegriff": "Ein mysteriöser Pilz lässt sie die Toten sehen",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Q2Uqs2WI6Ec",
+    "youtubeTitle": "Eine psychedelische Reise in den Wahnsinn | Unicorn House (Horrorfilm in voller Länge)",
+    "suchbegriff": "Eine psychedelische Reise in den Wahnsinn",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "mkJSerrcfKg",
+    "youtubeTitle": "Eine Überraschungsparty Enthüllt Seine Dunkelsten Geheimnisse | Keine Party | Psychothriller",
+    "suchbegriff": "Eine Überraschungsparty Enthüllt Seine Dunkelsten Geheimnisse",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -4)",
+    "tmdbTopKandidat": {
+      "id": 936512,
+      "title": "My Film with Andrei, Or: How I Learned to Stop Worrying and Document a Sex Party.",
+      "release_date": "2021-11-28"
+    }
+  },
+  {
+    "videoId": "hG5jfMinxxs",
+    "youtubeTitle": "Ein Journalist mit Amnesie entdeckt eine dunkle Verschwörung | Kubark | Psychothriller",
+    "suchbegriff": "Ein Journalist mit Amnesie entdeckt eine dunkle Verschwörung",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "WL98o9fXei4",
+    "youtubeTitle": "Hinter dem Ballett verbirgt sich ein dunkles Geheimnis | Vampire Stories: Bluttanz (Horrorfilm)",
+    "suchbegriff": "Hinter dem Ballett verbirgt sich ein dunkles Geheimnis",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "m27yhi22eBE",
+    "youtubeTitle": "Wie weit kann ein Mensch wirklich gehen? | Mental Champions: Christoph Strasser | Dokumentation",
+    "suchbegriff": "Wie weit kann ein Mensch wirklich gehen?",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "JBfqWyYsnro",
+    "youtubeTitle": "Mit 77 Jahren kämpft er immer noch weiter | Werner We Love You (Dokumentation in voller Länge)",
+    "suchbegriff": "Mit 77 Jahren kämpft er immer noch weiter",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "zUrw9-IlRlU",
+    "youtubeTitle": "Im Wald wartet etwas auf sie | It Knows (Horrorfilm in voller Länge)",
+    "suchbegriff": "Im Wald wartet etwas auf sie",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Dp5HKu1N6dk",
+    "youtubeTitle": "25 Jahre später enthüllen Videobänder ihr Geheimnis | No One Misses Me!",
+    "suchbegriff": "25 Jahre später enthüllen Videobänder ihr Geheimnis",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -2)",
+    "tmdbTopKandidat": {
+      "id": 644802,
+      "title": "Mich vermisst keiner!",
+      "release_date": "2016-11-02"
+    }
+  },
+  {
+    "videoId": "QXPziqPfw5c",
+    "youtubeTitle": "A Revair | Drama | Ganzer Film Deutsch | Eine Prüfung des Mutes, der Grenzen und der Menschlichkeit",
+    "suchbegriff": "A Revair",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "qZi571TCKBs",
+    "youtubeTitle": "Domestic Animals | Absurde Komödie | Ganzer Film Deutsch",
+    "suchbegriff": "Domestic Animals",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
+    "tmdbTopKandidat": {
+      "id": 1576771,
+      "title": "Domestic Animals",
+      "release_date": "2025-11-08"
+    }
+  },
+  {
+    "videoId": "vB4ntlYWCSw",
+    "youtubeTitle": "SEIN BLUT birgt ein uraltes Geheimnis! ⚔️ | Abenteuer Thriller / Ganzer Film auf Deutsch",
+    "suchbegriff": "SEIN BLUT birgt ein uraltes Geheimnis! ⚔️",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "qMDCGV9sv8k",
+    "youtubeTitle": "Wenn du starke Filme magst – ansehen! Sabotagegruppe gerät in feindliche Umzingelung |Survival Drama",
+    "suchbegriff": "Wenn du starke Filme magst – ansehen! Sabotagegruppe gerät in feindliche Umzingelung",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "IVUQGxcVk6k",
+    "youtubeTitle": "😱 IHRE SCHWESTER IST TOT – jetzt muss sie ihre Nichte vor Verwandten schützen! 🔥 | Ganzer Film",
+    "suchbegriff": "IHRE SCHWESTER IST TOT – jetzt muss sie ihre Nichte vor Verwandten schützen! 🔥",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "mJLfesZFqbQ",
+    "youtubeTitle": "🔪 SIE WIRD BESCHULDIGT, ihren untreuen Ehemann ermordet zu haben! 😱 | Thriller auf Deutsch",
+    "suchbegriff": "SIE WIRD BESCHULDIGT, ihren untreuen Ehemann ermordet zu haben! 😱",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -2)",
+    "tmdbTopKandidat": {
+      "id": 1020090,
+      "title": "Trapped with My Husband",
+      "release_date": "2022-06-24"
+    }
+  },
+  {
+    "videoId": "57RykVhW5Sc",
+    "youtubeTitle": "DIESER FUND VERÄNDERT ALLES! Zwei Schwestern jagen einen verlorenen Schatz | Ganzer Film auf Deutsch",
+    "suchbegriff": "DIESER FUND VERÄNDERT ALLES! Zwei Schwestern jagen einen verlorenen Schatz",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ON_NIH5twEA",
+    "youtubeTitle": "😱 Ein Mafiakiller nimmt die Identität seines Opfers an – doch sein Boss findet ihn! | Thrillerfilm",
+    "suchbegriff": "Ein Mafiakiller nimmt die Identität seines Opfers an – doch sein Boss findet ihn!",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 77) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1141791,
+      "title": "Worth the Wait",
+      "release_date": "2025-06-28"
+    }
+  },
+  {
+    "videoId": "D86nMEFyPlU",
+    "youtubeTitle": "😱 Er sucht seinen VERSCHWUNDENEN Bruder und enthüllt ein schreckliches Geheimnis! | Ganzer Film",
+    "suchbegriff": "Er sucht seinen VERSCHWUNDENEN Bruder und enthüllt ein schreckliches Geheimnis!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "AxwkQ7X4HL8",
+    "youtubeTitle": "🤠 Ein junger Revolverheld gerät in einen TÖDLICHEN KONFLIKT! | Western Deutsch",
+    "suchbegriff": "Ein junger Revolverheld gerät in einen TÖDLICHEN KONFLIKT!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "HLqTH11aWsc",
+    "youtubeTitle": "Ein Diamantendeal gerät außer Kontrolle – jetzt kämpft er ums Überleben! | Kriminalfilm",
+    "suchbegriff": "Ein Diamantendeal gerät außer Kontrolle – jetzt kämpft er ums Überleben!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "COi619e80EU",
+    "youtubeTitle": "🥶 Niemand würde sie retten! Drei Freunde kämpfen im Sessellift ums Überleben | Survival-Thriller",
+    "suchbegriff": "Niemand würde sie retten! Drei Freunde kämpfen im Sessellift ums Überleben",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -17)",
+    "tmdbTopKandidat": {
+      "id": 1718110,
+      "title": "Untitled Survival Thriller",
+      "release_date": ""
+    }
+  },
+  {
+    "videoId": "5-MzTf41wHM",
+    "youtubeTitle": "Sie muss ihren Ehemann zurücklassen... ODER MIT IHM STERBEN! | Ganzer Film auf Deutsch",
+    "suchbegriff": "Sie muss ihren Ehemann zurücklassen... ODER MIT IHM STERBEN!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "eLEDFIEeSNA",
+    "youtubeTitle": "💥 Sein ruhiges Leben endet, als die Mafia seine Familie bedroht! | Ganzer Film auf Deutsch",
+    "suchbegriff": "Sein ruhiges Leben endet, als die Mafia seine Familie bedroht!",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
+    "tmdbTopKandidat": {
+      "id": 817066,
+      "title": "American Homefront",
+      "release_date": "2019-01-01"
+    }
+  },
+  {
+    "videoId": "xf1JlNjtSZo",
+    "youtubeTitle": "😨 Ein misslungener Einbruch verändert ihr Leben für immer! | Ganzer Film",
+    "suchbegriff": "Ein misslungener Einbruch verändert ihr Leben für immer!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "JXu_B4p5x1g",
+    "youtubeTitle": "😱 Seine Rückkehr nach Devils Lake wird zum Albtraum! | Mystery-Thriller | Ganzer Film auf Deutsch",
+    "suchbegriff": "Seine Rückkehr nach Devils Lake wird zum Albtraum!",
     "erwartetesJahr": null,
     "grund": "Kein ausreichend plausibler Treffer (bester Wert 5)",
     "tmdbTopKandidat": {
-      "id": 37130,
-      "title": "Impulse",
-      "release_date": "1974-10-01"
+      "id": 1022072,
+      "title": "귀못",
+      "release_date": "2022-10-19"
     }
   },
   {
-    "videoId": "zi3K-DJAing",
-    "youtubeTitle": "BTK: Die blutige Maske | Psychothriller",
-    "suchbegriff": "BTK: Die blutige Maske",
+    "videoId": "wDa2qxPUtTc",
+    "youtubeTitle": "🎬 Er jagt Gangster um ein tödliches Geheimnis! | Action-Thriller | Ganzer Film auf Deutsch",
+    "suchbegriff": "Er jagt Gangster um ein tödliches Geheimnis!",
     "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -17)",
     "tmdbTopKandidat": {
-      "id": 1550785,
-      "title": "Mein Vater, der BTK-Killer",
-      "release_date": "2025-10-09"
+      "id": 1356468,
+      "title": "Existential Action Thriller",
+      "release_date": "2024-10-11"
     }
+  },
+  {
+    "videoId": "uuTbkZ7-8s0",
+    "youtubeTitle": "😱 ER ENTDECKT DEN VERRAT SEINER FRAU – Ein Wochenende im Wald wird zum Albtraum! | Ganzer Film",
+    "suchbegriff": "ER ENTDECKT DEN VERRAT SEINER FRAU – Ein Wochenende im Wald wird zum Albtraum!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "McBMKwRJdG8",
+    "youtubeTitle": "🎭 Drei Verlorene Seelen Auf Der Suche Nach Sich Selbst | Psychologisches Drama | Ganzer Film Deutsch",
+    "suchbegriff": "Drei Verlorene Seelen Auf Der Suche Nach Sich Selbst",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_nzbzqnO4aQ",
+    "youtubeTitle": "🎬 Zwei beste Freunde fliehen vor einer Welt voller Gefahren | Ganzer Abenteuerfilm auf Deutsch",
+    "suchbegriff": "Zwei beste Freunde fliehen vor einer Welt voller Gefahren",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "26-b7XhKjFU",
+    "youtubeTitle": "🎬 Drei Fremde suchten die Liebe – was dann geschah, veränderte ihr Leben für immer | Ganzer Film",
+    "suchbegriff": "Drei Fremde suchten die Liebe – was dann geschah, veränderte ihr Leben für immer",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 21)",
+    "tmdbTopKandidat": {
+      "id": 286997,
+      "title": "Schwarzer Markt der Liebe",
+      "release_date": "1966-07-29"
+    }
+  },
+  {
+    "videoId": "aKDkGcfqbhA",
+    "youtubeTitle": "😱 DIE NACHTSCHICHT WIRD ZUR TODESFALLE als ein Killer die Mitarbeiter jagt! | Horror Film Deutsch",
+    "suchbegriff": "DIE NACHTSCHICHT WIRD ZUR TODESFALLE als ein Killer die Mitarbeiter jagt!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Kgt-Op40CRI",
+    "youtubeTitle": "💥 EIN EINFACHER RAUB wurde zu einer tödlichen Falle! | Krimi Thriller Film auf Deutsch",
+    "suchbegriff": "EIN EINFACHER RAUB wurde zu einer tödlichen Falle!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "VDToX52KCEY",
+    "youtubeTitle": "🎬 EIN VATER verliert alles und beginnt einen gnadenlosen Kampf ums Überleben! | Ganzer Film",
+    "suchbegriff": "EIN VATER verliert alles und beginnt einen gnadenlosen Kampf ums Überleben!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "MQ_xktMUJ3o",
+    "youtubeTitle": "😨 Seine Familie wird zum Ziel brutaler Killer! | Thriller Drama Krimi | Ganzer Film auf Deutsch",
+    "suchbegriff": "Seine Familie wird zum Ziel brutaler Killer!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "A2lutGZd8LE",
+    "youtubeTitle": "😨 Expedition zu einem unheimlichen Herrenhaus wird zum Albtraum! | Horrorfilm auf Deutsch",
+    "suchbegriff": "Expedition zu einem unheimlichen Herrenhaus wird zum Albtraum!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "dLVv_IDHn9c",
+    "youtubeTitle": "😨 EINE REICHE FAMILIE wird zu Geiseln genommen! | Thriller voller Angst und Spannung | Ganzer Film",
+    "suchbegriff": "EINE REICHE FAMILIE wird zu Geiseln genommen!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "S4hDyg0WDYI",
+    "youtubeTitle": "Gefährliches Experiment außer Kontrolle – explosiver Actionfilm | ganzer Film auf Deutsch",
+    "suchbegriff": "Gefährliches Experiment außer Kontrolle – explosiver Actionfilm",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "X-Qbj-4-Hm8",
+    "youtubeTitle": "Eine Geschichte, die dich an die Kraft der Liebe glauben lässt! | Romantisches Drama auf Deutsch",
+    "suchbegriff": "Eine Geschichte, die dich an die Kraft der Liebe glauben lässt!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "jyvqbKo6yiQ",
+    "youtubeTitle": "💔 Sie floh vor ihrer Vergangenheit doch das neue Leben wurde noch schmerzhafter | Drama Ganzer Film",
+    "suchbegriff": "Sie floh vor ihrer Vergangenheit doch das neue Leben wurde noch schmerzhafter",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "HIc00jncbss",
+    "youtubeTitle": "💔 Nach dem Tod seines Bruders zerbricht seine ganze Familie | Ganzer Drama Film auf Deutsch",
+    "suchbegriff": "Nach dem Tod seines Bruders zerbricht seine ganze Familie",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "npB59hvZZoo",
+    "youtubeTitle": "💥 Sie riskiert alles, um die Wahrheit aufzudecken – ihre letzte Chance zu entkommen! | Action Film",
+    "suchbegriff": "Sie riskiert alles, um die Wahrheit aufzudecken – ihre letzte Chance zu entkommen!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Re-cM8QGewA",
+    "youtubeTitle": "😱 Sie kam zu Besuch und geriet in eine tödliche Falle | Thriller ganzer Film auf Deutsch",
+    "suchbegriff": "Sie kam zu Besuch und geriet in eine tödliche Falle",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bLAXypVN1P4",
+    "youtubeTitle": "🔥 Korrupter Cop, der verraten wurde, kehrt zur Abrechnung zurück | Ganzer Film auf Deutsch",
+    "suchbegriff": "Korrupter Cop, der verraten wurde, kehrt zur Abrechnung zurück",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "kSe8Q4w9O70",
+    "youtubeTitle": "🚨 DIESES VERSCHWINDEN verändert alles! Sie riskiert ihr Leben für die Wahrheit! | Ganzer Film",
+    "suchbegriff": "DIESES VERSCHWINDEN verändert alles! Sie riskiert ihr Leben für die Wahrheit!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "jD0zVNEnHWs",
+    "youtubeTitle": "🔥 Zwei Diebe werden nach einem Casino-Raub angeworben | Ganzer Film Deutsch",
+    "suchbegriff": "Zwei Diebe werden nach einem Casino-Raub angeworben",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "n4uh489MJyo",
+    "youtubeTitle": "🎬 Ein amerikanischer Soldat steht vor der brutalen Wahrheit im Gefängnis | Ganzer Film auf Deutsch",
+    "suchbegriff": "Ein amerikanischer Soldat steht vor der brutalen Wahrheit im Gefängnis",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "RiPwZPjZnlM",
+    "youtubeTitle": "🤠 Jesse James führt einen tödlichen Überfall für Rache und Rettung an | Ganzer Film auf Deutsch",
+    "suchbegriff": "Jesse James führt einen tödlichen Überfall für Rache und Rettung an",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "DvazTv8wUFI",
+    "youtubeTitle": "😱 EX-GLADIATOR FÜHRT REBELLION GEGEN RÖMER! ⚔️ Action Abenteuer | Ganzer Film Deutsch",
+    "suchbegriff": "EX-GLADIATOR FÜHRT REBELLION GEGEN RÖMER! ⚔️ Action Abenteuer",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "-LP8kDAxqcc",
+    "youtubeTitle": "Sie kehren nach Hause zurück – und werden zur Zielscheibe einer Bande | Ganzer Film auf Deutsch",
+    "suchbegriff": "Sie kehren nach Hause zurück – und werden zur Zielscheibe einer Bande",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "fXPoC_iOWt4",
+    "youtubeTitle": "ER FOLGT DER SPUR seines verschwundenen Vaters und gerät in eine tödliche Verschwörung | Actionfilm",
+    "suchbegriff": "ER FOLGT DER SPUR seines verschwundenen Vaters und gerät in eine tödliche Verschwörung",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "zTgaCrRqmEc",
+    "youtubeTitle": "SIE ENTHÜLLT DAS GEHEIMNIS eines verfluchten Anwesens, wo Menschen spurlos verschwinden | Horrorfilm",
+    "suchbegriff": "SIE ENTHÜLLT DAS GEHEIMNIS eines verfluchten Anwesens, wo Menschen spurlos verschwinden",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
   }
 ]
