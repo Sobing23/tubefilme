@@ -121,6 +121,17 @@ function genreNamen(ids) {
   return (ids || []).map((id) => GENRES[id]).filter(Boolean);
 }
 
+// YouTube-Vorschaubild mit Rückfall. "maxresdefault" fehlt bei vielen
+// älteren Videos -- YouTube liefert dann KEINEN sauberen Fehler, sondern ein
+// graues 120x90-Platzhalterbild, bei dem onerror je nach Browser nicht
+// auslöst. Deshalb zusätzlich nach dem Laden die Breite prüfen und auf die
+// immer vorhandene "hqdefault"-Fassung wechseln.
+function ytRueckfall(videoId) {
+  const hq = `https://i.ytimg.com/vi/${escapeHtml(videoId)}/hqdefault.jpg`;
+  const wechsel = `if(!this.dataset.r){this.dataset.r=1;this.src='${hq}'}`;
+  return `onload="if(this.naturalWidth<=120){${wechsel}}" onerror="${wechsel}"`;
+}
+
 function posterFuer(m) {
   if (m.posterUrl) return m.posterUrl;
   if (m.videoId) return `https://i.ytimg.com/vi/${m.videoId}/maxresdefault.jpg`;
@@ -219,7 +230,7 @@ ${kopfbereich()}
     <strong>Derzeit nicht abspielbar</strong>
     <p>${escapeHtml(grundText)} Vielleicht ist einer der Filme unten etwas für dich.</p>
   </div>` : `<div class="player" id="player" data-video="${escapeHtml(m.videoId)}">
-    ${poster ? `<img src="${escapeHtml(poster)}" alt="${escapeHtml(m.title)}" onerror="this.src='https://i.ytimg.com/vi/${escapeHtml(m.videoId)}/hqdefault.jpg'">` : ""}
+    ${poster ? `<img src="${escapeHtml(poster)}" alt="${escapeHtml(m.title)}" ${m.posterUrl ? "" : ytRueckfall(m.videoId)}>` : ""}
     <div class="play" aria-label="Film abspielen">
       <svg viewBox="0 0 68 48"><path fill="#f00" d="M66.5 7.7a8 8 0 0 0-5.6-5.7C56 .7 34 .7 34 .7s-22 0-26.9 1.3A8 8 0 0 0 1.5 7.7C0 12.6 0 24 0 24s0 11.4 1.5 16.3a8 8 0 0 0 5.6 5.7C12 47.3 34 47.3 34 47.3s22 0 26.9-1.3a8 8 0 0 0 5.6-5.7C68 35.4 68 24 68 24s0-11.4-1.5-16.3z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
     </div>
@@ -338,9 +349,16 @@ function kopfbereich() {
 
 function kachel(m) {
   const jahr = jahrVon(m);
-  const poster = posterFuer(m);
+  // Ohne TMDB-Poster: Vorschaubild im Querformat vollständig einpassen und den
+  // Rand mit einer unscharfen Fassung füllen -- wie in der Trefferliste /alle.
+  const bild = m.posterUrl
+    ? `<img src="${escapeHtml(m.posterUrl)}" loading="lazy" alt="${escapeHtml(m.title)}">`
+    : `<span class="kachel-yt">
+      <img class="bg" src="https://i.ytimg.com/vi/${escapeHtml(m.videoId)}/maxresdefault.jpg" ${ytRueckfall(m.videoId)} loading="lazy" alt="" aria-hidden="true">
+      <img class="fg" src="https://i.ytimg.com/vi/${escapeHtml(m.videoId)}/maxresdefault.jpg" ${ytRueckfall(m.videoId)} loading="lazy" alt="${escapeHtml(m.title)}">
+    </span>`;
   return `<a class="kachel" href="/${FILM_DIR}/${m.slug}">
-    <img src="${escapeHtml(poster)}" loading="lazy" alt="${escapeHtml(m.title)}">
+    ${bild}
     <span class="kachel-titel">${escapeHtml(m.title)}</span>
     <span class="kachel-jahr">${jahr}</span>
   </a>`;
@@ -412,12 +430,16 @@ function baueStartseite(filme) {
 .reihe-strip::-webkit-scrollbar-thumb{background:#333;border-radius:4px}
 .kachel{flex:0 0 132px;text-decoration:none;color:var(--text);scroll-snap-align:start}
 .kachel img{width:132px;height:198px;object-fit:cover;border-radius:6px;background:#222;display:block}
+.kachel-yt{position:relative;display:block;width:132px;height:198px;overflow:hidden;border-radius:6px;background:#111}
+.kachel-yt img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(14px) brightness(.45);transform:scale(1.15);border-radius:0}
+.kachel-yt img.fg{position:absolute;top:50%;left:50%;width:145%;height:auto;object-fit:contain;transform:translate(-50%,-50%);border-radius:0;background:none}
 .kachel-titel{display:block;font-size:12px;margin-top:6px;line-height:1.3;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .kachel-jahr{display:block;font-size:11px;color:var(--text-dim)}
 @media(max-width:640px){
   .kachel{flex:0 0 108px}
-  .kachel img{width:108px;height:162px}
+  .kachel img,.kachel-yt{width:108px;height:162px}
+  .kachel-yt img.fg{width:145%;height:auto}
   .reihe h2{padding:0 14px}
   .reihe-strip{padding:0 14px 10px}
   .intro{padding:16px 14px 4px}

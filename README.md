@@ -212,6 +212,8 @@ Beispiel: „Night Moves – mit Jesse Eisenberg" gewann zunächst die bekannter
 
 Unter Wert 90 wird ein **zweiter, unabhängiger Beleg** verlangt: exakter Titel, exakt passendes Jahr oder bestätigte Besetzung. Fehlt jeder, gibt es keine Zuordnung.
 
+**Widerspricht das Jahr um 6 Jahre oder mehr, ist ein exakter Titel kein Beleg** — es ist dann ein gleichnamiger anderer Film: „Der Filou" mit Oliver Hardy (1925) → Film von 1974, „Duell am Wind River" (1958) → „Wind River" (2017), „The Three Stooges" (1936) → Film von 2012. Nicht kleiner, weil „Ein Herz schlägt für Dich" 1944 gedreht und erst 1949 aufgeführt wurde. Bestätigte Besetzung schlägt das Jahr. Eine Besetzungs-*Abweichung* wird dagegen bewusst **nicht** als Gegenbeweis gewertet: Bei der Prüfung hätte das viele richtige Zuordnungen gekippt („Man nennt mich Halleluja", DEFA-Filme), weil TMDB oft keine oder anders geschriebene Namen hat.
+
 Die Schwelle einfach anzuheben wäre falsch — auch richtige Treffer landen tief, wenn deutscher und Originaltitel auseinandergehen (`Winter in Wartime` → `Mein Kriegswinter`, Wert 62). Entscheidend ist nicht die Höhe, sondern ob es einen zweiten Hinweis gibt.
 
 ### 7. Sperrliste als Selbstkorrektur
@@ -425,6 +427,16 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **Stream Hier** — hinter `|` nur Werbetext → `pipeAlsTitelvariante: false`
 
 **Tipp:** Bei Kanälen **ohne Kanalbeschreibung** vorher kurz in die Videotitel schauen. Braventa sah von außen unauffällig aus und war komplett spanischsprachig.
+
+---
+
+## Cover ohne TMDB-Poster
+
+Fehlt ein Poster, zeigen Startseite, `/alle` und Filmseite das YouTube-Vorschaubild — im Querformat vollständig eingepasst, der Rand mit einer unscharfen Fassung desselben Bildes gefüllt. Zuerst wird `maxresdefault` geladen, bei Fehlen `hqdefault`.
+
+**Fallstrick:** Fehlt `maxresdefault`, liefert YouTube keinen sauberen Fehler, sondern ein graues 120×90-Platzhalterbild (Status 404 mit Bildinhalt). `onerror` greift darauf nicht zuverlässig. Deshalb prüft ein `onload` zusätzlich die Breite (≤ 120 → Wechsel auf `hqdefault`). Im Browser mit nachgestelltem YouTube-Verhalten getestet.
+
+Der Review-Reiter „Kein Cover" ist damit keine Pflichtaufgabe mehr, sondern nur noch die Liste der Filme, bei denen ein echtes Poster schöner wäre.
 
 ---
 

@@ -457,10 +457,14 @@ function posterHtml(m, extraClass) {
   const gespeichert = m.youtubeThumbnail || (m.videoId ? `https://i.ytimg.com/vi/${m.videoId}/hqdefault.jpg` : "");
   if (gespeichert) {
     const hoch = m.videoId ? `https://i.ytimg.com/vi/${m.videoId}/maxresdefault.jpg` : gespeichert;
-    const fallback = `this.onerror=null;this.src='${gespeichert}'`;
+    // Fehlt maxresdefault, liefert YouTube ein graues 120x90-Bild statt eines
+    // Fehlers -- onerror greift dann nicht zuverlässig. Daher zusätzlich die
+    // Breite nach dem Laden prüfen.
+    const wechsel = `if(!this.dataset.r){this.dataset.r=1;this.src='${gespeichert}'}`;
+    const fallback = `onload="if(this.naturalWidth<=120){${wechsel}}" onerror="${wechsel}"`;
     return `<div class="poster-yt ${extraClass||''}">
-      <img class="poster-yt-bg" src="${hoch}" onerror="${fallback}" alt="" aria-hidden="true">
-      <img class="poster-yt-img" src="${hoch}" onerror="${fallback}" loading="lazy" alt="${escapeHtml(m.title)}">
+      <img class="poster-yt-bg" src="${hoch}" ${fallback} alt="" aria-hidden="true">
+      <img class="poster-yt-img" src="${hoch}" ${fallback} loading="lazy" alt="${escapeHtml(m.title)}">
     </div>`;
   }
 

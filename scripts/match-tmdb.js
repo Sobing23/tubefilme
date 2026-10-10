@@ -342,6 +342,7 @@ const GENERIC_TERMS = new Set([
   "romanze", "romantik", "sandalenfilm", "satire", "science fiction",
   "sci-fi", "scifi", "slasher", "spielfilm", "stummfilm", "thriller",
   "tierfilm", "western", "zombiefilm", "deutsch", "hd", "neu",
+  "heimatfilm", "heimatfilme", "musikfilm", "jugendfilm", "kriminalkomödie",
 ]);
 
 // Prüft, ob ein Suchbegriff ausschließlich aus solchen Allerweltsbegriffen
@@ -770,14 +771,26 @@ const BELEG_NOETIG_UNTER = 90;
 
 // Gibt es außer der reinen Textähnlichkeit noch einen zweiten, unabhängigen
 // Hinweis darauf, dass die Zuordnung stimmt?
+// Ab wie vielen Jahren Abweichung das Jahr der Zuordnung widerspricht.
+// Bewusst nicht kleiner: "Ein Herz schlägt für Dich" wurde 1944 gedreht und
+// kam erst 1949 ins Kino -- 5 Jahre Abstand bei richtiger Zuordnung.
+const JAHR_WIDERSPRUCH_AB = 6;
+
 function hatUnabhaengigenBeleg(best, info) {
   if (best.personConfirmed) return true; // Besetzung/Regie bestätigt
-  if (best.exactTitle) return true; // Titel stimmt exakt (nach Normalisierung)
 
-  if (info.year) {
-    const trefferJahr = (best.r.release_date || "").slice(0, 4);
-    if (trefferJahr && trefferJahr === info.year) return true; // Jahr stimmt genau
-  }
+  const trefferJahr = parseInt((best.r.release_date || "").slice(0, 4), 10);
+  const erwartet = parseInt(info.year, 10);
+  const jahrBekannt = Number.isFinite(trefferJahr) && Number.isFinite(erwartet);
+
+  // Widerspricht das Jahr deutlich, ist auch ein exakter Titel kein Beleg --
+  // es ist dann ein gleichnamiger anderer Film. So entstanden "Der Filou" mit
+  // Oliver Hardy (1925) -> Film von 1974, "Duell am Wind River" (1958) ->
+  // "Wind River" (2017), "The Three Stooges" (1936) -> Film von 2012.
+  if (jahrBekannt && Math.abs(trefferJahr - erwartet) >= JAHR_WIDERSPRUCH_AB) return false;
+
+  if (best.exactTitle) return true; // Titel stimmt exakt (nach Normalisierung)
+  if (jahrBekannt && trefferJahr === erwartet) return true; // Jahr stimmt genau
 
   return false;
 }
