@@ -968,5 +968,65 @@
     "title": "Die Frau des Zeitreisenden",
     "tmdbId": 24420,
     "channelName": "KinoWelt Deutsch"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Fehlzuordnung, von Hand gemeldet (11.10.) -- wird neu gesucht",
+    "videoId": "vU0QMLdVrt8",
+    "youtubeTitle": "The Family - Fürchte Deine Nächsten (PSYCHOTHRILLER ganzer Film Deutsch 2025, ganzer Thriller)",
+    "title": "Boss Baby - Schluss mit Kindergarten",
+    "tmdbId": 459151,
+    "channelName": "Netzkino"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Fehlzuordnung, von Hand gemeldet (11.10.) -- wird neu gesucht",
+    "videoId": "5m9T9E8xzyE",
+    "youtubeTitle": "Das Dschungelbuch | Mogli Film | Kompletter Spielfilm auf Deutsch",
+    "title": "Das Dschungelbuch",
+    "tmdbId": 9325,
+    "channelName": "Artflix"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Fehlzuordnung, von Hand gemeldet (11.10.) -- wird neu gesucht",
+    "videoId": "An0hSghEaZs",
+    "youtubeTitle": "Rache ist süß | Dick & Doof Kultfilm",
+    "title": "Rache ist süß",
+    "tmdbId": 94177,
+    "channelName": "Artflix"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Fehlzuordnung, von Hand gemeldet (11.10.) -- wird neu gesucht",
+    "videoId": "vQKjxxJp7dE",
+    "youtubeTitle": "Trolls World (2019) [Fantasy] [Horror] 🧌 Ein böser Troll in Baden-Baden! ✨ Ganzer Film auf Deutsch",
+    "title": "Trolls World Tour",
+    "tmdbId": 446893,
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Fehlzuordnung, von Hand gemeldet (11.10.) -- wird neu gesucht",
+    "videoId": "5Q_CoUuG1vI",
+    "youtubeTitle": "Hercules - Die grosse Schlacht um Hellas",
+    "title": "Hercules",
+    "tmdbId": 11970,
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Fehlzuordnung, von Hand gemeldet (11.10.) -- wird neu gesucht",
+    "videoId": "Gu08vVsHudA",
+    "youtubeTitle": "Haie - Tödlich und Schnell",
+    "title": "Große Haie - Kleine Fische",
+    "tmdbId": 10555,
+    "channelName": "CiNENET Deutschland"
   }
 ]

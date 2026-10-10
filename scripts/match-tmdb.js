@@ -676,6 +676,42 @@ async function tmdbSearch(query, year) {
 // richtet sich aber nach Popularität, nicht nach Passgenauigkeit. Dadurch
 // gewannen z.B. obskure gleichnamige Kurzfilme gegen den gesuchten Spielfilm.
 // Stattdessen bewerten wir JEDEN Treffer und nehmen den besten.
+// Wörter des Videotitels (erstes Segment vor Klammer/Pipe), die weder im
+// Suchbegriff noch im gefundenen TMDB-Titel/Originaltitel vorkommen.
+function fehlendeTitelWoerter(videoTitel, query, r) {
+  const hay = normalizeTitle(`${query} ${r.title} ${r.original_title || ""}`);
+  const kern = normalizeTitle(stripMarketingSuffix(primaryTitleSegment(videoTitel || "")));
+  return bedeutungsWoerter(kern).filter((w) => !hay.includes(w) && !istGenerischerBegriff(w));
+}
+
+// Videolänge in Minuten aus "PT1H44M32S".
+function videoMinuten(dauer) {
+  const x = (dauer || "").match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  if (!x) return 0;
+  return (+x[1] || 0) * 60 + (+x[2] || 0) + (+x[3] || 0) / 60;
+}
+
+async function fetchRuntime(tmdbId) {
+  const res = await fetch(`${TMDB_BASE}/movie/${tmdbId}`, {
+    headers: { Authorization: `Bearer ${BEARER_TOKEN}`, accept: "application/json" },
+  });
+  if (res.status === 429) {
+    await sleep(1000);
+    return fetchRuntime(tmdbId);
+  }
+  if (!res.ok) return 0;
+  const json = await res.json();
+  return Number.isFinite(json.runtime) ? json.runtime : 0;
+}
+
+// Artikel und Füllwörter zählen beim Wortvergleich nicht -- "The Family"
+// gegen "The Boss Baby: Family Business" hatte sonst zwei von zwei Treffern.
+const FUELLWOERTER = new Set("the a an of and der die das ein eine und von le la les el los las il un une il lo".split(" "));
+
+function bedeutungsWoerter(n) {
+  return n.split(" ").filter((w) => w.length > 2 && !FUELLWOERTER.has(w));
+}
+
 function scoreResult(r, query, expectedYear) {
   const nq = normalizeTitle(query);
   const nt = normalizeTitle(r.title);
@@ -691,11 +727,16 @@ function scoreResult(r, query, expectedYear) {
     score += 100;
     exactTitle = true;
   } else {
-    const qTokens = nq.split(" ").filter((w) => w.length > 2);
+    const qTokens = bedeutungsWoerter(nq);
     if (qTokens.length) {
       const hay = nt + " " + no;
       const hits = qTokens.filter((w) => hay.includes(w)).length;
-      score += (hits / qTokens.length) * 55;
+      // Deckung in beide Richtungen: Ein Suchbegriff, der nur einen Teil des
+      // TMDB-Titels abdeckt ("Family" in "Boss Baby Family Business"), ist
+      // kein guter Treffer, auch wenn alle seine Wörter vorkommen.
+      const tTokens = bedeutungsWoerter(nt.length >= no.length ? no || nt : nt);
+      const deckung = tTokens.length ? Math.min(1, qTokens.length / tTokens.length) : 1;
+      score += (hits / qTokens.length) * 55 * Math.sqrt(deckung);
     }
   }
 
@@ -704,6 +745,11 @@ function scoreResult(r, query, expectedYear) {
     const ry = parseInt((r.release_date || "").slice(0, 4), 10);
     if (ry) {
       const diff = Math.abs(ry - parseInt(expectedYear, 10));
+      // Exakter Titel UND passendes Jahr ist der stärkste Beleg, den eine
+      // Suche liefern kann -- stärker als jede Popularität. Der Bonus sorgt
+      // dafür, dass ein unbekannter Film mit null Bewertungen ("The Family",
+      // 2021) nicht gegen einen Blockbuster mit Teil-Übereinstimmung verliert.
+      if (exactTitle && diff <= 1) score += 30;
       if (diff === 0) score += 45;
       else if (diff <= 1) score += 35;
       else if (diff <= 3) score += 18;
@@ -895,6 +941,56 @@ async function findBestMatch(video, zusatzBegriffe = [], vorgabe = null) {
       : "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen";
   }
 
+  // Ein-Wort-Suchbegriff aus einem längeren Videotitel ("Hercules" aus
+  // "Hercules - Die grosse Schlacht um Hellas", "Haie" aus "Haie - Tödlich
+  // und Schnell"): Der Rest des Titels fehlt im Treffer -- dann ist es fast
+  // immer ein anderer, bekannterer Film gleichen Namens. Akzeptiert nur mit
+  // Jahr oder Besetzung als Beleg.
+  const restWoerter = fehlendeTitelWoerter(info.fallbackQuery || video.title, best.query, best.r);
+  if (bedeutungsWoerter(normalizeTitle(best.query)).length <= 1 && restWoerter.length >= 2 && !best.personConfirmed) {
+    const trefferJahr = parseInt((best.r.release_date || "").slice(0, 4), 10);
+    const jahrOk = info.year && trefferJahr && Math.abs(trefferJahr - parseInt(info.year, 10)) <= 1;
+    if (!jahrOk) {
+      return {
+        match: null,
+        info,
+        reason: `Ein-Wort-Suchbegriff "${best.query}" ohne Jahr/Besetzung -- Rest des Titels ("${restWoerter.join(" ")}") fehlt im Treffer`,
+        topCandidate: { id: best.r.id, title: best.r.title, release_date: best.r.release_date },
+      };
+    }
+  }
+
+  // Mehrdeutiger Titel: mehrere Filme heißen exakt so ("Das Dschungelbuch"
+  // 1942/1967/1994/2016) und das Video nennt kein Jahr. Dann entscheidet die
+  // Laufzeit -- das einzige Merkmal, das das Video verlässlich mitbringt.
+  let mehrdeutigNote = null;
+  let mehrdeutigOffen = false;
+  const exakte = rangliste.filter((k) => k.exactTitle);
+  if (exakte.length >= 2 && !info.year && !best.personConfirmed) {
+    const vmin = videoMinuten(video.duration);
+    if (vmin >= 40) {
+      for (const k of exakte.slice(0, 4)) {
+        k.runtime = await fetchRuntime(k.r.id);
+        await sleep(DELAY_MS);
+      }
+      const passend = exakte.filter((k) => k.runtime >= 40 && Math.abs(k.runtime - vmin) <= 8);
+      if (passend.length >= 1) {
+        // Der mit der geringsten Abweichung gewinnt; passen mehrere, bleibt
+        // es unsicher ("mittel") und steht so im Hinweis.
+        passend.sort((a, b) => Math.abs(a.runtime - vmin) - Math.abs(b.runtime - vmin) || b.score - a.score);
+        best = passend[0];
+        mehrdeutigNote = `Mehrdeutiger Titel (${exakte.length} Filme) -- Laufzeit entschied: TMDB ${best.runtime} min, Video ${Math.round(vmin)} min`;
+        if (passend.length >= 2) {
+          mehrdeutigOffen = true;
+          mehrdeutigNote += ` (auch möglich: ${passend.slice(1).map((k) => `${k.r.title} ${(k.r.release_date || "").slice(0, 4)}, ${k.runtime} min`).join("; ")})`;
+        }
+      } else {
+        mehrdeutigOffen = true;
+        mehrdeutigNote = `Mehrdeutiger Titel (${exakte.length} Filme), Laufzeit passt zu keinem (Video ${Math.round(vmin)} min) -- bitte prüfen`;
+      }
+    }
+  }
+
   if (best.score < MIN_ACCEPT_SCORE) {
     return {
       match: null,
@@ -923,9 +1019,11 @@ async function findBestMatch(video, zusatzBegriffe = [], vorgabe = null) {
   if (best.score >= CONFIDENT_SCORE || best.personConfirmed) confidence = "hoch";
   else if (best.score >= 95) confidence = "mittel";
   else confidence = "niedrig";
+  if (mehrdeutigOffen && confidence === "hoch") confidence = "mittel";
 
   const notes = [];
   if (personNote) notes.push(personNote);
+  if (mehrdeutigNote) notes.push(mehrdeutigNote);
   if (info.year) {
     const ry = (best.r.release_date || "").slice(0, 4);
     if (ry && Math.abs(parseInt(ry, 10) - parseInt(info.year, 10)) > 1) {

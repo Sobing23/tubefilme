@@ -86,7 +86,8 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie), **Doku-Wörter** (Doku, Dokumentation, Dokumentarfilm, Documentary, Reportage) sowie **alle Videos von Kanälen mit `inPruefung`** (siehe [Anbieter und Profile](#anbieter-und-profile)). | — |
 | 3 | `match-tmdb` | Zuordnung zu TMDB. Details unten. | TMDB |
 | 3k | `match-tmdb --youtube-nachsuche --nur-korrekturen` | Sucht die von Hand betitelten Filme (`titel-korrekturen.json`) mit ihrem Titel und Jahr bei TMDB — die kleine, nächtliche Ausgabe der Nachsuche (siehe [Titel von Hand](#titel-von-hand-titel-korrekturenjson)). | TMDB (wenige Dutzend) |
-| 3a | `verify-plausibility` | Prüft jede TMDB-Zuordnung in Stufen (Titel, Originaltitel, Besetzung, Alternativtitel von TMDB). Nicht belegbare werden gesperrt und neu gesucht. Geprüfte tragen `plausibel`. | TMDB (nur für unbelegte) |
+| 3r | `fetch-runtime` | Laufzeit (Minuten) aus TMDB für Filme ohne `runtime` — beim ersten Lauf alle (~12 Minuten), danach nur neue. | TMDB |
+| 3a | `verify-plausibility` | Prüft jede TMDB-Zuordnung in Stufen (Titel in beide Richtungen, Korrektur-/Originaltitel, Besetzung, Alternativtitel von TMDB); Laufzeit- oder Jahres-Widerspruch kippt eine Zuordnung. Nicht belegbare werden gesperrt und neu gesucht. Geprüfte tragen `plausibel` + `plausibelVersion`. | TMDB (nur für unbelegte) |
 | 4 | `cleanup-matches` | Entfernt doppelte tmdbIds. Einträge **ohne** tmdbId sind ausgenommen. | — |
 | 4a | `remove-documentaries` | Entfernt Dokus aus Bibliothek, Unmatched und Duplikaten (siehe [Nur Spielfilme](#nur-spielfilme)). | — |
 | 4b | `prune-excluded` | Lässt neue Filterregeln rückwirkend wirken: entfernt Einträge, deren Video laut `excluded.json` inzwischen ausgeschlossen ist, sowie die von Hand aussortierten aus `titel-korrekturen.json` (Abschnitt `entfernen`, kommen zusätzlich nach `ignored.json`). Protokoll in `aussortiert.json`. | — |
@@ -95,6 +96,7 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | 7 | `fix-titles` | Setzt zuerst die von Hand ermittelten Titel aus `titel-korrekturen.json` (`titelKorrigiert`), dann: ersetzt Werbeüberschriften bei übernommenen Filmen durch den echten Titel; zweite Stufe holt den Namen aus `Den Spielfilm „X“`, `Werbesatz: NAME`, schneidet Gattungs-Segmente ab und markiert Rest-Werbesätze mit `titelUnsicher`. | keine |
 | 8 | `fetch-cast` | Besetzung/Regie/Drehbuch nachladen. Überspringt Filme, die diese Felder schon haben. | TMDB |
 | 9 | `fetch-fsk` | FSK nachladen (eigener TMDB-Endpunkt für Freigaben je Land). | TMDB |
+| 10a | `check-availability` | Prüft alle Videos auf Abspielbarkeit (gelöscht, privat, nicht einbettbar, in DE gesperrt) — rund 150 Abfragen; ein Fehler bricht den Scan nicht ab. | YouTube |
 | 10 | `repair-unavailable` | Tote Videos durch geprüfte Ersatz-Uploads ersetzen oder kennzeichnen. | YouTube |
 | 11 | `build-site` | Index, Startseite, Filmseiten, Sitemap erzeugen. | — |
 | 12 | Commit | `git add data/ film/ index.html sitemap.xml robots.txt` | — |
@@ -202,7 +204,8 @@ Rund 60 reine Genre- und Gattungswörter (`Kriegsfilm`, `Thriller`, `Western`, `
 | Kriterium | Punkte |
 |---|---|
 | Titel exakt (normalisiert) | +100 |
-| Titel teilweise | bis +55 anteilig |
+| Titel teilweise | bis +55 anteilig — ohne Artikel/Füllwörter, und gedämpft, wenn der Suchbegriff nur einen Teil des TMDB-Titels abdeckt („Family" in „Boss Baby Family Business": ×√(1/4)) |
+| Titel exakt **und** Jahr ±1 | zusätzlich +30 — stärkster Beleg, den eine Suche liefern kann; schlägt den Abzug für leere Datensätze |
 | Jahr exakt / ±1 / ±3 | +45 / +35 / +18 |
 | Jahr weit daneben | −12 bis −35 |
 | ≥50 / ≥10 / ≥1 / 0 Bewertungen | +18 / +12 / +5 / **−25** |
@@ -210,7 +213,11 @@ Rund 60 reine Genre- und Gattungswörter (`Kriegsfilm`, `Thriller`, `Western`, `
 | Beschreibung vorhanden / fehlt | +8 / −15 |
 | Popularität | bis +7,5 |
 
-Der Abzug für leere Datensätze ist wichtig: Ein kommerziell ausgewerteter Film hat bei TMDB praktisch immer Bewertungen, Genres und eine Beschreibung. Leere Einträge (Festivalmitschnitte, Namensdubletten) waren die Hauptquelle grotesker Fehltreffer.
+Der Abzug für leere Datensätze ist wichtig: Ein kommerziell ausgewerteter Film hat bei TMDB praktisch immer Bewertungen, Genres und eine Beschreibung. Leere Einträge (Festivalmitschnitte, Namensdubletten) waren die Hauptquelle grotesker Fehltreffer. Er darf aber nicht einen exakten Treffer mit richtigem Jahr schlagen — genau so verlor „The Family" (2021, null Bewertungen) um fünf Punkte gegen „The Boss Baby: Family Business" (2021); daher der Exakt+Jahr-Bonus.
+
+**Ein-Wort-Suchbegriff aus längerem Titel:** Wird „Hercules – Die grosse Schlacht um Hellas" erst mit dem Rest-Segment „Hercules" gefunden und der Treffer enthält die übrigen Titelwörter nicht, zählt der Treffer nur mit Jahr oder Besetzung als Beleg. Sonst gewinnt immer der bekannteste Film dieses Namens (Disney-Hercules, „Große Haie – Kleine Fische" für „Haie – Tödlich und Schnell").
+
+**Mehrdeutiger Titel ohne Jahr:** Heißen mehrere Filme exakt so („Das Dschungelbuch" 1942/1967/1994) und das Video nennt kein Jahr, entscheidet die **Laufzeit**: Für bis zu vier exakte Kandidaten wird die TMDB-Laufzeit geholt und mit der Videolänge verglichen (±8 Minuten). Der nächstliegende gewinnt; passen mehrere oder keiner, bleibt die Konfidenz „mittel" und der Hinweis nennt die Alternativen.
 
 ### 5. Besetzungsabgleich bei Unklarheit
 
@@ -238,7 +245,13 @@ Derselbe Film über mehrere Kanäle: erster Fund gewinnt, jeder weitere wandert 
 
 ### 9. Plausibilitätsprüfung aller Zuordnungen
 
-Eine Zuordnung bleibt nur, wenn eine Stufe sie belegt: (1) TMDB-Titel oder -Originaltitel kommt im Videotitel/der Beschreibung vor — segmentweise, denn deutsche Verleihtitel hängen Zusätze an („Tiefschnee – Winter der Rache"); (2) die `Originaltitel:`-Zeile passt; (3) Besetzung/Regie aus der Beschreibung passt zur gespeicherten; (4) ein **Alternativtitel bei TMDB** passt — eine Anfrage je Film, nur hier. Greift nichts, wird die tmdbId gesperrt und der Film neu gesucht.
+Eine Zuordnung bleibt nur, wenn eine Stufe sie belegt: (1) TMDB-Titel oder -Originaltitel passt zu einem **Titelkandidaten** des Videos — den `|`-Feldern des Videotitels (Bindestrich-Teile bleiben zusammen), den Klammerinhalten, den ersten Beschreibungszeilen („Name: …"), Zitaten und der `Originaltitel:`-Zeile; (2) der von Hand ermittelte Korrekturtitel passt; (3) die `Originaltitel:`-Zeile passt; (4) Besetzung/Regie aus der Beschreibung passt zur gespeicherten; (5) ein **Alternativtitel bei TMDB** passt — eine Anfrage je Film, nur hier. Greift nichts, wird die tmdbId gesperrt und der Film neu gesucht.
+
+**„Passen" heißt seit Version 2 (11.10.2026) in beide Richtungen** (`passt()`): gleiche Wortmenge, oder mindestens zwei gemeinsame Wörter, die die Hälfte des *längeren* Titels abdecken, oder der kürzere Titel (≥2 Wörter) steckt ganz im längeren, oder der Videokandidat *beginnt* den TMDB-Titel („Der Superbulle" → „Der Superbulle jagt den Paten"). Die alte Prüfung maß am kürzeren Text und gegen den ganzen Beschreibungstext — so „passte" „Hercules" zu „Hercules – Die grosse Schlacht um Hellas", „Haie" zu „Große Haie – Kleine Fische" und „The Family" zu „The Boss Baby: Family Business". Beginnt umgekehrt der **TMDB-Titel** den Videotitel („Chuka" → „Chuka – Alleingang am Fort Clendennon"), reicht das nur mit passendem Jahr oder passender Laufzeit (±10 min); sonst entscheidet die Alternativtitel-Stufe. Artikel, Jahreszahlen, Gattungs- und Werbewörter zählen nicht als Wörter; römische Zahlen werden zu Ziffern („Phantasm IV" = „Das Böse 4").
+
+**Widersprüche schlagen jeden Titelvergleich:** Weicht die TMDB-Laufzeit um mehr als 30 % von der Videolänge ab (Spielfilme ab 40 min, nicht bei „Teil"-Videos), oder nennt das Video ein Jahr, das 6+ Jahre vom TMDB-Jahr entfernt liegt („Stella (1996)" → Stella 1990, „Es geschah am hellichten Tag" 1958 für das Remake von 1997), zählt nur noch die Besetzung. Dafür lädt `fetch-runtime.js` vorher die Laufzeiten.
+
+Jede Verschärfung zählt `PRUEF_VERSION` hoch; Einträge mit älterer Version werden erneut geprüft. Version 2 stellte im Probelauf 162 von 5.850 Zuordnungen in Frage (davon 73 über das Jahr) — Fehler wie Hellraiser: Inferno → Hellraiser (1987), Robin Hood (1981, Zeichentrick) → Disney 1973, Dick Tracy (1937) → 1990, aber auch Fälle, die erst die Alternativtitel-Stufe klärt.
 
 Warum nicht einfach verwerfen: Bei der Prüfung vom 10.10. war rund ein Drittel der 76 Verdachtsfälle richtig, nur unter anderem Verleihtitel („Lanky Fellow" = „Ohne Dollar keinen Sarg"). Stufe 4 fängt genau die. Die übrigen waren echte Fehler, darunter Blockbuster aus Werbetiteln ohne Filmnamen (Mission: Impossible, Guardians of the Galaxy 3) und 21 Altlasten mit „hoch" ohne Begründung, die die Neu-Zuordnung nie zurückgesetzt hatte.
 
@@ -333,7 +346,7 @@ Prüft **vier** Gründe, nicht nur ob das Video existiert:
 
 Der dritte Fall wird leicht übersehen: Jede reine Existenzprüfung hält das Video für in Ordnung.
 
-Bedienung über den Workflow „Verfügbarkeit prüfen" mit drei Eingabefeldern (Kanal, einzelnes Video, Obergrenze). Alle leer = kompletter Bestand, rund 120 Abfragen. **Teilprüfungen erhalten die Befunde der übrigen Filme.**
+**Läuft seit 11.10.2026 jede Nacht im Scan** (Schritt 10a, vor der Reparatur) — vorher nur auf Knopfdruck, und der letzte Lauf lag fünf Wochen zurück, sodass z. B. „Trolls World" wochenlang als schwarzer Kasten stand. Kostet rund 150 Abfragen (1 Einheit je Abfrage) und bricht den Scan bei einem Fehler nicht ab. Zusätzlich weiterhin von Hand über den Workflow „Verfügbarkeit prüfen" mit drei Eingabefeldern (Kanal, einzelnes Video, Obergrenze). **Teilprüfungen erhalten die Befunde der übrigen Filme.**
 
 ### Reparieren: `repair-unavailable.js`
 
@@ -604,6 +617,8 @@ Alles hier ist mindestens einmal schiefgegangen.
 - **Gleichlautende Logik in mehreren Skripten nach dem Kopieren durchzählen.** Beim Übertragen der Kopfzeilen-Regel ging sie in einer Datei verloren; aufgefallen ist es nur, weil die Zahl der betroffenen Kanäle nachgeprüft wurde.
 
 ### Beim Beurteilen von Ergebnissen
+
+- **Sechs gemeldete Fehlzuordnungen (11.10.) hatten zwei Ursachen, nicht sechs.** Ein-Wort-Rest eines längeren Titels (Hercules, Haie), Teilmengen-Titel mit Füllwort-Treffern (The Family → Boss Baby, Trolls World → Trolls World Tour), dazu gleichnamige Verfilmungen ohne Jahr (Das Dschungelbuch) und Jahreswiderspruch (Rache ist süß 1934 → 1952). Jede Regel dagegen wurde gegen den ganzen Bestand im Probelauf (`--nur-pruefen`) geprüft, bevor sie live ging — die erste Fassung der Zweiwege-Prüfung hätte korrekte Einträge wie „Die Olsenbande – Komödie" gekippt, weil die Stoppwortliste Umlaute vor der Normalisierung enthielt („komödie" statt „komodie").
 
 - **Zahlen allein reichen nicht.** Mehrfach sahen Läufe statistisch gut aus, und erst eine Stichprobe förderte echte Fehler zutage.
 - **Eine Heuristik, die viele Änderungen macht, ist verdächtig.** Die erste Fassung der Titelbereinigung hätte 646 Titel geändert, darunter Müll; die richtige ändert 110.

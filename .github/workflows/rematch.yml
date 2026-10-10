@@ -30,9 +30,17 @@ jobs:
       - name: Fragwürdige Zuordnungen zurücksetzen
         run: node scripts/reset-for-rematch.js
 
+      # Laufzeit aus TMDB nachladen -- Grundlage für den Laufzeitvergleich der
+      # Plausibilitätsprüfung (nur Filme ohne das Feld, beim ersten Lauf alle,
+      # das dauert dann rund 12 Minuten).
+      - name: Laufzeiten nachladen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/fetch-runtime.js
+
       # Alle TMDB-Zuordnungen auf Plausibilität prüfen (Titel, Originaltitel,
-      # Besetzung, Alternativtitel). Nicht belegbare werden gesperrt und im
-      # nächsten Schritt neu gesucht.
+      # Besetzung, Laufzeit, Jahr, Alternativtitel). Nicht belegbare werden
+      # gesperrt und im nächsten Schritt neu gesucht.
       - name: Zuordnungen auf Plausibilität prüfen
         env:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}

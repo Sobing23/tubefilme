@@ -49,6 +49,13 @@ jobs:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/match-tmdb.js --youtube-nachsuche --nur-korrekturen
 
+      # Laufzeit aus TMDB nachladen -- Grundlage für den Laufzeitvergleich der
+      # Plausibilitätsprüfung (nur Filme ohne das Feld, beim ersten Lauf alle).
+      - name: Laufzeiten nachladen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/fetch-runtime.js
+
       # Neue Zuordnungen auf Plausibilität prüfen; nicht belegbare werden
       # gesperrt und beim nächsten Lauf neu gesucht.
       - name: Zuordnungen auf Plausibilität prüfen
@@ -83,6 +90,17 @@ jobs:
         env:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/fetch-fsk.js
+
+      # Täglich prüfen, ob die Videos noch abspielbar sind (gelöscht, privat,
+      # nicht einbettbar, in Deutschland gesperrt). Rund 150 Abfragen für die
+      # ganze Bibliothek -- billig. Schlägt die Prüfung fehl (Kontingent),
+      # läuft der Scan trotzdem weiter; repair-unavailable arbeitet dann mit
+      # dem letzten Stand.
+      - name: Verfügbarkeit bei YouTube prüfen
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/check-availability.js
 
       - name: Nicht abspielbare Filme reparieren
         env:

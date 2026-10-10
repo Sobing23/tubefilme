@@ -18351,49 +18351,6 @@
     "plausibel": "titel"
   },
   {
-    "videoId": "vU0QMLdVrt8",
-    "youtubeTitle": "The Family - Fürchte Deine Nächsten (PSYCHOTHRILLER ganzer Film Deutsch 2025, ganzer Thriller)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/vU0QMLdVrt8/hqdefault.jpg",
-    "duration": "PT1H44M32S",
-    "publishedAt": "2025-05-21T17:01:15Z",
-    "channelName": "Netzkino",
-    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
-    "tmdbId": 459151,
-    "title": "Boss Baby - Schluss mit Kindergarten",
-    "originalTitle": "The Boss Baby: Family Business",
-    "overview": "Nach der turbulenten Zeit, die Tim gemeinsam mit seinem Bruder Boss Baby erlebt hat, haben sich die beiden Brüder auseinandergelebt. Der ehemalige Agent der Baby Corp. ist mittlerweile längst erwachsen geworden und Tim ist glücklicher Familienvater. Aber in letzter Zeit macht sich Tim zusehends Sorgen um seine Tochter Tabitha, die - nahezu zerfressen von Ehrgeiz - nur noch ihre Schullaufbahn im Kopf hat. Als dann die Baby Corp. an Ted mit der Bitte herantritt, noch einmal in die Windeln zu schlüpfen, um gegen den Leiter von Tabithas Schule zu ermitteln, ist die Familie von einst wieder vereint.",
-    "releaseDate": "2021-07-01",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/sv6ypWSEDyYKSWXjCU2jpQZgdoz.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yBov7O4eXDcBLDpZrOHZzFr8rIl.jpg",
-    "voteAverage": 7.326,
-    "genreIds": [
-      16,
-      35,
-      12,
-      10751
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "hoch",
-    "posterLocal": "img/posters/459151.jpg",
-    "cast": [
-      "Alec Baldwin",
-      "James Marsden",
-      "Amy Sedaris",
-      "Ariana Greenblatt",
-      "Jeff Goldblum"
-    ],
-    "director": [
-      "Tom McGrath"
-    ],
-    "writer": [
-      "Michael McCullers",
-      "Tom McGrath"
-    ],
-    "fsk": "6",
-    "slug": "boss-baby-schluss-mit-kindergarten",
-    "plausibel": "titel"
-  },
-  {
     "videoId": "aQ97XgGZiFQ",
     "youtubeTitle": "Mercury Plains – Wüstensöhne (ACTIONFILM mit SCOTT EASTWOOD, ganzer Actionfilm auf Deutsch 2025)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/aQ97XgGZiFQ/hqdefault.jpg",
@@ -239257,49 +239214,6 @@
     "plausibel": "titel"
   },
   {
-    "videoId": "5m9T9E8xzyE",
-    "youtubeTitle": "Das Dschungelbuch | Mogli Film | Kompletter Spielfilm auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/5m9T9E8xzyE/hqdefault.jpg",
-    "duration": "PT1H45M23S",
-    "publishedAt": "2026-01-16T18:00:06Z",
-    "channelName": "Artflix",
-    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
-    "tmdbId": 9325,
-    "title": "Das Dschungelbuch",
-    "originalTitle": "The Jungle Book",
-    "overview": "Der kleine Mogli, der bislang im Dschungel aufgewachsen ist, macht sich mit Baghira, dem schlauen Panther, auf den Weg zur Menschensiedlung. Unterwegs trifft er den swingenden King Louie, die hypnotische Schlange Kaa und den liebenswerten, unbekümmerten Bären Balu, der Mogli die gemütlichen Seiten im Leben zeigt und ihm beibringt, was wahre Freundschaft bedeutet. Doch Shir Khan, der Tiger, ist ihnen bereits auf der Spur.",
-    "releaseDate": "1967-10-18",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/x9hMtM8ZNwtR0N5YjyA31Cq6Mon.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3sbmRuIpYEH5dMvec4z4JxKQHoj.jpg",
-    "voteAverage": 7.3,
-    "genreIds": [
-      10751,
-      16,
-      12
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 138 (Suchbegriff: \"Das Dschungelbuch\")",
-    "cast": [
-      "Bruce Reitherman",
-      "Phil Harris",
-      "Sebastian Cabot",
-      "George Sanders",
-      "Sterling Holloway"
-    ],
-    "director": [
-      "Wolfgang Reitherman"
-    ],
-    "writer": [
-      "Larry Clemmons",
-      "Ralph Wright",
-      "Ken Anderson"
-    ],
-    "fsk": "0",
-    "slug": "das-dschungelbuch",
-    "plausibel": "titel"
-  },
-  {
     "videoId": "SKhdilauDy0",
     "youtubeTitle": "Dead Angel - Einbahnstraße in den Tod |  Krimi Drama auf Deutsch",
     "youtubeThumbnail": "https://i.ytimg.com/vi/SKhdilauDy0/hqdefault.jpg",
@@ -239797,43 +239711,6 @@
     ],
     "fsk": "16",
     "slug": "die-schwarze-narzisse",
-    "plausibel": "titel"
-  },
-  {
-    "videoId": "An0hSghEaZs",
-    "youtubeTitle": "Rache ist süß | Dick & Doof Kultfilm",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/An0hSghEaZs/hqdefault.jpg",
-    "duration": "PT1H9M40S",
-    "publishedAt": "2025-09-26T17:00:13Z",
-    "channelName": "Artflix",
-    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
-    "tmdbId": 94177,
-    "title": "Rache ist süß",
-    "originalTitle": "Triplet Trouble",
-    "overview": "Jemand bringt drei süße kleine Kätzchen vorbei. Tom wird die Verantwortung für sie übertragen, während seine Besitzerin einkaufen geht. Doch hinter ihrem Rücken sind die drei Engelchen echte Teufel, die Tom sofort auf die Palme bringen und ihn quälen.",
-    "releaseDate": "1952-04-19",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/ylFlwmQghOGhOgptomz2BkLuZmK.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yeaE90iB9qaPiknOh63Ts5aIdDL.jpg",
-    "voteAverage": 7.144,
-    "genreIds": [
-      16,
-      35
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 129 (Suchbegriff: \"Rache ist süß\")",
-    "cast": [
-      "William Hanna",
-      "Harry Lang",
-      "Lillian Randolph"
-    ],
-    "director": [
-      "Joseph Barbera",
-      "William Hanna"
-    ],
-    "writer": [],
-    "fsk": null,
-    "slug": "rache-ist-suess",
     "plausibel": "titel"
   },
   {
@@ -251597,52 +251474,6 @@
     "plausibel": "titel"
   },
   {
-    "videoId": "vQKjxxJp7dE",
-    "youtubeTitle": "Trolls World (2019) [Fantasy] [Horror] 🧌 Ein böser Troll in Baden-Baden! ✨ Ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/vQKjxxJp7dE/hqdefault.jpg",
-    "duration": "PT1H34M15S",
-    "publishedAt": "2024-12-26T17:00:06Z",
-    "channelName": "CiNENET Deutschland",
-    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
-    "tmdbId": 446893,
-    "title": "Trolls World Tour",
-    "originalTitle": "Trolls World Tour",
-    "overview": "Die Trolls-Welt gerät aus den Fugen, als unsere beliebten Figuren entdecken, dass sie nur einer von sechs Trolls-Stämmen sind, die alle von unterschiedlichen Musikrichtungen geprägt sind: Funk, Country, Techno, Klassik, Pop und Rock. Damit ist zumindest eines klar: Ihre Welt wird nicht nur größer, sondern auch sehr viel bunter und lauter! Die Königin des Hard Rock, Queen Barb hat einen finsteren Plan gefasst: Sie will alle anderen Arten von Musik vernichten, damit einzig und allein der Rock die Herrschaft übernehmen kann. Das müssen Poppy und Branch verhindern – Ihre Mission: Alle Trolls vereinen, Barb besiegen, die alle anderen im wahrsten Sinne des Wortes an die Wand spielen will und die Welt retten!",
-    "releaseDate": "2020-03-11",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/9V2Vr13Wupd4batHrD6s6gcraNn.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qsxhnirlp7y4Ae9bd11oYJSX59j.jpg",
-    "voteAverage": 7.2,
-    "genreIds": [
-      10751,
-      16,
-      35,
-      14,
-      12,
-      10402
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 129 (Suchbegriff: \"Trolls World\")",
-    "cast": [
-      "Anna Kendrick",
-      "Justin Timberlake",
-      "Ron Funches",
-      "Rachel Bloom",
-      "James Corden"
-    ],
-    "director": [
-      "Walt Dohrn"
-    ],
-    "writer": [
-      "Glenn Berger",
-      "Jonathan Aibel",
-      "Maya Forbes"
-    ],
-    "fsk": "0",
-    "slug": "trolls-world-tour",
-    "plausibel": "titel"
-  },
-  {
     "videoId": "aDyLI7EdGUU",
     "youtubeTitle": "Immortal Wars (2017) [Action] [Sci-Fi] ⚔️ Kämpfen für die Freiheit 💥 Ganzer Film auf Deutsch",
     "youtubeThumbnail": "https://i.ytimg.com/vi/aDyLI7EdGUU/hqdefault.jpg",
@@ -255686,53 +255517,6 @@
     "plausibel": "titel"
   },
   {
-    "videoId": "5Q_CoUuG1vI",
-    "youtubeTitle": "Hercules - Die grosse Schlacht um Hellas",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/5Q_CoUuG1vI/hqdefault.jpg",
-    "duration": "PT1H20M49S",
-    "publishedAt": "2014-12-25T01:00:03Z",
-    "channelName": "CiNENET Deutschland",
-    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
-    "tmdbId": 11970,
-    "title": "Hercules",
-    "originalTitle": "Hercules",
-    "overview": "Hades lässt den kleinen Hercules von seinen gehilfen Pech und Schwefel entführen. Sie beiden sollen ihn mit einem Gift zu einem Normalsterblichen machen, doch der Kleine überlebt. Da Hades das aber auf keinen Fall herausbekommen darf, wird Hercules zu einem Bauernpaar gebracht. Erst Jahre später erfährt Hercules von seiner wahren Herkunft.",
-    "releaseDate": "1997-06-13",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/ujRxVnOwSG2Xdyinn8MZCMxITpz.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oG9dcGSSu13fjFp1Uly15ZXjRKV.jpg",
-    "voteAverage": 7.5,
-    "genreIds": [
-      16,
-      10751,
-      14,
-      12,
-      35,
-      10749
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 139 (Suchbegriff: \"Hercules\")",
-    "cast": [
-      "Tate Donovan",
-      "Josh Keaton",
-      "Roger Bart",
-      "Danny DeVito",
-      "James Woods"
-    ],
-    "director": [
-      "John Musker",
-      "Ron Clements"
-    ],
-    "writer": [
-      "John Musker",
-      "Ron Clements",
-      "Don McEnery"
-    ],
-    "fsk": "0",
-    "slug": "hercules",
-    "plausibel": "titel"
-  },
-  {
     "videoId": "yrn0JUAOfSo",
     "youtubeTitle": "Die Bibel - Altes Testament Teil 3",
     "youtubeThumbnail": "https://i.ytimg.com/vi/yrn0JUAOfSo/hqdefault.jpg",
@@ -257077,52 +256861,6 @@
     "writer": [],
     "fsk": null,
     "slug": "unser-leben-das-wunder",
-    "plausibel": "titel"
-  },
-  {
-    "videoId": "Gu08vVsHudA",
-    "youtubeTitle": "Haie - Tödlich und Schnell",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Gu08vVsHudA/hqdefault.jpg",
-    "duration": "PT1H28M3S",
-    "publishedAt": "2014-01-25T00:00:02Z",
-    "channelName": "CiNENET Deutschland",
-    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
-    "tmdbId": 10555,
-    "title": "Große Haie - Kleine Fische",
-    "originalTitle": "Shark Tale",
-    "overview": "Wer träumt nicht davon, ein Star zu sein? Oscar, ein kleiner, unglücklicher Fisch in der schillernden Unterwasserwelt, möchte in der Nahrungskette endlich weiter nach oben klettern – der miese Job als Walwäscher steht ihm längst bis zu den Kiemen. Eines Tages wird der Sohn des Hai-Mafiosi „Don Lino“ von einem herabfallenden Anker getötet – die Chance für Oscar, sich mit den Lorbeeren eines Helden zu schmücken. Schon bald macht seine Geschichte im ganzen Riff die Runde. Und Engelsfisch Angie schwimmt ihm ebenso hinterher, wie Fisch-Fatale Lola. Doch schon bald sind dem vermeintlichen Hai-Bezwinger die Mafia-Haie auf den Flossen. Und um Oscar und seine geschuppten Freunde schlagen die Wellen immer höher.",
-    "releaseDate": "2004-09-20",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/yH8l9kyUFJwMtMNcCcveuIT4vVw.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7ZmZxar3bYORcl0TPA4oceyxcaE.jpg",
-    "voteAverage": 6,
-    "genreIds": [
-      16,
-      28,
-      35,
-      10751
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Zuordnungswert 94 (Suchbegriff: \"Haie\")",
-    "cast": [
-      "Will Smith",
-      "Robert De Niro",
-      "Renée Zellweger",
-      "Jack Black",
-      "Angelina Jolie"
-    ],
-    "director": [
-      "Vicky Jenson",
-      "Bibo Bergeron",
-      "Rob Letterman"
-    ],
-    "writer": [
-      "Rob Letterman",
-      "Michael J. Wilson",
-      "Lona Williams"
-    ],
-    "fsk": "0",
-    "slug": "grosse-haie-kleine-fische",
     "plausibel": "titel"
   },
   {
