@@ -567,6 +567,12 @@ function buildQueryCandidates(info, video) {
     // Zentrale Sperre: Allerweltsbegriffe kommen gar nicht erst als
     // Suchbegriff in Frage, egal aus welcher Zerlegung sie stammen.
     if (istGenerischerBegriff(q)) return;
+    // Ein Begriff ohne Buchstaben (nur Jahreszahl, nur Nummer) ist nie ein
+    // brauchbarer Suchbegriff: TMDB liefert darauf beliebige Filme, deren
+    // Titel nach Normalisierung ebenfalls nur aus Ziffern besteht (nicht-
+    // lateinische Schriften fallen weg). So entstand am 10.10. "2019" ->
+    // "착한처제 2019" als "exakter" Treffer.
+    if (!/[a-z]/.test(normalizeTitle(q))) return;
     // Sicherheitsnetz: Kein echter Filmtitel ist so lang. Solche Begriffe
     // stammen aus mitgefangenem Fließtext; TMDB lehnt über 500 Zeichen ab.
     if (q.length > MAX_SUCHBEGRIFF) return;
@@ -678,7 +684,10 @@ function scoreResult(r, query, expectedYear) {
   let exactTitle = false;
 
   // 1. Titel
-  if (nq && (nt === nq || no === nq)) {
+  // Exakt nur, wenn der verglichene TMDB-Titel nach Normalisierung noch
+  // Buchstaben enthält -- sonst "stimmt" jeder koreanische oder chinesische
+  // Titel mit Jahreszahl mit dem Suchbegriff "2019" überein.
+  if (nq && /[a-z]/.test(nq) && (nt === nq || no === nq)) {
     score += 100;
     exactTitle = true;
   } else {
@@ -800,11 +809,23 @@ function hatUnabhaengigenBeleg(best, info) {
 // wird nur von der Nachsuche für übernommene YouTube-Filme genutzt (dort ist
 // der bereits bereinigte Bibliothekstitel ein guter letzter Versuch). Im
 // normalen Lauf ist die Liste leer und das Verhalten unverändert.
-async function findBestMatch(video, zusatzBegriffe = []) {
+// vorgabe (nur Nachsuche mit von Hand ermitteltem Titel): { titel, jahr }
+// ersetzt den Hauptsuchbegriff und -- falls angegeben -- das Jahr. Der Titel
+// wird als eigene Zeile gesetzt statt in die Beschreibung geschrieben, denn
+// ein vorangestelltes "(2019)" wurde am 10.10. bei Kopfzeilen-Kanälen zur
+// Kopfzeile und damit zum Suchbegriff "2019" -- mit exaktem Treffer auf
+// einen koreanischen Film, dessen Titel nach Normalisierung nur noch "2019"
+// lautete.
+async function findBestMatch(video, zusatzBegriffe = [], vorgabe = null) {
   const info = extractSearchInfo(video);
+  if (vorgabe) {
+    info.query = vorgabe.titel;
+    if (vorgabe.jahr) info.year = String(vorgabe.jahr);
+    info.source = "korrektur";
+  }
   const queryCandidates = buildQueryCandidates(info, video);
   for (const z of zusatzBegriffe) {
-    if (!z || istGenerischerBegriff(z) || z.length > MAX_SUCHBEGRIFF) continue;
+    if (!z || istGenerischerBegriff(z) || z.length > MAX_SUCHBEGRIFF || !/[a-z]/.test(normalizeTitle(z))) continue;
     if (queryCandidates.some((q) => q.toLowerCase() === z.toLowerCase())) continue;
     queryCandidates.push(z);
   }
@@ -1240,7 +1261,7 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
     n++;
     if (n % 100 === 0) console.log(`... ${n} / ${ziele.length}`);
 
-    let video = candById.get(eintrag.videoId);
+    const video = candById.get(eintrag.videoId);
     if (!video) {
       ohneKandidat++;
       continue;
@@ -1248,20 +1269,16 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
 
     // Von Hand ermittelter Titel (data/titel-korrekturen.json): Der
     // Werbesatz im Videotitel taugt nicht als Suchbegriff, der ermittelte
-    // Titel samt Jahr dagegen schon. Er wird dem Video wie eine
-    // "Originaltitel:"-Zeile vorangestellt, damit extractSearchInfo ihn
-    // als Hauptsuchbegriff mit Jahr nimmt.
-    const korrektur = korrekturen[eintrag.videoId];
-    if (korrektur) {
-      const kopf = (korrektur.jahr ? `(${korrektur.jahr})\n` : "") + `Originaltitel: ${korrektur.titel}\n`;
-      video = { ...video, description: kopf + (video.description || "") }; // title bleibt der echte YouTube-Titel (wird als youtubeTitle gespeichert)
-    }
+    // Titel samt Jahr dagegen schon -- er wird findBestMatch als Vorgabe
+    // übergeben.
+    const korrektur = korrekturen[eintrag.videoId] || null;
 
     // Ohne Jahr und ohne Besetzung kann keiner der beiden harten Belege
     // zustande kommen -- die Suche würde nur TMDB-Zeit kosten. Betrifft
     // laut Datenbestand rund 60 % der übernommenen Filme.
     const vorab = extractSearchInfo(video);
-    if (!vorab.year && vorab.cast.length === 0 && vorab.directors.length === 0) {
+    const jahrBekannt = vorab.year || (korrektur && korrektur.jahr);
+    if (!jahrBekannt && vorab.cast.length === 0 && vorab.directors.length === 0) {
       gruende["weder Jahr noch Besetzung bekannt (nicht gesucht)"] =
         (gruende["weder Jahr noch Besetzung bekannt (nicht gesucht)"] || 0) + 1;
       continue;
@@ -1269,7 +1286,7 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
 
     let res;
     try {
-      res = await findBestMatch(video, [eintrag.title]);
+      res = await findBestMatch(video, [eintrag.title], korrektur);
     } catch (err) {
       fehler++;
       console.log(`   Fehler bei "${eintrag.title}": ${err.message}`);
