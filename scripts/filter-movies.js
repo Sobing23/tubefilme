@@ -4,6 +4,12 @@
 //   - Titel mit "Trailer"/"Teaser"/"Clip"
 //   - Serieninhalte (Schlüsselwörter "Folge", "Staffel", "Serie",
 //     "Episode", "Webserie" im Titel)
+//   - sämtliche Videos von Kanälen mit "inPruefung": true im Profil
+//     (config/channels.json). So sammelt der Scan bei neuen Kanälen erst
+//     einmal die Rohdaten ein -- Laufzeiten, Titel, Beschreibungen --, ohne
+//     dass etwas in die Bibliothek kommt. Erst nach Sichtung der echten Daten
+//     wird das Profil passend gesetzt und der Schalter entfernt; beim
+//     nächsten Lauf werden die Videos dann ganz normal verarbeitet.
 //
 // Ausgeschlossenes landet NICHT im Nirwana, sondern in data/excluded.json
 // mit Begründung -- damit du das jederzeit nachvollziehen und Regeln
@@ -13,6 +19,7 @@ import fs from "fs/promises";
 import path from "path";
 
 const RAW_DIR = "data/raw";
+const CHANNELS_PATH = "config/channels.json";
 const OUT_CANDIDATES = "data/candidates.json";
 const OUT_EXCLUDED = "data/excluded.json";
 
@@ -31,7 +38,10 @@ function parseDuration(iso) {
   return h * 3600 + min * 60 + s;
 }
 
-function classify(video) {
+function classify(video, inPruefung) {
+  if (inPruefung) {
+    return { include: false, reason: "Kanal in Prüfung (noch nicht freigegeben)" };
+  }
   const seconds = parseDuration(video.duration);
 
   if (seconds < MIN_DURATION_SECONDS) {
@@ -54,6 +64,12 @@ async function main() {
     return;
   }
 
+  // Kanäle, die noch in Prüfung sind (siehe Kopfkommentar)
+  const config = JSON.parse(await fs.readFile(CHANNELS_PATH, "utf-8"));
+  const inPruefung = new Set(
+    config.channels.filter((c) => c.profil && c.profil.inPruefung === true).map((c) => c.channelId)
+  );
+
   const candidates = [];
   const excluded = [];
   const seenVideoIds = new Set();
@@ -64,7 +80,8 @@ async function main() {
       if (seenVideoIds.has(video.videoId)) continue; // Sicherheitsnetz gegen Duplikate
       seenVideoIds.add(video.videoId);
 
-      const { include, reason } = classify(video);
+      const kanalId = video.channelId || path.basename(file, ".json");
+      const { include, reason } = classify(video, inPruefung.has(kanalId));
       if (include) {
         candidates.push(video);
       } else {

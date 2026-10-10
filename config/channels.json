@@ -1,6 +1,11 @@
 {
   "channels": [
     { "name": "Absolute Action", "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw" },
+    {
+      "name": "All Time Classic Movies",
+      "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Alle Filme Auf Deutsch", "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA" },
     { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
     {
@@ -48,14 +53,39 @@
     { "name": "Heimatkino", "channelId": "UChJySzurS1PVmE_gvVQX_ng" },
     { "name": "Kino Deutsch", "channelId": "UCBHYbV2w8dE__bS6fNdCbpw" },
     { "name": "Kinohof", "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ" },
+    {
+      "name": "KinoWelt Deutsch",
+      "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+      "profil": { "inPruefung": true }
+    },
     { "name": "KinoWucht", "channelId": "UCCYMsl9VC3BR6M-iv5feZkg" },
     { "name": "Lichtprojektor", "channelId": "UCmxqkfX9mlB9g8e0aGg94wA" },
     { "name": "Moviedome", "channelId": "UCh4JH8axA_jUjB8YoRnm0cg" },
     { "name": "Movies Select", "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug" },
     { "name": "Netzkino", "channelId": "UCGkHFrwE8KEuOHPVsIOskAg" },
     { "name": "Planet Movies", "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw" },
+    {
+      "name": "Rashland",
+      "channelId": "UCo-WzNHl4AOFBdOUfoj3WSA",
+      "profil": { "inPruefung": true }
+    },
+    {
+      "name": "Retroflix",
+      "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Sony Pics at Home DE", "channelId": "UCXsB2iMamYqS_t-Kpo61tOw" },
     { "name": "Starkino", "channelId": "UC7Hs00gZvManlHy0rXw1UMw" },
+    {
+      "name": "Stash auf Deutsch",
+      "channelId": "UCxouNAvM6cFw3xNftPP_4eQ",
+      "profil": { "inPruefung": true }
+    },
+    {
+      "name": "Stream Hier",
+      "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Unfassbare Filme", "channelId": "UCxjFB79ChibMp-hr1vlK7sg" },
     { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" }
   ]

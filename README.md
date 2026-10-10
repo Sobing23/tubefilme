@@ -80,7 +80,7 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | # | Schritt | Was passiert | API-Kosten |
 |---|---|---|---|
 | 1 | `fetch-youtube` | Neue Videos je Kanal. Über `data/state.json` inkrementell: bekannte Videos beenden die Suche vorzeitig. Neue Kanäle laufen automatisch einmal vollständig durch. | YouTube |
-| 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie). | — |
+| 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie) sowie **alle Videos von Kanälen mit `inPruefung`** (siehe [Anbieter und Profile](#anbieter-und-profile)). | — |
 | 3 | `match-tmdb` | Zuordnung zu TMDB. Details unten. | TMDB |
 | 4 | `cleanup-matches` | Entfernt doppelte tmdbIds. Einträge **ohne** tmdbId sind ausgenommen. | — |
 | 5 | `auto-verify` | Prüft unsichere Zuordnungen gegen die bereits gespeicherte Besetzung. | keine |
@@ -99,6 +99,8 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 - `repair-unavailable` vor `build-site`, damit die Seiten bereits die reparierten Videos und Kennzeichnungen enthalten.
 
 **Abbrechen ist ungefährlich:** Committet wird erst im letzten Schritt. Ein mittendrin gestoppter Lauf hinterlässt keinen halben Zustand.
+
+**Gemeinsame Warteschlange:** `scan.yml`, `rematch.yml` und `availability.yml` teilen sich die Concurrency-Gruppe `tubefilme-daten` (`cancel-in-progress: false`). Startet ein Workflow, während ein anderer läuft, wartet er. Vor dem Push holt jeder Workflow mit `git pull --rebase` zwischenzeitlich eingespielten Code; kollidiert dabei eine Datendatei (etwa durch eine gleichzeitige Änderung über die Review-Seite), bricht er mit Hinweis ab, statt etwas zu überschreiben — dann einfach neu starten.
 
 ---
 
@@ -133,7 +135,8 @@ title, originalTitle, overview, releaseDate
 posterUrl, backdropUrl, voteAverage, genreIds[]
 cast[], director[], writer[]
 fsk                 "0"|"6"|"12"|"16"|"18" oder null
-slug                Adressbestandteil -- einmal vergeben, NIE wieder geändert
+slug                Adressbestandteil -- bleibt stabil, solange sich der Titel nicht
+                    ändert; bei geändertem Titel bildet build-site.js ihn neu
 matchSource         originaltitel+jahr | originaltitel-ohne-jahr | titel-fallback
                     | manuell | youtube
 matchConfidence     hoch | mittel | niedrig | youtube
@@ -161,12 +164,15 @@ Aus Videotitel und Beschreibung wird eine **priorisierte Liste** von Suchbegriff
 3. Videotitel bis zur ersten Klammer oder zum ersten Strich, bereinigt um Genre-Klammern und führende Emoji
 4. Varianten ohne Schauspieler-Vorspann, an Schrägstrichen geteilt, hinter Strichen (nur wenn das Anbieter-Profil es erlaubt)
 5. Werbetext-bereinigte Fassungen
-6. Kopfzeile aus der Beschreibung
-7. Als letzter Notnagel: erstes Segment vor dem ersten Strich
+6. Kopfzeile aus der Beschreibung — **nur bei Kanälen, bei denen sie nachweislich der Titel ist** (siehe unten)
+7. Feste Titelzeile `TITEL (JAHR)` aus den ersten acht Beschreibungszeilen — bei allen Kanälen, weil das Muster streng genug ist. Aus `Tornado (Cyclone, 1978)` werden zwei Suchbegriffe: `Tornado` und `Cyclone`
+8. Als letzter Notnagel: erstes Segment vor dem ersten Strich
+
+**Segmente hinter `|` werden vorher gefiltert:** Reine Jahreszahlen (`| 1939 |`) und Segmente, die mit dem Kanalnamen beginnen (`| HeimatfilmeTV`), sind keine Titel. Ohne diesen Filter entstanden Treffer wie der Kriegsfilm „1939" oder ein Telugu-Film für deutsche Heimatfilme. **Führende Jahreszahlen bleiben erhalten** — „1917" und „2047 – Sights of Death" sind echte Titel.
 
 **Neue Varianten werden hinten angehängt, nie vorne.** Filme, die mit ihrem bisherigen Begriff sicher gefunden werden, brechen die Suche vorher ab und bleiben dadurch unverändert.
 
-Das **Jahr** kommt aus drei Quellen: Klammer nach dem Titel in der Beschreibung, Fließtext `aus dem Jahr JJJJ` (über 500 Beschreibungen nutzen das), oder `(JJJJ)` im Videotitel.
+Das **Jahr** kommt aus diesen Quellen: Klammer nach dem Titel in der Beschreibung, Fließtext `aus dem Jahr JJJJ` (über 500 Beschreibungen nutzen das), oder im Videotitel als `(JJJJ)`, `, JJJJ` am Titelende oder `| JJJJ |`.
 
 ### 3. Gesperrte Begriffe
 
@@ -211,6 +217,25 @@ Erkennt `auto-verify` eine Zuordnung als falsch, wandert die tmdbId nach `reject
 
 Derselbe Film über mehrere Kanäle: erster Fund gewinnt, jeder weitere wandert dokumentiert nach `duplicates.json`. Dort bleibt er als Ersatz-Upload verfügbar, falls der Hauptupload später verschwindet.
 
+### 9. Nachsuche für übernommene Filme
+
+Aus YouTube übernommene Filme (`matchSource: youtube`) werden im normalen Lauf nie wieder gesucht — Verbesserungen an der Logik kämen bei ihnen sonst nie an. Deshalb sucht die Neu-Zuordnung (`rematch.yml`) sie in einem eigenen Schritt erneut: `match-tmdb.js --youtube-nachsuche`.
+
+**Bewusst strenger als die normale Suche**, weil diese Filme schon einmal gescheitert sind und ein Fehltreffer einen brauchbaren Eintrag durch einen falschen Film ersetzen würde. Übernommen wird nur bei Konfidenz „hoch" **und** einem harten Beleg:
+- Besetzung/Regie bestätigt, **oder**
+- exakter Titel **mit** passendem Jahr (±1).
+
+Ein hoher Wert allein reicht nicht: Teiltitel + bekannter Film + richtiges Jahr erreichen ihn auch beim falschen Film.
+
+| Ergebnis | Was passiert |
+|---|---|
+| sicherer Treffer, Film neu | Eintrag wird durch TMDB-Daten ersetzt; Verfügbarkeit bleibt erhalten; Besetzung und FSK lädt der Workflow nach; `hinweis` nennt den alten Titel |
+| sicherer Treffer, Film schon in der Bibliothek | Eintrag wandert nach `duplicates.json` (bleibt Ersatz-Upload) |
+| alles andere | unverändert |
+| weder Jahr noch Besetzung bekannt | wird gar nicht erst gesucht — keiner der Belege wäre möglich (rund 60 % der übernommenen Filme) |
+
+Es verschwindet nie ein Film. Das Protokoll des Schritts listet jede Ersetzung einzeln (vorher → nachher). Mit `--limit N` lässt sich ein Probelauf auf N Filme begrenzen.
+
 ---
 
 ## Titel aus reißerischen Videos gewinnen
@@ -224,6 +249,8 @@ Viele Kanäle nennen den Filmtitel nicht im Videotitel, sondern verpacken ihn in
 | Titel als Kopfzeile der Beschreibung | Videotitel `KOMÖDIENFILM, den man gesehen haben sollte`, Beschreibung beginnt mit `St. Daisy` | CinemaLegenden, Unfassbare Filme |
 
 Genutzt an drei Stellen: in der TMDB-Suche (`match-tmdb.js`, Werbetitel mit höchster Priorität), bei der Übernahme (`absorb-unmatched.js`) und nachträglich für den Bestand (`fix-titles.js`).
+
+**Nur für Kanäle, bei denen es die Daten belegen.** Die Kopfzeile wird ausschließlich bei Kanälen genutzt, bei denen sie in mindestens 50 % von mindestens 10 Videos greift — ermittelt bei jedem Lauf aus `candidates.json`, nicht fest eingetragen. Derzeit: CinemaLegenden, KinoWucht, Kinohof, Lichtprojektor, Unfassbare Filme (dort trifft sie in 87–97 % der Videos). Bei allen anderen erwischt sie Werbung oder Überschriften. Die Regel steht gleichlautend in `match-tmdb.js`, `absorb-unmatched.js` und `fix-titles.js`.
 
 **Die Kopfzeilen-Erkennung ist bewusst streng.** Betrachtet wird ausschließlich die **erste echte Inhaltszeile** — Wiederholungen des Videotitels und Verweiszeilen werden übersprungen, danach wird abgebrochen. Ein lockereres Vorgehen (erste passende von vier Zeilen) hätte 646 Titel geändert, darunter Zeitmarken (`00:00 Die Falle`), Strukturangaben (`Regie: …`, `Genre: …`) und Hashtag-Zeilen. Die strenge Fassung ändert 110 — dafür ausnahmslos richtige.
 
@@ -297,14 +324,16 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 | Schalter | Bedeutung |
 |---|---|
 | `pipeAlsTitelvariante` | Stehen hinter `\|` alternative Filmtitel (`true`, Standard) oder nur Genre- und Werbeangaben (`false`)? |
+| `inPruefung` | `true`: Der Scan sammelt die Rohdaten des Kanals (`data/raw/`), aber `filter-movies.js` lässt **kein** Video in die Bibliothek (Grund in `excluded.json`: „Kanal in Prüfung"). Für neue Kanäle, deren Eigenheiten erst an echten Daten geprüft werden. Schalter entfernen → beim nächsten Lauf werden die Videos normal verarbeitet. |
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 38 Kanäle
+### Die 44 Kanäle
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
 | Absolute Action | keine Angabe | |
+| All Time Classic Movies | noch offen | in Prüfung |
 | Alle Filme Auf Deutsch | keine Angabe | |
 | Amelia | keine Angabe | |
 | Artflix | Amogo Networx | ✓ |
@@ -332,14 +361,19 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Heimatkino | PLAION PICTURES | |
 | Kino Deutsch | keine Angabe | |
 | Kinohof | keine Angabe | |
+| KinoWelt Deutsch | noch offen | in Prüfung |
 | KinoWucht | keine Angabe | |
 | Lichtprojektor | keine Angabe | |
 | Moviedome | PLAION PICTURES | |
 | Movies Select | PLAION PICTURES | |
 | Netzkino | PLAION PICTURES | |
 | Planet Movies | Tiberius Film | |
+| Rashland | noch offen | in Prüfung |
+| Retroflix | noch offen | in Prüfung |
 | Sony Pics at Home DE | Sony Pictures HE | |
 | Starkino | PLAION PICTURES | |
+| Stash auf Deutsch | noch offen | in Prüfung |
+| Stream Hier | noch offen | in Prüfung |
 | Unfassbare Filme | keine Angabe | |
 | Volle Power Filme | keine Angabe | |
 
@@ -352,9 +386,11 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 ### Neuen Kanal hinzufügen
 
 1. `@handle` aufrufen und Kanal-ID aus der Seite ziehen (bei Weiterleitungsproblemen über den Seitenquelltext, Suche nach `channelId`)
-2. In `config/channels.json` alphabetisch eintragen
-3. `scan.yml` starten — der neue Kanal läuft automatisch einmal vollständig durch
-4. Danach die Zuordnungsquote je Kanal prüfen und bei Bedarf ein Profil setzen oder die Extraktion nachschärfen
+2. In `config/channels.json` alphabetisch eintragen, mit `"profil": { "inPruefung": true }`
+3. `scan.yml` starten — der neue Kanal wird einmal vollständig eingesammelt, landet aber noch nicht in der Bibliothek
+4. Rohdaten in `data/raw/<channelId>.json` sichten: Sprache, Laufzeiten (Kurzvideos, Dokus, Reportagen?), Serien, Aufbau von Titel und Beschreibung
+5. Profil passend setzen und `inPruefung` entfernen — beim nächsten Scan werden die Videos verarbeitet
+6. Danach die Zuordnungsquote je Kanal prüfen und bei Bedarf nachschärfen
 
 **Tipp:** Bei Kanälen **ohne Kanalbeschreibung** vorher kurz in die Videotitel schauen. Braventa sah von außen unauffällig aus und war komplett spanischsprachig.
 
@@ -431,7 +467,7 @@ In jedem Reiter gibt es einen Direktlink zum Video.
 
 **Neuen Kanal aufnehmen** → siehe [Anbieter und Profile](#neuen-kanal-hinzufügen).
 
-**Zuordnungslogik verbessert, Bestand soll profitieren** → `rematch.yml` starten. Freigegeben wird, was Konfidenz „niedrig"/„mittel" hat oder ohne Bewertung/Genres dasteht. **Manuelle Korrekturen und aus YouTube übernommene Filme bleiben unangetastet.**
+**Zuordnungslogik verbessert, Bestand soll profitieren** → `rematch.yml` starten. Freigegeben wird, was Konfidenz „niedrig"/„mittel" hat oder ohne Bewertung/Genres dasteht. **Manuelle Korrekturen bleiben unangetastet.** Aus YouTube übernommene Filme werden nicht zurückgesetzt, aber in einem eigenen Schritt streng nachgesucht (siehe [Nachsuche](#9-nachsuche-für-übernommene-filme)).
 
 **Tote Filme finden** → „Verfügbarkeit prüfen" mit leeren Feldern. Die Reparatur läuft im selben Durchgang mit.
 
@@ -457,6 +493,7 @@ Alles hier ist mindestens einmal schiefgegangen.
 
 - **Erzeugt `build-site.js` eine neue Datei, muss sie in die `git add`-Zeile aller Workflows.** Sonst wird sie bei jedem Lauf geschrieben und gleich wieder verworfen. Ist zweimal passiert (bei `index.html` und `img/`).
 - **Bestätigungsfelder in Workflows prüfen auf exakte Schreibweise.** `Loeschen` statt `loeschen` bricht ab.
+- **Der zeitgesteuerte Scan startet nicht pünktlich.** GitHub verschiebt `cron: 0 2 * * *` regelmäßig um Stunden (beobachtet: 04:50–07:40 UTC). Einmal committete er dadurch mitten in eine 29-minütige Neu-Zuordnung, deren Push dann abgelehnt wurde. Seitdem gibt es die gemeinsame Warteschlange und `git pull --rebase` vor dem Push.
 
 ### Beim Lesen aus GitHub im Browser (Review-Werkzeug)
 
@@ -480,7 +517,10 @@ Alles hier ist mindestens einmal schiefgegangen.
 - **Symbole entfernen, bevor gegen Ausschlusslisten geprüft wird.**
 - **Teilstring-Vergleiche sind zu locker.** „Duell am Wind River" enthält „Wind River".
 - **Ersatz-Uploads vor dem Einsetzen prüfen.** `duplicates.json` wird nie auf Verfügbarkeit geprüft.
-- **Slugs nie aus veränderlichen Werten ableiten.** Einmal vergeben, dauerhaft gespeichert.
+- **Slugs nie aus veränderlichen Werten ableiten.** Einmal vergeben, dauerhaft gespeichert. Nur ein geänderter Titel führt zu einer neuen Adresse; die alte Seite wird dann entfernt (keine Weiterleitung).
+- **Reine Jahreszahlen sind keine Titelvarianten** — aber nur hinter einem Strich. Am Titelanfang („1917") sind sie Teil des Titels. Die erste Fassung der Bereinigung schnitt beides ab; aufgefallen erst im Vergleich alt gegen neu.
+- **Klammern vor dem Trennen an `|` bereinigen und klammerbewusst trennen.** Sonst entstehen halbe Klammern wie `World War II Inferno (KRIEGSFILM`.
+- **Gleichlautende Logik in mehreren Skripten nach dem Kopieren durchzählen.** Beim Übertragen der Kopfzeilen-Regel ging sie in einer Datei verloren; aufgefallen ist es nur, weil die Zahl der betroffenen Kanäle nachgeprüft wurde.
 
 ### Beim Beurteilen von Ergebnissen
 
@@ -501,6 +541,8 @@ Für einen Teil des Bestands liefert TMDB keine deutsche Einstufung. Eine Ableit
 - **Visuelles Design** der öffentlichen Seite
 - **Rückmeldefunktion für Besucher** (falscher Film, Video nicht abspielbar, weitere Gründe noch zu definieren) — bräuchte den ersten serverseitigen Code im Projekt, etwa eine Vercel-Function
 - **Restfälle mit Werbeüberschrift** (rund 40, überwiegend Volle Power Filme) — nur von Hand lösbar
+- **Sechs Kanäle in Prüfung** (All Time Classic Movies, KinoWelt Deutsch, Rashland, Retroflix, Stash auf Deutsch, Stream Hier) — nach dem ersten Scan Rohdaten sichten, Profile setzen, freigeben. Rashland zeigt laut Kanalbeschreibung auch Dokus und Reportagen; All Time Classic Movies auf Sprache prüfen
+- **„Jugend-Zeit"** (DEFA, 1978) ist derzeit als „Jugend-Zeit zu zweit" (1981) zugeordnet — prüfen
 - **Hakunan** — Kanal gewünscht, ID noch nicht ermittelt
 - **Aufteilung von `filme.json`** — mit über 8 MB wird das Speichern im Review-Werkzeug zunehmend träge
 - **Kanäle mit hoher Fluktuation** über mehrere Prüfläufe beobachten und entscheiden, ob sie sich lohnen
