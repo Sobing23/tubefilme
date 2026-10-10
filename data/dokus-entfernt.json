@@ -3282,5 +3282,45 @@
     "title": "Nocturne",
     "tmdbId": 341376,
     "channelName": "KinoWelt Deutsch"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "AcfkdfFhcGk",
+    "youtubeTitle": "Wer bricht die Macht der SS? Ein Spielfilm, der unter die Haut geht | Ganzer Film",
+    "title": "Wir Geiseln der SS",
+    "tmdbId": 353789,
+    "channelName": "Free Movies Deutschland"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "BcEKrzbT1M8",
+    "youtubeTitle": "JOHN WAYNE – Highnoon in Helltown 🤠 Früher Western-Klassiker - Ganzer Film Deutsch",
+    "title": "JOHN WAYNE - AMERICAN LEGEND",
+    "tmdbId": 284400,
+    "channelName": "Draco Actionfilme"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "L2qhTD7ooVw",
+    "youtubeTitle": "Kintopps Lachkabinett | Laurel & Hardy Filmklassiker",
+    "title": "Kintopps Lachkabinett",
+    "tmdbId": 47993,
+    "channelName": "Artflix"
+  },
+  {
+    "datum": "2026-10-10",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "xMFWIx0a5OI",
+    "youtubeTitle": "Planet Ocean - Von Wald bis Meer",
+    "title": "Planet Ocean",
+    "tmdbId": 152113,
+    "channelName": "CiNENET Deutschland"
   }
 ]
