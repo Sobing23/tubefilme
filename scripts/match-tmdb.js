@@ -202,6 +202,19 @@ function resolveYear(desc, title) {
   return extractProseYear(desc) || extractTitleYear(title);
 }
 
+// Manche Kanäle (z.B. Kino Deutsch) nennen den Originaltitel nicht als eigene
+// Zeile, sondern im Fließtext: "Der Swimmingpool (Originaltitel: La Piscine,
+// 1969), das ikonische Psychodrama von ...". Ohne Bereinigung wurde der ganze
+// Rest des Satzes zum Suchbegriff -- teils über 500 Zeichen, was TMDB mit
+// Fehler 400 ablehnt. Normale Originaltitel-Zeilen bleiben unverändert.
+function bereinigeOriginaltitel(roh) {
+  const mitJahr = roh.match(/^(.{1,120}?),\s*((?:19|20)\d{2})\)/);
+  if (mitJahr) return { titel: mitJahr[1].trim(), jahr: mitJahr[2] };
+  const zu = roh.indexOf(")");
+  if (zu > 0 && !roh.slice(0, zu).includes("(")) return { titel: roh.slice(0, zu).trim(), jahr: null };
+  return { titel: roh, jahr: null };
+}
+
 function extractSearchInfo(video) {
   const desc = video.description || "";
   const fallbackQuery = primaryTitleSegment(video.title);
@@ -224,9 +237,10 @@ function extractSearchInfo(video) {
   if (m) {
     const contextEnd = desc.indexOf(m[0]) + 50;
     const yearMatch = desc.slice(0, contextEnd).match(/\((\d{4})\)/);
+    const ot = bereinigeOriginaltitel(m[1].trim());
     return {
-      year: yearMatch ? yearMatch[1] : resolveYear(desc, video.title),
-      query: stripTrailingYear(m[1].trim()),
+      year: ot.jahr || (yearMatch ? yearMatch[1] : resolveYear(desc, video.title)),
+      query: stripTrailingYear(ot.titel),
       fallbackQuery,
       ...people,
       source: "originaltitel-ohne-jahr",
@@ -541,6 +555,8 @@ function titelzeilenAusBeschreibung(desc) {
 // Baut eine deduplizierte, priorisierte Liste an Suchbegriffen aus allen
 // bekannten Varianten (Originaltitel, bereinigter YouTube-Titel, und deren
 // Ableitungen).
+const MAX_SUCHBEGRIFF = 150;
+
 function buildQueryCandidates(info, video) {
   const candidates = [];
   const seen = new Set();
@@ -549,6 +565,9 @@ function buildQueryCandidates(info, video) {
     // Zentrale Sperre: Allerweltsbegriffe kommen gar nicht erst als
     // Suchbegriff in Frage, egal aus welcher Zerlegung sie stammen.
     if (istGenerischerBegriff(q)) return;
+    // Sicherheitsnetz: Kein echter Filmtitel ist so lang. Solche Begriffe
+    // stammen aus mitgefangenem Fließtext; TMDB lehnt über 500 Zeichen ab.
+    if (q.length > MAX_SUCHBEGRIFF) return;
     const key = q.toLowerCase();
     if (seen.has(key)) return;
     seen.add(key);
@@ -771,7 +790,7 @@ async function findBestMatch(video, zusatzBegriffe = []) {
   const info = extractSearchInfo(video);
   const queryCandidates = buildQueryCandidates(info, video);
   for (const z of zusatzBegriffe) {
-    if (!z || istGenerischerBegriff(z)) continue;
+    if (!z || istGenerischerBegriff(z) || z.length > MAX_SUCHBEGRIFF) continue;
     if (queryCandidates.some((q) => q.toLowerCase() === z.toLowerCase())) continue;
     queryCandidates.push(z);
   }

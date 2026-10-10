@@ -519,6 +519,7 @@ Alles hier ist mindestens einmal schiefgegangen.
 - **Ersatz-Uploads vor dem Einsetzen prüfen.** `duplicates.json` wird nie auf Verfügbarkeit geprüft.
 - **Slugs nie aus veränderlichen Werten ableiten.** Einmal vergeben, dauerhaft gespeichert. Nur ein geänderter Titel führt zu einer neuen Adresse; die alte Seite wird dann entfernt (keine Weiterleitung).
 - **Reine Jahreszahlen sind keine Titelvarianten** — aber nur hinter einem Strich. Am Titelanfang („1917") sind sie Teil des Titels. Die erste Fassung der Bereinigung schnitt beides ab; aufgefallen erst im Vergleich alt gegen neu.
+- **„Originaltitel:" steht nicht immer in einer eigenen Zeile.** Kino Deutsch, Alle Filme Auf Deutsch, Deutsch Film Hub u. a. schreiben im Fließtext: `Der Swimmingpool (Originaltitel: La Piscine, 1969), das ikonische …`. Ohne Bereinigung wurde der Rest des Satzes zum Suchbegriff (bis über 1.200 Zeichen, TMDB lehnt über 500 mit Fehler 400 ab). Jetzt wird bei `, JAHR)` bzw. einer ungeöffneten `)` abgeschnitten; zusätzlich werden Suchbegriffe über 150 Zeichen nie gesendet.
 - **Klammern vor dem Trennen an `|` bereinigen und klammerbewusst trennen.** Sonst entstehen halbe Klammern wie `World War II Inferno (KRIEGSFILM`.
 - **Gleichlautende Logik in mehreren Skripten nach dem Kopieren durchzählen.** Beim Übertragen der Kopfzeilen-Regel ging sie in einer Datei verloren; aufgefallen ist es nur, weil die Zahl der betroffenen Kanäle nachgeprüft wurde.
 
