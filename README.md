@@ -44,6 +44,7 @@ scripts/
   fetch-youtube.js       Videos je Kanal einsammeln (inkrementell)
   filter-movies.js       Shorts, Trailer, Serienfolgen aussortieren
   match-tmdb.js          TMDB-Zuordnung -- das Herzstück
+  verify-plausibility.js Zuordnungen in Stufen belegen, unbelegte neu suchen
   cleanup-matches.js     Sicherheitsnetz gegen doppelte tmdbIds
   remove-documentaries.js  Dokumentationen entfernen (nur Spielfilme)
   prune-excluded.js      neue Filterregeln rückwirkend auf den Bestand anwenden
@@ -84,12 +85,13 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | 1 | `fetch-youtube` | Neue Videos je Kanal. Über `data/state.json` inkrementell: bekannte Videos beenden die Suche vorzeitig. Neue Kanäle laufen automatisch einmal vollständig durch. | YouTube |
 | 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie), **Doku-Wörter** (Doku, Dokumentation, Dokumentarfilm, Documentary, Reportage) sowie **alle Videos von Kanälen mit `inPruefung`** (siehe [Anbieter und Profile](#anbieter-und-profile)). | — |
 | 3 | `match-tmdb` | Zuordnung zu TMDB. Details unten. | TMDB |
+| 3a | `verify-plausibility` | Prüft jede TMDB-Zuordnung in Stufen (Titel, Originaltitel, Besetzung, Alternativtitel von TMDB). Nicht belegbare werden gesperrt und neu gesucht. Geprüfte tragen `plausibel`. | TMDB (nur für unbelegte) |
 | 4 | `cleanup-matches` | Entfernt doppelte tmdbIds. Einträge **ohne** tmdbId sind ausgenommen. | — |
 | 4a | `remove-documentaries` | Entfernt Dokus aus Bibliothek, Unmatched und Duplikaten (siehe [Nur Spielfilme](#nur-spielfilme)). | — |
 | 4b | `prune-excluded` | Lässt neue Filterregeln rückwirkend wirken: entfernt Einträge, deren Video laut `excluded.json` inzwischen ausgeschlossen ist. Protokoll in `aussortiert.json`. | — |
 | 5 | `auto-verify` | Prüft unsichere Zuordnungen gegen die bereits gespeicherte Besetzung. | keine |
 | 6 | `absorb-unmatched` | Übernimmt endgültig nicht auffindbare Filme mit YouTube-Metadaten. | keine |
-| 7 | `fix-titles` | Ersetzt Werbeüberschriften bei übernommenen Filmen durch den echten Titel. | keine |
+| 7 | `fix-titles` | Ersetzt Werbeüberschriften bei übernommenen Filmen durch den echten Titel; zweite Stufe holt den Namen aus `Den Spielfilm „X“`, `Werbesatz: NAME`, schneidet Gattungs-Segmente ab und markiert Rest-Werbesätze mit `titelUnsicher`. | keine |
 | 8 | `fetch-cast` | Besetzung/Regie/Drehbuch nachladen. Überspringt Filme, die diese Felder schon haben. | TMDB |
 | 9 | `fetch-fsk` | FSK nachladen (eigener TMDB-Endpunkt für Freigaben je Land). | TMDB |
 | 10 | `repair-unavailable` | Tote Videos durch geprüfte Ersatz-Uploads ersetzen oder kennzeichnen. | YouTube |
@@ -148,6 +150,10 @@ matchSource         originaltitel+jahr | originaltitel-ohne-jahr | titel-fallbac
                     | manuell | youtube
 matchConfidence     hoch | mittel | niedrig | youtube
 hinweis             Klartext-Erklärung bei Unsicherheit (optional)
+plausibel           titel | originaltitel | besetzung | alternativtitel -- Stufe,
+                    die die Zuordnung belegt hat (verify-plausibility.js)
+titelUnsicher       true, wenn der Titel noch ein Werbesatz ist (nur übernommene
+                    Filme): nicht auf der Startseite, in /alle ganz hinten
 verfuegbar          false, wenn bei YouTube nicht abspielbar (sonst fehlend)
 nichtVerfuegbarGrund geloescht | gesperrt_de | nicht_einbettbar | nicht_oeffentlich
 ```
@@ -226,7 +232,13 @@ Erkennt `auto-verify` eine Zuordnung als falsch, wandert die tmdbId nach `reject
 
 Derselbe Film über mehrere Kanäle: erster Fund gewinnt, jeder weitere wandert dokumentiert nach `duplicates.json`. Dort bleibt er als Ersatz-Upload verfügbar, falls der Hauptupload später verschwindet.
 
-### 9. Nachsuche für übernommene Filme
+### 9. Plausibilitätsprüfung aller Zuordnungen
+
+Eine Zuordnung bleibt nur, wenn eine Stufe sie belegt: (1) TMDB-Titel oder -Originaltitel kommt im Videotitel/der Beschreibung vor — segmentweise, denn deutsche Verleihtitel hängen Zusätze an („Tiefschnee – Winter der Rache"); (2) die `Originaltitel:`-Zeile passt; (3) Besetzung/Regie aus der Beschreibung passt zur gespeicherten; (4) ein **Alternativtitel bei TMDB** passt — eine Anfrage je Film, nur hier. Greift nichts, wird die tmdbId gesperrt und der Film neu gesucht.
+
+Warum nicht einfach verwerfen: Bei der Prüfung vom 10.10. war rund ein Drittel der 76 Verdachtsfälle richtig, nur unter anderem Verleihtitel („Lanky Fellow" = „Ohne Dollar keinen Sarg"). Stufe 4 fängt genau die. Die übrigen waren echte Fehler, darunter Blockbuster aus Werbetiteln ohne Filmnamen (Mission: Impossible, Guardians of the Galaxy 3) und 21 Altlasten mit „hoch" ohne Begründung, die die Neu-Zuordnung nie zurückgesetzt hatte.
+
+### 10. Nachsuche für übernommene Filme
 
 Aus YouTube übernommene Filme (`matchSource: youtube`) werden im normalen Lauf nie wieder gesucht — Verbesserungen an der Logik kämen bei ihnen sonst nie an. Deshalb sucht die Neu-Zuordnung (`rematch.yml`) sie in einem eigenen Schritt erneut: `match-tmdb.js --youtube-nachsuche`.
 
@@ -280,7 +292,9 @@ Genutzt an drei Stellen: in der TMDB-Suche (`match-tmdb.js`, Werbetitel mit höc
 
 Ausgeschlossen werden außerdem Überschriften wie `Cast & Crew` (CiNENET) oder `IMDb: *6,8* von 10` (Moviedome). **Die Prüfung läuft auf der von Symbolen bereinigten Zeile**, sonst rutscht `🎬 Regie & Cast` durch.
 
-**Grenze:** Bei manchen Kanälen — vor allem Volle Power Filme — nennen weder Titel noch Beschreibung je einen Filmnamen, nur Handlung. Diese Fälle lassen sich nicht automatisieren und bleiben Handarbeit im Review-Werkzeug.
+**Zweite Stufe (10.10.2026):** 565 übernommene Filme trugen noch einen Werbesatz als Titel. Zusätzliche Regeln, in dieser Reihenfolge: `Den Spielfilm „X“` aus der Beschreibung (Moviedome, 488 von 606 Videos), Titel in „Anführungszeichen", Rohtitel-Schnitt nach `(JAHR)` und vor der Genre-Klammer, `Werbesatz: NAME` (Vorderteil mit Werbesignal), letztes Strich-Segment als Gattung/Label/„mit Person", Qualitätsanhängsel. Eine Teilangabe („Teil 1 von 2", „ERSTER TEIL") wird erhalten bzw. wieder angehängt — sonst hießen zwei Filme gleich. Ergebnis: 272 Titel bereinigt.
+
+**Grenze:** Bei manchen Kanälen — Volle Power Filme, Free Movies Deutschland, Deutsch Knallhart, Amelia, KinoWelt — nennen weder Titel noch Beschreibung je einen Filmnamen, nur Handlung. Diese 354 Filme tragen `titelUnsicher`: Sie erscheinen nicht in den Startseiten-Reihen, stehen in `/alle` in jeder Sortierung hinten und sind im Review-Reiter **Werbetitel** gelistet, wo sich der echte Name (steht im Video) eintragen lässt. Nach der Korrektur sucht die Nachsuche den Film bei TMDB.
 
 ---
 
@@ -486,6 +500,7 @@ Badges (FSK, „?" bei niedriger Konfidenz) hängen an einem eigenen Rahmen um d
 | Niedrig-Konfidenz | korrigieren, bestätigen, löschen |
 | Fehlende FSK | Einstufung nachtragen |
 | Kein Cover | Bild-URL eintragen oder Platzhalter akzeptieren (aus YouTube übernommene Filme sind ausgenommen) |
+| Werbetitel | übernommene Filme, deren Titel noch ein Werbesatz ist: echten Titel eintragen oder löschen |
 | Alle Filme | suchen, **alle Felder bearbeiten**, löschen |
 | Kanäle | Übersicht alphabetisch mit Filmanzahl |
 

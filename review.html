@@ -199,6 +199,7 @@
     <div class="tab" data-tab="niedrig">Niedrig-Konfidenz (<span id="countNiedrig">–</span>)</div>
     <div class="tab" data-tab="fsk">Fehlende FSK (<span id="countFsk">–</span>)</div>
     <div class="tab" data-tab="cover">Kein Cover (<span id="countCover">–</span>)</div>
+    <div class="tab" data-tab="werbetitel">Werbetitel (<span id="countWerbetitel">–</span>)</div>
     <div class="tab" data-tab="alle">Alle Filme / Löschen</div>
     <div class="tab" data-tab="kanaele">Kanäle</div>
   </div>
@@ -219,6 +220,11 @@
     <div class="panel" id="panel-cover">
       <div id="count-cover" class="count-line">Lade...</div>
       <div id="list-cover"></div>
+    </div>
+    <div class="panel" id="panel-werbetitel">
+      <div id="count-werbetitel" class="count-line">Lade...</div>
+      <p style="color:#999;font-size:13px;margin:4px 0 14px">Aus YouTube übernommene Filme, deren Titel noch ein Werbesatz ist. Der echte Name steht meist nur im Video selbst. Diese Filme erscheinen nicht auf der Startseite und stehen in der Trefferliste ganz hinten, bis der Titel korrigiert ist.</p>
+      <div id="list-werbetitel"></div>
     </div>
     <div class="panel" id="panel-alle">
       <div id="count-alle" class="count-line">Filme durchsuchen, um zu löschen (z.B. Titel eintippen)</div>
@@ -430,11 +436,14 @@ async function loadAll() {
   // nicht in eine Warteschlange, die man abarbeiten könnte. Sonst stünden
   // hier dauerhaft mehrere hundert nicht lösbare Einträge.
   const keinCover = filme.filter(m => !m.posterUrl && m.matchSource !== "youtube" && !coverDismissedSet.has(m.videoId));
+  const werbetitel = filme.filter(m => m.titelUnsicher);
 
   document.getElementById("countUnmatched").textContent = unmatchedFiltered.length;
   document.getElementById("countNiedrig").textContent = niedrig.length;
   document.getElementById("countFsk").textContent = fehlendeFsk.length;
   document.getElementById("countCover").textContent = keinCover.length;
+  document.getElementById("countWerbetitel").textContent = werbetitel.length;
+  document.getElementById("count-werbetitel").textContent = `${werbetitel.length} mit Werbesatz als Titel`;
   document.getElementById("count-unmatched").textContent = `${unmatchedFiltered.length} offen`;
   document.getElementById("count-niedrig").textContent = `${niedrig.length} offen`;
   document.getElementById("count-fsk").textContent = `${fehlendeFsk.length} ohne FSK-Angabe`;
@@ -444,7 +453,60 @@ async function loadAll() {
   renderNiedrig(niedrig);
   renderFsk(fehlendeFsk);
   renderCover(keinCover);
+  renderWerbetitel(werbetitel);
   renderKanaele(channels.channels || [], filme);
+}
+
+// -- Werbetitel-Tab --
+function renderWerbetitel(items) {
+  const list = document.getElementById("list-werbetitel");
+  list.innerHTML = items.slice(0, 150).map(m => `
+    <div class="card" id="card-wt-${m.videoId}" style="grid-template-columns: 90px 1fr;">
+      <div class="poster-placeholder-review">${escapeHtml(m.title)}</div>
+      <div>
+        <h3>${escapeHtml(m.title)}</h3>
+        <div class="meta">
+          <b>Kanal:</b> ${escapeHtml(m.channelName)}
+          ${m.overview ? `<br><span style="color:#999">${escapeHtml(m.overview.slice(0, 220))}…</span>` : ""}
+        </div>
+        <div class="row">
+          ${ytLink(m.videoId)}
+          <input type="text" placeholder="Echter Filmtitel" id="input-wt-${m.videoId}" style="min-width:260px">
+          <button class="primary" onclick="setWerbetitel('${m.videoId}')">Titel speichern</button>
+          <button onclick="deleteMovie('${m.videoId}', 'wt-${m.videoId}')">Löschen</button>
+        </div>
+        <div class="status" id="status-wt-${m.videoId}"></div>
+      </div>
+    </div>`).join("") || "<p>Keine Werbetitel mehr offen.</p>";
+}
+
+async function setWerbetitel(videoId) {
+  const titel = document.getElementById(`input-wt-${videoId}`).value.trim();
+  const statusEl = document.getElementById(`status-wt-${videoId}`);
+  if (!titel) {
+    statusEl.textContent = "Bitte den Filmtitel eintragen.";
+    statusEl.className = "status err";
+    return;
+  }
+  statusEl.textContent = "Speichere...";
+  statusEl.className = "status";
+  try {
+    await ghUpdateFile("data/filme.json", (content) => {
+      const movie = content.find(m => m.videoId === videoId);
+      if (!movie) throw new Error("Film nicht mehr in filme.json gefunden.");
+      movie.title = titel;
+      delete movie.titelUnsicher;
+      movie.matchSource = "manuell";
+      movie.matchConfidence = "hoch";
+      return content;
+    }, `Titel korrigiert: ${videoId}`);
+    statusEl.textContent = "Gespeichert. Beim nächsten Scan sucht die Nachsuche den Film unter diesem Titel bei TMDB.";
+    statusEl.className = "status ok";
+    document.getElementById(`card-wt-${videoId}`)?.classList.add("done");
+  } catch (err) {
+    statusEl.textContent = "Fehler: " + err.message;
+    statusEl.className = "status err";
+  }
 }
 
 // -- Kein-Cover-Tab --
@@ -707,6 +769,7 @@ async function saveEdit(videoId) {
       movie.matchSource = "manuell";
       movie.matchConfidence = "hoch";
       delete movie.hinweis;
+      delete movie.titelUnsicher;
       return content;
     }, `Film bearbeitet: ${videoId}`);
 

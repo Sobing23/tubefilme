@@ -40,6 +40,13 @@ jobs:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/match-tmdb.js
 
+      # Neue Zuordnungen auf Plausibilität prüfen; nicht belegbare werden
+      # gesperrt und beim nächsten Lauf neu gesucht.
+      - name: Zuordnungen auf Plausibilität prüfen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/verify-plausibility.js
+
       - name: Datenqualität bereinigen (Duplikate)
         run: node scripts/cleanup-matches.js
 

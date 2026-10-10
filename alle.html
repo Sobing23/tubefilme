@@ -550,7 +550,19 @@ function currentlyShown() { return lastFiltered; }
 // Sortiert die gefilterte Auswahl. "Standard" lässt die Reihenfolge so, wie
 // sie ankommt -- bei aktiver Suche ist das die Treffergenauigkeit, sonst die
 // Reihenfolge aus dem Index.
+// Einträge, deren Titel noch ein Werbesatz ist, stehen in jeder Sortierung
+// hinten -- sie sind erreichbar, aber nicht das Erste, was man sieht.
+function unsichereNachHinten(liste) {
+  const sicher = liste.filter(m => !m.titelUnsicher);
+  const unsicher = liste.filter(m => m.titelUnsicher);
+  return unsicher.length ? sicher.concat(unsicher) : liste;
+}
+
 function sortiere(liste, modus) {
+  return unsichereNachHinten(sortiereIntern(liste, modus));
+}
+
+function sortiereIntern(liste, modus) {
   if (!modus || modus === "relevanz") return liste;
   const kopie = [...liste];
   const jahr = m => parseInt((m.releaseDate || "").slice(0, 4), 10) || 0;
@@ -709,6 +721,7 @@ fetch(FILME_URL)
       posterUrl: d.p, youtubeThumbnail: d.th, genreIds: d.g,
       fsk: d.f, voteAverage: d.r, matchConfidence: d.c,
       cast: d.ca, director: d.d,
+      titelUnsicher: !!d.u,
     }));
     // Genre-Namen und Cast pro Film vorberechnen -- einmal hier statt bei
     // jeder Suche neu, und als eigene Suchfelder nutzbar

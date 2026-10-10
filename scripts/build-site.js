@@ -373,7 +373,10 @@ function reihe(titel, filme, mehrLink) {
 }
 
 function baueStartseite(filme) {
-  const verfuegbar = filme.filter((m) => m.verfuegbar !== false);
+  // Nur abspielbare Filme mit echtem Titel -- Einträge, deren Titel noch ein
+  // Werbesatz ist (titelUnsicher), bleiben über /alle erreichbar, gehören
+  // aber nicht in die Empfehlungsreihen.
+  const verfuegbar = filme.filter((m) => m.verfuegbar !== false && !m.titelUnsicher);
   const jahr = (m) => parseInt(jahrVon(m), 10) || 0;
 
   const neu = [...verfuegbar]
@@ -522,6 +525,7 @@ async function main() {
     y: jahrVon(m) || null,
     p: m.posterUrl || null,
     th: m.youtubeThumbnail || null,
+    ...(m.titelUnsicher ? { u: 1 } : {}),
     g: m.genreIds || [],
     f: m.fsk || null,
     r: m.voteAverage || null,

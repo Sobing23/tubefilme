@@ -30,6 +30,14 @@ jobs:
       - name: Fragwürdige Zuordnungen zurücksetzen
         run: node scripts/reset-for-rematch.js
 
+      # Alle TMDB-Zuordnungen auf Plausibilität prüfen (Titel, Originaltitel,
+      # Besetzung, Alternativtitel). Nicht belegbare werden gesperrt und im
+      # nächsten Schritt neu gesucht.
+      - name: Zuordnungen auf Plausibilität prüfen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/verify-plausibility.js
+
       - name: TMDB-Zuordnung neu ermitteln
         env:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}

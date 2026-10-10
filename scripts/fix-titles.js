@@ -228,6 +228,122 @@ function istErkennbarMuell(titel) {
   return ersterTeil !== titel && istEtikett(ersterTeil); // "ACTION-THRILLER - ..."
 }
 
+// -- Zweite Stufe: Werbetitel nachbereinigen (Prüfung vom 10.10.2026) --
+//
+// 565 der 1.624 übernommenen Filme trugen noch einen Werbesatz als Titel.
+// Diese Regeln holen den Filmnamen, wo er tatsächlich steht; was danach
+// immer noch wie ein Werbesatz aussieht, wird mit "titelUnsicher" markiert
+// (Startseite zeigt solche Filme nicht, Review-Seite listet sie).
+
+const WERBESIGNAL = /\b(dieser|diesen|dieses|überragend|grandios|genial|wahnsinn|krass|wow|stark|deshalb|klassiker|kult|komplett|spielfilm|komödie|thriller|western|action|abenteuer|mit\s+[A-ZÄÖÜ][\p{L}]+\s+[A-ZÄÖÜ])|film\b/iu;
+// Gattung, Qualität, Label -- als ganzes Strich-Segment hinter dem Titel.
+// \p{L} statt \w, sonst scheitert die Erkennung an Umlauten ("über", "Gänsehaut").
+const GATTUNGSSEGMENT = /^[\p{L}\p{N}\s,\/&!.'-]*(?:thriller|horror|action|komödie|komoedie|drama|kult|western|krimi|sci-fi|science fiction|mystery|fantasy|abenteuer|romantik|märchen|trickfilm|zeichentrick|family|kids|spielfilm|klassiker|film|defa|hd|4k|uhd)(?:\b|(?=[^\p{L}]|$))[\p{L}\p{N}\s,\/&!.'-]*$/iu;
+const MIT_PERSON = /\b(?:mit|con|with)\s+[A-ZÄÖÜ][\p{L}.'-]*\s+[A-ZÄÖÜ][\p{L}.'-]*/u;
+
+// 1. Beschreibung nennt den Film ausdrücklich: Den Spielfilm „X“ ... (Moviedome)
+function titelAusBeschreibungsSatz(desc) {
+  const m = (desc || "").match(/Den (?:Spielfilm|Film|Klassiker)\s+„([^“]{2,80})“/);
+  return m ? m[1].trim() : null;
+}
+
+// 2. Rohtitel: Jahr in Klammern, dahinter Beiwerk ohne Trennzeichen
+//    ("Django - Die Nacht der langen Messer (1970) Leonard Mann")
+function schnittNachJahr(roh) {
+  const m = roh.match(/^(.{3,}?)\s*\((19|20)\d{2}\)\s+[^|()]+$/);
+  return m ? m[1] : null;
+}
+
+// 3. Rohtitel: Text nach der Genre-Klammer ist eine Werbezeile
+//    ("Krampus 2 - Die Abrechnung [Horror] [Komödie] Rache & Böse Weihnachtszeit | ...")
+function schnittVorGenreKlammer(roh) {
+  const m = roh.match(/^(.{3,}?)\s*\[[^\]]{2,30}\]/);
+  return m ? m[1] : null;
+}
+
+// 4. "Werbesatz: NAME" -- der Teil vor dem letzten Doppelpunkt ist Werbung
+function titelNachDoppelpunkt(t) {
+  const i = t.lastIndexOf(": ");
+  if (i < 3) return null;
+  const vorn = t.slice(0, i), rest = t.slice(i + 2).trim();
+  const w = rest.split(/\s+/).length;
+  if (w < 1 || w > 8 || !WERBESIGNAL.test(vorn)) return null;
+  if (istEtikett(rest)) return null;
+  // "TEIL 2 mit GÉRARD DEPARDIEU: Lady Musketier" -- die Teilangabe gehört zum Titel
+  const teil = vorn.match(/\bteil\s*(\d+)/i);
+  return teil && !/\bteil\s*\d/i.test(rest) ? `${rest} - Teil ${teil[1]}` : rest;
+}
+
+// 5. Letztes Strich-Segment ist Gattung/Werbung ("Blind - Du bist niemals
+//    allein - Horror, Thriller" -> "Blind - Du bist niemals allein").
+//    Ein "Teil N" ganz hinten gehört zum Titel und bleibt erhalten.
+function ohneGattungsSegment(t) {
+  const teile = t.split(/\s[-–—]\s/);
+  let teilNr = null;
+  if (teile.length > 1 && /^teil\s*\d+(\s*(?:\/|von)\s*\d+)?$/i.test(teile[teile.length - 1])) teilNr = teile.pop();
+  while (teile.length > 1) {
+    const letzt = teile[teile.length - 1];
+    if (GATTUNGSSEGMENT.test(letzt) || MIT_PERSON.test(letzt) || istEtikett(letzt)) teile.pop();
+    else break;
+  }
+  if (teilNr) teile.push(teilNr.replace(/\s*(?:\/|von)\s*\d+$/i, "").replace(/^teil/i, "Teil"));
+  return teile.join(" - ");
+}
+
+// 6. Titel in Anführungszeichen („U 47 - Priens Angriff auf Scapa Flow“)
+function titelInAnfuehrung(t) {
+  const m = t.match(/[„"]([^“”"]{4,80})[“”"]/);
+  return m && m[1].trim().split(/\s+/).length >= 2 ? m[1].trim() : null;
+}
+
+function stripLeadingSymbolsLokal(t) {
+  return (t || "").replace(/^[^\p{L}\p{N}"„(]+/u, "").trim();
+}
+
+function nachbereinigen(titel, roh, desc) {
+  const ausSatz = titelAusBeschreibungsSatz(desc);
+  if (ausSatz) return mitTeilangabe(ausSatz, roh);
+  let t = titel;
+  const vorJahr = schnittNachJahr(roh);
+  if (vorJahr && t.startsWith(vorJahr.replace(/\s*[-–—]\s*$/, ""))) t = vorJahr;
+  const vorKlammer = schnittVorGenreKlammer(roh);
+  if (vorKlammer && t.startsWith(vorKlammer.trim())) t = vorKlammer;
+  t = titelInAnfuehrung(t) || t;
+  // Qualitäts- und Werbeanhängsel zuerst, damit die Doppelpunkt-Regel den
+  // reinen Namen sieht ("Film Klassiker: X (Y) 1969 HD")
+  t = t.replace(/\s+(?:den ganzen film|ganzer film|film komplett|klassisches kino|HD|4K|UHD)\b.*$/i, "");
+  t = t.replace(/\s*\((19|20)\d{2}\)\s*$/, "").replace(/\s+(19|20)\d{2}\s*$/, "");
+  t = titelNachDoppelpunkt(t) || t;
+  t = ohneGattungsSegment(t);
+  t = t.replace(/\s*\((19|20)\d{2}\)\s*$/, "").replace(/\s+(19|20)\d{2}\s*$/, "");
+  t = stripLeadingSymbolsLokal(t)
+    .replace(/[^\p{L}\p{N}"“)!?.]+$/u, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s*[-–—|*:]\s*$/, "")
+    .trim();
+  return t.length >= 2 ? mitTeilangabe(t, roh) : titel;
+}
+
+// Mehrteiler: die Teilangabe steht oft nur im Videotitel ("Teil 1 von 2",
+// "(ERSTER TEIL, ...)") und ging beim Bereinigen verloren. Ohne sie hießen
+// zwei verschiedene Filme gleich.
+function mitTeilangabe(t, roh) {
+  if (/\bteil\s*\d/i.test(t)) return t;
+  const m = (roh || "").match(/\b(?:teil\s*(\d+)|(erster|zweiter|dritter)\s+teil)\b/i);
+  if (!m) return t;
+  const nr = m[1] || { erster: "1", zweiter: "2", dritter: "3" }[m[2].toLowerCase()];
+  return `${t} - Teil ${nr}`;
+}
+
+// Sieht der Titel immer noch nach einem Werbesatz statt einem Filmnamen aus?
+function istWerbetitel(t) {
+  const w = t.split(/\s+/).length;
+  if (w >= 10) return true;
+  if (w >= 7 && (/[!?…]/.test(t) || WERBESIGNAL.test(t))) return true;
+  if (/^[^\p{L}\p{N}]/u.test(t)) return true;
+  return false;
+}
+
 async function main() {
   const filme = JSON.parse(await fs.readFile(FILME_PATH, "utf-8"));
 
@@ -281,9 +397,32 @@ async function main() {
     geaendert++;
   }
 
+  // Zweite Stufe auf alle übernommenen Einträge
+  let nachbereinigt = 0;
+  let unsicher = 0;
+  const beispiele2 = [];
+  for (const film of filme) {
+    if (film.matchSource !== "youtube") continue;
+    const roh = rohTitel.get(film.videoId) || film.youtubeTitle || "";
+    const neu = nachbereinigen(film.title, roh, beschreibungen.get(film.videoId));
+    if (neu !== film.title && !istEtikett(neu)) {
+      if (beispiele2.length < 12) beispiele2.push({ alt: film.title, neu });
+      film.title = neu;
+      nachbereinigt++;
+    }
+    if (istWerbetitel(film.title)) {
+      film.titelUnsicher = true;
+      unsicher++;
+    } else {
+      delete film.titelUnsicher;
+    }
+  }
+
   await fs.writeFile(FILME_PATH, JSON.stringify(filme, null, 2), "utf-8");
 
   console.log(`Titel bereinigt: ${geaendert}`);
+  console.log(`Werbetitel nachbereinigt: ${nachbereinigt}, weiterhin als Werbetitel markiert: ${unsicher}`);
+  beispiele2.forEach((b) => console.log(`  ${b.alt.slice(0, 60)}  ->  ${b.neu}`));
   if (beispiele.length) {
     console.log("\nBeispiele:");
     beispiele.forEach((b) => {
