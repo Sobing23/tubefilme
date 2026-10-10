@@ -1,24 +1,240 @@
 [
   {
-    "videoId": "NLBERX2gVuo",
-    "youtubeTitle": "OPERATION SCHWEIGEN | CIA WOLLTE IHN FÜR IMMER ZUM SCHWEIGEN BRINGEN | Denzel Washington Tom Cruise",
-    "suchbegriff": "OPERATION SCHWEIGEN",
+    "videoId": "OvEgYzjXYt0",
+    "youtubeTitle": "Herrscher über Deine Flügel (Winning Your Wings KRIEGSFILM HISTORISCH KLASSIKER auf Englisch)",
+    "suchbegriff": "Winning Your Wings",
+    "erwartetesJahr": "1942",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vvt3OeiCSdQ",
+    "youtubeTitle": "Der Filou (KOMÖDIE | Klassiker, Komödie mit Oliver Hardy, kompletter Film auf Deutsch ansehen)",
+    "suchbegriff": "Der Filou",
+    "erwartetesJahr": "1925",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 30)",
+    "tmdbTopKandidat": {
+      "id": 118694,
+      "title": "Der Filou",
+      "release_date": "1985-02-27"
+    }
+  },
+  {
+    "videoId": "pWGSjDYqt0E",
+    "youtubeTitle": "Julius Caesar (2002) | Ganzer Film auf Deutsch | Historien-Epos HD",
+    "suchbegriff": "Julius Caesar",
+    "erwartetesJahr": "2002",
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 802077,
+      "title": "Julius Caesar",
+      "release_date": "2021-03-01"
+    }
+  },
+  {
+    "videoId": "78m-g9lwOvY",
+    "youtubeTitle": "Die verrückte Reise der Pinguine (Tierische KOMÖDIE, ganzer Film, Komödien Filme Deutsch komplett)",
+    "suchbegriff": "Farce of the Penguins",
+    "erwartetesJahr": "2006",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "NdHzsj0e04I",
+    "youtubeTitle": "Freundschaft siegt: A Horse Called Hope – Pferdefilm Ganzer Film HD",
+    "suchbegriff": "Freundschaft siegt: A Horse Called Hope – Pferdefilm Ganzer Film HD",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "pAPMze-292E",
-    "youtubeTitle": "📼 Zurückgespult: Deutschland in den 90ern 🇩🇪 Als die Welt noch in Ordnung schien! ❤️",
-    "suchbegriff": "Zurückgespult: Deutschland in den 90ern 🇩🇪 Als die Welt noch in Ordnung schien! ❤️",
+    "videoId": "-sN3DswCP5E",
+    "youtubeTitle": "Massaker | Barry Sullivan | Cowboyfilm | 4K | Deutsch",
+    "suchbegriff": "Massaker",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 84) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 78038,
+      "title": "Massaker im Morgengrauen",
+      "release_date": "1961-09-26"
+    }
+  },
+  {
+    "videoId": "LZOf3z_yXko",
+    "youtubeTitle": "Der unsichtbare Feind | Western | Koloriert | Indianerfilm",
+    "suchbegriff": "Der unsichtbare Feind",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 89) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1078744,
+      "title": "Escape - Der unsichtbare Feind",
+      "release_date": "2024-10-31"
+    }
+  },
+  {
+    "videoId": "vA9kfFLZkRI",
+    "youtubeTitle": "Mission Heimat | SCI-FI | Ganzer Film | Film Komplett auf Deutsch",
+    "suchbegriff": "Mission Heimat",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 428188,
+      "title": "Heimat Südtirol - Die Mission des Michael Gamper",
+      "release_date": "2014-04-12"
+    }
+  },
+  {
+    "videoId": "7R76uhGEJEQ",
+    "youtubeTitle": "Spannender PSYCHOTHRILLER: Mary Higgins Clark: Dass du ewig denkst an mich | Mystery Filme DEUTSCH",
+    "suchbegriff": "Still Waters",
+    "erwartetesJahr": "2002",
+    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 79219,
+      "title": "Still Waters",
+      "release_date": "2011-12-12"
+    }
+  },
+  {
+    "videoId": "7KQczDRIzh8",
+    "youtubeTitle": "Kampf der Konfessionen: Kyrill & Method - Historienfilm - Ganzer Film kostenlos in bei Moviedome",
+    "suchbegriff": "Cyril and Methodius: The Apostles of the Slavs",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -35)",
+    "tmdbTopKandidat": {
+      "id": 416819,
+      "title": "Proslava na 'Sv. Kiril i Metodij'",
+      "release_date": "1905-09-18"
+    }
+  },
+  {
+    "videoId": "CqM6xeuyy3U",
+    "youtubeTitle": "Die Spur des Falken (SPANNENDER WESTERN mit GOJKO MITIC, ganzer film, deutsche filme, western film)",
+    "suchbegriff": "Die Spur des Falken",
+    "erwartetesJahr": "1968",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vfHOFpd089M",
+    "youtubeTitle": "Orden für die Wunderkinder Satirischer Spielfilm | Deutschland | 1963",
+    "suchbegriff": "Orden für die Wunderkinder Satirischer Spielfilm",
+    "erwartetesJahr": "1963",
+    "grund": "Schwache Übereinstimmung (Wert 55) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 8016,
+      "title": "Deutschland im Jahre Null",
+      "release_date": "1948-07-11"
+    }
+  },
+  {
+    "videoId": "D2pmrmKVO2c",
+    "youtubeTitle": "Heimatfilm: Wenn die Abendglocken läuten 1951",
+    "suchbegriff": "Heimatfilm: Wenn die Abendglocken läuten 1951",
+    "erwartetesJahr": "1951",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "07VjYSmWivI",
+    "youtubeTitle": "Bettkarriere (1966) – Glamour, Macht und Einsamkeit",
+    "suchbegriff": "Bettkarriere",
+    "erwartetesJahr": "1966",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_luvk0iBEMs",
+    "youtubeTitle": "Der Meisterdetektiv - Killing in Action (1981) [Action] [Krimi] | ganzer Film auf Deutsch",
+    "suchbegriff": "Der Meisterdetektiv - Killing in Action",
+    "erwartetesJahr": "1981",
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 496114,
+      "title": "Der Meisterdetektiv",
+      "release_date": "1933-05-14"
+    }
+  },
+  {
+    "videoId": "1AldS8J6WNA",
+    "youtubeTitle": "Intime Affären (2001) [Drama] [Romantik] Wissenschaft trifft Til Schweiger | Ganzer Film auf deutsch",
+    "suchbegriff": "Intime Affären",
+    "erwartetesJahr": "2001",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "6pDzy4XnxHE",
+    "youtubeTitle": "Verschwunden: Albtraum in den Flitterwochen (2006) [Action-Thriller] | ganzer Film (deutsch) ᴴᴰ",
+    "suchbegriff": "Verschwunden: Albtraum in den Flitterwochen",
+    "erwartetesJahr": "2006",
+    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 8740,
+      "title": "Spurlos verschwunden",
+      "release_date": "1988-10-27"
+    }
+  },
+  {
+    "videoId": "BNJXybT9HWg",
+    "youtubeTitle": "Der Antichrist - Omen des Grauens (2007) [Horror] | ganzer Film (deutsch) ᴴᴰ",
+    "suchbegriff": "Der Antichrist - Omen des Grauens",
+    "erwartetesJahr": "2007",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 18)",
+    "tmdbTopKandidat": {
+      "id": 1615082,
+      "title": "Der Antichrist",
+      "release_date": ""
+    }
+  },
+  {
+    "videoId": "T98zBiZuMeg",
+    "youtubeTitle": "The Three Stooges (1936) [Komödie] | ganzer Film (deutsch)",
+    "suchbegriff": "The Three Stooges",
+    "erwartetesJahr": "1936",
+    "grund": "Schwache Übereinstimmung (Wert 54) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 85411,
+      "title": "The Three Stooges",
+      "release_date": "2000-04-24"
+    }
+  },
+  {
+    "videoId": "U-7TKv9W628",
+    "youtubeTitle": "Der Dritte Weltkrieg – Russische Invasion auf die USA (KRIEGSFILM Deutsch ganzer Film, Weltkrieg)",
+    "suchbegriff": "World War III",
+    "erwartetesJahr": "1982",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -4)",
+    "tmdbTopKandidat": {
+      "id": 38828,
+      "title": "Finale - Die Welt im Krieg",
+      "release_date": "2005-10-21"
+    }
+  },
+  {
+    "videoId": "ItLrfyXDsnU",
+    "youtubeTitle": "Ein Junge sucht Tränen – und findet Magie | Nightingale | Drama/Fantasy | Ganzer Film Deutsch",
+    "suchbegriff": "Ein Junge sucht Tränen – und findet Magie",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 60) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 49349,
+      "title": "Florence Nightingale",
+      "release_date": "1985-04-07"
+    }
+  },
+  {
+    "videoId": "dziyTkBwpk8",
+    "youtubeTitle": "Schurback | Drama/Mockumentary | Ganzer Film Deutsch | Alles verloren – was bleibt?",
+    "suchbegriff": "Schurback",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "7tFOI7EEPwQ",
-    "youtubeTitle": "🤪🍿 Die verrückteste Nacht in Vegas! Sie erinnern sich an nichts … ABER DER AFFE WEISS ALLES! |  Film",
-    "suchbegriff": "Die verrückteste Nacht in Vegas! Sie erinnern sich an nichts … ABER DER AFFE WEISS ALLES!",
+    "videoId": "USGZXd5NFEI",
+    "youtubeTitle": "Um SEINE SCHWESTER ZU RETTEN, legt er sich mit einer gefährlichen Sekte an! 🎬 | Ganzer Film",
+    "suchbegriff": "Um SEINE SCHWESTER ZU RETTEN, legt er sich mit einer gefährlichen Sekte an! 🎬",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
