@@ -1,22 +1,50 @@
 [
   {
-    "videoId": "KNS7d8U7rJk",
-    "youtubeTitle": "Sie kennt ein Staatsgeheimnis… doch selbst das Gefängnis bringt sie nicht zum Schweigen | Thriller",
-    "suchbegriff": "Sie kennt ein Staatsgeheimnis… doch selbst das Gefängnis bringt sie nicht zum Schweigen",
+    "videoId": "2u2t4apbEAs",
+    "youtubeTitle": "😂 Komödien | Ihr Neuanfang endet in einer Katastrophe | Filme deutsch komplet 4K",
+    "suchbegriff": "Komödien",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
+    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 11308,
+      "title": "Das Hotel New Hampshire",
+      "release_date": "1984-03-09"
+    }
   },
   {
-    "videoId": "WoNfZO6v3eQ",
-    "youtubeTitle": "Exorcist 3 – The Song of Solomon (2017) [Horror] | Extrem-Exorzismus | Ganzer Film auf Deutsch",
-    "suchbegriff": "Exorcist 3 – The Song of Solomon",
-    "erwartetesJahr": "2017",
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 31)",
+    "videoId": "_-1TEDWsKi0",
+    "youtubeTitle": "Richard Löwenherz - Teil 3 | KOLORIERT",
+    "suchbegriff": "Richard Löwenherz - Teil 3",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 73986,
-      "title": "Der Exorzismus der Anneliese M.",
-      "release_date": "2011-10-17"
+      "id": 30840,
+      "title": "Robin Hood - Ein Leben für Richard Löwenherz",
+      "release_date": "1991-04-26"
+    }
+  },
+  {
+    "videoId": "WcQ-0UP1_VY",
+    "youtubeTitle": "I Want To Kill",
+    "suchbegriff": "I Want To Kill",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 5)",
+    "tmdbTopKandidat": {
+      "id": 37130,
+      "title": "Impulse",
+      "release_date": "1974-10-01"
+    }
+  },
+  {
+    "videoId": "zi3K-DJAing",
+    "youtubeTitle": "BTK: Die blutige Maske | Psychothriller",
+    "suchbegriff": "BTK: Die blutige Maske",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1550785,
+      "title": "Mein Vater, der BTK-Killer",
+      "release_date": "2025-10-09"
     }
   }
 ]
