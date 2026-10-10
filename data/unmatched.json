@@ -1,26 +1,22 @@
 [
   {
-    "videoId": "VTtm4Gq3e1M",
-    "youtubeTitle": "👿Playhouse - Spielplatz des Teufels | Horror, Mystery | Ganzer Film Deutsch",
-    "suchbegriff": "Playhouse - Spielplatz des Teufels",
+    "videoId": "KNS7d8U7rJk",
+    "youtubeTitle": "Sie kennt ein Staatsgeheimnis… doch selbst das Gefängnis bringt sie nicht zum Schweigen | Thriller",
+    "suchbegriff": "Sie kennt ein Staatsgeheimnis… doch selbst das Gefängnis bringt sie nicht zum Schweigen",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "rYQ9WfZ5mO0",
-    "youtubeTitle": "✨Eine Legende, die zum Leben erwacht! Die unglaubliche Atmosphäre des legendären Avalon |Ganzer Film",
-    "suchbegriff": "Eine Legende, die zum Leben erwacht! Die unglaubliche Atmosphäre des legendären Avalon",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "hRk72SthXeM",
-    "youtubeTitle": "Wenn das Schicksal zwei Herzen erneut verbindet | Ein unglaublich romantischer Liebesfilm",
-    "suchbegriff": "Wenn das Schicksal zwei Herzen erneut verbindet",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
+    "videoId": "WoNfZO6v3eQ",
+    "youtubeTitle": "Exorcist 3 – The Song of Solomon (2017) [Horror] | Extrem-Exorzismus | Ganzer Film auf Deutsch",
+    "suchbegriff": "Exorcist 3 – The Song of Solomon",
+    "erwartetesJahr": "2017",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 31)",
+    "tmdbTopKandidat": {
+      "id": 73986,
+      "title": "Der Exorzismus der Anneliese M.",
+      "release_date": "2011-10-17"
+    }
   }
 ]
