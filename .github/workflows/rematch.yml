@@ -35,6 +35,14 @@ jobs:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/match-tmdb.js
 
+      # Aus YouTube übernommene Filme mit der aktuellen Logik erneut suchen.
+      # Ersetzt nur bei sicherem Treffer mit hartem Beleg, entfernt nie einen
+      # Film. Das Protokoll listet jede Änderung einzeln (vorher -> nachher).
+      - name: Übernommene YouTube-Filme erneut bei TMDB suchen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/match-tmdb.js --youtube-nachsuche
+
       - name: Datenqualität bereinigen (Duplikate)
         run: node scripts/cleanup-matches.js
 

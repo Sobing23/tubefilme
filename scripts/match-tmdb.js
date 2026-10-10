@@ -763,9 +763,18 @@ function hatUnabhaengigenBeleg(best, info) {
   return false;
 }
 
-async function findBestMatch(video) {
+// zusatzBegriffe: weitere Suchbegriffe, die ganz hinten angehängt werden --
+// wird nur von der Nachsuche für übernommene YouTube-Filme genutzt (dort ist
+// der bereits bereinigte Bibliothekstitel ein guter letzter Versuch). Im
+// normalen Lauf ist die Liste leer und das Verhalten unverändert.
+async function findBestMatch(video, zusatzBegriffe = []) {
   const info = extractSearchInfo(video);
   const queryCandidates = buildQueryCandidates(info, video);
+  for (const z of zusatzBegriffe) {
+    if (!z || istGenerischerBegriff(z)) continue;
+    if (queryCandidates.some((q) => q.toLowerCase() === z.toLowerCase())) continue;
+    queryCandidates.push(z);
+  }
 
   // Alle gefundenen Filme sammeln (nach tmdbId dedupliziert, bester Wert
   // gewinnt) -- damit steht am Ende eine Rangliste zur Verfügung und nicht
@@ -878,6 +887,9 @@ async function findBestMatch(video) {
     info,
     confidence,
     yearNote: notes.length ? notes.join(" · ") : null,
+    // Welche harten Belege es gibt -- die Nachsuche verlangt mehr als nur
+    // einen hohen Wert (siehe youtubeNachsuche).
+    belege: { exactTitle: !!best.exactTitle, personConfirmed: !!best.personConfirmed },
   };
 }
 
@@ -971,6 +983,18 @@ async function main() {
   // anfassen, selbst wenn data/manual-matches.json inzwischen eine Korrektur
   // dafür enthält -- der eigentliche Zweck der Datei.
   const candById = new Map(candidates.map((c) => [c.videoId, c]));
+
+  // Sondermodus der Neu-Zuordnung: nur die aus YouTube übernommenen Filme
+  // erneut bei TMDB suchen, sonst nichts. Manuelle Overrides und neue Videos
+  // hat der vorherige, normale Aufruf im selben Workflow bereits erledigt.
+  if (NACHSUCHE) {
+    const behalten = matched; // wird von youtubeNachsuche direkt verändert
+    await youtubeNachsuche(behalten, duplicates, candById, tmdbIdToChannel);
+    await fs.writeFile(OUT_MATCHED, JSON.stringify(behalten, null, 2), "utf-8");
+    await fs.writeFile(OUT_DUPLICATES, JSON.stringify(duplicates, null, 2), "utf-8");
+    return;
+  }
+
   let overridesApplied = 0;
 
   for (const [videoId, tmdbId] of Object.entries(manualMatches)) {
@@ -1092,6 +1116,182 @@ async function main() {
     confidenceCounts[m.matchConfidence] = (confidenceCounts[m.matchConfidence] || 0) + 1;
   }
   console.log("Konfidenz-Verteilung:", confidenceCounts);
+}
+
+// -- Nachsuche für übernommene YouTube-Filme --
+//
+// Filme, die bei TMDB nicht gefunden wurden, übernimmt absorb-unmatched.js
+// mit ihren YouTube-Angaben (matchSource "youtube"). Danach fasst sie keine
+// Suche mehr an -- Verbesserungen an der Zuordnungslogik kommen bei ihnen
+// also nie an (Beispiel: "Auf der Reeperbahn nachts um halb eins, 1954 |
+// HeimatfilmeTV" blieb ohne Poster, obwohl die heutige Logik den Film findet).
+//
+// Diese Nachsuche läuft nur in der Neu-Zuordnung (--youtube-nachsuche) und ist
+// absichtlich strenger als die normale Suche. Diese Filme sind schon einmal
+// gescheitert, und ein Fehltreffer würde einen brauchbaren YouTube-Eintrag
+// durch einen falschen Film mit falschem Poster ersetzen. Übernommen wird
+// deshalb nur, wenn ALLES zutrifft:
+//   - Konfidenz "hoch" nach der normalen Bewertung
+//   - und ein harter Beleg: Besetzung/Regie bestätigt ODER exakter Titel
+//     mit passendem Jahr (±1). Ein hoher Wert allein reicht nicht -- Teil-
+//     titel + bekannter Film + richtiges Jahr erreichen ihn auch ohne der
+//     richtige Film zu sein.
+// Sonst bleibt der Eintrag unverändert. Es verschwindet nie ein Film: Ist der
+// gefundene Film schon in der Bibliothek, wandert der Eintrag nach
+// duplicates.json (von dort kann repair-unavailable.js ihn weiterhin als
+// Ersatz-Upload nutzen).
+//
+// Optional: --limit N prüft nur die ersten N Filme (für einen Probelauf).
+const NACHSUCHE = process.argv.includes("--youtube-nachsuche");
+const NACHSUCHE_LIMIT = (() => {
+  const i = process.argv.indexOf("--limit");
+  const n = i !== -1 ? parseInt(process.argv[i + 1], 10) : NaN;
+  return Number.isFinite(n) && n > 0 ? n : Infinity;
+})();
+
+function istUebernommen(m) {
+  return m.matchSource === "youtube" || m.matchConfidence === "youtube";
+}
+
+function jahrPasst(info, tmdbMovie) {
+  if (!info.year) return false;
+  const ry = (tmdbMovie.release_date || "").slice(0, 4);
+  if (!ry) return false;
+  return Math.abs(parseInt(ry, 10) - parseInt(info.year, 10)) <= 1;
+}
+
+// Liefert null, wenn der Treffer übernommen werden darf, sonst den Grund.
+function nachsucheAblehnung(res) {
+  if (!res.match) {
+    return res.reason === "kein TMDB-Treffer"
+      ? "kein TMDB-Treffer"
+      : "Treffer zu unsicher (schon nach normaler Bewertung abgelehnt)";
+  }
+  if (res.confidence !== "hoch") return `Konfidenz nur "${res.confidence}"`;
+  if (res.belege.personConfirmed) return null;
+  if (res.belege.exactTitle && jahrPasst(res.info, res.match)) return null;
+  if (res.belege.exactTitle) return "exakter Titel, aber Jahr fehlt oder weicht ab";
+  return "kein harter Beleg (weder Besetzung noch exakter Titel mit Jahr)";
+}
+
+async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) {
+  const ziele = matched.filter(istUebernommen).slice(0, NACHSUCHE_LIMIT);
+  console.log(`Nachsuche: ${ziele.length} aus YouTube übernommene Filme werden erneut bei TMDB gesucht.`);
+
+  const ersetzt = [];
+  const zuDuplikaten = [];
+  const gruende = {};
+  let ohneKandidat = 0;
+  let fehler = 0;
+  const entfernen = new Set();
+
+  let n = 0;
+  for (const eintrag of ziele) {
+    n++;
+    if (n % 100 === 0) console.log(`... ${n} / ${ziele.length}`);
+
+    const video = candById.get(eintrag.videoId);
+    if (!video) {
+      ohneKandidat++;
+      continue;
+    }
+
+    // Ohne Jahr und ohne Besetzung kann keiner der beiden harten Belege
+    // zustande kommen -- die Suche würde nur TMDB-Zeit kosten. Betrifft
+    // laut Datenbestand rund 60 % der übernommenen Filme.
+    const vorab = extractSearchInfo(video);
+    if (!vorab.year && vorab.cast.length === 0 && vorab.directors.length === 0) {
+      gruende["weder Jahr noch Besetzung bekannt (nicht gesucht)"] =
+        (gruende["weder Jahr noch Besetzung bekannt (nicht gesucht)"] || 0) + 1;
+      continue;
+    }
+
+    let res;
+    try {
+      res = await findBestMatch(video, [eintrag.title]);
+    } catch (err) {
+      fehler++;
+      console.log(`   Fehler bei "${eintrag.title}": ${err.message}`);
+      continue;
+    }
+
+    const ablehnung = nachsucheAblehnung(res);
+    if (ablehnung) {
+      const schluessel = ablehnung.startsWith("Konfidenz") ? "Konfidenz unter \"hoch\"" : ablehnung;
+      gruende[schluessel] = (gruende[schluessel] || 0) + 1;
+      await sleep(DELAY_MS);
+      continue;
+    }
+
+    const tmdb = res.match;
+    const vorhandenAuf = tmdbIdToChannel.get(tmdb.id);
+
+    if (vorhandenAuf) {
+      // Film ist schon in der Bibliothek -> nicht doppelt führen
+      duplicates.push({
+        videoId: eintrag.videoId,
+        youtubeTitle: eintrag.youtubeTitle,
+        channelName: eintrag.channelName,
+        tmdbId: tmdb.id,
+        title: tmdb.title,
+        bereitsVorhandenAufKanal: vorhandenAuf,
+      });
+      entfernen.add(eintrag);
+      zuDuplikaten.push({ alt: eintrag.title, neu: tmdb.title, jahr: (tmdb.release_date || "").slice(0, 4), kanal: vorhandenAuf });
+    } else {
+      const hinweise = [`Bei der Nachsuche gefunden -- vorher aus YouTube übernommen als "${eintrag.title}"`];
+      if (res.yearNote) hinweise.push(res.yearNote);
+      const neu = buildEntry(video, tmdb, res.info.source, "hoch", hinweise.join(" · "));
+
+      // TMDB hat bei Nischentiteln manchmal keine Beschreibung -- dann die
+      // bisherige aus YouTube behalten statt ein leeres Feld zu zeigen.
+      if (!neu.overview && eintrag.overview) neu.overview = eintrag.overview;
+
+      // Verfügbarkeit gehört zum Video, nicht zum Film -- unverändert mitnehmen.
+      if ("verfuegbar" in eintrag) neu.verfuegbar = eintrag.verfuegbar;
+      if ("nichtVerfuegbarGrund" in eintrag) neu.nichtVerfuegbarGrund = eintrag.nichtVerfuegbarGrund;
+
+      // Bewusst OHNE slug, cast, director, writer, fsk:
+      //  - slug: build-site.js vergibt die Adresse neu aus dem richtigen
+      //    Titel (die alte stammt oft aus einem Werbetitel)
+      //  - cast/director/writer/fsk: fetch-cast.js und fetch-fsk.js laden
+      //    sie im selben Workflow von TMDB nach
+      const idx = matched.indexOf(eintrag);
+      matched[idx] = neu;
+      tmdbIdToChannel.set(tmdb.id, eintrag.channelName);
+      ersetzt.push({ alt: eintrag.title, neu: tmdb.title, jahr: (tmdb.release_date || "").slice(0, 4), kanal: eintrag.channelName });
+    }
+
+    await sleep(DELAY_MS);
+  }
+
+  if (entfernen.size > 0) {
+    for (let i = matched.length - 1; i >= 0; i--) {
+      if (entfernen.has(matched[i])) matched.splice(i, 1);
+    }
+  }
+
+  const unveraendert = ziele.length - ersetzt.length - zuDuplikaten.length;
+  console.log(`\nNachsuche abgeschlossen:`);
+  console.log(`Durch TMDB-Daten ersetzt:            ${ersetzt.length}`);
+  console.log(`Schon in der Bibliothek -> Duplikat: ${zuDuplikaten.length}`);
+  console.log(`Unverändert geblieben:               ${unveraendert}`);
+  for (const [grund, anzahl] of Object.entries(gruende).sort((a, b) => b[1] - a[1])) {
+    console.log(`   ${String(anzahl).padStart(5)}  ${grund}`);
+  }
+  if (ohneKandidat) console.log(`   ${String(ohneKandidat).padStart(5)}  Video nicht in candidates.json`);
+  if (fehler) console.log(`   ${String(fehler).padStart(5)}  Fehler bei der Abfrage`);
+  console.log(`Bibliothek jetzt:                    ${matched.length}`);
+
+  // Vollständige Liste ins Protokoll -- damit sich jede Änderung prüfen lässt.
+  if (ersetzt.length) {
+    console.log(`\nErsetzt (vorher -> nachher):`);
+    for (const e of ersetzt) console.log(`   [${e.kanal}] ${e.alt}  ->  ${e.neu} (${e.jahr || "?"})`);
+  }
+  if (zuDuplikaten.length) {
+    console.log(`\nAls Duplikat verschoben (Film steht schon in der Bibliothek):`);
+    for (const e of zuDuplikaten) console.log(`   ${e.alt}  ->  ${e.neu} (${e.jahr || "?"}), vorhanden auf ${e.kanal}`);
+  }
 }
 
 function buildEntry(video, tmdbMovie, matchSource, matchConfidence, hinweis) {
