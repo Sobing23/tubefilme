@@ -49,6 +49,9 @@ jobs:
       - name: Dokumentationen entfernen (nur Spielfilme)
         run: node scripts/remove-documentaries.js
 
+      - name: Nach neuen Filterregeln aussortieren (rückwirkend)
+        run: node scripts/prune-excluded.js
+
       - name: Unsichere Zuordnungen automatisch nachprüfen
         run: node scripts/auto-verify.js
 

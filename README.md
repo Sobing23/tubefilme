@@ -46,6 +46,7 @@ scripts/
   match-tmdb.js          TMDB-Zuordnung -- das Herzstück
   cleanup-matches.js     Sicherheitsnetz gegen doppelte tmdbIds
   remove-documentaries.js  Dokumentationen entfernen (nur Spielfilme)
+  prune-excluded.js      neue Filterregeln rückwirkend auf den Bestand anwenden
   auto-verify.js         unsichere Zuordnungen gegen die Besetzung prüfen
   absorb-unmatched.js    nicht auffindbare Filme aus YouTube-Daten übernehmen
   fix-titles.js          Werbeüberschriften in Titeln durch echte Filmtitel ersetzen
@@ -85,6 +86,7 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | 3 | `match-tmdb` | Zuordnung zu TMDB. Details unten. | TMDB |
 | 4 | `cleanup-matches` | Entfernt doppelte tmdbIds. Einträge **ohne** tmdbId sind ausgenommen. | — |
 | 4a | `remove-documentaries` | Entfernt Dokus aus Bibliothek, Unmatched und Duplikaten (siehe [Nur Spielfilme](#nur-spielfilme)). | — |
+| 4b | `prune-excluded` | Lässt neue Filterregeln rückwirkend wirken: entfernt Einträge, deren Video laut `excluded.json` inzwischen ausgeschlossen ist. Protokoll in `aussortiert.json`. | — |
 | 5 | `auto-verify` | Prüft unsichere Zuordnungen gegen die bereits gespeicherte Besetzung. | keine |
 | 6 | `absorb-unmatched` | Übernimmt endgültig nicht auffindbare Filme mit YouTube-Metadaten. | keine |
 | 7 | `fix-titles` | Ersetzt Werbeüberschriften bei übernommenen Filmen durch den echten Titel. | keine |
@@ -127,6 +129,7 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | `unavailable.json` | bei YouTube nicht abspielbare Filme mit Grund |
 | `repaired.json` | Protokoll aller Video-Austausche |
 | `dokus-entfernt.json` | Protokoll jeder entfernten Doku und jeder als Doku fehlzugeordneten, neu gesuchten Spielfilm-Zuordnung |
+| `aussortiert.json` | Protokoll der Einträge, die `prune-excluded.js` nach einer neuen Filterregel entfernt hat |
 | `keine-doku.json` | videoIds von Spielfilmen, die TMDB fälschlich einer Doku zuordnet und deren Videotitel keine Gattung nennt — werden neu gesucht statt entfernt |
 
 ### Felder eines Films in `filme.json`
@@ -414,9 +417,9 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 6. Danach die Zuordnungsquote je Kanal prüfen und bei Bedarf nachschärfen
 
 **Befund der Aufnahme vom Oktober 2026** (sechs Kanäle, an den Rohdaten geprüft):
-- **All Time Classic Movies** — rund die Hälfte englisch (US-TV-Serien, Hollywood-Klassiker, russische Filme mit Untertiteln) → `nurMitDeutschHinweis`, 260 von 539 bleiben
+- **All Time Classic Movies** — rund die Hälfte englisch (US-TV-Serien, Hollywood-Klassiker, russische Filme mit Untertiteln) → `nurMitDeutschHinweis`, 260 von 539 bleiben; zusätzlich `ausschlussMuster` für Interviews, TV-Shows (Glücksrad), Heimfilm-Sammlungen und Mehrteiler
 - **Rashland** — Kriegsfilme und Weltkriegs-Dokus; Dokus fliegen seit 10.10. global raus (siehe [Nur Spielfilme](#nur-spielfilme)), Mehrteiler per `ausschlussMuster`
-- **Retroflix** — enthält echte Kurz- und B-Filme (Laurel-Stummfilme ab 15 Min, John-Wayne-Western um 55 Min) → keine höhere Mindestlänge; „Folge"-Dokus fängt der Serienfilter
+- **Retroflix** — enthält echte Kurz- und B-Filme (Laurel-Stummfilme ab 15 Min, John-Wayne-Western um 55 Min) → keine höhere Mindestlänge; `ausschlussMuster` für Interviews, Zusammenschnitte („Festival", „Champions der Klamotte", „Hommage"), Cartoon-Sammlungen, vorgelesene Bilderserien und die TV-Serie „Kleine Morde"
 - **KinoWelt Deutsch** — Videotitel ohne Filmnamen, der echte Titel steht in Beschreibungszeile 2 → die Kopfzeilen-Regel schaltet sich aus den Daten automatisch ein (80 %)
 - **Stash auf Deutsch** — Kurzfilme und Serien; Serien fängt „Serie"/„Folge", echter Titel steht im mittleren `|`-Segment
 - **Stream Hier** — hinter `|` nur Werbetext → `pipeAlsTitelvariante: false`
@@ -550,6 +553,7 @@ Alles hier ist mindestens einmal schiefgegangen.
 - **Reine Jahreszahlen sind keine Titelvarianten** — aber nur hinter einem Strich. Am Titelanfang („1917") sind sie Teil des Titels. Die erste Fassung der Bereinigung schnitt beides ab; aufgefallen erst im Vergleich alt gegen neu.
 - **„Originaltitel:" steht nicht immer in einer eigenen Zeile.** Kino Deutsch, Alle Filme Auf Deutsch, Deutsch Film Hub u. a. schreiben im Fließtext: `Der Swimmingpool (Originaltitel: La Piscine, 1969), das ikonische …`. Ohne Bereinigung wurde der Rest des Satzes zum Suchbegriff (bis über 1.200 Zeichen, TMDB lehnt über 500 mit Fehler 400 ab). Jetzt wird bei `, JAHR)` bzw. einer ungeöffneten `)` abgeschnitten; zusätzlich werden Suchbegriffe über 150 Zeichen nie gesendet.
 - **Klammern vor dem Trennen an `|` bereinigen und klammerbewusst trennen.** Sonst entstehen halbe Klammern wie `World War II Inferno (KRIEGSFILM`.
+- **Neue Filterregeln wirken nicht von selbst rückwirkend.** `match-tmdb.js` fasst verarbeitete Videos nie wieder an; ohne `prune-excluded.js` bleibt alles in der Bibliothek, was vor der Regel aufgenommen wurde. Und nach zwei Läufen übernimmt `absorb-unmatched.js` alles Unauffindbare — Regeln für neue Kanäle also **vor** dem zweiten Scan setzen. Am 10.10. landeten so 32 Interviews, TV-Shows und Serienfolgen in der Bibliothek.
 - **Gleichlautende Logik in mehreren Skripten nach dem Kopieren durchzählen.** Beim Übertragen der Kopfzeilen-Regel ging sie in einer Datei verloren; aufgefallen ist es nur, weil die Zahl der betroffenen Kanäle nachgeprüft wurde.
 
 ### Beim Beurteilen von Ergebnissen

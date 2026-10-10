@@ -4,7 +4,7 @@
     {
       "name": "All Time Classic Movies",
       "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
-      "profil": { "nurMitDeutschHinweis": true }
+      "profil": { "nurMitDeutschHinweis": true, "ausschlussMuster": "interview|erinnert sich|spricht über|glücksrad|heimfilme|tv-unterhaltung|cartoon|kleine morde|\\bteil \\d|\\d\\. teil" }
     },
     { "name": "Alle Filme Auf Deutsch", "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA" },
     { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
@@ -66,11 +66,12 @@
     {
       "name": "Rashland",
       "channelId": "UCo-WzNHl4AOFBdOUfoj3WSA",
-      "profil": { "ausschlussMuster": "\\bteil \\d+\\s?/\\s?\\d+|\\b\\d\\s?/\\s?\\d\\b|\\bpt\\.? ?\\d" }
+      "profil": { "ausschlussMuster": "\\bteil \\d+\\s?/\\s?\\d+|\\b\\d\\s?/\\s?\\d\\b|\\bpt\\.? ?\\d|dokumente des" }
     },
     {
       "name": "Retroflix",
-      "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ"
+      "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+      "profil": { "ausschlussMuster": "interview|erinnert sich|spricht über|cartoon|bilderserie|vorgelesen|champions der klamotte|festival|hommage an|kleine morde|dokumente des" }
     },
     { "name": "Sony Pics at Home DE", "channelId": "UCXsB2iMamYqS_t-Kpo61tOw" },
     { "name": "Starkino", "channelId": "UC7Hs00gZvManlHy0rXw1UMw" },
