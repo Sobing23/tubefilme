@@ -4,6 +4,13 @@
 //   - Titel mit "Trailer"/"Teaser"/"Clip"
 //   - Serieninhalte (Schlüsselwörter "Folge", "Staffel", "Serie",
 //     "Episode", "Webserie" im Titel)
+//   - kanalbezogene Regeln aus dem Profil in config/channels.json:
+//       nurMitDeutschHinweis  nur Videos, deren Titel oder Beschreibung
+//                             "deutsch"/"German version"/"synchron" enthält --
+//                             für gemischtsprachige Kanäle (All Time Classic
+//                             Movies: rund die Hälfte englisch)
+//       ausschlussMuster      regulärer Ausdruck (Text), passende Titel fliegen
+//                             raus -- z.B. Mehrteiler "Teil 3/4", "Himmler 1/6"
 //   - sämtliche Videos von Kanälen mit "inPruefung": true im Profil
 //     (config/channels.json). So sammelt der Scan bei neuen Kanälen erst
 //     einmal die Rohdaten ein -- Laufzeiten, Titel, Beschreibungen --, ohne
@@ -38,7 +45,10 @@ function parseDuration(iso) {
   return h * 3600 + min * 60 + s;
 }
 
-function classify(video, inPruefung) {
+const DEUTSCH_HINWEIS = /deutsch|german version|synchron/i;
+
+function classify(video, profil) {
+  const inPruefung = profil.inPruefung === true;
   if (inPruefung) {
     return { include: false, reason: "Kanal in Prüfung (noch nicht freigegeben)" };
   }
@@ -53,6 +63,12 @@ function classify(video, inPruefung) {
   if (SERIES_KEYWORDS.test(video.title)) {
     return { include: false, reason: "Serienfolge (Schlüsselwort im Titel)" };
   }
+  if (profil.ausschlussMuster && new RegExp(profil.ausschlussMuster, "i").test(video.title)) {
+    return { include: false, reason: "Kanalregel: Ausschlussmuster im Titel" };
+  }
+  if (profil.nurMitDeutschHinweis === true && !DEUTSCH_HINWEIS.test(`${video.title} ${video.description || ""}`)) {
+    return { include: false, reason: "Kanalregel: kein Hinweis auf deutsche Fassung" };
+  }
   return { include: true, reason: null };
 }
 
@@ -64,11 +80,9 @@ async function main() {
     return;
   }
 
-  // Kanäle, die noch in Prüfung sind (siehe Kopfkommentar)
+  // Kanalprofile (siehe Kopfkommentar)
   const config = JSON.parse(await fs.readFile(CHANNELS_PATH, "utf-8"));
-  const inPruefung = new Set(
-    config.channels.filter((c) => c.profil && c.profil.inPruefung === true).map((c) => c.channelId)
-  );
+  const profile = new Map(config.channels.map((c) => [c.channelId, c.profil || {}]));
 
   const candidates = [];
   const excluded = [];
@@ -81,7 +95,7 @@ async function main() {
       seenVideoIds.add(video.videoId);
 
       const kanalId = video.channelId || path.basename(file, ".json");
-      const { include, reason } = classify(video, inPruefung.has(kanalId));
+      const { include, reason } = classify(video, profile.get(kanalId) || {});
       if (include) {
         candidates.push(video);
       } else {

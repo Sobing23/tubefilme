@@ -4,7 +4,7 @@
     {
       "name": "All Time Classic Movies",
       "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
-      "profil": { "inPruefung": true }
+      "profil": { "nurMitDeutschHinweis": true }
     },
     { "name": "Alle Filme Auf Deutsch", "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA" },
     { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
@@ -55,8 +55,7 @@
     { "name": "Kinohof", "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ" },
     {
       "name": "KinoWelt Deutsch",
-      "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
-      "profil": { "inPruefung": true }
+      "channelId": "UCy5ahYyXTmSoetwtNXibbCQ"
     },
     { "name": "KinoWucht", "channelId": "UCCYMsl9VC3BR6M-iv5feZkg" },
     { "name": "Lichtprojektor", "channelId": "UCmxqkfX9mlB9g8e0aGg94wA" },
@@ -67,24 +66,22 @@
     {
       "name": "Rashland",
       "channelId": "UCo-WzNHl4AOFBdOUfoj3WSA",
-      "profil": { "inPruefung": true }
+      "profil": { "ausschlussMuster": "\\bteil \\d+\\s?/\\s?\\d+|\\b\\d\\s?/\\s?\\d\\b|\\bpt\\.? ?\\d" }
     },
     {
       "name": "Retroflix",
-      "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
-      "profil": { "inPruefung": true }
+      "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ"
     },
     { "name": "Sony Pics at Home DE", "channelId": "UCXsB2iMamYqS_t-Kpo61tOw" },
     { "name": "Starkino", "channelId": "UC7Hs00gZvManlHy0rXw1UMw" },
     {
       "name": "Stash auf Deutsch",
-      "channelId": "UCxouNAvM6cFw3xNftPP_4eQ",
-      "profil": { "inPruefung": true }
+      "channelId": "UCxouNAvM6cFw3xNftPP_4eQ"
     },
     {
       "name": "Stream Hier",
       "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
-      "profil": { "inPruefung": true }
+      "profil": { "pipeAlsTitelvariante": false }
     },
     { "name": "Unfassbare Filme", "channelId": "UCxjFB79ChibMp-hr1vlK7sg" },
     { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" }

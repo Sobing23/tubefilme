@@ -324,6 +324,8 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 | Schalter | Bedeutung |
 |---|---|
 | `pipeAlsTitelvariante` | Stehen hinter `\|` alternative Filmtitel (`true`, Standard) oder nur Genre- und Werbeangaben (`false`)? |
+| `nurMitDeutschHinweis` | `true`: Nur Videos, deren Titel oder Beschreibung „deutsch", „German version" oder „synchron" enthält. Für gemischtsprachige Kanäle. |
+| `ausschlussMuster` | Regulärer Ausdruck als Text; passende Titel werden aussortiert (z. B. Mehrteiler wie `Teil 3/4`, `1/6`). Gilt nur für diesen Kanal. |
 | `inPruefung` | `true`: Der Scan sammelt die Rohdaten des Kanals (`data/raw/`), aber `filter-movies.js` lässt **kein** Video in die Bibliothek (Grund in `excluded.json`: „Kanal in Prüfung"). Für neue Kanäle, deren Eigenheiten erst an echten Daten geprüft werden. Schalter entfernen → beim nächsten Lauf werden die Videos normal verarbeitet. |
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
@@ -333,7 +335,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
 | Absolute Action | keine Angabe | |
-| All Time Classic Movies | noch offen | in Prüfung |
+| All Time Classic Movies | keine Angabe | `nurMitDeutschHinweis` |
 | Alle Filme Auf Deutsch | keine Angabe | |
 | Amelia | keine Angabe | |
 | Artflix | Amogo Networx | ✓ |
@@ -361,19 +363,19 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Heimatkino | PLAION PICTURES | |
 | Kino Deutsch | keine Angabe | |
 | Kinohof | keine Angabe | |
-| KinoWelt Deutsch | noch offen | in Prüfung |
+| KinoWelt Deutsch | keine Angabe |  |
 | KinoWucht | keine Angabe | |
 | Lichtprojektor | keine Angabe | |
 | Moviedome | PLAION PICTURES | |
 | Movies Select | PLAION PICTURES | |
 | Netzkino | PLAION PICTURES | |
 | Planet Movies | Tiberius Film | |
-| Rashland | noch offen | in Prüfung |
-| Retroflix | noch offen | in Prüfung |
+| Rashland | keine Angabe | `ausschlussMuster` |
+| Retroflix | keine Angabe |  |
 | Sony Pics at Home DE | Sony Pictures HE | |
 | Starkino | PLAION PICTURES | |
-| Stash auf Deutsch | noch offen | in Prüfung |
-| Stream Hier | noch offen | in Prüfung |
+| Stash auf Deutsch | keine Angabe |  |
+| Stream Hier | keine Angabe | ✓ |
 | Unfassbare Filme | keine Angabe | |
 | Volle Power Filme | keine Angabe | |
 
@@ -391,6 +393,14 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 4. Rohdaten in `data/raw/<channelId>.json` sichten: Sprache, Laufzeiten (Kurzvideos, Dokus, Reportagen?), Serien, Aufbau von Titel und Beschreibung
 5. Profil passend setzen und `inPruefung` entfernen — beim nächsten Scan werden die Videos verarbeitet
 6. Danach die Zuordnungsquote je Kanal prüfen und bei Bedarf nachschärfen
+
+**Befund der Aufnahme vom Oktober 2026** (sechs Kanäle, an den Rohdaten geprüft):
+- **All Time Classic Movies** — rund die Hälfte englisch (US-TV-Serien, Hollywood-Klassiker, russische Filme mit Untertiteln) → `nurMitDeutschHinweis`, 260 von 539 bleiben
+- **Rashland** — Kriegsfilme und Weltkriegs-Dokus; Dokus bleiben (die Bibliothek führt bereits 164 Dokumentarfilme, v. a. DEFA), Mehrteiler fliegen per `ausschlussMuster` raus
+- **Retroflix** — enthält echte Kurz- und B-Filme (Laurel-Stummfilme ab 15 Min, John-Wayne-Western um 55 Min) → keine höhere Mindestlänge; „Folge"-Dokus fängt der Serienfilter
+- **KinoWelt Deutsch** — Videotitel ohne Filmnamen, der echte Titel steht in Beschreibungszeile 2 → die Kopfzeilen-Regel schaltet sich aus den Daten automatisch ein (80 %)
+- **Stash auf Deutsch** — Kurzfilme und Serien; Serien fängt „Serie"/„Folge", echter Titel steht im mittleren `|`-Segment
+- **Stream Hier** — hinter `|` nur Werbetext → `pipeAlsTitelvariante: false`
 
 **Tipp:** Bei Kanälen **ohne Kanalbeschreibung** vorher kurz in die Videotitel schauen. Braventa sah von außen unauffällig aus und war komplett spanischsprachig.
 
@@ -542,7 +552,7 @@ Für einen Teil des Bestands liefert TMDB keine deutsche Einstufung. Eine Ableit
 - **Visuelles Design** der öffentlichen Seite
 - **Rückmeldefunktion für Besucher** (falscher Film, Video nicht abspielbar, weitere Gründe noch zu definieren) — bräuchte den ersten serverseitigen Code im Projekt, etwa eine Vercel-Function
 - **Restfälle mit Werbeüberschrift** (rund 40, überwiegend Volle Power Filme) — nur von Hand lösbar
-- **Sechs Kanäle in Prüfung** (All Time Classic Movies, KinoWelt Deutsch, Rashland, Retroflix, Stash auf Deutsch, Stream Hier) — nach dem ersten Scan Rohdaten sichten, Profile setzen, freigeben. Rashland zeigt laut Kanalbeschreibung auch Dokus und Reportagen; All Time Classic Movies auf Sprache prüfen
+- **Fury (Grjngo Westernfilme)** — Zusammenschnitte einer TV-Serie (`S05 E13-17`), rutschen durch den Serienfilter, weil weder „Folge" noch „Staffel" im Titel steht. Entscheiden, ob ein globales Muster `SxxEyy` ergänzt wird
 - **„Jugend-Zeit"** (DEFA, 1978) ist derzeit als „Jugend-Zeit zu zweit" (1981) zugeordnet — prüfen
 - **Hakunan** — Kanal gewünscht, ID noch nicht ermittelt
 - **Aufteilung von `filme.json`** — mit über 8 MB wird das Speichern im Review-Werkzeug zunehmend träge
