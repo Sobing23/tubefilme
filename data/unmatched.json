@@ -1,54 +1,90 @@
 [
   {
-    "videoId": "_q7RKGAMcPY",
-    "youtubeTitle": "Ein Animations-Abenteuerfilm! Ein ungewöhnlicher Troll begibt sich auf ein großes Abenteuer",
-    "suchbegriff": "Ein Animations-Abenteuerfilm! Ein ungewöhnlicher Troll begibt sich auf ein großes Abenteuer",
+    "videoId": "xOMWANfmbBs",
+    "youtubeTitle": "Seine Schwester gerät ins Visier der Mafia – jetzt schlägt er zurück GANZER FILM auf DEUTSCH",
+    "suchbegriff": "Seine Schwester gerät ins Visier der Mafia – jetzt schlägt er zurück GANZER FILM auf DEUTSCH",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "j08mpC_E35o",
-    "youtubeTitle": "JONATHAN RHYS MEYERS ist ELVIS - Aufstieg und Fall des King (Ganzer Film, Filme Deutsch komplett)",
-    "suchbegriff": "Elvis",
-    "erwartetesJahr": "2005",
-    "grund": "Schwache Übereinstimmung (Wert 85) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "2SOcwzuYBhM",
+    "youtubeTitle": "Fremde Verwandte Teil 2/ 2 (Drama in voller Länge, kompletter Film auf Deutsch, ganzer Film)",
+    "suchbegriff": "Relative Strangers",
+    "erwartetesJahr": "1999",
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 19554,
-      "title": "Elvis & Anabelle",
-      "release_date": "2007-03-10"
+      "id": 14930,
+      "title": "Relative Strangers",
+      "release_date": "2006-05-01"
     }
   },
   {
-    "videoId": "-uAblHH8aLA",
-    "youtubeTitle": "Eine Atomrakete wird abgefeuert – und plötzlich steht die Welt vor dem Dritten Weltkrieg | Thriller",
-    "suchbegriff": "Eine Atomrakete wird abgefeuert – und plötzlich steht die Welt vor dem Dritten Weltkrieg",
+    "videoId": "zfrDa7VtmUk",
+    "youtubeTitle": "JUNGE COWBOYS | Der Geist klassischer Kinderabenteuer im Amerikanischen Westen | Ganzer Film",
+    "suchbegriff": "JUNGE COWBOYS",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 315955,
+      "title": "Crazy Horse - Der stolze Krieger",
+      "release_date": "1996-07-07"
+    }
+  },
+  {
+    "videoId": "5Q_CoUuG1vI",
+    "youtubeTitle": "Hercules - Die grosse Schlacht um Hellas",
+    "suchbegriff": "Hercules - Die grosse Schlacht um Hellas",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Hercules\" ohne Jahr/Besetzung -- Rest des Titels (\"grosse schlacht hellas\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 184315,
+      "title": "Hercules",
+      "release_date": "2014-07-23"
+    }
+  },
+  {
+    "videoId": "Gu08vVsHudA",
+    "youtubeTitle": "Haie - Tödlich und Schnell",
+    "suchbegriff": "Haie - Tödlich und Schnell",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Haie\" ohne Jahr/Besetzung -- Rest des Titels (\"todlich schnell\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 118957,
+      "title": "Bait - Haie im Supermarkt",
+      "release_date": "2012-09-05"
+    }
+  },
+  {
+    "videoId": "_lfhh4D5bX0",
+    "youtubeTitle": "🔥 Ein AUFTRAGSKILLER jagt den mächtigsten Kartellboss! | ACTIONFILM | Ganzer Film auf Deutsch",
+    "suchbegriff": "Ein AUFTRAGSKILLER jagt den mächtigsten Kartellboss!",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"The Line\" ohne Jahr/Besetzung -- Rest des Titels (\"auftragskiller jagt den machtigsten kartellboss\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 931107,
+      "title": "Die Verbindung",
+      "release_date": "2024-10-18"
+    }
+  },
+  {
+    "videoId": "Bzm6ZBNyqRA",
+    "youtubeTitle": "⚔️ AUF DER SUCHE NACH RACHE stellt er sich einem mächtigen Magier | Fantasy Actionfilm",
+    "suchbegriff": "AUF DER SUCHE NACH RACHE stellt er sich einem mächtigen Magier",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"The Traveler\" ohne Jahr/Besetzung -- Rest des Titels (\"auf suche nach rache stellt sich einem machtigen magier\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 1066940,
+      "title": "The Traveler",
+      "release_date": "2011-05-08"
+    }
+  },
+  {
+    "videoId": "AcfkdfFhcGk",
+    "youtubeTitle": "Wer bricht die Macht der SS? Ein Spielfilm, der unter die Haut geht | Ganzer Film",
+    "suchbegriff": "Wer bricht die Macht der SS? Ein Spielfilm, der unter die Haut geht",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "H9QLByFWcz4",
-    "youtubeTitle": "😱 Sie verloren ihr ZUHAUSE – jetzt kämpfen sie in ALASKAS WILDNIS ums Überleben! | Thriller",
-    "suchbegriff": "Sie verloren ihr ZUHAUSE – jetzt kämpfen sie in ALASKAS WILDNIS ums Überleben!",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 646748,
-      "title": "2012: The End of Time",
-      "release_date": "2012-12-21"
-    }
-  },
-  {
-    "videoId": "EEaM57cHfKg",
-    "youtubeTitle": "Wird diese verbotene Liebe ihr Leben verändern? | Lilly Schönauer | Ganzes Drama Film",
-    "suchbegriff": "Wird diese verbotene Liebe ihr Leben verändern?",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 341137,
-      "title": "Lilly Schönauer - Umweg ins Glück",
-      "release_date": "2007-04-29"
-    }
   }
 ]
