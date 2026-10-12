@@ -3352,5 +3352,25 @@
     "title": "City of Gold",
     "tmdbId": 317954,
     "channelName": "Draco Actionfilme"
+  },
+  {
+    "datum": "2026-10-12",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "uuk8rDtEtoo",
+    "youtubeTitle": "Lawine – Leben und Sterben des Werner Koenig (Biografischer Film, ganzes Drama auf Deutsch)",
+    "title": "Lawine - Leben und Sterben des Werner Koenig",
+    "tmdbId": 279252,
+    "channelName": "Netzkino"
+  },
+  {
+    "datum": "2026-10-12",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "qgb1io9BiT4",
+    "youtubeTitle": "Planet Ocean - Traditionelles Angeln auf Palawan",
+    "title": "Planet Ocean",
+    "tmdbId": 243392,
+    "channelName": "CiNENET Deutschland"
   }
 ]

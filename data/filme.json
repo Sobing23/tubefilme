@@ -114264,7 +114264,9 @@
     "slug": "fast-money-treibjagd-nach-tijuana",
     "plausibel": "titel",
     "runtime": 93,
-    "plausibelVersion": 2
+    "plausibelVersion": 2,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "xNjIRUr-OMg",
@@ -156867,7 +156869,9 @@
     "writer": [],
     "fsk": null,
     "slug": "drei-maenner-gegen-eine-ganze-bande-und-keiner-gab-nach",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "xMIHZt6B96A",
@@ -157995,7 +157999,9 @@
     "fsk": "12",
     "slug": "2-tage-paris",
     "runtime": 96,
-    "plausibelVersion": 2
+    "plausibelVersion": 2,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "D8yxXKrBRLY",
@@ -158165,7 +158171,9 @@
     "fsk": null,
     "slug": "redemption-fruechte-des-zorns",
     "runtime": 95,
-    "plausibelVersion": 2
+    "plausibelVersion": 2,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "aVxYFPJIUMQ",
@@ -179411,7 +179419,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "locust-3"
+    "slug": "locust-3",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "GEXdAhV0W8E",
@@ -179521,7 +179531,7 @@
     "fsk": null,
     "slug": "tarzan-3d-2",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "2izqPXgn6vM",
@@ -188208,12 +188218,12 @@
     "plausibelVersion": 2
   },
   {
-    "videoId": "4YCk3OcwszI",
-    "youtubeTitle": "Der große St. Louis Bankraub | Thriller | Ganzer Film auf Deustch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/4YCk3OcwszI/hqdefault.jpg",
+    "videoId": "w7BSfalxjb0",
+    "youtubeTitle": "Rififi in St. Louis | 1959 | Steve McQueen | Krimi | Filmklassiker auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/w7BSfalxjb0/hqdefault.jpg",
     "duration": "PT1H25M9S",
     "publishedAt": "2024-02-03T16:00:03Z",
-    "channelName": "Alle Filme Auf Deutsch",
+    "channelName": "Artflix",
     "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
     "tmdbId": 5926,
     "title": "Rififi in St. Louis",
@@ -188248,9 +188258,7 @@
     "slug": "rififi-in-st-louis",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 2,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "plausibelVersion": 2
   },
   {
     "videoId": "5gsk06de790",
@@ -257411,8 +257419,7 @@
       35
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 136 (Suchbegriff: \"Unruhezeiten\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Moritz Peschke",
       "Jürgen Sarkiss",
@@ -263182,7 +263189,7 @@
     "runtime": 90,
     "plausibelVersion": 2,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "O_pC14eqIq0",
@@ -273752,7 +273759,9 @@
     "slug": "berlin-alexanderplatz",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 2
+    "plausibelVersion": 2,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "_O6aN3iUmrg",
@@ -285790,8 +285799,7 @@
       27
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Trolls World\")",
+    "matchConfidence": "hoch",
     "runtime": 93,
     "plausibel": "titel",
     "plausibelVersion": 2,
@@ -285986,5 +285994,2547 @@
     "writer": [],
     "fsk": null,
     "slug": "dead-7-de"
+  },
+  {
+    "videoId": "K8VW-ZeTOgo",
+    "youtubeTitle": "SIEBEN GEGEN DIE HÖLLE: SIE NAHMEN IHM ALLES – JETZT KOMMT DIE ABRECHNUNG | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/K8VW-ZeTOgo/hqdefault.jpg",
+    "duration": "PT1H36M36S",
+    "publishedAt": "2026-10-11T13:58:51Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": 68198,
+    "title": "Sieben gegen die Hölle",
+    "originalTitle": "The Long and the Short and the Tall",
+    "overview": "Ein japanischer Soldat fällt während des Burma-Krieges einer britischen Patrouille in die Hände. Doch die hat sich hinter die feindlichen Linien verirrt…",
+    "releaseDate": "1961-02-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9yheilMVsLoMyVoyRNEFTNL553J.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/674ga9Rqhz6TJMZgU6VeUeLRtv5.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      10752,
+      35,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"SIEBEN GEGEN DIE HÖLLE\")",
+    "runtime": 110,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Laurence Harvey",
+      "Richard Todd",
+      "Richard Harris",
+      "David McCallum",
+      "Ronald Fraser"
+    ],
+    "director": [
+      "Leslie Norman"
+    ],
+    "writer": [
+      "Wolf Mankowitz",
+      "Willis Hall"
+    ],
+    "fsk": null,
+    "slug": "sieben-gegen-die-hoelle"
+  },
+  {
+    "videoId": "TIkBwu6SGZc",
+    "youtubeTitle": "Horrorfilm auf Deutsch | Dieses Virus verwandelt Menschen in Zombies",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TIkBwu6SGZc/hqdefault.jpg",
+    "duration": "PT1H10M46S",
+    "publishedAt": "2026-03-31T15:44:36Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 545815,
+    "title": "Epidemic",
+    "originalTitle": "Epidemic",
+    "overview": "",
+    "releaseDate": "2018-09-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zPlRU4pM2TEFtlOrJQjZV3aMrtz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ndwVxMo8gesNDbPJ7nDrQtD9G1l.jpg",
+    "voteAverage": 4.1,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (3 Filme) -- Laufzeit entschied: TMDB 71 min, Video 71 min · Zuordnungswert 105 (Suchbegriff: \"Epidemic\")",
+    "runtime": 71,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Gina Destra",
+      "Amanda K. Morales",
+      "Chloe Carroll",
+      "Shelley Brietling",
+      "Andrea Helfrich"
+    ],
+    "director": [
+      "Stephen Michael Giglio"
+    ],
+    "writer": [
+      "Stephen Michael Giglio",
+      "Adam Romanchik"
+    ],
+    "fsk": null,
+    "slug": "epidemic"
+  },
+  {
+    "videoId": "rKQjDSfmDyg",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (Thriller, Krimi auf Deutsch, Film von RAINER ERLER, Klassiker Filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rKQjDSfmDyg/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2022-01-30T18:30:49Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": 1663,
+    "title": "Der Zinker",
+    "originalTitle": "Der Zinker",
+    "overview": "Unter Londons Dieben greifen Schlangengiftmorde um sich. Dahinter steckt „Der Zinker“, der von jedem Raubzug in der Stadt seinen Anteil fordert und keine Zeugen duldet. Inspektor Elford will ihm den Giftzahn ziehen.",
+    "releaseDate": "1963-04-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vktJzwdCk5bpfUfAuoL6cuey2x7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5iLg9gTyORDu6rS8Lcp9Epu2qZ7.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      80,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 73 (Suchbegriff: \"Edgar Wallace\") · Alternativtitel bei TMDB bestätigt: \"Edgar Wallace - Der Zinker\"",
+    "runtime": 89,
+    "plausibel": "alternativtitel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Heinz Drache",
+      "Barbara Rütting",
+      "Günter Pfitzmann",
+      "Agnes Windeck",
+      "Eddi Arent"
+    ],
+    "director": [
+      "Alfred Vohrer"
+    ],
+    "writer": [
+      "Harald G. Petersson"
+    ],
+    "fsk": "16",
+    "slug": "der-zinker-2"
+  },
+  {
+    "videoId": "YEEP5-vtuOU",
+    "youtubeTitle": "Caledonia | Ganzer Film HD Historien-Epos & Action | Ryan Livingstone",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YEEP5-vtuOU/hqdefault.jpg",
+    "duration": "PT1H17M40S",
+    "publishedAt": "2026-10-11T00:30:19Z",
+    "channelName": "Kino Deutsch",
+    "channelId": "UCBHYbV2w8dE__bS6fNdCbpw",
+    "tmdbId": 1634967,
+    "title": "Caledonia",
+    "originalTitle": "Caledonia",
+    "overview": "",
+    "releaseDate": "2025-12-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hiZEcAOSFONd9YqnEmteOFDZuRg.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mlIViOvjq6qoporZUxnwx3zlwUk.jpg",
+    "voteAverage": 0,
+    "genreIds": [
+      12,
+      28,
+      14
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Jahr weicht ab: erwartet 2021, TMDB 2025 · Zuordnungswert 57 (Suchbegriff: \"Caledonia\")",
+    "runtime": 77,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Elijah Rowen",
+      "Thomas Beatty",
+      "Eloise Lovell Anderson",
+      "Jack McEvoy",
+      "Harry Keeling"
+    ],
+    "director": [
+      "Glen Kirby"
+    ],
+    "writer": [
+      "Thomas Beatty",
+      "Elijah Rowen"
+    ],
+    "fsk": null,
+    "slug": "caledonia"
+  },
+  {
+    "videoId": "RewFqfuy1Ls",
+    "youtubeTitle": "Malombra | Ganzer Film Deutsch HD 1080p Erotik Thriller | Paola Senatore",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RewFqfuy1Ls/hqdefault.jpg",
+    "duration": "PT54M1S",
+    "publishedAt": "2026-08-26T18:45:36Z",
+    "channelName": "Kino Deutsch",
+    "channelId": "UCBHYbV2w8dE__bS6fNdCbpw",
+    "tmdbId": 190748,
+    "title": "Malombra",
+    "originalTitle": "Malombra",
+    "overview": "",
+    "releaseDate": "1917-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/muAqfyDES0z36ysXEQ9Mi6hFva4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tzkNai9Vu7pdTLJR9S97bpKbaxw.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      9648,
+      18,
+      27,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme), Laufzeit passt zu keinem (Video 54 min) -- bitte prüfen · Zuordnungswert 105 (Suchbegriff: \"Malombra\")",
+    "runtime": 75,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Lyda Borelli",
+      "Amleto Novelli",
+      "Augusto Mastripietri",
+      "Amedeo Ciaffi",
+      "Francesco Cacace"
+    ],
+    "director": [
+      "Carmine Gallone"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "malombra"
+  },
+  {
+    "videoId": "DP1C7oc_sZY",
+    "youtubeTitle": "Crime (1972) - \"Delirio caldo\" | GANZER FILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DP1C7oc_sZY/hqdefault.jpg",
+    "duration": "PT1H19M6S",
+    "publishedAt": "2025-09-30T18:15:01Z",
+    "channelName": "Kino Deutsch",
+    "channelId": "UCBHYbV2w8dE__bS6fNdCbpw",
+    "tmdbId": 15516,
+    "title": "Das letzte Haus links",
+    "originalTitle": "The Last House on the Left",
+    "overview": "Die gerade 17-jährige Mari und ihre Freundin sind auf dem Weg zu einem Rockkonzert. In der Stadt werden sie jedoch von ein paar sadistischen Ausbrechern gekidnappt, misshandelt und brutal ermordet. Während ihrer Flucht übernachten die Killer, ohne es zu wissen, bei den Eltern von Mari. Diese finden aber rasch heraus, wer sich in ihrem Haus befindet, und der Vater schwört blutige Rache.",
+    "releaseDate": "1972-08-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7cpPaVuYwfsJTCNokiPhYLywg9E.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mjxuTe76rA1C9btJtTwb8RVbeng.jpg",
+    "voteAverage": 6.03,
+    "genreIds": [
+      27,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 80 (Suchbegriff: \"Crime\") · Alternativtitel bei TMDB bestätigt: \"Crime of the Century\"",
+    "runtime": 84,
+    "plausibel": "alternativtitel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Sandra Peabody",
+      "Lucy Grantham",
+      "David Hess",
+      "Fred J. Lincoln",
+      "Jeramie Rain"
+    ],
+    "director": [
+      "Wes Craven"
+    ],
+    "writer": [
+      "Wes Craven"
+    ],
+    "fsk": "18",
+    "slug": "das-letzte-haus-links"
+  },
+  {
+    "videoId": "fHk8eU4ywhg",
+    "youtubeTitle": "Im Rausch der Sinne (Due maschi per Alexa) - Ganzer Film (HD) by Alle Filme Auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fHk8eU4ywhg/hqdefault.jpg",
+    "duration": "PT1H17M42S",
+    "publishedAt": "2022-12-22T14:00:15Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 291997,
+    "title": "Im Rausch der Sinne",
+    "originalTitle": "Les Onze Mille Verges",
+    "overview": "",
+    "releaseDate": "1975-11-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gbmdRDgCXetooNJPG1eYzHsNAc7.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4.4,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 58 (Suchbegriff: \"Im Rausch der Sinne\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Yves-Marie Maurin",
+      "Florence Cayrol",
+      "Marion Game",
+      "Jenny Arasse",
+      "Bernadette Robert"
+    ],
+    "director": [
+      "Éric Lipmann"
+    ],
+    "writer": [
+      "Éric Lipmann"
+    ],
+    "fsk": null,
+    "slug": "im-rausch-der-sinne"
+  },
+  {
+    "videoId": "jFAvCQ5-HYg",
+    "youtubeTitle": "Bunker 06: Das Exitus-Protokoll – SIE SIND VOR DEN ALIENS VERSTECKT, DOCH SIE WERDEN GEFUNDEN!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jFAvCQ5-HYg/hqdefault.jpg",
+    "duration": "PT1H32M19S",
+    "publishedAt": "2026-10-11T17:30:32Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 831396,
+    "title": "BUNKER 06: Das Exitus-Protokoll",
+    "originalTitle": "The Bunker",
+    "overview": "Alarmstufe Rot: Überall auf der Welt tauchen am Himmel über den großen Metropolen riesige Raumschiffe auf. Ihre unheimliche Präsenz ist ein Rätsel. Nachdem erste Aktivitäten der Aliens als Feindseligkeit ausgelegt werden, entsendet die Regierung eine Handvoll Wissenschaftler, unter ihnen die junge und noch wenig erfahrene Dr. Michelle Riley, in ein Netzwerk von unterirdischen Bunkern an verschiedenen Standorten. Sie sollen an einem Mittel forschen, das die Angreifer aufhalten könnte. Völlig auf sich allein gestellt und von der Außenwelt isoliert, können sich die Experten nur in Videochats über ihren Fortschritt austauschen. Schon bald geschehen im düsteren Halbdunkel der Labore und Korridore merkwürdige Dinge, die vermuten lassen, dass die Außerirdischen dem geheimen Vorhaben der Wissenschaftler schon längst auf der Spur sind.",
+    "releaseDate": "2024-08-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qS15yhPWbt2l1KPf7quMUvx7FBb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wbVcCGlQzZx8Hm4sInBlbuC1T2.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      27,
+      878
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Chelsea Edmundson",
+      "Tony Todd",
+      "Tobin Bell",
+      "Chad Michael Collins",
+      "Cullen Douglas"
+    ],
+    "director": [
+      "Brian Hanson"
+    ],
+    "writer": [
+      "Brian Hanson",
+      "Charles L. Bunce"
+    ],
+    "fsk": "16",
+    "slug": "bunker-06-das-exitus-protokoll"
+  },
+  {
+    "videoId": "C0ASIeejuBA",
+    "youtubeTitle": "THE GUARDIANS | Ganzer HORROR und SCIENCE-FICTION FILM auf DEUTSCH in VOLLER LÄNGE HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/C0ASIeejuBA/hqdefault.jpg",
+    "duration": "PT1H24M47S",
+    "publishedAt": "2025-02-06T20:40:07Z",
+    "channelName": "Stream Hier",
+    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
+    "tmdbId": 1212346,
+    "title": "The Guardians",
+    "originalTitle": "The Guardians",
+    "overview": "",
+    "releaseDate": "2013-03-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/60wA27XOjSjPNGdxeDhWxvit3rh.jpg",
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      35,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 88 min, Video 85 min · Zuordnungswert 69 (Suchbegriff: \"THE GUARDIANS\")",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Ron Palillo",
+      "James E. Foley",
+      "David Wolf",
+      "Keston John",
+      "Gina Thomas"
+    ],
+    "director": [
+      "Chris Hummel"
+    ],
+    "writer": [
+      "Steve Ruff",
+      "Vicki Ruff",
+      "Holly Payberg-Torroija"
+    ],
+    "fsk": null,
+    "slug": "the-guardians"
+  },
+  {
+    "videoId": "vjcRqBUbXJ4",
+    "youtubeTitle": "Cross - Zwei knallharte Profis - Action (ganzer Film auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/vjcRqBUbXJ4/hqdefault.jpg",
+    "duration": "PT1H21M30S",
+    "publishedAt": "2019-09-25T11:30:02Z",
+    "channelName": "Filmalarm",
+    "channelId": "UCFOSAYaXLPMdruA2oUpo0yg",
+    "tmdbId": 1717200,
+    "title": "Cross",
+    "originalTitle": "Cross",
+    "overview": "",
+    "releaseDate": "2023-08-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/42VjpK66L3qW9hIfk1B55HSIS5X.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3Y82l9gnyEYzmWb2dntPUmcbLot.jpg",
+    "voteAverage": 0,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Mehrdeutiger Titel (3 Filme) -- Laufzeit entschied: TMDB 79 min, Video 82 min (auch möglich: Cross - Zwei knallharte Profis 1987, 87 min) · Zuordnungswert 68 (Suchbegriff: \"Cross\")",
+    "runtime": 79,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Peter Greene",
+      "Rayvin Disla",
+      "Deanna Mayo",
+      "Myles Clohessy",
+      "Christopher Brian Roach"
+    ],
+    "director": [
+      "Judy San Roman"
+    ],
+    "writer": [
+      "Joanne Tamburro"
+    ],
+    "fsk": null,
+    "slug": "cross"
+  },
+  {
+    "videoId": "4IX90tdOIEg",
+    "youtubeTitle": "UND WIEDER 48 STUNDEN – EDDIE MURPHY & NICK NOLTE sind zurück! (Action Komödie ganzer Film Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4IX90tdOIEg/hqdefault.jpg",
+    "duration": "PT1H35M23S",
+    "publishedAt": "2026-10-11T15:00:22Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 11595,
+    "title": "Und wieder 48 Stunden",
+    "originalTitle": "Another 48 Hrs.",
+    "overview": "Bei den Ermittlungen gegen den berüchtigten Drogenhändler \"The Iceman\" stößt Cop Jack Cates auf einen Mordauftrag gegenüber Reggie Hammond, der zur Zeit noch im Knast sitzt. Zusammen mit Cates hatte er vor Jahren einen Gangster zur Strecke gebracht. Da Hammond am nächsten Tag aus dem Gefängnis entlassen wird, taucht Cates bei ihm auf, um ihn zu einer erneuten Zusammenarbeit zu überreden. Gemeinsam mit Hammond will Cates \"The Iceman\" das Handwerk legen. Für Hammond könnte das von großem Nutzen sein, schließlich ist sein eigenes Leben bedroht. Wegen einer Streitigkeit hat der Ex-Gefangene aber zunächst keine Lust zur Kooperation. Als sich die Bedrohung gegen ihn in einer handfesten Schießerei manifestiert, dämmert es Hammond, dass das Angebot von Cates vielleicht doch nicht so schlecht war...",
+    "releaseDate": "1990-06-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3zcPglEH4eGsLayoocnY4DUq0BO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6x7yvYQjVvqGHf9fkLUUlHAFo9R.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      28,
+      35,
+      80
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Eddie Murphy",
+      "Nick Nolte",
+      "Brion James",
+      "Kevin Tighe",
+      "Ed O'Ross"
+    ],
+    "director": [
+      "Walter Hill"
+    ],
+    "writer": [
+      "John Fasano",
+      "Jeb Stuart",
+      "Larry Gross"
+    ],
+    "fsk": "18",
+    "slug": "und-wieder-48-stunden"
+  },
+  {
+    "videoId": "hXLqXEo2QFs",
+    "youtubeTitle": "Däumelinchen und die Vögel (ZEICHENTRICKFILM ganzer Film Deutsch, Märchenfilme in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hXLqXEo2QFs/hqdefault.jpg",
+    "duration": "PT49M43S",
+    "publishedAt": "2021-05-29T11:00:13Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 228539,
+    "title": "Thumbelina",
+    "originalTitle": "Thumbelina",
+    "overview": "",
+    "releaseDate": "1992-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pUvD88TzKCYs8a2kLAVyvS17hD3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7XC5xP80ZyJVXr2NjQW5k4ILKYa.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      10751,
+      12,
+      16
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 49,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Susan Blu"
+    ],
+    "director": [
+      "Chinami Namba",
+      "樋口雅一"
+    ],
+    "writer": [
+      "Jack Olesker"
+    ],
+    "fsk": null,
+    "slug": "thumbelina"
+  },
+  {
+    "videoId": "yZcVL-h_FpQ",
+    "youtubeTitle": "Resolution – Cabin of Death (MYSTERY HORROR ganzer Film Deutsch, Horrorfilme in voller Länge sehen)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yZcVL-h_FpQ/hqdefault.jpg",
+    "duration": "PT1H29M16S",
+    "publishedAt": "2021-04-12T17:00:20Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 121606,
+    "title": "Resolution - Cabin of Death",
+    "originalTitle": "Resolution",
+    "overview": "Chris ist am Ende: Der drogenabhängige Mann fristet sein trostloses Dasein zwischen alten Möbeln und Crack in einem baufälligen Haus, mitten im Nirgendwo. Lediglich ein paar Erinnerungsstücke leisten ihm Gesellschaft. Eines Tages erhält er überraschenden Besuch von seinem ehemals besten Freund Michael - der erste Besucher seit Ewigkeiten. Doch Michael ist nicht ohne Grund aufgetaucht: Er möchte seinen Freund von der Drogensucht befreien und legt ihm deshalb kurzerhand Handschellen an. Der Entzug kann also beginnen. Doch schon bald entdeckt Michael, dass die Rettungsaktion für seinen Freund das geringste Problem der beiden ist, denn eine merkwürdige Bedrohung scheint das Haus in Beschlag zu nehmen. Michael findet mysteriöse Artefakte in der verlassenen Hütte: Alte Fotografien, Tonaufnahmen und Videos, auf denen von wahrhaft makabren Geschichten erzählt wird…",
+    "releaseDate": "2013-01-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nYXSK5gOJdBoqkRl4EnelDGPLHF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fF5XLTGoZEsP84wcDF3HtGNp5zm.jpg",
+    "voteAverage": 6.326,
+    "genreIds": [
+      27,
+      53,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Peter Cilella",
+      "Vinny Curran",
+      "Zahn McClarnon",
+      "Bill Oberst Jr.",
+      "Emily Montague"
+    ],
+    "director": [
+      "Justin Benson",
+      "Aaron Moorhead"
+    ],
+    "writer": [
+      "Justin Benson"
+    ],
+    "fsk": "12",
+    "slug": "resolution-cabin-of-death"
+  },
+  {
+    "videoId": "Z5NK9hJBKhQ",
+    "youtubeTitle": "Große Mädchen weinen nicht - Big Girls Do Not Cry (2002) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Z5NK9hJBKhQ/hqdefault.jpg",
+    "duration": "PT1H31M58S",
+    "publishedAt": "2026-10-11T14:00:00Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 10636,
+    "title": "Große Mädchen weinen nicht",
+    "originalTitle": "Große Mädchen weinen nicht",
+    "overview": "Die beiden 17jährigen Freundinnen Steffi und Kati werden langsam erwachsen. Dabei machen sie die in diesem Alter typischen, wechselhaften Erfahrungen von Liebeslust und Liebesleid, eingebettet in den generell tristen Schulalltag im Berlin der Gegenwart, dem sie nur mit ausgelassenen abendlichen Discotouren entkommen können. Bei einem ihrer abendlichen Kneipenbesuche lernen sie Klaus und Jani kennen und fahren zusammen in einen Szeneclub, wo ziemlich intensiv gefeiert wird. Als sie über ein Paar lästern, das ziemlich leidenschaftliche und eindeutige Bewegungen macht, entdeckt Steffi, dass der Mann ihr Vater ist, der sich mit seiner Kollegin Jeanette amüsiert. Steffi sieht rot und führt einen Rachefeldzug durch, der auf niemanden Rücksicht nimmt und viele Opfer fordert. So gerät beispielsweise Jeanettes Tochter Tessa in Steffis Fadenkreuz.",
+    "releaseDate": "2002-10-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xhkoupgy8e2wqbHyvzDfdyjpFTe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5DluWz0UmtcWSNcNoHFMxpYgFYN.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Anna Maria Mühe",
+      "Karoline Herfurth",
+      "David Winter",
+      "Josefine Domes",
+      "Nina Petri"
+    ],
+    "director": [
+      "Maria von Heland"
+    ],
+    "writer": [
+      "Maria von Heland"
+    ],
+    "fsk": null,
+    "slug": "grosse-maedchen-weinen-nicht"
+  },
+  {
+    "videoId": "fmlVg_d7B3s",
+    "youtubeTitle": "Swingers | 4K | Komödie auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fmlVg_d7B3s/hqdefault.jpg",
+    "duration": "PT1H32M27S",
+    "publishedAt": "2026-04-25T17:00:48Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 10218,
+    "title": "Swingers",
+    "originalTitle": "Swingers",
+    "overview": "Mike Peters'sechs-jährige Beziehung mit seiner Freundin ist in die Brüche gegangen, als er von New York nach Los Angeles gegangen ist, um dort als Schauspieler berühmt zu werden. Doch so recht will seine Karriere nicht in Schwung kommen, was ihn zunehmend belastet. Mikes Freund Trent, ebenfalls Schauspieler, will dabei nicht mehr länger zusehen und greift ihm unter die Arme. Er nimmt ihn mit auf einen Trip nach Las Vegas, der aber auch ordentlich in die Hose geht. Zurück in L.A. treffen sich die beiden mit ihren anderen Schauspiel-Kollegen Charles und Sue um weitere Pläne zu schmieden, wie sie Mike aus seinem Dilemma helfen können. Zusammen beschließen sie, nun so richtig die Sau raus lassen, doch Mike kann gedanklich einfach nicht von seiner Ex los lassen.",
+    "releaseDate": "1996-10-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ps85ECNoLctpaHnkGodY5e7imh2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/urQRrvRzsBztqjOt7yuxX9gpqw1.jpg",
+    "voteAverage": 6.841,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (7 Filme) -- Laufzeit entschied: TMDB 96 min, Video 92 min (auch möglich: Swingers 2018, 85 min) · Zuordnungswert 135 (Suchbegriff: \"Swingers\")",
+    "runtime": 96,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Jon Favreau",
+      "Vince Vaughn",
+      "Ron Livingston",
+      "Patrick Van Horn",
+      "Alex Désert"
+    ],
+    "director": [
+      "Doug Liman"
+    ],
+    "writer": [
+      "Jon Favreau"
+    ],
+    "fsk": "12",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "slug": "swingers"
+  },
+  {
+    "videoId": "hSmM4awJOqQ",
+    "youtubeTitle": "COPS - Die Eliteeinheit | 4K | Ganzer Dramafilm auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hSmM4awJOqQ/hqdefault.jpg",
+    "duration": "PT1H22M6S",
+    "publishedAt": "2026-04-15T17:00:57Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 497901,
+    "title": "Cops - Die Eliteeinheit",
+    "originalTitle": "Cops",
+    "overview": "Christoph ist in Ausbildung bei der Polizeispezialeinheit WEGA - ein Alltag zwischen Testosteron, Kampf und Gruppendruck. Als er in vermeintlicher Notwehr auf einen Mann schießt, wird er von seinen Kollegen als Held gefeiert, die Außenwelt reagiert jedoch kritisch. Bald danach beginnt er an Panikattacken und Trauma-Symptomen zu leiden. Während er innerlich mit einer Ohnmacht kämpft, die er weder versteht noch greifen kann, versucht er nach außen hin den Schein des starken Mannes zu wahren, um seinen erlangten Helden-Status nicht zu verlieren.",
+    "releaseDate": "2018-01-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bcdgtf5fMh9W1eGMWc7rfHDOEcj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/d2PLeW7ixM3IpS22yDyMWCQgfP8.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"COPS - Die Eliteeinheit\")",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Laurence Rupp",
+      "Anton Noori",
+      "Maria Hofstätter",
+      "Roland Düringer",
+      "Anna Suk"
+    ],
+    "director": [
+      "Stefan Lukacs"
+    ],
+    "writer": [],
+    "fsk": "12",
+    "slug": "cops-die-eliteeinheit"
+  },
+  {
+    "videoId": "DR8XLsoGv6o",
+    "youtubeTitle": "Turbulence | Actionfilm auf Deutsch | Katastrophenfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DR8XLsoGv6o/hqdefault.jpg",
+    "duration": "PT1H36M58S",
+    "publishedAt": "2025-11-14T18:00:15Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 34314,
+    "title": "Turbulence",
+    "originalTitle": "Turbulence",
+    "overview": "Eine Boing 747 fliegt in 10.000 Meter Höhe geradewegs auf eine Gewitterfront zu. Die Maschine wird vom Autopilot gesteuert. Von der Besatzung ist nur noch die Stewardess Teri Halloran am Leben. Der sadistische Serienkiller Ryan Weaver hat seine Bewacher und beide Piloten ermordet, die Kontrolle übernommen und die restlichen Passagiere in den Frachtraum gesperrt. Weaver hat nichts mehr zu verlieren. Er beginnt einen sadistischen Psycho-Krieg mit Teri. Selbst wenn es ihr gelingen könnte, diesen amoklaufenden Psychopathen in Schach zu halten, bleibt immer noch ein Problem: die Landung!",
+    "releaseDate": "1997-01-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/twAnMPwznJ7FmOCRyVVyg0cEfad.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pkL5Irj4WYU27jziUSgwl1d7d0D.jpg",
+    "voteAverage": 5.372,
+    "genreIds": [
+      28,
+      53,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (8 Filme) -- Laufzeit entschied: TMDB 100 min, Video 97 min · Zuordnungswert 135 (Suchbegriff: \"Turbulence\")",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Ray Liotta",
+      "Lauren Holly",
+      "Brendan Gleeson",
+      "Héctor Elizondo",
+      "Rachel Ticotin"
+    ],
+    "director": [
+      "Robert Butler"
+    ],
+    "writer": [
+      "Jonathan Brett"
+    ],
+    "fsk": "16",
+    "slug": "turbulence"
+  },
+  {
+    "videoId": "apiRinW7srk",
+    "youtubeTitle": "Crush - Gefährliches Verlangen | Thriller | Spielfilm auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/apiRinW7srk/hqdefault.jpg",
+    "duration": "PT1H31M6S",
+    "publishedAt": "2025-05-11T18:00:04Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 183662,
+    "title": "Crush - Gefährliches Verlangen",
+    "originalTitle": "Crush",
+    "overview": "High-School-Schwarm Scott hat alles, was man sich nur wünschen kann, er ist der Star des Football Teams, sieht gut aus, ist beliebt und er hat eine heimliche Verehrerin. Doch was als unschuldige Schwärmerei beginnt, entwickelt sich zu einer tödlichen Angelegenheit. Aber wer steckt hinter den Stalking-Attacken? Scotts langjährige platonische Freundin Jules? Die schüchterne Bess? Oder der Außenseiter Jeffrey, der insgeheim für Bess schwärmt? Eines steht fest, die Zeit rennt und Scott bleibt nur wenig Zeit, seinen Stalker zu enttarnen, bevor es zu spät ist.",
+    "releaseDate": "2013-03-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cI5fBJhYSu7dU7T8Pvnq6KU2Lqu.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dPGn9ONgU9vYuViebCoBdHGDbHc.jpg",
+    "voteAverage": 5.967,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (7 Filme) -- Laufzeit entschied: TMDB 94 min, Video 91 min · Zuordnungswert 135 (Suchbegriff: \"Crush - Gefährliches Verlangen\")",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Lucas Till",
+      "Crystal Reed",
+      "Sarah Bolger",
+      "Caitríona Balfe",
+      "Reid Ewing"
+    ],
+    "director": [
+      "Malik Bader"
+    ],
+    "writer": [
+      "Sonny Mallhi"
+    ],
+    "fsk": "16",
+    "slug": "crush-gefaehrliches-verlangen"
+  },
+  {
+    "videoId": "NTKk4Eqd-Us",
+    "youtubeTitle": "Shut In | THRILLER | Ganzer Spielfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/NTKk4Eqd-Us/hqdefault.jpg",
+    "duration": "PT1H27M32S",
+    "publishedAt": "2025-01-29T17:00:23Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 629015,
+    "title": "The Terror Room",
+    "originalTitle": "Shut In",
+    "overview": "Ex-Crystal-Meth-Junkie Jessica (Rainey Qualley) versucht verzweifelt, clean zu bleiben, während sie ihre beiden kleinen Kinder großzieht. Um endlich einen Neuanfang zu schaffen, will sie das Haus, das ihre Großmutter ihr hinterlassen hat, renovieren, verkaufen und fortziehen. Gerade, als sie mit der gröbsten Arbeit fertig ist und ein Licht am Ende des Tunnels sieht, taucht plötzlich ihr Ex-Freund, der brutale und weiterhin drogenabhängige Rob (Jake Horowitz) auf. Mit dabei hat er seinen psychopathischen Kumpel Sammy (Vincent Gallo), der – so weiß Jessica – auf kleine Mädchen steht. Es dauert nicht lange, da findet sich Jessica allein in der Speisekammer wieder – hinter einer von außen zugenagelten Tür, während ihre Kids draußen auf sich allein gestellt sind. Wird sie es schaffen, aus dem Gefängnis zu entkommen? Und was erwartet sie dann?",
+    "releaseDate": "2022-03-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wAnc0dquNNDeshMneQaS8Hf1bBF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ufagam4FwlIcgPqJlr21EshNkNd.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      53,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Shut In\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Rainey Qualley",
+      "Vincent Gallo",
+      "Jake Horowitz",
+      "Luciana VanDette",
+      "Aidan Steimer"
+    ],
+    "director": [
+      "D.J. Caruso"
+    ],
+    "writer": [
+      "Melanie Toast"
+    ],
+    "fsk": "16",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "slug": "the-terror-room"
+  },
+  {
+    "videoId": "uZ5EP3YAuEg",
+    "youtubeTitle": "Bastard | Deutscher Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/uZ5EP3YAuEg/hqdefault.jpg",
+    "duration": "PT2H3M2S",
+    "publishedAt": "2024-04-18T16:00:22Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 235815,
+    "title": "Bastard",
+    "originalTitle": "Bastard",
+    "overview": "Martina Gedeck trifft als kinderscheue Kriminalpsychologin Claudia Meinert auf Leon und Mathilda, beeindruckend dargestellt von den Nachwuchstalenten Markus Krojer und Antonia Lingemann. Mit Eiseskälte und zugleich berührender Verletzlichkeit fordern die Teenager was ihnen bislang verwehrt wurde: Elternliebe!  Ihr Druckmittel: der 9-jährige Nikolas. Sie haben den Mitschüler in Ihrer Gewalt und dessen Eltern in ein perfides Vater-Mutter-Kind-Spiel verwickelt. Für Meinert beginnt ein Wettlauf gegen die Zeit und Ihre Ermittlungen führen sie zunehmend in die Untiefen familärer Verstrickungen.",
+    "releaseDate": "2011-10-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ApzH0tl7KRcxgIDFvRTkO0ksUbE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oTaod8YophGhFbBLrKlMnsNoWbr.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      18,
+      53,
+      80,
+      9648
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (3 Filme) -- Laufzeit entschied: TMDB 120 min, Video 123 min · Zuordnungswert 128 (Suchbegriff: \"Bastard\")",
+    "runtime": 120,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Martina Gedeck",
+      "Markus Krojer",
+      "Antonia Lingemann",
+      "Finn Kirchner",
+      "Sibylle Canonica"
+    ],
+    "director": [
+      "Carsten Unger"
+    ],
+    "writer": [
+      "M. Reza Bahar",
+      "Carsten Unger"
+    ],
+    "fsk": "12",
+    "slug": "bastard"
+  },
+  {
+    "videoId": "kttjQvW7PxY",
+    "youtubeTitle": "Tödlicher Irrtum | Gojko Mitic | DEFA-Western | Deutsch | Armin Mueller-Stahl",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kttjQvW7PxY/hqdefault.jpg",
+    "duration": "PT1H34M23S",
+    "publishedAt": "2026-02-08T18:00:53Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 61278,
+    "title": "Tödlicher Irrtum",
+    "originalTitle": "Rappresaglia",
+    "overview": "Im März 1944 verüben Untergrundkämpfer in Rom einen Anschlag auf deutsche Soldaten, bei dem es 33 Todesopfer gibt. Um die Tat zu rächen, wollen die Nazis unter der Leitung von Obersturmbannführer Kappler für jeden getöteten deutschen Soldaten zehn Italiener hinrichten lassen. Während Kappler die Vorbereitungen trifft, versucht ein Vertreter des Vatikans, der Priester Antonelli, mäßigend auf die Deutschen einzuwirken. Doch damit hat er ebenso wenig Erfolg wie mit seinem Bemühen, Papst Pius XI zum Eingreifen zu bewegen.",
+    "releaseDate": "1973-10-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pfleqnybEHk6QSyDmxAI1u0EERm.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/bpJXFjhMjOJQ6SY2g035ff2crRD.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      18,
+      36,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 99 min, Video 94 min · Zuordnungswert 129 (Suchbegriff: \"Tödlicher Irrtum\")",
+    "runtime": 99,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Richard Burton",
+      "Marcello Mastroianni",
+      "Peter Vaughan",
+      "Leo McKern",
+      "John Steiner"
+    ],
+    "director": [
+      "George P. Cosmatos"
+    ],
+    "writer": [
+      "Fabio Mauri",
+      "Lucio De Caro",
+      "Robert Katz"
+    ],
+    "fsk": "16",
+    "slug": "toedlicher-irrtum-2"
+  },
+  {
+    "videoId": "o79tNSrDB6M",
+    "youtubeTitle": "Der Scout | Gojko Mitic | DEFA-Western | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/o79tNSrDB6M/hqdefault.jpg",
+    "duration": "PT1H30M49S",
+    "publishedAt": "2026-01-21T18:00:57Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 223805,
+    "title": "Der Scout",
+    "originalTitle": "Der Scout",
+    "overview": "Nordamerika 1877. Nachdem die weißen Militärs etliche Indianervölker ausgerottet oder in die Reservate getrieben haben, wenden sie sich den Gebieten westlich der Rocky Mountains zu, wo unter anderem der friedliche Stamm der Nez-Percé-Indianer beheimatet ist. Eine Kavallerieabteilung unter Colonel William Howard raubt dem Indianerstamm eine beträchtliche Pferdeherde um zu verhindern, dass sie flüchten und so später einfacher in das Reservat getrieben werden können. Anders als der benachbarte kriegerische Stamm der Cayuse, der sich mit Waffengewalt den überlegenen Streitkräften entgegenstellt, beschließen die Nez Percé geführt von ihrem Häuptling ohne Gewaltanwendung ihre Herde zurückzuholen, um später nach Kanada überzusiedeln.",
+    "releaseDate": "1983-05-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hxVJPuqGl1n7WKLAcUDZ51MPjRA.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nuhJMVLDkm3dvmZtzUgcDnCdk2J.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      12,
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Der Scout\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Gojko Mitić",
+      "Klaus Manchen",
+      "Milan Beli",
+      "Giso Weißbach",
+      "Jürgen Heinrich"
+    ],
+    "director": [
+      "Buntar Jamiyan",
+      "Konrad Petzold"
+    ],
+    "writer": [
+      "Gottfried Kolditz",
+      "Konrad Petzold"
+    ],
+    "fsk": null,
+    "slug": "der-scout"
+  },
+  {
+    "videoId": "OvxbSMTQsVM",
+    "youtubeTitle": "Apache Woman | Al Cliver | Action | Alter Westernfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/OvxbSMTQsVM/hqdefault.jpg",
+    "duration": "PT1H13M1S",
+    "publishedAt": "2024-06-16T12:00:24Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 85848,
+    "title": "Apache Woman",
+    "originalTitle": "Una donna chiamata Apache",
+    "overview": "Durch gemeinsamen Kampf aneinandergekettet, entsteht eine leidenschaftliche Liebe zwischen Tommy und Apatschi, dem Indianermädchen. Von Kopfgeldern gejagt, flüchten sie von Versteck zu Versteck und werden dennoch überrumpelt. Schwer verwundet gelingt es Tommy jedoch, blutige Rache zu nehmen...",
+    "releaseDate": "1976-12-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dnsHlaApQ02xaf2t4q4gYhGCyul.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ierg5i2Rdgv0ILk8zvSyjRjrAxn.jpg",
+    "voteAverage": 4.2,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"Apache Woman\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Al Cliver",
+      "Clara Hopf",
+      "Federico Boido",
+      "Corrado Olmi",
+      "Rocco Oppedisano"
+    ],
+    "director": [
+      "Giorgio Mariuzzo"
+    ],
+    "writer": [
+      "Antonio Racioppi",
+      "Giorgio Mariuzzo"
+    ],
+    "fsk": "18",
+    "slug": "apache-woman"
+  },
+  {
+    "videoId": "BwzCV9IV8Lg",
+    "youtubeTitle": "Mohawk | Indianer Western | SCOTT BRADY | Klassischer Abenteuerfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/BwzCV9IV8Lg/hqdefault.jpg",
+    "duration": "PT1H15M49S",
+    "publishedAt": "2022-12-23T13:00:07Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 68097,
+    "title": "Mohawk",
+    "originalTitle": "Mohawk",
+    "overview": "Der Maler und Armeeangehörige Jonathan Adams hat einen ganz besonderen Auftrag. Er soll das Leben der Mohawk-Indianer studieren, was er mit Hingebung tut. Etwas zu sehr vielleicht, denn er verliebt sich ausgerechnet in Onida, die Tochter des Häuptlings. Damit macht er sich nicht nur Stammesmitglieder zu Feinden, auch seine extra angereiste Verlobte Greta sinnt auf Rache. Als ein eigensinniger Siedler kaltblütig einen Mohawk-Krieger erschießt, gehen die Indianer auf den Kriegspfad. Im nahe gelegenen Fort tobt bald ein grausamer Kampf. Werden die Indianer durch die Übermacht der Soldaten vernichtet, oder gibt es eine friedliche Lösung, bei der auch die Liebe zwischen Jonathan Adams und Onida eine Chance bekommt?",
+    "releaseDate": "1956-04-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/19GU3q9jElDC9VlwUEplQ8Mv7Ab.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7Qj31U5vW1jZd1KEc5wDxQe5Gdz.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      28,
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Mohawk\")",
+    "runtime": 79,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Scott Brady",
+      "Rita Gam",
+      "Neville Brand",
+      "Lori Nelson",
+      "Allison Hayes"
+    ],
+    "director": [
+      "Kurt Neumann"
+    ],
+    "writer": [
+      "Maurice Geraghty",
+      "Milton Krims"
+    ],
+    "fsk": null,
+    "slug": "mohawk"
+  },
+  {
+    "videoId": "Sfeph3_-Y4U",
+    "youtubeTitle": "ZERSTÖRER | ACTION, SCIENCE FICTION | Ganzer Film | Film Komplett auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Sfeph3_-Y4U/hqdefault.jpg",
+    "duration": "PT1H32M50S",
+    "publishedAt": "2026-04-25T15:00:48Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": 536115,
+    "title": "Godzilla: Zerstörer der Welt",
+    "originalTitle": "GODZILLA 星を喰う者",
+    "overview": "Da die Erdallianz geschwächt wurde, zieht Haruo ein Bündnis mit den Exif in Betracht. Deren Todeskult ruft ein Monster herbei, das die Welt zu zerstören droht.",
+    "releaseDate": "2018-11-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2BtRqZT5K7aX8MylA5OxqY9TKsU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/q3j4OQFFDKM6fdQt9gE56kfDBNG.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      16,
+      878,
+      28,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 90 (Suchbegriff: \"ZERSTÖRER\")",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Mamoru Miyano",
+      "Takahiro Sakurai",
+      "Kana Hanazawa",
+      "Tomokazu Sugita",
+      "Yuki Kaji"
+    ],
+    "director": [
+      "静野孔文",
+      "瀬下寛之"
+    ],
+    "writer": [
+      "Gen Urobuchi"
+    ],
+    "fsk": "12",
+    "slug": "godzilla-zerstoerer-der-welt"
+  },
+  {
+    "videoId": "O4eWqIlJ-tI",
+    "youtubeTitle": "True Love | Meg Ryan (Harry und Sally) | ROMANZE | Ganzer Film | Film Komplett auf Deutsch 💎",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/O4eWqIlJ-tI/hqdefault.jpg",
+    "duration": "PT1H39M38S",
+    "publishedAt": "2025-02-15T16:00:20Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": 1745925,
+    "title": "True Love",
+    "originalTitle": "True Love",
+    "overview": "",
+    "releaseDate": "2025-06-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9qpDU0iqaevnMFP2bt5eJmqPkbL.jpg",
+    "backdropUrl": null,
+    "voteAverage": 7,
+    "genreIds": [
+      53,
+      10749,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (10 Filme), Laufzeit passt zu keinem (Video 100 min) -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"True Love\")",
+    "runtime": 3,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Catherine Piller",
+      "Jackson Kistler"
+    ],
+    "director": [
+      "Jiale Kurt Yan"
+    ],
+    "writer": [
+      "Jiale Kurt Yan"
+    ],
+    "fsk": null,
+    "slug": "true-love"
+  },
+  {
+    "videoId": "Mp0Bz1bTadw",
+    "youtubeTitle": "Die letzte Nacht | Deutscher Film | Drama",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Mp0Bz1bTadw/hqdefault.jpg",
+    "duration": "PT1H25M32S",
+    "publishedAt": "2025-08-13T17:00:26Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 299601,
+    "title": "Die letzte Nacht",
+    "originalTitle": "Die letzte Nacht",
+    "overview": "Im deutsch besetzten Frankreich im Jahr 1944 verlieben sich eine Widerstandskämpferin und ein deutscher Armeeoffizier ineinander.",
+    "releaseDate": "1949-02-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zDpmyDquaKj0siT1AGBFo9Ol5mP.jpg",
+    "backdropUrl": null,
+    "voteAverage": 7,
+    "genreIds": [
+      18,
+      10749,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 93 min, Video 86 min · Zuordnungswert 121 (Suchbegriff: \"Die letzte Nacht\")",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Sybille Schmitz",
+      "Karl John",
+      "Margarete Haagen",
+      "Catja Görna",
+      "Carl-Heinz Schroth"
+    ],
+    "director": [
+      "Eugen York"
+    ],
+    "writer": [
+      "Friedrich Hartau",
+      "Harald G. Petersson",
+      "Ottoheinz Jahn"
+    ],
+    "fsk": "16",
+    "slug": "die-letzte-nacht"
+  },
+  {
+    "videoId": "sY5tAsYFZqs",
+    "youtubeTitle": "Dead End - Sackgasse | Klassischer Krimi",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sY5tAsYFZqs/hqdefault.jpg",
+    "duration": "PT1H28M3S",
+    "publishedAt": "2025-02-20T18:00:32Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 27973,
+    "title": "Sackgasse",
+    "originalTitle": "Dead End",
+    "overview": "In den Straßen von New Yorks Lower East Side regiert das Verbrechen, denn für viele ist das kriminelle Milieu der einzige Weg aus der Armut und der Hoffnungslosigkeit. Auch Drinas Bruder Tommy droht abzurutschen und so setzt die zielstrebige Schönheit alles daran, ihn vor dem kriminellen Abgrund zu bewahren. Ihre Pläne scheinen jedoch zum Scheitern verurteilt, als der skrupellose Killer \"Baby Face\" Martin in sein altes Viertel zurückkehrt und Tommy in seine Machenschaften hineinziehen will. Verzweifelt wendet sich Drina an ihren Jugendfreund Dave, doch auch er kann nur helfen, wenn er zu den gleichen Mitteln greift wie Martin. Eine Sackgasse, aus der es kein Entkommen zu geben scheint!",
+    "releaseDate": "1937-08-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/o7RRblGT3ZpJdWHDn6J0kbjBhcH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4q7kVPAgX8tgRvG99JrWdgo5FLK.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      80,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (8 Filme) -- Laufzeit entschied: TMDB 93 min, Video 88 min (auch möglich: Dead End 2019, 95 min) · Zuordnungswert 135 (Suchbegriff: \"Dead End\")",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Sylvia Sidney",
+      "Joel McCrea",
+      "Humphrey Bogart",
+      "Wendy Barrie",
+      "Claire Trevor"
+    ],
+    "director": [
+      "William Wyler"
+    ],
+    "writer": [
+      "Lillian Hellman"
+    ],
+    "fsk": null,
+    "slug": "sackgasse"
+  },
+  {
+    "videoId": "i8UbRabhBaM",
+    "youtubeTitle": "Das Biest | KOLORIERT | Klassischer Horrorfilm | Thriller auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/i8UbRabhBaM/hqdefault.jpg",
+    "duration": "PT1H19M48S",
+    "publishedAt": "2023-03-29T16:00:26Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 35813,
+    "title": "Das Biest",
+    "originalTitle": "The Bat",
+    "overview": "Kurz nachdem Krimiautorin Cornelia Van Gorder das Landhaus von Bankdirektor Fleming gemietet hat, stellt sich heraus, dass dort vor nicht allzu langer Zeit ein als Fledermaus maskierter Verbrecher mehrere Morde verübte. Fleming selbst gesteht bei einem Jagdausflug seinem Arzt Dr. Wells, eine Million Dollar in Wertpapieren von seiner Bank unterschlagen und im Landhaus versteckt zu haben. Wells erschießt Fleming und tarnt die Tat als Unfall. Als die Unterschlagung bekannt wird, gerät Hauptkassierer Bailey unter Verdacht und wird verhaftet. Es kommt zur Jagd auf die im Haus versteckten Wertpapiere, an der auch der Fledermaus-Mörder teilnimmt.",
+    "releaseDate": "1959-08-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/i3DGlyT6k7XiYmn5SGhcVHrJRYr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8ydivJF1pFmfHRzrvq1DU1esGpx.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      27,
+      9648,
+      53,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 80 min, Video 80 min · Zuordnungswert 135 (Suchbegriff: \"Das Biest\")",
+    "runtime": 80,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Vincent Price",
+      "Agnes Moorehead",
+      "Gavin Gordon",
+      "John Sutton",
+      "Lenita Lane"
+    ],
+    "director": [
+      "Crane Wilbur"
+    ],
+    "writer": [
+      "Crane Wilbur"
+    ],
+    "fsk": "16",
+    "slug": "das-biest"
+  },
+  {
+    "videoId": "saGPO1r7V5c",
+    "youtubeTitle": "Pension Schöller | 1960 | HeimatfilmeTV",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/saGPO1r7V5c/hqdefault.jpg",
+    "duration": "PT1H28M39S",
+    "publishedAt": "2026-10-11T13:45:36Z",
+    "channelName": "Heimatfilme",
+    "channelId": "UCV8yejshmlsns86C-ZeO16Q",
+    "tmdbId": 262096,
+    "title": "Pension Schöller",
+    "originalTitle": "Pension Schöller",
+    "overview": "Der junge Arzt Dr. Peter Klapproth hat weniger sein Medizinstudium als seine Musik im Kopf. Als er Geldsorgen hat, gaukelt er seinem reichen Onkel vor, er wolle ein Sanatorium kaufen. Der gutmütige Onkel schickt ihm tatsächlich das benötigte Geld, steht kurze Zeit später aber unverhofft vor Peter, um das Sanatorium selbst zu begutachten. Peter bringt seinen Onkel kurzerhand in die Pension Schöller und behauptet, es handle sich dabei um eine private Irrenanstalt. Durch die Schwächen und Unzulänglichkeiten der wohlhabenden Gäste und insbesondere des Pensionsbesitzers Schöller selbst, hält der Onkel die Anhnungslosen tatsächlich für geisteskrank...",
+    "releaseDate": "1960-07-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tGP6FoAd6AnkYgGYTlB8CBQkeJH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tKEfUeNJaUvDjXIgiXHvuq2X4gv.jpg",
+    "voteAverage": 7.5,
+    "genreIds": [],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Rudolf Vogel",
+      "Ann Smyrner",
+      "Theo Lingen",
+      "Helmuth Lohner",
+      "Boy Gobert"
+    ],
+    "director": [
+      "Georg Jacoby"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "pension-schoeller"
+  },
+  {
+    "videoId": "glKBYZvGsy8",
+    "youtubeTitle": "JACK RUBY: IM NETZ DER MAFIA | Danny Aiello | Ganzer JFK GESCHICHTSFILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/glKBYZvGsy8/hqdefault.jpg",
+    "duration": "PT1H44M32S",
+    "publishedAt": "2026-05-09T14:39:53Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 70709,
+    "title": "Jack Ruby - Im Netz der Mafia",
+    "originalTitle": "Ruby",
+    "overview": "Jack Ruby, Besitzer eines kleinen Striptease-Lokals, hat es trotz seiner zahlreichen Verbindungen zur Mafia nie bis nach oben geschafft. Doch als er den greisen Gangsterboss Santos aus einem kubanischen Gefängnis holen soll, beginnen sich die Ereignisse plötzlich zu überschlagen: Ruby wird urplötzlich in politische Machenschaften von enormer Tragweite verstrickt, die bis ins weiße Haus reichen. Bald muss er erkennen, dass er nichts weiter als eine Marionette in einem intriganten Spiel ist...",
+    "releaseDate": "1992-03-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wEPTCmzKLnP9GArjWvYfI6TJTv6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gad4GTmKva9W5EV1G5twdpinV21.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      18,
+      28,
+      53,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (5 Filme) -- Laufzeit entschied: TMDB 110 min, Video 105 min · Zuordnungswert 128 (Suchbegriff: \"JACK RUBY: IM NETZ DER MAFIA\")",
+    "runtime": 110,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Danny Aiello",
+      "Sherilyn Fenn",
+      "Tobin Bell",
+      "Joe Cortese",
+      "David Duchovny"
+    ],
+    "director": [
+      "John Mackenzie"
+    ],
+    "writer": [
+      "Stephen Davis"
+    ],
+    "fsk": "12",
+    "slug": "jack-ruby-im-netz-der-mafia"
+  },
+  {
+    "videoId": "bYEjRrWpTog",
+    "youtubeTitle": "SAVAGE ISLAND - Hasse Deinen Nächsten | Ganzer THRILLER ÜBERLEBENSFILM auf DEUTSCH in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bYEjRrWpTog/hqdefault.jpg",
+    "duration": "PT1H23M55S",
+    "publishedAt": "2025-07-04T15:01:10Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 135760,
+    "title": "Savage Island",
+    "originalTitle": "Savage Island",
+    "overview": "Steven und Julia haben Eheprobleme, doch ein Wochenendbesuch bei Julias Familie auf einer abgeschiedenen Insel lässt diese zu ihrer kleinsten Sorge werden. Die einzigen anderen Inselbewohner sind die Savages, eine Familie, die dem Begriff “Hinterwäldler” eine ganz neue Dimension hinzufügt. Als sie Stevens und Julias Neugeborenen als Ersatz für ihren getöteten Sohn fordern, entfesseln Gier und Selbstsucht ein schonungsloses Chaos fernab jeglicher Zivilisation. In bester Tradition von 70er-Jahre-Horrorklassikern wie Wes Cravens “Hügel Der Blutigen Augen” schufen die Filmemacher einen schauerlichen Trip in die Wildnis. Der von Regisseur Jeffery Lando eigens kreierte Savage Look zeigt in rohen Bildern die einsame Insel, auf der nur überlebt, wer alle Kultur hinter sich lässt.",
+    "releaseDate": "2004-04-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/a5TyU7U5rnW1FRA4vZDQWHoPMsh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5bx2wjafR4PUmG6KHQZyA5MXiKh.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 86 min, Video 84 min (auch möglich: Savage Island 1985, 79 min) · Zuordnungswert 128 (Suchbegriff: \"Savage Island\")",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Kristina Copeland",
+      "Steven Man",
+      "Mathew Turner",
+      "Brendan Beiser",
+      "Beverley Breuer"
+    ],
+    "director": [
+      "Jeffery Scott Lando"
+    ],
+    "writer": [
+      "Kevin Mosley",
+      "Jeffery Scott Lando"
+    ],
+    "fsk": "18",
+    "slug": "savage-island"
+  },
+  {
+    "videoId": "F84BCSDn754",
+    "youtubeTitle": "JAGD | Die ganze CIA jagt ihn – tot oder lebendig | Neuer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/F84BCSDn754/hqdefault.jpg",
+    "duration": "PT1H32M11S",
+    "publishedAt": "2026-08-02T15:33:17Z",
+    "channelName": "Filmhof Welt",
+    "channelId": "UCiovhvaqFD8vLmE4tTte9og",
+    "tmdbId": 103663,
+    "title": "Die Jagd",
+    "originalTitle": "Jagten",
+    "overview": "Lucas musste einige Schicksalsschläge hinnehmen, doch jetzt geht es in seinem Leben langsam wieder bergauf. Er hat eine neue Stelle in einem Kindergarten gefunden und auch die hübsche Aushilfe Nadja fühlt sich zu ihm hingezogen. Auch sein Sohn Marcus möchte lieber bei seinem Vater als bei seiner Mutter leben. In den Kindergarten geht die kleine Klara, die Tochter seines besten Freundes Theo, die ihn besonders gut leiden kann. Einer Kindergartenleiterin erzählt Klara, Lucas habe sie geküsst und ihr sein Geschlechtsteil gezeigt, denn dass würden Liebende tun, so habe es ihr großer Bruder ihr erzählt. Lucas ist entsetzt, als er hört, was ihm vorgeworfen wird. Doch da hat das Gerücht schon in der gesamten Nachbarschaft die Runde gemacht. Der unschuldige Lucas fühlt sich sicher und denkt, dass sich alles schon von alleine beruhigen wird, doch das Gegenteil trifft ein: Die Hexenjagd auf ihn nimmt dramatische Züge an.",
+    "releaseDate": "2012-10-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4JiOQyRXlfDpZ4WDpyDzwvFEDEn.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jmVWlCZ8hRtmrQGbKXXFHsrSohp.jpg",
+    "voteAverage": 8.097,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 92 (Suchbegriff: \"JAGD\")",
+    "runtime": 116,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Mads Mikkelsen",
+      "Thomas Bo Larsen",
+      "Annika",
+      "Lasse Fogelstrøm",
+      "Susse Wold"
+    ],
+    "director": [
+      "Thomas Vinterberg"
+    ],
+    "writer": [
+      "Thomas Vinterberg",
+      "Tobias Lindholm"
+    ],
+    "fsk": "12",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "slug": "die-jagd"
+  },
+  {
+    "videoId": "flTmpMUHMDQ",
+    "youtubeTitle": "Gunner (2025) [Action] [Thriller] Rückkehr in den Kampf | full movie",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/flTmpMUHMDQ/hqdefault.jpg",
+    "duration": "PT1H29S",
+    "publishedAt": "2025-12-25T17:01:03Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1309731,
+    "title": "Gunner",
+    "originalTitle": "Gunner",
+    "overview": "",
+    "releaseDate": "2025-04-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/y818ZlWBVRzTcLsrutEeRqxDUx.jpg",
+    "backdropUrl": null,
+    "voteAverage": 5.8,
+    "genreIds": [
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Brett Bentman",
+      "Tiffany McDonald",
+      "Thom Hallum",
+      "Joe Kurak",
+      "Marissa Woolf"
+    ],
+    "director": [
+      "Brett Bentman"
+    ],
+    "writer": [
+      "Brett Bentman"
+    ],
+    "fsk": null,
+    "slug": "gunner"
+  },
+  {
+    "videoId": "lrQGuuIVMgk",
+    "youtubeTitle": "The Return - Tödliche Bedrohung (1980) [Sci-Fi] [Thriller] 👽 Fremde Mächte | Ganzer Film auf deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/lrQGuuIVMgk/hqdefault.jpg",
+    "duration": "PT1H31M9S",
+    "publishedAt": "2025-05-01T16:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 150273,
+    "title": "Die Rückkehr der Ausserirdischen",
+    "originalTitle": "The Return",
+    "overview": "Vor fünfundzwanzig Jahren hatten Jennifer Kramer und Wayne Thompson als Kinder Kontakt zu Außerirdischen, die in einer Kleinstadt in New Mexico landeten. Heute zieht es sie wieder an den Ort des Geschehens, wo unheimliche Dinge geschehen. Ein Abgesandter der Aliens bringt nämlich Menschen und Tiere um und schickt deren Überreste durch eine Art Raumtunnel zu denen, die da außerhalb unseres Universum die Invasion vorbereiten...",
+    "releaseDate": "1980-03-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9Kw5gQ9xK3x7FH8aRbJqE57dGyZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dyolD5LM5OkQsf59VFNj1P8XuLQ.jpg",
+    "voteAverage": 5.917,
+    "genreIds": [
+      9648,
+      53,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Jan-Michael Vincent",
+      "Cybill Shepherd",
+      "Martin Landau",
+      "Raymond Burr",
+      "Neville Brand"
+    ],
+    "director": [
+      "Greydon Clark"
+    ],
+    "writer": [
+      "Curtis Burch",
+      "Ken Wheat",
+      "Jim Wheat"
+    ],
+    "fsk": "16",
+    "slug": "die-rueckkehr-der-ausserirdischen"
+  },
+  {
+    "videoId": "Ldu5SVMwExw",
+    "youtubeTitle": "Zombieworld (2015) [Horror] [Action] 🧟‍♂️🔥: Die Apokalypse ist schon da! – Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Ldu5SVMwExw/hqdefault.jpg",
+    "duration": "PT1H9M6S",
+    "publishedAt": "2025-03-07T18:00:26Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 34592,
+    "title": "Zombieworld",
+    "originalTitle": "ZMD: Zombies of Mass Destruction",
+    "overview": "In der kleinen Küstengemeinde Port Gamble im Süden der USA schlägt die Stunde der Wahrheit für die aus iranischer Herkunft stammende Hochschülerin Frida und den schwulen Yuppie Tom. Die haben zwar (noch) nichts miteinander zu tun, stehen aber vor demselben Problem: Wie bringe ich meinen konservativen Eltern bei, dass ich einen Freund habe. Dann brauchen sie aber doch nichts zu klären, denn eine justament ausbrechende Zombieepidemie nimmt ihnen die Arbeit ab - und führt sie im wehrhaften Grüppchen der Überlebenden zusammen.",
+    "releaseDate": "2010-01-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3K80OoyUb93qhx5jMUsNuKlV3IT.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/AuZzTAbFpPQE2rsQluoCW2HqzwD.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Jahr weicht ab: erwartet 2015, TMDB 2010 · Zuordnungswert 122 (Suchbegriff: \"Zombieworld\")",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Janette Armand",
+      "Doug Fahl",
+      "Cooper Hopkins",
+      "Russell Hodgkinson",
+      "Cornelia Moore"
+    ],
+    "director": [
+      "Kevin Hamedani"
+    ],
+    "writer": [
+      "Kevin Hamedani",
+      "Ramon Isao"
+    ],
+    "fsk": "18",
+    "slug": "zombieworld"
+  },
+  {
+    "videoId": "E_8LeG5ifok",
+    "youtubeTitle": "Live Or Let Die - Prequel  (2013) [Horror] | ganzer Film (deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/E_8LeG5ifok/hqdefault.jpg",
+    "duration": "PT31M49S",
+    "publishedAt": "2023-09-27T17:00:11Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1596920,
+    "title": "Live or Let Die",
+    "originalTitle": "Live or Let Die",
+    "overview": "",
+    "releaseDate": "2014-09-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/h9SyJ3liX5IZ0iNQGhJ1icNosOv.jpg",
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 133 (Suchbegriff: \"Live Or Let Die\")",
+    "runtime": 33,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Manuel Urbaneck",
+      "Jan Bohlenschmidt",
+      "Steven Mooers",
+      "Lukas Tritscher",
+      "Patrick Winkelblech"
+    ],
+    "director": [
+      "Manuel Urbaneck"
+    ],
+    "writer": [
+      "Manuel Urbaneck",
+      "Jan Bohlenschmidt"
+    ],
+    "fsk": null,
+    "slug": "live-or-let-die"
+  },
+  {
+    "videoId": "Aoc_6rHgd5I",
+    "youtubeTitle": "Caligula - Der Tyrann",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Aoc_6rHgd5I/hqdefault.jpg",
+    "duration": "PT1H13M18S",
+    "publishedAt": "2016-09-05T07:30:01Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 581373,
+    "title": "Caligula",
+    "originalTitle": "Caligula",
+    "overview": "",
+    "releaseDate": "2017-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/IQ29MGsBWJhwpjjlcNKSvaEV3K.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/usykZkrGrb1SFNDJ3Fbt3q24jDM.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      10402,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (4 Filme), Laufzeit passt zu keinem (Video 73 min) -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Caligula\")",
+    "runtime": 83,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Jan Van Elsacker",
+      "Caroline Meng",
+      "Sophie Junker",
+      "Florian Götz",
+      "Jean-François Lombard"
+    ],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "caligula"
+  },
+  {
+    "videoId": "EXMLjfb8EqY",
+    "youtubeTitle": "Invisible Man",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EXMLjfb8EqY/hqdefault.jpg",
+    "duration": "PT1H22M28S",
+    "publishedAt": "2016-07-13T22:00:00Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 10787,
+    "title": "Der Unsichtbare",
+    "originalTitle": "The Invisible Man",
+    "overview": "Ein Horror-Klassiker, der auf H. G. Wells’ Roman aus dem Jahr 1897 basiert. Der Arzt Dr. Jack Griffin entdeckt ein Serum, das ihn unsichtbar macht und ihn dazu bringt, entsetzliche  Gräueltaten zu begehen …",
+    "releaseDate": "1933-10-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yEDqIIUjFVzSVotxWiRnt6QhpbX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uGXid3UHMzoL2hyNfWSPDWkqbKC.jpg",
+    "voteAverage": 7.506,
+    "genreIds": [
+      27,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 91 (Suchbegriff: \"Invisible Man\")",
+    "runtime": 71,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Claude Rains",
+      "Gloria Stuart",
+      "William Harrigan",
+      "Henry Travers",
+      "Una O'Connor"
+    ],
+    "director": [
+      "James Whale"
+    ],
+    "writer": [
+      "R.C. Sherriff"
+    ],
+    "fsk": "16",
+    "slug": "der-unsichtbare"
+  },
+  {
+    "videoId": "EsXVjbnndQ4",
+    "youtubeTitle": "The Lone Ranger",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EsXVjbnndQ4/hqdefault.jpg",
+    "duration": "PT1H4M24S",
+    "publishedAt": "2015-11-11T23:00:00Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 108266,
+    "title": "Der weiße Reiter",
+    "originalTitle": "The Lone Ranger",
+    "overview": "Nachdem die Familie Kilgore eine Bergbau-Firma gegründet hat und mit dieser in einer Mine auf Indianergebiet Silber gewinnen will, muss man feststellen, dass die Indianer alles andere als glücklich über diese Entwicklung sind. Jetzt ist der Weiße Reiter gefragt: Er muß den Anfeindungen der Rothäute entgegentreten und den Frieden in seinem Zuständigkeitsbereich wiederherstellen.",
+    "releaseDate": "1956-02-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2hNgH3WKhRidJImQb8QrY8T1Emw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hmgNEzFP5qtC9rdVvCIYzaYpanS.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      12,
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (3 Filme), Laufzeit passt zu keinem (Video 64 min) -- bitte prüfen · Zuordnungswert 129 (Suchbegriff: \"The Lone Ranger\")",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Clayton Moore",
+      "Jay Silverheels",
+      "Lyle Bettger",
+      "Bonita Granville",
+      "Perry Lopez"
+    ],
+    "director": [
+      "Stuart Heisler"
+    ],
+    "writer": [
+      "Herb Meadow"
+    ],
+    "fsk": "12",
+    "slug": "der-weisse-reiter"
+  },
+  {
+    "videoId": "Wuki2DKYABE",
+    "youtubeTitle": "Blood And Sand",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Wuki2DKYABE/hqdefault.jpg",
+    "duration": "PT1H19M24S",
+    "publishedAt": "2015-10-16T22:00:00Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 75892,
+    "title": "Blood and Sand",
+    "originalTitle": "Sangre y arena",
+    "overview": "Der beste Stierkämpfer der WeIt zu werden, ist der Wunschtraum des jungen Spaniers Juan, der mit seiner FamiIie in ärmlichen VerhäItnissen Iebt. Hartnäckig verfolgt er dieses ZieI, Iässt sich vom berühmten Ex-Matador Nacional ausbilden und feiert bereits bei seinem ersten Auftritt in der grossen Arena SevilIas Triumphe. Er heiratet seine Jugendliebe Carmen, verfäIlt aber mehr und mehr der schönen Dona Sol, der skandaIumwitterten Tochter eines reichen Gutsbesitzers. Nachdem sie ihn sitzenlässt und sich dem nächsten Matador zuwendet, Carmen ihn verlassen hat, und er zunehmend dem AlkohoI verfällt, kommt es zu einem letzten Kampf in der Arena, der tragisch endet.",
+    "releaseDate": "1989-09-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xrY362Il79McRTsCQs6UOUNFm7w.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xwINNMWHY5mlN7IRStb5LDX3FXq.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme), Laufzeit passt zu keinem (Video 79 min) -- bitte prüfen · Zuordnungswert 129 (Suchbegriff: \"Blood And Sand\")",
+    "runtime": 113,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Sharon Stone",
+      "Christopher Rydell",
+      "Ana Torrent",
+      "Guillermo Montesinos",
+      "Albert Vidal"
+    ],
+    "director": [
+      "Javier Elorrieta"
+    ],
+    "writer": [
+      "Thomas A. Fucci",
+      "Rafael Azcona",
+      "Ricardo Franco"
+    ],
+    "fsk": null,
+    "slug": "blood-and-sand"
+  },
+  {
+    "videoId": "P_UOd4WiQ_E",
+    "youtubeTitle": "Das tapfere Schneiderlein",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/P_UOd4WiQ_E/hqdefault.jpg",
+    "duration": "PT57M59S",
+    "publishedAt": "2014-10-08T00:00:03Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1020384,
+    "title": "Das tapfere Schneiderlein",
+    "originalTitle": "Das tapfere Schneiderlein",
+    "overview": "Sieben auf einen Streich - auch wenn es nur Fliegen sind, die Schneider David erlegt, zieht er unerschrocken in die Welt hinaus. Mit Mut und List meistert er alle Gefahren und schafft es bis an den Königshof. Für König Ernst kommt der junge Held wie gerufen. Vielleicht ist er ja der ersehnte Retter, der das Reich von zwei bedrohlichen Riesen, einem gefährlichen Einhorn und einer wütenden Wildsau befreien kann. Besteht David alle drei abenteuerlichen Prüfungen, bekommt er nicht nur die Hälfte des Königreiches, sondern auch die Hand der wunderhübschen Prinzessin Paula.",
+    "releaseDate": "2008-12-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hs1YwnoQ4NqFn6QVNRxzB1k3or8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uUzB3zY8W3jRtHQw4GnP43q6j7W.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      14,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (4 Filme) -- Laufzeit entschied: TMDB 59 min, Video 58 min · Zuordnungswert 121 (Suchbegriff: \"Das tapfere Schneiderlein\")",
+    "runtime": 59,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Kostja Ullmann",
+      "Karoline Schuch",
+      "Axel Milberg",
+      "Dirk Martens",
+      "Hannelore Hoger"
+    ],
+    "director": [
+      "Christian Theede"
+    ],
+    "writer": [
+      "Dieter Bongartz",
+      "Leonie Bongartz",
+      "Wilhelm Grimm"
+    ],
+    "fsk": "0",
+    "slug": "das-tapfere-schneiderlein"
+  },
+  {
+    "videoId": "XBQRYy4vN8I",
+    "youtubeTitle": "Das Phantom der Oper",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XBQRYy4vN8I/hqdefault.jpg",
+    "duration": "PT1H31M18S",
+    "publishedAt": "2014-06-14T01:00:01Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 86962,
+    "title": "Das Phantom der Oper",
+    "originalTitle": "The Phantom of the Opera",
+    "overview": "Die Musikstudentin Christine entdeckt Noten zu einer unvollendeten Oper des mysteriösen Komponisten Destler. Als sie eine Arie vorträgt, beginnt für sie ein Alptraum. Sie erwacht aus tiefer Bewußtlosigkeit an der Londoner Oper Ende des 19. Jahrhunderts. Dort treibt der nach einem Pakt mit dem Teufel grausam entstellte Destler als mordendes Phantom der Oper sein Unwesen. Destler will mit allen Mitteln die Liebe von Christine erringen. Als er sie entführt, verfolgen ihn ein Polizeidetektiv und Christines Liebhaber in die Katakomben unter der Oper, wo Destler in einem Flammenmeer umkommt. Doch als Christine aus ihrem Traum erwacht, trifft sie auch in der Neuzeit auf das Phantom...",
+    "releaseDate": "1989-11-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/g7SH8sZRWoHWQUbAKEHhpasX1YU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aOeMR8hakZfkZ5aSw7Kkz7TxfIv.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (4 Filme) -- Laufzeit entschied: TMDB 93 min, Video 91 min · Zuordnungswert 135 (Suchbegriff: \"Das Phantom der Oper\")",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Robert Englund",
+      "Jill Schoelen",
+      "Alex Hyde-White",
+      "Bill Nighy",
+      "Stephanie Lawrence"
+    ],
+    "director": [
+      "Dwight H. Little"
+    ],
+    "writer": [
+      "Duke Sandefur"
+    ],
+    "fsk": "18",
+    "slug": "das-phantom-der-oper-2"
+  },
+  {
+    "videoId": "AKnyzFFDFS4",
+    "youtubeTitle": "20.000 Meilen unter dem Meer",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AKnyzFFDFS4/hqdefault.jpg",
+    "duration": "PT1H27M15S",
+    "publishedAt": "2014-04-23T00:00:01Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 2965,
+    "title": "20.000 Meilen unter dem Meer",
+    "originalTitle": "20,000 Leagues Under the Sea",
+    "overview": "Im Jahr 1886 führt Meeresforscher Pierre Arronax eine Expedition vor der Küste Neuenglands durch, um ein geheimnisvolles Seeungeheuer aufzuspüren. Bei seiner Suche stößt er auf das hochentwickelte U-Boot Nautiulus, das heimlich unter dem Ozean kreuzt, und dessen charismatischen Kapitän Nemo. Beim ersten Treffen mit der Kapitänstochter Mara verliebt sich Arronax augenblicklich in sie ...  TV Fassung aus den USA, von dem Roman \"20.000 Meilen unter dem Meer\" von Jules Verne.",
+    "releaseDate": "1997-03-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8kVSztb6A7gA0K4eFJIxjzgdiH0.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vkRuuNbeEdWTVar2eGqpvjmvaKg.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      12,
+      28,
+      878,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (4 Filme) -- Laufzeit entschied: TMDB 95 min, Video 87 min · Zuordnungswert 129 (Suchbegriff: \"20.000 Meilen unter dem Meer\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Richard Crenna",
+      "Ben Cross",
+      "Julie Cox",
+      "Michael Jayston",
+      "Jeff Harding"
+    ],
+    "director": [
+      "Michael Anderson"
+    ],
+    "writer": [
+      "Joe Wiesenfeld"
+    ],
+    "fsk": null,
+    "slug": "20-000-meilen-unter-dem-meer-2"
+  },
+  {
+    "videoId": "yXH3WXnejEE",
+    "youtubeTitle": "The Pleasure Garden (Irrgarten der Leidenschaft)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yXH3WXnejEE/hqdefault.jpg",
+    "duration": "PT1H15S",
+    "publishedAt": "2013-04-04T21:16:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 151307,
+    "title": "The Pleasure Garden",
+    "originalTitle": "The Pleasure Garden",
+    "overview": "",
+    "releaseDate": "1953-10-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wHtSMFYty3B2PxoHZccZ0NXAl46.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7xNHtGbqt9zMvIx3I0RoaqMv1av.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      18,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"The Pleasure Garden\")",
+    "runtime": 38,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Lindsay Anderson",
+      "John Le Mesurier",
+      "Hattie Jacques",
+      "Jill Bennett",
+      "Maxine Audley"
+    ],
+    "director": [
+      "James Broughton"
+    ],
+    "writer": [
+      "James Broughton"
+    ],
+    "fsk": null,
+    "slug": "the-pleasure-garden"
+  },
+  {
+    "videoId": "cdPGLJbGbok",
+    "youtubeTitle": "Sabotage",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cdPGLJbGbok/hqdefault.jpg",
+    "duration": "PT1H13M26S",
+    "publishedAt": "2013-02-05T15:46:30Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 12684,
+    "title": "Sabotage",
+    "originalTitle": "Sabotage",
+    "overview": "Der freundliche, aber etwas spießige Carl Verloc ist Geschäftsführer eines kleinen Kinos im London der Vorkriegszeit. Mit seiner jungen Frau Sylvia und deren kleinem Bruder lebt er in beschaulichen Verhältnissen. Was seine Frau nicht weiß: Das Kino dient lediglich zur Tarnung, um mit Terror und Sabotageakten das öffentliche Leben in England zu stören. Doch die Polizei hat bereits Verdacht geschöpft. Als Gemüsehändler getarnt überwacht der Kriminalbeamte Ted Spencer das Kino und kommt auch Sylvia näher. Bei einem von Verloc initiierten Bombenanschlag kommt es schließlich zur Katastrophe …",
+    "releaseDate": "1936-12-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/A6cyOt9mhmvWA2uHcVsGkcCaHCz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hdl5cBE9zx5vBKuJ3RUQW0o1yEf.jpg",
+    "voteAverage": 6.699,
+    "genreIds": [
+      18,
+      53,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (8 Filme) -- Laufzeit entschied: TMDB 77 min, Video 73 min · Zuordnungswert 135 (Suchbegriff: \"Sabotage\")",
+    "runtime": 77,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Sylvia Sidney",
+      "Oskar Homolka",
+      "Desmond Tester",
+      "John Loder",
+      "Joyce Barbour"
+    ],
+    "director": [
+      "Alfred Hitchcock"
+    ],
+    "writer": [
+      "Charles Bennett"
+    ],
+    "fsk": "12",
+    "slug": "sabotage"
+  },
+  {
+    "videoId": "Jn5taG6DDtI",
+    "youtubeTitle": "Sunray: Fallen Soldier (ACTION THRILLER Deutsch, tödliche Jagd auf die Drogenmafia, ganzer film, HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Jn5taG6DDtI/hqdefault.jpg",
+    "duration": "PT1H55M30S",
+    "publishedAt": "2026-10-11T16:00:30Z",
+    "channelName": "Rashland",
+    "channelId": "UCo-WzNHl4AOFBdOUfoj3WSA",
+    "tmdbId": 1279947,
+    "title": "Sunray: Fallen Soldier",
+    "originalTitle": "Sunray: Fallen Soldier",
+    "overview": "Ein Kriegsveteran ruft alte Freunde aus seiner Vergangenheit zusammen, um die Verantwortlichen für den Tod seiner Tochter zur Rechenschaft zu ziehen. Dabei entdeckt er mehr über sich selbst, als er erwartet hatte, während sich vor seinen Augen ein gewalttätiges Verbrechersyndikat entfaltet.",
+    "releaseDate": "2025-01-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ghLaj5dBrdUsD4wjq3QERcisr5k.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qD5tjxgmCIx1At1NzxTlVp2hwHz.jpg",
+    "voteAverage": 6.15,
+    "genreIds": [
+      28,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 116,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Tip Cullen",
+      "Tom Leigh",
+      "Luke Solomon",
+      "Steven Blades",
+      "Andy Gatenby"
+    ],
+    "director": [
+      "James Clarke",
+      "Daniel Shepherd"
+    ],
+    "writer": [
+      "James Clarke",
+      "Sammy Seeley",
+      "Daniel Shepherd"
+    ],
+    "fsk": null,
+    "slug": "sunray-fallen-soldier"
+  },
+  {
+    "videoId": "seuMkF0DakQ",
+    "youtubeTitle": "Evilution – Die Bestie aus dem Cyberspace - How to Make a Monster (2000) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/seuMkF0DakQ/hqdefault.jpg",
+    "duration": "PT1H26M30S",
+    "publishedAt": "2026-09-13T16:00:29Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 38510,
+    "title": "Evilution - Die Bestie aus dem Cyberspace!",
+    "originalTitle": "How to Make a Monster",
+    "overview": "",
+    "releaseDate": "2001-10-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kO07s7FO9bGnhGHtPaBAcoiEenH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/99jyzZKS4qw2MAwiGVmLudCVxTI.jpg",
+    "voteAverage": 4.291,
+    "genreIds": [
+      10770,
+      27,
+      878,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 96 (Suchbegriff: \"Evilution – Die Bestie aus dem Cyberspace - How to Make a Monster\")",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Clea DuVall",
+      "Steven Culp",
+      "Tyler Mane",
+      "Jason Marsden",
+      "Karim Prince"
+    ],
+    "director": [
+      "George Huang"
+    ],
+    "writer": [
+      "George Huang"
+    ],
+    "fsk": null,
+    "slug": "evilution-die-bestie-aus-dem-cyberspace"
+  },
+  {
+    "videoId": "BSV-tY7pw9c",
+    "youtubeTitle": "Ein Letzter Wunsch Verändert Sein Leben | Morceaux Choisis | Drama",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/BSV-tY7pw9c/hqdefault.jpg",
+    "duration": "PT1H18M40S",
+    "publishedAt": "2026-10-11T12:00:19Z",
+    "channelName": "Stash auf Deutsch",
+    "channelId": "UCxouNAvM6cFw3xNftPP_4eQ",
+    "tmdbId": 1383107,
+    "title": "Morceaux choisis - Episoden aus dem Leben des Julius Schönfeld",
+    "originalTitle": "Morceaux choisis - Episoden aus dem Leben des Julius Schönfeld",
+    "overview": "Der Film beginnt im Jahre 1780 und folgt anhand des fragmentarischen Tagebuches den Spuren des Dichters Julius Schönfeld. Episodenhaft erzählt der Film von seinem Dasein an einem Fürstenhof in Deutschland. Ein Fest folgt auf das andere. Doch der unbeschwerte Alltag des Fürsten erfährt eine bittere Wende: Seine Köchin stirbt. Auf dem Sterbebett bittet sie ihn aber noch, nach ihrem Tod für die beiden Kinder zu sorgen. Der Fürst verspricht ihr, die Bitte zu erfüllen, dies wohl nur, da sie seine Lieblingsköchin war. Somit verändert sich das Leben für Julius und seine Schwester schlagartig.",
+    "releaseDate": "2013-02-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aEugilx7RSL0GTd43X1HLAGwPLs.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rCcXeQAeRmaP0JCfZwfB83krVQR.jpg",
+    "voteAverage": 0,
+    "genreIds": [
+      18,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Klaus Stangier",
+      "Michael Margotta",
+      "Ulrich Georg Meyer",
+      "Tanja Vogler",
+      "Erich Münch"
+    ],
+    "director": [
+      "Theodor Boder"
+    ],
+    "writer": [
+      "Theodor Boder"
+    ],
+    "fsk": null,
+    "slug": "morceaux-choisis-episoden-aus-dem-leben-des-julius-schoenfel"
+  },
+  {
+    "videoId": "yxOrc1m3HkI",
+    "youtubeTitle": "Du wirst NIEMANDEM mehr trauen! 😱 Dieser Thriller lässt dich nicht los 🎬 Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yxOrc1m3HkI/hqdefault.jpg",
+    "duration": "PT1H25M4S",
+    "publishedAt": "2026-10-11T14:00:39Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 1426204,
+    "title": "My Family's Killer Affairs",
+    "originalTitle": "My Family's Killer Affairs",
+    "overview": "",
+    "releaseDate": "2025-01-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xm9qtnTJXsWPJtNpBtTdm3Mo4lJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4cOUkujewErj5sGPY4BEu55aFiA.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "April Martucci",
+      "Isabella Carlsen",
+      "Josie Juliette Wert",
+      "Bourke Floyd",
+      "Kabby Borders"
+    ],
+    "director": [
+      "Jeff Hare"
+    ],
+    "writer": [
+      "Michael Perronne"
+    ],
+    "fsk": null,
+    "slug": "my-family-s-killer-affairs"
+  },
+  {
+    "videoId": "JJDMqZawi2Q",
+    "youtubeTitle": "Die Klasse - Berlin '61 (DRAMA NACH WAHRER BEGEBENHEIT)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JJDMqZawi2Q/hqdefault.jpg",
+    "duration": "PT1H28M49S",
+    "publishedAt": "2025-04-12T15:00:26Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": 376905,
+    "title": "Die Klasse - Berlin '61",
+    "originalTitle": "Die Klasse - Berlin '61",
+    "overview": "In der bunt zusammengewürfelten Abschlussjahrgangsklasse 13e der Kepler Schule in Neukölln kommen zum Unterricht täglich sowohl Übersiedlerkinder, die legal in den westlichen Teil der Stadt gezogen sind, als auch Grenzgänger, die in Ost-Berlin zuhause sind, aber jeden Tag in den Westen pendeln, zusammen. Nachdem die Abiturienten im Juli 1961 ihre schriftlichen Prüfungen hinter sich haben, stehen ihnen nach den Sommerferien, im September die mündlichen bevor. Doch mit dem Bau der Berliner Mauer im August ist Berlin von einem Tag auf den anderen geteilt und auseinandergerissen – auch die Klasse 13e. Die Schüler aus dem Ostteil müssen schnell eine schwere Entscheidung treffen: Sollen sie den Versuch wagen, die Grenze noch zu überwinden oder ihre Zukunftsträume in den Wind schlagen?",
+    "releaseDate": "2015-10-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bP6RE0hkJXOEzqoqvdX6QlhTzdC.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ewilQaAAKF9FsfLu6bDb3B3OCB4.jpg",
+    "voteAverage": 7.2,
+    "genreIds": [
+      18,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 89 min, Video 89 min · Zuordnungswert 121 (Suchbegriff: \"Die Klasse - Berlin '61\")",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 2,
+    "cast": [
+      "Isabel Bongard",
+      "Johannes Klaußner",
+      "Alexander Pensel",
+      "Jella Haase",
+      "Vincent Redetzki"
+    ],
+    "director": [
+      "Ben von Grafenstein"
+    ],
+    "writer": [
+      "Ben von Grafenstein",
+      "Michael Klette",
+      "Dagmar Wittmers"
+    ],
+    "fsk": null,
+    "slug": "die-klasse-berlin-61"
+  },
+  {
+    "videoId": "xOMWANfmbBs",
+    "youtubeTitle": "Seine Schwester gerät ins Visier der Mafia – jetzt schlägt er zurück GANZER FILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xOMWANfmbBs/hqdefault.jpg",
+    "duration": "PT1H24M55S",
+    "publishedAt": "2026-10-11T06:10:54Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Seine Schwester gerät ins Visier der Mafia",
+    "originalTitle": null,
+    "overview": "Als Billys Schwester Tara durch ihre Beziehung zu einem Gangster in Lebensgefahr gerät, will er sie um jeden Preis retten. Auch Cop Frank Rossi hat eine persönliche Rechnung mit den Verbrechern offen. Die beiden verfolgen unterschiedliche Wege – doch gegen Drogenboss Kasajian und seine Killer brauchen sie einander.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Steve DiMarco und Paul Ziller."
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "seine-schwester-geraet-ins-visier-der-mafia"
+  },
+  {
+    "videoId": "2SOcwzuYBhM",
+    "youtubeTitle": "Fremde Verwandte Teil 2/ 2 (Drama in voller Länge, kompletter Film auf Deutsch, ganzer Film)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2SOcwzuYBhM/hqdefault.jpg",
+    "duration": "PT1H28M41S",
+    "publishedAt": "2019-10-09T15:00:00Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": null,
+    "title": "Fremde Verwandte Teil 2/ 2",
+    "originalTitle": null,
+    "overview": "Nach dem plötzlichen Tod ihres Mannes kehrt Maureen unter dem Vorwand, dort dessen geschäftliche angelegenheiten zu regeln, aus Deutschland zurück nach Irland. In Wahrheit will sie mehr über seine Geliebte und deren fünfjährigen Sohn herausfinden. Ihre Absicht, ihren eigenen Kindern das Wissen über die Untreue ihres Vaters zu ersparen zerbricht, als sie erfährt, dass der Sohn der Geliebten an Leukämie zu sterben droht.\n#Spielfilm #ganzerFilm #Drama",
+    "releaseDate": "1999-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Brenda Fricker",
+      "Robin Laing",
+      "Karen Ardiff"
+    ],
+    "director": [
+      "Giles Foster"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "fremde-verwandte-teil-2-2-2"
+  },
+  {
+    "videoId": "zfrDa7VtmUk",
+    "youtubeTitle": "JUNGE COWBOYS | Der Geist klassischer Kinderabenteuer im Amerikanischen Westen | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zfrDa7VtmUk/hqdefault.jpg",
+    "duration": "PT1H24M54S",
+    "publishedAt": "2026-09-26T14:30:09Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": null,
+    "title": "JUNGE COWBOYS",
+    "originalTitle": null,
+    "overview": "Regie führte Eric Hendershot, ein Filmemacher, der in den 1990er- und 2000er-Jahren fest in der unabhängigen Kinder- und Familienfilm-Szene verankert war. Er war bekannt für seine Direct-to-Video-Produktionen, die traditionelle Werte, den Kontakt zur Natur und den Einfallsreichtum junger Menschen in schwierigen Situationen in den Vordergrund rückten. Diese Produktion entstand in einer ganz spezifischen Phase der Branche: den letzten Blütejahren des VHS-Marktes und dem Übergang zur DVD. In dieser Ära fanden Tierabenteuerfilme – spirituelle Erben klassischer Franchises wie Lassie oder Flicka – ein treues und äußerst profitables Publikum in Videotheken und im Nachmittagsprogramm des Wochenendfernsehens.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "slug": "junge-cowboys"
+  },
+  {
+    "videoId": "5Q_CoUuG1vI",
+    "youtubeTitle": "Hercules - Die grosse Schlacht um Hellas",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5Q_CoUuG1vI/hqdefault.jpg",
+    "duration": "PT1H20M49S",
+    "publishedAt": "2014-12-25T01:00:03Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Hercules - Die grosse Schlacht um Hellas",
+    "originalTitle": null,
+    "overview": "Hercules: Im Jahre 490 v. Chr. wird Athen von dem übermächtigen Heer des Perserkönigs Darius bedroht. Zudem plant Theokrit (Sergio Fantoni), ein einflussreicher Bewohner Athens, eine Intrige. Er will Darius Athen ausliefern. Die Bewohner glauben jedoch, dass Phiippides (Steve Reeves), ein olympischer Held, mit seinen Palastwachen den Eindringlingen stand halten kann. Dieser versucht den Nachbarstaat Sparta als Verbündeten zu gewinnen #ganzerfilm",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "hercules-die-grosse-schlacht-um-hellas"
+  },
+  {
+    "videoId": "Gu08vVsHudA",
+    "youtubeTitle": "Haie - Tödlich und Schnell",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Gu08vVsHudA/hqdefault.jpg",
+    "duration": "PT1H28M3S",
+    "publishedAt": "2014-01-25T00:00:02Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Haie - Tödlich und Schnell",
+    "originalTitle": null,
+    "overview": "Vom Personal des Aquariums von Georgia bis zu den Hai-Wrestlern auf den Bahamas, überall gibt es Profis die täglich mit Haien oder deren Reichweite ihre Arbeit verrichten. Einige dieser Leute haben nur knapp brutale Hai-Angriffe überleben können. Dieser Film konzentriert sich auf diese Gruppe von Menschen und geht ihren Geschichten und Erlebnissen in faszinierenden Bildern nach. Tauchen Sie ab und sehen Sie das gefährlichste Raubtier dieses Planeten in noch nie gesehener hautnaher Interaktion... #ganzerfilm",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "haie-toedlich-und-schnell"
+  },
+  {
+    "videoId": "_lfhh4D5bX0",
+    "youtubeTitle": "🔥 Ein AUFTRAGSKILLER jagt den mächtigsten Kartellboss! | ACTIONFILM | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_lfhh4D5bX0/hqdefault.jpg",
+    "duration": "PT1H32M55S",
+    "publishedAt": "2026-07-18T14:00:17Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": null,
+    "title": "The Line",
+    "originalTitle": null,
+    "overview": "Der erfahrene Auftragskiller Mark Shields reist nach Tijuana, um Pelon, den neuen Anführer eines mächtigen Verbrechersyndikats, auszuschalten. Während innerhalb der Organisation ein brutaler Machtkampf beginnt, gerät Mark zwischen rivalisierende Gruppen, korrupte Auftraggeber und eine geheimnisvolle Frau. Bald erkennt er, dass seine Mission Teil eines viel größeren Plans ist.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Andy Garcia",
+      "Ray Liotta",
+      "Armand Assante",
+      "Jason Connery",
+      "Bruce Davison"
+    ],
+    "director": [
+      "James Cotten"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-line"
+  },
+  {
+    "videoId": "Bzm6ZBNyqRA",
+    "youtubeTitle": "⚔️ AUF DER SUCHE NACH RACHE stellt er sich einem mächtigen Magier | Fantasy Actionfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Bzm6ZBNyqRA/hqdefault.jpg",
+    "duration": "PT1H10M24S",
+    "publishedAt": "2026-04-01T14:00:10Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": null,
+    "title": "The Traveler",
+    "originalTitle": null,
+    "overview": "Der Kämpfer Kwan reist in den Süden, um einen mächtigen Erdmagier zu finden und die Kraft zu erlangen, sich dem Mörder von Chiu Yen zu stellen. Auf seinem Weg begegnet er gefährlichen Prüfungen, mysteriösen Kräften und seinen eigenen Ängsten und entdeckt nach und nach die Wahrheit über seine Vergangenheit und seine wahre Bestimmung.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Meto Ege",
+      "Yasin Kavlak",
+      "Assef Safahi",
+      "Daniel Klatt",
+      "Nevzat Toka"
+    ],
+    "director": [
+      "Meto Ege"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-traveler"
+  },
+  {
+    "videoId": "AcfkdfFhcGk",
+    "youtubeTitle": "Wer bricht die Macht der SS? Ein Spielfilm, der unter die Haut geht | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AcfkdfFhcGk/hqdefault.jpg",
+    "duration": "PT1H44M38S",
+    "publishedAt": "2026-07-23T17:00:20Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wir, Geiseln der SS",
+    "originalTitle": null,
+    "overview": "Der packende Film rekonstruiert die dramatische Odyssee zahlreicher prominenter Häftlinge und Angehöriger des deutschen Widerstandes ab dem Sommer 1944. Nach der Evakuierung des Konzentrationslagers Dachau treibt das erbarmungslose SS-Begleitkommando die unschuldigen Frauen und Kinder tiefer in die bayerischen und österreichischen Alpen. Im Pustertal erreicht das historische Drama seinen Höhepunkt, als fanatische Aufseher die Liquidation der Geiseln vorbereiten und ein mutiger Wehrmachtsoberst die Initiative ergreift. Amerikanische Truppen übernehmen schließlich die Kontrolle in Südtirol und beenden die tagelange Todesangst der traumatisierten Gefangenen am Pragser Wildsee. Die darauffolgende Internierung auf Capri bringt den ersehnten Frieden, bevor eine vom Schicksal geprüfte Mutter ihre verschleppten Söhne auf wunderbare Weise wiederfindet.",
+    "releaseDate": "2015-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Titel aus der Videobeschreibung ermittelt -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelKorrigiert": true,
+    "slug": "wir-geiseln-der-ss"
+  },
+  {
+    "videoId": "NUI6f-CBu8M",
+    "youtubeTitle": "Sie verloren ihr Zuhause, doch die Mutter tat alles, um die Familie zusammenzuhalten | DRAMA FILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/NUI6f-CBu8M/hqdefault.jpg",
+    "duration": "PT1H25M24S",
+    "publishedAt": "2026-07-26T15:00:37Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Rosie",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "rosie"
+  },
+  {
+    "videoId": "nbpUDeA0fPU",
+    "youtubeTitle": "Die Fähigkeit, sich zu teleportieren, wurde für sie zum Gefängnis | FANTASYFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nbpUDeA0fPU/hqdefault.jpg",
+    "duration": "PT1H30M16S",
+    "publishedAt": "2026-06-07T15:00:14Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "One and Two",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "one-and-two"
+  },
+  {
+    "videoId": "6rfVWhKVHHM",
+    "youtubeTitle": "Für sie wollte er ein anderer Mann sein aber die Vergangenheit kam zurück | Film Kriminaldrama",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6rfVWhKVHHM/hqdefault.jpg",
+    "duration": "PT1H34M49S",
+    "publishedAt": "2026-04-14T16:04:44Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Rock",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "rock"
+  },
+  {
+    "videoId": "SEW0IeI0bVM",
+    "youtubeTitle": "😱 Ein HORRORFILM, nach dem du nicht schlafen kannst | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SEW0IeI0bVM/hqdefault.jpg",
+    "duration": "PT1H23M33S",
+    "publishedAt": "2026-03-08T16:00:39Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Scared",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "slug": "scared"
+  },
+  {
+    "videoId": "u3eZpADC_FA",
+    "youtubeTitle": "El Dorado - Stadt aus Gold | Actionfilm mit Shane West",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/u3eZpADC_FA/hqdefault.jpg",
+    "duration": "PT1H29M37S",
+    "publishedAt": "2026-04-02T17:01:06Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": null,
+    "title": "El Dorado - Stadt aus Gold",
+    "originalTitle": null,
+    "overview": "Die Idee, eine Handlung rund um das Inka-Reich zu entwickeln, insbesondere angesichts der Geheimniskrämerei um Atahualpa und des Niedergangs nach der Ankunft von Francisco Pizarro. Diese Miniserie verbindet historische Fakten mit einem Science-Fiction-Touch. Sie hat auch einen „Indiana Jones“-Charakter, da Jack Wilder zwar eine Ausbildung in Archäologie hat, diese aber für die Schatzsuche einsetzt. Seine Kenntnisse in beiden Bereichen kommen ihm jedoch sehr zugute, angesichts der vielen Menschen, die hinter ihm her sind, und dessen, wonach er sucht: El Dorado. Die Geschichte führt sie an einige beeindruckende historische Orte im Inka-Reich, was jeden, der sich jemals für diese Zivilisation interessiert hat, tief in die Reise eintauchen lässt. Tolle Handlung … sehr unterhaltsam!",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Shane West",
+      "Luke Goss",
+      "Natalie Martinez"
+    ],
+    "director": [
+      "Terry Cunningham"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "el-dorado-stadt-aus-gold"
   }
 ]
