@@ -3372,5 +3372,25 @@
     "title": "Planet Ocean",
     "tmdbId": 243392,
     "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "QePQcDXMQxA",
+    "youtubeTitle": "Appassionata - Erstes Verlangen Ganzer | Film 4K Ultra HD Drama | Ornella Muti",
+    "title": "Appassionata",
+    "tmdbId": 130679,
+    "channelName": "Kino Deutsch"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "XU-ijGtmBhY",
+    "youtubeTitle": "JET LI - FINAL FIGHT | Born To Defense | Ganzer ACTION MARTIAL-ARTS-FILM auf DEUTSCH",
+    "title": "Final Fight",
+    "tmdbId": 1377759,
+    "channelName": "FFF Kino"
   }
 ]
