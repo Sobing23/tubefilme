@@ -3376,5 +3376,55 @@
     "title": "The Adventures of Jurassic Pet",
     "tmdbId": 593026,
     "channelName": "Kinohof"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1962, Video 1936) -- wird neu gesucht",
+    "videoId": "Jg90AFgaEMM",
+    "youtubeTitle": "Lumpazivagabundus (Komödie, Filmklassiker auf Deutsch, Filme kostenlos anschauen)",
+    "title": "Lumpazivagabundus",
+    "tmdbId": 382329,
+    "channelName": "Retroflix"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1954, Video 2003) -- wird neu gesucht",
+    "videoId": "3kGwYl-PzZM",
+    "youtubeTitle": "Hin und her - Chaos im Doppelpack | Familienfilm auf deutsch",
+    "title": "Hin und her",
+    "tmdbId": 293697,
+    "channelName": "Bigtime"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1944, Video 1988) -- wird neu gesucht",
+    "videoId": "EHmkSHsYu0w",
+    "youtubeTitle": "DER UNGEBETENE - THE UNINVITED | Ganzer HORRORFILM auf Deutsch",
+    "title": "Der unheimliche Gast",
+    "tmdbId": 16373,
+    "channelName": "FFF Kino"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 92 min, Video 196 min) -- wird neu gesucht",
+    "videoId": "SohSOr2T8n4",
+    "youtubeTitle": "🎬 Der Rächer (1960) – Ganzer Film auf Deutsch | Heinz Drache & Klaus Kinski",
+    "title": "Rächer der Enterbten",
+    "tmdbId": 83354,
+    "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 116 min, Video 50 min) -- wird neu gesucht",
+    "videoId": "tSJb3d9CTN8",
+    "youtubeTitle": "Robin Hood (1981) [Zeichentrick] | ganzer Film (deutsch)",
+    "title": "Robin Hood",
+    "tmdbId": 375588,
+    "channelName": "CiNENET Deutschland"
   }
 ]

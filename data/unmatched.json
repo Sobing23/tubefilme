@@ -1,46 +1,14 @@
 [
   {
-    "videoId": "F3KUzEyGHcE",
-    "youtubeTitle": "Giulia | HD | Drama | Ganzer Film in Italian with German subtitles",
-    "suchbegriff": "Giulia",
+    "videoId": "frs0LtFB2Mo",
+    "youtubeTitle": "⚡🎬 Ein Spannender und Explosiver Film, der dir den Atem raubt! | Ganzer Film auf Deutsch",
+    "suchbegriff": "Ein Spannender und Explosiver Film, der dir den Atem raubt!",
     "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 67) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "grund": "Ein-Wort-Suchbegriff \"The Weapon\" ohne Jahr/Besetzung -- Rest des Titels (\"spannender explosiver dir den atem raubt\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 255382,
-      "title": "Ich will Dich, Guilia",
-      "release_date": "1986-09-05"
-    }
-  },
-  {
-    "videoId": "An0hSghEaZs",
-    "youtubeTitle": "Rache ist süß | Dick & Doof Kultfilm",
-    "suchbegriff": "Rache ist süß",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 25898,
-      "title": "Dick und Doof - Rache ist süß",
-      "release_date": "1934-12-14"
-    }
-  },
-  {
-    "videoId": "D2pmrmKVO2c",
-    "youtubeTitle": "Heimatfilm: Wenn die Abendglocken läuten 1951",
-    "suchbegriff": "Heimatfilm: Wenn die Abendglocken läuten 1951",
-    "erwartetesJahr": "1951",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "vIk2xppilBQ",
-    "youtubeTitle": "Mary (1930) [Klassiker] | ganzer Film (deutsch)",
-    "suchbegriff": "Mary",
-    "erwartetesJahr": "1930",
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 43)",
-    "tmdbTopKandidat": {
-      "id": 262511,
-      "title": "Follow the Leader",
-      "release_date": "1930-12-06"
+      "id": 1081620,
+      "title": "The Weapon",
+      "release_date": "2023-02-17"
     }
   }
 ]
