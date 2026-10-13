@@ -1041,7 +1041,12 @@ async function findBestMatch(video, zusatzBegriffe = [], vorgabe = null) {
     yearNote: notes.length ? notes.join(" · ") : null,
     // Welche harten Belege es gibt -- die Nachsuche verlangt mehr als nur
     // einen hohen Wert (siehe youtubeNachsuche).
-    belege: { exactTitle: !!best.exactTitle, personConfirmed: !!best.personConfirmed },
+    belege: {
+      exactTitle: !!best.exactTitle,
+      personConfirmed: !!best.personConfirmed,
+      mehrdeutigOffen,
+      runtime: best.runtime, // nur gesetzt, wenn die Mehrdeutigkeitsprüfung sie geholt hat
+    },
   };
 }
 
@@ -1330,6 +1335,24 @@ function nachsucheAblehnung(res) {
   return "kein harter Beleg (weder Besetzung noch exakter Titel mit Jahr)";
 }
 
+// Beleg ohne Jahr und Besetzung: exakter Titel, nicht mehrdeutig, und die
+// TMDB-Laufzeit liegt auf 5 Minuten bei der Videolänge. Liefert null, wenn
+// der Treffer übernommen werden darf, sonst den Grund.
+async function laufzeitAblehnung(res, video) {
+  if (!res.match) return res.reason === "kein TMDB-Treffer" ? "kein TMDB-Treffer" : "Treffer zu unsicher (schon nach normaler Bewertung abgelehnt)";
+  if (!res.belege.exactTitle) return "ohne Jahr/Besetzung: Titel nicht exakt";
+  if (res.belege.mehrdeutigOffen) return "ohne Jahr/Besetzung: mehrere gleichnamige Filme, Laufzeit entscheidet nicht";
+  if (!res.belege.runtime) {
+    res.belege.runtime = await fetchRuntime(res.match.id);
+    await sleep(DELAY_MS);
+  }
+  const vmin = videoMinuten(video.duration);
+  if (!(res.belege.runtime >= 60) || Math.abs(res.belege.runtime - vmin) > 5) {
+    return "ohne Jahr/Besetzung: Laufzeit passt nicht";
+  }
+  return null;
+}
+
 async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) {
   let korrekturen = {};
   try {
@@ -1371,15 +1394,22 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
     // übergeben.
     const korrektur = korrekturen[eintrag.videoId] || null;
 
-    // Ohne Jahr und ohne Besetzung kann keiner der beiden harten Belege
-    // zustande kommen -- die Suche würde nur TMDB-Zeit kosten. Betrifft
-    // laut Datenbestand rund 60 % der übernommenen Filme.
+    // Ohne Jahr und ohne Besetzung bleibt als Beleg nur die Laufzeit: exakter
+    // Titel + TMDB-Laufzeit auf 5 Minuten wie das Video. Gesucht wird dann nur
+    // mit einem Titel aus mindestens zwei bedeutungstragenden Wörtern -- bei
+    // "Congo" oder "Ben" passen zu viele Filme um 90 Minuten.
+    // Betraf am 13.10. 925 von 1.482 übernommenen Filmen, die vorher gar
+    // nicht gesucht wurden.
     const vorab = extractSearchInfo(video);
     const jahrBekannt = vorab.year || (korrektur && korrektur.jahr);
-    if (!jahrBekannt && vorab.cast.length === 0 && vorab.directors.length === 0) {
-      gruende["weder Jahr noch Besetzung bekannt (nicht gesucht)"] =
-        (gruende["weder Jahr noch Besetzung bekannt (nicht gesucht)"] || 0) + 1;
-      continue;
+    const nurLaufzeit = !jahrBekannt && vorab.cast.length === 0 && vorab.directors.length === 0;
+    if (nurLaufzeit) {
+      const titelWoerter = bedeutungsWoerter(normalizeTitle((korrektur && korrektur.titel) || eintrag.title));
+      if (titelWoerter.length < 2 || eintrag.titelUnsicher || videoMinuten(video.duration) < 60) {
+        gruende["weder Jahr noch Besetzung, Titel zu kurz für Laufzeitbeleg (nicht gesucht)"] =
+          (gruende["weder Jahr noch Besetzung, Titel zu kurz für Laufzeitbeleg (nicht gesucht)"] || 0) + 1;
+        continue;
+      }
     }
 
     let res;
@@ -1391,9 +1421,14 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
       continue;
     }
 
-    const ablehnung = nachsucheAblehnung(res);
+    let ablehnung = nachsucheAblehnung(res);
+    let laufzeitBeleg = null;
+    if (ablehnung && nurLaufzeit) {
+      ablehnung = await laufzeitAblehnung(res, video);
+      if (!ablehnung) laufzeitBeleg = `Laufzeit bestätigt (TMDB ${res.belege.runtime} min, Video ${Math.round(videoMinuten(video.duration))} min)`;
+    }
     if (ablehnung) {
-      const schluessel = ablehnung.startsWith("Konfidenz") ? "Konfidenz unter \"hoch\"" : ablehnung;
+      const schluessel = (ablehnung.startsWith("Konfidenz") ? "Konfidenz unter \"hoch\"" : ablehnung) + (nurLaufzeit ? " [Laufzeitweg]" : "");
       gruende[schluessel] = (gruende[schluessel] || 0) + 1;
       await sleep(DELAY_MS);
       continue;
@@ -1413,9 +1448,10 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
         bereitsVorhandenAufKanal: vorhandenAuf,
       });
       entfernen.add(eintrag);
-      zuDuplikaten.push({ alt: eintrag.title, neu: tmdb.title, jahr: (tmdb.release_date || "").slice(0, 4), kanal: vorhandenAuf });
+      zuDuplikaten.push({ alt: eintrag.title, neu: tmdb.title, jahr: (tmdb.release_date || "").slice(0, 4), kanal: vorhandenAuf + (laufzeitBeleg ? " (über Laufzeit)" : "") });
     } else {
       const hinweise = [`Bei der Nachsuche gefunden -- vorher aus YouTube übernommen als "${eintrag.title}"`];
+      if (laufzeitBeleg) hinweise.push(laufzeitBeleg);
       if (res.yearNote) hinweise.push(res.yearNote);
       const neu = buildEntry(video, tmdb, res.info.source, "hoch", hinweise.join(" · "));
 
@@ -1435,7 +1471,7 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
       const idx = matched.indexOf(eintrag);
       matched[idx] = neu;
       tmdbIdToChannel.set(tmdb.id, eintrag.channelName);
-      ersetzt.push({ alt: eintrag.title, neu: tmdb.title, jahr: (tmdb.release_date || "").slice(0, 4), kanal: eintrag.channelName });
+      ersetzt.push({ alt: eintrag.title, neu: tmdb.title, jahr: (tmdb.release_date || "").slice(0, 4), kanal: eintrag.channelName + (laufzeitBeleg ? ", über Laufzeit" : "") });
     }
 
     await sleep(DELAY_MS);

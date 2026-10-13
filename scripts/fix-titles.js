@@ -405,6 +405,11 @@ async function main() {
         : null) ||
       cleanTitle(roh, film.channelName);
     if (!echterTitel || echterTitel.length < 2 || echterTitel === film.title) continue;
+    // Ergäbe die zweite Stufe aus dem neuen Titel wieder den jetzigen, ist
+    // nichts zu tun -- sonst schwankt der Titel bei jedem Lauf hin und her
+    // ("Neverland - Teil 2" -> "Neverland" -> "Neverland - Teil 2") und das
+    // Protokoll meldet Scheinänderungen.
+    if (nachbereinigen(echterTitel, roh, rohBeschreibung) === film.title) continue;
     if (istEtikett(echterTitel)) continue; // nie auf ein reines Genre-Etikett kürzen
 
     // Ersetzen nur in zwei Fällen:

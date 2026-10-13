@@ -272,6 +272,8 @@ Ein hoher Wert allein reicht nicht: Teiltitel + bekannter Film + richtiges Jahr 
 | alles andere | unverändert |
 | weder Jahr noch Besetzung bekannt | wird gar nicht erst gesucht — keiner der Belege wäre möglich (rund 60 % der übernommenen Filme) |
 
+**Laufzeit als dritter Beleg (13.10.2026):** Bei der Neu-Zuordnung am 13.10. wurden 925 von 1.482 übernommenen Filmen gar nicht gesucht, weil weder Jahr noch Besetzung bekannt waren. Seitdem werden sie gesucht, wenn der Titel mindestens zwei bedeutungstragende Wörter hat, das Video mindestens 60 Minuten lang ist und der Titel kein Werbesatz ist. Übernommen wird nur bei **exaktem Titel**, eindeutigem Treffer (nicht mehrere gleichnamige Filme mit ähnlicher Laufzeit) und **TMDB-Laufzeit auf 5 Minuten wie die Videolänge**. Im Protokoll steht „über Laufzeit", im Hinweis des Eintrags „Laufzeit bestätigt (TMDB … min, Video … min)" — so lässt sich die Gruppe gezielt prüfen.
+
 Es verschwindet nie ein Film. Das Protokoll des Schritts listet jede Ersetzung einzeln (vorher → nachher). Mit `--limit N` lässt sich ein Probelauf auf N Filme begrenzen. Mit `--nur-korrekturen` beschränkt sich die Nachsuche auf Filme mit von Hand ermitteltem Titel (`titel-korrekturen.json`) — diese Variante läuft auch im nächtlichen Scan, weil sie nur wenige Dutzend Anfragen kostet.
 
 ---
