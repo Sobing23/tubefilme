@@ -3178,5 +3178,185 @@
     "title": "Till Eulenspiegel",
     "tmdbId": 119191,
     "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 88 min, Video 156 min) -- wird neu gesucht",
+    "videoId": "D2pmrmKVO2c",
+    "youtubeTitle": "Heimatfilm: Wenn die Abendglocken läuten 1951",
+    "title": "Wenn die Abendglocken läuten",
+    "tmdbId": 124589,
+    "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2001, Video 1936) -- wird neu gesucht",
+    "videoId": "Jg90AFgaEMM",
+    "youtubeTitle": "Lumpazivagabundus (Komödie, Filmklassiker auf Deutsch, Filme kostenlos anschauen)",
+    "title": "Lumpazivagabundus",
+    "tmdbId": 920408,
+    "channelName": "Retroflix"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2016, Video 1986) -- wird neu gesucht",
+    "videoId": "F3KUzEyGHcE",
+    "youtubeTitle": "Giulia | HD | Drama | Ganzer Film in Italian with German subtitles",
+    "title": "Giulia",
+    "tmdbId": 1478497,
+    "channelName": "Alle Filme Auf Deutsch"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2009, Video 1983) -- wird neu gesucht",
+    "videoId": "NRseILkNhmE",
+    "youtubeTitle": "Sherlock Holmes - Der Hund von Baskerville (Old School Action, Thriller, Klassischer Krimi, Deutsch)",
+    "title": "Sherlock Holmes",
+    "tmdbId": 10528,
+    "channelName": "Dzango"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2021, Video 1996) -- wird neu gesucht",
+    "videoId": "IYgaI3A1HIM",
+    "youtubeTitle": "Big Night - Nacht der Genüsse | 4K | Tony Shalhoub | Ganzer Film auf Deutsch",
+    "title": "Big Night!",
+    "tmdbId": 670159,
+    "channelName": "Bigtime"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2005, Video 1999) -- wird neu gesucht",
+    "videoId": "E2LNdN2Zzt8",
+    "youtubeTitle": "Election | 4K | Reese Witherspoon | Ganzer Film auf Deutsch",
+    "title": "Election",
+    "tmdbId": 18747,
+    "channelName": "Bigtime"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1983, Video 1992) -- wird neu gesucht",
+    "videoId": "TSCUoMOf8rg",
+    "youtubeTitle": "Der Außenseiter | 4K | Brendan Fraser & Matt Damon | Ganzer Film auf Deutsch",
+    "title": "Der Außenseiter",
+    "tmdbId": 12504,
+    "channelName": "Bigtime"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1992, Video 2004) -- wird neu gesucht",
+    "videoId": "p1TUNp7A1i8",
+    "youtubeTitle": "Jersey Girl | Ben Affleck | Ganzer Film auf Deutsch",
+    "title": "Love Crash",
+    "tmdbId": 54655,
+    "channelName": "Bigtime"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1951, Video 2003) -- wird neu gesucht",
+    "videoId": "3kGwYl-PzZM",
+    "youtubeTitle": "Hin und her - Chaos im Doppelpack | Familienfilm auf deutsch",
+    "title": "Hin und her",
+    "tmdbId": 290218,
+    "channelName": "Bigtime"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 55 min, Video 123 min) -- wird neu gesucht",
+    "videoId": "sqVkG4-j_TU",
+    "youtubeTitle": "Der letzte Mohikaner | Western | Koloriert | Deutsch",
+    "title": "Der letzte Mohikaner",
+    "tmdbId": 219194,
+    "channelName": "Grjngo Westernfilme"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2024, Video 1966) -- wird neu gesucht",
+    "videoId": "Z6WQ5gXpOEM",
+    "youtubeTitle": "Mountains | Cowboyfilm | Alter Westernfilm",
+    "title": "Mountains",
+    "tmdbId": 1115584,
+    "channelName": "Grjngo Westernfilme"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2020, Video 1995) -- wird neu gesucht",
+    "videoId": "sCAFxQ7ZHWE",
+    "youtubeTitle": "Revolver Girls | Westernfilm auf Deutsch | Cowboys | Wilder Westen",
+    "title": "Cowboys",
+    "tmdbId": 681022,
+    "channelName": "Grjngo Westernfilme"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1936, Video 1968) -- wird neu gesucht",
+    "videoId": "uFKvl7_GGr0",
+    "youtubeTitle": "Romeo und Julia | 4K | William Shakespeare | Liebesdrama auf Deutsch",
+    "title": "Romeo und Julia",
+    "tmdbId": 43879,
+    "channelName": "Artflix"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1941, Video 1934) -- wird neu gesucht",
+    "videoId": "An0hSghEaZs",
+    "youtubeTitle": "Rache ist süß | Dick & Doof Kultfilm",
+    "title": "Rache ist süß",
+    "tmdbId": 96172,
+    "channelName": "Artflix"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1996, Video 1988) -- wird neu gesucht",
+    "videoId": "EHmkSHsYu0w",
+    "youtubeTitle": "DER UNGEBETENE - THE UNINVITED | Ganzer HORRORFILM auf Deutsch",
+    "title": "Stimmen aus dem Grab",
+    "tmdbId": 131914,
+    "channelName": "FFF Kino"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 94 min, Video 196 min) -- wird neu gesucht",
+    "videoId": "SohSOr2T8n4",
+    "youtubeTitle": "🎬 Der Rächer (1960) – Ganzer Film auf Deutsch | Heinz Drache & Klaus Kinski",
+    "title": "Maciste, der Rächer der Pharaonen",
+    "tmdbId": 206004,
+    "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "vIk2xppilBQ",
+    "youtubeTitle": "Mary (1930) [Klassiker] | ganzer Film (deutsch)",
+    "title": "Juno und der Pfau",
+    "tmdbId": 47695,
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 86 min, Video 50 min) -- wird neu gesucht",
+    "videoId": "tSJb3d9CTN8",
+    "youtubeTitle": "Robin Hood (1981) [Zeichentrick] | ganzer Film (deutsch)",
+    "title": "Robin Hood",
+    "tmdbId": 417160,
+    "channelName": "CiNENET Deutschland"
   }
 ]
