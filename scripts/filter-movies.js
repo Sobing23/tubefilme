@@ -36,6 +36,18 @@ const PROMO_KEYWORDS = /trailer|teaser|\bclip\b/i;
 // Dokumentationen: tubefilme.de führt nur Spielfilme (Entscheidung 10.10.2026).
 // Muss mit DOKU_WORT in remove-documentaries.js übereinstimmen.
 const DOKU_KEYWORDS = /\bdokus?\b|dokumentation|dokumentarfilm|documentary|\breportage|kriegsdoku|geschichtsdoku|musikdokument/i;
+// Dokus, die es nur in der Beschreibung verraten -- und zwar, indem sie sich
+// SELBST so nennen ("Diese Dokumentation zeigt ...", "In diesem
+// Dokumentarfilm ...", "unserer Tierdokumentationsreihe"). Bewusst nicht jedes
+// Doku-Wort: In Spielfilmen drehen Figuren oft "eine Dokumentation über ..."
+// oder machen "eine Reportage", und Free Movies Deutschland schreibt in
+// KI-Beschreibungen von Spielfilmen "Die Doku taucht ein ...". Gefunden am
+// 13.10.2026 bei der Stichprobe der YouTube-Einträge: 47 Naturfilme, Lehrvideos
+// und Geschichts-Dokus (fast alle CiNENET), dazu 4 TMDB-Einträge ("Frohes
+// Schaffen", "Karl May", "Wölfe", "Vom Mammut zum Säbelzahntiger").
+export const DOKU_SELBSTBESCHREIBUNG =
+  /\b(?:diese[rsn]?|in\s+diese[rmn]|vorliegende[n]?|unsere[rn]?)\s+(?:[\wäöüß-]+\s+){0,2}?(?:[\wäöüß]*-)?(?:dokumentation|dokumentarfilm|naturdokumentation|tierdokumentation|videodokumentation|dokumentationsreihe)\w*/i;
+
 const SERIES_KEYWORDS = /\bfolgen?\b|\bstaffel\b|miniserie|\bserie\b|\bepisoden?\b|\bwebserie\b/i;
 
 function parseDuration(iso) {
@@ -68,6 +80,9 @@ function classify(video, profil) {
   }
   if (DOKU_KEYWORDS.test(video.title)) {
     return { include: false, reason: "Dokumentation (Schlüsselwort im Titel)" };
+  }
+  if (DOKU_SELBSTBESCHREIBUNG.test((video.description || "").slice(0, 600))) {
+    return { include: false, reason: "Dokumentation (beschreibt sich selbst so)" };
   }
   if (profil.ausschlussMuster && new RegExp(profil.ausschlussMuster, "i").test(video.title)) {
     return { include: false, reason: "Kanalregel: Ausschlussmuster im Titel" };

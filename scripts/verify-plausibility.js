@@ -40,7 +40,8 @@ const TMDB_BASE = "https://api.themoviedb.org/3";
 // Wird die Prüflogik verschärft, zählt diese Nummer hoch: Einträge mit
 // älterer (oder ohne) Version werden erneut geprüft. Version 2 (11.10.2026):
 // Vergleich in beide Richtungen, keine Ein-Wort-Treffer gegen den Fließtext.
-const PRUEF_VERSION = 2;
+// Version 3 (13.10.2026): Laufzeit-Widerspruch auch bei Videos unter 40 min.
+const PRUEF_VERSION = 3;
 const BEARER_TOKEN = process.env.TMDB_BEARER_TOKEN;
 const DELAY_MS = 120;
 const NUR_PRUEFEN = process.argv.includes("--nur-pruefen"); // nichts schreiben, nur berichten
@@ -232,9 +233,16 @@ function laufzeitPasst(m) {
 
 function laufzeitWiderspricht(m) {
   const min = videoMinuten(m.duration);
-  if (!(m.runtime >= 40) || min < 40) return false;
+  if (!(m.runtime > 0) || !(min > 0)) return false;
   if (/\bteil\b|\bpart\b/i.test(m.youtubeTitle || "")) return false;
-  return Math.abs(m.runtime - min) / m.runtime > 0.3;
+  if (m.runtime >= 40 && min >= 40) return Math.abs(m.runtime - min) / m.runtime > 0.3;
+  // Kurzes Video, langer TMDB-Film: Ausschnitt, Serienfolge oder ein
+  // gleichnamiger Kurzfilm -- jedenfalls nicht dieser Film. Gefunden am 13.10.:
+  // "Dick Tracy" (Serial, 290 min) für ein 20-Minuten-Video, "Karl May" (187
+  // min) für 20 min, "Moses" (141 min) für 32 min. Umgekehrt (langer Film,
+  // kurzer TMDB-Eintrag) ebenso.
+  const lang = Math.max(m.runtime, min), kurz = Math.min(m.runtime, min);
+  return lang >= kurz * 1.5 && lang - kurz >= 15;
 }
 
 function jahrPasst(m, jahre) {
