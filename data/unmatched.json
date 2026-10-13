@@ -1,46 +1,46 @@
 [
   {
-    "videoId": "f1QnWDW7swE",
-    "youtubeTitle": "Eine ganze Stadt fürchtet diese Gang – bis sie auftaucht Action Ganzer Film Deutsch Kostenlos",
-    "suchbegriff": "Eine ganze Stadt fürchtet diese Gang – bis sie auftaucht Action Ganzer Film Deutsch Kostenlos",
+    "videoId": "F3KUzEyGHcE",
+    "youtubeTitle": "Giulia | HD | Drama | Ganzer Film in Italian with German subtitles",
+    "suchbegriff": "Giulia",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "wRdX5VyrD4Y",
-    "youtubeTitle": "Der KGB hält sie gefangen – ein Ninja-Team soll sie herausholen Action Ganzer Film Deutsch Kostenlos",
-    "suchbegriff": "Der KGB hält sie gefangen – ein Ninja-Team soll sie herausholen Action Ganzer Film Deutsch Kostenlos",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "9wEK2cYxjdo",
-    "youtubeTitle": "Seit 50 Jahren kein Regen – jetzt kämpfen sie um ihr Wasser Action Ganzer Film Deutsch Kostenlos",
-    "suchbegriff": "Seit 50 Jahren kein Regen – jetzt kämpfen sie um ihr Wasser Action Ganzer Film Deutsch Kostenlos",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "C37eIobAnwI",
-    "youtubeTitle": "🔥 Zwei Brüder geraten ins Visier brutaler Verbrecher ▶️ Locust | Filme Deutsch Komplett",
-    "suchbegriff": "Zwei Brüder geraten ins Visier brutaler Verbrecher ▶️ Locust",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Locust\" ohne Jahr/Besetzung -- Rest des Titels (\"zwei bruder geraten ins visier brutaler verbrecher\") fehlt im Treffer",
+    "grund": "Schwache Übereinstimmung (Wert 67) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 5122,
-      "title": "Der Tag der Heuschrecke",
-      "release_date": "1975-05-07"
+      "id": 255382,
+      "title": "Ich will Dich, Guilia",
+      "release_date": "1986-09-05"
     }
   },
   {
-    "videoId": "l_RuK53f_eE",
-    "youtubeTitle": "Die schlimmste Entscheidung seines Lebens wurde zum Beginn einer UNGLAUBLICHEN GESCHICHTE |  Film HD",
-    "suchbegriff": "Die schlimmste Entscheidung seines Lebens wurde zum Beginn einer UNGLAUBLICHEN GESCHICHTE",
+    "videoId": "An0hSghEaZs",
+    "youtubeTitle": "Rache ist süß | Dick & Doof Kultfilm",
+    "suchbegriff": "Rache ist süß",
     "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 25898,
+      "title": "Dick und Doof - Rache ist süß",
+      "release_date": "1934-12-14"
+    }
+  },
+  {
+    "videoId": "D2pmrmKVO2c",
+    "youtubeTitle": "Heimatfilm: Wenn die Abendglocken läuten 1951",
+    "suchbegriff": "Heimatfilm: Wenn die Abendglocken läuten 1951",
+    "erwartetesJahr": "1951",
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vIk2xppilBQ",
+    "youtubeTitle": "Mary (1930) [Klassiker] | ganzer Film (deutsch)",
+    "suchbegriff": "Mary",
+    "erwartetesJahr": "1930",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 43)",
+    "tmdbTopKandidat": {
+      "id": 262511,
+      "title": "Follow the Leader",
+      "release_date": "1930-12-06"
+    }
   }
 ]
