@@ -26,6 +26,16 @@ const PROTOKOLL_PATH = "data/aussortiert.json";
 const KORREKTUREN_PATH = "data/titel-korrekturen.json";
 const IGNORED_PATH = "data/ignored.json";
 
+// Bestand nachziehen: Aus YouTube übernommene Einträge (ohne TMDB) unter
+// Spielfilmlänge werden entfernt. Gleicher Wert wie in absorb-unmatched.js,
+// das solche Videos seit 13.10.2026 gar nicht mehr übernimmt.
+const MIN_MINUTEN_OHNE_TMDB = 40;
+
+function minuten(dauer) {
+  const x = (dauer || "").match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  return x ? (+x[1] || 0) * 60 + (+x[2] || 0) + (+x[3] || 0) / 60 : 0;
+}
+
 async function lade(pfad, standard) {
   try {
     return JSON.parse(await fs.readFile(pfad, "utf-8"));
@@ -55,6 +65,18 @@ async function main() {
       neuIgnoriert++;
     }
   }
+
+  const filme = await lade(FILME_PATH, []);
+  for (const m of filme) {
+    if (!m.tmdbId && m.matchSource === "youtube" && m.duration && minuten(m.duration) < MIN_MINUTEN_OHNE_TMDB) {
+      grund.set(m.videoId, `unter ${MIN_MINUTEN_OHNE_TMDB} Minuten und bei TMDB nicht gefunden -- kein Spielfilm`);
+      if (!ignoredSet.has(m.videoId)) {
+        ignored.push(m.videoId);
+        ignoredSet.add(m.videoId);
+        neuIgnoriert++;
+      }
+    }
+  }
   if (neuIgnoriert > 0) await fs.writeFile(IGNORED_PATH, JSON.stringify(ignored, null, 2), "utf-8");
 
   if (grund.size === 0) {
@@ -62,7 +84,6 @@ async function main() {
     return;
   }
 
-  const filme = await lade(FILME_PATH, []);
   const unmatched = await lade(UNMATCHED_PATH, []);
   const duplicates = await lade(DUPLICATES_PATH, []);
   const protokoll = await lade(PROTOKOLL_PATH, []);

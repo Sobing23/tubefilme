@@ -24,6 +24,21 @@ const UNMATCHED_PATH = "data/unmatched.json";
 const CANDIDATES_PATH = "data/candidates.json";
 const FILME_PATH = "data/filme.json";
 const ATTEMPTS_PATH = "data/unmatched-attempts.json";
+const IGNORED_PATH = "data/ignored.json";
+const PROTOKOLL_PATH = "data/aussortiert.json";
+
+// Ein Video ohne TMDB-Treffer wird nur übernommen, wenn es Spielfilmlänge hat.
+// Darunter waren bei der Stichprobe vom 13.10.2026 fast nur Zeichentrick-
+// Folgen, Kinderlieder, Fitness- und Tiervideos. Von TMDB bestätigte
+// Kurzfilme (Chaplin, Keaton, DEFA-Märchen) sind davon nicht betroffen --
+// sie kommen über match-tmdb.js, nicht über diesen Schritt.
+// Gleicher Wert in prune-excluded.js.
+export const MIN_MINUTEN_OHNE_TMDB = 40;
+
+function minuten(dauer) {
+  const x = (dauer || "").match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  return x ? (+x[1] || 0) * 60 + (+x[2] || 0) + (+x[3] || 0) / 60 : 0;
+}
 
 const MIN_VERSUCHE = 2;
 
@@ -397,6 +412,20 @@ async function main() {
   let uebernommen = 0;
   let wartet = 0;
   let ohneDaten = 0;
+  let zuKurz = 0;
+  let ignored = [];
+  try {
+    ignored = JSON.parse(await fs.readFile(IGNORED_PATH, "utf-8"));
+  } catch {
+    // noch keine Datei
+  }
+  const ignoredSet = new Set(ignored);
+  let protokoll = [];
+  try {
+    protokoll = JSON.parse(await fs.readFile(PROTOKOLL_PATH, "utf-8"));
+  } catch {
+    // noch keine Datei
+  }
 
   for (const eintrag of unmatched) {
     const videoId = eintrag.videoId;
@@ -411,6 +440,25 @@ async function main() {
     const video = candById.get(videoId);
     if (!video) {
       bleibtUnmatched.push(eintrag);
+      continue;
+    }
+
+    // Kein Spielfilm: unter Mindestlänge und bei TMDB nicht gefunden
+    if (minuten(video.duration) < MIN_MINUTEN_OHNE_TMDB) {
+      if (!ignoredSet.has(videoId)) {
+        ignored.push(videoId);
+        ignoredSet.add(videoId);
+      }
+      protokoll.push({
+        datum: new Date().toISOString().slice(0, 10),
+        quelle: "unmatched.json",
+        grund: `unter ${MIN_MINUTEN_OHNE_TMDB} Minuten und bei TMDB nicht gefunden -- kein Spielfilm`,
+        videoId,
+        youtubeTitle: video.title,
+        channelName: video.channelName,
+      });
+      delete attempts[videoId];
+      zuKurz++;
       continue;
     }
 
@@ -471,10 +519,15 @@ async function main() {
   await fs.writeFile(FILME_PATH, JSON.stringify(filme, null, 2), "utf-8");
   await fs.writeFile(UNMATCHED_PATH, JSON.stringify(bleibtUnmatched, null, 2), "utf-8");
   await fs.writeFile(ATTEMPTS_PATH, JSON.stringify(attempts, null, 2), "utf-8");
+  if (zuKurz > 0) {
+    await fs.writeFile(IGNORED_PATH, JSON.stringify(ignored, null, 2), "utf-8");
+    await fs.writeFile(PROTOKOLL_PATH, JSON.stringify(protokoll, null, 2), "utf-8");
+  }
 
   console.log(`Aus YouTube-Daten übernommen:        ${uebernommen}`);
   console.log(`Wartet noch (Schonfrist ${MIN_VERSUCHE} Läufe): ${wartet}`);
   console.log(`Kein verwertbarer Titel:             ${ohneDaten}`);
+  console.log(`Unter ${MIN_MINUTEN_OHNE_TMDB} Min., nicht übernommen:    ${zuKurz}`);
   console.log(`Verbleibend in ${UNMATCHED_PATH}:    ${bleibtUnmatched.length}`);
   console.log(`Bibliothek jetzt:                    ${filme.length}`);
 }
