@@ -3358,5 +3358,23 @@
     "title": "Robin Hood",
     "tmdbId": 417160,
     "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Nachsuche über Laufzeit: Fortsetzung dem ersten Teil zugeordnet (Untertitel abgeschnitten) -- zurückgesetzt",
+    "videoId": "RpzCjoVe2OA",
+    "title": "The Adventures of Jurassic Pet",
+    "tmdbId": 593026,
+    "channelName": "CinemaLegenden"
+  },
+  {
+    "datum": "2026-10-13",
+    "quelle": "filme.json",
+    "grund": "Nachsuche über Laufzeit: Fortsetzung dem ersten Teil zugeordnet (Untertitel abgeschnitten) -- zurückgesetzt",
+    "videoId": "HZfJwK4Bq0A",
+    "title": "The Adventures of Jurassic Pet",
+    "tmdbId": 593026,
+    "channelName": "Kinohof"
   }
 ]

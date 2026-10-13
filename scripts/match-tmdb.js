@@ -812,6 +812,7 @@ function personOverlap(expectedNames, tmdbNames) {
   return hits / expectedNames.length;
 }
 
+const MAX_VERWORFEN = 3; // ab so vielen verworfenen Zuordnungen nur noch mit hartem Beleg
 const CONFIDENT_SCORE = 140; // ab hier ist der Treffer so klar, dass wir aufhören zu suchen
 const MIN_ACCEPT_SCORE = 45; // darunter lieber gar kein Treffer als ein falscher
 
@@ -1216,8 +1217,26 @@ async function main() {
     // Stelle sind nur noch Videos, die KEINEN manuellen Override haben.
 
     try {
-      const { match, info, reason, topCandidate, confidence, yearNote } = await findBestMatch(video);
-      if (match) {
+      const { match, info, reason, topCandidate, confidence, yearNote, belege } = await findBestMatch(video);
+      // Nach drei verworfenen Zuordnungen nur noch mit hartem Beleg: Sonst
+      // landet jede Nacht der nächstbeste falsche Film in der Bibliothek, wird
+      // von der Prüfung verworfen, und das Spiel beginnt von vorn ("Edgar
+      // Wallace: Der Hexer" hatte am 13.10. elf verworfene Zuordnungen).
+      const verworfen = (GESPERRT[video.videoId] || []).length;
+      const harterBeleg =
+        belege &&
+        (belege.personConfirmed ||
+          (belege.exactTitle && info.year && match && Math.abs(parseInt((match.release_date || "").slice(0, 4), 10) - parseInt(info.year, 10)) <= 1));
+      if (match && verworfen >= MAX_VERWORFEN && !harterBeleg) {
+        unmatched.push({
+          videoId: video.videoId,
+          youtubeTitle: video.title,
+          suchbegriff: info.query,
+          erwartetesJahr: info.year,
+          grund: `${verworfen} Zuordnungen bereits verworfen -- "${match.title}" ohne harten Beleg nicht übernommen`,
+          tmdbTopKandidat: { id: match.id, title: match.title, release_date: match.release_date },
+        });
+      } else if (match) {
         addResult(video, match, info.source, confidence, yearNote);
       } else {
         unmatched.push({
@@ -1338,9 +1357,17 @@ function nachsucheAblehnung(res) {
 // Beleg ohne Jahr und Besetzung: exakter Titel, nicht mehrdeutig, und die
 // TMDB-Laufzeit liegt auf 5 Minuten bei der Videolänge. Liefert null, wenn
 // der Treffer übernommen werden darf, sonst den Grund.
-async function laufzeitAblehnung(res, video) {
+async function laufzeitAblehnung(res, video, bibliotheksTitel) {
   if (!res.match) return res.reason === "kein TMDB-Treffer" ? "kein TMDB-Treffer" : "Treffer zu unsicher (schon nach normaler Bewertung abgelehnt)";
   if (!res.belege.exactTitle) return "ohne Jahr/Besetzung: Titel nicht exakt";
+  // "Exakt" heißt in findBestMatch: exakt zum SUCHBEGRIFF -- und der kann eine
+  // gekürzte Variante sein (Untertitel nach ":" abgeschnitten). So wurde am
+  // 13.10. "The Adventures of Jurassic Pet: Return to the Wild" (Fortsetzung)
+  // dem ersten Teil zugeordnet. Hier muss deshalb jedes bedeutungstragende
+  // Wort des Bibliothekstitels auch im TMDB-Titel oder -Originaltitel stehen.
+  const tmdbWoerter = normalizeTitle(`${res.match.title} ${res.match.original_title || ""}`);
+  const fehlend = bedeutungsWoerter(normalizeTitle(bibliotheksTitel)).filter((w) => !tmdbWoerter.includes(w));
+  if (fehlend.length) return "ohne Jahr/Besetzung: Titelwörter fehlen im Treffer";
   if (res.belege.mehrdeutigOffen) return "ohne Jahr/Besetzung: mehrere gleichnamige Filme, Laufzeit entscheidet nicht";
   if (!res.belege.runtime) {
     res.belege.runtime = await fetchRuntime(res.match.id);
@@ -1424,7 +1451,7 @@ async function youtubeNachsuche(matched, duplicates, candById, tmdbIdToChannel) 
     let ablehnung = nachsucheAblehnung(res);
     let laufzeitBeleg = null;
     if (ablehnung && nurLaufzeit) {
-      ablehnung = await laufzeitAblehnung(res, video);
+      ablehnung = await laufzeitAblehnung(res, video, (korrektur && korrektur.titel) || eintrag.title);
       if (!ablehnung) laufzeitBeleg = `Laufzeit bestätigt (TMDB ${res.belege.runtime} min, Video ${Math.round(videoMinuten(video.duration))} min)`;
     }
     if (ablehnung) {
