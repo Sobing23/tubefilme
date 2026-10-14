@@ -1,14 +1,138 @@
 [
   {
-    "videoId": "frs0LtFB2Mo",
-    "youtubeTitle": "⚡🎬 Ein Spannender und Explosiver Film, der dir den Atem raubt! | Ganzer Film auf Deutsch",
-    "suchbegriff": "Ein Spannender und Explosiver Film, der dir den Atem raubt!",
+    "videoId": "Jg90AFgaEMM",
+    "youtubeTitle": "Lumpazivagabundus (Komödie, Filmklassiker auf Deutsch, Filme kostenlos anschauen)",
+    "suchbegriff": "Lumpazivagabundus",
     "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"The Weapon\" ohne Jahr/Besetzung -- Rest des Titels (\"spannender explosiver dir den atem raubt\") fehlt im Treffer",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -10)",
     "tmdbTopKandidat": {
-      "id": 1081620,
-      "title": "The Weapon",
-      "release_date": "2023-02-17"
+      "id": 1105924,
+      "title": "Der Werdenfelser Lumpazivagabundus",
+      "release_date": "2014-10-12"
     }
+  },
+  {
+    "videoId": "rKQjDSfmDyg",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (Thriller, Krimi auf Deutsch, Film von RAINER ERLER, Klassiker Filme)",
+    "suchbegriff": "Edgar Wallace: Der Hexer",
+    "erwartetesJahr": "1963",
+    "grund": "Schwache Übereinstimmung (Wert 48) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 9630,
+      "title": "Der Hexer",
+      "release_date": "1964-08-21"
+    }
+  },
+  {
+    "videoId": "9v0KGomgM7E",
+    "youtubeTitle": "Sie entführen seine Kinder – doch ihr Vater hat den Angriff überlebt Action Ganzer Film Deutsch",
+    "suchbegriff": "Sie entführen seine Kinder – doch ihr Vater hat den Angriff überlebt Action Ganzer Film Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "i6FETLudpBA",
+    "youtubeTitle": "In dieser Höhle lebt ein Volk, das seit Jahrtausenden verborgen ist  Action Ganzer Film Deutsch",
+    "suchbegriff": "In dieser Höhle lebt ein Volk, das seit Jahrtausenden verborgen ist Action Ganzer Film Deutsch",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "sRxu8h6V37A",
+    "youtubeTitle": "👉 EINE ZUFÄLLIGE BEGEGNUNG ENDET IN TÖDLICHER BESESSENHEIT! Filme deutsch komplet 4K",
+    "suchbegriff": "EINE ZUFÄLLIGE BEGEGNUNG ENDET IN TÖDLICHER BESESSENHEIT! Filme deutsch komplet 4K",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Liebeswahn\" ohne Jahr/Besetzung -- Rest des Titels (\"zufallige begegnung endet todlicher besessenheit filme komplet\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 9391,
+      "title": "Enduring Love",
+      "release_date": "2004-10-29"
+    }
+  },
+  {
+    "videoId": "yU3tCHJ5ITg",
+    "youtubeTitle": "DRAGON FIGHTER - DIE ENTSCHEIDUNGSSCHLACHT – Drachen bedrohen ein ganzes Königreich! (Fantasy)",
+    "suchbegriff": "Dragon",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Dragon\" ohne Jahr/Besetzung -- Rest des Titels (\"fighter entscheidungsschlacht drachen bedrohen ganzes konigreich\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 70057,
+      "title": "Dragon",
+      "release_date": "2011-07-04"
+    }
+  },
+  {
+    "videoId": "3kGwYl-PzZM",
+    "youtubeTitle": "Hin und her - Chaos im Doppelpack | Familienfilm auf deutsch",
+    "suchbegriff": "Hin und her - Chaos im Doppelpack",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 36)",
+    "tmdbTopKandidat": {
+      "id": 1691932,
+      "title": "Hin und Her Gerissen",
+      "release_date": ""
+    }
+  },
+  {
+    "videoId": "EHmkSHsYu0w",
+    "youtubeTitle": "DER UNGEBETENE - THE UNINVITED | Ganzer HORRORFILM auf Deutsch",
+    "suchbegriff": "DER UNGEBETENE - THE UNINVITED",
+    "erwartetesJahr": null,
+    "grund": "4 Zuordnungen bereits verworfen -- \"Ohne Ankündigung\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 1113421,
+      "title": "Ohne Ankündigung",
+      "release_date": "2025-04-11"
+    }
+  },
+  {
+    "videoId": "tPxT2FTImTE",
+    "youtubeTitle": "Ein MI5-Agent kennt zu viele Geheimnisse – jetzt jagt ihn seine eigene Regierung",
+    "suchbegriff": "Ein MI5-Agent kennt zu viele Geheimnisse – jetzt jagt ihn seine eigene Regierung",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "SohSOr2T8n4",
+    "youtubeTitle": "🎬 Der Rächer (1960) – Ganzer Film auf Deutsch | Heinz Drache & Klaus Kinski",
+    "suchbegriff": "Der Rächer",
+    "erwartetesJahr": "1960",
+    "grund": "Schwache Übereinstimmung (Wert 86) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 554107,
+      "title": "Der Rächer",
+      "release_date": "1979-06-01"
+    }
+  },
+  {
+    "videoId": "tSJb3d9CTN8",
+    "youtubeTitle": "Robin Hood (1981) [Zeichentrick] | ganzer Film (deutsch)",
+    "suchbegriff": "Robin Hood",
+    "erwartetesJahr": "1981",
+    "grund": "4 Zuordnungen bereits verworfen -- \"Robin Hood\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 20662,
+      "title": "Robin Hood",
+      "release_date": "2010-05-12"
+    }
+  },
+  {
+    "videoId": "jxi3pCEq76Y",
+    "youtubeTitle": "😱 Sie flohen für ein besseres Leben, doch verloren das Wertvollste, was sie hatten  | Ganzer Film HD",
+    "suchbegriff": "Sie flohen für ein besseres Leben, doch verloren das Wertvollste, was sie hatten",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "QznwiL1oUBE",
+    "youtubeTitle": "Wenn Wahrheit zur tödlichen Falle wird – Ein mitreißender Thriller über die besessene Liebe",
+    "suchbegriff": "Wenn Wahrheit zur tödlichen Falle wird – Ein mitreißender Thriller über die besessene Liebe",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
   }
 ]
