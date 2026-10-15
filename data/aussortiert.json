@@ -5196,5 +5196,45 @@
     "title": "Carry-On",
     "tmdbId": 1005331,
     "channelName": "Stash auf Deutsch"
+  },
+  {
+    "datum": "2026-10-15",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 5 min, Video 100 min) -- wird neu gesucht",
+    "videoId": "O4eWqIlJ-tI",
+    "youtubeTitle": "True Love | Meg Ryan (Harry und Sally) | ROMANZE | Ganzer Film | Film Komplett auf Deutsch 💎",
+    "title": "True Love",
+    "tmdbId": 1067098,
+    "channelName": "Boxoffice"
+  },
+  {
+    "datum": "2026-10-15",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 6 min, Video 84 min) -- wird neu gesucht",
+    "videoId": "4zAWQycMIlE",
+    "youtubeTitle": "Culpa (DEUTSCHES IMPRO DRAMA, ganzer film deutsch, spielfilm, deutsche filme, drama filme, hd film)",
+    "title": "Culpa",
+    "tmdbId": 1428738,
+    "channelName": "Heimatkino"
+  },
+  {
+    "datum": "2026-10-15",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 76 min, Video 27 min) -- wird neu gesucht",
+    "videoId": "R21Qb9EOrrw",
+    "youtubeTitle": "Hänsel und Gretel",
+    "title": "Hänsel und Gretel",
+    "tmdbId": 99475,
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-15",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1977, Video 2009) -- wird neu gesucht",
+    "videoId": "6fd5Wiu9N78",
+    "youtubeTitle": "Der Untermieter (2009) | Ganzer Film auf Deutsch",
+    "title": "Der Untermieter",
+    "tmdbId": 14741,
+    "channelName": "CineCult Reloaded"
   }
 ]

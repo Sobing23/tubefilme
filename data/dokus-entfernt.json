@@ -3392,5 +3392,15 @@
     "title": "Final Fight",
     "tmdbId": 1377759,
     "channelName": "FFF Kino"
+  },
+  {
+    "datum": "2026-10-15",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "HnVgh75Keis",
+    "youtubeTitle": "Laurel und Hardy: Die Teufelsbrüder | KOMÖDIE",
+    "title": "Laurel & Hardy - Die komische Liebesgeschichte von Dick und Doof",
+    "tmdbId": 252611,
+    "channelName": "Artflix"
   }
 ]

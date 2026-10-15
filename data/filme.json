@@ -89337,12 +89337,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "r8ZC4TsYuG0",
-    "youtubeTitle": "Fahr zur Hölle, Gringo | Land Raiders – Klassiker des Westerngenres, Westernfilme auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/r8ZC4TsYuG0/hqdefault.jpg",
+    "videoId": "-yttvf_qcHc",
+    "youtubeTitle": "Fahr zur Hölle, Gringo - Land Raiders (1969) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-yttvf_qcHc/hqdefault.jpg",
     "duration": "PT1H41M34S",
     "publishedAt": "2026-01-31T18:30:00Z",
-    "channelName": "Dzango",
+    "channelName": "Absolute Action",
     "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
     "tmdbId": 5700,
     "title": "Fahr zur Hölle, Gringo",
@@ -89379,9 +89379,7 @@
     "slug": "fahr-zur-hoelle-gringo",
     "plausibel": "titel",
     "runtime": 101,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "tbEErvQsO2A",
@@ -175195,7 +175193,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "abattoir-er-erwartet-dich"
+    "slug": "abattoir-er-erwartet-dich",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "eAbuDgkTKic",
@@ -200834,7 +200834,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "ein-mystischer-sturm-fuehrt-ins-kriegschaos"
+    "slug": "ein-mystischer-sturm-fuehrt-ins-kriegschaos",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "md4dOF9lTl8",
@@ -200886,7 +200888,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "tom-s-geheimer-garten"
+    "slug": "tom-s-geheimer-garten",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "xiSgAdILNPs",
@@ -214909,7 +214913,9 @@
     "fsk": "12",
     "slug": "nichts-als-die-wahrheit",
     "runtime": 108,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "WoNfZO6v3eQ",
@@ -245928,7 +245934,9 @@
     "slug": "last-chance",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "88bvMUF6kn8",
@@ -246222,7 +246230,9 @@
     "slug": "der-gelbe-teppich",
     "runtime": 89,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "oslwnwTJiqA",
@@ -246261,7 +246271,9 @@
     "slug": "twin-cities",
     "runtime": 99,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "fVF936NGdig",
@@ -246428,7 +246440,9 @@
     "slug": "911-officer-down",
     "runtime": 85,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "zYlIMUF9Juo",
@@ -246464,7 +246478,9 @@
     "slug": "the-watchman-s-edict",
     "runtime": 70,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Kk49AzGM-YQ",
@@ -269718,12 +269734,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "RAWDVT-6ZSo",
-    "youtubeTitle": "🎬 Emotionaler Dramatischer FILM mit Robert Pattinson Fesselt Bis Zum Finale! | Ganzer Film HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/RAWDVT-6ZSo/hqdefault.jpg",
+    "videoId": "mA6o4MI8u3M",
+    "youtubeTitle": "Mystischer Film mit Julianne Moore | Sie sieht ihre längst verstorbene Mutter | Filme",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mA6o4MI8u3M/hqdefault.jpg",
     "duration": "PT1H43M11S",
     "publishedAt": "2026-08-04T12:00:16Z",
-    "channelName": "Kinohof",
+    "channelName": "KinoWucht",
     "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
     "tmdbId": 157851,
     "title": "Maps to the Stars",
@@ -269756,9 +269772,7 @@
     "slug": "maps-to-the-stars",
     "runtime": 112,
     "plausibel": "titel",
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "95YO1M4y-W4",
@@ -278338,8 +278352,7 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Door in the Woods\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Jennifer Pierce Mathus",
       "David Rees Snell",
@@ -280900,7 +280913,9 @@
     "slug": "morceaux-choisis-episoden-aus-dem-leben-des-julius-schoenfel",
     "runtime": 0,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "3sE718ghScM",
@@ -282333,7 +282348,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "eine-ganze-stadt-fuerchtet-diese-gang"
+    "slug": "eine-ganze-stadt-fuerchtet-diese-gang",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "wRdX5VyrD4Y",
@@ -282776,5 +282793,899 @@
     "writer": [],
     "fsk": null,
     "slug": "the-weapon-2"
+  },
+  {
+    "videoId": "RJ6YzLjw8gs",
+    "youtubeTitle": "Sie untersucht den Tod ihres Mannes, aber alle Beweise führen zu ihr | THRILLERFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RJ6YzLjw8gs/hqdefault.jpg",
+    "duration": "PT1H26M55S",
+    "publishedAt": "2026-10-14T15:00:17Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1491415,
+    "title": "What Would You Kill For?",
+    "originalTitle": "What Would You Kill For?",
+    "overview": "",
+    "releaseDate": "2025-03-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zQ7iONXsuvHkiPGgi2r636PoczJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/x1INz61pgMthTQq15qHD9BykLui.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"What Would You Kill For?\")",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Rayisa Kondracki",
+      "Steve Byers",
+      "Laura Provenzano",
+      "Tara Yelland",
+      "Amanda Martínez"
+    ],
+    "director": [
+      "Sean Cisterna"
+    ],
+    "writer": [
+      "Grace Knight"
+    ],
+    "fsk": null,
+    "slug": "what-would-you-kill-for"
+  },
+  {
+    "videoId": "OaLB7R5D5gY",
+    "youtubeTitle": "Bravetown (MUSICAL auf Deutsch, Bewegender Spielfilm in voller Länge, Musikfilm ganzer Film NEU)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/OaLB7R5D5gY/hqdefault.jpg",
+    "duration": "PT1H53M55S",
+    "publishedAt": "2024-10-08T17:00:26Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 1125200,
+    "title": "Strings",
+    "originalTitle": "Strings",
+    "overview": "",
+    "releaseDate": "2015-11-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/JSCR7q3eXQJfSm8cXBUmn1iGTj.jpg",
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      878,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Arianna Ambrosetti",
+      "Luca De Marchi",
+      "Laura Pan",
+      "Stefano Panfilo"
+    ],
+    "director": [
+      "Alessio Vasarin"
+    ],
+    "writer": [
+      "Alessio Vasarin",
+      "Sandro Tarter"
+    ],
+    "fsk": null,
+    "slug": "strings"
+  },
+  {
+    "videoId": "_WJb_UXpXuA",
+    "youtubeTitle": "Die Olsenbande in der Klemme - Komödie | 1969 | HD | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_WJb_UXpXuA/hqdefault.jpg",
+    "duration": "PT1H43M50S",
+    "publishedAt": "2026-10-14T13:00:23Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 12231,
+    "title": "Die Olsenbande in der Klemme",
+    "originalTitle": "Olsen-banden på spanden",
+    "overview": "Nachdem die Olsenbande erfolglos versucht hat, eine Sparkasse auszurauben und Egon daraufhin mal wieder im Gefängnis gelandet ist, können Benny und Kjeld die Rückkehr ihres Anführers kaum noch erwarten. Doch sehr zum Entsetzen der beiden, ist Egon aufgrund einer hübschen Bewährungshelferin ein gewandelter Mensch und möchte sein Geld in Zukunft mit ehrlicher Arbeit verdienen. Die Arbeitsstelle als Putzkräfte im Tresorraum der Nationalbank wird den dreien ebenfalls von der Bewährungshelferin vermittelt. Dort kommt es aber nach kurzer Zeit zu einem spektakulären Einbruch, wobei die dänischen Kronjuwelen gestohlen werden. Da niemand außer der Olsenbande den Einbruch gesehen hat, werden die drei ehemaligen Diebe natürlich verdächtigt, selbst die Täter zu sein. Egon beschließt, dass es nur einen Weg gibt, ihre Unschuld zu beweisen: Sie müssen den wahren Einbrechern das Diebesgut abnehmen.",
+    "releaseDate": "1969-10-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/umuJIF5CTBj9yPBXvpFR99tct9y.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jP7bzBpeyOOYSa20BDI6KGi90QD.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      10751,
+      35,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 111,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Ove Sprogøe",
+      "Morten Grunwald",
+      "Poul Bundgaard",
+      "Ghita Nørby",
+      "Peter Steen"
+    ],
+    "director": [
+      "Erik Balling"
+    ],
+    "writer": [
+      "Erik Balling",
+      "Henning Bahs"
+    ],
+    "fsk": "12",
+    "slug": "die-olsenbande-in-der-klemme"
+  },
+  {
+    "videoId": "ByzLiicfK0k",
+    "youtubeTitle": "Der gestiefelte Kater - Trickfilm / Märchen (ganzer Film auf Deutsch) - DEFA",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ByzLiicfK0k/hqdefault.jpg",
+    "duration": "PT26M19S",
+    "publishedAt": "2019-12-04T10:00:03Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 839762,
+    "title": "Der Gestiefelte Kater",
+    "originalTitle": "Der Gestiefelte Kater",
+    "overview": "",
+    "releaseDate": "1997-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/i5oXQ0JMNLl9Kz9gMjRmVcxIbLE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6dUsVEdbHSe5xo3a9KMSpdoH2x6.jpg",
+    "voteAverage": 1,
+    "genreIds": [
+      16,
+      12,
+      14
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Der gestiefelte Kater\")",
+    "runtime": 30,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Armin Drogat",
+      "Thorsten Morawietz",
+      "Richard van Weyden",
+      "Simone Greiss"
+    ],
+    "director": [
+      "Roswitha Haas"
+    ],
+    "writer": [
+      "Roswitha Haas"
+    ],
+    "fsk": null,
+    "slug": "der-gestiefelte-kater"
+  },
+  {
+    "videoId": "mZQrD0Ojz7I",
+    "youtubeTitle": "Der Söldner | SUSPENSE | Ganzer Film | Film Komplett auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mZQrD0Ojz7I/hqdefault.jpg",
+    "duration": "PT1H50M46S",
+    "publishedAt": "2025-05-17T15:01:14Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": 76395,
+    "title": "Der Söldner",
+    "originalTitle": "The Soldier",
+    "overview": "Im Auftrag des KGB haben sowjetische Terroristen bei einem Überfall eine große Menge waffenfähiges Plutonium an sich gebracht. Sie drohen nun damit, im Nahen Osten die Hälfte des weltweiten Erdölvorrats zu vernichten, wenn sich die Israelis nicht von der Westbank in Jordanien zurückziehen. Um die Bedrohung zu entschärfen und die Terroristen auszuschalten schickt die CIA ihren besten Mann: den “Söldner” – ein perfekt ausgebildeter Einzelkämpfer. Ohne offiziellen Auftrag und ohne Rückendeckung durch seine Vorgesetzen soll er als Undercoveragent einen atomaren Holocaust verhindern. In einem Netz aus zwielichtigen Agenten und politischen Intrigen gerät er dabei jedoch schnell zwischen die Fronten, während die Uhr tickt und das Ultimatum langsam ausläuft.",
+    "releaseDate": "1982-06-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bTpECKstDkdHExRxElRCcjQ4QwS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hrFgnngT0iQ2CxZV4eNsQ5I5b90.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      28,
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (6 Filme), Laufzeit passt zu keinem (Video 111 min) -- bitte prüfen · Zuordnungswert 129 (Suchbegriff: \"Der Söldner\")",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Ken Wahl",
+      "Alberta Watson",
+      "Jeremiah Sullivan",
+      "William Prince",
+      "Joaquim de Almeida"
+    ],
+    "director": [
+      "James Glickenhaus"
+    ],
+    "writer": [
+      "James Glickenhaus"
+    ],
+    "fsk": "16",
+    "slug": "der-soeldner"
+  },
+  {
+    "videoId": "wHbK72K5alY",
+    "youtubeTitle": "MIRRORMASK | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wHbK72K5alY/hqdefault.jpg",
+    "duration": "PT1H36M38S",
+    "publishedAt": "2026-10-14T15:00:38Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 14517,
+    "title": "MirrorMask",
+    "originalTitle": "MirrorMask",
+    "overview": "MirrorMask erzählt die Geschichte von Helena, die im Zirkus ihrer Familie arbeitet und ironischerweise davon träumt, fortzulaufen und ein ganz normales Leben zu führen. Aber alles kommt ganz anders, denn sie begibt sich auf eine seltsame Reise ins “Dunkle Land”, eine fantastische Landschaft voller Riesen, Affenvögel und gefährlicher Sphinxen. Helena sucht die mächtige “Spiegelmaske” – ihre einzige Hoffnung auf eine Flucht aus dem Dunklen Land, um die Königin des Lichts zu retten und nach Hause zurückkehren zu können.",
+    "releaseDate": "2005-01-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/itIJU3NKbdgScA1WPIxXzOlm0Uj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zDkLBWZmt8jZrEhdKoUKoaEwETC.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      14
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"MIRRORMASK\")",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Stephanie Leonidas",
+      "Jason Barry",
+      "Rob Brydon",
+      "Gina McKee",
+      "Dora Bryan"
+    ],
+    "director": [
+      "Dave McKean"
+    ],
+    "writer": [
+      "Neil Gaiman",
+      "Dave McKean"
+    ],
+    "fsk": "12",
+    "slug": "mirrormask"
+  },
+  {
+    "videoId": "XU-ijGtmBhY",
+    "youtubeTitle": "JET LI - FINAL FIGHT | Born To Defense | Ganzer ACTION MARTIAL-ARTS-FILM auf DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XU-ijGtmBhY/hqdefault.jpg",
+    "duration": "PT1H27M11S",
+    "publishedAt": "2025-06-13T13:30:06Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 1242686,
+    "title": "Final Fight - Die letzte Chance",
+    "originalTitle": "Salvable",
+    "overview": "Sal „The Bull“ war einst ein aufstrebender Star. Jetzt, mit fast 40 Jahren, ist der ehemalige Boxer nur noch eines von vielen Gesichtern in der ausweglosen walisischen Küstenstadt Still, wo er sich als Teilzeitpfleger durchschlägt – ein Schatten seiner selbst, mit einem bestenfalls fragilen Verhältnis zu seiner 14-jährigen Tochter Molly. Alles ändert sich, als sein alter Bekannter Vince auftaucht. Vince bietet Sal einen Ausweg aus der Monotonie und zieht ihn mit in die gefährliche, aber auch verheißungsvolle Unterwelt. Zum ersten Mal seit Langem glimmt in Sal wieder ein Funke seines verloren geglaubten Kampfgeistes auf. Doch alles hat seinen Preis und Sal muss abwägen, was er zu zahlen bereit ist.",
+    "releaseDate": "2025-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zZbaHXSAXnMXCsl2Dm0r4eEZe91.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ioMxoDUyaRtMZPgoOU5wJkErtKS.jpg",
+    "voteAverage": 6.17,
+    "genreIds": [
+      80,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 91 (Suchbegriff: \"FINAL FIGHT\")",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Toby Kebbell",
+      "Shia LaBeouf",
+      "James Cosmo",
+      "Michael Socha",
+      "Aiysha Hart"
+    ],
+    "director": [
+      "Björn Franklin",
+      "Johnny Marchetta"
+    ],
+    "writer": [
+      "Björn Franklin"
+    ],
+    "fsk": "16",
+    "slug": "final-fight-die-letzte-chance"
+  },
+  {
+    "videoId": "SFkj_VFyeNA",
+    "youtubeTitle": "Anhedonia (2016) [Komödie] [Science-Fiction] Wenn Gefühle sterben | ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SFkj_VFyeNA/hqdefault.jpg",
+    "duration": "PT1H18M14S",
+    "publishedAt": "2025-12-24T17:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 646310,
+    "title": "Anhedonia",
+    "originalTitle": "Anhedonia",
+    "overview": "",
+    "releaseDate": "2019-11-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4D2l5or9e39jf3Fcd25OJ2iNqXq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dz1mpsYFquDqVDIg2PcyQgV82gj.jpg",
+    "voteAverage": 4.3,
+    "genreIds": [
+      18,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Jahr weicht ab: erwartet 2016, TMDB 2019 · Zuordnungswert 116 (Suchbegriff: \"Anhedonia\")",
+    "runtime": 109,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Liam Blundell",
+      "Matt Bramble",
+      "Amy Elizabeth",
+      "Paul Fanning",
+      "Victor J. Griffiths"
+    ],
+    "director": [
+      "Michael Henry"
+    ],
+    "writer": [
+      "Michael Henry"
+    ],
+    "fsk": null,
+    "slug": "anhedonia"
+  },
+  {
+    "videoId": "ixQmw5J_p4k",
+    "youtubeTitle": "Laurel & Hardy - Das Sägewerk (1934) [Komödie] | Film (deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ixQmw5J_p4k/hqdefault.jpg",
+    "duration": "PT20M37S",
+    "publishedAt": "2018-07-11T18:00:05Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 49008,
+    "title": "Dick und Doof - Der große Fang",
+    "originalTitle": "Going Bye-Bye!",
+    "overview": "In einem vollgepackten Gerichtssaal schwört Butch Long Rache auf die Denunzianten Laurel und Hardy, deren Beweise dazu beigetragen haben ihn ins Gefängnis zu bringen. Erschrocken planen die Jungs die Stadt zu verlassen und versuchen über eine Zeitungsannonce jemanden zu finden, der die erforderlichen Ausgaben mit ihnen teilt. Die Frau, die auf die Anzeigen antwortet ist eigentlich Butchs Freundin. Inzwischen entkommt Butch und versteckt einen Koffer in der Wohnung seiner Freundin, während er darin eingesperrt wird. Ohne zu wissen, wer im Koffer ist, gelingt es Stan und Ollie endlich, den Koffer öffnen. Daraufhin rächt sich Butch an ihnen.",
+    "releaseDate": "1934-06-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3MCgx0StmnP29pDRJ37PQzsYuZt.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6uC8CB8mhPKSlWxJcyhDeN8Fabu.jpg",
+    "voteAverage": 7.419,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 74 (Suchbegriff: \"Laurel & Hardy\") · Alternativtitel bei TMDB bestätigt: \"Laurel und Hardy - Der grosse Fang\"",
+    "runtime": 21,
+    "plausibel": "alternativtitel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Stan Laurel",
+      "Oliver Hardy",
+      "Mae Busch",
+      "Walter Long",
+      "Baldwin Cooke"
+    ],
+    "director": [
+      "Charley Rogers"
+    ],
+    "writer": [
+      "Stan Laurel",
+      "Charley Rogers",
+      "Frank Terry"
+    ],
+    "fsk": "6",
+    "slug": "dick-und-doof-der-grosse-fang"
+  },
+  {
+    "videoId": "YYEXU1Lt27U",
+    "youtubeTitle": "Thrill Ride",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YYEXU1Lt27U/hqdefault.jpg",
+    "duration": "PT21M22S",
+    "publishedAt": "2016-04-29T11:21:36Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1286653,
+    "title": "Thrill Ride",
+    "originalTitle": "Thrill Ride",
+    "overview": "",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 45 (Suchbegriff: \"Thrill Ride\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [],
+    "director": [
+      "Ryūhei Kitamura"
+    ],
+    "writer": [
+      "Chad Law",
+      "Christopher Jolley"
+    ],
+    "fsk": null,
+    "slug": "thrill-ride"
+  },
+  {
+    "videoId": "Bo2RAaSAiw8",
+    "youtubeTitle": "Forgive Me, Father | Drama | Ganzer Film Deutsch | Deutschland 1966",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Bo2RAaSAiw8/hqdefault.jpg",
+    "duration": "PT21M31S",
+    "publishedAt": "2026-04-21T12:00:20Z",
+    "channelName": "Stash auf Deutsch",
+    "channelId": "UCxouNAvM6cFw3xNftPP_4eQ",
+    "tmdbId": 1301476,
+    "title": "Forgive Me, Father",
+    "originalTitle": "Forgive Me, Father",
+    "overview": "",
+    "releaseDate": null,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ho3NxydIpGZimzfDlhZpuprI7m7.jpg",
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      18,
+      10749,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 68 (Suchbegriff: \"Forgive Me, Father\")",
+    "runtime": 15,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Colin Akai",
+      "Cat Feraren",
+      "Gregory G. Allen",
+      "Joseph Bevilacqua"
+    ],
+    "director": [
+      "Dominick Parungao"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "forgive-me-father"
+  },
+  {
+    "videoId": "3E0FcUys4dI",
+    "youtubeTitle": "👉 Ihr NEUES LEBEN WIRD zum Albtraum, als ein Fremder beginnt, sie zu verfolgen! 😱 Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/3E0FcUys4dI/hqdefault.jpg",
+    "duration": "PT1H35M23S",
+    "publishedAt": "2026-10-14T14:00:05Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 851969,
+    "title": "Nobody Will Believe You",
+    "originalTitle": "Nobody Will Believe You",
+    "overview": "",
+    "releaseDate": "2021-09-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iUqUnVAlaHcWoxhffufY7FFKTKh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rE5E6LoWEquIIOSfZ1Gw5PaionU.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      18,
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 123,
+    "plausibel": "besetzung",
+    "plausibelVersion": 3,
+    "cast": [
+      "Jenna Rosenow",
+      "Emily Topper",
+      "John William Wright",
+      "Rebecca Adams",
+      "Grayson Bane"
+    ],
+    "director": [
+      "Damián Romay"
+    ],
+    "writer": [
+      "Samuel Hayes"
+    ],
+    "fsk": null,
+    "slug": "nobody-will-believe-you"
+  },
+  {
+    "videoId": "Jg90AFgaEMM",
+    "youtubeTitle": "Lumpazivagabundus (Komödie, Filmklassiker auf Deutsch, Filme kostenlos anschauen)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Jg90AFgaEMM/hqdefault.jpg",
+    "duration": "PT1H27M49S",
+    "publishedAt": "2024-01-06T17:30:02Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": null,
+    "title": "Lumpazivagabundus",
+    "originalTitle": null,
+    "overview": "Fortuna und Amorosa, die Beschützerin der wahren Liebe, schließen mit dem teuflischen Geist Lumpacivagabundus eine Wette ab, die den Teufel endlich zu Fall bringen soll: Sie wetten, dass es ihm nicht gelingt, einen der drei rechtschaffenen Männer – den Schneider Zwirn, den Tischlergesellen Leim und den Schuster Knieriem – auf seine Seite zu ziehen. Von den Frauen werden die drei Geld und die wahre Liebe zur Unterstützung erhalten. Lumpacivagabundus willigt ein.\n#Klassikerfilm #ganzerFilm",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Paul Hörbiger",
+      "Heinz Rühmann",
+      "Hans Holt"
+    ],
+    "director": [
+      "Géza von Bolváry"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "lumpazivagabundus"
+  },
+  {
+    "videoId": "rKQjDSfmDyg",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (Thriller, Krimi auf Deutsch, Film von RAINER ERLER, Klassiker Filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rKQjDSfmDyg/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2022-01-30T18:30:49Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": null,
+    "title": "Edgar Wallace: Der Hexer",
+    "originalTitle": null,
+    "overview": "Gwenda Milton, Sekretärin bei Rechtsanwalt Messer, wird auf mysteriöse Weise umgebracht. Was die Täter jedoch nicht wissen, Gwenda ist die Schwester von Arthur Milton, dem sogenannten ‘Hexer’. Dieser wird wegen Selbstjustiz gesucht und wanderte vor Jahren nach Australien aus. Der Mord an Gwenda ruft somit nicht nur Scotland Yard auf den Plan, sondern veranlasst den Hexer aus seinem Exil nach London zurückzukommen. Er will den Mord an seiner Schwester rächen. Inspektor Higgins von Scotland Yard steht somit vor zwei kniffligen Aufgaben. Er muss den Hexer aufhalten und gleichzeitig Gwendas Mörder finden. Doch niemand – außer dem pensionierten Kollegen Warren – hat den Hexer je zu Gesicht bekommen. Er ist ein Meister der Maskerade und versteht es immer wieder geschickt, sein Aussehen völlig zu verändern…\n#Klassikerfilm #ganzerFilm",
+    "releaseDate": "1963-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Peter Pasetti",
+      "Eva Maria Meineke",
+      "Hermann Lenschau",
+      "Sabine Eggerth",
+      "Sigurd Fitzek"
+    ],
+    "director": [
+      "Rainer Erler"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "edgar-wallace-der-hexer-5"
+  },
+  {
+    "videoId": "9v0KGomgM7E",
+    "youtubeTitle": "Sie entführen seine Kinder – doch ihr Vater hat den Angriff überlebt Action Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9v0KGomgM7E/hqdefault.jpg",
+    "duration": "PT1H35M18S",
+    "publishedAt": "2026-10-13T14:00:14Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Sie entführen seine Kinder",
+    "originalTitle": null,
+    "overview": "Ted Andrews will seine Luxusyacht in Australien verkaufen und nimmt seine Kinder mit auf die Reise. Doch seine Freundin Laura spielt ein gefährliches Doppelspiel: Sie gehört zu der Gruppe, die das Schiff gewaltsam übernimmt. Ted überlebt den Angriff, während seine Kinder als Geiseln zurückbleiben.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "John „Bud“ Cardos."
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "sie-entfuehren-seine-kinder"
+  },
+  {
+    "videoId": "i6FETLudpBA",
+    "youtubeTitle": "In dieser Höhle lebt ein Volk, das seit Jahrtausenden verborgen ist  Action Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/i6FETLudpBA/hqdefault.jpg",
+    "duration": "PT1H23M21S",
+    "publishedAt": "2026-10-13T14:00:08Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "In dieser Höhle lebt ein Volk, das seit Jahrtausenden verborgen ist Action",
+    "originalTitle": null,
+    "overview": "In einem Höhlensystem in Mittelamerika soll ein militärischer Funksender die Kommunikation mit U-Booten ermöglichen. Als sein Signal ausfällt, werden Soldaten und Höhlenexperten in die Tiefe geschickt. Dort entdecken sie eine abgeschottete Gemeinschaft von Höhlenbewohnern – und ihre Mission wird zu einem gefährlichen Kampf ums Überleben.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Don Sharp."
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "in-dieser-hoehle-lebt-ein-volk-das-seit-jahrtausenden-verbor"
+  },
+  {
+    "videoId": "sRxu8h6V37A",
+    "youtubeTitle": "👉 EINE ZUFÄLLIGE BEGEGNUNG ENDET IN TÖDLICHER BESESSENHEIT! Filme deutsch komplet 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sRxu8h6V37A/hqdefault.jpg",
+    "duration": "PT1H36M11S",
+    "publishedAt": "2026-10-13T15:00:38Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Liebeswahn",
+    "originalTitle": null,
+    "overview": "An einem wunderschönen, wolkenlosen Tag genießen Joe und Claire ein romantisches Picknick in der englischen Landschaft. Doch ihre idyllische Zweisamkeit findet ein jähes Ende, als ein Heißluftballon in Schwierigkeiten gerät und unweit von ihnen auf einem Feld landet. Der Pilot gerät in Lebensgefahr, und mehrere Fremde versuchen, ihm zu helfen. Doch der tragische Vorfall endet mit dem Tod eines Beteiligten und verändert das Leben der Anwesenden für immer.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "liebeswahn-3"
+  },
+  {
+    "videoId": "yU3tCHJ5ITg",
+    "youtubeTitle": "DRAGON FIGHTER - DIE ENTSCHEIDUNGSSCHLACHT – Drachen bedrohen ein ganzes Königreich! (Fantasy)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yU3tCHJ5ITg/hqdefault.jpg",
+    "duration": "PT1H23M53S",
+    "publishedAt": "2026-10-13T15:00:08Z",
+    "channelName": "Draco Actionfilme",
+    "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
+    "tmdbId": null,
+    "title": "DRAGON FIGHTER - DIE ENTSCHEIDUNGSSCHLACHT - Drachen bedrohen ein ganzes Königreich!",
+    "originalTitle": null,
+    "overview": "Das Königreich von Sir Esplaine wird von feindlichen Dunkelelfen und gefährlichen Drachen bedroht. Um ihr Volk vor dem Untergang zu bewahren, begibt sich Prinzessin Alora Vanir (Amelia Jackson-Gray) auf eine gefährliche Mission ins benachbarte Königreich Blackthorn, wo sie militärische Unterstützung erhofft. Ihr Weg führt durch den sagenumwobenen Schwarzen Wald von Sidhe, in dem dunkle Mächte, Dämonen und Drachen lauern. Unterwegs erhält sie Unterstützung von den erfahrenen Kriegern Lord Artemir (Jon-Paul Gates) und Sir Cador Bain (Matthew Wolf). Gemeinsam müssen sie sich tödlichen Gefahren stellen, während die Bedrohung durch die Dunkelelfen immer größer wird. Ihre Reise entwickelt sich zu einem verzweifelten Kampf um das Schicksal des Königreichs.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Leigh Scott"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "dragon-fighter-die-entscheidungsschlacht-drachen-bedrohen-ei"
+  },
+  {
+    "videoId": "3kGwYl-PzZM",
+    "youtubeTitle": "Hin und her - Chaos im Doppelpack | Familienfilm auf deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/3kGwYl-PzZM/hqdefault.jpg",
+    "duration": "PT1H24M17S",
+    "publishedAt": "2025-08-16T18:00:02Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": null,
+    "title": "Hin und her - Chaos im Doppelpack",
+    "originalTitle": null,
+    "overview": "Der elfjährige Martin kann es gar nicht fassen: Das Mädchen, das im Flughafen vor ihm steht, sieht genauso aus wie er! Julia könnte seine Zwillingsschwester sein. Während Martin noch staunt, macht Julia bereits munter Pläne: Da sie nicht die geringste Lust hat, das Wochenende bei ihrer Mutter und ihrem Verlobten - und der zickigen neuen Schwester My - zu verbringen, überredet sie den verdutzten Martin, mit ihr die Flugtickets zu tauschen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "hin-und-her-chaos-im-doppelpack"
+  },
+  {
+    "videoId": "EHmkSHsYu0w",
+    "youtubeTitle": "DER UNGEBETENE - THE UNINVITED | Ganzer HORRORFILM auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EHmkSHsYu0w/hqdefault.jpg",
+    "duration": "PT1H28M34S",
+    "publishedAt": "2024-04-18T20:30:52Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": null,
+    "title": "DER UNGEBETENE - THE UNINVITED",
+    "originalTitle": null,
+    "overview": "Wenn Sie Friedhof Der Kuscheltiere und Mimic: Angriff Der Killerinsekten mögen, dürfen Sie sich diesen finsteren Horrorfilm aus den 80ern nicht entgehen lassen. Eine mit einem gentechnisch veränderten Virus infizierte Katze entkommt aus einem Labor, begibt sich auf einen Amoklauf und gelangt an Bord einer zwielichtigen Geschäftsjacht voller junger Gäste.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "der-ungebetene-the-uninvited"
+  },
+  {
+    "videoId": "tPxT2FTImTE",
+    "youtubeTitle": "Ein MI5-Agent kennt zu viele Geheimnisse – jetzt jagt ihn seine eigene Regierung",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/tPxT2FTImTE/hqdefault.jpg",
+    "duration": "PT1H35M54S",
+    "publishedAt": "2026-10-13T16:38:32Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Ein MI5-Agent kennt zu viele Geheimnisse - jetzt jagt ihn seine eigene Regierung",
+    "originalTitle": null,
+    "overview": "Ein erfahrener MI5-Offizier ist gemeinsam mit einer engen Vertrauten auf der Flucht durch Europa. Er besitzt Informationen, die mächtige Menschen in der britischen Regierung in ernsthafte Schwierigkeiten bringen könnten. Doch dauerhaft verstecken kann er sich nicht. Um die Bedrohung endgültig zu beenden, entscheidet er sich für den gefährlichsten Schritt: die Rückkehr nach Großbritannien. Dort wartet sein mächtigster Gegner – ein Premierminister, der keinesfalls zulassen will, dass belastende Geheimnisse öffentlich werden. Zwischen Geheimdienstoperationen, politischer Manipulation und alten Loyalitäten beginnt ein intelligentes Duell um Wahrheit, Macht und persönliche Verantwortung. Ein atmosphärischer Polit- und Spionagethriller voller Intrigen, Verrat und psychologischer Spannung.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "ein-mi5-agent-kennt-zu-viele-geheimnisse-jetzt-jagt-ihn-sein"
+  },
+  {
+    "videoId": "SohSOr2T8n4",
+    "youtubeTitle": "🎬 Der Rächer (1960) – Ganzer Film auf Deutsch | Heinz Drache & Klaus Kinski",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SohSOr2T8n4/hqdefault.jpg",
+    "duration": "PT3H16M29S",
+    "publishedAt": "2026-09-30T12:56:59Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": null,
+    "title": "Der Rächer",
+    "originalTitle": null,
+    "overview": "Ein geheimnisvoller Rächer versetzt London in Angst und Schrecken. Immer wieder werden Leichen entdeckt, und die Polizei steht vor einem rätselhaften Fall. Die Spur führt in eine Welt voller dunkler Geheimnisse, Verdächtiger und überraschender Wendungen.",
+    "releaseDate": "1960-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "der-raecher"
+  },
+  {
+    "videoId": "tSJb3d9CTN8",
+    "youtubeTitle": "Robin Hood (1981) [Zeichentrick] | ganzer Film (deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/tSJb3d9CTN8/hqdefault.jpg",
+    "duration": "PT49M43S",
+    "publishedAt": "2017-10-27T18:00:07Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Robin Hood",
+    "originalTitle": null,
+    "overview": "Die Sage des Robin Hood in einer sehr schönen Zeichentrickversion. Die Abenteuer des Helden aus dem Sherwood Forest auch für Kinder. #ganzerfilm",
+    "releaseDate": "1981-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "robin-hood"
+  },
+  {
+    "videoId": "jxi3pCEq76Y",
+    "youtubeTitle": "😱 Sie flohen für ein besseres Leben, doch verloren das Wertvollste, was sie hatten  | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jxi3pCEq76Y/hqdefault.jpg",
+    "duration": "PT1H27M30S",
+    "publishedAt": "2026-10-13T14:03:28Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Sie flohen für ein besseres Leben, doch verloren das Wertvollste, was sie hatten",
+    "originalTitle": null,
+    "overview": "Eine berührende, dramatische Geschichte über eine chinesische Familie, die ihre Heimat verlässt und in eine deutsche Kleinstadt zieht, um sich ein neues Leben aufzubauen. In der fremden Umgebung stoßen die Protagonisten auf kulturelle Unterschiede, Sprachbarrieren und die Schwierigkeit, sich in eine Gesellschaft einzuleben, deren Traditionen und Werte sich deutlich von ihren eigenen unterscheiden. Nach und nach beeinflussen die alltäglichen Herausforderungen nicht nur ihre Wahrnehmung der neuen Welt, sondern auch die Beziehungen innerhalb der Familie. Besonders schwer trifft es ein Paar, dessen Ehe durch Missverständnisse, innere Widersprüche und die Veränderungen, die ein neues Leben mit sich bringt, bedroht wird.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "sie-flohen-fuer-ein-besseres-leben-doch-verloren-das-wertvol"
+  },
+  {
+    "videoId": "QznwiL1oUBE",
+    "youtubeTitle": "Wenn Wahrheit zur tödlichen Falle wird – Ein mitreißender Thriller über die besessene Liebe",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/QznwiL1oUBE/hqdefault.jpg",
+    "duration": "PT1H29M10S",
+    "publishedAt": "2026-10-13T17:00:25Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn Wahrheit zur tödlichen Falle wird",
+    "originalTitle": null,
+    "overview": "Ein spektakulärer Freispruch vor Gericht sorgt für Furore: Die engagierte Anwältin Lea Jung verteidigt den wohlhabenden Nikolas Storm erfolgreich gegen schwere Vorwürfe einer mutmaßlichen Vergewaltigung. Trotz des juristischen Erfolgs mehren sich dunkle Schatten, als die Verbindung zu einem mysteriösen Todesfall aus der Vergangenheit ans Licht drängt. Während sich Lea privat immer näher an ihren Mandanten herantastet, bringt ein plötzlicher Nervenzusammenbruch des vermeintlichen Opfers Yvon Schubert die bisherigen Ereignisse ins Schwanken. Gefährliche Entdeckungen über gefälschte Gutachten und eine verzweifelte Erpressung ziehen die Anwältin tief in ein undurchsichtiges Netz aus Intrigenspielen und tödlicher Bessenheit. Am abgelegenen Seehaus kommt es schließlich zu einem dramatischen Showdown um Leben und Tod, bei dem die Grenze zwischen Opfer und Täter endgültig verschwimmt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "wenn-wahrheit-zur-toedlichen-falle-wird"
+  },
+  {
+    "videoId": "4ZC8TftA998",
+    "youtubeTitle": "🤠 WESTERN-DRAMA | Das Halbblut – Ein Mann gegen die Mächtigen des Wilden Westens ⚖️💥",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4ZC8TftA998/hqdefault.jpg",
+    "duration": "PT1H24M44S",
+    "publishedAt": "2026-06-09T17:30:34Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": null,
+    "title": "Das Halbblut - Ein Mann gegen die Mächtigen des Wilden Westens",
+    "originalTitle": null,
+    "overview": "Der ehemalige Sträfling Wesley (Lou Diamond Phillips) erhält die Chance auf einen Neuanfang und nimmt eine Arbeit in einer abgelegenen Mine an ⛏️🤠. Nach Jahren voller Entbehrungen hofft er, endlich Frieden zu finden und seine Vergangenheit hinter sich zu lassen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Lou Diamond Phillips",
+      "Ernest Borgnine",
+      "Lee Majors"
+    ],
+    "director": [
+      "David S. Cass Sr."
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "das-halbblut-ein-mann-gegen-die-maechtigen-des-wilden-westen"
   }
 ]
