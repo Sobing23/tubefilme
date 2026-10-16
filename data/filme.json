@@ -6404,7 +6404,9 @@
     "slug": "ein-weihnachtswunder-als-zugabe",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "qBcy77L4XLM",
@@ -96895,12 +96897,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "aS-mT_HBMpQ",
-    "youtubeTitle": "Die Suche nach John Gissing (2001) [Komödie] | Alan Rickman | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/aS-mT_HBMpQ/hqdefault.jpg",
+    "videoId": "-DUpLVued2E",
+    "youtubeTitle": "DIE SUCHE NACH JOHN GISSING | Völlig Unterschätzte SATIRE-KOMÖDIE | Ganzer Film auf Deutsch HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-DUpLVued2E/hqdefault.jpg",
     "duration": "PT1H31M19S",
     "publishedAt": "2026-06-27T16:00:22Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "Stream Hier",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 66742,
     "title": "Die Suche nach John Gissing",
@@ -96937,12 +96939,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "12-gw86gLSk",
-    "youtubeTitle": "La Linea – The Line (2011) [Action] [Crime] | Ray Liotta, Andy Garcia | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/12-gw86gLSk/hqdefault.jpg",
+    "videoId": "fBaLUbyVTng",
+    "youtubeTitle": "Auf der Jagd nach dem Kartellboss wird er selbst zum Ziel Nummer eins | ACTIONFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fBaLUbyVTng/hqdefault.jpg",
     "duration": "PT1H30M25S",
     "publishedAt": "2026-06-26T17:00:06Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "CinemaLegenden",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 21878,
     "title": "La Linea - The Line",
@@ -97022,7 +97024,9 @@
     "slug": "die-ledernacken",
     "plausibel": "titel",
     "runtime": 92,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "rAgpy0btfFw",
@@ -97067,7 +97071,9 @@
     "slug": "der-ruhm-meines-vaters",
     "plausibel": "titel",
     "runtime": 105,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "QHvb82NSzFs",
@@ -97114,9 +97120,9 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "Mx4HH1jjoog",
-    "youtubeTitle": "Highschoolgirls und Marijuana (2008) [Komödie] | Vollrausch ins Verderben | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Mx4HH1jjoog/hqdefault.jpg",
+    "videoId": "ZrrmH6IZ_Ws",
+    "youtubeTitle": "Highschoolgirls und Marijuana (2008) [Komödie] | Film (deutsch) ᴴᴰ",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZrrmH6IZ_Ws/hqdefault.jpg",
     "duration": "PT1H39M43S",
     "publishedAt": "2026-06-20T16:00:06Z",
     "channelName": "CiNENET Deutschland",
@@ -97243,9 +97249,9 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "ks-VVlOOU8w",
-    "youtubeTitle": "The Escapee (2023) [Action] [Thriller] | Die Vergangenheit schlägt zurück | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/ks-VVlOOU8w/hqdefault.jpg",
+    "videoId": "_bHr9HYoAdw",
+    "youtubeTitle": "Escapee 3 (2026) [Action] [Thriller] [Crime] | Die schockierende Wahrheit | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_bHr9HYoAdw/hqdefault.jpg",
     "duration": "PT1H26M2S",
     "publishedAt": "2026-06-15T16:00:08Z",
     "channelName": "CiNENET Deutschland",
@@ -97324,7 +97330,9 @@
     "slug": "the-axe-is-back",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "wDoRGOPnG0w",
@@ -97367,7 +97375,9 @@
     "slug": "ghost-boat",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "iLuyKVxsly8",
@@ -97408,7 +97418,7 @@
     "fsk": null,
     "posterLocal": "img/posters/493691.jpg",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarGrund": "geloescht",
     "slug": "phantomschmerz",
     "plausibel": "titel",
     "runtime": 0,
@@ -97457,7 +97467,7 @@
     "runtime": 85,
     "plausibelVersion": 3,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -97498,7 +97508,7 @@
     "fsk": "12",
     "posterLocal": "img/posters/416071.jpg",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarGrund": "geloescht",
     "slug": "das-letzte-abteil",
     "plausibel": "titel",
     "runtime": 104,
@@ -97547,7 +97557,9 @@
     "slug": "fuenf-gegen-den-rest-der-welt",
     "plausibel": "titel",
     "runtime": 97,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "qHgEZRJDWHY",
@@ -97590,7 +97602,9 @@
     "slug": "call-to-danger",
     "plausibel": "besetzung",
     "runtime": 75,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "X-lfgFvc0Uo",
@@ -97634,15 +97648,17 @@
     "slug": "the-raven",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "XGIY7uELOEo",
-    "youtubeTitle": "Drug Lord - Ein Mann riskiert alles (2015) [Action] | Danny TRejo | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/XGIY7uELOEo/hqdefault.jpg",
+    "videoId": "hqh4s4ObVsQ",
+    "youtubeTitle": "Drug Lord (ACTION DRAMA mit DANNY TREJO, ganzer Film Deutsch, Actionfilme komplett, Spielfilm)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hqh4s4ObVsQ/hqdefault.jpg",
     "duration": "PT1H22M54S",
     "publishedAt": "2026-06-03T16:00:06Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "Movies Select",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 343812,
     "title": "Drug Lord - Ein Mann riskiert alles",
@@ -97714,7 +97730,9 @@
     "slug": "riot-for-the-dove",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "kCIeRM4-bWQ",
@@ -97759,15 +97777,17 @@
     "slug": "dungeon-girl",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "KslMMnu6Uig",
-    "youtubeTitle": "Salem Witch Doll (2024) [Horror] [Thriller] | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/KslMMnu6Uig/hqdefault.jpg",
+    "videoId": "pIK04sXj2v8",
+    "youtubeTitle": "HORRORFILM AUF DEUTSCH | Um zu überleben, muss sie einen uralten Familienfluch brechen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pIK04sXj2v8/hqdefault.jpg",
     "duration": "PT1H16M55S",
     "publishedAt": "2026-05-25T16:00:06Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "CinemaLegenden",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 1297487,
     "title": "Salem Witch Doll",
@@ -97845,12 +97865,14 @@
     "slug": "montrak",
     "plausibel": "titel",
     "runtime": 121,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "tQn6evri5Ag",
-    "youtubeTitle": "Cannibal Man (1972) [Horror] [Thriller] | Blutige Vergeltung | Ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/tQn6evri5Ag/hqdefault.jpg",
+    "videoId": "sLz833skg88",
+    "youtubeTitle": "Cannibal Man – Der Schlachter (1972) [Horror] [Thriller] | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sLz833skg88/hqdefault.jpg",
     "duration": "PT1H32M12S",
     "publishedAt": "2026-05-23T16:00:06Z",
     "channelName": "CiNENET Deutschland",
@@ -97934,7 +97956,9 @@
     "slug": "sherlock-holmes-skandal-in-boehmen",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "svlcEG_QIBU",
@@ -97977,7 +98001,9 @@
     "slug": "mann-im-spagat-pace-cowboy-pace",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Cs88gAvybNk",
@@ -98021,15 +98047,17 @@
     "slug": "klappe-cowboy",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "OsxCWiwfdM4",
-    "youtubeTitle": "Foreclosure 2 (2024) [Horror] [Thriller] | Das Haus der Geister | Ganzer Film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/OsxCWiwfdM4/hqdefault.jpg",
+    "videoId": "end8i7kA0V4",
+    "youtubeTitle": "🎬 Ein FILM, der dich von der ersten Minute an fesselt | Horrorfilm auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/end8i7kA0V4/hqdefault.jpg",
     "duration": "PT1H13M11S",
     "publishedAt": "2026-05-20T16:00:06Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "CinemaLegenden",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 1272300,
     "title": "Foreclosure 2",
@@ -98194,7 +98222,9 @@
     "slug": "der-pfarrer-von-st-pauli",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "HWuACM01gSU",
@@ -98236,7 +98266,9 @@
     "slug": "hoboken-hollow",
     "plausibel": "titel",
     "runtime": 98,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "IroIh8-dmhg",
@@ -98281,7 +98313,9 @@
     "slug": "der-meister-mit-den-gebrochenen-haenden",
     "plausibel": "titel",
     "runtime": 80,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "13dCcRBUDu0",
@@ -98370,12 +98404,14 @@
     "slug": "torso-die-saege-des-teufels",
     "plausibel": "titel",
     "runtime": 93,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "UYB-A-rGRF4",
-    "youtubeTitle": "Dorf der Engel (2000) [Komödie] [Fantasy] | Rob Lowe auf Abwegen | Ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/UYB-A-rGRF4/hqdefault.jpg",
+    "videoId": "yrM3gez6mGY",
+    "youtubeTitle": "Dorf der Engel (1998) [Komödie] | ganzer Film (deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yrM3gez6mGY/hqdefault.jpg",
     "duration": "PT1H29M47S",
     "publishedAt": "2026-05-03T16:00:45Z",
     "channelName": "CiNENET Deutschland",
@@ -98453,7 +98489,9 @@
     "slug": "nairobi-affair",
     "plausibel": "titel",
     "runtime": 0,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "E94KY1nrGQs",
@@ -98499,12 +98537,14 @@
     "slug": "laurin",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "aj19gd9PP40",
-    "youtubeTitle": "Shadow Creature (1995) [Horror] [Komödie] | Der Schatten des Grauens | Ganzer Film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/aj19gd9PP40/hqdefault.jpg",
+    "videoId": "ye27n1woN9E",
+    "youtubeTitle": "Shadow Creature (1995) [Horror] | ganzer Film (deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ye27n1woN9E/hqdefault.jpg",
     "duration": "PT1H31M56S",
     "publishedAt": "2026-04-28T16:00:05Z",
     "channelName": "CiNENET Deutschland",
@@ -98586,7 +98626,9 @@
     "slug": "the-valley-intruder",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "u2i4S089iG8",
@@ -98629,7 +98671,9 @@
     "slug": "die-filzlaus",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "PW2aeZ5_dTE",
@@ -98670,7 +98714,9 @@
     "slug": "die-todeshand-des-schwarzen-panthers",
     "plausibel": "titel",
     "runtime": 87,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "qw6VMFI7KpM",
@@ -98715,7 +98761,9 @@
     "slug": "the-deadly-avenger",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "fLR86TmJfhY",
@@ -98801,7 +98849,9 @@
     "slug": "l-a-task-force",
     "plausibel": "titel",
     "runtime": 82,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "bDfreJ7YXMw",
@@ -98844,7 +98894,9 @@
     "slug": "was-am-ende-bleibt",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "8DaBCINWIDI",
@@ -98888,15 +98940,17 @@
     "slug": "cybernator",
     "plausibel": "titel",
     "runtime": 86,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "wMuIyKjC2Ss",
-    "youtubeTitle": "Im Blutrausch des Satans (1971) [Horror] [Thriller] | Regie: Mario Bava | Ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/wMuIyKjC2Ss/hqdefault.jpg",
+    "videoId": "Y8bH0jy5qvI",
+    "youtubeTitle": "Im Blutrausch des Satans 🩸 (HORRORFILM Deutsch, Horror Mystery Thriller)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Y8bH0jy5qvI/hqdefault.jpg",
     "duration": "PT1H18M28S",
     "publishedAt": "2026-04-12T16:01:31Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "Movies Select",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 5486,
     "title": "Im Blutrausch des Satans",
@@ -98936,12 +98990,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "6QejgA9v1_0",
-    "youtubeTitle": "15 Killings (2020) [Thriller] [Crime] | Die Anatomie eines Serienmörders | Ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/6QejgA9v1_0/hqdefault.jpg",
+    "videoId": "1vIYOp88zT0",
+    "youtubeTitle": "DÜSTERER KRIMI-THRILLER – 15 Killings: FÜNFZEHN Morde, EIN TÄTER UND EINE PSYCHE VOLLER ABGRÜNDE!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1vIYOp88zT0/hqdefault.jpg",
     "duration": "PT1H32M38S",
     "publishedAt": "2026-04-10T17:00:17Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "Dzango",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 766406,
     "title": "15 Killings - Interview mit einem Serienkiller",
@@ -99020,7 +99074,9 @@
     "slug": "die-letzte-rechnung-schreibt-der-tod",
     "plausibel": "titel",
     "runtime": 92,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "_Dp3YWWBrow",
@@ -175111,7 +175167,7 @@
     "fsk": null,
     "slug": "a-deadly-lullaby-2",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "_S7a5LUWefw",
@@ -175193,9 +175249,7 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "abattoir-er-erwartet-dich",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "slug": "abattoir-er-erwartet-dich"
   },
   {
     "videoId": "eAbuDgkTKic",
@@ -175249,7 +175303,7 @@
     "fsk": null,
     "slug": "veraengstigt-scared",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "rO_mrZFNnIk",
@@ -212492,7 +212546,9 @@
     "slug": "footloose",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "vAPY41t7Rcg",
@@ -212940,7 +212996,9 @@
     "slug": "holy-smoke-auf-der-suche-nach-erleuchtung",
     "plausibel": "titel",
     "runtime": 115,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "6oUGMyFc8gI",
@@ -213708,7 +213766,9 @@
     "slug": "hin-und-weg",
     "plausibel": "titel",
     "runtime": 95,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "STPQ0ZIuXrc",
@@ -229079,7 +229139,9 @@
     "slug": "nur-ein-einziges-leben",
     "plausibel": "titel",
     "runtime": 109,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "xWQ__CiUE1Q",
@@ -236888,7 +236950,7 @@
     "fsk": null,
     "slug": "adalynn",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Vdw7SapdxS4",
@@ -269753,8 +269815,7 @@
       18
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 96 (Suchbegriff: \"Maps to the Stars\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Julianne Moore",
       "Mia Wasikowska",
@@ -278329,7 +278390,7 @@
     "plausibel": "titel",
     "plausibelVersion": 3,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "9rnJ7MirNbE",
@@ -283687,5 +283748,987 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "das-halbblut-ein-mann-gegen-die-maechtigen-des-wilden-westen"
+  },
+  {
+    "videoId": "TEtc6giAVWk",
+    "youtubeTitle": "DER LETZTE COUP (2021) | SEIN PARTNER WAR DER VERRÄTER – UND DER TRESOR EINE FALLE | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TEtc6giAVWk/hqdefault.jpg",
+    "duration": "PT1H38M30S",
+    "publishedAt": "2026-10-15T09:38:31Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": 1256028,
+    "title": "Der letzte Coup",
+    "originalTitle": "Der letzte Coup",
+    "overview": "\"Der letzte Coup\" handelt von den Kleinganoven Lorenzo & Jim, die Ihre ehemalige Auftraggeberin bestehlen wollen, nachdem sie ihren letzten Auftrag ordentlich vermasselt haben. Doch der Plan Juwelen und Geld zu stehlen, bringt sie auf eine neu Idee... Und was hat das mit einem Säbelzahntiger zu tun? Immerhin sind diese Katzen vor 40.000 Jahren ausgestorben, oder nicht?",
+    "releaseDate": "2023-12-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Jahr weicht ab: erwartet 2021, TMDB 2023 · Zuordnungswert 86 (Suchbegriff: \"DER LETZTE COUP\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Rémi Galtay",
+      "David Czubek",
+      "Charlotte Ziegler",
+      "Paul Pinn",
+      "Ole Schenck"
+    ],
+    "director": [
+      "Max Bennett Stich"
+    ],
+    "writer": [
+      "Max Bennett Stich",
+      "Hauke Schenck"
+    ],
+    "fsk": null,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_einbettbar",
+    "slug": "der-letzte-coup"
+  },
+  {
+    "videoId": "y84oCx80uII",
+    "youtubeTitle": "THRILLERFILM, der bis zum Schluss für Spannung sorgt | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/y84oCx80uII/hqdefault.jpg",
+    "duration": "PT1H26M24S",
+    "publishedAt": "2026-10-15T15:00:33Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1490877,
+    "title": "Trust Her If You Dare",
+    "originalTitle": "Trust Her If You Dare",
+    "overview": "",
+    "releaseDate": "2025-08-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oyf5UNm0ySeljWVnRYeZOnExAjZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aCQCR1fq4kQ7mmP6e4arzR84nqc.jpg",
+    "voteAverage": 3,
+    "genreIds": [
+      9648,
+      53,
+      10770,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Trust Her If You Dare\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Jennings Rice",
+      "Carlo Marks",
+      "Katelin Chesna",
+      "Daniel Stine",
+      "Kennie Nicole Jenkins"
+    ],
+    "director": [
+      "Linden Ashby"
+    ],
+    "writer": [
+      "Melissa Cassera"
+    ],
+    "fsk": null,
+    "slug": "trust-her-if-you-dare"
+  },
+  {
+    "videoId": "Ta5BL4kg8hE",
+    "youtubeTitle": "Roaring Six Guns | Ganzer Film auf Deutsch HD 1080p | Kermit Maynard",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Ta5BL4kg8hE/hqdefault.jpg",
+    "duration": "PT56M49S",
+    "publishedAt": "2026-10-15T17:45:32Z",
+    "channelName": "Kino Deutsch",
+    "channelId": "UCBHYbV2w8dE__bS6fNdCbpw",
+    "tmdbId": 130525,
+    "title": "Roaring Six Guns",
+    "originalTitle": "Roaring Six Guns",
+    "overview": "",
+    "releaseDate": "1937-09-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kYTMUI0aRzgEzCw0e1mApZqXEDt.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zzXNaqA2cSNPDomdOHQIBZZxJ4P.jpg",
+    "voteAverage": 7.5,
+    "genreIds": [
+      28
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 57,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Kermit Maynard",
+      "Mary Hayes",
+      "Sam Flint",
+      "John Merton",
+      "Budd Buster"
+    ],
+    "director": [
+      "J.P. McGowan"
+    ],
+    "writer": [
+      "Arthur Everett",
+      "James Oliver Curwood"
+    ],
+    "fsk": null,
+    "slug": "roaring-six-guns"
+  },
+  {
+    "videoId": "mfqboihogWQ",
+    "youtubeTitle": "BEWEGENDES FAMILIENDRAMA – BEHIND THE RED DOOR: 20.000 Dollar für einen geheimnisvollen Auftrag",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mfqboihogWQ/hqdefault.jpg",
+    "duration": "PT1H44M53S",
+    "publishedAt": "2026-10-15T17:30:24Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 79610,
+    "title": "Behind the Red Door",
+    "originalTitle": "Behind the Red Door",
+    "overview": "",
+    "releaseDate": "2003-01-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/t7L4htGL5UMwK4wCUdHlzkvmDyi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uwwxYy3LJivY4CXoQIN6Nqx1trs.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      18,
+      10770
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 105,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Kyra Sedgwick",
+      "Kiefer Sutherland",
+      "Stockard Channing",
+      "Chuck Shamata",
+      "Hannah Lochner"
+    ],
+    "director": [
+      "Matia Karrell"
+    ],
+    "writer": [
+      "Matia Karrell",
+      "C.W. Cressler"
+    ],
+    "fsk": null,
+    "slug": "behind-the-red-door"
+  },
+  {
+    "videoId": "DMVgg3BDpso",
+    "youtubeTitle": "👉 THRILLER | SIE GAB SICH ALS TOCHTER AUS, UM EINEN GRAUSAMEN PLAN ZU VERFOLGEN! 🔥",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DMVgg3BDpso/hqdefault.jpg",
+    "duration": "PT1H30M17S",
+    "publishedAt": "2026-10-15T15:00:12Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": 522915,
+    "title": "The Wrong Daughter",
+    "originalTitle": "The Wrong Daughter",
+    "overview": "",
+    "releaseDate": "2018-04-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/16KYr5PHbnjrDiReeAuj2xbJIrX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cD06ZGiDxK9nDWobvi11RVKM8tS.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      53,
+      80,
+      18,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 106 (Suchbegriff: \"The Wrong Daughter\")",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Cindy Busby",
+      "April Bowlby",
+      "Sydney Sweeney",
+      "Jon Prescott",
+      "Kelsey Griswold"
+    ],
+    "director": [
+      "Ben Meyerson"
+    ],
+    "writer": [
+      "Jesenia Ruiz",
+      "Carlee Malemute"
+    ],
+    "fsk": null,
+    "slug": "the-wrong-daughter"
+  },
+  {
+    "videoId": "2-S8M7tg1U0",
+    "youtubeTitle": "NICOLE KIDMAN in MARGOT UND DIE HOCHZEIT (Komödie ganzer Film, Komödien Filme Deutsch komplett 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2-S8M7tg1U0/hqdefault.jpg",
+    "duration": "PT1H31M45S",
+    "publishedAt": "2026-10-15T17:00:05Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 13998,
+    "title": "Margot und die Hochzeit",
+    "originalTitle": "Margot at the Wedding",
+    "overview": "Die erbarmungslose kluge, scharfzüngige und Chaos verbreitende Schriftstellerin Margot Zeller macht einen Überraschungsbesuch zur Hochzeit ihrer Schwester Pauline. Und schon bei der ersten Begegnung mit ihrem zukünftigen Schwager, den arbeitslosen Künster Malcolm, säht sie Zweifel an dieser Verbindung. Je näher die Hochzeit rückt, umso dichter wird das Gestrüpp der Komplikationen, umso höher kochen die Emotionen – doch selbst wenn die Familienbande kurz vorm Zerreißen sein mögen, sind genau diese Bande das Einzige, das noch Halt und Sicherheit bieten kann…",
+    "releaseDate": "2007-11-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cKkrXUkpHELgdyBk3hnj0jl8Yio.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2fjoACGt0udEgZ7dZxFj4QzD7pw.jpg",
+    "voteAverage": 5.797,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Nicole Kidman",
+      "Jennifer Jason Leigh",
+      "Jack Black",
+      "John Turturro",
+      "Ciarán Hinds"
+    ],
+    "director": [
+      "Noah Baumbach"
+    ],
+    "writer": [
+      "Noah Baumbach"
+    ],
+    "fsk": null,
+    "slug": "margot-und-die-hochzeit"
+  },
+  {
+    "videoId": "xYRUHXTv4dk",
+    "youtubeTitle": "LIGHT SPEED – Ein Unfall macht ihn zum schnellsten Superhelden der Welt! (Sci-Fi | Action)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xYRUHXTv4dk/hqdefault.jpg",
+    "duration": "PT1H24M6S",
+    "publishedAt": "2026-10-15T15:00:38Z",
+    "channelName": "Draco Actionfilme",
+    "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
+    "tmdbId": 160865,
+    "title": "Light Speed",
+    "originalTitle": "Light Speed",
+    "overview": "",
+    "releaseDate": "1998-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": 2,
+    "genreIds": [
+      878,
+      27
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Mehrdeutiger Titel (3 Filme), Laufzeit passt zu keinem (Video 84 min) -- bitte prüfen · Zuordnungswert 58 (Suchbegriff: \"LIGHT SPEED\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "David Carradine",
+      "Maria Hall-Brown",
+      "Karen Black",
+      "Jolinna Mitchell",
+      "Jerry Baxter"
+    ],
+    "director": [
+      "Roger Mende"
+    ],
+    "writer": [
+      "Kathleen Lohr",
+      "Roger Mende",
+      "Jimmy Papiris"
+    ],
+    "fsk": null,
+    "slug": "light-speed"
+  },
+  {
+    "videoId": "I-Pkuk-WHiM",
+    "youtubeTitle": "Liebe hat keine Deadline - Baby, Baby, Baby (2015) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/I-Pkuk-WHiM/hqdefault.jpg",
+    "duration": "PT1H27M11S",
+    "publishedAt": "2026-10-15T14:00:15Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 365451,
+    "title": "Liebe hat keine Deadline",
+    "originalTitle": "Baby, Baby, Baby",
+    "overview": "Als der wenig erfolgreiche Schauspieler Sydney (Brian Klugman) die Künstlerin Sunny (Adrianne Palicki) kennenlernt, glaubt er in ihr endlich „die Eine“ gefunden zu haben. Sie ist witzig, klug und einfach nur umwerfend, kurzum eine Partnerin, von der Sydney nie geglaubt hätte, dass er einmal mit ihr zusammen kommt. Und doch beginnen die beiden eine glückliche Beziehung. Alles läuft wie am Schnürchen – bis sie schließlich zusammenziehen. Sydney wird immer stärker von seiner Eifersucht und seiner wilden Fantasie übermannt, die ihn regelmäßig in peinliche Situationen bringt und das Verhältnis zu Sunny zunehmend belastet. So steht er letztlich vor einer scheinbar einfachen Wahl: Entweder er bekommt seine ungerechtfertigten Anwandlungen auf die Reihe oder er verliert das Beste, was ihm jemals im Leben widerfahren ist.",
+    "releaseDate": "2015-10-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/s4000wgvYZv23ARn9rAPA66NFp3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jSyhTLhSLJLFRhHR9qmK6w5iglW.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      10749,
+      35,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Adrianne Palicki",
+      "Brian Klugman",
+      "Michaela Conlin",
+      "Kelsey Grammer",
+      "James Roday Rodriguez"
+    ],
+    "director": [
+      "Brian Klugman"
+    ],
+    "writer": [
+      "Brian Klugman"
+    ],
+    "fsk": "12",
+    "slug": "liebe-hat-keine-deadline"
+  },
+  {
+    "videoId": "HnVgh75Keis",
+    "youtubeTitle": "Laurel und Hardy: Die Teufelsbrüder | KOMÖDIE",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/HnVgh75Keis/hqdefault.jpg",
+    "duration": "PT1H4M49S",
+    "publishedAt": "2025-07-02T17:00:32Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 44775,
+    "title": "Dick und Doof - Die Teufelsbrüder",
+    "originalTitle": "Pack Up Your Troubles",
+    "overview": "Der Film beginnt im Jahr 1917 als Dick und Doof in die US Armee eingezogen werden um im Ersten Weltkrieg zu kämpfen. In der Armee freunden sich die beiden mit einem Mann namens Eddie Smith an, den der Feind während eines Gefechts entführt und tötet. Nachdem der Krieg vorbei ist, begeben sich Dick und Doof nach New York City, wo sie Eddies kleine Tochter zu suchen beginnen um sie mit ihren Familie zu vereinen. Die Aufgabe erweist sich zugleich als riesig wie auch als problematisch, da die Jungs entdecken, wie viele Menschen in New York den Nachnamen \"Smith\" tragen.",
+    "releaseDate": "1932-09-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fURsff922DqtMFiXmgO0Up3rCa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/l1VSgIdqUOvoDZTpCoP71W98azd.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      35,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 68,
+    "plausibel": "besetzung",
+    "plausibelVersion": 3,
+    "cast": [
+      "Stan Laurel",
+      "Oliver Hardy",
+      "Don Dillaway",
+      "Jacquie Lyn",
+      "Mary Carr"
+    ],
+    "director": [
+      "George Marshall",
+      "Ray McCarey"
+    ],
+    "writer": [
+      "H.M. Walker",
+      "Stan Laurel",
+      "Ray McCarey"
+    ],
+    "fsk": "0",
+    "slug": "dick-und-doof-die-teufelsbrueder"
+  },
+  {
+    "videoId": "T8O4bYJ0JZo",
+    "youtubeTitle": "Raven’s Hollow - düsterer, atmosphärischer Horrorfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/T8O4bYJ0JZo/hqdefault.jpg",
+    "duration": "PT1H38M39S",
+    "publishedAt": "2026-10-15T14:00:02Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 996581,
+    "title": "Raven's Hollow",
+    "originalTitle": "Raven's Hollow",
+    "overview": "Fünf Kadetten der amerikanischen Militärakademie West Point nehmen an einem Training im Hinterland des Bundesstaates New York teil. Unter ihnen auch der später als Horror-Autor bekannte Edgar Allan Poe. Als die Gruppe auf einen als Vogelscheuche hergerichteten, ausgeweideten Mann stößt, nimmt ein unheimliches Mysterium seinen Lauf. Im nahegelegenen Dorf Raven’s Hollow werden die Ermittlungen zu diesem grausamen Mord aufgenommen. Doch als Edgars erster Gefährte ermordet wird, sehen sich die Kadetten plötzlich selbst bedroht.",
+    "releaseDate": "2022-09-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/woYqEqtro2AMWHmwBy9429zB17x.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cBsuqkXl13ubY8xqUlzpusMojra.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      9648,
+      53,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Melanie Zanetti",
+      "William Moseley",
+      "Kate Dickie",
+      "David Hayman",
+      "Callum Woodhouse"
+    ],
+    "director": [
+      "Christopher Hatton"
+    ],
+    "writer": [
+      "Christopher Hatton",
+      "Chuck Reeves"
+    ],
+    "fsk": null,
+    "slug": "raven-s-hollow"
+  },
+  {
+    "videoId": "4zAWQycMIlE",
+    "youtubeTitle": "Culpa (DEUTSCHES IMPRO DRAMA, ganzer film deutsch, spielfilm, deutsche filme, drama filme, hd film)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4zAWQycMIlE/hqdefault.jpg",
+    "duration": "PT1H23M45S",
+    "publishedAt": "2025-03-11T16:30:02Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 886897,
+    "title": "Culpa",
+    "originalTitle": "Culpa",
+    "overview": "Nach einem sexuellen Übergriff durch einen Bekannten lässt eine Frau ihr ganzes Leben hinter sich und versteckt sich in einer abgelegenen Hütte in den Bergen.",
+    "releaseDate": "2022-05-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gTPMgjhQBggpU4zLVN6jsiHo1hG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vhHt5mAdNpZNJ0BwWJGMPbme1t1.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Jahr weicht ab: erwartet 2020, TMDB 2022 · Zuordnungswert 99 (Suchbegriff: \"Culpa\")",
+    "runtime": 79,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Manuela Vellés",
+      "Andrés Gertrúdix",
+      "Luis Hostalot"
+    ],
+    "director": [
+      "Ibon Cormenzana"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "culpa"
+  },
+  {
+    "videoId": "R21Qb9EOrrw",
+    "youtubeTitle": "Hänsel und Gretel",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/R21Qb9EOrrw/hqdefault.jpg",
+    "duration": "PT26M51S",
+    "publishedAt": "2014-09-17T09:04:18Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1067119,
+    "title": "Hänsel und Gretel",
+    "originalTitle": "Hänsel und Gretel",
+    "overview": "Ein Wald und mittendrin ein Häuschen aus Lebkuchen, Keks und Schokolade. Eine Hexe lädt die Kinder freundlich ein, doch hinter der süßen Verlockung lauert Gefahr …",
+    "releaseDate": "2012-12-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3QJma3ARE4uvLi4PJLKFk3SxhDy.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sfIuEIqvMYEKxpS1Noo2dox07H9.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      10751,
+      14,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"Hänsel und Gretel\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Anja Kling",
+      "Mila Böhning",
+      "Friedrich Heine",
+      "Johann von Bülow",
+      "Elisabeth Brück"
+    ],
+    "director": [
+      "Uwe Janson"
+    ],
+    "writer": [
+      "David Ungureit",
+      "Jacob Grimm",
+      "Wilhelm Grimm"
+    ],
+    "fsk": "0",
+    "slug": "haensel-und-gretel"
+  },
+  {
+    "videoId": "nCkPEg4wzoI",
+    "youtubeTitle": "Fat City (1972) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nCkPEg4wzoI/hqdefault.jpg",
+    "duration": "PT1H36M50S",
+    "publishedAt": "2026-10-15T16:00:22Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 16993,
+    "title": "Fat City",
+    "originalTitle": "Fat City",
+    "overview": "Stockton, Kalifornien. Ein heißes Pflaster für zwei Amateurboxer, die nie den großen Fight gewinnen - weder im Ring noch im Leben: Früher hat Tully manchen Kampf für sich entschieden, doch längst ist der Erfolg in die nächste Runde gegangen. Seine Geliebte Oma hat Alkoholprobleme, und als er bei ihr einzieht, ist der Beziehungskrieg vorprogrammiert. Ernie, jung und heißblütig, will unbedingt gewinnen, geht aber gleich bei seinem ersten Kampf ko. Die beiden Männer halten sich mit Gelegenheitsjobs über Wasser, bis Tully ein fragwürdiges Comeback gelingt und Ernie eine neue Niederlage hinnehmen muss. \"Fat City\"steht für Geld und Erfolg - für beide unerreichbar?",
+    "releaseDate": "1972-07-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7ag7BOMnAuDKwNyI0wc8jTeimRb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fHKyWtxGIDQ21JcL7Le6rmX36Q1.jpg",
+    "voteAverage": 7.064,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Stacy Keach",
+      "Jeff Bridges",
+      "Susan Tyrrell",
+      "Candy Clark",
+      "Nicholas Colasanto"
+    ],
+    "director": [
+      "John Huston"
+    ],
+    "writer": [
+      "Leonard Gardner"
+    ],
+    "fsk": null,
+    "slug": "fat-city"
+  },
+  {
+    "videoId": "xe_SmOHcSr0",
+    "youtubeTitle": "😱 Ein Psychothriller, der dich bis zum LETZTEN MOMENT nicht loslässt! | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xe_SmOHcSr0/hqdefault.jpg",
+    "duration": "PT1H28M30S",
+    "publishedAt": "2026-10-15T14:00:37Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 540899,
+    "title": "A Sister's Obsession",
+    "originalTitle": "A Sister's Obsession",
+    "overview": "",
+    "releaseDate": "2018-08-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fLDYkYONGvaHIPkwoCmcKXBDsPX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dL86GkYGVyNqGCKYkWxbAsy8fr8.jpg",
+    "voteAverage": 5.476,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 106 (Suchbegriff: \"A Sister’s Obsession\")",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Lindsay Hartley",
+      "Jason Cermak",
+      "Candice Hunter",
+      "Peter Flemming",
+      "Bethany Brown"
+    ],
+    "director": [
+      "David Langlois"
+    ],
+    "writer": [
+      "Jenna Brister",
+      "Dave Hickey"
+    ],
+    "fsk": null,
+    "slug": "a-sister-s-obsession"
+  },
+  {
+    "videoId": "ZFXlIxBouAU",
+    "youtubeTitle": "Ein Cop und ein Kampfkunstmeister gegen tödliche Ninja-Killer Action Ganzer Film Deutsch Kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZFXlIxBouAU/hqdefault.jpg",
+    "duration": "PT1H25M14S",
+    "publishedAt": "2026-10-14T14:06:08Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Ein Cop und ein Kampfkunstmeister gegen tödliche Ninja-Killer Action",
+    "originalTitle": null,
+    "overview": "Der Polizist Sam Kettle und Kampfkunstmeister Jun Kim stellen sich den Entführern entgegen. Um die Geiseln zu befreien, müssen sie eine schwer bewachte Organisation überwinden, die auf eine Armee tödlicher Ninjas setzt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Lee Doo-yong und Scott Thomas."
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "ein-cop-und-ein-kampfkunstmeister-gegen-toedliche-ninja-kill"
+  },
+  {
+    "videoId": "NP2BBh5orx8",
+    "youtubeTitle": "Baby (Provokativer deutscher Film in voller Länge, Roadmovies & Drama Filme Deutsch komplett 2023)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/NP2BBh5orx8/hqdefault.jpg",
+    "duration": "PT1H39M3S",
+    "publishedAt": "2023-07-08T17:00:11Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": null,
+    "title": "Baby",
+    "originalTitle": null,
+    "overview": "Die zwei Freunde Frank und Paul schlagen sich als Kleinkriminelle durchs Leben. Gemeinsam haben sie Franks Tochter Lilli großgezogen, die sich nun mit 15 als durchtriebene Lolita mit ersten Liebeleien entpuppt. Dann wird der frühreife Teenager schwanger, offensichtlich nachdem Lilli ihren Zweitvater Paul verführt hat! Der ahnungslose Frank hält einen jungen Freund der Tochter für den Verursacher und tötet ihn im Affekt - in Panik fliehen Lilli und Paul als denkbar undenkbares Liebespaar auf die Insel-Idylle Texel, doch Frank verfolgt sie...\n#Netzkino #ganzerFilm #Roadmovies",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Alice Dwyer",
+      "Lars Rudolph",
+      "Filip Peeters"
+    ],
+    "director": [
+      "Philipp Stölzl"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "baby"
+  },
+  {
+    "videoId": "DUSv3atkbX8",
+    "youtubeTitle": "Django - Dein Henker wartet | Action | Ivan Rassimov | Western | 4K | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DUSv3atkbX8/hqdefault.jpg",
+    "duration": "PT1H23M53S",
+    "publishedAt": "2026-10-14T17:00:17Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": null,
+    "title": "Django - Dein Henker wartet",
+    "originalTitle": null,
+    "overview": "Django kehrt nach Hause zurück und muss feststellen, dass sein Vater bei einem schief gelaufenen Geschäft von einheimischen Banditen getötet wurde.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "django-dein-henker-wartet"
+  },
+  {
+    "videoId": "yP4Qz8YaoG8",
+    "youtubeTitle": "Hinter Schloss und Riegel | IN FARBE | Dick & Doof Filmklassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yP4Qz8YaoG8/hqdefault.jpg",
+    "duration": "PT47M49S",
+    "publishedAt": "2026-01-02T18:01:09Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": null,
+    "title": "Hinter Schloss und Riegel",
+    "originalTitle": null,
+    "overview": "Es herrscht Prohibition und die Jungs landen hinter Gittern, nachdem Stan einen Teil ihres selbstgebrauten Bieres an einen Polizisten verkauft hat. Im Gefängnis „summt“ Stans lockerer Zahn, wenn er spricht, und bringt ihn immer wieder in Schwierigkeiten, weil es sich so anhört, als würde er jedem eine Himbeere geben. Aber dadurch verschafft er sich den Respekt von The Tiger, einem rauen Gefangenen, und die Jungs schaffen es, sich bei The Tigers Fluchtversuch davonzustehlen. Sie schminken sich schwarz und verstecken sich auf einer Baumwollplantage, werden aber wieder eingefangen, als der Aufseher vorbeikommt und Stans summender Zahn ihn erkennen lässt, wer die beiden sind. Zurück im großen Haus finden sie sich in einem Kugelhagel wieder, gefangen zwischen der Staatsmiliz und bewaffneten Gefangenen, als der Tiger einen weiteren Fluchtversuch unternimmt. Schließlich werden die Jungs vom lei",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "hinter-schloss-und-riegel"
+  },
+  {
+    "videoId": "bq38mA87tHw",
+    "youtubeTitle": "Twilight Witches (2007) [Horror] | Düsterer Hexen-Kult | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bq38mA87tHw/hqdefault.jpg",
+    "duration": "PT1H18M47S",
+    "publishedAt": "2026-10-14T16:00:13Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Twilight Witches",
+    "originalTitle": null,
+    "overview": "",
+    "releaseDate": "2007-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Gil McKinney",
+      "Wesley Walker",
+      "Jeff Alba",
+      "Betsy Baker",
+      "Jeff Christian"
+    ],
+    "director": [
+      "Paul Traynor"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "twilight-witches"
+  },
+  {
+    "videoId": "foQLPXrPgvY",
+    "youtubeTitle": "The Old Man (2022) [Animation] [Komödie] Ein völlig verrückter Roadtrip | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/foQLPXrPgvY/hqdefault.jpg",
+    "duration": "PT1H28M12S",
+    "publishedAt": "2026-02-01T17:00:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "The Old Man Ein völlig verrückter Roadtrip",
+    "originalTitle": null,
+    "overview": "Auf ihrer Reise treffen der Alte und seine Enkel auf paranoide Holzfäller, mysteriöse Hippies und andere skurrile Gestalten. Zu allem Überfluss droht die entlaufene Kuh zu explodieren, wenn sie nicht rechtzeitig gemolken wird – was eine ökologische Katastrophe auslösen könnte! \"The Old Man\" ist ein visuell einzigartiges Stop-Motion-Spektakel voller schwarzem Humor, das keine Tabus kennt und das Genre der Animationsfilme komplett auf den Kopf stellt.",
+    "releaseDate": "2022-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [
+      16,
+      35
+    ],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-old-man-ein-voellig-verrueckter-roadtrip"
+  },
+  {
+    "videoId": "1-tucphXSCQ",
+    "youtubeTitle": "MAN EATERS - Leichenhaus des Grauens",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1-tucphXSCQ/hqdefault.jpg",
+    "duration": "PT1H30M",
+    "publishedAt": "2017-03-15T19:00:00Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "MAN EATERS - Leichenhaus des Grauens",
+    "originalTitle": null,
+    "overview": "Dort bekommt Alley plötzlich Visionen von einem jahrhundertalten, orientalischen Fluch, der sich nun löst und unerwartet schreckliche Folgen hat. Noch völlig benommen davon traut Alley ihren Augen nicht, als im nächsten Moment die drei kleinen Leichen wieder lebendig werden! Aber sie sind keine verspielten Kinder mehr, sondern kleine leichenfressende Dämonen, zähnefletschend und mit langen Krallen...",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "man-eaters-leichenhaus-des-grauens"
+  },
+  {
+    "videoId": "6SOl5kTa84c",
+    "youtubeTitle": "Max und Moritz",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6SOl5kTa84c/hqdefault.jpg",
+    "duration": "PT45M26S",
+    "publishedAt": "2014-09-21T00:00:01Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Max und Moritz",
+    "originalTitle": null,
+    "overview": "Max und Moritz, die Lausbubengeschichten in sieben Streichen, gehört zu den bekanntesten Werken Wilhelm Buschs. Die Beiden treiben ihren Schabernack mit Witwe Bolte, Schneider Böck, Lehrer Lämpel, Onkel Fritz, dem Bäcker und Bauer Mecke. Sie sägen eine Brücke an, stehlen gebratene Hühner und Zuckerwerk. Ihr Ende ist deshalb auch leicht vorraus zu sehen. #ganzerfilm",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "max-und-moritz"
+  },
+  {
+    "videoId": "yXH3WXnejEE",
+    "youtubeTitle": "The Pleasure Garden (Irrgarten der Leidenschaft)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yXH3WXnejEE/hqdefault.jpg",
+    "duration": "PT1H15S",
+    "publishedAt": "2013-04-04T21:16:06Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "The Pleasure Garden (Irrgarten der Leidenschaft)",
+    "originalTitle": null,
+    "overview": "„Irrgarten der Leidenschaft\" war eigentlich Hitchcocks zweiter Film, aber der erste, der fertiggestellt werden konnte. Hitchcocks erster Film, „Nummer 13\", konnte nicht beendet werden, da die Produktionsfirma in Konkurs gegangen war. Mit „Irrgarten der Leidenschaft\" gelang Alfred Hitchcock ein später viel beachteter und von der Kritik gefeierter Film. Zunächst aber mußte ein Co.-Produzent gefunden werden, da in Großbritannien niemand Geld für einen Film eines Regieneulings bereitstellen wollte. Als Geldgeber wurde dann eine Deutsche Produktionsfirma, die Münchner Lichtspielkunst Emelka gefunden und der Film wurde als Deutsche Produktion in München-Geiselgasteig gedreht. Die Außenaufnahmen entstanden später in Italien. Filmpremiere, und damit auch die erste Aufführung eines Hitchcockfilmes überhaupt, war am 3. November 1925 in München. #ganzerfilm",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-pleasure-garden-irrgarten-der-leidenschaft"
+  },
+  {
+    "videoId": "gqEJbtn7Gh8",
+    "youtubeTitle": "😱 Dieser Film wird Sie überraschen, wenn Sie es am wenigsten erwarten | Christabel | Ganze Filme HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gqEJbtn7Gh8/hqdefault.jpg",
+    "duration": "PT1H39M40S",
+    "publishedAt": "2026-10-14T14:26:27Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Dreamgirl",
+    "originalTitle": null,
+    "overview": "Christabels Leben ändert sich für immer, als sie eines Tages eine mysteriöse Frau namens Geraldine findet, die brutal angegriffen wurde. Nicht gleichgültig gegenüber dem Leid einer anderen Person, beschließt das Mädchen, die Fremde zu beherbergen und ihr zu helfen, das Erlebte zu verarbeiten. Doch diese Tat wird zum Beginn einer Reihe von Ereignissen, auf die Christabel völlig unvorbereitet ist. Geraldines Auftauchen zerstört nach und nach Christabels vertraute Welt und öffnet ihr die Tür zu unbekannten Gefühlen, neuen Sehnsüchten und Möglichkeiten, an die sie zuvor nie gedacht hätte. Zwischen den beiden Frauen entsteht eine besondere Verbindung, die Christabel dazu zwingt, sich selbst, ihre Überzeugungen und die Grenzen des Erlaubten neu zu betrachten. Was als einfacher Ausdruck von Mitgefühl begann, entwickelt sich zu einer tiefgreifenden emotionalen Erfahrung, die ihre Vorstellungen v",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "dreamgirl"
+  },
+  {
+    "videoId": "ckRffIclv3s",
+    "youtubeTitle": "Horrorfilm perfekt für die Nacht! 😱 Kinder öffnen versehentlich das Tor zur Hölle | Deutsch Komplett",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ckRffIclv3s/hqdefault.jpg",
+    "duration": "PT1H29M25S",
+    "publishedAt": "2026-06-07T09:27:24Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "The Door in the Woods",
+    "originalTitle": null,
+    "overview": "In einem abgelegenen Dorf stoßen vier Kinder bei ihren Erkundungen im nahegelegenen Wald auf eine geheimnisvolle Tür, die scheinbar aus dem Nichts auftaucht. Neugierig öffnen sie das rätselhafte Portal, ohne die Folgen ihres Handelns zu ahnen. Schon bald verändern seltsame Ereignisse das Leben der Dorfbewohner. Unerklärliche Erscheinungen, wachsende Angst und eine bedrohliche Atmosphäre breiten sich aus und erschüttern die einst ruhige Gemeinschaft. Während die Erwachsenen nach Antworten suchen, erkennen die Kinder, dass die Ursache des Schreckens mit ihrer Entdeckung zusammenhängt. Gemeinsam versuchen sie, das Geheimnis der Tür zu entschlüsseln und die Gefahr aufzuhalten, bevor sie ihr Dorf vollständig verschlingt. Doch mit jeder Enthüllung wird klar, dass manche Türen besser für immer verschlossen geblieben wären.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-door-in-the-woods"
+  },
+  {
+    "videoId": "VngLrMFBLho",
+    "youtubeTitle": "Shutter Speed (2000) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VngLrMFBLho/hqdefault.jpg",
+    "duration": "PT1H23M40S",
+    "publishedAt": "2026-05-28T14:00:18Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": null,
+    "title": "Shutter Speed",
+    "originalTitle": null,
+    "overview": "Das Leben des ungezähmten Detectives Riley Davis gerät komplett außer Kontrolle, als seine Verlobte Kenzie und ein befreundeter Fotograf spurlos verschwinden. Die Entführer haben es auf ein hochgradig brisantes Foto abgesehen, das durch reinen Zufall das Verbrechen eines mächtigen Gangsterbosses beweist. Um die Geiseln aus den Fängen der skrupellosen Unterwelt zu befreien, muss Riley über seinen eigenen Schatten springen und die Hilfe seines Bruders Cliff anfordern. Zwischen den beiden ungleichen Männern steht jedoch ein tiefer, ungelöster Konflikt aus der Vergangenheit, der die riskante Rettungsmission gefährdet. In einem gnadenlosen Wettlauf gegen die Zeit entbrennt ein bleihaltiger Krieg auf den Straßen, bei dem die Brüder im Kugelhagel der Gangsterbande lernen müssen, einander wieder zu vertrauen, um das Leben der Geiseln zu retten und die kriminelle Verschwörung endgültig zu zerschl",
+    "releaseDate": "2000-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "shutter-speed"
+  },
+  {
+    "videoId": "pu3e3itnhFY",
+    "youtubeTitle": "ROTES WASSER | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pu3e3itnhFY/hqdefault.jpg",
+    "duration": "PT1H32M38S",
+    "publishedAt": "2026-07-16T16:00:07Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": null,
+    "title": "ROTES WASSER",
+    "originalTitle": null,
+    "overview": "In den trüben, scheinbar friedlichen Gewässern des Louisiana-Bayous lauert eine tödliche Gefahr: Ein gigantischer, unbarmherziger Bullenhai hat seinen Weg flussaufwärts gefunden und terrorisiert die ansässigen Bewohner. Mittendrin steckt der ehemalige Bohrinsel-Arbeiter und jetzige Fischer John Sanders. Als er seiner Ex-Frau Kelly bei einer Ölexpedition hilft, eskaliert die Lage dramatisch: Eine Gruppe skrupelloser Verbrecher sucht im selben Flussabschnitt nach einer versunkenen Geldkassette und nimmt das Forscherteam als Geiseln. Zwischen gierigen Gangstern, einer drohenden Umweltkatastrophe und den messerscharfen Zähnen der Flussbestie entbrennt ein gnadenloser Überlebenskampf.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "rotes-wasser"
+  },
+  {
+    "videoId": "cfiYf1IUnUw",
+    "youtubeTitle": "😱 Unfassbare Ereignisse In Einer Kleinstadt! Ein Geheimnis Droht Alles Zu Zerstören! | Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cfiYf1IUnUw/hqdefault.jpg",
+    "duration": "PT1H36M33S",
+    "publishedAt": "2026-10-14T18:43:07Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": null,
+    "title": "Adeline",
+    "originalTitle": null,
+    "overview": "Willkommen auf dem ultimativen YouTube-Kanal für alle, die Filme lieben! Hier findest du ganze Spielfilme in HD-Qualität – von Action, Thriller, Horror und Drama bis zu Romantik, Abenteuer und Comedy. Tauche ein in eine Welt voller Spannung, Emotionen und unvergesslicher Geschichten.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "adeline"
   }
 ]

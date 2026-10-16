@@ -5236,5 +5236,21 @@
     "title": "Der Untermieter",
     "tmdbId": 14741,
     "channelName": "CineCult Reloaded"
+  },
+  {
+    "datum": "2026-10-16",
+    "quelle": "unmatched.json",
+    "grund": "unter 40 Minuten und bei TMDB nicht gefunden -- kein Spielfilm",
+    "videoId": "cHdQ6lZLndE",
+    "youtubeTitle": "Der Mann mit der Narbe",
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-16",
+    "quelle": "unmatched.json",
+    "grund": "unter 40 Minuten und bei TMDB nicht gefunden -- kein Spielfilm",
+    "videoId": "8fCAU0L76HY",
+    "youtubeTitle": "Carry On | Deutsches Arthouse Drama | Ganzer Film | Abschied eines alten Bauern",
+    "channelName": "Stash auf Deutsch"
   }
 ]
