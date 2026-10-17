@@ -7557,12 +7557,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "mWADh0vfhGc",
-    "youtubeTitle": "Im Bett mit Holly (KOMÖDIE ganzer Film, neue Filme 2026, Romantische Komödie in voller Länge)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/mWADh0vfhGc/hqdefault.jpg",
+    "videoId": "pinurABkyrM",
+    "youtubeTitle": "Im Bett mit Holly - Holly Slept Over (2020) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pinurABkyrM/hqdefault.jpg",
     "duration": "PT1H27M44S",
     "publishedAt": "2026-01-28T18:00:56Z",
-    "channelName": "Netzkino",
+    "channelName": "Comfy Movies",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 641483,
     "title": "Holly Slept Over",
@@ -7595,9 +7595,7 @@
     "slug": "holly-slept-over",
     "plausibel": "titel",
     "runtime": 87,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "8DyMLUle4sU",
@@ -15712,7 +15710,9 @@
     "slug": "age-of-heroes",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "HlJtfsI5e0U",
@@ -65469,7 +65469,9 @@
     "slug": "ode-to-joy",
     "plausibel": "titel",
     "runtime": 97,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "yb7S_v7TkRE",
@@ -97024,9 +97026,7 @@
     "slug": "die-ledernacken",
     "plausibel": "titel",
     "runtime": 92,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "rAgpy0btfFw",
@@ -97071,9 +97071,7 @@
     "slug": "der-ruhm-meines-vaters",
     "plausibel": "titel",
     "runtime": 105,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "QHvb82NSzFs",
@@ -97330,9 +97328,7 @@
     "slug": "the-axe-is-back",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "wDoRGOPnG0w",
@@ -97375,9 +97371,7 @@
     "slug": "ghost-boat",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "iLuyKVxsly8",
@@ -97418,7 +97412,7 @@
     "fsk": null,
     "posterLocal": "img/posters/493691.jpg",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarGrund": "gesperrt_de",
     "slug": "phantomschmerz",
     "plausibel": "titel",
     "runtime": 0,
@@ -97467,7 +97461,7 @@
     "runtime": 85,
     "plausibelVersion": 3,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -97508,7 +97502,7 @@
     "fsk": "12",
     "posterLocal": "img/posters/416071.jpg",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarGrund": "gesperrt_de",
     "slug": "das-letzte-abteil",
     "plausibel": "titel",
     "runtime": 104,
@@ -97557,9 +97551,7 @@
     "slug": "fuenf-gegen-den-rest-der-welt",
     "plausibel": "titel",
     "runtime": 97,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "qHgEZRJDWHY",
@@ -97602,9 +97594,7 @@
     "slug": "call-to-danger",
     "plausibel": "besetzung",
     "runtime": 75,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "X-lfgFvc0Uo",
@@ -97648,9 +97638,7 @@
     "slug": "the-raven",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "hqh4s4ObVsQ",
@@ -97730,9 +97718,7 @@
     "slug": "riot-for-the-dove",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "kCIeRM4-bWQ",
@@ -97777,9 +97763,7 @@
     "slug": "dungeon-girl",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "pIK04sXj2v8",
@@ -97865,9 +97849,7 @@
     "slug": "montrak",
     "plausibel": "titel",
     "runtime": 121,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "sLz833skg88",
@@ -97956,9 +97938,7 @@
     "slug": "sherlock-holmes-skandal-in-boehmen",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "svlcEG_QIBU",
@@ -98001,9 +97981,7 @@
     "slug": "mann-im-spagat-pace-cowboy-pace",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "Cs88gAvybNk",
@@ -98047,9 +98025,7 @@
     "slug": "klappe-cowboy",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "end8i7kA0V4",
@@ -98222,9 +98198,7 @@
     "slug": "der-pfarrer-von-st-pauli",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "HWuACM01gSU",
@@ -98266,9 +98240,7 @@
     "slug": "hoboken-hollow",
     "plausibel": "titel",
     "runtime": 98,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "IroIh8-dmhg",
@@ -98313,9 +98285,7 @@
     "slug": "der-meister-mit-den-gebrochenen-haenden",
     "plausibel": "titel",
     "runtime": 80,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "13dCcRBUDu0",
@@ -98404,9 +98374,7 @@
     "slug": "torso-die-saege-des-teufels",
     "plausibel": "titel",
     "runtime": 93,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "yrM3gez6mGY",
@@ -98489,9 +98457,7 @@
     "slug": "nairobi-affair",
     "plausibel": "titel",
     "runtime": 0,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "E94KY1nrGQs",
@@ -98537,9 +98503,7 @@
     "slug": "laurin",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "ye27n1woN9E",
@@ -98626,9 +98590,7 @@
     "slug": "the-valley-intruder",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "u2i4S089iG8",
@@ -98671,9 +98633,7 @@
     "slug": "die-filzlaus",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "PW2aeZ5_dTE",
@@ -98714,9 +98674,7 @@
     "slug": "die-todeshand-des-schwarzen-panthers",
     "plausibel": "titel",
     "runtime": 87,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "qw6VMFI7KpM",
@@ -98761,9 +98719,7 @@
     "slug": "the-deadly-avenger",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "fLR86TmJfhY",
@@ -98849,9 +98805,7 @@
     "slug": "l-a-task-force",
     "plausibel": "titel",
     "runtime": 82,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "bDfreJ7YXMw",
@@ -98894,9 +98848,7 @@
     "slug": "was-am-ende-bleibt",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "8DaBCINWIDI",
@@ -98940,9 +98892,7 @@
     "slug": "cybernator",
     "plausibel": "titel",
     "runtime": 86,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "Y8bH0jy5qvI",
@@ -99074,9 +99024,7 @@
     "slug": "die-letzte-rechnung-schreibt-der-tod",
     "plausibel": "titel",
     "runtime": 92,
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "_Dp3YWWBrow",
@@ -156625,7 +156573,9 @@
     "writer": [],
     "fsk": null,
     "slug": "verloren-alles-jetzt-kaempfen-sie-um-die-letzte-chance-ihres",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "UZZvs03UrCc",
@@ -186456,12 +186406,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "AkQr2G6siG4",
-    "youtubeTitle": "Goldtransport durch Arizona I Wenn Outlaws zu Jägern werden I epischer Westernklassiker",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/AkQr2G6siG4/hqdefault.jpg",
+    "videoId": "Wm0c9yULf2s",
+    "youtubeTitle": "Arizona Raiders (1965) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Wm0c9yULf2s/hqdefault.jpg",
     "duration": "PT1H33M2S",
     "publishedAt": "2026-05-07T15:00:30Z",
-    "channelName": "Draco Actionfilme",
+    "channelName": "Absolute Action",
     "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
     "tmdbId": 132939,
     "title": "Goldtransport durch Arizona",
@@ -211678,7 +211628,7 @@
     "fsk": null,
     "slug": "schmutziges-spiel-eine-frau-zwei-tote",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "K4lzGrKfrF0",
@@ -284730,5 +284680,395 @@
     "writer": [],
     "fsk": null,
     "slug": "adeline"
+  },
+  {
+    "videoId": "JFZG77HQ5co",
+    "youtubeTitle": "Krimi Klassiker: The Banker | Robert Forster jagt einen skrupellosen Frauenmörder",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JFZG77HQ5co/hqdefault.jpg",
+    "duration": "PT1H33M27S",
+    "publishedAt": "2026-10-16T16:30:34Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": 27648,
+    "title": "The Banker",
+    "originalTitle": "The Banker",
+    "overview": "Wenn es Nacht wird über Los Angeles beginnt sie wieder - die lähmende Angst vor einem unheimlichen Killer, der die Megastadt terrorisiert. Wer ist dieser Wahnsinnige, der seinen Opfern als Visitenkarte ein primitives Mal in den Körper ätzt ? Die TV-Reporterin Sharon Maxwell prangert in ihrer allabendlichen Sendung diese Bestie in Menschengestalt an. Wütend über ihre respektlose Berichterstattung beginnt der Killer mit Sharon ein tödliches Katz- und Mausspiel. Während die Polizei noch im Dunkeln tappt, bereitet sich der Mörder auf ein Fest ganz besonderer Art vor: Der „Hinrichtung\" seines nächsten Opfers, SHARON MAXWELL ...",
+    "releaseDate": "1990-02-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rxAysxpdB9jR1F85rPYcmE3Gar.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pVzvw6Y60YM4gcjSP1xggIryW4s.jpg",
+    "voteAverage": 4.5,
+    "genreIds": [
+      80,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Robert Forster",
+      "Shanna Reed",
+      "Duncan Regehr",
+      "Jeff Conaway",
+      "Leif Garrett"
+    ],
+    "director": [
+      "William Webb"
+    ],
+    "writer": [
+      "William Webb",
+      "Dana Augustine",
+      "Richard Brandes"
+    ],
+    "fsk": "18",
+    "slug": "the-banker"
+  },
+  {
+    "videoId": "PgLOAsTd9TY",
+    "youtubeTitle": "Zwei Liebende werden vom Krieg getrennt - Geroy - Der Held (Liebesfilm | Historiendrama | Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/PgLOAsTd9TY/hqdefault.jpg",
+    "duration": "PT1H19M31S",
+    "publishedAt": "2026-10-16T17:30:21Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 390441,
+    "title": "Герой",
+    "originalTitle": "Герой",
+    "overview": "",
+    "releaseDate": "2016-03-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qotLwYzCah5PiPVmHCwZhpueve3.jpg",
+    "backdropUrl": null,
+    "voteAverage": 5.2,
+    "genreIds": [
+      28,
+      18,
+      10749,
+      10752,
+      36
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 86,
+    "plausibel": "besetzung",
+    "plausibelVersion": 3,
+    "cast": [
+      "Дима Билан",
+      "Светлана Иванова",
+      "Александр Балуев",
+      "Татьяна Лютаева",
+      "Julija Peressild"
+    ],
+    "director": [
+      "Юрий Васильев"
+    ],
+    "writer": [
+      "Nataliya Doroshkevich",
+      "Olga Pogodina-Kuzmina"
+    ],
+    "fsk": null,
+    "slug": "film-3"
+  },
+  {
+    "videoId": "ucRKSNwzM_w",
+    "youtubeTitle": "Freitag der 13. - Das letzte Kapitel (TEIL 4 der KULT HORRORFILM REIHE, Horrorfilme in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ucRKSNwzM_w/hqdefault.jpg",
+    "duration": "PT1H31M20S",
+    "publishedAt": "2026-10-16T17:00:14Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 9730,
+    "title": "Freitag der 13. - Das letzte Kapitel",
+    "originalTitle": "Friday the 13th: The Final Chapter",
+    "overview": "Kurz nach dem Geschehnissen in Und wieder ist Freitag der 13. hat die Polizei Jason Voorhees für tot erklärt und in einem Leichenschauhaus untergebracht. Kurz darauf – wie sollte es auch anders sein – sind plötzlich zwei Mitarbeiter des Krankenhauses tot und Jasons Leiche verschwunden. Unterdessen hat sich eine Gruppe von Teenagern in einem Ferienhaus am Crystal Lake niedergelassen und feiert ausgelassen eine Party. Nebenan macht der 12-jährige Tommy zusammen mit seiner Schwester Trish und seiner Mutter Urlaub.",
+    "releaseDate": "1984-04-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kG6160j8iDu9NxbJYsEl2RM2IUL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2bbEE2aLu47unsPJwS57UZW0YF4.jpg",
+    "voteAverage": 6.128,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Judie Aronson",
+      "Kimberly Beck",
+      "Joan Freeman",
+      "Barbara Howard",
+      "Corey Feldman"
+    ],
+    "director": [
+      "Joseph Zito"
+    ],
+    "writer": [
+      "Barney Cohen",
+      "Bruce Hidemi Sakow"
+    ],
+    "fsk": "18",
+    "slug": "freitag-der-13-das-letzte-kapitel"
+  },
+  {
+    "videoId": "ZJmn5TzQ6m0",
+    "youtubeTitle": "In die Falle gelockt | 4K | Gary Cooper | Westernfilm | Deutsch | Koloriert",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZJmn5TzQ6m0/hqdefault.jpg",
+    "duration": "PT1H35M50S",
+    "publishedAt": "2026-10-16T17:00:21Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 14710,
+    "title": "In die Falle gelockt",
+    "originalTitle": "The Westerner",
+    "overview": "Der berüchtigte Richter Roy Bean repräsentiert das Gesetz in Vinergaroon, Texas. Allerdings handelt es sich um das Gesetz ganz im Sinne Beans: Der Gerichtssaal ist ein Saloon, die Gerechtigkeit weniger blind, als betrunken. Die Urteile werden grundsätzlich im Sinne der Rinderbesesitzer gefällt, die sich in einem Dauerzwist mit Siedlern befinden, die das Land mit Stacheldraht überziehen. Als Cowboy Cole Harden in die Stadt reitet, beginnen sich die Dinge zu ändern.",
+    "releaseDate": "1940-09-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qpTGnOBxcCaLiCvUKGWlQ6MdPGe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cp1QQPnRsPxzUbdAWURD1U0b0mv.jpg",
+    "voteAverage": 7.1,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Gary Cooper",
+      "Walter Brennan",
+      "Doris Davenport",
+      "Fred Stone",
+      "Forrest Tucker"
+    ],
+    "director": [
+      "William Wyler"
+    ],
+    "writer": [
+      "Stuart N. Lake",
+      "Niven Busch",
+      "Jo Swerling"
+    ],
+    "fsk": null,
+    "slug": "in-die-falle-gelockt"
+  },
+  {
+    "videoId": "JIXkq4EcOZc",
+    "youtubeTitle": "Battle of the Undead (2022) [Adventure] [Action] | Ancient Tomb Exploration | Full Movie",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JIXkq4EcOZc/hqdefault.jpg",
+    "duration": "PT1H58M36S",
+    "publishedAt": "2026-10-16T18:00:08Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1528819,
+    "title": "Battle of the Undead",
+    "originalTitle": "Battle of the Undead",
+    "overview": "",
+    "releaseDate": "2022-02-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jmKEDJ1maa9UwA8exfRDGf0TK7s.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qbVg7YlNeNNOq4KDbCZhKmKa3nQ.jpg",
+    "voteAverage": 8.5,
+    "genreIds": [
+      28,
+      878,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Fu Mei",
+      "李若希",
+      "Yu Yi",
+      "孔连顺",
+      "曹炳琨"
+    ],
+    "director": [
+      "Lin Zhenzhao"
+    ],
+    "writer": [
+      "张圣帆"
+    ],
+    "fsk": null,
+    "slug": "battle-of-the-undead"
+  },
+  {
+    "videoId": "werCarGAwUc",
+    "youtubeTitle": "💰 Gier Nach Reichtum! Ein Familiäres Komplott Wird Zur Tödlichen Falle! | Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/werCarGAwUc/hqdefault.jpg",
+    "duration": "PT1H27M55S",
+    "publishedAt": "2026-10-16T18:47:21Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": 1339856,
+    "title": "Stepmom from Hell",
+    "originalTitle": "Stepmom from Hell",
+    "overview": "",
+    "releaseDate": "2024-08-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iQS5xvThUb3PWN1PHTDqY0QPiJo.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tCcpbuwxpcjvg7JjlSfZl5vyowR.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      10770,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Stepmom from Hell\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Lexi Giovagnoli",
+      "Lorenzo Lamas",
+      "Shelby Janes",
+      "Boz Wells",
+      "Bri Ana Wagner"
+    ],
+    "director": [
+      "Corbin Timbrook"
+    ],
+    "writer": [
+      "Daniel Katz",
+      "Hamish Briggs",
+      "Elizabeth Snoderly"
+    ],
+    "fsk": null,
+    "slug": "stepmom-from-hell"
+  },
+  {
+    "videoId": "H3AXpOztfHY",
+    "youtubeTitle": "Dieser Psychothriller lässt dich bis zum ENDE NICHT LOS! | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/H3AXpOztfHY/hqdefault.jpg",
+    "duration": "PT1H26M47S",
+    "publishedAt": "2026-10-16T14:00:01Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 886313,
+    "title": "Her Deadly Boyfriend",
+    "originalTitle": "Her Deadly Boyfriend",
+    "overview": "",
+    "releaseDate": "2021-06-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jwAu85Ey6kuoJjFwVFWwYBmYStN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/18MDwefYxvJqs7w0qIlu3AGmpZm.jpg",
+    "voteAverage": 7.4,
+    "genreIds": [
+      10770,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Carter Glade",
+      "Kalen Bull",
+      "Anthony Carro",
+      "Alicia Leigh Willis",
+      "Kallen Bull"
+    ],
+    "director": [
+      "Brooke Nevin"
+    ],
+    "writer": [
+      "Mark Gantt",
+      "Brooke Purdy",
+      "Evan Unruh"
+    ],
+    "fsk": null,
+    "slug": "her-deadly-boyfriend"
+  },
+  {
+    "videoId": "EptTjZqAMUU",
+    "youtubeTitle": "Gestohlenes Geld, Mafia und FBI – alle sind hinter ihnen her  Action Ganzer Film Deutsch Kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EptTjZqAMUU/hqdefault.jpg",
+    "duration": "PT1H25M8S",
+    "publishedAt": "2026-10-15T13:46:47Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Gestohlenes Geld, Mafia und FBI",
+    "originalTitle": null,
+    "overview": "Der Reporter Jack Martin gerät durch die Autodiebin Francesca Marsh in ein gefährliches Abenteuer. Gemeinsam sind sie mit gestohlenem Bargeld auf dem Weg nach Mexiko. Doch Gangster, Polizei und FBI verfolgen sie – und aus der Aussicht auf schnelles Geld wird ein Kampf ums Überleben.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Alex Wright"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "gestohlenes-geld-mafia-und-fbi"
+  },
+  {
+    "videoId": "O4eWqIlJ-tI",
+    "youtubeTitle": "True Love | Meg Ryan (Harry und Sally) | ROMANZE | Ganzer Film | Film Komplett auf Deutsch 💎",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/O4eWqIlJ-tI/hqdefault.jpg",
+    "duration": "PT1H39M38S",
+    "publishedAt": "2025-02-15T16:00:20Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": null,
+    "title": "True Love",
+    "originalTitle": null,
+    "overview": "Drei Schulfreunde treffen sich Jahre später wieder und sehen sich mit zerbrochenen Träumen, unerwarteten Realitäten und dem krassen Gegensatz zwischen Ehrgeiz und Lebensunwägbarkeiten konfrontiert.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "true-love"
+  },
+  {
+    "videoId": "R-f_Iqi8W7U",
+    "youtubeTitle": "Afrika, mon amour – Teil 1 (2007) | Ganzer Film | Historisches Drama mit Iris Berben | HD Drama",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/R-f_Iqi8W7U/hqdefault.jpg",
+    "duration": "PT1H29M24S",
+    "publishedAt": "2026-10-15T15:30:33Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": null,
+    "title": "Afrika, mon amour - Teil 1",
+    "originalTitle": null,
+    "overview": "Katharina von Strahlberg lebt in Berlin an der Seite ihres Ehemanns Richard, eines einflussreichen Obersts. Als ihre Schwägerin Martha stirbt und Richards Untreue offenbar wird, zerbricht Katharinas bisheriges Leben. Sie verlangt die Scheidung, stößt jedoch auf gesellschaftliche Widerstände und die Macht ihres Mannes. Selbst ihr geliebter Sohn Georg stellt sich gegen sie.",
+    "releaseDate": "2007-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Iris Berben",
+      "Robert Atzorn",
+      "Alexander Held",
+      "Pierre Besson"
+    ],
+    "director": [
+      "Carlo Rola"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "afrika-mon-amour-teil-1-2"
   }
 ]
