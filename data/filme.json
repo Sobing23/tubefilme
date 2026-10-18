@@ -156546,7 +156546,9 @@
     "writer": [],
     "fsk": null,
     "slug": "sie-nahmen-ihm-alles-doch-er-kam-zurueck-um-es-zu-beenden",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "8023joYFXfk",
@@ -270095,9 +270097,9 @@
     "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "LGE6Bani3vE",
-    "youtubeTitle": "🎬 Ein Bewegender FILM, den Sie noch lange nicht vergessen werden! 💞 Romantisches Drama auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/LGE6Bani3vE/hqdefault.jpg",
+    "videoId": "VUF11kB7bVo",
+    "youtubeTitle": "😍🤣 Dieser lustige und unterhaltsame Film wird das Herz jeder Frau erobern! | Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VUF11kB7bVo/hqdefault.jpg",
     "duration": "PT1H45M18S",
     "publishedAt": "2026-05-08T13:00:39Z",
     "channelName": "Kinohof",
@@ -270131,8 +270133,6 @@
       "Tony Germinario"
     ],
     "fsk": null,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich",
     "slug": "wingman-inc",
     "runtime": 106,
     "plausibel": "titel",
@@ -285070,5 +285070,722 @@
     "writer": [],
     "fsk": null,
     "slug": "afrika-mon-amour-teil-1-2"
+  },
+  {
+    "videoId": "IkQhRKCRroo",
+    "youtubeTitle": "Ihr eigener Vater entführt sie, weil sie sein Geheimnis entdeckt hat | THRILLERFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/IkQhRKCRroo/hqdefault.jpg",
+    "duration": "PT1H28M15S",
+    "publishedAt": "2026-10-17T15:00:31Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 955608,
+    "title": "Ties that Kill",
+    "originalTitle": "Ties that Kill",
+    "overview": "",
+    "releaseDate": "2022-08-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2fMnYVp3iQKDL7zNcQ9f7tZvzDe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ouoRZns9jpV0Duq0dg7dLot3Z0K.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      10770,
+      53,
+      18,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Ties that Kill\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Maddy Hillis",
+      "Corina Akeson",
+      "Alaska Leigh",
+      "Jay Hindle",
+      "Aiden Howard"
+    ],
+    "director": [
+      "Jonathan MacPherson"
+    ],
+    "writer": [
+      "Felicity Evans",
+      "Rebeca Hughes",
+      "Toby Venables"
+    ],
+    "fsk": null,
+    "slug": "ties-that-kill"
+  },
+  {
+    "videoId": "FzcsK6KHVn8",
+    "youtubeTitle": "50 Cent: Wem kann ein Cop noch trauen? • Action Filme Deutsch komplett: Streets of Blood",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FzcsK6KHVn8/hqdefault.jpg",
+    "duration": "PT1H34M",
+    "publishedAt": "2026-10-17T16:30:14Z",
+    "channelName": "Starkino",
+    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
+    "tmdbId": 19727,
+    "title": "Streets of Blood",
+    "originalTitle": "Streets of Blood",
+    "overview": "Im New Orleans der Post-Katrina-Ära sortieren Unterwelt und korrupte Gesetzeshüter ihre Reihen neu, mit allem, was das an Blutzoll bei unschuldigen Opfern so mit einschließt. Als ein paar Bad Lieutenants beim Raubüberfall auf einen stadtbekannten Dealer einen undercover operierenden FBI-Agenten erschießen, droht die Sache überzukochen. Interne Ermittler durchleuchten die Drogenfahndung, Psychologen bearbeiten die Beamten und mittendrin versucht Detective Devereaux, seinen neuen Partner einzuarbeiten - und den Mord am alten zu klären.",
+    "releaseDate": "2009-05-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eOeLJtCiy7FxPE2rfHyjh5csLTy.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rc2U9zz3hNLnb8jcgpUGRwDFdRB.jpg",
+    "voteAverage": 4.34,
+    "genreIds": [
+      28,
+      80,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Val Kilmer",
+      "50 Cent",
+      "Sharon Stone",
+      "Michael Biehn",
+      "Jose Pablo Cantillo"
+    ],
+    "director": [
+      "Charles Winkler"
+    ],
+    "writer": [
+      "Eugene Hess",
+      "Dennis Fanning"
+    ],
+    "fsk": "18",
+    "slug": "streets-of-blood"
+  },
+  {
+    "videoId": "1NdW2E7op4k",
+    "youtubeTitle": "😱 Eine Begegnung mit der Vergangenheit wird zur unerwarteten Herausforderung | THRILLER",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1NdW2E7op4k/hqdefault.jpg",
+    "duration": "PT1H27M40S",
+    "publishedAt": "2026-10-17T15:00:02Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": 603702,
+    "title": "Staged Killer",
+    "originalTitle": "Staged Killer",
+    "overview": "",
+    "releaseDate": "2019-06-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9ZrZgzaMD11Ny6uiBmtz3o5QRho.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qScDlSIcm8agzflrEVbdOflkHNc.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      10770,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Staged Killer\")",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Chrishell Stause",
+      "Nicole Bilderback",
+      "Jason Dolley",
+      "Darrin Henson",
+      "Charlie O'Connell"
+    ],
+    "director": [
+      "Christopher Ray"
+    ],
+    "writer": [
+      "Lindsay Hartley",
+      "Jason-Shane Scott"
+    ],
+    "fsk": null,
+    "slug": "staged-killer"
+  },
+  {
+    "videoId": "pcOGi8dpIdY",
+    "youtubeTitle": "Wolfsmilch (OSCAR nominiertes Meisterwerk mit JACK NICHOLSON & MERYL STREEP, ganzer Film Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pcOGi8dpIdY/hqdefault.jpg",
+    "duration": "PT2H23M2S",
+    "publishedAt": "2026-10-17T17:00:31Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 40962,
+    "title": "Wolfsmilch",
+    "originalTitle": "Ironweed",
+    "overview": "Francis Phelan ist ganz unten. Er hat so gut wie alles verloren, die Familie, seine Träume, das Dach über dem Kopf ... doch nicht sein Ideal von Freundschaft. Zusammen mit seiner todkranken Weggefährtin Helen durchstreift er nach 20jährigem Wanderleben die Straßen seiner Heimatstadt Albany N.Y., in der beide schon einmal bessere Zeiten erlebt haben. Doch Francis, der empfindsame Penner, kann keine Ruhe finden. Auf Schritt und Tritt verfolgen ihn die Dämonen der Vergangenheit, die Menschen, deren Tod auf seinem Gewissen lastet. Sein Kopf ist voller Schnaps und schuldgetränkter Halluzinationen. Helen zerbricht auf der Reise in die Erinnerung an eine glückliche, unwiederbringliche Zeit. Nach dem gescheiterten Versuch sich der Vergangenheit zu stellen, macht Francis sich wieder auf zu einer langen Reise ohne Zukunft und ohne Ziel...",
+    "releaseDate": "1987-12-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yDxGFH3bxAZApPl7JV5QQgZH8dN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2WrVjk2CFpEmNGXEvbhiFPIzLgp.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 143,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Jack Nicholson",
+      "Meryl Streep",
+      "Carroll Baker",
+      "Michael O'Keefe",
+      "Diane Venora"
+    ],
+    "director": [
+      "Héctor Babenco"
+    ],
+    "writer": [
+      "William Kennedy"
+    ],
+    "fsk": "16",
+    "slug": "wolfsmilch"
+  },
+  {
+    "videoId": "6LJ_OehIlLI",
+    "youtubeTitle": "Die Hollywood Gang - The Hollywood Knights (1980) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6LJ_OehIlLI/hqdefault.jpg",
+    "duration": "PT1H31M46S",
+    "publishedAt": "2026-10-17T14:00:16Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 21879,
+    "title": "Die Hollywood Gang",
+    "originalTitle": "The Hollywood Knights",
+    "overview": "Beverly Hills, im Jahr 1965, die Teenager-Clique \"Hollywood Knigths\" ist erbost darüber, dass man ihnen ihren Spaß auf vier Rädern beschneiden will, zumal es sich vermutlich um den letzten Abend handelt, den sie alle gemeinsam verbringen können. So legt man sich unter der Führung von Newbomb Turk mit zwei Polizisten und der örtlichen Bürgerwehr an, hat aber zwischendurch auch noch Zeit, Autorennen zu veranstalten und ein paar Neulinge nackt durch die Straßen zu schicken.",
+    "releaseDate": "1980-05-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nKTXjzFW52n61rlXT80MGIcnEG4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/y0evpko41DD8VObgDD7lENJgNgr.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Robert Wuhl",
+      "Tony Danza",
+      "Fran Drescher",
+      "Michelle Pfeiffer",
+      "Joyce Hyser"
+    ],
+    "director": [
+      "Floyd Mutrux"
+    ],
+    "writer": [
+      "William Tennant",
+      "Floyd Mutrux",
+      "Richard Lederer"
+    ],
+    "fsk": null,
+    "slug": "die-hollywood-gang"
+  },
+  {
+    "videoId": "YTwRk41eZTo",
+    "youtubeTitle": "Emotionales FAMILIENDRAMA: WIE EIN STAUBKORN IM WIND | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YTwRk41eZTo/hqdefault.jpg",
+    "duration": "PT1H44M27S",
+    "publishedAt": "2026-10-17T16:15:09Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 43937,
+    "title": "Wie ein Staubkorn im Wind",
+    "originalTitle": "Like Dandelion Dust",
+    "overview": "Nach sieben Jahren Knast wird Rip endlich entlassen und schwört sich ein besserer Mensch zu werden. Jahrelang hatte er seine Frau Wendy mißhandelt, und sogar ihr gemeinsames Kind Joey musste zur Adoption freigegeben werden, weil die Familie zerrüttet und mittellos war. Rip setzt es sich in den Kopf Joey zurück zu bekommen, der mittlerweile seit Jahren bei seinen Adoptiveltern Jack und Molly Campbell ein sorgenfreies und glückliches Leben führt. Ihre Leben überschneiden sich, verflechten sich und kollidieren, und es dreht sich alles um die Liebe zu einem kleinen Jungen...",
+    "releaseDate": "2009-02-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nhHHeX7mKHkWDiMs4JOEp7oxdoU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/opd2WXOqrYkvsBPWGssmJzCGIzN.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Mira Sorvino",
+      "Barry Pepper",
+      "Cole Hauser",
+      "Kate Levering",
+      "Maxwell Perry Cotton"
+    ],
+    "director": [
+      "Jon Gunn"
+    ],
+    "writer": [
+      "Stephen J. Rivele",
+      "Michael Lachance"
+    ],
+    "fsk": null,
+    "slug": "wie-ein-staubkorn-im-wind"
+  },
+  {
+    "videoId": "zNR8KiaZFP8",
+    "youtubeTitle": "Days and Nights | Ein Wochenende voller Lügen und emotionaler Explosionen | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zNR8KiaZFP8/hqdefault.jpg",
+    "duration": "PT1H31M21S",
+    "publishedAt": "2026-10-17T07:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 241432,
+    "title": "Days and Nights",
+    "originalTitle": "Days and Nights",
+    "overview": "Inspiriert von Anton Tschechows 'Die Möwe' und angesiedelt im dörflichen Neuengland der 1980er Jahre, wird von einem Familienzusammentreffen zwischen Fest und Katastrophe erzählt. Ein alternder Filmstar und ihr Liebhaber treffen im Anwesen der Diva auf deren kranken Bruder und ihren Künstlersohn. Als sich die exzentrische Familie und ihre Pfleger versammeln, stürzen haltlose Begehrlichkeiten die Familie ins Chaos und ein desaströser Schicksalsschlag führt in der ohnehin schon dysfunktionalen Familie zu weiteren Brüchen.",
+    "releaseDate": "2014-09-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4zaSBhPhaTrEQQOMlFCuoFdU90D.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xUWoTRXN1a2N6wFpBClfyBjktvu.jpg",
+    "voteAverage": 4.5,
+    "genreIds": [
+      18,
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Allison Janney",
+      "Christian Camargo",
+      "Cherry Jones",
+      "William Hurt",
+      "Michael Nyqvist"
+    ],
+    "director": [
+      "Christian Camargo"
+    ],
+    "writer": [
+      "Christian Camargo",
+      "Anton Tschechow"
+    ],
+    "fsk": null,
+    "slug": "days-and-nights"
+  },
+  {
+    "videoId": "PmheOece1yM",
+    "youtubeTitle": "DOPEUNDER - Von Hochschulabsolventen bis hin zu Gangstern | Stoner-Komödie | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/PmheOece1yM/hqdefault.jpg",
+    "duration": "PT1H39M30S",
+    "publishedAt": "2026-10-17T15:00:39Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 452134,
+    "title": "DopeUnder",
+    "originalTitle": "Pipe Dream",
+    "overview": "Ausgerechnet zu einer Zeit, in der in ganz Australien mit eiserner Hand gegen den florierenden Drogenhandel vorgegangen wird, finden die beiden Highschool-Absolventen CJ und Nate einen großen Sack voller Marihuana. Unschlüssig darüber, was sie mit dem brisanten Fund anstellen sollen, nehmen sie sich den Rat eines älteren Bruders zu Herzen und finden sich plötzlich mitten im tobenden Drogenkrieg wieder. Schon bald bleibt ihnen keine andere Wahl mehr, als den Stoff zu verkaufen. Doch ziehen sie spätestens damit die Aufmerksamkeit des übereifrigen Polizeichefs und der kriminellen Unterwelt auf sich. Allerdings dauert es eine ganze Weile, bis die beiden feierwütigen Freunde überhaupt mitbekommen, in was für einen Schlamassel sie eigentlich geraten sind...",
+    "releaseDate": "2015-05-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2VeLSm14mhIHlT6IIjjQCzy7HDe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jxTpHVNL1ufplluqWUcW6akCwMh.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      35,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (9 Filme) -- Laufzeit entschied: TMDB 95 min, Video 100 min · Zuordnungswert 121 (Suchbegriff: \"Pipe Dream\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Nathan Wright",
+      "Michael Balk",
+      "Tamara McLaughlin",
+      "Chris Schmuttermaier",
+      "Robert Griffiths"
+    ],
+    "director": [
+      "Aaron Singfield"
+    ],
+    "writer": [
+      "Liesl Hinde",
+      "Aaron Singfield"
+    ],
+    "fsk": "16",
+    "slug": "dopeunder"
+  },
+  {
+    "videoId": "aXmBPOvkSY8",
+    "youtubeTitle": "Wow! Ein wahnsinnig toller Weltraum-Film mit starken Bildern! (Ganzer Film: INFINI)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/aXmBPOvkSY8/hqdefault.jpg",
+    "duration": "PT1H50M36S",
+    "publishedAt": "2026-10-17T07:00:18Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 301728,
+    "title": "Infini",
+    "originalTitle": "Infini",
+    "overview": "Ein Elite-Suchtrupp wird Anfang des 23. Jahrhunderts in eine außerweltliche Minenstation namens Infini gebracht, um Whit Carmichael, den einzigen Überlebenden einer biologischen Katastrophe, zu retten. Die erfahrenen Soldaten treffen im äußersten Stützpunkt unserer Galaxie auf ein Bild des Grauens. Die Überreste und Ausmaße der Katastrophe sind überall sichtbar und nachdem sie Carmichael gefunden haben, erfahren sie die grauenvolle Geschichte des Kampfes gegen den Virus. Und auch wenn es so scheint, als sei Carmichael der einzige Überlebende, lauert in den Tiefen der Station die biologische Waffe auf ihren Einsatz. Die Bedrohung gilt nicht nur den Truppenmitgliedern, auch die Erdbewohner könnten bald in Lebensgefahr schweben, denn Infini ist nur wenige Stunden vom  Heimatplaneten der Menschen entfernt. Ein Kampf gegen die Zeit entbrennt.",
+    "releaseDate": "2015-04-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kl1s91ov7ypFMl61ia9XWqDyanU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sOeR0Gh1F40z1Kb1PKdOZqfW8oE.jpg",
+    "voteAverage": 5.208,
+    "genreIds": [
+      27,
+      878,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 110,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Daniel MacPherson",
+      "Grace Huang",
+      "Luke Hemsworth",
+      "Bren Foster",
+      "Luke Ford"
+    ],
+    "director": [
+      "Shane Abbess"
+    ],
+    "writer": [
+      "Brian Cachia",
+      "Shane Abbess"
+    ],
+    "fsk": "16",
+    "slug": "infini"
+  },
+  {
+    "videoId": "nuwv_WCP9p4",
+    "youtubeTitle": "Amok – Hansi geht's gut (2014) | Ganzer Film Deutsch | Düsteres Drama über Einsamkeit und Wut | HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nuwv_WCP9p4/hqdefault.jpg",
+    "duration": "PT1H18M53S",
+    "publishedAt": "2026-10-17T15:30:38Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 336415,
+    "title": "Amok - Hansi geht's gut",
+    "originalTitle": "Amok - Hansi geht's gut",
+    "overview": "Wir lernen Lorenz Fuchs als einen kauzigen, einsamen Mann kennen, der sich mit seinem wunschlos unglücklichen Dasein über die Jahre arrangiert zu haben scheint. Aber dann wird er durch seine unerwartete Beförderung völlig aus seiner Lebensroutine gerissen.  Fuchs nahm seine Mitmenschen schon immer als Bedrohung wahr. Sie sind für ihn eine aggressive Horde, von der Medienwelt manipulierte Konsumenten, entfremdete, deformierte Wesen, abgerichtet wie Tiere, die Lebens- und Verhaltensmuster kopiert, sich nach Moden und Regeln von sozialen Netzwerken und Internet-Communitys richtet.  Fuchs will nun nicht noch mehr in dieses verhasste System hineingezogen werden. Seine lang unterdrückte Wut verwandelt sich in rohe Gewalt, was zu einem entsetzlichen Blutbad führt.",
+    "releaseDate": "2014-05-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hSyXovjfwQ9wS3R8jSBJLi7R6RC.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4.6,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Tilo Nest",
+      "Charly Hübner",
+      "Anneke Kim Sarnau",
+      "Ralph Herforth",
+      "Heike Hanold-Lynch"
+    ],
+    "director": [
+      "Zoltan Paul"
+    ],
+    "writer": [
+      "Zoltan Paul"
+    ],
+    "fsk": "12",
+    "slug": "amok-hansi-geht-s-gut"
+  },
+  {
+    "videoId": "LgGXcTQWPcM",
+    "youtubeTitle": "Connors' War (2006) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/LgGXcTQWPcM/hqdefault.jpg",
+    "duration": "PT1H30M23S",
+    "publishedAt": "2026-10-17T16:00:10Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 33615,
+    "title": "Connors' War",
+    "originalTitle": "Connors' War",
+    "overview": "Nachdem er bei einem von den eigenen Kollegen vermasselten Einsatz sein Augenlicht verlor, lebt der Ex-CIA-Agent Connors verbittert in einer Laubenkolonie am Rande der Stadt. Eines Tages steht sein ehemaliger Chef auf der Matte und macht ihm ein verlockendes Angebot. Wenn Connors im Gegenzug eine Festplatte aus einem Hochsicherheitsbereich entwendet, schenken ihm Militärärzte das Augenlicht wieder. Als Connors erkennt, dass sein Boss einen Staatsstreich plant, ist höchste Improvisation gefragt.",
+    "releaseDate": "2006-09-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hFWZRePFDelIn7gFw9xzmWsDFbi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aNC1EOCucyERHOfeQc3NcfFsWJe.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      28,
+      12,
+      878,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Nia Peeples",
+      "Blu Mankuma",
+      "Treach",
+      "Tom Heaton",
+      "Garwin Sanford"
+    ],
+    "director": [
+      "Nick Castle"
+    ],
+    "writer": [
+      "D. Kyle Johnson"
+    ],
+    "fsk": null,
+    "slug": "connors-war"
+  },
+  {
+    "videoId": "Xh53AEUPPJQ",
+    "youtubeTitle": "House of the Dead 2: Dead Aim (2006) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Xh53AEUPPJQ/hqdefault.jpg",
+    "duration": "PT1H35M56S",
+    "publishedAt": "2026-10-17T16:00:12Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 29293,
+    "title": "House of the Dead 2",
+    "originalTitle": "House of the Dead 2",
+    "overview": "Auf einem Universitätscampus hat sich eine Infektion verbreitet, die Menschen in Zombies verwandelt. Um den Virus zu stoppen, schickt die Regierung die zwei Agenten Alex und Ellis zu der Universität, um den \"Patient Zero\", denjenigen der die Infektion in Umlauf brachte, zu finden. Als die beiden an den Ort des Grauens kommen, müssen sie zu ihrem Entsetzen feststellen, dass die gesamte Universität mittlerweile in den Händen der Zombies ist. Und auch die Regierung selbst hegt noch weiter Pläne mit der Zombie-DNA...",
+    "releaseDate": "2006-02-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/r95UYIFeCjIVKZ1MPxZwEHITAhg.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xK3C4HHZRnJEK275WOl0mc4njrD.jpg",
+    "voteAverage": 4.635,
+    "genreIds": [
+      28,
+      27,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Emmanuelle Vaugier",
+      "Ed Quinn",
+      "Sticky Fingaz",
+      "Victoria Pratt",
+      "Theo Rossi"
+    ],
+    "director": [
+      "Michael Hurst"
+    ],
+    "writer": [
+      "Peter Scheerer",
+      "Michael Roesch",
+      "Mark A. Altman"
+    ],
+    "fsk": "18",
+    "slug": "house-of-the-dead-2"
+  },
+  {
+    "videoId": "LILCBrRGwmo",
+    "youtubeTitle": "🔥 Er wollte seine Vergangenheit hinter sich lassen, doch die Straße holt ihn ein! | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/LILCBrRGwmo/hqdefault.jpg",
+    "duration": "PT1H33M4S",
+    "publishedAt": "2026-10-17T14:00:36Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 10252,
+    "title": "Animal - Gewalt hat einen Namen",
+    "originalTitle": "Animal",
+    "overview": "Als ein brutaler Krimineller mit dem Spitznamen \"Animal\" ins Gefängnis kommt, lässt er seine Frau und den gemeinsamen Sohn Darius in der freien Welt zurück. Da sich seine Ansichten hinter Gittern verändern, will er nach der Haftstrafe seinen Sohn vor dem Schicksal des Vaters bewahren.",
+    "releaseDate": "2005-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/f0r2kdF3TitkTxAwb0kKdsTfIvi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2PYSbjodqH6ytgXaeDtWitFjK1l.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      28,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Ving Rhames",
+      "Terrence Howard",
+      "Jim Brown",
+      "Chazz Palminteri",
+      "Beverly Todd"
+    ],
+    "director": [
+      "David J. Burke"
+    ],
+    "writer": [
+      "David C. Johnson"
+    ],
+    "fsk": null,
+    "slug": "animal-gewalt-hat-einen-namen"
+  },
+  {
+    "videoId": "8WfpYF8B7wA",
+    "youtubeTitle": "DER LETZTE DEAL: VIER MÄNNER, EIN VERRÄTER – EINE NACHT, DIE ALLES VERÄNDERT | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8WfpYF8B7wA/hqdefault.jpg",
+    "duration": "PT2H2M",
+    "publishedAt": "2026-10-16T12:40:28Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "DER LETZTE DEAL: VIER MÄNNER, EIN VERRÄTER - EINE NACHT, DIE ALLES VERÄNDERT",
+    "originalTitle": null,
+    "overview": "In einem amerikanischen Immobilienbüro läuft das Geschäft immer schlechter. Die Verkäufer stehen unter enormem Druck, bis eines Tages ein skrupelloser Vertreter der Firmenleitung auftaucht und eine brutale Entscheidung verkündet:",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "der-letzte-deal-vier-maenner-ein-verraeter-eine-nacht-die-al"
+  },
+  {
+    "videoId": "cElyk73XzC8",
+    "youtubeTitle": "Sie ermordeten seine Eltern – jetzt kehrt er zurück Action Ganzer Film Deutsch Kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cElyk73XzC8/hqdefault.jpg",
+    "duration": "PT1H22M4S",
+    "publishedAt": "2026-10-16T17:03:52Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Sie ermordeten seine Eltern",
+    "originalTitle": null,
+    "overview": "Als Kind verlor er seine Eltern durch einen Mord. Jahre später kehrt der junge Mann in die Kleinstadt zurück, in der alles geschah. Er will die Verantwortlichen finden und sie zur Rechenschaft ziehen. Doch seine Suche reißt alte Wunden auf und bringt neue Gefahren mit sich.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "John Mark Robinson"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "sie-ermordeten-seine-eltern"
+  },
+  {
+    "videoId": "nm-rbog0edM",
+    "youtubeTitle": "Sie muss ihn zum Gericht bringen – doch Killer sind ihnen auf den Fersen Action Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nm-rbog0edM/hqdefault.jpg",
+    "duration": "PT1H21M28S",
+    "publishedAt": "2026-10-16T12:39:58Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Sie muss ihn zum Gericht bringen",
+    "originalTitle": null,
+    "overview": "Michael Norell wird Zeuge eines Mordes und gerät ins Visier der Mafia. Obwohl er nicht aussagen will, muss Detective Carolyn Hunter ihn zum Gericht bringen. Doch Auftragskiller wollen verhindern, dass der Zeuge dort lebend ankommt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Tom Mankiewicz"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "sie-muss-ihn-zum-gericht-bringen"
+  },
+  {
+    "videoId": "4oPhf2tBM6E",
+    "youtubeTitle": "The Spring of my life | Der Frühling meines Lebens | Wiedersehen | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4oPhf2tBM6E/hqdefault.jpg",
+    "duration": "PT1H34M27S",
+    "publishedAt": "2026-10-16T20:00:15Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": null,
+    "title": "The Spring of my life",
+    "originalTitle": null,
+    "overview": "Antonio und Lorenzo waren musikalische Partner, bis ihre Zusammenarbeit zerbrach und eine lange Funkstille begann. Nun meldet sich Antonio mit einem geheimnisvollen Projekt, bei dem Musik keine Rolle spielt. Lorenzo ist zunächst misstrauisch, lässt sich aber von den hohen Einsätzen überzeugen. Eine knappe Frist macht ihre Fahrt durch Sizilien zum Wettlauf mit der Zeit. Ungewöhnliche Begegnungen werfen neue Fragen auf und bringen die beiden dazu, sich auch mit ihrer Vergangenheit auseinanderzusetzen. Mit Colapesce, Dimartino, Stefania Rocca, Corrado Fortuna, Demetra Bellina und Madame.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-spring-of-my-life"
+  },
+  {
+    "videoId": "7x24u89SlUA",
+    "youtubeTitle": "ER KAM AUF DIE INSEL, AUF DER DIE JAGD BEGANN | Abenteuer | Filme deutsch komplet",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7x24u89SlUA/hqdefault.jpg",
+    "duration": "PT1H29M36S",
+    "publishedAt": "2026-10-16T15:00:12Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "ER KAM AUF DIE INSEL, AUF DER DIE JAGD BEGANN",
+    "originalTitle": null,
+    "overview": "Der legendäre Großwildjäger Rick Rainsford strandet auf einer Insel, auf der Menschen zur Beute des gefährlichsten Raubtiers werden – eines Menschen. Gemeinsam mit Anna gerät er in ein tödliches Spiel, das der ehemalige KGB-Agent Zaroff inszeniert hat.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "er-kam-auf-die-insel-auf-der-die-jagd-begann"
+  },
+  {
+    "videoId": "mOTO7eQx9Hc",
+    "youtubeTitle": "Hinter diesen Mauern gelten keine Regeln – nur die Stärksten überleben | Sean Penn",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mOTO7eQx9Hc/hqdefault.jpg",
+    "duration": "PT1H56M18S",
+    "publishedAt": "2026-10-16T21:05:44Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Hinter diesen Mauern gelten keine Regeln - nur die Stärksten überleben",
+    "originalTitle": null,
+    "overview": "Chicago. Ein junger Straftäter lebt in einer Welt aus Gewalt, Diebstahl und rivalisierenden Gangs. Doch während einer verhängnisvollen Nacht geschieht etwas, das sein Leben für immer verändert: Bei einer Auseinandersetzung kommt der jüngere Bruder seines Rivalen ums Leben. Der Jugendliche wird verurteilt und in eine Erziehungsanstalt geschickt. Dort erwartet ihn eine neue Welt mit eigenen Regeln, brutalen Hierarchien und Jugendlichen, die jeden Schwachpunkt ausnutzen. Während er versucht, sich hinter Gittern zu behaupten und sein Leben neu zu ordnen, lässt ihn seine Vergangenheit nicht los. Schon bald erreicht auch die alte Feindschaft das Gefängnis – und eine Konfrontation, der keiner der Beteiligten mehr ausweichen kann, rückt immer näher. Ein intensives Gefängnis- und Crime-Drama über Schuld, Rache, Gewalt und die schwierige Suche nach einer zweiten Chance.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "hinter-diesen-mauern-gelten-keine-regeln-nur-die-staerksten"
   }
 ]
