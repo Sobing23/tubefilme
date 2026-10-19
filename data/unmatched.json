@@ -1,54 +1,46 @@
 [
   {
-    "videoId": "e666aFRNh7c",
-    "youtubeTitle": "BLUTIGER KAMPF: SEIN MEISTER MACHTE IHN ZUR WAFFE – DOCH DIE MAFIA SCHLUG ZURÜCK | Ganzer Film HD",
-    "suchbegriff": "BLUTIGER KAMPF: SEIN MEISTER MACHTE IHN ZUR WAFFE – DOCH DIE MAFIA SCHLUG ZURÜCK",
+    "videoId": "gySx1bDMPWY",
+    "youtubeTitle": "AL PACINO: DER KÖNIG DER DEALS – BIS EIN VERRAT SEIN GANZES IMPERIUM ZERSTÖRT | Ganzer Film HD",
+    "suchbegriff": "AL PACINO: DER KÖNIG DER DEALS – BIS EIN VERRAT SEIN GANZES IMPERIUM ZERSTÖRT",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "Sm9m0D5AthU",
-    "youtubeTitle": "Zwei Flugzeuge stürzen ab – jetzt beginnt die Jagd über den Wolken Action Ganzer Film Deutsch",
-    "suchbegriff": "Zwei Flugzeuge stürzen ab – jetzt beginnt die Jagd über den Wolken Action Ganzer Film Deutsch",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "zJguGFiIQZg",
-    "youtubeTitle": "HORROR-KLASSIKER – WILLARD: Seine Ratten nehmen grausame Rache! (Horrorfilm | Deutsch)",
-    "suchbegriff": "HORROR-KLASSIKER – WILLARD: Seine Ratten nehmen grausame Rache!",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "w4a85Krk0jU",
-    "youtubeTitle": "FAMILIENRAUB | Terry Crews (Brooklyn 99) | KOMÖDIE | Ganzer Film | Film Komplett auf Deutsch",
-    "suchbegriff": "FAMILIENRAUB",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "VHYjablMvZs",
-    "youtubeTitle": "🤣🍿 Diese Komödie bringt euch garantiert zum Lachen! | Ganzer Film auf Deutsch",
-    "suchbegriff": "Diese Komödie bringt euch garantiert zum Lachen!",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "8phfWlQOCSg",
-    "youtubeTitle": "Kann Schicksal die große Liebe erzwingen? | Lilly Schönauer | Eine unglaublich tränenreiche Romanze",
-    "suchbegriff": "Kann Schicksal die große Liebe erzwingen?",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 66) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "grund": "Ein-Wort-Suchbegriff \"AL PACINO\" ohne Jahr/Besetzung -- Rest des Titels (\"konig deals bis verrat sein ganzes imperium zerstort\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 494300,
-      "title": "Lilly Schönauer - Weiberhaushalt",
-      "release_date": "2013-12-23"
+      "id": 926616,
+      "title": "Al Pacino — Vom Underdog zur Filmlegende",
+      "release_date": "2022-02-06"
+    }
+  },
+  {
+    "videoId": "dg6wvDd2tLo",
+    "youtubeTitle": "Sie zwingen ihn in den Käfig – jetzt kämpft er um sein Leben Action Ganzer Film Deutsch Kostenlos",
+    "suchbegriff": "Sie zwingen ihn in den Käfig – jetzt kämpft er um sein Leben Action Ganzer Film Deutsch Kostenlos",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "p5Sgs-c_gyQ",
+    "youtubeTitle": "Um ihren Sohn zu retten, muss sie die Wahrheit finden | Conceived in Lies | Filme deutsch komplet",
+    "suchbegriff": "Um ihren Sohn zu retten, muss sie die Wahrheit finden",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -2)",
+    "tmdbTopKandidat": {
+      "id": 1268784,
+      "title": "Cradle of Deception",
+      "release_date": "2024-04-29"
+    }
+  },
+  {
+    "videoId": "2EmfcPbDBHc",
+    "youtubeTitle": "🔥 DEUTSCHE KRIEGSJAHRE – Deutschland im Zweiten Weltkrieg 1939–1945 | Historisch",
+    "suchbegriff": "DEUTSCHE KRIEGSJAHRE – Deutschland im Zweiten Weltkrieg 1939–1945",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Historisch\" ohne Jahr/Besetzung -- Rest des Titels (\"deutsche kriegsjahre deutschland zweiten weltkrieg 1939 1945\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 835421,
+      "title": "Erlangen als historische Stadtanlage",
+      "release_date": "1984-01-01"
     }
   }
 ]

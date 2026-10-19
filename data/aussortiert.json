@@ -5252,5 +5252,25 @@
     "videoId": "8fCAU0L76HY",
     "youtubeTitle": "Carry On | Deutsches Arthouse Drama | Ganzer Film | Abschied eines alten Bauern",
     "channelName": "Stash auf Deutsch"
+  },
+  {
+    "datum": "2026-10-19",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 10 min, Video 97 min) -- wird neu gesucht",
+    "videoId": "MwoHJTqZ01U",
+    "youtubeTitle": "Ein VATER kennt keine GNADE: Taken: Requiem | BRUTALER Action Thriller Deutsch",
+    "title": "Requiem",
+    "tmdbId": 772921,
+    "channelName": "Movies Select"
+  },
+  {
+    "datum": "2026-10-19",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 85 min, Video 150 min) -- wird neu gesucht",
+    "videoId": "Eucdhm6psjs",
+    "youtubeTitle": "🎬❤️ MARIANDL (1961) – EIN WUNDERSCHÖNER FILMKLASSIKER! 🌹",
+    "title": "Mariandl",
+    "tmdbId": 136164,
+    "channelName": "All Time Classic Movies"
   }
 ]

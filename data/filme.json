@@ -280885,9 +280885,9 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "BSV-tY7pw9c",
+    "videoId": "xdz0HOZp1HY",
     "youtubeTitle": "Ein Letzter Wunsch Verändert Sein Leben | Morceaux Choisis | Drama",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/BSV-tY7pw9c/hqdefault.jpg",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xdz0HOZp1HY/hqdefault.jpg",
     "duration": "PT1H18M40S",
     "publishedAt": "2026-10-11T12:00:19Z",
     "channelName": "Stash auf Deutsch",
@@ -280924,9 +280924,7 @@
     "slug": "morceaux-choisis-episoden-aus-dem-leben-des-julius-schoenfel",
     "runtime": 0,
     "plausibel": "titel",
-    "plausibelVersion": 3,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 3
   },
   {
     "videoId": "3sE718ghScM",
@@ -285650,7 +285648,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "der-letzte-deal-vier-maenner-ein-verraeter-eine-nacht-die-al"
+    "slug": "der-letzte-deal-vier-maenner-ein-verraeter-eine-nacht-die-al",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "cElyk73XzC8",
@@ -285787,5 +285787,632 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "hinter-diesen-mauern-gelten-keine-regeln-nur-die-staerksten"
+  },
+  {
+    "videoId": "JKuyS5kYOek",
+    "youtubeTitle": "Im neuen Haus findet sie Hinweise auf den Mord an der ehemaligen Besitzerin | THRILLERFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JKuyS5kYOek/hqdefault.jpg",
+    "duration": "PT1H26M51S",
+    "publishedAt": "2026-10-18T15:00:27Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1449553,
+    "title": "The Last Woman Who Lived Here",
+    "originalTitle": "The Last Woman Who Lived Here",
+    "overview": "",
+    "releaseDate": "2025-03-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aXB6pOlAYOtJEoWterYgzGMnuLY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lc5zbSIjJ4VhxJnjeRVEso906AE.jpg",
+    "voteAverage": 7.3,
+    "genreIds": [
+      10770,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"The Last Woman Who Lived Here\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Tamara Almeida",
+      "David Chinchilla",
+      "Cindy Sampson",
+      "Morgan Kelly",
+      "Randal Edwards"
+    ],
+    "director": [
+      "Samantha MacAdam"
+    ],
+    "writer": [
+      "Leo McGuigan"
+    ],
+    "fsk": null,
+    "slug": "the-last-woman-who-lived-here"
+  },
+  {
+    "videoId": "9gLGHfl2JYQ",
+    "youtubeTitle": "Luke Evans: Ein Neuanfang unter tödlichem Druck • Krimi Deutsch: 5 Pounds of Pressure",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9gLGHfl2JYQ/hqdefault.jpg",
+    "duration": "PT1H50M27S",
+    "publishedAt": "2026-10-18T16:30:38Z",
+    "channelName": "Starkino",
+    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
+    "tmdbId": 1079346,
+    "title": "5 Pounds of Pressure",
+    "originalTitle": "5lbs of Pressure",
+    "overview": "Nach 16 Jahren Knast wegen Mordes kehrt Adam in sein altes Viertel zurück und begibt sich auf den steinigen Weg der Vergebung gegenüber seinem Sohn, der ohne ihn aufgewachsen ist, während der verbitterte, unberechenbare Bruder des Jugendlichen, den er getötet hat, im Hintergrund lauert. Währenddessen will Mike, der es satt hat, für seinen mit Drogen dealenden Onkel Leff  zu arbeiten, sein schmutziges Leben hinter sich lassen. Als sich die Wege von Adam und Mike kreuzen, wird das unausweichliche Schicksal der Gewalt weichen... und einer letzten, flüchtigen Chance auf Erlösung.",
+    "releaseDate": "2024-03-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/e4Fsu9bkXlcYcDK3UJpq6NDyRnz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/89uw4vqgccd7UoojRJKMETtjk4x.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      53,
+      80,
+      10749,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 111,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Luke Evans",
+      "Rory Culkin",
+      "Alex Pettyfer",
+      "Rudy Pankow",
+      "Charlie Rawes"
+    ],
+    "director": [
+      "Phil Allocco"
+    ],
+    "writer": [
+      "Phil Allocco"
+    ],
+    "fsk": "16",
+    "slug": "5-pounds-of-pressure"
+  },
+  {
+    "videoId": "Xci-OCsYyT4",
+    "youtubeTitle": "DIE TODESFAUST DES KLEINEN DRACHEN – Er hält sich für unbesiegbar, bis die Wahrheit kommt! (Kung-Fu)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Xci-OCsYyT4/hqdefault.jpg",
+    "duration": "PT1H44M52S",
+    "publishedAt": "2026-10-18T17:30:16Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 41380,
+    "title": "Die Todesfaust des kleinen Drachen",
+    "originalTitle": "敗家仔",
+    "overview": "Leung Chang (Yuen Biao) hält sich für den besten Kämpfer der Stadt. Was er jedoch nicht weiß, ist das sein wohlhabender Vater seine Herausforderer vor jedem Kampf besticht, um gegen ihn zu verlieren. Als der hochmütige Chang eines Tages gegen den Operndarsteller Leung Yee Tai (Lam Ching-Ying) antritt und verliert, deckt dieser den Schwindel auf. Daraufhin beschließt der gekränkte Chang bei dem Wing-Tsun erprobten Bühnenkünstler Kampfunterricht zu nehmen. Als dieser zunächst ablehnt, kauft Chang´s Vater die gesamte Theatergruppe auf. Ab diesem Zeitpunkt weicht der Grünschnabel seinem unfreiwilligen Meister nicht mehr von der Seite.",
+    "releaseDate": "1981-11-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/m0Hay4TUSpqM5kyZOKDJ7w8jVBJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qY7Er6d1E8NUhMtQtk8KmpyVUO9.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      28,
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Yuen Biao",
+      "陳勳奇",
+      "Lam Ching-Ying",
+      "Sammo Hung",
+      "Lung Chan"
+    ],
+    "director": [
+      "Sammo Hung"
+    ],
+    "writer": [
+      "Sammo Hung",
+      "Barry Wong",
+      "Jing Wong"
+    ],
+    "fsk": "16",
+    "slug": "die-todesfaust-des-kleinen-drachen"
+  },
+  {
+    "videoId": "cVewgGxuLRs",
+    "youtubeTitle": "No Way Jose (2015) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cVewgGxuLRs/hqdefault.jpg",
+    "duration": "PT1H38M2S",
+    "publishedAt": "2026-10-18T14:00:11Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 343371,
+    "title": "No Way Jose",
+    "originalTitle": "No Way Jose",
+    "overview": "JOSE STERN - früher Joseph Stern, bis er entdeckte, dass er zu 1/8 Mexikaner ist - wird bald 40 und geht schnurstracks auf die 75 zu. Er und seine Band The Borges spielen nur noch auf Kindergeburtstagen. Er war schon immer etwas trist, jetzt geht es ihm erbärmlich. Zum Glück hat er sein perfektes Gegenstück in seiner Freundin Dusty gefunden. Sie ist eine warmherzige und gelassene Tierärztin, das Yin zu seinem Yang. Zumindest bis sie die App zum Orten von Sexualverbrechern \"iPervert\" benutzt und herausfindet, dass Jose ein verurteilter Sexualstraftäter ist, wenn auch nur für Sex mit einer frühreifen 16-Jährigen, als er selbst unschuldige 18 war. Sie setzt Jose vor die Tür. So findet er eine Bleibe bei einem Freund, dessen Ehe zu scheitern droht. Bei ihm sucht Jose Rat, trifft sich wieder mit seiner verrückten Ex und kämpft mit seiner Vergangenheit, um sich selbst und vielleicht Dusty wiederzufinden.",
+    "releaseDate": "2015-06-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bUFrAhqlER7oJVdfCcfp2rzHfeC.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/psTkgtf1umgPhAu32x5fmj0sKCJ.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Adam Goldberg",
+      "Ahna O'Reilly",
+      "Pat Healy",
+      "Anna Belknap",
+      "Gillian Jacobs"
+    ],
+    "director": [
+      "Adam Goldberg"
+    ],
+    "writer": [
+      "Adam Goldberg",
+      "Sarah Kate Levy"
+    ],
+    "fsk": "12",
+    "slug": "no-way-jose"
+  },
+  {
+    "videoId": "L5nZb0njEDs",
+    "youtubeTitle": "Das kann jedem passieren | 1952 | HeimatfilmeTV",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/L5nZb0njEDs/hqdefault.jpg",
+    "duration": "PT1H27M10S",
+    "publishedAt": "2026-10-18T13:45:20Z",
+    "channelName": "Heimatfilme",
+    "channelId": "UCV8yejshmlsns86C-ZeO16Q",
+    "tmdbId": 311593,
+    "title": "Das kann jedem passieren",
+    "originalTitle": "Das kann jedem passieren",
+    "overview": "Die komischen und rührenden Erlebnisse eines tollpatschig-korrekten Steuerberaters auf Abwegen.",
+    "releaseDate": "1952-05-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rhBocdmMghXT1wFYzK3MZ7Eeli4.jpg",
+    "backdropUrl": null,
+    "voteAverage": 7,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Heinz Rühmann",
+      "Gustav Knuth",
+      "Werner Fuetterer",
+      "Hubert von Meyerinck",
+      "Bum Krüger"
+    ],
+    "director": [
+      "Paul Verhoeven"
+    ],
+    "writer": [
+      "Edgar Kahn",
+      "Hans Schweikart"
+    ],
+    "fsk": null,
+    "slug": "das-kann-jedem-passieren"
+  },
+  {
+    "videoId": "Zkv3vWEYYOc",
+    "youtubeTitle": "Ein Stern fällt vom Himmel (1961) 🎬 | Deutscher Filmklassiker der 60er Jahre | Nostalgie pur",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Zkv3vWEYYOc/hqdefault.jpg",
+    "duration": "PT1H33M38S",
+    "publishedAt": "2026-10-18T07:33:08Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 261952,
+    "title": "Ein Stern fällt vom Himmel",
+    "originalTitle": "Ein Stern fällt vom Himmel",
+    "overview": "Die berühmte Eiskunstläuferin Helga Held sagt dem Leistungssport ade. Der fesche Heinz Norman verpflichtet daraufhin eine Doppelgängerin für seine Show. Die echte Helga Held macht ihm einen kräftigen Strich durch seine Rechnung.",
+    "releaseDate": "1961-09-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mj9cc6ZrdMTaJDOtOV6BWs9iCj2.jpg",
+    "backdropUrl": null,
+    "voteAverage": 6.5,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Ina Bauer",
+      "Toni Sailer",
+      "Gunther Philipp",
+      "Susi Nicoletti",
+      "Ruth Stephan"
+    ],
+    "director": [
+      "Géza von Cziffra"
+    ],
+    "writer": [
+      "Géza von Cziffra"
+    ],
+    "fsk": "6",
+    "slug": "ein-stern-faellt-vom-himmel"
+  },
+  {
+    "videoId": "wserz4Pkq1M",
+    "youtubeTitle": "Sniper - Duell an der Westfront (WW1 Kriegsdrama Deutsch, Überleben im Schützengraben, 2026, HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wserz4Pkq1M/hqdefault.jpg",
+    "duration": "PT1H30M2S",
+    "publishedAt": "2026-10-18T16:00:22Z",
+    "channelName": "Rashland",
+    "channelId": "UCo-WzNHl4AOFBdOUfoj3WSA",
+    "tmdbId": 1041317,
+    "title": "Sniper - Duell an der Westfront",
+    "originalTitle": "Battle for the Western Front",
+    "overview": "Sommer 1918: Der erste Weltkrieg neigt sich schon dem Ende zu, als das legendäre Flieger-As Billy Bishop bei einem Auftritt im ländlichen Ontario mit einem flammenden Plädoyer zur Verteidigung der Heimat die beiden Jugendfreunde James und Robert dazu motiviert, sich für den Fronteinsatz zu melden. Schon bald befindet sich ihr Regiment auf dem Weg nach Europa, wo sie sich in den letzten Kriegsmonaten inmitten der höllischen Hunderttageoffensive wiederfinden. Im Schlamm und Staub der Schützengräben an der Westfront kämpfen sie in der Schlacht an der Scarpe um jeden Meter Boden – und ihnen zur Seite steht einer der legendärsten Scharfschützen aller Zeiten: Francis „Peggy“ Pegahmagabow. Als die Versorgungslinien zur Front unterbrochen werden und der Nachschub ausbleibt, beginnt für James, Robert und ihre Kameraden ein verzweifelter Kampf gegen einen scheinbar übermächtigen Feind …",
+    "releaseDate": "2022-10-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lfjuNm18h3nnqKYUgXcPc8r4hBq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2QR0OpYzPFG84EswxENqcPuHmP.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      10752
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Michael Lake",
+      "Christopher Cordell",
+      "Sylvain Plasse",
+      "Somerville Black",
+      "Aaron Huggett"
+    ],
+    "director": [
+      "Aaron Huggett"
+    ],
+    "writer": [
+      "Aaron Huggett"
+    ],
+    "fsk": "16",
+    "slug": "sniper-duell-an-der-westfront"
+  },
+  {
+    "videoId": "s_cWcZIoic4",
+    "youtubeTitle": "The Fighters 3: No Surrender (2016) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/s_cWcZIoic4/hqdefault.jpg",
+    "duration": "PT1H41M48S",
+    "publishedAt": "2026-10-18T16:00:28Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 391757,
+    "title": "The Fighters 3: No Surrender",
+    "originalTitle": "Never Back Down: No Surrender",
+    "overview": "Einst war Case Walker der Star der Mixed-Martial-Arts-Szene von Amerika, doch weil er nicht Dopen und Tricksen wollte, hat er seine aktive Laufbahn beendet. Nun bittet ihn sein alter Freund Brody, ihn nach Thailand zu begleiten und zu trainieren für einen hoch dotierten Kampf gegen den gefürchteten Giganten “Psycho” Caesar Braga. Nach anfänglichem Zögern willigt Walker ein, nur um sich nach einem Trainingsunfall von Brody selbst in der Pflicht zu finden, für eine Million Dollar gegen den Psycho in den Ring zu steigen.",
+    "releaseDate": "2016-06-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ojMtGCPi8IKJ012I0McESBqia0W.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1ADN2D5iqC7w1xXo8r0BqTsBifK.jpg",
+    "voteAverage": 7.047,
+    "genreIds": [
+      18,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Michael Jai White",
+      "Josh Barnett",
+      "Gillian White",
+      "Nathan Jones",
+      "Damian Mavis"
+    ],
+    "director": [
+      "Michael Jai White"
+    ],
+    "writer": [
+      "Michael Jai White",
+      "Chris Hauty"
+    ],
+    "fsk": "16",
+    "slug": "the-fighters-3-no-surrender"
+  },
+  {
+    "videoId": "hXLbnjfWTOc",
+    "youtubeTitle": "Legacy (SPANNENDER FILM mit IDRIS ELBA, ganzer Film auf Deutsch, Filme kostenlos ansehen)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hXLbnjfWTOc/hqdefault.jpg",
+    "duration": "PT1H29M35S",
+    "publishedAt": "2026-10-18T14:00:31Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 45568,
+    "title": "Legacy",
+    "originalTitle": "Legacy",
+    "overview": "Malcolm Gray, ein hochdekoriertes Mitglied einer Anti Terror-Einheit, hatte den Befehl mit seinem Einsatzkommando einen russischen Waffenhändler zur Strecke zu bringen. Der Einsatz misslang, Malcolm wurde gefangengenommen und brutal gefoltert. Jahre später: Malcolm vegetiert in einem schäbigen Apartment in Brooklyn vor sich hin, abgeschottet von der Aussenwelt. Selbstzweifel und Angstzustände treiben ihn allmählich in den Wahnsinn. Er ist besessen von dem Gedanken, daß sein Bruder, ein hochrangiger Politiker, der sich anschickt das Weisse Haus zu erobern, hinter einem Komplott steckt. Malcolm setzt alles daran seinen Bruder zu stoppen…",
+    "releaseDate": "2010-10-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4FviXkOo3udmM3QTW26i0VYNMla.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4.7,
+    "genreIds": [
+      18,
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Idris Elba",
+      "William Hope",
+      "Eamonn Walker",
+      "Monique Gabriela Curnen",
+      "Richard Brake"
+    ],
+    "director": [
+      "Eromose"
+    ],
+    "writer": [
+      "Eromose"
+    ],
+    "fsk": "16",
+    "slug": "legacy-2"
+  },
+  {
+    "videoId": "uABP7XcxSm8",
+    "youtubeTitle": "Abstieg ins Grauen - The Cavern (2006) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/uABP7XcxSm8/hqdefault.jpg",
+    "duration": "PT1H20M43S",
+    "publishedAt": "2026-10-18T16:00:05Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 10042,
+    "title": "The Cavern - Abstieg ins Grauen",
+    "originalTitle": "Within",
+    "overview": "Auf der Erde gibt es große Geheimnisse - aber die dunkelsten liegen in ihrem Innersten verborgen. In der zentralasiatischen Wüste Kysylkum hört ein Forscherteam von einem kürzlich entdeckten Höhlensystem und begibt sich auf eine Expedition, um die Grotten näher zu untersuchen. In den dunklen Gängen werden zwei ihrer Führer auf mysteriöse Weise getötet, während die Forscher auf unerklärliche Weise im Inneren der Berge gefangen sind. Ihre einzige Hoffnung auf Rettung ist ein Abstieg in die Tiefen der Höhle, wo sie - von einer unbekannten Macht verfolgt - verzweifelt um ihr Leben kämpfen müssen.",
+    "releaseDate": "2005-10-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lVEnRvjpWMPplRN5EX28cyNnVZk.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dkWllC5DOST1hfCwDjHp7JTyLop.jpg",
+    "voteAverage": 3.3,
+    "genreIds": [
+      18,
+      27,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 118 (Suchbegriff: \"Abstieg ins Grauen - The Cavern\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Sybil Darrow",
+      "Ogy Durham",
+      "Mustafa Shakir",
+      "Andres Hudson",
+      "Danny Jacobs"
+    ],
+    "director": [
+      "Olatunde Osunsanmi"
+    ],
+    "writer": [
+      "Olatunde Osunsanmi",
+      "Terry Robbins"
+    ],
+    "fsk": null,
+    "slug": "the-cavern-abstieg-ins-grauen"
+  },
+  {
+    "videoId": "T9LTGdGcbMo",
+    "youtubeTitle": "Der Mann ihrer Träume entpuppt sich als BRUTALER TYRANN! 😱 | Thrillerfilm auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/T9LTGdGcbMo/hqdefault.jpg",
+    "duration": "PT1H27M58S",
+    "publishedAt": "2026-10-18T14:00:22Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 547377,
+    "title": "Her Boyfriend's Secret",
+    "originalTitle": "Her Boyfriend's Secret",
+    "overview": "",
+    "releaseDate": "2018-09-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qmJnFHuIlu7a9NYJmbU2I9yY077.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8VawOiqqSGccPrVHssqpySsu4XA.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      53,
+      10770,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Kelly Sullivan",
+      "Maiara Walsh",
+      "Mark Famiglietti",
+      "Jordan James Smith",
+      "Kalilah Harris"
+    ],
+    "director": [
+      "Lisa France"
+    ],
+    "writer": [
+      "Bo Johnson"
+    ],
+    "fsk": null,
+    "slug": "her-boyfriend-s-secret"
+  },
+  {
+    "videoId": "e666aFRNh7c",
+    "youtubeTitle": "BLUTIGER KAMPF: SEIN MEISTER MACHTE IHN ZUR WAFFE – DOCH DIE MAFIA SCHLUG ZURÜCK | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/e666aFRNh7c/hqdefault.jpg",
+    "duration": "PT1H15M5S",
+    "publishedAt": "2026-10-17T14:54:21Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "BLUTIGER KAMPF: SEIN MEISTER MACHTE IHN ZUR WAFFE - DOCH DIE MAFIA SCHLUG ZURÜCK",
+    "originalTitle": null,
+    "overview": "Als ein junger Kampfsportexperte in seine alte Heimat zurückkehrt, ahnt er noch nicht, dass ihn dort der gefährlichste Kampf seines Lebens erwartet. Einst wurde er von einem erfahrenen Meister in der amerikanischen Kampfkunst Kenpo ausgebildet. Er lernte Disziplin, blitzschnelle Reflexe und die Fähigkeit, selbst übermächtige Gegner zu besiegen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "blutiger-kampf-sein-meister-machte-ihn-zur-waffe-doch-die-ma"
+  },
+  {
+    "videoId": "Sm9m0D5AthU",
+    "youtubeTitle": "Zwei Flugzeuge stürzen ab – jetzt beginnt die Jagd über den Wolken Action Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Sm9m0D5AthU/hqdefault.jpg",
+    "duration": "PT1H27M3S",
+    "publishedAt": "2026-10-17T15:57:41Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Zwei Flugzeuge stürzen ab",
+    "originalTitle": null,
+    "overview": "Zwei mysteriöse Flugzeugabstürze innerhalb von 48 Stunden versetzen die Behörden in Alarmbereitschaft. Eine Frau übernimmt die Verantwortung und droht, mit elektromagnetischen Impulsen weitere Maschinen zum Absturz zu bringen. Als auch ein gestohlener Militärjet zur Bedrohung wird, beginnt eine riskante Abfangmission.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Paul Levine"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "zwei-flugzeuge-stuerzen-ab"
+  },
+  {
+    "videoId": "zJguGFiIQZg",
+    "youtubeTitle": "HORROR-KLASSIKER – WILLARD: Seine Ratten nehmen grausame Rache! (Horrorfilm | Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zJguGFiIQZg/hqdefault.jpg",
+    "duration": "PT1H35M3S",
+    "publishedAt": "2026-10-17T17:30:04Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": null,
+    "title": "Seine Ratten nehmen grausame Rache!",
+    "originalTitle": null,
+    "overview": "Willard ist ein Außenseiter, hat keine Freunde und muß sich um seine unselbstständige, bettlägrige Mutter kümmern. Beruflich läuft es auch nicht gut, muß er doch für den Mann arbeiten, der die Firma seines Vaters übernommen hat. Willard will er loswerden, doch ein Versprechen an Willards Mutter hindert ihn daran. So schikaniert er Willard, wo es nur geht. Als Willard im Haus der Mutter ein paar Ratten töten soll, findet er hingegen neue Freunde und bereitet ihnen ein Rattenparadies im Keller, wo sie sich nach Lust und Laune vermehren können. Nicht lange und der Keller wird von einer kleinen Rattennation bevölkert. Willard beginnt, sie für kleine, harmlose Racheaktionen einzusetzen. Besonders am Herzen liegt ihm Sokrates, eine weiße Ratte, die als einzige mit in sein Schlafzimmer und zur Arbeit darf. Das mißfällt Ben, dem Anführer der Ratten. Er will dieselben Privilegien wie Sokrates. Al",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Bruce Davison",
+      "Elsa Lanchester",
+      "Sondra Locke"
+    ],
+    "director": [
+      "Daniel Mann"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "seine-ratten-nehmen-grausame-rache"
+  },
+  {
+    "videoId": "w4a85Krk0jU",
+    "youtubeTitle": "FAMILIENRAUB | Terry Crews (Brooklyn 99) | KOMÖDIE | Ganzer Film | Film Komplett auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/w4a85Krk0jU/hqdefault.jpg",
+    "duration": "PT1H23M35S",
+    "publishedAt": "2026-10-17T15:00:29Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": null,
+    "title": "FAMILIENRAUB",
+    "originalTitle": null,
+    "overview": "Ein nichtsnutziger junger Mann findet heraus, dass seine Familie Millionen Dollar in einem Verbindungshaus versteckt hat, und muss das Geld nun zurückholen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "familienraub"
+  },
+  {
+    "videoId": "VHYjablMvZs",
+    "youtubeTitle": "🤣🍿 Diese Komödie bringt euch garantiert zum Lachen! | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VHYjablMvZs/hqdefault.jpg",
+    "duration": "PT1H24M2S",
+    "publishedAt": "2026-10-17T14:22:02Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Diese Komödie bringt euch garantiert zum Lachen!",
+    "originalTitle": null,
+    "overview": "Eine leichte romantische Komödie über Ehrgeiz, Liebe, unerwartete Wendungen des Schicksals und die komplexen Beziehungen zwischen Mann und Frau. Im Mittelpunkt stehen zwei junge, erfolgreiche Manager, ein Mann und eine Frau, die es gewohnt sind, ihre Ziele zu erreichen und selbstbewusst die Karriereleiter zu erklimmen. Doch ihre Wege kreuzen sich bei den Vorbereitungen für einen Millionen-Deal mit einem japanischen Investor, und jeder von ihnen will seine Überlegenheit beweisen. Geschäftliche Rivalität verkompliziert nach und nach ihr Leben und gefährdet nicht nur den vielversprechenden Deal, sondern auch ihre persönlichen Beziehungen. Gleichzeitig steht eine Ehe, die schon lange unbefriedigend ist, kurz vor dem Aus. Als Pläne durchkreuzt werden und sich die gewohnte Ordnung der Dinge ändert, müssen die Protagonisten ihre eigenen Wünsche überdenken und herausfinden, was einen Menschen wi",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "diese-komoedie-bringt-euch-garantiert-zum-lachen"
+  },
+  {
+    "videoId": "8phfWlQOCSg",
+    "youtubeTitle": "Kann Schicksal die große Liebe erzwingen? | Lilly Schönauer | Eine unglaublich tränenreiche Romanze",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8phfWlQOCSg/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2026-10-17T17:00:25Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Kann Schicksal die große Liebe erzwingen?",
+    "originalTitle": null,
+    "overview": "Ein unerwarteter Schicksalsschlag führt zwei Menschen auf verschlungenen Pfaden zusammen und stellt ihr Leben komplett auf den Kopf. Die leidenschaftliche Reiseberaterin Valerie springt nach einem Unfall kurzfristig für den Architekten Jan ein, um dessen wichtiges Hotelprojekt vor dem Scheitern zu bewahren. Während sie gemeinsam um die berufliche Zukunft kämpfen, entwickeln sich tiefgreifende Gefühle, die durch alte Schullieben und berufliche Verflechtungen auf eine harte Probe gestellt werden. Parallel versucht ein junges Mädchen, das Familienglück auf eigene Faust zu reparieren, während verheimlichte Identitäten und Missverständnisse für emotionale Turbulenzen sorgen. Dieser herzerwärmende Film erzählt eine mitreißende Geschichte über Neuanfänge, Mut zur Veränderung und die unvorhersehbare Macht der wahren Liebe.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "kann-schicksal-die-grosse-liebe-erzwingen"
   }
 ]
