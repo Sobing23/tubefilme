@@ -122665,12 +122665,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "yH9oSPIz_6c",
-    "youtubeTitle": "Gangland (2001) [Action] [Sci-Fi] Endzeit pur: Luzifers Herrschaft | ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/yH9oSPIz_6c/hqdefault.jpg",
+    "videoId": "SiCcj69R3dg",
+    "youtubeTitle": "Gangland L.A (ganzer Action Film Deutsch in voller Länge)😱*HD*",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SiCcj69R3dg/hqdefault.jpg",
     "duration": "PT1H33M35S",
     "publishedAt": "2025-09-11T16:00:06Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "Bulldox",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 79467,
     "title": "Gangland L.A.",
@@ -172730,7 +172730,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "kickbox-hero-2"
+    "slug": "kickbox-hero-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "OTx-jXPpcKE",
@@ -172756,7 +172758,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "kickbox-hero-1-2"
+    "slug": "kickbox-hero-1-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "22UpW2RBm_k",
@@ -210492,7 +210496,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "eine-der-staerksten-familiendramen-die-lange-im-gedaechtnis"
+    "slug": "eine-der-staerksten-familiendramen-die-lange-im-gedaechtnis",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "56DSQiz4264",
@@ -211835,7 +211841,9 @@
     "slug": "center-stage-2",
     "plausibel": "titel",
     "runtime": 95,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "jC3_ivlFzA4",
@@ -234266,7 +234274,7 @@
     "fsk": null,
     "slug": "unmarked",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "fuGqpI7oicc",
@@ -234294,7 +234302,7 @@
     "fsk": null,
     "slug": "todesmelodie",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "sFG6RJ2Bl2o",
@@ -236782,7 +236790,7 @@
     "fsk": null,
     "slug": "cannonball",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "lUcag8OyUZw",
@@ -269940,12 +269948,12 @@
     "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "4RbInndlwbM",
-    "youtubeTitle": "🔪 Eine Mutter wird zum Ziel eines skrupellosen Killers! Thriller filme deutsch | Ganzer film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/4RbInndlwbM/hqdefault.jpg",
+    "videoId": "FjWi29Jr1FY",
+    "youtubeTitle": "Tödliche Geheimnisse eines geerbten Hauses | Killer Contractor | Filme deutsch komplet 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FjWi29Jr1FY/hqdefault.jpg",
     "duration": "PT1H27M8S",
     "publishedAt": "2026-07-07T12:00:10Z",
-    "channelName": "Lichtprojektor",
+    "channelName": "KinoWucht",
     "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
     "tmdbId": 639392,
     "title": "Killer Contractor",
@@ -270049,8 +270057,7 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"A DANGEROUS MAN\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Steven Seagal",
       "Mike Dopud",
@@ -278191,7 +278198,7 @@
     "plausibel": "titel",
     "plausibelVersion": 3,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "jZyO7rZsGaI",
@@ -278299,8 +278306,7 @@
       80
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"The Big Heist\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Donald Sutherland",
       "John Heard",
@@ -286690,5 +286696,212 @@
     "writer": [],
     "fsk": null,
     "slug": "conceived-in-lies"
+  },
+  {
+    "videoId": "i2EiFdY180A",
+    "youtubeTitle": "Dieser Film wird dich von der ersten Minute an fesseln! | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/i2EiFdY180A/hqdefault.jpg",
+    "duration": "PT1H29M16S",
+    "publishedAt": "2026-10-20T15:00:01Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 575019,
+    "title": "Til Ex Do Us Part",
+    "originalTitle": "Til Ex Do Us Part",
+    "overview": "Kurz vor dem Ende ihrer Trennung und nachdem Kyle und Sophia sich wieder einander verpflichtet haben, wird Sophia beschuldigt, Claire, die Freundin ihres Mannes, angegriffen zu haben.",
+    "releaseDate": "2018-10-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5a3VpcbmXLFsMISFS5j2FDPTXE1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cCVVs2gHYvOxyOBKOF26eA3utbX.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 129 (Suchbegriff: \"Til Ex Do Us Part\")",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Kelly Sullivan",
+      "Anna Van Hooft",
+      "Dan Payne",
+      "Alisha Newton",
+      "Sharon Taylor"
+    ],
+    "director": [
+      "Danny J. Boyle"
+    ],
+    "writer": [
+      "Lynn Keller",
+      "Andrea Canning"
+    ],
+    "fsk": null,
+    "slug": "til-ex-do-us-part"
+  },
+  {
+    "videoId": "MwoHJTqZ01U",
+    "youtubeTitle": "Ein VATER kennt keine GNADE: Taken: Requiem | BRUTALER Action Thriller Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MwoHJTqZ01U/hqdefault.jpg",
+    "duration": "PT1H36M47S",
+    "publishedAt": "2026-10-18T16:15:09Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 1232554,
+    "title": "Requiem",
+    "originalTitle": "Requiem",
+    "overview": "",
+    "releaseDate": "2018-05-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nqzUetN9hykh3P39sWFF4nlfnLQ.jpg",
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      36,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [],
+    "director": [
+      "Lucas Parra"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "requiem"
+  },
+  {
+    "videoId": "890bN7M-Wn8",
+    "youtubeTitle": "Dieser dystopische Science-Fiction Film ist ein MUSS! (Ganzer Film: The Last Spark of Hope)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/890bN7M-Wn8/hqdefault.jpg",
+    "duration": "PT1H28M37S",
+    "publishedAt": "2026-10-20T14:00:37Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 1153470,
+    "title": "The Last Spark of Hope",
+    "originalTitle": "W nich cała nadzieja",
+    "overview": "In der post-apokalyptischen Realität kämpft Ewa nicht nur ums Überleben, sondern auch mit akuter Einsamkeit. Das eigentliche Drama beginnt, als sie durch die absurde Situation in einen Konflikt mit ihrem einzigen Begleiter - einer Maschine - gerät.",
+    "releaseDate": "2023-11-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/A1dQXfVtL0kvJDNgnx3uzCaBv7u.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tzbYCxJ8hgCXStHihwNGWe1Fdpr.jpg",
+    "voteAverage": 5.849,
+    "genreIds": [
+      18,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Magdalena Wieczorek",
+      "Jacek Beler"
+    ],
+    "director": [
+      "Piotr Biedroń"
+    ],
+    "writer": [
+      "Piotr Biedroń"
+    ],
+    "fsk": "12",
+    "slug": "the-last-spark-of-hope"
+  },
+  {
+    "videoId": "wZfd1jIqVlM",
+    "youtubeTitle": "Hans im Glück (1999) | DEUTSCHER ABENTEUERFILM | Ganzer Film | Märchen der Brüder Grimm | HD | 2026",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wZfd1jIqVlM/hqdefault.jpg",
+    "duration": "PT1H9M46S",
+    "publishedAt": "2026-10-20T15:30:11Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 111604,
+    "title": "Hans im Glück",
+    "originalTitle": "Hans im Glück",
+    "overview": "Nach sieben Jahren Lehre bei einem Müller entschließt sich Hans, nach Hause zurückzukehren. Der Müller schenkt ihm als Dank für die gute Arbeit einen großen Goldklumpen, den die schöne Müllerstochter in ihr rotes Tuch einschlägt. Auf dem Weg in seine Elternhaus begegnet Hans einem Reiter, und weil er das schwere Gold nicht mehr schleppen will, tauscht er seinen Klumpen gegen dessen Pferd. Mit dem Pferd reitet Hans wider Willen in eine Hochzeitsgesellschaft und landet zwischen den Hörnern einer Kuh. Damit ist der nächste Tausch perfekt. Doch als die Kuh keine Milch gibt und stattdessen Hans in einen Tümpel jagt, tauscht er das Tier gegen ein Ferkel, dann das Ferkel gegen eine Gans und die Gans gegen zwei Schleifsteine. Und die fallen ihm in einen Brunnen ... Mit leeren Händen kommt er bei seinen Eltern an – um bald darauf wieder an den Rückweg denken, zur schönen Müllerstochter, die auf ihn wartet.",
+    "releaseDate": "1999-04-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/m44N6Q0iHTVPNXWotetDyfp9xiX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/po4lTqhw3QPOOvk3HuEL5xD6n36.jpg",
+    "voteAverage": 4.4,
+    "genreIds": [
+      10751,
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Andreas Bieber",
+      "Walfriede Schmitt",
+      "Günter Naumann",
+      "Karl Dall",
+      "Kalle Pohl"
+    ],
+    "director": [
+      "Rolf Losansky"
+    ],
+    "writer": [],
+    "fsk": "0",
+    "slug": "hans-im-glueck"
+  },
+  {
+    "videoId": "qyCpNIBwpxA",
+    "youtubeTitle": "Ein CIA-Agent wird gezwungen, für eine geheime Erpresserorganisatio zu arbeiten | Laurence Fishburne",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/qyCpNIBwpxA/hqdefault.jpg",
+    "duration": "PT1H38M29S",
+    "publishedAt": "2026-10-19T15:00:20Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Ein CIA-Agent wird gezwungen, für eine geheime Erpresserorganisatio zu arbeiten",
+    "originalTitle": null,
+    "overview": "Ein erfahrener CIA-Agent gerät nach einem gefährlichen Einsatz unter die Kontrolle einer geheimen Organisation. Statt für sein Land zu arbeiten, soll er nun Teil eines Systems werden, das mächtige Persönlichkeiten mit kompromittierenden Informationen erpresst. Gemeinsam mit einer ebenso intelligenten wie undurchsichtigen Partnerin beginnt er, hochrangige Ziele auszuspionieren und unter Druck zu setzen. Doch je tiefer er in die Operationen hineingezogen wird, desto deutlicher erkennt er, dass hinter den Aufträgen weit mehr steckt als gewöhnliche Geheimdienstarbeit. Als eine Ermittlerin beginnt, seine Vergangenheit bei der CIA aufzudecken, gerät das gesamte System ins Wanken. Zwischen politischen Geheimnissen, Mord und gegenseitigem Misstrauen beginnt ein gefährliches Spiel, bei dem niemand weiß, wer wirklich auf welcher Seite steht. Ein düsterer 90er-Jahre-Spionagethriller voller Intrigen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "ein-cia-agent-wird-gezwungen-fuer-eine-geheime-erpresserorga"
+  },
+  {
+    "videoId": "r4WtsrNpBVI",
+    "youtubeTitle": "🔥 Jason Statham im tödlichen Überlebenskampf | Ganzen Film JETZT KOSTENLOS ansehen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/r4WtsrNpBVI/hqdefault.jpg",
+    "duration": "PT1H26M31S",
+    "publishedAt": "2026-10-19T13:48:22Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "13",
+    "originalTitle": null,
+    "overview": "Ein packender Krimi, in dem Verzweiflung, Geldgier und gefährliche menschliche Ambitionen einen gewöhnlichen Menschen zum Teilnehmer eines tödlich riskanten Spiels machen. Vince, ein junger Elektriker aus Ohio, gerät in eine schwierige Lage, als seine Familie aufgrund der notwendigen teuren Operationen seines Vaters in ernste finanzielle Schwierigkeiten gerät. Nachdem er zufällig ein Gespräch eines Fremden über die Möglichkeit, schnell viel Geld zu verdienen, mitgehört hat, beschließt Vince, sein Glück zu versuchen – ohne zu ahnen, in welch gefährliche Geschichte er sich verstrickt. Er ersetzt seinen Mann, der plötzlich an einer Überdosis gestorben ist, und reist nach New York, wo ihn eine mysteriöse Aufgabe erwartet. Schon bald findet sich Vince in einem abgeschlossenen Haus wieder, in dem wohlhabende Zuschauer auf das Schicksal von Menschen wetten, die gezwungen sind, an einem grausame",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "13-2"
   }
 ]
