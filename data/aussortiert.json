@@ -5300,5 +5300,825 @@
     "videoId": "2EmfcPbDBHc",
     "youtubeTitle": "🔥 DEUTSCHE KRIEGSJAHRE – Deutschland im Zweiten Weltkrieg 1939–1945 | Historisch",
     "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 45 min, Video 19 min) -- wird neu gesucht",
+    "videoId": "aWhAX5WPiRk",
+    "youtubeTitle": "Dark Legacy (Horror, Mystery, KURZFILM, ganzer Film, HD)",
+    "title": "Dark Legacy",
+    "tmdbId": 1108204,
+    "channelName": "Screamtime"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2017, Video 2008) -- wird neu gesucht",
+    "videoId": "d2jlFMmfBT4",
+    "youtubeTitle": "The House (Horrorfantasy, Dämonenhorror, kostenloser Spielfilm in voller Länge deutsch online)",
+    "title": "Casino Undercover",
+    "tmdbId": 345914,
+    "channelName": "Screamtime"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 14 min, Video 77 min) -- wird neu gesucht",
+    "videoId": "GMbymokZx6I",
+    "youtubeTitle": "Hell on Earth (Horrorfilme auf Deutsch)",
+    "title": "Hell on Earth",
+    "tmdbId": 791719,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 140 min, Video 73 min) -- wird neu gesucht",
+    "videoId": "C-Vg0u0b59g",
+    "youtubeTitle": "Caligula - Der Tyrann (Drama | deutsch)",
+    "title": "Caligula",
+    "tmdbId": 1354558,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 92 min, Video 50 min) -- wird neu gesucht",
+    "videoId": "P3k9e9sFw5o",
+    "youtubeTitle": "Ali Baba - aus der Box: Felix der Kater und seine Freunde",
+    "title": "Ali Baba",
+    "tmdbId": 66540,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 115 min, Video 80 min) -- wird neu gesucht",
+    "videoId": "FiJhQb203l8",
+    "youtubeTitle": "Dragon - Die Drachentöter (Fantasy Film | deutsch)",
+    "title": "Dragon",
+    "tmdbId": 70057,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 90 min, Video 49 min) -- wird neu gesucht",
+    "videoId": "fMmjjHfZvBY",
+    "youtubeTitle": "Der gestiefelte Kater - aus der Box: Felix der Kater und seine Freunde",
+    "title": "Der gestiefelte Kater",
+    "tmdbId": 417859,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 105 min, Video 72 min) -- wird neu gesucht",
+    "videoId": "tZ1XZIjJWEU",
+    "youtubeTitle": "Menschenjagd",
+    "title": "Menschenjagd",
+    "tmdbId": 22404,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 149 min, Video 99 min) -- wird neu gesucht",
+    "videoId": "8C78240l8wI",
+    "youtubeTitle": "Time to Kill - mit Nicolas Cage",
+    "title": "Die Jury",
+    "tmdbId": 1645,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 144 min, Video 74 min) -- wird neu gesucht",
+    "videoId": "1yGGAeQ78_w",
+    "youtubeTitle": "Shining - Die Entscheidung",
+    "title": "Shining",
+    "tmdbId": 694,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 93 min, Video 186 min) -- wird neu gesucht",
+    "videoId": "mGwmKJX5Brc",
+    "youtubeTitle": "Shadow of the Eagle",
+    "title": "Graf Orloffs gefährliche Liebe",
+    "tmdbId": 516036,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 90 min, Video 43 min) -- wird neu gesucht",
+    "videoId": "M53YOYyoH8o",
+    "youtubeTitle": "Ein Paradies für Tiere: Afrikas wildes Herz - The Great Rift",
+    "title": "Ein Paradies für Tiere",
+    "tmdbId": 370636,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 106 min, Video 37 min) -- wird neu gesucht",
+    "videoId": "vwtreIAxR2w",
+    "youtubeTitle": "Hawaii - Reiseführer",
+    "title": "Hawaii",
+    "tmdbId": 199851,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 98 min, Video 30 min) -- wird neu gesucht",
+    "videoId": "ag8rzpvsDYw",
+    "youtubeTitle": "Temptation - Making of",
+    "title": "Temptation",
+    "tmdbId": 71902,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 60 min, Video 39 min) -- wird neu gesucht",
+    "videoId": "UX19qlpLdIg",
+    "youtubeTitle": "Power Yoga - Yoga zum mitmachen",
+    "title": "Power Yoga",
+    "tmdbId": 284881,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 3 min, Video 90 min) -- wird neu gesucht",
+    "videoId": "H2z4V2dH4NY",
+    "youtubeTitle": "MAN EATERS - Leichenhaus des Grauens (Horrorfilme deutsch ganzer Film)",
+    "title": "Man Eaters",
+    "tmdbId": 779559,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 62 min, Video 86 min) -- wird neu gesucht",
+    "videoId": "N69w1H0eQUA",
+    "youtubeTitle": "Space Ranger",
+    "title": "Space Ranger",
+    "tmdbId": 1267983,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 102 min, Video 69 min) -- wird neu gesucht",
+    "videoId": "WN74hpJShr8",
+    "youtubeTitle": "Budapest",
+    "title": "Budapest",
+    "tmdbId": 467673,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "hr2tc0W-bOw",
+    "youtubeTitle": "Fantasy Ballet",
+    "title": "Carmen",
+    "tmdbId": 763261,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 31 min, Video 57 min) -- wird neu gesucht",
+    "videoId": "fctJ2tyyEUI",
+    "youtubeTitle": "Charlie Chaplins Carmen Parodie",
+    "title": "Charlie Chaplins Carmen-Parodie",
+    "tmdbId": 53415,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 82 min, Video 26 min) -- wird neu gesucht",
+    "videoId": "f29Qh34WIlY",
+    "youtubeTitle": "Max und Moritz - Ihre Streiche - Hörspiel",
+    "title": "Max und Moritz",
+    "tmdbId": 371665,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 140 min, Video 67 min) -- wird neu gesucht",
+    "videoId": "ahpoStZkw-k",
+    "youtubeTitle": "Robin Hood - Seine Abenteuer - Hörbuch",
+    "title": "Robin Hood",
+    "tmdbId": 20662,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 89 min, Video 18 min) -- wird neu gesucht",
+    "videoId": "MHEJ54q7a-0",
+    "youtubeTitle": "Frau Holle - Hörspiel",
+    "title": "Frau Holle",
+    "tmdbId": 29180,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 8 min, Video 43 min) -- wird neu gesucht",
+    "videoId": "cPoC0uKniJA",
+    "youtubeTitle": "Der standhafte Zinnsoldat",
+    "title": "Der standhafte Zinnsoldat",
+    "tmdbId": 174517,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 94 min, Video 47 min) -- wird neu gesucht",
+    "videoId": "Fj4YfhT9pus",
+    "youtubeTitle": "Planet Ocean  - Die Jäger der Meere",
+    "title": "Planet Ocean",
+    "tmdbId": 152113,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 130 min, Video 74 min) -- wird neu gesucht",
+    "videoId": "wnSMvzyBGtI",
+    "youtubeTitle": "Oliver Twist - Der Filmklassiker",
+    "title": "Oliver Twist",
+    "tmdbId": 257,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "DCb3nl1LywE",
+    "youtubeTitle": "Jesus - Die komplette Geschichte - Teil 3",
+    "title": "Die Bibel - Jesus",
+    "tmdbId": 2331,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 92 min, Video 52 min) -- wird neu gesucht",
+    "videoId": "lrkLdk-9Dfg",
+    "youtubeTitle": "PRAG",
+    "title": "Endstation Prag",
+    "tmdbId": 16017,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 5 min, Video 21 min) -- wird neu gesucht",
+    "videoId": "RydQfe40WUk",
+    "youtubeTitle": "THE TABLE",
+    "title": "The Table",
+    "tmdbId": 1522145,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 93 min, Video 15 min) -- wird neu gesucht",
+    "videoId": "zMZyqWsm528",
+    "youtubeTitle": "HAPPY BIRTHDAY",
+    "title": "Happy Birthday",
+    "tmdbId": 406625,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 90 min, Video 16 min) -- wird neu gesucht",
+    "videoId": "7z-PfcuDIlg",
+    "youtubeTitle": "BARBARIANS",
+    "title": "Barbarians",
+    "tmdbId": 811076,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 88 min, Video 129 min) -- wird neu gesucht",
+    "videoId": "11ddiMbZqo0",
+    "youtubeTitle": "Paragraph 78 - Das Spiel des Todes!",
+    "title": "Paragraph 78 - Das Spiel des Todes!",
+    "tmdbId": 53086,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 113 min, Video 66 min) -- wird neu gesucht",
+    "videoId": "swPWE5uOKrQ",
+    "youtubeTitle": "Das Wunder von Fatima",
+    "title": "Das Wunder von Fatima",
+    "tmdbId": 520318,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 81 min, Video 108 min) -- wird neu gesucht",
+    "videoId": "PAhZQxV2h78",
+    "youtubeTitle": "Die Eroberung des Weltalls - Die Geschichte der Raumfahrt: Raumsonden und Spaceshuttles",
+    "title": "Die Eroberung des Weltalls",
+    "tmdbId": 25952,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 60 min, Video 113 min) -- wird neu gesucht",
+    "videoId": "2IasnPNNL9w",
+    "youtubeTitle": "Tarzan bei den Affen",
+    "title": "Tarzan bei den Affen",
+    "tmdbId": 76951,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 21 min, Video 104 min) -- wird neu gesucht",
+    "videoId": "IlSjgMbeJAs",
+    "youtubeTitle": "Deutschland",
+    "title": "Deutschland!",
+    "tmdbId": 393724,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 150 min, Video 94 min) -- wird neu gesucht",
+    "videoId": "4gM3JDQ-r0I",
+    "youtubeTitle": "Graf Dracula (Horror deutsch ganzer Film)",
+    "title": "Graf Dracula",
+    "tmdbId": 50448,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 85 min, Video 40 min) -- wird neu gesucht",
+    "videoId": "yOykmeBsAeY",
+    "youtubeTitle": "Till Eulenspiegel",
+    "title": "Till Eulenspiegel",
+    "tmdbId": 90530,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 87 min, Video 53 min) -- wird neu gesucht",
+    "videoId": "1gRkr3agh_0",
+    "youtubeTitle": "Das Weihnachtswunder (Weihnachtsfilm deutsch ganzer Film)",
+    "title": "Das Weihnachtswunder",
+    "tmdbId": 50454,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "fdKrANJjF9Q",
+    "youtubeTitle": "The Dead (Horrorfilm deutsch ganzer Film)",
+    "title": "Zombie",
+    "tmdbId": 923,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 81 min, Video 106 min) -- wird neu gesucht",
+    "videoId": "q44wvAC025A",
+    "youtubeTitle": "Gun For Hire",
+    "title": "Die Narbenhand",
+    "tmdbId": 16703,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 97 min, Video 233 min) -- wird neu gesucht",
+    "videoId": "9BeB9usx6VE",
+    "youtubeTitle": "Captain America (deutsch)",
+    "title": "Captain America",
+    "tmdbId": 13995,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 25 min, Video 74 min) -- wird neu gesucht",
+    "videoId": "pgbkFwtYQjU",
+    "youtubeTitle": "Immigrants",
+    "title": "Immigrants",
+    "tmdbId": 1217795,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 21 min, Video 91 min) -- wird neu gesucht",
+    "videoId": "iP8UAwwzs-0",
+    "youtubeTitle": "Der vielleicht beste Alienfilm aller Zeiten: First Light - Die Auserwählte (2018) (HD)",
+    "title": "First Light",
+    "tmdbId": 977290,
+    "channelName": "Utopja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 3 min, Video 90 min) -- wird neu gesucht",
+    "videoId": "Txt7ot-8lFk",
+    "youtubeTitle": "Grandioser MINDF*CK Film: Multiverse - Parallele Dimensionen (2019) (HD)",
+    "title": "multiverse",
+    "tmdbId": 641556,
+    "channelName": "Utopja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "1y-0PUCTj1g",
+    "youtubeTitle": "TO – A Sapce Fantasy (japanischer Sci-Fi Animationsfilm | ganzer Film auf Deutsch)",
+    "title": "Madea Goes to Jail",
+    "tmdbId": 15670,
+    "channelName": "Utopja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 5 min, Video 114 min) -- wird neu gesucht",
+    "videoId": "k2dDC2NvTyk",
+    "youtubeTitle": "[HD] Bravetown – Nach dem Absturz beginnt für einen jungen DJ ein neues Leben (Musik-Drama)",
+    "title": "Strings",
+    "tmdbId": 342603,
+    "channelName": "Highresworld Deutsch"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 10 min, Video 103 min) -- wird neu gesucht",
+    "videoId": "HD3TnkXPynE",
+    "youtubeTitle": "[HD] The Maid: Dunkel Geheimnisse dienen niemandem (HORROR/THRILLER 2020, ganzer Film auf Deutsch)",
+    "title": "The Maid",
+    "tmdbId": 1205251,
+    "channelName": "Highresworld Deutsch"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 63 min, Video 84 min) -- wird neu gesucht",
+    "videoId": "gqg_vMRs3i0",
+    "youtubeTitle": "Day of the Demons (13/13/13 | HORROR | Horrorfilme in voller Länge, ganze Filme auf Deutsch | 4K)",
+    "title": "4K さくら 春を彩る華やかな桜のある風景",
+    "tmdbId": 1395143,
+    "channelName": "Highresworld Deutsch"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "6ZPfJSqpZCg",
+    "youtubeTitle": "Prince of Persia - Die Legende von Omar (Abenteuerfilm komplett auf Deutsch, ganzer Film) *HD*",
+    "title": "Sommer mit Hausfreund",
+    "tmdbId": 342959,
+    "channelName": "Highresworld Deutsch"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "7c6P4E5_sEk",
+    "youtubeTitle": "Romantische Geschichte über Verlust, Hoffnung & neue Liebe: DIE MELODIE DER LIEBE | GANZER FILM",
+    "title": "Colors of Love - Ein Hotel zum Verlieben",
+    "tmdbId": 810223,
+    "channelName": "Wolkesieben"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 18 min, Video 92 min) -- wird neu gesucht",
+    "videoId": "W7H5Mpa2YW4",
+    "youtubeTitle": "Eva und Candela (ROMANZE Film, Liebesfilme, Liebesdrama Film Deutsch)",
+    "title": "Eva + Candela",
+    "tmdbId": 593179,
+    "channelName": "Wolkesieben"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "RFiqoYUMidM",
+    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 3 – Der Tanz (brilliante ROMANZE auf Deutsch)",
+    "title": "The David Dance",
+    "tmdbId": 257241,
+    "channelName": "Wolkesieben"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 41 min, Video 91 min) -- wird neu gesucht",
+    "videoId": "PjxYjXX7ugQ",
+    "youtubeTitle": "Die Rache der Putzfrauen (KOMÖDIE in voller Länge, Comedy Filme, Schwarze Komödie ganzer Film)",
+    "title": "Chance",
+    "tmdbId": 1649787,
+    "channelName": "COMEDYPIE"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 84 min, Video 112 min) -- wird neu gesucht",
+    "videoId": "mESU1eMQcZw",
+    "youtubeTitle": "Die Kunst des Fußballs - Von A bis Z (SPORT KOMÖDIE mit JOHN CLEESE, ganzer film deutsch, spielfilm)",
+    "title": "The Art of Football - Fußball von A-Z",
+    "tmdbId": 17302,
+    "channelName": "COMEDYPIE"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 11 min, Video 59 min) -- wird neu gesucht",
+    "videoId": "zxepBA5WUwg",
+    "youtubeTitle": "Schneeweißchen & Rosenrot 🎄 Klassisches Wintermärchen für Kinder und Familie I ganze Märchen",
+    "title": "Snow White and Rose Red",
+    "tmdbId": 88199,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1986, Video 1954) -- wird neu gesucht",
+    "videoId": "Tmvkyy6uCfg",
+    "youtubeTitle": "Der Froschkönig (MÄRCHENFILM I schöne Märchen in voller Länge, klassische deutsche Märchen)",
+    "title": "Der Froschkönig",
+    "tmdbId": 71747,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 94 min, Video 52 min) -- wird neu gesucht",
+    "videoId": "R1tztJVIXZE",
+    "youtubeTitle": "Tell – Im Kampf gegen Lord Xax - E03 - Auf Leben und Tod (ABENTEUER I ganze Abenteuerserie Deutsch)",
+    "title": "Telling You",
+    "tmdbId": 53685,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2006, Video 2015) -- wird neu gesucht",
+    "videoId": "0HsHRsxb-Es",
+    "youtubeTitle": "Ocean Odyssey – Blue Realm Toxic Invaders (TIERDOKU I ganze Familienfilme auf Deutsch anschauen)",
+    "title": "Deep Ocean - Gnadenlose Tiefe",
+    "tmdbId": 22601,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 58 min, Video 25 min) -- wird neu gesucht",
+    "videoId": "aihlWUKvnSA",
+    "youtubeTitle": "Bremer Stadtmusikanten (MÄRCHEN I ganzes Märchen auf Deutsch, Film in voller Länge schauen)",
+    "title": "Die Bremer Stadtmusikanten",
+    "tmdbId": 1066387,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 34 min, Video 80 min) -- wird neu gesucht",
+    "videoId": "ij5N7ILVarM",
+    "youtubeTitle": "Ein unglaublicher deutscher Thriller: Devot (HD)",
+    "title": "Devotion",
+    "tmdbId": 451314,
+    "channelName": "TitanumX"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 19 min, Video 138 min) -- wird neu gesucht",
+    "videoId": "Usafhp4rdUI",
+    "youtubeTitle": "Nach der WAHREN GESCHICHTE: 398 Tage – Gefangener des IS | Überlebenskampf KRIEGSDRAMA THRILLER",
+    "title": "Daniel",
+    "tmdbId": 621026,
+    "channelName": "TitanumX"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 6 min, Video 105 min) -- wird neu gesucht",
+    "videoId": "Zx4mM-NJC38",
+    "youtubeTitle": "The Family - Fürchte Deine Nächsten | Gefährliche Sekte im Wald | Psycho-Thriller Deutsch",
+    "title": "The Family",
+    "tmdbId": 1595513,
+    "channelName": "TitanumX"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 12 min, Video 99 min) -- wird neu gesucht",
+    "videoId": "imfrtpmbIZM",
+    "youtubeTitle": "Baby (Deutscher KRIMI THRILLER Film in voller Länge anschauen, kompletter Thriller Film auf Deutsch)",
+    "title": "Baby",
+    "tmdbId": 675371,
+    "channelName": "TitanumX"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "y4ooukWWMDA",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (KLASSIKER | komplette Spielfilme auf Deutsch, Krimi in voller Länge)",
+    "title": "Todestrommeln am großen Fluß",
+    "tmdbId": 76144,
+    "channelName": "TitanumX"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 119 min, Video 52 min) -- wird neu gesucht",
+    "videoId": "rsHorWSmAt4",
+    "youtubeTitle": "Jackie Chan - Meister aller Klassen (1976) | Ganzer Film [Deutsch]",
+    "title": "Meister aller Klassen 3",
+    "tmdbId": 18666,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 131 min, Video 88 min) -- wird neu gesucht",
+    "videoId": "7K_K_2kW4Tg",
+    "youtubeTitle": "Alex & Eve (2015) | Ganzer Film [Deutsch]",
+    "title": "Alex & Eve",
+    "tmdbId": 347538,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1991, Video 1997) -- wird neu gesucht",
+    "videoId": "dmPzsOy3EkE",
+    "youtubeTitle": "Bucks größtes Abenteuer (1997) | Ganzer Film [Deutsch]",
+    "title": "Bucks größtes Abenteuer",
+    "tmdbId": 292750,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 145 min, Video 78 min) -- wird neu gesucht",
+    "videoId": "BdJRKz2_x3Q",
+    "youtubeTitle": "Die Falle schnappt zu (#abenteuer #drama mit Richard Widmark, komplett und auf deutsch)",
+    "title": "A Whale for the Killing",
+    "tmdbId": 271805,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 17 min, Video 96 min) -- wird neu gesucht",
+    "videoId": "KNM4ZMVHFuw",
+    "youtubeTitle": "Child of Satan (#mystery  #horrorstory mit Eric Roberts, auf deutsch, in HD und in voller Länge)",
+    "title": "Nerón",
+    "tmdbId": 1075475,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 48 min, Video 67 min) -- wird neu gesucht",
+    "videoId": "0iRiNqJOyt0",
+    "youtubeTitle": "Das Dschungelbuch (1995) [Zeichentrick] | Film (deutsch)",
+    "title": "Das Dschungelbuch",
+    "tmdbId": 105984,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 72 min, Video 182 min) -- wird neu gesucht",
+    "videoId": "QKuyCrDCbzA",
+    "youtubeTitle": "The Wrecker (1932) [Krimi] | ganzer Film (deutsch)",
+    "title": "The Wrecker",
+    "tmdbId": 328335,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 161 min, Video 90 min) -- wird neu gesucht",
+    "videoId": "_VpttfKQoTI",
+    "youtubeTitle": "Silence - Stimmen aus der Finsternis (2015) [Horror] | ganzer Film (deutsch)",
+    "title": "Silence",
+    "tmdbId": 68730,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 135 min, Video 93 min) -- wird neu gesucht",
+    "videoId": "6LGIBqnA-jk",
+    "youtubeTitle": "Legacy (2011) [Mystery] | Film (deutsch) ᴴᴰ",
+    "title": "Das Bourne Vermächtnis",
+    "tmdbId": 49040,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 139 min, Video 81 min) -- wird neu gesucht",
+    "videoId": "sdi2uklmyn8",
+    "youtubeTitle": "Tempelritter - Bruderschaft des Todes (2007) [Horror] | ganzer Film (deutsch)",
+    "title": "Arn - Der Kreuzritter",
+    "tmdbId": 13491,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "hyAiTUaxWac",
+    "youtubeTitle": "The Young Tiger (1973) [Action] | Film (deutsch)",
+    "title": "Ting Lu - Der grausame Tiger",
+    "tmdbId": 54864,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 5 min, Video 74 min) -- wird neu gesucht",
+    "videoId": "RZws1JCcbfI",
+    "youtubeTitle": "Blood Snow  (2012) [Horror] | Film (deutsch)",
+    "title": "Blood Snow",
+    "tmdbId": 1773697,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 83 min, Video 50 min) -- wird neu gesucht",
+    "videoId": "sNFsn0QxylE",
+    "youtubeTitle": "Robin Hood (1981) [Zeichentrick] | Film (deutsch)",
+    "title": "Robin Hood",
+    "tmdbId": 11886,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 45 min, Video 25 min) -- wird neu gesucht",
+    "videoId": "OjW701e7bNk",
+    "youtubeTitle": "Arche Noah - Die Geschichte der Sintflut (2014) [Zeichentrick] | Film (deutsch)",
+    "title": "Die Arche Noah und das Rätsel der Sintflut",
+    "tmdbId": 855781,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 58 min, Video 29 min) -- wird neu gesucht",
+    "videoId": "RQRi9az1EKQ",
+    "youtubeTitle": "Frau Holle (2011) [Zeichentrick] | Film (deutsch)",
+    "title": "Frau Holle",
+    "tmdbId": 1066132,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 3 min, Video 50 min) -- wird neu gesucht",
+    "videoId": "xjVYrMphYrA",
+    "youtubeTitle": "Rapunzel (2012) [Zeichentrick] | Film (deutsch)",
+    "title": "Rapunzel",
+    "tmdbId": 594309,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-20",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 52 min, Video 72 min) -- wird neu gesucht",
+    "videoId": "q0gyb_KqG40",
+    "youtubeTitle": "Hänsel und Gretel - Opera Fantasy (1954) [Märchen] | Film (deutsch)",
+    "title": "Hänsel und Gretel",
+    "tmdbId": 119185,
+    "channelName": "daredo TV"
   }
 ]
