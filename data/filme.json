@@ -3176,12 +3176,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "Im5IDKMlsaE",
-    "youtubeTitle": "Einer gibt nicht auf (WESTERNFILM mit RANDOLPH SCOTT, Klassische Westernfilme auf Deeutsch)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Im5IDKMlsaE/hqdefault.jpg",
+    "videoId": "Z-RNJ3V5pS8",
+    "youtubeTitle": "Einer gibt nicht auf - Comanche Station (1960) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Z-RNJ3V5pS8/hqdefault.jpg",
     "duration": "PT1H13M9S",
     "publishedAt": "2026-05-05T17:00:20Z",
-    "channelName": "Netzkino",
+    "channelName": "Absolute Action",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 1673,
     "title": "Einer gibt nicht auf",
@@ -25493,12 +25493,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "Xo50JE61YVQ",
-    "youtubeTitle": "Aloha: Die Chance auf Glück (KOMÖDIE mit EMMA STONE & BRADLEY COOPER Filme Deutsch komplett neu)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Xo50JE61YVQ/hqdefault.jpg",
+    "videoId": "OObSEp7psUk",
+    "youtubeTitle": "ALOHA: DIE CHANCE AUF GLÜCK - Liebesfilm mit EMMA STONE und Bradley Cooper - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/OObSEp7psUk/hqdefault.jpg",
     "duration": "PT1H44M54S",
     "publishedAt": "2024-11-21T18:00:19Z",
-    "channelName": "Netzkino",
+    "channelName": "Moviedome",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 222936,
     "title": "Aloha - Die Chance auf Glück",
@@ -47220,7 +47220,9 @@
     "slug": "master-z-the-ip-man-legacy",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "E7A3SohaB40",
@@ -96121,7 +96123,9 @@
     "slug": "promises",
     "plausibel": "titel",
     "runtime": 113,
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "qaeaK67JmIA",
@@ -166309,7 +166313,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "ex-next-door-2"
+    "slug": "ex-next-door-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "9rwZnm8d2eU",
@@ -166391,7 +166397,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "dating-to-kill-2"
+    "slug": "dating-to-kill-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "YUKmcFn5RUQ",
@@ -234256,7 +234264,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "unmarked"
+    "slug": "unmarked",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "fuGqpI7oicc",
@@ -234282,7 +234292,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "todesmelodie"
+    "slug": "todesmelodie",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "sFG6RJ2Bl2o",
@@ -236197,7 +236209,7 @@
     "writer": [],
     "fsk": null,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarGrund": "geloescht",
     "slug": "the-californians"
   },
   {
@@ -236224,7 +236236,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "windfall"
+    "slug": "windfall",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "X56TTNwou1s",
@@ -236766,7 +236780,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "cannonball"
+    "slug": "cannonball",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "lUcag8OyUZw",
@@ -242233,7 +242249,9 @@
     "slug": "the-reach-in-der-schusslinie",
     "runtime": 95,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "4Hc915ASntE",
@@ -269835,12 +269853,12 @@
     "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "ya55NG0Z7jc",
-    "youtubeTitle": "Psychothriller, der Sie Fesseln Wird! 😨 Ihre Tochter Verschwindet Wieder Spurlos | Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/ya55NG0Z7jc/hqdefault.jpg",
+    "videoId": "gBarcSU8Jhc",
+    "youtubeTitle": "🔥 Thriller | Dunkle Geheimnisse um Chloes Verschwinden | Filme deutsch komplet 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gBarcSU8Jhc/hqdefault.jpg",
     "duration": "PT1H29M36S",
     "publishedAt": "2026-07-17T12:00:16Z",
-    "channelName": "Kinohof",
+    "channelName": "KinoWucht",
     "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
     "tmdbId": 800073,
     "title": "Saving My Daughter",
@@ -269917,7 +269935,9 @@
     "slug": "stretch-marks",
     "runtime": 91,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "4RbInndlwbM",
@@ -270007,12 +270027,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "t6U-cynf70o",
-    "youtubeTitle": "🎬 Ein Film, Den Jeder Sehen Sollte! Nach Haft Rettet Er Menschen Vor Korrupten Machthabern | Film HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/t6U-cynf70o/hqdefault.jpg",
+    "videoId": "bJdIDVkeNC8",
+    "youtubeTitle": "Actionfilm mit Steven Seagal | Ein unschuldig verurteilter Ex-Häftling wird zum Helden | Filme",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bJdIDVkeNC8/hqdefault.jpg",
     "duration": "PT1H30M21S",
     "publishedAt": "2026-06-25T12:00:08Z",
-    "channelName": "Kinohof",
+    "channelName": "KinoWucht",
     "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
     "tmdbId": 28465,
     "title": "A Dangerous Man",
@@ -270179,7 +270199,9 @@
     "slug": "summer-daydream",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "mf5uCuO3xig",
@@ -278167,7 +278189,9 @@
     "slug": "baby-frankenstein",
     "runtime": 84,
     "plausibel": "titel",
-    "plausibelVersion": 3
+    "plausibelVersion": 3,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "jZyO7rZsGaI",
@@ -278211,12 +278235,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "ZX-G8lM3Xd8",
-    "youtubeTitle": "Er verdiente an den Geheimnissen anderer, bis die Boulevardpresse ihn selbst zur Zielscheibe machte",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/ZX-G8lM3Xd8/hqdefault.jpg",
+    "videoId": "CrfPQDblJis",
+    "youtubeTitle": "🔥 Die Jagd nach einem STAR wird zum TÖDLICHEN SPIEL! | Spannender Psychothriller auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CrfPQDblJis/hqdefault.jpg",
     "duration": "PT1H31M3S",
     "publishedAt": "2026-09-16T16:03:46Z",
-    "channelName": "Lichtprojektor",
+    "channelName": "KinoWelt Deutsch",
     "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
     "tmdbId": 421567,
     "title": "Chasing Robert Barker",
@@ -278254,12 +278278,12 @@
     "plausibelVersion": 3
   },
   {
-    "videoId": "Ma8IgvCCkf4",
-    "youtubeTitle": "💰🚨 Er stellte eine Bande zusammen, um das Verbrechen des Jahrhunderts durchzuziehen | Ganzer Film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Ma8IgvCCkf4/hqdefault.jpg",
+    "videoId": "71Cka36a3XY",
+    "youtubeTitle": "💰 Der perfekte Raub wird zum GEFÄHRLICHEN Spiel! | Spannender Kriminalthriller | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/71Cka36a3XY/hqdefault.jpg",
     "duration": "PT1H18M25S",
     "publishedAt": "2026-09-11T14:53:47Z",
-    "channelName": "Lichtprojektor",
+    "channelName": "KinoWelt Deutsch",
     "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
     "tmdbId": 68842,
     "title": "The Big Heist",
@@ -286414,5 +286438,257 @@
     "writer": [],
     "fsk": null,
     "slug": "kann-schicksal-die-grosse-liebe-erzwingen"
+  },
+  {
+    "videoId": "aRXTTEV5Ndw",
+    "youtubeTitle": "ROMANTISCHER KOMÖDIENFILM, der dein Herz erobert | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/aRXTTEV5Ndw/hqdefault.jpg",
+    "duration": "PT1H27M13S",
+    "publishedAt": "2026-10-19T15:00:25Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1039094,
+    "title": "You, Me, and that Mountain Retreat",
+    "originalTitle": "You, Me, and that Mountain Retreat",
+    "overview": "",
+    "releaseDate": "2023-11-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nsTLZgEgQq8lIN510QNHgoHD4cK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gmKUZAWtJJDJN1Fz6KnnvKjYMmf.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"You, Me, and That Mountain Retreat\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Gladys Bautista",
+      "Michael Patrick Lane",
+      "Matt Medrano",
+      "Addyson Bell",
+      "Jacob Kaufman"
+    ],
+    "director": [
+      "Sam Irvin"
+    ],
+    "writer": [
+      "Matthew Thaler"
+    ],
+    "fsk": null,
+    "slug": "you-me-and-that-mountain-retreat"
+  },
+  {
+    "videoId": "wOkwIsL2p44",
+    "youtubeTitle": "Ghosting - Mein Weihnachtsgeist (KOMÖDIE ganzer Film Deutsch, Komödien Filme Deutsch komplett neu)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wOkwIsL2p44/hqdefault.jpg",
+    "duration": "PT1H26M21S",
+    "publishedAt": "2026-10-19T17:00:10Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 646732,
+    "title": "Ghosting – Mein Weihnachtsgeist",
+    "originalTitle": "Ghosting: The Spirit of Christmas",
+    "overview": "Jess hat das tollste erste Date ihres Lebens, doch als sie auf dem Heimweg bei einem Autounfall ums Leben kommt, erscheint sie versehentlich Ben als Geist. Da Jess keine Ahnung hat, wie sie aufsteigen soll, braucht sie die Hilfe ihrer besten Freundin Kara, die sie noch sehen und hören kann.",
+    "releaseDate": "2019-12-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jyQzq671GijcsNFm4SuUmx95Xco.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/imTDSaVLNrcNjthSkQh1liYdkiK.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      14,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Aisha Dee",
+      "Kimiko Glenn",
+      "Kendrick Sampson",
+      "Jazz Raycole",
+      "Missi Pyle"
+    ],
+    "director": [
+      "Theresa Bennett"
+    ],
+    "writer": [
+      "Laura Donney"
+    ],
+    "fsk": "12",
+    "slug": "ghosting-mein-weihnachtsgeist"
+  },
+  {
+    "videoId": "FnNzwo5UNMY",
+    "youtubeTitle": "Fail Safe / Angriffsziel Moskau | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FnNzwo5UNMY/hqdefault.jpg",
+    "duration": "PT1H47M35S",
+    "publishedAt": "2026-10-19T14:00:11Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 502,
+    "title": "Angriffsziel Moskau",
+    "originalTitle": "Fail Safe",
+    "overview": "Durch einen technischen Defekt erhält eine amerikanische Bomberstaffel irrtümlich den Befehl, Moskau zu zerstören. Dem US Präsidenten bleibt nur wenig Zeit, eine atomare Katastrophe zu verhindern. Düstere Zukunftsvision vor dem Hintergrund des Kalten Krieges von Regisseur Sidney Lumet.",
+    "releaseDate": "1964-10-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/25Cw9cCWcR03LbNAB10G7j6ql32.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/9ugfTLlsflZbMRuD122eQcnPNHr.jpg",
+    "voteAverage": 7.829,
+    "genreIds": [
+      53,
+      18,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (3 Filme) -- Laufzeit entschied: TMDB 112 min, Video 108 min · Zuordnungswert 135 (Suchbegriff: \"Fail Safe\")",
+    "runtime": 112,
+    "plausibel": "titel",
+    "plausibelVersion": 3,
+    "cast": [
+      "Henry Fonda",
+      "Walter Matthau",
+      "Fritz Weaver",
+      "Larry Hagman",
+      "Frank Overton"
+    ],
+    "director": [
+      "Sidney Lumet"
+    ],
+    "writer": [
+      "Walter Bernstein"
+    ],
+    "fsk": "16",
+    "slug": "angriffsziel-moskau"
+  },
+  {
+    "videoId": "PsjQm3xUTmk",
+    "youtubeTitle": "Cheerleaders Wild Weekend (1979) [Komödie] | Wildes Entführungs-Chaos | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/PsjQm3xUTmk/hqdefault.jpg",
+    "duration": "PT1H14M56S",
+    "publishedAt": "2026-10-19T18:00:31Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 46578,
+    "title": "A.G.R. - The Great American Girl Robbery",
+    "originalTitle": "The Great American Girl Robbery",
+    "overview": "Drei Cheerleader-Teams sind gemeinsam zu einem Wettbewerb unterwegs, als der Bus, mit dem sie fahren, plötzlich von Terroristen entführt wird. Die Männer verschleppen ihre Geiseln in eine entlegene Hütte im Wald, und für die verängstigten Mädchen beginnt ein wahrhaft wildes Wochenende",
+    "releaseDate": "1979-09-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eOXejwfmHUzcJDmFalSbJb0VU2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1Fqgy5PO3l0KpgTUs6fIlOy8Jqf.jpg",
+    "voteAverage": 4.3,
+    "genreIds": [
+      35,
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 87,
+    "plausibel": "besetzung",
+    "plausibelVersion": 3,
+    "cast": [
+      "Kristine DeBell",
+      "Jason Williams",
+      "Wyatt Johnson",
+      "Wally Ann Wharton",
+      "Janet Blythe"
+    ],
+    "director": [
+      "Jeff Werner"
+    ],
+    "writer": [
+      "D.W. Gilbert",
+      "Jason Williams"
+    ],
+    "fsk": null,
+    "slug": "a-g-r-the-great-american-girl-robbery"
+  },
+  {
+    "videoId": "gySx1bDMPWY",
+    "youtubeTitle": "AL PACINO: DER KÖNIG DER DEALS – BIS EIN VERRAT SEIN GANZES IMPERIUM ZERSTÖRT | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gySx1bDMPWY/hqdefault.jpg",
+    "duration": "PT2H2M",
+    "publishedAt": "2026-10-18T10:58:38Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "AL PACINO: DER KÖNIG DER DEALS - BIS EIN VERRAT SEIN GANZES IMPERIUM ZERSTÖRT",
+    "originalTitle": null,
+    "overview": "Als die Firmenleitung einen brutalen Verkaufswettbewerb ausruft, steht plötzlich die Existenz jedes Mitarbeiters auf dem Spiel. Nur die erfolgreichsten Verkäufer dürfen bleiben – die anderen verlieren ihren Job. Ein charismatischer Spitzenverkäufer kämpft um seinen nächsten Abschluss, während ein älterer Kollege verzweifelt versucht, seine Karriere zu retten.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "al-pacino-der-koenig-der-deals-bis-ein-verrat-sein-ganzes-im"
+  },
+  {
+    "videoId": "dg6wvDd2tLo",
+    "youtubeTitle": "Sie zwingen ihn in den Käfig – jetzt kämpft er um sein Leben Action Ganzer Film Deutsch Kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dg6wvDd2tLo/hqdefault.jpg",
+    "duration": "PT1H37M13S",
+    "publishedAt": "2026-10-18T17:26:04Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Sie zwingen ihn in den Käfig",
+    "originalTitle": null,
+    "overview": "Billy wird von den Veranstaltern illegaler Käfigkämpfe entführt. In einer unterirdischen Arena zwingen sie ihn, gegen brutale Gegner anzutreten. Für die Zuschauer ist es ein Geschäft – für Billy geht es um sein Leben.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Lang Elliott"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "sie-zwingen-ihn-in-den-kaefig"
+  },
+  {
+    "videoId": "p5Sgs-c_gyQ",
+    "youtubeTitle": "Um ihren Sohn zu retten, muss sie die Wahrheit finden | Conceived in Lies | Filme deutsch komplet",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/p5Sgs-c_gyQ/hqdefault.jpg",
+    "duration": "PT1H28M48S",
+    "publishedAt": "2026-10-18T15:24:13Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Conceived in Lies",
+    "originalTitle": null,
+    "overview": "Doch ihre Suche nach Hilfe entwickelt sich zu einer gefährlichen Ermittlung, die ein Netz aus Lügen, verborgenen Geheimnissen und beunruhigenden Ungereimtheiten aufdeckt. Alle Spuren führen zu jener Kinderwunschklinik, in der ihr Sohn gezeugt wurde. Nun muss sie die Wahrheit ans Licht bringen – eine Wahrheit, die alles verändern könnte, was sie über die Geburt ihres Kindes zu wissen glaubt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "conceived-in-lies"
   }
 ]
