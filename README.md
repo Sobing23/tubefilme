@@ -405,7 +405,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 59 Kanäle
+### Die 60 Kanäle
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
@@ -425,6 +425,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | COMEDYPIE | PLAION PICTURES | `inPruefung` |
 | Comfy Movies | keine Angabe | |
 | daredo TV | daredo (Filmvertrieb; Kanalbeschreibung ohne Impressum) | `inPruefung` (zeigt auch Serien) |
+| daredo TV Action & Thriller | daredo (Filmvertrieb) | `inPruefung` |
 | DEFA Filmwelt | DEFA-Stiftung | |
 | Deutsch Film Hub | keine Angabe | |
 | Deutsch Knallhart | keine Angabe | ✓ |
@@ -473,6 +474,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 
 **Bewusst nicht aufgenommen:**
 - **Heftige Action** (@HeftigeAction) — zeigt laut Beschreibung nur Action-Szenen aus Filmen, keine ganzen Filme
+- **Daredo TV #Doku** (@daredo-tv-doku) — Dokus
 - **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Nanoki (Lern- und Schulfilme), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
 - **Babel Movies** — englischsprachiger „World Cinema"-Kanal, passt nicht zum deutschsprachigen Profil
 - **Braventa Films** — erwies sich nach dem ersten Scan als spanischsprachig (Kanal hatte keine Beschreibung); die 107 Videos stehen in `ignored.json`
