@@ -25,6 +25,7 @@ const CANDIDATES_PATH = "data/candidates.json";
 const FILME_PATH = "data/filme.json";
 const ATTEMPTS_PATH = "data/unmatched-attempts.json";
 const IGNORED_PATH = "data/ignored.json";
+const CHANNELS_PATH = "config/channels.json";
 const PROTOKOLL_PATH = "data/aussortiert.json";
 
 // Ein Video ohne TMDB-Treffer wird nur übernommen, wenn es Spielfilmlänge hat.
@@ -413,6 +414,19 @@ async function main() {
   let wartet = 0;
   let ohneDaten = 0;
   let zuKurz = 0;
+  let nurTmdb = 0;
+  // Kanäle mit "nurMitTmdb": Videos ohne TMDB-Treffer werden nicht übernommen.
+  // Für gemischte Kanäle, bei denen das Übernehmen aus den YouTube-Angaben
+  // vor allem Dokus, Reise- und Ratgebervideos in die Bibliothek spülen würde
+  // (weloadtv: "Serengeti von A-Z", "Motorräder - Technik, Routen, Tipps").
+  // Solche Videos bleiben in unmatched.json und werden weiter gesucht.
+  let nurTmdbKanaele = new Set();
+  try {
+    const ch = JSON.parse(await fs.readFile(CHANNELS_PATH, "utf-8")).channels || [];
+    nurTmdbKanaele = new Set(ch.filter((c) => c.profil && c.profil.nurMitTmdb === true).map((c) => c.channelId));
+  } catch {
+    // ohne Kanalliste keine Kanalregeln
+  }
   let ignored = [];
   try {
     ignored = JSON.parse(await fs.readFile(IGNORED_PATH, "utf-8"));
@@ -440,6 +454,12 @@ async function main() {
     const video = candById.get(videoId);
     if (!video) {
       bleibtUnmatched.push(eintrag);
+      continue;
+    }
+
+    if (nurTmdbKanaele.has(video.channelId)) {
+      bleibtUnmatched.push(eintrag);
+      nurTmdb++;
       continue;
     }
 
@@ -528,6 +548,7 @@ async function main() {
   console.log(`Wartet noch (Schonfrist ${MIN_VERSUCHE} Läufe): ${wartet}`);
   console.log(`Kein verwertbarer Titel:             ${ohneDaten}`);
   console.log(`Unter ${MIN_MINUTEN_OHNE_TMDB} Min., nicht übernommen:    ${zuKurz}`);
+  console.log(`Kanal nur mit TMDB-Treffer:          ${nurTmdb}`);
   console.log(`Verbleibend in ${UNMATCHED_PATH}:    ${bleibtUnmatched.length}`);
   console.log(`Bibliothek jetzt:                    ${filme.length}`);
 }

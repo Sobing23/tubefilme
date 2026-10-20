@@ -401,6 +401,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 | `pipeAlsTitelvariante` | Stehen hinter `\|` alternative Filmtitel (`true`, Standard) oder nur Genre- und Werbeangaben (`false`)? |
 | `nurMitDeutschHinweis` | `true`: Nur Videos, deren Titel oder Beschreibung „deutsch", „German version" oder „synchron" enthält. Für gemischtsprachige Kanäle. |
 | `ausschlussMuster` | Regulärer Ausdruck als Text; passende Titel werden aussortiert (z. B. Mehrteiler wie `Teil 3/4`, `1/6`). Gilt nur für diesen Kanal. |
+| `nurMitTmdb` | `true`: Videos ohne TMDB-Treffer werden **nicht** aus den YouTube-Angaben übernommen, sondern bleiben in `unmatched.json`. Für gemischte Kanäle, bei denen sonst Dokus, Reise- und Ratgebervideos in die Bibliothek kämen (weloadtv: „Serengeti von A–Z“, „Motorräder – Technik, Routen, Tipps“). |
 | `inPruefung` | `true`: Der Scan sammelt die Rohdaten des Kanals (`data/raw/`), aber `filter-movies.js` lässt **kein** Video in die Bibliothek (Grund in `excluded.json`: „Kanal in Prüfung"). Für neue Kanäle, deren Eigenheiten erst an echten Daten geprüft werden. Schalter entfernen → beim nächsten Lauf werden die Videos normal verarbeitet. |
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
@@ -415,24 +416,24 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Amelia | keine Angabe | |
 | Artflix | Amogo Networx | ✓ |
 | Bigtime | Amogo Networx | ✓ |
-| Bombay Nights | PLAION PICTURES | `inPruefung` (Sprache prüfen: Bollywood, viele Shorts) |
+| Bombay Nights | PLAION PICTURES | `inPruefung` (Hindi mit deutschen Untertiteln, Entscheidung offen) |
 | Boxoffice | keine Angabe | |
-| Bronco | PLAION PICTURES | `inPruefung` |
+| Bronco | PLAION PICTURES | |
 | Bulldox | PLAION PICTURES | |
 | CineCult Reloaded | keine Angabe | |
 | CinemaLegenden | keine Angabe | |
 | CiNENET Deutschland | UCM.ONE GmbH | ✓ |
-| COMEDYPIE | PLAION PICTURES | `inPruefung` |
+| COMEDYPIE | PLAION PICTURES | |
 | Comfy Movies | keine Angabe | |
-| daredo TV | daredo (Filmvertrieb; Kanalbeschreibung ohne Impressum) | `inPruefung` (zeigt auch Serien) |
-| daredo TV Action & Thriller | daredo (Filmvertrieb) | `inPruefung` |
+| daredo TV | daredo (Filmvertrieb; Kanalbeschreibung ohne Impressum) | `ausschlussMuster` ([Sport], [Dokumentation]) |
+| daredo TV Action & Thriller | daredo (Filmvertrieb) | |
 | DEFA Filmwelt | DEFA-Stiftung | |
 | Deutsch Film Hub | keine Angabe | |
 | Deutsch Knallhart | keine Angabe | ✓ |
 | Draco Actionfilme | PLAION PICTURES | |
 | Dzango | PLAION PICTURES | |
 | FABELLA | PLAION PICTURES | |
-| Fantasja | PLAION PICTURES | `inPruefung` |
+| Fantasja | PLAION PICTURES | |
 | FFF Kino | Greater Fool Network | ✓ |
 | Filmalarm | WDR Mediagroup | |
 | Filmhof Welt | keine Angabe | |
@@ -440,35 +441,35 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Free Films Emotion | LEONINE | |
 | Free Movies Deutschland | keine Angabe | |
 | Grjngo Westernfilme | Grjngo GmbH | |
-| Hakunan | PLAION PICTURES | `inPruefung` |
+| Hakunan | PLAION PICTURES | |
 | Heimatfilme | Beta Film GmbH | |
 | Heimatkino | PLAION PICTURES | |
-| Highresworld Deutsch | PLAION PICTURES | `inPruefung` |
-| Kinderfilme | PLAION PICTURES | `inPruefung` |
+| Highresworld Deutsch | PLAION PICTURES | |
+| Kinderfilme | PLAION PICTURES | `inPruefung` (Scan lieferte 0 Videos) |
 | Kino Deutsch | keine Angabe | |
 | Kinohof | keine Angabe | |
 | KinoWelt Deutsch | keine Angabe |  |
 | KinoWucht | keine Angabe | |
 | Lichtprojektor | keine Angabe | |
-| Mockbuster | PLAION PICTURES | `inPruefung` |
+| Mockbuster | PLAION PICTURES | |
 | Moviedome | PLAION PICTURES | |
 | Movies Select | PLAION PICTURES | |
 | Netzkino | PLAION PICTURES | |
 | Planet Movies | Tiberius Film | |
 | Rashland | keine Angabe | `ausschlussMuster` |
 | Retroflix | keine Angabe |  |
-| Screamtime | PLAION PICTURES | `inPruefung` |
+| Screamtime | PLAION PICTURES | |
 | Sony Pics at Home DE | Sony Pictures HE | |
 | Starkino | PLAION PICTURES | |
 | Stash auf Deutsch | keine Angabe |  |
 | Stream Hier | keine Angabe | ✓ |
-| TitanumX | PLAION PICTURES | `inPruefung` |
+| TitanumX | PLAION PICTURES | |
 | Unfassbare Filme | keine Angabe | |
-| Utopja | PLAION PICTURES | `inPruefung` |
+| Utopja | PLAION PICTURES | |
 | Volle Power Filme | keine Angabe | |
-| weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `inPruefung` (zeigt auch Serien und Trailer) |
-| Wolkesieben | PLAION PICTURES | `inPruefung` |
-| ZOMBIEWORLD | PLAION PICTURES | `inPruefung` |
+| weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `nurMitTmdb` |
+| Wolkesieben | PLAION PICTURES | |
+| ZOMBIEWORLD | PLAION PICTURES | |
 
 **Beobachtung:** Kanäle ohne erkennbaren Rechteinhaber machen überdurchschnittlich viel Mühe — Clickbait-Titel ohne Filmnamen und hohe Ausfallquoten (Filmhof Welt verlor jeden vierten Film). Die PLAION-Kanäle überschneiden sich stark und erzeugen viele Duplikate, liefern dafür aber die meisten Ersatz-Uploads.
 
