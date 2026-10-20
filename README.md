@@ -405,7 +405,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 44 Kanäle
+### Die 58 Kanäle
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
@@ -415,11 +415,14 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Amelia | keine Angabe | |
 | Artflix | Amogo Networx | ✓ |
 | Bigtime | Amogo Networx | ✓ |
+| Bombay Nights | PLAION PICTURES | `inPruefung` (Sprache prüfen: Bollywood, viele Shorts) |
 | Boxoffice | keine Angabe | |
+| Bronco | PLAION PICTURES | `inPruefung` |
 | Bulldox | PLAION PICTURES | |
 | CineCult Reloaded | keine Angabe | |
 | CinemaLegenden | keine Angabe | |
 | CiNENET Deutschland | UCM.ONE GmbH | ✓ |
+| COMEDYPIE | PLAION PICTURES | `inPruefung` |
 | Comfy Movies | keine Angabe | |
 | DEFA Filmwelt | DEFA-Stiftung | |
 | Deutsch Film Hub | keine Angabe | |
@@ -427,6 +430,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Draco Actionfilme | PLAION PICTURES | |
 | Dzango | PLAION PICTURES | |
 | FABELLA | PLAION PICTURES | |
+| Fantasja | PLAION PICTURES | `inPruefung` |
 | FFF Kino | Greater Fool Network | ✓ |
 | Filmalarm | WDR Mediagroup | |
 | Filmhof Welt | keine Angabe | |
@@ -434,34 +438,48 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Free Films Emotion | LEONINE | |
 | Free Movies Deutschland | keine Angabe | |
 | Grjngo Westernfilme | Grjngo GmbH | |
+| Hakunan | PLAION PICTURES | `inPruefung` |
 | Heimatfilme | Beta Film GmbH | |
 | Heimatkino | PLAION PICTURES | |
+| Highresworld Deutsch | PLAION PICTURES | `inPruefung` |
+| Kinderfilme | PLAION PICTURES | `inPruefung` |
 | Kino Deutsch | keine Angabe | |
 | Kinohof | keine Angabe | |
 | KinoWelt Deutsch | keine Angabe |  |
 | KinoWucht | keine Angabe | |
 | Lichtprojektor | keine Angabe | |
+| Mockbuster | PLAION PICTURES | `inPruefung` |
 | Moviedome | PLAION PICTURES | |
 | Movies Select | PLAION PICTURES | |
 | Netzkino | PLAION PICTURES | |
 | Planet Movies | Tiberius Film | |
 | Rashland | keine Angabe | `ausschlussMuster` |
 | Retroflix | keine Angabe |  |
+| Screamtime | PLAION PICTURES | `inPruefung` |
 | Sony Pics at Home DE | Sony Pictures HE | |
 | Starkino | PLAION PICTURES | |
 | Stash auf Deutsch | keine Angabe |  |
 | Stream Hier | keine Angabe | ✓ |
+| TitanumX | PLAION PICTURES | `inPruefung` |
 | Unfassbare Filme | keine Angabe | |
+| Utopja | PLAION PICTURES | `inPruefung` |
 | Volle Power Filme | keine Angabe | |
+| weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `inPruefung` (zeigt auch Serien und Trailer) |
+| Wolkesieben | PLAION PICTURES | `inPruefung` |
+| ZOMBIEWORLD | PLAION PICTURES | `inPruefung` |
 
 **Beobachtung:** Kanäle ohne erkennbaren Rechteinhaber machen überdurchschnittlich viel Mühe — Clickbait-Titel ohne Filmnamen und hohe Ausfallquoten (Filmhof Welt verlor jeden vierten Film). Die PLAION-Kanäle überschneiden sich stark und erzeugen viele Duplikate, liefern dafür aber die meisten Ersatz-Uploads.
 
 **Bewusst nicht aufgenommen:**
+- **Heftige Action** (@HeftigeAction) — zeigt laut Beschreibung nur Action-Szenen aus Filmen, keine ganzen Filme
+- **daredo TV** (@daredo-tv) — 1.237 Videos bei 173 Abonnenten, keinerlei Angaben zu Betreiber oder Lizenz
+- **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Nanoki (Lern- und Schulfilme), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
 - **Babel Movies** — englischsprachiger „World Cinema"-Kanal, passt nicht zum deutschsprachigen Profil
 - **Braventa Films** — erwies sich nach dem ersten Scan als spanischsprachig (Kanal hatte keine Beschreibung); die 107 Videos stehen in `ignored.json`
 
 ### Neuen Kanal hinzufügen
 
+0. **PLAION-Kanäle finden:** YouTube-Suche nach `"PLAION PICTURES"`, Filter „Kanäle“. Alle PLAION-Kanäle nennen die Firma in der Kanalbeschreibung. Stand 20.10.2026: 17 deutschsprachige Spielfilmkanäle, davon 7 schon vorher aufgenommen.
 1. `@handle` aufrufen und Kanal-ID aus der Seite ziehen (bei Weiterleitungsproblemen über den Seitenquelltext, Suche nach `channelId`)
 2. In `config/channels.json` alphabetisch eintragen, mit `"profil": { "inPruefung": true }`
 3. `scan.yml` starten — der neue Kanal wird einmal vollständig eingesammelt, landet aber noch nicht in der Bibliothek

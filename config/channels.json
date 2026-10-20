@@ -18,7 +18,17 @@
       "channelId": "UCMo_16a109pQo75cZOtNObg",
       "profil": { "pipeAlsTitelvariante": false }
     },
+    {
+      "name": "Bombay Nights",
+      "channelId": "UCtHTtZzMkLYGeOTq1nWYCGA",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Boxoffice", "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ" },
+    {
+      "name": "Bronco",
+      "channelId": "UCpypMfxKgMf8uxYjlxKwumA",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Bulldox", "channelId": "UCgsih0dGYPncJxONFcz3-UA" },
     { "name": "CineCult Reloaded", "channelId": "UCwwiMLsk1AHfPU0n88BEzHg" },
     { "name": "CinemaLegenden", "channelId": "UC0zy7qZplGz1sX_xeXdhd_g" },
@@ -26,6 +36,11 @@
       "name": "CiNENET Deutschland",
       "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
       "profil": { "pipeAlsTitelvariante": false }
+    },
+    {
+      "name": "COMEDYPIE",
+      "channelId": "UCSxzhmROaWxdX5h_1WRppuA",
+      "profil": { "inPruefung": true }
     },
     { "name": "Comfy Movies", "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw" },
     { "name": "DEFA Filmwelt", "channelId": "UCSKbHQcEk-42lL--03lbbIw" },
@@ -39,6 +54,11 @@
     { "name": "Dzango", "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ" },
     { "name": "FABELLA", "channelId": "UCww-ReMpc2FgiGb6vIQddWg" },
     {
+      "name": "Fantasja",
+      "channelId": "UCn8xSBNGvaaU20JCJBuVPlQ",
+      "profil": { "inPruefung": true }
+    },
+    {
       "name": "FFF Kino",
       "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
       "profil": { "pipeAlsTitelvariante": false }
@@ -49,16 +69,33 @@
     { "name": "Free Films Emotion", "channelId": "UC6DTsN_DKPGsPVckgfzYznw" },
     { "name": "Free Movies Deutschland", "channelId": "UCzEM7lABab3RcmVAZXbYhig" },
     { "name": "Grjngo Westernfilme", "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw" },
+    {
+      "name": "Hakunan",
+      "channelId": "UCXrDDm2V6MA-Ia2ICUD9qjw",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Heimatfilme", "channelId": "UCV8yejshmlsns86C-ZeO16Q" },
     { "name": "Heimatkino", "channelId": "UChJySzurS1PVmE_gvVQX_ng" },
+    {
+      "name": "Highresworld Deutsch",
+      "channelId": "UCJ1l7ArIR1jhnF2qLSJ-TZQ",
+      "profil": { "inPruefung": true }
+    },
+    {
+      "name": "Kinderfilme",
+      "channelId": "UCmZUsl5MLqXIhuSTVP6x-EA",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Kino Deutsch", "channelId": "UCBHYbV2w8dE__bS6fNdCbpw" },
     { "name": "Kinohof", "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ" },
-    {
-      "name": "KinoWelt Deutsch",
-      "channelId": "UCy5ahYyXTmSoetwtNXibbCQ"
-    },
+    { "name": "KinoWelt Deutsch", "channelId": "UCy5ahYyXTmSoetwtNXibbCQ" },
     { "name": "KinoWucht", "channelId": "UCCYMsl9VC3BR6M-iv5feZkg" },
     { "name": "Lichtprojektor", "channelId": "UCmxqkfX9mlB9g8e0aGg94wA" },
+    {
+      "name": "Mockbuster",
+      "channelId": "UCXxH-t5DOtijabDffEEdMOQ",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Moviedome", "channelId": "UCh4JH8axA_jUjB8YoRnm0cg" },
     { "name": "Movies Select", "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug" },
     { "name": "Netzkino", "channelId": "UCGkHFrwE8KEuOHPVsIOskAg" },
@@ -73,18 +110,45 @@
       "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
       "profil": { "ausschlussMuster": "interview|erinnert sich|spricht über|cartoon|bilderserie|vorgelesen|champions der klamotte|festival|hommage an|kleine morde|dokumente des" }
     },
+    {
+      "name": "Screamtime",
+      "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Sony Pics at Home DE", "channelId": "UCXsB2iMamYqS_t-Kpo61tOw" },
     { "name": "Starkino", "channelId": "UC7Hs00gZvManlHy0rXw1UMw" },
-    {
-      "name": "Stash auf Deutsch",
-      "channelId": "UCxouNAvM6cFw3xNftPP_4eQ"
-    },
+    { "name": "Stash auf Deutsch", "channelId": "UCxouNAvM6cFw3xNftPP_4eQ" },
     {
       "name": "Stream Hier",
       "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
       "profil": { "pipeAlsTitelvariante": false }
     },
+    {
+      "name": "TitanumX",
+      "channelId": "UCnlIBYHTpD2R3BQuE6nsSKw",
+      "profil": { "inPruefung": true }
+    },
     { "name": "Unfassbare Filme", "channelId": "UCxjFB79ChibMp-hr1vlK7sg" },
-    { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" }
+    {
+      "name": "Utopja",
+      "channelId": "UC5FelnKqltzYS3H1LPlC-Xg",
+      "profil": { "inPruefung": true }
+    },
+    { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" },
+    {
+      "name": "weloadtv",
+      "channelId": "UC5E67gM-Us3gQBhNPiAg0Xg",
+      "profil": { "inPruefung": true }
+    },
+    {
+      "name": "Wolkesieben",
+      "channelId": "UCP2mfMKvmD0lkSThh9CuU7g",
+      "profil": { "inPruefung": true }
+    },
+    {
+      "name": "ZOMBIEWORLD",
+      "channelId": "UCDD1U4CEvLz6kKuIQwGivdg",
+      "profil": { "inPruefung": true }
+    }
   ]
 }
