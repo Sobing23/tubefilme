@@ -7044,5 +7044,255 @@
     "videoId": "RQRi9az1EKQ",
     "youtubeTitle": "Frau Holle (2011) [Zeichentrick] | Film (deutsch)",
     "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 1 min, Video 99 min) -- wird neu gesucht",
+    "videoId": "MkXcZpkUPhk",
+    "youtubeTitle": "Shadowman (Thriller in voller Länge)",
+    "title": "ShadowMan",
+    "tmdbId": 1499639,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 55 min, Video 85 min) -- wird neu gesucht",
+    "videoId": "57Jiif1kxzY",
+    "youtubeTitle": "Home for Christmas - mit Jennifer Love Hewitt (Weihnachtsfilm | deutsch)",
+    "title": "Home for Christmas",
+    "tmdbId": 1478597,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 61 min, Video 99 min) -- wird neu gesucht",
+    "videoId": "8C78240l8wI",
+    "youtubeTitle": "Time to Kill - mit Nicolas Cage",
+    "title": "Time to Kill",
+    "tmdbId": 50747,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "vwtreIAxR2w",
+    "youtubeTitle": "Hawaii - Reiseführer",
+    "title": "Hawaii",
+    "tmdbId": 988631,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 86 min, Video 30 min) -- wird neu gesucht",
+    "videoId": "ag8rzpvsDYw",
+    "youtubeTitle": "Temptation - Making of",
+    "title": "Temptation",
+    "tmdbId": 601996,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "hr2tc0W-bOw",
+    "youtubeTitle": "Fantasy Ballet",
+    "title": "Carmen 2012 Prag",
+    "tmdbId": 398364,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "DCb3nl1LywE",
+    "youtubeTitle": "Jesus - Die komplette Geschichte - Teil 3",
+    "title": "Jesus",
+    "tmdbId": 691777,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "1y-0PUCTj1g",
+    "youtubeTitle": "TO – A Sapce Fantasy (japanischer Sci-Fi Animationsfilm | ganzer Film auf Deutsch)",
+    "title": "From Beginning to End",
+    "tmdbId": 44125,
+    "channelName": "Utopja"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "6ZPfJSqpZCg",
+    "youtubeTitle": "Prince of Persia - Die Legende von Omar (Abenteuerfilm komplett auf Deutsch, ganzer Film) *HD*",
+    "title": "Corpse Bride - Hochzeit mit einer Leiche",
+    "tmdbId": 3933,
+    "channelName": "Highresworld Deutsch"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "7c6P4E5_sEk",
+    "youtubeTitle": "Romantische Geschichte über Verlust, Hoffnung & neue Liebe: DIE MELODIE DER LIEBE | GANZER FILM",
+    "title": "Eine zauberhafte Winterromanze",
+    "tmdbId": 656850,
+    "channelName": "Wolkesieben"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 85 min, Video 22 min) -- wird neu gesucht",
+    "videoId": "X6bXl8KtFEI",
+    "youtubeTitle": "Rache - Trickfilm (ganzer Film auf Deutsch) - DEFA",
+    "title": "Rache",
+    "tmdbId": 516859,
+    "channelName": "DEFA Filmwelt"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1989, Video 1925) -- wird neu gesucht",
+    "videoId": "yavmhz7NVKA",
+    "youtubeTitle": "Das Phantom der Oper | KOLORIERT | Kult Horrorfilm | Filmklassiker",
+    "title": "Das Phantom der Oper",
+    "tmdbId": 86962,
+    "channelName": "Artflix"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 52 min, Video 27 min) -- wird neu gesucht",
+    "videoId": "R21Qb9EOrrw",
+    "youtubeTitle": "Hänsel und Gretel",
+    "title": "Hänsel und Gretel",
+    "tmdbId": 119185,
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 89 min, Video 29 min) -- wird neu gesucht",
+    "videoId": "YzxyumRUjtE",
+    "youtubeTitle": "Frau Holle",
+    "title": "Frau Holle",
+    "tmdbId": 29180,
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 1997, Video 1959) -- wird neu gesucht",
+    "videoId": "aihlWUKvnSA",
+    "youtubeTitle": "Bremer Stadtmusikanten (MÄRCHEN I ganzes Märchen auf Deutsch, Film in voller Länge schauen)",
+    "title": "Die Bremer Stadtmusikanten",
+    "tmdbId": 785725,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 25 min, Video 90 min) -- wird neu gesucht",
+    "videoId": "_VpttfKQoTI",
+    "youtubeTitle": "Silence - Stimmen aus der Finsternis (2015) [Horror] | ganzer Film (deutsch)",
+    "title": "Screaming Silence",
+    "tmdbId": 455702,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 86 min, Video 50 min) -- wird neu gesucht",
+    "videoId": "sNFsn0QxylE",
+    "youtubeTitle": "Robin Hood (1981) [Zeichentrick] | Film (deutsch)",
+    "title": "Robin Hood",
+    "tmdbId": 417160,
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 6 min, Video 22 min) -- wird neu gesucht",
+    "videoId": "Bo2RAaSAiw8",
+    "youtubeTitle": "Forgive Me, Father | Drama | Ganzer Film Deutsch | Deutschland 1966",
+    "title": "Forgive Me Father",
+    "tmdbId": 1357127,
+    "channelName": "Stash auf Deutsch"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 99 min, Video 161 min) -- wird neu gesucht",
+    "videoId": "GLwjgtn30Yo",
+    "youtubeTitle": "The Don | GANZER BOLLYWOOD Film kostenlos | Mithun Chakrabortty, Jugal Hansraj | Action Thriller",
+    "title": "The Grotesque",
+    "tmdbId": 67750,
+    "channelName": "Bombay Nights"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Kanalregel: Ausschlussmuster im Titel",
+    "videoId": "fMmjjHfZvBY",
+    "youtubeTitle": "Der gestiefelte Kater - aus der Box: Felix der Kater und seine Freunde",
+    "title": "Der gestiefelte Kater",
+    "tmdbId": 1066146,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Kanalregel: Ausschlussmuster im Titel",
+    "videoId": "f29Qh34WIlY",
+    "youtubeTitle": "Max und Moritz - Ihre Streiche - Hörspiel",
+    "title": "Max und Moritz",
+    "tmdbId": 399651,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Kanalregel: Ausschlussmuster im Titel",
+    "videoId": "FFy8WcL0JtE",
+    "youtubeTitle": "Zwerg Nase / Der falsche Prinz - Hörspiel",
+    "title": "Zwerg Nase",
+    "tmdbId": 51349,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Kanalregel: Ausschlussmuster im Titel",
+    "videoId": "u7_Y7IzbCns",
+    "youtubeTitle": "Däumelinchen - Hörspiel",
+    "title": "Däumelinchen",
+    "tmdbId": 85035,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Kanalregel: Ausschlussmuster im Titel",
+    "videoId": "Aplkua2OfNA",
+    "youtubeTitle": "Sherlock Holmes - Der Meisterdetektiv: Die 5 Orangenkerne - Hörbuch Teil 3",
+    "title": "Sherlock Holmes",
+    "tmdbId": 10528,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Kanalregel: Ausschlussmuster im Titel",
+    "videoId": "ahpoStZkw-k",
+    "youtubeTitle": "Robin Hood - Seine Abenteuer - Hörbuch",
+    "title": "Robin Hood",
+    "tmdbId": 11886,
+    "channelName": "weloadtv"
   }
 ]

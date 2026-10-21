@@ -1,37 +1,5 @@
 [
   {
-    "videoId": "yBTVmgpFBJw",
-    "youtubeTitle": "🔥 Ein so intensiver FILM, dass du nicht willst, dass er endet | Actionfilm auf Deutsch",
-    "suchbegriff": "Ein so intensiver FILM, dass du nicht willst, dass er endet",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "9GKOHQ9mp1c",
-    "youtubeTitle": "Sophia - Engel des Todes (2018 | MYSTERY Horror | Ganzer Film | HD)",
-    "suchbegriff": "Sophia - Engel des Todes",
-    "erwartetesJahr": "2018",
-    "grund": "Ein-Wort-Suchbegriff \"Sophia\" ohne Jahr/Besetzung -- Rest des Titels (\"engel des todes\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1580281,
-      "title": "Sophia",
-      "release_date": "2025-12-02"
-    }
-  },
-  {
-    "videoId": "d2jlFMmfBT4",
-    "youtubeTitle": "The House (Horrorfantasy, Dämonenhorror, kostenloser Spielfilm in voller Länge deutsch online)",
-    "suchbegriff": "The House",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 75) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 2044,
-      "title": "Das Haus am See",
-      "release_date": "2006-06-16"
-    }
-  },
-  {
     "videoId": "eJQYiW4dlOQ",
     "youtubeTitle": "Muttertag II - Die Söhne sind zurück (Thriller / Horrorfilme in voller Länge)",
     "suchbegriff": "Muttertag II - Die Söhne sind zurück",
@@ -1030,18 +998,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "P3k9e9sFw5o",
-    "youtubeTitle": "Ali Baba - aus der Box: Felix der Kater und seine Freunde",
-    "suchbegriff": "Ali Baba - aus der Box: Felix der Kater und seine Freunde",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 79) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 193261,
-      "title": "Ali Baba und die 40 Räuber",
-      "release_date": "2007-11-10"
-    }
   },
   {
     "videoId": "Wb2nZAVbyMo",
@@ -2104,18 +2060,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "mYvEH_QBzhI",
-    "youtubeTitle": "West Amerika - Reiseführer",
-    "suchbegriff": "West Amerika - Reiseführer",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 73) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 132263,
-      "title": "Ein Gespenst geht nach Amerika",
-      "release_date": "1935-12-17"
-    }
-  },
-  {
     "videoId": "svJAbgIsOKA",
     "youtubeTitle": "Showdown am Adler-Pass",
     "suchbegriff": "Showdown am Adler-Pass",
@@ -2130,18 +2074,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "UX19qlpLdIg",
-    "youtubeTitle": "Power Yoga - Yoga zum mitmachen",
-    "suchbegriff": "Power Yoga - Yoga zum mitmachen",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 30)",
-    "tmdbTopKandidat": {
-      "id": 372320,
-      "title": "Power Yoga - Ursula Karven",
-      "release_date": "2004-08-01"
-    }
   },
   {
     "videoId": "gSHotXzW4Ss",
@@ -2536,138 +2468,6 @@
     }
   },
   {
-    "videoId": "HtbTrP1T510",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 7",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 7",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "I2aFNWH_AL0",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 3",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 3",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "l4TgzcwarFQ",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 9",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 9",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "oaHrAK-xzAg",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 5",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 5",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "ZMIrifB6msE",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 8",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 8",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "l6Hs64Q90Vg",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 10",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 10",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "1MAvB7hq2I8",
-    "youtubeTitle": "Die Liebesbeute - Hörspiel",
-    "suchbegriff": "Die Liebesbeute - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "G60z-KMgAa4",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 2",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 2",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "tc6RhQ_R-QQ",
-    "youtubeTitle": "Die Bibel - Das neue Testament - Hörbuch Kapitel 1",
-    "suchbegriff": "Die Bibel - Das neue Testament - Hörbuch Kapitel 1",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"neue testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "bPhGroFZw-g",
-    "youtubeTitle": "Rübezahl - Hörspiel",
-    "suchbegriff": "Rübezahl - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 60) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 160091,
-      "title": "Rübezahl und die Skiläufer",
-      "release_date": "1981-01-23"
-    }
-  },
-  {
-    "videoId": "qVD4v6KtqzQ",
-    "youtubeTitle": "Daumesdick - Hörspiel",
-    "suchbegriff": "Daumesdick - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "wrArd_XJQtg",
-    "youtubeTitle": "Das Mädchen mit den Schwefelhölzchen / Die wilden Schwäne - Hörspiel",
-    "suchbegriff": "Das Mädchen mit den Schwefelhölzchen / Die wilden Schwäne - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "bfWCmgTf8Xs",
     "youtubeTitle": "Lady Diana - Ihr Leben, ihr Tod",
     "suchbegriff": "Lady Diana - Ihr Leben, ihr Tod",
@@ -2678,222 +2478,6 @@
       "title": "Diana",
       "release_date": "2013-09-19"
     }
-  },
-  {
-    "videoId": "8p3qpI6C92Y",
-    "youtubeTitle": "Der Schweineknecht - Hörspiel",
-    "suchbegriff": "Der Schweineknecht - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "10vmfg39HiU",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 17-18",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 17-18",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "C_21WcCt7nA",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 1-2",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 1-2",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "UUQ8gcbkkdA",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 13-14",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 13-14",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "j8g3R9dJ9ys",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 15-16",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 15-16",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "p8TLW4iE8lU",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 11-12",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 11-12",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "tvQBLEljFYw",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 3-4",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 3-4",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "yPqzIdn-XZ4",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 19-21",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 19-21",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "tPbvrlk4a-c",
-    "youtubeTitle": "Die Bibel - Das alte Testament - Hörbuch Kapitel 7-8",
-    "suchbegriff": "Die Bibel - Das alte Testament - Hörbuch Kapitel 7-8",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Bibel\" ohne Jahr/Besetzung -- Rest des Titels (\"alte testament horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 2525,
-      "title": "Die Bibel",
-      "release_date": "1966-09-28"
-    }
-  },
-  {
-    "videoId": "V9xLwhegNDM",
-    "youtubeTitle": "Der Schimmelreiter - Hörbuch Kapitel 3-4",
-    "suchbegriff": "Der Schimmelreiter - Hörbuch Kapitel 3-4",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Der Schimmelreiter\" ohne Jahr/Besetzung -- Rest des Titels (\"horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1207936,
-      "title": "Der Schimmelreiter",
-      "release_date": "2026-02-05"
-    }
-  },
-  {
-    "videoId": "t_HRhiXc100",
-    "youtubeTitle": "Der Schimmelreiter - Hörbuch Kapitel 33-36",
-    "suchbegriff": "Der Schimmelreiter - Hörbuch Kapitel 33-36",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Der Schimmelreiter\" ohne Jahr/Besetzung -- Rest des Titels (\"horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1207936,
-      "title": "Der Schimmelreiter",
-      "release_date": "2026-02-05"
-    }
-  },
-  {
-    "videoId": "KLOlOZFxfDg",
-    "youtubeTitle": "Der Schimmelreiter - Hörbuch Kapitel 27-28",
-    "suchbegriff": "Der Schimmelreiter - Hörbuch Kapitel 27-28",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Der Schimmelreiter\" ohne Jahr/Besetzung -- Rest des Titels (\"horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1207936,
-      "title": "Der Schimmelreiter",
-      "release_date": "2026-02-05"
-    }
-  },
-  {
-    "videoId": "f0811fQiiOM",
-    "youtubeTitle": "Der Schimmelreiter - Hörbuch Kapitel 13-14",
-    "suchbegriff": "Der Schimmelreiter - Hörbuch Kapitel 13-14",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Der Schimmelreiter\" ohne Jahr/Besetzung -- Rest des Titels (\"horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1207936,
-      "title": "Der Schimmelreiter",
-      "release_date": "2026-02-05"
-    }
-  },
-  {
-    "videoId": "R5sMz8f8pEo",
-    "youtubeTitle": "Der Schimmelreiter - Hörbuch Kapitel 25-26",
-    "suchbegriff": "Der Schimmelreiter - Hörbuch Kapitel 25-26",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Der Schimmelreiter\" ohne Jahr/Besetzung -- Rest des Titels (\"horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1207936,
-      "title": "Der Schimmelreiter",
-      "release_date": "2026-02-05"
-    }
-  },
-  {
-    "videoId": "JUQzU876wL0",
-    "youtubeTitle": "Der Schimmelreiter - Hörbuch Kapitel 1-2",
-    "suchbegriff": "Der Schimmelreiter - Hörbuch Kapitel 1-2",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Der Schimmelreiter\" ohne Jahr/Besetzung -- Rest des Titels (\"horbuch kapitel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1207936,
-      "title": "Der Schimmelreiter",
-      "release_date": "2026-02-05"
-    }
-  },
-  {
-    "videoId": "NCWqrWCafWM",
-    "youtubeTitle": "Micheal Jackson - Sein Leben, sein Werk - 80er/ 90er / Skandale - Hörbuch",
-    "suchbegriff": "Micheal Jackson - Sein Leben, sein Werk - 80er/ 90er / Skandale - Hörbuch",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"90er\" ohne Jahr/Besetzung -- Rest des Titels (\"micheal jackson sein leben sein werk 80er skandale horbuch\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 858197,
-      "title": "Die 90er – Musik für die Ewigkeit",
-      "release_date": "2021-08-05"
-    }
-  },
-  {
-    "videoId": "T5yP60Cenb8",
-    "youtubeTitle": "Rapunzel / Der Teufel mit den 3 goldenen Haaren - Hörspiel",
-    "suchbegriff": "Rapunzel / Der Teufel mit den 3 goldenen Haaren - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Rapunzel\" ohne Jahr/Besetzung -- Rest des Titels (\"teufel mit den goldenen haaren horspiel\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 594309,
-      "title": "Rapunzel",
-      "release_date": "2019-03-30"
-    }
-  },
-  {
-    "videoId": "d63v0wPUndY",
-    "youtubeTitle": "Die 3 Brüder - Hörspiel",
-    "suchbegriff": "Die 3 Brüder - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "hKWvZp14yZ8",
-    "youtubeTitle": "König Nussknacker - Hörspiel",
-    "suchbegriff": "König Nussknacker - Hörspiel",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
   },
   {
     "videoId": "YbZxHcTG4L4",
@@ -2907,22 +2491,6 @@
     "videoId": "dLfoS-rBb0E",
     "youtubeTitle": "Die wunderbare Welt des Mittelmeers am Tag",
     "suchbegriff": "Die wunderbare Welt des Mittelmeers am Tag",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "Vdp4s-C_XKI",
-    "youtubeTitle": "Robinson Crusoe Hörspiel, Kapitel 1-14",
-    "suchbegriff": "Robinson Crusoe Hörspiel, Kapitel 1-14",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "ddK2DGAN_Hw",
-    "youtubeTitle": "Robinson Crusoe Hörspiel, Kapitel 15-28",
-    "suchbegriff": "Robinson Crusoe Hörspiel, Kapitel 15-28",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
@@ -3188,18 +2756,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "9kCXWm4ZD9U",
-    "youtubeTitle": "Frankreich - Reiseführer - Paris, Lyon, Nizza, Marseille",
-    "suchbegriff": "Frankreich - Reiseführer - Paris, Lyon, Nizza, Marseille",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Frankreich\" ohne Jahr/Besetzung -- Rest des Titels (\"reisefuhrer paris lyon nizza marseille\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 177046,
-      "title": "Diane – Kurtisane von Frankreich",
-      "release_date": "1956-01-12"
-    }
-  },
-  {
     "videoId": "JATBOyFWiQs",
     "youtubeTitle": "Gun Camera - Luftkämpfe aus Sicht der Piloten",
     "suchbegriff": "Gun Camera - Luftkämpfe aus Sicht der Piloten",
@@ -3272,18 +2828,6 @@
     }
   },
   {
-    "videoId": "vT7kb0vqsE0",
-    "youtubeTitle": "Motorräder - Technik, Routen, Tipps",
-    "suchbegriff": "Motorräder - Technik, Routen, Tipps",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Motorräder\" ohne Jahr/Besetzung -- Rest des Titels (\"technik routen tipps\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1629777,
-      "title": "ADAC-Länderfahrt für Motorräder durch Deutschland, Danzig, Polen, Ungarn, Tschechoslowakei",
-      "release_date": "1928-01-01"
-    }
-  },
-  {
     "videoId": "8fd5cErfPXM",
     "youtubeTitle": "Der Traum einer Dampflok - England",
     "suchbegriff": "Der Traum einer Dampflok - England",
@@ -3309,18 +2853,6 @@
       "id": 684860,
       "title": "Die 12. SS-Panzerdivision ''Hitlerjugend''",
       "release_date": "2020-02-18"
-    }
-  },
-  {
-    "videoId": "DL9KT2-CmDM",
-    "youtubeTitle": "THE BEST OF BLUES BROTHERS",
-    "suchbegriff": "THE BEST OF BLUES BROTHERS",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 53) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 378785,
-      "title": "The Best of the Blues Brothers",
-      "release_date": "1993-07-26"
     }
   },
   {
@@ -6848,111 +6380,71 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "Qv8EFOADSlQ",
-    "youtubeTitle": "Mystery Horror mit Ouija-Brett: DAS OUIJA EXPERIMENT 6 – DAS ERWACHEN DES BÖSEN | Horror Thriller",
-    "suchbegriff": "The Ouija Experiment 6: The Awakening of Evil",
-    "erwartetesJahr": "2011",
+    "videoId": "aWhAX5WPiRk",
+    "youtubeTitle": "Dark Legacy (Horror, Mystery, KURZFILM, ganzer Film, HD)",
+    "suchbegriff": "Dark Legacy",
+    "erwartetesJahr": "2005",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 1)",
+    "tmdbTopKandidat": {
+      "id": 300015,
+      "title": "Dark Legacy II",
+      "release_date": "2014-06-01"
+    }
+  },
+  {
+    "videoId": "BcEKrzbT1M8",
+    "youtubeTitle": "JOHN WAYNE – Highnoon in Helltown 🤠 Früher Western-Klassiker - Ganzer Film Deutsch",
+    "suchbegriff": "JOHN WAYNE – Highnoon in Helltown 🤠 Früher Western-Klassiker - Ganzer Film Deutsch",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 20)",
+    "tmdbTopKandidat": {
+      "id": 327017,
+      "title": "John Wayne and Chisum",
+      "release_date": "1970-01-01"
+    }
+  },
+  {
+    "videoId": "OZjvlvD--oQ",
+    "youtubeTitle": "Shor in the City | SPANNENDE HINDI Filme kostenlos | Hindi Krimi Filme | Bollywood",
+    "suchbegriff": "Shor in the City",
+    "erwartetesJahr": "2010",
+    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 78393,
+      "title": "Bollywood Nudes",
+      "release_date": "2009-10-30"
+    }
+  },
+  {
+    "videoId": "A1hRxrQYlCY",
+    "youtubeTitle": "LSD: Love, Sex Aur Dhokha | HINDI FILME kostenlos | Krimi Komödie ganzer Film | Bollywood",
+    "suchbegriff": "LSD: Love, Sex Aur Dhokha",
+    "erwartetesJahr": "2010",
+    "grund": "Schwache Übereinstimmung (Wert 72) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 208136,
+      "title": "Bollywood Beats",
+      "release_date": "2009-08-03"
+    }
+  },
+  {
+    "videoId": "6OYLDc_kXT0",
+    "youtubeTitle": "Karmyudh | BOLLYWOOD ACTIONFILME kostenlos | ganzer Hindi Film | Hindi Action",
+    "suchbegriff": "Karmyudh",
+    "erwartetesJahr": "1985",
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "6wULcD2CIA0",
-    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 5 – Versteckte Wahrheit (komplette Filmreihe auf Deutsch)",
-    "suchbegriff": "Change of Heart",
-    "erwartetesJahr": "2014",
-    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "kE39KTFUWxM",
+    "youtubeTitle": "Shor in the City | GANZER KRIMI FILM kostenlos | Hindi Filme mit deutschen Untertiteln | Bollywood",
+    "suchbegriff": "Shor in the City",
+    "erwartetesJahr": "2010",
+    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 258283,
-      "title": "Change of Heart",
-      "release_date": "1934-05-18"
+      "id": 78393,
+      "title": "Bollywood Nudes",
+      "release_date": "2009-10-30"
     }
-  },
-  {
-    "videoId": "CPpMR8YfdQ0",
-    "youtubeTitle": "Roger Hanin, Susanna Simon, Leon Boden in 'Bier - Anschlag auf das Oktoberfest' | Ganzer Film 1999",
-    "suchbegriff": "Roger Hanin, Susanna Simon, Leon Boden in 'Bier - Anschlag auf das Oktoberfest'",
-    "erwartetesJahr": "1999",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "XU-ijGtmBhY",
-    "youtubeTitle": "JET LI - FINAL FIGHT | Born To Defense | Ganzer ACTION MARTIAL-ARTS-FILM auf DEUTSCH",
-    "suchbegriff": "JET LI - FINAL FIGHT",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 1242686,
-      "title": "Final Fight - Die letzte Chance",
-      "release_date": "2025-05-01"
-    }
-  },
-  {
-    "videoId": "A40xQ6Z5pL8",
-    "youtubeTitle": "Charles Dickens - Scrooge | ganzer Film",
-    "suchbegriff": "Charles Dickens - Scrooge",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 13189,
-      "title": "Charles Dickens' Weihnachtsgeschichte",
-      "release_date": "1984-10-09"
-    }
-  },
-  {
-    "videoId": "R1tztJVIXZE",
-    "youtubeTitle": "Tell – Im Kampf gegen Lord Xax - E03 - Auf Leben und Tod (ABENTEUER I ganze Abenteuerserie Deutsch)",
-    "suchbegriff": "The Legend of William Tell",
-    "erwartetesJahr": "1998",
-    "grund": "Ein-Wort-Suchbegriff \"Tell\" ohne Jahr/Besetzung -- Rest des Titels (\"kampf gegen lord xax e03 auf leben tod\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 26790,
-      "title": "Tell",
-      "release_date": "2007-11-22"
-    }
-  },
-  {
-    "videoId": "0iRiNqJOyt0",
-    "youtubeTitle": "Das Dschungelbuch (1995) [Zeichentrick] | Film (deutsch)",
-    "suchbegriff": "Das Dschungelbuch",
-    "erwartetesJahr": "1995",
-    "grund": "Schwache Übereinstimmung (Wert 80) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 109176,
-      "title": "Das Dschungelbuch - Moglis Abenteuer",
-      "release_date": "1998-09-28"
-    }
-  },
-  {
-    "videoId": "QKuyCrDCbzA",
-    "youtubeTitle": "The Wrecker (1932) [Krimi] | ganzer Film (deutsch)",
-    "suchbegriff": "The Wrecker",
-    "erwartetesJahr": "1932",
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 25)",
-    "tmdbTopKandidat": {
-      "id": 1220613,
-      "title": "The Home Wrecker",
-      "release_date": "1929-01-01"
-    }
-  },
-  {
-    "videoId": "gZj64WITM7M",
-    "youtubeTitle": "Liebe trotz Abstand – Chaos garantiert | The New Normal | Romantische Komödie (Ganzer Film Deutsch)",
-    "suchbegriff": "Liebe trotz Abstand – Chaos garantiert",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 67) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 171179,
-      "title": "Die Romantische Komödie 2 – Junggesellenabschied",
-      "release_date": "2013-02-13"
-    }
-  },
-  {
-    "videoId": "MQ_xktMUJ3o",
-    "youtubeTitle": "😨 Seine Familie wird zum Ziel brutaler Killer! | Thriller Drama Krimi | Ganzer Film auf Deutsch",
-    "suchbegriff": "Seine Familie wird zum Ziel brutaler Killer!",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
   }
 ]

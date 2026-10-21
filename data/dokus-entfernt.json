@@ -3712,5 +3712,25 @@
     "title": "John Wayne on Film",
     "tmdbId": 416218,
     "channelName": "Bronco"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "pvhDG240Is0",
+    "youtubeTitle": "Tony Curtis: Das Manuskript (Thriller in voller Länge)",
+    "title": "Tony Curtis erzählt...",
+    "tmdbId": 1106642,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "q7BDgQwb_XA",
+    "youtubeTitle": "JOHN WAYNE – US MARSHAL JOHN: John Wayne jagt eine geheimnisvolle Bande (Western | Action)",
+    "title": "John Wayne: Cowboys & Demons",
+    "tmdbId": 1203135,
+    "channelName": "Bronco"
   }
 ]
