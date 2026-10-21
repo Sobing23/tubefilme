@@ -6380,71 +6380,171 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "aWhAX5WPiRk",
-    "youtubeTitle": "Dark Legacy (Horror, Mystery, KURZFILM, ganzer Film, HD)",
-    "suchbegriff": "Dark Legacy",
-    "erwartetesJahr": "2005",
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 1)",
-    "tmdbTopKandidat": {
-      "id": 300015,
-      "title": "Dark Legacy II",
-      "release_date": "2014-06-01"
-    }
-  },
-  {
-    "videoId": "BcEKrzbT1M8",
-    "youtubeTitle": "JOHN WAYNE – Highnoon in Helltown 🤠 Früher Western-Klassiker - Ganzer Film Deutsch",
-    "suchbegriff": "JOHN WAYNE – Highnoon in Helltown 🤠 Früher Western-Klassiker - Ganzer Film Deutsch",
+    "videoId": "pvhDG240Is0",
+    "youtubeTitle": "Tony Curtis: Das Manuskript (Thriller in voller Länge)",
+    "suchbegriff": "Tony Curtis: Das Manuskript",
     "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 20)",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -20)",
     "tmdbTopKandidat": {
-      "id": 327017,
-      "title": "John Wayne and Chisum",
-      "release_date": "1970-01-01"
+      "id": 1179412,
+      "title": "John Hegley (with Tony Curtis)",
+      "release_date": ""
     }
   },
   {
-    "videoId": "OZjvlvD--oQ",
-    "youtubeTitle": "Shor in the City | SPANNENDE HINDI Filme kostenlos | Hindi Krimi Filme | Bollywood",
-    "suchbegriff": "Shor in the City",
-    "erwartetesJahr": "2010",
-    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "MkXcZpkUPhk",
+    "youtubeTitle": "Shadowman (Thriller in voller Länge)",
+    "suchbegriff": "Nuits rouges (auch als \"Der Mann ohne Gesicht\" veröffentlicht",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
     "tmdbTopKandidat": {
-      "id": 78393,
-      "title": "Bollywood Nudes",
-      "release_date": "2009-10-30"
+      "id": 980066,
+      "title": "Shadowman",
+      "release_date": "2001-01-01"
     }
   },
   {
-    "videoId": "A1hRxrQYlCY",
-    "youtubeTitle": "LSD: Love, Sex Aur Dhokha | HINDI FILME kostenlos | Krimi Komödie ganzer Film | Bollywood",
-    "suchbegriff": "LSD: Love, Sex Aur Dhokha",
-    "erwartetesJahr": "2010",
-    "grund": "Schwache Übereinstimmung (Wert 72) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "57Jiif1kxzY",
+    "youtubeTitle": "Home for Christmas - mit Jennifer Love Hewitt (Weihnachtsfilm | deutsch)",
+    "suchbegriff": "Little Miss Million",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 208136,
-      "title": "Bollywood Beats",
-      "release_date": "2009-08-03"
+      "id": 149553,
+      "title": "Kleine Millionärin in Not",
+      "release_date": "1993-11-27"
     }
   },
   {
-    "videoId": "6OYLDc_kXT0",
-    "youtubeTitle": "Karmyudh | BOLLYWOOD ACTIONFILME kostenlos | ganzer Hindi Film | Hindi Action",
-    "suchbegriff": "Karmyudh",
-    "erwartetesJahr": "1985",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
+    "videoId": "8C78240l8wI",
+    "youtubeTitle": "Time to Kill - mit Nicolas Cage",
+    "suchbegriff": "Time to Kill - mit Nicolas Cage",
+    "erwartetesJahr": null,
+    "grund": "3 Zuordnungen bereits verworfen -- \"Time to Kill\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 655463,
+      "title": "Time to Kill",
+      "release_date": "1945-12-13"
+    }
   },
   {
-    "videoId": "kE39KTFUWxM",
-    "youtubeTitle": "Shor in the City | GANZER KRIMI FILM kostenlos | Hindi Filme mit deutschen Untertiteln | Bollywood",
-    "suchbegriff": "Shor in the City",
-    "erwartetesJahr": "2010",
-    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "videoId": "hr2tc0W-bOw",
+    "youtubeTitle": "Fantasy Ballet",
+    "suchbegriff": "Fantasy Ballet",
+    "erwartetesJahr": null,
+    "grund": "3 Zuordnungen bereits verworfen -- \"Carmen\" ohne harten Beleg nicht übernommen",
     "tmdbTopKandidat": {
-      "id": 78393,
-      "title": "Bollywood Nudes",
-      "release_date": "2009-10-30"
+      "id": 450170,
+      "title": "Carmen",
+      "release_date": "1921-09-15"
+    }
+  },
+  {
+    "videoId": "DCb3nl1LywE",
+    "youtubeTitle": "Jesus - Die komplette Geschichte - Teil 3",
+    "suchbegriff": "Jesus - Die komplette Geschichte - Teil 3",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 75) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 719256,
+      "title": "Jesus Revolution",
+      "release_date": "2023-02-23"
+    }
+  },
+  {
+    "videoId": "1y-0PUCTj1g",
+    "youtubeTitle": "TO – A Sapce Fantasy (japanischer Sci-Fi Animationsfilm | ganzer Film auf Deutsch)",
+    "suchbegriff": "Orbital",
+    "erwartetesJahr": "2009",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Laid to Rest\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 17618,
+      "title": "Laid to Rest",
+      "release_date": "2009-03-18"
+    }
+  },
+  {
+    "videoId": "6ZPfJSqpZCg",
+    "youtubeTitle": "Prince of Persia - Die Legende von Omar (Abenteuerfilm komplett auf Deutsch, ganzer Film) *HD*",
+    "suchbegriff": "Mit: Adam Echahly, Bruno Lastra",
+    "erwartetesJahr": "2005",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Mit Herz und Hand\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 9912,
+      "title": "Mit Herz und Hand",
+      "release_date": "2005-10-12"
+    }
+  },
+  {
+    "videoId": "7c6P4E5_sEk",
+    "youtubeTitle": "Romantische Geschichte über Verlust, Hoffnung & neue Liebe: DIE MELODIE DER LIEBE | GANZER FILM",
+    "suchbegriff": "Romance",
+    "erwartetesJahr": "2020",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Romance Retreat - Urlaub fürs Herz\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 644325,
+      "title": "Romance Retreat - Urlaub fürs Herz",
+      "release_date": "2019-08-24"
+    }
+  },
+  {
+    "videoId": "R21Qb9EOrrw",
+    "youtubeTitle": "Hänsel und Gretel",
+    "suchbegriff": "Hänsel und Gretel",
+    "erwartetesJahr": null,
+    "grund": "3 Zuordnungen bereits verworfen -- \"Hänsel und Gretel\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 1067119,
+      "title": "Hänsel und Gretel",
+      "release_date": "2012-12-26"
+    }
+  },
+  {
+    "videoId": "aihlWUKvnSA",
+    "youtubeTitle": "Bremer Stadtmusikanten (MÄRCHEN I ganzes Märchen auf Deutsch, Film in voller Länge schauen)",
+    "suchbegriff": "Bremer Stadtmusikanten",
+    "erwartetesJahr": null,
+    "grund": "3 Zuordnungen bereits verworfen -- \"Die Bremer Stadtmusikanten\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 1072496,
+      "title": "Die Bremer Stadtmusikanten",
+      "release_date": "1935-11-30"
+    }
+  },
+  {
+    "videoId": "imfrtpmbIZM",
+    "youtubeTitle": "Baby (Deutscher KRIMI THRILLER Film in voller Länge anschauen, kompletter Thriller Film auf Deutsch)",
+    "suchbegriff": "Baby",
+    "erwartetesJahr": "2002",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Keep the Faith, Baby\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 277492,
+      "title": "Keep the Faith, Baby",
+      "release_date": "2002-02-11"
+    }
+  },
+  {
+    "videoId": "_VpttfKQoTI",
+    "youtubeTitle": "Silence - Stimmen aus der Finsternis (2015) [Horror] | ganzer Film (deutsch)",
+    "suchbegriff": "Silence - Stimmen aus der Finsternis",
+    "erwartetesJahr": "2015",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Silence du léopard\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 580409,
+      "title": "Silence du léopard",
+      "release_date": "2015-11-29"
+    }
+  },
+  {
+    "videoId": "sNFsn0QxylE",
+    "youtubeTitle": "Robin Hood (1981) [Zeichentrick] | Film (deutsch)",
+    "suchbegriff": "Robin Hood",
+    "erwartetesJahr": "1981",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Robin Hood\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 20662,
+      "title": "Robin Hood",
+      "release_date": "2010-05-12"
     }
   }
 ]
