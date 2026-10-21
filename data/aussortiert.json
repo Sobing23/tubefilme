@@ -8162,5 +8162,61 @@
     "videoId": "aWhAX5WPiRk",
     "youtubeTitle": "Dark Legacy (Horror, Mystery, KURZFILM, ganzer Film, HD)",
     "channelName": "Screamtime"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2018, Video 2006) -- wird neu gesucht",
+    "videoId": "lnppSpWDl2M",
+    "youtubeTitle": "Zwei Ex-Partner, ein Hochzeits-Drama | LIEBES KOMÖDIE DEUTSCH: Eine Hochzeit zu Weihnachten",
+    "title": "A Wedding for Christmas",
+    "tmdbId": 564637,
+    "channelName": "Movies Select"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 87 min, Video 50 min) -- wird neu gesucht",
+    "videoId": "FDXTdVpoz08",
+    "youtubeTitle": "Das war Bruce Lee (Asiatischer Kampffilm, Biographie, deutsch, ganzer Film, Bruce Lee's Leben)",
+    "title": "Bruce Lee - Das war mein Leben",
+    "tmdbId": 153358,
+    "channelName": "Bulldox"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 185 min, Video 82 min) -- wird neu gesucht",
+    "videoId": "a9yko0wiC2I",
+    "youtubeTitle": "Die Kriegsprinzessin (Abenteuerfilme auf Deutsch in voller Länge)",
+    "title": "Suriyothai - Die Kriegsprinzessin",
+    "tmdbId": 27329,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "OM8_5qh2lPI",
+    "youtubeTitle": "The Dead - Das Fressen hat begonnen (Horrorfilme auf Deutsch)",
+    "title": "Shaun of the Dead",
+    "tmdbId": 747,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "unmatched.json",
+    "grund": "unter 40 Minuten und bei TMDB nicht gefunden -- kein Spielfilm",
+    "videoId": "R21Qb9EOrrw",
+    "youtubeTitle": "Hänsel und Gretel",
+    "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "unmatched.json",
+    "grund": "unter 40 Minuten und bei TMDB nicht gefunden -- kein Spielfilm",
+    "videoId": "aihlWUKvnSA",
+    "youtubeTitle": "Bremer Stadtmusikanten (MÄRCHEN I ganzes Märchen auf Deutsch, Film in voller Länge schauen)",
+    "channelName": "Fantasja"
   }
 ]
