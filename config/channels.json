@@ -29,7 +29,11 @@
       "profil": { "pipeAlsTitelvariante": false }
     },
     { "name": "COMEDYPIE", "channelId": "UCSxzhmROaWxdX5h_1WRppuA" },
-    { "name": "Comfy Movies", "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw" },
+    {
+      "name": "Comfy Movies",
+      "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+      "profil": { "pipeIstOriginaltitel": true }
+    },
     {
       "name": "daredo TV",
       "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",

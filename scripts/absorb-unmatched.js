@@ -19,6 +19,7 @@
 // eine Chance, bevor auf die schwächeren YouTube-Daten ausgewichen wird.
 
 import fs from "fs/promises";
+import { titelHinterVorsatz } from "./lib/titel-vorsatz.js";
 
 const UNMATCHED_PATH = "data/unmatched.json";
 const CANDIDATES_PATH = "data/candidates.json";
@@ -421,8 +422,10 @@ async function main() {
   // (weloadtv: "Serengeti von A-Z", "Motorräder - Technik, Routen, Tipps").
   // Solche Videos bleiben in unmatched.json und werden weiter gesucht.
   let nurTmdbKanaele = new Set();
+  let profile = new Map();
   try {
     const ch = JSON.parse(await fs.readFile(CHANNELS_PATH, "utf-8")).channels || [];
+    profile = new Map(ch.map((c) => [c.channelId, c.profil || {}]));
     nurTmdbKanaele = new Set(ch.filter((c) => c.profil && c.profil.nurMitTmdb === true).map((c) => c.channelId));
   } catch {
     // ohne Kanalliste keine Kanalregeln
@@ -485,12 +488,17 @@ async function main() {
     // Reihenfolge der Titelquellen, nach Verlässlichkeit:
     //   1. erkennbarer Titel im Werbetitel ("... (Ganzer Film: Galveston)")
     //   2. kurze Kopfzeile der Beschreibung ("St. Daisy")
-    //   3. bereinigter Videotitel
+    //   3. Filmtitel hinter einem Vorsatz ("Roy Rogers | Arizona Kid (1939)",
+    //      "MARTIAL-ARTS-HIT | ...", "Historisches Liebesdrama: ...") --
+    //      siehe scripts/lib/titel-vorsatz.js
+    //   4. bereinigter Videotitel
+    const vorsatz = titelHinterVorsatz(video.title, profile.get(video.channelId) || {});
     const titel =
       titelAusWerbung(video.title) ||
       (KOPFZEILEN_KANAELE.has(video.channelName)
         ? kopfzeileAusBeschreibung(video.description, video.title)
         : null) ||
+      (vorsatz ? vorsatz.titel : null) ||
       cleanTitle(video.title, video.channelName);
     const overview = extractOverview(video.description);
 
@@ -501,7 +509,7 @@ async function main() {
       continue;
     }
 
-    const jahr = extractYear(video.title, video.description);
+    const jahr = extractYear(video.title, video.description) || (vorsatz ? vorsatz.jahr : null);
     const { cast, directors } = extractPeople(video.description);
 
     filme.push({

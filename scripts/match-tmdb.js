@@ -21,6 +21,7 @@
 // ODER data/duplicates.json stehen, werden nicht erneut gegen TMDB gesucht.
 
 import fs from "fs/promises";
+import { titelHinterVorsatz } from "./lib/titel-vorsatz.js";
 
 // -- Anbieter-Profile --
 //
@@ -372,7 +373,17 @@ function splitPipeVariants(rawTitle, channelName) {
   const kanal = kanalNorm(channelName);
   return rawTitle
     .split("|")
-    .map((s) => stripTrailingYear(s.trim()))
+    // Genre-Marker und Werbeklammern VOR dem Jahr entfernen: Aus "Arizona Kid
+    // (1939) [Western]" wurde sonst der Suchbegriff "Arizona Kid (1939)
+    // [Western]", weil das Jahr nicht am Ende stand -- TMDB fand nichts.
+    .map((s) =>
+      stripTrailingYear(
+        stripGenreBrackets(s.trim())
+          .replace(/\((?:[^)]*(?:ganzer|ganze|deutsch|kostenlos|voller länge|filme auf)[^)]*)\)/gi, " ")
+          .replace(/\s{2,}/g, " ")
+          .trim()
+      )
+    )
     .filter((s) => s && !GENERIC_SEGMENT.test(s))
     // Reine Jahreszahl als eigenes Segment ("Hurra! Ich bin Papa! | 1939 |")
     // ist ein Erscheinungsjahr, kein Titel. Als Suchbegriff fand "1939"
@@ -587,6 +598,14 @@ function buildQueryCandidates(info, video) {
   // Werbetitel zuerst: Steht der echte Name erkennbar im Videotitel, ist er
   // die verlässlichste Quelle -- verlässlicher als der Rest des Titels.
   add(titelAusWerbung(video.title));
+
+  // Filmtitel hinter einem Vorsatz aus Star, Genre oder Werbesatz
+  // ("Roy Rogers | Arizona Kid (1939) [Western]" -> "Arizona Kid"). Steht
+  // vorn, weil der übliche erste Suchbegriff hier nur der Vorsatz ist. Gilt
+  // auch für Comfy Movies: Dort ist der Teil hinter "|" der Originaltitel --
+  // als Suchbegriff mit Jahr genau richtig, nur nicht als angezeigter Titel.
+  const vorsatz = titelHinterVorsatz(video.title, {});
+  if (vorsatz) add(vorsatz.titel);
 
   add(info.query);
   add(stripActorPrefix(info.query));

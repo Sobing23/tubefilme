@@ -317,6 +317,16 @@ Ausgeschlossen werden außerdem Überschriften wie `Cast & Crew` (CiNENET) oder 
 
 **Zweite Stufe (10.10.2026):** 565 übernommene Filme trugen noch einen Werbesatz als Titel. Zusätzliche Regeln, in dieser Reihenfolge: `Den Spielfilm „X“` aus der Beschreibung (Moviedome, 488 von 606 Videos), Titel in „Anführungszeichen", Rohtitel-Schnitt nach `(JAHR)` und vor der Genre-Klammer, `Werbesatz: NAME` (Vorderteil mit Werbesignal), letztes Strich-Segment als Gattung/Label/„mit Person", Qualitätsanhängsel. Eine Teilangabe („Teil 1 von 2", „ERSTER TEIL") wird erhalten bzw. wieder angehängt — sonst hießen zwei Filme gleich. Ergebnis: 272 Titel bereinigt.
 
+**Vorsatz vor dem Titel (21.10.2026):** Bei manchen Videos steht vor dem Film ein Star, ein Genre oder ein Werbesatz. Bis dahin galt immer der Teil vor dem ersten `|` als Titel — die Bibliothek zeigte „Roy Rogers", „MARTIAL-ARTS-HIT" oder „Historisches Liebesdrama: DIE JUNGE KATHARINA". Und die TMDB-Suche bekam den Teil hinter dem `|` samt `(1939) [Western]`, fand also nichts. Die Regel steht einmal in `scripts/lib/titel-vorsatz.js` und wird von `match-tmdb.js`, `absorb-unmatched.js` und `fix-titles.js` genutzt:
+
+| Regel | Beispiel | Ergebnis |
+|---|---|---|
+| `Gattung: Titel` (≤ 5 Wörter vor dem Doppelpunkt, letztes endet auf ein Gattungswort; zuerst geprüft) | `SCI-FI-HORROR: Recreator (Cloned) (2012)` | Recreator (Cloned), 2012 |
+| Jahres-Segment: vorn kein Jahr, später `Titel (JAHR)` | `Roy Rogers \| Arizona Kid (1939) [Western]` | Arizona Kid, 1939 |
+| Genre-Vorsatz in Großbuchstaben, endet auf Gattungswort | `MARTIAL-ARTS-HIT \| Der Todesbiss der Gelben Schlange (…)` | Der Todesbiss der Gelben Schlange |
+
+Ist der gefundene Teil selbst nur Genre oder Werbung (`Martial-Arts Klassiker (1978)`, `Ganzer Film auf Deutsch (1984)`), greift die Regel nicht. Klammern mit einem Wort bleiben stehen („18 und immer (noch) Jungfrau"). **Ausnahme Comfy Movies** (Profil `pipeIstOriginaltitel`): Dort steht vorn der deutsche Titel und hinter dem `|` der Originaltitel — angezeigt wird der deutsche, gesucht wird mit beiden. `fix-titles.js` ersetzt einen bestehenden Titel nur, wenn er mit dem Vorsatz beginnt; ein schon guter Titel bleibt. Geprüft an allen 21.781 Kandidaten: im Bestand genau 19 Titel geändert, alle vorher falsch.
+
 **Grenze:** Bei manchen Kanälen — Volle Power Filme, Free Movies Deutschland, Deutsch Knallhart, Amelia, KinoWelt — nennen weder Titel noch Beschreibung je einen Filmnamen, nur Handlung. Solche Filme tragen `titelUnsicher`: Sie erscheinen nicht in den Startseiten-Reihen, stehen in `/alle` in jeder Sortierung hinten und sind im Review-Reiter **Werbetitel** gelistet. Am 10.10. waren das 354; der Großteil wurde von Hand aufgelöst (nächster Abschnitt), 90 bleiben markiert.
 
 ### Titel von Hand: `titel-korrekturen.json`
@@ -399,6 +409,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 | Schalter | Bedeutung |
 |---|---|
 | `pipeAlsTitelvariante` | Stehen hinter `\|` alternative Filmtitel (`true`, Standard) oder nur Genre- und Werbeangaben (`false`)? |
+| `pipeIstOriginaltitel` | `true`: Vorn steht der deutsche Titel, hinter `\|` der Originaltitel mit Jahr (Comfy Movies). Verhindert, dass die Vorsatz-Regel den Originaltitel anzeigt; gesucht wird trotzdem mit beiden. |
 | `nurMitDeutschHinweis` | `true`: Nur Videos, deren Titel oder Beschreibung „deutsch", „German version" oder „synchron" enthält. Für gemischtsprachige Kanäle. |
 | `ausschlussMuster` | Regulärer Ausdruck als Text; passende Titel werden aussortiert (z. B. Mehrteiler wie `Teil 3/4`, `1/6`). Gilt nur für diesen Kanal. |
 | `nurMitTmdb` | `true`: Videos ohne TMDB-Treffer werden **nicht** aus den YouTube-Angaben übernommen, sondern bleiben in `unmatched.json`. Für gemischte Kanäle, bei denen sonst Dokus, Reise- und Ratgebervideos in die Bibliothek kämen (weloadtv: „Serengeti von A–Z“, „Motorräder – Technik, Routen, Tipps“). |
@@ -423,7 +434,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | CinemaLegenden | keine Angabe | |
 | CiNENET Deutschland | UCM.ONE GmbH | ✓ |
 | COMEDYPIE | PLAION PICTURES | |
-| Comfy Movies | keine Angabe | |
+| Comfy Movies | keine Angabe | `pipeIstOriginaltitel` |
 | daredo TV | daredo (Filmvertrieb; Kanalbeschreibung ohne Impressum) | `ausschlussMuster` ([Sport], [Dokumentation]) |
 | daredo TV Action & Thriller | daredo (Filmvertrieb) | |
 | DEFA Filmwelt | DEFA-Stiftung | |

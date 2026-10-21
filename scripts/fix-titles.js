@@ -22,10 +22,16 @@
 // Werbemuster nicht mehr und werden nicht erneut angefasst.
 
 import fs from "fs/promises";
+import { titelHinterVorsatz } from "./lib/titel-vorsatz.js";
 
 const FILME_PATH = "data/filme.json";
 const CANDIDATES_PATH = "data/candidates.json";
 const KORREKTUREN_PATH = "data/titel-korrekturen.json";
+const CHANNELS_PATH = "config/channels.json";
+
+function normVergleich(s) {
+  return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+}
 
 function titelAusWerbung(titel) {
   if (!titel) return null;
@@ -359,6 +365,14 @@ async function main() {
   const beschreibungen = new Map(candidates.map((c) => [c.videoId, c.description]));
   KOPFZEILEN_KANAELE = ermittleKopfzeilenKanaele(candidates);
 
+  let profile = new Map();
+  try {
+    const ch = JSON.parse(await fs.readFile(CHANNELS_PATH, "utf-8")).channels || [];
+    profile = new Map(ch.map((c) => [c.channelId, c.profil || {}]));
+  } catch {
+    // ohne Kanalliste gelten die Standardwerte
+  }
+
   // Stufe 0: von Hand ermittelte Titel (data/titel-korrekturen.json).
   // Für Werbesatz-Titel, die keine Regel retten kann, wurde der Film aus
   // Handlung und Darstellern der Beschreibung bestimmt. Diese Einträge
@@ -398,11 +412,13 @@ async function main() {
 
     // Titel genau so bestimmen, wie absorb-unmatched.js es heute bei einer
     // Neuaufnahme täte.
+    const vorsatz = titelHinterVorsatz(roh, profile.get(film.channelId) || {});
     const echterTitel =
       titelAusWerbung(roh) ||
       (KOPFZEILEN_KANAELE.has(film.channelName)
         ? kopfzeileAusBeschreibung(rohBeschreibung, roh)
         : null) ||
+      (vorsatz ? vorsatz.titel : null) ||
       cleanTitle(roh, film.channelName);
     if (!echterTitel || echterTitel.length < 2 || echterTitel === film.title) continue;
     // Ergäbe die zweite Stufe aus dem neuen Titel wieder den jetzigen, ist
@@ -418,8 +434,15 @@ async function main() {
     //     entfernt werden ausschließlich Genre, Qualität, Darsteller, Jahr,
     //     Kanalname -- nie ein echter Untertitel.
     //  2. Der bisherige Titel ist erkennbar Müll.
+    //  3. Der bisherige Titel ist der Vorsatz vor dem eigentlichen Film
+    //     ("Roy Rogers" aus "Roy Rogers | Arizona Kid (1939)", siehe
+    //     scripts/lib/titel-vorsatz.js). Nur wenn der jetzige Titel mit dem
+    //     Vorsatz beginnt -- ein bereits guter Titel bleibt stehen.
     const nurAnhaengsel = film.title.startsWith(echterTitel);
-    if (!nurAnhaengsel && !istErkennbarMuell(film.title)) continue;
+    const ausVorsatz =
+      vorsatz && echterTitel === vorsatz.titel && normVergleich(film.title).startsWith(normVergleich(vorsatz.vorsatz));
+    if (!nurAnhaengsel && !istErkennbarMuell(film.title) && !ausVorsatz) continue;
+    if (ausVorsatz && vorsatz.jahr && !film.releaseDate) film.releaseDate = `${vorsatz.jahr}-01-01`;
 
     if (beispiele.length < 12) {
       beispiele.push({ alt: film.title, neu: echterTitel });
