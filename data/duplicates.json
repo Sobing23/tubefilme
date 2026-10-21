@@ -99137,86 +99137,6 @@
     "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
   },
   {
-    "videoId": "LYVD_tQ_1Ec",
-    "youtubeTitle": "True Justice I: Russisch Roulette – Ganzer Actionfilm mit Steven Seagal auf Deutsch kostenlos in HD",
-    "channelName": "Free Films Action",
-    "tmdbId": 38239,
-    "title": "On Sight",
-    "bereitsVorhandenAufKanal": "Free Films Action"
-  },
-  {
-    "videoId": "6AOvUWH-C7k",
-    "youtubeTitle": "Die Melodie der Liebe (LIEBESKOMÖDIE in voller Länge, Liebesdrama Filme auf Deutsch, neue Filme)",
-    "channelName": "Netzkino",
-    "tmdbId": 322810,
-    "title": "Broken Chains",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "AM0yW2xPZ1A",
-    "youtubeTitle": "American Soldiers - Ein Tag im Irak (Action, Kriegsfilm, ganzer Film, kompletter Film) *HD*",
-    "channelName": "Netzkino",
-    "tmdbId": 41497,
-    "title": "American Soldiers - Ein Tag im Irak",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "E8zDUXLQWiw",
-    "youtubeTitle": "JET LI - KUNG FU CULT MASTER - Martial-Arts, Actionfilm - Ganzer Film kostenlos bei Moviedome",
-    "channelName": "Moviedome",
-    "tmdbId": 10852,
-    "title": "The Kung Fu Cult Master",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "H-THa9EbgIU",
-    "youtubeTitle": "ROBIN WILLIAMS in: The Night Listener - Mysteryfilm mit Rory Culkin - Ganzer Film kostenlos in HD",
-    "channelName": "Moviedome",
-    "tmdbId": 9782,
-    "title": "The Night Listener - Der nächtliche Lauscher",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "m1m7S3YVIP4",
-    "youtubeTitle": "JET LI in: FLYING SWORDS OF DRAGON GATE - fulminantes Abenteuer-Epos - Ganzer Film",
-    "channelName": "Moviedome",
-    "tmdbId": 81870,
-    "title": "Flying Swords of Dragon Gate",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "VuheTRWZlt4",
-    "youtubeTitle": "Mekong Rush - Renn um dein Leben - fesselnder Verfolgungs-Thriller - Ganzer Film in HD - Moviedome",
-    "channelName": "Moviedome",
-    "tmdbId": 353732,
-    "title": "Mekong Rush – Renn um dein Leben",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "T1kTwtn0nns",
-    "youtubeTitle": "Der wilder Haufen von Navaronne | kompletter Film | Deutsch",
-    "channelName": "Sony Pics at Home DE",
-    "tmdbId": 17339,
-    "title": "Der wilde Haufen von Navarone",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "mAdNdnugBZU",
-    "youtubeTitle": "Die Abendheuer des Baron von Münchhausen | kompletter Film | Deutsch",
-    "channelName": "Sony Pics at Home DE",
-    "tmdbId": 14506,
-    "title": "Die Abenteuer des Baron Münchhausen",
-    "bereitsVorhandenAufKanal": "CineCult Reloaded"
-  },
-  {
-    "videoId": "cNtqUE1ec7g",
-    "youtubeTitle": "Verliebt in den Mitbewohner: Wenn Freundschaft die Grenzen der Liebe überschreitet | Constantin-Film",
-    "channelName": "Free Movies Deutschland",
-    "tmdbId": 372288,
-    "title": "Gut zu Vögeln",
-    "bereitsVorhandenAufKanal": "FABELLA"
-  },
-  {
     "videoId": "MHEJ54q7a-0",
     "youtubeTitle": "Frau Holle - Hörspiel",
     "channelName": "weloadtv",
@@ -99310,6 +99230,278 @@
     "channelName": "daredo TV",
     "tmdbId": 32978,
     "title": "Blood Snow",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "LYVD_tQ_1Ec",
+    "youtubeTitle": "True Justice I: Russisch Roulette – Ganzer Actionfilm mit Steven Seagal auf Deutsch kostenlos in HD",
+    "channelName": "Free Films Action",
+    "tmdbId": 38239,
+    "title": "On Sight",
+    "bereitsVorhandenAufKanal": "Free Films Action"
+  },
+  {
+    "videoId": "6AOvUWH-C7k",
+    "youtubeTitle": "Die Melodie der Liebe (LIEBESKOMÖDIE in voller Länge, Liebesdrama Filme auf Deutsch, neue Filme)",
+    "channelName": "Netzkino",
+    "tmdbId": 322810,
+    "title": "Broken Chains",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "AM0yW2xPZ1A",
+    "youtubeTitle": "American Soldiers - Ein Tag im Irak (Action, Kriegsfilm, ganzer Film, kompletter Film) *HD*",
+    "channelName": "Netzkino",
+    "tmdbId": 41497,
+    "title": "American Soldiers - Ein Tag im Irak",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "E8zDUXLQWiw",
+    "youtubeTitle": "JET LI - KUNG FU CULT MASTER - Martial-Arts, Actionfilm - Ganzer Film kostenlos bei Moviedome",
+    "channelName": "Moviedome",
+    "tmdbId": 10852,
+    "title": "The Kung Fu Cult Master",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "H-THa9EbgIU",
+    "youtubeTitle": "ROBIN WILLIAMS in: The Night Listener - Mysteryfilm mit Rory Culkin - Ganzer Film kostenlos in HD",
+    "channelName": "Moviedome",
+    "tmdbId": 9782,
+    "title": "The Night Listener - Der nächtliche Lauscher",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "m1m7S3YVIP4",
+    "youtubeTitle": "JET LI in: FLYING SWORDS OF DRAGON GATE - fulminantes Abenteuer-Epos - Ganzer Film",
+    "channelName": "Moviedome",
+    "tmdbId": 81870,
+    "title": "Flying Swords of Dragon Gate",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "VuheTRWZlt4",
+    "youtubeTitle": "Mekong Rush - Renn um dein Leben - fesselnder Verfolgungs-Thriller - Ganzer Film in HD - Moviedome",
+    "channelName": "Moviedome",
+    "tmdbId": 353732,
+    "title": "Mekong Rush – Renn um dein Leben",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "T1kTwtn0nns",
+    "youtubeTitle": "Der wilder Haufen von Navaronne | kompletter Film | Deutsch",
+    "channelName": "Sony Pics at Home DE",
+    "tmdbId": 17339,
+    "title": "Der wilde Haufen von Navarone",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "mAdNdnugBZU",
+    "youtubeTitle": "Die Abendheuer des Baron von Münchhausen | kompletter Film | Deutsch",
+    "channelName": "Sony Pics at Home DE",
+    "tmdbId": 14506,
+    "title": "Die Abenteuer des Baron Münchhausen",
+    "bereitsVorhandenAufKanal": "CineCult Reloaded"
+  },
+  {
+    "videoId": "cNtqUE1ec7g",
+    "youtubeTitle": "Verliebt in den Mitbewohner: Wenn Freundschaft die Grenzen der Liebe überschreitet | Constantin-Film",
+    "channelName": "Free Movies Deutschland",
+    "tmdbId": 372288,
+    "title": "Gut zu Vögeln",
+    "bereitsVorhandenAufKanal": "FABELLA"
+  },
+  {
+    "videoId": "xh75bK9JRlU",
+    "youtubeTitle": "Bram Stoker's Dracula (Horrorfilme auf Deutsch)",
+    "channelName": "weloadtv",
+    "tmdbId": 86889,
+    "title": "Dracula",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "CN3df2LakFQ",
+    "youtubeTitle": "The Dead - Der Film in HD",
+    "channelName": "weloadtv",
+    "tmdbId": 747,
+    "title": "Shaun of the Dead",
+    "bereitsVorhandenAufKanal": "weloadtv"
+  },
+  {
+    "videoId": "mgNKGKXKILw",
+    "youtubeTitle": "La Cucaracha - Spiel ohne Regeln (Desperato Fighter)",
+    "channelName": "weloadtv",
+    "tmdbId": 87677,
+    "title": "La Cucaracha - Spiel ohne Regeln",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "465RlvFd8C0",
+    "youtubeTitle": "Temptation",
+    "channelName": "weloadtv",
+    "tmdbId": 601996,
+    "title": "Temptation",
+    "bereitsVorhandenAufKanal": "weloadtv"
+  },
+  {
+    "videoId": "5ReBElv9WNU",
+    "youtubeTitle": "König Drosselbart - DEFA- Märchen (ganzer Film auf Deutsch) - HD",
+    "channelName": "DEFA Filmwelt",
+    "tmdbId": 399487,
+    "title": "König Drosselbart",
+    "bereitsVorhandenAufKanal": "Fantasja"
+  },
+  {
+    "videoId": "XBQRYy4vN8I",
+    "youtubeTitle": "Das Phantom der Oper",
+    "channelName": "CiNENET Deutschland",
+    "tmdbId": 86962,
+    "title": "Das Phantom der Oper",
+    "bereitsVorhandenAufKanal": "Artflix"
+  },
+  {
+    "videoId": "kfRfLPMmrhg",
+    "youtubeTitle": "Black Beauty: Die Legende lebt weiter (PFERDEFILM I ganzer Film in voller Länge, Film mit Pferden)",
+    "channelName": "Fantasja",
+    "tmdbId": 157925,
+    "title": "Black Beauty - Die Legende lebt weiter",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "PejNPH--dm8",
+    "youtubeTitle": "Diesen ganzen Actionfilm musst du sehen: Getaway - mit Ethan Hawke & Selena Gomez - bei Moviedome",
+    "channelName": "Moviedome",
+    "tmdbId": 146227,
+    "title": "Getaway",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "PI-q89_VNeo",
+    "youtubeTitle": "Humphrey Bogart | Call it Murder (1934) [Drama] | ganzer Film (deutsch)",
+    "channelName": "CiNENET Deutschland",
+    "tmdbId": 42752,
+    "title": "Call It Murder",
+    "bereitsVorhandenAufKanal": "Artflix"
+  },
+  {
+    "videoId": "4DvkzgBGafc",
+    "youtubeTitle": "Rob Lowe | One Hell of a Guy (2000) [Komödie] | ganzer Film (deutsch)",
+    "channelName": "CiNENET Deutschland",
+    "tmdbId": 61679,
+    "title": "Ein höllisch guter Engel",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "7R76uhGEJEQ",
+    "youtubeTitle": "Spannender PSYCHOTHRILLER: Mary Higgins Clark: Dass du ewig denkst an mich | Mystery Filme DEUTSCH",
+    "channelName": "Movies Select",
+    "tmdbId": 126960,
+    "title": "Dass du ewig denkst an mich",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "b0iwD1Ne774",
+    "youtubeTitle": "Spider - Mysteryfilm mit RALPH FIENNES von DAVID CRONENBERG - Ganzer Film bei Moviedome",
+    "channelName": "Moviedome",
+    "tmdbId": 9613,
+    "title": "Spider",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "e2VM-AC8qzI",
+    "youtubeTitle": "Science Fiction ACTIONFILM: Android Insurrection (2012) (HD)",
+    "channelName": "Utopja",
+    "tmdbId": 111234,
+    "title": "Android Insurrection",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "6N0oH4y7LXI",
+    "youtubeTitle": "WESTERN LEGENDENFILM | Mein Leben hängt an einem Dollar (Westernfilm auf Deutsch schauen)",
+    "channelName": "Bronco",
+    "tmdbId": 144972,
+    "title": "Mein Leben hängt an einem Dollar",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "X-Bzj-AEr3s",
+    "youtubeTitle": "Actionreicher Thriller: Airline Disaster - Terroranschlag an Bord  (2010) | ganzer Film (deutsch) ᴴᴰ",
+    "channelName": "daredo TV",
+    "tmdbId": 41409,
+    "title": "Airline Disaster – Terroranschlag an Bord",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "SsxU9cUIg2Y",
+    "youtubeTitle": "Actionreicher Neo-Western: 6 Guns (2010) [Western] | ganzer Film (deutsch) ᴴᴰ",
+    "channelName": "daredo TV",
+    "tmdbId": 29776,
+    "title": "6 Guns",
+    "bereitsVorhandenAufKanal": "Dzango"
+  },
+  {
+    "videoId": "kFCmtmcwjLA",
+    "youtubeTitle": "Spannender Endzeit Action Movie: 2012 Armageddon (2007) [Action] | ganzer Film (deutsch) ᴴᴰ",
+    "channelName": "daredo TV",
+    "tmdbId": 19967,
+    "title": "2012 - Armageddon",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "v9izZw_QoEc",
+    "youtubeTitle": "Highschool Komödie: 18 und immer (noch) Jungfrau (2011) [Komödie] | ganzer Film (deutsch) ᴴᴰ",
+    "channelName": "daredo TV",
+    "tmdbId": 76815,
+    "title": "18 und immer (noch) Jungfrau",
+    "bereitsVorhandenAufKanal": "Dzango"
+  },
+  {
+    "videoId": "PDki6CvPw-M",
+    "youtubeTitle": "Highschool Komödie: 18 Year old Virgin (2009) [Komödie] | ganzer Film (deutsch)",
+    "channelName": "daredo TV",
+    "tmdbId": 14912,
+    "title": "18 Year Old Virgin",
+    "bereitsVorhandenAufKanal": "weloadtv"
+  },
+  {
+    "videoId": "MVAY47naq5Y",
+    "youtubeTitle": "Actionreicher SciFi-Fantasy Movie: Princess of Mars (2009) [Sci-Fi-Fantasy] | Film (deutsch) ᴴᴰ",
+    "channelName": "daredo TV",
+    "tmdbId": 28524,
+    "title": "Princess of Mars",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "dX_4MOVmagU",
+    "youtubeTitle": "John Wayne | Flussabwärts (1934) [Western] | Film (deutsch)",
+    "channelName": "daredo TV",
+    "tmdbId": 40799,
+    "title": "Flussabwärts",
+    "bereitsVorhandenAufKanal": "Grjngo Westernfilme"
+  },
+  {
+    "videoId": "umqonZSMpog",
+    "youtubeTitle": "Roy Rogers | Arizona Kid (1939) [Western] | Film (deutsch)",
+    "channelName": "daredo TV",
+    "tmdbId": 151184,
+    "title": "Arizona Kid",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "FWKKM8izBQg",
+    "youtubeTitle": "Humphrey Bogart | Call it Murder (1934) [Drama] | Film (deutsch)",
+    "channelName": "daredo TV",
+    "tmdbId": 42752,
+    "title": "Call It Murder",
+    "bereitsVorhandenAufKanal": "Artflix"
+  },
+  {
+    "videoId": "lLYAwpWKtL4",
+    "youtubeTitle": "Rob Lowe | One Hell of a Guy (2000) [Komödie] | Film (deutsch)",
+    "channelName": "daredo TV",
+    "tmdbId": 61679,
+    "title": "Ein höllisch guter Engel",
     "bereitsVorhandenAufKanal": "CiNENET Deutschland"
   }
 ]

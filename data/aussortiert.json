@@ -7028,5 +7028,21 @@
     "videoId": "8LddMLATu_o",
     "youtubeTitle": "Sherlock Holmes - Das Cunningham Erbe (1954) [Krimi] | Film (deutsch)",
     "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "unmatched.json",
+    "grund": "unter 40 Minuten und bei TMDB nicht gefunden -- kein Spielfilm",
+    "videoId": "OjW701e7bNk",
+    "youtubeTitle": "Arche Noah - Die Geschichte der Sintflut (2014) [Zeichentrick] | Film (deutsch)",
+    "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "unmatched.json",
+    "grund": "unter 40 Minuten und bei TMDB nicht gefunden -- kein Spielfilm",
+    "videoId": "RQRi9az1EKQ",
+    "youtubeTitle": "Frau Holle (2011) [Zeichentrick] | Film (deutsch)",
+    "channelName": "daredo TV"
   }
 ]

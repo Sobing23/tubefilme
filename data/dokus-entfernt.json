@@ -3652,5 +3652,65 @@
     "title": "John Wayne - Eine amerikanische Legende",
     "tmdbId": 483873,
     "channelName": "Bronco"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "BcEKrzbT1M8",
+    "youtubeTitle": "JOHN WAYNE – Highnoon in Helltown 🤠 Früher Western-Klassiker - Ganzer Film Deutsch",
+    "title": "John Wayne: Cowboys & Demons",
+    "tmdbId": 1203135,
+    "channelName": "Draco Actionfilme"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "aWhAX5WPiRk",
+    "youtubeTitle": "Dark Legacy (Horror, Mystery, KURZFILM, ganzer Film, HD)",
+    "title": "Shadows in the Dark: The Val Lewton Legacy",
+    "tmdbId": 62912,
+    "channelName": "Screamtime"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "pvhDG240Is0",
+    "youtubeTitle": "Tony Curtis: Das Manuskript (Thriller in voller Länge)",
+    "title": "Tony Curtis on 'Some Like It Hot'",
+    "tmdbId": 228359,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "RFiqoYUMidM",
+    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 3 – Der Tanz (brilliante ROMANZE auf Deutsch)",
+    "title": "Riot on the Dance Floor",
+    "tmdbId": 266056,
+    "channelName": "Wolkesieben"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "knMzZ2DS0Vo",
+    "youtubeTitle": "Bruce Lee - Das Spiel des Todes (Actionfilme I ganze Spielfilme auf Deutsch, kostenlose Filme)",
+    "title": "Der wahre Bruce Lee",
+    "tmdbId": 54844,
+    "channelName": "Hakunan"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "q7BDgQwb_XA",
+    "youtubeTitle": "JOHN WAYNE – US MARSHAL JOHN: John Wayne jagt eine geheimnisvolle Bande (Western | Action)",
+    "title": "John Wayne on Film",
+    "tmdbId": 416218,
+    "channelName": "Bronco"
   }
 ]
