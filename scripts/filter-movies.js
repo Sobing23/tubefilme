@@ -48,6 +48,28 @@ const DOKU_KEYWORDS = /\bdokus?\b|dokumentation|dokumentarfilm|documentary|\brep
 export const DOKU_SELBSTBESCHREIBUNG =
   /\b(?:diese[rsn]?|in\s+diese[rmn]|vorliegende[n]?|unsere[rn]?)\s+(?:[\wäöüß-]+\s+){0,2}?(?:[\wäöüß]*-)?(?:dokumentation|dokumentarfilm|naturdokumentation|tierdokumentation|videodokumentation|dokumentationsreihe)\w*/i;
 
+// Interviews mit Darstellern (21.10.2026: "Fünf Freunde | Interview mit
+// Marcus Harris | Schauspieler", 42 Minuten, stand als Spielfilm "Fünf
+// Freunde" in der Bibliothek -- die Besetzung passte ja). Gesucht wird nur in
+// den Titelteilen NACH dem ersten, damit "Interview mit einem Vampir", "The
+// Interview" und "An Interview with God" nie getroffen werden. In einem
+// späteren Teil zählt:
+//   - "Interview" am Anfang oder Ende ("Interview 03", "Cast Interview")
+//     -- ausgenommen "Interview mit ...", das nur zählt, wenn ein Personen-
+//     name folgt ("Interview mit Marcus Harris", nicht "... mit dem Tod")
+//   - "im Interview"
+// Geprüft an allen 29.500 Videotiteln: kein Spielfilm getroffen.
+export function istInterview(titel) {
+  return (titel || "")
+    .split(/\s*[|–—:]\s*|\s+-\s+/)
+    .slice(1)
+    .map((s) => s.trim())
+    .some((s) => {
+      if (/^interview mit\s/i.test(s)) return /^[Ii]nterview mit\s+[A-ZÄÖÜ][\p{Ll}.'-]+\s+[A-ZÄÖÜ]/u.test(s);
+      return /^interviews?\b|\binterviews?$|\bim interview\b/i.test(s);
+    });
+}
+
 const SERIES_KEYWORDS = /\bfolgen?\b|\bstaffel\b|miniserie|\bserie\b|\bepisoden?\b|\bwebserie\b/i;
 
 function parseDuration(iso) {
@@ -82,6 +104,9 @@ function classify(video, profil) {
   }
   if (PROMO_KEYWORDS.test(video.title)) {
     return { include: false, reason: "Trailer/Teaser/Clip im Titel" };
+  }
+  if (istInterview(video.title)) {
+    return { include: false, reason: "Interview (kein Spielfilm)" };
   }
   if (SERIES_KEYWORDS.test(video.title)) {
     return { include: false, reason: "Serienfolge (Schlüsselwort im Titel)" };

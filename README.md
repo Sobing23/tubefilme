@@ -42,7 +42,7 @@ config/
 
 scripts/
   fetch-youtube.js       Videos je Kanal einsammeln (inkrementell)
-  filter-movies.js       Shorts, Trailer, Serienfolgen aussortieren
+  filter-movies.js       Shorts, Trailer, Serienfolgen, Interviews aussortieren
   match-tmdb.js          TMDB-Zuordnung -- das Herzstück
   verify-plausibility.js Zuordnungen in Stufen belegen, unbelegte neu suchen
   cleanup-matches.js     Sicherheitsnetz gegen doppelte tmdbIds
@@ -655,6 +655,7 @@ Alles hier ist mindestens einmal schiefgegangen.
 - **Reine Jahreszahlen sind keine Titelvarianten** — aber nur hinter einem Strich. Am Titelanfang („1917") sind sie Teil des Titels. Die erste Fassung der Bereinigung schnitt beides ab; aufgefallen erst im Vergleich alt gegen neu.
 - **„Originaltitel:" steht nicht immer in einer eigenen Zeile.** Kino Deutsch, Alle Filme Auf Deutsch, Deutsch Film Hub u. a. schreiben im Fließtext: `Der Swimmingpool (Originaltitel: La Piscine, 1969), das ikonische …`. Ohne Bereinigung wurde der Rest des Satzes zum Suchbegriff (bis über 1.200 Zeichen, TMDB lehnt über 500 mit Fehler 400 ab). Jetzt wird bei `, JAHR)` bzw. einer ungeöffneten `)` abgeschnitten; zusätzlich werden Suchbegriffe über 150 Zeichen nie gesendet.
 - **Klammern vor dem Trennen an `|` bereinigen und klammerbewusst trennen.** Sonst entstehen halbe Klammern wie `World War II Inferno (KRIEGSFILM`.
+- **Interviews mit Darstellern sehen für die Prüfung wie der Film aus.** „Fünf Freunde | Interview mit Marcus Harris“ (42 min) stand als Spielfilm „Fünf Freunde“ da — die Besetzung passte ja. `filter-movies.js` sortiert seit 21.10.2026 Interviews aus (`istInterview`): nur in Titelteilen **nach** dem ersten, damit „Interview mit einem Vampir“, „The Interview“ und „An Interview with God“ nie getroffen werden; „Interview mit …“ zählt nur mit Personennamen danach (nicht „… – Interview mit dem Tod“). An allen 29.599 Videotiteln geprüft: genau zwei Treffer über der Mindestlänge, beide Interviews.
 - **Neue Filterregeln wirken nicht von selbst rückwirkend.** `match-tmdb.js` fasst verarbeitete Videos nie wieder an; ohne `prune-excluded.js` bleibt alles in der Bibliothek, was vor der Regel aufgenommen wurde. Und nach zwei Läufen übernimmt `absorb-unmatched.js` alles Unauffindbare — Regeln für neue Kanäle also **vor** dem zweiten Scan setzen. Am 10.10. landeten so 32 Interviews, TV-Shows und Serienfolgen in der Bibliothek.
 - **Gleichlautende Logik in mehreren Skripten nach dem Kopieren durchzählen.** Beim Übertragen der Kopfzeilen-Regel ging sie in einer Datei verloren; aufgefallen ist es nur, weil die Zahl der betroffenen Kanäle nachgeprüft wurde.
 
