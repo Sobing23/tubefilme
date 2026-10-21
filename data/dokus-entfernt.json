@@ -3602,5 +3602,55 @@
     "title": "Entführt",
     "tmdbId": 487989,
     "channelName": "daredo TV"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "pvhDG240Is0",
+    "youtubeTitle": "Tony Curtis: Das Manuskript (Thriller in voller Länge)",
+    "title": "The Jill & Tony Curtis Story",
+    "tmdbId": 276093,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "Ku-sF1SANX4",
+    "youtubeTitle": "Der 2 Weltkrieg - Die komplette Geschichte: Krieg in Deutschland, Atombomben in Japan und Kriegsende",
+    "title": "Der 2. Weltkrieg - Die komplette Geschichte",
+    "tmdbId": 651529,
+    "channelName": "weloadtv"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "17u968J1yu8",
+    "youtubeTitle": "Bruce Lee - Das Spiel des Todes (Asiakino, spannende Martial-Arts Filme anschauen, kostenlose Filme)",
+    "title": "Der wahre Bruce Lee",
+    "tmdbId": 54844,
+    "channelName": "Hakunan"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "0HsHRsxb-Es",
+    "youtubeTitle": "Ocean Odyssey – Blue Realm Toxic Invaders (TIERDOKU I ganze Familienfilme auf Deutsch anschauen)",
+    "title": "Ocean Odyssey",
+    "tmdbId": 56004,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-21",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "q7BDgQwb_XA",
+    "youtubeTitle": "JOHN WAYNE – US MARSHAL JOHN: John Wayne jagt eine geheimnisvolle Bande (Western | Action)",
+    "title": "John Wayne - Eine amerikanische Legende",
+    "tmdbId": 483873,
+    "channelName": "Bronco"
   }
 ]
