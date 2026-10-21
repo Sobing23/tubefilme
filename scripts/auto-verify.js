@@ -17,6 +17,7 @@
 //                   nicht entscheidbaren Fälle anzeigt
 
 import fs from "fs/promises";
+import { personenAnteil } from "./lib/namen.js";
 
 const FILME_PATH = "data/filme.json";
 const UNMATCHED_PATH = "data/unmatched.json";
@@ -69,17 +70,10 @@ function erwartetePersonen(youtubeTitle, desc) {
   return namen.slice(0, 6);
 }
 
+// Abgleich in scripts/lib/namen.js (seit 21.10.2026 ohne reinen
+// Nachnamen-Treffer bei widersprechendem Vornamen).
 function namenTreffer(erwartet, vorhanden) {
-  if (!erwartet.length || !vorhanden.length) return null;
-  const heuhaufen = vorhanden.map(normalizeName).join(" | ");
-  const treffer = erwartet.filter((n) => {
-    const nn = normalizeName(n);
-    if (!nn) return false;
-    if (heuhaufen.includes(nn)) return true;
-    const nachname = nn.split(" ").pop();
-    return nachname && nachname.length > 3 && heuhaufen.includes(nachname);
-  }).length;
-  return treffer / erwartet.length;
+  return personenAnteil(erwartet, vorhanden);
 }
 
 

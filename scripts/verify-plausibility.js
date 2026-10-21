@@ -30,6 +30,7 @@
 // ausgenommen. Protokoll der Verwerfungen: data/aussortiert.json.
 
 import fs from "fs/promises";
+import { extractPeople, personenAnteil } from "./lib/namen.js";
 
 const FILME_PATH = "data/filme.json";
 const CANDIDATES_PATH = "data/candidates.json";
@@ -41,7 +42,11 @@ const TMDB_BASE = "https://api.themoviedb.org/3";
 // älterer (oder ohne) Version werden erneut geprüft. Version 2 (11.10.2026):
 // Vergleich in beide Richtungen, keine Ein-Wort-Treffer gegen den Fließtext.
 // Version 3 (13.10.2026): Laufzeit-Widerspruch auch bei Videos unter 40 min.
-const PRUEF_VERSION = 3;
+// Version 4 (21.10.2026): Besetzung nach scripts/lib/namen.js (Nachname
+// allein reicht nicht, wenn der Vorname widerspricht), Personen auch aus dem
+// Videotitel ("mit Keith Carradine"); der Hinweistext einer früheren Suche
+// zählt nur noch, wenn das Video gar keine Namen nennt.
+const PRUEF_VERSION = 4;
 const BEARER_TOKEN = process.env.TMDB_BEARER_TOKEN;
 const DELAY_MS = 120;
 const NUR_PRUEFEN = process.argv.includes("--nur-pruefen"); // nichts schreiben, nur berichten
@@ -316,16 +321,33 @@ function personenAusBeschreibung(desc) {
 }
 
 function personenPassen(erwartet, gespeichert) {
-  if (!erwartet.length || !gespeichert.length) return false;
-  const hay = norm(gespeichert.join(" | "));
-  const treffer = erwartet.filter((n) => {
-    const nn = norm(n);
-    if (!nn) return false;
-    if (hay.includes(nn)) return true;
-    const nach = nn.split(" ").pop();
-    return nach && nach.length > 3 && hay.includes(nach);
-  }).length;
-  return treffer / erwartet.length >= 0.34;
+  return (personenAnteil(erwartet, gespeichert) ?? 0) >= 0.34;
+}
+
+// Alle Namen, die das Video nennt: Beschreibung ("Mit:", "Darsteller:",
+// "Regie:") und Videotitel ("mit Nicole Kidman & Sebastian Stan").
+function personenAusVideo(desc, titel) {
+  const p = extractPeople(desc, titel);
+  return [...new Set([...personenAusBeschreibung(desc), ...p.cast, ...p.directors])];
+}
+
+// Volle Besetzung (15 Namen) und Regie bei TMDB. In filme.json stehen nur
+// fünf Hauptdarsteller -- nennt die Beschreibung Nebenrollen, fände sich
+// dort kein Treffer.
+async function tmdbPersonen(tmdbId) {
+  const res = await fetch(`${TMDB_BASE}/movie/${tmdbId}/credits`, {
+    headers: { Authorization: `Bearer ${BEARER_TOKEN}`, accept: "application/json" },
+  });
+  if (res.status === 429) {
+    await sleep(1000);
+    return tmdbPersonen(tmdbId);
+  }
+  if (!res.ok) throw new Error(`TMDB Fehler ${res.status}`);
+  const json = await res.json();
+  return [
+    ...(json.cast || []).slice(0, 15).map((c) => c.name),
+    ...(json.crew || []).filter((c) => c.job === "Director").map((c) => c.name),
+  ];
 }
 
 async function alternativtitel(tmdbId) {
@@ -361,6 +383,27 @@ async function main() {
   let fehler = 0;
   let anfragen = 0;
 
+  // Besetzungsstufe: erst gegen die gespeicherten fünf Hauptdarsteller, dann
+  // gegen die volle TMDB-Besetzung. Der Hinweis "Besetzung/Regie stimmen mit
+  // den Angaben im Video überein" einer früheren Suche zählt nur, wenn das
+  // Video keinen einzigen Namen nennt -- dann kann nichts widersprechen.
+  // Bis 21.10.2026 zählte er immer; so blieb "The Dead" als "Shaun of the
+  // Dead" stehen, weil die Suche "Rob Freeman" für Martin Freeman hielt.
+  let besetzungsAnfragen = 0;
+  async function besetzungPasst(m, erwartet) {
+    if (erwartet.length === 0) return /stimmen mit/.test(m.hinweis || "");
+    if (personenPassen(erwartet, [...(m.cast || []), ...(m.director || [])])) return true;
+    if (NUR_PRUEFEN) return false;
+    try {
+      besetzungsAnfragen++;
+      const voll = await tmdbPersonen(m.tmdbId);
+      await sleep(DELAY_MS);
+      return personenPassen(erwartet, voll);
+    } catch {
+      return null; // TMDB nicht erreichbar -- Eintrag bleibt vorerst
+    }
+  }
+
   const behalten = [];
   for (const m of filme) {
     const geprueft = m.plausibel && m.plausibelVersion === PRUEF_VERSION;
@@ -384,14 +427,20 @@ async function main() {
     const widerspruch = laufzeitWiderspricht(m) || jahrWiderspricht(m, jahre);
 
     let stufe = null;
+    let besetzung = false;
     if (!widerspruch && titelPasst(m, kandidaten, jahre)) {
       stufe = "titel";
     } else if (!widerspruch && korrektur && (passt(m.title, korrektur) || passt(m.originalTitle, korrektur))) {
       stufe = "korrekturtitel";
     } else if (!widerspruch && ot && (passt(m.title, ot) || passt(m.originalTitle, ot))) {
       stufe = "originaltitel";
-    } else if (/stimmen mit/.test(m.hinweis || "") || personenPassen(personenAusBeschreibung(desc), [...(m.cast || []), ...(m.director || [])])) {
+    } else if ((besetzung = await besetzungPasst(m, personenAusVideo(desc, m.youtubeTitle))) === true) {
       stufe = "besetzung";
+    } else if (besetzung === null) {
+      fehler++;
+      console.log(`   Fehler bei "${m.title}": Besetzung bei TMDB nicht abrufbar -- bleibt vorerst`);
+      behalten.push(m);
+      continue;
     } else if (!widerspruch && !NUR_PRUEFEN) {
       try {
         anfragen++;
@@ -452,7 +501,7 @@ async function main() {
   }
 
   console.log(`Plausibilität geprüft (${uebersprungen} bereits früher bestätigt übersprungen)`);
-  console.log(`Bestätigt über Titel: ${stufen.titel}, Korrekturtitel: ${stufen.korrekturtitel}, Originaltitel: ${stufen.originaltitel}, Besetzung: ${stufen.besetzung}, Alternativtitel: ${stufen.alternativtitel} (${anfragen} TMDB-Anfragen)`);
+  console.log(`Bestätigt über Titel: ${stufen.titel}, Korrekturtitel: ${stufen.korrekturtitel}, Originaltitel: ${stufen.originaltitel}, Besetzung: ${stufen.besetzung}, Alternativtitel: ${stufen.alternativtitel} (${anfragen} TMDB-Anfragen Alternativtitel, ${besetzungsAnfragen} Besetzung)`);
   console.log(`${NUR_PRUEFEN ? "Würden verworfen" : "Verworfen, werden neu gesucht"}: ${verworfen.length}${fehler ? ` (${fehler} Fehler, bleiben vorerst)` : ""}, davon Laufzeit-Widerspruch: ${verworfen.filter(laufzeitWiderspricht).length}, Jahr-Widerspruch: ${verworfen.filter((m) => jahrWiderspricht(m, videoJahre(m, (candById.get(m.videoId) || {}).description || ""))).length}`);
   for (const m of verworfen) {
     const jv = videoJahre(m, (candById.get(m.videoId) || {}).description || "");

@@ -22,6 +22,7 @@
 
 import fs from "fs/promises";
 import { titelHinterVorsatz } from "./lib/titel-vorsatz.js";
+import { extractPeople, personenAnteil } from "./lib/namen.js";
 
 // -- Anbieter-Profile --
 //
@@ -106,62 +107,7 @@ function stripTrailingYear(text) {
   return text.replace(/\s*\(\d{4}\)\s*$/, "").trim();
 }
 
-// Zieht die Schauspieler aus der "Mit: A; B; C"-Zeile der Beschreibung
-// (72% der Videos haben eine) und die Regie aus "Regie: X" (88%). Beides
-// sind starke, bisher ungenutzte Signale, um zwischen mehreren ähnlich
-// betitelten TMDB-Treffern den richtigen zu finden.
-// Entfernt Klammer-Zusätze aus einer Besetzungszeile, BEVOR an Kommata
-// getrennt wird. Manche Kanäle nennen zu jedem Darsteller seine bekanntesten
-// Filme: "Mit: Odessa Young (The Professor, Shirley), Abra (Abra: Fruit)".
-// Ohne diese Bereinigung zerfiele das beim Trennen zu unbrauchbaren
-// Bruchstücken wie "Odessa Young (The Professor" und "Shirley)".
-function stripKlammerZusaetze(zeile) {
-  return (zeile || "").replace(/\([^)]*\)/g, " ").replace(/\s{2,}/g, " ").trim();
-}
-
-function extractPeople(desc, title) {
-  const cast = [];
-  // "Mit:" (Netzkino & Co.) oder "Darsteller:" (Free Films Action) --
-  // unterschiedliche Kanäle, gleiches Feld.
-  const castLine = desc.match(/^\s*(?:Mit|Darsteller):\s*(.+)$/m);
-  if (castLine) {
-    stripKlammerZusaetze(castLine[1])
-      .split(/[;,]/)
-      .map((s) => s.trim())
-      .filter((s) => s.length > 2 && s.length < 60)
-      .forEach((s) => cast.push(s));
-  }
-
-  // Manche Kanäle nennen die Besetzung ausschließlich im Videotitel:
-  //   "Destroyer – mit Nicole Kidman & Sebastian Stan, ganzer Film ..."
-  //   "Hijacking – ganzer Thriller mit GOT-Star Pilou Asbæk, ..."
-  // Ohne diese Quelle blieben solche Filme ungeprüft -- und genau dort sind
-  // Fehltreffer bei gleichnamigen Filmen entstanden (z.B. "Night Moves"
-  // 1975 statt 2013).
-  const titleCast = (title || "").match(/\bmit\s+([^,–—(|]{4,70})/i);
-  if (titleCast) {
-    titleCast[1]
-      .split(/\s*&\s*|\s+und\s+/i)
-      .map((s) => s.replace(/^[A-ZÄÖÜ0-9]+-Star\s+/i, "").trim())
-      // nur echte Personennamen (Vor- UND Nachname groß geschrieben) --
-      // verhindert, dass Titelbestandteile wie "mit dem goldenen Colt"
-      // fälschlich als Schauspieler gelesen werden
-      .filter((s) => /^[A-ZÄÖÜ][\wäöüß.'-]*\s+[A-ZÄÖÜ]/.test(s))
-      .forEach((s) => cast.push(s));
-  }
-
-  const directors = [];
-  const dirLine = desc.match(/^\s*Regie:\s*(.+)$/m);
-  if (dirLine) {
-    dirLine[1]
-      .split(/[;,]/)
-      .map((s) => s.trim())
-      .filter((s) => s.length > 2 && s.length < 60)
-      .forEach((s) => directors.push(s));
-  }
-
-  return { cast: cast.slice(0, 6), directors: directors.slice(0, 3) };
-}
+// extractPeople() steht seit 21.10.2026 in scripts/lib/namen.js.
 
 // Manche (ältere) Netzkino-Beschreibungen nennen das Jahr nicht in Klammern
 // direkt am Titel, sondern im Fließtext: "Actionthriller von X aus dem
@@ -816,19 +762,10 @@ async function fetchTmdbPeople(tmdbId) {
 }
 
 // Wie viele der in der Beschreibung genannten Personen tauchen bei TMDB auf?
+// Abgleich in scripts/lib/namen.js: Nachname allein reicht nur, wenn der
+// Vorname nicht widerspricht ("Rob Freeman" ist nicht Martin Freeman).
 function personOverlap(expectedNames, tmdbNames) {
-  if (!expectedNames.length || !tmdbNames.length) return null;
-  const hay = tmdbNames.join(" | ");
-  const hits = expectedNames.filter((n) => {
-    const nn = normalizeTitle(n);
-    if (!nn) return false;
-    if (hay.includes(nn)) return true;
-    // Nachname allein zählt auch -- Netzkino schreibt Namen gelegentlich
-    // mit Tippfehlern im Vornamen ("BRIAN AUSTIN FREEN")
-    const last = nn.split(" ").pop();
-    return last && last.length > 3 && hay.includes(last);
-  }).length;
-  return hits / expectedNames.length;
+  return personenAnteil(expectedNames, tmdbNames);
 }
 
 const MAX_VERWORFEN = 3; // ab so vielen verworfenen Zuordnungen nur noch mit hartem Beleg
