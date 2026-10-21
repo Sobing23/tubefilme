@@ -406,7 +406,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 59 Kanäle
+### Die 58 Kanäle
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
@@ -416,7 +416,6 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Amelia | keine Angabe | |
 | Artflix | Amogo Networx | ✓ |
 | Bigtime | Amogo Networx | ✓ |
-| Bombay Nights | PLAION PICTURES | `inPruefung` (Hindi mit deutschen Untertiteln, Entscheidung offen) |
 | Boxoffice | keine Angabe | |
 | Bronco | PLAION PICTURES | |
 | Bulldox | PLAION PICTURES | |
@@ -478,6 +477,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Nanoki (Lern- und Schulfilme), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
 - **Babel Movies** — englischsprachiger „World Cinema"-Kanal, passt nicht zum deutschsprachigen Profil
 - **Braventa Films** — erwies sich nach dem ersten Scan als spanischsprachig (Kanal hatte keine Beschreibung); die 107 Videos stehen in `ignored.json`
+- **Bombay Nights** (PLAION, UCtHTtZzMkLYGeOTq1nWYCGA) — Hindi mit deutschen Untertiteln; die Seite listet nur deutsch synchronisierte Filme
 - **Kinderfilme** (PLAION, UCmZUsl5MLqXIhuSTVP6x-EA) — hat keine eigenen Uploads, nur Playlists mit Videos anderer Kanäle; wieder entfernt
 
 ### Neuen Kanal hinzufügen
