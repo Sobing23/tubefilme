@@ -63,6 +63,14 @@ function parseDuration(iso) {
 const DEUTSCH_HINWEIS = /deutsch|german version|synchron/i;
 
 function classify(video, profil) {
+  // Rohdaten eines Kanals, der aus config/channels.json entfernt wurde,
+  // bleiben in data/raw liegen. Ohne diese Regel galten seine Videos als
+  // freigegeben -- am 21.10.2026 kamen so 83 Filme des gerade entfernten
+  // Kanals Bombay Nights in die Bibliothek. prune-excluded.js entfernt sie
+  // rückwirkend.
+  if (profil === null) {
+    return { include: false, reason: "Kanal nicht (mehr) in der Kanalliste" };
+  }
   const inPruefung = profil.inPruefung === true;
   if (inPruefung) {
     return { include: false, reason: "Kanal in Prüfung (noch nicht freigegeben)" };
@@ -116,7 +124,7 @@ async function main() {
       seenVideoIds.add(video.videoId);
 
       const kanalId = video.channelId || path.basename(file, ".json");
-      const { include, reason } = classify(video, profile.get(kanalId) || {});
+      const { include, reason } = classify(video, profile.has(kanalId) ? profile.get(kanalId) : null);
       if (include) {
         candidates.push(video);
       } else {
