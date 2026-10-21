@@ -27,6 +27,13 @@ jobs:
         with:
           node-version: "24"
 
+      # Aktuelle Filterregeln anwenden (z. B. neue Ausschlussmuster eines
+      # Kanals), damit prune-excluded weiter unten mit dem neuesten Stand
+      # arbeitet. Fehlte bis 21.10.2026: Hörspiele von weloadtv blieben nach
+      # einer neuen Kanalregel bis zum nächsten Scan in der Bibliothek.
+      - name: Videos auf Spielfilme filtern
+        run: node scripts/filter-movies.js
+
       - name: Fragwürdige Zuordnungen zurücksetzen
         run: node scripts/reset-for-rematch.js
 
@@ -58,6 +65,17 @@ jobs:
         env:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/match-tmdb.js --youtube-nachsuche
+
+      # Die eben neu gefundenen Zuordnungen ebenfalls prüfen. Die Prüfung oben
+      # läuft VOR der Suche und sieht nur den alten Bestand. Ohne diesen
+      # zweiten Durchgang kamen am 21.10.2026 genau die Fehltreffer zurück,
+      # die sie kurz vorher verworfen hatte -- nur mit der nächsten gleich-
+      # namigen TMDB-ID ("Hawaii - Reiseführer" -> Hawaii, "Prince of Persia"
+      # -> Corpse Bride). Bereits bestätigte Einträge werden übersprungen.
+      - name: Neue Zuordnungen auf Plausibilität prüfen
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/verify-plausibility.js
 
       - name: Datenqualität bereinigen (Duplikate)
         run: node scripts/cleanup-matches.js
