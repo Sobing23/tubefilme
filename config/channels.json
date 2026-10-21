@@ -67,11 +67,6 @@
     { "name": "Heimatfilme", "channelId": "UCV8yejshmlsns86C-ZeO16Q" },
     { "name": "Heimatkino", "channelId": "UChJySzurS1PVmE_gvVQX_ng" },
     { "name": "Highresworld Deutsch", "channelId": "UCJ1l7ArIR1jhnF2qLSJ-TZQ" },
-    {
-      "name": "Kinderfilme",
-      "channelId": "UCmZUsl5MLqXIhuSTVP6x-EA",
-      "profil": { "inPruefung": true }
-    },
     { "name": "Kino Deutsch", "channelId": "UCBHYbV2w8dE__bS6fNdCbpw" },
     { "name": "Kinohof", "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ" },
     { "name": "KinoWelt Deutsch", "channelId": "UCy5ahYyXTmSoetwtNXibbCQ" },
@@ -108,7 +103,7 @@
     {
       "name": "weloadtv",
       "channelId": "UC5E67gM-Us3gQBhNPiAg0Xg",
-      "profil": { "nurMitTmdb": true }
+      "profil": { "nurMitTmdb": true, "ausschlussMuster": "h[öo]rspiel|h[öo]rbuch|reisef[üu]hrer|making.?of|\\byoga\\b|aus der box|ratgeber|\\btipps\\b|workout|best of" }
     },
     { "name": "Wolkesieben", "channelId": "UCP2mfMKvmD0lkSThh9CuU7g" },
     { "name": "ZOMBIEWORLD", "channelId": "UCDD1U4CEvLz6kKuIQwGivdg" }

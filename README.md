@@ -406,7 +406,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 60 Kanäle
+### Die 59 Kanäle
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
@@ -445,7 +445,6 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Heimatfilme | Beta Film GmbH | |
 | Heimatkino | PLAION PICTURES | |
 | Highresworld Deutsch | PLAION PICTURES | |
-| Kinderfilme | PLAION PICTURES | `inPruefung` (Scan lieferte 0 Videos) |
 | Kino Deutsch | keine Angabe | |
 | Kinohof | keine Angabe | |
 | KinoWelt Deutsch | keine Angabe |  |
@@ -467,7 +466,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Unfassbare Filme | keine Angabe | |
 | Utopja | PLAION PICTURES | |
 | Volle Power Filme | keine Angabe | |
-| weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `nurMitTmdb` |
+| weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `nurMitTmdb`, `ausschlussMuster` (Hörspiel, Hörbuch, Reiseführer, Making of, Yoga, „aus der Box“, Ratgeber, Tipps, Workout, Best of) |
 | Wolkesieben | PLAION PICTURES | |
 | ZOMBIEWORLD | PLAION PICTURES | |
 
@@ -479,6 +478,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Nanoki (Lern- und Schulfilme), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
 - **Babel Movies** — englischsprachiger „World Cinema"-Kanal, passt nicht zum deutschsprachigen Profil
 - **Braventa Films** — erwies sich nach dem ersten Scan als spanischsprachig (Kanal hatte keine Beschreibung); die 107 Videos stehen in `ignored.json`
+- **Kinderfilme** (PLAION, UCmZUsl5MLqXIhuSTVP6x-EA) — hat keine eigenen Uploads, nur Playlists mit Videos anderer Kanäle; wieder entfernt
 
 ### Neuen Kanal hinzufügen
 
