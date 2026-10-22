@@ -8218,5 +8218,15 @@
     "videoId": "aihlWUKvnSA",
     "youtubeTitle": "Bremer Stadtmusikanten (MÄRCHEN I ganzes Märchen auf Deutsch, Film in voller Länge schauen)",
     "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-10-22",
+    "quelle": "filme.json",
+    "grund": "Interview (kein Spielfilm)",
+    "videoId": "9mqhQ_eRz8k",
+    "youtubeTitle": "Fünf Freunde | Interview mit Marcus Harris | Schauspieler (Julian)",
+    "title": "Fünf Freunde",
+    "tmdbId": 80714,
+    "channelName": "CiNENET Deutschland"
   }
 ]

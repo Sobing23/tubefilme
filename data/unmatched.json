@@ -6452,35 +6452,107 @@
     }
   },
   {
-    "videoId": "e65vc32olMI",
-    "youtubeTitle": "TÖDLICHES KOPFGELD: POLIZEI IM BELAGERUNGSZUSTAND | Samuel L. Jackson & Colin Farrell | Ganzer Film",
-    "suchbegriff": "TÖDLICHES KOPFGELD: POLIZEI IM BELAGERUNGSZUSTAND",
+    "videoId": "XcZYrryoYHo",
+    "youtubeTitle": "Ein THRILLERFILM, der dich mit jeder Szene tiefer in seinen Bann zieht | AUF DEUTSCH",
+    "suchbegriff": "Ein THRILLERFILM, der dich mit jeder Szene tiefer in seinen Bann zieht",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"The Surrogate\" ohne Jahr/Besetzung -- Rest des Titels (\"thrillerfilm dich mit jeder szene tiefer seinen bann zieht\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 242466,
+      "title": "Carriers - Die Leihgabe",
+      "release_date": "2013-01-01"
+    }
+  },
+  {
+    "videoId": "a9yko0wiC2I",
+    "youtubeTitle": "Die Kriegsprinzessin (Abenteuerfilme auf Deutsch in voller Länge)",
+    "suchbegriff": "Die Kriegsprinzessin",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "F4lJ6ZEeCRI",
-    "youtubeTitle": "Deadline - Anatomy of Horror (1980 | THRILLER HORROR | Ganzer Film | HD)",
-    "suchbegriff": "Deadline - Anatomy of Horror",
+    "videoId": "OM8_5qh2lPI",
+    "youtubeTitle": "The Dead - Das Fressen hat begonnen (Horrorfilme auf Deutsch)",
+    "suchbegriff": "The Dead - Das Fressen hat begonnen",
     "erwartetesJahr": null,
-    "grund": "3 Zuordnungen bereits verworfen -- \"Deadline\" ohne harten Beleg nicht übernommen",
+    "grund": "Ein-Wort-Suchbegriff \"The Dead\" ohne Jahr/Besetzung -- Rest des Titels (\"fressen hat begonnen\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 1743341,
-      "title": "Deadline",
-      "release_date": "2026-04-08"
+      "id": 503736,
+      "title": "Army of the Dead",
+      "release_date": "2021-05-14"
     }
   },
   {
-    "videoId": "q7BDgQwb_XA",
-    "youtubeTitle": "JOHN WAYNE – US MARSHAL JOHN: John Wayne jagt eine geheimnisvolle Bande (Western | Action)",
-    "suchbegriff": "JOHN WAYNE – US MARSHAL JOHN: John Wayne jagt eine geheimnisvolle Bande",
+    "videoId": "Mgl21dQGKYc",
+    "youtubeTitle": "Er sucht seinen Freund – und landet in einer tödlichen Kampfarena Action Ganzer Film Deutsch",
+    "suchbegriff": "Er sucht seinen Freund – und landet in einer tödlichen Kampfarena Action Ganzer Film Deutsch",
     "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 20)",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "iND1Bow9X2c",
+    "youtubeTitle": "THE DARK – Ihre Tochter ertrinkt, doch plötzlich erscheint ein totes Mädchen! (Horror | Deutsch)",
+    "suchbegriff": "The Dark",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"The Dark\" ohne Jahr/Besetzung -- Rest des Titels (\"ihre tochter ertrinkt doch plotzlich erscheint totes madchen\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 327017,
-      "title": "John Wayne and Chisum",
-      "release_date": "1970-01-01"
+      "id": 463322,
+      "title": "The Dark - Angst ist deine einzige Hoffnung",
+      "release_date": "2018-10-12"
+    }
+  },
+  {
+    "videoId": "lnppSpWDl2M",
+    "youtubeTitle": "Zwei Ex-Partner, ein Hochzeits-Drama | LIEBES KOMÖDIE DEUTSCH: Eine Hochzeit zu Weihnachten",
+    "suchbegriff": "A Wedding for Christmas",
+    "erwartetesJahr": "2006",
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 235662,
+      "title": "Eine Hochzeit zu Weihnachten",
+      "release_date": "2013-11-09"
+    }
+  },
+  {
+    "videoId": "FDXTdVpoz08",
+    "youtubeTitle": "Das war Bruce Lee (Asiatischer Kampffilm, Biographie, deutsch, ganzer Film, Bruce Lee's Leben)",
+    "suchbegriff": "Das war Bruce Lee",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "bDn8ajgcPAE",
+    "youtubeTitle": "Nach dem Tod ihres Mannes jagt sie ein Geheimnis, das ihr Leben zerstören könnte | Liam Neeson",
+    "suchbegriff": "Nach dem Tod ihres Mannes jagt sie ein Geheimnis, das ihr Leben zerstören könnte",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "njYSLcBrqsY",
+    "youtubeTitle": "🏆 Dieser Film wird Sie noch lange beeindrucken! | Atemberaubendes Sci-Fi-Drama | Zoe | Ganzer Film",
+    "suchbegriff": "Dieser Film wird Sie noch lange beeindrucken!",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Zoe\" ohne Jahr/Besetzung -- Rest des Titels (\"dieser wird sie noch lange beeindrucken\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 458005,
+      "title": "Zoe",
+      "release_date": "2018-07-19"
+    }
+  },
+  {
+    "videoId": "y4ooukWWMDA",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (KLASSIKER | komplette Spielfilme auf Deutsch, Krimi in voller Länge)",
+    "suchbegriff": "Der Hexer - Edgar Wallace",
+    "erwartetesJahr": "1963",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Das indische Tuch\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 9634,
+      "title": "Das indische Tuch",
+      "release_date": "1963-09-13"
     }
   }
 ]

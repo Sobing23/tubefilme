@@ -108789,50 +108789,6 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "9mqhQ_eRz8k",
-    "youtubeTitle": "Fünf Freunde | Interview mit Marcus Harris | Schauspieler (Julian)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/9mqhQ_eRz8k/hqdefault.jpg",
-    "duration": "PT42M4S",
-    "publishedAt": "2014-04-03T13:01:19Z",
-    "channelName": "CiNENET Deutschland",
-    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
-    "tmdbId": 80714,
-    "title": "Fünf Freunde",
-    "originalTitle": "Fünf Freunde",
-    "overview": "Eigentlich wollten die fünf Freunde George, Julian, Dick, Anne und Timmy, der Hund ja nur einen gemeinsamen Strandurlaub verbringen. Doch zwei verdächtige Tierfilmer und ein merkwürdiger Tourist, der sich als Regierungsagent ausgibt alarmieren nicht nur Timmys Spürsinn. In einer alten Schmugglerhöhle stolpern die fünf Freunde über ein Komplott: Georges Vater Quentin soll entführt werden! Allein auf einer Felseninsel forscht er nach einer neuartigen Energiequelle. Weder Georges Mutter noch die Inselpolizisten Peters und Hansen glauben den fünf Freunden. Also müssen sie auf eigene Faust ermitteln. Als eines Tages die verabredeten Lichtsignale von Quentin ausbleiben, spitzt sich die Lage zu…",
-    "releaseDate": "2012-01-25",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/rkpZ33Ph5wFi85NZvHDA27aoKSq.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vxJ5krX5SDr5Yj3KHw70R1iJ2Wo.jpg",
-    "voteAverage": 6.39,
-    "genreIds": [
-      10751,
-      12
-    ],
-    "matchSource": "titel-fallback",
-    "matchConfidence": "hoch",
-    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
-    "cast": [
-      "Valeria Eisenbart",
-      "Neele-Marie Nickel",
-      "Anja Kling",
-      "Quirin Oettl",
-      "Justus Schlingensiepen"
-    ],
-    "director": [
-      "Mike Marzuk"
-    ],
-    "writer": [
-      "Peer Klehmet",
-      "Sebastian Wehlings"
-    ],
-    "fsk": "0",
-    "posterLocal": "img/posters/80714.jpg",
-    "slug": "fuenf-freunde",
-    "plausibel": "besetzung",
-    "runtime": 89,
-    "plausibelVersion": 4
-  },
-  {
     "videoId": "PjG7oxnIpl0",
     "youtubeTitle": "Gezeiten der Liebe (ROMANTISCHES DRAMA, Liebesfilm, Ganzer Film Deutsch, Romantik kostenlos)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/PjG7oxnIpl0/hqdefault.jpg",
@@ -156108,7 +156064,9 @@
     "writer": [],
     "fsk": null,
     "slug": "aus-gebrochenen-soldaten-wurden-monster-und-sie-erkannten-di",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "ByL3R60qum0",
@@ -210230,7 +210188,7 @@
     "fsk": null,
     "slug": "eine-der-staerksten-familiendramen-die-lange-im-gedaechtnis",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "56DSQiz4264",
@@ -325963,7 +325921,9 @@
     "slug": "morceaux-choisis-episoden-aus-dem-leben-des-julius-schoenfel",
     "runtime": 0,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "3sE718ghScM",
@@ -328443,5 +328403,429 @@
     "writer": [],
     "fsk": null,
     "slug": "robin-hood-3"
+  },
+  {
+    "videoId": "N_f6F2tC_QQ",
+    "youtubeTitle": "Death Game - Du bist der Nächste (2018 | Horror | Ganzer Film | HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/N_f6F2tC_QQ/hqdefault.jpg",
+    "duration": "PT1H16M34S",
+    "publishedAt": "2026-10-21T18:15:00Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 540132,
+    "title": "Death Game",
+    "originalTitle": "Pledges",
+    "overview": "Um in eine Studentenverbindung zu kommen, müssen sechs Anwärter ein grausames Initiationsritual durchlaufen: Nur mit Unterwäsche bekleidet und mit verbundenen Augen werden sie tief im Wald ausgesetzt. Dort werden sie in zwei Teams aufgeteilt – drei Jungen und drei Mädchen. Anschließend stellen ihre „Gastgeber“ ihnen demütigende Aufgaben, während diese sie aus sicherer Entfernung durch mit Kameras ausgestatteten Brillen beobachten. Doch auch wenn das schon längst kein harmloser Spaß mehr ist, geht das wahre Grauen erst danach los: Sowohl die Anwärter als auch die Aufgabensteller werden zu Opfern einer mysteriösen Macht, die im Wald lebt, und Jagd auf die Stunden macht. Einer nach dem anderen stirbt eines grausamen Todes...",
+    "releaseDate": "2018-08-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gj182qMHXLJhRhclXsZnObDdW04.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/eZBO5kbiZ9KCKogKT2FxXuvEIpp.jpg",
+    "voteAverage": 3.5,
+    "genreIds": [
+      27,
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 77,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tim Drier",
+      "Natassia Halabi",
+      "Calida Jones",
+      "Rebecca Lee",
+      "Arthur J. Davis"
+    ],
+    "director": [
+      "D.J. Red"
+    ],
+    "writer": [
+      "Bryan Binder"
+    ],
+    "fsk": "18",
+    "slug": "death-game"
+  },
+  {
+    "videoId": "_h4KJ2R3Fbo",
+    "youtubeTitle": "Radio Heimat - ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_h4KJ2R3Fbo/hqdefault.jpg",
+    "duration": "PT1H21M32S",
+    "publishedAt": "2026-10-21T22:00:08Z",
+    "channelName": "Free Films Emotion",
+    "channelId": "UC6DTsN_DKPGsPVckgfzYznw",
+    "tmdbId": 388021,
+    "title": "Radio Heimat",
+    "originalTitle": "Radio Heimat",
+    "overview": "Frank, Pommes, Spüli und Mücke sind beste Freunde und haben sich vorgenommen, alles auf eine Karte zu setzen: In diesem Sommer in den Achtzigern wollen sie im Ruhrpott die Liebe, den Sex und das andere Geschlecht erobern. Was sich als nicht immer ganz so einfach herausstellt, und so verbringen die Jungs die meiste Zeit damit, ihre Wunden zu lecken. Was sich gerade im Fall von Frank als besonders schmerzhaft erweist, denn er ist Hals über Kopf verliebt in die schöne Karola. Sie aber nicht in ihn. Coming-of-Age-Komödie um vier Freunde, die in den 1980ern im Ruhrpott mit der Liebe und dem Leben kämpfen.",
+    "releaseDate": "2016-11-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zrWWI8bfNlBFQfL1tI5bdRMnUaw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iQEMohro0Qnj2W7hGy6ZR1deFSG.jpg",
+    "voteAverage": 6.1,
+    "genreIds": [
+      18,
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "David Hugo Schmitz",
+      "Maximilian Mundt",
+      "Jan Bülow",
+      "Hauke Petersen",
+      "Milena Tscharntke"
+    ],
+    "director": [
+      "Matthias Kutschmann"
+    ],
+    "writer": [
+      "Matthias Kutschmann"
+    ],
+    "fsk": "12",
+    "slug": "radio-heimat"
+  },
+  {
+    "videoId": "qZsSpdkpyuo",
+    "youtubeTitle": "ITALIAN STYLE LOCKDOWN | Lockdown auf Italienisch | Paare in der Krise | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/qZsSpdkpyuo/hqdefault.jpg",
+    "duration": "PT1H34M53S",
+    "publishedAt": "2026-10-21T19:00:24Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 743888,
+    "title": "Lockdown all'italiana",
+    "originalTitle": "Lockdown all'italiana",
+    "overview": "",
+    "releaseDate": "2020-10-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uKLI0CjVa7Bo4KLsFNVZYqcMGtX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sXgCPSRS6KIZF3FlpFEdVqFTNFU.jpg",
+    "voteAverage": 3.6,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 111 (Suchbegriff: \"Lockdown all'italiana\")",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ezio Greggio",
+      "Ricky Memphis",
+      "Paola Minaccioni",
+      "Martina Stella",
+      "Maria Luisa Jacobelli"
+    ],
+    "director": [
+      "Enrico Vanzina"
+    ],
+    "writer": [
+      "Enrico Vanzina",
+      "Paola Minaccioni"
+    ],
+    "fsk": null,
+    "slug": "lockdown-all-italiana"
+  },
+  {
+    "videoId": "YRJuiCQnA8Y",
+    "youtubeTitle": "IHR VATER WAR NICHT DER, FÜR DEN SIE IHN HIELT! Die Leiche Im Lagerraum Führt Zur Wahrheit",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YRJuiCQnA8Y/hqdefault.jpg",
+    "duration": "PT1H29M15S",
+    "publishedAt": "2026-10-21T15:00:33Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": 1584779,
+    "title": "The Body in the Locker",
+    "originalTitle": "The Body in the Locker",
+    "overview": "",
+    "releaseDate": "2026-11-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4aBN0YZ6Jfb09fRSxyObfdSe2Ot.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8UkpeQ7fwKyX2PVmnnaAJm7Vv9J.jpg",
+    "voteAverage": 0,
+    "genreIds": [
+      53,
+      10770,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 69 (Suchbegriff: \"The Body in the Locker\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kirsten Comerford",
+      "Jayne Heitmeyer",
+      "Sasha Barry",
+      "Chris Hong",
+      "Tori Barban"
+    ],
+    "director": [
+      "Sean Cisterna"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-body-in-the-locker"
+  },
+  {
+    "videoId": "gCCgGmtEuNk",
+    "youtubeTitle": "JELLA HAASE in 4 KÖNIGE – ein etwas anderer Weihnachtsfilm (Ganzer Film in voller Länge auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gCCgGmtEuNk/hqdefault.jpg",
+    "duration": "PT1H38M45S",
+    "publishedAt": "2026-10-21T17:00:28Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 364761,
+    "title": "4 Könige",
+    "originalTitle": "4 Könige",
+    "overview": "Ob es vier Könige oder doch nur drei waren, die dem Christkind Geschenke brachten, ist nicht wirklich von Wichtigkeit, wenn man in der Adventszeit ganz andere Sorgen hat: Weil bei ihnen Zuhause die Familienkonflikte kurz vor Weihnachten eskalieren, werden vier Teenager über die Feiertage in eine Jugend-Psychiatrie gesteckt. Damit ist Weihnachten dann wohl gelaufen. Oder doch nicht?  Die jungen Patienten haben, während außerhalb der Klinikmauern alle ihre besinnlichen Tage im Kreis der Lieben verbringen, nur sich selbst. Was anfangs eine explosive Mischung ist, wird durch einen äußerst unkonventionellen Psychiater  allerdings in unvorhergesehene Bahnen gelenkt. Die Mädchen und Jungen öffnen sich einander und verbringen ein einzigartiges gemeinsames Weihnachten, das sie nicht so schnell wieder vergessen werden und das aus ihnen vielleicht doch noch die 4 Könige macht, die sie in ihrem Innern ohnehin schon sind.",
+    "releaseDate": "2015-12-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kVAdb3zRKhrA3DFPFJyljNA5YOm.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/feeekxq4P7lC4ICXoy6xrPQo8A6.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 99,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jella Haase",
+      "Paula Beer",
+      "Jannis Niewöhner",
+      "Moritz Leu",
+      "Clemens Schick"
+    ],
+    "director": [
+      "Theresa von Eltz"
+    ],
+    "writer": [
+      "Esther Bernstorff",
+      "Theresa von Eltz"
+    ],
+    "fsk": "12",
+    "slug": "4-koenige"
+  },
+  {
+    "videoId": "ByjDDWkER2k",
+    "youtubeTitle": "Die Olsenbande fährt nach Jütland - Komödie | 1971 | HD | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ByjDDWkER2k/hqdefault.jpg",
+    "duration": "PT1H35M1S",
+    "publishedAt": "2026-10-21T13:00:11Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 11390,
+    "title": "Die Olsenbande fährt nach Jütland",
+    "originalTitle": "Olsen-banden i Jylland",
+    "overview": "Im Gefängnis hat Egon den Plan eines Nazibunkers in die Finger bekommen, in dem ein Schatz liegt. Um ihn zu heben, fährt die Olsenbande nach Jütland. Dort begegnen sie dem Schrotthändler Mads Madsen. Dieser erklärt sich bereit, ihnen gegen die Hälfte des Goldes die nötige Ausrüstung zu verschaffen. Doch auch ein anderes Gaunerpaar ist hinter dem Gold her.",
+    "releaseDate": "1971-10-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/60JRbsNNKiUfVYqOV8gx7baeUhl.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jKekVhTqPBs4wCPy5TxeXgRb4Hc.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      10751,
+      35,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 96,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ove Sprogøe",
+      "Morten Grunwald",
+      "Poul Bundgaard",
+      "Kirsten Walther",
+      "Helle Virkner"
+    ],
+    "director": [
+      "Erik Balling"
+    ],
+    "writer": [
+      "Henning Bahs",
+      "Erik Balling"
+    ],
+    "fsk": "12",
+    "slug": "die-olsenbande-faehrt-nach-juetland"
+  },
+  {
+    "videoId": "lcpilgmhzV8",
+    "youtubeTitle": "Das Weihnachts-Ekel (2006) | Ganzer Film Deutsch | Weihnachtskomödie mit Fritz Wepper | Drama | HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/lcpilgmhzV8/hqdefault.jpg",
+    "duration": "PT1H22M49S",
+    "publishedAt": "2026-10-21T15:30:33Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 6017,
+    "title": "Das Weihnachts-Ekel",
+    "originalTitle": "Das Weihnachts-Ekel",
+    "overview": "Er mag keine Menschen, auch nicht zu Weihnachten. Er möchte allein sein auch am Heiligabend. Robert Lahnstein, gefürchteter TV-Kommentator, hält Weihnachten für ebenso verlogen, wie die Politik. Deshalb packt er seinen Geländewagen mit einer gefrorenen Gans und einem Tannenbaum, um sich zurückzuziehen auf seine einsame Hütte in den Bergen. Noch nicht einmal auf die Gesellschaft seines Sohnes Martin, der sich als Pianist durchs Leben schlägt und den der Vater für einen Versager hält, legt er Wert.  Aus dem Radio kommt Weihnachtsmusik, vom Himmel Schnee das Weihnachts-Ekel wird sein Ziel nicht erreichen. Weihnachten endet für ihn an einem Baum! Fluchend und gereizt macht er sich mit gefrorener Gans und Tannenbaum auf den Weg durch Schnee, Eis und Kälte. Mit letzter Kraft erreicht er eine Scheune. Doch er, der Menschen um sich herum nicht ausstehen kann, ist nicht allein!",
+    "releaseDate": "2006-12-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/j70OfwAlGebXIKJODIZN21NuA2i.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/epGI0RDUdgLV2et1wdLlIl3cC8E.jpg",
+    "voteAverage": 2.5,
+    "genreIds": [
+      35,
+      18,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Fritz Wepper",
+      "Michael Roll",
+      "Kristina Sprenger",
+      "Ruth Drexel",
+      "Gerd Silberbauer"
+    ],
+    "director": [
+      "Joseph Vilsmaier"
+    ],
+    "writer": [
+      "Rolf-René Schneider"
+    ],
+    "fsk": "6",
+    "slug": "das-weihnachts-ekel"
+  },
+  {
+    "videoId": "8mo7QF_gDAw",
+    "youtubeTitle": "SIE JAGEN MENSCHEN zum Spaß! Doch diesmal haben sie die Falsche erwischt | Actionthriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8mo7QF_gDAw/hqdefault.jpg",
+    "duration": "PT1H35M18S",
+    "publishedAt": "2026-10-21T14:00:08Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 369777,
+    "title": "Gnadenlose Rache",
+    "originalTitle": "Relentless Justice",
+    "overview": "Die alleinerziehende Mutter und Mixed-Martial-Arts-Trainerin Victoria De Vries genießt ein beschauliches Leben in einer amerikanischen Kleinstadt - bis ihre Tochter von einem Ferienausflug nicht zurückkehrt. Die ehemalige, kampferprobte Agentin des australischen Geheimdienstes begibt sich sofort auf die Spur des Mädchens und findet schnell heraus, dass der Bürgermeister, dessen Freundin sowie der Sheriff zu einem zwielichtigen Personenkreis zählen, die Menschen zum Vergnügen jagen. Mit der taffen Victoria ist die geübte Truppe jedoch überfordert, weshalb diese den Ex-Geheimdienstagenten Joe Mangine auf ihr unberechenbares Opfer ansetzt. Doch Victorias Rache ist gnadenlos.",
+    "releaseDate": "2014-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jznCycq3ofH0PeV7LNeZhTWPd25.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/94MZn4HVmhtGMNdiRlRlho7PpqQ.jpg",
+    "voteAverage": 3.367,
+    "genreIds": [
+      53,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 96,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Eric Roberts",
+      "Mark Rolston",
+      "Leilani Sarelle",
+      "Vernon Wells",
+      "Sherrie Rose"
+    ],
+    "director": [
+      "David A. Prior"
+    ],
+    "writer": [
+      "David A. Prior"
+    ],
+    "fsk": "18",
+    "slug": "gnadenlose-rache"
+  },
+  {
+    "videoId": "e65vc32olMI",
+    "youtubeTitle": "TÖDLICHES KOPFGELD: POLIZEI IM BELAGERUNGSZUSTAND | Samuel L. Jackson & Colin Farrell | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/e65vc32olMI/hqdefault.jpg",
+    "duration": "PT1H50M40S",
+    "publishedAt": "2026-10-21T11:07:46Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "TÖDLICHES KOPFGELD: POLIZEI IM BELAGERUNGSZUSTAND",
+    "originalTitle": null,
+    "overview": "SUCHBEGRIFFE: Actionfilm ganzer Film Deutsch, Polizei Actionfilm, Hollywood Action, Kriminalfilm Deutsch, spannender Thriller, Spezialeinheit, SWAT, Drogenmafia, Drogenboss, Kopfgeld, Gefangenentransport, Polizeieinsatz, Verfolgungsjagd, Gangsterfilm, Schießerei, Action Thriller, amerikanische Actionfilme, Ganzer Film HD.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "toedliches-kopfgeld-polizei-im-belagerungszustand"
+  },
+  {
+    "videoId": "F4lJ6ZEeCRI",
+    "youtubeTitle": "Deadline - Anatomy of Horror (1980 | THRILLER HORROR | Ganzer Film | HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/F4lJ6ZEeCRI/hqdefault.jpg",
+    "duration": "PT1H29M33S",
+    "publishedAt": "2026-04-29T18:15:01Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": null,
+    "title": "Deadline",
+    "originalTitle": null,
+    "overview": "Stephen, ein passionierter Drehbuchautor, verliert nach und nach die Fähigkeit, zwischen seiner Fantasiewelt und der realen Welt zu unterscheiden. Während er über seinen Platz in der Welt nachdenkt, verliert er langsam den Halt, und die Beziehung zu seiner Frau und zu seinen Kindern zerrüttet immer mehr. In dieser schwierigen Situation rückt die Deadline für sein nächstes Drehbuch immer näher. Er muss die Frist um jeden Preis einhalten - mit katastrophalen Folgen für alle Beteiligten.\n#Spielfilm #ganzerFilm #Horror",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Stephen Young",
+      "Sharon Masters",
+      "Marvin Goldhar"
+    ],
+    "director": [
+      "Mario Azzopardi"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "deadline-2"
+  },
+  {
+    "videoId": "q7BDgQwb_XA",
+    "youtubeTitle": "JOHN WAYNE – US MARSHAL JOHN: John Wayne jagt eine geheimnisvolle Bande (Western | Action)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/q7BDgQwb_XA/hqdefault.jpg",
+    "duration": "PT54M39S",
+    "publishedAt": "2026-09-10T13:30:15Z",
+    "channelName": "Bronco",
+    "channelId": "UCpypMfxKgMf8uxYjlxKwumA",
+    "tmdbId": null,
+    "title": "JOHN WAYNE - US MARSHAL JOHN: John Wayne jagt eine geheimnisvolle Bande",
+    "originalTitle": null,
+    "overview": "John Travers und sein indianischer Freund Yak sind auf der Suche nach dem geheimnisvollen „Schatten“ und dessen Bande. Als Sheriff Davis von dem Verbrecher getötet wird, übernimmt Travers dessen Posten und setzt die Jagd auf die Bande fort.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "John Wayne",
+      "George Hayes"
+    ],
+    "director": [
+      "Robert N. Bradbury"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "john-wayne-us-marshal-john-john-wayne-jagt-eine-geheimnisvol"
   }
 ]
