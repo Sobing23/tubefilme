@@ -8228,5 +8228,15 @@
     "title": "Fünf Freunde",
     "tmdbId": 80714,
     "channelName": "CiNENET Deutschland"
+  },
+  {
+    "datum": "2026-10-23",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 9 min, Video 100 min) -- wird neu gesucht",
+    "videoId": "FiyN50Zj7Gg",
+    "youtubeTitle": "HAVE WE EVER MET | Kennen wir uns? | Liebe über mehrere Leben | 4K",
+    "title": "Kennen wir uns?",
+    "tmdbId": 648087,
+    "channelName": "Alle Filme Auf Deutsch"
   }
 ]

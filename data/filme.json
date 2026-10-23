@@ -164857,7 +164857,7 @@
     "fsk": null,
     "slug": "in-einer-zerstoerten-welt-entscheidet-nur-staerke",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "wrzumNdJczg",
@@ -165120,7 +165120,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "12-aufgaben-kein-fehler-erlaubt"
+    "slug": "12-aufgaben-kein-fehler-erlaubt",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "6i8h50G7GNM",
@@ -165321,7 +165323,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "falsch-verurteilt-entkommen-zurueck-fuer-rache"
+    "slug": "falsch-verurteilt-entkommen-zurueck-fuer-rache",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "qv85vzFVnfg",
@@ -231969,7 +231973,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "er-taeuscht-seinen-tod-vor-und-wird-von-einem-killer-ausgebi"
+    "slug": "er-taeuscht-seinen-tod-vor-und-wird-von-einem-killer-ausgebi",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "cbQrv-0ftSc",
@@ -274469,8 +274475,6 @@
       "Hauke Schenck"
     ],
     "fsk": null,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_einbettbar",
     "slug": "der-letzte-coup",
     "runtime": 0,
     "plausibel": "titel",
@@ -306084,12 +306088,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "yhP7m8EWK2M",
-    "youtubeTitle": "Der rasende Teufel | Krimifilm | IN FARBE",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/yhP7m8EWK2M/hqdefault.jpg",
+    "videoId": "YkW8GDJy72k",
+    "youtubeTitle": "The Fast and the Furious - Der rasende Teufel",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YkW8GDJy72k/hqdefault.jpg",
     "duration": "PT1H12M40S",
     "publishedAt": "2025-08-14T17:01:20Z",
-    "channelName": "Artflix",
+    "channelName": "CiNENET Deutschland",
     "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
     "tmdbId": 20174,
     "title": "Der rasende Teufel",
@@ -328827,5 +328831,540 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "john-wayne-us-marshal-john-john-wayne-jagt-eine-geheimnisvol"
+  },
+  {
+    "videoId": "tXFt6yVXqzE",
+    "youtubeTitle": "Dieser Thriller überrascht dich bis zur letzten Minute! | FILM AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/tXFt6yVXqzE/hqdefault.jpg",
+    "duration": "PT1H28M9S",
+    "publishedAt": "2026-10-22T15:00:32Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1485431,
+    "title": "The Nanny Sees All",
+    "originalTitle": "The Nanny Sees All",
+    "overview": "",
+    "releaseDate": "2025-05-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xJRpnylDUgUelvCcsg1QqRhTb8W.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xDGeMSFRT4b1EsAwwV85IQREVWX.jpg",
+    "voteAverage": 7.2,
+    "genreIds": [
+      18,
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"The Nanny Sees All\")",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Golden Madison",
+      "Erica Anderson",
+      "Julia Borsellino",
+      "Mikaël Conde",
+      "Brian Cook"
+    ],
+    "director": [
+      "Roxanne Boisvert"
+    ],
+    "writer": [
+      "Audrey C. Marie"
+    ],
+    "fsk": null,
+    "slug": "the-nanny-sees-all"
+  },
+  {
+    "videoId": "yxZDmSQI_9c",
+    "youtubeTitle": "The New Big Boss - The Legend of the Wolf  [HD] (Martial-Arts ganzer Film in voller länge Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yxZDmSQI_9c/hqdefault.jpg",
+    "duration": "PT1H34M51S",
+    "publishedAt": "2026-10-22T10:00:27Z",
+    "channelName": "weloadtv",
+    "channelId": "UC5E67gM-Us3gQBhNPiAg0Xg",
+    "tmdbId": 33537,
+    "title": "The New Big Boss",
+    "originalTitle": "戰狼傳說",
+    "overview": "Der legendäre \"Wolf\" und die Geschichte die man sich über ihn erzählt: \"Wolf\", Fung Man Hin verlor einst sein Gedächtnis und zieht nun als \"Outlaw\" durch das Land. Eines Tages findet er in einem kleinen Dorf einen Freund und Gefährten. Doch wie das Leben so spielt, lebt in genau diesen Dorf auch seine einstige Jugendliebe Wai Yee. Alles scheint sich zum Guten zu wenden. Doch dann wird das Dorf von Banditen, die noch eine Rechnung zu begleichen haben, überfallen. Sie entführen Wai Yee, um so Fung Man Hin in eine Falle zu locken und ihn zu töten. Von da an hetzt der \"Wolf\" die Meute!",
+    "releaseDate": "1997-06-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/i16wKP8eKVQAiMGynncn6i6ixSw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fNEOkaaIALWwqOru4mbjNVkOP3w.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Donnie Yen",
+      "李若彤",
+      "Dayo Wong",
+      "林國斌",
+      "Edmond Leung"
+    ],
+    "director": [
+      "Donnie Yen"
+    ],
+    "writer": [
+      "雷德偉",
+      "Cub Chin Kong-Hon",
+      "Donnie Yen"
+    ],
+    "fsk": null,
+    "slug": "the-new-big-boss"
+  },
+  {
+    "videoId": "WAL3l_dtY48",
+    "youtubeTitle": "Perry Mattfeld: Die nette Nachbarin lügt • Psychothriller: Who Invited Them - Lass sie nicht rein",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WAL3l_dtY48/hqdefault.jpg",
+    "duration": "PT1H21M18S",
+    "publishedAt": "2026-10-22T16:30:26Z",
+    "channelName": "Starkino",
+    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
+    "tmdbId": 931346,
+    "title": "Who Invited Them",
+    "originalTitle": "Who Invited Them",
+    "overview": "Die Einweihungsparty von Adam und Margo ist ein Erfolg. Ein geheimnisvolles Paar bleibt jedoch noch lange, nachdem alle anderen Gäste gegangen sind. Das Paar entpuppt sich als Tom und Sasha, wohlhabende Nachbarn, aber als ein Schlummertrunk zum nächsten führt, beginnen sie zu vermuten, dass diese neuen Freunde in Wirklichkeit doppelzüngige Fremde sind.",
+    "releaseDate": "2022-06-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bzX31ByIUWiQQAugsT9qXlfeZwe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8RqZ57dpz3SiqfZq0gvV9Bzju6T.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      27,
+      53,
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 80,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ryan Hansen",
+      "Melissa Tang",
+      "Timothy Granaderos",
+      "Perry Mattfeld",
+      "Tipper Newton"
+    ],
+    "director": [
+      "Duncan Birmingham"
+    ],
+    "writer": [
+      "Duncan Birmingham"
+    ],
+    "fsk": "16",
+    "slug": "who-invited-them"
+  },
+  {
+    "videoId": "44wWKkrr4QQ",
+    "youtubeTitle": "🔥 THRILLER | Die Hochzeitsreise wird zum tödlichen Albtraum | SHATTERED VOWS | Filme deutsch komplet",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/44wWKkrr4QQ/hqdefault.jpg",
+    "duration": "PT1H26M32S",
+    "publishedAt": "2026-10-22T17:35:57Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": 1501640,
+    "title": "Shattered Vows",
+    "originalTitle": "Shattered Vows",
+    "overview": "",
+    "releaseDate": "2025-06-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mz0Kl4mzYoOnnldsXMmRG8AAGIp.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/blQ8SujzUnNOpCKnKqhbWcOjUMz.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      53,
+      80,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 90 min, Video 87 min (auch möglich: Shattered Vows 1984, 94 min) · Zuordnungswert 98 (Suchbegriff: \"SHATTERED VOWS\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Christie Leverette",
+      "James Bobo",
+      "Kabby Borders",
+      "Brooke Burfitt",
+      "John Castle"
+    ],
+    "director": [
+      "Haylie Duff"
+    ],
+    "writer": [
+      "Brooke Williams"
+    ],
+    "fsk": null,
+    "slug": "shattered-vows"
+  },
+  {
+    "videoId": "S6Xdnnpg0pQ",
+    "youtubeTitle": "Die Schwanenprinzessin - Heute Pirat, morgen Prinzessin (2016) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/S6Xdnnpg0pQ/hqdefault.jpg",
+    "duration": "PT1H19M30S",
+    "publishedAt": "2026-10-22T14:00:21Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 414223,
+    "title": "Die Schwanenprinzessin - Heute Pirat, morgen Prinzessin",
+    "originalTitle": "The Swan Princess: Princess Tomorrow, Pirate Today!",
+    "overview": "Während ihre Eltern den Sommer über verreist sind, verbringt die kleine Prinzessin Alise viel Zeit mit Königin Uberta. Von ihr soll das Mädchen lernen, eine echte königliche Hoheit zu sein. Doch für Alise gibt es nur eines: Sie will eine verwegene Piratin sein und setzt zusammen mit Lord Rogers, der Schildkröte Speed und dem Frosch Jean-Bob die Segel. Auf ihrer Fahrt über das Meer erlebt die Bande aufregende Abenteuer, aber auch Gefahren. Nachdem sie auf einer geheimnisvollen Insel schiffbrüchig werden, lernt die Prinzessin den dort abgeschieden lebenden Lucas kennen. Die Piratencrew und ihr neuer Freund müssen zusammenarbeiten, um dem Eiland mit seinen gefährlichen Kreaturen zu entkommen.",
+    "releaseDate": "2016-09-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3UboarDBhgGVRfqwDV9h5M8zBqg.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/r2xjBZkV5FLvns5hqgKcRUzQVIR.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      10751,
+      16,
+      35,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 81,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Laura Bailey",
+      "Yuri Lowenthal",
+      "Joseph Medrano",
+      "Brian Nissen",
+      "Maxine Blue"
+    ],
+    "director": [
+      "Richard Rich",
+      "Brian Nissen"
+    ],
+    "writer": [
+      "Brian Nissen",
+      "Richard Rich"
+    ],
+    "fsk": null,
+    "slug": "die-schwanenprinzessin-heute-pirat-morgen-prinzessin"
+  },
+  {
+    "videoId": "hdhOqoZzhkk",
+    "youtubeTitle": "Dam Sharks (2016) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hdhOqoZzhkk/hqdefault.jpg",
+    "duration": "PT1H21M33S",
+    "publishedAt": "2026-10-22T16:00:09Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 407628,
+    "title": "Dam Sharks!",
+    "originalTitle": "Dam Sharks!",
+    "overview": "Bei einem Wochenendtrip in die Wildnis werden aufstrebende Führungskräfte von Bullenhaien gejagt: die brauchen menschliche Körperteile, um ihren neuen Lebensraum, einen reißenden Fluß, zu beruhigen. Die zu Hilfe eilenden einheimischen Rangers sind heillos überfordert… Grausam animierte CGI-Kreaturen schnappen sich die üblichen Charaktere in solchen „Lachnummern“.",
+    "releaseDate": "2016-07-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zf6bIjBcDlu6ylMH1siRomDpkPN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ei8sfb714ZX0CYeeYfgiEvPunMH.jpg",
+    "voteAverage": 4.5,
+    "genreIds": [
+      28,
+      27,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 79,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jason London",
+      "Jessica Blackmore",
+      "Kabby Borders",
+      "Robert Craighead",
+      "Matt Mercer"
+    ],
+    "director": [
+      "James Kondelik",
+      "Jon Kondelik"
+    ],
+    "writer": [
+      "Cole Sharpe",
+      "Joe Chisana"
+    ],
+    "fsk": null,
+    "slug": "dam-sharks"
+  },
+  {
+    "videoId": "iCp-f2JISSc",
+    "youtubeTitle": "Ein Tag wie kein anderer (2016) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iCp-f2JISSc/hqdefault.jpg",
+    "duration": "PT1H38M9S",
+    "publishedAt": "2026-10-22T16:00:06Z",
+    "channelName": "daredo TV",
+    "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",
+    "tmdbId": 393521,
+    "title": "Ein Tag wie kein anderer",
+    "originalTitle": "שבוע ויום",
+    "overview": "Nach dem Tod seines 25-jährigen Sohnes trauert Eyal (Shai Avivi) traditionsgemäß eine Woche lang, um den Verlust zu verarbeiten. Als er das jüdische Trauerritual Shiva absolviert hat, soll er sich auf Drängen seiner Frau Vicky (Evgenia Dodina), die möglichst schnell zum gewohnten Alltag zurückkehren möchte, wieder seiner täglichen Routine widmen. Doch Eyal hat etwas anderes im Sinn. Anstatt zu machen, was er schon immer tat, anstatt in alte Muster zu verfallen, freundet sich mit seinem jungen Nachbarn Zooler (Tomer Kapon) an. Die beiden verbringen einen unvergesslichen Tag miteinander, an dem sich eine skurrile Situation an die nächste reiht. Während eines Rausches erkennt Eyal, dass es noch so viel mehr im Leben gibt, das es zu entdecken gilt. Gemeinsam mit Zooler findet er einen Weg, seine Trauer zu bewältigen…",
+    "releaseDate": "2016-12-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tScyUVahU8WQCQYYi6sonT6kWZA.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nfM4BignSJXNhQoOQrtfkb5tLN6.jpg",
+    "voteAverage": 5.788,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Shai Avivi",
+      "Yevgeniya Dodina",
+      "Uri Gavriel",
+      "Sharon Alexander",
+      "Carmit Mesilati Kaplan"
+    ],
+    "director": [
+      "Asaph Polonsky"
+    ],
+    "writer": [
+      "Asaph Polonsky"
+    ],
+    "fsk": "6",
+    "slug": "ein-tag-wie-kein-anderer"
+  },
+  {
+    "videoId": "XcZYrryoYHo",
+    "youtubeTitle": "Ein THRILLERFILM, der dich mit jeder Szene tiefer in seinen Bann zieht | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XcZYrryoYHo/hqdefault.jpg",
+    "duration": "PT1H29M2S",
+    "publishedAt": "2026-10-21T15:00:34Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "The Surrogate",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-surrogate"
+  },
+  {
+    "videoId": "Mgl21dQGKYc",
+    "youtubeTitle": "Er sucht seinen Freund – und landet in einer tödlichen Kampfarena Action Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Mgl21dQGKYc/hqdefault.jpg",
+    "duration": "PT1H24M27S",
+    "publishedAt": "2026-10-21T14:00:34Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Er sucht seinen Freund",
+    "originalTitle": null,
+    "overview": "Der ehemalige Kickbox-Champion John Larson sucht gemeinsam mit einer Reporterin nach einem vermissten Mann. Dabei stoßen sie auf illegale Kämpfe, die von einem skrupellosen Waffenhändler organisiert werden. Um die Wahrheit herauszufinden, muss Larson in eine Welt zurückkehren, die er längst hinter sich lassen wollte.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Joe Coppoletta"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "er-sucht-seinen-freund"
+  },
+  {
+    "videoId": "iND1Bow9X2c",
+    "youtubeTitle": "THE DARK – Ihre Tochter ertrinkt, doch plötzlich erscheint ein totes Mädchen! (Horror | Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iND1Bow9X2c/hqdefault.jpg",
+    "duration": "PT1H27M57S",
+    "publishedAt": "2026-10-21T17:30:19Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": null,
+    "title": "THE DARK - Ihre Tochter ertrinkt, doch plötzlich erscheint ein totes Mädchen!",
+    "originalTitle": null,
+    "overview": "Adèle (Maria Bello) reist mit ihrer Tochter Sarah (Sophie Stuckey) an die abgelegene Küste von Wales, um ihren getrennt lebenden Ehemann James (Sean Bean) zu besuchen. Doch als Sarah unter tragischen Umständen im Meer verschwindet, wird die Familie von tiefer Verzweiflung erfasst. Kurz darauf taucht das geheimnisvolle Mädchen Ebrill (Abigail Stone) auf, das Sarah verblüffend ähnlich sieht und angeblich bereits vor Jahrzehnten gestorben ist. Während Adèle nach Antworten sucht, stößt sie auf eine unheimliche walisische Legende über die Rückkehr der Toten und das Opfer eines Lebenden. Immer stärker verschwimmen die Grenzen zwischen Wirklichkeit und übernatürlichem Grauen. Bald muss Adèle erkennen, dass die Rettung ihrer Tochter einen schrecklichen Preis verlangen könnte.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "John Fawcett"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "the-dark-ihre-tochter-ertrinkt-doch-ploetzlich-erscheint-ein"
+  },
+  {
+    "videoId": "lnppSpWDl2M",
+    "youtubeTitle": "Zwei Ex-Partner, ein Hochzeits-Drama | LIEBES KOMÖDIE DEUTSCH: Eine Hochzeit zu Weihnachten",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/lnppSpWDl2M/hqdefault.jpg",
+    "duration": "PT1H24M59S",
+    "publishedAt": "2026-02-13T17:15:08Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": null,
+    "title": "Zwei Ex-Partner, ein Hochzeits-Drama",
+    "originalTitle": null,
+    "overview": "Society-Reporterin Greta Kaine ist ein echtes „Gossip-Girl“. Dem zum Erreichen ihres Traumjobs als Chefredakteurin der neuen Online-Ausgabe ihres Magazins nur eines fehlt: Eine saftige Enthüllungsstory. Die winterlichen Weihnachtsfeierlichkeiten bei einem Senator, dessen Söhne sich gleich beide verloben sollen, könnten den Ausschlag dafür geben. Aber erstens ist auch ihr alter Rivale Wes vor Ort und zweitens wird Greta als vermeintlicher Gast im Promihaushalt zur Zeugin einer ganz und gar nicht unsympathischen Familie. Wird sie bereits sein, deren guten Ruf für die entscheidende Story zu opfern? #ganzerFilm #ganzerfilmaufdeutsch #Film\n#Weihnachten #Weihnachtsfilm #Weihnachtsfilme #EineHochzeitZuWeihnachten",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Brooke Burns",
+      "Greg Evigan",
+      "Abby Brammell",
+      "Robert Pine"
+    ],
+    "director": [
+      "Fred Olen Ray"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "zwei-ex-partner-ein-hochzeits-drama"
+  },
+  {
+    "videoId": "FDXTdVpoz08",
+    "youtubeTitle": "Das war Bruce Lee (Asiatischer Kampffilm, Biographie, deutsch, ganzer Film, Bruce Lee's Leben)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FDXTdVpoz08/hqdefault.jpg",
+    "duration": "PT50M5S",
+    "publishedAt": "2017-04-01T09:00:01Z",
+    "channelName": "Bulldox",
+    "channelId": "UCgsih0dGYPncJxONFcz3-UA",
+    "tmdbId": null,
+    "title": "Das war Bruce Lee",
+    "originalTitle": null,
+    "overview": "Bruce Lee - der König des Kung Fu ist tot. Die ganze Welt rätselt über sein mysteriöses, frühes Ende. Dieser Film zeigt die ungeschminkte Wahrheit über sein Leben, Lieben... und Sterben.\n#Spielfilm #ganzerFilm #Action",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Betty Ting Pei",
+      "Bruce Lee"
+    ],
+    "director": [
+      "John Lomar"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "das-war-bruce-lee"
+  },
+  {
+    "videoId": "bDn8ajgcPAE",
+    "youtubeTitle": "Nach dem Tod ihres Mannes jagt sie ein Geheimnis, das ihr Leben zerstören könnte | Liam Neeson",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bDn8ajgcPAE/hqdefault.jpg",
+    "duration": "PT1H17M27S",
+    "publishedAt": "2026-10-21T19:18:54Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Nach dem Tod ihres Mannes jagt sie ein Geheimnis, das ihr Leben zerstören könnte",
+    "originalTitle": null,
+    "overview": "Der plötzliche Tod ihres Ehemanns reißt eine Frau aus ihrem sicheren Leben. Doch je tiefer sie in die Umstände des Absturzes eintaucht, desto klarer wird: Das war nicht einfach nur ein tragischer Unfall. Auf ihrer Suche nach Antworten entdeckt sie geheime Konten, rätselhafte Kontakte und undurchsichtige internationale Verbindungen. Jeder neue Hinweis führt sie tiefer in eine Welt aus Geld, Macht und Lügen – und bringt sie selbst in Gefahr. Dieser atmosphärische Thriller verbindet Mystery, emotionale Spannung und ein komplexes Netz aus Intrigen. Mit starken Darstellern und einer geheimnisvollen Handlung bleibt die Spannung bis zum Schluss erhalten.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "nach-dem-tod-ihres-mannes-jagt-sie-ein-geheimnis-das-ihr-leb"
+  },
+  {
+    "videoId": "njYSLcBrqsY",
+    "youtubeTitle": "🏆 Dieser Film wird Sie noch lange beeindrucken! | Atemberaubendes Sci-Fi-Drama | Zoe | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/njYSLcBrqsY/hqdefault.jpg",
+    "duration": "PT1H31M9S",
+    "publishedAt": "2026-10-21T13:17:49Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Zoe",
+    "originalTitle": null,
+    "overview": "Ein Science-Fiction-Melodram, das die Zuschauer in die Zukunft entführt, wo die Technologie versucht, das größte Rätsel der Menschheit zu lösen – die Liebe. In einer Welt, in der spezielle Computerprogramme die Kompatibilität von Partnern bestimmen und Drogen Liebesgefühle auslösen können, suchen die Menschen mithilfe der Wissenschaft immer häufiger nach der perfekten Beziehung. Zoe arbeitet für ein Unternehmen, das Technologien zur Gestaltung romantischer Beziehungen entwickelt, und beschließt, mit ihrem Kollegen Cole einen Kompatibilitätstest zu machen. Das Ergebnis schockiert sie: null Prozent. Doch hinter dieser Zahl verbirgt sich ein Geheimnis, das ihre Wahrnehmung von sich selbst, ihren Gefühlen und dem wahren Wesen der Liebe verändern kann. Als Cole Zoe die Wahrheit über seine Herkunft offenbart, entwickelt sich zwischen ihnen allmählich eine Beziehung, die das Wesen menschlicher ",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "zoe-2"
+  },
+  {
+    "videoId": "y4ooukWWMDA",
+    "youtubeTitle": "Edgar Wallace: Der Hexer (KLASSIKER | komplette Spielfilme auf Deutsch, Krimi in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/y4ooukWWMDA/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2020-12-24T19:15:00Z",
+    "channelName": "TitanumX",
+    "channelId": "UCnlIBYHTpD2R3BQuE6nsSKw",
+    "tmdbId": null,
+    "title": "Edgar Wallace: Der Hexer",
+    "originalTitle": null,
+    "overview": "Steckbrieflich gesucht: Arthur Miller, genannt \"Der Hexer\" - wegen Mordes.\nErbarmungslos übt Arthur Miller Selbstjustiz aus, als er aus seinem australischen Exil zurückkehrt, um sich an dem Mörder seiner Schwester zu rächen. Inspektor Higgins von Scotland Yard hat einen kniffligen Fall aufzuklären, denn der \"Hexer\" versteht es geschickt, sein Gesicht immer wieder zu verändern - anscheinend hat er hundert verschiedene. Überall treibt er sein schreckliches Unwesen und ist doch nie zu fassen. Fragen über Fragen - Scotland Yard steht vor einer fast unlösbaren Aufgabe...\n#Spielfilm #ganzerFilm #Klassiker",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Peter Pasetti",
+      "Eva Maria Meineke",
+      "Hermann Lenschau"
+    ],
+    "director": [
+      "Wallace",
+      "Edgar (Buch)",
+      "Vohrer"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "edgar-wallace-der-hexer-6"
   }
 ]
