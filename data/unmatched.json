@@ -6472,50 +6472,30 @@
     }
   },
   {
-    "videoId": "eFPTaBbt0Sg",
-    "youtubeTitle": "Kollisionskurs: Die letzte Allianz | Sean Connery wird zum Russischen Spion um die Welt zu retten",
-    "suchbegriff": "Kollisionskurs: Die letzte Allianz",
+    "videoId": "wTlh-nuoObg",
+    "youtubeTitle": "Dolph Lundgren | JAGD OHNE GESETZ: Die Polizei wollte ihn tot, jetzt schlägt er zurück | Ganzer Film",
+    "suchbegriff": "Dolph Lundgren",
     "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Kollisionskurs\" ohne Jahr/Besetzung -- Rest des Titels (\"letzte allianz\") fehlt im Treffer",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 37)",
     "tmdbTopKandidat": {
-      "id": 54940,
-      "title": "Kollisionskurs - Panik im Tower",
-      "release_date": "1998-08-26"
+      "id": 413422,
+      "title": "Dolph Lundgren: Maximum Potential",
+      "release_date": "1987-10-08"
     }
   },
   {
-    "videoId": "sqCKw_rJKHM",
-    "youtubeTitle": "Zwei Bikergangs treffen aufeinander – und das Chaos nimmt Fahrt auf  Action Ganzer Film Deutsch",
-    "suchbegriff": "Zwei Bikergangs treffen aufeinander – und das Chaos nimmt Fahrt auf Action Ganzer Film Deutsch",
-    "erwartetesJahr": null,
+    "videoId": "UV8uWorYqus",
+    "youtubeTitle": "Afrika, mon amour – Teil 2 (2007) | Ganzer Film Deutsch | Historisches Drama mit Iris Berben | HD",
+    "suchbegriff": "Afrika, mon amour – Teil 2",
+    "erwartetesJahr": "2007",
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "xGQ6sXWOW3g",
-    "youtubeTitle": "🔴The Circle: Willkommen in der Hölle | Horror, Thriller | Ganzer Film Deutsch",
-    "suchbegriff": "The Circle: Willkommen in der Hölle",
+    "videoId": "0u6xb0nQK7c",
+    "youtubeTitle": "Er bezahlt einen Killer für den Mord an seiner Frau – doch der Plan endet im Blut",
+    "suchbegriff": "Er bezahlt einen Killer für den Mord an seiner Frau – doch der Plan endet im Blut",
     "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"The Circle\" ohne Jahr/Besetzung -- Rest des Titels (\"willkommen holle\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 339988,
-      "title": "The Circle",
-      "release_date": "2017-04-27"
-    }
-  },
-  {
-    "videoId": "vFrfL2gz0lQ",
-    "youtubeTitle": "Die Drehscheibe 1976 – Seltene TV-Rarität mit Walter Bluhm & Michael Habeck | ZDF Nostalgie",
-    "suchbegriff": "Die Drehscheibe 1976 – Seltene TV-Rarität mit Walter Bluhm & Michael Habeck",
-    "erwartetesJahr": "1977",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "959r-f5C3EE",
-    "youtubeTitle": "Wenn die falsche Braut das Herz erobert: Lilly Schönauer | Ein herzzerreißender Film",
-    "suchbegriff": "Wenn die falsche Braut das Herz erobert: Lilly Schönauer",
-    "erwartetesJahr": "2010",
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   }

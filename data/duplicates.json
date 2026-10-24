@@ -99521,86 +99521,6 @@
     "bereitsVorhandenAufKanal": "Wolkesieben"
   },
   {
-    "videoId": "LYVD_tQ_1Ec",
-    "youtubeTitle": "True Justice I: Russisch Roulette – Ganzer Actionfilm mit Steven Seagal auf Deutsch kostenlos in HD",
-    "channelName": "Free Films Action",
-    "tmdbId": 38239,
-    "title": "On Sight",
-    "bereitsVorhandenAufKanal": "Free Films Action"
-  },
-  {
-    "videoId": "6AOvUWH-C7k",
-    "youtubeTitle": "Die Melodie der Liebe (LIEBESKOMÖDIE in voller Länge, Liebesdrama Filme auf Deutsch, neue Filme)",
-    "channelName": "Netzkino",
-    "tmdbId": 322810,
-    "title": "Broken Chains",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "AM0yW2xPZ1A",
-    "youtubeTitle": "American Soldiers - Ein Tag im Irak (Action, Kriegsfilm, ganzer Film, kompletter Film) *HD*",
-    "channelName": "Netzkino",
-    "tmdbId": 41497,
-    "title": "American Soldiers - Ein Tag im Irak",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "E8zDUXLQWiw",
-    "youtubeTitle": "JET LI - KUNG FU CULT MASTER - Martial-Arts, Actionfilm - Ganzer Film kostenlos bei Moviedome",
-    "channelName": "Moviedome",
-    "tmdbId": 10852,
-    "title": "The Kung Fu Cult Master",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "H-THa9EbgIU",
-    "youtubeTitle": "ROBIN WILLIAMS in: The Night Listener - Mysteryfilm mit Rory Culkin - Ganzer Film kostenlos in HD",
-    "channelName": "Moviedome",
-    "tmdbId": 9782,
-    "title": "The Night Listener - Der nächtliche Lauscher",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "m1m7S3YVIP4",
-    "youtubeTitle": "JET LI in: FLYING SWORDS OF DRAGON GATE - fulminantes Abenteuer-Epos - Ganzer Film",
-    "channelName": "Moviedome",
-    "tmdbId": 81870,
-    "title": "Flying Swords of Dragon Gate",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "VuheTRWZlt4",
-    "youtubeTitle": "Mekong Rush - Renn um dein Leben - fesselnder Verfolgungs-Thriller - Ganzer Film in HD - Moviedome",
-    "channelName": "Moviedome",
-    "tmdbId": 353732,
-    "title": "Mekong Rush – Renn um dein Leben",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "T1kTwtn0nns",
-    "youtubeTitle": "Der wilder Haufen von Navaronne | kompletter Film | Deutsch",
-    "channelName": "Sony Pics at Home DE",
-    "tmdbId": 17339,
-    "title": "Der wilde Haufen von Navarone",
-    "bereitsVorhandenAufKanal": "Netzkino"
-  },
-  {
-    "videoId": "mAdNdnugBZU",
-    "youtubeTitle": "Die Abendheuer des Baron von Münchhausen | kompletter Film | Deutsch",
-    "channelName": "Sony Pics at Home DE",
-    "tmdbId": 14506,
-    "title": "Die Abenteuer des Baron Münchhausen",
-    "bereitsVorhandenAufKanal": "CineCult Reloaded"
-  },
-  {
-    "videoId": "cNtqUE1ec7g",
-    "youtubeTitle": "Verliebt in den Mitbewohner: Wenn Freundschaft die Grenzen der Liebe überschreitet | Constantin-Film",
-    "channelName": "Free Movies Deutschland",
-    "tmdbId": 372288,
-    "title": "Gut zu Vögeln",
-    "bereitsVorhandenAufKanal": "FABELLA"
-  },
-  {
     "videoId": "TjyS5-oIfZk",
     "youtubeTitle": "Perfekter Alien Horror: Area 51 - Das Alien-Portal (2022) (HD)",
     "channelName": "Screamtime",
@@ -99718,6 +99638,214 @@
     "channelName": "Artflix",
     "tmdbId": null,
     "title": "Der rasende Teufel",
+    "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
+  },
+  {
+    "videoId": "LYVD_tQ_1Ec",
+    "youtubeTitle": "True Justice I: Russisch Roulette – Ganzer Actionfilm mit Steven Seagal auf Deutsch kostenlos in HD",
+    "channelName": "Free Films Action",
+    "tmdbId": 38239,
+    "title": "On Sight",
+    "bereitsVorhandenAufKanal": "Free Films Action"
+  },
+  {
+    "videoId": "6AOvUWH-C7k",
+    "youtubeTitle": "Die Melodie der Liebe (LIEBESKOMÖDIE in voller Länge, Liebesdrama Filme auf Deutsch, neue Filme)",
+    "channelName": "Netzkino",
+    "tmdbId": 322810,
+    "title": "Broken Chains",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "AM0yW2xPZ1A",
+    "youtubeTitle": "American Soldiers - Ein Tag im Irak (Action, Kriegsfilm, ganzer Film, kompletter Film) *HD*",
+    "channelName": "Netzkino",
+    "tmdbId": 41497,
+    "title": "American Soldiers - Ein Tag im Irak",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "E8zDUXLQWiw",
+    "youtubeTitle": "JET LI - KUNG FU CULT MASTER - Martial-Arts, Actionfilm - Ganzer Film kostenlos bei Moviedome",
+    "channelName": "Moviedome",
+    "tmdbId": 10852,
+    "title": "The Kung Fu Cult Master",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "H-THa9EbgIU",
+    "youtubeTitle": "ROBIN WILLIAMS in: The Night Listener - Mysteryfilm mit Rory Culkin - Ganzer Film kostenlos in HD",
+    "channelName": "Moviedome",
+    "tmdbId": 9782,
+    "title": "The Night Listener - Der nächtliche Lauscher",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "m1m7S3YVIP4",
+    "youtubeTitle": "JET LI in: FLYING SWORDS OF DRAGON GATE - fulminantes Abenteuer-Epos - Ganzer Film",
+    "channelName": "Moviedome",
+    "tmdbId": 81870,
+    "title": "Flying Swords of Dragon Gate",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "VuheTRWZlt4",
+    "youtubeTitle": "Mekong Rush - Renn um dein Leben - fesselnder Verfolgungs-Thriller - Ganzer Film in HD - Moviedome",
+    "channelName": "Moviedome",
+    "tmdbId": 353732,
+    "title": "Mekong Rush – Renn um dein Leben",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "T1kTwtn0nns",
+    "youtubeTitle": "Der wilder Haufen von Navaronne | kompletter Film | Deutsch",
+    "channelName": "Sony Pics at Home DE",
+    "tmdbId": 17339,
+    "title": "Der wilde Haufen von Navarone",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "mAdNdnugBZU",
+    "youtubeTitle": "Die Abendheuer des Baron von Münchhausen | kompletter Film | Deutsch",
+    "channelName": "Sony Pics at Home DE",
+    "tmdbId": 14506,
+    "title": "Die Abenteuer des Baron Münchhausen",
+    "bereitsVorhandenAufKanal": "CineCult Reloaded"
+  },
+  {
+    "videoId": "cNtqUE1ec7g",
+    "youtubeTitle": "Verliebt in den Mitbewohner: Wenn Freundschaft die Grenzen der Liebe überschreitet | Constantin-Film",
+    "channelName": "Free Movies Deutschland",
+    "tmdbId": 372288,
+    "title": "Gut zu Vögeln",
+    "bereitsVorhandenAufKanal": "FABELLA"
+  },
+  {
+    "videoId": "SwbgHue82zQ",
+    "youtubeTitle": "Dieser THRILLERFILM führt dich in Ermittlungen voller unerwarteter Wendungen | AUF DEUTSCH",
+    "channelName": "CinemaLegenden",
+    "tmdbId": 1584779,
+    "title": "The Body in the Locker",
+    "bereitsVorhandenAufKanal": "KinoWucht"
+  },
+  {
+    "videoId": "2QC2gGtaH9M",
+    "youtubeTitle": "Perfekter Film für den Spooktober: Und wieder ist Freitag der 13. (Ganzer Film | HD)",
+    "channelName": "Screamtime",
+    "tmdbId": 9728,
+    "title": "Und wieder ist Freitag der 13.",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "UKq_kHR3N4Y",
+    "youtubeTitle": "DIE AUGEN DES TEUFELS – Seine Drehbuchmorde werden plötzlich Realität! (Horror | Deutsch)",
+    "channelName": "Dzango",
+    "tmdbId": 27267,
+    "title": "Die Augen des Teufels",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "gmd-QHigwB0",
+    "youtubeTitle": "BULL SHARK – Ein riesiger Bullenhai verwandelt einen Badesee in eine Todesfalle! (Horror)",
+    "channelName": "Draco Actionfilme",
+    "tmdbId": 938596,
+    "title": "Bull Shark",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "BZuF6ydNlng",
+    "youtubeTitle": "[HD] Fight Another Day (Zeitreise-Action, kompletter Film auf Deutsch)",
+    "channelName": "Highresworld Deutsch",
+    "tmdbId": 1053008,
+    "title": "Fight Another Day",
+    "bereitsVorhandenAufKanal": "Dzango"
+  },
+  {
+    "videoId": "ypxxPxApw7M",
+    "youtubeTitle": "Camp Bravo - 100 Meter bis zur Wahrheit | 2016 | Drama | Kriegsfilm auf Deutsch",
+    "channelName": "Bigtime",
+    "tmdbId": 391773,
+    "title": "Camp Bravo",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "Nv2zI_zODAc",
+    "youtubeTitle": "Hautnah | 1985 | Armin Mueller-Stahl | Spannender Thriller",
+    "channelName": "Artflix",
+    "tmdbId": 292793,
+    "title": "Hautnah",
+    "bereitsVorhandenAufKanal": "daredo TV"
+  },
+  {
+    "videoId": "yo3T2mqP2g0",
+    "youtubeTitle": "TEXAS im Ausnahmezustand: Texas Twister | TORNADO-Katastrophe & Survival Action",
+    "channelName": "Movies Select",
+    "tmdbId": 1253769,
+    "title": "Texas Twister",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "jhjhzxBoTgk",
+    "youtubeTitle": "Unglaublicher MARTIAL ARTS FILM: Enter the Blood Ring (Ganzer Film) (HD)",
+    "channelName": "Mockbuster",
+    "tmdbId": 202451,
+    "title": "Enter the Blood Ring",
+    "bereitsVorhandenAufKanal": "Draco Actionfilme"
+  },
+  {
+    "videoId": "AmBMwTwTgUE",
+    "youtubeTitle": "DJANGO UND DIE BANDE DER GEHENKTEN – Terence Hill schwört gnadenlose Rache! (Western)",
+    "channelName": "Bulldox",
+    "tmdbId": 46443,
+    "title": "Django und die Bande der Gehenkten",
+    "bereitsVorhandenAufKanal": "Moviedome"
+  },
+  {
+    "videoId": "eieBQBM3GUI",
+    "youtubeTitle": "🏆🥲 Eines der bewegendsten Dramen, das jeder gesehen haben sollte | Ganzer Film auf Deutsch",
+    "channelName": "Lichtprojektor",
+    "tmdbId": 513243,
+    "title": "Das etruskische Lächeln",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "5XD2Vgk_v8g",
+    "youtubeTitle": "Unheimlich (2015 | Die \"perfekte\" Künstliche Intelligenz | Ganzer Film | HD)",
+    "channelName": "TitanumX",
+    "tmdbId": 137333,
+    "title": "Unheimlich",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "dFk1u-09eTM",
+    "youtubeTitle": "Cooper - Eine wunderbare Freundschaft (TOLLE FAMILIEN KOMÖDIE ganzer Film auf Deutsch, Dramedy)",
+    "channelName": "FABELLA",
+    "tmdbId": 83735,
+    "title": "Cooper - Eine wundervolle Freundschaft",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "vvBBVFtZRpc",
+    "youtubeTitle": "Schwester Weiß (2015) | Ganzer Film [Deutsch]",
+    "channelName": "daredo TV",
+    "tmdbId": 404871,
+    "title": "Schwester Weiß",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "6mM_jdQCxDQ",
+    "youtubeTitle": "Ihr Leben wurde zum ALBTRAUM, als ein Fremder ihre Tochter entführte! 😱 | Thriller auf Deutsch",
+    "channelName": "KinoWelt Deutsch",
+    "tmdbId": 555185,
+    "title": "Eve of Abduction",
+    "bereitsVorhandenAufKanal": "CinemaLegenden"
+  },
+  {
+    "videoId": "10NXZOoa_4M",
+    "youtubeTitle": "Bad Influence",
+    "channelName": "Kinohof",
+    "tmdbId": null,
+    "title": "Bad Influence",
     "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
   }
 ]

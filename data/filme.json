@@ -213949,7 +213949,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "dolph-lundgren"
+    "slug": "dolph-lundgren",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "DV767Xd7PKk",
@@ -257895,7 +257897,9 @@
       "Ole Bornedal"
     ],
     "fsk": "16",
-    "slug": "dina-meine-geschichte"
+    "slug": "dina-meine-geschichte",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "H7gDYt-ODmY",
@@ -279695,7 +279699,9 @@
     "slug": "frozen-ground",
     "runtime": 105,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "kMMn5dwBPwo",
@@ -314137,9 +314143,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "10NXZOoa_4M",
-    "youtubeTitle": "🎬 Schaut Diesen Film Nur Kurz – Ihr Werdet Ihn Bis Zum Ende Nicht Ausschalten! | Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/10NXZOoa_4M/hqdefault.jpg",
+    "videoId": "4LmrX1yw_Vk",
+    "youtubeTitle": "😱 Ihre Tochter Fand Neue Freunde, Doch Bald Hatte die Mutter Angst vor Ihnen | Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4LmrX1yw_Vk/hqdefault.jpg",
     "duration": "PT1H29M22S",
     "publishedAt": "2026-06-23T12:02:52Z",
     "channelName": "Kinohof",
@@ -314175,8 +314181,6 @@
       "Adam Rockoff"
     ],
     "fsk": null,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
     "slug": "bad-influence",
     "runtime": 89,
     "plausibel": "titel",
@@ -329366,5 +329370,494 @@
     "writer": [],
     "fsk": null,
     "slug": "edgar-wallace-der-hexer-6"
+  },
+  {
+    "videoId": "FiyN50Zj7Gg",
+    "youtubeTitle": "HAVE WE EVER MET | Kennen wir uns? | Liebe über mehrere Leben | 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FiyN50Zj7Gg/hqdefault.jpg",
+    "duration": "PT1H39M58S",
+    "publishedAt": "2026-10-22T17:00:31Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 1317347,
+    "title": "Ma chi ti conosce?",
+    "originalTitle": "Ma chi ti conosce?",
+    "overview": "",
+    "releaseDate": "2024-11-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rnxSXarYkda4alOKFCH5Jg6j0V2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nyXq8qvgmc5bnIhwRxTCXMKGipq.jpg",
+    "voteAverage": 6.75,
+    "genreIds": [
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 111 (Suchbegriff: \"Ma chi ti conosce\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Simona Tabasco",
+      "Antonio Folletto",
+      "Ernesto D'Argenio",
+      "Giorgia Arena",
+      "Vito"
+    ],
+    "director": [
+      "Francesco Fanuele"
+    ],
+    "writer": [
+      "Stefano Di Santi",
+      "Francesco Fanuele"
+    ],
+    "fsk": null,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "slug": "ma-chi-ti-conosce"
+  },
+  {
+    "videoId": "MmoFv32IMmY",
+    "youtubeTitle": "Sie suchte den Mörder – doch er war ganz nah | Thriller auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MmoFv32IMmY/hqdefault.jpg",
+    "duration": "PT1H26M41S",
+    "publishedAt": "2026-10-23T16:05:24Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": 1523038,
+    "title": "Secrets to Kill For",
+    "originalTitle": "Secrets to Kill For",
+    "overview": "",
+    "releaseDate": "2025-08-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lxp1fN1gtHFkwBXuLqaglwAx9fV.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qoV2bIe1nVxCNpdJoXflK1DgT1Z.jpg",
+    "voteAverage": 8,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Secrets to Kill For\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Courtney Grace",
+      "Malena Cunningham Anderson",
+      "Aria Castillo",
+      "Kristen Grace Gonzalez",
+      "Riley Hough"
+    ],
+    "director": [
+      "Dave Thomas"
+    ],
+    "writer": [
+      "Lauren Greenwood"
+    ],
+    "fsk": null,
+    "slug": "secrets-to-kill-for"
+  },
+  {
+    "videoId": "DVuB085_1lE",
+    "youtubeTitle": "Freitag der 13. – Ein neuer Anfang (TEIL 5 der KULT HORRORFILM REIHE, Horrorfilme in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DVuB085_1lE/hqdefault.jpg",
+    "duration": "PT1H31M58S",
+    "publishedAt": "2026-10-23T17:00:35Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 9731,
+    "title": "Freitag der 13. - Ein neuer Anfang",
+    "originalTitle": "Friday the 13th: A New Beginning",
+    "overview": "Dem mittlerweile 18-jährige Tommy war es gelungen, Jason Voorhees für immer ins Jenseits zu befördern. Die traumatischen Erlebnisse konnte er jedoch nicht verarbeiten, weshalb der Beitritt bei einer Therapiegruppe für Jugendliche in einem abgelegenen Haus für Linderung sorgen soll. Erneut holt der Schrecken Tommy ein, denn wieder beginnt eine Mordserie. Und es hat den Anschein, als steckte Jason hinter dem Blutbad, bis sich herausstellt, dass ein Vater aus Rache an dem Mord an seinem Sohn zum Psychopathen wurde.",
+    "releaseDate": "1985-03-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jC2uAunr2ansAud8aAmhaMvcGGt.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/o8IifZ0BB9yVGWprOJmNrCzsFX3.jpg",
+    "voteAverage": 5.267,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Melanie Kinnaman",
+      "John Shepherd",
+      "Shavar Ross",
+      "Richard Young",
+      "Marco St. John"
+    ],
+    "director": [
+      "Danny Steinmann"
+    ],
+    "writer": [
+      "John Shepherd",
+      "Martin Kitrosser",
+      "David Cohen"
+    ],
+    "fsk": "18",
+    "slug": "freitag-der-13-ein-neuer-anfang"
+  },
+  {
+    "videoId": "jl2EPEdL3AY",
+    "youtubeTitle": "Bonjour Tristesse (1958) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jl2EPEdL3AY/hqdefault.jpg",
+    "duration": "PT1H34M",
+    "publishedAt": "2026-10-23T14:00:25Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 1937,
+    "title": "Bonjour Tristesse",
+    "originalTitle": "Bonjour Tristesse",
+    "overview": "In Paris tanzt die Teenagerin Cecile mit ihrem Playboy-Vater Raymond, aber Freude will sich nicht einstellen. Die Gründe dafür liegen einige Monate zurück: Damals lebte die dekadente Cecile noch unbeschwert mit dem Papa in Südfrankreich in den Tag hinein. Als deren Villa jedoch von Anne, Raymonds alter Liebe, besucht wird und Raymond offen von Hochzeit spricht, sieht Cecile ihren Lebensstil in Gefahr. Sie will die beiden Erwachsenen auseinander bringen und setzt damit eine Tragödie in Gang.",
+    "releaseDate": "1958-01-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bGMewaJBUk5JT1BHozI2z1XyYWv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ks9uOTNHUy9Kw51ucWulsvqEef5.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Deborah Kerr",
+      "David Niven",
+      "Jean Seberg",
+      "Mylène Demongeot",
+      "Geoffrey Horne"
+    ],
+    "director": [
+      "Otto Preminger"
+    ],
+    "writer": [
+      "Arthur Laurents"
+    ],
+    "fsk": "18",
+    "slug": "bonjour-tristesse"
+  },
+  {
+    "videoId": "RWNMTcRAMBU",
+    "youtubeTitle": "Eine Pistole für Ringo | 4K | Giuliano Gemma | Action | Fernando Sancho | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RWNMTcRAMBU/hqdefault.jpg",
+    "duration": "PT1H33M54S",
+    "publishedAt": "2026-10-23T17:00:19Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 56431,
+    "title": "Eine Pistole für Ringo",
+    "originalTitle": "Una pistola per Ringo",
+    "overview": "Ringo genannt \"Engelsgesicht\" - ist im Grenzgebiet nach Mexiko als Meisterschütze bekannt. Nachdem er sich mal wieder gegen vier bewaffnete Männer zur Wehr gesetzt hat, sperrt ihn der Sheriff hinter Gitter. Zur gleichen Zeit rauben mexikanische Banditen unter Führung von Sancho die Bank der Stadt aus und verschanzen sich auf der Ranch von Major Clyde. Der Sheriff bietet Ringo eine Prämie und die Freiheit, wenn er sich unbewaffnet in die Bande einschleicht und die Geiseln befreit. Doch Ringo spielt mal wieder viel lieber sein eigenes Spiel...",
+    "releaseDate": "1965-05-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/l1Xbkc2KJeXl9Y4HReTyxD8W5tQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tre05lohn53MOkhkcXlQJd2laV6.jpg",
+    "voteAverage": 6.305,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Giuliano Gemma",
+      "Fernando Sancho",
+      "Lorella De Luca",
+      "Nieves Navarro",
+      "Antonio Casas"
+    ],
+    "director": [
+      "Duccio Tessari"
+    ],
+    "writer": [
+      "Duccio Tessari"
+    ],
+    "fsk": null,
+    "slug": "eine-pistole-fuer-ringo"
+  },
+  {
+    "videoId": "1z4LzrPZNSg",
+    "youtubeTitle": "Der Mann im Hintergrund | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1z4LzrPZNSg/hqdefault.jpg",
+    "duration": "PT1H42M11S",
+    "publishedAt": "2026-10-23T14:00:25Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 31650,
+    "title": "Der Mann im Hintergrund",
+    "originalTitle": "Someone to Watch Over Me",
+    "overview": "Claire Gregory, eine New Yorker Persönlichkeit der Oberschicht, wird Zeugin eines Mordes in einem luxuriösen Nachtclub. Detective Mike Keegan, der kürzlich befördert wurde, wird beauftragt, sie zu beschützen.",
+    "releaseDate": "1987-10-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/r7kt5ONJUeA9H3SRJHIaKXAG6I.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4lCritA97pEdHCTEerfrkv3BMDH.jpg",
+    "voteAverage": 5.89,
+    "genreIds": [
+      18,
+      10749,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 103 min, Video 102 min · Zuordnungswert 135 (Suchbegriff: \"Der Mann im Hintergrund\")",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tom Berenger",
+      "Mimi Rogers",
+      "Lorraine Bracco",
+      "Jerry Orbach",
+      "John Rubinstein"
+    ],
+    "director": [
+      "Ridley Scott"
+    ],
+    "writer": [
+      "Danilo Bach",
+      "David Seltzer",
+      "Howard Franklin"
+    ],
+    "fsk": null,
+    "slug": "der-mann-im-hintergrund"
+  },
+  {
+    "videoId": "pcadiYUC544",
+    "youtubeTitle": "Rock 'N' Roll Ringo (2024) [Drama] [Komödie] | Kirmesboxer auf Abwegen | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pcadiYUC544/hqdefault.jpg",
+    "duration": "PT1H41M8S",
+    "publishedAt": "2026-10-23T18:00:10Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1211135,
+    "title": "Rock ‘n’ Roll Ringo",
+    "originalTitle": "Rock ‘n’ Roll Ringo",
+    "overview": "Ein Gerüstbauer verliert seinen Job und schlägt sich als Aushilfskraft bei der Kirmes durch. Dort lässt er sich von einem Schausteller dazu verführen, Karriere als Kirmesboxer zu machen - und hofft seiner gehörlosen Tochter einen langersehnten Traum erfüllen zu können.",
+    "releaseDate": "2024-09-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hX6yMQY1qhZ3kweAh88EEgp7yhQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/a3MIUZqsvugL3neBPRuPOBoSSdK.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      18,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Martin Rohde",
+      "Larissa Sirah Herden",
+      "Margarethe Tiesel",
+      "Charly Schultz",
+      "Peter Trabner"
+    ],
+    "director": [
+      "Dominik Galizia"
+    ],
+    "writer": [
+      "Dominik Galizia"
+    ],
+    "fsk": "16",
+    "slug": "rock-n-roll-ringo"
+  },
+  {
+    "videoId": "aU6VxfHPoXU",
+    "youtubeTitle": "Lautlos kommt der Tod - The Silencers (1996) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/aU6VxfHPoXU/hqdefault.jpg",
+    "duration": "PT1H42M48S",
+    "publishedAt": "2026-10-23T16:00:17Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 26832,
+    "title": "Dark Force - Lautlos kommt der Tod",
+    "originalTitle": "The Silencers",
+    "overview": "Seit ihrer Landung auf der Erde vor 30 Jahren versuchen Außerirdische, deren Existenz von der US-Regierung stets geleugnet wurde, die Weltherrschaft an sich zu reißen. Die Aliens in Menschengestalt haben hohe Militärs gefügig gemacht und mit deren Hilfe eine interdimensionäre Schleuse konstruiert. Durch diese sollen nun deren Truppen auf den grünen Planeten transportiert werden. Nur Top-Agent Chuck Rafferty (Jack Scalia) stellt sich den machthungrigen Wesen mutig entgegen.",
+    "releaseDate": "1996-04-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4UE0IeHnuDk5IsD2DaxIcFJNMmu.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/9jIVWlZAZR5chQw93KgFr5VfnK6.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      28,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Lautlos kommt der Tod - The Silencers\")",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jack Scalia",
+      "Dennis Christopher",
+      "Carlos Lauchu",
+      "Lucinda Weist",
+      "Terri Poch"
+    ],
+    "director": [
+      "Richard Pepin"
+    ],
+    "writer": [
+      "William Applegate Jr.",
+      "Joseph John Barmettler",
+      "Richard Preston Jr."
+    ],
+    "fsk": "16",
+    "slug": "dark-force-lautlos-kommt-der-tod"
+  },
+  {
+    "videoId": "hDUaW5y1nHk",
+    "youtubeTitle": "Düstere Legenden 3 - Urban Legends: Bloody Mary (2005) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hDUaW5y1nHk/hqdefault.jpg",
+    "duration": "PT1H33M27S",
+    "publishedAt": "2026-10-23T16:00:08Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 10292,
+    "title": "Düstere Legenden 3",
+    "originalTitle": "Urban Legends: Bloody Mary",
+    "overview": "Samantha und zwei ihrer Freundinnen sind durch einen Zeitungsartikel, den sie für die Studentenzeitung verfasst haben, bei den Burschen des Football-Teams ihrer Uni in Misskredit geraten. Statt Partys zu feiern, sitzen die drei nun bei Sam und erzählen sich legendäre Schauergeschichten. Als sie dabei den Geist der in jungen Jahren gewaltsam ums Leben gekommenen ‚Bloody Mary‘ erwecken, treten sie eine mysteriöse Mordserie los.",
+    "releaseDate": "2005-07-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cDxm6oB09XeKD9oKFlu75CfO1eE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hgwBYgFvHEDJVx0OVA4qGtcYrCC.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      27,
+      9648
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kate Mara",
+      "Robert Vito",
+      "Tina Lifford",
+      "Ed Marinaro",
+      "Michael Coe"
+    ],
+    "director": [
+      "Mary Lambert"
+    ],
+    "writer": [
+      "Dan Harris",
+      "Michael Dougherty"
+    ],
+    "fsk": "16",
+    "slug": "duestere-legenden-3"
+  },
+  {
+    "videoId": "eFPTaBbt0Sg",
+    "youtubeTitle": "Kollisionskurs: Die letzte Allianz | Sean Connery wird zum Russischen Spion um die Welt zu retten",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eFPTaBbt0Sg/hqdefault.jpg",
+    "duration": "PT1H34M25S",
+    "publishedAt": "2026-10-22T11:35:42Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "Kollisionskurs: Die letzte Allianz",
+    "originalTitle": null,
+    "overview": "Es bleibt nur sehr wenig Zeit. Die Katastrophe scheint unaufhaltsam zu sein. Die USA besitzen eine geheime Waffe im All. Es ist eine illegale Atomraketenstation. Doch die eigenen Raketen reichen für den dicken Brocken nicht aus.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "kollisionskurs-die-letzte-allianz"
+  },
+  {
+    "videoId": "sqCKw_rJKHM",
+    "youtubeTitle": "Zwei Bikergangs treffen aufeinander – und das Chaos nimmt Fahrt auf  Action Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sqCKw_rJKHM/hqdefault.jpg",
+    "duration": "PT1H24M54S",
+    "publishedAt": "2026-10-22T14:00:22Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Zwei Bikergangs treffen aufeinander",
+    "originalTitle": null,
+    "overview": "Bruce und seine Motorradgang wollen das Böse bekämpfen. Doch als sie auf She-Wolf und ihre rebellische Frauengang treffen, wird alles komplizierter. Ihre Anführerin verfolgt einen haarsträubenden Plan – während zwischen den beiden Gangchefs die Funken fliegen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "David O'Malley"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "zwei-bikergangs-treffen-aufeinander"
+  },
+  {
+    "videoId": "xGQ6sXWOW3g",
+    "youtubeTitle": "🔴The Circle: Willkommen in der Hölle | Horror, Thriller | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xGQ6sXWOW3g/hqdefault.jpg",
+    "duration": "PT1H32M33S",
+    "publishedAt": "2026-10-22T13:00:20Z",
+    "channelName": "Filmalarm",
+    "channelId": "UCFOSAYaXLPMdruA2oUpo0yg",
+    "tmdbId": null,
+    "title": "The Circle: Willkommen in der Hölle",
+    "originalTitle": null,
+    "overview": "Nachdem es in ihrem Camp einen nächtlichen Bärenangriff gab, stoßen Greg (Matthew MacCaull) und seine Tochter Samantha (Taylor Dianne Robinson) tief in den Wäldern zufällig auf eine Gemeinschaft, die sich selbst “The Circle” nennt. Sie werden freundlich aufgenommen und können ihre Verletzungen kurieren. Aber der Schein trügt: Die Mitglieder verhalten sich merkwürdig und als sie seltsame lebensgroße Puppen finden, die ihnen in Aussehen und Kleidung perfekt nachempfunden sind, versuchen sie zu fliehen. Doch wurden sie bereits als Menschenopfer für ein dunkles dämonisches Ritual auserwählt und die Zeit bis zur Vollendung ist knapp …",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-circle-willkommen-in-der-hoelle-2"
+  },
+  {
+    "videoId": "959r-f5C3EE",
+    "youtubeTitle": "Wenn die falsche Braut das Herz erobert: Lilly Schönauer | Ein herzzerreißender Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/959r-f5C3EE/hqdefault.jpg",
+    "duration": "PT1H27M49S",
+    "publishedAt": "2026-10-22T17:00:17Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn die falsche Braut das Herz erobert: Lilly Schönauer",
+    "originalTitle": null,
+    "overview": "Modedesignerin Laura reist gemeinsam mit ihrem neuen Partner Alexander auf das majestätische Anwesen seiner Familie in der Steiermark, wo prompt unerwartete Familienturbulenzen ausbrechen. Das eigentlich romantisch geplante Wochenende gerät völlig aus den Fugen, als Alexanders exzentrische Ex-Freundin Susanne auftaucht und gezielt Intrigen gegen das frische Paar spinnt. Parallel dazu sorgt Lauras freigeistige Mutter Maria mit ihrer unerwarteten Begleitung für zusätzlichen Wirbel im traditionellen Haus der Familie Steinbrück. Missverständnisse, vertauschte Identitäten und verheimlichte Wahrheiten bringen die Gefühle aller Beteiligten gewaltig ins Wanken. Am Ende stehen jedoch nicht nur alte Geheimnisse auf dem Prüfstand, sondern auch die Frage, wer schlussendlich wirklich den Weg in den Hafen der Ehe antritt.",
+    "releaseDate": "2010-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "wenn-die-falsche-braut-das-herz-erobert-lilly-schonauer"
   }
 ]
