@@ -156250,7 +156250,9 @@
     "writer": [],
     "fsk": null,
     "slug": "25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Sdz_AIfCEjk",
@@ -329859,5 +329861,638 @@
     "writer": [],
     "fsk": null,
     "slug": "wenn-die-falsche-braut-das-herz-erobert-lilly-schonauer"
+  },
+  {
+    "videoId": "EYj9zWXisGY",
+    "youtubeTitle": "Seine treue Frau ist schwanger, doch er verschweigt seine Unfruchtbarkeit | THRILLERFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EYj9zWXisGY/hqdefault.jpg",
+    "duration": "PT1H27M",
+    "publishedAt": "2026-10-24T15:00:08Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1516237,
+    "title": "The Baby My Husband Lied About",
+    "originalTitle": "The Baby My Husband Lied About",
+    "overview": "",
+    "releaseDate": "2025-05-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6fWpEaLvDch4qjKx0N37KPgpfwp.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/m3flKzVL3h9VwDIu4TaQJo1n8mW.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"The Baby My Husband Lied About\")",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Yoshie Bancroft",
+      "Clayton James",
+      "Karen Kruper",
+      "Roark Critchlow",
+      "Matt Hamilton"
+    ],
+    "director": [
+      "Aubrey Arnason"
+    ],
+    "writer": [
+      "Lorraine Brown"
+    ],
+    "fsk": null,
+    "slug": "the-baby-my-husband-lied-about"
+  },
+  {
+    "videoId": "Rxoao9oQtaY",
+    "youtubeTitle": "Brave ragazze | Gute Mädchen | Vier Frauen, ein Plan | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Rxoao9oQtaY/hqdefault.jpg",
+    "duration": "PT1H47M44S",
+    "publishedAt": "2026-10-24T17:00:28Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 608398,
+    "title": "Brave ragazze",
+    "originalTitle": "Brave ragazze",
+    "overview": "",
+    "releaseDate": "2019-10-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8paibyFWCyxyLGQkGDmmjF9yd58.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dbqpQ7GRaJ1WcHIxLAX2yXcmvZX.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 112 (Suchbegriff: \"Brave ragazze\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ambra Angiolini",
+      "Ilenia Pastorelli",
+      "Serena Rossi",
+      "Silvia D'Amico",
+      "Stefania Sandrelli"
+    ],
+    "director": [
+      "Michela Andreozzi"
+    ],
+    "writer": [
+      "Michela Andreozzi",
+      "Alberto Manni"
+    ],
+    "fsk": null,
+    "slug": "brave-ragazze"
+  },
+  {
+    "videoId": "93VAFAP5Jz8",
+    "youtubeTitle": "La notte più lunga dell'anno | Die längste Nacht des Jahres | Ganzer Film | 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/93VAFAP5Jz8/hqdefault.jpg",
+    "duration": "PT1H32M49S",
+    "publishedAt": "2026-10-24T17:00:04Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 854426,
+    "title": "La notte più lunga dell'anno",
+    "originalTitle": "La notte più lunga dell'anno",
+    "overview": "",
+    "releaseDate": "2022-01-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7mtNflwz1urHHEMkocpfBIGbbkX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uwHn8hlIKJLQTtagzmN48EQrjXW.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"La notte più lunga dell'anno\")",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Mimmo Mignemi",
+      "Ambra Angiolini",
+      "Luigi Fedele",
+      "Francesco Di Napoli",
+      "Michele Eburnea"
+    ],
+    "director": [
+      "Simone Aleandri"
+    ],
+    "writer": [
+      "Cristina Borsatti",
+      "Simone Aleandri",
+      "Andrea Di Consoli"
+    ],
+    "fsk": null,
+    "slug": "la-notte-piu-lunga-dell-anno"
+  },
+  {
+    "videoId": "I3XNUtHqEww",
+    "youtubeTitle": "Once Upon a Time in Venice (ACTIONFILM mit BRUCE WILLIS in voller Länge, ganzer Film Deutsch 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/I3XNUtHqEww/hqdefault.jpg",
+    "duration": "PT1H34M6S",
+    "publishedAt": "2026-10-24T17:00:27Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 345915,
+    "title": "Once Upon a Time in Venice",
+    "originalTitle": "Once Upon a Time in Venice",
+    "overview": "Once Upon a Time in Venice spielt in Los Angeles: Hier vermischt der abgehalfterte Privatdetektiv Steve Ford (Bruce Willis) unklugerweise Berufliches mit Privatem, als sein geliebter Hund Buddy von einer berüchtigten Gang gestohlen wird. In einer Verkettung einiger sehr bizarrer Umstände findet er sich daraufhin bald in der Position wieder, dass er ebenjener Bande zu Diensten sein muss, die vom unberechenbaren Spyder (Jason Momoa) angeführt wird.  Mit der Hilfe seines besten Freundes Dave (John Goodman), seines Assistenten John (Thomas Middleditch) und seiner Schwägerin (Famke Janssen) soll Steve nun Spider eine Ladung Drogen zurückbringen, die diesem gestohlen wurde. Erst wenn ihm das gelingt, erhält Steve seinen Hund zurück. Unterdessen wird der Privatdetektiv aber auch von zwei rachsüchtigen Samoanern und einem Kredithai sowie dessen Schergen und ein paar anderen zwielichtigen Figuren verfolgt.",
+    "releaseDate": "2017-06-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nShub49Pu13jDTf5ZlOgZjYH8bd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wJQowXYcpcujDJA2NAM1GSCZtM2.jpg",
+    "voteAverage": 5.219,
+    "genreIds": [
+      28,
+      35,
+      53,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bruce Willis",
+      "Jason Momoa",
+      "John Goodman",
+      "Thomas Middleditch",
+      "Famke Janssen"
+    ],
+    "director": [
+      "Mark Cullen",
+      "Robb Cullen"
+    ],
+    "writer": [
+      "Mark Cullen",
+      "Robb Cullen"
+    ],
+    "fsk": "16",
+    "slug": "once-upon-a-time-in-venice"
+  },
+  {
+    "videoId": "DFfEcSCUSKo",
+    "youtubeTitle": "Dornröschen - Kids & Family / Trickfilm (1969) DEFA",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DFfEcSCUSKo/hqdefault.jpg",
+    "duration": "PT22M30S",
+    "publishedAt": "2026-10-24T13:00:26Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 372592,
+    "title": "Dornröschen",
+    "originalTitle": "Dornröschen",
+    "overview": "Ein Königspaar bekommt nach langer Zeit des Wartens eine Tochter. Da die goldenen Teller nicht ausreichen, können nur zwölf weise Frauen zur Taufe geladen werden. Die dreizehnte wird dadurch so beleidigt, dass sie ungeladen erscheint und dem Kind den Tod wünscht. Zum Glück hat die zwölfte Fee ihren Wunsch noch nicht ausgesprochen und kann den Fluch mindern: Danach sticht sich Dornröschen an ihrem fünfzehnten Geburtstag mit einer Spindel und fällt in einen hundertjährigen Schlaf, aus dem sie ein Königssohn durch einen Kuß erlöst.",
+    "releaseDate": "1968-02-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xM3gbdz3YCOvDUSJfGa9D1MA53O.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/m66pjQFTMRTAbbNiQj8ti4j3D7N.jpg",
+    "voteAverage": 7.5,
+    "genreIds": [
+      16
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Joachim Zschocke"
+    ],
+    "director": [
+      "Katja Georgi"
+    ],
+    "writer": [
+      "Jacob Grimm",
+      "Wilhelm Grimm",
+      "Katja Georgi"
+    ],
+    "fsk": null,
+    "slug": "dornroeschen-3"
+  },
+  {
+    "videoId": "4xufhfYbp04",
+    "youtubeTitle": "El Ardor – Der Krieger aus dem Regenwald | Ein Rächer kämpft gegen Söldner | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4xufhfYbp04/hqdefault.jpg",
+    "duration": "PT1H36M41S",
+    "publishedAt": "2026-10-24T07:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 267579,
+    "title": "El Ardor - Der Krieger aus dem Regenwald",
+    "originalTitle": "Ardor",
+    "overview": "Kai, ein mysteriöser Mann taucht ohne Vorwarnung aus dem Regenwald auf, ohne Hemd und Schuhe, ohne Gepäck. Er kommt bei armen Farmern unter, da sie sein Auftauchen als positives Zeichen sehen. Doch die Farmer-Familie wird von Söldnern angegriffen. Sie zwingen die Farmer, das Land zu verkaufen, töten den Bauern und entführen die Frau. Kai verfolgt die Söldner, um die Frau zu retten. Dabei ist die Natur sein engster Verbündeter.",
+    "releaseDate": "2014-05-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/h9UnlWp8DDYCuYPWy8EVbN9EeCc.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lHG1aZjmaaoeZxsnzvvplEtnIbe.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      37,
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gael García Bernal",
+      "Alice Braga",
+      "Claudio Tolcachir",
+      "Chico Díaz",
+      "Jorge Sesán"
+    ],
+    "director": [
+      "Pablo Fendrik"
+    ],
+    "writer": [
+      "Pablo Fendrik"
+    ],
+    "fsk": "12",
+    "slug": "el-ardor-der-krieger-aus-dem-regenwald"
+  },
+  {
+    "videoId": "p9aJBLojx6A",
+    "youtubeTitle": "DER LÖWE VON SYRAKUS | Historische Epos mit Rossano Brazzi | Ganzer Film auf Deutsch HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/p9aJBLojx6A/hqdefault.jpg",
+    "duration": "PT1H53M6S",
+    "publishedAt": "2026-10-24T15:00:24Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": 116400,
+    "title": "Archimedes – Der Löwe von Syrakus",
+    "originalTitle": "L'assedio di Siracusa",
+    "overview": "Nachdem Diana von ihrem Geliebten Archimedes - kurz vor Ausbruch des Krieges Rom - Syracus getrennt wurden, gebiert sie ihren Sohn Marco und verliert ihr Gedächtnis. In Rom heiratet sie Konsul Marcello, erlangt aber ihre Erinnerung wieder, als Jahre danach Archimedes als Gesandter in Rom erscheint. In einer der großen Schlachten des Krieges fallen jedoch sowohl Archimedes als auch Marcello. Marco hingegen besteigt den Thron von Syracus...",
+    "releaseDate": "1960-03-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rFglow1oIM0JwDgzUj0N5YFzJ2r.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/grUYdU9Vyb76v0LG9wSMJQbIMQy.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      18,
+      36,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 107,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rossano Brazzi",
+      "Tina Louise",
+      "Sylva Koscina",
+      "Enrico Maria Salerno",
+      "Gino Cervi"
+    ],
+    "director": [
+      "Pietro Francisci"
+    ],
+    "writer": [
+      "Ennio De Concini",
+      "Giorgio Graziosi",
+      "Pietro Francisci"
+    ],
+    "fsk": "12",
+    "slug": "archimedes-der-loewe-von-syrakus"
+  },
+  {
+    "videoId": "u2rfXIB5GDw",
+    "youtubeTitle": "DIE DEUTSCHMEISTER (1955) 🎬 Romy Schneider | Ganzer Film Deutsch | Filmklassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/u2rfXIB5GDw/hqdefault.jpg",
+    "duration": "PT1H41M19S",
+    "publishedAt": "2026-10-24T10:10:34Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 6693,
+    "title": "Die Deutschmeister",
+    "originalTitle": "Die Deutschmeister",
+    "overview": "Wien an der Schwelle zum 20. Jh.: Stanzi Hübner kommt in die Stadt und trifft auf Willy Jurek vom Deutschmeister-Regiment. Nachdem die beiden sich näher gekommen sind, hat Stanzi, die in der Backstube ihrer Tante arbeitet, einen kühnen Einfall, wie sie einem eben von Willy komponierten Marsch zu Ehren verhelfen kann: Sie fügt das Notenpapier der für den Kaiser bestimmten Backware bei. Zeitigt dies zunächst auch nur negative Wirkung, so wird Willys Marsch durch Stanzis Initiative doch noch ein voller Erfolg.",
+    "releaseDate": "1955-08-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/x3upr2JzyJui07hUu3fP9YV7cJS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6KXyHEc6nbclGGlqDkd0CC5F4jG.jpg",
+    "voteAverage": 7.2,
+    "genreIds": [
+      10749,
+      35,
+      10402
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 106,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Romy Schneider",
+      "Magda Schneider",
+      "Gretl Schörg",
+      "Susi Nicoletti",
+      "Adrienne Gessner"
+    ],
+    "director": [
+      "Ernst Marischka"
+    ],
+    "writer": [
+      "Ernst Marischka"
+    ],
+    "fsk": null,
+    "slug": "die-deutschmeister"
+  },
+  {
+    "videoId": "r63MldgcEhs",
+    "youtubeTitle": "DICK & DOOF – DIE DICKE DAMPFWALZ (1929) 🤣 | Stan Laurel & Oliver Hardy | Stummfilm-Komödie",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/r63MldgcEhs/hqdefault.jpg",
+    "duration": "PT19M22S",
+    "publishedAt": "2026-10-24T10:08:12Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 50858,
+    "title": "Dick und Doof - Die rächende Dampfwalze",
+    "originalTitle": "Bacon Grabbers",
+    "overview": "In diesem Film spielen Stan und Ollie zwei Gerichtsvollzieher, die versuchen, bei einem säumigen Zahler einen Musikschrank zu beschlagnahmen.",
+    "releaseDate": "1929-10-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2a9eDd6mkQAOo9LwRDze1IcXD2b.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yAAnTrVMqVLCeRJRK6DB370RkcY.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 19,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Stan Laurel",
+      "Oliver Hardy",
+      "Edgar Kennedy",
+      "Jean Harlow",
+      "Harry Bernard"
+    ],
+    "director": [
+      "Lewis R. Foster"
+    ],
+    "writer": [
+      "Leo McCarey"
+    ],
+    "fsk": null,
+    "slug": "dick-und-doof-die-raechende-dampfwalze"
+  },
+  {
+    "videoId": "kMV3TwAAph0",
+    "youtubeTitle": "Andromeda (2022) [Science Fiction] [Action] | Verschollen in der Galaxie | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kMV3TwAAph0/hqdefault.jpg",
+    "duration": "PT1H18M56S",
+    "publishedAt": "2026-10-24T16:00:09Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1051435,
+    "title": "Andromeda",
+    "originalTitle": "Andromeda",
+    "overview": "",
+    "releaseDate": "2022-10-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tr12gW9tqHJ4jypEpNuE5vRtAOw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gpDvAfUGyfFF8rjfUSZtMzgouBg.jpg",
+    "voteAverage": 3.7,
+    "genreIds": [
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 79,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tim Llewellyn",
+      "Paul T. Taylor",
+      "Tom Zembrod",
+      "Tiffany McDonald",
+      "Michael Dooley"
+    ],
+    "director": [
+      "Brett Bentman"
+    ],
+    "writer": [
+      "Brett Bentman"
+    ],
+    "fsk": null,
+    "slug": "andromeda"
+  },
+  {
+    "videoId": "fSYNV58_fRM",
+    "youtubeTitle": "🍿😂 Eine unterhaltsame Krimikomödie, die man immer wieder sehen möchte | Ganzer Film KOSTENLOS",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fSYNV58_fRM/hqdefault.jpg",
+    "duration": "PT1H37M39S",
+    "publishedAt": "2026-10-24T13:16:40Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 467102,
+    "title": "Finders Keepers",
+    "originalTitle": "Finders Keepers",
+    "overview": "",
+    "releaseDate": "2017-08-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oYP9bYj1M8mP02EV4hclo6X2MKU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5jtOLGqnw3ye1HN8ImU4v9I5Nf0.jpg",
+    "voteAverage": 2.5,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (10 Filme) -- Laufzeit entschied: TMDB 98 min, Video 98 min (auch möglich: Der Chaos-Express 1984, 96 min) · Zuordnungswert 99 (Suchbegriff: \"Finders Keepers\")",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Dalin Oliver",
+      "Neels Van Jaarsveld",
+      "Lise Slabber",
+      "Grant Swanby",
+      "Tyrel Meyer"
+    ],
+    "director": [
+      "Maynard Kraak"
+    ],
+    "writer": [
+      "Maynard Kraak",
+      "Strini Pillai"
+    ],
+    "fsk": null,
+    "slug": "finders-keepers"
+  },
+  {
+    "videoId": "fqAavpQUHQc",
+    "youtubeTitle": "Liebe zwischen Mensch und Dämon 🐍: WHITE SNAKE – Die Legende der weißen Schlange",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fqAavpQUHQc/hqdefault.jpg",
+    "duration": "PT1H38M45S",
+    "publishedAt": "2026-10-24T13:30:03Z",
+    "channelName": "Fantasja",
+    "channelId": "UCn8xSBNGvaaU20JCJBuVPlQ",
+    "tmdbId": 573699,
+    "title": "White Snake - Die Legende der weißen Schlange",
+    "originalTitle": "白蛇：缘起",
+    "overview": "Als die gutmütige weiße Schlangendämonin Xiao-Bai mit ihrem Attentat auf den General der kaiserlichen Armee scheitert, erwacht sie in Gestalt eines Mädchens in einem Dorf von Schlangenjägern. Ohne Erinnerung daran, wer oder was sie wirklich ist, verliebt sie sich in den jungen Schlangenjäger Ah Xuan und bringt damit gleichermaßen die Dorfbewohner wie ihre Dämonenschwester Xiao-Qing gegen sich auf. Als auch der General seine dunkle Macht nach Blanca ausstreckt, muss sie sich ihres wahren Platzes in der Welt bewusst werden.",
+    "releaseDate": "2019-01-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wrVphIox05qsfArAy4VFoqOnCeu.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jIAyjJMrEIDjojxQDdZemDwqr82.jpg",
+    "voteAverage": 7.693,
+    "genreIds": [
+      10749,
+      16,
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 99,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "张喆",
+      "杨天翔",
+      "唐小喜",
+      "刘紫玲",
+      "張遙函"
+    ],
+    "director": [
+      "Amp Wong",
+      "赵霁"
+    ],
+    "writer": [
+      "Damao"
+    ],
+    "fsk": "12",
+    "slug": "white-snake-die-legende-der-weissen-schlange"
+  },
+  {
+    "videoId": "UcJBEgQK3hk",
+    "youtubeTitle": "Gideon of Scotland Yard (1958) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/UcJBEgQK3hk/hqdefault.jpg",
+    "duration": "PT1H31M15S",
+    "publishedAt": "2026-10-24T16:00:12Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 44071,
+    "title": "Chefinspektor Gideon",
+    "originalTitle": "Gideon's Day",
+    "overview": "",
+    "releaseDate": "1958-03-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yaDNqztIrTbeIDDkD1DvPqbq4M5.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tOjH9b9SpG7dzpOo4n1YAGtHhem.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      80,
+      18,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 69 (Suchbegriff: \"Gideon of Scotland Yard\") · Alternativtitel bei TMDB bestätigt: \"Gideon of Scotland Yard\"",
+    "runtime": 91,
+    "plausibel": "alternativtitel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jack Hawkins",
+      "Anna Lee",
+      "Anna Massey",
+      "Andrew Ray",
+      "Dianne Foster"
+    ],
+    "director": [
+      "John Ford"
+    ],
+    "writer": [
+      "T. E. B. Clarke"
+    ],
+    "fsk": null,
+    "slug": "chefinspektor-gideon"
+  },
+  {
+    "videoId": "wTlh-nuoObg",
+    "youtubeTitle": "Dolph Lundgren | JAGD OHNE GESETZ: Die Polizei wollte ihn tot, jetzt schlägt er zurück | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wTlh-nuoObg/hqdefault.jpg",
+    "duration": "PT1H32M28S",
+    "publishedAt": "2026-10-23T19:25:40Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "Dolph Lundgren",
+    "originalTitle": null,
+    "overview": "Aus der Flucht wird ein Kampf ums Überleben. Schnelle Autos, korrupte Cops und eine Verschwörung innerhalb der Polizei führen tief in die kalifornische Wüste, wo es schließlich nicht mehr darum geht, dem Gesetz zu entkommen – sondern lange genug am Leben zu bleiben, um zu beweisen, wer die wirklichen Killer sind.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "dolph-lundgren-2"
+  },
+  {
+    "videoId": "UV8uWorYqus",
+    "youtubeTitle": "Afrika, mon amour – Teil 2 (2007) | Ganzer Film Deutsch | Historisches Drama mit Iris Berben | HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/UV8uWorYqus/hqdefault.jpg",
+    "duration": "PT1H27M22S",
+    "publishedAt": "2026-10-23T15:30:32Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": null,
+    "title": "Afrika, mon amour - Teil 2",
+    "originalTitle": null,
+    "overview": "Als Krankenschwester begleitet Katharina den Tropenarzt Dr. Franz Lukas durch das Land. Dabei entdeckt sie Unregelmäßigkeiten rund um die Diamantmine, für die ihr Ehemann Richard und dessen Bruder Heinrich hohe Fördergelder erhalten haben. Die vermeintliche Investition erweist sich als groß angelegter Betrug. Geschäftspartner sind unter rätselhaften Umständen gestorben, und die Millionen bleiben verschwunden. Katharina fragt sich, ob diese Machenschaften mit Georgs Tod zusammenhängen. fernsehserien.de",
+    "releaseDate": "2007-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Iris Berben",
+      "Robert Atzorn",
+      "Pierre Besson",
+      "Matthias Habich"
+    ],
+    "director": [
+      "Carlo Rola"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "afrika-mon-amour-teil-2-2"
+  },
+  {
+    "videoId": "0u6xb0nQK7c",
+    "youtubeTitle": "Er bezahlt einen Killer für den Mord an seiner Frau – doch der Plan endet im Blut",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0u6xb0nQK7c/hqdefault.jpg",
+    "duration": "PT1H33M32S",
+    "publishedAt": "2026-10-23T15:27:06Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Er bezahlt einen Killer für den Mord an seiner Frau - doch der Plan endet im Blut",
+    "originalTitle": null,
+    "overview": "In einer kleinen Stadt in Texas entdeckt ein wohlhabender Barbesitzer, dass seine Frau eine heimliche Beziehung mit einem seiner Angestellten hat. Von Eifersucht und Misstrauen zerfressen, engagiert er einen zwielichtigen Privatdetektiv, um Beweise für die Affäre zu sammeln. Doch als seine Wut immer größer wird, trifft er eine verhängnisvolle Entscheidung: Er beauftragt den Detektiv, seine Frau und deren Liebhaber zu töten. Was zunächst wie ein sorgfältig geplanter Mord aussieht, entwickelt sich zu einem Albtraum voller Lügen, Verrat und fataler Missverständnisse. Denn der Detektiv verfolgt seine eigenen Interessen. Bald weiß niemand mehr, wer die Wahrheit sagt, wer wirklich hinter den Verbrechen steckt und wem man überhaupt noch vertrauen kann. Ein düsterer Neo-Noir-Thriller mit psychologischer Spannung, überraschenden Wendungen und einer Atmosphäre, in der jede falsche Entscheidung töd",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "er-bezahlt-einen-killer-fuer-den-mord-an-seiner-frau-doch-de"
   }
 ]

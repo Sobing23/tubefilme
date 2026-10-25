@@ -8256,5 +8256,15 @@
     "videoId": "vFrfL2gz0lQ",
     "youtubeTitle": "Die Drehscheibe 1976 – Seltene TV-Rarität mit Walter Bluhm & Michael Habeck | ZDF Nostalgie",
     "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-25",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 90 min, Video 196 min) -- wird neu gesucht",
+    "videoId": "haOMSnKF9ro",
+    "youtubeTitle": "Edgar Wallace: DER RÄCHER (1960) 🔪 Klaus Kinski & Heinz Drache | Ganzer Film Deutsch",
+    "title": "Der rote Kreis",
+    "tmdbId": 62216,
+    "channelName": "All Time Classic Movies"
   }
 ]
