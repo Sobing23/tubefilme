@@ -8266,5 +8266,25 @@
     "title": "Der rote Kreis",
     "tmdbId": 62216,
     "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-26",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 115 min, Video 210 min) -- wird neu gesucht",
+    "videoId": "ay5dcoH4oec",
+    "youtubeTitle": "Deutscher Filmklassiker: Ludwig II. – Glanz und Ende eines Königs (1955) 👑",
+    "title": "Ludwig II: Glanz und Ende eines Königs",
+    "tmdbId": 195579,
+    "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-26",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 92 min, Video 196 min) -- wird neu gesucht",
+    "videoId": "haOMSnKF9ro",
+    "youtubeTitle": "Edgar Wallace: DER RÄCHER (1960) 🔪 Klaus Kinski & Heinz Drache | Ganzer Film Deutsch",
+    "title": "Die Bande des Schreckens",
+    "tmdbId": 5630,
+    "channelName": "All Time Classic Movies"
   }
 ]

@@ -7165,12 +7165,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "2QMJ5qQpfiI",
-    "youtubeTitle": "Never Back Down: Revolt (MARTIAL ARTS FILM auf Deutsch, Action Thriller ganzer Film, Entführung)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/2QMJ5qQpfiI/hqdefault.jpg",
+    "videoId": "TuR9GlFNv2U",
+    "youtubeTitle": "Never Back Down: Revolt (2021) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TuR9GlFNv2U/hqdefault.jpg",
     "duration": "PT1H29M40S",
     "publishedAt": "2026-02-04T18:00:06Z",
-    "channelName": "Netzkino",
+    "channelName": "Absolute Action",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 763025,
     "title": "Never Back Down: Revolt",
@@ -7203,9 +7203,7 @@
     "slug": "never-back-down-revolt",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 4
   },
   {
     "videoId": "3GdY5PKjOp4",
@@ -156139,7 +156137,9 @@
     "fsk": "16",
     "slug": "moerderischer-vorsprung",
     "runtime": 109,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "SV6_AGxDqSg",
@@ -212630,12 +212630,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "UQLXyUFPvs8",
-    "youtubeTitle": "Holy Smoke! - Auf der Suche nach Erleuchtung (DRAMA Film mit KATE WINSLET, Komödie ganzer Film)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/UQLXyUFPvs8/hqdefault.jpg",
+    "videoId": "5bd0rX2RjHo",
+    "youtubeTitle": "KATE WINSLET ist AUF DER SUCHE NACH ERLÖSUNG - HOLY SMOKE! (Ganzer Film, Filme Deutsch komplett neu)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5bd0rX2RjHo/hqdefault.jpg",
     "duration": "PT1H54M49S",
     "publishedAt": "2026-10-03T14:00:13Z",
-    "channelName": "FABELLA",
+    "channelName": "Netzkino",
     "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
     "tmdbId": 13787,
     "title": "Holy Smoke! - Auf der Suche nach Erleuchtung",
@@ -212669,9 +212669,7 @@
     "slug": "holy-smoke-auf-der-suche-nach-erleuchtung",
     "plausibel": "titel",
     "runtime": 115,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 4
   },
   {
     "videoId": "6oUGMyFc8gI",
@@ -330494,5 +330492,602 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "er-bezahlt-einen-killer-fuer-den-mord-an-seiner-frau-doch-de"
+  },
+  {
+    "videoId": "89cfYOaAnjg",
+    "youtubeTitle": "Nach der Trennung trifft sie den Mann, den sie ihr ganzes Leben lang geliebt hat | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/89cfYOaAnjg/hqdefault.jpg",
+    "duration": "PT1H28M55S",
+    "publishedAt": "2026-10-25T16:00:37Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 887708,
+    "title": "The Wedding Fix",
+    "originalTitle": "The Wedding Fix",
+    "overview": "",
+    "releaseDate": "2022-03-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ttToHIbMIYw52a7BhGAiGlRUKjk.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5RQ6sdIyKSBBBpYRInaMPSzpFEc.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      10770,
+      10749,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"The Wedding Fix\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Andrea Brooks",
+      "Patch May",
+      "Beverley Elliott",
+      "Alisha Ahamed",
+      "Edem Nyamadi"
+    ],
+    "director": [
+      "Nicholas Humphries"
+    ],
+    "writer": [
+      "Taylor Warren Goff",
+      "Josh Brekhus"
+    ],
+    "fsk": null,
+    "slug": "the-wedding-fix"
+  },
+  {
+    "videoId": "0yADO_uDENo",
+    "youtubeTitle": "MORRISON CAFE | Ganzer Film in 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0yADO_uDENo/hqdefault.jpg",
+    "duration": "PT1H37M55S",
+    "publishedAt": "2026-10-25T18:00:16Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 765490,
+    "title": "Morrison",
+    "originalTitle": "Morrison",
+    "overview": "",
+    "releaseDate": "2021-05-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lnyWxCpFiAiDA2LGSRDjnhUGUzq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/evFEFjjGQvB08sWHOn4T9V0FMRc.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 98 min, Video 98 min · Zuordnungswert 106 (Suchbegriff: \"Morrison\")",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Lorenzo Zurzolo",
+      "Giovanni Calcagno",
+      "Carlotta Antonelli",
+      "Giglia Marra",
+      "Riccardo De Filippis"
+    ],
+    "director": [
+      "Federico Zampaglione"
+    ],
+    "writer": [
+      "Giacomo Gensini",
+      "Federico Zampaglione"
+    ],
+    "fsk": null,
+    "slug": "morrison"
+  },
+  {
+    "videoId": "ED1yqSCB0dg",
+    "youtubeTitle": "Mein Schwarm zu Weihnachten (Romantischer WEIHNACHTSFILM in voller Länge, ganzer Film Deutsch 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ED1yqSCB0dg/hqdefault.jpg",
+    "duration": "PT1H24M44S",
+    "publishedAt": "2026-10-25T14:00:02Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 744945,
+    "title": "Weihnachten im Rampenlicht",
+    "originalTitle": "Spotlight on Christmas",
+    "overview": "Die berühmte Hollywood-Schauspielerin Olivia, die vor Weihnachten verlassen wurde, kehrt heimlich in ihre Heimatstadt zurück, um Kekse zu essen und die Presse zu meiden. Stattdessen muss sie die Hauptrolle in ihrem eigenen Leben übernehmen.",
+    "releaseDate": "2020-12-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cV77uJU2XvfTAzcihrBErQv0jD6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qkqgOsMnFDkioB6avkiqZYr8BI.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      10770,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 80,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tori Anderson",
+      "Victor Zinck Jr.",
+      "Matthew James Dowden",
+      "Lia Frankland",
+      "Janet Kidder"
+    ],
+    "director": [
+      "Ali Liebert"
+    ],
+    "writer": [
+      "Juliana Wimbles"
+    ],
+    "fsk": "6",
+    "slug": "weihnachten-im-rampenlicht"
+  },
+  {
+    "videoId": "EQ3xBAXPCOE",
+    "youtubeTitle": "Ringo kommt zurück | 4K | Giuliano Gemma | Westernfilm | Fernando Sancho | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EQ3xBAXPCOE/hqdefault.jpg",
+    "duration": "PT1H31M29S",
+    "publishedAt": "2026-10-25T18:00:10Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 63260,
+    "title": "Ringo kommt zurück",
+    "originalTitle": "Il ritorno di Ringo",
+    "overview": "Kurz nach dem Ende des US-Bürgerkrieges beginnt eine mexikanische Bande unter der Führung der beiden Gangster Paco Fuentes und Esteban ein wehrloses texanisches Grenzdorf zu terrorisieren. Als der totgelaubte Ex-Soldat Ringo in seinen Heimatort zurückkehrt und erfährt, dass seine Frau Helen nun mit Fuentes zusammenlebt und diesen heiraten soll, schwört Ringo Rache, um seine Frau zurück zu gewinnen und das Dorf von der Fremdherrschaft der Tyrannen zu befreien…",
+    "releaseDate": "1965-12-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eJAZhAdNnK299GNNbXg5OAioLEw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1tCIvxxHBkYOLFRlZDKrM5TLVpB.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Giuliano Gemma",
+      "Lorella De Luca",
+      "Fernando Sancho",
+      "Antonio Casas",
+      "Nieves Navarro"
+    ],
+    "director": [
+      "Duccio Tessari"
+    ],
+    "writer": [
+      "Duccio Tessari",
+      "Fernando Di Leo"
+    ],
+    "fsk": null,
+    "slug": "ringo-kommt-zurueck"
+  },
+  {
+    "videoId": "g5JLNOgrIn4",
+    "youtubeTitle": "Wir hau´n den Hauswirt in die Pfanne | 1971 | HeimatfilmeTV",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/g5JLNOgrIn4/hqdefault.jpg",
+    "duration": "PT1H21M51S",
+    "publishedAt": "2026-10-25T14:45:19Z",
+    "channelName": "Heimatfilme",
+    "channelId": "UCV8yejshmlsns86C-ZeO16Q",
+    "tmdbId": 269010,
+    "title": "Wir hau’n den Hauswirt in die Pfanne",
+    "originalTitle": "Wir hau’n den Hauswirt in die Pfanne",
+    "overview": "Als dem neuen Hauseigentümer Zwicknagel schon bei seinem ersten Erscheinen ein Blumentopf auf den Kopf fällt, geschieht das ohne Absicht. Aber für die Hausbewohner hat es ernste Folgen. Zwicknagel zeigt sich sofort von seiner unangenehmsten Seite und malträtiert die Mieter mit allerlei Verboten. Schnell steht er mit jedem auf Kriegsfuß, vor allem mit der Familie Kleinschmidt, der er sogar kündigt. Da kommt Monika Zwicknagel aus England zurück und trifft auf Wolfgang Kleinschmidt. Beide verlieben sich, nur dürften Monikas Eltern darüber nicht gerade erfreut sein. Darum macht Wolfgang seiner geliebten Monika vor, jemand zu sein, der er gar nicht ist...",
+    "releaseDate": "1971-04-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mVI7hEygz1vfPj34utWUcFS3GRs.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1g3hU5Wbxhz9EeU0rYseEC5UnSV.jpg",
+    "voteAverage": 9,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Uschi Glas",
+      "Fritz Tillmann",
+      "Hannelore Schroth",
+      "Ralf Wolter",
+      "Margot Trooger"
+    ],
+    "director": [
+      "Franz Josef Gottlieb"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "wir-hau-n-den-hauswirt-in-die-pfanne"
+  },
+  {
+    "videoId": "5TZs8WI6xtg",
+    "youtubeTitle": "Verliebt, Verlobt, Verweihnachtet - wundervoller Weihnachtsfilm - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5TZs8WI6xtg/hqdefault.jpg",
+    "duration": "PT1H25M",
+    "publishedAt": "2026-10-25T08:00:17Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 881233,
+    "title": "Verliebt, verlobt, verweihnachtet",
+    "originalTitle": "A Fiancé for Christmas",
+    "overview": "Sawyer steht kurz davor, als Nachfolgerin die etablierte Arztpraxis ihres Chefs zu übernehmen, aber privat läuft seit der Trennung von ihrer Langzeitbeziehung Joshua irgendwie nichts mehr. Da ist es umso frustrierender, dass ihre Freundinnen im Wochentakt unter die Haube zu kommen scheinen – bis ein kleiner Fehler an der Registrierkasse ihre aus Spaß angelegte Hochzeits-Wunschliste öffentlich macht und ihr Umfeld glauben lässt, sie wäre endlich in festen Händen.",
+    "releaseDate": "2021-12-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lJ73f5kYR6pWMEw3Da37BgdSVBu.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4SNCvBtqNmZ3MeAhPs6UrFurkk1.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Amanda Payton",
+      "Adam Gregory",
+      "Marie Osmond",
+      "Sarah Jayne Jensen",
+      "James Jamison"
+    ],
+    "director": [
+      "Ryan Little"
+    ],
+    "writer": [
+      "Angeline Olschewski"
+    ],
+    "fsk": "0",
+    "slug": "verliebt-verlobt-verweihnachtet"
+  },
+  {
+    "videoId": "3Bn7EbPHigw",
+    "youtubeTitle": "Falsches Geld und echte Kurven (1958) – Bob Hope & Fernandel | Lachgarantie in Paris! 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/3Bn7EbPHigw/hqdefault.jpg",
+    "duration": "PT1H41M55S",
+    "publishedAt": "2026-10-25T16:51:17Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 27364,
+    "title": "Falsches Geld und echte Kurven",
+    "originalTitle": "Paris Holiday",
+    "overview": "Der amerikanische Schauspieler Bob Hunter reist nach Paris, um die Rechte an einem begehrten Drehbuch zu erwerben und trifft dabei seinen französischen Amtskollegen Fernydel. Aber eine finstere Organisation scheint Hunter aus einem mysteriösen Grund ins Visier zu nehmen...",
+    "releaseDate": "1958-04-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/h4CejHwQsJcDZxcXRf4RLlha0U7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aPLDPHwEuXMgo5spk1asUoIWhqM.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      10749,
+      35,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bob Hope",
+      "Fernandel",
+      "Anita Ekberg",
+      "Martha Hyer",
+      "Preston Sturges"
+    ],
+    "director": [
+      "Gerd Oswald"
+    ],
+    "writer": [
+      "Bob Hope",
+      "Edmund Beloin",
+      "Dean Riesner"
+    ],
+    "fsk": "12",
+    "slug": "falsches-geld-und-echte-kurven"
+  },
+  {
+    "videoId": "PkQ_YWP0lmo",
+    "youtubeTitle": "Tailor-Made Romance (2025) [Komödie] [Romantik] | Ein Milliardär nach Maß | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/PkQ_YWP0lmo/hqdefault.jpg",
+    "duration": "PT1H17M59S",
+    "publishedAt": "2026-10-25T17:00:18Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1447649,
+    "title": "A Tailor-Made Romance",
+    "originalTitle": "A Tailor-Made Romance",
+    "overview": "Eine Designerin, die beruflich zu kämpfen hat, nimmt einen Job als persönliche Stylistin für einen mürrischen, aber unglaublich gutaussehenden Milliardär an. Während sie seine Garderobe umgestaltet und er ihr etwas über das Geschäftsleben beibringt, erkennen die beiden, dass sie vielleicht perfekt zueinander passen.",
+    "releaseDate": "2025-10-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kVdhvNyObj1j6ekgKVR6vOSZbtg.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6ZxEPIdy0M3OeLURPwd4FDCBcEd.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 77,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Shayli Reagan",
+      "Connor Horrigan",
+      "Helen Fullerton",
+      "Abby Haley",
+      "Joseph Heaps"
+    ],
+    "director": [
+      "Gregory Randolph Jr."
+    ],
+    "writer": [
+      "Tom Jolliffe"
+    ],
+    "fsk": null,
+    "slug": "a-tailor-made-romance"
+  },
+  {
+    "videoId": "5d0YbD1cew8",
+    "youtubeTitle": "🔥 Brutaler Actionfilm | Das Kartell entführt seine Frau … Jetzt lässt er jeden dafür bezahlen! | HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5d0YbD1cew8/hqdefault.jpg",
+    "duration": "PT1H28M24S",
+    "publishedAt": "2026-10-25T14:27:14Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 294736,
+    "title": "Misfire",
+    "originalTitle": "Misfire",
+    "overview": "Wenn es darum geht, einen Ein-Mann-Kreuzzug gegen die Drogenkartelle an der Grenze zwischen Mexiko und den USA zu führen, ist der hartgesottene DEA-Agent Cole genau der Richtige für den Job. Als Coles Ex-Frau Sarah, die als investigative Journalistin mit der Aufdeckung der Kartelle beschäftigt ist, eines Tages entführt und ihr Bruder zu Unrecht für die Tat beschuldigt wird, steigt Cole in die gefährliche Unterwelt von Tijuana ab, um dem mysteriösen Fall auf den Grund zu gehen. Er hat die Vermutung, dass Sarah im Auftrag des charismatischen Kartell-Bosses Raul Montenegro entführt wurde, der durch Korruption ein öffentliches Amt anstrebt. Mit Hilfe der dickköpfigen und heißblütigen Gracie versucht Cole, Sarah aus den Fängen des Drogenkartells zu befreien...",
+    "releaseDate": "2014-10-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/p7OPHSTLFltn4ZZFvRw2OkpZnfV.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wbB6DB5tKz21ZMxlKjdInKfvIg1.jpg",
+    "voteAverage": 3.196,
+    "genreIds": [
+      53,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (7 Filme) -- Laufzeit entschied: TMDB 85 min, Video 88 min (auch möglich: Misfire 2012, 85 min) · Zuordnungswert 128 (Suchbegriff: \"Misfire\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gary Daniels",
+      "Vannessa Vasquez",
+      "Michael Greco",
+      "Luis Gatica",
+      "Geoffrey Ross"
+    ],
+    "director": [
+      "R. Ellis Frazier"
+    ],
+    "writer": [
+      "Benjamin Budd",
+      "R. Ellis Frazier"
+    ],
+    "fsk": null,
+    "slug": "misfire-2"
+  },
+  {
+    "videoId": "CUYTtIWsldI",
+    "youtubeTitle": "Der Todesengel aus der Tiefe - She Creature (2001) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CUYTtIWsldI/hqdefault.jpg",
+    "duration": "PT1H26M41S",
+    "publishedAt": "2026-10-25T15:00:38Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 37254,
+    "title": "Der Todesengel aus der Tiefe",
+    "originalTitle": "Mermaid Chronicles Part 1: She Creature",
+    "overview": "Anfang des 20. Jahrhunderts entdeckt der irische Schausteller Angus Shaw und seine Frau Lilian bei einem alten Mann, eine in Gefangenschaft lebende Meerjungfrau. Für Angus steht von nun an fest, daß er diese Attraktion unbedingt haben will und stiehlt diese. Doch bei der Überfahrt über den Atlantik nach Amerika kommt es zu plötzlichen Todesfälle auf dem Schiff und eine Flucht scheint aussichtslos...",
+    "releaseDate": "2001-12-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7rIl8QR3SGejO2CpzSZ6AvxEm80.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8JII3n3KOsXOIMMp4WLcJxiZ6oq.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      27,
+      14,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rufus Sewell",
+      "Carla Gugino",
+      "Jim Piddock",
+      "Reno Wilson",
+      "Mark Aiken"
+    ],
+    "director": [
+      "Sebastian Gutierrez"
+    ],
+    "writer": [
+      "Sebastian Gutierrez"
+    ],
+    "fsk": "16",
+    "slug": "der-todesengel-aus-der-tiefe"
+  },
+  {
+    "videoId": "1I9TviSNCGQ",
+    "youtubeTitle": "Gangster entführten die Braut eines Ex-Soldaten – und lösten eine gnadenlose RACHE aus! | Actionfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1I9TviSNCGQ/hqdefault.jpg",
+    "duration": "PT1H22M53S",
+    "publishedAt": "2026-10-25T15:00:15Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 479040,
+    "title": "Acts of Violence",
+    "originalTitle": "Acts of Violence",
+    "overview": "Der ehemalige Soldat Brandon MacGregor (Shawn Ashmore) hat schon so einiges mitgemacht und wird noch immer von traumatischen Erinnerungen aus dem Krieg geplagt. Zum Glück steht ihm seine Verlobte Mia (Tifanny Brouwer) zur Seite. Doch dann wird diese eines Tages entführt und vieles deutet darauf hin, dass ein übler Menschenhändlerring dafür verantwortlich ist. Brandon setzt alles in Gang, um seine Liebe zu retten und tut sich dafür mit seinen Brüdern zusammen, die ebenfalls Kampferfahrung haben. Doch das reicht noch nicht, um mit so einem gefährlichen Gegner fertig zu werden. Also sucht die Gruppe Hilfe beim erfahrenen und eiskalten Cop James Avery (Bruce Willis). Der ist unbestechlich und gnadenlos – also genau der Richtige für die waghalsige Rettungsmission, außerdem hat es Avery selbst schon eine ganze Weile auf das Kartell abgesehen und verfolgt seine ganz eigenen Rachepläne.",
+    "releaseDate": "2018-01-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/flEEJWjNWIL5tMw4xVPhvC1ELeM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gzmKA50LtpHSDYC7lKjUqLtK7Kn.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      28,
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bruce Willis",
+      "Cole Hauser",
+      "Shawn Ashmore",
+      "Ashton Holmes",
+      "Melissa Bolona"
+    ],
+    "director": [
+      "Brett Donowho"
+    ],
+    "writer": [
+      "Nicolas Aaron Mezzanatto"
+    ],
+    "fsk": "16",
+    "slug": "acts-of-violence"
+  },
+  {
+    "videoId": "JH6vO6Ydtc8",
+    "youtubeTitle": "25 JAHRE SPÄTER TAUCHTE EIN MANN AUF, DER IHM WIE AUS DEM GESICHT GESCHNITTEN WAR | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JH6vO6Ydtc8/hqdefault.jpg",
+    "duration": "PT1H27M20S",
+    "publishedAt": "2026-10-24T11:38:30Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "25 JAHRE SPÄTER TAUCHTE EIN MANN AUF, DER IHM WIE AUS DEM GESICHT GESCHNITTEN WAR",
+    "originalTitle": null,
+    "overview": "Schließlich nehmen sie die Sache selbst in die Hand und ziehen in eine letzte Konfrontation, bei der es nicht nur um Rache, sondern auch um ihre gemeinsame Vergangenheit geht.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge-2"
+  },
+  {
+    "videoId": "7riMsCOSDq8",
+    "youtubeTitle": "Ein Killer in Polizeiuniform versetzt New York in Angst Ganzer Film Deutsch Kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7riMsCOSDq8/hqdefault.jpg",
+    "duration": "PT1H19M",
+    "publishedAt": "2026-10-24T15:24:26Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Ein Killer in Polizeiuniform versetzt New York in Angst",
+    "originalTitle": null,
+    "overview": "Eine Reihe brutaler Morde erschüttert New York. Die Zeugen beschreiben den Täter als Polizisten – und schon bald gerät Officer Jack Forrest unter Verdacht. Während Detective Frank McCrae ermittelt, wächst die Angst in der Stadt. Wer steckt hinter der Uniform?",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "William Lustig"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "ein-killer-in-polizeiuniform-versetzt-new-york-in-angst"
+  },
+  {
+    "videoId": "1tbgsRkWexo",
+    "youtubeTitle": "🐻 Sie entführten seine oma… jetzt zeigt der stärkste bär der welt seine kraft! | Ganzer film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1tbgsRkWexo/hqdefault.jpg",
+    "duration": "PT1H3M14S",
+    "publishedAt": "2026-10-24T16:02:08Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Sie entführten seine oma… jetzt zeigt der stärkste bär der welt seine kraft!",
+    "originalTitle": null,
+    "overview": "Bamse ist der liebste Bär der Welt – und dank des besonderen Honigs, den seine Oma zubereitet, wird er auch zum stärksten! In seiner Heimat herrschen Frieden und Freundschaft, und sogar ehemalige Schurken beginnen, ein besseres Leben zu führen. Doch nicht jeder ist mit dieser Harmonie zufrieden. Der listige Fuchs Reinard schmiedet einen hinterhältigen Plan und entführt Bamses Oma, um dem Bären seine unglaubliche Kraft zu nehmen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "sie-entfuehrten-seine-oma-jetzt-zeigt-der-staerkste-baer-der"
+  },
+  {
+    "videoId": "8G4cHM5aqM4",
+    "youtubeTitle": "Schlechtes Timing | Jamie Foxx, Sarah Pauslon | KOMÖDIE | Ganzer Film | Film Komplett auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8G4cHM5aqM4/hqdefault.jpg",
+    "duration": "PT1H28M6S",
+    "publishedAt": "2026-10-24T15:00:19Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": null,
+    "title": "Schlechtes Timing",
+    "originalTitle": null,
+    "overview": "Nachdem er seine Ersparnisse für einen Oldtimer verschleudert hat, gerät ein verlassener Mann in einen missglückten Raubüberfall und eine abenteuerliche Geiselnahme.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "schlechtes-timing"
+  },
+  {
+    "videoId": "Hj3sah7-GmE",
+    "youtubeTitle": "Wenn alte Geschichten die Hochzeit ruinieren – Eine romantische Komödie über verpasste Chancen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Hj3sah7-GmE/hqdefault.jpg",
+    "duration": "PT1H23M50S",
+    "publishedAt": "2026-10-24T17:00:26Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn alte Geschichten die Hochzeit ruinieren",
+    "originalTitle": null,
+    "overview": "Ein kurz vor der Trauung auftauchendes, altes Foto stellt das Leben von Arthur komplett auf den Kopf, als seine Braut Kim die Hochzeit spontan platzen lässt. Um sein verloren geglaubtes Beziehungsglück zu retten, verstrickt er sich in immer absurdere Ausreden und schlängelt sich durch ein Netz aus Missverständnissen. Gleichzeitig sorgt auch sein bester Freund Zeno mit eigenen turbulenten Frauenbekanntschaften und emotionalen Chaos-Momenten für reichlich Wirbel im gemeinsamen Umfeld. Während der kleine Benny versucht, den Durchblick im Leben der Erwachsenen zu behalten, steuern alle Beteiligten von einem Fettnäpfchen ins nächste. Am Ende muss sich zeigen, ob ehrliche Gefühle und verpasste Chancen doch noch eine reale zweite Chance erhalten. Dieser charmante Film liefert eine turbulente Geschichte voller Humor, Herzschmerz und unerwarteter Wendungen.",
+    "releaseDate": "1994-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "wenn-alte-geschichten-die-hochzeit-ruinieren"
   }
 ]
