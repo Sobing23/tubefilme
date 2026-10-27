@@ -143352,7 +143352,9 @@
     "fsk": "16",
     "posterLocal": "img/posters/27370.jpg",
     "slug": "paranormal-investigations-3-toedliche-geister",
-    "runtime": 88
+    "runtime": 88,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "sCYh4Qq_PAk",
@@ -156165,7 +156167,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "ihre-rache-schockierte-die-polizei"
+    "slug": "ihre-rache-schockierte-die-polizei",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "UfwO2UFcfB4",
@@ -179025,9 +179029,7 @@
     "writer": [],
     "fsk": null,
     "slug": "ein-magischer-helm-macht-aus-einem-gewoehnlichen-mann-den-le",
-    "titelUnsicher": true,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "titelUnsicher": true
   },
   {
     "videoId": "jdnQ_aixacw",
@@ -322216,12 +322218,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "jZyO7rZsGaI",
-    "youtubeTitle": "🎬Eine unglaubliche Liebesgeschichte!❤️Er ist ein Prinz, sie ist ein ganz normales Mädchen! | Film HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/jZyO7rZsGaI/hqdefault.jpg",
+    "videoId": "NWyiKPoKWXU",
+    "youtubeTitle": "EINE WEIHNACHTSREISE VOLLER LIEBE UND ÜBERRASCHUNGEN! Abenteuerfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/NWyiKPoKWXU/hqdefault.jpg",
     "duration": "PT1H20M49S",
     "publishedAt": "2026-09-23T15:03:18Z",
-    "channelName": "Lichtprojektor",
+    "channelName": "KinoWucht",
     "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
     "tmdbId": 1075739,
     "title": "Christmas with the Prince",
@@ -330197,7 +330199,9 @@
       "Ernst Marischka"
     ],
     "fsk": null,
-    "slug": "die-deutschmeister"
+    "slug": "die-deutschmeister",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "r63MldgcEhs",
@@ -331089,5 +331093,195 @@
     "writer": [],
     "fsk": null,
     "slug": "wenn-alte-geschichten-die-hochzeit-ruinieren"
+  },
+  {
+    "videoId": "W1n_h7ye23s",
+    "youtubeTitle": "Ein Vater nimmt die Schuld auf sich, um seinen Sohn vor dem Gefängnis zu retten | THRILLERFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/W1n_h7ye23s/hqdefault.jpg",
+    "duration": "PT1H26M49S",
+    "publishedAt": "2026-10-26T16:00:37Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1514446,
+    "title": "Taste of His Own Poison",
+    "originalTitle": "Taste of His Own Poison",
+    "overview": "",
+    "releaseDate": "2025-07-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zgwiPA0qK6HpzR8x0Wcdrn1jT5m.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6fUyFnARo3Aku6mGktoXBNkp4ON.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Taste of His Own Poison\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rhonda Dent",
+      "Nolen Dubuc",
+      "Jonathan Purvis",
+      "Dylan Kingwell",
+      "Juliette Hawk"
+    ],
+    "director": [
+      "Soran Mardookhi"
+    ],
+    "writer": [
+      "Leo McGuigan"
+    ],
+    "fsk": null,
+    "slug": "taste-of-his-own-poison"
+  },
+  {
+    "videoId": "Uopynw-OkKY",
+    "youtubeTitle": "Grandioser CLOWN HORROR: Jack in the Box - ES lebt (2019) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Uopynw-OkKY/hqdefault.jpg",
+    "duration": "PT1H27M30S",
+    "publishedAt": "2026-10-26T19:15:08Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 622420,
+    "title": "Jack in the Box - ES lebt",
+    "originalTitle": "The Jack in the Box",
+    "overview": "Wenn ein alter Jack-In-The-Box nicht geerdet und einem Museum im Herzen des Waldes gespendet wird, hat Mitarbeiter Casey Reynolds nicht lange Grund zu der Annahme, dass die gruselige Clownpuppe im Inneren ein Eigenleben hat. Wenn Casey entdeckt, dass seine Kollegen nacheinander sterben, wird er einen Weg finden, den Albtraum zu beenden, oder wird auch er dem Fluch der Kiste zum Opfer fallen?",
+    "releaseDate": "2019-11-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/h34QCk5pkpjA7W7SXHWcjHxnudS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jbLhPErePs1MRwht2FvQTA9Lcc0.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ethan Taylor",
+      "Robert Strange",
+      "Lucy-Jane Quinlan",
+      "Philip Ridout",
+      "Darrie Gardner"
+    ],
+    "director": [
+      "Lawrence Fowler"
+    ],
+    "writer": [
+      "Lawrence Fowler"
+    ],
+    "fsk": "16",
+    "slug": "jack-in-the-box-es-lebt"
+  },
+  {
+    "videoId": "dVm3mIa633Q",
+    "youtubeTitle": "DER KILLER WAR SCHON UNTER IHNEN – ABER NIEMAND AHNTE, WER ER WIRKLICH WAR | Ganzer Filme HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dVm3mIa633Q/hqdefault.jpg",
+    "duration": "PT1H39M25S",
+    "publishedAt": "2026-10-25T16:23:47Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "DER KILLER WAR SCHON UNTER IHNEN - ABER NIEMAND AHNTE, WER ER WIRKLICH WAR",
+    "originalTitle": null,
+    "overview": "Der Täter nutzt das unwegsame Gelände zu seinem Vorteil und wartet geduldig auf den richtigen Moment. Als nach und nach klar wird, dass niemand zufällig in dieser Gruppe ist, verwandelt sich die Wanderung in einen verzweifelten Kampf ums Überleben.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "der-killer-war-schon-unter-ihnen-aber-niemand-ahnte-wer-er-w"
+  },
+  {
+    "videoId": "4hDo1S00Q08",
+    "youtubeTitle": "Geiseln im Wasserwerk – ein Cop stellt sich den Tätern entgegen Action Ganzer Film Deutsch Kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4hDo1S00Q08/hqdefault.jpg",
+    "duration": "PT1H29M24S",
+    "publishedAt": "2026-10-25T14:00:36Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Geiseln im Wasserwerk",
+    "originalTitle": null,
+    "overview": "Detective David Chase besucht eine Wasseraufbereitungsanlage, als bewaffnete Täter die Kontrolle übernehmen und Geiseln nehmen. Sie drohen, die Trinkwasserversorgung der Stadt zu verseuchen. Chase muss eingreifen, bevor aus der Geiselnahme eine Katastrophe wird.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "John Bradshaw"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "geiseln-im-wasserwerk"
+  },
+  {
+    "videoId": "YKD4Wg8axvU",
+    "youtubeTitle": "Er wollte nur einen erpresser Stoppen… doch plötzlich geschah ein mord! | Krimikomödie auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YKD4Wg8axvU/hqdefault.jpg",
+    "duration": "PT1H33M58S",
+    "publishedAt": "2026-10-25T16:00:30Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Gumshoe",
+    "originalTitle": null,
+    "overview": "Biff Basham ist ein erfolgloser Privatdetektiv aus New Orleans, der sich kaum über Wasser halten kann. Sein Leben nimmt eine unerwartete Wendung, als eine verführerische Nachtclubsängerin ihn beauftragt, einen Erpresser zum Schweigen zu bringen. Biff hofft, dass dieser Auftrag endlich seine Geldprobleme löst, doch schon bald gerät alles außer Kontrolle.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "gumshoe-2"
+  },
+  {
+    "videoId": "oQJWJTTn-ug",
+    "youtubeTitle": "Seine Freundin verschwindet an einer Tankstelle – 3 Jahre später meldet sich der Entführer",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oQJWJTTn-ug/hqdefault.jpg",
+    "duration": "PT1H45M4S",
+    "publishedAt": "2026-10-25T20:22:43Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Seine Freundin verschwindet an einer Tankstelle - 3 Jahre später meldet sich der Entführer",
+    "originalTitle": null,
+    "overview": "Rex und Saskia sind ein junges Paar, das gemeinsam durch Frankreich reist. Während einer scheinbar gewöhnlichen Pause an einer belebten Autobahnraststätte verschwindet Saskia plötzlich spurlos. Niemand hat etwas gesehen. Keine Zeugen, keine Hinweise, keine Erklärung. Für Rex beginnt ein Albtraum, der sein gesamtes Leben verändert. Auch drei Jahre später kann er das Verschwinden seiner Freundin nicht akzeptieren. Während die Welt längst weitergezogen ist, sucht er verzweifelt nach Antworten. Dann geschieht etwas Unfassbares. Ein geheimnisvoller Mann nimmt Kontakt zu ihm auf und behauptet, genau zu wissen, was damals mit Saskia passiert ist. Doch um die Wahrheit zu erfahren, muss Rex eine Entscheidung treffen, deren Konsequenzen er nicht abschätzen kann. Ein außergewöhnlich intensiver europäischer Psychothriller über Besessenheit, Verlust und die erschreckende Frage, wie weit ein Mensch ge",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "seine-freundin-verschwindet-an-einer-tankstelle-3-jahre-spae"
   }
 ]
