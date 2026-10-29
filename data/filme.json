@@ -8632,7 +8632,9 @@
     "slug": "gefangene-der-kaelte",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ebX-QdczAtM",
@@ -45028,7 +45030,9 @@
     "slug": "rain-fall",
     "plausibel": "titel",
     "runtime": 111,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "PKQzisf3P3I",
@@ -49537,12 +49541,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "JwXb2cB2xOE",
-    "youtubeTitle": "Kickbox Hero 1 (MARTIAL ARTS ACTION ganzer Film Deutsch, Actionfilme in voller Länge, Kampffilme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/JwXb2cB2xOE/hqdefault.jpg",
+    "videoId": "RRVRGPmKFF4",
+    "youtubeTitle": "Kickbox Hero 1 (Martial-Arts Film | deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/RRVRGPmKFF4/hqdefault.jpg",
     "duration": "PT1H26M32S",
     "publishedAt": "2022-01-18T18:00:11Z",
-    "channelName": "Netzkino",
+    "channelName": "weloadtv",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 485818,
     "title": "Final Punch",
@@ -72045,12 +72049,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "NQguW0_AFzo",
-    "youtubeTitle": "Kickbox Hero 2 (Actionfilm in voller Länge, ganze Filme auf Deutsch anschauen)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/NQguW0_AFzo/hqdefault.jpg",
+    "videoId": "PsYBMg09hbg",
+    "youtubeTitle": "Kickbox Hero 2 (Martial-Arts Film | deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/PsYBMg09hbg/hqdefault.jpg",
     "duration": "PT1H20M6S",
     "publishedAt": "2016-03-13T16:00:00Z",
-    "channelName": "Netzkino",
+    "channelName": "weloadtv",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 152379,
     "title": "The Circuit 2: The Final Punch",
@@ -89202,12 +89206,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "bWDzbdKHIkg",
-    "youtubeTitle": "DUELL IM MORGENGRAUEN (Gunman’s Walk) – Gnadenloser Western, Westernfilm auf Deutsch, ganzer film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/bWDzbdKHIkg/hqdefault.jpg",
+    "videoId": "Tz3lAPr6CDo",
+    "youtubeTitle": "Duell im Morgengrauen - Gunman's Walk (1958) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Tz3lAPr6CDo/hqdefault.jpg",
     "duration": "PT1H34M56S",
     "publishedAt": "2026-02-03T18:30:00Z",
-    "channelName": "Dzango",
+    "channelName": "Absolute Action",
     "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
     "tmdbId": 42871,
     "title": "Duell im Morgengrauen",
@@ -89241,9 +89245,7 @@
     "slug": "duell-im-morgengrauen",
     "plausibel": "titel",
     "runtime": 95,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 4
   },
   {
     "videoId": "Cez8v7uW5tc",
@@ -122516,12 +122518,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "SiCcj69R3dg",
-    "youtubeTitle": "Gangland L.A (ganzer Action Film Deutsch in voller Länge)😱*HD*",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/SiCcj69R3dg/hqdefault.jpg",
+    "videoId": "xdYNkzzLqgY",
+    "youtubeTitle": "Gangland",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xdYNkzzLqgY/hqdefault.jpg",
     "duration": "PT1H33M35S",
     "publishedAt": "2025-09-11T16:00:06Z",
-    "channelName": "Bulldox",
+    "channelName": "weloadtv",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 79467,
     "title": "Gangland L.A.",
@@ -130662,7 +130664,9 @@
     "slug": "das-schwert-des-koenigs",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "YtbU6an7o6c",
@@ -143243,12 +143247,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "VWKz78blP9Q",
-    "youtubeTitle": "John Carpenter's Ghosts of Mars | kompletter Film | Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/VWKz78blP9Q/hqdefault.jpg",
+    "videoId": "n_blc0-Q_mE",
+    "youtubeTitle": "JOHN CARPENTER'S GHOSTS OF MARS (2001) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/n_blc0-Q_mE/hqdefault.jpg",
     "duration": "PT1H34M9S",
     "publishedAt": "2026-07-27T12:11:25Z",
-    "channelName": "Sony Pics at Home DE",
+    "channelName": "CineCult Reloaded",
     "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
     "tmdbId": 10016,
     "title": "Ghosts of Mars",
@@ -143354,7 +143358,7 @@
     "slug": "paranormal-investigations-3-toedliche-geister",
     "runtime": 88,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "sCYh4Qq_PAk",
@@ -158925,7 +158929,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "kickbox-hero-1"
+    "slug": "kickbox-hero-1",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Iv1Uhos1IXU",
@@ -176255,7 +176261,9 @@
     "writer": [],
     "fsk": null,
     "titelKorrigiert": true,
-    "slug": "sophie-sissis-kleine-schwester"
+    "slug": "sophie-sissis-kleine-schwester",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Uiib1PiReJE",
@@ -212997,7 +213005,9 @@
     "slug": "ohne-ausweg",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "TYLm6k3eaAA",
@@ -228737,12 +228747,12 @@
     "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "_TGYyogenxU",
-    "youtubeTitle": "Nur ein einziges Leben (2020) | Ganzer Film Deutsch | Kriegsdrama mit Noah Schnapp & Jean Reno | HD",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/_TGYyogenxU/hqdefault.jpg",
+    "videoId": "Wsgu0f6-R7s",
+    "youtubeTitle": "Nur ein einziges Leben (BEWEGENDER FILM mit NOAH SCHNAPP, Drama ganzer Film auf Deutsch, Kriegsfilm)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Wsgu0f6-R7s/hqdefault.jpg",
     "duration": "PT1H49M58S",
     "publishedAt": "2026-10-10T15:30:09Z",
-    "channelName": "Heimatkino",
+    "channelName": "FABELLA",
     "channelId": "UChJySzurS1PVmE_gvVQX_ng",
     "tmdbId": 525428,
     "title": "Nur ein einziges Leben",
@@ -228776,9 +228786,7 @@
     "slug": "nur-ein-einziges-leben",
     "plausibel": "titel",
     "runtime": 109,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 4
   },
   {
     "videoId": "xWQ__CiUE1Q",
@@ -275800,12 +275808,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "fB-eTOTrqgw",
-    "youtubeTitle": "Ein EMOTIONALER FILM, den nicht jeder bis zum Ende sehen kann | AUF DEUTSCH",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/fB-eTOTrqgw/hqdefault.jpg",
+    "videoId": "5aAHQov0c2I",
+    "youtubeTitle": "😉🍿 Diese Inspirierende Tragikomödie Zeigt: Nach Dunkelheit Kommt Immer Licht! | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5aAHQov0c2I/hqdefault.jpg",
     "duration": "PT1H28M59S",
     "publishedAt": "2026-08-10T15:00:11Z",
-    "channelName": "CinemaLegenden",
+    "channelName": "Kinohof",
     "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
     "tmdbId": 12131,
     "title": "Ganz und gar",
@@ -275835,8 +275843,6 @@
       "Maggie Peren"
     ],
     "fsk": null,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
     "slug": "ganz-und-gar",
     "runtime": 95,
     "plausibel": "titel",
@@ -310806,7 +310812,9 @@
     "slug": "the-producers",
     "runtime": 134,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "XxZDxdvL1zE",
@@ -330497,7 +330505,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "er-bezahlt-einen-killer-fuer-den-mord-an-seiner-frau-doch-de"
+    "slug": "er-bezahlt-einen-killer-fuer-den-mord-an-seiner-frau-doch-de",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "89cfYOaAnjg",
@@ -331551,5 +331561,625 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "edgar-wallace-der-raecher-klaus-kinski-heinz-drache"
+  },
+  {
+    "videoId": "i33---0vIYc",
+    "youtubeTitle": "TÖDLICHER STURM: SIE KÄMPFEN MIT STAHL GEGEN EINEN FEIND, DER DAS WETTER LENKT | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/i33---0vIYc/hqdefault.jpg",
+    "duration": "PT1H17M29S",
+    "publishedAt": "2026-10-28T14:15:16Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": 989,
+    "title": "Tödlicher Sturm",
+    "originalTitle": "The Mortal Storm",
+    "overview": "Die Familie Roth führt Anfang der 1930er Jahre ein ruhiges Leben in einem kleinen Dorf in den deutschen Alpen. Als die Nazis an die Macht kommen, spaltet sich die Familie und Martin Brietner, ein Freund der Familie, gerät in den Aufruhr.",
+    "releaseDate": "1940-06-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3KKnpT565zUL23NRXurt1VeBynQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zqgzF9zkDlLqVARJGgoMSugb1at.jpg",
+    "voteAverage": 7.4,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 94 (Suchbegriff: \"TÖDLICHER STURM\")",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Margaret Sullavan",
+      "James Stewart",
+      "Robert Young",
+      "Frank Morgan",
+      "Robert Stack"
+    ],
+    "director": [
+      "Frank Borzage"
+    ],
+    "writer": [
+      "George Froeschel",
+      "Hans Rameau",
+      "Claudine West"
+    ],
+    "fsk": "12",
+    "slug": "toedlicher-sturm"
+  },
+  {
+    "videoId": "hgxl7Q_-LvY",
+    "youtubeTitle": "Einheimische werden zerfetzt aufgefunden: Rippy - Das Killerkänguru (2024) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hgxl7Q_-LvY/hqdefault.jpg",
+    "duration": "PT1H23M21S",
+    "publishedAt": "2026-10-28T19:15:06Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 1249532,
+    "title": "Rippy - Das Killerkänguru",
+    "originalTitle": "Rippy",
+    "overview": "Eine Reihe grausamer Morde versetzt die Einwohner der Outback-Siedlung Axehead in Angst und Schrecken. Maddy, die einzige Gesetzeshüterin der Stadt, sucht nach Hinweisen auf den Täter, der seine Opfer auf brutalste Weise in Stücke gerissen hat. Ihre Ermittlungen führen jedoch ins Leere – bis ihr Onkel Schmitty ein untotes Känguru erwähnt, das in der Gegend sein Unwesen treiben und für die Bluttaten verantwortlich sein soll. Maddy glaubt zunächst nicht an seinen völlig abwegig erscheinenden Verdacht, doch als das Morden kein Ende nimmt, muss sie der Realität zwangsläufig ins Auge sehen. Entschlossen, den Albtraum zu beenden, stellt sich Maddy, Seite an Seite mit Onkel Schmitty und Tante Donna, dem Killerkänguru in einem alles entscheidenden Kampf auf Leben und Tod.",
+    "releaseDate": "2024-10-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/55njcSRynN0RXEYLQSHLPqLUvVq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tPfXJcXxQ3MHyvhzNsDgsXoyPEM.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      27,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 83,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Michael Biehn",
+      "Tess Haubrich",
+      "Aaron Pedersen",
+      "Angie Milliken",
+      "Mungo McKay"
+    ],
+    "director": [
+      "Ryan Coonan"
+    ],
+    "writer": [
+      "Ryan Coonan",
+      "Richard Barcaricchio"
+    ],
+    "fsk": "16",
+    "slug": "rippy-das-killerkaenguru"
+  },
+  {
+    "videoId": "L86vIXn3exI",
+    "youtubeTitle": "Die Geschichte vom Brandner Kaspar, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/L86vIXn3exI/hqdefault.jpg",
+    "duration": "PT1H39M37S",
+    "publishedAt": "2026-10-28T23:00:07Z",
+    "channelName": "Free Films Emotion",
+    "channelId": "UC6DTsN_DKPGsPVckgfzYznw",
+    "tmdbId": 17008,
+    "title": "Die Geschichte vom Brandner Kaspar",
+    "originalTitle": "Die Geschichte vom Brandner Kaspar",
+    "overview": "Der Tegernseer Büchsenmacher Kaspar Brandner hat es faustdick hinter den Ohren und hält sich mit Wilderei in den umliegenden Wäldern über Wasser. Kurz vor seinem 70. Geburtstag steht der Boandlkramer vor der Tür, um den Brandner Kaspar ins Jenseits zu geleiten. Der macht den Tod betrunken, trickst ihn aus und gewinnt weitere 21 Lebensjahre. Doch dabei hat das alte Schlitzohr die Rechnung ohne den Wirt gemacht...",
+    "releaseDate": "2008-10-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ApQSblNqdxp9iFT7Ui10xa3ovSM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/Au9NAcuMoCOMjMdHgcuRpZjde4J.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 105,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Franz Xaver Kroetz",
+      "Michael Herbig",
+      "Lisa Maria Potthoff",
+      "Alexander Held",
+      "Jörg Hube"
+    ],
+    "director": [
+      "Joseph Vilsmaier"
+    ],
+    "writer": [
+      "Klaus Richter"
+    ],
+    "fsk": "6",
+    "slug": "die-geschichte-vom-brandner-kaspar"
+  },
+  {
+    "videoId": "41p_4Dt1wUs",
+    "youtubeTitle": "Ein Tanz im Boxring (ROMANTISCHE KOMÖDIE ganzer Film Deutsch, Komödien Filme Deutsch komplett 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/41p_4Dt1wUs/hqdefault.jpg",
+    "duration": "PT1H28M51S",
+    "publishedAt": "2026-10-28T18:00:14Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 1171967,
+    "title": "Ein Tanz im Boxring",
+    "originalTitle": "The Boxer and the Butterfly",
+    "overview": "Kurz vor dem großen Tanzwettbewerb trifft Rowan ein doppelter Rückschlag: Ihr Tanzpartner Noah beendet nicht nur die private Beziehung, sondern auch die gemeinsame Vorbereitung auf das Turnier. Während er sich mit neuer Partnerin und dem Preisgeld in Aussicht auf den Weg zum Erfolg macht, steht Rowan plötzlich allein da. Eine zufällige Begegnung mit dem Boxer Walt bringt sie auf eine gewagte Idee – innerhalb weniger Tage will sie ihm die nötigen Schritte beibringen. Zwar zeigt er wenig Interesse, doch die drohende Schließung seines Boxstudios lässt ihn zögern. Aus der Not entsteht eine ungewöhnliche Tanzpartnerschaft, bei der viel mehr auf dem Spiel steht als nur ein Pokal.",
+    "releaseDate": "2023-11-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9vrTk3lases4JbQsSzdVtWVx47d.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mC6xTAZ3CXf0pCWyxIHRTEO1i6a.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Katrina Norman",
+      "Brock Yurich",
+      "Angel Prater",
+      "Joe Slaughter",
+      "Denise Dal Vera"
+    ],
+    "director": [
+      "Lindsay Hartley"
+    ],
+    "writer": [
+      "Jeni Mills"
+    ],
+    "fsk": null,
+    "slug": "ein-tanz-im-boxring"
+  },
+  {
+    "videoId": "sBIEddhdNYQ",
+    "youtubeTitle": "Hilfe, ich habe Weihnachten geerbt! (LIEBESFILM ganzer Film Deutsch, Weihnachtsfilm in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sBIEddhdNYQ/hqdefault.jpg",
+    "duration": "PT1H25M34S",
+    "publishedAt": "2026-10-28T16:00:11Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 369054,
+    "title": "Hilfe, ich habe Weihnachten geerbt",
+    "originalTitle": "Christmas Land",
+    "overview": "Eine New Yorkerin erbt von ihrer Großmutter eine in die Jahre gekommene Weihnachtsbaumschule. Soll sie verkaufen oder dem Weihnachtszauber neues Leben einhauchen? Jules erbt den Weihnachtsthemenpark „Christmas Land“. Nun muss sie entscheiden: Soll sie an einen Immobilienhai verkaufen oder dem Anwesen zu früherem Glanz verhelfen?",
+    "releaseDate": "2015-12-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/252QTgQzfq69zJlkXsVWaEOZ74E.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hsR4XY0qgk7ouAfmaIbTTzrAvM0.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      10770,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 83,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Nikki DeLoach",
+      "Luke Macfarlane",
+      "Maureen McCormick",
+      "Richard Karn",
+      "Chonda Pierce"
+    ],
+    "director": [
+      "Sam Irvin"
+    ],
+    "writer": [
+      "Jay Cipriani",
+      "Daisy MacLean",
+      "Robin Archer"
+    ],
+    "fsk": "12",
+    "slug": "hilfe-ich-habe-weihnachten-geerbt"
+  },
+  {
+    "videoId": "7pFLkTtgslk",
+    "youtubeTitle": "Die Olsenbande und ihr großer Coup - Komödie | 1972 | HD | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7pFLkTtgslk/hqdefault.jpg",
+    "duration": "PT1H33M55S",
+    "publishedAt": "2026-10-28T14:00:24Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 15498,
+    "title": "Die Olsenbande und ihr großer Coup",
+    "originalTitle": "Olsen-bandens store kup",
+    "overview": "Auf mehrere Millionen Steuergelder hat es die Olsenbande diesmal abgesehen. Der Coup klappt und die Millionen werden an einem in Egons Augen sicheren Ort versteckt. Der König, Konkurrent der Olsenbande, erfährt aber vom Millionenversteck und macht sich mit dem Geld der Olsenbande ein schönes Leben. Das ist zuviel für Egon! Mit List und Tücke holt er die Kronen zurück und kann sie sogar vor der Polizei verstecken. Aber es gibt jemanden, der noch etwas raffinierter ist als Egon Olsen...",
+    "releaseDate": "1972-10-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9ForrDRuYK4GVs1N1amy6sxNujH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kfx3wytz63Va8JR71j4c61O7jPj.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      10751,
+      35,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 99,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ove Sprogøe",
+      "Morten Grunwald",
+      "Poul Bundgaard",
+      "Kirsten Walther",
+      "Arthur Jensen"
+    ],
+    "director": [
+      "Erik Balling"
+    ],
+    "writer": [
+      "Erik Balling",
+      "Henning Bahs"
+    ],
+    "fsk": "12",
+    "slug": "die-olsenbande-und-ihr-grosser-coup"
+  },
+  {
+    "videoId": "yqFHqlTRa2s",
+    "youtubeTitle": "MÄCHTIGE HEXEN gegen DAS BÖSE: Amityville Witches | Übernatürlicher Horror Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yqFHqlTRa2s/hqdefault.jpg",
+    "duration": "PT1H31M2S",
+    "publishedAt": "2026-10-28T17:15:29Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 750121,
+    "title": "Amityville Witches",
+    "originalTitle": "Witches of Amityville",
+    "overview": "Jessica akzeptiert eine Einladung, an der privaten Amityville Academy zu studieren. Doch vor Ort bemerkt sie, dass hier ein Hexenzirkel versucht einen bösartigen Dämonen namens Botis zu erwecken. Jessica gerät in einen Strudel aus magischem Zauber und blutigen Ritualen, der sie nicht wieder loslässt.",
+    "releaseDate": "2020-10-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9xL5kkQXNRLtRCXBT3MyPyv0gWG.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mTtNCBCHawdUnHikX3hbg3StpK5.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kira Reed Lorsch",
+      "Donna Spangler",
+      "Sarah T. Cohen",
+      "Nicola Wright",
+      "Jake Francis"
+    ],
+    "director": [
+      "Becca Hirani"
+    ],
+    "writer": [
+      "Tom Jolliffe"
+    ],
+    "fsk": "16",
+    "slug": "amityville-witches"
+  },
+  {
+    "videoId": "15YxybjAQyU",
+    "youtubeTitle": "Affäre Nachtfrost (1989) [Thriller] | Gudrun Landgrebe im Kalten Krieg | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/15YxybjAQyU/hqdefault.jpg",
+    "duration": "PT1H43M8S",
+    "publishedAt": "2026-10-28T17:00:38Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 262604,
+    "title": "Affäre Nachtfrost",
+    "originalTitle": "Affäre Nachtfrost",
+    "overview": "Fritz Seyfried war 1945 Oberst der Wehrmacht. Nun, vierzig Jahre später, ist er ranghoher Mitarbeiter des Bundesnachrichtendienstes. Den Mann mit der weißen Weste spielt er perfekt, doch eines Tages wird er von der Stasi mit seiner Vergangenheit konfrontiert. Von da an fühlt sich Seyfried nicht mehr sicher und sieht seine Existenz bedroht. Nicht genug damit, ist mit seinem Schicksal womöglich auch das des Westens verbunden ...",
+    "releaseDate": "1989-03-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7dTqC0ALp92ChEci9yJx6W8b2Sy.jpg",
+    "backdropUrl": null,
+    "voteAverage": 7,
+    "genreIds": [
+      53,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Charles Brauer",
+      "Dietrich Mattausch",
+      "Gudrun Landgrebe",
+      "Hansjörg Felmy",
+      "Heinz Moog"
+    ],
+    "director": [
+      "Sigi Rothemund"
+    ],
+    "writer": [
+      "Sigi Rothemund"
+    ],
+    "fsk": null,
+    "slug": "affaere-nachtfrost"
+  },
+  {
+    "videoId": "o4_dc9wrmo8",
+    "youtubeTitle": "Ein magischer Faden führt sie zu den Groblins ✨: Prinzessin Aline und die Groblins",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/o4_dc9wrmo8/hqdefault.jpg",
+    "duration": "PT1H18M16S",
+    "publishedAt": "2026-10-28T14:30:00Z",
+    "channelName": "Fantasja",
+    "channelId": "UCn8xSBNGvaaU20JCJBuVPlQ",
+    "tmdbId": 42001,
+    "title": "Prinzessin Aline und die Groblins",
+    "originalTitle": "The Princess and the Goblin",
+    "overview": "Tief unter der Erde schmiedet Prinz Froschlippe mit seinen Groblins einen finsteren Plan. Die boshaften Monster wollen Prinzessin Aline entführen! Aber zum Glück ist Aline nicht allein. Sie erhält überraschende Hilfe aus dem Reich der Magie, und ihr Freund Curdie weiß genau, was Groblins in die Flucht schlägt: ein schönes Lied, möglichst laut gesungen. Eine tolle Geschichte voller Witz, Spannung und Phantasie, in der die Freundschaft über alle monstermäßigen Gemeinheiten siegt.",
+    "releaseDate": "1991-06-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gWXeEzpOavcmv1Ca8sjqkorfuIO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/x1XWqlbmfSrOPiZ81An6MFjO3Aq.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      12,
+      16,
+      10751,
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 82,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Joss Ackland",
+      "Claire Bloom",
+      "Roy Kinnear",
+      "Sally Ann Marsh",
+      "Rik Mayall"
+    ],
+    "director": [
+      "Gémes József"
+    ],
+    "writer": [
+      "Robin Lyons"
+    ],
+    "fsk": null,
+    "slug": "prinzessin-aline-und-die-groblins"
+  },
+  {
+    "videoId": "IFZatsRMuqk",
+    "youtubeTitle": "😱 Dieser PSYCHOTHRILLER lässt dich bis zum Ende nicht los! | ganzer film auf deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/IFZatsRMuqk/hqdefault.jpg",
+    "duration": "PT1H28M51S",
+    "publishedAt": "2026-10-28T15:00:30Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 242466,
+    "title": "Carriers - Die Leihgabe",
+    "originalTitle": "The Surrogate",
+    "overview": "Autor Jacob und seine Frau wünschen sich sehnlichst ein Kind. Eine Leihmutter soll helfen, doch die Kandidatin stirbt plötzlich. Dafür bietet sich Jacobs Kollegin Kate an…",
+    "releaseDate": "2013-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rbf4ygVXGgjdPam70Stlbcu67Dl.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sR8FHUEJcUab6HgLCpAiAEpccNM.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      18,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Cameron Mathison",
+      "Annie Wersching",
+      "Amy Scott",
+      "Matthew Alan",
+      "Eve Mauro"
+    ],
+    "director": [
+      "Doug Campbell"
+    ],
+    "writer": [
+      "Doug Campbell",
+      "Ken Sanders",
+      "Barbara Kymlicka"
+    ],
+    "fsk": null,
+    "slug": "carriers-die-leihgabe"
+  },
+  {
+    "videoId": "zELdmZ_mSHw",
+    "youtubeTitle": "SEAN CONNERY: ER KONTROLLIERT DAS WETTER – UND DROHT, GANZ LONDON ZU VERNICHTEN | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zELdmZ_mSHw/hqdefault.jpg",
+    "duration": "PT1H17M29S",
+    "publishedAt": "2026-10-27T13:19:33Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "SEAN CONNERY: ER KONTROLLIERT DAS WETTER - UND DROHT, GANZ LONDON ZU VERNICHTEN",
+    "originalTitle": null,
+    "overview": "Ein genialer, aber skrupelloser Wissenschaftler hat eine Technologie entwickelt, mit der er das Wetter kontrollieren kann. Mit seiner geheimen Erfindung will er Regierungen erpressen und die mächtigsten Staaten der Welt in die Knie zwingen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "slug": "sean-connery-er-kontrolliert-das-wetter-und-droht-ganz-londo"
+  },
+  {
+    "videoId": "xTt6Wsvt6-s",
+    "youtubeTitle": "رمضان في العالم الإسلامي | الحلقة 01: الممارسات في أوروبا",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xTt6Wsvt6-s/hqdefault.jpg",
+    "duration": "PT58M30S",
+    "publishedAt": "2026-10-27T15:00:09Z",
+    "channelName": "Stream Hier",
+    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
+    "tmdbId": null,
+    "title": "الحلقة 01: الممارسات في أوروبا",
+    "originalTitle": null,
+    "overview": "",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "01"
+  },
+  {
+    "videoId": "CN08BdUtSt4",
+    "youtubeTitle": "Freitag der 13. - Das letzte Kapitel - JASON IST ZURÜCK! Der legendäre Horrorfilm - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CN08BdUtSt4/hqdefault.jpg",
+    "duration": "PT1H30M49S",
+    "publishedAt": "2026-10-27T15:00:24Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": null,
+    "title": "Freitag der 13. - Das letzte Kapitel",
+    "originalTitle": null,
+    "overview": "GANZER FILM - Kultiger Slasher-Horror mit Jason Voorhees, nervenzerreißender Spannung und tödlichem Schrecken",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Joseph Zito"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "freitag-der-13-das-letzte-kapitel-2"
+  },
+  {
+    "videoId": "N5suwWAIW4s",
+    "youtubeTitle": "Afrika, mon amour – Teil 3 (2007) | Ganzer Film Deutsch | Historisches Drama mit Iris Berben | HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/N5suwWAIW4s/hqdefault.jpg",
+    "duration": "PT1H30M1S",
+    "publishedAt": "2026-10-27T16:30:13Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": null,
+    "title": "Afrika, mon amour - Teil 3",
+    "originalTitle": null,
+    "overview": "Victor March hat seine Schussverletzung überlebt und wird schwer verletzt nach Schottland zurückgebracht. Unterdessen behaupten Richard und Heinrich, er könne hinter dem Verschwinden der Millionen aus ihrem Diamantengeschäft stecken. Für Katharina entsteht ein entsetzlicher Verdacht: Könnte Victor dann auch mit dem Mord an ihrem Sohn Georg verbunden sein?",
+    "releaseDate": "2007-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Iris Berben",
+      "Robert Atzorn",
+      "Pierre Besson",
+      "Matthias Habich"
+    ],
+    "director": [
+      "Carlo Rola"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "afrika-mon-amour-teil-3-2"
+  },
+  {
+    "videoId": "U6dGEPIo_rU",
+    "youtubeTitle": "Sie ermorden seinen Vater an Weihnachten – jetzt beginnt ein Cop seinen Rachefeldzug | Sharon Stone",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/U6dGEPIo_rU/hqdefault.jpg",
+    "duration": "PT1H23M50S",
+    "publishedAt": "2026-10-27T17:04:55Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Sie ermorden seinen Vater an Weihnachten - jetzt beginnt ein Cop seinen Rachefeldzug",
+    "originalTitle": null,
+    "overview": "Los Angeles, Heiligabend. Für den erfahrenen Polizisten Johnny Modine sollte es ein friedliches Weihnachtsfest werden. Doch ein einziger Anruf verändert sein Leben für immer. Sein Vater wurde bei einem brutalen Überfall ermordet. Von Trauer und Wut getrieben schwört Johnny, den Verantwortlichen aufzuspüren und zur Rechenschaft zu ziehen. Doch seine Vorgesetzten entziehen ihm den Fall. Johnny weigert sich, aufzugeben, und beginnt auf eigene Faust zu ermitteln. Während seiner Suche begegnet er einer geheimnisvollen Frau, die möglicherweise mehr über die Ereignisse weiß, als sie zugibt. Je näher er dem Täter kommt, desto deutlicher wird, dass der Mord kein gewöhnliches Verbrechen war. Hinter der Tat steckt ein skrupelloser Gegner mit einem persönlichen Racheplan. Plötzlich ist Johnny nicht mehr nur der Jäger – sondern selbst das Ziel eines tödlichen Spiels. Ein kompromissloser 80er-Jahre-Ac",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "sie-ermorden-seinen-vater-an-weihnachten-jetzt-beginnt-ein-c"
+  },
+  {
+    "videoId": "z8eXZQeg6O0",
+    "youtubeTitle": "🎬 Diesen FILM sollte man unbedingt bis zum Ende sehen! Romantisches Drama | Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/z8eXZQeg6O0/hqdefault.jpg",
+    "duration": "PT1H34M35S",
+    "publishedAt": "2026-10-27T12:50:22Z",
+    "channelName": "Kinohof",
+    "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
+    "tmdbId": null,
+    "title": "Generation Um...",
+    "originalTitle": null,
+    "overview": "Auf Kinohof kannst du ganze Filme auf Deutsch kostenlos bei YouTube ansehen. Du suchst einen Spielfilm für heute Abend oder möchtest am Wochenende einen Film in voller Länge genießen? Stöbere durch unseren Kanal, entdecke verschiedene Geschichten und finde einen Film, der dich interessiert. Ob für einen gemütlichen Filmabend oder zwischendurch – hier kannst du Filme kostenlos online schauen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "generation-um"
+  },
+  {
+    "videoId": "FvnnLEGDwXE",
+    "youtubeTitle": "Wenn das Herz zwischen zwei Welten steht: Französisch für Anfänger | Romantik-Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FvnnLEGDwXE/hqdefault.jpg",
+    "duration": "PT1H33M45S",
+    "publishedAt": "2026-10-27T18:00:02Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn das Herz zwischen zwei Welten steht: Französisch für Anfänger",
+    "originalTitle": null,
+    "overview": "Der junge Henrik begibt sich auf einen Schulaustausch nach Frankreich, um der charmanten Valerie näherzukommen, obwohl seine Sprachkenntnisse mehr als dürftig sind. Vor Ort entfaltet sich ein turbulentes Gefühlschaos zwischen Partys, Missverständnissen und romantischen Annäherungsversuchen. Doch der impulsive Franzose Mathieu durchkreuzt seine Pläne und wirbelt die Dynamik unter den Jugendlichen komplett durcheinander. Während erste Liebeleien aufblühen, entstehen neue Konflikte und emotionale Herausforderungen. Der Film begleitet die Jugendlichen durch Höhen und Tiefen der ersten großen Liebe und zeigt auf humorvolle Weise die Hindernisse des Erwachsenwerdens.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "wenn-das-herz-zwischen-zwei-welten-steht-franzoesisch-fuer-a"
   }
 ]
