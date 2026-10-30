@@ -6472,43 +6472,87 @@
     }
   },
   {
-    "videoId": "jaL5P2B7bX0",
-    "youtubeTitle": "Ein THRILLERFILM, der dich von der ersten bis zur letzten Minute in Atem hält | AUF DEUTSCH",
-    "suchbegriff": "Ein THRILLERFILM, der dich von der ersten bis zur letzten Minute in Atem hält",
+    "videoId": "AIDpJ-AC17E",
+    "youtubeTitle": "Er fand DEN ANFÜHRER und DEMÜTIGTE IHN, um sein Dorf zu schützen! | Christopher Lambert Ganzer Film",
+    "suchbegriff": "Er fand DEN ANFÜHRER und DEMÜTIGTE IHN, um sein Dorf zu schützen!",
     "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 66) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "LDk-NG3aGhg",
+    "youtubeTitle": "Düsterer Nervenkitzel mit Tom Hardy: Kind 44 – Ganzer Actionfilm auf Deutsch kostenlos in HD",
+    "suchbegriff": "Child 44",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Child 44\" ohne Jahr/Besetzung -- Rest des Titels (\"dusterer nervenkitzel mit tom hardy\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 336492,
-      "title": "Willkommen auf Deutsch",
-      "release_date": "2014-10-28"
+      "id": 181283,
+      "title": "Kind 44",
+      "release_date": "2015-03-15"
     }
   },
   {
-    "videoId": "5axY2lK6Rdg",
-    "youtubeTitle": "Für den Krieg gebaut – jetzt ist diese Kampfmaschine außer Kontrolle Action Ganzer Film Deutsch",
-    "suchbegriff": "Für den Krieg gebaut – jetzt ist diese Kampfmaschine außer Kontrolle Action Ganzer Film Deutsch",
+    "videoId": "NcEU842IOfk",
+    "youtubeTitle": "Er reist zurück – und findet eine Zukunft voller Killerroboter Ganzer Film Action Auf Deutsch",
+    "suchbegriff": "Er reist zurück – und findet eine Zukunft voller Killerroboter Ganzer Film Action Auf Deutsch",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "DHw_viiQLug",
-    "youtubeTitle": "🎬 Hochzeit auf dem Bärenhof – Deutscher Filmklassiker in 4K Ultra HD 💍❤️",
-    "suchbegriff": "Hochzeit auf dem Bärenhof – Deutscher Filmklassiker in 4K Ultra HD 💍❤️",
+    "videoId": "iHRg8SkjXBk",
+    "youtubeTitle": "Breaking Up in Rome | Trennung in Rom | Die Wahrheit über uns | Ganzer Film 4K",
+    "suchbegriff": "Breaking Up in Rome",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "z5PJCQFcka4",
-    "youtubeTitle": "😢 Ein Schwerer Schicksalsschlag Verändert Sein Leben Für Immer! | Drama | Ganzer Film",
-    "suchbegriff": "Ein Schwerer Schicksalsschlag Verändert Sein Leben Für Immer!",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Buckshot\" ohne Jahr/Besetzung -- Rest des Titels (\"schwerer schicksalsschlag verandert sein leben fur immer\") fehlt im Treffer",
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 547112,
-      "title": "Buckshot",
-      "release_date": "2017-10-06"
+      "id": 35156,
+      "title": "Die Unbequeme Wahrheit über unsere Ozeane",
+      "release_date": "2009-06-12"
+    }
+  },
+  {
+    "videoId": "kSZed89PpFo",
+    "youtubeTitle": "CRYSTAL GIRL - VETRO | Ganzer Film in 4K",
+    "suchbegriff": "Vetro",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Vetro\" ohne Jahr/Besetzung -- Rest des Titels (\"crystal girl\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 838879,
+      "title": "Vetro",
+      "release_date": "2022-04-07"
+    }
+  },
+  {
+    "videoId": "QA8OqLqGMuI",
+    "youtubeTitle": "لله في خلقه شؤون | الحلقة 11: الريحان والكافور",
+    "suchbegriff": "لله في خلقه شؤون",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "xwJkMasObnU",
+    "youtubeTitle": "🔥 SPANNUNG, ACTION UND KRIMINALITÄT in einem Film | The Chaser | Ganzer Film auf Deutsch kostenlos",
+    "suchbegriff": "SPANNUNG, ACTION UND KRIMINALITÄT in einem Film",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"The Chaser\" ohne Jahr/Besetzung -- Rest des Titels (\"spannung kriminalitat einem\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 13855,
+      "title": "The Chaser",
+      "release_date": "2008-02-14"
+    }
+  },
+  {
+    "videoId": "-xeBhjhXWWU",
+    "youtubeTitle": "HALLOWEEN-SPECIAL: Überleben sie das Monster in der Dunkelheit? | Thriller",
+    "suchbegriff": "HALLOWEEN-SPECIAL: Überleben sie das Monster in der Dunkelheit?",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 68) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 1019105,
+      "title": "The Paloni Show! Halloween Special!",
+      "release_date": "2022-10-16"
     }
   }
 ]

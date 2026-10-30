@@ -10815,7 +10815,9 @@
     "slug": "chuka",
     "plausibel": "titel",
     "runtime": 105,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "vXkUAvpDFQ8",
@@ -100432,7 +100434,9 @@
     "slug": "vom-teufel-besessen",
     "plausibel": "titel",
     "runtime": 110,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "OimPLB7UxJM",
@@ -117518,7 +117522,9 @@
     "slug": "der-letzte-flug-zurueck",
     "plausibel": "titel",
     "runtime": 82,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Av6Fa_jvShs",
@@ -188904,9 +188910,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "C4V-PhbnBVY",
-    "youtubeTitle": "Die Silberne Stadt | Edmond O'Brien | Western | Yvonne De Carlo | Drama | 4K",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/C4V-PhbnBVY/hqdefault.jpg",
+    "videoId": "FA720Xr2Zis",
+    "youtubeTitle": "Die Silberne Stadt | 4K | Amerikanischer Westernfilm | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FA720Xr2Zis/hqdefault.jpg",
     "duration": "PT1H26M55S",
     "publishedAt": "2026-08-12T17:00:31Z",
     "channelName": "Grjngo Westernfilme",
@@ -188989,9 +188995,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "Nff4a4Uqdms",
-    "youtubeTitle": "Terror am Rio Grande | Edmond O'Brien | 4K | Westernfilm | Sterling Hayden",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Nff4a4Uqdms/hqdefault.jpg",
+    "videoId": "EcOSEKsihQo",
+    "youtubeTitle": "Terror am Rio Grande | 4K | Sterling Hayden | Amerikanischer Western | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EcOSEKsihQo/hqdefault.jpg",
     "duration": "PT1H25M10S",
     "publishedAt": "2026-08-05T17:00:18Z",
     "channelName": "Grjngo Westernfilme",
@@ -189164,9 +189170,9 @@
     "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
-    "videoId": "zdKJPxHl_ig",
-    "youtubeTitle": "In Rache vereint | Wendell Corey | Cowboyfilm | Deutsch | Drama | 4K",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/zdKJPxHl_ig/hqdefault.jpg",
+    "videoId": "EAt8mGTaVWw",
+    "youtubeTitle": "In Rache vereint | 4K | Amerikanischer Western | Deutsch | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EAt8mGTaVWw/hqdefault.jpg",
     "duration": "PT1H24M20S",
     "publishedAt": "2026-07-22T17:00:14Z",
     "channelName": "Grjngo Westernfilme",
@@ -189516,9 +189522,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "kpkQji8TrB4",
-    "youtubeTitle": "El Capitano | Dean Martin | Komödie | Deutsch | Western | 4K",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/kpkQji8TrB4/hqdefault.jpg",
+    "videoId": "f7Q7mY2A4qc",
+    "youtubeTitle": "El Capitano | 4K | Dean Martin | Westernfilm | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/f7Q7mY2A4qc/hqdefault.jpg",
     "duration": "PT1H43M59S",
     "publishedAt": "2026-07-11T17:00:10Z",
     "channelName": "Grjngo Westernfilme",
@@ -189599,9 +189605,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "_pnxXzD6Rk8",
-    "youtubeTitle": "Donner in der Sonne | Susan Hayward | Action | 4K | Abenteuer | Western",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/_pnxXzD6Rk8/hqdefault.jpg",
+    "videoId": "pe-9zY6AN8g",
+    "youtubeTitle": "Donner in der Sonne | 4K | Susan Hayward | Westernfilm | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pe-9zY6AN8g/hqdefault.jpg",
     "duration": "PT1H17M18S",
     "publishedAt": "2026-07-09T17:00:01Z",
     "channelName": "Grjngo Westernfilme",
@@ -189645,9 +189651,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "1-80U8pfiGM",
-    "youtubeTitle": "Schwarze Sporen | Rory Calhoun | Drama | 4K | Westernfilm | Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/1-80U8pfiGM/hqdefault.jpg",
+    "videoId": "wa-Ex9q_-r0",
+    "youtubeTitle": "Schwarze Sporen | 4K | Rory Calhoun | Deutsch | Westernfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wa-Ex9q_-r0/hqdefault.jpg",
     "duration": "PT1H17M32S",
     "publishedAt": "2026-07-08T17:00:31Z",
     "channelName": "Grjngo Westernfilme",
@@ -189686,9 +189692,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "GQxv-Nlm_-I",
-    "youtubeTitle": "Die Wegelagerer | John Ireland | Drama | Yvonne De Carlo | Western | 4K",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/GQxv-Nlm_-I/hqdefault.jpg",
+    "videoId": "6tjxdWjdCL4",
+    "youtubeTitle": "Die Wegelagerer | 4K | John Ireland | Amerikanischer Westernfilm | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6tjxdWjdCL4/hqdefault.jpg",
     "duration": "PT1H22M53S",
     "publishedAt": "2026-07-07T17:00:30Z",
     "channelName": "Grjngo Westernfilme",
@@ -201912,7 +201918,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "die-legende-von-black-charley"
+    "slug": "die-legende-von-black-charley",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "O_NKDiZDlSg",
@@ -214662,7 +214670,7 @@
     "runtime": 108,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "WoNfZO6v3eQ",
@@ -296715,9 +296723,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "btlHICGGpUU",
-    "youtubeTitle": "In schlechter Gesellschaft | Jeff Bridges | Action | Deutsch | Abenteuer | 4K",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/btlHICGGpUU/hqdefault.jpg",
+    "videoId": "fvt4HRr9vR0",
+    "youtubeTitle": "In schlechter Gesellschaft | Jeff Bridges | Westernfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fvt4HRr9vR0/hqdefault.jpg",
     "duration": "PT1H28M48S",
     "publishedAt": "2026-07-15T17:00:18Z",
     "channelName": "Grjngo Westernfilme",
@@ -297953,9 +297961,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "xw9DHvkvC6Q",
-    "youtubeTitle": "Der Mann, den sie Pferd nannten | Westernfilm | 4K | Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/xw9DHvkvC6Q/hqdefault.jpg",
+    "videoId": "s46cUutjv6Y",
+    "youtubeTitle": "Der Mann, den sie Pferd nannten | Richard Harris | Indianer Westernfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/s46cUutjv6Y/hqdefault.jpg",
     "duration": "PT1H45M54S",
     "publishedAt": "2025-10-14T12:02:01Z",
     "channelName": "Grjngo Westernfilme",
@@ -298457,9 +298465,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "Qj_LjHT6RZI",
+    "videoId": "cZpzml8wCUo",
     "youtubeTitle": "Der Siebente ist dran | Randolph Scott | Western | Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Qj_LjHT6RZI/hqdefault.jpg",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cZpzml8wCUo/hqdefault.jpg",
     "duration": "PT1H14M49S",
     "publishedAt": "2025-04-23T12:00:47Z",
     "channelName": "Grjngo Westernfilme",
@@ -332181,5 +332189,487 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "wenn-das-herz-zwischen-zwei-welten-steht-franzoesisch-fuer-a"
+  },
+  {
+    "videoId": "FHL4e71PmMM",
+    "youtubeTitle": "ROMANTISCHER FILM, der Ihr Herz schneller schlagen lässt | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FHL4e71PmMM/hqdefault.jpg",
+    "duration": "PT1H27M13S",
+    "publishedAt": "2026-10-29T16:00:18Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1155055,
+    "title": "Steal Your Heart",
+    "originalTitle": "Steal Your Heart",
+    "overview": "",
+    "releaseDate": "2023-12-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hzWBFO6XUcDJ3wgmCklvTwdwvnk.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dAKNMgEfWoFn8mcfVlr4tw3Jluy.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Steal Your Heart\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Emma Elle Roberts",
+      "Rob Silverman",
+      "Andrea Conte",
+      "Nicolas Sellar",
+      "Renata Bresciani"
+    ],
+    "director": [
+      "Damián Romay"
+    ],
+    "writer": [
+      "Eleonora Mignoli"
+    ],
+    "fsk": null,
+    "slug": "steal-your-heart"
+  },
+  {
+    "videoId": "fCSRYWsPx88",
+    "youtubeTitle": "KARATE WARRIOR 5 – Der Kampf gegen den gefürchteten Alabama Bull! (Action | Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fCSRYWsPx88/hqdefault.jpg",
+    "duration": "PT1H30M59S",
+    "publishedAt": "2026-10-29T18:30:36Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 192965,
+    "title": "Karate Warrior 5",
+    "originalTitle": "Karate Warrior 5",
+    "overview": "Karate-Champ Larry Jones, der Junge mit dem Goldenen Kimono, hat mächtige Gegner. Sein Todfeind Jeff und seine Gang haben ihm Rache für die letzte Niederlage im Ring geschworen. Und der schwarze Karatekiller Alabama Bull soll Larry in der Arena das Fürchten lehren. Aber der hat auch noch genug andere Probleme. Seine Freundin Betty wird von Gangstern entführt. Die Forderung: 400.000 Dollar Lösegeld. Larry, sein Freund Gregg und Bettys Schwester Julie wollen Betty um jeden Preis befreien. Doch die Zeit wird knapp. Und Alabama Bull will Blut sehen.",
+    "releaseDate": "1992-02-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bH0ZXvqVbua4KRo6eMqoqsyzoh5.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lpj4WoXrUXsFtP5IYQWReZXapyj.jpg",
+    "voteAverage": 3.5,
+    "genreIds": [
+      18,
+      28
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 82 (Suchbegriff: \"KARATE WARRIOR 5\")",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ron Williams",
+      "Christopher Alan",
+      "Katy Johnson",
+      "Dorian D. Field",
+      "Judith Fitzsimmons"
+    ],
+    "director": [
+      "Fabrizio De Angelis"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "karate-warrior-5"
+  },
+  {
+    "videoId": "xCStxOz6-Oo",
+    "youtubeTitle": "Sweetie, You Won´t Believe it (Mehrfach AUSGEZEICHNETE HORRORKOMÖDIE ganzer Film Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xCStxOz6-Oo/hqdefault.jpg",
+    "duration": "PT1H24M31S",
+    "publishedAt": "2026-10-29T18:00:15Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 681880,
+    "title": "Sweetie, You Won't Believe It",
+    "originalTitle": "Жаным, ты не поверишь!",
+    "overview": "Ein entnervter Ehemann flüchtet vor seiner hochschwangeren Frau auf einen Angelausflug mit seinen besten Freunden. Doch statt eines erholsamen Männertrips erwartet sie eine Reihe mysteriöser, blutiger und völlig unvorhersehbarer Ereignisse.",
+    "releaseDate": "2020-03-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uLtrpg09nfBy1H49OocyseJC4ad.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/bl0eN7KVpHjdFLGc3b06OEbCi3d.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      35,
+      53,
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Daniyar Alshinov",
+      "Azamat Marklenov",
+      "Асель Калиева",
+      "Ерлан Примбетов",
+      "Rustem Zhaniyamanov"
+    ],
+    "director": [
+      "Yernar Nurgaliyev"
+    ],
+    "writer": [
+      "Yernar Nurgaliyev"
+    ],
+    "fsk": "18",
+    "slug": "sweetie-you-won-t-believe-it"
+  },
+  {
+    "videoId": "jFd4J2PCLEY",
+    "youtubeTitle": "Mr. Deeds geht in die Stadt - Mr. Deeds Goes To Town (1936) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jFd4J2PCLEY/hqdefault.jpg",
+    "duration": "PT1H56M10S",
+    "publishedAt": "2026-10-29T15:00:31Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 24807,
+    "title": "Mr. Deeds geht in die Stadt",
+    "originalTitle": "Mr. Deeds Goes to Town",
+    "overview": "Longfellow Deeds ist ein einfacher und eher glückloser Glückskarten-Dichter in einer kleinen Vorstadt in Vermont. Doch eines Tages erhält er eine frohe Botschaft. Denn er ist der alleinige erbe des Bankiers Martin Semple, der bei einem Autounfall in Italien ums Leben gekommen ist. Die zuständigen Anwälte hoffen darauf, dass sie Deeds über den Tisch ziehen können, um ein große Stück vom Erbe in die eigene Tasche zu stecken. Aber es gibt auch noch Semples ehemaligen Butler Walter und den Journalisten Cornelius Cobb  die dem anfangs etwas hilflosen Deeds unter die Arme greifen wollen. Währenddessen heftet sich die Starreporterin Louise „Babe“ Bennet an die Fersen des frischgebackenen Millionärs, da sie eine prestigeträchtige Story wittert. Je größer die Neider werden, umso mehr weiß sich Deeds aber auch zu wehren – nicht nur mit Worten.",
+    "releaseDate": "1936-04-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zirutFxb2GtL6uRlurZquSjeWK8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4HndddVOLbvifowXjNpdkkF8Q71.jpg",
+    "voteAverage": 7.5,
+    "genreIds": [
+      35,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 115,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gary Cooper",
+      "Jean Arthur",
+      "George Bancroft",
+      "Lionel Stander",
+      "Douglass Dumbrille"
+    ],
+    "director": [
+      "Frank Capra"
+    ],
+    "writer": [
+      "Robert Riskin"
+    ],
+    "fsk": "0",
+    "slug": "mr-deeds-geht-in-die-stadt"
+  },
+  {
+    "videoId": "VGZlSZ4jzDU",
+    "youtubeTitle": "Die Tanzmeister | 1943 | Dick und Doof in voller Länge | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VGZlSZ4jzDU/hqdefault.jpg",
+    "duration": "PT59M45S",
+    "publishedAt": "2026-10-29T18:00:18Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 69017,
+    "title": "Dick und Doof: Die Tanzmeister",
+    "originalTitle": "The Dancing Masters",
+    "overview": "Wagen Sie ein Tänzchen mit Stan und Ollie, alias \"Dick &amp; Doof\", die sich diesmal als stolze Besitzer einer Ballettschule präsentieren. Als Ollie sich jedoch von einem Gaunerduo  überreden läßt, Stans Beine zu versichern, lebt dieser plötzlich sehr gefährlich. Um an die Versicherungsprämie zu kommen, muss Ollie dafür sorgen, dass Stan sich ein Bein bricht. Der scheinbar simple Plan läuft jedoch bald aus dem Ruder, denn Stan erweist sich als äußerst schwieriges Opfer...",
+    "releaseDate": "1943-11-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uqiPfUEbOVYhTVzeMCAkSC0GTl1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jQIYDINhr2ioHCZHgmkaIbf0Ui6.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 63,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Stan Laurel",
+      "Oliver Hardy",
+      "Trudy Marshall",
+      "Robert Bailey",
+      "Matt Briggs"
+    ],
+    "director": [
+      "Malcolm St. Clair"
+    ],
+    "writer": [
+      "Scott Darling",
+      "George Bricker"
+    ],
+    "fsk": "6",
+    "slug": "dick-und-doof-die-tanzmeister"
+  },
+  {
+    "videoId": "MlbULTa9sp4",
+    "youtubeTitle": "Die Windsbraut (leidenschaftliches LIEBESDRAMA, ganzer Film, spielfilm, deutsche filme, Biographie)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MlbULTa9sp4/hqdefault.jpg",
+    "duration": "PT1H34M20S",
+    "publishedAt": "2026-10-29T16:30:11Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 56934,
+    "title": "Die Windsbraut",
+    "originalTitle": "Bride of the Wind",
+    "overview": "Wien um 1900: Gustav Klimt ist der Star unter den Malern, Adolf Loos, Gustav Mahler, die Sezessionisten werden angefeindet und gefeiert. Und mitten unter ihnen Alma, die Tochter des Malers Schindler: Ehrgeizig und hochbegabt, schön und viel begehrt. Sie selbst träumt von einer Karriere als Komponistin, schreibt Lieder. Diesen Traum gibt sie Gustav Mahler zuliebe auf und heiratet ihn. Doch bald wird ihr das Leben an seiner Seite zu eng. Als ihre kleine Tochter stirbt, verliebt sie sich in Hans Gropius, es folgt eine wilde, stürmische Liebe mit Oskar Kokoschka, die den fast um seinen Verstand und um sein Leben bringt. Aber Alma geht unbeirrbar ihren Weg durch alle Höhen und Tiefen leidenschaftlicher Beziehungen. Der Film des Oscarpreisträgers Bruce Beresford zeichnet den Glanz der Epoche und das bewegte Leben von Alma Mahler nach und zeigt, dass sie wesentlich mehr war, als bloß die Frau bedeutender Männer.",
+    "releaseDate": "2001-06-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/v3DDHvWV0MvUaYVYrpHCQ5PuAmy.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4.2,
+    "genreIds": [
+      10749,
+      18,
+      10402
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 99,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Sarah Wynter",
+      "Jonathan Pryce",
+      "Vincent Perez",
+      "Simon Verhoeven",
+      "Gregor Seberg"
+    ],
+    "director": [
+      "Bruce Beresford"
+    ],
+    "writer": [
+      "Marilyn Levy"
+    ],
+    "fsk": "12",
+    "slug": "die-windsbraut"
+  },
+  {
+    "videoId": "cV2euS7s3CE",
+    "youtubeTitle": "🎬🤣 FREMDENHEIM FILODA – MIT THEO LINGEN! EIN KLASSIKER DES DEUTSCHEN HUMORS!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cV2euS7s3CE/hqdefault.jpg",
+    "duration": "PT1H19M19S",
+    "publishedAt": "2026-10-29T14:21:43Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 478923,
+    "title": "Fremdenheim Filoda",
+    "originalTitle": "Fremdenheim Filoda",
+    "overview": "Bulli Trinkmeyer, einziger Angestellte der Detektei Pietsch P. Rumpe, erhält von einem Mr. Shackleton aus Pernambuco den Auftrag, eine gewisse Marie Banse aufzuspüren. Er findet sie als Ehefrau des pensionierten Buchhalters Thomas Filoda und verliebt sich in ihre Tochter Lore. Als er seinem Auftraggeber seine Ermittlungsergebnisse mitteilt, erhält er von diesem 5000 Mark, die er Marie übergeben soll. Marie kauft damit eine Pension, die sie \"Fremdenheim Filoda\" nennt. Doch dann stellt sich heraus, dass Marie angeblich gar nicht die gesuchte Person ist.",
+    "releaseDate": "1937-09-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tWyQz6pI5ogCYPIS6NrpbWu8ATy.jpg",
+    "backdropUrl": null,
+    "voteAverage": 10,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 81 (Suchbegriff: \"FREMDENHEIM FILODA\")",
+    "runtime": 102,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Richard Romanowsky",
+      "Ida Wüst",
+      "Mady Rahl",
+      "Sabine Peters",
+      "Theo Lingen"
+    ],
+    "director": [
+      "Hans Hinrich"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "fremdenheim-filoda"
+  },
+  {
+    "videoId": "okc26AzEP84",
+    "youtubeTitle": "Tooth and Nail (2007) [Horror] [Thriller] | Michael Madsen in der Endzeit | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/okc26AzEP84/hqdefault.jpg",
+    "duration": "PT1H28M46S",
+    "publishedAt": "2026-10-29T17:00:22Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 15425,
+    "title": "Tooth and Nail",
+    "originalTitle": "Tooth and Nail",
+    "overview": "In naher Zukunft versinkt die Welt im Chaos, und auf den entvölkerten Straßen liefern sich die letzten Menschen erbitterte Gefechte um nützliche Dinge sowie das nackte Überleben. In einem Krankenhaus in Philadelphia hat sich eine Gruppe verantwortungsvoller Jungmenschen eingerichtet, um einen Neustart zu wagen. Kurz, nachdem man die junge Neon auf der Straße fand, wird man von einer Bande marodierender Kannibalen belagert. Neon kennt die Angreifer noch von früher und weiß, wie man ihnen begegnet.",
+    "releaseDate": "2007-10-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dzvYRaXpvX0q5lYOUi7zBGxfISL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uA4qHthqXgJ0FPnly4umi2vKkXZ.jpg",
+    "voteAverage": 4.5,
+    "genreIds": [
+      878,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rider Strong",
+      "Michael Kelly",
+      "Robert Carradine",
+      "Nicole DuPort",
+      "Alexandra Barreto"
+    ],
+    "director": [
+      "Mark Young"
+    ],
+    "writer": [
+      "Mark Young"
+    ],
+    "fsk": null,
+    "slug": "tooth-and-nail"
+  },
+  {
+    "videoId": "oa41YjMR9vU",
+    "youtubeTitle": "😱 Ein Isoliertes Motel, Quarantäne Und Eine Tödliche Pandemie! | Thriller | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oa41YjMR9vU/hqdefault.jpg",
+    "duration": "PT1H17M21S",
+    "publishedAt": "2026-10-29T19:28:05Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": 1043623,
+    "title": "Six Feet",
+    "originalTitle": "Six Feet",
+    "overview": "",
+    "releaseDate": "2022-10-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/AaMeaxJ19mUISHO0CAXbghGvNQh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oT0HyKet6qJhIfWwcvwLHAnTicd.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      9648,
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme), Laufzeit passt zu keinem (Video 77 min) -- bitte prüfen · Zuordnungswert 98 (Suchbegriff: \"Six Feet\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Aly Mawji",
+      "Jessica Lynn Parsons",
+      "Raymond Cruz",
+      "Robert Palmer Watkins",
+      "Michole Briana White"
+    ],
+    "director": [
+      "Rajendra Thakurathi",
+      "Stephen James Thomas"
+    ],
+    "writer": [
+      "Rajendra Thakurathi",
+      "Stephen James Thomas"
+    ],
+    "fsk": null,
+    "slug": "six-feet"
+  },
+  {
+    "videoId": "jaL5P2B7bX0",
+    "youtubeTitle": "Ein THRILLERFILM, der dich von der ersten bis zur letzten Minute in Atem hält | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jaL5P2B7bX0/hqdefault.jpg",
+    "duration": "PT1H27M36S",
+    "publishedAt": "2026-10-28T16:00:30Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Stealing in Suburbia",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "stealing-in-suburbia"
+  },
+  {
+    "videoId": "5axY2lK6Rdg",
+    "youtubeTitle": "Für den Krieg gebaut – jetzt ist diese Kampfmaschine außer Kontrolle Action Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5axY2lK6Rdg/hqdefault.jpg",
+    "duration": "PT1H25M33S",
+    "publishedAt": "2026-10-28T13:46:47Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Für den Krieg gebaut",
+    "originalTitle": null,
+    "overview": "Nachdem Terroristen geheime Zugangsdaten für nukleare Sprengköpfe stehlen, wird eine hochentwickelte Kampfmaschine eingesetzt. Sie erledigt ihren Auftrag – entzieht sich danach jedoch der Kontrolle. Sergeant Anders und sein Spezialteam müssen den schwer bewaffneten Cyborg aufhalten.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Phillip J. Roth"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "fuer-den-krieg-gebaut"
+  },
+  {
+    "videoId": "DHw_viiQLug",
+    "youtubeTitle": "🎬 Hochzeit auf dem Bärenhof – Deutscher Filmklassiker in 4K Ultra HD 💍❤️",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DHw_viiQLug/hqdefault.jpg",
+    "duration": "PT1H19M31S",
+    "publishedAt": "2026-10-28T09:04:29Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": null,
+    "title": "Hochzeit auf dem Bärenhof",
+    "originalTitle": null,
+    "overview": "Tauche ein in die nostalgische Welt des deutschen Kinos und genieße eine unterhaltsame Geschichte rund um Liebe, Hochzeit und das Leben auf dem Land. ❤️🌹",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "hochzeit-auf-dem-baerenhof"
+  },
+  {
+    "videoId": "z5PJCQFcka4",
+    "youtubeTitle": "😢 Ein Schwerer Schicksalsschlag Verändert Sein Leben Für Immer! | Drama | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/z5PJCQFcka4/hqdefault.jpg",
+    "duration": "PT1H16M36S",
+    "publishedAt": "2026-10-28T19:36:16Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": null,
+    "title": "Buckshot",
+    "originalTitle": null,
+    "overview": "Willkommen auf dem ultimativen YouTube-Kanal für alle, die Filme lieben! Hier findest du ganze Spielfilme in HD-Qualität – von Action, Thriller, Horror und Drama bis zu Romantik, Abenteuer und Comedy. Tauche ein in eine Welt voller Spannung, Emotionen und unvergesslicher Geschichten.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "buckshot"
   }
 ]
