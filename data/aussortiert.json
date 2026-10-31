@@ -8286,5 +8286,15 @@
     "title": "Die Bande des Schreckens",
     "tmdbId": 5630,
     "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-10-31",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 90 min, Video 60 min) -- wird neu gesucht",
+    "videoId": "hIM0A1GdW8I",
+    "youtubeTitle": "Ein Pilot gegen seine Vergangenheit: Gunner (2025) (HD)",
+    "title": "Gunner",
+    "tmdbId": 5492,
+    "channelName": "Mockbuster"
   }
 ]

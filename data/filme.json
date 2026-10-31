@@ -6101,7 +6101,9 @@
     "slug": "brazil",
     "plausibel": "titel",
     "runtime": 143,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "dQchDQwniZM",
@@ -6277,7 +6279,9 @@
     "slug": "street-kings",
     "plausibel": "titel",
     "runtime": 109,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "QsgecPXwBLQ",
@@ -6941,7 +6945,9 @@
     "slug": "love-and-other-drugs-nebenwirkung-inklusive",
     "plausibel": "titel",
     "runtime": 112,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "d846_ax5-Ig",
@@ -7029,7 +7035,9 @@
     "slug": "verlockende-falle",
     "plausibel": "titel",
     "runtime": 112,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ObzH8beZcdo",
@@ -10064,7 +10072,9 @@
     "slug": "robinson-crusoe",
     "plausibel": "titel",
     "runtime": 92,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "dXo-AOe9Wac",
@@ -10110,7 +10120,9 @@
     "slug": "alvin-und-die-chipmunks-3-chipbruch",
     "plausibel": "titel",
     "runtime": 87,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "vS0wk76Ru5g",
@@ -10198,15 +10210,17 @@
     "slug": "alvin-und-die-chipmunks-2",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "qlciHqtVrmc",
-    "youtubeTitle": "Faculty - Trau keinem Lehrer! (SCI FI HORRORFILM mit ELIJAH WOOD, Alien Horrorfilme auf Deutsch)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/qlciHqtVrmc/hqdefault.jpg",
+    "videoId": "flSNbkG14aA",
+    "youtubeTitle": "Faculty - Trau keinem Lehrer! | 4K | Amerikanischer Science Fiction Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/flSNbkG14aA/hqdefault.jpg",
     "duration": "PT1H44M19S",
     "publishedAt": "2025-12-09T18:01:05Z",
-    "channelName": "Netzkino",
+    "channelName": "Bigtime",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 9276,
     "title": "Faculty - Trau keinem Lehrer!",
@@ -10288,7 +10302,9 @@
     "slug": "alvin-und-die-chipmunks-der-film",
     "plausibel": "titel",
     "runtime": 92,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "8kjgZ23hVD0",
@@ -10993,7 +11009,9 @@
     "slug": "second-in-command",
     "plausibel": "titel",
     "runtime": 91,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "QY-6f08USVg",
@@ -12020,7 +12038,9 @@
     "slug": "der-klient",
     "plausibel": "titel",
     "runtime": 119,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "kHSM3QObwrM",
@@ -18406,7 +18426,9 @@
     "slug": "untreu",
     "plausibel": "titel",
     "runtime": 124,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "W0GAhHYtIg0",
@@ -22178,7 +22200,9 @@
     "slug": "zum-glueck-gekuesst",
     "plausibel": "titel",
     "runtime": 103,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "3zJM54YISCk",
@@ -25531,7 +25555,9 @@
     "slug": "aloha-die-chance-auf-glueck",
     "plausibel": "titel",
     "runtime": 105,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "7WAGchrgAbM",
@@ -26055,7 +26081,9 @@
     "slug": "the-fountain",
     "plausibel": "titel",
     "runtime": 96,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "S9evVdvTYO8",
@@ -38103,7 +38131,9 @@
     "slug": "beilight-biss-zum-abendbrot",
     "plausibel": "titel",
     "runtime": 82,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "NZT0YTFwDsM",
@@ -38271,7 +38301,9 @@
     "slug": "der-perfekte-ex",
     "plausibel": "titel",
     "runtime": 106,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "s41HGX6_Ftg",
@@ -50046,7 +50078,9 @@
     "slug": "die-super-ex",
     "plausibel": "titel",
     "runtime": 95,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Fxr1P2wAYtg",
@@ -59495,7 +59529,9 @@
     "slug": "beta-test",
     "plausibel": "titel",
     "runtime": 88,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "cNstg-KDKFo",
@@ -67877,7 +67913,9 @@
     "slug": "an-american-citizen",
     "plausibel": "titel",
     "runtime": 100,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "E8tOSHZ22cY",
@@ -72138,12 +72176,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "c6XSY8BrpHk",
-    "youtubeTitle": "The Last Sect (Horrorthriller in voller Länge, ganze Filme auf Deutsch, kompletter Film) *HD*",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/c6XSY8BrpHk/hqdefault.jpg",
+    "videoId": "oedUn_galYs",
+    "youtubeTitle": "The Last Sect (2006) [Horror] [Thriller] Vampire, Sekten & David Carradine | ganzer film auf deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oedUn_galYs/hqdefault.jpg",
     "duration": "PT1H27M45S",
     "publishedAt": "2016-02-28T17:00:03Z",
-    "channelName": "Netzkino",
+    "channelName": "CiNENET Deutschland",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 29691,
     "title": "The Last Sect",
@@ -80759,7 +80797,9 @@
     "slug": "der-geisterflieger-hanky-panky",
     "plausibel": "titel",
     "runtime": 103,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "mdWbNkFPcPk",
@@ -80803,7 +80843,9 @@
     "slug": "wer-ist-harry-crumb",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "SaEAJ0Ar-AM",
@@ -82856,7 +82898,9 @@
     "fsk": "18",
     "posterLocal": "img/posters/41497.jpg",
     "slug": "american-soldiers-ein-tag-im-irak",
-    "runtime": 103
+    "runtime": 103,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "opKve3JSjmQ",
@@ -90577,7 +90621,9 @@
     "slug": "blutige-schreie",
     "plausibel": "titel",
     "runtime": 99,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "BggivWHgbLM",
@@ -110923,7 +110969,9 @@
     "slug": "the-girl-next-door",
     "plausibel": "titel",
     "runtime": 110,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "GQjv43BGZis",
@@ -116777,12 +116825,12 @@
     "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "xC2cRdpggjs",
-    "youtubeTitle": "DIABOLIQUE (1996) | Ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/xC2cRdpggjs/hqdefault.jpg",
+    "videoId": "xRzhAD5po3c",
+    "youtubeTitle": "Das ist großes Kino! Ein spannender Thriller mit Starbesetzung! (Ganzer Film: Diabolisch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xRzhAD5po3c/hqdefault.jpg",
     "duration": "PT1H45M46S",
     "publishedAt": "2026-07-03T16:00:12Z",
-    "channelName": "CineCult Reloaded",
+    "channelName": "Moviedome",
     "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
     "tmdbId": 10988,
     "title": "Diabolisch",
@@ -119104,7 +119152,9 @@
     "slug": "meine-braut-ist-uebersinnlich",
     "plausibel": "titel",
     "runtime": 106,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ANfwKD2MxsQ",
@@ -119357,7 +119407,9 @@
     "slug": "nochmal-so-wie-letzte-nacht",
     "plausibel": "titel",
     "runtime": 113,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "n6b53zkxZ74",
@@ -126758,12 +126810,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "KVaRwtf-mtM",
-    "youtubeTitle": "30 Days Until I'm Famous (2004) [Komödie] [Musik] 🎤 Glamour & Humor 🎬: Ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/KVaRwtf-mtM/hqdefault.jpg",
+    "videoId": "7NVR0b-PP9w",
+    "youtubeTitle": "30 Days until I'm famous – In 30 Tagen berühmt (LIEBESKOMÖDIE ganzer Film auf Deutsch kostehlos)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7NVR0b-PP9w/hqdefault.jpg",
     "duration": "PT1H23M26S",
     "publishedAt": "2024-12-05T18:00:06Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "FABELLA",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 19294,
     "title": "In 30 Tagen berühmt",
@@ -129178,7 +129230,9 @@
     "slug": "go-das-leben-beginnt-erst-um-3-00-uhr-morgens",
     "plausibel": "titel",
     "runtime": 102,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "UDEKpdb_Jno",
@@ -140282,7 +140336,9 @@
     "slug": "blendende-weihnachten",
     "plausibel": "titel",
     "runtime": 93,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "B4hcrkSwpco",
@@ -143288,7 +143344,9 @@
     "fsk": "18",
     "posterLocal": "img/posters/10016.jpg",
     "slug": "ghosts-of-mars",
-    "runtime": 98
+    "runtime": 98,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "DOINodA4IlE",
@@ -158588,7 +158646,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "american-soldiers-ein-tag-im-irak-2"
+    "slug": "american-soldiers-ein-tag-im-irak-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "lOcluYz6Jzc",
@@ -158749,7 +158809,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "american-marines-die-elite-einheit"
+    "slug": "american-marines-die-elite-einheit",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "P6DFsZUO_Ow",
@@ -162330,7 +162392,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "american-soldiers-ein-tag-im-irak-3"
+    "slug": "american-soldiers-ein-tag-im-irak-3",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "iosfOIUqqDY",
@@ -168743,7 +168807,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "dog-kidnapping-ein-einfacher-plan-laeuft-schief"
+    "slug": "dog-kidnapping-ein-einfacher-plan-laeuft-schief",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "uhxgsKHj-mM",
@@ -196859,7 +196925,9 @@
     "slug": "die-jagd-auf-eagle-one-2",
     "plausibel": "titel",
     "runtime": 88,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "oIYeXP2Q_5M",
@@ -197758,7 +197826,9 @@
     "slug": "borderline-unter-mordverdacht",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "PqJrF5GhT6U",
@@ -198393,7 +198463,9 @@
     "slug": "der-anderson-clan",
     "plausibel": "titel",
     "runtime": 99,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "CVUG_DtR6dc",
@@ -198437,7 +198509,9 @@
     "slug": "arena",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Vu7418qZDp4",
@@ -198481,7 +198555,9 @@
     "slug": "attack-force",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "GlJRIHOOuwE",
@@ -200789,7 +200865,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "american-soldiers-ein-tag-im-irak-5"
+    "slug": "american-soldiers-ein-tag-im-irak-5",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "biFmSXdaNck",
@@ -201013,7 +201091,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "american-soldiers-ein-tag-im-irak-6"
+    "slug": "american-soldiers-ein-tag-im-irak-6",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "jxos57R-HHE",
@@ -214670,7 +214750,7 @@
     "runtime": 108,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "WoNfZO6v3eQ",
@@ -227150,7 +227230,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "american-soldiers-ein-tag-im-irak-7"
+    "slug": "american-soldiers-ein-tag-im-irak-7",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "3h4JeSzU-LE",
@@ -227465,7 +227547,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "american-soldiers-ein-tag-im-irak-8"
+    "slug": "american-soldiers-ein-tag-im-irak-8",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "f3k67x65jTg",
@@ -258974,7 +259058,9 @@
       "Luke Passmore"
     ],
     "fsk": "16",
-    "slug": "slaughterhouse-rulez"
+    "slug": "slaughterhouse-rulez",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "QcOnDEgYSqQ",
@@ -269877,7 +269963,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "american-marines-die-elite-einheit-2"
+    "slug": "american-marines-die-elite-einheit-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "r0_bdVM_7c8",
@@ -292355,12 +292443,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "Pv4YAvoSXFg",
-    "youtubeTitle": "Cat Ballou – Hängen sollst du in Wyoming | Ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Pv4YAvoSXFg/hqdefault.jpg",
+    "videoId": "TymSSTjz2oY",
+    "youtubeTitle": "CAT BALLOU – Die wilde Westernkomödie mit Jane Fonda & legendärem Revolverhelden!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TymSSTjz2oY/hqdefault.jpg",
     "duration": "PT1H36M24S",
     "publishedAt": "2026-07-12T14:00:17Z",
-    "channelName": "Comfy Movies",
+    "channelName": "Draco Actionfilme",
     "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
     "tmdbId": 11694,
     "title": "Cat Ballou - Hängen sollst du in Wyoming",
@@ -316730,7 +316818,9 @@
     "slug": "anhedonia",
     "runtime": 109,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "XXeYnYNqlxI",
@@ -332671,5 +332761,765 @@
     "writer": [],
     "fsk": null,
     "slug": "buckshot"
+  },
+  {
+    "videoId": "AnQSor4enCg",
+    "youtubeTitle": "DIE SCHLANGE – Ein KGB-Oberst verrät die geheimsten Spione der NATO! (Agententhriller)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AnQSor4enCg/hqdefault.jpg",
+    "duration": "PT1H45M24S",
+    "publishedAt": "2026-10-30T18:30:10Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 44607,
+    "title": "Die Schlange",
+    "originalTitle": "Le Serpent",
+    "overview": "Der russische Diplomat Vlassow läuft in Paris kurz vor seiner Rückkehr nach Rußland zu den Amerikanern über und bietet diesem gegen Asyl Informationen über russische Spione in den Reihen der Amerikaner und Nato-Partner an. Der Chef der CIA, Davies ist mißtrauisch gegenüber und wendet sich an den britischen Service-Agent Boyle. Da beginnen anonyme Täter, die möglichen Spione aus dem Weg zu räumen, zuerst die in Deutschland und in England. Bald schon ist auch der Franzose Berthon im Visier der Ermittler. Doch will Vlassow wirklich Asyl oder steckt hinter seinem Verhalten ein bestimmter Plan?",
+    "releaseDate": "1973-04-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gkpNgGj2EYrvKBQZct2oYeKR0fw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jFhT7ZXtEFyTPBRJ9Ftx32AQ9Eu.jpg",
+    "voteAverage": 6.127,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 113,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Yul Brynner",
+      "Henry Fonda",
+      "Dirk Bogarde",
+      "Virna Lisi",
+      "Robert Alda"
+    ],
+    "director": [
+      "Henri Verneuil"
+    ],
+    "writer": [
+      "Gilles Perrault",
+      "Henri Verneuil"
+    ],
+    "fsk": "12",
+    "slug": "die-schlange"
+  },
+  {
+    "videoId": "e0doRNETZ9U",
+    "youtubeTitle": "Freitag der 13. Teil VI - Jason lebt (TEIL 6 der KULT HORRORFILM REIHE, Horrorfilme in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/e0doRNETZ9U/hqdefault.jpg",
+    "duration": "PT1H26M38S",
+    "publishedAt": "2026-10-30T18:00:40Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 10225,
+    "title": "Freitag der 13. Teil VI - Jason lebt",
+    "originalTitle": "Jason Lives - Friday the 13th Part VI",
+    "overview": "Nach einer Mordserie, die ein Irrer Jason Voorhees in die Schuhe geschoben hat, will der Jugendliche Tommy Jarvis sicher gehen, dass Jason wirklich das Zeitliche gesegnet hat. Mit einem Freund gräbt er Jasons Grab aus. Der Leichnam wird von einem Blitz getroffen. Der zu neuem Leben erweckte Jason tötet zunächst Tommys Kumpel und setzt dann sein Morden fort. Tommy flieht in das Büro des Sheriffs, wo ihm niemand glaubt und er eingesperrt wird. Dabei ist er der Einzige, der Jason stoppen kann.",
+    "releaseDate": "1986-08-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8c0kYfMHoiVJZq1vNVMumSjGHaK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/93tvkTtV6tQQiYhxhij9tuODNOq.jpg",
+    "voteAverage": 6.289,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Thom Mathews",
+      "Jennifer Cooke",
+      "David Kagen",
+      "Renée Jones",
+      "Kerry Noonan"
+    ],
+    "director": [
+      "Tom McLoughlin"
+    ],
+    "writer": [
+      "Tom McLoughlin"
+    ],
+    "fsk": "18",
+    "slug": "freitag-der-13-teil-vi-jason-lebt"
+  },
+  {
+    "videoId": "yDKGMNDZP6w",
+    "youtubeTitle": "Money (KRIMI THRILLER ganzer Film HD, Thriller Filme in voller Länge, ganze Krimis)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yDKGMNDZP6w/hqdefault.jpg",
+    "duration": "PT1H24M36S",
+    "publishedAt": "2026-10-30T16:00:31Z",
+    "channelName": "Highresworld Deutsch",
+    "channelId": "UCJ1l7ArIR1jhnF2qLSJ-TZQ",
+    "tmdbId": 422874,
+    "title": "Money",
+    "originalTitle": "Money",
+    "overview": "Die beiden Kumpel Mark und Sean, Arbeitskollegen in einem großen Pharmaunternehmen, sitzen mit ihren Frauen Sylvia und Christina beim Dinner, als plötzlich der charmante John vor der Tür steht und sich als der neue Nachbar vorstellt. Die Paare bitten ihn auf einen Drink herein, doch im Verlauf der Unterhaltung wird klar, dass der Eindringling nicht derjenige ist, für den er sich ausgibt. Er hat es auf die 5 Millionen Dollar abgesehen, die sich Sean und Mark durch den Verkauf von Firmengeheimnissen unter den Nagel gerissen haben. Es beginnt ein zermürbendes Psychospiel - eine Odyssee um Leben, Tod, Lügen, Korruption und Verschwörung...",
+    "releaseDate": "2016-04-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uMNPRkBpQVDiMHD4OIdc2J7lFFd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lTh32mKlJGtucSgKVEIqOBZTfpi.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      80,
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jesse Williams",
+      "Kellan Lutz",
+      "Jess Weixler",
+      "Jamie Bamber",
+      "Fredric Lehne"
+    ],
+    "director": [
+      "Martín Rosete"
+    ],
+    "writer": [
+      "Josep Ciutat"
+    ],
+    "fsk": "16",
+    "slug": "money"
+  },
+  {
+    "videoId": "mzD2rqymfL0",
+    "youtubeTitle": "Yeti - Das Schneemonster | 2008 | Horrorfilm | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mzD2rqymfL0/hqdefault.jpg",
+    "duration": "PT1H22M47S",
+    "publishedAt": "2026-10-30T18:00:18Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 53245,
+    "title": "Yeti - Das Schneemonster",
+    "originalTitle": "Yeti: Curse of the Snow Demon",
+    "overview": "Sie haben den Flugzeug-Crash überlebt, aber die Jungs der Rugby-Mannschaft haben noch keine Ahnung, vom wirklichen Schrecken. In den Bergen des Himalaya abgestürzt, sind sie froh, das Unglück überlebt zu haben. Anfangs glauben sie noch an ihre Rettung, aber als nach einigen Tagen noch keine Hilfe in Sicht ist, ereignet sich seltsames. Einer nach dem anderen verschwindet. Der Yeti hat ihre Witterung aufgenommen – und er ist hungrig.",
+    "releaseDate": "2008-11-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/AtHGZ525XUnEybYfHoGjxmcfnyS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dVFF7UEIyadASYWgZP3MyeV7Ui9.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      27,
+      28,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Yan-Kay Crystal Lowe",
+      "Carly Pope",
+      "Ona Grauer",
+      "Ed Marinaro",
+      "Marc Menard"
+    ],
+    "director": [
+      "Paul Ziller"
+    ],
+    "writer": [
+      "Rafael Jordan"
+    ],
+    "fsk": null,
+    "slug": "yeti-das-schneemonster"
+  },
+  {
+    "videoId": "DsO-YbDox84",
+    "youtubeTitle": "Silbersattel | 4K | Giuliano Gemma | Action | Westernfilm | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DsO-YbDox84/hqdefault.jpg",
+    "duration": "PT1H38M",
+    "publishedAt": "2026-10-30T18:00:06Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 42326,
+    "title": "Silbersattel",
+    "originalTitle": "Sella d'argento",
+    "overview": "Der erst zehn Jahre alte Roy muss den Tod seines Vaters mit ansehen, der von einem bezahlten  Revolverhelden des Barrett-Clans erschossen wird. Der Junge dreht den Spieß um und erschießt den Mann. Einige Jahre später macht er sich als gnadenloser Richter an den Barretts einen Namen. Sein Markenzeichen ist der silberne Sattel des Mörders, seines Vaters. Zufällig trifft er dann auf den jüngsten Spross der Barretts, selbst noch ein Kind. Der blinde Hass auf die Familie des Jungen verschwindet nach und nach. Doch der Junge ist selbst in höchster Lebensgefahr…",
+    "releaseDate": "1978-04-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bZk5WlKkPacMDiMIkATO5Fgnorh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wlFlAVNzdSWS4OJXCb1oi2VBzLK.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      28,
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Giuliano Gemma",
+      "Sven Valsecchi",
+      "Gianni De Luigi",
+      "Licinia Lentini",
+      "Philippe Hersent"
+    ],
+    "director": [
+      "Lucio Fulci"
+    ],
+    "writer": [
+      "Adriano Bolzoni"
+    ],
+    "fsk": "18",
+    "slug": "silbersattel"
+  },
+  {
+    "videoId": "Gk0hrbaXFwo",
+    "youtubeTitle": "Gloria - die Gangsterbraut | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Gk0hrbaXFwo/hqdefault.jpg",
+    "duration": "PT1H56M38S",
+    "publishedAt": "2026-10-30T12:00:18Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 10889,
+    "title": "Gloria, die Gangsterbraut",
+    "originalTitle": "Gloria",
+    "overview": "Gloria Swenson, ein ehemaliges Showgirl und Flintenweib, muss plötzlich die Verantwortung für den 7-jährigen Phil Dawn übernehmen, als dessen Familie in einem Bandenkrieg getötet wird. Als mögliche Beute in einem tödlichen Katz-und-Maus-Spiel rennen die beiden um ihr Leben und sie wird dabei zu einem weiblichen Bogart der 1980er.",
+    "releaseDate": "1980-10-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3W5p636qGUIdn3UHuFYSPDh1kzO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/393vpNuxZfveyfz219qV8wZJDhH.jpg",
+    "voteAverage": 6.9,
+    "genreIds": [
+      80,
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (7 Filme) -- Laufzeit entschied: TMDB 122 min, Video 117 min · Zuordnungswert 135 (Suchbegriff: \"Gloria - die Gangsterbraut\")",
+    "runtime": 122,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gena Rowlands",
+      "Buck Henry",
+      "Julie Carmen",
+      "John Adames",
+      "Tony Knesich"
+    ],
+    "director": [
+      "John Cassavetes"
+    ],
+    "writer": [
+      "John Cassavetes"
+    ],
+    "fsk": null,
+    "slug": "gloria-die-gangsterbraut"
+  },
+  {
+    "videoId": "gv3AK1eY3pg",
+    "youtubeTitle": "Wenn die Alpenrosen blüh’n (1955) 🌹 | Claus Holm & Marianne Hold | Heimatfilm | Spielfilm in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gv3AK1eY3pg/hqdefault.jpg",
+    "duration": "PT1H29M51S",
+    "publishedAt": "2026-10-30T17:01:49Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 247392,
+    "title": "Wenn die Alpenrosen blüh'n",
+    "originalTitle": "Wenn die Alpenrosen blüh'n",
+    "overview": "Alpsee, ein kleines Dorf in den Tiroler Bergen. Hier betreibt Marianne Klockenhoff ein Kinderheim, in dem auch die junge Krankenschwester Dorle arbeitet. Dorle hat zwei Verehrer, Franzl und Herrn Lenz. Franzl nimmt es mit seinen Liebschaften nicht so genau; außerdem würde er den kleinen Ort ohnehin gerne verlassen, er möchte Hoteldirektor werden. In der Stadt lernt er die attraktive Beate und ihre kleine Tochter Christine kennen. Beate Klockenhoff will sich von ihrem Mann Philipp trennen und Christine bei ihrer Schwester Marianne im Heim unterbringen - zumindest zeitweise. Franzl nutzt seinen \"guten Draht\" zu dem kleinen Mädchen, um der Mutter näher zu kommen, und schließlich scheinen seine Bemühungen von Erfolg gekrönt.",
+    "releaseDate": "1955-09-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vdP3tbS59Ms1WpWTo3j1QO1caP1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lIM3hCQeKizNoiISe6CJoZDnsob.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Marianne Hold",
+      "Claus Holm",
+      "Hertha Feiler",
+      "Christine Kaufmann",
+      "Richard Häussler"
+    ],
+    "director": [
+      "Richard Häussler",
+      "Hans Deppe"
+    ],
+    "writer": [
+      "Ilse Lotz-Dupont",
+      "Tibor Yost"
+    ],
+    "fsk": "6",
+    "slug": "wenn-die-alpenrosen-blueh-n"
+  },
+  {
+    "videoId": "nCZip80PlF0",
+    "youtubeTitle": "Rumpelstiltskin (2025) [Horror] [Thriller] | Der Rumpelstilzchen-Albtraum | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nCZip80PlF0/hqdefault.jpg",
+    "duration": "PT1H17M4S",
+    "publishedAt": "2026-10-30T17:00:32Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1385169,
+    "title": "Rumpelstiltskin",
+    "originalTitle": "Rumpelstiltskin",
+    "overview": "Miller lügt über die Fähigkeit seiner Tochter, Gold zu spinnen. Der Kobold hilft ihr, den König zu beeindrucken. Sie verspricht dem Kobold ihr zukünftiges Kind für weitere Hilfe. Als die Zahlung fällig wird, schließt der Kobold einen Pakt mit dem Teufel.",
+    "releaseDate": "2025-03-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2irI6Bx5dU754W52rReruUj3RI2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vW25IT0VyK99drGVdVGpMusohbl.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      27,
+      14
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Hannah Baxter-Eve",
+      "Joss Carter",
+      "Adrian Bouchet",
+      "Colin Malone",
+      "Evyn George"
+    ],
+    "director": [
+      "Andy Edwards"
+    ],
+    "writer": [
+      "Andy Edwards"
+    ],
+    "fsk": null,
+    "slug": "rumpelstiltskin"
+  },
+  {
+    "videoId": "pvevMU5BT1s",
+    "youtubeTitle": "🤣🍿 Diese Komödie wird Sie vor Lachen umhauen! Verpassen Sie das Finale nicht! | Beach Bum | Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pvevMU5BT1s/hqdefault.jpg",
+    "duration": "PT1H31M11S",
+    "publishedAt": "2026-10-30T14:34:05Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 441384,
+    "title": "Beach Bum",
+    "originalTitle": "The Beach Bum",
+    "overview": "Moondog ist ein Lebenskünstler, wie er im Buche steht – ein vom Genie geküsster Poet, der seine Existenz in den entspannten Keys von Florida nur den Drogen und den Frauen widmet. Zu seinem Glück liebt seine schöne und wohlhabende Frau Minnie ihren Moondog genau deshalb. Bis ein tragischer Unfall Minnie aus dem Leben reißt: In ihrem letzten Willen erklärt sie, dass Moondog seinen Anteil am stattlichen Erbe nur dann erhalten kann, wenn er sein seit Jahren geplantes neues Buch endlich vollendet. Startschuss für eine aberwitzige Suche nach Inspiration, die unseren Helden die verrücktesten Dinge erleben und schrägsten Typen treffen lässt...",
+    "releaseDate": "2019-03-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pbbRXHGaDpbVvmgjBWUoByjmz16.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nVaNhGAnPW9dmTkRDfsSpdPeWdZ.jpg",
+    "voteAverage": 5.646,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Beach Bum\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Matthew McConaughey",
+      "Snoop Dogg",
+      "Isla Fisher",
+      "Jimmy Buffett",
+      "Zac Efron"
+    ],
+    "director": [
+      "Harmony Korine"
+    ],
+    "writer": [
+      "Harmony Korine"
+    ],
+    "fsk": "16",
+    "slug": "beach-bum"
+  },
+  {
+    "videoId": "LyzoqfxmQEU",
+    "youtubeTitle": "Königin des Dschungels - Sheena (1984) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/LyzoqfxmQEU/hqdefault.jpg",
+    "duration": "PT1H56M36S",
+    "publishedAt": "2026-10-30T17:00:32Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 24264,
+    "title": "Sheena - Königin des Dschungels",
+    "originalTitle": "Sheena",
+    "overview": "Nach dem Tod eines weißen Forscher-Ehepaars in Afrika nehmen die Eingeborenen dessen zweijährige Tochter Sheena bei sich auf. Die Kleine wächst unter großer Verehrung zu einer schönen Frau heran, der sogar die wilden Tiere gehorchen. Als der TV-Produzent Vic Casey unversehens in eine politische Intrige gerät und den Anschlag auf den König des Stammes filmt, verlieben sich beide ineinander und kämpfen nun gemeinsam gegen den Königsmörder und dessen Söldner-Armee.",
+    "releaseDate": "1984-08-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xmOkeAyob8HVJcMVmsrAuDwYyQw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/bIgSbKHjCXEijKPwE0lJuXUWPiw.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      28,
+      12,
+      14
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Königin des Dschungels - Sheena\")",
+    "runtime": 117,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tanya Roberts",
+      "Ted Wass",
+      "Donovan Scott",
+      "Elizabeth of Toro",
+      "France Zobda"
+    ],
+    "director": [
+      "John Guillermin"
+    ],
+    "writer": [
+      "David Newman",
+      "Lorenzo Semple Jr.",
+      "Leslie Stevens"
+    ],
+    "fsk": null,
+    "slug": "sheena-koenigin-des-dschungels"
+  },
+  {
+    "videoId": "vB8R_AcUxfM",
+    "youtubeTitle": "Der Kuß und das Schwert - The Iron Glove (1954) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/vB8R_AcUxfM/hqdefault.jpg",
+    "duration": "PT1H13M53S",
+    "publishedAt": "2026-10-30T17:00:27Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 206099,
+    "title": "Der Kuß und das Schwert",
+    "originalTitle": "The Iron Glove",
+    "overview": "Intrigen, Spionage und Entführung am Hof des englischen Königs Georges I. zur Zeit des Thronprätendenten James. Pseudohistorischer Abenteuerfilm, mehr farben- als einfallsfreudig, aber in den Kampfszenen spannend inszeniert.",
+    "releaseDate": "1954-04-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/AxehilGld3gVdCsLyZXN3BV6bK.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/y6ZEhuMgAEOmvyzLo4kUpdYj8LY.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 73,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Robert Stack",
+      "Ursula Thiess",
+      "Richard Wyler",
+      "Alan Hale Jr.",
+      "Leslie Bradley"
+    ],
+    "director": [
+      "William Castle"
+    ],
+    "writer": [
+      "Douglas Heyes",
+      "Samuel J. Jacoby",
+      "Robert E. Kent"
+    ],
+    "fsk": null,
+    "slug": "der-kuss-und-das-schwert"
+  },
+  {
+    "videoId": "JesUpe672Os",
+    "youtubeTitle": "Edhel (2017) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JesUpe672Os/hqdefault.jpg",
+    "duration": "PT1H23M20S",
+    "publishedAt": "2026-10-30T17:00:10Z",
+    "channelName": "daredo TV",
+    "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",
+    "tmdbId": 500727,
+    "title": "Edhel - Das Geheimnis des Elfenwaldes",
+    "originalTitle": "Edhel",
+    "overview": "Die junge Edhel schämt sich für ihre spitzen Elfenohren und geht daher allen Menschen aus dem Weg. Einzig und allein bei ihrem Pferd Caron fühlt sie sich wirklich wohl und geborgen. Das liegt auch daran, dass Caron ihrem Vater gehörte, der bei einem Unfall ums Leben kam. Seitdem leben Edhel und ihre Mutter Geneva allein, doch die Beziehung der beiden ist von großen Schwierigkeiten geprägt, ständig kriegen sie sich in die Haare. Geneva will ihre Tochter schließlich sogar dazu drängen, sich die Ohren operieren zu lassen, um sich nicht mehr ausgegrenzt zu fühlen. Doch dann begegnet das junge Mädchen einem skurrilen Hausmeister, der sie in das Reich der Fantasie entführt und plötzlich ist alles anders: Edhel glaubt fortan nämlich fest daran, dass sie ins Königreich der Elfen gehört und nicht in die Welt der Menschen gehört.",
+    "releaseDate": "2018-01-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gM3llEDR2xYPuvi4JH1I5ycjgI3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/d5sbVKdGZ2Oy6GXxaHX0iZBYmO6.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      18,
+      14
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gaia Forte",
+      "Roberta Mattei",
+      "Mariano Rigillo",
+      "Nicolò Ernesto Alaimo",
+      "Camilla Rinaldi"
+    ],
+    "director": [
+      "Marco Renda"
+    ],
+    "writer": [
+      "Marco Renda",
+      "Elena Starace"
+    ],
+    "fsk": "6",
+    "slug": "edhel-das-geheimnis-des-elfenwaldes"
+  },
+  {
+    "videoId": "D7exWi2cNqU",
+    "youtubeTitle": "😱 Ein Friedliches Haus Am See Wurde Zur Falle! | Mystery Thriller | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/D7exWi2cNqU/hqdefault.jpg",
+    "duration": "PT1H34M26S",
+    "publishedAt": "2026-10-30T15:00:28Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 1456719,
+    "title": "Voices Carry",
+    "originalTitle": "Voices Carry",
+    "overview": "",
+    "releaseDate": "2025-03-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ovsAAzC3ObOKFlKQecbYsINC89x.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kq0S6biqFDMErZwNfb3z9hHVhXn.jpg",
+    "voteAverage": 0,
+    "genreIds": [
+      53,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gia Crovatin",
+      "Jeff Ayars",
+      "Jeremy Holm",
+      "Geraldine Singer",
+      "Dana Berger"
+    ],
+    "director": [
+      "Abby Brenker",
+      "Ellyn Vander Wyden"
+    ],
+    "writer": [
+      "Abby Brenker",
+      "Ellyn Vander Wyden"
+    ],
+    "fsk": null,
+    "slug": "voices-carry"
+  },
+  {
+    "videoId": "AIDpJ-AC17E",
+    "youtubeTitle": "Er fand DEN ANFÜHRER und DEMÜTIGTE IHN, um sein Dorf zu schützen! | Christopher Lambert Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AIDpJ-AC17E/hqdefault.jpg",
+    "duration": "PT2H16M20S",
+    "publishedAt": "2026-10-29T12:30:55Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "Er fand DEN ANFÜHRER und DEMÜTIGTE IHN, um sein Dorf zu schützen!",
+    "originalTitle": null,
+    "overview": "Mafiafilm ganzer Film Deutsch, Hollywood Klassiker, Gangsterfilm Deutsch, italienische Mafia, historischer Kriminalfilm, Mafia Thriller, Kriminaldrama, organisierte Kriminalität, Banditenfilm, Polizei gegen Mafia, Verrat und Rache, Kampf gegen Korruption, historische Gangsterfilme, spannende Filme Deutsch, Hollywood Drama, Filme über die Mafia, Ganzer Film HD.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "er-fand-den-anfuehrer-und-demuetigte-ihn-um-sein-dorf-zu-sch"
+  },
+  {
+    "videoId": "LDk-NG3aGhg",
+    "youtubeTitle": "Düsterer Nervenkitzel mit Tom Hardy: Kind 44 – Ganzer Actionfilm auf Deutsch kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/LDk-NG3aGhg/hqdefault.jpg",
+    "duration": "PT2H17M51S",
+    "publishedAt": "2026-10-29T19:15:07Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": null,
+    "title": "Kind 44",
+    "originalTitle": null,
+    "overview": "In der Bestsellerverfilmung Kind 44 muss Tom Hardy als Geheimpolizist einen Serienmörder aufspüren, den es in Stalins Sowjetunion gar nicht geben darf.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "kind-44"
+  },
+  {
+    "videoId": "NcEU842IOfk",
+    "youtubeTitle": "Er reist zurück – und findet eine Zukunft voller Killerroboter Ganzer Film Action Auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/NcEU842IOfk/hqdefault.jpg",
+    "duration": "PT1H34M9S",
+    "publishedAt": "2026-10-29T13:34:13Z",
+    "channelName": "Amelia",
+    "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
+    "tmdbId": null,
+    "title": "Er reist zurück",
+    "originalTitle": null,
+    "overview": "Im Jahr 2073 arbeitet Nicholas Sinclair an einem Zeitreiseprojekt. Als eine Sonde im Jahr 1973 den Lauf der Geschichte verändert, kehrt er in eine andere Zukunft zurück: Eine Krankheit verwüstet die Erde, und bewaffnete Roboter jagen die Überlebenden. Selbst seine Frau ist nun eine Widerstandskämpferin, die ihn kaum wiedererkennt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Phillip J. Roth."
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "er-reist-zurueck"
+  },
+  {
+    "videoId": "iHRg8SkjXBk",
+    "youtubeTitle": "Breaking Up in Rome | Trennung in Rom | Die Wahrheit über uns | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iHRg8SkjXBk/hqdefault.jpg",
+    "duration": "PT1H55M27S",
+    "publishedAt": "2026-10-29T21:00:16Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": null,
+    "title": "Breaking Up in Rome",
+    "originalTitle": null,
+    "overview": "Tommaso gibt den Leserinnen einer Zeitschrift unter fremdem Namen Ratschläge und verschweigt diese Arbeit seiner Freundin. Dann erhält er einen Brief von Zoe, seiner Partnerin seit zehn Jahren, die wissen möchte, wie sie sich von ihm trennen kann. Er antwortet, ohne seine Identität preiszugeben, und entdeckt eine neue Sicht auf ihr gemeinsames Leben. Auch sein Freund Umberto zweifelt an seiner Ehe mit Elena, der Bürgermeisterin von Rom, deren öffentliches Amt nur wenig Raum für ihr Privatleben lässt. Zwei Paare stehen vor Gesprächen, die sie nicht länger aufschieben können. Ihre Entscheidungen bleiben bis zum Schluss offen. Mit Edoardo Leo, Marta Nieto, Claudia Gerini und Stefano Fresi.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "breaking-up-in-rome"
+  },
+  {
+    "videoId": "kSZed89PpFo",
+    "youtubeTitle": "CRYSTAL GIRL - VETRO | Ganzer Film in 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kSZed89PpFo/hqdefault.jpg",
+    "duration": "PT1H28M9S",
+    "publishedAt": "2026-10-29T18:00:18Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": null,
+    "title": "CRYSTAL GIRL - VETRO",
+    "originalTitle": null,
+    "overview": "Eine junge Frau hat sich von der Welt abgeschottet und lebt innerhalb der engen Grenzen ihres Zimmers. Beim Beobachten des gegenüberliegenden Hauses vermutet sie, dass dort eine Frau gegen ihren Willen festgehalten wird. Ihr Wunsch, die Wahrheit herauszufinden, stößt an die Grenze ihrer eigenen verschlossenen Tür. Eine Onlinebekanntschaft mit Dev eröffnet die Möglichkeit eines Verbündeten. Durch Nachrichten und Videoanrufe wächst zugleich die Unsicherheit darüber, was sich hinter einer Glasscheibe wirklich erkennen lässt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "crystal-girl-vetro"
+  },
+  {
+    "videoId": "QA8OqLqGMuI",
+    "youtubeTitle": "لله في خلقه شؤون | الحلقة 11: الريحان والكافور",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/QA8OqLqGMuI/hqdefault.jpg",
+    "duration": "PT40M7S",
+    "publishedAt": "2026-10-29T15:00:29Z",
+    "channelName": "Stream Hier",
+    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
+    "tmdbId": null,
+    "title": "الحلقة 11: الريحان والكافور",
+    "originalTitle": null,
+    "overview": "",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "11"
+  },
+  {
+    "videoId": "xwJkMasObnU",
+    "youtubeTitle": "🔥 SPANNUNG, ACTION UND KRIMINALITÄT in einem Film | The Chaser | Ganzer Film auf Deutsch kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xwJkMasObnU/hqdefault.jpg",
+    "duration": "PT1H51M46S",
+    "publishedAt": "2026-10-29T14:29:56Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "The Chaser",
+    "originalTitle": null,
+    "overview": "Ein spannungsgeladener südkoreanischer Krimi, der den Zuschauer in eine Welt voller gefährlicher Geheimnisse, rätselhafter Verschwindenlassen und einer verzweifelten Suche nach der Wahrheit entführt. Im Mittelpunkt steht Jun-ho, ein ehemaliger Ermittler, der heute als Zuhälter arbeitet und mit erheblichen finanziellen Problemen zu kämpfen hat. Vor Kurzem sind mehrere seiner Frauen spurlos verschwunden – und haben ihre Schulden unbeglichen hinterlassen. Zunächst geht er davon aus, dass sie einfach abgehauen sind, doch bald erkennt er ein beunruhigendes Muster: Alle vermissten Frauen hatten sich mit demselben Kunden getroffen. Als Jun-ho erfährt, dass eine seiner Frauen gerade auf dem Weg zu diesem geheimnisvollen Mann ist, beginnt er auf eigene Faust zu ermitteln. Was als routinemäßige Suche nach Vermissten beginnt, entwickelt sich rasch zu einem gefährlichen Wettlauf gegen die Zeit. Jede",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-chaser-2"
+  },
+  {
+    "videoId": "-xeBhjhXWWU",
+    "youtubeTitle": "HALLOWEEN-SPECIAL: Überleben sie das Monster in der Dunkelheit? | Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-xeBhjhXWWU/hqdefault.jpg",
+    "duration": "PT1H33M2S",
+    "publishedAt": "2026-10-29T18:00:12Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "HALLOWEEN-SPECIAL: Überleben sie das Monster in der Dunkelheit?",
+    "originalTitle": null,
+    "overview": "Ein geplanter Junggesellenabschied verwandelt sich in den Shankali-Höhlen Indiens schnell in einen eisigen Überlebenskampf. Nach einem plötzlichen Erdbeben sitzt eine Gruppe von Freunden in einem schrecklichen Höhlenlabyrinth fest, ohne Hoffnung auf eine schnelle Rettung. In den dunklen Gängen lauert jedoch eine tödliche Bedrohung in Form von riesigen, aggressiven Insektenwesen, die Jagd auf die Eingeschlossenen machen. Während sich die Überlebenden verzweifelt einen Weg durch versperrte Stollen und alte Bunkeranlagen bahnen, treten auch alte Konflikte und unerfüllte Liebesgeschichten wieder an die Oberfläche. Ein mutiger Rettungstrupp versucht von der Oberfläche aus vorzudringen, stößt dabei aber auf ein verhängnisvolles Geheimnis rund um eine illegale Giftmüllkippe. Am Ende zählt für die Verbliebenen nur noch die Flucht aus dieser Hölle vor dem ultimativen Kollaps. Dieser Film bietet e",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "halloween-special-ueberleben-sie-das-monster-in-der-dunkelhe"
   }
 ]
