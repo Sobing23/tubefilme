@@ -200478,7 +200478,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "die-nebel-von-avalon"
+    "slug": "die-nebel-von-avalon",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "-JxDaNT9ogE",
@@ -200608,7 +200610,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "dating-to-kill-3"
+    "slug": "dating-to-kill-3",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "IpaobG3zOqI",
@@ -292463,8 +292467,7 @@
       35
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Mehrdeutiger Titel (3 Filme) -- Laufzeit entschied: TMDB 97 min, Video 96 min · Zuordnungswert 135 (Suchbegriff: \"Cat Ballou – Hängen sollst du in Wyoming\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Jane Fonda",
       "Michael Callan",
@@ -333521,5 +333524,635 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "halloween-special-ueberleben-sie-das-monster-in-der-dunkelhe"
+  },
+  {
+    "videoId": "eCSMXvOBV8U",
+    "youtubeTitle": "WarHunt - Hexenjäger (ACTION HORROR mit MICKEY ROURKE, ganzer Film Deutsch, Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eCSMXvOBV8U/hqdefault.jpg",
+    "duration": "PT1H32M27S",
+    "publishedAt": "2026-10-31T18:00:03Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 697799,
+    "title": "WarHunt",
+    "originalTitle": "WarHunt",
+    "overview": "Der Zweite Weltkrieg: Ein US-Militärfrachtflugzeug verliert die Kontrolle und stürzt hinter den feindlichen Linien mitten im deutschen Schwarzwald ab. Sofort schickt Major Johnson eine Gruppe seiner tapfersten Soldaten auf eine Rettungsmission, um das streng geheime Material zu bergen, das das Flugzeug geladen hatte. Angeführt von Sergeant Brewer und Walsh dringen die Soldaten tief in den Wald nahe der Absturzstelle ein. Schon bald entdecken sie erhängte Nazi-Soldaten und andere Leichen mit uralten, magischen Symbolen. Plötzlich versagen ihre Kompasse, ihre Wahrnehmungen verdrehen sich, und das Abweichen von der Gruppe führt zu katastrophalen Ereignissen, als sie von einer mächtigen, übernatürlichen Kraft angegriffen werden. Im Kampf um ihr Überleben müssen sie die schockierende Wahrheit hinter der Macht aufdecken und alles tun, um alle Beweise für ihre Existenz zu beseitigen, selbst auf Kosten ihres eigenen Lebens.",
+    "releaseDate": "2022-01-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yYxw7eALuilsOQhSKR4IYsU9L2U.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mTupUmnuwwAyA0CNqpwaZn5mqjk.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      28,
+      27,
+      53,
+      10752,
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Robert Knepper",
+      "Jackson Rathbone",
+      "Mickey Rourke",
+      "Аглая Тарасова",
+      "Anna Paliga"
+    ],
+    "director": [
+      "Mauro Borrelli"
+    ],
+    "writer": [
+      "Scott Svatos",
+      "Mauro Borrelli",
+      "Reggie Keyohara III"
+    ],
+    "fsk": "16",
+    "slug": "warhunt"
+  },
+  {
+    "videoId": "2Vm_XWAVuOE",
+    "youtubeTitle": "Das Beil von Wandsbek - Drama / Romanvorlage (1950-1951) DEFA",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2Vm_XWAVuOE/hqdefault.jpg",
+    "duration": "PT1H51M19S",
+    "publishedAt": "2026-10-31T12:00:02Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 262869,
+    "title": "Das Beil von Wandsbek",
+    "originalTitle": "Das Beil von Wandsbek",
+    "overview": "Hamburg erwartet hohen Besuch: den \"Führer\". Vorher gilt es noch einen Makel, der auf der Stadt liegt, zu bewältigen: Vier zum Tode verurteilte Kommunisten sind noch immer nicht hingerichtet. Es fehlt ein Henker. Durch Zufall stößt man auf den Schlächtermeister Teetjen. Sein Laden geht schlecht, und er bat den ehemaligen Kriegskameraden Footh um Hilfe. Der Reeder und SS-Standartenführer ist zu einem Geschäft bereit: eine beträchtliche Summe für eine \"vaterländliche Tat\". Teetjen läßt sich überreden, die Rolle des Scharfrichters zu übernehmen, wenn es geheim bleibt. Er waltet seinen Amtes, doch die Henker-Arbeit spricht sich herum. Die Leute in seinem Viertel sind entsetzt...",
+    "releaseDate": "1951-05-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/abj8CiDgwdPFvWNsYPwqAO8M6r.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/w7CoF2XSD5hI3TNFm7aO8Tax7TR.jpg",
+    "voteAverage": 7.8,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 110 min, Video 111 min · Zuordnungswert 121 (Suchbegriff: \"Das Beil von Wandsbek\")",
+    "runtime": 110,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Erwin Geschonneck",
+      "Käthe Braun",
+      "Gefion Helmke",
+      "Willy A. Kleinau",
+      "Ursula Meissner"
+    ],
+    "director": [
+      "Falk Harnack"
+    ],
+    "writer": [
+      "Hans Robert Bortfeldt",
+      "Falk Harnack"
+    ],
+    "fsk": "12",
+    "slug": "das-beil-von-wandsbek"
+  },
+  {
+    "videoId": "qk2P45GRclc",
+    "youtubeTitle": "High School – Nichts wie raus hier | Auf der Suche nach Mut, Halt und eigenen Weg | ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/qk2P45GRclc/hqdefault.jpg",
+    "duration": "PT1H35M23S",
+    "publishedAt": "2026-10-31T08:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 629787,
+    "title": "High School - Nichts wie raus hier",
+    "originalTitle": "The Miseducation of Bindu",
+    "overview": "Teenagerin Bindu hat genug von der High-School. Um die Schule endlich verlassen zu können, muss sie einen letzten Spanisch-Test bestehen. Dafür ist eine Gebühr fällig. Geld, das sie nicht hat und bis zum Nachmittag auftreiben muss. In ihrer Not wendet sich Bindu ausgerechnet an die Schüler, vor denen sie wegen Mobbings eigentlich fliehen wollte. Und die stellen ihr die unmöglichsten Aufgaben...",
+    "releaseDate": "2019-10-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zNcV8dCZBwEUx0XeWPneRiWjsaw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nQhdWiUAX6sPOT5doRYbdiBp0oi.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Megan Suri",
+      "Priyanka Bose",
+      "David Arquette",
+      "Robert T. Bogue",
+      "Olli Haaskivi"
+    ],
+    "director": [
+      "Prarthana Mohan"
+    ],
+    "writer": [
+      "Kay Tuxford",
+      "Prarthana Mohan"
+    ],
+    "fsk": "12",
+    "slug": "high-school-nichts-wie-raus-hier"
+  },
+  {
+    "videoId": "XLFfxXAJU2U",
+    "youtubeTitle": "Angel Falls: Eine Bilderbuch-Weihnacht - Weihnachtsfilm, Weihnachten 2026 - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XLFfxXAJU2U/hqdefault.jpg",
+    "duration": "PT1H23M49S",
+    "publishedAt": "2026-11-01T08:00:02Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 630920,
+    "title": "Angel Falls: Eine Bilderbuch Weihnacht",
+    "originalTitle": "Angel Falls: A Novel Holiday",
+    "overview": "Um eine Autorin für ihren Verlag zu gewinnen, muss Lektorin Hannah sich zur Weihnachtszeit mit ihrem Rivalen zusammentun. Dabei bekommt sie romantische Unterstützung durch ihren Schutzengel.",
+    "releaseDate": "2019-12-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cfzPW9DleqpIdNR6DEXCKXAkdG1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8UpCgQG4b5JVAEdjTJJKkuupe7S.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      10749,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jen Lilley",
+      "Carlo Marks",
+      "Eric Close",
+      "Rachael Crawford",
+      "Rob Stewart"
+    ],
+    "director": [
+      "Jonathan Wright",
+      "Patrick Tobin"
+    ],
+    "writer": [
+      "Samantha Herman"
+    ],
+    "fsk": null,
+    "slug": "angel-falls-eine-bilderbuch-weihnacht"
+  },
+  {
+    "videoId": "TGF5gFiTrfU",
+    "youtubeTitle": "Der Kurier - Sein Leben für die Freiheit - spannender, packender Kriegsfilm - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TGF5gFiTrfU/hqdefault.jpg",
+    "duration": "PT1H53M11S",
+    "publishedAt": "2026-10-31T08:00:23Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 582494,
+    "title": "Der Kurier - Sein Leben für die Freiheit",
+    "originalTitle": "Kurier",
+    "overview": "1944: Der polnische Offizier Jan Nowak-Jezioranski, der als Abgesandter im Londoner Exil lebt, wird mit einer wichtigen Mission beauftragt und begibt sich auf die gefährliche Reise nach Polen. Verfolgt von feindlichen Geheimdiensten, riskiert er sein Leben, um eine wichtige Nachricht zu überbringen, die über das Schicksal seines Vaterlandes und den Ausgang des Zweiten Weltkrieges entscheiden soll.",
+    "releaseDate": "2019-03-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aJe3YQbOsosxu6zT9ePQbJM594h.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/w5fJZQASD37RuXDiFL9bYMQXhFk.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      36,
+      28,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 114,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Philippe Tłokiński",
+      "Julie Engelbrecht",
+      "Bradley James",
+      "Martin Butzke",
+      "Nico Rogner"
+    ],
+    "director": [
+      "Władysław Pasikowski"
+    ],
+    "writer": [
+      "Sylwia Wilkos",
+      "Władysław Pasikowski"
+    ],
+    "fsk": "16",
+    "slug": "der-kurier-sein-leben-fuer-die-freiheit"
+  },
+  {
+    "videoId": "SQgLgghH4cU",
+    "youtubeTitle": "DER KÜHNE SCHWIMMER (1957) 😂🏊 | Gunther Philipp & Susanne Cramer ❤️ | Filmklassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SQgLgghH4cU/hqdefault.jpg",
+    "duration": "PT1H24M15S",
+    "publishedAt": "2026-10-31T13:30:22Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 6633,
+    "title": "Der kühne Schwimmer",
+    "originalTitle": "Der kühne Schwimmer",
+    "overview": "Damenwäschefabrikant Otto von Senff und sein Freund Tierarzt Dr. Sommer machen Urlaub an einem Bergsee. Dr. Sommer möchte aus dem Nichtschwimmer Otto einen Schwimmer machen - und ihm die Grundkenntnisse des Flirtens beibringen. Gelegenheit ergibt sich dazu, als die beiden unterwegs zwei hübsche Mädchen kennen lernen.",
+    "releaseDate": "1957-09-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6czIT7dgYR3dY8CQS6Ayo791Zo6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5yUsmPsuD5l6YJ3HdmezizzYmzH.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gunther Philipp",
+      "Susanne Cramer",
+      "Walter Gross",
+      "Ruth Stephan",
+      "Gunnar Möller"
+    ],
+    "director": [
+      "Karl Anton"
+    ],
+    "writer": [
+      "Peter Hamel",
+      "Gustav Kampendonk"
+    ],
+    "fsk": "12",
+    "slug": "der-kuehne-schwimmer"
+  },
+  {
+    "videoId": "Xy-i07wsBcc",
+    "youtubeTitle": "MIKOSCH IM GEHEIMDIENST (1959) 😂🔥 | Gunther Philipp & Renate Ewert | Filmklassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Xy-i07wsBcc/hqdefault.jpg",
+    "duration": "PT1H25M57S",
+    "publishedAt": "2026-10-31T13:26:09Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 6647,
+    "title": "Mikosch im Geheimdienst",
+    "originalTitle": "Mikosch im Geheimdienst",
+    "overview": "Bad Ischl ist in heller Aufregung: Erwartet werden der Kaiser von Österreich-Ungarn, der preußische Kaiser und der russische Zar. Doch dann werden Anschlagspläne auf die Staatshäupter bekannt. Der k.u.k-Geheimdienst setzt seine 'Spezialtruppe' ein: Mikosch und seine Helfer sollen unter Geheimhaltung den Attentäter unschädlich machen...",
+    "releaseDate": "1959-02-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/i69HHYBAGIa4sbNPZWtgDCf2z2N.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/saAxV3ANmGYOEAWK4lbIptVb83z.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gunther Philipp",
+      "Kurt Großkurth",
+      "Walter Gross",
+      "Renate Ewert",
+      "Eddi Arent"
+    ],
+    "director": [
+      "Franz Josef Gottlieb",
+      "Franz Marischka"
+    ],
+    "writer": [
+      "F.M. Schilder",
+      "Franz Marischka"
+    ],
+    "fsk": null,
+    "slug": "mikosch-im-geheimdienst"
+  },
+  {
+    "videoId": "l4-FbNDKmNU",
+    "youtubeTitle": "HALLO TAXI! (1974) 😂 | KOMÖDIE mit Petra Kelling, Günther Schubert & Ingolf Gorges 🎬",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/l4-FbNDKmNU/hqdefault.jpg",
+    "duration": "PT1H15M26S",
+    "publishedAt": "2026-10-31T13:21:56Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 283055,
+    "title": "Hallo, Taxi!",
+    "originalTitle": "Hallo, Taxi!",
+    "overview": "Kaum zu glauben, aber doch wahr: die Geschichte eines Schwerenöters hinter dem Lenkrad eines Taxis, der in eine Serie von heiteren, aber auch abenteuerlichen Situationen gerät, war dem tatsächlichen Erleben Berliner Taxifahrer nachempfunden worden.  Dabei wird unterhaltsam geschildert, wie der Hauptakteur Eddy mit Raffinesse von seinem flotten Junggesellenleben abgebracht werden soll. Gaby und ihr Opa lassen sich dazu einiges einfallen. Das ist auch nötig, denn Eddy ist zwar als Taxifahrer korrekt, aber im Privatleben kennt er keine Regeln, wenn es darum geht, hübsche Mädchen für sich einzunehmen.",
+    "releaseDate": "1974-03-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2c6eIgmrwEYUQeK07hrZAF3yGoy.jpg",
+    "backdropUrl": null,
+    "voteAverage": 9,
+    "genreIds": [
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 77,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ingolf Gorges",
+      "Günter Schubert",
+      "Petra Kelling",
+      "Gerhard Bienert",
+      "Liselott Baumgarten"
+    ],
+    "director": [
+      "Hans Knötzsch"
+    ],
+    "writer": [
+      "Werner Bernhardy",
+      "Hans Knötzsch"
+    ],
+    "fsk": null,
+    "slug": "hallo-taxi"
+  },
+  {
+    "videoId": "SsoKGoUmzrU",
+    "youtubeTitle": "The Restaurant - Hier kocht der Teufel (2017) [Horror] [Komödie] | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SsoKGoUmzrU/hqdefault.jpg",
+    "duration": "PT1H25M44S",
+    "publishedAt": "2026-10-31T17:00:16Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 426565,
+    "title": "The Restaurant",
+    "originalTitle": "The Devil's Restaurant",
+    "overview": "Im italienischen Restaurant Scoppa in New York laufen die Geschäfte so schlecht, dass Betreiber Andy bereit ist, gefährliche Maßnahmen zu ergreifen. In seinem Keller lauert ein mächtiger Dämon, der dem verzweifelten Lokalbesitzer einen Deal vorschlägt. Mit seinen finsteren Kräften kann das diabolische Wesen Gäste ins Restaurant locken. Doch im Gegenzug erwartet der Dämon, dass ihm Andy einen Teil der neu gewonnenen Kundschaft zum Fraß vorwirft. Andy willigt ein und zunächst läuft alles prima: Das Geschäft floriert und sein teuflischer Mäzen bekommt regelmäßig frische Opfer. Doch eine Küchenhilfe merkt bald, dass etwas nicht stimmt und der bevorstehende Besuch des Gesundheitsamts droht, das dunkle Geheimnis des Restaurants aufzudecken. Bevor es dazu kommt, möchte der Dämon aber noch einmal richtig schön schlemmen. Andy lädt deshalb zu einem letzten großen Festmahl ein, bei dem die Gäste selbst die Delikatesse des Abends sind...",
+    "releaseDate": "2017-09-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/giGzomUGarYdajYBcteWjNveLCh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jJU6SJLbrMdYuytaDTTiqXJnmtW.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      35,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Mark Robert Turner",
+      "Anthony Misiano",
+      "Matthew Thomas Burda",
+      "Byron Clohessy",
+      "Stephanie Juergens"
+    ],
+    "director": [
+      "Eric T. Ford"
+    ],
+    "writer": [
+      "Eric T. Ford"
+    ],
+    "fsk": "18",
+    "slug": "the-restaurant"
+  },
+  {
+    "videoId": "WAlp3DE-9j8",
+    "youtubeTitle": "Zum Kämpfen geboren - OUTPOST (2008) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WAlp3DE-9j8/hqdefault.jpg",
+    "duration": "PT1H28M25S",
+    "publishedAt": "2026-10-31T17:00:34Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 9017,
+    "title": "Outpost - Zum Kämpfen geboren",
+    "originalTitle": "Outpost",
+    "overview": "Der alternde Elitesoldat DC wird zusammen mit seiner Söldnertruppe von dem undurchsichtigen Hunt angeworben, um Mineralien in einem osteuropäischen Kriegsgebiet zu sichern. Schnell wird vor Ort dann klar, dass das eigentliche Ziel ein alter Nazibunker ist, in dem in den Endtagen des 2. Weltkrieges dubiose und okkulte Experimente durchgeführt wurden. Nach kurzer Zeit bricht die Verbindung zur Außenwelt ab und die abgebrühten Kämpfer müssen feststellen, dass sie von einem unvorstellbar grausamen und scheinbar unbesiegbaren Gegner umzingelt sind. Ein Albtraum, der sehr schnell zu ersten Opfern unter der Truppe führt.",
+    "releaseDate": "2008-03-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/MqTDINkT2nJf6kAkDaOQXR6MdZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1CenT4kUoFejc82ME5qP5RBDbIN.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      28,
+      12,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Zum Kämpfen geboren - OUTPOST\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ray Stevenson",
+      "Julian Wadham",
+      "Richard Brake",
+      "Paul Blair",
+      "Brett Fancy"
+    ],
+    "director": [
+      "Steve Barker"
+    ],
+    "writer": [
+      "Rae Brunton"
+    ],
+    "fsk": "16",
+    "slug": "outpost-zum-kaempfen-geboren"
+  },
+  {
+    "videoId": "STit-hkw-hk",
+    "youtubeTitle": "Hausarrest (KOMÖDIE mit JAMIE LEE CURTIS, Familienkomödie ganzer Film auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/STit-hkw-hk/hqdefault.jpg",
+    "duration": "PT1H48M56S",
+    "publishedAt": "2026-10-31T15:00:13Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 18862,
+    "title": "Hausarrest",
+    "originalTitle": "House Arrest",
+    "overview": "Grover und Stacy fallen aus allen Wolken als sie erfahren, daß ihre Eltern sich scheiden lassen wollen. Die Kinder sperren daher Mama und Papa im Keller ein, wo sie bleiben sollen, bis sie ihren Scheidungstermin abblasen. Die Idee macht Schule: Auch einige Schulfreunde haben Probleme mit ihren Eltern, und sperren diese ebenfalls ein, um sie so zum Nachdenken zu bewegen.",
+    "releaseDate": "1996-08-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mpQg8IgbmrMY0skgpTXBA9EhiWy.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4wxCj0BIr7hGpqD7g4VkZbE5dFb.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      35,
+      10751
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 109,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kyle Howard",
+      "Jamie Lee Curtis",
+      "Kevin Pollak",
+      "Jennifer Tilly",
+      "Christopher McDonald"
+    ],
+    "director": [
+      "Harry Winer"
+    ],
+    "writer": [
+      "Michael Hitchcock"
+    ],
+    "fsk": "6",
+    "slug": "hausarrest"
+  },
+  {
+    "videoId": "9b7monEHI6w",
+    "youtubeTitle": "Grave Halloween (2013) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9b7monEHI6w/hqdefault.jpg",
+    "duration": "PT1H29M47S",
+    "publishedAt": "2026-10-31T17:00:34Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 229839,
+    "title": "Grave Halloween",
+    "originalTitle": "Grave Halloween",
+    "overview": "",
+    "releaseDate": "2013-10-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/SSr17CBHhh0gmno7rThPaDrcsN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kqpVQfGQyADVGX0ZhAO2KvvYOZR.jpg",
+    "voteAverage": 4.5,
+    "genreIds": [
+      10770,
+      27,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Cassi Thomson",
+      "Graham Wardle",
+      "Kaitlyn Leeb",
+      "Jesse Wheeler",
+      "Tom Stevens"
+    ],
+    "director": [
+      "Steven R. Monroe"
+    ],
+    "writer": [
+      "Ryan W. Smith",
+      "Sheldon Wilson"
+    ],
+    "fsk": null,
+    "slug": "grave-halloween"
+  },
+  {
+    "videoId": "o7G1Zpccy5w",
+    "youtubeTitle": "😱 Ein Unheimlicher Thriller Voller Rätsel, Geheimnisse Und Unerwarteter Wendungen! | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/o7G1Zpccy5w/hqdefault.jpg",
+    "duration": "PT1H26M35S",
+    "publishedAt": "2026-10-31T19:11:52Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": 1324271,
+    "title": "In Her Likeness",
+    "originalTitle": "In Her Likeness",
+    "overview": "",
+    "releaseDate": "2024-04-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/j8Wjcgu6xWTLl21ACG8ufWnX5Fz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6xKx0JBJuVGS6KLw3jwoM6l8AgU.jpg",
+    "voteAverage": 3.5,
+    "genreIds": [],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 75 (Suchbegriff: \"In Her Likeness\")",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Maddison Bullock",
+      "Brooke Burfitt",
+      "Paul Diaz",
+      "Hunter Hobbs",
+      "Betsy Hume"
+    ],
+    "director": [
+      "Louise Alston"
+    ],
+    "writer": [
+      "Maddison Bullock",
+      "Adam Rockoff"
+    ],
+    "fsk": null,
+    "slug": "in-her-likeness"
+  },
+  {
+    "videoId": "mCn2658DY74",
+    "youtubeTitle": "DER KRIEGSHERR: ER SCHWOR RACHE AN ROM – UND FÜHRTE SEINE ARMEE ÜBER DIE ALPEN | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mCn2658DY74/hqdefault.jpg",
+    "duration": "PT1H26M37S",
+    "publishedAt": "2026-10-30T11:15:43Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "DER KRIEGSHERR: ER SCHWOR RACHE AN ROM - UND FÜHRTE SEINE ARMEE ÜBER DIE ALPEN",
+    "originalTitle": null,
+    "overview": "Historischer Actionfilm ganzer Film Deutsch, historischer Kriegsfilm, römisches Reich, römische Legionen, antike Schlachten, Karthago gegen Rom, Kriegselefanten, epischer Kriegsfilm, Schwertkampf Film, historische Abenteuerfilme, Feldherr, große Schlachten, römische Soldaten, Antike Film Deutsch, Kriegsfilm ganzer Film, historische Filme Deutsch, Schlachtenepos, Ganzer Film HD.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "der-kriegsherr-er-schwor-rache-an-rom-und-fuehrte-seine-arme"
+  },
+  {
+    "videoId": "yRJvn9w3MmM",
+    "youtubeTitle": "Sie verlor ihr Gedächtnis… doch jemand verbirgt die Wahrheit! | Psychothriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yRJvn9w3MmM/hqdefault.jpg",
+    "duration": "PT1H19M36S",
+    "publishedAt": "2026-10-30T16:00:07Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Remember Me",
+    "originalTitle": null,
+    "overview": "Während Rose versucht, ihre Erinnerungen zurückzugewinnen und die Wahrheit über ihr früheres Leben herauszufinden, bemerkt sie immer mehr beunruhigende Dinge. Hinter der scheinbaren Fürsorge verbirgt sich möglicherweise ein gefährliches Geheimnis. Wird sie die Wahrheit aufdecken, bevor es zu spät ist?",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "remember-me-3"
+  },
+  {
+    "videoId": "m_i6ZnoZoMI",
+    "youtubeTitle": "🏎️🔥 FORMEL 1 1997 – MICHAEL SCHUMACHER & NIKI LAUDA!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/m_i6ZnoZoMI/hqdefault.jpg",
+    "duration": "PT1H55M24S",
+    "publishedAt": "2026-10-30T10:07:28Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": null,
+    "title": "FORMEL 1 1997 - MICHAEL SCHUMACHER & NIKI LAUDA!",
+    "originalTitle": null,
+    "overview": "1997 stand Michael Schumacher bei Ferrari im Mittelpunkt des Geschehens. Der deutsche Superstar kämpfte um den Weltmeistertitel, bis ein schwerer Unfall beim Großen Preis von Großbritannien in Silverstone seine Saison entscheidend veränderte.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "formel-1-1997-michael-schumacher-niki-lauda"
   }
 ]

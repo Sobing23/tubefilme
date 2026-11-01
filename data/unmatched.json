@@ -6472,31 +6472,83 @@
     }
   },
   {
-    "videoId": "mCn2658DY74",
-    "youtubeTitle": "DER KRIEGSHERR: ER SCHWOR RACHE AN ROM – UND FÜHRTE SEINE ARMEE ÜBER DIE ALPEN | Ganzer Film HD",
-    "suchbegriff": "DER KRIEGSHERR: ER SCHWOR RACHE AN ROM – UND FÜHRTE SEINE ARMEE ÜBER DIE ALPEN",
+    "videoId": "9MSVQb3x27M",
+    "youtubeTitle": "Er ist zurück, um seine blutige Rache zu vollenden! | Dating to Kill | Thriller auf Deutsch",
+    "suchbegriff": "Er ist zurück, um seine blutige Rache zu vollenden!",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "yRJvn9w3MmM",
-    "youtubeTitle": "Sie verlor ihr Gedächtnis… doch jemand verbirgt die Wahrheit! | Psychothriller",
-    "suchbegriff": "Sie verlor ihr Gedächtnis… doch jemand verbirgt die Wahrheit!",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Remember Me\" ohne Jahr/Besetzung -- Rest des Titels (\"sie verlor ihr gedachtnis doch jemand verbirgt wahrheit\") fehlt im Treffer",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 33)",
     "tmdbTopKandidat": {
-      "id": 23169,
-      "title": "Remember Me - Lebe den Augenblick",
-      "release_date": "2010-03-11"
+      "id": 578337,
+      "title": "Seduced by a Killer",
+      "release_date": "2019-01-25"
     }
   },
   {
-    "videoId": "m_i6ZnoZoMI",
-    "youtubeTitle": "🏎️🔥 FORMEL 1 1997 – MICHAEL SCHUMACHER & NIKI LAUDA!",
-    "suchbegriff": "FORMEL 1 1997 – MICHAEL SCHUMACHER & NIKI LAUDA!",
+    "videoId": "c3v2dULNugI",
+    "youtubeTitle": "DER SCHATTEN DES DRACHEN | Der falsche Bruce Lee und der Turm des Todes | Ganzer Film",
+    "suchbegriff": "DER SCHATTEN DES DRACHEN",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
+    "tmdbTopKandidat": {
+      "id": 48295,
+      "title": "Goodbye, Bruce Lee",
+      "release_date": "1975-02-16"
+    }
+  },
+  {
+    "videoId": "y8ASUYfcLRo",
+    "youtubeTitle": "Samen der Zerstörung | SCIENCE FICTION | Ganzer Film | Film Komplett auf Deutsch",
+    "suchbegriff": "Samen der Zerstörung",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "nLBUTia2ciM",
+    "youtubeTitle": "DER KORSAR DER KAISERIN - Pirat und Freiheitskämpfer | Episches Historienkino | Ganzer Film",
+    "suchbegriff": "DER KORSAR DER KAISERIN - Pirat und Freiheitskämpfer",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"The Pirate\" ohne Jahr/Besetzung -- Rest des Titels (\"korsar kaiserin freiheitskampfer\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 35032,
+      "title": "Der Pirat",
+      "release_date": "1948-06-11"
+    }
+  },
+  {
+    "videoId": "bQzLs2eeF6U",
+    "youtubeTitle": "🔥 Harter Actionfilm | Zu Unrecht im Gefängnis – jetzt müssen alle Beteiligten dafür büßen! | FILM HD",
+    "suchbegriff": "Harter Actionfilm",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 28465,
+      "title": "A Dangerous Man",
+      "release_date": "2009-12-28"
+    }
+  },
+  {
+    "videoId": "iVrPOR_OpOA",
+    "youtubeTitle": "Der freundlichste Geist der Welt sucht Freunde 👻: Casper und seine Freunde",
+    "suchbegriff": "Casper and Friends",
+    "erwartetesJahr": "1963",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -30)",
+    "tmdbTopKandidat": {
+      "id": 313161,
+      "title": "Casper and Friends by the Old Mill Scream",
+      "release_date": ""
+    }
+  },
+  {
+    "videoId": "EuU1M6EmsMA",
+    "youtubeTitle": "Wenn die eigenen Dämonen dich verschlingen | Asylum Seekers (DE) | Psychothrillerfilm",
+    "suchbegriff": "Wenn die eigenen Dämonen dich verschlingen",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -32)",
+    "tmdbTopKandidat": {
+      "id": 1570118,
+      "title": "Danny En De Asielzoekers",
+      "release_date": "2025-10-22"
+    }
   }
 ]
