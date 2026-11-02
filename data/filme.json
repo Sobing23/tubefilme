@@ -89249,7 +89249,9 @@
     "slug": "das-zerrissene-lasso",
     "plausibel": "titel",
     "runtime": 75,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Tz3lAPr6CDo",
@@ -90580,12 +90582,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "CROKutvHtmI",
-    "youtubeTitle": "Blutige Schreie | australischer HORROR SLASHER RARITÄT der 80er | ganzer Horrorfilm auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/CROKutvHtmI/hqdefault.jpg",
+    "videoId": "7MQSmihcM0k",
+    "youtubeTitle": "BLUTIGE SCHREIE | HORROR-KLASSIKER mit Louise Fletcher | Düsterer Sci-Fi-Mystery-Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7MQSmihcM0k/hqdefault.jpg",
     "duration": "PT1H41M22S",
     "publishedAt": "2025-09-29T17:30:05Z",
-    "channelName": "Dzango",
+    "channelName": "Retroflix",
     "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
     "tmdbId": 40041,
     "title": "Blutige Schreie",
@@ -90621,9 +90623,7 @@
     "slug": "blutige-schreie",
     "plausibel": "titel",
     "runtime": 99,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "plausibelVersion": 4
   },
   {
     "videoId": "BggivWHgbLM",
@@ -97459,7 +97459,9 @@
     "slug": "die-rache-des-karatetigers",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -179628,7 +179630,9 @@
     "slug": "bucky-larson-born-to-be-a-star",
     "plausibel": "titel",
     "runtime": 97,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "_CBBO1rF5sM",
@@ -212276,12 +212280,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "rqsTzrV7NWQ",
-    "youtubeTitle": "KULTFILM KLASSIKER mit KEVIN BACON: Footloose (Ganzer Film auf Deutsch, Klassiker, Liebeskomödie)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/rqsTzrV7NWQ/hqdefault.jpg",
+    "videoId": "4c_IYlJpeV0",
+    "youtubeTitle": "Footloose (80er-Jahre KULTFILM mit KEVIN BACON Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4c_IYlJpeV0/hqdefault.jpg",
     "duration": "PT1H47M45S",
     "publishedAt": "2026-10-02T14:00:25Z",
-    "channelName": "FABELLA",
+    "channelName": "Netzkino",
     "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
     "tmdbId": 1788,
     "title": "Footloose",
@@ -212314,9 +212318,7 @@
     "slug": "footloose",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 4
   },
   {
     "videoId": "vAPY41t7Rcg",
@@ -269068,7 +269070,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "ein-halleluja-fuer-2-schlitzohren"
+    "slug": "ein-halleluja-fuer-2-schlitzohren",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "Xd9PhjqZ02Y",
@@ -269132,7 +269136,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "ein-halleluja-fuer-2-schlitzohren-2"
+    "slug": "ein-halleluja-fuer-2-schlitzohren-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "iOqFs3OeAQg",
@@ -334154,5 +334160,611 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "formel-1-1997-michael-schumacher-niki-lauda"
+  },
+  {
+    "videoId": "iZTi2t4NfL4",
+    "youtubeTitle": "Diese romantische Geschichte macht euren Filmabend unvergesslich! | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iZTi2t4NfL4/hqdefault.jpg",
+    "duration": "PT1H29M13S",
+    "publishedAt": "2026-11-01T16:00:09Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 885328,
+    "title": "The Wedding Arrangement",
+    "originalTitle": "The Wedding Arrangement",
+    "overview": "",
+    "releaseDate": "2022-03-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lIQMPwYRETOVtWdUQVQb9MFOrRH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/94e6PrP5AI5MyWSs0tFAysPUenL.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"The Wedding Arrangement\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kristina Cole",
+      "Cody Griffis",
+      "Brey Noelle",
+      "Brian Childers",
+      "Brittany Goodwin"
+    ],
+    "director": [
+      "Susan Walters",
+      "Linden Ashby"
+    ],
+    "writer": [
+      "Melissa Rundle"
+    ],
+    "fsk": null,
+    "slug": "the-wedding-arrangement"
+  },
+  {
+    "videoId": "oh_zV49KlDQ",
+    "youtubeTitle": "Unglaublich guter Action-Horror: Hunt Her, Kill Her (2022)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oh_zV49KlDQ/hqdefault.jpg",
+    "duration": "PT1H29M18S",
+    "publishedAt": "2026-11-01T19:15:15Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 989872,
+    "title": "Hunt Her, Kill Her",
+    "originalTitle": "Hunt Her, Kill Her",
+    "overview": "An einem ansonsten friedlichen Abend findet sich eine einsame Hausmeisterin der Nachtschicht in einem unerwarteten Überlebenskampf wieder, als sie zur Zielscheibe von unheimlichen maskierten Eindringlingen wird. Als deren beunruhigende Motive immer klarer werden, muss sie ihre schlauen Instinkte und barbarische Gewalt einsetzen, um die Nacht lebend zu überstehen.",
+    "releaseDate": "2023-03-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vIoHWbqCN4AeiEEnrU183lKac9B.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/eOj3mT98eKphxXfXqVDOVMZYizv.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Natalie Terrazzino",
+      "JC Oakley III",
+      "Larry Bunton",
+      "Philip Zimny",
+      "Olivia Graves"
+    ],
+    "director": [
+      "Greg Swinson",
+      "Ryan Thiessen"
+    ],
+    "writer": [
+      "Greg Swinson"
+    ],
+    "fsk": null,
+    "slug": "hunt-her-kill-her"
+  },
+  {
+    "videoId": "bqqwp89SD24",
+    "youtubeTitle": "Ein Kriegsveteran jagt Bigfood: The Man Who Killed Hitler and Then the Bigfoot (2018) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bqqwp89SD24/hqdefault.jpg",
+    "duration": "PT1H37M40S",
+    "publishedAt": "2026-11-01T15:15:08Z",
+    "channelName": "Utopja",
+    "channelId": "UC5FelnKqltzYS3H1LPlC-Xg",
+    "tmdbId": 530081,
+    "title": "The Man Who Killed Hitler and Then the Bigfoot",
+    "originalTitle": "The Man Who Killed Hitler and Then the Bigfoot",
+    "overview": "Während des Zweiten Weltkriegs bekommt der amerikanische Soldat Calvin Barr einen Spezialauftrag: Er soll Adolf Hitler töten. Er verlässt Maxine, die große Liebe seines Lebens, um sich tief hinter feindlichen Linien auf eine gefährliche Spezialmission zu begeben und danach unter neuer Identität weiter zu leben. Aufgrund seiner Mission damals taucht eines Tages ein Regierungsagent bei Barr auf. Der Veteran soll ein neues Monster töten. Der sagenumwobene Bigfoot treibt sein Unwesen in der kanadischen Wildnis.",
+    "releaseDate": "2019-02-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uK7DwRZ7jhQww8JXZxToJhdiGEh.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6Uh1OQOJEvjCs3XOLJoGAnKEUhr.jpg",
+    "voteAverage": 5.47,
+    "genreIds": [
+      18,
+      12,
+      14,
+      878,
+      10752
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 96,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Sam Elliott",
+      "Aidan Turner",
+      "Caitlin FitzGerald",
+      "Rizwan Manji",
+      "Larry Miller"
+    ],
+    "director": [
+      "Robert D. Krzykowski"
+    ],
+    "writer": [
+      "Robert D. Krzykowski"
+    ],
+    "fsk": "12",
+    "slug": "the-man-who-killed-hitler-and-then-the-bigfoot"
+  },
+  {
+    "videoId": "BDxOvbxgnOs",
+    "youtubeTitle": "VERSUS - THE FINAL KNOCKOUT – Ein einziger Schlag könnte ihn töten! (MMA | Actionfilm Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/BDxOvbxgnOs/hqdefault.jpg",
+    "duration": "PT1H50M35S",
+    "publishedAt": "2026-11-01T18:30:13Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 423360,
+    "title": "Versus - The Final Knockout",
+    "originalTitle": "Молот",
+    "overview": "Der junge Martial-Arts-Kämpfer Victor Stroev, der in der Szene unter dem Namen Russian Hammer bekannt ist, möchte seine Karriere mit dem Titel des Weltmeisters krönen. Doch ein schwerer Autounfall zerstört die kühnen Pläne. Sein Widersacher Shark, der es außerdem auf Victors Freundin Vera abgesehen hat, fordert ihn zu einem Kampf auf. Shark möchte Victor endgültig vernichten. Aber er ist ein ehrgeiziger Kämpfer und wird alles geben, um sein Land und die Frau seines Lebens stolz zu machen.",
+    "releaseDate": "2016-11-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xulSx6Boj5c24mPkYRrU93x7dnq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vK1a2xNqNC9eoMXOJqPWNfRgAL9.jpg",
+    "voteAverage": 7.3,
+    "genreIds": [
+      28,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 111,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Alexej Tschadow",
+      "Oxana Akinschina",
+      "Антон Шагин",
+      "Сергей Чирков",
+      "Игорь Скляр"
+    ],
+    "director": [
+      "Нурбек Эген"
+    ],
+    "writer": [
+      "Олег Маловичко"
+    ],
+    "fsk": null,
+    "slug": "versus-the-final-knockout"
+  },
+  {
+    "videoId": "jpKFypcZxAg",
+    "youtubeTitle": "Frankie und Johnny | 1991 | Al Pacino & Michelle Pfeiffer | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jpKFypcZxAg/hqdefault.jpg",
+    "duration": "PT1H52M17S",
+    "publishedAt": "2026-11-01T15:30:01Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 3784,
+    "title": "Frankie & Johnny",
+    "originalTitle": "Frankie and Johnny",
+    "overview": "Der Ex-Häftling Johnny wird aus dem Gefängnis entlassen und beginnt einen Job als Koch in einem schäbigen Restaurant, wo auch die schöne, aber traurige Frankie arbeitet.",
+    "releaseDate": "1991-10-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zSOh7hriX4mQNVxhCz1yVY4aykn.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mXn2VhwaRKAKahulvqLdM5i3t7D.jpg",
+    "voteAverage": 6.779,
+    "genreIds": [
+      18,
+      10749,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Frankie und Johnny\")",
+    "runtime": 118,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Al Pacino",
+      "Michelle Pfeiffer",
+      "Héctor Elizondo",
+      "Nathan Lane",
+      "Jane Morris"
+    ],
+    "director": [
+      "Garry Marshall"
+    ],
+    "writer": [
+      "Terrence McNally"
+    ],
+    "fsk": "16",
+    "slug": "frankie-johnny"
+  },
+  {
+    "videoId": "M70uTyRrUw4",
+    "youtubeTitle": "Unsere Tante ist das Letzte | 1973 | HeimatfilmeTV",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/M70uTyRrUw4/hqdefault.jpg",
+    "duration": "PT1H35M58S",
+    "publishedAt": "2026-11-01T14:45:06Z",
+    "channelName": "Heimatfilme",
+    "channelId": "UCV8yejshmlsns86C-ZeO16Q",
+    "tmdbId": 294012,
+    "title": "Unsere Tante ist das Letzte",
+    "originalTitle": "Unsere Tante ist das Letzte",
+    "overview": "Ein trotteliger Onkel und eine Nervensäge von Tante bringen eine Familie, deren Umgebung und schließlich halb Venedig durcheinander. Ein an Schwachsinn grenzender Klamauk, von allen guten Geistern verlassen.",
+    "releaseDate": "1973-11-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tZXgrTchKwjZlNDq5ZtlVvOOkId.jpg",
+    "backdropUrl": null,
+    "voteAverage": 9,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Eddi Arent",
+      "Gisela Schlüter",
+      "Ernst H. Hilbich",
+      "Edith Hancke",
+      "Willy Millowitsch"
+    ],
+    "director": [
+      "Rolf Olsen"
+    ],
+    "writer": [
+      "Rolf Olsen"
+    ],
+    "fsk": "6",
+    "slug": "unsere-tante-ist-das-letzte"
+  },
+  {
+    "videoId": "ylKOSJKKfCE",
+    "youtubeTitle": "The Source of Power (2023) [Geschichte] [Krieg] | Das Schicksal Chinas | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ylKOSJKKfCE/hqdefault.jpg",
+    "duration": "PT1H43M24S",
+    "publishedAt": "2026-11-01T22:00:08Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 1142192,
+    "title": "力量密码",
+    "originalTitle": "力量密码",
+    "overview": "",
+    "releaseDate": "2023-07-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hgnPDUApBSnJRcYrM4DDDLQ5OFs.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gP3o4L73Wm26Fd7Apydi1a0BY07.jpg",
+    "voteAverage": 0,
+    "genreIds": [],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 103,
+    "plausibel": "besetzung",
+    "plausibelVersion": 4,
+    "cast": [
+      "张桐",
+      "陈都灵",
+      "Bai En",
+      "节冰",
+      "Bo Li"
+    ],
+    "director": [
+      "Gao Feng"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "film-6"
+  },
+  {
+    "videoId": "avkLLGUQRbY",
+    "youtubeTitle": "Unglaublicher KRIEGS THRILLER: Tigerland (2000) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/avkLLGUQRbY/hqdefault.jpg",
+    "duration": "PT1H41M4S",
+    "publishedAt": "2026-11-01T16:30:32Z",
+    "channelName": "TitanumX",
+    "channelId": "UCnlIBYHTpD2R3BQuE6nsSKw",
+    "tmdbId": 10687,
+    "title": "Tigerland",
+    "originalTitle": "Tigerland",
+    "overview": "1971: Während in Vietnam der Krieg tobt wird eine Gruppe junger Rekruten in Louisiana im sog. \"Advanced Infantry Training\" auf diese Hölle vorbereitet. Einer der Männer, der eigensinnige Roland Bozz, verabscheut die Idee des Krieges und während er sich gegen den militärischen Drill auflehnt, lernt er, was es heißt, Verantwortung zu übernehmen.",
+    "releaseDate": "2000-10-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pnFdCvxxL44sPLkKEIJCUaIZa7M.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rn2EB8kitYpAhCrZR2rXePyZJ7j.jpg",
+    "voteAverage": 6.578,
+    "genreIds": [
+      18,
+      10752
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Colin Farrell",
+      "Matthew Davis",
+      "Clifton Collins Jr.",
+      "Tom Guiry",
+      "Shea Whigham"
+    ],
+    "director": [
+      "Joel Schumacher"
+    ],
+    "writer": [
+      "Ross Klavan",
+      "Michael McGruther"
+    ],
+    "fsk": "16",
+    "slug": "tigerland"
+  },
+  {
+    "videoId": "AXhHGg-AUsc",
+    "youtubeTitle": "LILY COLLINS in: Regeln spielen keine Rolle (LIEBESFILM auf Deutsch komplett, Romantische Komödien)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AXhHGg-AUsc/hqdefault.jpg",
+    "duration": "PT2H6M59S",
+    "publishedAt": "2026-11-01T15:00:38Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 291328,
+    "title": "Regeln spielen keine Rolle",
+    "originalTitle": "Rules Don't Apply",
+    "overview": "Los Angeles, 1958: Die junge Provinz-Schönheitskönigin, Nachwuchsschauspielerin und fromme Baptistin Marla Mabrey zieht nach Hollywood, weil sie vom berüchtigten Milliardär Howard Hughes unter Vertrag genommen wurde. Am Flughafen wird sie von Frank Forbes abgeholt, einem religiösen Methodisten, der kurz vor der Hochzeit mit seiner Liebsten steht. Doch es kommt, wie es kommen muss und so fühlen sich Marla und Frank prompt zueinander hingezogen. Das stellt allerdings nicht nur ihre jeweiligen religiösen Überzeugungen auf die Probe, sondern bricht auch mit der wichtigsten Regel von Hughes: Angestellte dürfen nämlich in keiner Weise eine Beziehung mit einer Schauspielerin eingehen, die bei ihm unter Vertrag steht.",
+    "releaseDate": "2016-11-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gGBOKoiUgfYWeqMppF97poLYgOW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hq0MXbI0QzAOGfHxkvPMhzGxHJW.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      10749,
+      35,
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 127,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Warren Beatty",
+      "Lily Collins",
+      "Alden Ehrenreich",
+      "Matthew Broderick",
+      "Annette Bening"
+    ],
+    "director": [
+      "Warren Beatty"
+    ],
+    "writer": [
+      "Bo Goldman",
+      "Warren Beatty"
+    ],
+    "fsk": "6",
+    "slug": "regeln-spielen-keine-rolle"
+  },
+  {
+    "videoId": "hB-Xit7T0Hc",
+    "youtubeTitle": "Deine Zeit ist um - Behold a Pale Horse (1964) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hB-Xit7T0Hc/hqdefault.jpg",
+    "duration": "PT2H1M30S",
+    "publishedAt": "2026-11-01T17:00:39Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 166607,
+    "title": "Deine Zeit ist um",
+    "originalTitle": "Behold a Pale Horse",
+    "overview": "Nach 15 Jahren auf der Flucht scheint seine Zeit um zu sein: Guerillaführer Manuel, der seit fünfzehn Jahren von dem brutalen Captain Vinolas verfolgt wird, ihm bisher jedoch immer entkommen konnte. Als Manuels Mutter im Sterben liegt, verlässt er sein Versteck und läuft Gefahr, Vinolas direkt in die Arme zu laufen. Manuel muss die Stadt San Martin erreichen, wo ihm der 11-jährige Paco, der auf Rache für Vinolas' Mord an seinem Vater hofft, eine Landkarte übergeben soll. Doch Manuel wird von einem Informanten verraten, der Vinolas von Manuels Plänen erzählt. Als er San Martin erreicht, steht Manuel vor der Wahl, entweder den Verräter oder Vinolas zu töten. Für wen wird er sich entscheiden?",
+    "releaseDate": "1964-08-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8oM3BJry8kzVJI27fmPf9b8bJCF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/A6U1uZAObADjvezj92dk23z9FQj.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      18,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 118,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gregory Peck",
+      "Anthony Quinn",
+      "Omar Scharif",
+      "Raymond Pellegrin",
+      "Paolo Stoppa"
+    ],
+    "director": [
+      "Fred Zinnemann"
+    ],
+    "writer": [
+      "J.P. Miller"
+    ],
+    "fsk": null,
+    "slug": "deine-zeit-ist-um"
+  },
+  {
+    "videoId": "9MSVQb3x27M",
+    "youtubeTitle": "Er ist zurück, um seine blutige Rache zu vollenden! | Dating to Kill | Thriller auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9MSVQb3x27M/hqdefault.jpg",
+    "duration": "PT1H26M13S",
+    "publishedAt": "2026-10-31T17:16:09Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Dating to Kill",
+    "originalTitle": null,
+    "overview": "Schon bald erkennt Jessica voller Entsetzen, dass dieser Mann derselbe ist, der sie während ihrer Collegezeit brutal angegriffen hat. Nun ist er zurückgekehrt, um Rache zu nehmen, und Tessa schwebt in tödlicher Gefahr. Wird Jessica ihre Tochter retten können, bevor die Vergangenheit ihr Leben erneut zerstört?",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "dating-to-kill-4"
+  },
+  {
+    "videoId": "c3v2dULNugI",
+    "youtubeTitle": "DER SCHATTEN DES DRACHEN | Der falsche Bruce Lee und der Turm des Todes | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/c3v2dULNugI/hqdefault.jpg",
+    "duration": "PT1H19M25S",
+    "publishedAt": "2026-10-31T16:15:08Z",
+    "channelName": "Stream Hier",
+    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
+    "tmdbId": null,
+    "title": "DER SCHATTEN DES DRACHEN",
+    "originalTitle": null,
+    "overview": "Ein Bruce-Lee-Doppelgänger wurde engagiert, um den Film zu beenden, der aufgrund des frühen Todes des Kung-Fu-Königs unvollendet blieb. Es geht um einen jungen Mann, der unwissentlich in einen Geldbetrug verwickelt wird. Als er sich weigert, das Geld zurückzugeben, entführen die Bösewichte seine Freundin und halten sie im Turm des Todes als Geisel fest. Dort angekommen stehen ihm zwei Möglichkeiten zur Verfügung. Sehen Sie zu, wie seine Freundin vom Dach geworfen wird, oder kämpfen Sie auf 7 verschiedenen Ebenen gegen verschiedene Kampfsportler, um seine Freundin zurückzugewinnen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "der-schatten-des-drachen"
+  },
+  {
+    "videoId": "y8ASUYfcLRo",
+    "youtubeTitle": "Samen der Zerstörung | SCIENCE FICTION | Ganzer Film | Film Komplett auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/y8ASUYfcLRo/hqdefault.jpg",
+    "duration": "PT1H26M56S",
+    "publishedAt": "2026-10-31T16:00:26Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": null,
+    "title": "Samen der Zerstörung",
+    "originalTitle": null,
+    "overview": "Wenn die Samen aus dem ursprünglichen Garten Eden unbedacht in das heutige giftige Klima gelangen, verwandelt sich die Pflanze durch unsere verschmutzte Umwelt in eine sich windende Blattmasse, die auf der ganzen Erde Verwüstung anrichtet.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "samen-der-zerstoerung"
+  },
+  {
+    "videoId": "nLBUTia2ciM",
+    "youtubeTitle": "DER KORSAR DER KAISERIN - Pirat und Freiheitskämpfer | Episches Historienkino | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nLBUTia2ciM/hqdefault.jpg",
+    "duration": "PT1H37M58S",
+    "publishedAt": "2026-10-31T16:00:08Z",
+    "channelName": "FFF Kino",
+    "channelId": "UCZJ6YfaiyPINSInT6i7VzaQ",
+    "tmdbId": null,
+    "title": "DER KORSAR DER KAISERIN - Pirat und Freiheitskämpfer",
+    "originalTitle": null,
+    "overview": "Die Handlung verfolgt das außergewöhnliche, unglaubliche Leben von Ioannis Varvakis, einem griechischen Piraten des 18. Jahrhunderts, der sich in einen internationalen Luxuskaufmann und Freiheitskämpfer verwandelt. Nach seinen Anfängen als kühner Kaperfahrer, der osmanische Schiffe in der Ägäis überfällt, verbündet sich Varvakis während des Russisch-Türkischen Krieges mit Russland und erlangt schließlich eine Audienz am kaiserlichen Hof von Katharina der Großen. Mit den exklusiven Fischereirechten für das Kaspische Meer ausgestattet, baut er durch die Industrialisierung des Beluga-Kaviar-Exports nach Westeuropa ein riesiges Handelsimperium auf. Doch der immense Wohlstand bringt ihm keinen inneren Frieden. Varvakis lässt sein großes Vermögen hinter sich und kehrt in seine Heimat zurück, um den Griechischen Unabhängigkeitskrieg zu finanzieren. Am Ende opfert er seine Macht und sein Leben f",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "der-korsar-der-kaiserin-pirat-und-freiheitskaempfer"
+  },
+  {
+    "videoId": "bQzLs2eeF6U",
+    "youtubeTitle": "🔥 Harter Actionfilm | Zu Unrecht im Gefängnis – jetzt müssen alle Beteiligten dafür büßen! | FILM HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bQzLs2eeF6U/hqdefault.jpg",
+    "duration": "PT1H30M12S",
+    "publishedAt": "2026-10-31T14:17:45Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "DANGEROUS MAN, A",
+    "originalTitle": null,
+    "overview": "Ein intensiver Action-Thriller, in dem für einen Mann nach sechs Jahren unschuldiger Haft endlich die Freiheit beginnt. Shane Daniels erhält vom Bundesstaat Arizona eine offizielle Entschuldigung für ein Verbrechen, das er nie begangen hat – er hofft auf einen Neuanfang. Doch das Schicksal hat andere Pläne: Nur wenige Stunden nach seiner Freilassung wird Shane unfreiwillig Zeuge einer brutalen Auseinandersetzung zwischen der chinesischen Mafia und der Polizei. Plötzlich steckt er mitten in einer gefährlichen kriminellen Verschwörung, bei der es um ein entführtes Mädchen und eine riesige Summe Drogengeld geht. Anstatt tatenlos zuzusehen, beschließt er, dem Mädchen bei der Rettung ihres Onkels zu helfen. Dafür muss Shane ein ungewöhnliches Bündnis mit der russischen Mafia eingehen – deren Boss steht bei ihm noch in der Schuld. Es erwarten ihn gefährliche Verfolgungsjagden, Verrat, heftige ",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "dangerous-man-a"
+  },
+  {
+    "videoId": "iVrPOR_OpOA",
+    "youtubeTitle": "Der freundlichste Geist der Welt sucht Freunde 👻: Casper und seine Freunde",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iVrPOR_OpOA/hqdefault.jpg",
+    "duration": "PT56M59S",
+    "publishedAt": "2026-10-31T14:30:27Z",
+    "channelName": "Fantasja",
+    "channelId": "UCn8xSBNGvaaU20JCJBuVPlQ",
+    "tmdbId": null,
+    "title": "Der freundlichste Geist der Welt sucht Freunde 👻: Casper und seine Freunde",
+    "originalTitle": null,
+    "overview": "Während andere Geister großen Spaß am Erschrecken haben, möchte Casper lieber Freundschaften schließen und anderen helfen. Das ist allerdings gar nicht so einfach, denn Menschen und Tiere laufen zunächst davon, sobald sie den kleinen Geist entdecken. Casper lässt sich davon nicht entmutigen und beweist mit seiner Hilfsbereitschaft immer wieder, dass man keine Angst vor ihm haben muss. Die rund einstündige Zusammenstellung verbindet mehrere klassische Casper-Geschichten mit weiteren humorvollen Kurzcartoons.\n#Spielfilm #ganzerFilm #Familienfilm",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Bradley Bolke",
+      "Ginny Tyler",
+      "Bob Hastings"
+    ],
+    "director": [
+      "Seymour Kneitel"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "der-freundlichste-geist-der-welt-sucht-freunde-casper-und-se"
+  },
+  {
+    "videoId": "EuU1M6EmsMA",
+    "youtubeTitle": "Wenn die eigenen Dämonen dich verschlingen | Asylum Seekers (DE) | Psychothrillerfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EuU1M6EmsMA/hqdefault.jpg",
+    "duration": "PT1H29M21S",
+    "publishedAt": "2026-10-31T18:00:19Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn die eigenen Dämonen dich verschlingen",
+    "originalTitle": null,
+    "overview": "In einer skurrilen Nervenheilanstalt treffen völlig unterschiedliche Persönlichkeiten aufeinander, die allesamt Zuflucht vor dem Chaos der Außenwelt suchen. Ein bizarres Aufnahmeritual und ein dubioser Anstaltsarzt stellen die verirrten Seelen auf eine harte Probe, während nur ein einziges freies Bett als Hauptpreis lockt. Über mehrere verquere Stationen hinweg treten immer wieder neue Konflikte sowie abgedrehte Wahnvorstellungen der traumatisierten Insassen zutage. Die Grenzen zwischen Realität, Einbildung und Wahn verschwimmen schrittweise, während die Insassen versuchen, die Kontrolle über ihren Verstand nicht komplett zu verlieren. Dieser vielschichtige Film verbindet düstere Psychothriller-Elemente mit tiefschwarzem Humor und begleitet die Protagonisten auf ihrem radikalen Trip durch den eigenen Irrsinn.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "wenn-die-eigenen-daemonen-dich-verschlingen"
   }
 ]
