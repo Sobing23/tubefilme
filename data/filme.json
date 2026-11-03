@@ -24044,7 +24044,9 @@
     "slug": "christmas-candle-das-licht-der-weihnachtsnacht",
     "plausibel": "titel",
     "runtime": 100,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "puJFo9SfAWk",
@@ -24607,7 +24609,9 @@
     "slug": "eine-prinzessin-zu-weihnachten",
     "plausibel": "titel",
     "runtime": 91,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "3K7PRj2p87U",
@@ -25293,7 +25297,9 @@
     "slug": "ein-schatz-zu-weihnachten",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "zLoGlX89KNM",
@@ -35134,7 +35140,9 @@
     "slug": "verzauberte-weihnachten-wenn-dein-herz-tanzt",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "EBSgJU-1dEQ",
@@ -35387,7 +35395,9 @@
     "slug": "vier-schwestern-zu-weihnachten",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "T_riDunZ3jM",
@@ -78491,7 +78501,9 @@
     "slug": "ticket-out-flucht-ins-ungewisse",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "8vgInhaiEXs",
@@ -208018,7 +208030,9 @@
     "slug": "sarahs-schluessel",
     "plausibel": "titel",
     "runtime": 111,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "cYriVOMDWbo",
@@ -230056,7 +230070,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "ein-animations-abenteuerfilm-ein-ungewoehnlicher-troll-begib"
+    "slug": "ein-animations-abenteuerfilm-ein-ungewoehnlicher-troll-begib",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "j08mpC_E35o",
@@ -290052,7 +290068,9 @@
     "slug": "the-dakota-war-revenge",
     "runtime": 82,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "kQlS9-v63Fs",
@@ -322373,7 +322391,9 @@
     "slug": "christmas-with-the-prince",
     "runtime": 80,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "7RFYEQuuYlw",
@@ -322768,7 +322788,9 @@
     "slug": "das-yakuza-kartell",
     "runtime": 91,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "X_pkHZwzECE",
@@ -331104,7 +331126,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge-2"
+    "slug": "25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "7riMsCOSDq8",
@@ -334766,5 +334790,160 @@
     "writer": [],
     "fsk": null,
     "slug": "wenn-die-eigenen-daemonen-dich-verschlingen"
+  },
+  {
+    "videoId": "WesEvTmmK2Q",
+    "youtubeTitle": "Nach vielen Enttäuschungen hatte sie die Liebe aufgegeben, bis sie ihm begegnete | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WesEvTmmK2Q/hqdefault.jpg",
+    "duration": "PT1H26M17S",
+    "publishedAt": "2026-11-02T16:00:25Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 942578,
+    "title": "The Attraction Test",
+    "originalTitle": "The Attraction Test",
+    "overview": "",
+    "releaseDate": "2022-08-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zwukL1kUeEq2NjTGeDvrNxVfeWZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/x6YzSCbWRU67JQ1VQEaAbxEZgXd.jpg",
+    "voteAverage": 6.7,
+    "genreIds": [
+      10770,
+      35,
+      10749,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"The Attraction Test\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tara Wilson",
+      "Andrew Dunbar",
+      "Glynis Davies",
+      "Adam Beauchesne",
+      "Paul Almeida"
+    ],
+    "director": [
+      "Ken Friss"
+    ],
+    "writer": [
+      "Brian Ruberry"
+    ],
+    "fsk": null,
+    "slug": "the-attraction-test"
+  },
+  {
+    "videoId": "b1Yum2UY6fU",
+    "youtubeTitle": "JÜRGEN VOGEL ist ÖTZI – DER MANN AUS DEM EIS (Ganzer Film Deutsch, Deutsche Filme in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/b1Yum2UY6fU/hqdefault.jpg",
+    "duration": "PT1H36M14S",
+    "publishedAt": "2026-11-02T16:00:39Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 467546,
+    "title": "Der Mann aus dem Eis",
+    "originalTitle": "Der Mann aus dem Eis",
+    "overview": "Vor über 5000 Jahren lebte Kelab mit seiner Großfamilie am Fuße der Ötztaler Alpen. Eines Tages begibt sich der Stammesanführer auf die Jagd. Während seiner Abwesenheit wird seine Sippe brutal überfallen. Kelabs Frau und sein Sohn werden dabei ermordet und ihre Siedlung hoffnungslos zerstört. Anscheinend geschah alles, um den heiligen Schrein Tineka zu stehlen, den Kelab sicher verwahrt hatte. Als Kelab seine Familie tot auffindet, schwört er Rache an den Mördern. Er begibt sich auf eine gefährliche Reise über die Alpen, um den Spuren der unbekannten Täter zu folgen und ahnt noch nicht, dass er für seine Gier nach Vergeltung sein eigenes Leben lassen muss.",
+    "releaseDate": "2017-11-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fJw0TKNItpJ977H9lYPFqzHTwU0.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/znnpIhY8kNfpP7B1e3qSkzfwFo7.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      18,
+      36
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 96,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jürgen Vogel",
+      "Susanne Wuest",
+      "André Hennicke",
+      "Sabin Tambrea",
+      "Franco Nero"
+    ],
+    "director": [
+      "Felix Randau"
+    ],
+    "writer": [
+      "Felix Randau"
+    ],
+    "fsk": "12",
+    "slug": "der-mann-aus-dem-eis"
+  },
+  {
+    "videoId": "MGEKJjLdFoU",
+    "youtubeTitle": "Verliebt in Holly – A Christmas Love Story (WEIHNACHTSROMANZE ganzer Film, Romantische Komödie)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MGEKJjLdFoU/hqdefault.jpg",
+    "duration": "PT1H29M33S",
+    "publishedAt": "2026-11-02T15:00:37Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 748899,
+    "title": "Verliebt in Holly - A Christmas Love Story",
+    "originalTitle": "Beaus of Holly",
+    "overview": "Holly (Jennifer Freeman) hat in ihrem Leben gern alles perfekt durchgeplant. Deshalb entscheidet sie sich auch dazu, ihrem Freund Phil (Michael Copon) kurz vor Weihnachten bei einer Kutschfahrt in den Bergen einen Heiratsantrag zu machen. Doch Phils Antwort ist ernüchternd – er hat noch Gefühle für seine Ex-Freundin, mit der er sich wieder trifft. Mit gebrochenem Herzen bleibt Holly im Winterdorf zurück. Für sie ist der Urlaub gelaufen, doch der freundliche Kutscher Jake (Johnny Pacar) überzeugt sie, die geplante Fahrt trotzdem noch zu machen. Zwischen heißer Schokolade und Lebkuchenhäusern muss Holly bald feststellen, dass ihre durchgeplante Zukunft vielleicht gar nicht das Richtige für sie war.",
+    "releaseDate": "2020-12-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2p9P9KzkJsPkad6O98x0QP4Ebuk.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3Q0bOj6PCCBXCaFFX5VxBf9DviG.jpg",
+    "voteAverage": 6.607,
+    "genreIds": [
+      10770,
+      10749,
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 80,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jennifer Freeman",
+      "Johnny Pacar",
+      "Nikki Leigh",
+      "Michael Copon",
+      "Adam Huss"
+    ],
+    "director": [
+      "Anthony C. Ferrante"
+    ],
+    "writer": [
+      "Jim Hemphill",
+      "Kelly Goodner"
+    ],
+    "fsk": null,
+    "slug": "verliebt-in-holly-a-christmas-love-story"
+  },
+  {
+    "videoId": "GgAbm1eKePY",
+    "youtubeTitle": "Alle demütigen ihn in der Schule – bis seine Wut außer Kontrolle gerät",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GgAbm1eKePY/hqdefault.jpg",
+    "duration": "PT1H23M46S",
+    "publishedAt": "2026-11-01T15:00:32Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Alle demütigen ihn in der Schule - bis seine Wut außer Kontrolle gerät",
+    "originalTitle": null,
+    "overview": "Trevor Adams ist ein intelligenter, aber zutiefst verletzter Schüler, dessen Leben durch Mobbing, Ausgrenzung und ständige Demütigungen geprägt ist. Nach einer früheren Bombendrohung gilt er an seiner Schule als gefährlicher Außenseiter. Mitschüler meiden ihn, Lehrer beobachten ihn mit Misstrauen und selbst seine Familie weiß kaum noch, wie sie mit seiner Situation umgehen soll. Doch ein engagierter Theaterlehrer glaubt, dass Trevor mehr ist als das Bild, das die anderen von ihm haben. Er bietet ihm eine Hauptrolle in einem Theaterstück über Gewalt an Schulen an. Für Trevor könnte diese Entscheidung eine zweite Chance bedeuten. Während die Vorbereitungen beginnen, wächst jedoch der Widerstand gegen seine Teilnahme. Eltern und Schulleitung stellen die Aufführung infrage. Gleichzeitig verschärfen sich die Konflikte zwischen Trevor und seinen Mitschülern. Seine unterdrückte Wut droht immer ",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "alle-demuetigen-ihn-in-der-schule-bis-seine-wut-ausser-kontr"
   }
 ]
