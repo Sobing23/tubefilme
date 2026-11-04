@@ -77314,7 +77314,9 @@
     "slug": "destroyer",
     "plausibel": "titel",
     "runtime": 121,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "GjPyOB6ynIs",
@@ -85190,7 +85192,9 @@
     "slug": "foxtrap",
     "plausibel": "titel",
     "runtime": 88,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ds5ZN-Xp2S0",
@@ -156148,7 +156152,7 @@
     "slug": "aus-gebrochenen-soldaten-wurden-monster-und-sie-erkannten-di",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ByL3R60qum0",
@@ -159730,7 +159734,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "running-hero"
+    "slug": "running-hero",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "6cInowAOcSk",
@@ -174893,9 +174899,7 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "locust-3",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "slug": "locust-3"
   },
   {
     "videoId": "GEXdAhV0W8E",
@@ -330574,7 +330578,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "dolph-lundgren-2"
+    "slug": "dolph-lundgren-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "UV8uWorYqus",
@@ -334945,5 +334951,528 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "alle-demuetigen-ihn-in-der-schule-bis-seine-wut-ausser-kontr"
+  },
+  {
+    "videoId": "EO9SEURfzxo",
+    "youtubeTitle": "Diesen THRILLERFILM wirst du in einem Zug durchschauen | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EO9SEURfzxo/hqdefault.jpg",
+    "duration": "PT1H28M11S",
+    "publishedAt": "2026-11-03T16:00:24Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1491388,
+    "title": "Relative Danger",
+    "originalTitle": "Relative Danger",
+    "overview": "",
+    "releaseDate": "2025-09-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3H6lRuI7rUh1mQ89MAfTZkuuaU1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/anAJIFgo94fYmfrVN8AOIjrLW1x.jpg",
+    "voteAverage": 0,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "niedrig",
+    "hinweis": "Zuordnungswert 68 (Suchbegriff: \"Relative Danger\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kirsten Comerford",
+      "Samantha Brown",
+      "Jayne Heitmeyer",
+      "Laura Provenzano",
+      "Dennis Andres"
+    ],
+    "director": [
+      "Roxanne Boisvert"
+    ],
+    "writer": [
+      "Kirsten Comerford",
+      "Roxanne Boisvert"
+    ],
+    "fsk": null,
+    "slug": "relative-danger"
+  },
+  {
+    "videoId": "yzamcjJelJE",
+    "youtubeTitle": "Sie muss die Zukunft der Menschheit retten: Apocalypse - Die letzte Hoffnung (2022) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yzamcjJelJE/hqdefault.jpg",
+    "duration": "PT1H26M12S",
+    "publishedAt": "2026-11-03T15:15:10Z",
+    "channelName": "Utopja",
+    "channelId": "UC5FelnKqltzYS3H1LPlC-Xg",
+    "tmdbId": 1008433,
+    "title": "Apocalypse - Die letzte Hoffnung",
+    "originalTitle": "Dog - Apocalypse",
+    "overview": "Die Erde wird von einer mysteriösen Katastrophe heimgesucht. Eine von Wissenschaftlern nicht zu erklärende, plötzlich weltweit einsetzende Strahlung macht 99,5 Prozent der weiblichen Bevölkerung von einem Tag auf den anderen unfruchtbar. So steht die Menschheit nun vor dem Aussterben. Im Schatten dieser Hoffnungslosigkeit bricht überall Chaos aus und unsere Zivilisation geht in eine gesetzlose Anarchie über. Vor kurzem noch pulsierende Metropolen sind zu Geisterstädten verkommen, während in ihrer langsam, aber sicher verwildernden Peripherie allein das Recht des Stärkeren gilt. Ist der einsam mit einer doppelläufigen Flinte durch die Straßen ziehende Mann, der sich selbst nur Dog nennt, die letzte Hoffnung für das Überleben unserer Spezies? Die junge Mia ist sich sicher, dass dem so ist, und schließt sich ihm an, nachdem er sie aus den Klauen einer marodierenden Bande gerettet hat.",
+    "releaseDate": "2022-03-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3sDpTBunsGQrBu5Zv62TbHUb7Tk.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/y0NqVeODIsQWsJc2QKUl9wmRhFf.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      28,
+      53,
+      878
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Stewart Arnold",
+      "Andy Barreca",
+      "Michael Bertuol",
+      "Pierluigi Ferrero",
+      "Ortensia Fioravanti"
+    ],
+    "director": [
+      "Federico Alotto"
+    ],
+    "writer": [
+      "Federico Alotto",
+      "Andrea Zirio"
+    ],
+    "fsk": "16",
+    "slug": "apocalypse-die-letzte-hoffnung"
+  },
+  {
+    "videoId": "7QEgMTGFw3k",
+    "youtubeTitle": "UN CIELO STELLATO SOPRA IL GHETTO DI ROMA | GANZER FILM | 4K | Ein Foto öffnet die Vergangenheit",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7QEgMTGFw3k/hqdefault.jpg",
+    "duration": "PT1H41M56S",
+    "publishedAt": "2026-11-03T18:00:33Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 706528,
+    "title": "Un cielo stellato sopra il ghetto di Roma",
+    "originalTitle": "Un cielo stellato sopra il ghetto di Roma",
+    "overview": "",
+    "releaseDate": "2020-10-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vKCg3JZFzwsIvlc1jJ33PwXSgZ5.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fG2DU0pRYHs0PAbJmB6d76mOeNM.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Un cielo stellato sopra il ghetto di Roma\")",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bianca Panconi",
+      "Emma Matilda Lió",
+      "Daniele Rampello",
+      "Irene Vetere",
+      "Francesco Rodrigo"
+    ],
+    "director": [
+      "Giulio Base"
+    ],
+    "writer": [
+      "Marco Beretta",
+      "Giulio Base",
+      "Israel Cesare Moscati"
+    ],
+    "fsk": null,
+    "slug": "un-cielo-stellato-sopra-il-ghetto-di-roma"
+  },
+  {
+    "videoId": "wtBTblF3o9I",
+    "youtubeTitle": "Calcinculo | Kettenkarussell | Als der Jahrmarkt kam | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wtBTblF3o9I/hqdefault.jpg",
+    "duration": "PT1H35M44S",
+    "publishedAt": "2026-11-03T18:00:16Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 870712,
+    "title": "Calcinculo",
+    "originalTitle": "Calcinculo",
+    "overview": "Benedetta, eine fettleibige Fünfzehnjährige, die sich nach Aufmerksamkeit sehnt, lebt in einer schäbigen Provinz im Süden Italiens, ein Symbol für ihre innere Landschaft, in der alles sein könnte und doch nicht ist. Sie verliebt sich in Armando, alias Amanda, einen jungen Transvestiten, der von der Unschuld des jungen Mädchens angezogen wird und mit ihr eine ungesunde Beziehung gegenseitiger Abhängigkeit beginnt. Amanda betreibt ein Karussell auf dem Jahrmarkt gegenüber von Benedettas Haus, und das Mädchen wird von dieser farbenfrohen und aufregenden Welt magnetisch angezogen. Aber Amanda betreibt nicht nur das Karussell, sie ist auch Callboy und verkauft Drogen. Zwischen Rausch und familiärer Rebellion und der Entdeckung des Sex – einer großen Enttäuschung – vollzieht sie ihren Übergangsritus ins Erwachsenenalter.",
+    "releaseDate": "2022-03-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/j5KmHXYL0qxGOV2InfRaNl43efZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/biokc2Wx58yF61C8FLNvjS8RH4x.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Calcinculo\")",
+    "runtime": 96,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gaia Di Pietro",
+      "Andrea Carpenzano",
+      "Barbara Chichiarelli",
+      "Giandomenico Cupaiuolo",
+      "Francesca Antonelli"
+    ],
+    "director": [
+      "Chiara Bellosi"
+    ],
+    "writer": [
+      "Luca De Bei",
+      "Maria Teresa Venditti"
+    ],
+    "fsk": null,
+    "slug": "calcinculo"
+  },
+  {
+    "videoId": "OTCY2wyBayg",
+    "youtubeTitle": "THE ONES YOU DIDN'T BURN – Eine verfluchte Farm und ein uraltes Hexengeheimnis! (Horror)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/OTCY2wyBayg/hqdefault.jpg",
+    "duration": "PT1H10M22S",
+    "publishedAt": "2026-11-03T18:30:38Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": 974264,
+    "title": "The Ones You Didn’t Burn",
+    "originalTitle": "The Ones You Didn’t Burn",
+    "overview": "Nach dem Tod ihres Vaters kehrt das Geschwisterpaar Nathan und Mirra auf die Farm ihrer Eltern zurück, um sie zu verkaufen. Vor Ort treffen sie auf zwei Frauen, die behaupten, dass das Land einst von ihren Vorfahren gestohlen wurde, nachdem man sie der Hexerei bezichtigt hatte. Bald sind die beiden Geschwister Teil einer okkulten Verschwörung.",
+    "releaseDate": "2022-06-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rwL4MbF2poznrXUbrZljPgEmLbT.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ywCZ6Ka52kvBXn0Fim356kzEJZ2.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 70,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Elise Finnerty",
+      "Samuel Dunning",
+      "Estelle Girard Parks",
+      "Nathan Wallace",
+      "Jenna Rose Sander"
+    ],
+    "director": [
+      "Elise Finnerty"
+    ],
+    "writer": [
+      "Elise Finnerty"
+    ],
+    "fsk": "16",
+    "slug": "the-ones-you-didn-t-burn"
+  },
+  {
+    "videoId": "-QD8WnUaYEU",
+    "youtubeTitle": "The Spring of my life | Der Frühling meines Lebens | Alte Freunde | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-QD8WnUaYEU/hqdefault.jpg",
+    "duration": "PT1H34M27S",
+    "publishedAt": "2026-11-03T21:00:35Z",
+    "channelName": "Deutsch Film Hub",
+    "channelId": "UCMdvU2xCSxMUJKbwq5zEC4Q",
+    "tmdbId": 62208,
+    "title": "Alte Freunde",
+    "originalTitle": "Alte Freunde",
+    "overview": "Da stehen ein paar ausgewachsene Kerle Anfang 40 wie die Orgelpfeifen auf einem Steg, pinkeln andächtig ins Wasser und heulen wie blöde den Mond an. Es sind Jugendfreunde. Eigentlich haben sie sich getroffen, um einen der Ihren unter die Erde zu bringen. Er fiel einer dämlichen Mutprobe mit dem Motorrad zum Opfer. Bei der Trauerfeier lief ein Song von Jimi Hendrix. Jetzt geben seine Kumpels sich die Kante, lassen noch einmal alte Zeiten, infantile Rituale und ihr trotziges Mantra „Am Arsch hängt der Hammer!“ hochleben, ganz so, als könnte mit und zwischen ihnen alles wieder so sein wie damals. Dass das nicht funktionieren kann, wissen sie alle und versuchen es trotzdem.",
+    "releaseDate": "2008-02-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pgINW5pN1vNxidJWiZHxCh5dvDM.jpg",
+    "backdropUrl": null,
+    "voteAverage": 2,
+    "genreIds": [
+      35,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 89 min, Video 94 min · Zuordnungswert 121 (Suchbegriff: \"Alte Freunde\")",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jürgen Vogel",
+      "Marie Bäumer",
+      "Oliver Breite",
+      "Jürgen Tonkel",
+      "Robert Schupp"
+    ],
+    "director": [
+      "Friedemann Fromm"
+    ],
+    "writer": [
+      "Friedemann Fromm"
+    ],
+    "fsk": null,
+    "slug": "alte-freunde"
+  },
+  {
+    "videoId": "t0vjYWDD3Lc",
+    "youtubeTitle": "The Gambler | 2014 | 4K | Mark Wahlberg | Krimi | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/t0vjYWDD3Lc/hqdefault.jpg",
+    "duration": "PT1H46M9S",
+    "publishedAt": "2026-11-03T18:00:24Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 284536,
+    "title": "The Gambler",
+    "originalTitle": "The Gambler",
+    "overview": "Der Literaturprofessor Jim Bennett hat ein echtes Problem. Seine Spielsucht bringt ihn immer wieder in äußerst prekäre Situationen, besonders wenn man bedenkt, wem er alles Geld schuldet. Seine reiche Mutter, die ihren Sohn längst abgeschrieben hat, ist da wohl noch das geringste Problem. Viel gefährlicher dagegen ist der Gangster Neville, der sein Geld mit Nachdruck zurückfordert und für den ein Leben nichts anderes ist als ein Pfand. Er begibt sich bald auf illegales und riskantes Terrain, um die zwielichtigen Persönlichkeiten, mit denen er sich eingelassen hat, auszutricksen. Das erregt schließlich auch die Aufmerksamkeit des Kredithais Frank, der ein fast schon väterliches Interesse an Bennetts Zukunft hegt. Doch inwieweit kann Bennett ihm wirklich trauen?",
+    "releaseDate": "2014-12-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qpFo7ncCswqEsEuBXzfP82oDDOE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ni6AHnsPMdH8jaK2wT3MRXA7JCi.jpg",
+    "voteAverage": 6.061,
+    "genreIds": [
+      53,
+      80,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 111,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Mark Wahlberg",
+      "John Goodman",
+      "Brie Larson",
+      "Michael Kenneth Williams",
+      "George Kennedy"
+    ],
+    "director": [
+      "Rupert Wyatt"
+    ],
+    "writer": [
+      "William Monahan"
+    ],
+    "fsk": "12",
+    "slug": "the-gambler"
+  },
+  {
+    "videoId": "ODfcvqW79x4",
+    "youtubeTitle": "Stalag 17 | 1953 | Billy Wilder | Kultfilm mit William Holden",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ODfcvqW79x4/hqdefault.jpg",
+    "duration": "PT1H55M36S",
+    "publishedAt": "2026-11-03T17:00:02Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 632,
+    "title": "Stalag 17",
+    "originalTitle": "Stalag 17",
+    "overview": "Zweiter Weltkrieg: Im berüchtigten deutschen Kriegsgefangenenlager Stalag 17 tut sich eine Handvoll amerikanischer GI's zusammen. Ihr gemeinsames Ziel - Flucht! Immer wieder schmieden sie neue Pläne, wie sie einander helfen können zu entkommen. Doch dann sterben zwei von ihnen bei einem Fluchtversuch. Und den anderen wird klar: In ihrer Mitte gibt es einen Verräter!",
+    "releaseDate": "1953-05-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lfve9FDKjT7JPbWI9NCs5340F79.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rM3C9s0b9oiOQDdrfLSOoE0sjWl.jpg",
+    "voteAverage": 7.681,
+    "genreIds": [
+      35,
+      18,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 120,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "William Holden",
+      "Don Taylor",
+      "Otto Preminger",
+      "Robert Strauss",
+      "Harvey Lembeck"
+    ],
+    "director": [
+      "Billy Wilder"
+    ],
+    "writer": [
+      "Billy Wilder",
+      "Edwin Blum"
+    ],
+    "fsk": null,
+    "slug": "stalag-17"
+  },
+  {
+    "videoId": "W4f9iWKflIE",
+    "youtubeTitle": "Stalingrad | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/W4f9iWKflIE/hqdefault.jpg",
+    "duration": "PT2H5M34S",
+    "publishedAt": "2026-11-03T13:00:19Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 11101,
+    "title": "Stalingrad",
+    "originalTitle": "Stalingrad",
+    "overview": "Stalingrad 1942. Die 6. Armee der deutschen Wehrmacht ist einmarschiert und beginnt eine gnadenlose Schlacht. Nach anfänglichen Eroberungen werden die Soldaten von der Roten Armee eingekesselt: Auftakt für ein Gemetzel, das für viele die Entscheidungsschlacht des Zweiten Weltkrieges symbolisiert. Für Fritz, \"Rollo\", \"GeGe\" und ihre Kameraden nur ein grausamer Kampf ums Überleben.",
+    "releaseDate": "1993-01-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9ImjUUSnVnVHgTxjq6OhANXyVVi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mo2O5ESdB7PWnY3OBS9jjvjeskB.jpg",
+    "voteAverage": 7.334,
+    "genreIds": [
+      18,
+      36,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (3 Filme), Laufzeit passt zu keinem (Video 126 min) -- bitte prüfen · Zuordnungswert 135 (Suchbegriff: \"Stalingrad\")",
+    "runtime": 134,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Dominique Horwitz",
+      "Thomas Kretschmann",
+      "Jochen Nickel",
+      "Sebastian Rudolph",
+      "Dana Vávrová"
+    ],
+    "director": [
+      "Joseph Vilsmaier"
+    ],
+    "writer": [
+      "Johannes Heide",
+      "Jürgen Büscher",
+      "Joseph Vilsmaier"
+    ],
+    "fsk": "12",
+    "slug": "stalingrad-2"
+  },
+  {
+    "videoId": "5WXfLRiZwzg",
+    "youtubeTitle": "The War Below - Packender Historienfilm nach wahrer Geschichte - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5WXfLRiZwzg/hqdefault.jpg",
+    "duration": "PT1H36M42S",
+    "publishedAt": "2026-11-03T15:00:07Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 810413,
+    "title": "The War Below",
+    "originalTitle": "The War Below",
+    "overview": "Belgien im Ersten Weltkrieg: Der britische Colonel Hellfire Jack (Tom Goodman-Hill) hat einen perfiden Plan, wie er die Schlacht bei Messines gegen die Deutschen nach einem zermürbenden Stellungskrieg für sich entscheiden kann. Er versammelt eine Gruppe von Bergarbeitern, die unterhalb der deutschen Linien einen Tunnel graben und dort Sprengsätze platzieren sollen, um die feindlichen Truppen zu dezimieren. Währenddessen fassen die Deutschen jedoch einen ähnlichen Plan und buddeln sich in Richtung der Briten vor...",
+    "releaseDate": "2021-09-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1wqTZuX2si1jwHuSBWpSuFJaJYa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5DS1YPuxnl6LK53uZ6xMMJM291q.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      10752,
+      18,
+      36
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Sam Hazeldine",
+      "Tom Goodman-Hill",
+      "Kris Hitchen",
+      "Elliot J. Langridge",
+      "Sam Clemmett"
+    ],
+    "director": [
+      "J.P. Watts"
+    ],
+    "writer": [
+      "J.P. Watts",
+      "Thomas Woods"
+    ],
+    "fsk": "12",
+    "slug": "the-war-below"
+  },
+  {
+    "videoId": "e_RVPUqsVds",
+    "youtubeTitle": "Er predigt Liebe und bringt den Terror: Missionary (2013) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/e_RVPUqsVds/hqdefault.jpg",
+    "duration": "PT1H28M30S",
+    "publishedAt": "2026-11-03T16:30:35Z",
+    "channelName": "TitanumX",
+    "channelId": "UCnlIBYHTpD2R3BQuE6nsSKw",
+    "tmdbId": 207766,
+    "title": "Missionary",
+    "originalTitle": "Missionary",
+    "overview": "Katherine lebt mit ihrem Sohn Kesley nach der Trennung von ihrem Mann zurückgezogen. Eines Tages lernt sie den freundlichen mormonischen Missionar Kevin Brock kennen. Bald fühlt sich Katherine zu dem jungen Mann, der ihr zuhört und ihr Verständnis zeigt, mehr und mehr hingezogen. Nach einer kurzen, leidenschaftlichen Affäre versöhnt sie sich aber wieder mit ihrem Exmann Ian. Doch Kevin will das nicht akzeptieren. Sein tiefer Glauben ist nur Fassade, die langsam bröckelt. Nun zeigt er seine andere, dunkle Seite. Etwas, das er einmal „besessen“ hat, gibt er nicht wieder her. Und auch kein anderer darf es besitzen. Für Kevin gibt es nur einen Weg, die Sache zu beenden ...",
+    "releaseDate": "2013-08-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/s5nNj0VrFn0G2IeezISrBsbLhqv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qiGmQNr8Nnj0eFdXBuMyXPUMmXd.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      18,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Dawn Olivieri",
+      "Mitch Ryan",
+      "Kip Pardue",
+      "J. LaRose",
+      "Connor Christie"
+    ],
+    "director": [
+      "Anthony DiBlasi"
+    ],
+    "writer": [
+      "Scott Poiley",
+      "Bruce Wood"
+    ],
+    "fsk": "16",
+    "slug": "missionary"
+  },
+  {
+    "videoId": "hc5zuExlnZs",
+    "youtubeTitle": "SIE TÖTETEN SEINE ELTERN – DOCH SIE AHNTEN NICHT, DASS ER ZWEIMAL ZURÜCKKOMMT | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hc5zuExlnZs/hqdefault.jpg",
+    "duration": "PT1H27M20S",
+    "publishedAt": "2026-11-02T09:40:12Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "SIE TÖTETEN SEINE ELTERN - DOCH SIE AHNTEN NICHT, DASS ER ZWEIMAL ZURÜCKKOMMT",
+    "originalTitle": null,
+    "overview": "Actionfilm ganzer Film Deutsch, Jean-Claude Van Damme Film, Bolo Yeung Kampf, Bruce Lee Stil, Martial Arts Film, Kung Fu Actionfilm, Hongkong Actionfilm, Mafia Actionfilm, Triaden Hongkong, zwei Brüder Rache, Zwillingsbrüder Action, Kampfsportfilm, klassische Actionfilme 90er, Hollywood Action Klassiker, Karate Film, brutale Faustkämpfe, Actionthriller Deutsch, Ganzer Film HD.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "sie-toeteten-seine-eltern-doch-sie-ahnten-nicht-dass-er-zwei"
+  },
+  {
+    "videoId": "IQfeQ5VqBiY",
+    "youtubeTitle": "😨 Ein FILM, den sich jede Frau heute ansehen sollte! Krimi-Thriller | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/IQfeQ5VqBiY/hqdefault.jpg",
+    "duration": "PT1H56M5S",
+    "publishedAt": "2026-11-02T12:40:04Z",
+    "channelName": "Kinohof",
+    "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
+    "tmdbId": null,
+    "title": "Elle",
+    "originalTitle": null,
+    "overview": "Auf Kinohof kannst du ganze Filme auf Deutsch kostenlos bei YouTube ansehen. Du suchst einen Spielfilm für heute Abend oder möchtest am Wochenende einen Film in voller Länge genießen? Stöbere durch unseren Kanal, entdecke verschiedene Geschichten und finde einen Film, der dich interessiert. Ob für einen gemütlichen Filmabend oder zwischendurch – hier kannst du Filme kostenlos online schauen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "elle-2"
   }
 ]
