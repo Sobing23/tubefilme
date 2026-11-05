@@ -41377,7 +41377,9 @@
     "slug": "wo-dein-schatz-ist-da-ist-auch-dein-herz",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "9rprEvg7Dr0",
@@ -46754,9 +46756,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "BCX2o3LJJgk",
-    "youtubeTitle": "Johnny – Jeder Mensch hat eine Mission (DRAMA ganzer Film Deutsch, Filme für die ganze Familie)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/BCX2o3LJJgk/hqdefault.jpg",
+    "videoId": "OCz2IBbxZOg",
+    "youtubeTitle": "Johnny – Jeder Mensch hat eine Mission (Filme für die ganze Familie, DRAMA ganzer Film Deutsch, HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/OCz2IBbxZOg/hqdefault.jpg",
     "duration": "PT1H22M14S",
     "publishedAt": "2022-06-14T13:00:04Z",
     "channelName": "Netzkino",
@@ -49157,9 +49159,9 @@
     "nichtVerfuegbarGrund": "geloescht"
   },
   {
-    "videoId": "8ohBr5FZyz8",
-    "youtubeTitle": "Das vergessene Pferd – Saving Winston (🐴 Filme mit Pferden auf Deutsch komplett in voller Länge)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/8ohBr5FZyz8/hqdefault.jpg",
+    "videoId": "YtdqPts9Kn4",
+    "youtubeTitle": "Das vergessene Pferd - Saving Winston (Drama, Pferdefilm, ganzer Film) *HD*",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YtdqPts9Kn4/hqdefault.jpg",
     "duration": "PT1H22M40S",
     "publishedAt": "2022-02-06T12:00:10Z",
     "channelName": "Netzkino",
@@ -89227,12 +89229,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "WJht46Ab5Xk",
-    "youtubeTitle": "DAS ZERRISSENE LASSO – Verrat, Rache & gnadenlose Gerechtigkeit, Westernfilm auf Deutsch schauen",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/WJht46Ab5Xk/hqdefault.jpg",
+    "videoId": "_y70A3Q7PAI",
+    "youtubeTitle": "Das zerrissene Lasso - The Wild Westerners‎ (1962) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_y70A3Q7PAI/hqdefault.jpg",
     "duration": "PT1H7M3S",
     "publishedAt": "2026-02-08T18:30:00Z",
-    "channelName": "Dzango",
+    "channelName": "Absolute Action",
     "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
     "tmdbId": 345386,
     "title": "Das Zerrissene Lasso",
@@ -89265,9 +89267,7 @@
     "slug": "das-zerrissene-lasso",
     "plausibel": "titel",
     "runtime": 75,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "plausibelVersion": 4
   },
   {
     "videoId": "Tz3lAPr6CDo",
@@ -149897,7 +149897,9 @@
     "slug": "25-km-h",
     "plausibel": "titel",
     "runtime": 116,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "cHrhB5jPpc8",
@@ -163147,7 +163149,9 @@
     "slug": "entscheidung-am-big-horn",
     "plausibel": "titel",
     "runtime": 101,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "K7EIkhxav_0",
@@ -212432,7 +212436,9 @@
     "writer": [],
     "fsk": null,
     "slug": "sie-begruben-den-arzt-20-jahre-spaeter-kehrt-er-zurueck",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "pw9TXXPKTSc",
@@ -230977,7 +230983,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "el-dorado-stadt-aus-gold"
+    "slug": "el-dorado-stadt-aus-gold",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "_fg8QCjWyQQ",
@@ -232503,7 +232511,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "obsession-liebe-ist-ein-gefaehrliches-spiel"
+    "slug": "obsession-liebe-ist-ein-gefaehrliches-spiel",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "y1-DySdCyKM",
@@ -256902,7 +256912,9 @@
       "Tommy Blaze"
     ],
     "fsk": null,
-    "slug": "gott-ist-nicht-tot-5-wir-vertrauen-auf-gott"
+    "slug": "gott-ist-nicht-tot-5-wir-vertrauen-auf-gott",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "VAk481C-2rY",
@@ -293039,12 +293051,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "pKvQyn0ivQE",
-    "youtubeTitle": "Project Ithaca | Sci-Fi Thriller | Horrorfilm in voller Länge",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/pKvQyn0ivQE/hqdefault.jpg",
+    "videoId": "qBn1i4DOfcs",
+    "youtubeTitle": "Project Ithaca | SCIENCE FICTION HORROR FILM Deutsch | SciFi Thriller | WELTALL ALIEN FILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/qBn1i4DOfcs/hqdefault.jpg",
     "duration": "PT1H23M33S",
     "publishedAt": "2026-05-06T17:01:12Z",
-    "channelName": "Bigtime",
+    "channelName": "Movies Select",
     "channelId": "UCMo_16a109pQo75cZOtNObg",
     "tmdbId": 600836,
     "title": "Project Ithaca",
@@ -294907,12 +294919,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "bgw52zv_1UE",
-    "youtubeTitle": "Unser Fluss... Unser Himmel | Dramatischer Kriegsfilm | Ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/bgw52zv_1UE/hqdefault.jpg",
+    "videoId": "AsEjEHk3P4A",
+    "youtubeTitle": "Unser Fluss... unser Himmel (OmU) (DRAMA/ GANZER FILM)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AsEjEHk3P4A/hqdefault.jpg",
     "duration": "PT1H57M41S",
     "publishedAt": "2025-08-27T18:00:06Z",
-    "channelName": "Bigtime",
+    "channelName": "Free Movies Deutschland",
     "channelId": "UCMo_16a109pQo75cZOtNObg",
     "tmdbId": 855800,
     "title": "Unser Fluss ... Unser Himmel",
@@ -314481,7 +314493,7 @@
     ],
     "fsk": null,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarGrund": "geloescht",
     "slug": "welcome-back-miss-mary",
     "runtime": 105,
     "plausibel": "titel",
@@ -325307,7 +325319,9 @@
     "slug": "one-two",
     "runtime": 91,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "rgSXxDgTKk4",
@@ -335474,5 +335488,593 @@
     "writer": [],
     "fsk": null,
     "slug": "elle-2"
+  },
+  {
+    "videoId": "B9-xEbnJKIg",
+    "youtubeTitle": "Sie fährt mit ihrer Freundin in die Flitterwochen und findet unerwartet die Liebe | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/B9-xEbnJKIg/hqdefault.jpg",
+    "duration": "PT1H28M44S",
+    "publishedAt": "2026-11-04T16:00:17Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1032621,
+    "title": "The Honeymoon Pact",
+    "originalTitle": "The Honeymoon Pact",
+    "overview": "",
+    "releaseDate": "2023-02-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aSNr3FKV79JpZQGL2frDnmdE0BH.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/s2MrW5sav3E71jGrOnUwX845ZJg.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      10770,
+      35,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"The Honeymoon Pact\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Debs Howard",
+      "Edward Ruttle",
+      "Kiran Madahar",
+      "Peter Louis Chouinard",
+      "Beth Fotheringham"
+    ],
+    "director": [
+      "Jason Bourque"
+    ],
+    "writer": [
+      "Grace Knight"
+    ],
+    "fsk": null,
+    "slug": "the-honeymoon-pact"
+  },
+  {
+    "videoId": "Fe_PVab1r3Y",
+    "youtubeTitle": "Spieltrieb - mit Jannik Schümann, ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Fe_PVab1r3Y/hqdefault.jpg",
+    "duration": "PT1H40M24S",
+    "publishedAt": "2026-11-04T23:00:08Z",
+    "channelName": "Free Films Emotion",
+    "channelId": "UC6DTsN_DKPGsPVckgfzYznw",
+    "tmdbId": 226693,
+    "title": "Spieltrieb",
+    "originalTitle": "Spieltrieb",
+    "overview": "Die hochbegabte Ada ist Einzelgängerin an ihrer Schule. Als der unnahbare, fast dämonisch wirkende Alev der Klasse als neuer Mitschüler vorgestellt wird, ist Ada von seiner selbstbewussten und kühlen Art fasziniert. Sie fühlt sich auch körperlich stark von ihm angezogen, obwohl dieser angibt, keine Liebesbeziehung eingehen zu können. Die beiden kommen sich näher und bald schildert Alev ihr seine Theorie vom Spieltrieb, die besagt, dass alle Handlungen des Menschen Spielhandlungen sind. Sein Ziel ist es, die Menschen wie Spielfiguren zu steuern und zu manipulieren. Bald reift in Alev ein Plan für ein perfides Spiel, das außer Kontrolle gerät....",
+    "releaseDate": "2013-10-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wYVZNUKyBEEf4uIoHFOUn0ZoDTx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qOCmJPcn0Zdi5zKKeQIY0hE0Twz.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 102,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Michelle Barthel",
+      "Jannik Schümann",
+      "Maximilian Brückner",
+      "Richy Müller",
+      "Ulrike Folkerts"
+    ],
+    "director": [
+      "Gregor Schnitzler"
+    ],
+    "writer": [
+      "Kathrin Richter",
+      "Jürgen Schlagenhof"
+    ],
+    "fsk": "12",
+    "slug": "spieltrieb"
+  },
+  {
+    "videoId": "fRAseGITBco",
+    "youtubeTitle": "Brado | Ein Pferd zwischen zwei Welten | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fRAseGITBco/hqdefault.jpg",
+    "duration": "PT1H56M9S",
+    "publishedAt": "2026-11-04T18:00:23Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 770719,
+    "title": "Brado",
+    "originalTitle": "Brado",
+    "overview": "",
+    "releaseDate": "2022-10-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9ikaEuDkjnpGjbZj2GJCgU15xPF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qIS1v5r2VIejdqsNglOynb7UZJs.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Brado\")",
+    "runtime": 117,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Saul Nanni",
+      "Kim Rossi Stuart",
+      "Barbora Bobuľová",
+      "Viola Sofia Betti",
+      "Federica Pocaterra"
+    ],
+    "director": [
+      "Kim Rossi Stuart"
+    ],
+    "writer": [
+      "Kim Rossi Stuart",
+      "Massimo Gaudioso"
+    ],
+    "fsk": null,
+    "slug": "brado"
+  },
+  {
+    "videoId": "_1pWa_UBn8E",
+    "youtubeTitle": "Der Weihnachtsurlaub (WEIHNACHTSFILM KLASSIKER in voller Länge, Weihnachtsfilme Deutsch ganzer Film)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_1pWa_UBn8E/hqdefault.jpg",
+    "duration": "PT1H28M31S",
+    "publishedAt": "2026-11-04T18:00:18Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 26530,
+    "title": "Weihnachtsurlaub",
+    "originalTitle": "Christmas Holiday",
+    "overview": "Deanna Durbin und Gene Kelly spielen die Hauptrollen und wurden entgegen ihren sonstigen leichteren Rollen für einen ernsten Film gecastet. Durbin spielt eine Sängerin, die in einem Nachtclub Charlie Mason  kennenlernt. In Rückblenden erzählt sie ihm von ihrer Ehe mit dem reichen aber mental instabilen Aristokraten Robert Manette.",
+    "releaseDate": "1944-06-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nTrumh0ynfCuB8AT0DxRAgtXvOI.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mARgLmutZwDevkyGk5GuIm7HJlR.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      80,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Deanna Durbin",
+      "Gene Kelly",
+      "Richard Whorf",
+      "Dean Harens",
+      "Gladys George"
+    ],
+    "director": [
+      "Robert Siodmak"
+    ],
+    "writer": [
+      "Herman J. Mankiewicz"
+    ],
+    "fsk": null,
+    "slug": "weihnachtsurlaub"
+  },
+  {
+    "videoId": "2-TL8lzFuiI",
+    "youtubeTitle": "Die Olsenbande läuft Amok - Komödie | 1973 | HD | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2-TL8lzFuiI/hqdefault.jpg",
+    "duration": "PT1H36M8S",
+    "publishedAt": "2026-11-04T14:00:04Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 15499,
+    "title": "Die Olsenbande läuft Amok",
+    "originalTitle": "Olsen-banden går amok",
+    "overview": "Diesmal versucht die Olsenbande in einem Kino an Geld zu kommen. Jedoch wie immer vergeblich: Egon wird geschnappt und eingesperrt. Als er wieder entlassen wird, findet er nicht wie sonst üblich Benny und Kjeld vor dem Gefängnis vor, sondern Dynamit-Harry. Von diesem erfährt er, dass die Beiden in einem Tante-Emma-Laden arbeiten, den Benny von seinen zukünftigen Schwiegervater übernehmen wird. Allein gelassen von den Zwei, kommt Egon bei Dynamit-Harry unter und versucht den größten Coup seines Lebens durchzuführen: den Tresor der Firma Hallandsen zu knacken. Auch Kriminalkommissar Jensen hat es auf die zwielichtige Firma abgesehen und lässt diese beschatten. Doch bevor Egon seinen Plan durchführen kann braucht er Startkapital. Mit Hilfe von Dynamit-Harry bricht er zufällig genau in den Laden ein, wo Benny und Kjeld angestellt sind…",
+    "releaseDate": "1973-10-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5XGvpBB9grXczpEFMrWGC23vdD5.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hDMVgJkXypokiMvaI3rsHrhYU54.jpg",
+    "voteAverage": 6.9,
+    "genreIds": [
+      10751,
+      35,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ove Sprogøe",
+      "Morten Grunwald",
+      "Poul Bundgaard",
+      "Kirsten Walther",
+      "Preben Kaas"
+    ],
+    "director": [
+      "Erik Balling"
+    ],
+    "writer": [
+      "Henning Bahs",
+      "Erik Balling"
+    ],
+    "fsk": "12",
+    "slug": "die-olsenbande-laeuft-amok"
+  },
+  {
+    "videoId": "fr8cewS5jHQ",
+    "youtubeTitle": "Neun Gegner, eine Todesliste: SIE NANNTEN IHN TRÜMMERFAUST | Martial Arts | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fr8cewS5jHQ/hqdefault.jpg",
+    "duration": "PT1H25M17S",
+    "publishedAt": "2026-11-04T17:15:11Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 163221,
+    "title": "Die Todeskralle des gelben Tigers",
+    "originalTitle": "洪拳與佛掌",
+    "overview": "Als der Sohn des berühmten Kung-Fu-Meisters Wang ermordet wird, schickt Wang seinen besten Schüler Cheng Hua aus, um dessen Mörder zu finden und die Tat zu rächen. Mörder soll der mysteriöse Chang Yuan-Shan sein, der die Provinzen mit acht anderen Kämpfern terrorisiert. Cheng Hua gelangt in den Besitz einer Liste, die die Namen der Verbrecher enthält. Mit Hilfe seines Mitschülers A Chai gelingt es Cheng Kuan, alle Verbrecher zu besiegen und den Mörder zur Strecke zu bringen.",
+    "releaseDate": "1980-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/34BnHHYp3j0dGk7fRizpqzj7ibP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/irpXJMcVovqJWF7v8SOTplvafJ1.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      28
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 85,
+    "plausibel": "besetzung",
+    "plausibelVersion": 4,
+    "cast": [
+      "Chi Kuan-Chun",
+      "Li Yi-Min",
+      "Lam Yi-Wa",
+      "趙中興",
+      "Eva Lin"
+    ],
+    "director": [
+      "Ko Pao"
+    ],
+    "writer": [
+      "Cheung Fung"
+    ],
+    "fsk": "18",
+    "slug": "die-todeskralle-des-gelben-tigers"
+  },
+  {
+    "videoId": "Tw8NyUhnktk",
+    "youtubeTitle": "Die verzauberte Schneekugel - dieser Weihnachtsfilm bietet eine magische Welt - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Tw8NyUhnktk/hqdefault.jpg",
+    "duration": "PT1H30M35S",
+    "publishedAt": "2026-11-04T15:00:01Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 249060,
+    "title": "Die verzauberte Schneekugel",
+    "originalTitle": "A Snow Globe Christmas",
+    "overview": "Fernsehproduzentin Meg muss das Weihnachtsprogramm organisieren, hat aber mit Weihnachtsromantik wenig im Sinn. Als sie von einer Schneekugel am Haupt getroffen wird und aus ihrer Bewusstlosigkeit erwacht, findet sie sich wieder in einem idyllischen kleinen Dörfchen nicht unähnlich dem in der Schneekugel, als Ehefrau eines farbigen Holzfällers und Mutter von zwei Teenager-Kindern. Zunächst an einen Scherz der Kollegen glaubend, muss sie feststellen, dass die Sache realer ist, als sie annimmt. Nun muss sie sich in der fremden Welt bewähren.",
+    "releaseDate": "2013-12-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1ZBs8yo0jsw0fhrwqS2XPw0R1sc.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/81llYck0QStrueHYe2WKXMZSIfD.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      18,
+      10749,
+      14,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Alicia Witt",
+      "Donald Faison",
+      "Christina Milian",
+      "Trevor Donovan",
+      "Art LaFleur"
+    ],
+    "director": [
+      "Jodi Binstock"
+    ],
+    "writer": [
+      "Naomi L. Selfman",
+      "Delondra Williams"
+    ],
+    "fsk": "6",
+    "slug": "die-verzauberte-schneekugel"
+  },
+  {
+    "videoId": "ZoLqw7qVlqs",
+    "youtubeTitle": "😨 Ein FILM, bei dem Sie von diesen spannenden Szenen nicht wegsehen können! | Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZoLqw7qVlqs/hqdefault.jpg",
+    "duration": "PT1H26M32S",
+    "publishedAt": "2026-11-04T13:07:53Z",
+    "channelName": "Kinohof",
+    "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
+    "tmdbId": 1010628,
+    "title": "In Love with My Partner's Wife",
+    "originalTitle": "In Love with My Partner's Wife",
+    "overview": "",
+    "releaseDate": "2022-08-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7d53PAINezFyAatOeseLggypOtA.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oK7WthAwf5g4dzpyPYBkNnRQJ2t.jpg",
+    "voteAverage": 7.7,
+    "genreIds": [
+      10770,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"In Love with My Partner's Wife\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gina Vitori",
+      "Andrew Spach",
+      "Jonathan Stoddard",
+      "Isabella Oliveira",
+      "Nicole Pulliam"
+    ],
+    "director": [
+      "Lindsay Hartley"
+    ],
+    "writer": [
+      "Paula Rahn"
+    ],
+    "fsk": null,
+    "slug": "in-love-with-my-partner-s-wife"
+  },
+  {
+    "videoId": "nscCIymLL-s",
+    "youtubeTitle": "Drei gegen Hollywood (1982) [Komödie] | Das Abenteuer der ersten Tonfilme | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nscCIymLL-s/hqdefault.jpg",
+    "duration": "PT1H40M19S",
+    "publishedAt": "2026-11-04T17:00:23Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 264295,
+    "title": "Drei gegen Hollywood",
+    "originalTitle": "Drei gegen Hollywood",
+    "overview": "Drei gegen Hollywood ist eine deutsche Fernsehfilm-Kömodie von Sigi Rothemund aus dem Jahr 1982. Der Film basiert auf dem Theaterstück Once in a Lifetime von Moss Hart und George S. Kaufman aus dem Jahr 1930",
+    "releaseDate": "1982-02-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aMmu1IY7JGBBMpTamnoRSgHQm5K.jpg",
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      10770,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Hans Peter Korff",
+      "Beatrice Richter",
+      "Ulrich Faulhaber",
+      "Lambert Hamel",
+      "Elisabeth Volkmann"
+    ],
+    "director": [
+      "Sigi Rothemund"
+    ],
+    "writer": [],
+    "fsk": "12",
+    "slug": "drei-gegen-hollywood"
+  },
+  {
+    "videoId": "zNribR_ObKA",
+    "youtubeTitle": "Ein geheimer Plan gegen den fiesen Direktor: Robin Hood Junior – Abenteuer auf dem Schulhof",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zNribR_ObKA/hqdefault.jpg",
+    "duration": "PT1H24M51S",
+    "publishedAt": "2026-11-04T14:30:02Z",
+    "channelName": "Fantasja",
+    "channelId": "UCn8xSBNGvaaU20JCJBuVPlQ",
+    "tmdbId": 866347,
+    "title": "Robin Hood Junior - Abenteuer auf dem Schulhof",
+    "originalTitle": "Tales of a Fifth Grade Robin Hood",
+    "overview": "Der kleine Robin Hoode stößt auf ein erschütterndes Geheimnis an seiner Schule: Der Direktor sackt Geld aus Spendenaktionen ein. Das kann Robin nicht auf sich sitzen lassen und tut alles, um das Geld zurückzubekommen.",
+    "releaseDate": "2021-08-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cYitqyA5BPHgpZh22tP5jm53XXd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uOxotidiawCR9Zrr1XvgtXuUKbS.jpg",
+    "voteAverage": 3,
+    "genreIds": [
+      10751,
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jacquelin Arroyo",
+      "Phillip Andre Botello",
+      "Chase Brown",
+      "Stephen Kramer Glickman",
+      "G. Anthony Joseph"
+    ],
+    "director": [
+      "Dylan Vox"
+    ],
+    "writer": [
+      "Ryan Ebert",
+      "Anna Rasmussen"
+    ],
+    "fsk": null,
+    "slug": "robin-hood-junior-abenteuer-auf-dem-schulhof"
+  },
+  {
+    "videoId": "rZI9vgtNK44",
+    "youtubeTitle": "Ein Raub Führt Zu Tragödie—Und Erinnerungen Werden Gefährlich | Awakening The Last Dream | Drama",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rZI9vgtNK44/hqdefault.jpg",
+    "duration": "PT1H6M34S",
+    "publishedAt": "2026-11-04T13:00:33Z",
+    "channelName": "Stash auf Deutsch",
+    "channelId": "UCxouNAvM6cFw3xNftPP_4eQ",
+    "tmdbId": 1793195,
+    "title": "Awakening The Last Dream",
+    "originalTitle": "Awakening The Last Dream",
+    "overview": "Rami, der verzweifelt versucht, seiner Frau ein besseres Leben zu ermöglichen, wendet sich dem Verbrechen zu, bis ein Raubüberfall in einer Tragödie endet. Von ihrem Tod verfolgt, sucht er Hilfe bei einem mysteriösen Arzt, der ihn in eine surreale Welt voller Erinnerungen und Illusionen entführt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": 0,
+    "genreIds": [
+      18,
+      878,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Eray Sarayli",
+      "Gaye Sarayli",
+      "Kerem Şahin",
+      "Burak Çelik",
+      "Mert Aydın"
+    ],
+    "director": [
+      "Eray Sarayli"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "awakening-the-last-dream"
+  },
+  {
+    "videoId": "dEg124_pEPo",
+    "youtubeTitle": "SIE WOLLTEN IHN TOT SEHEN – DOCH JETZT JAGT ER SEINE EIGENEN JÄGER | Dolph Lundgren Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dEg124_pEPo/hqdefault.jpg",
+    "duration": "PT1H32M28S",
+    "publishedAt": "2026-11-03T12:28:58Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "SIE WOLLTEN IHN TOT SEHEN - DOCH JETZT JAGT ER SEINE EIGENEN JÄGER",
+    "originalTitle": null,
+    "overview": "Aus der Flucht wird ein Kampf ums Überleben. Schnelle Autos, korrupte Cops und eine Verschwörung innerhalb der Polizei führen tief in die kalifornische Wüste, wo es schließlich nicht mehr darum geht, dem Gesetz zu entkommen – sondern lange genug am Leben zu bleiben, um zu beweisen, wer die wirklichen Killer sind.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "sie-wollten-ihn-tot-sehen-doch-jetzt-jagt-er-seine-eigenen-j"
+  },
+  {
+    "videoId": "_qf2AWsntZ8",
+    "youtubeTitle": "Josefine Preuß & Laurence Rupp im Wien der Intrigen • Drama: Das Sacher. In bester Gesellschaft",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_qf2AWsntZ8/hqdefault.jpg",
+    "duration": "PT1H41M48S",
+    "publishedAt": "2026-11-03T17:30:23Z",
+    "channelName": "Starkino",
+    "channelId": "UC7Hs00gZvManlHy0rXw1UMw",
+    "tmdbId": null,
+    "title": "Josefine Preuß & Laurence Rupp im Wien der Intrigen • Drama: Das Sacher. In bester Gesellschaft",
+    "originalTitle": null,
+    "overview": "Wien im Jahr 1892: Nach dem Tod des Hoteliers Eduard Sacher muss seine Witwe Anna gegen gesellschaftliche Vorurteile und behördliche Widerstände um die Zukunft des traditionsreichen Hauses kämpfen. Mit Entschlossenheit und diplomatischem Geschick entwickelt sie das Hotel zu einem bevorzugten Treffpunkt der kaiserlichen Familie, des Adels, der Kunstwelt und des wohlhabenden Bürgertums. In der Hotellobby begegnen sich die junge Fürstin Konstanze von Traunstein und die Berliner Verlegerin Martha Aderhold. Zwischen den unterschiedlichen Frauen entsteht eine Freundschaft. Martha erkennt Konstanzes schriftstellerisches Talent und hilft ihr, unter einem Pseudonym erfolgreiche Romane zu veröffentlichen. Als Konstanze Marthas Ehemann Maximilian näherkommt, werden jedoch nicht nur ihre Freundschaft, sondern auch beide Ehen auf eine schwere Probe gestellt. Konstanzes Mann Hans Georg von Traunstein ",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Ursula Strauss",
+      "Josefine Preuß",
+      "Laurence Rupp",
+      "Julia Koschitz",
+      "Florian Stetter"
+    ],
+    "director": [
+      "Robert Dornhelm"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "josefine-preuss-laurence-rupp-im-wien-der-intrigen-drama-das"
+  },
+  {
+    "videoId": "DvWIq4yv5YM",
+    "youtubeTitle": "Gary Oldman taucht plötzlich in ihrem Leben auf… und verwandelt es in einen Albtraum | Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DvWIq4yv5YM/hqdefault.jpg",
+    "duration": "PT1H28M23S",
+    "publishedAt": "2026-11-03T14:00:18Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Gary Oldman taucht plötzlich in ihrem Leben auf… und verwandelt es in einen Albtraum",
+    "originalTitle": null,
+    "overview": "Linda führt ein einsames und unglückliches Leben in einer amerikanischen Kleinstadt. Ihr Ehemann Henry, ein erfolgreicher Arzt, interessiert sich mehr für seine Modelleisenbahnen und seine heimliche Affäre als für die Gefühle seiner Frau. Doch Linda trägt selbst ein schmerzhaftes Geheimnis aus ihrer Vergangenheit mit sich. Als Jugendliche musste sie ihr Kind zur Adoption freigeben. Seitdem quält sie die Frage, was aus ihrem Sohn geworden ist. Eines Tages begegnet sie einem geheimnisvollen jungen Mann namens Martin. Er behauptet, genau dieser verlorene Sohn zu sein. Zunächst scheint seine Rückkehr die ersehnte Antwort auf Lindas jahrelange Sehnsucht zu sein. Doch Martins Verhalten wird zunehmend verstörend. Er beginnt, sich in Lindas Privatleben einzumischen und entwickelt eine gefährliche Besessenheit von ihrem Ehemann. Während die Spannungen steigen, verschwimmen die Grenzen zwischen Er",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "slug": "gary-oldman-taucht-ploetzlich-in-ihrem-leben-auf-und-verwand"
+  },
+  {
+    "videoId": "tlHZMEYx56o",
+    "youtubeTitle": "😱 Diese GESCHICHTE wird dich bis zur letzten Sekunde fesseln! | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/tlHZMEYx56o/hqdefault.jpg",
+    "duration": "PT1H27M50S",
+    "publishedAt": "2026-11-03T15:00:00Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": null,
+    "title": "Diese GESCHICHTE wird dich bis zur letzten Sekunde fesseln!",
+    "originalTitle": null,
+    "overview": "Nach dem tragischen Tod ihrer Tochter Sarah ziehen sich James und Adèle in ein abgelegenes Haus an der Küste zurück. Doch als ein geheimnisvolles Mädchen auftaucht, das ihrer verstorbenen Tochter verblüffend ähnlich sieht, beginnt ein Albtraum. Das Mädchen behauptet, bereits vor 60 Jahren gestorben zu sein. Während Adèle nach Antworten sucht, stößt sie auf ein düsteres Geheimnis, das die Grenze zwischen Leben und Tod verschwimmen lässt.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Sean Bean",
+      "Maria Bello",
+      "Richard Elfyn",
+      "Robin Griffith",
+      "Eluned Jones"
+    ],
+    "director": [
+      "John Fawcett"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "diese-geschichte-wird-dich-bis-zur-letzten-sekunde-fesseln"
   }
 ]
