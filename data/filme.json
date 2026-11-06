@@ -6194,12 +6194,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "b-mk5PvIkIQ",
-    "youtubeTitle": "WESLEY SNIPES ist THE DETONATOR - BRENNENDER STAHL (Actionthriller | Action Filme Deutsch komplett)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/b-mk5PvIkIQ/hqdefault.jpg",
+    "videoId": "-X3fQ35-4gw",
+    "youtubeTitle": "CIA ACTION THRILLER – The Detonator | Wesley Snipes, Action Thriller, Filme auf Deutsch schauen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-X3fQ35-4gw/hqdefault.jpg",
     "duration": "PT1H36M25S",
     "publishedAt": "2026-02-24T18:00:38Z",
-    "channelName": "Netzkino",
+    "channelName": "Dzango",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 24624,
     "title": "The Detonator - Brennender Stahl",
@@ -7170,7 +7170,9 @@
     "slug": "the-burnt-orange-heresy",
     "plausibel": "titel",
     "runtime": 99,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "TuR9GlFNv2U",
@@ -11784,12 +11786,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "bE1IhL7VdPk",
-    "youtubeTitle": "Silver Bells – Der wahre Sinn von Weihnachten (ganze FAMILIENKOMÖDIE, Weihnachtsfilm auf Deutsch)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/bE1IhL7VdPk/hqdefault.jpg",
+    "videoId": "9lKAISGFvU0",
+    "youtubeTitle": "Silberglöckchen – Worum es Weihnachten wirklich geht (ganzer Film auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9lKAISGFvU0/hqdefault.jpg",
     "duration": "PT1H28M9S",
     "publishedAt": "2025-11-17T16:30:28Z",
-    "channelName": "Netzkino",
+    "channelName": "Filmalarm",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 249050,
     "title": "Silberglöckchen - Worum es Weihnachten wirklich geht",
@@ -41340,12 +41342,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "l3GIs82GV1A",
-    "youtubeTitle": "Wo dein Schatz ist, da ist auch dein Herz (ABENTEUERFILM ganzer Film, Glaubensfilme in voller Länge)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/l3GIs82GV1A/hqdefault.jpg",
+    "videoId": "uNxeAKFvIZg",
+    "youtubeTitle": "Wo dein Schatz ist, da ist auch dein Herz (Abenteuer FILM, ganzer Spielfilm Deutsch, Familienfilm)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/uNxeAKFvIZg/hqdefault.jpg",
     "duration": "PT1H26M13S",
     "publishedAt": "2023-05-27T13:00:37Z",
-    "channelName": "Netzkino",
+    "channelName": "Movies Select",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 449304,
     "title": "Wo dein Schatz ist, da ist auch dein Herz",
@@ -41377,9 +41379,7 @@
     "slug": "wo-dein-schatz-ist-da-ist-auch-dein-herz",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "plausibelVersion": 4
   },
   {
     "videoId": "9rprEvg7Dr0",
@@ -132200,7 +132200,9 @@
     "slug": "der-weihnachtsstall",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "6UdHqWhAiC8",
@@ -178276,7 +178278,9 @@
     "writer": [],
     "fsk": null,
     "slug": "zwei-legenden-haben-sich-unerwartet-gegen-die-weltregierung",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "t9SvrfYzi7E",
@@ -270634,7 +270638,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "der-cop-und-die-hunde-dame"
+    "slug": "der-cop-und-die-hunde-dame",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "fApWnoMfx3o",
@@ -293071,8 +293077,7 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Project Ithaca\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Deragh Campbell",
       "James Gallanders",
@@ -335949,7 +335954,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "awakening-the-last-dream"
+    "slug": "awakening-the-last-dream",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich"
   },
   {
     "videoId": "dEg124_pEPo",
@@ -336076,5 +336083,528 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "diese-geschichte-wird-dich-bis-zur-letzten-sekunde-fesseln"
+  },
+  {
+    "videoId": "y-StIlsk8qM",
+    "youtubeTitle": "Sie sind gefangen in einer Waldhütte: Jackals (2017) (HD)Jackals",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/y-StIlsk8qM/hqdefault.jpg",
+    "duration": "PT1H26M21S",
+    "publishedAt": "2026-11-05T19:15:10Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 459947,
+    "title": "Jackals",
+    "originalTitle": "Jackals",
+    "overview": "Die Handlung von JACKALS ist übersichtlich und nicht sonderlich neu. Eine Familie macht sich Sorgen. Sohn Justin (BEN SULLIVAN) ist in die Fänge einer mysteriösen Sekte geraten, von der man im Film leider kaum etwas erfährt. Darum hat man jemand kontaktiert, der sich mit so etwas auskennt. Jimmy Levine (STEPHEN DORFF) ist Sekten-Kenner und soll die Gehirnwäsche des manipulierten Sohnemanns rückgängig machen. Er entführt den Mittzwanziger und bringt ihn ins Haus seiner Familie. Dort beteuert das Entführungsopfer niemand der Anwesenden zu kennen und gibt sich als jemand anderes zu erkennen. Das hat auch seinen Grund, denn bald schleichen unheimliche Gestalten übers Grundstück, die sich Tiermasken ums Gesicht gebunden haben und den Entführten zurückholen wollen. Doch so schnell gibt man nicht auf. Man fordert das Böse zum Kampf heraus und gibt sich siegessicher. Leider versammeln sich immer mehr Fremde vorm Haus, die langsam keine Lust mehr haben Spiele zu spielen.",
+    "releaseDate": "2017-09-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/roWDNPm5UAKo3LLi3BUXwmfDsHc.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/9wfeTn6qECTS9URGBzj7cIxlRm1.jpg",
+    "voteAverage": 5.356,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Stephen Dorff",
+      "Johnathon Schaech",
+      "Deborah Kara Unger",
+      "Nick Roux",
+      "Alyssa Julya Smith"
+    ],
+    "director": [
+      "Kevin Greutert"
+    ],
+    "writer": [
+      "Jared Rivet"
+    ],
+    "fsk": "18",
+    "slug": "jackals"
+  },
+  {
+    "videoId": "PeArGq8rQ1k",
+    "youtubeTitle": "Knochenbrecher halt die Ohren steif (Martial-Arts ganzer Film in voller länge Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/PeArGq8rQ1k/hqdefault.jpg",
+    "duration": "PT1H23M38S",
+    "publishedAt": "2026-11-05T11:00:38Z",
+    "channelName": "weloadtv",
+    "channelId": "UC5E67gM-Us3gQBhNPiAg0Xg",
+    "tmdbId": 128911,
+    "title": "Knochenbrecher halt die Ohren steif",
+    "originalTitle": "奇招",
+    "overview": "Wang Chen Kang, ein Kung Fu-Meister der Schattentorschule, wurde ermordet von Ma Fei Jen von der \" Liaotung Phoenix Eyes Fist\", zusammen mit den \" Double Phoenix Bask Strokes\". Die Verbündeten von Ma waren \"Blinder Chen\" und \"Tauber Chao\". Wang Tsung Wen, der einzige Sohn des Opfers, wird nach vielen erfolglosen Versuchen in die \"Cheong Hsing Martial Art Institute\"-Schule aufgenommen. Der Chef des Institutes verlangt von ihm, dass er in der Küche arbeitet, um das Schulgeld zu leisten. Chang Tien-Isiang, der Koch des Institutes, ist ein alter Boxer der Schattentorschule, doch er zieht es vor, unerkannt zu sein. Im Privatunterricht gibt er Wang Tsung Wen seine besten Kung Fu-Tricks weiter und bildet ihn zu einem Kung Fu-Meister aus. So ist er eines Tages in der Lage, sich an den Mördern seines Vaters zu rächen.",
+    "releaseDate": "1979-06-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lyISyGhFzgPG1snFmjdwtDtGu5H.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4UiVsPaCTRKc4b9S8c4DicSxnuy.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      28,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Willy Dozan",
+      "Hau Chiu-Sing",
+      "袁振洋",
+      "Yuen Siu-tien",
+      "Corey Yuen"
+    ],
+    "director": [
+      "Hua Shan"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "knochenbrecher-halt-die-ohren-steif"
+  },
+  {
+    "videoId": "GHEoXHiz1V0",
+    "youtubeTitle": "Die Spur der Jäger (Schwedischer THRILLER in voller Länge, Thriller Filme ganzer Film Deutsch 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GHEoXHiz1V0/hqdefault.jpg",
+    "duration": "PT1H53M30S",
+    "publishedAt": "2026-11-05T18:00:17Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 16003,
+    "title": "Die Spur der Jäger",
+    "originalTitle": "Jägarna",
+    "overview": "Nach dem Tod seines Vaters und einer Schussverletzung im letzten Einsatz kehrt der schwedische Cop Erik Backström Stockholm den Rücken und zieht zurück ins heimatliche Provinzdorf in der Tatra, wo sich sein Bruder und die Jugendfreunde bereits auf ihn freuen. Die Freude ist nicht von Dauer, als Erik auch in der Provinz unbeirrt seinem Fahndungseifer folgt und eine Wildererbande ins Visier nimmt. Zum Kreis der Verdächtigen zählt neben alten Kumpels auch der Bruder. Als Erik nicht locker lässt, spitzt sich die Situation gefährlich zu.",
+    "releaseDate": "1996-02-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rmVjetDRUCZueasmr9rPo5ni6q6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wYXJEz1dIwrFdzbv8o4DgBh4c0H.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      53,
+      80,
+      9648
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 113,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rolf Lassgård",
+      "Lennart Jähkel",
+      "Jarmo Mäkinen",
+      "Tomas Norström",
+      "Thomas Hedengran"
+    ],
+    "director": [
+      "Kjell Sundvall"
+    ],
+    "writer": [
+      "Kjell Sundvall",
+      "Björn Carlström"
+    ],
+    "fsk": "16",
+    "slug": "die-spur-der-jaeger"
+  },
+  {
+    "videoId": "7eD9dbeLi94",
+    "youtubeTitle": "Ishtar (1987) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7eD9dbeLi94/hqdefault.jpg",
+    "duration": "PT1H47M52S",
+    "publishedAt": "2026-11-05T15:00:00Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 12704,
+    "title": "Ishtar",
+    "originalTitle": "Ishtar",
+    "overview": "Lyle Rogers und Chuck Clarke, zwei gnadenlos untalentierte Schnulzensänger, träumen vom großen Ruhm. Doch das einzige Engagement, das ihnen angeboten wird, ist in einem Hotel in Marokko. Das Duo nimmt an, fliegt los – doch schon bei der Zwischenlandung im Zwergstaat Ishtar beginnt der Ärger: eine geheimnisvolle Schönheit namens Shirra überredet Lyle, ihr seinen Pass zu geben – sie sei in Gefahr und müßte das Land verlassen. Bald stellt sich heraus, daß Shirra Anführerin einer Befreiungsbewegung gegen den diktatorischen Emir Ishtars ist, doch es ist schon zu spät: An die Fersen der vermeintlichen Umstürzler Lyle und Chuck heftet sich der CIA, der KGB, die Killer des Emirs, die Schergen Ghaddafis und ein mysteriöser Spion aus Oberammergau. Es bleibt nur die Flucht in die Wüste.",
+    "releaseDate": "1987-05-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6WydBHvTU5WaOrlWvMeYji7dhBa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lrGiV89QtomvweMugwAhwKpJkeV.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      35,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 107,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Warren Beatty",
+      "Dustin Hoffman",
+      "Isabelle Adjani",
+      "Charles Grodin",
+      "Jack Weston"
+    ],
+    "director": [
+      "Elaine May"
+    ],
+    "writer": [
+      "Elaine May"
+    ],
+    "fsk": "12",
+    "slug": "ishtar"
+  },
+  {
+    "videoId": "MtLApFPbG2c",
+    "youtubeTitle": "Get Rich or Die Tryin' | 2005 | 4K | 50 Cent | Ganzer Film | Vom Dealer zum Rap-Star",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MtLApFPbG2c/hqdefault.jpg",
+    "duration": "PT1H49M42S",
+    "publishedAt": "2026-11-05T18:00:17Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 10060,
+    "title": "Get Rich or Die Tryin'",
+    "originalTitle": "Get Rich or Die Tryin'",
+    "overview": "Marcus' Leben ist in drei Worten erzählt: Crack, Guns, Geld. Was ihn auf die schiefe Bahn brachte? Vielleicht der Tod seiner Mutter, vielleicht auch die Angst davor, als Rapper zu scheitern. Denn schon immer spürte Marcus dieses Kribbeln, wenn es um Musik ging. In der Realität allerdings kennt er nur den Beat der Straße. Mehr Drogen, mehr Geld, mehr Risiko - der Rhythmus seines Lebens droht immer mehr aus dem Takt zu geraten. Wären da nicht seine Texte, die er aufschreibt - er würde den Verstand verlieren. Als ihn nach Jahren ein tragischer Unfall beinahe das Leben kostet, beschließt er, dieser Hölle, die sein Leben war, den Rücken zu kehren. Er wird der Künstler, der er schon immer sein wollte.",
+    "releaseDate": "2005-11-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aaEJu8vFKtrAoSRtw3xjCf1aM5d.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3S21Z59OOrupaVHsdmu4pwUUlAD.jpg",
+    "voteAverage": 6.859,
+    "genreIds": [
+      18,
+      80,
+      10402
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 116,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "50 Cent",
+      "Joy Bryant",
+      "Adewale Akinnuoye-Agbaje",
+      "Omar Benson Miller",
+      "Terrence Howard"
+    ],
+    "director": [
+      "Jim Sheridan"
+    ],
+    "writer": [
+      "Terence Winter"
+    ],
+    "fsk": "16",
+    "slug": "get-rich-or-die-tryin"
+  },
+  {
+    "videoId": "5m1FpQNpIzo",
+    "youtubeTitle": "Weihnachtsglocken – Liebe in letzter Minute | WEIHNACHTSKOMÖDIE in voller Länge | Liebeskomödien",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5m1FpQNpIzo/hqdefault.jpg",
+    "duration": "PT1H25M9S",
+    "publishedAt": "2026-11-05T14:30:15Z",
+    "channelName": "Wolkesieben",
+    "channelId": "UCP2mfMKvmD0lkSThh9CuU7g",
+    "tmdbId": 650720,
+    "title": "Weihnachtsglocken: Liebe in letzter Minute",
+    "originalTitle": "Christmas Belles",
+    "overview": "Obwohl sie durchaus erfolgreiche Karriere verfolgen, hören zwei 30-jährige beste Freundinnen immer wieder, dass sie beide einen Mann brauchen, bevor es zu spät ist. Als ein hübscher Pastor gerade rechtzeitig zum Auftakt der Weihnachtszeit eintrifft, versuchen beide Damen, ihn zu umwerben - aber da ihre lustigen Versuche, sich gegenseitig zu stärken, weiter zunehmen, liegt es an ihrer Familie, sie daran zu erinnern, worum es an Weihnachten wirklich geht...",
+    "releaseDate": "2019-11-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lp30RcqXEBufUoyVOA5A7pEUt1W.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tbW0CQgyKUWzdavuINEnkVPCOBs.jpg",
+    "voteAverage": 2.4,
+    "genreIds": [
+      35,
+      10751
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Raven Goodwin",
+      "Dominique Perry",
+      "Omar Gooding",
+      "Mark Taylor",
+      "Janet Hubert"
+    ],
+    "director": [
+      "Terri J. Vaughn"
+    ],
+    "writer": [
+      "Chad Quinn"
+    ],
+    "fsk": null,
+    "slug": "weihnachtsglocken-liebe-in-letzter-minute"
+  },
+  {
+    "videoId": "DX7NEeDL21E",
+    "youtubeTitle": "Der große Wolf ruft | 1964 | Cary Grant | Abenteuerfilm auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DX7NEeDL21E/hqdefault.jpg",
+    "duration": "PT1H51M49S",
+    "publishedAt": "2026-11-05T17:00:22Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 30295,
+    "title": "Der große Wolf ruft",
+    "originalTitle": "Father Goose",
+    "overview": "Während des Zweiten Weltkriegs verbringt Walter Eckland sein Leben zufrieden als Strandgutsammler auf einer einsamen Insel in der Südsee. Er lässt sich von seinem Freund Frank, Offizier der australischen Marine dazu breitschlagen überfliegende japanische Flugzeuge zu überwachen - im Austausch für Alkohol. Jedoch bekommt er mehr als er erwartet hatte als ihm Lehrerin Catherine Frenau, auf der Flucht vor den Japanern mit samt ihren Schülerinnen im Schlepptau einen Besuch abstattet!",
+    "releaseDate": "1964-12-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9OGnTxNzwBtN8V6ConYfKP8FLBv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qxfuWn03LIk8FFT85gIoFQmPB3.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      12,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 118,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Cary Grant",
+      "Leslie Caron",
+      "Trevor Howard",
+      "Jack Good",
+      "Sharyl Locke"
+    ],
+    "director": [
+      "Ralph Nelson"
+    ],
+    "writer": [
+      "S. H. Barnett",
+      "Frank Tarloff",
+      "Peter Stone"
+    ],
+    "fsk": "12",
+    "slug": "der-grosse-wolf-ruft"
+  },
+  {
+    "videoId": "G65e-tfBw1g",
+    "youtubeTitle": "The Breach - Das Tor zur Hölle - Ein Portal öffnet sich und entfesselt das Grauen! - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/G65e-tfBw1g/hqdefault.jpg",
+    "duration": "PT1H33M4S",
+    "publishedAt": "2026-11-05T15:00:30Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 805473,
+    "title": "The Breach: Das Tor zur Hölle",
+    "originalTitle": "The Breach",
+    "overview": "John Hawkins Tage als verantwortlicher Polizeichef der kleinen Stadt Lone Crow sind gezählt, als plötzlich eine grausam entstellte Leiche ans nahegelegene Ufer gespült wird. Bei dem Toten scheint es sich um einen Wissenschaftler zu handeln, der an einem unbekannten Portal geforscht hat, das den Zugang zu einer anderen Welt ermöglichen soll. Und etwas scheint hindurch gekommen zu sein …",
+    "releaseDate": "2022-07-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oCb4tL3ib8wMOBf9wlZqB1btChP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/vdoYF00jMugy088Mql4MiKvk3bR.jpg",
+    "voteAverage": 4.594,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Allan Hawco",
+      "Emily Alatalo",
+      "Wesley French",
+      "Natalie Brown",
+      "Adam Kenneth Wilson"
+    ],
+    "director": [
+      "Rodrigo Gudiño"
+    ],
+    "writer": [
+      "Craig Davidson",
+      "Ian Weir"
+    ],
+    "fsk": "16",
+    "slug": "the-breach-das-tor-zur-hoelle"
+  },
+  {
+    "videoId": "xO-UXUcNpDk",
+    "youtubeTitle": "Das düstere Haus – DIE DIE MY DARLING (1965) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xO-UXUcNpDk/hqdefault.jpg",
+    "duration": "PT1H36M24S",
+    "publishedAt": "2026-11-05T17:00:13Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 42735,
+    "title": "Das düstere Haus",
+    "originalTitle": "Fanatic",
+    "overview": "Als herrschsüchtige, religiöse Fanatikerin wird Mrs. Trefoile immer besessener vom Geist ihres verstorbenen Sprösslings, der ein paar Jahre zuvor bei einem Autounfall ums Leben kam. Als seine frühere Geliebte überraschend zu Besuch kommt, überwältigt Mrs. Trefoile die attraktive junge Frau und hält sie in ihrem Keller fest, um ihre Seele zu \"reinigen\". Eingesperrt und misshandelt muss Pat um ihr Leben kämpfen, um ihrem Gefängnis zu entkommen...",
+    "releaseDate": "1965-03-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/obDUAbZrDGWkIfJjmAHl4YH74Gr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/k2Q0ma55NK8nshooakwnIHZFSPn.jpg",
+    "voteAverage": 6.559,
+    "genreIds": [
+      27,
+      53,
+      9648
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tallulah Bankhead",
+      "Stefanie Powers",
+      "Peter Vaughan",
+      "Donald Sutherland",
+      "Maurice Kaufmann"
+    ],
+    "director": [
+      "Silvio Narizzano"
+    ],
+    "writer": [
+      "Richard Matheson"
+    ],
+    "fsk": null,
+    "slug": "das-duestere-haus"
+  },
+  {
+    "videoId": "iSQVomPH6Sk",
+    "youtubeTitle": "Cleaner - Sein Geschäft ist der Tod (2007) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iSQVomPH6Sk/hqdefault.jpg",
+    "duration": "PT1H28M46S",
+    "publishedAt": "2026-11-05T17:00:11Z",
+    "channelName": "daredo TV",
+    "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",
+    "tmdbId": 13252,
+    "title": "Cleaner - Sein Geschäft ist der Tod",
+    "originalTitle": "Cleaner",
+    "overview": "In vielen Großstädten der USA gibt es Spezialisten, die sich darauf verstehen blutige Tatorte wieder in Ordnung zu bringen – es sind sogenannte Cleaner. Der ehemalige Polizist Tom Cutler ist einer von ihnen. Eines Tages wird er in eine Villa gerufen um die Überreste eines entsetzlichen Mordes zu beseitigen. Noch kann er nicht ahnen, dass dieses der Beginn einer unheilvollen Verschwörung ist.",
+    "releaseDate": "2007-09-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6Ns0R8ejVdrselaxN3rykgQSQOr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/z6ueaizIb3vH3l1l4xSr2bET2Am.jpg",
+    "voteAverage": 6.094,
+    "genreIds": [
+      80,
+      53,
+      9648
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Samuel L. Jackson",
+      "Ed Harris",
+      "Eva Mendes",
+      "Luis Guzmán",
+      "Keke Palmer"
+    ],
+    "director": [
+      "Renny Harlin"
+    ],
+    "writer": [
+      "Matthew Aldrich"
+    ],
+    "fsk": "16",
+    "slug": "cleaner-sein-geschaeft-ist-der-tod"
+  },
+  {
+    "videoId": "IC2NVDdiWfU",
+    "youtubeTitle": "DER PRÄSIDENT AHNTE NICHTS: EIN VERZWEIFELTER MANN PLANTE EINEN IRREN ANSCHLAG | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/IC2NVDdiWfU/hqdefault.jpg",
+    "duration": "PT1H22M47S",
+    "publishedAt": "2026-11-04T10:07:44Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "DER PRÄSIDENT AHNTE NICHTS: EIN VERZWEIFELTER MANN PLANTE EINEN IRREN ANSCHLAG",
+    "originalTitle": null,
+    "overview": "Ganzer Film Deutsch, Hollywood Film, Hollywood Thriller, Politthriller, Kriminalfilm, Action Thriller, spannender Film, Thriller Deutsch, Sean Penn Film, Naomi Watts, Don Cheadle, Richard Nixon, Präsident, Weißes Haus, politischer Anschlag, Attentat, amerikanische Geschichte, wahre Begebenheiten, Film nach wahrer Geschichte, Kriminaldrama, psychologischer Thriller, politische Verschwörung, Macht und Korruption, spannende Hollywood Filme, Filme für Erwachsene, amerikanische Thriller, Drama und Spannung, Hollywood Stars, Filme online anschauen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "der-praesident-ahnte-nichts-ein-verzweifelter-mann-plante-ei"
+  },
+  {
+    "videoId": "yALBauOHQFE",
+    "youtubeTitle": "🔥 THRILLER | Seine LEIDENSCHAFT wurde zu einer tödlichen OBSESSION! | Filme deutsch komplet 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yALBauOHQFE/hqdefault.jpg",
+    "duration": "PT1H24M10S",
+    "publishedAt": "2026-11-04T17:12:17Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Nanny’s Killer Scandal",
+    "originalTitle": null,
+    "overview": "Eine junge Frau nimmt nur widerwillig eine Stelle als Kindermädchen bei einem bekannten Geschäftsmann an. Doch schon bald macht er ihr eindeutige Avancen, die sie entschieden zurückweist. Seine Leidenschaft verwandelt sich daraufhin in eine gefährliche Besessenheit, und aus einem gewöhnlichen Job wird ein wahrer Albtraum. Nun muss die junge Frau um ihre eigene Sicherheit kämpfen, denn der Wunsch des Geschäftsmannes, sie um jeden Preis für sich zu gewinnen, wird tödlich.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "nanny-s-killer-scandal-2"
+  },
+  {
+    "videoId": "Un_ytaXYrws",
+    "youtubeTitle": "ARD RATGEBER – PERFEKTE BÜROSTÜHLE | GESUND SITZEN AM ARBEITSPLATZ",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Un_ytaXYrws/hqdefault.jpg",
+    "duration": "PT43M53S",
+    "publishedAt": "2026-11-04T12:31:13Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": null,
+    "title": "ARD RATGEBER - PERFEKTE BÜROSTÜHLE",
+    "originalTitle": null,
+    "overview": "In diesem Beitrag aus dem ARD Ratgeber dreht sich alles um das richtige Sitzen, ergonomische Bürostühle und die Frage, welche Eigenschaften ein guter Schreibtischstuhl mitbringen sollte.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "ard-ratgeber-perfekte-buerostuehle"
+  },
+  {
+    "videoId": "JZmRPin6FUc",
+    "youtubeTitle": "🔥🤠 Gnadenloser Kampf ums Überleben | Dieser Western lässt dich nicht los! | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JZmRPin6FUc/hqdefault.jpg",
+    "duration": "PT1H20M11S",
+    "publishedAt": "2026-11-04T15:05:49Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Gnadenloser Kampf ums Überleben",
+    "originalTitle": null,
+    "overview": "Ein historisches Militärdrama, basierend auf den tragischen Ereignissen des Jahres 1862 in Minnesota, als die Spannungen zwischen den Dakota-Indianern und den amerikanischen Siedlern ihren Höhepunkt erreichten. In einem Reservat der Bundesregierung lebend, leiden die Dakota-Indianer unter extrem schwierigen Bedingungen, Hunger, Armut und gebrochenen Regierungsversprechen. Sie können ihre Situation nicht länger hinnehmen. Ihre Unzufriedenheit bricht in einer offenen Rebellion aus, die das Leben der gesamten Region verändert. Amerikanische Siedler und Soldaten sehen sich einer ernsthaften Bedrohung gegenüber, und Fort Ridgely wird zu einem entscheidenden Schlachtfeld. Vor diesem historischen Hintergrund entfaltet sich eine dramatische Geschichte über den Kampf ums Überleben, um Land, Freiheit und das Recht, gehört zu werden. Jede Entscheidung kann unvorhersehbare Folgen haben, und die Gren",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "gnadenloser-kampf-ums-ueberleben"
   }
 ]
