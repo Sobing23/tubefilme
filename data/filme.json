@@ -97475,9 +97475,7 @@
     "slug": "die-rache-des-karatetigers",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "plausibelVersion": 4
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -200428,7 +200426,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "eastside-auf-welcher-seite-stehst-du"
+    "slug": "eastside-auf-welcher-seite-stehst-du",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ATBWvLk-o1U",
@@ -234124,7 +234124,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "wraith"
+    "slug": "wraith",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "V3xlqbUKc2I",
@@ -234202,7 +234204,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "locusts"
+    "slug": "locusts",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "IpKDIBoVFUQ",
@@ -269172,9 +269176,7 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "ein-halleluja-fuer-2-schlitzohren-2",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "slug": "ein-halleluja-fuer-2-schlitzohren-2"
   },
   {
     "videoId": "iOqFs3OeAQg",
@@ -313326,7 +313328,9 @@
     "slug": "morning-star-knight-of-the-witch",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Fwgjb5RObh0",
@@ -325541,12 +325545,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "OBia9CP2fk4",
-    "youtubeTitle": "Alle Jagen Sie – Doch Der Wahre Mörder Ist Frei! | Thriller Mit Unerwartetem Finale",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/OBia9CP2fk4/hqdefault.jpg",
+    "videoId": "tDP1iwTCaNQ",
+    "youtubeTitle": "RUHIGES FAMILIENLEBEN wird zum Albtraum, als sie zur Mordverdächtigen wird! | Thriller auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/tDP1iwTCaNQ/hqdefault.jpg",
     "duration": "PT1H26M7S",
     "publishedAt": "2026-08-04T12:19:52Z",
-    "channelName": "Unfassbare Filme",
+    "channelName": "KinoWelt Deutsch",
     "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
     "tmdbId": 1396130,
     "title": "Don't Let Him Find You",
@@ -325800,7 +325804,9 @@
     "slug": "dying-for-the-crown",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "eYug_cK6qro",
@@ -325841,7 +325847,9 @@
     "slug": "down-n-dirty",
     "runtime": 102,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ofEUs8B0Tuw",
@@ -336606,5 +336614,919 @@
     "writer": [],
     "fsk": null,
     "slug": "gnadenloser-kampf-ums-ueberleben"
+  },
+  {
+    "videoId": "WY7yJG67qeY",
+    "youtubeTitle": "Eine wunderschöne Geschichte, die Sie zu Tränen rühren wird! | FAMILIENFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WY7yJG67qeY/hqdefault.jpg",
+    "duration": "PT1H28M43S",
+    "publishedAt": "2026-11-06T16:00:13Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1123187,
+    "title": "Signs of Your Heart",
+    "originalTitle": "Signs of Your Heart",
+    "overview": "",
+    "releaseDate": "2023-11-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fUy0GZlmFSg5NKJRp0A1fQXG8Jx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oBOpa0cRpQRH8NAj83aPWpbU5xs.jpg",
+    "voteAverage": 6.9,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Signs of Your Heart\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kelli McNeil-Yellen",
+      "Kyle Justin Leatherberry",
+      "Carla Cloud",
+      "Bruce Coen",
+      "Jeremiah White"
+    ],
+    "director": [
+      "Jevon Whetter"
+    ],
+    "writer": [
+      "Danny Morgan"
+    ],
+    "fsk": null,
+    "slug": "signs-of-your-heart"
+  },
+  {
+    "videoId": "s5FdKxJCOY0",
+    "youtubeTitle": "Beastly - mit Alex Pettyfer & Vanessa Hudgens, ganzer Fillm kostenlos auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/s5FdKxJCOY0/hqdefault.jpg",
+    "duration": "PT1H26M23S",
+    "publishedAt": "2026-11-06T23:00:09Z",
+    "channelName": "Free Films Emotion",
+    "channelId": "UC6DTsN_DKPGsPVckgfzYznw",
+    "tmdbId": 38117,
+    "title": "Beastly - Schau in sein wahres Gesicht",
+    "originalTitle": "Beastly",
+    "overview": "Kyle Kingson ist so erfolgsverwöhnt, dass er längst verlernt hat, respektvoll mit seinen Mitmenschen umzugehen. In seiner Mitschülerin Kendra hat er sich jedoch das falsche Opfer herausgepickt. Als er sie vor versammelter Clique demütigt, kontert das Mädchen mit einem furchtbaren Fluch, der sein Innerstes nach außen kehrt – und ihn damit zur hässlichsten Gestalt Manhattans mutieren lässt. Um den Bann zu lüften, muss er jemanden finden, der ihn so nimmt, wie er ist – und zwar innerhalb einer Jahresfrist. Als er Lindy kennenlernt und sich in sie verliebt, hat er starke Zweifel, ob er sie dazu bringen kann, seine Gefühle zu erwiedern, bevor es endgültig zu spät ist...",
+    "releaseDate": "2011-01-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uSAXWZsSD0pE4HYVUiDgusnEyyl.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hU4OdICqRXj3JFnSJsrR0SJejZy.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      10749,
+      14,
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Alex Pettyfer",
+      "Vanessa Hudgens",
+      "Mary-Kate Olsen",
+      "LisaGay Hamilton",
+      "Neil Patrick Harris"
+    ],
+    "director": [
+      "Daniel Barnz"
+    ],
+    "writer": [
+      "Daniel Barnz"
+    ],
+    "fsk": "6",
+    "slug": "beastly-schau-in-sein-wahres-gesicht"
+  },
+  {
+    "videoId": "JM0R1yULb6w",
+    "youtubeTitle": "Tornare | GANZER FILM | 4K | Eine Rückkehr weckt die Vergangenheit",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JM0R1yULb6w/hqdefault.jpg",
+    "duration": "PT1H38M16S",
+    "publishedAt": "2026-11-06T18:00:09Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 607197,
+    "title": "Tornare",
+    "originalTitle": "Tornare",
+    "overview": "",
+    "releaseDate": "2019-10-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1PzUfilXblGqeqbIxbjKf9AjJoU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/twhsCJJ7Ii7wfRcxI3aAezgeLvs.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme), Laufzeit passt zu keinem (Video 98 min) -- bitte prüfen · Zuordnungswert 106 (Suchbegriff: \"Tornare\")",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Giovanna Mezzogiorno",
+      "Vincenzo Amato",
+      "Beatrice Grannò",
+      "Clelia Rossi Marcelli",
+      "Marco Valerio Montesano"
+    ],
+    "director": [
+      "Cristina Comencini"
+    ],
+    "writer": [
+      "Cristina Comencini",
+      "Giulia Calenda",
+      "Ilaria Macchia"
+    ],
+    "fsk": null,
+    "slug": "tornare"
+  },
+  {
+    "videoId": "DBZPQ3zSFug",
+    "youtubeTitle": "Christmas in Big Sky Country (Romantischer WEIHANCHTSFILM ganzer Film Deutsch, Weihnachtsfilme 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DBZPQ3zSFug/hqdefault.jpg",
+    "duration": "PT1H23M47S",
+    "publishedAt": "2026-11-06T16:00:38Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 1027454,
+    "title": "Christmas in Big Sky Country",
+    "originalTitle": "Christmas in Big Sky Country",
+    "overview": "Kurz vor Weihnachten wird Josh (Mark Ghanimé) bei einem Zwischenfall auf einer Öl-Plattform in Alaska verletzt. Der PR-Mitarbeiter Logan Johnston (Olivier Renaud) tritt mit Joshs Familie um Schwägerin Becca Collins (Rebecca Dalton) in Kontakt, um den Rücktransport bis Heiligabend zu regeln. Zwischen beiden keimen romantische Gefühle auf. Doch kann Becca Logan wirklich trauen?",
+    "releaseDate": "2023-11-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2XuJAeIkU6UX4ljjc4uQq6TfskF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5eQQOzsNAFMsxtEh0XCSmLR4jUh.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      10770,
+      35,
+      18,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rebecca Dalton",
+      "Olivier Renaud",
+      "Tamara Duarte",
+      "Shaun Johnston",
+      "Conrad Coates"
+    ],
+    "director": [
+      "Marco Deufemia"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "christmas-in-big-sky-country"
+  },
+  {
+    "videoId": "gmu5QkALyGc",
+    "youtubeTitle": "Für eine Handvoll Blei | 4K | Rodd Dana | Action | Deutsch | Italowestern",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gmu5QkALyGc/hqdefault.jpg",
+    "duration": "PT1H30M4S",
+    "publishedAt": "2026-11-06T18:00:15Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 144376,
+    "title": "Für eine Handvoll Blei",
+    "originalTitle": "Uccidi o muori",
+    "overview": "Ein skrupelloser Revolverheld im Kampf gegen die Herrschsucht und Willkür eines Großranchers und seiner Söhne. Grausamer europäischer Western, der die Lust am Töten mit dem Schein von Rechtmäßigkeit umkleidet.",
+    "releaseDate": "1966-11-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/f7k8OTRbNtGTC5UHWAcWPpA8Rv5.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kLNmJaM1fCB9GIqNMToUbbNHNwZ.jpg",
+    "voteAverage": 4,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rod Dana",
+      "Elina De Witt",
+      "Fabrizio Moroni",
+      "Andrea Bosic",
+      "Alberto Farnese"
+    ],
+    "director": [
+      "Tanio Boccia"
+    ],
+    "writer": [
+      "Mario Amendola"
+    ],
+    "fsk": "18",
+    "slug": "fuer-eine-handvoll-blei"
+  },
+  {
+    "videoId": "GQUgecZzIQ8",
+    "youtubeTitle": "EINE HOMMAGE AN JACKIE CHAN 🌹 :  Kung Fu Rookie | Action Komödie ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GQUgecZzIQ8/hqdefault.jpg",
+    "duration": "PT1H19M1S",
+    "publishedAt": "2026-11-06T14:30:12Z",
+    "channelName": "Wolkesieben",
+    "channelId": "UCP2mfMKvmD0lkSThh9CuU7g",
+    "tmdbId": 1266863,
+    "title": "Kung Fu Rookie",
+    "originalTitle": "Timuchin",
+    "overview": "Ein junger, ehrgeiziger Mann aus dem Dorf kommt in die Stadt, um sich seinen Traum zu erfüllen und die Akademie des Innenministeriums zu besuchen. Sein Wunsch, Polizist zu werden, ist allen um ihn herum bekannt. In der Gegend, in der sein Onkel lebt, gibt es jedoch eine kriminelle Gruppe, die skrupellose Banden kontrolliert, und als er die Akademie betritt, trifft er seine große Liebe. Nun muss er sich nicht nur auf die Prüfungen vorbereiten, sondern sich auch auf eine Konfrontation mit Banditen einlassen, um seine Lieben und seine Zukunft zu schützen.",
+    "releaseDate": "2023-10-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/y03mvKXcbhsxse7wWet55T5G44i.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/g5gkWdWyWy2nl8yjhnJgg2eXES8.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      28,
+      35,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 78,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Timur Baktybaev",
+      "Irina Azhmukhamedova",
+      "Talgat Duisenov",
+      "Kuat Khamitov",
+      "Еркебулан Токтар"
+    ],
+    "director": [
+      "Aman Ergaziev"
+    ],
+    "writer": [
+      "Anuar Turizhigitov"
+    ],
+    "fsk": null,
+    "slug": "kung-fu-rookie"
+  },
+  {
+    "videoId": "5Xe8-qf6U-g",
+    "youtubeTitle": "FAMILIENGEHEIMNIS trifft auf LEIDENSCHAFT: Isabella - Days of Desire | LIEBESDRAMA",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5Xe8-qf6U-g/hqdefault.jpg",
+    "duration": "PT1H39M6S",
+    "publishedAt": "2026-11-06T17:15:09Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 978278,
+    "title": "Isabella - Days of Desire",
+    "originalTitle": "When the Mist Clears",
+    "overview": "Isabellas Leben zerbrach mit 13 Jahren, als ihre Mutter starb. Ihr Vater Frank gab Isabella daraufhin in die Hände von Nannies und Therapeuten und kümmerte sich selbst kaum noch um sie. Viele Jahre später heiratet Frank erneut. Seine Frau überzeugt ihn, sich eine Weile aus dem Alltag zurückzuziehen und mit der ganzen Familie nach Italien zu ziehen, um sich einander wieder anzunähern.",
+    "releaseDate": "2022-12-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/etZ4o2yoxGfmQWxtSvs4l5bAFEW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/cSpMpIay6Ncn3qcqRkpJEzHX5cb.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Gena Miller",
+      "Christian Howard",
+      "Maddalena Ischiale",
+      "Silvia Busuioc",
+      "Cengiz Dervis"
+    ],
+    "director": [
+      "Cengiz Dervis"
+    ],
+    "writer": [
+      "Cengiz Dervis"
+    ],
+    "fsk": "16",
+    "slug": "isabella-days-of-desire"
+  },
+  {
+    "videoId": "uTKc5Pac3E4",
+    "youtubeTitle": "Flood – Eine Stadt versinkt | Eine Mega Flut droht London auszulöschen | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/uTKc5Pac3E4/hqdefault.jpg",
+    "duration": "PT3H14M16S",
+    "publishedAt": "2026-11-07T08:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 6309,
+    "title": "Die Flut - Wenn das Meer die Städte verschlingt",
+    "originalTitle": "Flood",
+    "overview": "Rob Morrison ist gerade aus seinem Urlaub zurückgekehrt als er zu Wartungsarbeiten an Londons Hochwassersperre gerufen wird. Anfangs ist er verwundert, doch dann erfährt er von dramatischen Überschwemmungen an der Ost-Küste Schottlands. Gemeinsam mit seiner Ex-Frau Sam beginnt er mit der Untersuchung. Unterdessen steigen die Wasserpegel unaufhörlich an. Sie sind sich sicher, dass Londons Hochwasserschutz gegen die andrängenden Wassermassen nicht standhalten wird. Aber die Verantwortlichen erkennen erst spät das Ausmaß der Katastrophe …",
+    "releaseDate": "2007-08-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lGs9uXT81AdmBcbvkDgUn7bfbGb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8RHqeBwgHIZnNeswqLJdm0pz05Y.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      18,
+      28,
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 110,
+    "plausibel": "besetzung",
+    "plausibelVersion": 4,
+    "cast": [
+      "Robert Carlyle",
+      "Jessalyn Gilsig",
+      "Tom Courtenay",
+      "Joanne Whalley",
+      "David Suchet"
+    ],
+    "director": [
+      "Tony Mitchell"
+    ],
+    "writer": [
+      "Matthew Cope",
+      "Justin Bodle",
+      "Nick Morley"
+    ],
+    "fsk": null,
+    "slug": "die-flut-wenn-das-meer-die-staedte-verschlingt"
+  },
+  {
+    "videoId": "ycR_5raX20c",
+    "youtubeTitle": "Burial - Die Leiche des Führers - Eine tödliche Geheimmission - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ycR_5raX20c/hqdefault.jpg",
+    "duration": "PT1H34M12S",
+    "publishedAt": "2026-11-07T08:00:26Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 715370,
+    "title": "Burial - Die Leiche des Führers",
+    "originalTitle": "Burial",
+    "overview": "Berlin im Mai 1945: Noch haben die Deutschen nicht offiziell kapituliert, aber das Ende des Zweiten Weltkriegs steht unmittelbar bevor, als bekannt wird, dass Hitler Selbstmord begangen hat. Ein alles andere als disziplinierter Trupp sowjetischer Soldaten unter Leitung der Geheimdienst-Offizierin Brana Vasilyeva (Charlotte Vega) hat die Leiche an sich genommen. Ihr Auftrag ist es, diese über Polen nach Moskau zu schaffen, damit Stalin sie zu Propagandazwecken nutzen kann. Aus Sicherheitsgründen, und um so wenig wie möglich aufzufallen, lässt sie den Sarg jede Nacht im Wald vergraben. Dennoch hat eine erstaunlich schlagkräftige Gruppe von im Untergrund weiterkämpfender Nazi-Partisanen Wind von der Mission bekommen. Immer wieder werden die Soldaten von ihnen aus dem Hinterhalt angegriffen und mehr und mehr dezimiert. Die polnische Zivilbevölkerung ist ihnen keine Hilfe, da diese die Rote Armee ebenso verabscheut wie die Deutschen. ...",
+    "releaseDate": "2022-09-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2G3hKEtND9dN0k4pbZzpBCdrAS4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/x1USUTrTuWqlSgV7268oYj7pJDB.jpg",
+    "voteAverage": 5.19,
+    "genreIds": [
+      53,
+      10752,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Charlotte Vega",
+      "Barry Ward",
+      "Dan Renton Skinner",
+      "Bill Milner",
+      "Niall Murphy"
+    ],
+    "director": [
+      "Ben Parker"
+    ],
+    "writer": [
+      "Ben Parker"
+    ],
+    "fsk": "16",
+    "slug": "burial-die-leiche-des-fuehrers"
+  },
+  {
+    "videoId": "u435Lq5fCSU",
+    "youtubeTitle": "🎬 GASLICHT (1960) – EIN SPANNENDER KLASSIKER MIT D. BORSCHE UND M. TROOGER!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/u435Lq5fCSU/hqdefault.jpg",
+    "duration": "PT1H24M44S",
+    "publishedAt": "2026-11-06T12:24:06Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 288167,
+    "title": "Gaslicht",
+    "originalTitle": "Gaslicht",
+    "overview": "Mit raffinierter Herzlosigkeit versucht Jack Manningham seine Frau Bella um den Verstand zu bringen. Er versteckt Dinge, die er ihr vorher zur Aufbewahrung übergab, lässt Gegenstände des Haushalts verschwinden, um sie an den unwahrscheinlichsten Orten wiederzufinden, und legt Bella Worte in den Mund, die sie nie gesagt hat. Alles nur, um ihr einzureden, sie leide wie ihre verstorbene Mutter an Bewusstseinsspaltungen und Verfolgungswahn.Jack Manningham hat seine Gründe dafür. Bella soll nicht merken, dass er auf geheimnisvollen Wegen über die Dächer zurückkehrt, um stundenlang im sorgsam verschlossenen Oberstock nach einem Schatz zu suchen. Das Schicksal verbindet Jack mit dem alten Haus seit dem Tag, an dem er darin einen Mord beging. Das Gaslicht, dessen Schein sich vermindert, wenn eine Lampe im Haus angezündet wird, und das sich erhellt, wenn man sie löscht, bringt Bella zum ersten Mal auf die Spur der seltsamen Zusammenhänge.",
+    "releaseDate": "1960-09-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nGrjQRezqY0oCXNRQyRelgSfPP4.jpg",
+    "backdropUrl": null,
+    "voteAverage": 10,
+    "genreIds": [
+      53,
+      80,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Margot Trooger",
+      "Dieter Borsche",
+      "Hans Zesch-Ballot",
+      "Christiane Maybach",
+      "Else Quecke"
+    ],
+    "director": [
+      "Wilm ten Haaf"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "gaslicht"
+  },
+  {
+    "videoId": "HxU-hLNsbC8",
+    "youtubeTitle": "EIN ALIBI ZERBRICHT (1963) | SPANNENDER KRIMIKLASSIKER",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/HxU-hLNsbC8/hqdefault.jpg",
+    "duration": "PT1H31M22S",
+    "publishedAt": "2026-11-06T12:12:35Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 305414,
+    "title": "Ein Alibi zerbricht",
+    "originalTitle": "Ein Alibi zerbricht",
+    "overview": "Die Anwältin Maria Rohn übernimmt den Fall von Martin Siebeck. Der Fernfahrer soll einen Mann auf der Autobahn überfahren haben. Siebeck bestreitet die Tat und sagt aus, dass zwei Personen das Opfer bei voller Fahrt vor seinen LKW geworfen haben. Je mehr sich Maria Rohn mit dem Fall beschäftigt, desto mehr fallen ihr Ungereimtheiten auf. Auch ihr Mann Günther verhält sich immer seltsamer. Es scheint, dass auch er mit dem Unfall zu tun hatte...",
+    "releaseDate": "1963-11-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ymBYBIdqL8ZKHsDrWEF8Draxwdv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/y9n0GNrGwfnwykBgtiBBYIRoAeF.jpg",
+    "voteAverage": 7.5,
+    "genreIds": [
+      18,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ruth Leuwerik",
+      "Peter van Eyck",
+      "Charles Regnier",
+      "Sieghardt Rupp",
+      "Hannelore Elsner"
+    ],
+    "director": [
+      "Alfred Vohrer"
+    ],
+    "writer": [
+      "Stefan Gommermann",
+      "Werner P. Zibaso",
+      "Herbert Reinecker"
+    ],
+    "fsk": null,
+    "slug": "ein-alibi-zerbricht"
+  },
+  {
+    "videoId": "wmW3m1lq6e4",
+    "youtubeTitle": "X-Tro (1982) [Horror] [Sci-Fi] | Kultklassiker des Alien-Horrors | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wmW3m1lq6e4/hqdefault.jpg",
+    "duration": "PT1H23M14S",
+    "publishedAt": "2026-11-06T17:00:15Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 25834,
+    "title": "X-Tro - Nicht alle Außerirdischen sind freundlich",
+    "originalTitle": "Xtro",
+    "overview": "Ein Familienvater wird von Außerirdischen entführt und drei Jahre später, zu einem gefährlichen Monstrum mutiert, wieder auf die Erde zurückgebracht. Auf der Suche nach Opfern trifft er auf eine einsame Frau, die von ihm geschwängert wird. Das daraus entstandene Wesen erweist sich als ein Klon des ehemals verschwundenen Familienvaters. Als solcher schleicht er sich wieder in seine Familie ein, um mit seinem Blut seinen Sohn zu infizieren. Als dieser daraufhin ebenfalls zu einem Monstrum mutiert, ist das Grauen nicht mehr aufzuhalten.",
+    "releaseDate": "1982-12-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7IpEwtm3LmlGeM3CD9KTSnjx8jq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jayLkSF1eUPLwk7yxjZJ2HRLbi.jpg",
+    "voteAverage": 5.674,
+    "genreIds": [
+      878,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Philip Sayer",
+      "Bernice Stegers",
+      "Danny Brainin",
+      "Maryam D'Abo",
+      "Simon Nash"
+    ],
+    "director": [
+      "Harry Bromley Davenport"
+    ],
+    "writer": [
+      "Michel Parry",
+      "Harry Bromley Davenport",
+      "Iain Cassie"
+    ],
+    "fsk": "16",
+    "slug": "x-tro-nicht-alle-ausserirdischen-sind-freundlich"
+  },
+  {
+    "videoId": "01p_kYdODAw",
+    "youtubeTitle": "Das Grauen erwacht: Fear the Dark (2023) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/01p_kYdODAw/hqdefault.jpg",
+    "duration": "PT1H38M48S",
+    "publishedAt": "2026-11-06T16:30:38Z",
+    "channelName": "TitanumX",
+    "channelId": "UCnlIBYHTpD2R3BQuE6nsSKw",
+    "tmdbId": 1089951,
+    "title": "Fear the Dark",
+    "originalTitle": "The Ghost Within",
+    "overview": "Als Margot Richardson (Michaela Longden) in ihr Elternhaus zurückkehrt, um herauszufinden, welches Geheimnis vor 20 Jahren den Tod ihrer Schwester Evie (Rebecca Phillipson) umgab, stellt sie fest, dass sie dort nicht allein zu sein scheint. In der Dunkelheit lauert etwas Unheimliches, das sie mit Hilfe einiger Experten für paranormale Erscheinungen ans Licht bringen möchte. Wie viele Leben wird die Jagd nach der Wahrheit kosten?",
+    "releaseDate": "2023-03-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wDgXy2D266lMGmrhpV461GlAsGn.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kkmvC88pvvZdpNty4Z1jE7rSuh0.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Michaela Longden",
+      "Rebecca Phillipson",
+      "Tom Millen",
+      "Victor Mellors",
+      "Simon Davies"
+    ],
+    "director": [
+      "Lawrence Fowler"
+    ],
+    "writer": [],
+    "fsk": "16",
+    "slug": "fear-the-dark"
+  },
+  {
+    "videoId": "vAfyWUGBJws",
+    "youtubeTitle": "Red Water (2003) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/vAfyWUGBJws/hqdefault.jpg",
+    "duration": "PT1H32M38S",
+    "publishedAt": "2026-11-06T17:00:17Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 22450,
+    "title": "Red Water",
+    "originalTitle": "Red Water",
+    "overview": "In den ruhigen Gewässern des Mississippi wurden Körperteile gefunden!  Niemand ahnt was sich dahinter verbirgt, bis ein riesiger Menschenfresssender Hai auftaucht.  Dieser Hai unterscheidet sich von anderen in sofern das er in Süßwasser leben kann, was ihn zu einer  tödlichen Bedrohung für jeden macht, der ihm vors Maul schwimmt.",
+    "releaseDate": "2003-08-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lK45kc6m6wbRRFsh5nKXsNTh82C.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/z97nIAAEPD0CFZvOnwoTheoKqEV.jpg",
+    "voteAverage": 4.1,
+    "genreIds": [
+      27,
+      28
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Lou Diamond Phillips",
+      "Kristy Swanson",
+      "Coolio",
+      "Jaimz Woolvett",
+      "Rob Boltin"
+    ],
+    "director": [
+      "Charles Robert Carner"
+    ],
+    "writer": [
+      "J.D. Feigelson",
+      "Chris Mack"
+    ],
+    "fsk": null,
+    "slug": "red-water"
+  },
+  {
+    "videoId": "zgcvkYdKI_8",
+    "youtubeTitle": "Glass House: The Good Mother (2006) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zgcvkYdKI_8/hqdefault.jpg",
+    "duration": "PT1H33M58S",
+    "publishedAt": "2026-11-06T17:00:07Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 57784,
+    "title": "The Glass House 2",
+    "originalTitle": "Glass House: The Good Mother",
+    "overview": "Teenager Abby und ihr kleiner Bruder Ethan haben ihre Eltern durch einen Unfall verloren. Da trifft es sich gut, dass die freundlich wirkenden Eheleute Eve und Raymond Goode gerade Pflegekinder suchen für ihr herrschaftliches Anwesen am See. Zunächst scheint alles in bester Butter, doch dann gewinnt Abby ein paar unschöne Erkenntnisse. So handelt es sich bei ihrer Pflegemutter um einen manischen Kontrollfreak, der seine Schutzbefohlenen lieber töten als je wieder anderen überlassen würde...",
+    "releaseDate": "2006-10-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1ZSXkO2c9y7G9EV5HYuqR5wqJwf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8WuQdfvdj5BfoD0NxuBz8Dx0eOU.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Angie Harmon",
+      "Joel Gretsch",
+      "Jordan Hinson",
+      "Bobby Coleman",
+      "Jason London"
+    ],
+    "director": [
+      "Steve Antin"
+    ],
+    "writer": [
+      "Brett Merryman"
+    ],
+    "fsk": "16",
+    "slug": "the-glass-house-2"
+  },
+  {
+    "videoId": "dGZhHP_SKTM",
+    "youtubeTitle": "The Hillside Strangler (2004) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dGZhHP_SKTM/hqdefault.jpg",
+    "duration": "PT1H28M7S",
+    "publishedAt": "2026-11-06T17:00:08Z",
+    "channelName": "daredo TV",
+    "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",
+    "tmdbId": 24196,
+    "title": "The Hillside Strangler",
+    "originalTitle": "The Hillside Strangler",
+    "overview": "Es war eine der furchterregendsten und schmerzhaftesten Kapitel in der Geschichte von Los Angeles. Zwischen 1977 und 1979 ermorden Kenneth Bianchi und sein Cousin Angelo Buono insgesamt 10 Frauen in Hollywood auf grausamste Weise. Ihre Leichen legten sie in verhöhnenden Stellungen an Straßenrändern und in den Hügeln von L.A. ab.",
+    "releaseDate": "2004-11-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/161tBJNqn3KH0rIdrhT7VJbOaYi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fjdXDG5WicfJrcx8Orze9RdMrCk.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      18,
+      27,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Allison Lange",
+      "Nicholas Turturro",
+      "C. Thomas Howell",
+      "Zarah Little",
+      "Jennifer Tisdale"
+    ],
+    "director": [
+      "Chuck Parello"
+    ],
+    "writer": [
+      "Chuck Parello",
+      "Stephen Johnston"
+    ],
+    "fsk": null,
+    "slug": "the-hillside-strangler"
+  },
+  {
+    "videoId": "61Wphdj4008",
+    "youtubeTitle": "DIE POLIZEI JAGTE DEN FALSCHEN – DANN SOLLTE ER FÜR IHREN FEHLER BEZAHLEN | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/61Wphdj4008/hqdefault.jpg",
+    "duration": "PT1H22M3S",
+    "publishedAt": "2026-11-05T11:26:06Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "DIE POLIZEI JAGTE DEN FALSCHEN - DANN SOLLTE ER FÜR IHREN FEHLER BEZAHLEN",
+    "originalTitle": null,
+    "overview": "Actionfilm, Ganzer Film HD, Actionfilme Deutsch, Hollywood Actionfilm, Amerikanischer Actionfilm, Polizei Thriller, Polizeifilm, Kriminalfilm, Krimi Thriller, Spannender Thriller, Action Thriller, Hollywood Thriller, Polizei Korruption, Polizeiskandal, Polizeieinsatz, Unschuldiger Verdächtiger, Falsche Beschuldigung, Gefährliche Verschwörung, Vertuschung, Gefängnis, Verbrecher, Flucht vor der Polizei, Zwei Männer gegen das System, Action und Spannung, Filme voller Spannung, Action Klassiker, Krimi Action, Thriller Filme, Hollywood Filme, Nicolas Cage Filme, Jason Statham Action, Liam Neeson Thriller, Denzel Washington Filme, Bruce Willis Action, Filme in voller Länge, Ganzer Film, Action Kino",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "die-polizei-jagte-den-falschen-dann-sollte-er-fuer-ihren-feh"
+  },
+  {
+    "videoId": "SdNcPkIGERc",
+    "youtubeTitle": "Gangster-Epos mit Robert De Niro: Casino – Ganzer Actionfilm auf Deutsch kostenlos in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SdNcPkIGERc/hqdefault.jpg",
+    "duration": "PT2H51M12S",
+    "publishedAt": "2026-11-05T19:15:09Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": null,
+    "title": "Casino",
+    "originalTitle": null,
+    "overview": "Profispieler Ace Rothstein und Mafiakiller Nicky Santoro leiten für den Mob das Tangiers Casino. Als Aces drogenabhängige Frau Ginger bei Nicky Zuflucht sucht, beginnt ihr Untergang.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "casino"
+  },
+  {
+    "videoId": "5Io5PrnFa_g",
+    "youtubeTitle": "Trennung in Rom | Breaking Up in Rome | Zehn Jahre und ein Zweifel | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5Io5PrnFa_g/hqdefault.jpg",
+    "duration": "PT1H55M27S",
+    "publishedAt": "2026-11-05T21:00:30Z",
+    "channelName": "Kino Deutsch",
+    "channelId": "UCBHYbV2w8dE__bS6fNdCbpw",
+    "tmdbId": null,
+    "title": "Trennung in Rom",
+    "originalTitle": null,
+    "overview": "Der Schriftsteller Tommaso beantwortet heimlich unter einem Pseudonym Beziehungsfragen für eine Frauenzeitschrift. Eine Zuschrift trifft ihn persönlich: Zoe sucht nach einem möglichst behutsamen Weg, ihre gemeinsame Beziehung zu beenden. Er antwortet, ohne seine Identität preiszugeben, und entdeckt eine neue Sicht auf ihr gemeinsames Leben. Auch sein Freund Umberto zweifelt an seiner Ehe mit Elena, der Bürgermeisterin von Rom, deren öffentliches Amt nur wenig Raum für ihr Privatleben lässt. Zwischen Rücksicht und Aufrichtigkeit müssen die Figuren einen Weg finden, ihre Bedürfnisse auszusprechen. Mit Edoardo Leo, Marta Nieto, Claudia Gerini und Stefano Fresi.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "trennung-in-rom"
+  },
+  {
+    "videoId": "bYOn8dc8lkc",
+    "youtubeTitle": "PSYCHOTHRILLER – DEVOT: Eine geheimnisvolle Frau bringt einen Mann an seine Grenzen!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bYOn8dc8lkc/hqdefault.jpg",
+    "duration": "PT1H19M44S",
+    "publishedAt": "2026-11-05T18:30:10Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": null,
+    "title": "PSYCHOTHRILLER - DEVOT: Eine geheimnisvolle Frau bringt einen Mann an seine Grenzen!",
+    "originalTitle": null,
+    "overview": "In einer regnerischen Nacht entdeckt Henry (Simon Böer) die junge Anja (Annett Renneberg) auf einer Brücke und glaubt, sie vor einem Selbstmordversuch bewahren zu müssen. Die geheimnisvolle Frau gibt sich als Prostituierte aus und begleitet ihn in sein abgelegenes Loft in einer ehemaligen Fabrik. Doch schon bald versucht Anja, ihn zu bestehlen und zu fliehen. Henry hält sie auf, fesselt sie und verständigt die Polizei. Während beide auf die Beamten warten, beginnt ein verstörendes Katz-und-Maus-Spiel aus erfundenen Geschichten, psychologischer Manipulation und gegenseitigen Provokationen. Immer neue Widersprüche lassen Zweifel an Anjas Identität und Henrys wahren Absichten aufkommen. Was als zufällige Begegnung beginnt, entwickelt sich zu einem gefährlichen Machtkampf, bei dem Vertrauen zur tödlichen Falle werden könnte.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Igor Zaritzki"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "psychothriller-devot-eine-geheimnisvolle-frau-bringt-einen-m"
+  },
+  {
+    "videoId": "4LaJ02Ladwk",
+    "youtubeTitle": "لله في خلقه شؤون | الحلقة 05: العنب والموز",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4LaJ02Ladwk/hqdefault.jpg",
+    "duration": "PT41M2S",
+    "publishedAt": "2026-11-05T16:00:03Z",
+    "channelName": "Stream Hier",
+    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
+    "tmdbId": null,
+    "title": "الحلقة 05: العنب والموز",
+    "originalTitle": null,
+    "overview": "",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "05"
+  },
+  {
+    "videoId": "2wtVt01CuxI",
+    "youtubeTitle": "👹Day 13 - Das Böse lauert nebenan | Horror, Thriller | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2wtVt01CuxI/hqdefault.jpg",
+    "duration": "PT1H31M9S",
+    "publishedAt": "2026-11-05T14:00:33Z",
+    "channelName": "Filmalarm",
+    "channelId": "UCFOSAYaXLPMdruA2oUpo0yg",
+    "tmdbId": null,
+    "title": "Day 13 - Das Böse lauert nebenan",
+    "originalTitle": null,
+    "overview": "Der 16-jährige Colton (Alex MacNicoll) muss in den Sommerferien auf seine jüngere Schwester Rachel aufpassen. Kein Wunder also, dass ihn bald die pure Langeweile überkommt. Als er unerwartet Bewegungen und Licht in dem seit langem leerstehenden Haus gegenüber ausmacht, ist sein Interesse geweckt. Zusammen mit seinem Freund Michael startet er eine Überwachungsaktion, bei denen die beiden seltsame und beunruhigende Beobachtungen machen. Finden in dem alten Haus satanische Rituale statt und soll dort etwa ein junges Mädchen geopfert werden? Die herbeigerufenen Polizisten schenken dem Verdacht keinen Glauben und so beschließen die beiden, in das fremde Haus einzubrechen, das Mädchen zu retten und Beweise zu sichern…",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "day-13-das-boese-lauert-nebenan"
+  },
+  {
+    "videoId": "JUw4IQuEaik",
+    "youtubeTitle": "Eine Elite-Söldnertruppe stürmt den Dschungel – doch der Auftrag ist eine tödliche Falle",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JUw4IQuEaik/hqdefault.jpg",
+    "duration": "PT1H41M14S",
+    "publishedAt": "2026-11-05T15:00:11Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Eine Elite-Söldnertruppe stürmt den Dschungel - doch der Auftrag ist eine tödliche Falle",
+    "originalTitle": null,
+    "overview": "Eine schwer bewaffnete Eliteeinheit. Ein gefährlicher Auftrag im Dschungel Südostasiens. Und ein tödlicher Verrat, der aus einer Geheimoperation einen Kampf ums Überleben macht.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "eine-elite-soeldnertruppe-stuermt-den-dschungel-doch-der-auf"
+  },
+  {
+    "videoId": "cdFDxc26je0",
+    "youtubeTitle": "😱 Eine Droge Erschafft Virtuelle Welten… Doch Ein Machtkampf Eskaliert! | Sci-Fi Thriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/cdFDxc26je0/hqdefault.jpg",
+    "duration": "PT1H35M41S",
+    "publishedAt": "2026-11-05T18:29:37Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": null,
+    "title": "OtherLife",
+    "originalTitle": null,
+    "overview": "Der junge Ren entwickelt eine revolutionäre Droge, die komprimierte virtuelle Realitäten erschafft, in denen Menschen ganze Welten erleben können. Doch schon bald gerät er mit seinem Geschäftspartner Sam in einen erbitterten Konflikt darüber, wie sie ihre mächtige Erfindung nutzen sollen. Was als bahnbrechende Entdeckung beginnt, droht ihre Freundschaft und die Zukunft der Menschheit zu zerstören.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "otherlife-2"
+  },
+  {
+    "videoId": "1XyiUAL2eTk",
+    "youtubeTitle": "Wenn die Liebe ein süßes Geheimnis birgt: Love, Romance and Chocolate | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1XyiUAL2eTk/hqdefault.jpg",
+    "duration": "PT1H26M36S",
+    "publishedAt": "2026-11-05T18:00:04Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn die Liebe ein süßes Geheimnis birgt: Love, Romance and Chocolate",
+    "originalTitle": null,
+    "overview": "Nach einer überraschenden Trennung reist die New Yorker Foodstylistin Emma allein nach Brügge, um dort ihr geplantes romantisches Abenteuer auf eigene Faust zu erleben. Vor Ort trifft sie auf den traditionsbewussten Schokolatier Luke, der verzweifelt um das Überleben seines Familienbetriebs kämpft. Gemeinsam versuchen sie, eine einzigartige Kreation für einen königlichen Wettbewerb zu entwickeln, und entdecken dabei überraschende neue geschmackliche Welten. Während des Aufenthalts in der malerischen Kulisse von Brügge eröffnen sich für beide unerwartete Wege, die sowohl berufliche als auch persönliche Veränderungen mit sich bringen. Dieser Film verbindet eine herzerwärmende Liebesgeschichte mit der Faszination belgischer Handwerkskunst und zeigt, wie Risikobereitschaft das Leben bereichern kann.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "wenn-die-liebe-ein-suesses-geheimnis-birgt-love-romance-and"
   }
 ]
