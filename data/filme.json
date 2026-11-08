@@ -244492,7 +244492,9 @@
       "Earl W. Wallace"
     ],
     "fsk": "12",
-    "slug": "hilfe-ich-habe-eine-familie"
+    "slug": "hilfe-ich-habe-eine-familie",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "B2bJTvnFJkk",
@@ -325566,8 +325568,7 @@
       10770
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 65 (Suchbegriff: \"Don't Let Him Find You\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Brianna Cohen",
       "Philip Boyd",
@@ -336535,7 +336536,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "der-praesident-ahnte-nichts-ein-verzweifelter-mann-plante-ei"
+    "slug": "der-praesident-ahnte-nichts-ein-verzweifelter-mann-plante-ei",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "yALBauOHQFE",
@@ -337528,5 +337531,587 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "wenn-die-liebe-ein-suesses-geheimnis-birgt-love-romance-and"
+  },
+  {
+    "videoId": "WrUvzk6ytJ8",
+    "youtubeTitle": "THRILLERFILM, in dem jede Spur das wahre Gesicht des Täters enthüllt | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WrUvzk6ytJ8/hqdefault.jpg",
+    "duration": "PT1H28M15S",
+    "publishedAt": "2026-11-07T16:00:11Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1121156,
+    "title": "Pocket Dial Murder",
+    "originalTitle": "Pocket Dial Murder",
+    "overview": "",
+    "releaseDate": "2023-06-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qn4AHNUtVjEsLDwURKBhPg90tkS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ErGV8yWaZNYVSK6xePCkvNMEPS.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      10770,
+      53,
+      18,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Pocket Dial Murder\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kirsten Comerford",
+      "Steve Byers",
+      "Erica Anderson",
+      "Mathieu Bourassa",
+      "Dawn Lambing"
+    ],
+    "director": [
+      "Roxanne Boisvert"
+    ],
+    "writer": [
+      "Roxanne Boisvert",
+      "Audrey C. Marie"
+    ],
+    "fsk": null,
+    "slug": "pocket-dial-murder"
+  },
+  {
+    "videoId": "D_4xd9QAiT0",
+    "youtubeTitle": "Es lauert in der Dunkelheit: The Power (2021) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/D_4xd9QAiT0/hqdefault.jpg",
+    "duration": "PT1H32M36S",
+    "publishedAt": "2026-11-07T19:15:23Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 760919,
+    "title": "The Power",
+    "originalTitle": "The Power",
+    "overview": "East London, 1974. Während sich das ganze Land auf eine flächendeckende Stromsperre vorbereitet, erscheint die angehende Krankenschwester Val zu ihrem ersten Arbeitstag in einem alten Krankenhaus. Da die meisten Patienten bereits evakuiert worden sind, findet sich Val bei ihrer ersten Nachtschicht in einem düsteren, fast verlassenen Gebäude wieder. Doch ein abgründiges Geheimnis verbirgt sich hinter diesen Mauern. In der Dunkelheit muss sich Val ihren tiefsten Ängsten stellen und einer bösartigen Kraft entgegentreten.",
+    "releaseDate": "2021-06-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/s0aVEjT1DWopUrJehACWZyqpO99.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lQ7OF8zoLMOh1rxL0iwWXr28jk0.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Rose Williams",
+      "Charlie Carrick",
+      "Gbemisola Ikumelo",
+      "Theo Barklem-Biggs",
+      "Nuala McGowan"
+    ],
+    "director": [
+      "Corinna Faith"
+    ],
+    "writer": [
+      "Corinna Faith"
+    ],
+    "fsk": null,
+    "slug": "the-power"
+  },
+  {
+    "videoId": "YgzEy-Lx0W4",
+    "youtubeTitle": "Hustle & Flow | 2005 | 4K | Terrence Howard | Dramatischer Hip-Hop-Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YgzEy-Lx0W4/hqdefault.jpg",
+    "duration": "PT1H49M39S",
+    "publishedAt": "2026-11-07T18:00:02Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 10476,
+    "title": "Hustle & Flow",
+    "originalTitle": "Hustle & Flow",
+    "overview": "Als der kleine Zuhälter DJay zufällig seinen alten Freund Key, einen Toningenieur, wiedertrifft, gerät er ins Grübeln. Schließlich träumte auch er einst von einer Karriere im Musikbusiness. Also beginnt DJay, der schon immer gerne mit Worten spielte, Rap-Texte aufzuschreiben. Mit Hilfe von Key und Shelby, einem Kirchenmusiker, macht er sich daran, die ersten Songs aufzunehmen. Als der Rap-Superstar Skinny Black seinen Besuch ankündigt, sieht DJay die große Chance gekommen, sein Leben von Grund zu ändern.",
+    "releaseDate": "2005-07-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yO5QTMZ2Oex6mwsgJuwRuINGuOQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/d4ZrRcwEPmLQvOCyrSdWw5NglGB.jpg",
+    "voteAverage": 7.2,
+    "genreIds": [
+      80,
+      18,
+      10402
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 116,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Terrence Howard",
+      "Anthony Anderson",
+      "Taryn Manning",
+      "Taraji P. Henson",
+      "DJ Qualls"
+    ],
+    "director": [
+      "Craig Brewer"
+    ],
+    "writer": [
+      "Craig Brewer"
+    ],
+    "fsk": "12",
+    "slug": "hustle-flow"
+  },
+  {
+    "videoId": "o-L3-v5iRVo",
+    "youtubeTitle": "Der Fluch | SCIFI, KOMÖDIE | Ganzer Film | Film Komplett auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/o-L3-v5iRVo/hqdefault.jpg",
+    "duration": "PT1H31M19S",
+    "publishedAt": "2026-11-07T16:00:19Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": 228552,
+    "title": "Der Fluch",
+    "originalTitle": "Der Fluch",
+    "overview": "Ein Ausflug in die Alpen wird für die achtjährige Melanie und ihre Eltern zum Horrortrip: Die Bewohner eines Bergdorfs verhalten sich seltsam ­ und Melanie entdeckt in einem Gletscher die Leiche eines Mädchens, das ihr bis aufs Haar gleicht. Auf dem Bergidyll lastet ein uralter Fluch",
+    "releaseDate": "1988-11-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bll8hjInwme9rA6PSfuWcXCGF0V.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/eZbZFBfcjIVKTBxyUWKRsiTLzpn.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      27,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (3 Filme) -- Laufzeit entschied: TMDB 88 min, Video 91 min · Zuordnungswert 121 (Suchbegriff: \"Der Fluch\")",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Dominic Raacke",
+      "Barbara May",
+      "Ortrud Beginnen",
+      "Barbara Valentin",
+      "Tobias Moretti"
+    ],
+    "director": [
+      "Ralf Huettner"
+    ],
+    "writer": [
+      "Andy T. Hoetzel",
+      "Ralf Huettner"
+    ],
+    "fsk": "12",
+    "slug": "der-fluch"
+  },
+  {
+    "videoId": "fyBYmsB-klE",
+    "youtubeTitle": "Sabrina | 1954 | Billy Wilder | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fyBYmsB-klE/hqdefault.jpg",
+    "duration": "PT1H48M56S",
+    "publishedAt": "2026-11-07T17:00:31Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 6620,
+    "title": "Sabrina",
+    "originalTitle": "Sabrina",
+    "overview": "Sabrina, Tochter des Chauffeurs der wohlhabenden Familie Larrabee, verliebt sich hoffnungslos in deren jüngsten Sohn David, als der Teenager regelmäßig dessen ausgelassenes Partyleben beobachtet. Ihr Vater schickt sie auf eine Schule in Paris, damit sie von ihrem Liebeskummer geheilt wird, doch als sie zurückkehrt und sich in eine unwiderstehliche, elegante junge Frau verwandelt hat, ist es Davids älterer pragmatischer Workaholic-Bruder Linus, der sich Hals über Kopf in sie verliebt …",
+    "releaseDate": "1954-09-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/x0vzuqmOCdLDJ9TBOCFR5jHVKh9.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3y8NgBIey8sivJAHaeIiyOnkDOz.jpg",
+    "voteAverage": 7.5,
+    "genreIds": [
+      35,
+      10749,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 114,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Humphrey Bogart",
+      "Audrey Hepburn",
+      "William Holden",
+      "Walter Hampden",
+      "John Williams"
+    ],
+    "director": [
+      "Billy Wilder"
+    ],
+    "writer": [
+      "Billy Wilder",
+      "Ernest Lehman",
+      "Samuel A. Taylor"
+    ],
+    "fsk": "12",
+    "slug": "sabrina"
+  },
+  {
+    "videoId": "Fu5j1Nz9cPo",
+    "youtubeTitle": "GEISTERKINDER & DUNKLE VERGANGENHEIT: The Kindred - Tödliche Geheimnisse | Ganzer Horrorfilm Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Fu5j1Nz9cPo/hqdefault.jpg",
+    "duration": "PT1H34M18S",
+    "publishedAt": "2026-11-07T17:15:10Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 854188,
+    "title": "The Kindred",
+    "originalTitle": "The Kindred",
+    "overview": "Nach dem Selbstmord ihres Vaters untersucht eine junge Mutter, was zu seinem Tod geführt hat. Doch als sie von Geistern heimgesucht wird und ein ungelöstes Rätsel von vor 30 Jahren aufdeckt, entdeckt sie eine dunkle Familiengeschichte, die sich als tödlich für ihr Kind erweisen könnte.",
+    "releaseDate": "2021-12-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hfDJh2wqTQMElyhNU4ceTUZTUdm.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xHd6rARprd4woZinkziIntiTSZD.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "April Pearson",
+      "Blake Harrison",
+      "James Cosmo",
+      "Samantha Bond",
+      "Steve Oram"
+    ],
+    "director": [
+      "Jamie Patterson"
+    ],
+    "writer": [
+      "Christian J. Hearn"
+    ],
+    "fsk": "16",
+    "slug": "the-kindred"
+  },
+  {
+    "videoId": "oJ3RdQphvbA",
+    "youtubeTitle": "❤️ ICH DENKE OFT AN PIROSCHKA (1955) – EIN UNVERGESSLICHER DEUTSCHER FILMKLASSIKER! 🎬",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oJ3RdQphvbA/hqdefault.jpg",
+    "duration": "PT1H32M8S",
+    "publishedAt": "2026-11-07T10:31:49Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 11095,
+    "title": "Ich denke oft an Piroschka",
+    "originalTitle": "Ich denke oft an Piroschka",
+    "overview": "Andreas, ein in die Jahre gekommener Schriftsteller, erinnert sich bei einer Zugfahrt an seine Jugendliebe aus Ungarn\r Andreas lernt in der Puszta die fröhliche 17-jährige Piroschka kennen, die Tochter des Stationsvorstehers. Sie verlieben sich bei einem Tanzfest und verbringen romantische Tage – bis eine Karte von Greta seiner Freundin eintrifft. Andreas fährt zu Greta aber Piroschka folgt ihm und erst viel später begreift er das er Piri liebt und sie versprechen sich wiederzusehen, aber das passiert nicht und so bleibt ihm nur die Erinnerung",
+    "releaseDate": "1955-12-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/obmyNjPpBNk8T3vwpAJxHW2EMFW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qr2bvaG5wNlCzw61GBJzBF8eC1t.jpg",
+    "voteAverage": 7.2,
+    "genreIds": [
+      10749,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Liselotte Pulver",
+      "Gunnar Möller",
+      "Wera Frydtberg",
+      "Gustav Knuth",
+      "Rudolf Vogel"
+    ],
+    "director": [
+      "Kurt Hoffmann"
+    ],
+    "writer": [
+      "Joachim Wedekind",
+      "Per Schwenzen",
+      "Hugo Hartung"
+    ],
+    "fsk": "6",
+    "slug": "ich-denke-oft-an-piroschka"
+  },
+  {
+    "videoId": "VliOkB1Dz_w",
+    "youtubeTitle": "🔥Brutaler Action-Krimi | Menschenhändler entführen seine Verlobte – Die Brüder schlagen zurück! | HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/VliOkB1Dz_w/hqdefault.jpg",
+    "duration": "PT1H22M50S",
+    "publishedAt": "2026-11-07T15:27:51Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 45015,
+    "title": "Acts of Violence",
+    "originalTitle": "Acts of Violence",
+    "overview": "",
+    "releaseDate": "2010-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1L2Ym1ibhvshK9jPlZWtB373Tba.jpg",
+    "backdropUrl": null,
+    "voteAverage": 2.8,
+    "genreIds": [
+      28,
+      18,
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (4 Filme) -- Laufzeit entschied: TMDB 82 min, Video 83 min (auch möglich: Acts of Violence 2018, 86 min) · Zuordnungswert 98 (Suchbegriff: \"Acts of Violence\")",
+    "runtime": 82,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ron Perlman",
+      "Il Lim",
+      "Leelee Sobieski",
+      "Jim Hanks",
+      "Lorin McCraley"
+    ],
+    "director": [
+      "Il Lim"
+    ],
+    "writer": [
+      "Il Lim"
+    ],
+    "fsk": null,
+    "slug": "acts-of-violence-2"
+  },
+  {
+    "videoId": "6m5DrS3_V3w",
+    "youtubeTitle": "🍿🤣 ACHTUNG, ES WIRD URKOMISCH! Diese Komödie übertrifft alle Erwartungen! | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6m5DrS3_V3w/hqdefault.jpg",
+    "duration": "PT1H23M51S",
+    "publishedAt": "2026-11-07T14:20:57Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 1208142,
+    "title": "Christmas with the Twins",
+    "originalTitle": "Christmas with the Twins",
+    "overview": "",
+    "releaseDate": "2024-12-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/o9VuZFg85G2Od8hVhbGF1rz3Inm.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qjgBr7M6fDK8I1vjmM5NRQGfvQa.jpg",
+    "voteAverage": 1,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Christmas with the Twins\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Nichaela Farrell",
+      "Jade McCrea",
+      "Imran Adams",
+      "Rheo Daley",
+      "Tilly J Muwonge"
+    ],
+    "director": [
+      "Ben J. Williams"
+    ],
+    "writer": [
+      "Harrison Thomas Boxley"
+    ],
+    "fsk": null,
+    "slug": "christmas-with-the-twins"
+  },
+  {
+    "videoId": "nIbGB4c5zAQ",
+    "youtubeTitle": "Mörderisch - Homicidal (1961) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nIbGB4c5zAQ/hqdefault.jpg",
+    "duration": "PT1H27M45S",
+    "publishedAt": "2026-11-07T17:00:04Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 29394,
+    "title": "Mörderisch",
+    "originalTitle": "Homicidal",
+    "overview": "Emily, eine attraktive junge Frau, checkt im Hotel Ventura ein und richtet eine merkwürdige Bitte an den Hotelpagen: Er solle sie in derselben Nacht noch heiraten, um anschließend die Ehe wieder zu annullieren. Er stimmt zu - verzaubert von Emilys Schönheit. Nach der Zeremonie jedoch ersticht Emily den Friedensrichter und verschwindet. Die Polizei stellt fest, dass sie die Ehe-Urkunde mit dem Namen von Miriam Webster unterschrieben hat, die die Halbschwester eines zukünftigen Millionenerben ist.",
+    "releaseDate": "1961-07-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fv1N1VXsPunq0AGJuRA9OluSZVd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/o53HgABoc6rUsjLPyjWv8BBhljL.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      27,
+      53,
+      9648
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Joan Marshall",
+      "Glenn Corbett",
+      "Patricia Breslin",
+      "Eugenie Leontovich",
+      "Alan Bunce"
+    ],
+    "director": [
+      "William Castle"
+    ],
+    "writer": [
+      "Robb White"
+    ],
+    "fsk": null,
+    "slug": "moerderisch"
+  },
+  {
+    "videoId": "LSzlPZTAkv4",
+    "youtubeTitle": "New Police Story (2004) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/LSzlPZTAkv4/hqdefault.jpg",
+    "duration": "PT2H2M59S",
+    "publishedAt": "2026-11-07T17:00:07Z",
+    "channelName": "daredo TV",
+    "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",
+    "tmdbId": 11636,
+    "title": "New Police Story",
+    "originalTitle": "新警察故事",
+    "overview": "Inspektor Wing ist ein höchst dekorierter und angesehener Polizist der Hongkonger Polizei. Eine lebende Legende, der Beste der Besten, der, der die härtesten Fälle knackt. Sein neuester Fall: Eine skrupellose Gangsterbande von Jugendlichen hat es auf alle Cops der Stadt abgesehen. Als Wings Truppe bei einem Einsatz der Gang komplett zum Opfer fällt und nur Wing selbst knapp mit dem Leben davon kommt, verliert er jeden Glauben an sich selbst. Er beantragt bei seinem Vorgesetzten ein Jahr Urlaub, um sich von dem Schock zu erholen. Doch er driftet immer mehr in Melancholie und Alkohol ab. Nach einer durchzechten Nacht wacht er in dem Haus von Frank Zheng auf. Frank hat wie auch Wing bei dem Einsatz einen Verwandten verloren und kann Wing überreden, die Jugendbande ein weiteres Mal ins Kreuzfeuer zu nehmen.",
+    "releaseDate": "2004-09-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/k0toKZFxU7E7Jd7oUSqhwQhIXBQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qDcLJIeg2z1oMtAWs9qFLeJVJ6E.jpg",
+    "voteAverage": 7.154,
+    "genreIds": [
+      28,
+      53,
+      80,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 123,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jackie Chan",
+      "謝霆鋒",
+      "Charlie Yeung",
+      "Charlene Choi",
+      "Daniel Wu"
+    ],
+    "director": [
+      "Benny Chan Muk-sing"
+    ],
+    "writer": [
+      "袁錦麟"
+    ],
+    "fsk": "16",
+    "slug": "new-police-story"
+  },
+  {
+    "videoId": "pSegfLiweO0",
+    "youtubeTitle": "Brad Pitt zieht eine junge Ausreißerin in die Unterwelt – dann droht ihr die Todesstrafe",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pSegfLiweO0/hqdefault.jpg",
+    "duration": "PT1H27M3S",
+    "publishedAt": "2026-11-06T18:58:37Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Brad Pitt zieht eine junge Ausreißerin in die Unterwelt - dann droht ihr die Todesstrafe",
+    "originalTitle": null,
+    "overview": "Eine Jugendliche auf der Flucht vor ihrer Vergangenheit. Ein gefährlicher Mann, der ihre Verzweiflung ausnutzt. Und ein Mordprozess, bei dem plötzlich ihr Leben auf dem Spiel steht.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "brad-pitt-zieht-eine-junge-ausreisserin-in-die-unterwelt-dan"
+  },
+  {
+    "videoId": "kUOVkn9VYJY",
+    "youtubeTitle": "🎬 Dieser FILM lässt niemanden mehr wegsehen, sobald man anfängt, ihn anzuschauen! | Komplette Filme",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kUOVkn9VYJY/hqdefault.jpg",
+    "duration": "PT1H23M21S",
+    "publishedAt": "2026-11-06T13:00:19Z",
+    "channelName": "Kinohof",
+    "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
+    "tmdbId": null,
+    "title": "The Danger of Positive Thinking",
+    "originalTitle": null,
+    "overview": "Auf Kinohof kannst du ganze Filme auf Deutsch kostenlos bei YouTube ansehen. Du suchst einen Spielfilm für heute Abend oder möchtest am Wochenende einen Film in voller Länge genießen? Stöbere durch unseren Kanal, entdecke verschiedene Geschichten und finde einen Film, der dich interessiert. Ob für einen gemütlichen Filmabend oder zwischendurch – hier kannst du Filme kostenlos online schauen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-danger-of-positive-thinking"
+  },
+  {
+    "videoId": "7ebhdOYIiIo",
+    "youtubeTitle": "😱 In einem BUNKER unter den Trümmern gefangen: Nur einer kann überleben! | Fallout | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7ebhdOYIiIo/hqdefault.jpg",
+    "duration": "PT1H24M34S",
+    "publishedAt": "2026-11-06T14:13:08Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Fallout",
+    "originalTitle": null,
+    "overview": "Ein packender, dramatischer Thriller über den Kampf ums Überleben, in dem sich ein gewöhnlicher Arbeitsplatz in einen Albtraum verwandelt. Nach einer plötzlichen Katastrophe finden sich vier Angestellte in einem unterirdischen Schutzraum unter einem eingestürzten Wolkenkratzer wieder. Draußen wütet ein Feuer, Rauch und Trümmer umgeben sie, und drinnen erwartet sie eine noch viel gefährlichere Prüfung. Wasser und Lebensmittel gehen schnell zur Neige, die Hoffnung auf Rettung schwindet, und jede Stunde wird zum Kampf ums Überleben.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "fallout"
+  },
+  {
+    "videoId": "aEjQwkwEIFc",
+    "youtubeTitle": "😱 Ein PSYCHOTHRILLER, der dich bis zum Ende nicht loslässt! | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/aEjQwkwEIFc/hqdefault.jpg",
+    "duration": "PT1H56M4S",
+    "publishedAt": "2026-11-06T15:00:27Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": null,
+    "title": "Ein PSYCHOTHRILLER, der dich bis zum Ende nicht loslässt!",
+    "originalTitle": null,
+    "overview": "Michèle ist eine erfolgreiche Geschäftsfrau, deren Leben nach einem brutalen Übergriff in ihrem eigenen Haus aus den Fugen gerät. Statt sich der Angst hinzugeben, beginnt sie, ihren unbekannten Angreifer auf eigene Faust zu suchen. Doch ihre gefährliche Suche entwickelt sich zu einem verstörenden psychologischen Machtspiel voller Geheimnisse, Manipulation und unerwarteter Wendungen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Isabelle Huppert",
+      "Laurent Lafitte",
+      "Anne Consigny",
+      "Charles Berling",
+      "Virginie Efira"
+    ],
+    "director": [
+      "Paul Verhoeven"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "ein-psychothriller-der-dich-bis-zum-ende-nicht-loslaesst"
   }
 ]
