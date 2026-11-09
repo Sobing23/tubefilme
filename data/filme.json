@@ -337828,7 +337828,9 @@
       "Hugo Hartung"
     ],
     "fsk": "6",
-    "slug": "ich-denke-oft-an-piroschka"
+    "slug": "ich-denke-oft-an-piroschka",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "VliOkB1Dz_w",
@@ -338113,5 +338115,546 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "ein-psychothriller-der-dich-bis-zum-ende-nicht-loslaesst"
+  },
+  {
+    "videoId": "YznTK0tgjJY",
+    "youtubeTitle": "Nach der Trennung trifft sie einen Mann, der sie wieder an die Liebe glauben lässt | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YznTK0tgjJY/hqdefault.jpg",
+    "duration": "PT1H29M18S",
+    "publishedAt": "2026-11-08T16:00:28Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 974319,
+    "title": "The Love Subscription",
+    "originalTitle": "The Love Subscription",
+    "overview": "",
+    "releaseDate": "2023-01-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/k238jhgOBu5TBHGl6kzC7i9EPTP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yqHRwy3GMvbvmoqH2y6VClppw5O.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      10770,
+      35,
+      10749,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"The Love Subscription\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Carolina Bartczak",
+      "Chad Connell",
+      "Will Bowes",
+      "Jill Frappier",
+      "David Lafontaine"
+    ],
+    "director": [
+      "John Bradshaw"
+    ],
+    "writer": [
+      "Jack Geiran",
+      "Mark Manjardi"
+    ],
+    "fsk": null,
+    "slug": "the-love-subscription"
+  },
+  {
+    "videoId": "7_CHMleG6KA",
+    "youtubeTitle": "ORLANDO (2022) | GANZER FILM | 4K UHD | Ein Großvater entdeckt seine Enkelin",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7_CHMleG6KA/hqdefault.jpg",
+    "duration": "PT2H3M10S",
+    "publishedAt": "2026-11-08T18:00:27Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 910743,
+    "title": "Orlando",
+    "originalTitle": "Orlando",
+    "overview": "",
+    "releaseDate": "2022-12-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yZZ7cOyyN2s42kIEg1oTRDkvk3.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gC7S6ycvB37YZiUMOwPi7XBBumz.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 122,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Michele Placido",
+      "Angelica Kazankova",
+      "Fabrizio Rongione",
+      "Federico Pacifici",
+      "Denis Mpunga"
+    ],
+    "director": [
+      "Daniele Vicari"
+    ],
+    "writer": [
+      "Daniele Vicari",
+      "Andrea Cedrola"
+    ],
+    "fsk": null,
+    "slug": "orlando"
+  },
+  {
+    "videoId": "6O18IS-DTn4",
+    "youtubeTitle": "Rosie & Frank - Wiedersehen auf vier Pfoten (BEWEGENDER FILM in voller Länge, ganzer Film Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6O18IS-DTn4/hqdefault.jpg",
+    "duration": "PT1H24M23S",
+    "publishedAt": "2026-11-08T14:00:02Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 925779,
+    "title": "Rosie & Frank - Wiedersehen auf vier Pfoten",
+    "originalTitle": "Róise & Frank",
+    "overview": "Zwei Jahre ist es her, dass Rosie die Liebe ihres Lebens verloren hat - ihren Ehemann Frank. In ihrem Kummer hat sie sich von Freunden und Familie zurückgezogen. Doch das plötzliche Auftauchen eines Hundes verändert alles. Der seltsame Vierbeiner liebt Sport und Steaks, hat im Haus seinen Lieblingssessel und eine Abneigung gegen Rosies Nachbarin – genau wie der verstorbene Frank.",
+    "releaseDate": "2022-09-16",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/n1zjZutAV3Uyjsx2a3vFamHI9mb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2ZeCbNCK1VmFo6weLazeTfKOptJ.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      18,
+      10751,
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bríd Ní Neachtain",
+      "Cillian O'Gairbhi",
+      "Lorcan Cranitch",
+      "Ruadhán de Faoite",
+      "Michelle Beamish"
+    ],
+    "director": [
+      "Rachael Moriarty",
+      "Peter Murphy"
+    ],
+    "writer": [
+      "Peter Murphy",
+      "Rachael Moriarty"
+    ],
+    "fsk": "6",
+    "slug": "rosie-frank-wiedersehen-auf-vier-pfoten"
+  },
+  {
+    "videoId": "R4iqvdqfVS4",
+    "youtubeTitle": "WESTERN-EPOS – DJANGO - SCHWARZER GOTT DES TODES: Der maskierte Rächer schlägt zu!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/R4iqvdqfVS4/hqdefault.jpg",
+    "duration": "PT1H33M6S",
+    "publishedAt": "2026-11-08T16:00:19Z",
+    "channelName": "Draco Actionfilme",
+    "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
+    "tmdbId": 143760,
+    "title": "Django - Schwarzer Gott des Todes",
+    "originalTitle": "Starblack",
+    "overview": "Eine kleine Stadt steht unter der Herrschaft des skrupellosen Bösewichts Curry. Der einzige Unterstützer der Farmer und Dorfbewohner ist der geheimnisvolle, maskierte Revolverheld Starblack, der immer im richtigen Moment auftaucht, und Currys Männer reihenweise umlegt. Dieser setzt alles daran Starblack in einen Hinterhalt zu locken und lässt den unschuldigen Farmer Williams zum Tode verurteilen...",
+    "releaseDate": "1966-08-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pQne5kYayUbuQMcFSxY4Xt8EYqN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wSHYhuge1FwyFg8Y01rDHCsgM4r.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Robert Woods",
+      "Elga Andersen",
+      "Franco Lantieri",
+      "Jane Tilden",
+      "Harald Wolff"
+    ],
+    "director": [
+      "Giovanni Grimaldi"
+    ],
+    "writer": [
+      "Giovanni Grimaldi"
+    ],
+    "fsk": "16",
+    "slug": "django-schwarzer-gott-des-todes"
+  },
+  {
+    "videoId": "uzhdfmetwHY",
+    "youtubeTitle": "Ruinen | 2008 | 4K | Thriller | Horrorfilm auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/uzhdfmetwHY/hqdefault.jpg",
+    "duration": "PT1H25M6S",
+    "publishedAt": "2026-11-08T18:00:33Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 11152,
+    "title": "Ruinen",
+    "originalTitle": "The Ruins",
+    "overview": "Vier US-amerikanische Jugendliche  lernen im Urlaub in Cancún den Deutschen Mathias kennen, der seinen Bruder Heinrich sucht, welcher bei einem Maya-Tempfel verschollen sein soll. Sie begleiten ihn dorthin, nichtsahnend, dass dort unheimliche Pflanzen grassieren, die sehr gefährlich werden können.",
+    "releaseDate": "2008-04-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/u1I9t6iXRYsrL78gh4vSvuoibcj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rYqjPTWtgswEh7gTMbponxsy0tR.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jonathan Tucker",
+      "Jena Malone",
+      "Shawn Ashmore",
+      "Laura Ramsey",
+      "Joe Anderson"
+    ],
+    "director": [
+      "Carter Smith"
+    ],
+    "writer": [
+      "Scott B. Smith"
+    ],
+    "fsk": "16",
+    "slug": "ruinen"
+  },
+  {
+    "videoId": "Pj06exXYFaQ",
+    "youtubeTitle": "Charley's Onkel | 1969 | HeimatfilmeTV",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Pj06exXYFaQ/hqdefault.jpg",
+    "duration": "PT1H27M12S",
+    "publishedAt": "2026-11-08T14:45:12Z",
+    "channelName": "Heimatfilme",
+    "channelId": "UCV8yejshmlsns86C-ZeO16Q",
+    "tmdbId": 6019,
+    "title": "Charleys Onkel",
+    "originalTitle": "Charleys Onkel",
+    "overview": "Fahrlehrerin Carola, genannt \"Charley\", hält die ständigen Annäherungsversuche ihrer Schüler nicht mehr aus und kündigt kurzerhand ihren Job. Um etwas Abstand zu gewinnen, nutzt sie die Gelegenheit, für ihre Freundin Lilo auf deren Hund, die beiden Papageien und ihr Appartement aufzupassen, während Lilo im Urlaub ist. Doch auch hier gilt es ungeliebte Verehrer abzuwimmeln, da sich Lilo ihr Geld als Playgirl verdient. Von ihrer Freundin hat \"Charley\" jedoch noch einen guten Tipp bekommen: Sobald ein Mann zu aufdringlich wird, gibt sich Hauswart Pinkus auf ein Zeichen hin als \"Kapitän Tressblekken\" aus, der die Besucher schnell vertreibt. Als dann aber der wirklich existierende Onkel Tressblekken bei \"Charley\" auftaucht, ist das Chaos nicht mehr abzuwenden...",
+    "releaseDate": "1969-04-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/Aqt9QRIFDmoeWMT9S52cSs8ILpS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pedp1cMy756weYBhOhudPQKHmI0.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"Charley's Onkel\")",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Heinz Erhardt",
+      "Gunther Philipp",
+      "Gustav Knuth",
+      "Gila von Weitershausen",
+      "Karl Michael Vogler"
+    ],
+    "director": [
+      "Werner Jacobs"
+    ],
+    "writer": [
+      "Kurt Nachmann"
+    ],
+    "fsk": "16",
+    "slug": "charleys-onkel"
+  },
+  {
+    "videoId": "GijaNdtPFxg",
+    "youtubeTitle": "REICHENVIERTEL wird zur TÖDLICHEN FALLE: La Zona - Betreten verboten | THRILLER",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GijaNdtPFxg/hqdefault.jpg",
+    "duration": "PT1H31M23S",
+    "publishedAt": "2026-11-08T17:15:10Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 15865,
+    "title": "La Zona",
+    "originalTitle": "La Zona",
+    "overview": "In einer stürmischen Nacht dringen drei Jugendliche aus einem Slumviertel von Mexiko-City in das streng bewachte Villenviertel La Zona ein. Beim Einbruch in eines der Luxushäuser werden sie überrascht und zwei von ihnen auf der Flucht kaltblütig erschossen. Nur der junge Miguel kann entkommen und versteckt sich in einem Keller des Viertels. Ein Fall für die Polizei, doch in La Zona herrschen eigene Gesetze: Hier regieren Geld und Macht – der Hass auf den 'Abschaum' der Slums kennt keine Grenzen. Panisch und von Rachelust getrieben gründen die Zonen-Bewohner eine Bürgerwehr, und die gnadenlose Hetzjagd auf Miguel beginnt. Wird es ihm gelingen, seinen übermächtigen Verfolgern zu entkommen? Vielfach preisgekrönt, unter anderem auf dem Toronto International Film Festival und dem Filmfestival Venedig, erzählt dieser erschütternde Film des mexikanischen Ausnahme-Regisseurs Rodrigo Plá von Selbstjustiz und der schier unüberbrückbaren Kluft zwischen Arm und Reich.",
+    "releaseDate": "2007-09-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5XkKa38imSRYzbpRXSSK5w0E72a.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rhd57BgQkFOoKPviEOP9siUQ5o6.jpg",
+    "voteAverage": 6.36,
+    "genreIds": [
+      53,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Daniel Giménez Cacho",
+      "Daniel Tovar",
+      "Alan Chávez",
+      "Carlos Bardem",
+      "Mario Zaragoza"
+    ],
+    "director": [
+      "Rodrigo Plá"
+    ],
+    "writer": [
+      "Laura Santullo",
+      "Rodrigo Plá"
+    ],
+    "fsk": null,
+    "slug": "la-zona"
+  },
+  {
+    "videoId": "bM5wdAPFydw",
+    "youtubeTitle": "DICK UND DOOF – ZUM NACHTISCH NÜSSE (1928) | LAUREL & HARDY",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bM5wdAPFydw/hqdefault.jpg",
+    "duration": "PT17M46S",
+    "publishedAt": "2026-11-08T11:00:34Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 53254,
+    "title": "Dick und Doof - Von der Suppe zum Dessert",
+    "originalTitle": "From Soup to Nuts",
+    "overview": "Stan und Ollie versuchen sich als Aushilfskellner bei einem Upper-Class-Dinner. Die feine Gesellschaft versucht lange, über die Missgeschicke der Kellner hinweg zu sehen, doch nachdem Ollie zum wiederholten Mal einen Menue-Gang ruiniert hat, wird die Dame des Hauses sichtlich nervös ...",
+    "releaseDate": "1928-03-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lKTc6aaaZQg963bxkzQEq880sPl.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/m26ZlDlGXD14APksasV8brTj2EN.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 18,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Stan Laurel",
+      "Oliver Hardy",
+      "Anita Garvin",
+      "Tiny Sandford",
+      "Dorothy Coburn"
+    ],
+    "director": [
+      "Edgar Kennedy"
+    ],
+    "writer": [
+      "H.M. Walker",
+      "Leo McCarey"
+    ],
+    "fsk": null,
+    "slug": "dick-und-doof-von-der-suppe-zum-dessert"
+  },
+  {
+    "videoId": "iZh-zxqiB6M",
+    "youtubeTitle": "🎬 DOOMED TO DIE (1940) – FULL MOVIE IN ENGLISH 🔎",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iZh-zxqiB6M/hqdefault.jpg",
+    "duration": "PT1H7M29S",
+    "publishedAt": "2026-10-12T08:12:08Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 22965,
+    "title": "Doomed to Die",
+    "originalTitle": "Doomed to Die",
+    "overview": "Der Reederei-Magnat Cyrus Wentworth, niedergeschlagen über das Unglück seines Ozeandampfers „Wentworth Castle“, wird in seinem Büro genau in dem Moment erschossen, als er den Verlobten seiner Tochter, Dick Fleming, hinauswirft. Captain Street verhaftet Dick, doch Reporterin Bobbie Logan, Streets attraktive Widersacherin, ist so überzeugt von seinem Irrtum, dass sie den Detektiv James Lee Wong um Hilfe bittet, den wahren Mörder zu finden.",
+    "releaseDate": "1940-08-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fZM1TXUismtG2D5OouYhncceTYL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/c9k3Am0QhRhTGJQsDVfcbxeF0lJ.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      9648,
+      80,
+      53
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 68,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Boris Karloff",
+      "Marjorie Reynolds",
+      "Grant Withers",
+      "William Stelling",
+      "Catherine Craig"
+    ],
+    "director": [
+      "William Nigh"
+    ],
+    "writer": [
+      "Michael Jacoby",
+      "Ralph Gilbert Bettison"
+    ],
+    "fsk": null,
+    "slug": "doomed-to-die"
+  },
+  {
+    "videoId": "fvxXjP_FktQ",
+    "youtubeTitle": "DER HAUPTMANN VON KÖPENICK (1956) 🎖️ | HEINZ RÜHMANN & WERNER PETERS | DEUTSCHER FILMKLASSIKER",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fvxXjP_FktQ/hqdefault.jpg",
+    "duration": "PT1H31M21S",
+    "publishedAt": "2026-10-04T09:16:12Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 10626,
+    "title": "Der Hauptmann von Köpenick",
+    "originalTitle": "Der Hauptmann von Köpenick",
+    "overview": "Die Geschichte des armen Schusters Carl Voigt, der nach jahrelanger Haft aus dem Gefängnis entlassen wird. Da ihm wichtige Papiere fehlen, kann er sich nicht mehr in die Gesellschaft eingliedern. Bei dem Versuch, die nötigen Unterlagen aus einem Polizeirevier zu stehlen wird er gefasst und kommt wieder hinter Gitter. In der Gefängnisbücherei findet er Bücher über Militärgeschichte, er ist fasziniert und liest alles über militärische Umgangsformen und Befehle. Als er nach seiner Entlassung eines Tages aus Berlin verwiesen werden soll, kauft er bei einem Trödler einen alten Hauptmannsrock und gibt sich als hoher Militär aus. Aber wie lange kann dies gut gehen? Nach dem gleichnamigen, vielfach verfilmten Bühnenstück von Carl Zuckmayr.",
+    "releaseDate": "1956-08-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2oeyN0FZPDwGKtrZ6oS69m7DdKW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/whptTxhPlniSpQBzxmNpQL5F0Hq.jpg",
+    "voteAverage": 7.3,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Heinz Rühmann",
+      "Martin Held",
+      "Hannelore Schroth",
+      "Willy A. Kleinau",
+      "Leonard Steckel"
+    ],
+    "director": [
+      "Helmut Käutner"
+    ],
+    "writer": [
+      "Carl Zuckmayer",
+      "Helmut Käutner"
+    ],
+    "fsk": "12",
+    "slug": "der-hauptmann-von-koepenick-2"
+  },
+  {
+    "videoId": "sfzuRcEFLj8",
+    "youtubeTitle": "Frankenfish (2004) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sfzuRcEFLj8/hqdefault.jpg",
+    "duration": "PT1H24M20S",
+    "publishedAt": "2026-11-08T17:00:13Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 33641,
+    "title": "Frankenfish",
+    "originalTitle": "Frankenfish",
+    "overview": "Schon immer haben blutrünstige Kreaturen im Louisiana Bayou gelauert, aber so etwas hat es noch nie gegeben: Ein Schwarm riesiger, genmanipulierter, Fleisch fressender Fische macht die scheinbar so ruhigen Gewässer auf seiner Suche nach Beute unsicher. Als am Ufer immer mehr verstümmelte Leichen auftauchen, versuchen die örtlichen Behörden verzweifelt herauszufinden, wer oder was für die geheimnisvollen Todesfälle verantwortlich ist.",
+    "releaseDate": "2004-10-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wEDsyEsd0mf5UJ8hxpD1UFCu06X.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3uJhw4tMRodXlZHk2aoRJ9L9qoT.jpg",
+    "voteAverage": 5.6,
+    "genreIds": [
+      10770,
+      12,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tory Kittles",
+      "K.D. Aubert",
+      "China Chow",
+      "Matthew Rauch",
+      "Tomas Arana"
+    ],
+    "director": [
+      "Mark A.Z. Dippé"
+    ],
+    "writer": [
+      "Simon Barrett",
+      "Scott Clevenger"
+    ],
+    "fsk": null,
+    "slug": "frankenfish"
+  },
+  {
+    "videoId": "aLsd7MTm9hM",
+    "youtubeTitle": "🔥 Er war ein VERBRECHER… aber jetzt ist er ein HELD! Ganzer film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/aLsd7MTm9hM/hqdefault.jpg",
+    "duration": "PT1H28M16S",
+    "publishedAt": "2026-11-07T17:04:01Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Eastside - Auf welcher Seite stehst Du",
+    "originalTitle": null,
+    "overview": "Ein junger Mann verändert sein Leben und bekommt die Chance auf einen Neuanfang. Einst war er ein Krimineller, doch nach und nach entwickelt er sich zu einem echten Helden seiner Gemeinde. Durch seinen Mut und seine Taten gewinnt er das Vertrauen und den Respekt der Menschen. Doch kann er seine dunkle Vergangenheit endgültig hinter sich lassen und beweisen, dass jeder eine zweite Chance verdient?",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "eastside-auf-welcher-seite-stehst-du-2"
+  },
+  {
+    "videoId": "hAEDgHHrzCE",
+    "youtubeTitle": "🔥 Ein Packender Thriller Mit Dunklen Geheimnissen, Tödlicher Gefahr Und Schockierenden Wendungen!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hAEDgHHrzCE/hqdefault.jpg",
+    "duration": "PT1H31M2S",
+    "publishedAt": "2026-11-07T19:00:10Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": null,
+    "title": "Frost",
+    "originalTitle": null,
+    "overview": "Als die Frau eines Polizeikommissars ermordet aufgefunden wird, beginnt eine dramatische Jagd nach dem Täter. Ein ungelöster Unfall, dunkle Geheimnisse und mysteriöse Todesfälle führen Ermittler auf eine schockierende Spur. Doch wer ist der wahre Phantomkiller? Ein Wettlauf gegen die Zeit beginnt!",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "frost-2"
+  },
+  {
+    "videoId": "eHuDKlwb7W4",
+    "youtubeTitle": "Wenn er das Leben komplett durcheinander wirft: Lilly Schönauer | Ein unglaublich romantischer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eHuDKlwb7W4/hqdefault.jpg",
+    "duration": "PT1H31M44S",
+    "publishedAt": "2026-11-07T18:00:16Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Lilly Schönauer",
+    "originalTitle": null,
+    "overview": "Sophie steht vor einer wegweisenden Entscheidung für ihren steirischen Bauernhof, den sie mit viel Hingabe auf ökologische Landwirtschaft umstellen möchte. Als plötzlich ihr ehemaliger Jugendfreund Julian aus New York in der Heimat auftaucht, gerät ihr gewohntes Leben rasch durcheinander. Während die Finanzierung des Hofes auf der Kippe steht und Missverständnisse die Pläne bedrohen, entwickeln sich zwischen alten Gefühlen und neuen Verpflichtungen emotionale Konflikte. Verschiedene Handlungsstränge um familiäre Geheimnisse, finanzielle Herausforderungen und ungelöste Beziehungen verflechten sich zu einer berührenden Geschichte auf dem Land. Schließlich führt die Suche nach dem richtigen Weg zu überraschenden Erkenntnissen über die wahre Liebe und das persönliche Glück.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "lilly-schoenauer"
   }
 ]
