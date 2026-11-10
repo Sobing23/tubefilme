@@ -97475,7 +97475,9 @@
     "slug": "die-rache-des-karatetigers",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -102176,12 +102178,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "Ao-V5SN5cEA",
-    "youtubeTitle": "Black Christmas - Treppe in den Tod (1974) [Thriller] | ganzer Film mit Olivia Hussey (deutsch) ᴴᴰ",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Ao-V5SN5cEA/hqdefault.jpg",
+    "videoId": "lczHjupy2UM",
+    "youtubeTitle": "Jessy - Die Treppe in den Tod (Grandioser Horrorfilm | HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/lczHjupy2UM/hqdefault.jpg",
     "duration": "PT1H38M3S",
     "publishedAt": "2023-12-03T17:00:09Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "Screamtime",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 16938,
     "title": "Jessy - Die Treppe in den Tod",
@@ -107200,7 +107202,9 @@
     "slug": "lorelei-i-507-deutsche-wunderwaffe-im-pazifik",
     "plausibel": "titel",
     "runtime": 128,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ZpAIWw3aSO0",
@@ -108249,12 +108253,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "9750FKKZ0H8",
-    "youtubeTitle": "Killerschlangen (1976) [Horror] | ganzer Film (deutsch)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/9750FKKZ0H8/hqdefault.jpg",
+    "videoId": "jPxh61GcC5E",
+    "youtubeTitle": "Killerschlangen (Thriller in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jPxh61GcC5E/hqdefault.jpg",
     "duration": "PT1H17M28S",
     "publishedAt": "2017-08-28T18:00:00Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "weloadtv",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 112481,
     "title": "Killerschlangen",
@@ -121606,7 +121610,9 @@
     "slug": "the-killing-tree",
     "plausibel": "titel",
     "runtime": 73,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "K4ONd9eH4-o",
@@ -127038,7 +127044,9 @@
     "slug": "mercy-christmas-bitte-zu-tisch",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "ffue28GThms",
@@ -156530,7 +156538,9 @@
     "fsk": "16",
     "slug": "metro-verhandeln-ist-reine-nervensache",
     "runtime": 117,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "Ejq9nB0Oj8M",
@@ -156610,7 +156620,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "im-flugzeug-sassen-maenner-die-niemand-stoppen-konnte"
+    "slug": "im-flugzeug-sassen-maenner-die-niemand-stoppen-konnte",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "CZVQYK1ua_g",
@@ -156636,7 +156648,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "letzte-hoffnung-der-menschheit"
+    "slug": "letzte-hoffnung-der-menschheit",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "K7Cb8QNie48",
@@ -156662,7 +156676,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "der-staat-jagt-ihn"
+    "slug": "der-staat-jagt-ihn",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "wrEljnOyf3c",
@@ -157140,7 +157156,9 @@
     "fsk": "16",
     "slug": "nur-noch-60-sekunden",
     "runtime": 118,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "tN4uK1WeloY",
@@ -164469,7 +164487,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "ein-trickbetrueger-erobert-ploetzlich-den-kongress"
+    "slug": "ein-trickbetrueger-erobert-ploetzlich-den-kongress",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "hLSkeCaOrbA",
@@ -174698,7 +174718,9 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "gunhed"
+    "slug": "gunhed",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "FwbfeHkiGuo",
@@ -269178,7 +269200,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "ein-halleluja-fuer-2-schlitzohren-2"
+    "slug": "ein-halleluja-fuer-2-schlitzohren-2",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "iOqFs3OeAQg",
@@ -274602,7 +274626,9 @@
     "slug": "sieben-gegen-die-hoelle",
     "runtime": 110,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "TEtc6giAVWk",
@@ -336091,7 +336117,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "diese-geschichte-wird-dich-bis-zur-letzten-sekunde-fesseln"
+    "slug": "diese-geschichte-wird-dich-bis-zur-letzten-sekunde-fesseln",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "y-StIlsk8qM",
@@ -337317,7 +337345,9 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "die-polizei-jagte-den-falschen-dann-sollte-er-fuer-ihren-feh"
+    "slug": "die-polizei-jagte-den-falschen-dann-sollte-er-fuer-ihren-feh",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "SdNcPkIGERc",
@@ -338000,7 +338030,9 @@
       "袁錦麟"
     ],
     "fsk": "16",
-    "slug": "new-police-story"
+    "slug": "new-police-story",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de"
   },
   {
     "videoId": "pSegfLiweO0",
@@ -338656,5 +338688,190 @@
     "writer": [],
     "fsk": null,
     "slug": "lilly-schoenauer"
+  },
+  {
+    "videoId": "fIaN675AF_Y",
+    "youtubeTitle": "Unter dem Polareis lauert die Kreatur: Der letzte Dinosaurier (1977) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fIaN675AF_Y/hqdefault.jpg",
+    "duration": "PT1H46M5S",
+    "publishedAt": "2026-11-09T15:15:12Z",
+    "channelName": "Utopja",
+    "channelId": "UC5FelnKqltzYS3H1LPlC-Xg",
+    "tmdbId": 71692,
+    "title": "Der letzte Dinosaurier",
+    "originalTitle": "The Last Dinosaur",
+    "overview": "Bei Ölbohrungen in der Nähe des Nordpols stößt die Männer des Multimilliardärs und Großwildjägers Masten Thrust auf eine isolierte Urzeitwelt. Während einer Erkundungsreise werden Thrust und ein Forscherteam von einem Tyrannosaurus Rex angegriffen, der ihr Bohrfahrzeug wegschleppt. Die kleine Gruppe, die damit in der fremden Welt gefangen ist, muss die Maschine unbedingt wiederfinden..",
+    "releaseDate": "1977-07-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6nLI8zw4zYXjgWlhZcqxZgGUcvJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/p779EFJqVOUyE7sswx65ozpvXwk.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      12,
+      878,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 106,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Richard Boone",
+      "Joan Van Ark",
+      "Steven Keats",
+      "Luther Rackley",
+      "関谷ますみ"
+    ],
+    "director": [
+      "Alexander Grasshoff",
+      "Tsugunobu Kotani"
+    ],
+    "writer": [
+      "William Overgard"
+    ],
+    "fsk": "12",
+    "slug": "der-letzte-dinosaurier"
+  },
+  {
+    "videoId": "c9iPMIoI4sY",
+    "youtubeTitle": "Top Secret | 1984 | Kultfilm mit Val Kilmer | Komödie",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/c9iPMIoI4sY/hqdefault.jpg",
+    "duration": "PT1H26M12S",
+    "publishedAt": "2026-11-09T17:00:22Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 8764,
+    "title": "Top Secret!",
+    "originalTitle": "Top Secret!",
+    "overview": "Nick Rivers, ein amerikanischer Rock ’n’ Roll-Sänger reist zusammen mit seinem Manager nach Ostdeutschland, um auf einem Kultur-Festival aufzutreten. Allerdings weiß er zunächst nicht, dass das Festival als ein Ablenkungsmanöver dienen soll, damit die Ostregierung die NATO-U-Bootflotte bei einem Manöver in der Straße von Gibraltar sabotieren und damit das Kräfteverhältnis der Weltmächte einseitig verlagern kann, um Deutschland wieder zu „vereinen“.",
+    "releaseDate": "1984-06-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cgITit97Rp8s8uXBwdc5ati231P.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ljY0REcQp0HyEjlfkYP4kopKsIR.jpg",
+    "voteAverage": 7.11,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Val Kilmer",
+      "Lucy Gutteridge",
+      "Peter Cushing",
+      "Jeremy Kemp",
+      "Christopher Villiers"
+    ],
+    "director": [
+      "Jim Abrahams",
+      "Jerry Zucker",
+      "David Zucker"
+    ],
+    "writer": [
+      "Jim Abrahams",
+      "Jerry Zucker",
+      "Martyn Burke"
+    ],
+    "fsk": "12",
+    "slug": "top-secret"
+  },
+  {
+    "videoId": "5rrq3wgBZXo",
+    "youtubeTitle": "SIE WOLLTEN DEN GANGBOSS HINRICHTEN, DOCH ER WURDE IM GEFÄNGNIS ZUR LEGENDE | Jamie Foxx Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5rrq3wgBZXo/hqdefault.jpg",
+    "duration": "PT1H30M7S",
+    "publishedAt": "2026-11-08T10:33:57Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "SIE WOLLTEN DEN GANGBOSS HINRICHTEN, DOCH ER WURDE IM GEFÄNGNIS ZUR LEGENDE",
+    "originalTitle": null,
+    "overview": "Gefängnisfilm, Ganzer Film HD, Gefängnisfilm Deutsch, Gangsterfilm, Gangster Drama, Amerikanischer Gangsterfilm, Hollywood Film, Jamie Foxx, Stanley Tookie Williams, Stan Tookie Williams, Crips Gang, Crips Los Angeles, Wahre Geschichte, Film nach wahren Begebenheiten, Todestrakt, Todesstrafe USA, San Quentin Gefängnis, Gefängnisdrama, Gefängnisleben, Straßenbanden, Bandenkrieg, Gangkriminalität, Kriminalfilm, Gangster Biografie, Krimi Drama, Amerikanischer Kriminalfilm, Hollywood Drama, Gefangener, Lebenslänglich, Todeszelle, Straßenkriminalität, Gang Gewalt, Redemption Film, Spannender Film, Filme in voller Länge, Ganzer Film Deutsch, Gangsterfilme USA, Gefängnis Thriller, Kriminaldrama, Filme über wahre Verbrechen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "sie-wollten-den-gangboss-hinrichten-doch-er-wurde-im-gefaeng"
+  },
+  {
+    "videoId": "yX-noM71tJk",
+    "youtubeTitle": "Dog Kidnapping (2005) [Komödie] [Drama] | Ein Coup auf vier Pfoten | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yX-noM71tJk/hqdefault.jpg",
+    "duration": "PT1H23M47S",
+    "publishedAt": "2026-11-08T17:00:39Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Dog Kidnapping",
+    "originalTitle": null,
+    "overview": "",
+    "releaseDate": "2005-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Ron Moody",
+      "Jeremy Edwards",
+      "Liza Tarbuck",
+      "Kate Fleetwood"
+    ],
+    "director": [
+      "Jim Doyle"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "dog-kidnapping"
+  },
+  {
+    "videoId": "FaM87h8ZFfc",
+    "youtubeTitle": "💥 Ein Film voller ACTION und Überraschungen! Ein Mord macht zwei Männer zu Gejagten | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FaM87h8ZFfc/hqdefault.jpg",
+    "duration": "PT1H26M36S",
+    "publishedAt": "2026-11-08T15:00:20Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": null,
+    "title": "Ein Film voller ACTION und Überraschungen! Ein Mord macht zwei Männer zu Gejagten",
+    "originalTitle": null,
+    "overview": "Zwei berühmte Rockmusiker werden während ihres Aufenthalts auf einer tropischen Insel zufällig Zeugen eines brutalen Mordes. Plötzlich geraten sie ins Visier gefährlicher Verbrecher, die ihre Spuren um jeden Preis verwischen wollen. Aus einer entspannten Reise wird eine chaotische Flucht voller Verfolgungsjagden, unerwarteter Wendungen und gefährlicher Begegnungen. Können die beiden mit den entscheidenden Beweisen lebend entkommen?",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Jon Lovitz",
+      "Laura Aikman",
+      "Craig Fairbrass",
+      "Jean Heard",
+      "Matt Kennard"
+    ],
+    "director": [
+      "Stuart St Paul"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "ein-film-voller-action-und-ueberraschungen-ein-mord-macht-zw"
   }
 ]
