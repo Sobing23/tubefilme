@@ -25,6 +25,7 @@ const UNMATCHED_PATH = "data/unmatched.json";
 const CANDIDATES_PATH = "data/candidates.json";
 const FILME_PATH = "data/filme.json";
 const ATTEMPTS_PATH = "data/unmatched-attempts.json";
+const KORREKTUREN_PATH = "data/titel-korrekturen.json";
 const IGNORED_PATH = "data/ignored.json";
 const CHANNELS_PATH = "config/channels.json";
 const PROTOKOLL_PATH = "data/aussortiert.json";
@@ -437,6 +438,12 @@ async function main() {
     // noch keine Datei
   }
   const ignoredSet = new Set(ignored);
+  let freigegeben = {};
+  try {
+    freigegeben = JSON.parse(await fs.readFile(KORREKTUREN_PATH, "utf-8")).freigeben || {};
+  } catch {
+    // keine Korrekturdatei
+  }
   let protokoll = [];
   try {
     protokoll = JSON.parse(await fs.readFile(PROTOKOLL_PATH, "utf-8"));
@@ -460,7 +467,12 @@ async function main() {
       continue;
     }
 
-    if (nurTmdbKanaele.has(video.channelId)) {
+    // Freigabeliste (data/titel-korrekturen.json, Abschnitt "freigeben"):
+    // von Hand geprüfte Spielfilme eines nurMitTmdb-Kanals, die TMDB nicht
+    // findet -- sie dürfen mit ihren YouTube-Angaben übernommen werden. Die
+    // Kanalregel gilt für alle anderen Videos weiter. Eingeführt am
+    // 11.11.2026 nach der Prüfung der 651 zurückgehaltenen weloadtv-Videos.
+    if (nurTmdbKanaele.has(video.channelId) && !freigegeben[videoId]) {
       bleibtUnmatched.push(eintrag);
       nurTmdb++;
       continue;

@@ -338,10 +338,15 @@ Wenn weder Titel noch Beschreibung den Filmnamen nennen, verrät ihn meist die H
 ```
 "titel":     { "<videoId>": { "titel": "Der Senator", "jahr": 1992 }, … }
 "entfernen": { "<videoId>": "Serienfolge (Die Abenteuer des Fu Manchu, 1956)", … }
+"freigeben": { "<videoId>": "weloadtv-Prüfung 11.11.2026: Spielfilm, bei TMDB nicht gefunden", … }
 ```
 
 - **`titel`** — `fix-titles.js` setzt den Titel, löscht `titelUnsicher`, setzt `titelKorrigiert` und, falls ein Jahr angegeben ist und keins bekannt war, `releaseDate`. Die Regel-Stufen fassen diese Einträge danach nicht mehr an. `match-tmdb.js --youtube-nachsuche` übergibt Titel und Jahr als Vorgabe an die Suche (ersetzt Hauptsuchbegriff und Jahr) — mit `--nur-korrekturen` nur diese Einträge, so läuft es nächtlich. Übernommen wird wie bei jeder Nachsuche nur mit hartem Beleg (exakter Titel + Jahr ±1 oder Besetzung). **Ohne Jahr und ohne Darsteller in der Beschreibung wird gar nicht gesucht** — bewusst: „Gotti“ gibt es 1996 und 2018. `verify-plausibility.js` prüft eine so gefundene Zuordnung gegen den Korrekturtitel statt gegen den Werbesatz (Stufe `korrekturtitel`).
 - **`entfernen`** — `prune-excluded.js` entfernt diese Videos aus der Bibliothek (Protokoll `aussortiert.json`, Grund „von Hand aussortiert: …“) und trägt sie in `ignored.json` ein, damit `match-tmdb.js` sie nie wieder aufnimmt. Am 10.10. waren das 39: Kurzfilm-Sammlungen (Dick & Doof, Bugs Bunny, DEFA-Trickfilme), Serienfolgen (Fu Manchu), Fernsehsketche (Heinz Erhardt), Dokus ohne Doku-Wort im Titel und zwei „Doppelprogramme“ aus zwei Filmen in einem Video.
+
+- **`freigeben`** — für Kanäle mit `nurMitTmdb`: `absorb-unmatched.js` übernimmt genau diese Videos trotz fehlendem TMDB-Treffer mit ihren YouTube-Angaben; für alle anderen Videos des Kanals gilt die Regel weiter. Die Nachsuche versucht sie weiter bei TMDB.
+
+**Prüfung der weloadtv-Warteschlange (11.11.2026):** 651 der 655 Unmatched stammten von weloadtv. Von Hand sortiert: 385 keine Spielfilme (Natur- und Reisedokus 144, Geschichts- und Wissensdokus 105, Musik/Biografien/Shows 40, Serien- und Filmteile 31, Kurzfilm-Sammlungen 23, Kasperle/Märchenlesungen 18, Ratgeber 15 …) → `entfernen`. 270 Spielfilme, davon 80 schon von einem anderen Kanal in der Bibliothek (gleicher Titel, Laufzeit ±4 min) → als Ersatz-Upload in `duplicates.json`, damit `repair-unavailable.js` bei einem toten Video darauf ausweichen kann. Die übrigen 190 → `freigeben`, 42 davon mit bereinigtem Titel („Das Schiessen – Jack Nicholson“ → „Das Schießen“, „The College – Buster Keaton“ → „College“). Liste mit allen Entscheidungen: Chatverlauf vom 11.11.2026.
 
 Grundsatz beim Eintragen: Nur Titel setzen, bei denen Handlung **und** mindestens ein Name (Darsteller, Figur, Originaltitel) den Film eindeutig machen. Zweifelsfälle bleiben `titelUnsicher` — ein falscher Titel ist schlimmer als ein Werbesatz. Jahr nur, wenn es sicher ist, weil es die Nachsuche steuert. Mehrere Videos desselben Films (Night Train 4×, Russland 1941 6×) bekommen denselben Titel; sobald die Nachsuche eine tmdbId liefert, räumt `cleanup-matches` die Duplikate zusammen.
 
@@ -414,7 +419,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 | `pipeIstOriginaltitel` | `true`: Vorn steht der deutsche Titel, hinter `\|` der Originaltitel mit Jahr (Comfy Movies). Verhindert, dass die Vorsatz-Regel den Originaltitel anzeigt; gesucht wird trotzdem mit beiden. |
 | `nurMitDeutschHinweis` | `true`: Nur Videos, deren Titel oder Beschreibung „deutsch", „German version" oder „synchron" enthält. Für gemischtsprachige Kanäle. |
 | `ausschlussMuster` | Regulärer Ausdruck als Text; passende Titel werden aussortiert (z. B. Mehrteiler wie `Teil 3/4`, `1/6`). Gilt nur für diesen Kanal. |
-| `nurMitTmdb` | `true`: Videos ohne TMDB-Treffer werden **nicht** aus den YouTube-Angaben übernommen, sondern bleiben in `unmatched.json`. Für gemischte Kanäle, bei denen sonst Dokus, Reise- und Ratgebervideos in die Bibliothek kämen (weloadtv: „Serengeti von A–Z“, „Motorräder – Technik, Routen, Tipps“). |
+| `nurMitTmdb` | `true`: Videos ohne TMDB-Treffer werden **nicht** aus den YouTube-Angaben übernommen, sondern bleiben in `unmatched.json`. Für gemischte Kanäle, bei denen sonst Dokus, Reise- und Ratgebervideos in die Bibliothek kämen (weloadtv: „Serengeti von A–Z“, „Motorräder – Technik, Routen, Tipps“). Einzelne geprüfte Spielfilme lassen sich über `titel-korrekturen.json` → `freigeben` trotzdem übernehmen. |
 | `inPruefung` | `true`: Der Scan sammelt die Rohdaten des Kanals (`data/raw/`), aber `filter-movies.js` lässt **kein** Video in die Bibliothek (Grund in `excluded.json`: „Kanal in Prüfung"). Für neue Kanäle, deren Eigenheiten erst an echten Daten geprüft werden. Schalter entfernen → beim nächsten Lauf werden die Videos normal verarbeitet. |
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.

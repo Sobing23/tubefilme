@@ -56,18 +56,6 @@
     }
   },
   {
-    "videoId": "ni0gk4iJEno",
-    "youtubeTitle": "Cinderella - Playing with Dolls [HD] (Horrorfilme auf Deutsch)",
-    "suchbegriff": "Cinderella - Playing with Dolls",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Cinderella\" ohne Jahr/Besetzung -- Rest des Titels (\"playing with dolls\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 150689,
-      "title": "Cinderella",
-      "release_date": "2015-03-06"
-    }
-  },
-  {
     "videoId": "CIoQwlG67BY",
     "youtubeTitle": "Zwei Aasgeier auf dem Weg zu Hölle (Western ganze Western Filme auf Deutsch)",
     "suchbegriff": "Zwei Aasgeier auf dem Weg zu Hölle",
@@ -92,14 +80,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "XiPStsmuESc",
-    "youtubeTitle": "Twilight Witches (Thriller in voller Länge)",
-    "suchbegriff": "Twilight Witches",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "udb9jgCbJXI",
     "youtubeTitle": "The Million Dollar Fire (Drama Filme deutsch ganzer Film)",
     "suchbegriff": "The Million Dollar Fire",
@@ -117,38 +97,6 @@
       "id": 183661,
       "title": "Animus - The New Maneater",
       "release_date": "2013-03-25"
-    }
-  },
-  {
-    "videoId": "DoXuzL7UTSg",
-    "youtubeTitle": "Das Cowgirl und die Wildpferde (Drama Filme deutsch ganzer Film)",
-    "suchbegriff": "Das Cowgirl und die Wildpferde",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "cpkOqToE8cU",
-    "youtubeTitle": "Invasion - Alien Attack (Science Fiction Filme deutsch)",
-    "suchbegriff": "Invasion - Alien Attack",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Invasion\" ohne Jahr/Besetzung -- Rest des Titels (\"alien attack\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 4858,
-      "title": "Invasion",
-      "release_date": "2007-08-17"
-    }
-  },
-  {
-    "videoId": "EkZHedWAXyo",
-    "youtubeTitle": "I want to kill (Thriller in voller Länge)",
-    "suchbegriff": "I want to kill",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert -2)",
-    "tmdbTopKandidat": {
-      "id": 482417,
-      "title": "黑市夫人",
-      "release_date": "1982-01-01"
     }
   },
   {
@@ -180,14 +128,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "I04AXU_h9Y4",
-    "youtubeTitle": "Ich wollt' ich wär wie Frankenstein (1968) - mit Dustin Hoffman (Comedy Filme deutsch komplett)",
-    "suchbegriff": "Un dollaro per 7 vigliacchi (auch als \"Zwei Nummern zu groß\" veröffentlicht)",
-    "erwartetesJahr": "1968",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "kzIK6SD3Ep8",
     "youtubeTitle": "Micah's Weihnachtstraum (Weihnachtsfilme deutsch ganzer Film)",
     "suchbegriff": "Micah's Weihnachtstraum",
@@ -208,25 +148,9 @@
     }
   },
   {
-    "videoId": "qI6jGkW5m7A",
-    "youtubeTitle": "US Sniper [HD] (Actionfilme auf Deutsch komplett anschauen)",
-    "suchbegriff": "US Sniper",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "-eUzzEMDHcU",
     "youtubeTitle": "Eine Geschichte über Glauben und Liebe [HD] (Drama Filme in voller Länge)",
     "suchbegriff": "Eine Geschichte über Glauben und Liebe",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "v7iP2Xngi7c",
-    "youtubeTitle": "Vincent will das Geld (Comedy Filme deutsch komplett)",
-    "suchbegriff": "Vincent will das Geld",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
@@ -273,18 +197,6 @@
       "id": 284283,
       "title": "Trapped - Kein Entkommen",
       "release_date": "2014-11-18"
-    }
-  },
-  {
-    "videoId": "nn3tbQw6emE",
-    "youtubeTitle": "The Devil Returns - der Priester des Satans (1987) (Thriller in voller Länge)",
-    "suchbegriff": "Lucifer (auch als \"Occult\" veröffentlicht)",
-    "erwartetesJahr": "1987",
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 5)",
-    "tmdbTopKandidat": {
-      "id": 419548,
-      "title": "Krampus - The Christmas Devil Returns",
-      "release_date": "2016-10-04"
     }
   },
   {
@@ -388,18 +300,6 @@
     }
   },
   {
-    "videoId": "D-JNn6FN86Y",
-    "youtubeTitle": "Deadly Fear (Thriller in voller Länge)",
-    "suchbegriff": "Deadly Fear",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 16)",
-    "tmdbTopKandidat": {
-      "id": 64630,
-      "title": "Deadly Trap",
-      "release_date": "1971-08-18"
-    }
-  },
-  {
     "videoId": "DeBWdStE5Y0",
     "youtubeTitle": "Sphinx - Fight to Death - mit Mirko Cro Cop Filipovic (Actionfilme auf Deutsch komplett anschauen)",
     "suchbegriff": "Sphinx - Fight to Death - mit Mirko Cro Cop Filipovic",
@@ -452,14 +352,6 @@
     }
   },
   {
-    "videoId": "XLYY90t3qtk",
-    "youtubeTitle": "M.S. BRITTANICA - Terroristen auf dem Kreuzfahrtschiff (Thriller/Actionfilme auf Deutsch)",
-    "suchbegriff": "M.S. BRITTANICA - Terroristen auf dem Kreuzfahrtschiff",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "olRFlPAvr9k",
     "youtubeTitle": "Death Boxing - mit Jackie Chan (Martial-Arts ganzer Film in voller länge Deutsch)",
     "suchbegriff": "Death Boxing - mit Jackie Chan",
@@ -469,18 +361,6 @@
       "id": 107392,
       "title": "小俠龍捲風",
       "release_date": "1988-12-09"
-    }
-  },
-  {
-    "videoId": "DI4hvnHVWpA",
-    "youtubeTitle": "Captive - Gefangen in Tschetschenien [HD] (Drama Filme in voller Länge)",
-    "suchbegriff": "Captive - Gefangen in Tschetschenien",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Captive\" ohne Jahr/Besetzung -- Rest des Titels (\"gefangen tschetschenien\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 89756,
-      "title": "Entführt - Tage der Angst",
-      "release_date": "1998-01-01"
     }
   },
   {
@@ -528,14 +408,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "CQWXPSbbHTk",
-    "youtubeTitle": "Demon Beast in Prison [HD] (Horrorfilme auf Deutsch)",
-    "suchbegriff": "Demon Beast in Prison",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "hS6n2J3sHSA",
     "youtubeTitle": "Alien Area [HD] (Horrorfilme auf Deutsch)",
     "suchbegriff": "Alien Area",
@@ -548,36 +420,12 @@
     }
   },
   {
-    "videoId": "p-EJHVr2Gbc",
-    "youtubeTitle": "🎬 Basic Fear (Thriller| deutsch)",
-    "suchbegriff": "Killers",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Killers\" ohne Jahr/Besetzung -- Rest des Titels (\"basic fear\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 37821,
-      "title": "Kiss & Kill",
-      "release_date": "2010-06-04"
-    }
-  },
-  {
     "videoId": "p0EhD-BGYH8",
     "youtubeTitle": "Swing [Show #24] - Amerikas Musik der 40er Jahre",
     "suchbegriff": "Swing - Amerikas Musik der 40er Jahre",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "NatIHUVamrM",
-    "youtubeTitle": "🎬 American Mafia (Action | Thriller | deutsch)",
-    "suchbegriff": "American Mafia",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert -5)",
-    "tmdbTopKandidat": {
-      "id": 339103,
-      "title": "Gotti",
-      "release_date": "2018-06-14"
-    }
   },
   {
     "videoId": "THmuoGOJXpM",
@@ -860,46 +708,6 @@
     }
   },
   {
-    "videoId": "Uw-1tjGTRbs",
-    "youtubeTitle": "Die Ranch der Pferde (Drama | deutsch)",
-    "suchbegriff": "Bluegrass",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Bluegrass\" ohne Jahr/Besetzung -- Rest des Titels (\"ranch pferde\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 331355,
-      "title": "Bluegrass Roots",
-      "release_date": "1965-04-02"
-    }
-  },
-  {
-    "videoId": "vN8-8A9yKoE",
-    "youtubeTitle": "Crossfighter - Zwei knallharte Profis (Actionfilm | Thriller | deutsch)",
-    "suchbegriff": "Crossfighter - Zwei knallharte Profis",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "xijZrdXUxDc",
-    "youtubeTitle": "Wheels to Hell (Komödie | deutsch)",
-    "suchbegriff": "Wheels to Hell",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "YDrBPpPVgH8",
-    "youtubeTitle": "Soldier Terminators (Actionfilm | deutsch)",
-    "suchbegriff": "Soldier Terminators",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert -19)",
-    "tmdbTopKandidat": {
-      "id": 390799,
-      "title": "American Mission",
-      "release_date": "1988-01-01"
-    }
-  },
-  {
     "videoId": "VYFGmc21fqQ",
     "youtubeTitle": "The Soldier 2 (Actionfilm | deutsch)",
     "suchbegriff": "Los Bravos",
@@ -959,14 +767,6 @@
     "videoId": "NQ4fevX3Vo8",
     "youtubeTitle": "Männer und Kampfflieger im zweiten Weltkrieg",
     "suchbegriff": "Männer und Kampfflieger im zweiten Weltkrieg",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "7FfocadKqAc",
-    "youtubeTitle": "Schulmädchen Horror (Horror deutsch ganzer Film)",
-    "suchbegriff": "Schulmädchen Horror",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
@@ -1068,26 +868,6 @@
     }
   },
   {
-    "videoId": "xCouswy1Pvo",
-    "youtubeTitle": "Die drei Musketiere der Neuzeit [HD]",
-    "suchbegriff": "Die drei Musketiere der Neuzeit",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "8XH18cBkdUE",
-    "youtubeTitle": "Prince of Persia - Die Legende von Omar [HD] - mit Moritz Bleibtreu",
-    "suchbegriff": "Prince of Persia - Die Legende von Omar - mit Moritz Bleibtreu",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 36)",
-    "tmdbTopKandidat": {
-      "id": 9543,
-      "title": "Prince of Persia - Der Sand der Zeit",
-      "release_date": "2010-05-19"
-    }
-  },
-  {
     "videoId": "FiJhQb203l8",
     "youtubeTitle": "Dragon - Die Drachentöter (Fantasy Film | deutsch)",
     "suchbegriff": "Dragon - Die Drachentöter",
@@ -1120,14 +900,6 @@
     }
   },
   {
-    "videoId": "AxYTf3hcEHs",
-    "youtubeTitle": "Serienkiller Massaker (Horrorfilm | deutsch)",
-    "suchbegriff": "Serienkiller Massaker",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "xXT2X-Rx55w",
     "youtubeTitle": "Der 30 jährige Krieg Teil 2",
     "suchbegriff": "Der 30 jährige Krieg Teil 2",
@@ -1142,18 +914,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "KVGHn0snmfQ",
-    "youtubeTitle": "Prince of Persia - mit Moritz Bleibtreu und Vanessa Redgrave",
-    "suchbegriff": "Prince of Persia - mit Moritz Bleibtreu und Vanessa Redgrave",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 36)",
-    "tmdbTopKandidat": {
-      "id": 9543,
-      "title": "Prince of Persia - Der Sand der Zeit",
-      "release_date": "2010-05-19"
-    }
   },
   {
     "videoId": "EXRSwTK3I9s",
@@ -1188,18 +948,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "tZ1XZIjJWEU",
-    "youtubeTitle": "Menschenjagd",
-    "suchbegriff": "Menschenjagd",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 274172,
-      "title": "The Backpacker - Menschenjagd im Outback",
-      "release_date": "2011-02-17"
-    }
-  },
-  {
     "videoId": "4UjRBhfPV2U",
     "youtubeTitle": "Blutige Ehre - Teil 4",
     "suchbegriff": "Blutige Ehre - Teil 4",
@@ -1224,18 +972,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "13E4kJSqt64",
-    "youtubeTitle": "Jetzt reicht es - Ich schlage zurück",
-    "suchbegriff": "Jetzt reicht es - Ich schlage zurück",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 29)",
-    "tmdbTopKandidat": {
-      "id": 1392796,
-      "title": "Gregs Tagebuch 3: Jetzt reicht's!",
-      "release_date": "2025-12-04"
-    }
-  },
-  {
     "videoId": "KvUts7JF_nE",
     "youtubeTitle": "Blutige Ehre - Teil 1",
     "suchbegriff": "Blutige Ehre - Teil 1",
@@ -1250,18 +986,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "Ud2oFrhJ6T8",
-    "youtubeTitle": "Water War - mit Brigitte Nielsen (Actionfilm | deutsch)",
-    "suchbegriff": "Water War - mit Brigitte Nielsen",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 33)",
-    "tmdbTopKandidat": {
-      "id": 573892,
-      "title": "Dar Fur: War for Water",
-      "release_date": "2008-10-23"
-    }
   },
   {
     "videoId": "K5Nsn2EFN4I",
@@ -1316,14 +1040,6 @@
     }
   },
   {
-    "videoId": "ivbpIDue6aY",
-    "youtubeTitle": "Die drei Musketiere der Neuzeit",
-    "suchbegriff": "Die drei Musketiere der Neuzeit",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "e7FS0H2JDys",
     "youtubeTitle": "Saw Killing - Der Film in HD",
     "suchbegriff": "Saw Killing - Der Film in HD",
@@ -1376,26 +1092,6 @@
     }
   },
   {
-    "videoId": "dw7KcRbmLT4",
-    "youtubeTitle": "Das Schiessen - Jack Nicholson",
-    "suchbegriff": "Das Schiessen - Jack Nicholson",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Das Schiessen\" ohne Jahr/Besetzung -- Rest des Titels (\"jack nicholson\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 42701,
-      "title": "Das Schießen",
-      "release_date": "1966-06-02"
-    }
-  },
-  {
-    "videoId": "CWeRSe56R-0",
-    "youtubeTitle": "Der Ritt im Wirbelwind - Jack Nicholson",
-    "suchbegriff": "Der Ritt im Wirbelwind - Jack Nicholson",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "RqVa3a01l_o",
     "youtubeTitle": "Todesfalle Ostfront - Der Film in HD",
     "suchbegriff": "Todesfalle Ostfront - Der Film in HD",
@@ -1418,14 +1114,6 @@
       "title": "Drunkboat - Verzweifelte Flucht",
       "release_date": "2012-07-13"
     }
-  },
-  {
-    "videoId": "COZtpKQOneM",
-    "youtubeTitle": "Eine Frau sieht Rot 2",
-    "suchbegriff": "Eine Frau sieht Rot 2",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
   },
   {
     "videoId": "kxuiqHLRBOI",
@@ -1484,14 +1172,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "mTItgu6PqWM",
-    "youtubeTitle": "US Sniper",
-    "suchbegriff": "US Sniper",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "p8GuCmCGNb8",
     "youtubeTitle": "Human vs. Zombies (Horrorfilm | deutsch)",
     "suchbegriff": "Human vs. Zombies",
@@ -1521,18 +1201,6 @@
       "id": 94862,
       "title": "Saw Exterminator: Plasterhead Massacre",
       "release_date": "2006-10-01"
-    }
-  },
-  {
-    "videoId": "Soo-xUmh-gI",
-    "youtubeTitle": "Fink! - Sam Worthington - Der Film in HD",
-    "suchbegriff": "Fink! - Sam Worthington - Der Film in HD",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Fink!\" ohne Jahr/Besetzung -- Rest des Titels (\"sam worthington\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 65763,
-      "title": "Fink!",
-      "release_date": "2005-09-10"
     }
   },
   {
@@ -1604,18 +1272,6 @@
     }
   },
   {
-    "videoId": "hyCZPu7p8bo",
-    "youtubeTitle": "Das zauberhafte Eichhörnchen (Weihnachtsfilme deutsch ganzer Film)",
-    "suchbegriff": "Das zauberhafte Eichhörnchen",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
-    "tmdbTopKandidat": {
-      "id": 50926,
-      "title": "Der Weihnachtswunsch",
-      "release_date": "1950-03-01"
-    }
-  },
-  {
     "videoId": "Xyd8b2fp-rs",
     "youtubeTitle": "Hot 247F",
     "suchbegriff": "Hot 247F",
@@ -1636,49 +1292,9 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "d7cr7v_xkKM",
-    "youtubeTitle": "Halloween Massaker (Horrorfilm deutsch ganzer Film)",
-    "suchbegriff": "Halloween Massaker",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 193603,
-      "title": "Hayride - Das Massaker",
-      "release_date": "2012-10-13"
-    }
-  },
-  {
-    "videoId": "CVkR0Pn6NNU",
-    "youtubeTitle": "The Devil Reborn - Der Sohn des Teufels",
-    "suchbegriff": "The Devil Reborn - Der Sohn des Teufels",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "3OnOmkMpGG4",
-    "youtubeTitle": "Abbott und Costello auf Safari",
-    "suchbegriff": "Abbott und Costello auf Safari",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 62) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 20278,
-      "title": "Abbott und Costello Verrücktes Afrika",
-      "release_date": "1949-05-04"
-    }
-  },
-  {
     "videoId": "gCnb6VnzuWU",
     "youtubeTitle": "Koenig des Jungles",
     "suchbegriff": "Koenig des Jungles",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "3uI5_Vao5O8",
-    "youtubeTitle": "Train Apocalypse - mit Kristin Davis (Actionfilm | deutsch)",
-    "suchbegriff": "Atomic Train (auch als \"Zugfahrt ins Jenseits\" veröffentlicht)",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
@@ -1888,18 +1504,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "d0TLRan0XCI",
-    "youtubeTitle": "Abenteuer in Jerusalem",
-    "suchbegriff": "Abenteuer in Jerusalem",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 61637,
-      "title": "Abenteuer in Jerusalem - Jesus und die Tiere",
-      "release_date": "2008-03-01"
-    }
-  },
-  {
     "videoId": "ZgvN7wgml98",
     "youtubeTitle": "Das Leben auf dem Bauernhof - Teil 2",
     "suchbegriff": "Das Leben auf dem Bauernhof - Teil 2",
@@ -1928,38 +1532,6 @@
     }
   },
   {
-    "videoId": "xie65T5-b6Y",
-    "youtubeTitle": "Ziel Mond",
-    "suchbegriff": "Ziel Mond",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 62) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 25392,
-      "title": "Endstation Mond",
-      "release_date": "1950-06-27"
-    }
-  },
-  {
-    "videoId": "FY8eeY2TvEI",
-    "youtubeTitle": "Das Feuerwerk meines Lebens",
-    "suchbegriff": "Das Feuerwerk meines Lebens",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "9yPyRN_7PoQ",
-    "youtubeTitle": "Legend of War",
-    "suchbegriff": "Legend of War",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 60) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 154727,
-      "title": "Legend of the Galactic Heroes - Overture to a New War",
-      "release_date": "1993-12-18"
-    }
-  },
-  {
     "videoId": "qolrPcNXERs",
     "youtubeTitle": "Cantinflas Cartoon",
     "suchbegriff": "Cantinflas Cartoon",
@@ -1974,26 +1546,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "haoQ4e84z9E",
-    "youtubeTitle": "The Princess and the Swordman",
-    "suchbegriff": "The Princess and the Swordman",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "ctKqyA9C0Ws",
-    "youtubeTitle": "Vater wird es richten",
-    "suchbegriff": "Vater wird es richten",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 35)",
-    "tmdbTopKandidat": {
-      "id": 22968,
-      "title": "Ein Geschenk des Himmels",
-      "release_date": "1951-04-05"
-    }
   },
   {
     "videoId": "bVgloTEGtPI",
@@ -2172,26 +1724,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "e8iILaKm6WU",
-    "youtubeTitle": "Zombie Outbreak (Horrorfilm | deutsch)",
-    "suchbegriff": "Zombie Outbreak",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 36)",
-    "tmdbTopKandidat": {
-      "id": 84443,
-      "title": "Day X - Outbreak of the Zombies",
-      "release_date": "2005-11-10"
-    }
-  },
-  {
-    "videoId": "Rdhy-iCfb7M",
-    "youtubeTitle": "Men of Honor 2",
-    "suchbegriff": "Men of Honor 2",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "e97CSkkgaZs",
     "youtubeTitle": "Das unbezwingbare Massiv - Traumhafte Bilder der westlichen Pyrenäen aus der Vogelperspektive",
     "suchbegriff": "Das unbezwingbare Massiv - Traumhafte Bilder der westlichen Pyrenäen aus der Vogelperspektive",
@@ -2201,18 +1733,6 @@
       "id": 324166,
       "title": "Die Grenze aus Granit & Das unbezwingbare Massiv",
       "release_date": "2011-02-24"
-    }
-  },
-  {
-    "videoId": "H2z4V2dH4NY",
-    "youtubeTitle": "MAN EATERS - Leichenhaus des Grauens (Horrorfilme deutsch ganzer Film)",
-    "suchbegriff": "MAN EATERS - Leichenhaus des Grauens",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 66) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 149957,
-      "title": "Urwald in Aufruhr",
-      "release_date": "1954-06-01"
     }
   },
   {
@@ -2382,30 +1902,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "-7PybaO8yMw",
-    "youtubeTitle": "Circus of Horror (Horror deutsch ganzer Film)",
-    "suchbegriff": "Circus of Horror",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 27405,
-      "title": "Der rote Schatten",
-      "release_date": "1960-04-01"
-    }
-  },
-  {
-    "videoId": "HK77gI46f_Y",
-    "youtubeTitle": "Vampirfürst - Lord of the Dead (Horror deutsch ganzer Film)",
-    "suchbegriff": "Vampirfürst - Lord of the Dead",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
-    "tmdbTopKandidat": {
-      "id": 149113,
-      "title": "Cold Hearts - Kalter Kuss",
-      "release_date": "1999-12-31"
-    }
   },
   {
     "videoId": "iK6knvsGgvY",
@@ -2605,26 +2101,6 @@
       "id": 221127,
       "title": "Das Leben des F. Scott Fitzgerald",
       "release_date": "1974-01-07"
-    }
-  },
-  {
-    "videoId": "skzvnl93FZI",
-    "youtubeTitle": "Plötzlich - Suddenly - Frank Sinatra",
-    "suchbegriff": "Plötzlich - Suddenly - Frank Sinatra",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "TphVvD3JZ4Q",
-    "youtubeTitle": "Ma Barkers gnadenlose Killer - Originalfilm",
-    "suchbegriff": "Ma Barkers gnadenlose Killer - Originalfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 65) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 103185,
-      "title": "Die gnadenlosen Killer",
-      "release_date": "1960-02-03"
     }
   },
   {
@@ -2920,18 +2396,6 @@
     }
   },
   {
-    "videoId": "aPXmDrYdaaQ",
-    "youtubeTitle": "Dracula - Restaurierte Fassung (Horror deutsch ganzer Film)",
-    "suchbegriff": "Dracula - Restaurierte Fassung",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Dracula\" ohne Jahr/Besetzung -- Rest des Titels (\"restaurierte fassung\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1246049,
-      "title": "Dracula - Die Auferstehung",
-      "release_date": "2025-07-30"
-    }
-  },
-  {
     "videoId": "oLLk3ObRIT0",
     "youtubeTitle": "Tracys Heart - Cate Blachett - Bonusmaterial",
     "suchbegriff": "Tracys Heart - Cate Blachett - Bonusmaterial",
@@ -3068,18 +2532,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "UYs291bm3Ss",
-    "youtubeTitle": "Die Taverne von Jamaika - Hitchcock",
-    "suchbegriff": "Die Taverne von Jamaika - Hitchcock",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 35)",
-    "tmdbTopKandidat": {
-      "id": 31995,
-      "title": "Riff-Piraten",
-      "release_date": "1939-05-11"
-    }
-  },
-  {
     "videoId": "AwdgyQj7CCo",
     "youtubeTitle": "Till clouds roll by - Frank Sinatra, Judy Garland",
     "suchbegriff": "Till clouds roll by - Frank Sinatra, Judy Garland",
@@ -3089,18 +2541,6 @@
       "id": 18700,
       "title": "Bis die Wolken vorüberzieh'n",
       "release_date": "1946-12-05"
-    }
-  },
-  {
-    "videoId": "8zYbxQlXujQ",
-    "youtubeTitle": "Plötzlich - Frank Sinatra",
-    "suchbegriff": "Plötzlich - Frank Sinatra",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Plötzlich\" ohne Jahr/Besetzung -- Rest des Titels (\"frank sinatra\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 9880,
-      "title": "Plötzlich Prinzessin",
-      "release_date": "2001-08-03"
     }
   },
   {
@@ -3288,14 +2728,6 @@
     }
   },
   {
-    "videoId": "VJlCZGMP3TI",
-    "youtubeTitle": "Maya Meemsaab - Shah Rukh Khan - Der Film",
-    "suchbegriff": "Maya Meemsaab - Shah Rukh Khan - Der Film",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "lrkLdk-9Dfg",
     "youtubeTitle": "PRAG",
     "suchbegriff": "PRAG",
@@ -3456,18 +2888,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "6q6d8hEAEiY",
-    "youtubeTitle": "Der große St.Louis Bankraub (The great St. Louis Bank Robbery)",
-    "suchbegriff": "Der große St.Louis Bankraub",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 45)",
-    "tmdbTopKandidat": {
-      "id": 5926,
-      "title": "Rififi in St. Louis",
-      "release_date": "1959-09-10"
-    }
-  },
-  {
     "videoId": "YWh46ROIGOQ",
     "youtubeTitle": "Die schönsten Märchen der Brüder Grimm Dornröschen",
     "suchbegriff": "Die schönsten Märchen der Brüder Grimm Dornröschen",
@@ -3476,33 +2896,9 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "Ax6o6Y_Od98",
-    "youtubeTitle": "John Wayne - Feuerwasser und frische Blüten (Lone Star) Schwarz-Weiß",
-    "suchbegriff": "John Wayne - Feuerwasser und frische Blüten",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 653831,
-      "title": "John Wayne - Amerika um jeden Preis",
-      "release_date": "2019-10-14"
-    }
-  },
-  {
     "videoId": "etYF3d288gU",
     "youtubeTitle": "John Wayne - Goldgier (The lucky Texan)",
     "suchbegriff": "John Wayne - Goldgier",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 653831,
-      "title": "John Wayne - Amerika um jeden Preis",
-      "release_date": "2019-10-14"
-    }
-  },
-  {
-    "videoId": "izbS8BaCNzo",
-    "youtubeTitle": "John Wayne - Winde der Wildness (Strange Wilderness) Schwarz-Weiß",
-    "suchbegriff": "John Wayne - Winde der Wildness",
     "erwartetesJahr": null,
     "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
@@ -3756,14 +3152,6 @@
     }
   },
   {
-    "videoId": "ZakasxXEkeA",
-    "youtubeTitle": "Die grüne Hornisse (Martial-Arts ganzer Film in voller länge Deutsch)",
-    "suchbegriff": "Die grüne Hornisse",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
     "videoId": "WCV96uKmvBg",
     "youtubeTitle": "Mega Phython vs. Gatoroid (Sci-Fi | deutsch)",
     "suchbegriff": "Mega Phython vs. Gatoroid",
@@ -3932,42 +3320,6 @@
     }
   },
   {
-    "videoId": "KVqB6WIQ8LU",
-    "youtubeTitle": "John Wayne - Winde der Wilderness in Farbe",
-    "suchbegriff": "John Wayne - Winde der Wilderness in Farbe",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 653831,
-      "title": "John Wayne - Amerika um jeden Preis",
-      "release_date": "2019-10-14"
-    }
-  },
-  {
-    "videoId": "k27Fgo_Q8us",
-    "youtubeTitle": "Bounty - Die Rache ist mein",
-    "suchbegriff": "Bounty - Die Rache ist mein",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Bounty\" ohne Jahr/Besetzung -- Rest des Titels (\"rache ist mein\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 552071,
-      "title": "Bounty",
-      "release_date": "2017-06-01"
-    }
-  },
-  {
-    "videoId": "KWS9yp9k5-0",
-    "youtubeTitle": "John Wayne - Gunfighter",
-    "suchbegriff": "John Wayne - Gunfighter",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 653831,
-      "title": "John Wayne - Amerika um jeden Preis",
-      "release_date": "2019-10-14"
-    }
-  },
-  {
     "videoId": "2LEWnUrzJKM",
     "youtubeTitle": "Mein liebstes Fohlen - Die Welt der Pferde",
     "suchbegriff": "Mein liebstes Fohlen - Die Welt der Pferde",
@@ -4123,14 +3475,6 @@
     "videoId": "czIXuRF2ous",
     "youtubeTitle": "Gullivers tolle Reisen",
     "suchbegriff": "Gullivers tolle Reisen",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "VczN76lrD9U",
-    "youtubeTitle": "Abbott und Costello für Safari",
-    "suchbegriff": "Abbott und Costello für Safari",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
@@ -4568,18 +3912,6 @@
     }
   },
   {
-    "videoId": "Y4aBMiayiaI",
-    "youtubeTitle": "Abbott und Costello unter Piraten",
-    "suchbegriff": "Abbott und Costello unter Piraten",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 66) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 63795,
-      "title": "Abbott und Costello als Piraten wider Willen",
-      "release_date": "1952-12-27"
-    }
-  },
-  {
     "videoId": "vfWVs14qL5o",
     "youtubeTitle": "Alle Mann von Deck",
     "suchbegriff": "Alle Mann von Deck",
@@ -4609,30 +3941,6 @@
       "id": 18647,
       "title": "Der Besessene",
       "release_date": "1961-03-30"
-    }
-  },
-  {
-    "videoId": "f_BJaDabv1E",
-    "youtubeTitle": "Der unerbittliche Texaner",
-    "suchbegriff": "Der unerbittliche Texaner",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 29)",
-    "tmdbTopKandidat": {
-      "id": 22612,
-      "title": "Das Gold von Texas",
-      "release_date": "1934-01-22"
-    }
-  },
-  {
-    "videoId": "xhGBytiz_18",
-    "youtubeTitle": "Rächer des Westens - John Wayne",
-    "suchbegriff": "Rächer des Westens - John Wayne",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 29)",
-    "tmdbTopKandidat": {
-      "id": 53828,
-      "title": "Showdown am Adlerpaß",
-      "release_date": "1934-05-10"
     }
   },
   {
@@ -4828,18 +4136,6 @@
     }
   },
   {
-    "videoId": "f5ER5DehxqY",
-    "youtubeTitle": "Vincent Price - Das Biest",
-    "suchbegriff": "Vincent Price - Das Biest",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 66) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 204567,
-      "title": "Die blutig ernste Geschichte des Grafen Dracula",
-      "release_date": "1986-09-29"
-    }
-  },
-  {
     "videoId": "o7SaFYWUNEo",
     "youtubeTitle": "Evil Zombies",
     "suchbegriff": "Evil Zombies",
@@ -4894,18 +4190,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "qZVko5JCKWM",
-    "youtubeTitle": "Die Abenteuer des Robinson Crusoe",
-    "suchbegriff": "Die Abenteuer des Robinson Crusoe",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 62) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 54979,
-      "title": "Robinson Crusoe",
-      "release_date": "1954-08-05"
-    }
   },
   {
     "videoId": "Iioq1gIy-Js",
@@ -5022,18 +4306,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "4gM3JDQ-r0I",
-    "youtubeTitle": "Graf Dracula (Horror deutsch ganzer Film)",
-    "suchbegriff": "Graf Dracula",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 66) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 886122,
-      "title": "Graf Dracula Junior",
-      "release_date": "1983-01-01"
-    }
   },
   {
     "videoId": "mXSIvMt46KI",
@@ -5228,30 +4500,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "yOykmeBsAeY",
-    "youtubeTitle": "Till Eulenspiegel",
-    "suchbegriff": "Till Eulenspiegel",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 51) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 257184,
-      "title": "Die Abenteuer des Till Ulenspiegel",
-      "release_date": "1956-11-07"
-    }
-  },
-  {
-    "videoId": "fmfFuV29SVs",
-    "youtubeTitle": "Lassie - Der treue Freund",
-    "suchbegriff": "Lassie - Der treue Freund",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Lassie\" ohne Jahr/Besetzung -- Rest des Titels (\"treue freund\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 14597,
-      "title": "Lassie kehrt zurück",
-      "release_date": "2005-12-16"
-    }
-  },
-  {
     "videoId": "BGcW-HK5N74",
     "youtubeTitle": "Jack London So frei wie der Wind",
     "suchbegriff": "Jack London So frei wie der Wind",
@@ -5307,14 +4555,6 @@
     "videoId": "RgoKkNfouGs",
     "youtubeTitle": "Deutschland zur Stunde 0",
     "suchbegriff": "Deutschland zur Stunde 0",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "nXrd9tNjSsw",
-    "youtubeTitle": "Die grüne Hornisse (Martial-Arts ganzer Film in voller länge Deutsch)",
-    "suchbegriff": "Die grüne Hornisse",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
@@ -5392,18 +4632,6 @@
     }
   },
   {
-    "videoId": "5g_mdU1WCoc",
-    "youtubeTitle": "Jack Nicholson - Ride In The Whirlwind - Film",
-    "suchbegriff": "Jack Nicholson - Ride In The Whirlwind - Film",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 615940,
-      "title": "Jack Nicholson - Einer flog über Hollywood",
-      "release_date": "2019-07-21"
-    }
-  },
-  {
     "videoId": "5uDDxuzVDms",
     "youtubeTitle": "Im Teufelskreis der Armut",
     "suchbegriff": "Im Teufelskreis der Armut",
@@ -5418,18 +4646,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "SvdVWozLEj0",
-    "youtubeTitle": "Haie - Tödlich und Schnell",
-    "suchbegriff": "Haie - Tödlich und Schnell",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Haie\" ohne Jahr/Besetzung -- Rest des Titels (\"todlich schnell\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 118957,
-      "title": "Bait - Haie im Supermarkt",
-      "release_date": "2012-09-05"
-    }
   },
   {
     "videoId": "106BFtdgweI",
@@ -5580,18 +4796,6 @@
     }
   },
   {
-    "videoId": "fdKrANJjF9Q",
-    "youtubeTitle": "The Dead (Horrorfilm deutsch ganzer Film)",
-    "suchbegriff": "The Dead",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 78) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 764,
-      "title": "Tanz der Teufel",
-      "release_date": "1983-01-16"
-    }
-  },
-  {
     "videoId": "UqSvwHnL2V0",
     "youtubeTitle": "Pontypool - Radio Zombie (Horror deutsch ganzer Film)",
     "suchbegriff": "Pontypool - Radio Zombie",
@@ -5625,18 +4829,6 @@
       "id": 1279112,
       "title": "Elizabeth Taylor: Die verschollenen Aufnahmen",
       "release_date": "2024-05-16"
-    }
-  },
-  {
-    "videoId": "XM5lJl47BCk",
-    "youtubeTitle": "Der Grosse St. Louis Bankraub",
-    "suchbegriff": "Der Grosse St. Louis Bankraub",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 24)",
-    "tmdbTopKandidat": {
-      "id": 5926,
-      "title": "Rififi in St. Louis",
-      "release_date": "1959-09-10"
     }
   },
   {
@@ -6124,18 +5316,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "nAow8qZlQXQ",
-    "youtubeTitle": "Liebe ist unendlich",
-    "suchbegriff": "Liebe ist unendlich",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
-    "tmdbTopKandidat": {
-      "id": 309167,
-      "title": "Operation Comeback",
-      "release_date": "1983-10-20"
-    }
-  },
-  {
     "videoId": "0kUZi7ozTRw",
     "youtubeTitle": "BBC Animal Weapons 2 - Sexy Beasts (1/2)",
     "suchbegriff": "BBC Animal Weapons 2 - Sexy Beasts",
@@ -6352,18 +5532,6 @@
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "dXgmWvtP0JA",
-    "youtubeTitle": "She - Ray Harryhausen",
-    "suchbegriff": "She - Ray Harryhausen",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"She\" ohne Jahr/Besetzung -- Rest des Titels (\"ray harryhausen\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 17604,
-      "title": "Herrscherin der Wüste",
-      "release_date": "1965-06-09"
-    }
-  },
-  {
     "videoId": "rxSXNbxMwPM",
     "youtubeTitle": "Wasserschildkröten - Evolution und Lebensweise - Film",
     "suchbegriff": "Wasserschildkröten - Evolution und Lebensweise - Film",
@@ -6478,30 +5646,6 @@
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "e4xNMDCYhgc",
-    "youtubeTitle": "💕 Ein FILM, Den Jede Frau Sehen Sollte! Romantisches Drama Auf Deutsch | Film auf Deutsch",
-    "suchbegriff": "Ein FILM, Den Jede Frau Sehen Sollte! Romantisches Drama Auf Deutsch",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Silhouettes\" ohne Jahr/Besetzung -- Rest des Titels (\"den jede frau sehen sollte romantisches auf\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 563035,
-      "title": "Silhouettes",
-      "release_date": "2017-01-01"
-    }
-  },
-  {
-    "videoId": "goPBh76kjUY",
-    "youtubeTitle": "Zwischen Angst und letzter Hoffnung 😢❤️ Topside - Flucht ins Ungewisse | Drama in voller Länge",
-    "suchbegriff": "Topside",
-    "erwartetesJahr": "2020",
-    "grund": "Ein-Wort-Suchbegriff \"Topside\" ohne Jahr/Besetzung -- Rest des Titels (\"zwischen angst letzter hoffnung\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 665899,
-      "title": "Topside - Flucht ins Ungewisse",
-      "release_date": "2022-03-25"
-    }
   },
   {
     "videoId": "NLJg4B1rwes",
