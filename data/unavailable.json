@@ -1044,15 +1044,6 @@
     "geprueftAm": "2026-11-11"
   },
   {
-    "videoId": "wcnrehnPdmo",
-    "title": "Der (voraussichtlich) letzte Streich der Olsenbande",
-    "channelName": "Netzkino",
-    "tmdbId": 12269,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-11"
-  },
-  {
     "videoId": "IAIeqQ4exww",
     "title": "How I Live Now",
     "channelName": "Netzkino",
@@ -1500,15 +1491,6 @@
     "tmdbId": 416071,
     "grund": "gesperrt_de",
     "detail": "in Deutschland gesperrt",
-    "geprueftAm": "2026-11-11"
-  },
-  {
-    "videoId": "Qf6IV9BtL6E",
-    "title": "Vom Teufel besessen",
-    "channelName": "CiNENET Deutschland",
-    "tmdbId": 68572,
-    "grund": "gesperrt_de",
-    "detail": "nur in anderen Ländern freigegeben",
     "geprueftAm": "2026-11-11"
   },
   {
@@ -3141,6 +3123,15 @@
     "geprueftAm": "2026-11-11"
   },
   {
+    "videoId": "wA9eKL0VTF4",
+    "title": "Locust",
+    "channelName": "Lichtprojektor",
+    "tmdbId": null,
+    "grund": "nicht_oeffentlich",
+    "detail": "unlisted",
+    "geprueftAm": "2026-11-11"
+  },
+  {
     "videoId": "GEXdAhV0W8E",
     "title": "Liebeswahn",
     "channelName": "Lichtprojektor",
@@ -3384,12 +3375,30 @@
     "geprueftAm": "2026-11-11"
   },
   {
+    "videoId": "EQR2UcrZJDc",
+    "title": "Mission Terminate",
+    "channelName": "Alle Filme Auf Deutsch",
+    "tmdbId": 337125,
+    "grund": "geloescht",
+    "detail": "Video nicht mehr abrufbar",
+    "geprueftAm": "2026-11-11"
+  },
+  {
     "videoId": "sgioHjQ9oyU",
     "title": "Am Rande der Großstadt",
     "channelName": "Alle Filme Auf Deutsch",
     "tmdbId": 120210,
     "grund": "gesperrt_de",
     "detail": "in Deutschland gesperrt",
+    "geprueftAm": "2026-11-11"
+  },
+  {
+    "videoId": "SJUk1yiUAg4",
+    "title": "Bloodbrother - The Fighter, the Winner",
+    "channelName": "Deutsch Film Hub",
+    "tmdbId": 69056,
+    "grund": "geloescht",
+    "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-11"
   },
   {
@@ -3663,6 +3672,15 @@
     "geprueftAm": "2026-11-11"
   },
   {
+    "videoId": "uZ6JsDaQl3s",
+    "title": "Das Haus des Bösen",
+    "channelName": "Kino Deutsch",
+    "tmdbId": 85483,
+    "grund": "geloescht",
+    "detail": "Video nicht mehr abrufbar",
+    "geprueftAm": "2026-11-11"
+  },
+  {
     "videoId": "IHhNvn9Y5qw",
     "title": "A Horse Called Hope",
     "channelName": "Kino Deutsch",
@@ -3705,6 +3723,15 @@
     "tmdbId": null,
     "grund": "gesperrt_de",
     "detail": "in Deutschland gesperrt",
+    "geprueftAm": "2026-11-11"
+  },
+  {
+    "videoId": "_0ww8w71WlI",
+    "title": "Silent Night, Bloody Night",
+    "channelName": "Alle Filme Auf Deutsch",
+    "tmdbId": null,
+    "grund": "geloescht",
+    "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-11"
   },
   {
@@ -4137,6 +4164,15 @@
     "tmdbId": null,
     "grund": "geloescht",
     "detail": "Video nicht mehr abrufbar",
+    "geprueftAm": "2026-11-11"
+  },
+  {
+    "videoId": "UCEoGQbZeOY",
+    "title": "American Sophomore",
+    "channelName": "Lichtprojektor",
+    "tmdbId": null,
+    "grund": "nicht_oeffentlich",
+    "detail": "unlisted",
     "geprueftAm": "2026-11-11"
   },
   {
@@ -5175,6 +5211,15 @@
     "geprueftAm": "2026-11-11"
   },
   {
+    "videoId": "AIDpJ-AC17E",
+    "title": "Er fand DEN ANFÜHRER und DEMÜTIGTE IHN, um sein Dorf zu schützen!",
+    "channelName": "Volle Power Filme",
+    "tmdbId": null,
+    "grund": "geloescht",
+    "detail": "Video nicht mehr abrufbar",
+    "geprueftAm": "2026-11-11"
+  },
+  {
     "videoId": "rZI9vgtNK44",
     "title": "Awakening The Last Dream",
     "channelName": "Stash auf Deutsch",
@@ -5215,15 +5260,6 @@
     "title": "DIE POLIZEI JAGTE DEN FALSCHEN - DANN SOLLTE ER FÜR IHREN FEHLER BEZAHLEN",
     "channelName": "Volle Power Filme",
     "tmdbId": null,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-11"
-  },
-  {
-    "videoId": "oJ3RdQphvbA",
-    "title": "Ich denke oft an Piroschka",
-    "channelName": "All Time Classic Movies",
-    "tmdbId": 11095,
     "grund": "geloescht",
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-11"
