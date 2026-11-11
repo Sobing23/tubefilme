@@ -114126,7 +114126,9 @@
     "slug": "soloalbum",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "91IkkWQrWBw",
@@ -163212,7 +163214,9 @@
     "slug": "waterloo",
     "plausibel": "titel",
     "runtime": 134,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "pamWV6cjsf4",
@@ -223235,7 +223239,9 @@
     "slug": "special-forces",
     "plausibel": "titel",
     "runtime": 109,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht"
   },
   {
     "videoId": "chpuO3FL-bE",
@@ -256944,9 +256950,7 @@
       "Tommy Blaze"
     ],
     "fsk": null,
-    "slug": "gott-ist-nicht-tot-5-wir-vertrauen-auf-gott",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "slug": "gott-ist-nicht-tot-5-wir-vertrauen-auf-gott"
   },
   {
     "videoId": "VAk481C-2rY",
@@ -269134,9 +269138,7 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "ein-halleluja-fuer-2-schlitzohren",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "slug": "ein-halleluja-fuer-2-schlitzohren"
   },
   {
     "videoId": "Xd9PhjqZ02Y",
@@ -338030,9 +338032,7 @@
       "袁錦麟"
     ],
     "fsk": "16",
-    "slug": "new-police-story",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "slug": "new-police-story"
   },
   {
     "videoId": "pSegfLiweO0",
@@ -338873,5 +338873,214 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "ein-film-voller-action-und-ueberraschungen-ein-mord-macht-zw"
+  },
+  {
+    "videoId": "5GDsEtx68-U",
+    "youtubeTitle": "Sie kehrt in ihre Heimatstadt zurück und verliebt sich unerwartet | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5GDsEtx68-U/hqdefault.jpg",
+    "duration": "PT1H29M26S",
+    "publishedAt": "2026-11-10T16:00:09Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 915496,
+    "title": "Love, Fashion, Repeat",
+    "originalTitle": "Love, Fashion, Repeat",
+    "overview": "",
+    "releaseDate": "2022-05-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zIFSswSCCnIHga9rT9ZV7jwPLmx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6WhRM7dToI17odpx0G7WAwmGXWd.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      10770,
+      35,
+      10749,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Love, Fashion, Repeat\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Victor Zinck Jr.",
+      "Cristina Rosato",
+      "Klarc Jerome Wilson",
+      "Sarah Giles",
+      "Ashley Ross"
+    ],
+    "director": [
+      "Ken Friss"
+    ],
+    "writer": [
+      "Jason Delaney"
+    ],
+    "fsk": null,
+    "slug": "love-fashion-repeat"
+  },
+  {
+    "videoId": "DvdnHHLDpJI",
+    "youtubeTitle": "Ju-On: The Grudge - Wer dieses Haus betritt, ist dem Tod geweiht! - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DvdnHHLDpJI/hqdefault.jpg",
+    "duration": "PT1H10M18S",
+    "publishedAt": "2026-11-10T15:00:12Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 11838,
+    "title": "Ju-on: The Grudge",
+    "originalTitle": "呪怨",
+    "overview": "Die Sozialarbeiterin Rika Nishina wird zu einem Haus geschickt, um die dort vorherrschenden Familienverhältnisse unter die Lupe zu nehmen. Zunächst trifft sie allerdings nur auf eine alte Frau, die in einem Zimmer des Hauses vor sich hin vegetiert. Als sie Geräusche hört und das obere Stockwerk inspiziert, entdeckt sie den geheimnisvollen Jungen Toshio in einem Schrank. Fortan scheint jeder, der das Haus betreten hat, von Gespenstern gejagt zu werden...",
+    "releaseDate": "2002-10-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fo0mIOWLVCrv3w0hYdVvArHNFjY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jNGVlbH2tnZmVqEIvuoxvV78vBY.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "奥菜恵",
+      "上原美佐",
+      "Yoji Tanaka",
+      "伊東美咲",
+      "Kanji Tsuda"
+    ],
+    "director": [
+      "Takashi Shimizu"
+    ],
+    "writer": [
+      "Takashi Shimizu"
+    ],
+    "fsk": "16",
+    "slug": "ju-on-the-grudge"
+  },
+  {
+    "videoId": "xi8ZsIOnSFQ",
+    "youtubeTitle": "EPISCHES WESTERN-ABENTEUER – DER GALGEN MUSS WARTEN: Der Treck kämpft ums Überleben! (Westernfilm)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xi8ZsIOnSFQ/hqdefault.jpg",
+    "duration": "PT1H27M57S",
+    "publishedAt": "2026-11-10T14:30:14Z",
+    "channelName": "Bronco",
+    "channelId": "UCpypMfxKgMf8uxYjlxKwumA",
+    "tmdbId": 69783,
+    "title": "Der Galgen muss warten",
+    "originalTitle": "Dragoon Wells Massacre",
+    "overview": "Captain Matt Riordan hat erst vor kurzem als einzige überlebender einen Angriff der Indianer überstanden. Nun soll er eine Postkutsche und einen Gefangenentranport durch von feindlichen Indianern kontrolliertes Gebiet führen.",
+    "releaseDate": "1957-08-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pgdtgt3xzfo6mxhvLSvo7WTPgG7.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gt0DqRVr61Sz8Ml1ekpgzP4mmov.jpg",
+    "voteAverage": 7.2,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Barry Sullivan",
+      "Dennis O'Keefe",
+      "Mona Freeman",
+      "Katy Jurado",
+      "Sebastian Cabot"
+    ],
+    "director": [
+      "Harold D. Schuster"
+    ],
+    "writer": [
+      "Warren Douglas"
+    ],
+    "fsk": "12",
+    "slug": "der-galgen-muss-warten"
+  },
+  {
+    "videoId": "xqtRqwWfyfc",
+    "youtubeTitle": "DER BOXER VON SHANGHAI | Martial-Arts-Klassiker | Takeshi Kaneshiro",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xqtRqwWfyfc/hqdefault.jpg",
+    "duration": "PT1H28M35S",
+    "publishedAt": "2026-11-09T17:30:24Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": null,
+    "title": "DER BOXER VON SHANGHAI",
+    "originalTitle": null,
+    "overview": "Während einer schweren Dürre verlassen Ma Wing Jing und sein älterer Bruder Ma Tai Cheung ihre Heimat Shantung und suchen ihr Glück in Shanghai. Doch die Hoffnung auf Wohlstand erfüllt sich zunächst nicht: Beide müssen sich als schlecht bezahlte Arbeiter am Hafen durchschlagen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Takeshi Kaneshiro",
+      "Yuen Biao",
+      "Jessica Hsuan"
+    ],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "der-boxer-von-shanghai"
+  },
+  {
+    "videoId": "xhslIj04wQs",
+    "youtubeTitle": "Terroristen entführen eine Lufthansa-Maschine – die GSG 9 beginnt eine tödliche Rettungsmission",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xhslIj04wQs/hqdefault.jpg",
+    "duration": "PT1H47M29S",
+    "publishedAt": "2026-11-09T14:00:31Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Terroristen entführen eine Lufthansa-Maschine - die GSG 9 beginnt eine tödliche Rettungsmission",
+    "originalTitle": null,
+    "overview": "Oktober 1977. Ein Lufthansa-Passagierflugzeug befindet sich auf dem Rückflug von Mallorca nach Deutschland. Doch plötzlich übernehmen vier bewaffnete Terroristen die Kontrolle über die Maschine. Die Entführer fordern die Freilassung inhaftierter Terroristen und drohen damit, die Passagiere zu töten, sollte die deutsche Bundesregierung ihren Forderungen nicht nachkommen. Für die Menschen an Bord beginnt ein Albtraum. Während die Maschine von Flughafen zu Flughafen weiterfliegt, werden die Bedingungen immer unerträglicher. Angst, Erschöpfung und die ständige Bedrohung durch die bewaffneten Entführer treiben die Passagiere an ihre Grenzen. Auch die Besatzung versucht verzweifelt, die Situation unter Kontrolle zu halten. Zur gleichen Zeit steht Bundeskanzler Helmut Schmidt vor einer historischen Entscheidung. Soll die Bundesregierung den Forderungen der Terroristen nachgeben oder eine riskan",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "terroristen-entfuehren-eine-lufthansa-maschine-die-gsg-9-beg"
+  },
+  {
+    "videoId": "xfrMeCygefM",
+    "youtubeTitle": "🔥 Ein knallharter Rache-Thriller | Sie brachen aus dem Gefängnis aus, um ihn zu töten | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xfrMeCygefM/hqdefault.jpg",
+    "duration": "PT1H13M54S",
+    "publishedAt": "2026-11-09T14:11:31Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Ein knallharter Rache-Thriller",
+    "originalTitle": null,
+    "overview": "Ein packender Krimi voller Gefahren, unerwarteter Wendungen und einem gnadenlosen Kampf ums Überleben. Als eine Gruppe gefährlicher Krimineller aus dem Gefängnis ausbricht, wollen sie nicht spurlos verschwinden. Ihr Ziel ist Casey Roberts, den sie endgültig ausschalten wollen. Diesmal sind sie fest entschlossen, ihren Fall zu Ende zu bringen, und nichts soll sie aufhalten. Doch die Kriminellen sind nicht allein. Ihnen schließt sich die mysteriöse Frau in Schwarz an, deren Auftauchen die Situation noch geheimnisvoller und bedrohlicher macht. Ihre wahren Absichten bleiben im Dunkeln, und ihre Anwesenheit lässt den Leser fragen, wie weit Rachegelüste gehen würden. Für Casey beginnt eine gefährliche Konfrontation, in der jeder Schritt über Sieg oder Niederlage entscheiden kann.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "ein-knallharter-rache-thriller"
   }
 ]
