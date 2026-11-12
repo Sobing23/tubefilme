@@ -172275,23 +172275,37 @@
     "publishedAt": "2026-08-08T17:00:00Z",
     "channelName": "Free Movies Deutschland",
     "channelId": "UCzEM7lABab3RcmVAZXbYhig",
-    "tmdbId": null,
-    "title": "Lilly Schönauer – Liebe hat Flügel",
-    "originalTitle": null,
-    "overview": "Die alleinerziehende Mutter Tessa reist an den malerischen Wolfgangsee, wo eine unvorhergesehene Notlandung des berühmten Dirigenten Frederik Winter ihr geordnetes Leben durcheinanderwirbelt. Während erste zarte Gefühle aufkeimen, taucht plötzlich Tessas Ex-Mann Bernhard auf und versucht vergeblich, die verflossene Ehe neu zu beleben. Zeitgleich gerät die aufblühende Romanze ins Wanken, als Frederiks Ex-Freundin eine angebliche Schwangerschaft ins Spiel bringt und eine Hochzeit fordert. Das dramatische Beziehungsgeflecht spitzt sich weiter zu, ehe das Aufdecken einer bitteren Lüge über die wahre Vaterschaft endlich Klarheit schafft. In diesem gefühlvollen Film findet Frederik schließlich den Mut zu seiner wahren Liebe und gibt der gemeinsamen Hoffnung eine zweite Chance.",
-    "releaseDate": null,
-    "posterUrl": null,
+    "tmdbId": 180160,
+    "title": "Lilly Schönauer - Liebe hat Flügel",
+    "originalTitle": "Lilly Schönauer - Liebe hat Flügel",
+    "overview": "Tessa, allein erziehende Gartenarchitektin, fährt mit ihrer Tochter Mia an den Attersee zu ihrer Schwiegermutter. Hier trifft sie überraschend auf den Vater ihrer Tochter, der sich jahrelang nicht um die beiden kümmerte, und jetzt plötzlich grösstes interesse - vor allem an seiner Exfrau - zeigt. Tessa jedoch wird vor eine schwierige Entscheidung gestellt, denn dort im Salzkammergut begegnet sie Frederic Winter, einem bekannten Dirigenten.",
+    "releaseDate": "2006-10-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6jyGHEqrlipo1NlJfneGGRcqyyF.jpg",
     "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Titel aus der Videobeschreibung ermittelt -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [],
-    "writer": [],
+    "voteAverage": 6,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "korrektur",
+    "matchConfidence": "hoch",
+    "hinweis": "Bei der Nachsuche gefunden -- vorher aus YouTube übernommen als \"Lilly Schönauer – Liebe hat Flügel\" · Laufzeit bestätigt (TMDB 90 min, Video 89 min) · Zuordnungswert 121 (Suchbegriff: \"Lilly Schönauer – Liebe hat Flügel\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Suzan Anbeh",
+      "Erol Sander",
+      "Heidelinde Weis",
+      "Alexander Lutz",
+      "Günther Schramm"
+    ],
+    "director": [
+      "Marco Serafini"
+    ],
+    "writer": [
+      "Nicole Walter-Lingen"
+    ],
     "fsk": null,
-    "titelKorrigiert": true,
     "slug": "lilly-schoenauer-liebe-hat-fluegel"
   },
   {
@@ -172343,23 +172357,40 @@
     "publishedAt": "2026-07-25T17:00:13Z",
     "channelName": "Free Movies Deutschland",
     "channelId": "UCzEM7lABab3RcmVAZXbYhig",
-    "tmdbId": null,
-    "title": "Why Stop Now",
-    "originalTitle": null,
-    "overview": "Die packende Handlung dieses dramatischen Werks konzentriert sich auf den begabten Pianisten Eli Bloom, dessen vielversprechende Zukunft durch die schwere Drogensucht seiner Mutter Penny akut gefährdet ist. Um die bürokratischen Hürden für einen dringend benötigten Platz in der Entzugsklinik zu überwinden, schlittert die Familie unfreiwillig in ein riskantes Drogengeschäft mit skurrilen Kriminellen. Parallel dazu belasten heftige Konflikte um das Sorgerecht der kleinen Schwester Nicole und ein eskalierender Streit bei Verwandten das ohnehin fragile Familiengefüge. Eine skurrile historische Bürgerkriegs-Aufführung sorgt schließlich für ein unerwartetes Wiedersehen und bringt eine überraschende romantische Wendung in das turbulente Leben des jungen Musikers. Der tiefgründige Film fesselt bis zur letzten Sekunde mit einer dynamischen Mischung aus bitterer Realität, bedingungsloser Aufopferu",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Titel aus der Videobeschreibung ermittelt -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "titelKorrigiert": true,
+    "tmdbId": 118677,
+    "title": "Why stop now",
+    "originalTitle": "Why Stop Now?",
+    "overview": "Der junge Eli Bloom hat es nicht leicht. Die Mitschüler mobben ihn, seine große Liebe Chloe will scheinbar nichts von ihm wissen und seine Mutter Penny ist ein Junkie. Aber er hat ein großes Talent: Eli ist ein begnadeter Klavierspieler. Er bekommt die einmalige Gelegenheit an einer renommierten Musikhochschule vorzuspielen. Eine Chance, die sein tristes Leben verändern könnte. Allerdings muss er auf dem Weg dorthin noch seine Mutter bei einer Entzugsklinik abliefern, damit sie endlich von ihren Drogen wegkommt. Doch Penny wird abgelehnt, da in ihrem Urin keine Drogen nachweisbar sind. Sie bekommen den Tipp, dass sie aufgenommen wird, wenn sie high ist. Also machen sich Eli und Penny auf zu ihrem Dealer Sprinkles, um Stoff zu besorgen. Der hat jedoch nichts mehr da und bevor Eli weiß was passiert, wird er zum Spanischübersetzer in einem großen Drogendeal.",
+    "releaseDate": "2012-08-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xEaVD2RJADGWUhlBkhGV0vQoHrP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tJfBEBVygt5eJN1EFRdOfi7LqCa.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "korrektur",
+    "matchConfidence": "hoch",
+    "hinweis": "Bei der Nachsuche gefunden -- vorher aus YouTube übernommen als \"Why Stop Now\" · Laufzeit bestätigt (TMDB 88 min, Video 88 min) · Zuordnungswert 134 (Suchbegriff: \"Why Stop Now\")",
+    "runtime": 88,
+    "plausibel": "korrekturtitel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jesse Eisenberg",
+      "Melissa Leo",
+      "Tracy Morgan",
+      "Isiah Whitlock Jr.",
+      "Sarah Ramos"
+    ],
+    "director": [
+      "Phil Dorling",
+      "Ron Nyswaner"
+    ],
+    "writer": [
+      "Ron Nyswaner",
+      "Phil Dorling"
+    ],
+    "fsk": "12",
     "slug": "why-stop-now"
   },
   {
