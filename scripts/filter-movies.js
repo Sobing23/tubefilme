@@ -105,6 +105,14 @@ function classify(video, profil) {
   if (PROMO_KEYWORDS.test(video.title)) {
     return { include: false, reason: "Trailer/Teaser/Clip im Titel" };
   }
+  // Arabische Schrift im Videotitel: nie ein deutschsprachiger Spielfilm.
+  // Am 12.11.2026 standen vier Folgen arabischer Reihen von Stream Hier
+  // ("رمضان في العالم الإسلامي | الحلقة 01", "الحلقة" = Folge) in der
+  // Bibliothek; in allen Rohdaten gab es acht solche Titel, alle Serienfolgen
+  // oder Musikvideos.
+  if (/[\u0600-\u06FF\u0750-\u077F]/.test(video.title)) {
+    return { include: false, reason: "nicht deutschsprachig (arabische Schrift im Titel)" };
+  }
   if (istInterview(video.title)) {
     return { include: false, reason: "Interview (kein Spielfilm)" };
   }

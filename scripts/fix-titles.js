@@ -387,14 +387,23 @@ async function main() {
   let korrigiert = 0;
   for (const film of filme) {
     const k = korrekturen[film.videoId];
-    if (!k || film.matchSource !== "youtube") continue;
+    if (!k) continue;
+    // Seit 12.11.2026 auch für Filme MIT TMDB-Treffer, aber nur, wenn der
+    // TMDB-Titel keinen lateinischen Buchstaben enthält: TMDB hat für manche
+    // asiatischen und osteuropäischen Filme keinen deutschen Titel und
+    // liefert dann "小飛俠" oder "13 автобус" -- auf der Seite unlesbar. Der
+    // TMDB-Titel bleibt in "tmdbTitel" erhalten. Ein lesbarer TMDB-Titel wird
+    // nie überschrieben.
+    const fremdschrift = film.matchSource !== "youtube" && ((/\p{L}/u.test(film.title) && !/[A-Za-zÀ-ž]/.test(film.title)) || film.tmdbTitel);
+    if (film.matchSource !== "youtube" && !fremdschrift) continue;
+    if (fremdschrift && !film.tmdbTitel) film.tmdbTitel = film.title;
     if (film.title !== k.titel) {
       film.title = k.titel;
       korrigiert++;
     }
     if (k.jahr && !film.releaseDate) film.releaseDate = `${k.jahr}-01-01`;
     film.titelKorrigiert = true;
-    film.hinweis = "Titel aus der Videobeschreibung ermittelt -- bei TMDB nicht gefunden";
+    if (!fremdschrift) film.hinweis = "Titel aus der Videobeschreibung ermittelt -- bei TMDB nicht gefunden";
     delete film.titelUnsicher;
   }
 
