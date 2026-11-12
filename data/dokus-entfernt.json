@@ -3792,5 +3792,25 @@
     "title": "Appassionata",
     "tmdbId": 130679,
     "channelName": "Movie360"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "lFIKPvRlWok",
+    "youtubeTitle": "Dieser Film hält dich wach🎬Nach der Heimkehr wird er in tödliche Verbrechen verwickelt | Komplett HD",
+    "title": "Living in Fear",
+    "tmdbId": 812785,
+    "channelName": "NEORA"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "J9MvOk8XqWI",
+    "youtubeTitle": "Billy Graham - Ein Leben für die gute Tat (2018) [Drama] [Biographie] ✨ Zweifel, Prüfung, Berufung",
+    "title": "Billy Graham: Ein außergewöhnliches Leben",
+    "tmdbId": 509361,
+    "channelName": "Glaubensfilme"
   }
 ]

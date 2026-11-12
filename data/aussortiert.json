@@ -8974,5 +8974,73 @@
     "title": "Kamouraska",
     "tmdbId": 66962,
     "channelName": "CiNENET Klassiker"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 1 min, Video 88 min) -- wird neu gesucht",
+    "videoId": "haJp8uRGtiI",
+    "youtubeTitle": "❌Dieser Film lässt Sie nicht los🚨Sie verdächtigt ihren Liebhaber, seine Frau ermordet zu haben🎬",
+    "title": "A Clean Kill",
+    "tmdbId": 734334,
+    "channelName": "NEORA"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 91 min, Video 47 min) -- wird neu gesucht",
+    "videoId": "QC5lYv7hCaw",
+    "youtubeTitle": "Atlantis (Die versunkene Stadt | Zeichentrickfilm für Kinder kostenlos online ansehen, Kinderfilme)",
+    "title": "Atlantis",
+    "tmdbId": 556675,
+    "channelName": "Nanoki"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2026, Video 2010) -- wird neu gesucht",
+    "videoId": "Cjxs0MiGdWg",
+    "youtubeTitle": "Black Forest - Zwei Pärchen verbringen einen Horror-Urlaub im Schwarzwald (Horrorfilm, 2010)",
+    "title": "Black Forest",
+    "tmdbId": 852888,
+    "channelName": "wocomoMOVIES"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 108 min, Video 52 min) -- wird neu gesucht",
+    "videoId": "nolyI4j78e0",
+    "youtubeTitle": "Alice im Wunderland (Stummfilmklassiker aus 1915)",
+    "title": "Alice im Wunderland",
+    "tmdbId": 12155,
+    "channelName": "wocomoMOVIES"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 205 min, Video 69 min) -- wird neu gesucht",
+    "videoId": "UMtEYZXBkh8",
+    "youtubeTitle": "Robinson Crusoe (Spielfilm mit Douglas Fairbanks)",
+    "title": "Robinson Crusoe",
+    "tmdbId": 62119,
+    "channelName": "wocomoMOVIES"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: weder Titel, Originaltitel, Besetzung noch Alternativtitel passen -- wird neu gesucht",
+    "videoId": "s2V22eyVtXY",
+    "youtubeTitle": "Baby (KRIMI THRILLER in voller Länge, Thriller Filme auf Deutsch, Kriminalfilm komplett kostenlos)",
+    "title": "Hannas Baby",
+    "tmdbId": 301183,
+    "channelName": "CrimeStar"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "unmatched.json",
+    "grund": "unter 40 Minuten und bei TMDB nicht gefunden -- kein Spielfilm",
+    "videoId": "jgGVhfM61pE",
+    "youtubeTitle": "Der General Gottes - Ein Abenteuer über Mut & Nächstenliebe [Kinderfilm] [Glaubensfilm]",
+    "channelName": "Glaubensfilme"
   }
 ]

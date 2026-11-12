@@ -1,942 +1,742 @@
 [
   {
-    "videoId": "-DCCI_9zDdQ",
-    "youtubeTitle": "Vorsicht, Mr. Dodd",
-    "suchbegriff": "Vorsicht, Mr. Dodd",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 66) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 209449,
-      "title": "Vorsicht Mister Dodd",
-      "release_date": "1964-02-13"
-    }
-  },
-  {
-    "videoId": "LidAAtFmEpk",
-    "youtubeTitle": "Tob Job | Krimi Drama | Filmklassiker",
-    "suchbegriff": "Tob Job",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "Qen-BCitYic",
-    "youtubeTitle": "Die letzte Kompanie | Filmklassiker",
-    "suchbegriff": "Die letzte Kompanie",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 21)",
-    "tmdbTopKandidat": {
-      "id": 70464,
-      "title": "Eine Handvoll Helden",
-      "release_date": "1967-11-16"
-    }
-  },
-  {
-    "videoId": "ZjTskTGwQko",
-    "youtubeTitle": "Jagdgeschwader Wildkatze | Kriegsdrama",
-    "suchbegriff": "Jagdgeschwader Wildkatze",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 34)",
-    "tmdbTopKandidat": {
-      "id": 47555,
-      "title": "Stählerne Schwingen",
-      "release_date": "1951-08-28"
-    }
-  },
-  {
-    "videoId": "M4ZXxuPCOr0",
-    "youtubeTitle": "Königin Luise 1957 | Filmklassiker",
-    "suchbegriff": "Königin Luise 1957",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "sjnhDAZsEaQ",
-    "youtubeTitle": "BLOOD & CHOCOLATE | Kompletter Film | Deutsch",
-    "suchbegriff": "BLOOD & CHOCOLATE",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 89) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 10075,
-      "title": "Blood & Chocolate - Die Nacht der Werwölfe",
-      "release_date": "2007-01-26"
-    }
-  },
-  {
-    "videoId": "BNe5_hf9teI",
-    "youtubeTitle": "RHEA M. von Stephen King | Kompletter Film | Deutsch",
-    "suchbegriff": "RHEA M. von Stephen King",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "wtN7F-exK84",
-    "youtubeTitle": "IM BANNE DES KALIFEN | Kompletter Film | Deutsch",
-    "suchbegriff": "IM BANNE DES KALIFEN",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "_GfbacXQkY4",
-    "youtubeTitle": "DJANGO – NUR DER COLT WAR SEIN FREUND | Kompletter Film | Deutsch",
-    "suchbegriff": "DJANGO – NUR DER COLT WAR SEIN FREUND",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"DJANGO\" ohne Jahr/Besetzung -- Rest des Titels (\"nur colt war sein freund\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 10772,
-      "title": "Django",
-      "release_date": "1966-04-06"
-    }
-  },
-  {
-    "videoId": "grbh44bKSz4",
-    "youtubeTitle": "Gebrüder Grimms DER GESTIEFELTE KATER | Kompletter Film | Deutsch",
-    "suchbegriff": "Gebrüder Grimms DER GESTIEFELTE KATER",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "-qXT7zlf4NM",
-    "youtubeTitle": "Shirley MacLaine in SIEBENMAL LOCKT DAS WEIB | Kompletter Film | Deutsch",
-    "suchbegriff": "Shirley MacLaine in SIEBENMAL LOCKT DAS WEIB",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "VydH_P312qM",
-    "youtubeTitle": "Danny Boyles KLEINE MORDE UNTER FREUNDEN | kompletter Film | Schwarze Komödie | Deutsch",
-    "suchbegriff": "Danny Boyles KLEINE MORDE UNTER FREUNDEN",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 11469,
-      "title": "Ritter Jamal - Eine schwarze Komödie",
-      "release_date": "2001-11-21"
-    }
-  },
-  {
-    "videoId": "fVTgCLBa_vg",
-    "youtubeTitle": "MILLIONEN-RAUB (Originaltitel: Robbery) | Kompletter Film | Englisch",
-    "suchbegriff": "MILLIONEN-RAUB",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Englisch\" ohne Jahr/Besetzung -- Rest des Titels (\"millionen raub\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 409,
-      "title": "Der englische Patient",
-      "release_date": "1996-11-14"
-    }
-  },
-  {
-    "videoId": "wkd6JhJVAr8",
-    "youtubeTitle": "CarGo – Ein kleiner Sportwagen mit großem Herz (ANIMATIONSFILM für die ganze Familie auf Deutsch)",
-    "suchbegriff": "CarGo – Ein kleiner Sportwagen mit großem Herz",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"CarGo\" ohne Jahr/Besetzung -- Rest des Titels (\"kleiner sportwagen mit grossem herz\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 106541,
-      "title": "Cargo",
-      "release_date": "2011-10-17"
-    }
-  },
-  {
-    "videoId": "kd-ZIJSgoAU",
-    "youtubeTitle": "Falada und die Gänsemagd (MÄRCHEN AUF DEUTSCH, FILME AUF DEUTSCH ANSCHAUEN)",
-    "suchbegriff": "Falada und die Gänsemagd",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "Tj3BpSMxRjk",
-    "youtubeTitle": "CarGo – Ein kleiner Sportwagen mit großem Herz (ANIMATION AUF DEUTSCH, FILME FÜR DIE GANZE FAMILIE)",
-    "suchbegriff": "CarGo – Ein kleiner Sportwagen mit großem Herz",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"CarGo\" ohne Jahr/Besetzung -- Rest des Titels (\"kleiner sportwagen mit grossem herz\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 106541,
-      "title": "Cargo",
-      "release_date": "2011-10-17"
-    }
-  },
-  {
-    "videoId": "ThcMHYgdWoI",
-    "youtubeTitle": "Däumelinchens Abenteuer (Animationsfilm kostenlos auf Deutsch, Zeichentrickfilm in voller Länge)",
-    "suchbegriff": "Däumelinchens Abenteuer",
-    "erwartetesJahr": "1993",
-    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 808537,
-      "title": "Däumelinchens Abenteuer",
-      "release_date": "1959-01-23"
-    }
-  },
-  {
-    "videoId": "Wfrd_TdL9ew",
-    "youtubeTitle": "Casper und seine Freunde (Zeichentrickfilm in voller Länge, kompletter Zeichtrickfilm auf Deutsch)",
-    "suchbegriff": "The New Casper Cartoon Show",
-    "erwartetesJahr": "1963",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "LHqrQylUGmM",
-    "youtubeTitle": "Prince of Persia – Die Legende von Omar (Kinderfilm mit MORITZ BLEIBTREU | Familienfilm | Deutsch)",
-    "suchbegriff": "Prince of Persia – Die Legende von Omar",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 35)",
-    "tmdbTopKandidat": {
-      "id": 9543,
-      "title": "Prince of Persia - Der Sand der Zeit",
-      "release_date": "2010-05-19"
-    }
-  },
-  {
-    "videoId": "nduqmr3-frE",
-    "youtubeTitle": "Däumelinchen und die Vögel (Ganzer Zeichentrickfilm, Märchenfilm, deutsch) *kostenlose Märchenfilme*",
-    "suchbegriff": "Däumelinchen und die Vögel",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "-m7ZzcyRsaA",
-    "youtubeTitle": "Prince of Persia – Die Legende von Omar (Kinderfilm mit MORITZ BLEIBTREU, ganze Kinderfilme deutsch)",
-    "suchbegriff": "Prince of Persia – Die Legende von Omar",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 35)",
-    "tmdbTopKandidat": {
-      "id": 9543,
-      "title": "Prince of Persia - Der Sand der Zeit",
-      "release_date": "2010-05-19"
-    }
-  },
-  {
-    "videoId": "sbRhFlqlY_o",
-    "youtubeTitle": "Charles Dickens: Scrooge (Kinderfilm, deutsch, Weihnachtsfilm für Kinder, Musical, Musikfilm)",
-    "suchbegriff": "Charles Dickens: Scrooge",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 60) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 765830,
-      "title": "Charles Dickens' A Christmas Carol",
-      "release_date": "2020-11-28"
-    }
-  },
-  {
-    "videoId": "-Pafsn_wpkM",
-    "youtubeTitle": "Prince of Persia – Die Legende von Omar (Kinderfilm, deutsch, mit MORITZ BLEIBTREU) *Kinderfilme*",
-    "suchbegriff": "Prince of Persia – Die Legende von Omar",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 35)",
-    "tmdbTopKandidat": {
-      "id": 9543,
-      "title": "Prince of Persia - Der Sand der Zeit",
-      "release_date": "2010-05-19"
-    }
-  },
-  {
-    "videoId": "uF-X0kPrkB8",
-    "youtubeTitle": "Santas Wunsch zu Weihnachten 🎄 (Weihnachtsfilm, Familienfilm, kostenlos, ganze Weihnachtsfilm)",
-    "suchbegriff": "Santas Wunsch zu Weihnachten 🎄",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "GO58WJQGbcI",
-    "youtubeTitle": "Brüderchen & Schwesterchen (Michael Schanze, Märchenfilm, Familienfilm, komplett auf deutsch)",
-    "suchbegriff": "Brüderchen & Schwesterchen",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 36)",
-    "tmdbTopKandidat": {
-      "id": 1065899,
-      "title": "Brüderchen und Schwesterchen",
-      "release_date": "2008-12-20"
-    }
-  },
-  {
-    "videoId": "kzJP62wyhLU",
-    "youtubeTitle": "Finden Sie Livingstone! | Die verzweifelte Rettungsmission im Herzen Afrikas | Ganzer Film",
-    "suchbegriff": "Finden Sie Livingstone!",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "AmKdCd47jqk",
-    "youtubeTitle": "Das Pferd meines Herzens (Amanda, 1996) [Glaubensfilm] [Drama] | Ganzer Film",
-    "suchbegriff": "Das Pferd meines Herzens",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "jgGVhfM61pE",
-    "youtubeTitle": "Der General Gottes - Ein Abenteuer über Mut & Nächstenliebe [Kinderfilm] [Glaubensfilm]",
-    "suchbegriff": "Der General Gottes - Ein Abenteuer über Mut & Nächstenliebe",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "qcJT7HEK3Ic",
-    "youtubeTitle": "Faith Hope And Love (2019) Verlorene Hoffnung - Wiedergefundener Glaube | Ganzer Film auf Deutsch",
-    "suchbegriff": "Faith Hope And Love",
-    "erwartetesJahr": "2019",
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert -54)",
-    "tmdbTopKandidat": {
-      "id": 1665157,
-      "title": "Карпин Валера: Любовь, надежда и вера!",
-      "release_date": "2022-11-17"
-    }
-  },
-  {
-    "videoId": "C1wwscTjG9w",
-    "youtubeTitle": "Ein Pferd names Gazelle (2014) Die wahre Geschichte eines außergewöhnlichen Pferdetrainers [Drama]",
-    "suchbegriff": "Ein Pferd names Gazelle",
-    "erwartetesJahr": "2014",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "uqLw70czL7I",
-    "youtubeTitle": "Der Rebell - Michael Kohlhaas (2013) | Ganzer Film auf Deutsch",
-    "suchbegriff": "Der Rebell - Michael Kohlhaas",
-    "erwartetesJahr": "2013",
-    "grund": "Ein-Wort-Suchbegriff \"Der Rebell\" ohne Jahr/Besetzung -- Rest des Titels (\"michael kohlhaas\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 44835,
-      "title": "Hesher - Der Rebell",
-      "release_date": "2010-01-22"
-    }
-  },
-  {
-    "videoId": "QtY_CAWby80",
-    "youtubeTitle": "Die Fäuste der Sieger - Requiem for a Heavyweight (1962) | Ganzer Film auf Deutsch",
-    "suchbegriff": "Die Fäuste der Sieger - Requiem for a Heavyweight",
-    "erwartetesJahr": "1962",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "a7nT7FOA4tk",
-    "youtubeTitle": "Die Geschichte eines Betrügers - Who is Clark Rockefeller? (2010) | Ganzer Film auf Deutsch",
-    "suchbegriff": "Die Geschichte eines Betrügers - Who is Clark Rockefeller?",
-    "erwartetesJahr": "2010",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "PVPAxBvPG4o",
-    "youtubeTitle": "U-Boote westwärts - Battle of the Coral Sea (1959) | Ganzer Film auf Deutsch",
-    "suchbegriff": "U-Boote westwärts - Battle of the Coral Sea",
-    "erwartetesJahr": "1959",
-    "grund": "Schwache Übereinstimmung (Wert 86) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 296300,
-      "title": "U-Boote westwärts!",
-      "release_date": "1941-05-09"
-    }
-  },
-  {
-    "videoId": "7USauG_rlJ4",
-    "youtubeTitle": "AIRE - Die letzte Zuflucht #ganzerfilm [HD] - Sci-Fi-Film | Pandastorm",
-    "suchbegriff": "AIRE - Just Breathe",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"AIRE\" ohne Jahr/Besetzung -- Rest des Titels (\"letzte zuflucht ganzerfilm sci\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 562258,
-      "title": "Aire",
-      "release_date": "2018-11-01"
-    }
-  },
-  {
-    "videoId": "_v5_pfglZIo",
-    "youtubeTitle": "398 Tage - Gefangener des IS #ganzerfilm [HD] - Thriller-Drama | Pandastorm",
-    "suchbegriff": "Daniel",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Daniel\" ohne Jahr/Besetzung -- Rest des Titels (\"398 tage gefangener des ganzerfilm\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 1296802,
-      "title": "Daniel",
-      "release_date": "2024-08-30"
-    }
-  },
-  {
-    "videoId": "qhhCPvA4Hzw",
-    "youtubeTitle": "Summer of 84 #ganzerfilm #halloween [HD] - Horror-Film | Pandastorm",
-    "suchbegriff": "Summer of 84",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Summer of 84\" ohne Jahr/Besetzung -- Rest des Titels (\"ganzerfilm halloween\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 470229,
-      "title": "Summer of 84",
-      "release_date": "2018-08-10"
-    }
-  },
-  {
-    "videoId": "2M8YN_qXsCo",
-    "youtubeTitle": "Einer der besten DEUTSCHEN THRILLER: Der falsche Mann (2011) (ganzer Film)",
-    "suchbegriff": "Der falsche Mann",
-    "erwartetesJahr": "2011",
-    "grund": "Schwache Übereinstimmung (Wert 60) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 22527,
-      "title": "Der falsche Mann",
-      "release_date": "1956-12-22"
-    }
-  },
-  {
-    "videoId": "alTgwUyANE4",
-    "youtubeTitle": "Edgar Wallace: Der Hexer | Krimi | MEISTERWERK von EDGAR WALLACE | HD",
-    "suchbegriff": "The Ringer",
-    "erwartetesJahr": "1963",
-    "grund": "Ein-Wort-Suchbegriff \"The Ringer\" ohne Jahr/Besetzung -- Rest des Titels (\"edgar wallace hexer\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 230250,
-      "title": "The Ringer",
-      "release_date": "1972-10-25"
-    }
-  },
-  {
-    "videoId": "g86ffcblNtQ",
-    "youtubeTitle": "Kommissar Klefisch – Tod am Meer (KRIMINALFILM | Krimi-Thriller auf Deutsch, ganzer Spielfilm)",
-    "suchbegriff": "Kommissar Klefisch – Tod am Meer",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "_z1ExT0z2tI",
-    "youtubeTitle": "Rivalinnen – Weep no more my Lady (KRIMI THRILLER | Thriller in voller Länge, Kriminalfilm Deutsch)",
-    "suchbegriff": "Rivalinnen – Weep no more my Lady",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Rivalinnen\" ohne Jahr/Besetzung -- Rest des Titels (\"weep more lady\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 265793,
-      "title": "Rivalinnen",
-      "release_date": "2004-10-28"
-    }
-  },
-  {
-    "videoId": "idCq17LYzkQ",
-    "youtubeTitle": "Der falsche Mann (KRIMI THRILLER | Thriller in voller Länge, Krimi komplett Deutsch, Ganzer Film)",
-    "suchbegriff": "Der falsche Mann",
-    "erwartetesJahr": "2011",
-    "grund": "Schwache Übereinstimmung (Wert 60) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 22527,
-      "title": "Der falsche Mann",
-      "release_date": "1956-12-22"
-    }
-  },
-  {
-    "videoId": "O7_BOWCujGU",
-    "youtubeTitle": "Edgar Wallace - Der Hexer (KRIMI THRILLER auf Deutsch ansehen, Filmklassiker in schwarz weiß)",
-    "suchbegriff": "The Ringer",
-    "erwartetesJahr": "1963",
-    "grund": "Ein-Wort-Suchbegriff \"The Ringer\" ohne Jahr/Besetzung -- Rest des Titels (\"edgar wallace hexer\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 230250,
-      "title": "The Ringer",
-      "release_date": "1972-10-25"
-    }
-  },
-  {
-    "videoId": "h30eKWK1Lzs",
-    "youtubeTitle": "Zwei Haun Auf Den Putz | Western | Ganzer Film auf Deutsch",
-    "suchbegriff": "Zwei Haun Auf Den Putz",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 34)",
-    "tmdbTopKandidat": {
-      "id": 12529,
-      "title": "Hügel der blutigen Stiefel",
-      "release_date": "1969-12-20"
-    }
-  },
-  {
-    "videoId": "VQQD4trL_YE",
-    "youtubeTitle": "Für 1000 Dollar am Tag | HD | Western | Ganzer Film auf Deutsch",
-    "suchbegriff": "Für 1000 Dollar am Tag",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "x0kvvXPkxnc",
-    "youtubeTitle": "Jungfrauen Von Rom | Abenteuer | Ganzer Film auf Deutsch",
-    "suchbegriff": "Jungfrauen Von Rom",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 76) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 164302,
-      "title": "Die Jungfrauen von Rom",
-      "release_date": "1961-03-24"
-    }
-  },
-  {
-    "videoId": "5pss1MuhZzY",
-    "youtubeTitle": "Erstes Verlangen | HD | Erotische | Ganzer Film auf Deutsch",
-    "suchbegriff": "Erstes Verlangen",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 90) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 81672,
-      "title": "Appassionata - Erstes Verlangen",
-      "release_date": "1974-05-22"
-    }
-  },
-  {
-    "videoId": "dYBmd7cwpX4",
-    "youtubeTitle": "Ben und Charlie Film komplett  Ganzer Film italowestern",
-    "suchbegriff": "Ben und Charlie Film komplett Ganzer Film italowestern",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "iv5kvfxeVQM",
-    "youtubeTitle": "Der Schatz der Südstaatler | Western | Abenteuer | Vollständiger Film auf Deutsch",
-    "suchbegriff": "Der Schatz der Südstaatler",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "zeaNT2G5sCM",
-    "youtubeTitle": "Goliath - Der Kampf der Makkabaeer | Aktion | Abenteuer | Ganzer Film auf Deutsch",
-    "suchbegriff": "Goliath - Der Kampf der Makkabaeer",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Goliath\" ohne Jahr/Besetzung -- Rest des Titels (\"kampf makkabaeer\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 884971,
-      "title": "Goliath - Im Netz der Lügen",
-      "release_date": "2022-03-09"
-    }
-  },
-  {
-    "videoId": "UiJ4Dk2IUS0",
-    "youtubeTitle": "Django - Leck Staub von meinem Colt | Westlich | Horror | Ganzer Film auf Deutsch",
-    "suchbegriff": "Django - Leck Staub von meinem Colt",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Django\" ohne Jahr/Besetzung -- Rest des Titels (\"leck staub meinem colt\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 10772,
-      "title": "Django",
-      "release_date": "1966-04-06"
-    }
-  },
-  {
-    "videoId": "sasgvu7Dq04",
-    "youtubeTitle": "Der Sohn der Kleopatra | Abenteuer | Aktion | Ganzer Film auf Deutsch",
-    "suchbegriff": "Der Sohn der Kleopatra",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Aktion\" ohne Jahr/Besetzung -- Rest des Titels (\"sohn kleopatra\") fehlt im Treffer",
-    "tmdbTopKandidat": {
-      "id": 571554,
-      "title": "Aktion J",
-      "release_date": "1961-04-20"
-    }
-  },
-  {
-    "videoId": "65b0ty_zTTc",
-    "youtubeTitle": "Lady Frankensteins tödliche Experimente | Ganzer Film auf Deutsch",
-    "suchbegriff": "Lady Frankensteins tödliche Experimente",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "WGmfGN586nQ",
-    "youtubeTitle": "Das Geheimnis der neun Gäste (Neun Gäste für den Tod) | 70er Giallo",
-    "suchbegriff": "Das Geheimnis der neun Gäste",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "qjiVFuQtw-I",
-    "youtubeTitle": "Spaghetti Western Klassiker | Der Mönch mit der Todeskralle | Ganzer Film",
-    "suchbegriff": "Spaghetti Western Klassiker",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "9LszUXTCWto",
-    "youtubeTitle": "Die Rache des Ringo: Eine klassische Geschichte einer blutigen Vendetta | Ganzer Film",
-    "suchbegriff": "Die Rache des Ringo: Eine klassische Geschichte einer blutigen Vendetta",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "CdcrLKxlkFA",
-    "youtubeTitle": "Der unbesiegbare Reiter | Abenteuer, Action | Der unbesiegbare maskierte Reiter",
-    "suchbegriff": "Der unbesiegbare Reiter",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "OOuEL__BAm4",
-    "youtubeTitle": "Ein Klassiker des Italo-Westerns | Der vergessene Pistolero (Il pistolero...) 1969",
-    "suchbegriff": "Ein Klassiker des Italo-Westerns",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "vo7ouwhlKes",
-    "youtubeTitle": "Das Rote Meer (Red Sea): Einzigartige Unterwasserwelten & Korallenriffe",
-    "suchbegriff": "Das Rote Meer",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "xVCcgCNbx0U",
-    "youtubeTitle": "Django und Sartana | Die Tödliche Allianz | Kompletter Film Deutsch - Django sfida Sartana HD",
-    "suchbegriff": "Django und Sartana",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 33)",
-    "tmdbTopKandidat": {
-      "id": 146079,
-      "title": "Django und Sartana kommen",
-      "release_date": "1970-11-14"
-    }
-  },
-  {
-    "videoId": "SrnaHVlkjzY",
-    "youtubeTitle": "Ursula Andress in: Ich polier' dir deine Glatze | Ganzer Film | Action & Krimi 4K",
-    "suchbegriff": "Colpo in canna, auch bekannt als Asphalt Katze",
-    "erwartetesJahr": "1975",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "3Csa7EBTETg",
-    "youtubeTitle": "Testa t'ammazzo croce sei morto - Man nennt mich Halleluja | Ganzer Spaghetti Western Film 4K",
-    "suchbegriff": "Testa t'ammazzo croce sei morto - Man nennt mich Halleluja",
+    "videoId": "oZKQrkZLcIw",
+    "youtubeTitle": "Ein Film, der von der ersten Minute an fesselt 🎬 Der Feind in meinem Haus 🎬 Ganzer Filme auf Deutsch",
+    "suchbegriff": "Ein Film, der von der ersten Minute an fesselt 🎬 Der Feind in meinem Haus 🎬 Ganzer Filme auf Deutsch",
     "erwartetesJahr": null,
     "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 129847,
-      "title": "Man nennt mich Halleluja",
-      "release_date": "1971-04-08"
+      "id": 32449,
+      "title": "Natural Enemy - Der Feind in meinem Haus",
+      "release_date": "1996-12-31"
     }
   },
   {
-    "videoId": "IdZLDixrGQ4",
-    "youtubeTitle": "Jeremy Sisto & Christopher Walken in: Julius Caesar | Ganzer Historienfilm Deutsch HD",
-    "suchbegriff": "Jeremy Sisto & Christopher Walken in: Julius Caesar",
+    "videoId": "kGyyn_Tr8cU",
+    "youtubeTitle": "🚨Ein unheimlicher Film, der sich lohnt! 😱 ☠️Der Geist eines Mädchens bittet jede Nacht um Hilfe",
+    "suchbegriff": "Ein unheimlicher Film, der sich lohnt! 😱 ☠️Der Geist eines Mädchens bittet jede Nacht um Hilfe",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "li_p_e-CeIY",
-    "youtubeTitle": "Das Gesetz der Rache: Calamity Jane | Western auf Deutsch 4K",
-    "suchbegriff": "Das Gesetz der Rache: Calamity Jane",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 50) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -2)",
     "tmdbTopKandidat": {
-      "id": 26127,
-      "title": "Barett - Das Gesetz der Rache",
-      "release_date": "1993-04-08"
+      "id": 72869,
+      "title": "Spirit",
+      "release_date": "2001-08-01"
     }
   },
   {
-    "videoId": "pg95809pDCo",
-    "youtubeTitle": "Spiel um Leben und Tod: The Gambling Terror | Western auf Deutsch",
-    "suchbegriff": "Spiel um Leben und Tod: The Gambling Terror",
+    "videoId": "bsilgKPyZSw",
+    "youtubeTitle": "Sie diesen Film noch nicht gesehen haben–Empfehlen😢💔Die Treue dieses Hundes wird Ihr Herz berühren",
+    "suchbegriff": "Sie diesen Film noch nicht gesehen haben–Empfehlen😢💔Die Treue dieses Hundes wird Ihr Herz berühren",
     "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 43)",
+    "grund": "Ein-Wort-Suchbegriff \"Rain\" ohne Jahr/Besetzung -- Rest des Titels (\"sie diesen noch nicht gesehen haben empfehlen treue dieses hundes wird ihr herz beruhren\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 14142,
-      "title": "Columbus Day - Ein Spiel auf Leben und Tod",
-      "release_date": "2008-08-29"
+      "id": 61369,
+      "title": "Rain",
+      "release_date": "1932-10-12"
     }
   },
   {
-    "videoId": "HOBDuDvrOHs",
-    "youtubeTitle": "Sinnlichkeit und Geheimnisse: Hamam - Das türkische Bad | Film 4K",
-    "suchbegriff": "Sinnlichkeit und Geheimnisse: Hamam - Das türkische Bad",
+    "videoId": "-SWl2vCSyGk",
+    "youtubeTitle": "🚨Dieser Film fesselt dich mit jeder Minute 😱Verlassenes Mädchen sucht ihre Mutter um Rache zu nehmen",
+    "suchbegriff": "Dieser Film fesselt dich mit jeder Minute 😱Verlassenes Mädchen sucht ihre Mutter um Rache zu nehmen",
     "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Film 4K\" ohne Jahr/Besetzung -- Rest des Titels (\"sinnlichkeit geheimnisse hamam turkische bad\") fehlt im Treffer",
+    "grund": "Ein-Wort-Suchbegriff \"The Stepdaughter\" ohne Jahr/Besetzung -- Rest des Titels (\"dieser fesselt dich mit jeder minute verlassenes madchen sucht ihre mutter rache nehmen\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 1145027,
-      "title": "Iceland 4K - Scenic Relaxation Film",
-      "release_date": ""
+      "id": 204839,
+      "title": "The Stepdaughter",
+      "release_date": "2000-10-31"
     }
   },
   {
-    "videoId": "8MG2lSzvfXE",
-    "youtubeTitle": "Der Schwur des Revolverhelden: Ein Einsamer kehrt zurück | Western auf Deutsch HD",
-    "suchbegriff": "Der Schwur des Revolverhelden: Ein Einsamer kehrt zurück",
+    "videoId": "Y5bw4-9d0mA",
+    "youtubeTitle": "Dieser Film berührte Millionen Herzen💔Sie macht sich auf  Suche nach einem traumatisierten Mädchen",
+    "suchbegriff": "Dieser Film berührte Millionen Herzen💔Sie macht sich auf Suche nach einem traumatisierten Mädchen",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "aCK_diyIAQM",
-    "youtubeTitle": "Fluch des Schlosses: Der Satan ohne Gesicht | Horrorfilm Komplett Deutsch 4K",
-    "suchbegriff": "Fluch des Schlosses: Der Satan ohne Gesicht",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "Aw-0YV7xQLw",
-    "youtubeTitle": "Die Piratenkönigin: Tiger der Meere | Abenteuerfilm Kompletter Film 4K",
-    "suchbegriff": "Die Piratenkönigin: Tiger der Meere",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Die Piratenkönigin\" ohne Jahr/Besetzung -- Rest des Titels (\"tiger meere\") fehlt im Treffer",
+    "grund": "Ein-Wort-Suchbegriff \"Smile\" ohne Jahr/Besetzung -- Rest des Titels (\"dieser beruhrte millionen herzen macht sich auf suche nach einem traumatisierten madchen\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 69784,
-      "title": "Die Piratenkönigin",
-      "release_date": "1951-10-18"
+      "id": 882598,
+      "title": "Smile - Siehst du es auch?",
+      "release_date": "2022-09-23"
     }
   },
   {
-    "videoId": "0hAsLrot72Q",
-    "youtubeTitle": "Das Geheimnis der drei Karten: Ein Loch in der Stirn | Western Ganzer Film 4K",
-    "suchbegriff": "Das Geheimnis der drei Karten: Ein Loch in der Stirn",
+    "videoId": "gvQILL995Yw",
+    "youtubeTitle": "Ein packender Film auf Deutsch🎬 😈 Die Heiligen Mauern Dieses Klosters Verbergen Schreckliche SÜNDEN!",
+    "suchbegriff": "Ein packender Film auf Deutsch🎬 😈 Die Heiligen Mauern Dieses Klosters Verbergen Schreckliche SÜNDEN!",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "geJL5e1XuB4",
-    "youtubeTitle": "Das Erbe der Hunnen: Tharus, Sohn des Attila | Film auf Deutsch HD",
-    "suchbegriff": "Das Erbe der Hunnen: Tharus, Sohn des Attila",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "OCPPNVuGdwo",
-    "youtubeTitle": "Western auf Deutsch: Django - unerbittlich bis zum Tod | Ganzer Film 4K",
-    "suchbegriff": "Western auf Deutsch: Django - unerbittlich bis zum Tod",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "fNvoijzWeOw",
-    "youtubeTitle": "Blutiges Lösegeld: Sie kamen zu viert, um zu töten | Action Western 4K",
-    "suchbegriff": "Blutiges Lösegeld: Sie kamen zu viert, um zu töten",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "h4I1TYF6cww",
-    "youtubeTitle": "Eiskalte Rache: The Cold Killer | Western HD auf Deutsch",
-    "suchbegriff": "Eiskalte Rache: The Cold Killer",
-    "erwartetesJahr": null,
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 43)",
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
     "tmdbTopKandidat": {
-      "id": 117164,
-      "title": "Beyond Justice - Eiskalte Rache",
-      "release_date": "1994-11-14"
+      "id": 105865,
+      "title": "Die Nonne von Verona",
+      "release_date": "1973-01-25"
     }
   },
   {
-    "videoId": "hsumQvai0LE",
-    "youtubeTitle": "Spaghetti-Western auf Deutsch: Killer Kid (Chamaco) | Kompletter Film HD",
-    "suchbegriff": "Spaghetti-Western auf Deutsch: Killer Kid",
+    "videoId": "uf4siFu8elU",
+    "youtubeTitle": "Dieser Film Hält Sie Bis Zum Ende In Atem 😱 Eine Besessene Frau Jagd Ihn Unerbittlich 🎬 Auf Deutsch",
+    "suchbegriff": "Dieser Film Hält Sie Bis Zum Ende In Atem 😱 Eine Besessene Frau Jagd Ihn Unerbittlich 🎬 Auf Deutsch",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "lRBRwTE7CP0",
-    "youtubeTitle": "Die gnadenlose Jagd nach den Postkutschen-Räubern | Hey, Amigo... Rest in Peace! | Western Film HD",
-    "suchbegriff": "Die gnadenlose Jagd nach den Postkutschen-Räubern",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "xsbSofEFn94",
-    "youtubeTitle": "Bergkristall - Der Wildschütz von Tirol - Heimatfilm / Drama von Harald Reinl (ganzer Film)",
-    "suchbegriff": "Bergkristall - Der Wildschütz von Tirol - Heimatfilm / Drama von Harald Reinl",
-    "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Bergkristall\" ohne Jahr/Besetzung -- Rest des Titels (\"wildschutz tirol harald reinl\") fehlt im Treffer",
+    "grund": "Ein-Wort-Suchbegriff \"Borderline\" ohne Jahr/Besetzung -- Rest des Titels (\"dieser halt sie bis zum ende atem besessene frau jagd ihn unerbittlich auf\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 12313,
-      "title": "Bergkristall",
-      "release_date": "2004-11-18"
+      "id": 1013482,
+      "title": "Crazy for You",
+      "release_date": "2025-03-14"
     }
   },
   {
-    "videoId": "UW17VNP7SX4",
-    "youtubeTitle": "Herzrasen - Drama/Krimi (ganzer Film auf Deutsch) - mit Axel Prahl / Lena Lauzemis / Willi Herren",
-    "suchbegriff": "Herzrasen - Drama/Krimi",
+    "videoId": "FgBRFGbWbzc",
+    "youtubeTitle": "👉🏻Ein Film, der bis zum Abspann nicht loslässt 😱 The Pawn | Ganze Filme auf Deutsch",
+    "suchbegriff": "Ein Film, der bis zum Abspann nicht loslässt 😱 The Pawn",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"The Pawn\" ohne Jahr/Besetzung -- Rest des Titels (\"bis zum abspann nicht loslasst\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 349305,
+      "title": "Der Unbestechliche - Ein Cop rechnet ab",
+      "release_date": "1998-01-01"
+    }
+  },
+  {
+    "videoId": "yX5gOtt_8O0",
+    "youtubeTitle": "Einer der härtesten Western🎬Er kehrt aus dem Jenseits zurück um sich zu rächen und das Gold zu holen",
+    "suchbegriff": "Einer der härtesten Western🎬Er kehrt aus dem Jenseits zurück um sich zu rächen und das Gold zu holen",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 45) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 61943,
+      "title": "Töte, Django",
+      "release_date": "1967-05-03"
+    }
+  },
+  {
+    "videoId": "WtMkwiUSIjI",
+    "youtubeTitle": "❌Einer der unheimlichsten Filme aller Zeiten 😱 🎬Der Satan ohne Gesicht 😱🎬 Auf Deutsch ansehen",
+    "suchbegriff": "Einer der unheimlichsten Filme aller Zeiten 😱 🎬Der Satan ohne Gesicht 😱🎬 Auf Deutsch ansehen",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 104944,
+      "title": "Der Satan ohne Gesicht",
+      "release_date": "1969-06-12"
+    }
+  },
+  {
+    "videoId": "096-l-lsGRY",
+    "youtubeTitle": "SPANNENDER FILM⚠️🚨 Er gerät in die tödliche Falle einer attraktiven Frau 😨 Ganzer auf Deutsch",
+    "suchbegriff": "SPANNENDER FILM⚠️🚨 Er gerät in die tödliche Falle einer attraktiven Frau 😨 Ganzer auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Perilous\" ohne Jahr/Besetzung -- Rest des Titels (\"spannender gerat todliche falle einer attraktiven frau ganzer auf\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 214684,
+      "title": "Hetzjagd durch St. Petersburg",
+      "release_date": "2000-01-01"
+    }
+  },
+  {
+    "videoId": "-XXQMp3cY2U",
+    "youtubeTitle": "Suchen Sie einen spannenden Film?🎬Er sucht einen Vermissten, bevor er selbst zum nächsten Opfer wird",
+    "suchbegriff": "Suchen Sie einen spannenden Film?🎬Er sucht einen Vermissten, bevor er selbst zum nächsten Opfer wird",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "0WGYpPbQEI4",
+    "youtubeTitle": "Einer der Spannendsten FILM❌Betrogen Beginnt er eine Perfide Rache Seiner Frau und ihrem Liebhaber",
+    "suchbegriff": "Einer der Spannendsten FILM❌Betrogen Beginnt er eine Perfide Rache Seiner Frau und ihrem Liebhaber",
     "erwartetesJahr": null,
     "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
     "tmdbTopKandidat": {
-      "id": 1563376,
-      "title": "Herzrasen",
-      "release_date": "2001-04-25"
+      "id": 105084,
+      "title": "Bitterer Whisky",
+      "release_date": "1971-11-29"
     }
   },
   {
-    "videoId": "bnJRVmE4gF4",
-    "youtubeTitle": "Zucker - Eine wirklich süße Katastrophe - Komödie / Satire  mit Helmuth Lohner und Sally Sander",
-    "suchbegriff": "Zucker - Eine wirklich süße Katastrophe - Komödie / Satire mit Helmuth Lohner und Sally Sander",
+    "videoId": "jJYMD92X0dM",
+    "youtubeTitle": "FILM, DEN MAN IN EINEM ATEMZUG SCHAUT🎬Ex-Soldat rettet seine entführte kleine Tochter | Ganzer",
+    "suchbegriff": "FILM, DEN MAN IN EINEM ATEMZUG SCHAUT🎬Ex-Soldat rettet seine entführte kleine Tochter",
     "erwartetesJahr": null,
-    "grund": "Ein-Wort-Suchbegriff \"Zucker\" ohne Jahr/Besetzung -- Rest des Titels (\"wirklich susse katastrophe komodie mit helmuth lohner sally sander\") fehlt im Treffer",
+    "grund": "Ein-Wort-Suchbegriff \"The Avenger\" ohne Jahr/Besetzung -- Rest des Titels (\"den man einem atemzug schaut soldat rettet seine entfuhrte kleine tochter\") fehlt im Treffer",
     "tmdbTopKandidat": {
-      "id": 130742,
-      "title": "Operation Zucker",
-      "release_date": "2013-01-15"
+      "id": 305597,
+      "title": "The Avenger",
+      "release_date": "1931-03-06"
     }
   },
   {
-    "videoId": "Fr0iz_TWJy4",
-    "youtubeTitle": "DUDU - Ein Käfer gibt Vollgas - Spielfilm (ganzer Film auf Deutsch)",
-    "suchbegriff": "DUDU - Ein Käfer gibt Vollgas - Spielfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 69) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 102662,
-      "title": "Ein Käfer gibt Vollgas",
-      "release_date": "1972-12-21"
-    }
-  },
-  {
-    "videoId": "bGL_FHKKFyw",
-    "youtubeTitle": "DUDU - Ein Käfer auf Extratour - Spielfilm (ganzer Film auf Deutsch)",
-    "suchbegriff": "DUDU - Ein Käfer auf Extratour - Spielfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 69) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 102664,
-      "title": "Ein Käfer auf Extratour",
-      "release_date": "1973-12-13"
-    }
-  },
-  {
-    "videoId": "lIlOk3DKvBo",
-    "youtubeTitle": "DUDU - Das verrückteste Auto der Welt - Spielfilm (ganzer Film auf Deutsch)",
-    "suchbegriff": "DUDU - Das verrückteste Auto der Welt - Spielfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 69) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 102712,
-      "title": "Das verrückteste Auto der Welt",
-      "release_date": "1975-03-14"
-    }
-  },
-  {
-    "videoId": "Vz0woz-RmsQ",
-    "youtubeTitle": "Agatha Christie: Ein Unbekannter rechnet ab - Spielfilm (ganzer Film auf Deutsch)",
-    "suchbegriff": "Agatha Christie: Ein Unbekannter rechnet ab - Spielfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 42054,
-      "title": "Agatha Christie - Blausäure",
-      "release_date": "2003-10-05"
-    }
-  },
-  {
-    "videoId": "VjBZjllecDk",
-    "youtubeTitle": "Heinz Rühmann: Schneider Wibbel - Das Sonntagskind - Spielfilm (ganzer Film auf Deutsch)",
-    "suchbegriff": "Heinz Rühmann: Schneider Wibbel - Das Sonntagskind - Spielfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 560471,
-      "title": "Heinz Rühmann - Schauspieler, Flieger, Mensch",
-      "release_date": "1982-03-07"
-    }
-  },
-  {
-    "videoId": "LAP8IoSX7wI",
-    "youtubeTitle": "Heinz Rühmann: Keine Angst vor großen Tieren - Spielfilm (ganzer Film auf Deutsch)",
-    "suchbegriff": "Heinz Rühmann: Keine Angst vor großen Tieren - Spielfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 560471,
-      "title": "Heinz Rühmann - Schauspieler, Flieger, Mensch",
-      "release_date": "1982-03-07"
-    }
-  },
-  {
-    "videoId": "-kg5jSfF080",
-    "youtubeTitle": "Heinz Rühmann: Mein Schulfreund - Spielfilm (ganzer Film auf Deutsch)",
-    "suchbegriff": "Heinz Rühmann: Mein Schulfreund - Spielfilm",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 56) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 560471,
-      "title": "Heinz Rühmann - Schauspieler, Flieger, Mensch",
-      "release_date": "1982-03-07"
-    }
-  },
-  {
-    "videoId": "JUsR25AhgiE",
-    "youtubeTitle": "🏰Da waren´s nur noch neun - Geheimnis im blauen Schloss | Filmklassiker | Ganzer Film auf Deutsch",
-    "suchbegriff": "Da waren´s nur noch neun - Geheimnis im blauen Schloss",
-    "erwartetesJahr": null,
-    "grund": "Schwache Übereinstimmung (Wert 58) ohne Bestätigung durch Titel, Jahr oder Besetzung",
-    "tmdbTopKandidat": {
-      "id": 4879,
-      "title": "Geheimnis im blauen Schloss",
-      "release_date": "1965-07-31"
-    }
-  },
-  {
-    "videoId": "G_cUZv3Xs78",
-    "youtubeTitle": "Probe für einen Mörder (1982) [Krimi] | Robert Preston, Jeff Goldblum |  ganzer Film (deutsch) ᴴᴰ",
-    "suchbegriff": "Probe für einen Mörder",
-    "erwartetesJahr": "1982",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "ZINwR9N0L9w",
-    "youtubeTitle": "Eine Geschichte aus Soho (1958-1960) Joseph Offenbach als Inspektor Pink [Krimi-Klassiker]",
-    "suchbegriff": "Eine Geschichte aus Soho",
+    "videoId": "oKPJ2meFFY0",
+    "youtubeTitle": "FILM, den man in einem Atemzug schaut😱Welt versinkt im Chaos nach dem Verschwinden von Mio. Menschen",
+    "suchbegriff": "FILM, den man in einem Atemzug schaut😱Welt versinkt im Chaos nach dem Verschwinden von Mio. Menschen",
     "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "QCC8xR_JOkc",
-    "youtubeTitle": "Tragödie in einer Wohnwagenstadt (1967) Wenn Nachbarn zu Richtern werden [Drama] | Ganzer Film",
-    "suchbegriff": "Tragödie in einer Wohnwagenstadt",
-    "erwartetesJahr": "1967",
+    "videoId": "KaLTupUK3hI",
+    "youtubeTitle": "🎬DIESER FILM wird dich nicht kaltlassen‼️Sie riskierte ihr eigenes Leben, um ihren Mann zu retten",
+    "suchbegriff": "DIESER FILM wird dich nicht kaltlassen‼️Sie riskierte ihr eigenes Leben, um ihren Mann zu retten",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Malpractice\" ohne Jahr/Besetzung -- Rest des Titels (\"dieser wird dich nicht kaltlassen sie riskierte ihr eigenes leben ihren mann retten\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 209159,
+      "title": "Mord unter Narkose",
+      "release_date": "2001-05-25"
+    }
+  },
+  {
+    "videoId": "e1LroSIfV4E",
+    "youtubeTitle": "Sehen Sie DIESEN FILM🎥🏔️In den abgelegenen Bergen flieht sie vor der Verfolgung durch ihren Ex-Mann",
+    "suchbegriff": "Sehen Sie DIESEN FILM🎥🏔️In den abgelegenen Bergen flieht sie vor der Verfolgung durch ihren Ex-Mann",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Showdown\" ohne Jahr/Besetzung -- Rest des Titels (\"sehen sie diesen den abgelegenen bergen flieht sie vor verfolgung durch ihren mann\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 85648,
+      "title": "Die Geier warten schon",
+      "release_date": "1973-06-20"
+    }
+  },
+  {
+    "videoId": "8SVOgKaYmw8",
+    "youtubeTitle": "SPANNENDER KATASTROPHENFILM🎬Eine Bergstadt steht kurz vor dem Untergang 🎥🌋Jetzt auf Deutsch ansehen!",
+    "suchbegriff": "SPANNENDER KATASTROPHENFILM🎬Eine Bergstadt steht kurz vor dem Untergang 🎥🌋Jetzt auf Deutsch ansehen!",
+    "erwartetesJahr": null,
     "grund": "kein TMDB-Treffer",
     "tmdbTopKandidat": null
   },
   {
-    "videoId": "v7WTdidZjm0",
-    "youtubeTitle": "Finden Sie Livingstone! (1966) [Abenteuer] [Drama]  Aufbruch ins Ungewisse | Ganzer Film auf deutsch",
-    "suchbegriff": "Finden Sie Livingstone!",
+    "videoId": "Eh-O_GBLLnE",
+    "youtubeTitle": "DIESER Film THRILLER Wird Sie NERVÖS Machen🎬Ein brutaler Farmer versucht, ihm die Frau auszuspannen",
+    "suchbegriff": "DIESER Film THRILLER Wird Sie NERVÖS Machen🎬Ein brutaler Farmer versucht, ihm die Frau auszuspannen",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"On the Borderline\" ohne Jahr/Besetzung -- Rest des Titels (\"dieser wird sie nervos machen brutaler farmer versucht ihm frau auszuspannen\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 129187,
+      "title": "Borderline - Kein Weg zurück",
+      "release_date": "2001-10-23"
+    }
+  },
+  {
+    "videoId": "6nfUuWjQeMg",
+    "youtubeTitle": "Spannung bis zur letzten Szene🎬Eine geheimnisvolle Frau stellte ihm eine Falle 🎬 Film auf Deutsch",
+    "suchbegriff": "Spannung bis zur letzten Szene🎬Eine geheimnisvolle Frau stellte ihm eine Falle 🎬 Film auf Deutsch",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 28)",
+    "tmdbTopKandidat": {
+      "id": 227702,
+      "title": "Eine Diebin zum Verlieben",
+      "release_date": "2001-10-23"
+    }
+  },
+  {
+    "videoId": "qdWztQBSds4",
+    "youtubeTitle": "Ein emotionaler Film😢 Schwanger musste sie den Betrug ihres Mannes erleben | Ganser Auf Deutsch",
+    "suchbegriff": "Ein emotionaler Film😢 Schwanger musste sie den Betrug ihres Mannes erleben",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Undertow\" ohne Jahr/Besetzung -- Rest des Titels (\"emotionaler schwanger musste sie den betrug ihres mannes erleben\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 16131,
+      "title": "Undertow - Im Sog der Rache",
+      "release_date": "2004-10-22"
+    }
+  },
+  {
+    "videoId": "YaKmyuLH_l0",
+    "youtubeTitle": "NACH WAHREN BEGEBENHEITEN! Die schockierende Tat einer Lehrerin, die Amerika erschütterte | Film HD",
+    "suchbegriff": "NACH WAHREN BEGEBENHEITEN! Die schockierende Tat einer Lehrerin, die Amerika erschütterte",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "_iFgRadytD4",
+    "youtubeTitle": "ISLAND OF LOST SOULS | Kompletter Film | Deutsch",
+    "suchbegriff": "ISLAND OF LOST SOULS",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 34)",
+    "tmdbTopKandidat": {
+      "id": 13626,
+      "title": "Insel der verlorenen Seelen",
+      "release_date": "2007-02-09"
+    }
+  },
+  {
+    "videoId": "YvmyT7UkpPU",
+    "youtubeTitle": "Till Eulenspiegel (Humorvoller Film-Klassiker für die ganze Familie, ganze Filme kostenlos gucken)",
+    "suchbegriff": "Till Eulenspiegel",
+    "erwartetesJahr": "2003",
+    "grund": "Schwache Übereinstimmung (Wert 46) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 119191,
+      "title": "Till Eulenspiegel",
+      "release_date": "1975-05-23"
+    }
+  },
+  {
+    "videoId": "Naou2gAcUxw",
+    "youtubeTitle": "Die drei kleinen Schweinchen (Ganzer Zeichentrickfilm für Kinder, Märchen Geschichte, deutsch)",
+    "suchbegriff": "Die drei kleinen Schweinchen",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "NlrdBMErSec",
+    "youtubeTitle": "Das Ende einer Affäre - The End of the Affair (1955) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Das Ende einer Affäre - The End of the Affair",
+    "erwartetesJahr": "1955",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "XEYjSzHhILY",
+    "youtubeTitle": "Warriors of Heaven and Earth (2003) | Ganzer Film auf Deutsch",
+    "suchbegriff": "Warriors of Heaven and Earth",
+    "erwartetesJahr": "2003",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "vEOos7IuFdQ",
+    "youtubeTitle": "Nachtangst | Ganzer Spielfilm mit Bibiana Beglau, Ken Duken & Walter Kreye",
+    "suchbegriff": "Nachtangst",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "Y9cD1Z6jSmE",
+    "youtubeTitle": "Abgrund - Eine Stadt stürzt ein | Ganzer Spielfilm mit Marco Girnth, Liane Forestieri & Henning Baum",
+    "suchbegriff": "Abgrund - Eine Stadt stürzt ein",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Abgrund\" ohne Jahr/Besetzung -- Rest des Titels (\"stadt sturzt\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 1053544,
+      "title": "Der Abgrund",
+      "release_date": "2023-09-15"
+    }
+  },
+  {
+    "videoId": "23BScXMZqFg",
+    "youtubeTitle": "Heimatfilm! | Ganzer Spielfilm mit Hannes Jaenicke, Fritzi Haberlandt & Lars Gärtner",
+    "suchbegriff": "Heimatfilm!",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "r2DcByHJBYg",
+    "youtubeTitle": "Tsunami - Terror in der Nordsee | Ganzer Spielfilm über eine tödliche Tsunami-Katastrophe auf Sylt",
+    "suchbegriff": "Tsunami - Terror in der Nordsee",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Tsunami\" ohne Jahr/Besetzung -- Rest des Titels (\"terror nordsee\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 3717,
+      "title": "Tsunami",
+      "release_date": "2005-08-28"
+    }
+  },
+  {
+    "videoId": "jCYox8jMJ_M",
+    "youtubeTitle": "Reise ins Ungewisse | Ganzer Film über eine Psychiatrie-Flucht, die völlig außer Kontrolle gerät",
+    "suchbegriff": "Reise ins Ungewisse",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 89) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 43882,
+      "title": "Die Reise ins Ungewisse",
+      "release_date": "1951-06-28"
+    }
+  },
+  {
+    "videoId": "yyVA_ug-fS8",
+    "youtubeTitle": "Bundeswehrsoldaten geraten zwischen die Fronten | Spielfilm \"Snipers Valley\" (Mörderischer Frieden)",
+    "suchbegriff": "Bundeswehrsoldaten geraten zwischen die Fronten",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "QTc2qbQqk4Y",
+    "youtubeTitle": "Das Wunder Von San Francisco (A Christmas Without Snow) | ganzer Film auf wocomoMOVIES",
+    "suchbegriff": "Das Wunder Von San Francisco",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ECT1f_Q9n1I",
+    "youtubeTitle": "Lillian Gish im D.W. Griffith Film \"Gebrochene Blüten\" (Broken Blossoms)",
+    "suchbegriff": "Lillian Gish im D.W. Griffith Film \"Gebrochene Blüten\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "3oPAtWlTbMg",
+    "youtubeTitle": "Gary Cooper und Barbara Stanwyck in \"Hier ist John Doe\" (Meet John Doe)",
+    "suchbegriff": "Gary Cooper und Barbara Stanwyck in \"Hier ist John Doe\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "q5IOJ-xvf3E",
+    "youtubeTitle": "Mel Gibson in \"Tim - Kann das Liebe sein?\" | ganzer Film auf wocomoMOVIES",
+    "suchbegriff": "Mel Gibson in \"Tim - Kann das Liebe sein?\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "3fXISTqTzGU",
+    "youtubeTitle": "The Days of Jesse James - Spielfilm aus 1939 mit Roy Rogers | Western Classics",
+    "suchbegriff": "The Days of Jesse James - Spielfilm aus 1939 mit Roy Rogers",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 31)",
+    "tmdbTopKandidat": {
+      "id": 55220,
+      "title": "Die letzten Tage von Frank & Jesse James",
+      "release_date": "1986-02-17"
+    }
+  },
+  {
+    "videoId": "1wQ7T9JsVQk",
+    "youtubeTitle": "Mary Pickford im DeMille Film \"The little American\"",
+    "suchbegriff": "Mary Pickford im DeMille Film \"The little American\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "pipTfXLxzhc",
+    "youtubeTitle": "Elisabeth Taylor in \"Ein Geschenk des Himmels\" (Father's Little Dividend)",
+    "suchbegriff": "Elisabeth Taylor in \"Ein Geschenk des Himmels\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "wmr2aj-VAfI",
+    "youtubeTitle": "Elizabeth Taylor in \"Unser Leben mit Vater\" (Life with Father)",
+    "suchbegriff": "Elizabeth Taylor in \"Unser Leben mit Vater\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "ogXEFW7cE7w",
+    "youtubeTitle": "Abbott and Costello auf Safari (Verrücktes Afrika)",
+    "suchbegriff": "Abbott and Costello auf Safari",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "7SVQ41eFh6Q",
+    "youtubeTitle": "Orson Welles in \"Die Spur des Fremden\" (The Stranger)",
+    "suchbegriff": "Orson Welles in \"Die Spur des Fremden\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "agGsDrZtv4w",
+    "youtubeTitle": "Humphrey Bogart in \"Call it Murder\" (Midnight) | ganzer Film auf wocomoMovies",
+    "suchbegriff": "Humphrey Bogart in \"Call it Murder\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "G-DWOn-cCjo",
+    "youtubeTitle": "Oliver Hardy and Larry Semon - Der Zauberer von Oz (The Wizard of Oz)",
+    "suchbegriff": "Oliver Hardy and Larry Semon - Der Zauberer von Oz",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "JfMBmPw7bII",
+    "youtubeTitle": "Laurel and Hardy - Dick und Doof erben eine Insel (Atoll K), Spielfilm 1951",
+    "suchbegriff": "Atoll K",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Atoll K\" ohne Jahr/Besetzung -- Rest des Titels (\"laurel hardy\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 70106,
+      "title": "Dick und Doof erben eine Insel",
+      "release_date": "1951-10-17"
+    }
+  },
+  {
+    "videoId": "7AbrUI0TWQw",
+    "youtubeTitle": "Susan Sarandon in \"Das Leben des F. Scott Fitzgerald\" (The Last of the Belles)",
+    "suchbegriff": "Susan Sarandon in \"Das Leben des F. Scott Fitzgerald\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "o7cluJmwiu8",
+    "youtubeTitle": "John Wayne | The Wrecker (The Hurricane Express)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "JDrZxblhnXk",
+    "youtubeTitle": "John Wayne | US Marshall John (The Star Packer)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "mCDC2eqVdyY",
+    "youtubeTitle": "John Wayne | Sie töten für Gold (The Trail Beyond)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "l--q-ST8-LU",
+    "youtubeTitle": "John Wayne | Im Schatten des Adlers (The Shadow of the Eagle)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "6WYFEvYfapw",
+    "youtubeTitle": "John Wayne | Höllenfahrt nach Santa Fé (Stagecoach)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "LDRq-fihyzI",
+    "youtubeTitle": "John Wayne | Die drei Musketiere (The Three Musketeers)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "NDrMD3YsjUE",
+    "youtubeTitle": "John Wayne | Sein Freund, der Desperado (Sagebrush Trail)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 67) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 23590,
+      "title": "Sein Freund, der Desperado",
+      "release_date": "1933-12-15"
+    }
+  },
+  {
+    "videoId": "fB03VOepln0",
+    "youtubeTitle": "John Wayne | Im Tal des Regenbogens (Rainbow Valley)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "hI7xK3098bI",
+    "youtubeTitle": "John Wayne | Das Gold von Texas (The Lucky Texan)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "Mj8RP1opSic",
+    "youtubeTitle": "John Wayne | Der Rodeo-Raub (The Desert Trail)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "Yfpz6i90lDY",
+    "youtubeTitle": "John Wayne | Der Einsame Reiter (Randy Rides Alone)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "AgzxEzdkw7w",
+    "youtubeTitle": "John Wayne | Reiter der Gerechtigkeit (Riders of Destiny)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "2FAYNSarBPI",
+    "youtubeTitle": "John Wayne | Flussabwärts (West of the Divide)",
+    "suchbegriff": "John Wayne",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 63) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 653831,
+      "title": "John Wayne - Amerika um jeden Preis",
+      "release_date": "2019-10-14"
+    }
+  },
+  {
+    "videoId": "j3GxsNc-q_I",
+    "youtubeTitle": "Don  Q - Der Sohn des Zorro (Der Mann mit der Peitsche)",
+    "suchbegriff": "Don Q - Der Sohn des Zorro",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Don Q\" ohne Jahr/Besetzung -- Rest des Titels (\"sohn des zorro\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 1201197,
+      "title": "Don Q - Der Pate von Little Italy",
+      "release_date": "2024-11-01"
+    }
+  },
+  {
+    "videoId": "BBhCm2bbCpE",
+    "youtubeTitle": "Plötzlich (Der Attentäter - Spielfilm mit Frank Sinatra als Auftragskiller)",
+    "suchbegriff": "Plötzlich",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 74) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 491418,
+      "title": "Plötzlich Familie",
+      "release_date": "2018-11-13"
+    }
+  },
+  {
+    "videoId": "g0nCCFxvq8U",
+    "youtubeTitle": "Laurel and Hardy - In der Fremdenlegion (auch bekannt als \"Fliegende Teufelsbrüder\"), Spielfilm 1936",
+    "suchbegriff": "Laurel and Hardy - In der Fremdenlegion",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 60) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 48739,
+      "title": "Laurel & Hardy - Ein Dankeschön an die Jungs",
+      "release_date": "1992-04-05"
+    }
+  },
+  {
+    "videoId": "pav8Srw0gms",
+    "youtubeTitle": "El Lobo - Zorro Rides Again (Ganzer Spielfilm mit John Carroll)",
+    "suchbegriff": "El Lobo - Zorro Rides Again",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"El Lobo\" ohne Jahr/Besetzung -- Rest des Titels (\"zorro rides again\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 36610,
+      "title": "El Lobo - Der Wolf",
+      "release_date": "2004-11-05"
+    }
+  },
+  {
+    "videoId": "1A6Mh7c8vuo",
+    "youtubeTitle": "Gregory Peck und Ava Gardner in \"Schnee am Kilimandscharo\" (The Snows of Kilimanjaro)",
+    "suchbegriff": "Gregory Peck und Ava Gardner in \"Schnee am Kilimandscharo\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "C0B-xmT_qYg",
+    "youtubeTitle": "John Travolta in \"The Boy in the Plastic Bubble\" | ganzer Film auf wocomoMOVIES",
+    "suchbegriff": "John Travolta in \"The Boy in the Plastic Bubble\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "NEyEwQTgae8",
+    "youtubeTitle": "Marilyn Monroe in \"Home Town Story\"",
+    "suchbegriff": "Marilyn Monroe in \"Home Town Story\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "expfj-emBj0",
+    "youtubeTitle": "Johnny Cash in \"Der Analphabet\" (The Pride of Jesse Hallam) | ganzer Film auf wocomoMOVIES",
+    "suchbegriff": "Johnny Cash in \"Der Analphabet\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "rBIWoxlasME",
+    "youtubeTitle": "Michelle Pfeiffer in \"Eine Liebe in Hollywood\"  (Tales From the Hollywood Hills)",
+    "suchbegriff": "Michelle Pfeiffer in \"Eine Liebe in Hollywood\"",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "oWHq3FGwl4E",
+    "youtubeTitle": "Rasputin - Rasputins Tod (1966) [Drama] [Historienfilm] Ein Mythos endet | Ganzer Film auf Deutsch",
+    "suchbegriff": "Rasputin - Rasputins Tod",
     "erwartetesJahr": "1966",
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
+    "grund": "Ein-Wort-Suchbegriff \"Rasputin\" ohne Jahr/Besetzung -- Rest des Titels (\"rasputins tod\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 46827,
+      "title": "Rasputin",
+      "release_date": "1996-03-23"
+    }
   },
   {
-    "videoId": "2OZtK1CqHaQ",
-    "youtubeTitle": "🌪️Die Nacht des Cyclone (1991) [Thriller] mit Kris Kristofferson 🌪️ ganzer Film (deutsch)",
-    "suchbegriff": "Die Nacht des Cyclone",
-    "erwartetesJahr": "1991",
-    "grund": "Kein ausreichend plausibler Treffer (bester Wert 45)",
-    "tmdbTopKandidat": {
-      "id": 279701,
-      "title": "Cyclone - Sturm der Gefühle",
-      "release_date": "1991-01-28"
-    }
+    "videoId": "h3P0MNnCwI4",
+    "youtubeTitle": "Kamouraska (1973) [Drama] [Liebestragödie] Verbotene Liebe & Verlangen ⚖️ | Ganzer Film auf Deutsch",
+    "suchbegriff": "Kamouraska",
+    "erwartetesJahr": "1973",
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
   }
 ]

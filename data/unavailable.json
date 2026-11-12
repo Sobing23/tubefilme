@@ -2760,16 +2760,6 @@
     "totSeit": "2026-10-27"
   },
   {
-    "videoId": "or2tJfp4PVw",
-    "title": "Für eine Handvoll Küsse",
-    "channelName": "Free Films Emotion",
-    "tmdbId": 258751,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-13"
-  },
-  {
     "videoId": "QFOuvXXgLvY",
     "title": "Bei Anruf Liebe",
     "channelName": "Free Films Emotion",
@@ -5874,6 +5864,46 @@
     "title": "Amigos",
     "channelName": "Movie360",
     "tmdbId": 131229,
+    "grund": "gesperrt_de",
+    "detail": "in Deutschland gesperrt",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "h30eKWK1Lzs",
+    "title": "Zwei Haun Auf Den Putz",
+    "channelName": "Movie360",
+    "tmdbId": null,
+    "grund": "gesperrt_de",
+    "detail": "in Deutschland gesperrt",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "5pss1MuhZzY",
+    "title": "Erstes Verlangen",
+    "channelName": "Movie360",
+    "tmdbId": null,
+    "grund": "nicht_oeffentlich",
+    "detail": "unlisted",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "zeaNT2G5sCM",
+    "title": "Goliath - Der Kampf der Makkabaeer",
+    "channelName": "Movie360",
+    "tmdbId": null,
+    "grund": "gesperrt_de",
+    "detail": "nur in anderen Ländern freigegeben",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "CdcrLKxlkFA",
+    "title": "Der unbesiegbare Reiter",
+    "channelName": "Movie360",
+    "tmdbId": null,
     "grund": "gesperrt_de",
     "detail": "in Deutschland gesperrt",
     "geprueftAm": "2026-11-12",
