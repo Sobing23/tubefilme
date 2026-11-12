@@ -3742,5 +3742,15 @@
     "title": "JOHN WAYNE - AMERICAN LEGEND",
     "tmdbId": 284400,
     "channelName": "Bronco"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "HstsGUQG5y8",
+    "youtubeTitle": "Charmante LIEBESKOMÖDIE: LIFE HAPPENS - DAS LEBEN EBEN! | Filme Deutsch komplett",
+    "title": "Life Happens",
+    "tmdbId": 144656,
+    "channelName": "Movies Select"
   }
 ]

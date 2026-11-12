@@ -8304,5 +8304,15 @@
     "videoId": "uEg-M8KXgSI",
     "youtubeTitle": "رمضان في العالم الإسلامي | الحلقة 02: ممارسات شمال إفريقيا",
     "channelName": "Stream Hier"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 9 min, Video 100 min) -- wird neu gesucht",
+    "videoId": "tHYGI0oSzJc",
+    "youtubeTitle": "HAVE WE EVER MET | Kennen wir uns? | Eine Liebe jenseits der Zeit | 4K",
+    "title": "Kennen wir uns?",
+    "tmdbId": 648087,
+    "channelName": "Kino Deutsch"
   }
 ]
