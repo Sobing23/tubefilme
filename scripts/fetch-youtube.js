@@ -9,8 +9,8 @@
 // alles Ältere ist garantiert schon bekannt. Ein Kanal ohne Eintrag in
 // state.json (neu hinzugefügt) wird einmalig komplett gescannt.
 //
-// PLAYLISTS (seit 12.11.2026): Ein Eintrag mit "playlistId" liest statt der
-// Uploads des Kanals nur diese Playlist -- für Kanäle, die neben Filmen vor
+// PLAYLISTS (seit 12.11.2026): Ein Eintrag mit "playlistIds" (Liste; alt:
+// "playlistId") liest statt der Uploads des Kanals nur diese Playlists -- für Kanäle, die neben Filmen vor
 // allem anderes hochladen (DasFliegendeGehirn: TV-Mitschnitte, Filme nur in
 // der Playlist "Filme"). Eine selbst angelegte Playlist ist NICHT
 // neueste-zuerst sortiert, neue Videos können überall stehen. Deshalb wird
@@ -127,23 +127,40 @@ function buildVideoObjects(rawItems, durations, channel) {
   });
 }
 
+// Playlists eines Eintrags: "playlistIds": ["PL…", …] oder (alt) "playlistId".
+function playlistsVon(channel) {
+  if (Array.isArray(channel.playlistIds) && channel.playlistIds.length) return channel.playlistIds;
+  return channel.playlistId ? [channel.playlistId] : null;
+}
+
 async function processChannel(channel, state) {
-  const istPlaylist = Boolean(channel.playlistId);
-  console.log(`\n-> ${channel.name} (${channel.channelId}${istPlaylist ? `, Playlist ${channel.playlistId}` : ""})`);
+  const playlists = playlistsVon(channel);
+  const istPlaylist = Boolean(playlists);
+  console.log(`\n-> ${channel.name} (${channel.channelId || "channelId wird aus der Playlist gelesen"}${istPlaylist ? `, ${playlists.length} Playlist(s)` : ""})`);
 
-  const playlistId = istPlaylist ? channel.playlistId : uploadsPlaylistId(channel.channelId);
-  const knownLastVideoId = istPlaylist ? null : state[channel.channelId]?.lastVideoId || null;
-  const isFirstScan = !knownLastVideoId;
-
-  console.log(
-    istPlaylist
-      ? "   Playlist -- wird bei jedem Lauf vollständig gelesen"
-      : isFirstScan
+  let rawItems;
+  if (istPlaylist) {
+    console.log("   Playlist -- wird bei jedem Lauf vollständig gelesen");
+    rawItems = [];
+    for (const pl of playlists) rawItems.push(...(await fetchNewPlaylistItems(pl, null)));
+    // Fehlt die channelId noch (neuer Eintrag), gilt der Besitzer der Playlist.
+    // Ohne channelId in config/channels.json hat der Eintrag kein Profil;
+    // filter-movies.js sortiert seine Videos dann aus ("Kanal nicht in der
+    // Kanalliste"). Die ID steht danach in data/raw/<channelId>.json und
+    // wird von Hand in die Kanalliste übernommen.
+    if (!channel.channelId && rawItems.length) {
+      channel = { ...channel, channelId: rawItems[0].snippet.channelId };
+      console.log(`   channelId aus der Playlist: ${channel.channelId}`);
+    }
+  } else {
+    const knownLastVideoId = state[channel.channelId]?.lastVideoId || null;
+    console.log(
+      !knownLastVideoId
         ? "   Erster Scan dieses Kanals -- vollständiger Durchlauf"
         : `   Inkrementeller Scan (Stopp bei ${knownLastVideoId})`
-  );
-
-  const rawItems = await fetchNewPlaylistItems(playlistId, knownLastVideoId);
+    );
+    rawItems = await fetchNewPlaylistItems(uploadsPlaylistId(channel.channelId), knownLastVideoId);
+  }
 
   if (rawItems.length === 0) {
     console.log("   Keine neuen Videos seit dem letzten Scan.");
@@ -188,7 +205,7 @@ async function processChannel(channel, state) {
 async function main() {
   const config = JSON.parse(await fs.readFile(CONFIG_PATH, "utf-8"));
   const channels = config.channels.filter(
-    (c) => c.channelId && !c.channelId.startsWith("UCxxxx")
+    (c) => (c.channelId && !c.channelId.startsWith("UCxxxx")) || (!c.channelId && playlistsVon(c))
   );
 
   if (channels.length === 0) {
