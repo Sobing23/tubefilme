@@ -156103,7 +156103,10 @@
     "writer": [],
     "fsk": null,
     "slug": "die-soldaten-umringten-sie-doch-was-danach-kam-hatte-niemand",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "9eyxEh2OuzE",
@@ -157255,12 +157258,12 @@
     "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
-    "videoId": "85cvcHETKCQ",
-    "youtubeTitle": "Kult-Komödie: 2 Tage Paris – Eifersucht, Ex-Freunde und jede Menge Chaos!",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/85cvcHETKCQ/hqdefault.jpg",
+    "videoId": "dmta9sdYUzg",
+    "youtubeTitle": "2 Tage Paris (2007) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dmta9sdYUzg/hqdefault.jpg",
     "duration": "PT1H35M25S",
     "publishedAt": "2026-07-10T16:00:35Z",
-    "channelName": "Amelia",
+    "channelName": "daredo TV",
     "channelId": "UCAsU4g5ehWUOH40mTbbhE5g",
     "tmdbId": 1845,
     "title": "2 Tage Paris",
@@ -157294,10 +157297,7 @@
     "fsk": "12",
     "slug": "2-tage-paris",
     "runtime": 96,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-10-13"
+    "plausibelVersion": 4
   },
   {
     "videoId": "D8yxXKrBRLY",
@@ -207456,7 +207456,10 @@
     "writer": [],
     "fsk": null,
     "slug": "alte-schuld-seine-tochter-verschwand-die-spur-fuehrte-zur-ma",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "bB9zAcIEgGc",
@@ -207830,7 +207833,10 @@
     "writer": [],
     "fsk": null,
     "slug": "die-letzte-kolonie-hinter-ihnen-die-horde-vor-ihnen-nur-das",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "mkCYIYXTbRc",
@@ -254408,7 +254414,10 @@
       "Giacomo Mazzariol"
     ],
     "fsk": "6",
-    "slug": "mein-bruder-der-superheld"
+    "slug": "mein-bruder-der-superheld",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "-xBmwRbryrI",
@@ -264608,7 +264617,10 @@
     "slug": "der-letzte-coup",
     "runtime": 0,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "i2EiFdY180A",
@@ -332439,7 +332451,10 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "mit-seinem-kleinen-schuetzling-kaempfte-er-gegen-die-mafia-u"
+    "slug": "mit-seinem-kleinen-schuetzling-kaempfte-er-gegen-die-mafia-u",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "NLJg4B1rwes",
@@ -332975,7 +332990,10 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "sie-fanden-den-verbotenen-tempel-von-atlantis-doch-darin-lau"
+    "slug": "sie-fanden-den-verbotenen-tempel-von-atlantis-doch-darin-lau",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "k7SoBNynkEg",
@@ -333063,5 +333081,343 @@
     "fsk": null,
     "titelKorrigiert": true,
     "slug": "somehow"
+  },
+  {
+    "videoId": "38COmmP4PiA",
+    "youtubeTitle": "Sie kehrt in ihre Heimat zurück und findet unerwartet die Liebe | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/38COmmP4PiA/hqdefault.jpg",
+    "duration": "PT1H28M30S",
+    "publishedAt": "2026-11-12T16:00:24Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 793438,
+    "title": "Fishing for Love",
+    "originalTitle": "Fishing for Love",
+    "overview": "",
+    "releaseDate": "2021-09-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wkOvc4USg70UDEmDSlgAd3fD0dT.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/orh42YjLB0VCAtBAU1GGLuAYWKF.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 84 min, Video 89 min · Zuordnungswert 105 (Suchbegriff: \"Fishing for Love\")",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Andrea Brooks",
+      "Spencer Lord",
+      "Garry Chalk",
+      "P. Lynn Johnson",
+      "Kurtis Szarka"
+    ],
+    "director": [
+      "David Bercovici-Artieda"
+    ],
+    "writer": [
+      "Abigail Bahret"
+    ],
+    "fsk": null,
+    "slug": "fishing-for-love"
+  },
+  {
+    "videoId": "bvt_w8cYYng",
+    "youtubeTitle": "Merlin - Die Rückkehr (Science-Fiction Film in voller Länge, Sci-Fi)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bvt_w8cYYng/hqdefault.jpg",
+    "duration": "PT1H27M40S",
+    "publishedAt": "2026-11-12T11:00:09Z",
+    "channelName": "weloadtv",
+    "channelId": "UC5E67gM-Us3gQBhNPiAg0Xg",
+    "tmdbId": 53105,
+    "title": "Merlin: Die Rückkehr",
+    "originalTitle": "Merlin: The Return",
+    "overview": "Seinerzeit hatte Merlin den bösen Mordred in eine andere Dimension verbannt und König Arthur und seine Recken in einen tiefen Schlaf versetzt. Nun gelingt es der Wissenschaftlerin Maxwell, Mordred in die Gegenwart zu holen, wo er natürlich nichts Gutes im Schilde führt. Der immer noch auf der Erde weilende Merlin muss versuchen, ihn zu stoppen, und erhält dabei Hilfe von den aufgeweckten Kids Richie und Kate. Und auch Arthur und Genossen erwachen aus ihrem Schlaf und dürsten nach Action...",
+    "releaseDate": "2000-12-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rcKWPGq85hvlmlFO64SHcEmhvok.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fSUzs3wEwoscf0zkC3IPz9dWF5p.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      10751,
+      14,
+      878,
+      12
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tia Carrere",
+      "Rik Mayall",
+      "Patrick Bergin",
+      "Craig Sheffer",
+      "Adrian Paul"
+    ],
+    "director": [
+      "Paul Matthews"
+    ],
+    "writer": [
+      "Paul Matthews"
+    ],
+    "fsk": null,
+    "slug": "merlin-die-rueckkehr"
+  },
+  {
+    "videoId": "LgIfxhWwO0c",
+    "youtubeTitle": "PATAGONIA | GANZER FILM | 4K | Das Freiheitsversprechen wird zur Abhängigkeit",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/LgIfxhWwO0c/hqdefault.jpg",
+    "duration": "PT1H46M23S",
+    "publishedAt": "2026-11-12T18:00:02Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 1010170,
+    "title": "Patagonia",
+    "originalTitle": "Patagonia",
+    "overview": "Yuri ist 20 und lebt bei seiner Tante in einem kleinen Dort in den Abruzzen. Als er bei einem Kindergeburtstag dem Animateur Agostino begegnet, ist er sofort elektrifiziert: Agostino ist älter, selbstbewusst und auf wilde Weise unabhängig. Yuri heuert als Agostinos Assistent an und fährt im Wohnmobil mit ihm fort. Ihr großes Ziel: Patagonien, Land des Feuers und der grenzenlosen Freiheit. Auf ihrer Reise durch Süditalien entwickelt sich zwischen dem aufopferungsvollen Yuri und dem herrischen Agostino eine Beziehung mit klarer Rollenverteilung, geprägt von Momenten engster Nähe und großen Spannungen. Als Agostino Halt in einem Trailerpark macht, in dem jede Nacht ekstatische Raves gefeiert werden, scheint Patagonien in weite Ferne zu rücken.",
+    "releaseDate": "2023-09-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iRuT0kWOrUufTYEu280mp17SuaP.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iRW2O6smkP6OvA2R4d3KjD5vPOZ.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (7 Filme) -- Laufzeit entschied: TMDB 107 min, Video 106 min · Zuordnungswert 128 (Suchbegriff: \"Patagonia\")",
+    "runtime": 107,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Andrea Fuorto",
+      "Augusto Mario Russi",
+      "Elettra Dallimore-Mallaby",
+      "Alexander Benigni",
+      "Lina Bartolozzi"
+    ],
+    "director": [
+      "Simone Bozzelli"
+    ],
+    "writer": [
+      "Tommaso Favagrossa",
+      "Simone Bozzelli"
+    ],
+    "fsk": "16",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-12",
+    "slug": "patagonia"
+  },
+  {
+    "videoId": "0rU5VmOBG2c",
+    "youtubeTitle": "Und täglich grüßt der Weihnachtsmann (KOMÖDIE ganzer Film Deutsch, Weihnachtefilme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0rU5VmOBG2c/hqdefault.jpg",
+    "duration": "PT1H29M7S",
+    "publishedAt": "2026-11-12T18:00:26Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 61550,
+    "title": "Und täglich grüßt der Weihnachtsmann",
+    "originalTitle": "Christmas Every Day",
+    "overview": "Billy hat ein miserables Weihnachten, er muss im Familiengeschäft mithelfen und kommt deshalb zu spät zu einem wichtigen Basketballspiel. Außerdem wird er vor dem hübschesten Mädchen der Stadt lächerlich gemacht. Dann taucht auch noch ein reicher Onkel auf, der Billys Familie aus dem Geschäft drängen will. Am nächsten Morgen erwacht Billy - es ist wieder der 25. Dezember. Die Chance, alles anders zu machen ...!",
+    "releaseDate": "1996-11-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/y4ZmBEp7qcU2MJSyM0I7Mwoovgy.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zRKH1oLM4kWAkQHoGQH3eNtZcl3.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      10751,
+      14,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 87,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Erik von Detten",
+      "Robert Hays",
+      "Bess Armstrong",
+      "Yvonne Zima",
+      "Robert Curtis Brown"
+    ],
+    "director": [
+      "Larry Peerce"
+    ],
+    "writer": [
+      "Stephen Alix"
+    ],
+    "fsk": null,
+    "slug": "und-taeglich-gruesst-der-weihnachtsmann"
+  },
+  {
+    "videoId": "0Mx0_-hUZVk",
+    "youtubeTitle": "Hideaway - das Versteckspiel | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0Mx0_-hUZVk/hqdefault.jpg",
+    "duration": "PT1H41M38S",
+    "publishedAt": "2026-11-12T11:00:21Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 27303,
+    "title": "Hideaway - Das Versteckspiel",
+    "originalTitle": "Hideaway",
+    "overview": "Hatch Harrison (Jeff Goldblum) gerät mit seinem Wagen ins Schleudern und stürzt in einen reißenden Fluß. Frau und Tochter können sich aus dem Auto befreien. Hatch schafft es leider nicht mehr - er stirbt. Aber einem Arzt gelingt das Unmögliche: er holt ihn wieder ins Leben zurück. Doch dies hat Folgen. Es plagen ihn Horrorvisionen von grausamen Morden aus der Perspektive des Killers. Kurz darauf wird das Opfer gefunden und er merkt, dass seine Wahnvorstellungen schreckliche Wahrheit sind. Der Killer ist wieder da!  Und als nächstes hat er Hatchs Tochter im Visier...",
+    "releaseDate": "1995-03-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mlwJzOh8jOXZm58nvdgp1wkEYnS.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wDjVua7LmH2yR3fhV2d2oNtrb9G.jpg",
+    "voteAverage": 5.172,
+    "genreIds": [
+      18,
+      53,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (4 Filme) -- Laufzeit entschied: TMDB 103 min, Video 102 min · Zuordnungswert 134 (Suchbegriff: \"Hideaway - das Versteckspiel\")",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jeff Goldblum",
+      "Christine Lahti",
+      "Alicia Silverstone",
+      "Jeremy Sisto",
+      "Alfred Molina"
+    ],
+    "director": [
+      "Brett Leonard"
+    ],
+    "writer": [
+      "Andrew Kevin Walker",
+      "Neal Jimenez"
+    ],
+    "fsk": null,
+    "slug": "hideaway-das-versteckspiel"
+  },
+  {
+    "videoId": "JI-sjxD0ZHU",
+    "youtubeTitle": "🤣🍿DIESE KOMÖDIE MACHT IHREN TAG! Gute Laune und Lachtränen garantiert | Verpiss Dich, Schneewittchen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JI-sjxD0ZHU/hqdefault.jpg",
+    "duration": "PT1H23M52S",
+    "publishedAt": "2026-11-12T14:02:15Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 427031,
+    "title": "Verpiss Dich, Schneewittchen",
+    "originalTitle": "Verpiss Dich, Schneewittchen",
+    "overview": "In seinen Träumen ist Sammy ein Rockstar. Doch in der Realität jobbt und schrubbt er im Hamam seines Bruders Momo. Plötzlich gibt ihm ein Musiklabel die Chance, bei einer Castingshow berühmt zu werden. Unter einer Bedingung: Der Solomusiker muss eine Band gründen. So wird aus Sammy, seiner Schwester Jessi, dem alten Aushilfsmasseur Wolle und dem dicken Mahmut  kurzerhand die Gruppe „Hamam Hardrock“. Das Publikum feiert die originellen Newcomer, doch Labelchefin Thomaschewsky will den Siegeszug der Multikulti-Rocker mit allen Mitteln verhindern.",
+    "releaseDate": "2018-03-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yu8ICQ5Fpkhw658Otuysjdmet69.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/CY1HocRkt4yQJNbASzoJvJbfCE.jpg",
+    "voteAverage": 3.6,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Verpiss Dich, Schneewittchen\")",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bülent Ceylan",
+      "Josefine Preuß",
+      "Özgür Karadeniz",
+      "Franziska Wulf",
+      "Paul Faßnacht"
+    ],
+    "director": [
+      "Cüneyt Kaya"
+    ],
+    "writer": [
+      "Stefan Höh",
+      "Rainer Bender",
+      "Cüneyt Kaya"
+    ],
+    "fsk": "12",
+    "slug": "verpiss-dich-schneewittchen"
+  },
+  {
+    "videoId": "SKWKVjunO20",
+    "youtubeTitle": "Glückskeks - Fortune Cookie (2016) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SKWKVjunO20/hqdefault.jpg",
+    "duration": "PT1H30M12S",
+    "publishedAt": "2026-11-12T17:00:38Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 251183,
+    "title": "Fortune Cookie Prophecies",
+    "originalTitle": "Fortune Cookie Prophecies",
+    "overview": "",
+    "releaseDate": "2011-02-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bQnnxyspN5A8cgwJHYCJadDAm6o.jpg",
+    "backdropUrl": null,
+    "voteAverage": 6,
+    "genreIds": [
+      18,
+      27,
+      9648
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Jahr weicht ab: erwartet 2016, TMDB 2011 · Zuordnungswert 86 (Suchbegriff: \"Fortune Cookie Prophecies\")",
+    "runtime": 113,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Adam Maros"
+    ],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "fortune-cookie-prophecies"
+  },
+  {
+    "videoId": "NX4GmGwVdag",
+    "youtubeTitle": "😨 Diese GESCHICHTE hält dich in Atem! Eine Fremde macht ihr Leben zur Hölle | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/NX4GmGwVdag/hqdefault.jpg",
+    "duration": "PT1H29M33S",
+    "publishedAt": "2026-11-12T15:00:24Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 571768,
+    "title": "The Wrong Patient",
+    "originalTitle": "The Wrong Patient",
+    "overview": "",
+    "releaseDate": "2018-12-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6oF90bFtpAVg8CiI9kI7StL0WjE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tXa27xpeukIxHlg3pFvbm4AkOU9.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Sunny Mabrey",
+      "Lindsay Maxwell",
+      "Peter Benson",
+      "Abby Ross",
+      "Daniel Bacon"
+    ],
+    "director": [
+      "David I. Strasser"
+    ],
+    "writer": [
+      "Aidan Scott"
+    ],
+    "fsk": null,
+    "slug": "the-wrong-patient"
   }
 ]
