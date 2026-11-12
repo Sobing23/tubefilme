@@ -5,7 +5,7 @@ Serverless betriebenes Archiv deutschsprachiger Filme, die auf YouTube legal in 
 - **Repository:** `Sobing23/tubefilme`
 - **Hosting:** Vercel, verbunden mit `main` — jeder Commit löst eine Auslieferung aus
 - **Domain:** `tubefilme.de` (bei Strato, per A-Record und CNAME auf Vercel gezeigt)
-- **Bestand (12.11.2026):** rund 8.350 Filme aus 58 Kanälen, davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
+- **Bestand (13.11.2026):** rund 8.600 Filme aus 70 Quellen (65 Kanäle, 5 Playlist-Anbieter), davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
 
 ---
 
@@ -456,12 +456,15 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 | `pipeIstOriginaltitel` | `true`: Vorn steht der deutsche Titel, hinter `\|` der Originaltitel mit Jahr (Comfy Movies). Verhindert, dass die Vorsatz-Regel den Originaltitel anzeigt; gesucht wird trotzdem mit beiden. |
 | `nurMitDeutschHinweis` | `true`: Nur Videos, deren Titel oder Beschreibung „deutsch", „German version" oder „synchron" enthält. Für gemischtsprachige Kanäle. |
 | `ausschlussMuster` | Regulärer Ausdruck als Text; passende Titel werden aussortiert (z. B. Mehrteiler wie `Teil 3/4`, `1/6`). Gilt nur für diesen Kanal. |
+| `mindestMinuten` | Höhere Mindestlaufzeit als die üblichen 15 Minuten. Für Kanäle, deren kurze Videos Serienfolgen ohne Serienwort im Titel sind (Nanoki: „Meine peinlichen Eltern – Ep26“, 23 Min). |
+| `nurMitDeutscherBeschreibung` | `true`: nur Videos, deren Beschreibung deutsch geschrieben ist (häufige Wörter in den ersten 600 Zeichen, Deutsch vor Englisch und Portugiesisch). Für wocomoMOVIES: derselbe Film steht dort je Sprachfassung als eigenes Video, das Wort „deutsch“ fehlt meist. |
+| `playlistIds` | Kein Profilschalter, sondern ein Feld neben `channelId`: Liste von Playlists, die statt aller Uploads gelesen werden (siehe [Neuen Kanal hinzufügen](#neuen-kanal-hinzufügen)). |
 | `nurMitTmdb` | `true`: Videos ohne TMDB-Treffer werden **nicht** aus den YouTube-Angaben übernommen, sondern bleiben in `unmatched.json`. Für gemischte Kanäle, bei denen sonst Dokus, Reise- und Ratgebervideos in die Bibliothek kämen (weloadtv: „Serengeti von A–Z“, „Motorräder – Technik, Routen, Tipps“). Einzelne geprüfte Spielfilme lassen sich über `titel-korrekturen.json` → `freigeben` trotzdem übernehmen. |
 | `inPruefung` | `true`: Der Scan sammelt die Rohdaten des Kanals (`data/raw/`), aber `filter-movies.js` lässt **kein** Video in die Bibliothek (Grund in `excluded.json`: „Kanal in Prüfung"). Für neue Kanäle, deren Eigenheiten erst an echten Daten geprüft werden. Schalter entfernen → beim nächsten Lauf werden die Videos normal verarbeitet. |
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 58 Kanäle
+### Die 70 Quellen
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
@@ -477,8 +480,10 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | CineCult Reloaded | keine Angabe | |
 | CinemaLegenden | keine Angabe | |
 | CiNENET Deutschland | UCM.ONE GmbH | ✓ |
+| CiNENET Klassiker | UCM.ONE (laut Beschreibung lizenziert) | `pipeAlsTitelvariante: false`, `mindestMinuten: 40`, `ausschlussMuster` (Mehrteiler) |
 | COMEDYPIE | PLAION PICTURES | |
 | Comfy Movies | keine Angabe | `pipeIstOriginaltitel` |
+| CrimeStar | PLAION PICTURES | `ausschlussMuster` (Mehrteiler) |
 | daredo TV | daredo (Filmvertrieb; Kanalbeschreibung ohne Impressum) | `ausschlussMuster` ([Sport], [Dokumentation]) |
 | daredo TV Action & Thriller | daredo (Filmvertrieb) | |
 | DEFA Filmwelt | DEFA-Stiftung | |
@@ -493,7 +498,9 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Filmhof Welt | keine Angabe | |
 | Free Films Action | LEONINE / Mediawan | |
 | Free Films Emotion | LEONINE | |
+| Free Movie Central - Deutsch | Beta Film (laut Beschreibung lizenziert) | 4 Playlists; `ausschlussMuster` (Mehrteiler) |
 | Free Movies Deutschland | keine Angabe | |
+| Glaubensfilme | UCM.ONE / Great Movies | `ausschlussMuster` (Mehrteiler, Doku-Serie) |
 | Grjngo Westernfilme | Grjngo GmbH | |
 | Hakunan | PLAION PICTURES | |
 | Heimatfilme | Beta Film GmbH | |
@@ -504,10 +511,15 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | KinoWelt Deutsch | keine Angabe |  |
 | KinoWucht | keine Angabe | |
 | Lichtprojektor | keine Angabe | |
+| Making Legends | keine Angabe; gleiches Netzwerk wie CineCult Reloaded, Comfy Movies, Absolute Action | |
 | Mockbuster | PLAION PICTURES | |
+| Movie360 | keine Angabe; Schwesterkanal von Alle Filme Auf Deutsch | Playlist „Movie360 auf Deutsch“; `ausschlussMuster` (Mehrteiler, Full Movie, Película, Film Englisch) |
 | Moviedome | PLAION PICTURES | |
 | Movies Select | PLAION PICTURES | |
+| Nanoki | PLAION PICTURES | `mindestMinuten: 40`, `ausschlussMuster` (Schul-, Lehr- und Lernfilme, Kinder- und Trickserien, vorgelesene Bilderbücher, Mehrteiler) |
+| NEORA | keine Angabe | Titel steht in Zeile 2 der Beschreibung (Kopfzeilen-Regel greift von selbst) |
 | Netzkino | PLAION PICTURES | |
+| Pandastorm Pictures | Pandastorm selbst | Playlist „Ganze Filme“; `pipeAlsTitelvariante: false` |
 | Planet Movies | Tiberius Film | |
 | Rashland | keine Angabe | `ausschlussMuster` |
 | Retroflix | keine Angabe |  |
@@ -516,11 +528,14 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Starkino | PLAION PICTURES | |
 | Stash auf Deutsch | keine Angabe |  |
 | Stream Hier | keine Angabe | ✓ |
+| STUDIOCANAL Germany | STUDIOCANAL selbst | Playlist „Ganze Filme kostenlos auf YouTube“; `ausschlussMuster` (Komplette Serie) |
 | TitanumX | PLAION PICTURES | |
+| TV-Klassiker | Lizenz über WDR mediagroup (laut Beschreibung) | 2 Playlists (DEFA Filme, TV-Filme); `mindestMinuten: 40`, `ausschlussMuster` (Mehrteiler) |
 | Unfassbare Filme | keine Angabe | |
 | Utopja | PLAION PICTURES | |
 | Volle Power Filme | keine Angabe | |
 | weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `nurMitTmdb`, `ausschlussMuster` (Hörspiel, Hörbuch, Reiseführer, Making of, Yoga, „aus der Box“, Ratgeber, Tipps, Workout, Best of) |
+| wocomoMOVIES | NIKITA VENTURES | `nurMitDeutscherBeschreibung`, `pipeAlsTitelvariante: false`, `mindestMinuten: 40`, `ausschlussMuster` (Mehrteiler, Kurzfilm-Sammlungen) |
 | Wolkesieben | PLAION PICTURES | |
 | ZOMBIEWORLD | PLAION PICTURES | |
 
@@ -529,9 +544,13 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 **Bewusst nicht aufgenommen:**
 - **XorboD** (@Xorbod, UCU8wCz7vkJVManfP3gXUZ4g), **Filme Gucken TV** (@FilmeGuckenTV, UCZV0tyYJkMUHi77lAOqkgJQ), **DUDU** (@dudu6250, UC3dI0Q_1GFzB88Jm8XS6AdA) — geprüft 12.11.2026: kein einziger Lizenzhinweis; XorboD lädt Studiofilme hoch („Under the Silver Lake“, „Blair Witch“ 2016), Filme Gucken TV „Orca, der Killerwal“ und Bud-Spencer-Filme („ohne Partnerprogramm“), DUDU ist ein Fan-Kanal. Sehr wahrscheinlich keine lizenzierten Uploads
 - **DasFliegendeGehirn** (@DasFliegendeGehirn, UCVvUfrlfDEPoFNVqTKDGJFg, Playlist „Filme“ PL266boC7LzLHYJvU-Rfo-yF-o61oPAIOW) — geprüft 12.11.2026: eigene TV- und VHS-Mitschnitte von Sammlern („ZDF-Ausstrahlung … nicht offiziell erhältliche deutsche Synchro“, „ARD-Weihnachtsprogramm 1983“ mit Ansage, „Restaurierte VHS-Kopie“), kein Lizenzhinweis. Dazu ein ZDF-Vierteiler, ein Trickfilm, eine Episode einer Fernsehreihe und ein OmU-Film unter den 32 Videos
+- **ickeboo** (UCFUsqVbQm_McqZfh4EBgc-g), **Thomas Heusner** (UCw0_FxLtEHKFvoOXipACqZA) — geprüft 13.11.2026: Privatkanäle mit Studiofilmen („Sabrina“ 1995, „Bobby Deerfield“) und Fernsehmitschnitten (im Titel „(TV-Aufnahme)“), kein Lizenzhinweis
+- **Cowboy Filme - Western Movies** (@WesternMoviesDeutsch, UCtnSmfVH1brwwMk8JYmYPvw) — 590 von 819 Videos sind Serienfolgen (Bonanza, Daniel Boone, Big Valley), nur 3 Videos mit Rechtehinweis
+- **Golden Frame KINO** (UCHvggQm37DoBWI4afvIueZg) — deutsche Filme von 1930 bis 1955 ohne Lizenzhinweis
+- **ARTE Film** (Playlist PLE0BXiUk9q6g) — rechtlich sauber, aber alle Filme laufen nach wenigen Monaten ab („verfügbar bis“), und die Beschreibung sagt nicht, ob synchronisiert oder Original mit Untertiteln
 - **Heftige Action** (@HeftigeAction) — zeigt laut Beschreibung nur Action-Szenen aus Filmen, keine ganzen Filme
 - **Daredo TV #Doku** (@daredo-tv-doku) — Dokus
-- **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Nanoki (Lern- und Schulfilme), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
+- **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
 - **Babel Movies** — englischsprachiger „World Cinema"-Kanal, passt nicht zum deutschsprachigen Profil
 - **Braventa Films** — erwies sich nach dem ersten Scan als spanischsprachig (Kanal hatte keine Beschreibung); die 107 Videos stehen in `ignored.json`
 - **Bombay Nights** (PLAION, UCtHTtZzMkLYGeOTq1nWYCGA) — Hindi mit deutschen Untertiteln; die Seite listet nur deutsch synchronisierte Filme
@@ -547,7 +566,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 5. Profil passend setzen und `inPruefung` entfernen — beim nächsten Scan werden die Videos verarbeitet
 6. Danach die Zuordnungsquote je Kanal prüfen und bei Bedarf nachschärfen
 
-**Nur eine Playlist statt aller Uploads:** Lädt ein Kanal neben Filmen vor allem anderes hoch, kann der Eintrag zusätzlich `"playlistId": "PL…"` bekommen. `fetch-youtube.js` liest dann nur diese Playlist, und zwar bei jedem Lauf vollständig, weil eine selbst angelegte Playlist nicht nach Datum sortiert ist. Die Rohdaten werden dabei jedes Mal durch den aktuellen Inhalt der Playlist ersetzt. `channelId` bleibt Pflicht, denn Profile und Rohdatei hängen an ihr. Seit 12.11.2026 möglich, bisher ohne aufgenommene Quelle (DasFliegendeGehirn wurde geprüft und abgelehnt).
+**Nur eine Playlist statt aller Uploads:** Lädt ein Kanal neben Filmen vor allem anderes hoch, kann der Eintrag zusätzlich `"playlistId": "PL…"` bekommen. `fetch-youtube.js` liest dann nur diese Playlist, und zwar bei jedem Lauf vollständig, weil eine selbst angelegte Playlist nicht nach Datum sortiert ist. Die Rohdaten werden dabei jedes Mal durch den aktuellen Inhalt der Playlist ersetzt. `channelId` bleibt Pflicht, denn Profile und Rohdatei hängen an ihr. Seit 13.11.2026 auch mehrere Playlists je Eintrag (`"playlistIds": ["PL…", "PL…"]`). Fehlt die `channelId` beim ersten Lauf, nimmt der Scan den Besitzer der Playlist; die Videos bleiben dann draußen („Kanal nicht in der Kanalliste“), und die ID wird aus dem Namen der neuen Rohdatei in die Kanalliste übernommen. So aufgenommen: STUDIOCANAL Germany, Movie360, Pandastorm Pictures, Free Movie Central - Deutsch, TV-Klassiker.
 
 **Befund der Aufnahme vom Oktober 2026** (sechs Kanäle, an den Rohdaten geprüft):
 - **All Time Classic Movies** — rund die Hälfte englisch (US-TV-Serien, Hollywood-Klassiker, russische Filme mit Untertiteln) → `nurMitDeutschHinweis`, 260 von 539 bleiben; zusätzlich `ausschlussMuster` für Interviews, TV-Shows (Glücksrad), Heimfilm-Sammlungen und Mehrteiler
@@ -556,6 +575,13 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **KinoWelt Deutsch** — Videotitel ohne Filmnamen, der echte Titel steht in Beschreibungszeile 2 → die Kopfzeilen-Regel schaltet sich aus den Daten automatisch ein (80 %)
 - **Stash auf Deutsch** — Kurzfilme und Serien; Serien fängt „Serie"/„Folge", echter Titel steht im mittleren `|`-Segment
 - **Stream Hier** — hinter `|` nur Werbetext → `pipeAlsTitelvariante: false`
+
+**Befund der Aufnahme vom 13.11.2026** (zwölf Quellen, an den Rohdaten geprüft):
+- **Viel Katalog doppelt:** Von rund 1.270 zugelassenen Videos der ersten zehn Quellen waren rund 910 Filme schon über andere Kanäle da (CrimeStar 308 von 329, Nanoki 334 von 377). Sie stehen als Ersatz-Uploads in `duplicates.json`; neu in die Bibliothek kamen rund 250.
+- **Nanoki** — früher als Lernfilm-Kanal abgelehnt; die Daten zeigen rund 380 Familien-, Märchen- und Trickfilme. Kurze Videos sind Serienfolgen → `mindestMinuten: 40`.
+- **wocomoMOVIES** — deutsch, englisch, portugiesisch und ungarisch gemischt; die Sprache steht nur in der Beschreibung → `nurMitDeutscherBeschreibung`. Titel mit vorangestelltem Star („John Wayne | Sie töten für Gold (The Trail Beyond)“, „Orson Welles in "Die Spur des Fremden"“) stehen mit ihrem Filmtitel in `titel-korrekturen.json`, sonst hießen 13 Filme „John Wayne“ und wären zusammengeführt worden.
+- **STUDIOCANAL Germany, Pandastorm Pictures** — Star hinter dem Titel („… mit Michael Douglas“) und Hashtags mitten im Titel („#ganzerfilm“) → neue, nachrangige Suchvariante `ohneHashtagUndStar` in `match-tmdb.js`.
+- **NEORA** — Videotitel sind Werbesätze, der Filmtitel steht in Zeile 2 der Beschreibung, meist englisch und ohne Jahr. Kein Lizenzhinweis; auf Wunsch aufgenommen.
 
 **Tipp:** Bei Kanälen **ohne Kanalbeschreibung** vorher kurz in die Videotitel schauen. Braventa sah von außen unauffällig aus und war komplett spanischsprachig.
 
