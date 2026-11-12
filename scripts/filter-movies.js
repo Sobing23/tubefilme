@@ -59,6 +59,29 @@ export const DOKU_SELBSTBESCHREIBUNG =
 //     name folgt ("Interview mit Marcus Harris", nicht "... mit dem Tod")
 //   - "im Interview"
 // Geprüft an allen 29.500 Videotiteln: kein Spielfilm getroffen.
+// Nicht deutsch synchronisiert: Originalton mit deutschen Untertiteln oder
+// fremdsprachige Fassung. Die Seite listet nur Filme mit deutschem Ton
+// (Entscheidung 12.11.2026, wie zuvor bei Bombay Nights). Im Videotitel zählt
+//   - "Untertitel" in jeder Form, "OmU", "OmdU", "OV", "subtitles",
+//     "Full Movie English", "englische Originalfassung/Fassung"
+//   - "auf/in Englisch|Italienisch|Türkisch" NUR hinter einem Wort wie Film,
+//     Filme, Klassiker, Fassung, Version, Sprache, Länge -- sonst träfe es
+//     deutsche Verleihtitel wie "Hochzeit auf Italienisch", "Trennung auf
+//     Italienisch", "Lockdown auf Italienisch".
+// In der Beschreibung nur der ausdrückliche Satz "(englische) Originalfassung
+// mit deutschen Untertiteln" -- "Originalfassung mit Untertiteln" steht bei
+// Grjngo, Artflix und Bigtime in der Liste ausländischer Verleihtitel
+// ("Uruguay: Mujer pasional (Originalfassung mit Untertiteln)").
+// Geprüft an allen Videotiteln: 40 Filme der Bibliothek getroffen, alle mit
+// fremdem Ton.
+const UNTERTITEL_TITEL =
+  /untertit|\bOmd?U\b|\bOV\b|subtitle|full movie english|englische[rn]? (?:original)?fassung|\b(?:\w*(?:filmen|filme|film|klassiker)|fassung|version|sprache|länge)\b[^|()\[\]]{0,20}?\b(?:auf|in)\s+(?:englisch|italienisch|türkisch)/i;
+const UNTERTITEL_BESCHREIBUNG = /or(?:i)?ginalfassung mit deutschen untertiteln/i;
+
+export function istNichtSynchronisiert(video) {
+  return UNTERTITEL_TITEL.test(video.title || "") || UNTERTITEL_BESCHREIBUNG.test(video.description || "");
+}
+
 export function istInterview(titel) {
   return (titel || "")
     .split(/\s*[|–—:]\s*|\s+-\s+/)
@@ -112,6 +135,9 @@ function classify(video, profil) {
   // oder Musikvideos.
   if (/[\u0600-\u06FF\u0750-\u077F]/.test(video.title)) {
     return { include: false, reason: "nicht deutschsprachig (arabische Schrift im Titel)" };
+  }
+  if (istNichtSynchronisiert(video)) {
+    return { include: false, reason: "nicht deutsch synchronisiert (Untertitel oder Originalton)" };
   }
   if (istInterview(video.title)) {
     return { include: false, reason: "Interview (kein Spielfilm)" };

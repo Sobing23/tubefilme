@@ -5,7 +5,7 @@ Serverless betriebenes Archiv deutschsprachiger Filme, die auf YouTube legal in 
 - **Repository:** `Sobing23/tubefilme`
 - **Hosting:** Vercel, verbunden mit `main` — jeder Commit löst eine Auslieferung aus
 - **Domain:** `tubefilme.de` (bei Strato, per A-Record und CNAME auf Vercel gezeigt)
-- **Bestand (12.11.2026):** rund 8.400 Filme aus 58 Kanälen, davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
+- **Bestand (12.11.2026):** rund 8.350 Filme aus 58 Kanälen, davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
 
 ---
 
@@ -84,7 +84,7 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | # | Schritt | Was passiert | API-Kosten |
 |---|---|---|---|
 | 1 | `fetch-youtube` | Neue Videos je Kanal. Über `data/state.json` inkrementell: bekannte Videos beenden die Suche vorzeitig. Neue Kanäle laufen automatisch einmal vollständig durch. | YouTube |
-| 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie), **Doku-Wörter** (Doku, Dokumentation, Dokumentarfilm, Documentary, Reportage), **Videos mit arabischer Schrift im Titel** (seit 12.11.2026: arabische Serienfolgen von Stream Hier, Musikvideos von Amelia), **Dokus, die sich in der Beschreibung selbst so nennen** („Diese Dokumentation zeigt …“, „In diesem Dokumentarfilm …“, „unserer Tierdokumentationsreihe“ — nicht „eine Dokumentation über …“, das kommt in Spielfilmhandlungen vor) sowie **alle Videos von Kanälen mit `inPruefung`** (siehe [Anbieter und Profile](#anbieter-und-profile)). | — |
+| 2 | `filter-movies` | Aussortiert: kürzer als 15 Minuten, Trailer/Teaser/Clip im Titel, Serienschlüsselwörter (Folge, Staffel, Serie, Miniserie, Episode, Webserie), **Doku-Wörter** (Doku, Dokumentation, Dokumentarfilm, Documentary, Reportage), **Videos mit arabischer Schrift im Titel** (seit 12.11.2026: arabische Serienfolgen von Stream Hier, Musikvideos von Amelia), **nicht deutsch synchronisierte Filme** (seit 12.11.2026, siehe [Nur deutsch synchronisiert](#nur-deutsch-synchronisiert)), **Dokus, die sich in der Beschreibung selbst so nennen** („Diese Dokumentation zeigt …“, „In diesem Dokumentarfilm …“, „unserer Tierdokumentationsreihe“ — nicht „eine Dokumentation über …“, das kommt in Spielfilmhandlungen vor) sowie **alle Videos von Kanälen mit `inPruefung`** (siehe [Anbieter und Profile](#anbieter-und-profile)). | — |
 | 3 | `match-tmdb` | Zuordnung zu TMDB. Details unten. | TMDB |
 | 3k | `match-tmdb --youtube-nachsuche --nur-korrekturen` | Sucht die von Hand betitelten Filme (`titel-korrekturen.json`) mit ihrem Titel und Jahr bei TMDB — die kleine, nächtliche Ausgabe der Nachsuche (siehe [Titel von Hand](#titel-von-hand-titel-korrekturenjson)). | TMDB (wenige Dutzend) |
 | 3r | `fetch-runtime` | Laufzeit (Minuten) aus TMDB für Filme ohne `runtime` — beim ersten Lauf alle (~12 Minuten), danach nur neue. | TMDB |
@@ -313,6 +313,20 @@ Es verschwindet nie ein Film. Das Protokoll des Schritts listet jede Ersetzung e
 **Umgekehrt: Spielfilm, falsch einer Doku zugeordnet.** Nennt der Videotitel eine Spielfilm-Gattung (Western, Horrorfilm, Thriller, Krimi …), ist die Zuordnung falsch, nicht der Film. Dann wird die tmdbId in `rejected-matches.json` gesperrt und der Film beim nächsten Lauf neu gesucht — z. B. „Camp – Tödliche Ferien (Horrorfilm)" → Doku über ein Ferienlager, „Massaker | Cowboyfilm" → gleichnamige Doku. Spielfilme ohne Gattung im Titel (reißerische KinoWelt-Titel, „Time and Tide (2000)") stehen in `keine-doku.json`.
 
 Erster Lauf: 237 Dokus aus der Bibliothek, 72 aus Unmatched, 60 aus den Duplikaten; 27 Spielfilme zur Neusuche freigegeben. Manuell bearbeitete Filme sind ausgenommen.
+
+## Nur deutsch synchronisiert
+
+**Entscheidung vom 12.11.2026: tubefilme.de führt nur Filme mit deutscher Tonspur.** Originalfassungen mit deutschen Untertiteln (OmU) und Filme ganz ohne deutsche Fassung fliegen raus. `istNichtSynchronisiert()` in `filter-movies.js` schlägt an bei
+
+- im **Videotitel**: „Untertitel“, „OmU“/„OmdU“, „OV“, „Subtitles“, „Full Movie English“, „englische (Original)Fassung“ sowie „auf/in Englisch|Italienisch|Türkisch“, aber **nur hinter einem Film-, Fassungs- oder Sprachwort** („Ganzer Film auf Italienisch“, „Westernfilme auf ENGLISCH“, „in italienischer Sprache“);
+- in der **Beschreibung**: „Originalfassung mit deutschen Untertiteln“ (All Time Classic Movies schreibt das nur dort hin, etwa bei „Falsches Geld und echte Kurven“).
+
+Absichtlich **nicht** erkannt, weil es deutsche Verleihtitel oder Sprachlisten sind:
+
+- „Hochzeit auf Italienisch“, „Trennung auf Italienisch“, „Lockdown auf Italienisch“, „Ein italienischer Kultfilm“: Die Sprache steht dort nicht hinter einem Filmwort.
+- „Originalfassung mit Untertiteln“ ohne „deutschen“: So beginnen die internationalen Titellisten in den Beschreibungen von Grjngo, Artflix und Bigtime. Die Filme selbst sind deutsch.
+
+Erster Lauf: 38 Filme aus der Bibliothek, vor allem von Alle Filme Auf Deutsch, Retroflix, Stream Hier und CiNENET. „Till the Clouds Roll By“ (weloadtv) war von Hand zugeordnet; die Zuordnung wurde zurückgenommen und das Video steht in `titel-korrekturen.json` unter `entfernen`.
 
 ---
 
@@ -700,6 +714,7 @@ Alles hier ist mindestens einmal schiefgegangen.
 - **Eine Heuristik, die viele Änderungen macht, ist verdächtig.** Die erste Fassung der Titelbereinigung hätte 646 Titel geändert, darunter Müll; die richtige ändert 110.
 - **Tests mit echten Daten, nicht nur mit Musterdaten.** Mehrere Fehler traten erst mit realen Datensätzen auf.
 - **Fehlende Titelüberschneidung ist kein Fehlerindiz.** Fremdsprachige Originaltitel gehen naturgemäß nicht mit deutschen Verleihtiteln zusammen — das ist korrekt.
+- **„auf Italienisch“ heißt nicht Originalton.** Eine einfache Sprachregel hätte deutsche Verleihtitel wie „Hochzeit auf Italienisch“ gelöscht. Deshalb zählt die Sprache erst hinter einem Filmwort, und jede Änderung an `istNichtSynchronisiert()` wird vorher an allen Rohdaten geprüft (12.11.2026: 167 Treffer, davon 38 in der Bibliothek).
 - **Nur fünf Hauptdarsteller sind gespeichert.** Deshalb nie verwerfen, wenn Titel und Jahr exakt stimmen.
 
 ### Zur FSK
