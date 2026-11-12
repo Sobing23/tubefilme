@@ -29,5 +29,1687 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/film/das-blut-der-templer",
+      "destination": "/film/das-blut-der-templer-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/locust",
+      "destination": "/film/locust-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/dragon-jewel",
+      "destination": "/film/dragon-jewel-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-abrechnung-eine-tochter-kehrt-heim-2",
+      "destination": "/film/die-abrechnung-eine-tochter-kehrt-heim",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-blut-der-templer-2",
+      "destination": "/film/das-blut-der-templer-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/giallo-2",
+      "destination": "/film/giallo",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-mafiaboss-schien-unbesiegbar-bis-seine-rechte-hand-ihn-v",
+      "destination": "/film/der-mafiaboss-schien-unbesiegbar-bis-seine-rechte-hand-ihn-v-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/ihre-rache-schockierte-die-polizei-2",
+      "destination": "/film/ihre-rache-schockierte-die-polizei",
+      "permanent": true
+    },
+    {
+      "source": "/film/ein-geheimnis-verwandelte-eine-normale-familie-in-verdaechti-2",
+      "destination": "/film/ein-geheimnis-verwandelte-eine-normale-familie-in-verdaechti",
+      "permanent": true
+    },
+    {
+      "source": "/film/tyson-1995",
+      "destination": "/film/tyson",
+      "permanent": true
+    },
+    {
+      "source": "/film/anuk-iii-die-dunkle-flut",
+      "destination": "/film/anuk-iii-die-dunkle-flut-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/kommissar-klefisch-tod-am-meer",
+      "destination": "/film/kommissar-klefisch-tod-am-meer-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/world-war-ii-inferno",
+      "destination": "/film/world-war-ii-inferno-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-soldiers-ein-tag-im-irak-2",
+      "destination": "/film/american-soldiers-ein-tag-im-irak",
+      "permanent": true
+    },
+    {
+      "source": "/film/fremde-verwandte-teil-2",
+      "destination": "/film/fremde-verwandte-teil-2-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-blut-der-templer-teil-2-2",
+      "destination": "/film/das-blut-der-templer-teil-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-blut-der-templer-teil-1-2",
+      "destination": "/film/das-blut-der-templer-teil-1",
+      "permanent": true
+    },
+    {
+      "source": "/film/in-der-tiefe-wartet-der-tod-2",
+      "destination": "/film/in-der-tiefe-wartet-der-tod",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-kinder-von-monsieur-mathieu-2",
+      "destination": "/film/die-kinder-von-monsieur-mathieu",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-cowgirl-und-die-wildpferde",
+      "destination": "/film/das-cowgirl-und-die-wildpferde-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/dick-und-doof-als-stierkaempfer-1945",
+      "destination": "/film/dick-und-doof-als-stierkaempfer",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-narbengesicht-2",
+      "destination": "/film/das-narbengesicht",
+      "permanent": true
+    },
+    {
+      "source": "/film/laurel-hardy-chroniken-teil-1-2",
+      "destination": "/film/laurel-hardy-chroniken-teil-1",
+      "permanent": true
+    },
+    {
+      "source": "/film/flammender-sommer-teil-2-2",
+      "destination": "/film/flammender-sommer-teil-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/flammender-sommer-teil-1-2",
+      "destination": "/film/flammender-sommer-teil-1",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-rache-des-ritters-ivanhoe-2",
+      "destination": "/film/die-rache-des-ritters-ivanhoe",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-rache-des-ritters-ivanhoe-3",
+      "destination": "/film/die-rache-des-ritters-ivanhoe",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-night-after-tomorrow-2",
+      "destination": "/film/the-night-after-tomorrow",
+      "permanent": true
+    },
+    {
+      "source": "/film/us-sniper-3",
+      "destination": "/film/us-sniper",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-soldiers-ein-tag-im-irak-3",
+      "destination": "/film/american-soldiers-ein-tag-im-irak",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-2",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/us-sniper-4",
+      "destination": "/film/us-sniper",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-3",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-1-konvoi-in-den-tod",
+      "destination": "/film/russland-1941-teil-1-konvoi-in-den-tod-5",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-4",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/anonyma-eine-frau-in-berlin-2",
+      "destination": "/film/anonyma-eine-frau-in-berlin",
+      "permanent": true
+    },
+    {
+      "source": "/film/brotherhood-of-blades-2",
+      "destination": "/film/brotherhood-of-blades",
+      "permanent": true
+    },
+    {
+      "source": "/film/love-romance-chocolate-2",
+      "destination": "/film/love-romance-chocolate",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-beast-2",
+      "destination": "/film/the-beast",
+      "permanent": true
+    },
+    {
+      "source": "/film/unstoppable-2",
+      "destination": "/film/unstoppable",
+      "permanent": true
+    },
+    {
+      "source": "/film/lady-musketier-alle-fuer-eine-teil-2-2",
+      "destination": "/film/lady-musketier-alle-fuer-eine-teil-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/lady-musketier-alle-fuer-eine-teil-1",
+      "destination": "/film/lady-musketier-alle-fuer-eine-teil-1-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/edgar-wallace-der-hexer-2",
+      "destination": "/film/edgar-wallace-der-hexer",
+      "permanent": true
+    },
+    {
+      "source": "/film/edgar-wallace-der-hexer-3",
+      "destination": "/film/edgar-wallace-der-hexer",
+      "permanent": true
+    },
+    {
+      "source": "/film/kommissar-klefisch-tod-am-meer-3",
+      "destination": "/film/kommissar-klefisch-tod-am-meer-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/nanny-s-killer-scandal",
+      "destination": "/film/nanny-s-killer-scandal-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/ex-next-door-2",
+      "destination": "/film/ex-next-door",
+      "permanent": true
+    },
+    {
+      "source": "/film/dating-to-kill-2",
+      "destination": "/film/dating-to-kill",
+      "permanent": true
+    },
+    {
+      "source": "/film/deadly-patient-2",
+      "destination": "/film/deadly-patient",
+      "permanent": true
+    },
+    {
+      "source": "/film/a-deadly-abduction-2",
+      "destination": "/film/a-deadly-abduction",
+      "permanent": true
+    },
+    {
+      "source": "/film/locust-2",
+      "destination": "/film/locust-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-7",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/helden-der-hoelle-3",
+      "destination": "/film/helden-der-hoelle",
+      "permanent": true
+    },
+    {
+      "source": "/film/clown-of-fear-2",
+      "destination": "/film/clown-of-fear",
+      "permanent": true
+    },
+    {
+      "source": "/film/crossfighter-zwei-knallharte-profis",
+      "destination": "/film/crossfighter-zwei-knallharte-profis-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/rueckkehr-zur-zeitmaschine",
+      "destination": "/film/rueckkehr-zur-zeitmaschine-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-soldiers-ein-tag-im-irak-4",
+      "destination": "/film/american-soldiers-ein-tag-im-irak",
+      "permanent": true
+    },
+    {
+      "source": "/film/todeskommando-vietnam",
+      "destination": "/film/todeskommando-vietnam-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-prasenz",
+      "destination": "/film/die-prasenz-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/terroristen-kennen-keine-gnade-2",
+      "destination": "/film/terroristen-kennen-keine-gnade-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-menschenfleischesser-2",
+      "destination": "/film/der-menschenfleischesser-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/train-apocalypse-keiner-kann-ihn-stoppen-2",
+      "destination": "/film/train-apocalypse-keiner-kann-ihn-stoppen",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-mann-aus-stahl-2",
+      "destination": "/film/der-mann-aus-stahl-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-drei-musketiere-der-neuzeit-3",
+      "destination": "/film/die-drei-musketiere-der-neuzeit-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/bad-boys-from-ghetto-city-2",
+      "destination": "/film/bad-boys-from-ghetto-city-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/prince-of-persia-die-legende-von-omar-2",
+      "destination": "/film/prince-of-persia-die-legende-von-omar",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-5",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/bloody-girl",
+      "destination": "/film/bloody-girl-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/my-amazing-new-life",
+      "destination": "/film/my-amazing-new-life-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/haunting-in-london",
+      "destination": "/film/haunting-in-london-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/m-s-brittanica-terroristen-auf-dem-kreuzfahrtschiff",
+      "destination": "/film/m-s-brittanica-terroristen-auf-dem-kreuzfahrtschiff-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-prometheus-trap-die-letzte-schlacht",
+      "destination": "/film/the-prometheus-trap-die-letzte-schlacht-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/serienkiller-massaker",
+      "destination": "/film/serienkiller-massaker-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/soldier-terminators-2",
+      "destination": "/film/soldier-terminators",
+      "permanent": true
+    },
+    {
+      "source": "/film/terroristen-kennen-keine-gnade-3",
+      "destination": "/film/terroristen-kennen-keine-gnade-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/wheels-to-hell",
+      "destination": "/film/wheels-to-hell-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/invasion-alien-attack",
+      "destination": "/film/invasion-alien-attack-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-menschenfleischesser",
+      "destination": "/film/der-menschenfleischesser-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/train-apocalypse-keiner-kann-ihn-stoppen-3",
+      "destination": "/film/train-apocalypse-keiner-kann-ihn-stoppen",
+      "permanent": true
+    },
+    {
+      "source": "/film/kosovo-inferno-2",
+      "destination": "/film/kosovo-inferno",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-gruene-hornisse",
+      "destination": "/film/die-gruene-hornisse-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/mein-treuer-schaeferhund-2",
+      "destination": "/film/mein-treuer-schaeferhund",
+      "permanent": true
+    },
+    {
+      "source": "/film/deadly-execution-cop-2",
+      "destination": "/film/deadly-execution-cop",
+      "permanent": true
+    },
+    {
+      "source": "/film/unsichtbar-und-extrem-toedlich",
+      "destination": "/film/unsichtbar-und-extrem-todlich",
+      "permanent": true
+    },
+    {
+      "source": "/film/african-poltergeist",
+      "destination": "/film/african-poltergeist-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/helden-der-hoelle-2",
+      "destination": "/film/helden-der-hoelle",
+      "permanent": true
+    },
+    {
+      "source": "/film/back-flash-blues",
+      "destination": "/film/back-flash-blues-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/master-of-heroes-2",
+      "destination": "/film/master-of-heroes",
+      "permanent": true
+    },
+    {
+      "source": "/film/haunting-of-heron-house-2",
+      "destination": "/film/haunting-of-heron-house",
+      "permanent": true
+    },
+    {
+      "source": "/film/faeuste-colts-und-totengraeber",
+      "destination": "/film/faeuste-colts-und-totengraeber-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-drei-musketiere-der-neuzeit-2",
+      "destination": "/film/die-drei-musketiere-der-neuzeit-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-die-sonne-verglueht-supernova-2",
+      "destination": "/film/wenn-die-sonne-verglueht-supernova",
+      "permanent": true
+    },
+    {
+      "source": "/film/klamottenkiste-larry-semon",
+      "destination": "/film/klamottenkiste-larry-semon-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/water-war",
+      "destination": "/film/water-war-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/schulmaedchen-horror",
+      "destination": "/film/schulmaedchen-horror-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/kickbox-hero-1-2",
+      "destination": "/film/kickbox-hero-1",
+      "permanent": true
+    },
+    {
+      "source": "/film/criminal-and-punishment",
+      "destination": "/film/criminal-and-punishment-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/attack-of-the-mega-snakes",
+      "destination": "/film/attack-of-the-mega-snakes-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/jackie-chans-rache",
+      "destination": "/film/jackie-chans-rache-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/fantasy-ballet",
+      "destination": "/film/fantasy-ballet-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/sex-gefluester",
+      "destination": "/film/sex-gefluester-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/als-bilder-anfingen-zu-laufen",
+      "destination": "/film/als-bilder-anfingen-zu-laufen-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/laurel-and-hardy-slapstick-collection-vol-1",
+      "destination": "/film/laurel-and-hardy-slapstick-collection-vol-1-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-6",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/drachenflug-ins-zauberland",
+      "destination": "/film/drachenflug-ins-zauberland-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-ranch-der-pferde-2",
+      "destination": "/film/die-ranch-der-pferde",
+      "permanent": true
+    },
+    {
+      "source": "/film/fuzzy-der-held-des-westens-2",
+      "destination": "/film/fuzzy-der-held-des-westens",
+      "permanent": true
+    },
+    {
+      "source": "/film/struwwelpeter",
+      "destination": "/film/struwwelpeter-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-kuss-des-frosch-koenigs",
+      "destination": "/film/der-kuss-des-frosch-koenigs-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/max-koenig-des-dschungel",
+      "destination": "/film/max-koenig-des-dschungel-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/shirley-temple-kleine-prinzessin-2",
+      "destination": "/film/shirley-temple-kleine-prinzessin",
+      "permanent": true
+    },
+    {
+      "source": "/film/doggie-boogie-disco-fieber-auf-vier-pfoten-2",
+      "destination": "/film/doggie-boogie-disco-fieber-auf-vier-pfoten",
+      "permanent": true
+    },
+    {
+      "source": "/film/ben-turpin-s-slapstick-hits-2",
+      "destination": "/film/ben-turpin-s-slapstick-hits",
+      "permanent": true
+    },
+    {
+      "source": "/film/john-travolta-the-boy",
+      "destination": "/film/john-travolta-the-boy-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/roy-rogers-the-days-of-jesse-james",
+      "destination": "/film/roy-rogers-the-days-of-jesse-james-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/fantasy-ballet-2",
+      "destination": "/film/fantasy-ballet-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/main-st-2",
+      "destination": "/film/main-st",
+      "permanent": true
+    },
+    {
+      "source": "/film/shah-rukh-khan-maya-memsaab-2",
+      "destination": "/film/shah-rukh-khan-maya-memsaab",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-mann-mit-der-eisernen-maske-3",
+      "destination": "/film/der-mann-mit-der-eisernen-maske-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-kleine-esel-2",
+      "destination": "/film/der-kleine-esel",
+      "permanent": true
+    },
+    {
+      "source": "/film/staudamm-inferno-nur-der-tod-ist-kaelter-2",
+      "destination": "/film/staudamm-inferno-nur-der-tod-ist-kaelter",
+      "permanent": true
+    },
+    {
+      "source": "/film/sex-gefluester-2",
+      "destination": "/film/sex-gefluester-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-wunder-von-san-francisco-2",
+      "destination": "/film/das-wunder-von-san-francisco",
+      "permanent": true
+    },
+    {
+      "source": "/film/mommy-s-cheating-scandal-2",
+      "destination": "/film/mommy-s-cheating-scandal",
+      "permanent": true
+    },
+    {
+      "source": "/film/locust-3",
+      "destination": "/film/locust-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/liebeswahn-2",
+      "destination": "/film/liebeswahn",
+      "permanent": true
+    },
+    {
+      "source": "/film/a-deadly-lullaby-2",
+      "destination": "/film/a-deadly-lullaby",
+      "permanent": true
+    },
+    {
+      "source": "/film/ex-next-door-3",
+      "destination": "/film/ex-next-door",
+      "permanent": true
+    },
+    {
+      "source": "/film/tarzan-3d-2",
+      "destination": "/film/tarzan-3d",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-women-von-grossen-und-kleinen-affaeren-2",
+      "destination": "/film/the-women-von-grossen-und-kleinen-affaeren",
+      "permanent": true
+    },
+    {
+      "source": "/film/30-and-single-2",
+      "destination": "/film/30-and-single",
+      "permanent": true
+    },
+    {
+      "source": "/film/fremde-verwandte-teil-2-3",
+      "destination": "/film/fremde-verwandte-teil-2-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/lady-musketier-alle-fuer-eine-teil-2-3",
+      "destination": "/film/lady-musketier-alle-fuer-eine-teil-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/kommissar-klefisch-tod-am-meer-4",
+      "destination": "/film/kommissar-klefisch-tod-am-meer-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-koenigin-von-spanien-2",
+      "destination": "/film/die-koenigin-von-spanien",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-sportpenner-2",
+      "destination": "/film/der-sportpenner",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-eislaeuferin-2",
+      "destination": "/film/die-eislaeuferin",
+      "permanent": true
+    },
+    {
+      "source": "/film/goetter-in-weiss-2",
+      "destination": "/film/goetter-in-weiss",
+      "permanent": true
+    },
+    {
+      "source": "/film/4-tage-bis-zur-ewigkeit-2",
+      "destination": "/film/4-tage-bis-zur-ewigkeit",
+      "permanent": true
+    },
+    {
+      "source": "/film/dog-kidnapping-bis-zum-letzten-biss",
+      "destination": "/film/dog-kidnapping-bis-zum-letzten-biss-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-silberfaust-der-shaolin",
+      "destination": "/film/die-silberfaust-der-shaolin-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/camp-wedding-2",
+      "destination": "/film/camp-wedding",
+      "permanent": true
+    },
+    {
+      "source": "/film/appassionata-erstes-verlangen-2",
+      "destination": "/film/appassionata-erstes-verlangen",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-parfum-der-dame-in-schwarz",
+      "destination": "/film/das-parfuem-der-dame-in-schwarz",
+      "permanent": true
+    },
+    {
+      "source": "/film/eastside-auf-welcher-seite-stehst-du",
+      "destination": "/film/eastside-auf-welcher-seite-stehst-du-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-legend-of-sleeping-beauty-dornroeschen-2",
+      "destination": "/film/the-legend-of-sleeping-beauty-dornroeschen",
+      "permanent": true
+    },
+    {
+      "source": "/film/tiger-team-2",
+      "destination": "/film/tiger-team",
+      "permanent": true
+    },
+    {
+      "source": "/film/dating-to-kill-3",
+      "destination": "/film/dating-to-kill",
+      "permanent": true
+    },
+    {
+      "source": "/film/a-deadly-surrogacy-2",
+      "destination": "/film/a-deadly-surrogacy",
+      "permanent": true
+    },
+    {
+      "source": "/film/devil-s-lake",
+      "destination": "/film/devil-s-lake-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/demonic-plastic-surgeon-md",
+      "destination": "/film/demonic-plastic-surgeon-md-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/game-ends-the-2",
+      "destination": "/film/game-ends-the",
+      "permanent": true
+    },
+    {
+      "source": "/film/morningstar-2",
+      "destination": "/film/morningstar",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-soldiers-ein-tag-im-irak-5",
+      "destination": "/film/american-soldiers-ein-tag-im-irak",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-1-konvoi-in-den-tod-2",
+      "destination": "/film/russland-1941-teil-1-konvoi-in-den-tod-5",
+      "permanent": true
+    },
+    {
+      "source": "/film/us-sniper-5",
+      "destination": "/film/us-sniper",
+      "permanent": true
+    },
+    {
+      "source": "/film/battle-of-new-york-2",
+      "destination": "/film/battle-of-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen-2",
+      "destination": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen-3",
+      "destination": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-1-konvoi-in-den-tod-3",
+      "destination": "/film/russland-1941-teil-1-konvoi-in-den-tod-5",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-soldiers-ein-tag-im-irak-6",
+      "destination": "/film/american-soldiers-ein-tag-im-irak",
+      "permanent": true
+    },
+    {
+      "source": "/film/indio-2-the-revolt-2",
+      "destination": "/film/indio-2-the-revolt",
+      "permanent": true
+    },
+    {
+      "source": "/film/lady-in-black-1991",
+      "destination": "/film/lady-in-black",
+      "permanent": true
+    },
+    {
+      "source": "/film/ben-und-charlie-1972",
+      "destination": "/film/ben-und-charlie",
+      "permanent": true
+    },
+    {
+      "source": "/film/blutiges-blei-2",
+      "destination": "/film/blutiges-blei",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-satan-ohne-gesicht-1969",
+      "destination": "/film/der-satan-ohne-gesicht",
+      "permanent": true
+    },
+    {
+      "source": "/film/ein-sarg-voller-dollars-2",
+      "destination": "/film/ein-sarg-voller-dollars",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-rache-des-ringo-2",
+      "destination": "/film/die-rache-des-ringo",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-legende-von-black-charley",
+      "destination": "/film/die-legende-von-black-charley-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/fuer-1000-dollar-am-tag-2",
+      "destination": "/film/fuer-1000-dollar-am-tag",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-fluss-und-der-tod",
+      "destination": "/film/der-fluss-und-der-tod-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/blut-und-ehre-2",
+      "destination": "/film/blut-und-ehre",
+      "permanent": true
+    },
+    {
+      "source": "/film/stadt-der-gesetzlosen-2",
+      "destination": "/film/stadt-der-gesetzlosen",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-fluss-und-der-tod-2",
+      "destination": "/film/der-fluss-und-der-tod-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/hondo-und-die-apachen-2",
+      "destination": "/film/hondo-und-die-apachen",
+      "permanent": true
+    },
+    {
+      "source": "/film/oh-jalisco-gib-nicht-auf-2",
+      "destination": "/film/oh-jalisco-gib-nicht-auf",
+      "permanent": true
+    },
+    {
+      "source": "/film/blut-und-ehre-3",
+      "destination": "/film/blut-und-ehre",
+      "permanent": true
+    },
+    {
+      "source": "/film/abenteuer-im-grand-canyon-2",
+      "destination": "/film/abenteuer-im-grand-canyon",
+      "permanent": true
+    },
+    {
+      "source": "/film/yancy-derringer-2",
+      "destination": "/film/yancy-derringer",
+      "permanent": true
+    },
+    {
+      "source": "/film/grosser-adler-haeuptling-der-cheyenne-2",
+      "destination": "/film/grosser-adler-haeuptling-der-cheyenne",
+      "permanent": true
+    },
+    {
+      "source": "/film/lederstrumpf-und-chingachgook-2",
+      "destination": "/film/lederstrumpf-und-chingachgook",
+      "permanent": true
+    },
+    {
+      "source": "/film/fuer-1000-dollar-am-tag-3",
+      "destination": "/film/fuer-1000-dollar-am-tag",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-legende-vom-einsamen-ranger-3",
+      "destination": "/film/die-legende-vom-einsamen-ranger",
+      "permanent": true
+    },
+    {
+      "source": "/film/drei-halunken-erster-klasse-2",
+      "destination": "/film/drei-halunken-erster-klasse",
+      "permanent": true
+    },
+    {
+      "source": "/film/10-000-blutige-dollar-2",
+      "destination": "/film/10-000-blutige-dollar",
+      "permanent": true
+    },
+    {
+      "source": "/film/zwei-himmelhunde-im-wilden-westen-2",
+      "destination": "/film/zwei-himmelhunde-im-wilden-westen",
+      "permanent": true
+    },
+    {
+      "source": "/film/john-wayne-highnoon-in-helltown",
+      "destination": "/film/john-wayne-highnoon-in-helltown-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/haunting-in-london-2",
+      "destination": "/film/haunting-in-london-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/dragon-jewel-3",
+      "destination": "/film/dragon-jewel-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/hotel-new-hampshire-2",
+      "destination": "/film/hotel-new-hampshire",
+      "permanent": true
+    },
+    {
+      "source": "/film/i-want-to-kill",
+      "destination": "/film/i-want-to-kill-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-junge-katharina-2",
+      "destination": "/film/die-junge-katharina",
+      "permanent": true
+    },
+    {
+      "source": "/film/charles-dickens-ein-weihnachtslied-in-prosa-2",
+      "destination": "/film/charles-dickens-ein-weihnachtslied-in-prosa",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-unschuldigen-mit-den-schmutzigen-haenden-3",
+      "destination": "/film/die-unschuldigen-mit-den-schmutzigen-haenden",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-unschuldigen-mit-den-schmutzigen-haenden-2",
+      "destination": "/film/die-unschuldigen-mit-den-schmutzigen-haenden",
+      "permanent": true
+    },
+    {
+      "source": "/film/charles-dickens-ein-weihnachtslied-in-prosa-3",
+      "destination": "/film/charles-dickens-ein-weihnachtslied-in-prosa",
+      "permanent": true
+    },
+    {
+      "source": "/film/edgar-wallace-der-hexer-4",
+      "destination": "/film/edgar-wallace-der-hexer",
+      "permanent": true
+    },
+    {
+      "source": "/film/ferdinand-bruckner-faehrten",
+      "destination": "/film/ferdinand-bruckner-faehrten-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-bruecke-des-schicksals-2",
+      "destination": "/film/die-bruecke-des-schicksals",
+      "permanent": true
+    },
+    {
+      "source": "/film/u-47-priens-angriff-auf-scapa-flow-2",
+      "destination": "/film/u-47-priens-angriff-auf-scapa-flow",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen-4",
+      "destination": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-1-konvoi-in-den-tod-4",
+      "destination": "/film/russland-1941-teil-1-konvoi-in-den-tod-5",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-soldiers-ein-tag-im-irak-7",
+      "destination": "/film/american-soldiers-ein-tag-im-irak",
+      "permanent": true
+    },
+    {
+      "source": "/film/world-war-ii-inferno-3",
+      "destination": "/film/world-war-ii-inferno-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/world-war-ii-inferno-4",
+      "destination": "/film/world-war-ii-inferno-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/world-war-ii-inferno-5",
+      "destination": "/film/world-war-ii-inferno-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen-5",
+      "destination": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen",
+      "permanent": true
+    },
+    {
+      "source": "/film/world-war-ii-inferno-6",
+      "destination": "/film/world-war-ii-inferno-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen-6",
+      "destination": "/film/russland-1941-teil-2-der-kampf-mit-den-deutschen",
+      "permanent": true
+    },
+    {
+      "source": "/film/helden-der-hoelle-4",
+      "destination": "/film/helden-der-hoelle",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-soldiers-ein-tag-im-irak-8",
+      "destination": "/film/american-soldiers-ein-tag-im-irak",
+      "permanent": true
+    },
+    {
+      "source": "/film/billy-the-kid-showdown-in-lincoln-county-2",
+      "destination": "/film/billy-the-kid-showdown-in-lincoln-county",
+      "permanent": true
+    },
+    {
+      "source": "/film/viktor",
+      "destination": "/film/viktor-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/duell-am-wind-river",
+      "destination": "/film/duell-am-wind-river-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-dritte-weltkrieg-russische-invasion-auf-die-usa",
+      "destination": "/film/der-dritte-weltkrieg-russische-invasion-auf-die-usa-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/hercules-die-grosse-schlacht-um-hellas",
+      "destination": "/film/hercules-die-grosse-schlacht-um-hellas-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/remember-me-2",
+      "destination": "/film/remember-me",
+      "permanent": true
+    },
+    {
+      "source": "/film/misfire",
+      "destination": "/film/misfire-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/locust-5",
+      "destination": "/film/locust-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/invasion-alien-attack-2",
+      "destination": "/film/invasion-alien-attack-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/obsession-liebe-ist-ein-gefaehrliches-spiel",
+      "destination": "/film/obsession-liebe-ist-ein-gefaehrliches-spiel-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/ein-colt-fuer-100-saerge-2",
+      "destination": "/film/ein-colt-fuer-100-saerge",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-baron-ein-gewagtes-spiel-2",
+      "destination": "/film/der-baron-ein-gewagtes-spiel",
+      "permanent": true
+    },
+    {
+      "source": "/film/frozen-eiskalter-abgrund-2",
+      "destination": "/film/frozen-eiskalter-abgrund",
+      "permanent": true
+    },
+    {
+      "source": "/film/diablo-the-ultimate-race-2",
+      "destination": "/film/diablo-the-ultimate-race",
+      "permanent": true
+    },
+    {
+      "source": "/film/reset",
+      "destination": "/film/reset-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/tempelritter-bruderschaft-des-todes",
+      "destination": "/film/tempelritter-bruderschaft-des-todes-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/freakshow-kap-des-horrors-2",
+      "destination": "/film/freakshow-kap-des-horrors",
+      "permanent": true
+    },
+    {
+      "source": "/film/she-herrscherin-einer-versunkenen-welt-2",
+      "destination": "/film/she-herrscherin-einer-versunkenen-welt",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-order-2",
+      "destination": "/film/the-order",
+      "permanent": true
+    },
+    {
+      "source": "/film/companion-2",
+      "destination": "/film/companion",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-line-2",
+      "destination": "/film/the-line",
+      "permanent": true
+    },
+    {
+      "source": "/film/locust-6",
+      "destination": "/film/locust-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-adventures-of-jurassic-pet-return-to-the-wild-2",
+      "destination": "/film/the-adventures-of-jurassic-pet-return-to-the-wild",
+      "permanent": true
+    },
+    {
+      "source": "/film/giulia",
+      "destination": "/film/giulia-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-weapon-2",
+      "destination": "/film/the-weapon",
+      "permanent": true
+    },
+    {
+      "source": "/film/edgar-wallace-der-hexer-5",
+      "destination": "/film/edgar-wallace-der-hexer",
+      "permanent": true
+    },
+    {
+      "source": "/film/liebeswahn-3",
+      "destination": "/film/liebeswahn",
+      "permanent": true
+    },
+    {
+      "source": "/film/max-und-moritz",
+      "destination": "/film/max-und-moritz-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/afrika-mon-amour-teil-1-2",
+      "destination": "/film/afrika-mon-amour-teil-1",
+      "permanent": true
+    },
+    {
+      "source": "/film/13-2",
+      "destination": "/film/13",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-spring-of-my-life-2",
+      "destination": "/film/the-spring-of-my-life",
+      "permanent": true
+    },
+    {
+      "source": "/film/11-11-11-deine-letzten-tage-haben-begonnen-2",
+      "destination": "/film/11-11-11-deine-letzten-tage-haben-begonnen",
+      "permanent": true
+    },
+    {
+      "source": "/film/schulmaedchen-horror-2",
+      "destination": "/film/schulmaedchen-horror-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-die-sonne-verglueht-supernova-3",
+      "destination": "/film/wenn-die-sonne-verglueht-supernova",
+      "permanent": true
+    },
+    {
+      "source": "/film/invasion-alien-attack-3",
+      "destination": "/film/invasion-alien-attack-4",
+      "permanent": true
+    },
+    {
+      "source": "/film/battle-of-new-york-3",
+      "destination": "/film/battle-of-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-die-sonne-verglueht-supernova-4",
+      "destination": "/film/wenn-die-sonne-verglueht-supernova",
+      "permanent": true
+    },
+    {
+      "source": "/film/battle-of-new-york-4",
+      "destination": "/film/battle-of-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/film/zombie-hatebreed-3",
+      "destination": "/film/zombie-hatebreed",
+      "permanent": true
+    },
+    {
+      "source": "/film/zombie-hatebreed-4",
+      "destination": "/film/zombie-hatebreed",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-melodie-der-liebe-2",
+      "destination": "/film/die-melodie-der-liebe",
+      "permanent": true
+    },
+    {
+      "source": "/film/trouble-2",
+      "destination": "/film/trouble",
+      "permanent": true
+    },
+    {
+      "source": "/film/mask-under-mask-2",
+      "destination": "/film/mask-under-mask",
+      "permanent": true
+    },
+    {
+      "source": "/film/battle-of-new-york-5",
+      "destination": "/film/battle-of-new-york",
+      "permanent": true
+    },
+    {
+      "source": "/film/11-11-11-deine-letzten-tage-haben-begonnen-3",
+      "destination": "/film/11-11-11-deine-letzten-tage-haben-begonnen",
+      "permanent": true
+    },
+    {
+      "source": "/film/wir-sind-das-volk-liebe-kennt-keine-grenzen-2",
+      "destination": "/film/wir-sind-das-volk-liebe-kennt-keine-grenzen",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-junge-katharina-3",
+      "destination": "/film/die-junge-katharina",
+      "permanent": true
+    },
+    {
+      "source": "/film/mask-under-mask-3",
+      "destination": "/film/mask-under-mask",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-8",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-9",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/ein-halleluja-fuer-2-schlitzohren-2",
+      "destination": "/film/ein-halleluja-fuer-2-schlitzohren",
+      "permanent": true
+    },
+    {
+      "source": "/film/helden-der-hoelle-5",
+      "destination": "/film/helden-der-hoelle",
+      "permanent": true
+    },
+    {
+      "source": "/film/11-11-11-deine-letzten-tage-haben-begonnen-4",
+      "destination": "/film/11-11-11-deine-letzten-tage-haben-begonnen",
+      "permanent": true
+    },
+    {
+      "source": "/film/us-sniper-6",
+      "destination": "/film/us-sniper",
+      "permanent": true
+    },
+    {
+      "source": "/film/lady-musketier-alle-fuer-eine-teil-2-4",
+      "destination": "/film/lady-musketier-alle-fuer-eine-teil-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/lady-musketier-alle-fuer-eine-teil-1-3",
+      "destination": "/film/lady-musketier-alle-fuer-eine-teil-1-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/falada-und-die-gaensemagd-2",
+      "destination": "/film/falada-und-die-gaensemagd",
+      "permanent": true
+    },
+    {
+      "source": "/film/falada-und-die-gaensemagd-3",
+      "destination": "/film/falada-und-die-gaensemagd",
+      "permanent": true
+    },
+    {
+      "source": "/film/freiheit-john-newton-s-amazing-grace-2",
+      "destination": "/film/freiheit-john-newton-s-amazing-grace",
+      "permanent": true
+    },
+    {
+      "source": "/film/struwwelpeter-2",
+      "destination": "/film/struwwelpeter-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/bodyguard-3",
+      "destination": "/film/bodyguard",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-falsche-mann-2",
+      "destination": "/film/der-falsche-mann",
+      "permanent": true
+    },
+    {
+      "source": "/film/kommissar-klefisch-tod-am-meer-5",
+      "destination": "/film/kommissar-klefisch-tod-am-meer-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-dritte-weltkrieg-russische-invasion-auf-die-usa-2",
+      "destination": "/film/der-dritte-weltkrieg-russische-invasion-auf-die-usa-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-falsche-mann-3",
+      "destination": "/film/der-falsche-mann",
+      "permanent": true
+    },
+    {
+      "source": "/film/11-11-11-deine-letzten-tage-haben-begonnen-5",
+      "destination": "/film/11-11-11-deine-letzten-tage-haben-begonnen",
+      "permanent": true
+    },
+    {
+      "source": "/film/world-war-ii-inferno-7",
+      "destination": "/film/world-war-ii-inferno-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-marines-die-elite-einheit-2",
+      "destination": "/film/american-marines-die-elite-einheit",
+      "permanent": true
+    },
+    {
+      "source": "/film/soldier-terminators-3",
+      "destination": "/film/soldier-terminators",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-10",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/kommissar-klefisch-tod-am-meer-6",
+      "destination": "/film/kommissar-klefisch-tod-am-meer-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-night-after-tomorrow-3",
+      "destination": "/film/the-night-after-tomorrow",
+      "permanent": true
+    },
+    {
+      "source": "/film/jet-li-once-upon-a-time-in-china-america-2",
+      "destination": "/film/jet-li-once-upon-a-time-in-china-america",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-falsche-mann-4",
+      "destination": "/film/der-falsche-mann",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-cowgirl-und-die-wildpferde-2",
+      "destination": "/film/das-cowgirl-und-die-wildpferde-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-antichrist-omen-des-grauens-2",
+      "destination": "/film/der-antichrist-omen-des-grauens",
+      "permanent": true
+    },
+    {
+      "source": "/film/korperfresser-2-die-rueckkehr",
+      "destination": "/film/koerperfresser-2-die-rueckkehr",
+      "permanent": true
+    },
+    {
+      "source": "/film/konig-einer-vergessenen-welt",
+      "destination": "/film/koenig-einer-vergessenen-welt",
+      "permanent": true
+    },
+    {
+      "source": "/film/demon-beast-in-prison-2",
+      "destination": "/film/demon-beast-in-prison",
+      "permanent": true
+    },
+    {
+      "source": "/film/jagdzeit-2-killerhunter-2",
+      "destination": "/film/jagdzeit-2-killerhunter",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-ruckkehr-des-bloody-bill",
+      "destination": "/film/die-rueckkehr-des-bloody-bill",
+      "permanent": true
+    },
+    {
+      "source": "/film/havoc-playing-with-death-2",
+      "destination": "/film/havoc-playing-with-death",
+      "permanent": true
+    },
+    {
+      "source": "/film/dr-jekyll-und-mrs-hyde-2-2",
+      "destination": "/film/dr-jekyll-und-mrs-hyde-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/l-a-gangster-2",
+      "destination": "/film/l-a-gangster",
+      "permanent": true
+    },
+    {
+      "source": "/film/edgar-allan-poe-s-animus-das-verraeterische-herz-2",
+      "destination": "/film/edgar-allan-poe-s-animus-das-verraeterische-herz",
+      "permanent": true
+    },
+    {
+      "source": "/film/jesus-christus-der-weg-des-herren-e05-2",
+      "destination": "/film/jesus-christus-der-weg-des-herren-e05",
+      "permanent": true
+    },
+    {
+      "source": "/film/panzerkrieg-2",
+      "destination": "/film/panzerkrieg",
+      "permanent": true
+    },
+    {
+      "source": "/film/american-mafia-2",
+      "destination": "/film/american-mafia",
+      "permanent": true
+    },
+    {
+      "source": "/film/balto-der-schlittenhund-2",
+      "destination": "/film/balto-der-schlittenhund",
+      "permanent": true
+    },
+    {
+      "source": "/film/soldier-terminators-4",
+      "destination": "/film/soldier-terminators",
+      "permanent": true
+    },
+    {
+      "source": "/film/john-wayne-shadow-of-the-eagle-2",
+      "destination": "/film/john-wayne-shadow-of-the-eagle",
+      "permanent": true
+    },
+    {
+      "source": "/film/ich-wollt-ich-waer-wie-frankenstein-2",
+      "destination": "/film/ich-wollt-ich-waer-wie-frankenstein",
+      "permanent": true
+    },
+    {
+      "source": "/film/train-apocalypse-keiner-kann-ihn-stoppen-4",
+      "destination": "/film/train-apocalypse-keiner-kann-ihn-stoppen",
+      "permanent": true
+    },
+    {
+      "source": "/film/kosovo-inferno-3",
+      "destination": "/film/kosovo-inferno",
+      "permanent": true
+    },
+    {
+      "source": "/film/master-of-heroes-3",
+      "destination": "/film/master-of-heroes",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-die-sonne-verglueht-supernova-5",
+      "destination": "/film/wenn-die-sonne-verglueht-supernova",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-embryo-2",
+      "destination": "/film/the-embryo",
+      "permanent": true
+    },
+    {
+      "source": "/film/schulmaedchen-horror-4",
+      "destination": "/film/schulmaedchen-horror-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/vincent-will-das-geld-11",
+      "destination": "/film/vincent-will-das-geld",
+      "permanent": true
+    },
+    {
+      "source": "/film/prince-of-persia-die-legende-von-omar-3",
+      "destination": "/film/prince-of-persia-die-legende-von-omar",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-ranch-der-pferde-3",
+      "destination": "/film/die-ranch-der-pferde",
+      "permanent": true
+    },
+    {
+      "source": "/film/ben-turpin-s-slapstick-hits-3",
+      "destination": "/film/ben-turpin-s-slapstick-hits",
+      "permanent": true
+    },
+    {
+      "source": "/film/john-wayne-das-gesetz-des-staerkeren-2",
+      "destination": "/film/john-wayne-das-gesetz-des-staerkeren",
+      "permanent": true
+    },
+    {
+      "source": "/film/shirley-temple-kleine-prinzessin-3",
+      "destination": "/film/shirley-temple-kleine-prinzessin",
+      "permanent": true
+    },
+    {
+      "source": "/film/lon-chaney-das-phantom-der-oper-2",
+      "destination": "/film/lon-chaney-das-phantom-der-oper",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-three-stooges-2",
+      "destination": "/film/the-three-stooges",
+      "permanent": true
+    },
+    {
+      "source": "/film/sophia-engel-des-todes-2",
+      "destination": "/film/sophia-engel-des-todes",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-wrecker-2",
+      "destination": "/film/the-wrecker",
+      "permanent": true
+    },
+    {
+      "source": "/film/prince-of-persia-die-legende-von-omar-4",
+      "destination": "/film/prince-of-persia-die-legende-von-omar",
+      "permanent": true
+    },
+    {
+      "source": "/film/baby-2",
+      "destination": "/film/baby",
+      "permanent": true
+    },
+    {
+      "source": "/film/robin-hood-3",
+      "destination": "/film/robin-hood",
+      "permanent": true
+    },
+    {
+      "source": "/film/deadline-2",
+      "destination": "/film/deadline",
+      "permanent": true
+    },
+    {
+      "source": "/film/edgar-wallace-der-hexer-6",
+      "destination": "/film/edgar-wallace-der-hexer",
+      "permanent": true
+    },
+    {
+      "source": "/film/the-circle-willkommen-in-der-hoelle-2",
+      "destination": "/film/the-circle-willkommen-in-der-hoelle",
+      "permanent": true
+    },
+    {
+      "source": "/film/dolph-lundgren-2",
+      "destination": "/film/dolph-lundgren",
+      "permanent": true
+    },
+    {
+      "source": "/film/afrika-mon-amour-teil-2-2",
+      "destination": "/film/afrika-mon-amour-teil-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge-2",
+      "destination": "/film/25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge",
+      "permanent": true
+    },
+    {
+      "source": "/film/gumshoe-2",
+      "destination": "/film/gumshoe",
+      "permanent": true
+    },
+    {
+      "source": "/film/freitag-der-13-das-letzte-kapitel-2",
+      "destination": "/film/freitag-der-13-das-letzte-kapitel",
+      "permanent": true
+    },
+    {
+      "source": "/film/afrika-mon-amour-teil-3-2",
+      "destination": "/film/afrika-mon-amour-teil-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/remember-me-3",
+      "destination": "/film/remember-me",
+      "permanent": true
+    },
+    {
+      "source": "/film/dating-to-kill-4",
+      "destination": "/film/dating-to-kill",
+      "permanent": true
+    },
+    {
+      "source": "/film/elle-2",
+      "destination": "/film/elle",
+      "permanent": true
+    },
+    {
+      "source": "/film/otherlife-2",
+      "destination": "/film/otherlife",
+      "permanent": true
+    },
+    {
+      "source": "/film/frost-2",
+      "destination": "/film/frost",
+      "permanent": true
+    }
   ]
 }
