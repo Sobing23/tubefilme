@@ -5233,7 +5233,8 @@
     "slug": "die-olsenbande-steigt-aufs-dach",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ZmSFhNx-l8g",
@@ -5321,7 +5322,8 @@
     "slug": "die-olsenbande-sieht-rot",
     "plausibel": "titel",
     "runtime": 100,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "xahS1agdB9o",
@@ -5409,7 +5411,8 @@
     "runtime": 102,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dx83jPRraJc",
@@ -6103,7 +6106,8 @@
     "runtime": 143,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "dQchDQwniZM",
@@ -6281,7 +6285,8 @@
     "runtime": 109,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "QsgecPXwBLQ",
@@ -6410,7 +6415,8 @@
     "runtime": 84,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-16"
   },
   {
     "videoId": "qBcy77L4XLM",
@@ -6498,7 +6504,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "M4HgFWcAPqY",
@@ -6855,7 +6862,8 @@
     "runtime": 105,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "YCkAgDmU_Xo",
@@ -6900,7 +6908,8 @@
     "runtime": 91,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "emYC-T_QKdQ",
@@ -6947,7 +6956,8 @@
     "runtime": 112,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "d846_ax5-Ig",
@@ -7037,7 +7047,8 @@
     "runtime": 112,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "ObzH8beZcdo",
@@ -7172,7 +7183,8 @@
     "runtime": 99,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-06"
   },
   {
     "videoId": "TuR9GlFNv2U",
@@ -7560,7 +7572,8 @@
     "slug": "beyond-valkyrie-morgendaemmerung-des-vierten-reiches",
     "plausibel": "titel",
     "runtime": 100,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "pinurABkyrM",
@@ -7906,7 +7919,8 @@
     "runtime": 116,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "uZgDFkw1MHQ",
@@ -8039,7 +8053,8 @@
     "slug": "guernica",
     "plausibel": "titel",
     "runtime": 110,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "yZcM6Q5tvjk",
@@ -8126,7 +8141,8 @@
     "slug": "hard-corps",
     "plausibel": "titel",
     "runtime": 110,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "4D5kQL0729k",
@@ -8256,7 +8272,8 @@
     "runtime": 120,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MJAsNOWjIyc",
@@ -8301,7 +8318,8 @@
     "slug": "testament-of-youth",
     "plausibel": "titel",
     "runtime": 129,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aousrVjNaEo",
@@ -8644,7 +8662,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "ebX-QdczAtM",
@@ -8773,7 +8792,8 @@
     "slug": "one-last-dance",
     "plausibel": "titel",
     "runtime": 100,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aPgWmyIW4JI",
@@ -9119,7 +9139,8 @@
     "slug": "ich-weiss-wer-mich-getoetet-hat",
     "plausibel": "titel",
     "runtime": 106,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Fm229Xcte1A",
@@ -9379,7 +9400,8 @@
     "slug": "the-hit-list",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "7EGUIXraFJc",
@@ -9687,7 +9709,8 @@
     "slug": "the-driftless-area",
     "plausibel": "titel",
     "runtime": 95,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "d-HADmO6xq8",
@@ -10076,7 +10099,8 @@
     "runtime": 92,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "dXo-AOe9Wac",
@@ -10124,7 +10148,8 @@
     "runtime": 87,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "vS0wk76Ru5g",
@@ -10214,7 +10239,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "flSNbkG14aA",
@@ -10306,7 +10332,8 @@
     "runtime": 92,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "8kjgZ23hVD0",
@@ -10573,7 +10600,8 @@
     "slug": "defendor",
     "plausibel": "titel",
     "runtime": 101,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Zn2PcMXSUpw",
@@ -10662,7 +10690,8 @@
     "runtime": 155,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ZJZ0H7ULqMI",
@@ -10835,7 +10864,8 @@
     "runtime": 105,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-30"
   },
   {
     "videoId": "vXkUAvpDFQ8",
@@ -10880,7 +10910,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "tnBt1Pmgkf0",
@@ -11013,7 +11044,8 @@
     "runtime": 91,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "QY-6f08USVg",
@@ -11910,7 +11942,8 @@
     "runtime": 83,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "nSMWqetL8kU",
@@ -11995,7 +12028,8 @@
     "slug": "padre",
     "plausibel": "titel",
     "runtime": 98,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "TznOVOGFppc",
@@ -12042,7 +12076,8 @@
     "runtime": 119,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "kHSM3QObwrM",
@@ -12607,7 +12642,8 @@
     "slug": "feed",
     "plausibel": "titel",
     "runtime": 96,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "2OecriC96u8",
@@ -12913,7 +12949,8 @@
     "slug": "the-lost",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "jFABToH1DVQ",
@@ -13181,7 +13218,8 @@
     "runtime": 115,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "vsffIZQOlrI",
@@ -14220,7 +14258,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MSYlBWR2-rg",
@@ -15732,7 +15771,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-17"
   },
   {
     "videoId": "HlJtfsI5e0U",
@@ -17826,7 +17866,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ULohvfhCS6k",
@@ -18430,7 +18471,8 @@
     "runtime": 124,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "W0GAhHYtIg0",
@@ -18477,7 +18519,8 @@
     "slug": "badge-of-honor",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "O9RItGBdbVc",
@@ -18610,7 +18653,8 @@
     "slug": "claim-der-betrug",
     "plausibel": "titel",
     "runtime": 93,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "X7mo_5T5X64",
@@ -20899,7 +20943,8 @@
     "runtime": 112,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "wuUe7DQ4xTc",
@@ -22204,7 +22249,8 @@
     "runtime": 103,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "3zJM54YISCk",
@@ -23742,7 +23788,8 @@
     "slug": "mr-collins-zweiter-fruehling",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "P2LWhfDvDNA",
@@ -24048,7 +24095,8 @@
     "runtime": 100,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "puJFo9SfAWk",
@@ -24613,7 +24661,8 @@
     "runtime": 91,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "3K7PRj2p87U",
@@ -25301,7 +25350,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "zLoGlX89KNM",
@@ -25565,7 +25615,8 @@
     "runtime": 105,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "7WAGchrgAbM",
@@ -26091,7 +26142,8 @@
     "runtime": 96,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "S9evVdvTYO8",
@@ -28853,7 +28905,8 @@
     "runtime": 81,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "HlqpQtU8Ctg",
@@ -28943,7 +28996,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Y637QoY3pIo",
@@ -30188,7 +30242,8 @@
     "runtime": 106,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "IK2Xfg-WwIg",
@@ -30358,7 +30413,8 @@
     "runtime": 112,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "wQ99NrNFdIg",
@@ -30536,7 +30592,8 @@
     "runtime": 96,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "T8fDKTJr4UI",
@@ -30583,7 +30640,8 @@
     "runtime": 192,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "yodKFWDO28s",
@@ -33322,7 +33380,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "P5t5Q5AntVM",
@@ -34017,7 +34076,8 @@
     "slug": "the-shepherd",
     "plausibel": "titel",
     "runtime": 95,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "th8iUvj29HM",
@@ -34881,7 +34941,8 @@
     "slug": "get-lucky",
     "plausibel": "titel",
     "runtime": 86,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "L4oDsk5ng8I",
@@ -34924,7 +34985,8 @@
     "slug": "american-violet",
     "plausibel": "titel",
     "runtime": 103,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dYSeoc86utk",
@@ -35144,7 +35206,8 @@
     "runtime": 84,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "EBSgJU-1dEQ",
@@ -35399,7 +35462,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "T_riDunZ3jM",
@@ -35531,7 +35595,8 @@
     "slug": "silent-house",
     "plausibel": "titel",
     "runtime": 86,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "svm_MfHuaoo",
@@ -35998,7 +36063,8 @@
     "slug": "under-still-waters",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "8vPWqJjwHa8",
@@ -38145,7 +38211,8 @@
     "runtime": 82,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "NZT0YTFwDsM",
@@ -38315,7 +38382,8 @@
     "runtime": 106,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "s41HGX6_Ftg",
@@ -45078,7 +45146,8 @@
     "runtime": 111,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "PKQzisf3P3I",
@@ -45637,7 +45706,8 @@
     "runtime": 99,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dCUQIY8Vb5s",
@@ -47266,7 +47336,8 @@
     "runtime": 107,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "E7A3SohaB40",
@@ -48801,7 +48872,8 @@
     "slug": "ich-bin-william",
     "plausibel": "titel",
     "runtime": 86,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "eWIf-vuyf6g",
@@ -48933,7 +49005,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "RsBiTIo3Z4w",
@@ -48979,7 +49052,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "TxQDGoNpcK8",
@@ -49022,7 +49096,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "fwtltorWC6o",
@@ -49111,7 +49186,8 @@
     "runtime": 100,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "9NSQOo4k34o",
@@ -49156,7 +49232,8 @@
     "runtime": 86,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "YtdqPts9Kn4",
@@ -49240,7 +49317,8 @@
     "runtime": 102,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "fXY_jM0tYtQ",
@@ -49285,7 +49363,8 @@
     "runtime": 88,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "bnY11u0B80w",
@@ -49328,7 +49407,8 @@
     "runtime": 99,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "f0P1q-FHQPs",
@@ -50092,7 +50172,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "Fxr1P2wAYtg",
@@ -54615,7 +54696,8 @@
     "runtime": 116,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "a-b-FRCFkAI",
@@ -56921,7 +57003,8 @@
     "slug": "gamera-frankensteins-monster-aus-dem-eis",
     "plausibel": "titel",
     "runtime": 79,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "vS-YFbv7PW8",
@@ -59543,7 +59626,8 @@
     "runtime": 88,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "cNstg-KDKFo",
@@ -60396,7 +60480,8 @@
     "slug": "gamera-the-brave",
     "plausibel": "titel",
     "runtime": 96,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "bhwnPYWlpTI",
@@ -60441,7 +60526,8 @@
     "slug": "gamera-attack-of-the-legion",
     "plausibel": "titel",
     "runtime": 99,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "KU-9tC6_xHM",
@@ -62145,7 +62231,8 @@
     "slug": "tagebuch-einer-nymphomanin",
     "plausibel": "titel",
     "runtime": 102,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "P5m-tcKOrxg",
@@ -62984,7 +63071,8 @@
     "slug": "gemini-falsches-spiel",
     "runtime": 93,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "mhuy07C4yUs",
@@ -63587,7 +63675,8 @@
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
     "slug": "beyond-justice",
-    "runtime": 86
+    "runtime": 86,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "e-3rfGXP0zw",
@@ -65521,7 +65610,8 @@
     "runtime": 97,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-17"
   },
   {
     "videoId": "yb7S_v7TkRE",
@@ -65833,7 +65923,8 @@
     "slug": "how-i-live-now",
     "plausibel": "titel",
     "runtime": 101,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "WVEmfZbvjE8",
@@ -65923,7 +66014,8 @@
     "runtime": 118,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "BItu7YA6yj4",
@@ -65967,7 +66059,8 @@
     "slug": "ammonite",
     "plausibel": "titel",
     "runtime": 118,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "H0uivTFy0Lc",
@@ -66228,7 +66321,8 @@
     "slug": "wakefield",
     "plausibel": "titel",
     "runtime": 106,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zYgQQNquB48",
@@ -66844,7 +66938,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "2NFOg0w-c8A",
@@ -67925,7 +68020,8 @@
     "runtime": 100,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "E8tOSHZ22cY",
@@ -68186,7 +68282,8 @@
     "runtime": 99,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Qk9zhSfOHtg",
@@ -68231,7 +68328,8 @@
     "runtime": 99,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Eg_ZFNRuu7U",
@@ -69706,7 +69804,8 @@
     "runtime": 103,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "44f1X1Ge7IY",
@@ -70052,7 +70151,8 @@
     "slug": "gamera-gegen-gaos-frankensteins-kampf-der-ungeheuer",
     "plausibel": "titel",
     "runtime": 86,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "lRBHoqKxIfY",
@@ -71357,7 +71457,8 @@
     "slug": "gamera-revenge-of-iris",
     "plausibel": "titel",
     "runtime": 108,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "3LFzp5_GXPo",
@@ -72785,7 +72886,8 @@
     "slug": "gamera-gegen-jiggar-frankensteins-daemon-bedroht-die-welt",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "yI0Qkiv8fVQ",
@@ -72832,7 +72934,8 @@
     "slug": "gamera-gegen-viras-frankensteins-weltraummonster-greift-an",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Hc9YpBZPvgk",
@@ -76676,7 +76779,8 @@
     "slug": "gamera-gegen-zigra-frankensteins-weltraumbestie-schlaegt-zu",
     "plausibel": "titel",
     "runtime": 87,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "p7Zs5S8vjLc",
@@ -76723,7 +76827,8 @@
     "runtime": 129,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ymes1GKFR3E",
@@ -77037,7 +77142,8 @@
     "runtime": 100,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "L7UpuAqRf-Y",
@@ -77084,7 +77190,8 @@
     "runtime": 87,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "PYgFkoubXGk",
@@ -77131,7 +77238,8 @@
     "runtime": 113,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "GGhz_YpZrig",
@@ -77316,7 +77424,8 @@
     "runtime": 121,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-04"
   },
   {
     "videoId": "GjPyOB6ynIs",
@@ -78505,7 +78614,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "8vgInhaiEXs",
@@ -79030,7 +79140,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "RY0tVbTBYPM",
@@ -79119,7 +79230,8 @@
     "runtime": 108,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "4c2u-m5WXw0",
@@ -80074,7 +80186,8 @@
     "slug": "jacob-s-ladder-in-der-gewalt-des-jenseits",
     "plausibel": "titel",
     "runtime": 113,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "fCwH4zu7g8w",
@@ -80813,7 +80926,8 @@
     "runtime": 103,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "mdWbNkFPcPk",
@@ -80859,7 +80973,8 @@
     "runtime": 94,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "SaEAJ0Ar-AM",
@@ -84132,7 +84247,8 @@
     "slug": "brancaleone-auf-kreuzzug-ins-heilige-land",
     "plausibel": "titel",
     "runtime": 120,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "_SowtduQ-wQ",
@@ -84524,7 +84640,8 @@
     "runtime": 80,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "_a48J35LUVU",
@@ -85062,7 +85179,8 @@
     "slug": "paper-moon",
     "plausibel": "titel",
     "runtime": 102,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zW2zFOuH5fU",
@@ -85192,7 +85310,8 @@
     "runtime": 88,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-04"
   },
   {
     "videoId": "ds5ZN-Xp2S0",
@@ -85645,7 +85764,8 @@
     "slug": "der-sieger",
     "plausibel": "titel",
     "runtime": 129,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "eUzM42DoKwE",
@@ -85951,7 +86071,8 @@
     "runtime": 60,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "x_1zS5QmW18",
@@ -88713,7 +88834,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "0iAfcmF8VP0",
@@ -88881,7 +89003,8 @@
     "slug": "cage-fight-blutige-vergeltung",
     "plausibel": "titel",
     "runtime": 96,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "onU4cLPxA88",
@@ -89565,7 +89688,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "8KojTiMehXY",
@@ -89610,7 +89734,8 @@
     "runtime": 86,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aJJ49hB2cCM",
@@ -89782,7 +89907,8 @@
     "runtime": 113,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "_daaifRFmHo",
@@ -90984,7 +91110,8 @@
     "runtime": 81,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "QDojUHB6zHI",
@@ -92544,7 +92671,8 @@
     "slug": "planet-der-toten-seelen",
     "plausibel": "titel",
     "runtime": 66,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "r5FowR5Xsk8",
@@ -94171,7 +94299,8 @@
     "slug": "return-of-the-footsoldier",
     "plausibel": "titel",
     "runtime": 111,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "qGMZWJ6P_xA",
@@ -95285,7 +95414,8 @@
     "slug": "the-ladies-man",
     "plausibel": "titel",
     "runtime": 84,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "3_VbvA2Ahqs",
@@ -95331,7 +95461,8 @@
     "slug": "beautiful-girls",
     "plausibel": "titel",
     "runtime": 112,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "kqaTim9WCBE",
@@ -95377,7 +95508,8 @@
     "runtime": 70,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dZKKRkGR-Ts",
@@ -95692,7 +95824,8 @@
     "slug": "a-night-at-the-roxbury",
     "plausibel": "titel",
     "runtime": 82,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "TUonlDyGWBA",
@@ -95737,7 +95870,8 @@
     "slug": "bis-dass-die-freunde-euch-scheiden",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ZD1Faz3XFgQ",
@@ -95783,7 +95917,8 @@
     "slug": "gottes-vergessene-kinder",
     "plausibel": "titel",
     "runtime": 119,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zsGpN745buQ",
@@ -96133,7 +96268,8 @@
     "runtime": 113,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "qaeaK67JmIA",
@@ -97428,7 +97564,8 @@
     "slug": "phantomschmerz",
     "plausibel": "titel",
     "runtime": 0,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "EXG0-xdsTlA",
@@ -97473,7 +97610,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-02"
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -97518,7 +97656,8 @@
     "slug": "das-letzte-abteil",
     "plausibel": "titel",
     "runtime": 104,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "wlxu6Sp_hfQ",
@@ -100583,7 +100722,8 @@
     "slug": "mouse-of-horrors",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Z3CstSG_24I",
@@ -101240,7 +101380,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "VL6t_gjH-7c",
@@ -101816,7 +101957,8 @@
     "slug": "der-krieger-und-die-hexe",
     "plausibel": "titel",
     "runtime": 81,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "o-hfGA_aW-s",
@@ -107198,7 +107340,8 @@
     "runtime": 128,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "ZpAIWw3aSO0",
@@ -109293,7 +109436,8 @@
     "slug": "das-wunder-von-marseille",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "OFVwdtgMXf4",
@@ -110413,7 +110557,8 @@
     "slug": "restless",
     "plausibel": "titel",
     "runtime": 91,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "FxcLiYOwJsM",
@@ -110459,7 +110604,8 @@
     "slug": "in-secret-geheime-leidenschaft",
     "plausibel": "titel",
     "runtime": 101,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "hgeyw5a0aD8",
@@ -110591,7 +110737,8 @@
     "slug": "the-invisible-woman",
     "plausibel": "titel",
     "runtime": 111,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ImiI902SaFg",
@@ -110810,7 +110957,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "QAH-DzziGI8",
@@ -110985,7 +111133,8 @@
     "runtime": 110,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "GQjv43BGZis",
@@ -111835,7 +111984,8 @@
     "runtime": 100,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "fp5I4pbD1lI",
@@ -112002,7 +112152,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Xew3RTGLCaA",
@@ -112516,7 +112667,8 @@
     "runtime": 94,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "y3aE0ZxF1t0",
@@ -113766,7 +113918,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Zxn7IGnL3dE",
@@ -113940,7 +114093,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "5H2IMSY8eUM",
@@ -114033,7 +114187,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "xNjIRUr-OMg",
@@ -114078,7 +114233,8 @@
     "runtime": 100,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "GkZL4i15P4A",
@@ -114122,7 +114278,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "91IkkWQrWBw",
@@ -116838,7 +116995,8 @@
     "runtime": 91,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "xRzhAD5po3c",
@@ -117144,7 +117302,8 @@
     "runtime": 105,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "mjCwKpJNbRQ",
@@ -117234,7 +117393,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "1v3C_r9KNwg",
@@ -117279,7 +117439,8 @@
     "runtime": 108,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "GUuPGeuRiVQ",
@@ -117588,7 +117749,8 @@
     "runtime": 82,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-30"
   },
   {
     "videoId": "Av6Fa_jvShs",
@@ -117633,7 +117795,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "NmI16Kozw2I",
@@ -119170,7 +119333,8 @@
     "runtime": 106,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "ANfwKD2MxsQ",
@@ -119425,7 +119589,8 @@
     "runtime": 113,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "n6b53zkxZ74",
@@ -119470,7 +119635,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "eMjfqZX4WhY",
@@ -119513,7 +119679,8 @@
     "runtime": 80,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "uaNMk4lQPHY",
@@ -119558,7 +119725,8 @@
     "runtime": 77,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "S2GHAhvnNdU",
@@ -119603,7 +119771,8 @@
     "runtime": 102,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "couiu00P-Sk",
@@ -119647,7 +119816,8 @@
     "runtime": 107,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "k5HTSq5vSDU",
@@ -119690,7 +119860,8 @@
     "runtime": 113,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "YFWahTMi7-0",
@@ -119785,7 +119956,8 @@
     "slug": "alexander",
     "plausibel": "titel",
     "runtime": 176,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "_d4FaNv-xLA",
@@ -120924,7 +121096,8 @@
     "slug": "the-binding",
     "plausibel": "titel",
     "runtime": 88,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dlG0JaR-c-k",
@@ -121098,7 +121271,8 @@
     "runtime": 83,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "5QOP8aTBNnQ",
@@ -121608,7 +121782,8 @@
     "runtime": 73,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "K4ONd9eH4-o",
@@ -122501,7 +122676,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aFv5f3ntcf0",
@@ -127042,7 +127218,8 @@
     "runtime": 83,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "ffue28GThms",
@@ -129252,7 +129429,8 @@
     "runtime": 102,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "UDEKpdb_Jno",
@@ -129511,7 +129689,8 @@
     "slug": "dogtown-boys",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "daF26rCZCn4",
@@ -129555,7 +129734,8 @@
     "runtime": 134,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "44VSfF6wCLo",
@@ -129600,7 +129780,8 @@
     "runtime": 86,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "R7geqeKaYzU",
@@ -129776,7 +129957,8 @@
     "runtime": 96,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "EzGIkVS-qLY",
@@ -130123,7 +130305,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "VZRpudoyGWY",
@@ -130170,7 +130353,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "rC7009U_PzQ",
@@ -130216,7 +130400,8 @@
     "slug": "u-turn-kein-weg-zurueck",
     "plausibel": "titel",
     "runtime": 125,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "kHLpUX8QRSA",
@@ -130262,7 +130447,8 @@
     "runtime": 110,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "XO02gKsKsRE",
@@ -130309,7 +130495,8 @@
     "runtime": 118,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dttOjHysLXQ",
@@ -130746,7 +130933,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "YtbU6an7o6c",
@@ -131132,7 +131320,8 @@
     "runtime": 104,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Qa0qC2hIiJk",
@@ -132025,7 +132214,8 @@
     "runtime": 76,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "bzjDcJXDuK4",
@@ -132204,7 +132394,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-06"
   },
   {
     "videoId": "6UdHqWhAiC8",
@@ -132632,7 +132823,8 @@
     "slug": "allein-gegen-den-staat",
     "plausibel": "titel",
     "runtime": 107,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "JDfGVZ2u9dQ",
@@ -135185,7 +135377,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "lKbp-xYBMoU",
@@ -135232,7 +135425,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "WNApwvaiBoE",
@@ -135278,7 +135472,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "AYx9dhqLsHs",
@@ -135325,7 +135520,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "YnUalLQEUKw",
@@ -135372,7 +135568,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "5YU3KqBP8dA",
@@ -135418,7 +135615,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "tRn1wgebRvM",
@@ -136697,7 +136895,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "StlarzSrWDg",
@@ -136744,7 +136943,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "SrqWAZTng-Y",
@@ -136791,7 +136991,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "x0Flm0S66zM",
@@ -138385,7 +138586,8 @@
     "runtime": 86,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "mDl9dLLVyNQ",
@@ -138606,7 +138808,8 @@
     "runtime": 103,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zCIsaBX8UXA",
@@ -140098,7 +140301,8 @@
     "runtime": 96,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "S3EQhrYPkR4",
@@ -140360,7 +140564,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "B4hcrkSwpco",
@@ -141392,7 +141597,8 @@
     "slug": "virtuosity",
     "plausibel": "besetzung",
     "runtime": 106,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "QGlxXpiRw0E",
@@ -142728,7 +142934,8 @@
     "slug": "das-schloss-meiner-mutter",
     "plausibel": "titel",
     "runtime": 99,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "U5EXBICf5CM",
@@ -142947,7 +143154,8 @@
     "runtime": 109,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Ma1We8C4GRc",
@@ -143368,7 +143576,8 @@
     "slug": "ghosts-of-mars",
     "runtime": 98,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "DOINodA4IlE",
@@ -143444,7 +143653,8 @@
     "slug": "paranormal-investigations-3-toedliche-geister",
     "runtime": 88,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-27"
   },
   {
     "videoId": "sCYh4Qq_PAk",
@@ -143534,7 +143744,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "YgUFTXazZW4",
@@ -143753,7 +143964,8 @@
     "runtime": 106,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "VCvUGZBdRoU",
@@ -144057,7 +144269,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "GuVNCOEA44U",
@@ -145409,7 +145622,8 @@
     "slug": "housebound",
     "plausibel": "titel",
     "runtime": 111,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "QSz2uP6a3nk",
@@ -147415,7 +147629,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "gQSaYwiD8NQ",
@@ -149903,7 +150118,8 @@
     "runtime": 116,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-05"
   },
   {
     "videoId": "cHrhB5jPpc8",
@@ -150951,7 +151167,8 @@
     "slug": "sie-nahmen-ihm-alles-doch-dann-kam-er-zurueck-und-drehte-den",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "LiaJnmJgKjo",
@@ -152062,7 +152279,8 @@
     "fsk": null,
     "slug": "walk-of-fame-evrit-memoeuro",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "2CXp7yPZjfQ",
@@ -154382,7 +154600,8 @@
     "fsk": null,
     "slug": "echo-aus-dem-jenseits",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MIqRQCyRMf8",
@@ -154696,7 +154915,8 @@
     "fsk": null,
     "slug": "die-wunden-des-krieges",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "jxacaVUGeKE",
@@ -154776,7 +154996,8 @@
     "fsk": null,
     "slug": "highschool-treffen",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "DB73_SUdNx0",
@@ -155220,7 +155441,8 @@
     "fsk": null,
     "slug": "verdaechtige-art",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "4KH7jgkfSmk",
@@ -155768,7 +155990,8 @@
     "fsk": null,
     "slug": "film-4",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "epkY8-OLe7E",
@@ -155796,7 +156019,8 @@
     "fsk": null,
     "slug": "deadly-closure",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "WAy6NpYbpxw",
@@ -155867,7 +156091,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "cFjzG7TXvu8",
@@ -155973,7 +156198,8 @@
     "fsk": null,
     "slug": "sie-beschlossen-den-gefaehrlichsten-politiker-des-landes-zu",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Ykqrtu43yWw",
@@ -156002,7 +156228,8 @@
     "slug": "aus-gebrochenen-soldaten-wurden-monster-und-sie-erkannten-di",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-22"
   },
   {
     "videoId": "ByL3R60qum0",
@@ -156077,7 +156304,8 @@
     "runtime": 109,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-26"
   },
   {
     "videoId": "SV6_AGxDqSg",
@@ -156105,7 +156333,8 @@
     "fsk": null,
     "slug": "ihre-rache-schockierte-die-polizei",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-27"
   },
   {
     "videoId": "UfwO2UFcfB4",
@@ -156134,7 +156363,8 @@
     "slug": "drei-maenner-gegen-eine-ganze-bande-und-keiner-gab-nach",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "xMIHZt6B96A",
@@ -156163,7 +156393,8 @@
     "slug": "nach-der-explosion-war-seine-tochter-weg-und-alles-wurde-noc",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Mi71cqovRSc",
@@ -156192,7 +156423,8 @@
     "slug": "25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-25"
   },
   {
     "videoId": "Sdz_AIfCEjk",
@@ -156275,7 +156507,8 @@
     "slug": "sie-nahmen-ihm-alles-doch-er-kam-zurueck-um-es-zu-beenden",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-18"
   },
   {
     "videoId": "8023joYFXfk",
@@ -156304,7 +156537,8 @@
     "slug": "verloren-alles-jetzt-kaempfen-sie-um-die-letzte-chance-ihres",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-17"
   },
   {
     "videoId": "UZZvs03UrCc",
@@ -156351,7 +156585,8 @@
     "runtime": 117,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "Ejq9nB0Oj8M",
@@ -156405,7 +156640,8 @@
     "fsk": null,
     "slug": "toedliches-gas-zielte-direkt-auf-eine-ganze-grossstadt",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "mFtyZiNC-9s",
@@ -156433,7 +156669,8 @@
     "fsk": null,
     "slug": "im-flugzeug-sassen-maenner-die-niemand-stoppen-konnte",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "CZVQYK1ua_g",
@@ -156461,7 +156698,8 @@
     "fsk": null,
     "slug": "letzte-hoffnung-der-menschheit",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "K7Cb8QNie48",
@@ -156489,7 +156727,8 @@
     "fsk": null,
     "slug": "der-staat-jagt-ihn",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "wrEljnOyf3c",
@@ -156517,7 +156756,8 @@
     "fsk": null,
     "slug": "ein-geheimnis-verwandelte-eine-normale-familie-in-verdaechti",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ZKoE9zM-YWo",
@@ -156563,7 +156803,8 @@
     "runtime": 111,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "e-Iy3t6S3WE",
@@ -156591,7 +156832,8 @@
     "fsk": null,
     "slug": "sie-schickten-zwei-maenner-dorthin-wo-niemand-zurueckkehrte",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "E2aZd4NvgO4",
@@ -156620,7 +156862,8 @@
     "slug": "das-flugzeug-landete-nachts-und-keiner-sollte-wissen-was-dri",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MNiXaEPIuP8",
@@ -156648,7 +156891,8 @@
     "fsk": null,
     "slug": "falscher-mann-falsches-spiel",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "oNRndTq_g8Q",
@@ -156693,7 +156937,8 @@
     "runtime": 158,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "gzhWqcPpDCo",
@@ -156721,7 +156966,8 @@
     "fsk": null,
     "slug": "sie-wollten-nur-entkommen",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "SEHKj66WhWs",
@@ -156767,7 +157013,8 @@
     "runtime": 102,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "rkCPb104ofg",
@@ -156810,7 +157057,8 @@
     "runtime": 110,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "X41oNsC_I5s",
@@ -156839,7 +157087,8 @@
     "slug": "niemand-ahnte-wie-schnell-aus-einem-irrtum-ein-albtraum-wird",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "jCGQB_A9Uv8",
@@ -156868,7 +157117,8 @@
     "slug": "alle-hatten-einen-plan-doch-nur-einer-kannte-die-wahrheit",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "LQx4f7zr0mk",
@@ -156913,7 +157163,8 @@
     "runtime": 118,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "tN4uK1WeloY",
@@ -157153,7 +157404,8 @@
     "titelKorrigiert": true,
     "slug": "der-senator",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "85cvcHETKCQ",
@@ -157197,7 +157449,8 @@
     "runtime": 96,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "D8yxXKrBRLY",
@@ -157266,7 +157519,8 @@
     "runtime": 109,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dw84k5AdFGI",
@@ -157295,7 +157549,8 @@
     "slug": "keine-regeln-keine-gnade-der-haerteste-kaefigkampf-der-80er",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "TVVoaKIkWmI",
@@ -157324,7 +157579,8 @@
     "slug": "ein-kleiner-zeuge-korrupte-cops-und-keine-gnade-er-muss-dies",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Kpr4908212k",
@@ -157396,7 +157652,8 @@
     "slug": "er-war-ihr-bester-agent-jetzt-steht-er-auf-ihrer-todesliste",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "LKEfRI5PsXE",
@@ -157424,7 +157681,8 @@
     "fsk": null,
     "slug": "i-spy-action-film",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "KboiHP15Hj0",
@@ -157494,7 +157752,8 @@
     "fsk": null,
     "slug": "knallharter-rachefeldzug-ein-mann-gegen-das-gesamte-organisi",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zGMf-Tp0DFQ",
@@ -157523,7 +157782,8 @@
     "slug": "ein-fremder-kam-in-die-stadt-und-brachte-die-hoelle-mit",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "V39GEdh4qzw",
@@ -157568,7 +157828,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "5hJfih0lu00",
@@ -157596,7 +157857,8 @@
     "fsk": null,
     "slug": "keine-gefangenen-keine-gnade-die-ultimative-rettungsmission",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "vlFZ2ZOwfCE",
@@ -157643,7 +157905,8 @@
     "runtime": 112,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "lAP4InnEgG0",
@@ -157672,7 +157935,8 @@
     "slug": "von-woelfen-aufgezogen-von-menschen-gejagt-das-ultimative-ds",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Z215BxKI7Pc",
@@ -157793,7 +158057,8 @@
     "titelKorrigiert": true,
     "slug": "gotti-2",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Enz0Uc7Jl20",
@@ -157824,7 +158089,8 @@
     "slug": "wie-ein-gescheiterter-kuenstler-eine-ganze-nation-manipulier",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ecHemQPXkaY",
@@ -158454,7 +158720,8 @@
     "fsk": null,
     "slug": "american-marines-die-elite-einheit",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "P6DFsZUO_Ow",
@@ -158642,7 +158909,8 @@
     "fsk": null,
     "slug": "kickbox-hero-1",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "Iv1Uhos1IXU",
@@ -159246,7 +159514,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "die-kinder-von-monsieur-mathieu"
+    "slug": "die-kinder-von-monsieur-mathieu",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "NieuIiFUjuk",
@@ -159278,7 +159547,8 @@
     "fsk": null,
     "slug": "running-hero",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-04"
   },
   {
     "videoId": "6cInowAOcSk",
@@ -159598,7 +159868,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "reds-ein-mann-kaempft-fuer-gerechtigkeit"
+    "slug": "reds-ein-mann-kaempft-fuer-gerechtigkeit",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "7cV3iEAbE9M",
@@ -160684,7 +160955,8 @@
     "fsk": null,
     "slug": "der-verlorene-schatz-der-maya",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "qr25jWVpxS8",
@@ -160884,7 +161156,8 @@
     "fsk": null,
     "slug": "das-wunder-von-miss-mary",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "y8xFRVMSIUY",
@@ -160913,7 +161186,8 @@
     "titelKorrigiert": true,
     "slug": "eine-hochzeit-fuer-bella",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "O5f0rghY9qo",
@@ -161191,7 +161465,8 @@
     "fsk": null,
     "slug": "eine-kriminelle-liebe",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "1CkfpoumsoE",
@@ -161277,7 +161552,8 @@
     "runtime": 92,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "n3eKfb9-0Ww",
@@ -161853,7 +162129,8 @@
     "slug": "der-mann-aus-laramie",
     "plausibel": "titel",
     "runtime": 103,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Ku22KTQsQA8",
@@ -162073,7 +162350,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-05"
   },
   {
     "videoId": "K7EIkhxav_0",
@@ -162118,7 +162396,8 @@
     "runtime": 134,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "pamWV6cjsf4",
@@ -162162,7 +162441,8 @@
     "slug": "der-letzte-zug-von-gun-hill",
     "plausibel": "titel",
     "runtime": 98,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "5DHnlE5QLlk",
@@ -162249,7 +162529,8 @@
     "runtime": 119,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zjWUY_CJ4u4",
@@ -162424,7 +162705,8 @@
     "slug": "the-first-ride-of-wyatt-earp",
     "runtime": 92,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Ama-4crVCo4",
@@ -162915,7 +163197,8 @@
     "slug": "ein-cop-macht-urlaub-in-den-bergen-dann-uebernehmen-terroris",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "6HsMfNJf5_g",
@@ -163190,7 +163473,8 @@
     "fsk": null,
     "slug": "ein-trickbetrueger-erobert-ploetzlich-den-kongress",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "hLSkeCaOrbA",
@@ -163560,7 +163844,8 @@
     "fsk": null,
     "slug": "ein-ex-agent-geraet-in-ein-toedliches-komplott",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MtBaRGTtcdo",
@@ -163684,7 +163969,8 @@
     "fsk": null,
     "slug": "in-einer-zerstoerten-welt-entscheidet-nur-staerke",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "wrzumNdJczg",
@@ -163949,7 +164235,8 @@
     "fsk": null,
     "slug": "12-aufgaben-kein-fehler-erlaubt",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-23"
   },
   {
     "videoId": "6i8h50G7GNM",
@@ -164055,7 +164342,8 @@
     "fsk": null,
     "slug": "ein-agent-im-fadenkreuz-der-eigenen-regierung",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "O-Ljv3I3fVc",
@@ -164152,7 +164440,8 @@
     "fsk": null,
     "slug": "falsch-verurteilt-entkommen-zurueck-fuer-rache",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-23"
   },
   {
     "videoId": "qv85vzFVnfg",
@@ -164338,7 +164627,8 @@
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
     "slug": "sie-nahmen-ihm-seine-familie-jetzt-beginnt-sein-krieg-gegen",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "oBqtGpFbhYU",
@@ -164464,7 +164754,8 @@
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
     "slug": "er-raecht-seinen-lehrer-und-jagt-die-gangster",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aXxdji2m0dU",
@@ -164536,7 +164827,8 @@
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
     "slug": "ein-einsamer-krieger-beschuetzt-die-letzte-oase-in-den-karge",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ncTPMotWtfw",
@@ -164565,7 +164857,8 @@
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
     "slug": "ein-grossartiger-fantasyfilm-ueber-aladdin-und-die-wunderlam",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ae1Z4pNxG1E",
@@ -164868,7 +165161,8 @@
     "fsk": null,
     "slug": "forgotten-abduction",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "9rwZnm8d2eU",
@@ -164896,7 +165190,8 @@
     "fsk": null,
     "slug": "the-secret-life-of-college-escorts",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "eZHAQEk1A6g",
@@ -164924,7 +165219,8 @@
     "fsk": null,
     "slug": "mommy-s-cheating-scandal",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "oroEG4BJRfk",
@@ -167194,7 +167490,8 @@
     "fsk": null,
     "slug": "dog-kidnapping-ein-einfacher-plan-laeuft-schief",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "uhxgsKHj-mM",
@@ -169468,7 +169765,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "clown-of-fear-teil-2"
+    "slug": "clown-of-fear-teil-2",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "n4Q1xGlsKOk",
@@ -169496,7 +169794,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "clown-of-fear-teil-1"
+    "slug": "clown-of-fear-teil-1",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "WBTrO4_Pn8A",
@@ -169888,7 +170187,8 @@
     "fsk": null,
     "slug": "kickbox-hero-2",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "22UpW2RBm_k",
@@ -171295,7 +171595,8 @@
     "fsk": null,
     "slug": "gunhed",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "FwbfeHkiGuo",
@@ -171401,7 +171702,8 @@
     "fsk": null,
     "slug": "hotel-new-hampshire",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "qpHo3s1qnXQ",
@@ -171500,7 +171802,8 @@
     "fsk": null,
     "slug": "veraengstigt-scared",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "8SILH6FPZMo",
@@ -172616,7 +172919,8 @@
     "titelKorrigiert": true,
     "slug": "sophie-sissis-kleine-schwester",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "Uiib1PiReJE",
@@ -173864,7 +174168,8 @@
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
     "slug": "das-groesste-liebesdrama-aller-zeiten-ein-geheimes-verlangen",
-    "titelUnsicher": true
+    "titelUnsicher": true,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "G5AyxuMTi3o",
@@ -174373,7 +174678,8 @@
     "slug": "zwei-legenden-haben-sich-unerwartet-gegen-die-weltregierung",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-06"
   },
   {
     "videoId": "hAP35yFvYP8",
@@ -174559,7 +174865,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "8IcruDng1LA",
@@ -174995,7 +175302,8 @@
     "runtime": 107,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Uyvr-vXIXFg",
@@ -175204,7 +175512,8 @@
     "slug": "ein-magischer-helm-macht-aus-einem-gewoehnlichen-mann-den-le",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "jdnQ_aixacw",
@@ -175252,7 +175561,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "S0gNO7rar4U",
@@ -175723,7 +176033,8 @@
     "runtime": 97,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-02"
   },
   {
     "videoId": "_CBBO1rF5sM",
@@ -176062,7 +176373,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "_qb2RkLW9SI",
@@ -176183,7 +176495,8 @@
     "slug": "sie-hatten-seine-familie-angefasst-da-war-bei-dem-kerl-schlu",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "DZu7beqGJOU",
@@ -176250,7 +176563,8 @@
     "slug": "sie-dachten-er-tanzt-nach-ihrer-pfeife-bis-die-ersten-zaehne",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "G8WNIi2zOQ0",
@@ -176570,7 +176884,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Jr1Wdxjgs-8",
@@ -177165,7 +177480,8 @@
     "runtime": 107,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "_lN_tciQDBI",
@@ -177415,7 +177731,8 @@
     "runtime": 87,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "4rydZCYbi2Y",
@@ -178059,7 +178376,8 @@
     "runtime": 103,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "J8hYBMhVXoM",
@@ -178103,7 +178421,8 @@
     "runtime": 99,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "2xykY2vwDXE",
@@ -178787,7 +179106,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "sWB44JXwYG8",
@@ -178920,7 +179240,8 @@
     "runtime": 91,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zPS2no3ESLM",
@@ -179268,7 +179589,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "eC4tljHR0Sk",
@@ -179482,7 +179804,8 @@
     "runtime": 88,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "qXZRDieewVE",
@@ -179613,7 +179936,8 @@
     "runtime": 96,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "AIsAUPV9g-g",
@@ -179659,7 +179983,8 @@
     "runtime": 97,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "wQ7nGz82uBc",
@@ -179960,7 +180285,8 @@
     "runtime": 93,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "GY8eqQ5BCug",
@@ -180049,7 +180375,8 @@
     "runtime": 85,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "cxXvLrNZM1M",
@@ -180743,7 +181070,8 @@
     "runtime": 84,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "Dfu-zyEFXLc",
@@ -181046,7 +181374,8 @@
     "runtime": 82,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "gj4Oaacf_xY",
@@ -181090,7 +181419,8 @@
     "runtime": 97,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "czU92xhJZMY",
@@ -181353,7 +181683,8 @@
     "runtime": 81,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "7zmmwa6oH4o",
@@ -182158,7 +182489,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "7SD2yYCGE2c",
@@ -184353,7 +184685,8 @@
     "runtime": 0,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "eWD60YTXkGY",
@@ -185332,7 +185665,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "EAt8mGTaVWw",
@@ -185419,7 +185753,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Nceyl-wj9bc",
@@ -185464,7 +185799,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "j8cAOY2g82c",
@@ -185553,7 +185889,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "7R4xMbcIdvA",
@@ -185598,7 +185935,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dXCVTZRQSyA",
@@ -185641,7 +185979,8 @@
     "runtime": 111,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "7At9uaYHyOo",
@@ -185939,7 +186278,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "b5xx4j3rVbo",
@@ -188431,7 +188771,8 @@
     "runtime": 107,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "SRh2pl5f9xE",
@@ -188476,7 +188817,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "JvLlY0yeTxE",
@@ -193026,7 +193368,8 @@
     "runtime": 88,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "oIYeXP2Q_5M",
@@ -193927,7 +194270,8 @@
     "runtime": 94,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "PqJrF5GhT6U",
@@ -193972,7 +194316,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Ry0gCNlvCqQ",
@@ -194396,7 +194741,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "puOsy9A0L2A",
@@ -194564,7 +194910,8 @@
     "runtime": 99,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "CVUG_DtR6dc",
@@ -194610,7 +194957,8 @@
     "runtime": 94,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "Vu7418qZDp4",
@@ -194656,7 +195004,8 @@
     "runtime": 94,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "GlJRIHOOuwE",
@@ -194701,7 +195050,8 @@
     "runtime": 98,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "s8tYrXQg3iI",
@@ -194745,7 +195095,8 @@
     "runtime": 89,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "OB6RJhNFkXw",
@@ -194790,7 +195141,8 @@
     "runtime": 90,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Z-GBAHh3xdU",
@@ -194877,7 +195229,8 @@
     "runtime": 106,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "t99GmszJCNE",
@@ -194921,7 +195274,8 @@
     "runtime": 124,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Md4X7XflpHk",
@@ -195058,7 +195412,8 @@
     "titelKorrigiert": true,
     "slug": "drei-kugeln-fuer-ein-ave-maria",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "4Tz_X5-DFrI",
@@ -195087,7 +195442,8 @@
     "titelKorrigiert": true,
     "slug": "mein-name-ist-shanghai-joe",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "HlvXF_k_jYU",
@@ -195193,7 +195549,8 @@
     "fsk": null,
     "slug": "gnadenlose-jagd-contract-killers",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "GDKg7SiWA9o",
@@ -195343,7 +195700,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "gesperrt_de",
-    "slug": "pecos-der-raecher"
+    "slug": "pecos-der-raecher",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "bH1liTH27fA",
@@ -195413,7 +195771,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "VAFdbufbMQ0",
@@ -195468,12 +195827,12 @@
     "slug": "ehemann-und-beste-freundin-planen-ihren-mord"
   },
   {
-    "videoId": "IHhNvn9Y5qw",
-    "youtubeTitle": "Kann sie die Pferderanch vor dem Ruin bewahren? | A Horse Called Hope (2016)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/IHhNvn9Y5qw/hqdefault.jpg",
+    "videoId": "MKxTZp0GUws",
+    "youtubeTitle": "🌻 Ein Film, der dich ab Minute 1 fesselt! ✨ Berührendes Familiendrama, das wärmt | Ganzer Filme HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MKxTZp0GUws/hqdefault.jpg",
     "duration": "PT1H21M56S",
     "publishedAt": "2025-10-07T18:00:15Z",
-    "channelName": "Kino Deutsch",
+    "channelName": "Kinohof",
     "channelId": "UCBHYbV2w8dE__bS6fNdCbpw",
     "tmdbId": null,
     "title": "A Horse Called Hope",
@@ -195492,9 +195851,7 @@
     "writer": [],
     "fsk": null,
     "titelKorrigiert": true,
-    "slug": "a-horse-called-hope-2",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "slug": "a-horse-called-hope-2"
   },
   {
     "videoId": "9bXTcrRlU1A",
@@ -195522,7 +195879,8 @@
     "fsk": null,
     "slug": "fracasse-der-freche-kavalier",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "wQwXxaPbd_E",
@@ -195603,7 +195961,8 @@
     "fsk": null,
     "slug": "die-rache-der-lady-frankenstein",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Cit9qLzt_zQ",
@@ -195824,7 +196183,8 @@
     "fsk": null,
     "slug": "zwei-x-judas",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MSc-OSL6yfk",
@@ -195962,7 +196322,8 @@
     "fsk": null,
     "slug": "die-rache-des-dunklen-reiters",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "A63NpRE9Qo0",
@@ -196339,7 +196700,8 @@
     "fsk": null,
     "slug": "silent-night-bloody-night",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "L869NRnHI_4",
@@ -196423,7 +196785,8 @@
     "fsk": null,
     "slug": "das-todessyndrom-malastrana",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ATBWvLk-o1U",
@@ -196503,7 +196866,8 @@
     "fsk": null,
     "slug": "die-nebel-von-avalon",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-01"
   },
   {
     "videoId": "T0DmaS5ay0Y",
@@ -196583,7 +196947,8 @@
     "fsk": null,
     "slug": "ein-mystischer-sturm-fuehrt-ins-kriegschaos",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "Aqbi3K8B3Qc",
@@ -196611,7 +196976,8 @@
     "fsk": null,
     "slug": "tom-s-geheimer-garten",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "gcnu039Scpg",
@@ -196678,7 +197044,8 @@
     "fsk": null,
     "slug": "die-grosse-puppe-la-bambolona",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "CVqALNFnrH4",
@@ -196990,7 +197357,8 @@
     "fsk": null,
     "slug": "3-kugeln-fuer-ein-ave-maria-1969",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "cOkp0cjpSeY",
@@ -197018,7 +197386,8 @@
     "fsk": null,
     "slug": "karate-jack-1973",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "AIqFHymplPo",
@@ -197239,7 +197608,8 @@
     "fsk": null,
     "slug": "lady-frankensteins-toedliche-experimente",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "iWcceV-CnIc",
@@ -197340,7 +197710,8 @@
     "fsk": null,
     "slug": "winnetou-iii",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "O_NKDiZDlSg",
@@ -201984,7 +202355,8 @@
     "fsk": null,
     "slug": "die-diamanten-lady",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "lwGm5cqcSVE",
@@ -202287,7 +202659,8 @@
     "slug": "the-goods-schnelle-autos-schnelle-deals",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MViqYOICR2A",
@@ -202370,7 +202743,8 @@
     "slug": "ran-an-die-braut",
     "plausibel": "titel",
     "runtime": 87,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "5Y8-1H9GG0o",
@@ -202878,7 +203252,8 @@
     "runtime": 111,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "cYriVOMDWbo",
@@ -204925,7 +205300,8 @@
     "runtime": 101,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "JVuJY5yMTDI",
@@ -205164,7 +205540,8 @@
     "fsk": null,
     "slug": "eine-der-staerksten-familiendramen-die-lange-im-gedaechtnis",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "56DSQiz4264",
@@ -205701,7 +206078,8 @@
     "runtime": 102,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "W_zSoIIsA6o",
@@ -206203,7 +206581,8 @@
     "slug": "sie-wollten-zwei-kampfjets-stehlen-doch-im-frachtraum-war-no",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dKUSFtQ_2CQ",
@@ -206274,7 +206653,8 @@
     "fsk": null,
     "slug": "schmutziges-spiel-eine-frau-zwei-tote",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "K4lzGrKfrF0",
@@ -206473,7 +206853,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "jC3_ivlFzA4",
@@ -207213,7 +207594,8 @@
     "slug": "gekapert-ueber-den-wolken-ein-mann-war-nicht-auf-ihrer-liste",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "B4w44zAq0X4",
@@ -207242,7 +207624,8 @@
     "slug": "sie-begruben-den-arzt-20-jahre-spaeter-kehrt-er-zurueck",
     "titelUnsicher": true,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-05"
   },
   {
     "videoId": "pw9TXXPKTSc",
@@ -207929,7 +208312,8 @@
     "runtime": 94,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "TYLm6k3eaAA",
@@ -208349,7 +208733,8 @@
     "runtime": 95,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-16"
   },
   {
     "videoId": "STPQ0ZIuXrc",
@@ -208409,7 +208794,8 @@
     "fsk": null,
     "slug": "winnetou-ii",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "R-0td1KaiFM",
@@ -208861,7 +209247,8 @@
     "fsk": null,
     "slug": "dolph-lundgren",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-24"
   },
   {
     "videoId": "DV767Xd7PKk",
@@ -209558,7 +209945,8 @@
     "runtime": 108,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "WoNfZO6v3eQ",
@@ -217989,7 +218377,8 @@
     "runtime": 109,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "chpuO3FL-bE",
@@ -218235,7 +218624,8 @@
     "runtime": 107,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "pKDvvMNPBBw",
@@ -221715,7 +222105,8 @@
     "titelKorrigiert": true,
     "slug": "am-rande-der-zeit",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "nsCgxoJjzzs",
@@ -222932,7 +223323,8 @@
     "runtime": 92,
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Wsgu0f6-R7s",
@@ -223045,7 +223437,8 @@
     "fsk": null,
     "slug": "operation-schweigen",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zM0FKltqC6c",
@@ -223583,7 +223976,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "die-spur-des-falken"
+    "slug": "die-spur-des-falken",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "vfHOFpd089M",
@@ -224056,7 +224450,8 @@
     "titelUnsicher": true,
     "slug": "ein-animations-abenteuerfilm-ein-ungewoehnlicher-troll-begib",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "j08mpC_E35o",
@@ -224672,7 +225067,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "junge-cowboys"
+    "slug": "junge-cowboys",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Gu08vVsHudA",
@@ -224899,7 +225295,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "gesperrt_de",
-    "slug": "scared"
+    "slug": "scared",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "u3eZpADC_FA",
@@ -224933,7 +225330,8 @@
     "fsk": null,
     "slug": "el-dorado-stadt-aus-gold",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-05"
   },
   {
     "videoId": "_fg8QCjWyQQ",
@@ -225280,7 +225678,8 @@
     "fsk": null,
     "slug": "der-letzte-auftrag",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Vc1ov1UQ2gM",
@@ -226013,7 +226412,8 @@
     "titelUnsicher": true,
     "slug": "er-taeuscht-seinen-tod-vor-und-wird-von-einem-killer-ausgebi",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-23"
   },
   {
     "videoId": "cbQrv-0ftSc",
@@ -226096,7 +226496,8 @@
     "titelKorrigiert": true,
     "slug": "desiderando-giulia",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "k-s-Cac60kg",
@@ -226126,7 +226527,8 @@
     "fsk": null,
     "slug": "django-leck-staub-von-meinem-colt",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "S_6O9dNjFaY",
@@ -227747,7 +228149,8 @@
     "fsk": null,
     "slug": "american-sophomore",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "vUnqpkuoM1g",
@@ -227775,7 +228178,8 @@
     "fsk": null,
     "slug": "unmarked",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "fuGqpI7oicc",
@@ -227803,7 +228207,8 @@
     "fsk": null,
     "slug": "todesmelodie",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "sFG6RJ2Bl2o",
@@ -227883,7 +228288,8 @@
     "fsk": null,
     "slug": "wraith",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-07"
   },
   {
     "videoId": "V3xlqbUKc2I",
@@ -227937,7 +228343,8 @@
     "fsk": null,
     "slug": "locusts",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-07"
   },
   {
     "videoId": "IpKDIBoVFUQ",
@@ -228418,7 +228825,8 @@
     "titelUnsicher": true,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "die-faehrte-des-grauens-jagd-auf-das-toedlichste-krokodil-de"
+    "slug": "die-faehrte-des-grauens-jagd-auf-das-toedlichste-krokodil-de",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "-yQ75mvI38g",
@@ -228474,7 +228882,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "gesperrt_de",
-    "slug": "faustrecht"
+    "slug": "faustrecht",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "AW9o81mfcsc",
@@ -228786,7 +229195,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "risen-end-of-days"
+    "slug": "risen-end-of-days",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "odUIYcOo-9U",
@@ -228814,7 +229224,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "mother"
+    "slug": "mother",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "zEIZrL4a5PI",
@@ -229589,7 +230000,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "the-californians"
+    "slug": "the-californians",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "eGQ40WTg0Ws",
@@ -229617,7 +230029,8 @@
     "fsk": null,
     "slug": "windfall",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "X56TTNwou1s",
@@ -229645,7 +230058,8 @@
     "fsk": null,
     "slug": "deception",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "FFUeLciKXn8",
@@ -229699,7 +230113,8 @@
     "fsk": null,
     "slug": "eve",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "40v_nxiWaY0",
@@ -229779,7 +230194,8 @@
     "fsk": null,
     "slug": "mercy",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "THHEifNp9hQ",
@@ -229833,7 +230249,8 @@
     "fsk": null,
     "slug": "the-grifters",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "ox2Od_Ij7ys",
@@ -230080,7 +230497,8 @@
     "fsk": null,
     "slug": "cannonball",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "lUcag8OyUZw",
@@ -230134,15 +230552,16 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "silvio"
+    "slug": "silvio",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
-    "videoId": "rnZT_LAwKeQ",
-    "youtubeTitle": "Ein Wirklich Gruseliger Film! Mysteriöse Geschehnisse bedrohen ihren Frieden | Horrorfilme",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/rnZT_LAwKeQ/hqdefault.jpg",
+    "videoId": "dELtbcBSr9g",
+    "youtubeTitle": "😱 Sie dachte alles wäre perfekt bis ihr Leben zu einem Albtraum wurde! | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dELtbcBSr9g/hqdefault.jpg",
     "duration": "PT1H25M23S",
     "publishedAt": "2026-06-14T14:36:47Z",
-    "channelName": "Lichtprojektor",
+    "channelName": "KinoWelt Deutsch",
     "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
     "tmdbId": null,
     "title": "Adalynn",
@@ -230160,9 +230579,7 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "adalynn",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "slug": "adalynn"
   },
   {
     "videoId": "Vdw7SapdxS4",
@@ -230190,7 +230607,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "der-fremde-2"
+    "slug": "der-fremde-2",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "gpv19RNbmIY",
@@ -230218,7 +230636,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "godforsaken"
+    "slug": "godforsaken",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "lgYyaXARGkg",
@@ -230246,7 +230665,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "hide"
+    "slug": "hide",
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "n3M9WQ68aK8",
@@ -230326,7 +230746,8 @@
     "fsk": null,
     "slug": "exhumed",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-12"
   },
   {
     "videoId": "1M2fch-CcD4",
@@ -230670,7 +231091,8 @@
     "fsk": null,
     "slug": "eine-ganze-stadt-fuerchtet-diese-gang",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "wRdX5VyrD4Y",
@@ -232802,7 +233224,8 @@
     "titelUnsicher": true,
     "slug": "der-letzte-deal-vier-maenner-ein-verraeter-eine-nacht-die-al",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-19"
   },
   {
     "videoId": "cElyk73XzC8",
@@ -237758,7 +238181,8 @@
     "fsk": "12",
     "slug": "hilfe-ich-habe-eine-familie",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-08"
   },
   {
     "videoId": "B2bJTvnFJkk",
@@ -251313,7 +251737,8 @@
     "fsk": "16",
     "slug": "dina-meine-geschichte",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-24"
   },
   {
     "videoId": "H7gDYt-ODmY",
@@ -252370,7 +252795,8 @@
     "fsk": "16",
     "slug": "slaughterhouse-rulez",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "QcOnDEgYSqQ",
@@ -262528,7 +262954,8 @@
     "fsk": null,
     "slug": "der-cop-und-die-hunde-dame",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-06"
   },
   {
     "videoId": "fApWnoMfx3o",
@@ -265557,7 +265984,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "TEtc6giAVWk",
@@ -270770,7 +271198,8 @@
     "slug": "the-reach-in-der-schusslinie",
     "runtime": 95,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "4Hc915ASntE",
@@ -270814,7 +271243,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-24"
   },
   {
     "videoId": "kMMn5dwBPwo",
@@ -270858,7 +271288,8 @@
     "slug": "the-whole-truth-luegenspiel",
     "runtime": 93,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Gcqq2st-4vY",
@@ -277840,7 +278271,8 @@
     "slug": "badlands-zerschossene-traeume",
     "runtime": 94,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "F3a2irF07Aw",
@@ -277887,7 +278319,8 @@
     "slug": "you-kill-me",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "UZaeKFzil7k",
@@ -277932,7 +278365,8 @@
     "slug": "eine-perfekte-waffe",
     "runtime": 85,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "m_NCDbOpKHY",
@@ -277975,7 +278409,8 @@
     "slug": "barett-das-gesetz-der-rache",
     "runtime": 106,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "YEEP5-vtuOU",
@@ -278063,7 +278498,8 @@
     "slug": "die-nackte-bovary",
     "runtime": 91,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "RewFqfuy1Ls",
@@ -278359,7 +278795,8 @@
     "slug": "einer-nach-dem-anderen-ohne-erbarmen",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "re3r9cj17KA",
@@ -279381,7 +279818,8 @@
     "slug": "fracass-der-freche-kavalier",
     "runtime": 108,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "w8Xs9DGkVM8",
@@ -279427,7 +279865,8 @@
     "slug": "amigos",
     "runtime": 93,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "kiDpiMNi3y8",
@@ -279684,7 +280123,8 @@
     "slug": "bianco-rosso-e-verdone",
     "runtime": 110,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "9h3v8_tXAz0",
@@ -280584,7 +281024,8 @@
     "slug": "eiskalte-verfuehrung",
     "runtime": 92,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "kqs8vAyVwhc",
@@ -280710,7 +281151,8 @@
     "slug": "in-critical-condition",
     "runtime": 70,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "WjM0zBZKnuw",
@@ -280755,7 +281197,8 @@
     "slug": "last-chance",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "FjWi29Jr1FY",
@@ -281051,7 +281494,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "kQlS9-v63Fs",
@@ -281139,7 +281583,8 @@
     "slug": "der-gelbe-teppich",
     "runtime": 89,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "oslwnwTJiqA",
@@ -281180,7 +281625,8 @@
     "slug": "twin-cities",
     "runtime": 99,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "fVF936NGdig",
@@ -281349,7 +281795,8 @@
     "slug": "911-officer-down",
     "runtime": 85,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "zYlIMUF9Juo",
@@ -281387,7 +281834,8 @@
     "slug": "the-watchman-s-edict",
     "runtime": 70,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
     "videoId": "Kk49AzGM-YQ",
@@ -282518,7 +282966,8 @@
     "slug": "die-luft-die-wir-atmen",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "YzVYotrwHsc",
@@ -283708,7 +284157,8 @@
     "slug": "dawn-anna",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "ZVm1JcS6Iac",
@@ -283754,7 +284204,8 @@
     "slug": "der-fuchs-von-tanger",
     "runtime": 101,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "RLUgyktvU18",
@@ -283798,7 +284249,8 @@
     "slug": "ein-kuss-zuviel",
     "runtime": 85,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "WHLtUY090FE",
@@ -284013,7 +284465,8 @@
     "slug": "sommer-in-orange",
     "runtime": 110,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "qBn1i4DOfcs",
@@ -284099,7 +284552,8 @@
     "slug": "jein-ich-will",
     "runtime": 100,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "fdNLxDg2WOE",
@@ -284144,7 +284598,8 @@
     "slug": "varsity-blues",
     "runtime": 106,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "fmlVg_d7B3s",
@@ -284188,7 +284643,8 @@
     "slug": "swingers",
     "runtime": 96,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "tiXyakMgtkQ",
@@ -284234,7 +284690,8 @@
     "slug": "die-brady-family-2",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "JVKc5_Qx2OI",
@@ -284279,7 +284736,8 @@
     "slug": "dead-man-on-campus",
     "runtime": 96,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "hSmM4awJOqQ",
@@ -284364,7 +284822,8 @@
     "slug": "kinky-boots-man-n-traegt-stiefel",
     "runtime": 107,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "BU7KXyAsT_4",
@@ -284454,7 +284913,8 @@
     "slug": "hot-rod-mit-vollgas-durch-die-hoelle",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "XMzvBS9K-88",
@@ -284713,7 +285173,8 @@
     "slug": "big-night-nacht-der-genuesse",
     "runtime": 109,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "MiZRkvo60ug",
@@ -284800,7 +285261,8 @@
     "slug": "studio-54",
     "runtime": 93,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aahsc4JC2OQ",
@@ -284843,7 +285305,8 @@
     "slug": "die-harten-und-die-zarten",
     "runtime": 120,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "lwlzPgRNNjM",
@@ -284928,7 +285391,8 @@
     "slug": "clerks-die-ladenhueter",
     "runtime": 92,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "6UTJbmK0Jlo",
@@ -284973,7 +285437,8 @@
     "slug": "chasing-amy",
     "runtime": 114,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "NEipfqLwlYg",
@@ -285150,7 +285615,8 @@
     "slug": "election",
     "runtime": 103,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "FOzZGj11OjM",
@@ -285367,7 +285833,8 @@
     "slug": "dreiviertelmond",
     "runtime": 94,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "LTRviCb84f8",
@@ -286407,7 +286874,8 @@
     "slug": "avengement-blutiger-freigang",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aBu3fFGpUy0",
@@ -286538,7 +287006,8 @@
     "slug": "moerder-ohne-erinnerung",
     "runtime": 114,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "apiRinW7srk",
@@ -286879,7 +287348,8 @@
     "slug": "the-terror-room",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "uazkXCNWSno",
@@ -296896,7 +297366,8 @@
     "slug": "ein-platz-an-der-sonne",
     "runtime": 122,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "GZGalNpyHdY",
@@ -296987,7 +297458,8 @@
     "slug": "romeo-und-julia",
     "runtime": 138,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "KG9jMd1w-b8",
@@ -301352,7 +301824,8 @@
     "slug": "nothing-in-common-sie-haben-nichts-gemeinsam",
     "runtime": 118,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "i4ySoH8oCss",
@@ -301917,7 +302390,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "XxZDxdvL1zE",
@@ -302093,7 +302567,8 @@
     "slug": "tim-und-lee",
     "runtime": 83,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "UiMLLFcmq4o",
@@ -302138,7 +302613,8 @@
     "slug": "die-cleveland-entfuehrung",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "15bN38GRK6M",
@@ -302183,7 +302659,8 @@
     "slug": "denk-wie-ein-mann-2",
     "runtime": 105,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "PmheOece1yM",
@@ -303682,7 +304159,8 @@
     "slug": "ghost-image-ruf-aus-dem-jenseits",
     "runtime": 96,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "k0UgNso4GeA",
@@ -303725,7 +304203,8 @@
     "slug": "april-rain",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "Pnu-pTfcJqQ",
@@ -303769,7 +304248,8 @@
     "slug": "fatal-secrets-schuld-und-vergeltung",
     "runtime": 88,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "dNH1gb-ydY8",
@@ -303813,7 +304293,8 @@
     "slug": "scared-toedlicher-horrordreh",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "J6e5DuDxSyo",
@@ -303857,7 +304338,8 @@
     "slug": "fatal-instinct",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "NtOJGhvmUbM",
@@ -304287,7 +304769,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-07"
   },
   {
     "videoId": "Fwgjb5RObh0",
@@ -304993,7 +305476,8 @@
     "slug": "die-jagd",
     "runtime": 116,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "VUF11kB7bVo",
@@ -305169,7 +305653,8 @@
     "slug": "nightmare-neighborhood-moms",
     "runtime": 85,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "FxAbEl_uzWI",
@@ -305212,7 +305697,8 @@
     "slug": "stretch-marks",
     "runtime": 91,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "s6U2cocKqXs",
@@ -305257,7 +305743,8 @@
     "slug": "jedini-izlaz",
     "runtime": 85,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "4LmrX1yw_Vk",
@@ -305346,7 +305833,8 @@
     "slug": "summer-daydream",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "mf5uCuO3xig",
@@ -305463,7 +305951,8 @@
     "slug": "welcome-back-miss-mary",
     "runtime": 105,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "g8mz8uOr7jg",
@@ -307829,7 +308318,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-31"
   },
   {
     "videoId": "XXeYnYNqlxI",
@@ -313332,7 +313822,8 @@
     "slug": "baby-frankenstein",
     "runtime": 84,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
     "videoId": "NWyiKPoKWXU",
@@ -313375,7 +313866,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "7RFYEQuuYlw",
@@ -313419,7 +313911,8 @@
     "slug": "mad-ship",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-14"
   },
   {
     "videoId": "OipuE4Kw-2U",
@@ -313465,7 +313958,8 @@
     "slug": "smoke-screen",
     "runtime": 87,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "wCPmMpgkjAM",
@@ -313554,7 +314048,8 @@
     "slug": "apartment-1303",
     "runtime": 94,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "C6CeWgkayuU",
@@ -313641,7 +314136,8 @@
     "slug": "wunden-der-angst",
     "runtime": 90,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "O_pC14eqIq0",
@@ -313772,7 +314268,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-03"
   },
   {
     "videoId": "X_pkHZwzECE",
@@ -314552,7 +315049,8 @@
     "slug": "sergeant-waters-eine-soldatengeschichte",
     "runtime": 101,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "GUi60nlo-Hs",
@@ -314685,7 +315183,8 @@
     "slug": "rage-and-honor-ii-hostile-takeover",
     "runtime": 98,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "OL4e9acwxoo",
@@ -315462,7 +315961,8 @@
     "slug": "insanitarium",
     "runtime": 89,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "aRhK0yV56vc",
@@ -316287,7 +316787,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-05"
   },
   {
     "videoId": "rgSXxDgTKk4",
@@ -316717,7 +317218,8 @@
     "slug": "fear-the-invisible-man",
     "runtime": 100,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
     "videoId": "M7O7SpLg8d4",
@@ -316762,7 +317264,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-07"
   },
   {
     "videoId": "eYug_cK6qro",
@@ -316805,7 +317308,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-07"
   },
   {
     "videoId": "ofEUs8B0Tuw",
@@ -317059,7 +317563,8 @@
     "plausibel": "titel",
     "plausibelVersion": 4,
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-10-22"
   },
   {
     "videoId": "3sE718ghScM",
@@ -320324,7 +320829,8 @@
     "fsk": null,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "gesperrt_de",
-    "slug": "ma-chi-ti-conosce"
+    "slug": "ma-chi-ti-conosce",
+    "nichtVerfuegbarSeit": "2026-10-24"
   },
   {
     "videoId": "MmoFv32IMmY",
@@ -321083,7 +321589,8 @@
     "fsk": null,
     "slug": "die-deutschmeister",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-27"
   },
   {
     "videoId": "r63MldgcEhs",
@@ -321320,7 +321827,8 @@
     "titelUnsicher": true,
     "slug": "er-bezahlt-einen-killer-fuer-den-mord-an-seiner-frau-doch-de",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "89cfYOaAnjg",
@@ -322773,7 +323281,8 @@
     "titelUnsicher": true,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "sean-connery-er-kontrolliert-das-wetter-und-droht-ganz-londo"
+    "slug": "sean-connery-er-kontrolliert-das-wetter-und-droht-ganz-londo",
+    "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
     "videoId": "xTt6Wsvt6-s",
@@ -323938,7 +324447,8 @@
     "titelUnsicher": true,
     "slug": "er-fand-den-anfuehrer-und-demuetigte-ihn-um-sein-dorf-zu-sch",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
     "videoId": "LDk-NG3aGhg",
@@ -326423,7 +326933,8 @@
     "fsk": null,
     "slug": "awakening-the-last-dream",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich"
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-11-06"
   },
   {
     "videoId": "dEg124_pEPo",
@@ -326514,7 +327025,8 @@
     "titelUnsicher": true,
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
-    "slug": "gary-oldman-taucht-ploetzlich-in-ihrem-leben-auf-und-verwand"
+    "slug": "gary-oldman-taucht-ploetzlich-in-ihrem-leben-auf-und-verwand",
+    "nichtVerfuegbarSeit": "2026-11-05"
   },
   {
     "videoId": "tlHZMEYx56o",
@@ -326551,7 +327063,8 @@
     "titelUnsicher": true,
     "slug": "diese-geschichte-wird-dich-bis-zur-letzten-sekunde-fesseln",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de"
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "y-StIlsk8qM",
@@ -326998,7 +327511,8 @@
     "titelUnsicher": true,
     "slug": "der-praesident-ahnte-nichts-ein-verzweifelter-mann-plante-ei",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-08"
   },
   {
     "videoId": "yALBauOHQFE",
@@ -327779,7 +328293,8 @@
     "titelUnsicher": true,
     "slug": "die-polizei-jagte-den-falschen-dann-sollte-er-fuer-ihren-feh",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht"
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-10"
   },
   {
     "videoId": "SdNcPkIGERc",
