@@ -48,11 +48,6 @@
       "profil": { "pipeAlsTitelvariante": false }
     },
     { "name": "Draco Actionfilme", "channelId": "UCHAE4BV0_nvubIyNuCrtg3A" },
-    {
-      "name": "DUDU",
-      "channelId": "UC3dI0Q_1GFzB88Jm8XS6AdA",
-      "profil": { "inPruefung": true }
-    },
     { "name": "Dzango", "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ" },
     { "name": "FABELLA", "channelId": "UCww-ReMpc2FgiGb6vIQddWg" },
     { "name": "Fantasja", "channelId": "UCn8xSBNGvaaU20JCJBuVPlQ" },
@@ -62,11 +57,6 @@
       "profil": { "pipeAlsTitelvariante": false }
     },
     { "name": "Filmalarm", "channelId": "UCFOSAYaXLPMdruA2oUpo0yg" },
-    {
-      "name": "Filme Gucken TV",
-      "channelId": "UCZV0tyYJkMUHi77lAOqkgJQ",
-      "profil": { "inPruefung": true }
-    },
     { "name": "Filmhof Welt", "channelId": "UCiovhvaqFD8vLmE4tTte9og" },
     { "name": "Free Films Action", "channelId": "UC40R8fSroyRd52QDEBf4Mqw" },
     { "name": "Free Films Emotion", "channelId": "UC6DTsN_DKPGsPVckgfzYznw" },
@@ -115,11 +105,6 @@
       "profil": { "nurMitTmdb": true, "ausschlussMuster": "h[öo]rspiel|h[öo]rbuch|reisef[üu]hrer|making.?of|\\byoga\\b|aus der box|ratgeber|\\btipps\\b|workout|best of" }
     },
     { "name": "Wolkesieben", "channelId": "UCP2mfMKvmD0lkSThh9CuU7g" },
-    {
-      "name": "XorboD",
-      "channelId": "UCU8wCz7vkJVManfP3gXUZ4g",
-      "profil": { "inPruefung": true }
-    },
     { "name": "ZOMBIEWORLD", "channelId": "UCDD1U4CEvLz6kKuIQwGivdg" }
   ]
 }
