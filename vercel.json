@@ -1448,7 +1448,7 @@
     },
     {
       "source": "/film/jet-li-once-upon-a-time-in-china-america-2",
-      "destination": "/film/jet-li-once-upon-a-time-in-china-america",
+      "destination": "/film/once-upon-a-time-in-china-and-america",
       "permanent": true
     },
     {
@@ -1698,7 +1698,7 @@
     },
     {
       "source": "/film/elle-2",
-      "destination": "/film/elle",
+      "destination": "/film/elle-3",
       "permanent": true
     },
     {
@@ -1709,6 +1709,161 @@
     {
       "source": "/film/frost-2",
       "destination": "/film/frost",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-sacher-in-bester-gesellschaft",
+      "destination": "/film/das-sacher-in-bester-gesellschaft-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/elle",
+      "destination": "/film/elle-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/bucks-groesstes-abenteuer-mut-in-der-wildnis",
+      "destination": "/film/bucks-groesstes-abenteuer",
+      "permanent": true
+    },
+    {
+      "source": "/film/entfuehrt-das-leben-seines-sohnes-haengt-an-seinem-pranger",
+      "destination": "/film/entfuehrt-das-leben-seines-sohnes-haengt-an-seinem-pager",
+      "permanent": true
+    },
+    {
+      "source": "/film/anuk-iii-die-dunkle-flut-bedroht-alle-voelker",
+      "destination": "/film/anuk-iii-die-dunkle-flut-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/jet-li-once-upon-a-time-in-china-america-kung-fu-im-wilden-w",
+      "destination": "/film/once-upon-a-time-in-china-and-america",
+      "permanent": true
+    },
+    {
+      "source": "/film/charles-dickens-ein-weihnachtslied-in-prosa-oder-eine-geiste-2",
+      "destination": "/film/charles-dickens-ein-weihnachtslied-in-prosa-oder-eine-geiste",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-unschuldigen-mit-den-schmutzigen-haenden-psycho-thriller",
+      "destination": "/film/die-unschuldigen-mit-den-schmutzigen-haenden",
+      "permanent": true
+    },
+    {
+      "source": "/film/romantische-geschichte-ueber-verlust-hoffnung-neue-liebe-die",
+      "destination": "/film/die-melodie-der-liebe",
+      "permanent": true
+    },
+    {
+      "source": "/film/wie-ein-gescheiterter-kuenstler-eine-ganze-nation-manipulier",
+      "destination": "/film/hitler-aufstieg-des-boesen",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-der-krieg-alles-veraendert-kehrt-er-je-zu-ihr-zurueck",
+      "destination": "/film/der-wunschbaum",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-das-herz-entscheiden-muss-ein-romantik-film-ueber-die-g",
+      "destination": "/film/lilly-schoenauer-liebe-hat-fluegel",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-sucht-eine-familie-zerstoert-ein-drama-ueber-bedingungs",
+      "destination": "/film/why-stop-now",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-gnadenlose-kampf-wie-weit-wuerdest-du-gehen-um-deinen-gr",
+      "destination": "/film/der-gnadenlose-kampf",
+      "permanent": true
+    },
+    {
+      "source": "/film/preis-des-ruhms-verrat-eifersucht-und-ein-stich-ins-herz",
+      "destination": "/film/erwischt-der-fall-henna-ryan",
+      "permanent": true
+    },
+    {
+      "source": "/film/wenn-eine-hochstaplerin-ihr-herz-verliert-die-verrueckteste",
+      "destination": "/film/schoene-witwen-kuessen-besser",
+      "permanent": true
+    },
+    {
+      "source": "/film/jonathan-rhys-meyers-ist-elvis-aufstieg-und-fall-des-king",
+      "destination": "/film/elvis",
+      "permanent": true
+    },
+    {
+      "source": "/film/der-lange-mit-dem-silberblick-von-lucio-fulci",
+      "destination": "/film/der-lange-mit-dem-silberblick",
+      "permanent": true
+    },
+    {
+      "source": "/film/zwischen-sugar-daddy-und-freund-eine-nacht-die-alles-veraend",
+      "destination": "/film/sugar",
+      "permanent": true
+    },
+    {
+      "source": "/film/dragon-fighter-die-entscheidungsschlacht-drachen-bedrohen-ei",
+      "destination": "/film/dragon-fighter-die-entscheidungsschlacht",
+      "permanent": true
+    },
+    {
+      "source": "/film/fuer-das-grosse-geld-setzt-er-sein-leben-aufs-spiel",
+      "destination": "/film/13-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/liebe-intrigen-leidenschaft-flammender-sommer-der-lange-heis",
+      "destination": "/film/flammender-sommer-der-lange-heisse-sommer-teil-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/don-johnson-in-flammender-sommer-der-lange-heisse-sommer-tei",
+      "destination": "/film/flammender-sommer-der-lange-heisse-sommer-teil-1",
+      "permanent": true
+    },
+    {
+      "source": "/film/jet-li-once-upon-a-time-in-china-america",
+      "destination": "/film/once-upon-a-time-in-china-and-america",
+      "permanent": true
+    },
+    {
+      "source": "/film/eine-entfuehrung-nur-eine-zeugin-ace-the-case-olivia-allein",
+      "destination": "/film/ace-the-case-olivia-allein-zu-haus",
+      "permanent": true
+    },
+    {
+      "source": "/film/dvd-fuehrt-frau-in-albtraeume-voller-blut-wahnsinn",
+      "destination": "/film/all-hallows-eve-ii",
+      "permanent": true
+    },
+    {
+      "source": "/film/mystery-horror-mit-ouija-brett-das-ouija-experiment-6-das-er",
+      "destination": "/film/das-ouija-experiment-6-das-erwachen-des-boesen",
+      "permanent": true
+    },
+    {
+      "source": "/film/edgar-wallace-der-raecher-klaus-kinski-heinz-drache",
+      "destination": "/film/edgar-wallace-der-raecher",
+      "permanent": true
+    },
+    {
+      "source": "/film/josefine-preuss-laurence-rupp-im-wien-der-intrigen-drama-das",
+      "destination": "/film/das-sacher-in-bester-gesellschaft-3",
+      "permanent": true
+    },
+    {
+      "source": "/film/toedliches-schweigen-wer-zahlt-den-preis-fuer-die-vergangenh",
+      "destination": "/film/swept-under-unermessliche-gier",
+      "permanent": true
+    },
+    {
+      "source": "/film/von-seiner-vergangenheit-verfolgt-sucht-ein-vater-in-ganz-eu",
+      "destination": "/film/somehow",
       "permanent": true
     }
   ]

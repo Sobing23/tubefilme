@@ -650,6 +650,26 @@
     "totSeit": "2026-11-03"
   },
   {
+    "videoId": "F40gTW4YfJU",
+    "title": "Das größte Liebesdrama aller Zeiten? Ein geheimes Verlangen",
+    "channelName": "Free Movies Deutschland",
+    "tmdbId": null,
+    "grund": "geloescht",
+    "detail": "Video nicht mehr abrufbar",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-10-13"
+  },
+  {
+    "videoId": "tlHZMEYx56o",
+    "title": "Diese GESCHICHTE wird dich bis zur letzten Sekunde fesseln!",
+    "channelName": "KinoWelt Deutsch",
+    "tmdbId": null,
+    "grund": "gesperrt_de",
+    "detail": "nur in anderen Ländern freigegeben",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-10"
+  },
+  {
     "videoId": "PlvvL2IXfkw",
     "title": "Die Olsenbande steigt aufs Dach",
     "channelName": "Netzkino",
@@ -3191,9 +3211,9 @@
   },
   {
     "videoId": "dw84k5AdFGI",
-    "title": "Keine Regeln, keine Gnade: Der härteste Käfigkampf der 80er Jahre!",
+    "title": "Cage Fighter",
     "channelName": "Amelia",
-    "tmdbId": null,
+    "tmdbId": 51463,
     "grund": "geloescht",
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-12",
@@ -3241,9 +3261,9 @@
   },
   {
     "videoId": "zGMf-Tp0DFQ",
-    "title": "Ein Fremder kam in die Stadt... Und brachte die Hölle mit!",
+    "title": "Kid - Einer gegen alle",
     "channelName": "Amelia",
-    "tmdbId": null,
+    "tmdbId": 121840,
     "grund": "geloescht",
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-12",
@@ -3301,7 +3321,7 @@
   },
   {
     "videoId": "Enz0Uc7Jl20",
-    "title": "Wie ein gescheiterter Künstler eine ganze Nation manipulierte!",
+    "title": "Hitler – Aufstieg des Bösen",
     "channelName": "Amelia",
     "tmdbId": null,
     "grund": "geloescht",
@@ -3688,16 +3708,6 @@
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-12",
     "totSeit": "2026-10-29"
-  },
-  {
-    "videoId": "F40gTW4YfJU",
-    "title": "Das größte Liebesdrama aller Zeiten? Ein geheimes Verlangen",
-    "channelName": "Free Movies Deutschland",
-    "tmdbId": null,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-13"
   },
   {
     "videoId": "qxCIDZpBZ_w",
@@ -4741,9 +4751,9 @@
   },
   {
     "videoId": "5iyl6GG0eaQ",
-    "title": "Die Fährte des Grauens: Jagd auf das tödlichste Krokodil der Geschichte!",
+    "title": "Die Fährte des Grauens",
     "channelName": "Amelia",
-    "tmdbId": null,
+    "tmdbId": 4283,
     "grund": "geloescht",
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-12",
@@ -5808,16 +5818,6 @@
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-12",
     "totSeit": "2026-11-05"
-  },
-  {
-    "videoId": "tlHZMEYx56o",
-    "title": "Diese GESCHICHTE wird dich bis zur letzten Sekunde fesseln!",
-    "channelName": "KinoWelt Deutsch",
-    "tmdbId": null,
-    "grund": "gesperrt_de",
-    "detail": "nur in anderen Ländern freigegeben",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-11-10"
   },
   {
     "videoId": "IC2NVDdiWfU",

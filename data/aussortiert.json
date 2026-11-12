@@ -8314,5 +8314,55 @@
     "title": "Kennen wir uns?",
     "tmdbId": 648087,
     "channelName": "Kino Deutsch"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "von Hand aussortiert: Prüfung unsichere Titel 12.11.2026: Serienfolge (Janette Oke: Die Coal Valley Saga = Fernsehserie, Folge Rules of Engagement)",
+    "videoId": "ntyHlKVOq5g",
+    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 6 – Entscheidungen (Finale der romantischen Filmreihe)",
+    "title": "Janette Oke: Die Coal Valley Saga Teil 6 - Entscheidungen",
+    "tmdbId": null,
+    "channelName": "Wolkesieben"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "von Hand aussortiert: Prüfung unsichere Titel 12.11.2026: Serienfolge (Janette Oke: Die Coal Valley Saga = Fernsehserie, Folge Change of Heart)",
+    "videoId": "6wULcD2CIA0",
+    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 5 – Versteckte Wahrheit (komplette Filmreihe auf Deutsch)",
+    "title": "Janette Oke: Die Coal Valley Saga Teil 5 - Versteckte Wahrheit",
+    "tmdbId": null,
+    "channelName": "Wolkesieben"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "von Hand aussortiert: Prüfung unsichere Titel 12.11.2026: Serienfolge (Tell – Im Kampf gegen Lord Xax, E03)",
+    "videoId": "R1tztJVIXZE",
+    "youtubeTitle": "Tell – Im Kampf gegen Lord Xax - E03 - Auf Leben und Tod (ABENTEUER I ganze Abenteuerserie Deutsch)",
+    "title": "Tell - Im Kampf gegen Lord Xax - E03 - Auf Leben und Tod",
+    "tmdbId": null,
+    "channelName": "Fantasja"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "von Hand aussortiert: Prüfung unsichere Titel 12.11.2026: kein Spielfilm (Formel-1-Saisonrückblick 1997)",
+    "videoId": "m_i6ZnoZoMI",
+    "youtubeTitle": "🏎️🔥 FORMEL 1 1997 – MICHAEL SCHUMACHER & NIKI LAUDA!",
+    "title": "FORMEL 1 1997 - MICHAEL SCHUMACHER & NIKI LAUDA!",
+    "tmdbId": null,
+    "channelName": "All Time Classic Movies"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "von Hand aussortiert: Prüfung unsichere Titel 12.11.2026: Zeichentrickserie (Casper und seine Freunde)",
+    "videoId": "iVrPOR_OpOA",
+    "youtubeTitle": "Der freundlichste Geist der Welt sucht Freunde 👻: Casper und seine Freunde",
+    "title": "Der freundlichste Geist der Welt sucht Freunde 👻: Casper und seine Freunde",
+    "tmdbId": null,
+    "channelName": "Fantasja"
   }
 ]
