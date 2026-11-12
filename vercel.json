@@ -1895,6 +1895,11 @@
       "source": "/film/film-6",
       "destination": "/film/the-source-of-power",
       "permanent": true
+    },
+    {
+      "source": "/film/colorado-zwei-halunken-im-goldrausch",
+      "destination": "/film/colorado-zwei-halunken-im-goldrausch-2",
+      "permanent": true
     }
   ]
 }

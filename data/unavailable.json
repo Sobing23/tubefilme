@@ -850,16 +850,6 @@
     "totSeit": "2026-10-13"
   },
   {
-    "videoId": "Iw8KKnNzTnc",
-    "title": "Guernica",
-    "channelName": "Dzango",
-    "tmdbId": 363841,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-13"
-  },
-  {
     "videoId": "syfxX35iCi4",
     "title": "Hard Corps",
     "channelName": "Netzkino",
@@ -874,16 +864,6 @@
     "title": "Wo steckt Sidney Hall?",
     "channelName": "Netzkino",
     "tmdbId": 353066,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-13"
-  },
-  {
-    "videoId": "MJAsNOWjIyc",
-    "title": "Testament of Youth",
-    "channelName": "Netzkino",
-    "tmdbId": 284689,
     "grund": "geloescht",
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-12",
@@ -1620,16 +1600,6 @@
     "totSeit": "2026-10-13"
   },
   {
-    "videoId": "FSoQhvpJM7Q",
-    "title": "The Last Vermeer",
-    "channelName": "Netzkino",
-    "tmdbId": 622977,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-13"
-  },
-  {
     "videoId": "BItu7YA6yj4",
     "title": "Ammonite",
     "channelName": "FABELLA",
@@ -1744,16 +1714,6 @@
     "title": "Gamera gegen Zigra - Frankensteins Weltraumbestie schlägt zu",
     "channelName": "Netzkino",
     "tmdbId": 70322,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-13"
-  },
-  {
-    "videoId": "p7Zs5S8vjLc",
-    "title": "Der Mann, der König sein wollte",
-    "channelName": "Moviedome",
-    "tmdbId": 983,
     "grund": "geloescht",
     "detail": "Video nicht mehr abrufbar",
     "geprueftAm": "2026-11-12",
@@ -2078,16 +2038,6 @@
     "detail": "in Deutschland gesperrt",
     "geprueftAm": "2026-11-12",
     "totSeit": "2026-10-13"
-  },
-  {
-    "videoId": "EXG0-xdsTlA",
-    "title": "Die Rache des Karatetigers",
-    "channelName": "Hakunan",
-    "tmdbId": 158833,
-    "grund": "gesperrt_de",
-    "detail": "in Deutschland gesperrt",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-11-02"
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -4140,16 +4090,6 @@
     "totSeit": "2026-10-13"
   },
   {
-    "videoId": "4W86FnqxMhA",
-    "title": "Der Anderson Clan",
-    "channelName": "Absolute Action",
-    "tmdbId": 30941,
-    "grund": "geloescht",
-    "detail": "Video nicht mehr abrufbar",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-31"
-  },
-  {
     "videoId": "CVUG_DtR6dc",
     "title": "Arena",
     "channelName": "Absolute Action",
@@ -5490,16 +5430,6 @@
     "totSeit": "2026-10-13"
   },
   {
-    "videoId": "UiMLLFcmq4o",
-    "title": "Die Cleveland - Entführung",
-    "channelName": "Sony Pics at Home DE",
-    "tmdbId": 336845,
-    "grund": "gesperrt_de",
-    "detail": "in Deutschland gesperrt",
-    "geprueftAm": "2026-11-12",
-    "totSeit": "2026-10-13"
-  },
-  {
     "videoId": "15bN38GRK6M",
     "title": "Denk wie ein Mann 2",
     "channelName": "Sony Pics at Home DE",
@@ -5906,6 +5836,46 @@
     "tmdbId": 1010170,
     "grund": "gesperrt_de",
     "detail": "nur in anderen Ländern freigegeben",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "5hHG0KQ3kFA",
+    "title": "Small Group",
+    "channelName": "Glaubensfilme",
+    "tmdbId": 760532,
+    "grund": "gesperrt_de",
+    "detail": "in Deutschland gesperrt",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "5DgGMnibH8E",
+    "title": "Bianco, rosso e Verdone",
+    "channelName": "Movie360",
+    "tmdbId": 37775,
+    "grund": "nicht_oeffentlich",
+    "detail": "unlisted",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "eVdxPC-8j7Q",
+    "title": "In den Klauen der Mafia",
+    "channelName": "Movie360",
+    "tmdbId": 90802,
+    "grund": "nicht_oeffentlich",
+    "detail": "unlisted",
+    "geprueftAm": "2026-11-12",
+    "totSeit": "2026-11-12"
+  },
+  {
+    "videoId": "mqIUbk64UlU",
+    "title": "Amigos",
+    "channelName": "Movie360",
+    "tmdbId": 131229,
+    "grund": "gesperrt_de",
+    "detail": "in Deutschland gesperrt",
     "geprueftAm": "2026-11-12",
     "totSeit": "2026-11-12"
   }

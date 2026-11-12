@@ -3752,5 +3752,45 @@
     "title": "Life Happens",
     "tmdbId": 144656,
     "channelName": "Movies Select"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "_CjidFBDync",
+    "youtubeTitle": "The Heart of Man (2018) [Glaubensdrama] [Wahre Geschichten] | Ganzer Film Deutsch",
+    "title": "The Heart of Man",
+    "tmdbId": 474381,
+    "channelName": "Glaubensfilme"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "Spielfilm mit falscher Doku-Zuordnung -- wird neu gesucht",
+    "videoId": "J9MvOk8XqWI",
+    "youtubeTitle": "Billy Graham - Ein Leben für die gute Tat (2018) [Drama] [Biographie] ✨ Zweifel, Prüfung, Berufung",
+    "title": "Billy Graham",
+    "tmdbId": 829403,
+    "channelName": "Glaubensfilme"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "O-MvUE9bxaU",
+    "youtubeTitle": "Who Killed the Electric Car? (2006) | Ganzer Film auf Deutsch",
+    "title": "Warum das Elektroauto sterben musste",
+    "tmdbId": 13508,
+    "channelName": "Making Legends"
+  },
+  {
+    "datum": "2026-11-12",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "cHNa6_IWRtI",
+    "youtubeTitle": "Appassionata | Jugend, Sehnsucht und Geheimnisse (Ganzer Film Deutsch 4K)",
+    "title": "Appassionata",
+    "tmdbId": 130679,
+    "channelName": "Movie360"
   }
 ]
