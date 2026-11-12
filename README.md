@@ -5,7 +5,7 @@ Serverless betriebenes Archiv deutschsprachiger Filme, die auf YouTube legal in 
 - **Repository:** `Sobing23/tubefilme`
 - **Hosting:** Vercel, verbunden mit `main` — jeder Commit löst eine Auslieferung aus
 - **Domain:** `tubefilme.de` (bei Strato, per A-Record und CNAME auf Vercel gezeigt)
-- **Bestand:** rund 5.900 Filme aus 38 Kanälen
+- **Bestand (12.11.2026):** rund 8.400 Filme aus 58 Kanälen, davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
 
 ---
 
@@ -133,12 +133,13 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | `ignored.json` | videoIds, die nie wieder verarbeitet werden (gelöscht, nicht auffindbar, fremdsprachig) |
 | `reviewed.json` | im Review-Werkzeug als gesichtet markierte Filme |
 | `cover-dismissed.json` | Filme, bei denen der Platzhalter akzeptiert wurde |
-| `unavailable.json` | bei YouTube nicht abspielbare Filme mit Grund |
+| `unavailable.json` | bei YouTube nicht abspielbare Filme mit Grund, letzter Prüfung (`geprueftAm`) und erstem Befund (`totSeit`) |
+| `weiterleitungen.json` | weggefallene Adressen (`von`) mit Ziel (`zielVideoId`, `zielSlug`) — Quelle der Weiterleitungen in `vercel.json`, siehe [Adressen](#adressen) |
 | `repaired.json` | Protokoll aller Video-Austausche |
 | `dokus-entfernt.json` | Protokoll jeder entfernten Doku und jeder als Doku fehlzugeordneten, neu gesuchten Spielfilm-Zuordnung |
 | `aussortiert.json` | Protokoll der Einträge, die `prune-excluded.js` nach einer neuen Filterregel entfernt hat |
 | `keine-doku.json` | videoIds von Spielfilmen, die TMDB fälschlich einer Doku zuordnet und deren Videotitel keine Gattung nennt — werden neu gesucht statt entfernt |
-| `titel-korrekturen.json` | von Hand ermittelte Titel für Werbesatz-Videos (`titel`) und von Hand aussortierte Videos (`entfernen`) — siehe [Titel von Hand](#titel-von-hand-titel-korrekturenjson) |
+| `titel-korrekturen.json` | von Hand ermittelte Titel für Werbesatz-Videos (`titel`), von Hand aussortierte Videos (`entfernen`) und trotz `nurMitTmdb` freigegebene Spielfilme (`freigeben`) — siehe [Titel von Hand](#titel-von-hand-titel-korrekturenjson) |
 
 ### Felder eines Films in `filme.json`
 
@@ -151,7 +152,8 @@ posterUrl, backdropUrl, voteAverage, genreIds[]
 cast[], director[], writer[]
 fsk                 "0"|"6"|"12"|"16"|"18" oder null
 slug                Adressbestandteil -- bleibt stabil, solange sich der Titel nicht
-                    ändert; bei geändertem Titel bildet build-site.js ihn neu
+                    ändert; bei geändertem Titel bildet build-site.js ihn neu und
+                    leitet die alte Adresse weiter (weiterleitungen.json)
 matchSource         originaltitel+jahr | originaltitel-ohne-jahr | titel-fallback
                     | manuell | youtube
 matchConfidence     hoch | mittel | niedrig | youtube
@@ -164,7 +166,10 @@ titelUnsicher       true, wenn der Titel noch ein Werbesatz ist (nur übernommen
                     Filme): nicht auf der Startseite, in /alle ganz hinten
 verfuegbar          false, wenn bei YouTube nicht abspielbar (sonst fehlend)
 nichtVerfuegbarGrund geloescht | gesperrt_de | nicht_einbettbar | nicht_oeffentlich
+nichtVerfuegbarSeit Datum des ersten Befunds (aus unavailable.json totSeit)
 ```
+
+In `duplicates.json` zusätzlich: `ersatzFuer` — Video-ID des Bibliothekseintrags, für den dieser Upload Ersatz ist (bei Einträgen ohne tmdbId; `repair-unavailable.js` zieht sie nach einem Austausch nach).
 
 ---
 
@@ -341,7 +346,7 @@ Ausgeschlossen werden außerdem Überschriften wie `Cast & Crew` (CiNENET) oder 
 
 Ist der gefundene Teil selbst nur Genre oder Werbung (`Martial-Arts Klassiker (1978)`, `Ganzer Film auf Deutsch (1984)`), greift die Regel nicht. Klammern mit einem Wort bleiben stehen („18 und immer (noch) Jungfrau"). **Ausnahme Comfy Movies** (Profil `pipeIstOriginaltitel`): Dort steht vorn der deutsche Titel und hinter dem `|` der Originaltitel — angezeigt wird der deutsche, gesucht wird mit beiden. `fix-titles.js` ersetzt einen bestehenden Titel nur, wenn er mit dem Vorsatz beginnt; ein schon guter Titel bleibt. Geprüft an allen 21.781 Kandidaten: im Bestand genau 19 Titel geändert, alle vorher falsch.
 
-**Grenze:** Bei manchen Kanälen — Volle Power Filme, Free Movies Deutschland, Deutsch Knallhart, Amelia, KinoWelt — nennen weder Titel noch Beschreibung je einen Filmnamen, nur Handlung. Solche Filme tragen `titelUnsicher`: Sie erscheinen nicht in den Startseiten-Reihen, stehen in `/alle` in jeder Sortierung hinten und sind im Review-Reiter **Werbetitel** gelistet. Am 10.10. waren das 354; der Großteil wurde von Hand aufgelöst (nächster Abschnitt), 90 bleiben markiert.
+**Grenze:** Bei manchen Kanälen — Volle Power Filme, Free Movies Deutschland, Deutsch Knallhart, Amelia, KinoWelt — nennen weder Titel noch Beschreibung je einen Filmnamen, nur Handlung. Solche Filme tragen `titelUnsicher`: Sie erscheinen nicht in den Startseiten-Reihen, stehen in `/alle` in jeder Sortierung hinten und sind im Review-Reiter **Werbetitel** gelistet. Am 10.10. waren das 354; der Großteil wurde von Hand aufgelöst (nächster Abschnitt). Am 12.11.2026 standen 179 auf der Liste: 59 aufgelöst (Originaltitel-Feld, Titel in Anführungszeichen in der Beschreibung wie bei Free Movies Deutschland, oder eindeutige Besetzung: Babluani + Statham + Rourke = „13“, Verhoeven + Huppert = „Elle“, Ferrigno + Reb Brown = „Cage“), 5 entfernt (Serienfolgen, Formel-1-Rückblick, Zeichentrickserie). **115 bleiben markiert** — fast alle von Volle Power Filme, Deutsch Knallhart und Free Movies Deutschland, deren Beschreibungen nur Handlung und Kapitelmarken enthalten, keinen einzigen Namen. Bewusst nicht geraten. Die neuen Titel machten zugleich 22 Doppel-Uploads sichtbar, die `merge-duplicates.js` zusammenführt.
 
 ### Titel von Hand: `titel-korrekturen.json`
 
@@ -622,7 +627,11 @@ In jedem Reiter gibt es einen Direktlink zum Video.
 
 **Zuordnungslogik verbessert, Bestand soll profitieren** → `rematch.yml` starten. Freigegeben wird, was Konfidenz „niedrig"/„mittel" hat oder ohne Bewertung/Genres dasteht. **Manuelle Korrekturen bleiben unangetastet.** Aus YouTube übernommene Filme werden nicht zurückgesetzt, aber in einem eigenen Schritt streng nachgesucht (siehe [Nachsuche](#9-nachsuche-für-übernommene-filme)).
 
-**Tote Filme finden** → „Verfügbarkeit prüfen" mit leeren Feldern. Die Reparatur läuft im selben Durchgang mit.
+**Tote Filme finden** → „Verfügbarkeit prüfen" mit leeren Feldern. Die Reparatur läuft im selben Durchgang mit. Wie lange ein Film schon tot ist, steht in `unavailable.json` (`totSeit`) und am Film (`nichtVerfuegbarSeit`).
+
+**Weggefallene Adresse prüfen** → steht in `data/weiterleitungen.json`; die aktiven Regeln erzeugt `build-site.js` in `vercel.json`. Nie von Hand in `vercel.json` unter `/film/` eintragen — der nächste Seitenbau ersetzt diese Einträge.
+
+**Grenze der Weiterleitungen** → Vercel erlaubt 2.048 je Projekt; `build-site.js` bricht vorher mit einer Meldung ab.
 
 **Einzelnen Film korrigieren** → Review-Werkzeug, Reiter „Alle Filme", Bearbeiten.
 
@@ -702,9 +711,9 @@ Für einen Teil des Bestands liefert TMDB keine deutsche Einstufung. Eine Ableit
 
 - **Visuelles Design** der öffentlichen Seite
 - **Rückmeldefunktion für Besucher** (falscher Film, Video nicht abspielbar, weitere Gründe noch zu definieren) — bräuchte den ersten serverseitigen Code im Projekt, etwa eine Vercel-Function
-- **Restfälle mit Werbeüberschrift** (rund 40, überwiegend Volle Power Filme) — nur von Hand lösbar
+- **Restfälle mit Werbeüberschrift** (115, Volle Power Filme, Deutsch Knallhart, Free Movies Deutschland) — Beschreibungen ohne jeden Namen; lösbar nur über das Video selbst (Vorspann/Abspann) oder Rückfrage beim Kanal
+- **1.686 Filme ohne TMDB-Treffer** — gezielt bekannte Titel heraussuchen und über `manual-matches.json` zuordnen (am 12.11.2026 für 16 weloadtv-Filme gemacht; offen u. a. „1984“ (1956), „She“, „Tarzan bei den Affen“, deren Fassungen sich über die Laufzeit nicht eindeutig zuordnen ließen)
 - **Fury (Grjngo Westernfilme)** — Zusammenschnitte einer TV-Serie (`S05 E13-17`), rutschen durch den Serienfilter, weil weder „Folge" noch „Staffel" im Titel steht. Entscheiden, ob ein globales Muster `SxxEyy` ergänzt wird
 - **„Jugend-Zeit"** (DEFA, 1978) ist derzeit als „Jugend-Zeit zu zweit" (1981) zugeordnet — prüfen
-- **Hakunan** — Kanal gewünscht, ID noch nicht ermittelt
-- **Aufteilung von `filme.json`** — mit über 8 MB wird das Speichern im Review-Werkzeug zunehmend träge
+- **Aufteilung von `filme.json`** — mit über 14 MB wird das Speichern im Review-Werkzeug zunehmend träge
 - **Kanäle mit hoher Fluktuation** über mehrere Prüfläufe beobachten und entscheiden, ob sie sich lohnen
