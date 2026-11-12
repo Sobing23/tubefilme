@@ -1233,7 +1233,7 @@
     },
     {
       "source": "/film/13-2",
-      "destination": "/film/13",
+      "destination": "/film/day-of-the-demons",
       "permanent": true
     },
     {
@@ -1864,6 +1864,36 @@
     {
       "source": "/film/von-seiner-vergangenheit-verfolgt-sucht-ein-vater-in-ganz-eu",
       "destination": "/film/somehow",
+      "permanent": true
+    },
+    {
+      "source": "/film/film",
+      "destination": "/film/my-father-is-a-hero",
+      "permanent": true
+    },
+    {
+      "source": "/film/film-2",
+      "destination": "/film/american-conjuring-the-linda-vista-project",
+      "permanent": true
+    },
+    {
+      "source": "/film/13",
+      "destination": "/film/day-of-the-demons",
+      "permanent": true
+    },
+    {
+      "source": "/film/film-5",
+      "destination": "/film/das-blut-der-seidenstrasse",
+      "permanent": true
+    },
+    {
+      "source": "/film/film-3",
+      "destination": "/film/geroy-der-held",
+      "permanent": true
+    },
+    {
+      "source": "/film/film-6",
+      "destination": "/film/the-source-of-power",
       "permanent": true
     }
   ]

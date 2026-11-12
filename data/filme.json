@@ -13748,7 +13748,7 @@
     "channelName": "Netzkino",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 591147,
-    "title": "小飛俠",
+    "title": "My Father Is a Hero",
     "originalTitle": "小飛俠",
     "overview": "",
     "releaseDate": "1995-01-01",
@@ -13778,11 +13778,13 @@
       "卓冰"
     ],
     "fsk": null,
-    "slug": "film",
     "hinweis": "Alternativtitel bei TMDB bestätigt: \"My Father Is a Hero 2\" · Alternativtitel bei TMDB bestätigt: \"My Father Is a Hero 2\" · Alternativtitel bei TMDB bestätigt: \"My Father Is a Hero 2\" · Alternativtitel bei TMDB bestätigt: \"My Father Is a Hero 2\"",
     "plausibel": "alternativtitel",
     "runtime": 88,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "tmdbTitel": "小飛俠",
+    "titelKorrigiert": true,
+    "slug": "my-father-is-a-hero"
   },
   {
     "videoId": "pNh_fKPD57I",
@@ -47989,7 +47991,7 @@
     "channelName": "Netzkino",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 404967,
-    "title": "厉鬼医院",
+    "title": "American Conjuring – The Linda Vista Project",
     "originalTitle": "厉鬼医院",
     "overview": "",
     "releaseDate": "2015-01-01",
@@ -48018,10 +48020,12 @@
       "Mo Anouti"
     ],
     "fsk": null,
-    "slug": "film-2",
     "plausibel": "besetzung",
     "runtime": 84,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "tmdbTitel": "厉鬼医院",
+    "titelKorrigiert": true,
+    "slug": "american-conjuring-the-linda-vista-project"
   },
   {
     "videoId": "-sTRbDtSRKM",
@@ -70643,7 +70647,7 @@
     "channelName": "Netzkino",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 926526,
-    "title": "13 автобус",
+    "title": "Day of the Demons",
     "originalTitle": "13 автобус",
     "overview": "",
     "releaseDate": "2019-09-13",
@@ -70670,10 +70674,12 @@
     ],
     "fsk": null,
     "posterLocal": "img/posters/926526.jpg",
-    "slug": "13",
     "plausibel": "titel",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "tmdbTitel": "13 автобус",
+    "titelKorrigiert": true,
+    "slug": "day-of-the-demons"
   },
   {
     "videoId": "zfG53_KgmPM",
@@ -155965,35 +155971,6 @@
     "slug": "der-thronkrieg"
   },
   {
-    "videoId": "iCAD8G4AbUg",
-    "youtubeTitle": "😢 Niemand Erwartete Diese Wendung! Eine Tragödie Veränderte Ihr Ganzes Leben | Drama",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/iCAD8G4AbUg/hqdefault.jpg",
-    "duration": "PT1H54M51S",
-    "publishedAt": "2026-08-16T11:27:08Z",
-    "channelName": "Unfassbare Filme",
-    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
-    "tmdbId": null,
-    "title": "Ма Ма",
-    "originalTitle": null,
-    "overview": "Willkommen auf dem ultimativen YouTube-Kanal für alle, die Filme lieben! Hier findest du ganze Spielfilme in HD-Qualität – von Action, Thriller, Horror und Drama bis zu Romantik, Abenteuer und Comedy. Tauche ein in eine Welt voller Spannung, Emotionen und unvergesslicher Geschichten.",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "slug": "film-4",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-10-13"
-  },
-  {
     "videoId": "epkY8-OLe7E",
     "youtubeTitle": "🎬 Dieser Packende Rache-Thriller Hält Sie Bis Zur Letzten Minute In Atem! | Deutsch",
     "youtubeThumbnail": "https://i.ytimg.com/vi/epkY8-OLe7E/hqdefault.jpg",
@@ -182187,7 +182164,7 @@
     "channelName": "Draco Actionfilme",
     "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
     "tmdbId": 123617,
-    "title": "敦煌",
+    "title": "Das Blut der Seidenstraße",
     "originalTitle": "敦煌",
     "overview": "",
     "releaseDate": "1988-06-25",
@@ -182216,10 +182193,12 @@
       "吉田剛"
     ],
     "fsk": null,
-    "slug": "film-5",
     "plausibel": "besetzung",
     "runtime": 143,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "tmdbTitel": "敦煌",
+    "titelKorrigiert": true,
+    "slug": "das-blut-der-seidenstrasse"
   },
   {
     "videoId": "lsY9oqJrRVg",
@@ -223466,39 +223445,6 @@
     "slug": "der-falsche-mann"
   },
   {
-    "videoId": "2-q6yPW_JGw",
-    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 4 – Zweite Chancen (LIEBESFILME, Serien Deutsch, Abenteuer)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/2-q6yPW_JGw/hqdefault.jpg",
-    "duration": "PT1H26M43S",
-    "publishedAt": "2023-10-08T16:00:04Z",
-    "channelName": "FABELLA",
-    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
-    "tmdbId": null,
-    "title": "Die Coal Valley Saga – Teil 4: Zweite Chancen",
-    "originalTitle": null,
-    "overview": "Ein furchtbarer Minenunfall in Coal Valley hält die Bewohner der Kleinstadt in Atem. Dieses Ereignis zieht für jeden einzelnen Bewohner der Stadt unterschiedliche Konsequenzen nach sich, auch für Elizabeth Thatcher (Erin Krakow), die gerade erst in Coal Valley angekommen ist. Darüber hinaus sorgt eine Nachricht, die am Rande der Mine gefunden wird, für Verwirrung unter den Menschen.",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Titel aus der Videobeschreibung ermittelt -- bei TMDB nicht gefunden",
-    "cast": [
-      "Erin Krakow",
-      "Daniel Lissing",
-      "Chelah Horsdal"
-    ],
-    "director": [
-      "Michael Landon Jr."
-    ],
-    "writer": [],
-    "fsk": null,
-    "titelKorrigiert": true,
-    "slug": "die-coal-valley-saga-teil-4-zweite-chancen"
-  },
-  {
     "videoId": "pAXJvk8rMXQ",
     "youtubeTitle": "Stella – Die Lolita Prostituierte (Drama in voller Länge, kompletter Film auf Deutsch anschauen)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/pAXJvk8rMXQ/hqdefault.jpg",
@@ -232359,7 +232305,7 @@
     "channelName": "Dzango",
     "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
     "tmdbId": 390441,
-    "title": "Герой",
+    "title": "Geroy – Der Held",
     "originalTitle": "Герой",
     "overview": "",
     "releaseDate": "2016-03-31",
@@ -232394,7 +232340,9 @@
       "Olga Pogodina-Kuzmina"
     ],
     "fsk": null,
-    "slug": "film-3"
+    "tmdbTitel": "Герой",
+    "titelKorrigiert": true,
+    "slug": "geroy-der-held"
   },
   {
     "videoId": "ucRKSNwzM_w",
@@ -252084,49 +252032,6 @@
     ],
     "fsk": null,
     "slug": "die-liebe-kommt-mit-dem-christkind"
-  },
-  {
-    "videoId": "vkWSfnleTpY",
-    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 4 – Zweite Chancen (spannende Filmreihe | ROMANZE)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/vkWSfnleTpY/hqdefault.jpg",
-    "duration": "PT1H26M43S",
-    "publishedAt": "2023-06-16T13:30:20Z",
-    "channelName": "Wolkesieben",
-    "channelId": "UCP2mfMKvmD0lkSThh9CuU7g",
-    "tmdbId": 212762,
-    "title": "Suche Mitbewohner, biete Familie",
-    "originalTitle": "Second Chances",
-    "overview": "Der Feuerwehrmann Jeff, muss sich, wegen einer schweren Verletzung am Bein, ein Zimmer im Erdgeschoss mieten. Deshalb zieht er bei der alleinerziehenden Jenny und ihren beiden Kindern Luke und Elsie zur Untermiete ein. Die Kinder fassen schnell Vertrauen zu Jeff, dessen Vater bei einem Feuerwehreinsatz ums Leben kam. Sie versuchen ihn mit ihrer Mutter zu verkuppeln aber Jenny zögert, weil sie Angst hat, sie und die Kinder könnten durch eine neuerliche Trennung zutiefst verletzt werden.",
-    "releaseDate": "2013-05-20",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/9WhaTu1VXQmJ15yiNp4Jt5IrdZ5.jpg",
-    "backdropUrl": "https://image.tmdb.org/t/p/w1280/6DLAey1QQa4wA2QQTB8GArJVNlP.jpg",
-    "voteAverage": 6.2,
-    "genreIds": [
-      18,
-      10770,
-      10749
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "hoch",
-    "runtime": 90,
-    "plausibel": "titel",
-    "plausibelVersion": 4,
-    "cast": [
-      "Alison Sweeney",
-      "Greg Vaughan",
-      "Ed Asner",
-      "Benjamin Stockham",
-      "Dawnn Lewis"
-    ],
-    "director": [
-      "Ernie Barbarash"
-    ],
-    "writer": [
-      "James T. Buck",
-      "Karen Struck"
-    ],
-    "fsk": null,
-    "slug": "suche-mitbewohner-biete-familie"
   },
   {
     "videoId": "EhClfOTT0mY",
@@ -292494,47 +292399,6 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "x0A-lY_zNWY",
-    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 6 – Entscheidungen (GANZE SERIEN Deutsch, Liebesdrama Filme)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/x0A-lY_zNWY/hqdefault.jpg",
-    "duration": "PT1H28M46S",
-    "publishedAt": "2024-09-02T13:30:34Z",
-    "channelName": "Wolkesieben",
-    "channelId": "UCP2mfMKvmD0lkSThh9CuU7g",
-    "tmdbId": 1445231,
-    "title": "When Calls the Heart: Rules of Engagement",
-    "originalTitle": "When Calls the Heart: Rules of Engagement",
-    "overview": "",
-    "releaseDate": "2014-12-30",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/9ZCiE1m3bxmRYkWfGG2Xj9sowzA.jpg",
-    "backdropUrl": null,
-    "voteAverage": 0,
-    "genreIds": [
-      10770,
-      18,
-      10749,
-      35
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "hoch",
-    "cast": [
-      "Erin Krakow",
-      "Daniel Lissing",
-      "Jack Wagner",
-      "Pascale Hutton",
-      "Lori Loughlin"
-    ],
-    "director": [
-      "Neill Fearnley"
-    ],
-    "writer": [],
-    "fsk": null,
-    "slug": "when-calls-the-heart-rules-of-engagement",
-    "runtime": 89,
-    "plausibel": "titel",
-    "plausibelVersion": 4
-  },
-  {
     "videoId": "-3qcS7r1-po",
     "youtubeTitle": "Midnight Tango (LIEBESFILM, Musical, Film in voller Länge, Tanzfilm, Musikfilm, Theateraufführung)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/-3qcS7r1-po/hqdefault.jpg",
@@ -292567,82 +292431,6 @@
     "fsk": null,
     "slug": "midnight-tango",
     "runtime": 87,
-    "plausibel": "titel",
-    "plausibelVersion": 4
-  },
-  {
-    "videoId": "eBo4zFrTMSs",
-    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 2 – Das Schweigen danach (Romantische Filmreihe auf Deutsch)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/eBo4zFrTMSs/hqdefault.jpg",
-    "duration": "PT1H23M56S",
-    "publishedAt": "2023-06-08T13:30:13Z",
-    "channelName": "Wolkesieben",
-    "channelId": "UCP2mfMKvmD0lkSThh9CuU7g",
-    "tmdbId": 1441832,
-    "title": "When Calls the Heart: A Telling Silence",
-    "originalTitle": "When Calls the Heart: A Telling Silence",
-    "overview": "",
-    "releaseDate": "2014-10-07",
-    "posterUrl": "https://image.tmdb.org/t/p/w500/TzHvIrIfsHAu9M5ohYfPh3km2Q.jpg",
-    "backdropUrl": null,
-    "voteAverage": 0,
-    "genreIds": [
-      18,
-      10749,
-      35,
-      10770
-    ],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "hoch",
-    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
-    "cast": [
-      "Erin Krakow",
-      "Daniel Lissing",
-      "Lori Loughlin",
-      "Martin Cummins",
-      "Chelah Horsdal"
-    ],
-    "director": [
-      "Michael Landon Jr."
-    ],
-    "writer": [
-      "Ken LaZebnik",
-      "John Wierick"
-    ],
-    "fsk": null,
-    "slug": "when-calls-the-heart-a-telling-silence",
-    "runtime": 84,
-    "plausibel": "titel",
-    "plausibelVersion": 4
-  },
-  {
-    "videoId": "TCRqYwnfXgM",
-    "youtubeTitle": "Janette Oke: Die Coal Valley Saga Teil 1 – Neue Zeiten (atemberaubend historische Romanze)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/TCRqYwnfXgM/hqdefault.jpg",
-    "duration": "PT1H24M13S",
-    "publishedAt": "2023-06-04T13:30:19Z",
-    "channelName": "Wolkesieben",
-    "channelId": "UCP2mfMKvmD0lkSThh9CuU7g",
-    "tmdbId": 335028,
-    "title": "Lost and Found",
-    "originalTitle": "Lost and Found",
-    "overview": "",
-    "releaseDate": "2014-12-31",
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": 0,
-    "genreIds": [],
-    "matchSource": "originaltitel+jahr",
-    "matchConfidence": "niedrig",
-    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 80 (Suchbegriff: \"Lost and Found\")",
-    "cast": [],
-    "director": [
-      "Joan C. Gratz"
-    ],
-    "writer": [],
-    "fsk": null,
-    "slug": "lost-and-found",
-    "runtime": 4,
     "plausibel": "titel",
     "plausibelVersion": 4
   },
@@ -322741,32 +322529,6 @@
     "nichtVerfuegbarSeit": "2026-10-29"
   },
   {
-    "videoId": "xTt6Wsvt6-s",
-    "youtubeTitle": "رمضان في العالم الإسلامي | الحلقة 01: الممارسات في أوروبا",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/xTt6Wsvt6-s/hqdefault.jpg",
-    "duration": "PT58M30S",
-    "publishedAt": "2026-10-27T15:00:09Z",
-    "channelName": "Stream Hier",
-    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
-    "tmdbId": null,
-    "title": "الحلقة 01: الممارسات في أوروبا",
-    "originalTitle": null,
-    "overview": "",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "slug": "01"
-  },
-  {
     "videoId": "U6dGEPIo_rU",
     "youtubeTitle": "Sie ermorden seinen Vater an Weihnachten – jetzt beginnt ein Cop seinen Rachefeldzug | Sharon Stone",
     "youtubeThumbnail": "https://i.ytimg.com/vi/U6dGEPIo_rU/hqdefault.jpg",
@@ -324028,32 +323790,6 @@
     "slug": "crystal-girl-vetro"
   },
   {
-    "videoId": "QA8OqLqGMuI",
-    "youtubeTitle": "لله في خلقه شؤون | الحلقة 11: الريحان والكافور",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/QA8OqLqGMuI/hqdefault.jpg",
-    "duration": "PT40M7S",
-    "publishedAt": "2026-10-29T15:00:29Z",
-    "channelName": "Stream Hier",
-    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
-    "tmdbId": null,
-    "title": "الحلقة 11: الريحان والكافور",
-    "originalTitle": null,
-    "overview": "",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "slug": "11"
-  },
-  {
     "videoId": "xwJkMasObnU",
     "youtubeTitle": "🔥 SPANNUNG, ACTION UND KRIMINALITÄT in einem Film | The Chaser | Ganzer Film auf Deutsch kostenlos",
     "youtubeThumbnail": "https://i.ytimg.com/vi/xwJkMasObnU/hqdefault.jpg",
@@ -324919,7 +324655,7 @@
     "channelName": "CiNENET Deutschland",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 1142192,
-    "title": "力量密码",
+    "title": "The Source of Power",
     "originalTitle": "力量密码",
     "overview": "",
     "releaseDate": "2023-07-01",
@@ -324945,7 +324681,9 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "film-6"
+    "tmdbTitel": "力量密码",
+    "titelKorrigiert": true,
+    "slug": "the-source-of-power"
   },
   {
     "videoId": "avkLLGUQRbY",
@@ -327693,32 +327431,6 @@
     "writer": [],
     "fsk": null,
     "slug": "trennung-in-rom"
-  },
-  {
-    "videoId": "4LaJ02Ladwk",
-    "youtubeTitle": "لله في خلقه شؤون | الحلقة 05: العنب والموز",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/4LaJ02Ladwk/hqdefault.jpg",
-    "duration": "PT41M2S",
-    "publishedAt": "2026-11-05T16:00:03Z",
-    "channelName": "Stream Hier",
-    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
-    "tmdbId": null,
-    "title": "الحلقة 05: العنب والموز",
-    "originalTitle": null,
-    "overview": "",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "slug": "05"
   },
   {
     "videoId": "2wtVt01CuxI",
@@ -334833,31 +334545,5 @@
     "fsk": null,
     "titelKorrigiert": true,
     "slug": "somehow"
-  },
-  {
-    "videoId": "QtrEodMMqro",
-    "youtubeTitle": "لله في خلقه شؤون | الحلقة 15: ماء المطر والبرق",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/QtrEodMMqro/hqdefault.jpg",
-    "duration": "PT40M25S",
-    "publishedAt": "2026-11-11T16:00:25Z",
-    "channelName": "Stream Hier",
-    "channelId": "UCE-Fubwk8KPisNuFzkroT9Q",
-    "tmdbId": null,
-    "title": "الحلقة 15: ماء المطر والبرق",
-    "originalTitle": null,
-    "overview": "",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [],
-    "writer": [],
-    "fsk": null,
-    "slug": "15"
   }
 ]

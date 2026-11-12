@@ -1682,7 +1682,7 @@
   {
     "von": "13-2",
     "zielVideoId": "ikz7a3AnX7o",
-    "zielSlug": "13",
+    "zielSlug": "day-of-the-demons",
     "seit": "2026-11-12",
     "grund": "zusammengeführt"
   },
@@ -2565,6 +2565,48 @@
     "von": "von-seiner-vergangenheit-verfolgt-sucht-ein-vater-in-ganz-eu",
     "zielVideoId": "tthe_8PKDic",
     "zielSlug": "somehow",
+    "seit": "2026-11-12",
+    "grund": "Titel geändert"
+  },
+  {
+    "von": "film",
+    "zielVideoId": "iGGk97eT384",
+    "zielSlug": "my-father-is-a-hero",
+    "seit": "2026-11-12",
+    "grund": "Titel geändert"
+  },
+  {
+    "von": "film-2",
+    "zielVideoId": "1EqQk40czLQ",
+    "zielSlug": "american-conjuring-the-linda-vista-project",
+    "seit": "2026-11-12",
+    "grund": "Titel geändert"
+  },
+  {
+    "von": "13",
+    "zielVideoId": "ikz7a3AnX7o",
+    "zielSlug": "day-of-the-demons",
+    "seit": "2026-11-12",
+    "grund": "Titel geändert"
+  },
+  {
+    "von": "film-5",
+    "zielVideoId": "keBWEhlicLA",
+    "zielSlug": "das-blut-der-seidenstrasse",
+    "seit": "2026-11-12",
+    "grund": "Titel geändert"
+  },
+  {
+    "von": "film-3",
+    "zielVideoId": "PgLOAsTd9TY",
+    "zielSlug": "geroy-der-held",
+    "seit": "2026-11-12",
+    "grund": "Titel geändert"
+  },
+  {
+    "von": "film-6",
+    "zielVideoId": "ylKOSJKKfCE",
+    "zielSlug": "the-source-of-power",
     "seit": "2026-11-12",
     "grund": "Titel geändert"
   }
