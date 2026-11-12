@@ -14,6 +14,9 @@
 //                             Serienwort im Titel sind (Nanoki: "Meine
 //                             peinlichen Eltern – Ep26", 23 Min; CiNENET
 //                             Klassiker: "Sherlock Holmes" von 1954, 26 Min)
+//       nurMitDeutscherBeschreibung  nur Videos mit deutsch geschriebener
+//                             Beschreibung (wocomoMOVIES, siehe
+//                             beschreibungIstDeutsch)
 //       ausschlussMuster      regulärer Ausdruck (Text), passende Titel fliegen
 //                             raus -- z.B. Mehrteiler "Teil 3/4", "Himmler 1/6"
 //   - sämtliche Videos von Kanälen mit "inPruefung": true im Profil
@@ -112,6 +115,24 @@ function parseDuration(iso) {
 
 const DEUTSCH_HINWEIS = /deutsch|german version|synchron/i;
 
+// Ist die Beschreibung deutsch geschrieben? Für Kanäle, die denselben Film
+// in mehreren Sprachfassungen als getrennte Videos hochladen und die Sprache
+// nur an der Beschreibung erkennen lassen. wocomoMOVIES (13.11.2026): 368
+// lange Videos, davon 176 mit deutscher Beschreibung -- die übrigen sind
+// englisch, portugiesisch ("Filme Brasileiro Completo") oder ungarisch
+// ("Der Bibelkód – 1. rész", deutscher Titelanfang, ungarischer Rest). Das
+// Wort "deutsch" fehlt dort in Titel und Beschreibung fast immer, deshalb
+// greift nurMitDeutschHinweis nicht. Gezählt werden häufige Wörter in den
+// ersten 600 Zeichen; Deutsch muss vor Englisch und Portugiesisch liegen.
+export function beschreibungIstDeutsch(beschreibung) {
+  const d = (beschreibung || "").slice(0, 600).toLowerCase();
+  const zaehle = (re) => (d.match(re) || []).length;
+  const de = zaehle(/\b(und|der|die|das|nicht|ist|mit|ein|eine|von|sich|auf)\b/g);
+  const en = zaehle(/\b(the|and|of|is|with|his|her|to|in|a)\b/g);
+  const pt = zaehle(/\b(que|uma|um|não|com|para|seu|sua|é|os|as)\b/g);
+  return de >= 5 && de > en && de > pt;
+}
+
 function classify(video, profil) {
   // Rohdaten eines Kanals, der aus config/channels.json entfernt wurde,
   // bleiben in data/raw liegen. Ohne diese Regel galten seine Videos als
@@ -161,6 +182,9 @@ function classify(video, profil) {
   }
   if (profil.ausschlussMuster && new RegExp(profil.ausschlussMuster, "i").test(video.title)) {
     return { include: false, reason: "Kanalregel: Ausschlussmuster im Titel" };
+  }
+  if (profil.nurMitDeutscherBeschreibung === true && !beschreibungIstDeutsch(video.description)) {
+    return { include: false, reason: "Kanalregel: Beschreibung nicht deutsch" };
   }
   if (profil.nurMitDeutschHinweis === true && !DEUTSCH_HINWEIS.test(`${video.title} ${video.description || ""}`)) {
     return { include: false, reason: "Kanalregel: kein Hinweis auf deutsche Fassung" };
