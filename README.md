@@ -528,6 +528,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 
 **Bewusst nicht aufgenommen:**
 - **XorboD** (@Xorbod, UCU8wCz7vkJVManfP3gXUZ4g), **Filme Gucken TV** (@FilmeGuckenTV, UCZV0tyYJkMUHi77lAOqkgJQ), **DUDU** (@dudu6250, UC3dI0Q_1GFzB88Jm8XS6AdA) — geprüft 12.11.2026: kein einziger Lizenzhinweis; XorboD lädt Studiofilme hoch („Under the Silver Lake“, „Blair Witch“ 2016), Filme Gucken TV „Orca, der Killerwal“ und Bud-Spencer-Filme („ohne Partnerprogramm“), DUDU ist ein Fan-Kanal. Sehr wahrscheinlich keine lizenzierten Uploads
+- **DasFliegendeGehirn** (@DasFliegendeGehirn, UCVvUfrlfDEPoFNVqTKDGJFg, Playlist „Filme“ PL266boC7LzLHYJvU-Rfo-yF-o61oPAIOW) — geprüft 12.11.2026: eigene TV- und VHS-Mitschnitte von Sammlern („ZDF-Ausstrahlung … nicht offiziell erhältliche deutsche Synchro“, „ARD-Weihnachtsprogramm 1983“ mit Ansage, „Restaurierte VHS-Kopie“), kein Lizenzhinweis. Dazu ein ZDF-Vierteiler, ein Trickfilm, eine Episode einer Fernsehreihe und ein OmU-Film unter den 32 Videos
 - **Heftige Action** (@HeftigeAction) — zeigt laut Beschreibung nur Action-Szenen aus Filmen, keine ganzen Filme
 - **Daredo TV #Doku** (@daredo-tv-doku) — Dokus
 - **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Nanoki (Lern- und Schulfilme), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
@@ -545,6 +546,8 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 4. Rohdaten in `data/raw/<channelId>.json` sichten: Sprache, Laufzeiten (Kurzvideos, Dokus, Reportagen?), Serien, Aufbau von Titel und Beschreibung
 5. Profil passend setzen und `inPruefung` entfernen — beim nächsten Scan werden die Videos verarbeitet
 6. Danach die Zuordnungsquote je Kanal prüfen und bei Bedarf nachschärfen
+
+**Nur eine Playlist statt aller Uploads:** Lädt ein Kanal neben Filmen vor allem anderes hoch, kann der Eintrag zusätzlich `"playlistId": "PL…"` bekommen. `fetch-youtube.js` liest dann nur diese Playlist, und zwar bei jedem Lauf vollständig, weil eine selbst angelegte Playlist nicht nach Datum sortiert ist. Die Rohdaten werden dabei jedes Mal durch den aktuellen Inhalt der Playlist ersetzt. `channelId` bleibt Pflicht, denn Profile und Rohdatei hängen an ihr. Seit 12.11.2026 möglich, bisher ohne aufgenommene Quelle (DasFliegendeGehirn wurde geprüft und abgelehnt).
 
 **Befund der Aufnahme vom Oktober 2026** (sechs Kanäle, an den Rohdaten geprüft):
 - **All Time Classic Movies** — rund die Hälfte englisch (US-TV-Serien, Hollywood-Klassiker, russische Filme mit Untertiteln) → `nurMitDeutschHinweis`, 260 von 539 bleiben; zusätzlich `ausschlussMuster` für Interviews, TV-Shows (Glücksrad), Heimfilm-Sammlungen und Mehrteiler
