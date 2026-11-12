@@ -9,6 +9,11 @@
 //                             "deutsch"/"German version"/"synchron" enthält --
 //                             für gemischtsprachige Kanäle (All Time Classic
 //                             Movies: rund die Hälfte englisch)
+//       mindestMinuten        höhere Mindestlaufzeit für diesen Kanal -- für
+//                             Kanäle, deren kurze Videos Serienfolgen ohne
+//                             Serienwort im Titel sind (Nanoki: "Meine
+//                             peinlichen Eltern – Ep26", 23 Min; CiNENET
+//                             Klassiker: "Sherlock Holmes" von 1954, 26 Min)
 //       ausschlussMuster      regulärer Ausdruck (Text), passende Titel fliegen
 //                             raus -- z.B. Mehrteiler "Teil 3/4", "Himmler 1/6"
 //   - sämtliche Videos von Kanälen mit "inPruefung": true im Profil
@@ -150,6 +155,9 @@ function classify(video, profil) {
   }
   if (DOKU_SELBSTBESCHREIBUNG.test((video.description || "").slice(0, 600))) {
     return { include: false, reason: "Dokumentation (beschreibt sich selbst so)" };
+  }
+  if (profil.mindestMinuten && seconds < profil.mindestMinuten * 60) {
+    return { include: false, reason: `Kanalregel: kürzer als ${profil.mindestMinuten} Min (${Math.round(seconds / 60)} Min)` };
   }
   if (profil.ausschlussMuster && new RegExp(profil.ausschlussMuster, "i").test(video.title)) {
     return { include: false, reason: "Kanalregel: Ausschlussmuster im Titel" };

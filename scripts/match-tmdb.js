@@ -516,6 +516,20 @@ function titelzeilenAusBeschreibung(desc) {
 // Ableitungen).
 const MAX_SUCHBEGRIFF = 150;
 
+// "EIN UNGLEICHES PAAR mit Michael Douglas"            -> "EIN UNGLEICHES PAAR"
+// "Tourist Trap #ganzerfilm #halloween"                -> "Tourist Trap"
+// Gefunden am 13.11.2026 bei STUDIOCANAL Germany (Star hinter dem Titel) und
+// Pandastorm Pictures (Hashtags mitten im Titel). Der Star muss aus Vor- und
+// Nachname bestehen, sonst würde "Tanz mit Laura" zu "Tanz". Ein Hashtag am
+// Titelanfang bleibt ("#Roxy" ist ein Filmtitel).
+function ohneHashtagUndStar(text) {
+  if (!text) return null;
+  let t = text.replace(/\s#[\p{L}\d_]+/gu, " ");
+  t = t.replace(/\s+mit\s+\p{Lu}[\p{L}.'-]+\s+\p{Lu}[\p{L}.'-]+.*$/u, "");
+  t = t.replace(/\s{2,}/g, " ").replace(/[\s\-–|]+$/, "").trim();
+  return t.length >= 2 && t !== text.trim() ? t : null;
+}
+
 function buildQueryCandidates(info, video) {
   const candidates = [];
   const seen = new Set();
@@ -593,6 +607,11 @@ function buildQueryCandidates(info, video) {
   // Feste Titelzeile "TITEL (JAHR)" -- gilt für alle Kanäle, weil sie so
   // streng definiert ist, dass sie keine Werbung oder Überschriften erfasst.
   titelzeilenAusBeschreibung(video.description).forEach(add);
+
+  // Ohne Hashtags und ohne angehängten Star ("... mit Michael Douglas").
+  // Weit hinten, damit bestehende Zuordnungen unverändert bleiben.
+  add(ohneHashtagUndStar(info.fallbackQuery));
+  add(ohneHashtagUndStar(firstDashSegment(video.title)));
 
   // Allerletzter Versuch, bevor aufgegeben wird: reines Erst-Segment
   add(firstDashSegment(video.title));

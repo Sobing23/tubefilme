@@ -4,7 +4,7 @@
     {
       "name": "All Time Classic Movies",
       "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
-      "profil": { "nurMitDeutschHinweis": true, "ausschlussMuster": "interview|erinnert sich|spricht über|glücksrad|heimfilme|tv-unterhaltung|cartoon|kleine morde|\\bteil \\d|\\d\\. teil" }
+      "profil": { "nurMitDeutschHinweis": true, "ausschlussMuster": "interview|erinnert sich|spricht über|glücksrad|heimfilme|tv-unterhaltung|cartoon|kleine morde|\\bteil\\W{0,3}\\d|\\d\\. teil" }
     },
     { "name": "Alle Filme Auf Deutsch", "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA" },
     { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
@@ -47,23 +47,18 @@
       "channelId": "UChdsePumnXsycplDMEVY4zw",
       "profil": { "pipeAlsTitelvariante": false }
     },
-    { "name": "CiNENET Klassiker", "channelId": "UCxqE8Wd3H4KaS6kxkBytIiA", "profil": { "inPruefung": true } },
-    { "name": "Cowboy Filme - Western Movies", "channelId": "UCtnSmfVH1brwwMk8JYmYPvw", "profil": { "inPruefung": true } },
-    { "name": "CrimeStar", "channelId": "UCpKNAQ9LDVVx39Vx1iO1XEw", "profil": { "inPruefung": true } },
-    { "name": "Glaubensfilme", "channelId": "UCQ-CTVMUyNArCK3OqozlKCQ", "profil": { "inPruefung": true } },
-    { "name": "Golden Frame KINO", "channelId": "UCHvggQm37DoBWI4afvIueZg", "profil": { "inPruefung": true } },
-    { "name": "ickeboo", "channelId": "UCFUsqVbQm_McqZfh4EBgc-g", "profil": { "inPruefung": true } },
-    { "name": "Making Legends", "channelId": "UCVebThBZkwkV6EKRae-Noqg", "profil": { "inPruefung": true } },
-    { "name": "Nanoki", "channelId": "UCF2IFFQyO5gbhvOCObh1WTQ", "profil": { "inPruefung": true } },
+    { "name": "CiNENET Klassiker", "channelId": "UCxqE8Wd3H4KaS6kxkBytIiA", "profil": { "pipeAlsTitelvariante": false, "mindestMinuten": 40, "ausschlussMuster": "\\bteil\\W{0,3}\\d" } },
+    { "name": "CrimeStar", "channelId": "UCpKNAQ9LDVVx39Vx1iO1XEw", "profil": { "ausschlussMuster": "\\bteil\\W{0,3}\\d" } },
+    { "name": "Glaubensfilme", "channelId": "UCQ-CTVMUyNArCK3OqozlKCQ", "profil": { "ausschlussMuster": "\\bteil\\W{0,3}\\d|doku-serie" } },
+    { "name": "Making Legends", "channelId": "UCVebThBZkwkV6EKRae-Noqg" },
+    { "name": "Nanoki", "channelId": "UCF2IFFQyO5gbhvOCObh1WTQ", "profil": { "mindestMinuten": 40, "ausschlussMuster": "schulfilm|lehrfilm|lernfilm|lernvideo|zeichentrickserie|kinderserie|vorgelesen|bilderserie|\\bep ?\\d|\\bteil\\W{0,3}\\d|\\[teil" } },
     { "name": "NEORA", "channelId": "UC2MtVsxZ4v7mnC7W_WHeR4w", "profil": { "inPruefung": true } },
-    { "name": "Thomas Heusner", "channelId": "UCw0_FxLtEHKFvoOXipACqZA", "profil": { "inPruefung": true } },
     { "name": "wocomoMOVIES", "channelId": "UClVQAVNmaAZeEOXpOOe0OKw", "profil": { "inPruefung": true } },
-    { "name": "STUDIOCANAL Germany", "playlistIds": ["PLwmzCUfjU8CYALIACpzxlo2kgX6n-Z12U"] },
-    { "name": "Movie360", "playlistIds": ["PLADbnF9yO3Ah3NdT79KMMibO0V2DrW6C2"] },
-    { "name": "Pandastorm Pictures", "playlistIds": ["PLuF065-Gva8XDgimGIqeTJxC9vD7JlN3J"] },
-    { "name": "ARTE Film", "playlistIds": ["PLE0BXiUk9q6g"] },
-    { "name": "Free Movie Central - Deutsch", "playlistIds": ["PLVZnG91zLHM_48IrpJWFc_SlGKcBidHRc", "PLVZnG91zLHM_-PMd45KHCMfgpCl93WY82", "PLVZnG91zLHM_G33dSUAott5I3icHz0tMO", "PLVZnG91zLHM9fJtCpMuc9JGX5SF0z-3b9"] },
-    { "name": "TV-Klassiker", "playlistIds": ["PLx7XyMBfhgoq3xGSagHL4boGfvlydz5oz", "PLx7XyMBfhgoqzKDveNxikJ7-aaLC_fL5u"] },
+    { "name": "STUDIOCANAL Germany", "channelId": "UC8mnCoCi6eTQN0t8zapHYrA", "profil": { "ausschlussMuster": "komplette serie" }, "playlistIds": ["PLwmzCUfjU8CYALIACpzxlo2kgX6n-Z12U"] },
+    { "name": "Movie360", "channelId": "UCsMdJzPiTH_TGpWSLg9fPrA", "profil": { "ausschlussMuster": "full movie|multi-sub|pel[ií]cula|film englisch|\\bteil\\W{0,3}\\d" }, "playlistIds": ["PLADbnF9yO3Ah3NdT79KMMibO0V2DrW6C2"] },
+    { "name": "Pandastorm Pictures", "channelId": "UCg4OrITaT-hkDpv4mwko20w", "profil": { "pipeAlsTitelvariante": false }, "playlistIds": ["PLuF065-Gva8XDgimGIqeTJxC9vD7JlN3J"] },
+    { "name": "Free Movie Central - Deutsch", "channelId": "UC2uQo5jV5MWGanI-j2vFRlA", "profil": { "ausschlussMuster": "\\bteil\\W{0,3}\\d" }, "playlistIds": ["PLVZnG91zLHM_48IrpJWFc_SlGKcBidHRc", "PLVZnG91zLHM_-PMd45KHCMfgpCl93WY82", "PLVZnG91zLHM_G33dSUAott5I3icHz0tMO", "PLVZnG91zLHM9fJtCpMuc9JGX5SF0z-3b9"] },
+    { "name": "TV-Klassiker", "channelId": "UCuoVU32d3aQGL39GSyBaPLA", "profil": { "mindestMinuten": 40, "ausschlussMuster": "\\bteil\\W{0,3}\\d" }, "playlistIds": ["PLx7XyMBfhgoq3xGSagHL4boGfvlydz5oz", "PLx7XyMBfhgoqzKDveNxikJ7-aaLC_fL5u"] },
     { "name": "Draco Actionfilme", "channelId": "UCHAE4BV0_nvubIyNuCrtg3A" },
     { "name": "Dzango", "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ" },
     { "name": "FABELLA", "channelId": "UCww-ReMpc2FgiGb6vIQddWg" },
@@ -96,7 +91,7 @@
     {
       "name": "Rashland",
       "channelId": "UCo-WzNHl4AOFBdOUfoj3WSA",
-      "profil": { "ausschlussMuster": "\\bteil \\d+\\s?/\\s?\\d+|\\b\\d\\s?/\\s?\\d\\b|\\bpt\\.? ?\\d|dokumente des" }
+      "profil": { "ausschlussMuster": "\\bteil\\W{0,3}\\d+\\s?/\\s?\\d+|\\b\\d\\s?/\\s?\\d\\b|\\bpt\\.? ?\\d|dokumente des" }
     },
     {
       "name": "Retroflix",
