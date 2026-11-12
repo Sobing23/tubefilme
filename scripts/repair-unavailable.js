@@ -13,6 +13,12 @@
 //      nichts Sichtbares, und aufgebaute Sichtbarkeit bei Suchmaschinen
 //      geht nicht verloren.
 //
+//      Seit 12.11.2026 auch ohne tmdbId: Ersatz-Uploads, die
+//      merge-duplicates.js abgelegt hat, tragen "ersatzFuer" (Video-ID des
+//      bleibenden Eintrags). Nach einem Austausch zieht dieses Skript
+//      "ersatzFuer" und die Ziele in data/weiterleitungen.json auf die neue
+//      Video-ID nach.
+//
 //   2. Kein Ersatz
 //      Der Film wird als nicht verfügbar gekennzeichnet. Er verschwindet
 //      aus dem Kachelraster und aus der Sitemap, seine Seite bleibt aber
@@ -71,6 +77,14 @@ const FILME_PATH = "data/filme.json";
 const UNAVAILABLE_PATH = "data/unavailable.json";
 const DUPLICATES_PATH = "data/duplicates.json";
 const REPAIR_LOG = "data/repaired.json";
+const WEITERLEITUNGEN_PATH = "data/weiterleitungen.json";
+
+// Passt ein Ersatz-Upload zu diesem Film? Über die tmdbId oder, bei Filmen
+// ohne TMDB-Treffer, über "ersatzFuer".
+function passtZu(d, film) {
+  if (film.tmdbId) return d.tmdbId === film.tmdbId;
+  return d.ersatzFuer === film.videoId;
+}
 
 async function leseJson(pfad, standard) {
   try {
@@ -84,6 +98,7 @@ async function main() {
   const filme = await leseJson(FILME_PATH, []);
   const unavailable = await leseJson(UNAVAILABLE_PATH, []);
   const duplicates = await leseJson(DUPLICATES_PATH, []);
+  const weiterleitungen = await leseJson(WEITERLEITUNGEN_PATH, []);
 
   if (unavailable.length === 0) {
     console.log("Keine nicht abspielbaren Filme vermerkt -- nichts zu tun.");
@@ -101,9 +116,9 @@ async function main() {
   // gegen YouTube prüfen -- ein einziger Aufruf je 50 Kandidaten.
   const kandidatenIds = new Set();
   for (const film of filme) {
-    if (!befundNachVideo.has(film.videoId) || !film.tmdbId) continue;
+    if (!befundNachVideo.has(film.videoId)) continue;
     duplicates
-      .filter((d) => d.tmdbId === film.tmdbId && d.videoId !== film.videoId && !totIds.has(d.videoId) && !inBibliothek.has(d.videoId))
+      .filter((d) => passtZu(d, film) && d.videoId !== film.videoId && !totIds.has(d.videoId) && !inBibliothek.has(d.videoId))
       .forEach((d) => kandidatenIds.add(d.videoId));
   }
 
@@ -131,17 +146,15 @@ async function main() {
 
     // Ersatz suchen: gleicher Film, anderer Upload, selbst nicht tot,
     // noch nicht anderweitig vergeben und nicht schon in der Bibliothek
-    const ersatz = film.tmdbId
-      ? duplicates.find(
+    const ersatz = duplicates.find(
           (d) =>
-            d.tmdbId === film.tmdbId &&
+            passtZu(d, film) &&
             d.videoId !== film.videoId &&
             !totIds.has(d.videoId) &&
             !verbrauchteErsatzIds.has(d.videoId) &&
             !inBibliothek.has(d.videoId) &&
             geprueftAbspielbar.has(d.videoId)
-        )
-      : null;
+        );
 
     if (ersatz) {
       reparaturen.push({
@@ -151,6 +164,10 @@ async function main() {
         grund: befund.grund,
         ersetztAm: new Date().toISOString().slice(0, 10),
       });
+
+      // Verweise auf die alte Video-ID nachziehen
+      for (const d of duplicates) if (d.ersatzFuer === film.videoId) d.ersatzFuer = ersatz.videoId;
+      for (const w of weiterleitungen) if (w.zielVideoId === film.videoId) w.zielVideoId = ersatz.videoId;
 
       film.videoId = ersatz.videoId;
       film.channelName = ersatz.channelName;
@@ -204,6 +221,7 @@ async function main() {
   await fs.writeFile(FILME_PATH, JSON.stringify(filme, null, 2), "utf-8");
   await fs.writeFile(UNAVAILABLE_PATH, JSON.stringify(verbleibend, null, 2), "utf-8");
   await fs.writeFile(DUPLICATES_PATH, JSON.stringify(bereinigteDuplikate, null, 2), "utf-8");
+  if (getauscht > 0) await fs.writeFile(WEITERLEITUNGEN_PATH, JSON.stringify(weiterleitungen, null, 2), "utf-8");
 
   console.log(`Durch Ersatz-Upload repariert:      ${getauscht}`);
   console.log(`Als nicht verfügbar gekennzeichnet: ${markiert}`);

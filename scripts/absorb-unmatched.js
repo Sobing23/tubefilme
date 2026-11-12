@@ -20,6 +20,7 @@
 
 import fs from "fs/promises";
 import { titelHinterVorsatz } from "./lib/titel-vorsatz.js";
+import { gleicherFilm } from "./lib/doppel.js";
 
 const UNMATCHED_PATH = "data/unmatched.json";
 const CANDIDATES_PATH = "data/candidates.json";
@@ -29,6 +30,7 @@ const KORREKTUREN_PATH = "data/titel-korrekturen.json";
 const IGNORED_PATH = "data/ignored.json";
 const CHANNELS_PATH = "config/channels.json";
 const PROTOKOLL_PATH = "data/aussortiert.json";
+const DUPLICATES_PATH = "data/duplicates.json";
 
 // Ein Video ohne TMDB-Treffer wird nur übernommen, wenn es Spielfilmlänge hat.
 // Darunter waren bei der Stichprobe vom 13.10.2026 fast nur Zeichentrick-
@@ -413,6 +415,13 @@ async function main() {
 
   const bleibtUnmatched = [];
   let uebernommen = 0;
+  let alsErsatz = 0;
+  let duplicates = [];
+  try {
+    duplicates = JSON.parse(await fs.readFile(DUPLICATES_PATH, "utf-8"));
+  } catch {
+    // noch keine Duplikate
+  }
   let wartet = 0;
   let ohneDaten = 0;
   let zuKurz = 0;
@@ -524,7 +533,7 @@ async function main() {
     const jahr = extractYear(video.title, video.description) || (vorsatz ? vorsatz.jahr : null);
     const { cast, directors } = extractPeople(video.description);
 
-    filme.push({
+    const neu = {
       videoId: video.videoId,
       youtubeTitle: video.title,
       youtubeThumbnail: video.thumbnail,
@@ -550,21 +559,45 @@ async function main() {
       director: directors,
       writer: [],
       fsk: null,
-    });
+    };
 
+    // Steht derselbe Film schon in der Bibliothek (gleicher Titel, gleiche
+    // Laufzeit -- scripts/lib/doppel.js), wird das Video Ersatz-Upload statt
+    // zweiter Eintrag. Seit 12.11.2026; vorher stand z.B. "Vincent will das
+    // Geld" elfmal in der Bibliothek.
+    const vorhanden = filme.find((m) => gleicherFilm(m, neu));
     delete attempts[videoId];
+    if (vorhanden) {
+      duplicates.push({
+        videoId: neu.videoId,
+        youtubeTitle: neu.youtubeTitle,
+        channelName: neu.channelName,
+        channelId: neu.channelId,
+        tmdbId: vorhanden.tmdbId ?? null,
+        title: vorhanden.title,
+        bereitsVorhandenAufKanal: vorhanden.channelName,
+        ersatzFuer: vorhanden.videoId,
+        hinweis: "bei der Übernahme aus YouTube erkannt: derselbe Film (gleicher Titel, gleiche Laufzeit)",
+      });
+      alsErsatz++;
+      continue;
+    }
+
+    filme.push(neu);
     uebernommen++;
   }
 
   await fs.writeFile(FILME_PATH, JSON.stringify(filme, null, 2), "utf-8");
   await fs.writeFile(UNMATCHED_PATH, JSON.stringify(bleibtUnmatched, null, 2), "utf-8");
   await fs.writeFile(ATTEMPTS_PATH, JSON.stringify(attempts, null, 2), "utf-8");
+  if (alsErsatz > 0) await fs.writeFile(DUPLICATES_PATH, JSON.stringify(duplicates, null, 2), "utf-8");
   if (zuKurz > 0) {
     await fs.writeFile(IGNORED_PATH, JSON.stringify(ignored, null, 2), "utf-8");
     await fs.writeFile(PROTOKOLL_PATH, JSON.stringify(protokoll, null, 2), "utf-8");
   }
 
   console.log(`Aus YouTube-Daten übernommen:        ${uebernommen}`);
+  console.log(`Schon vorhanden, als Ersatz abgelegt: ${alsErsatz}`);
   console.log(`Wartet noch (Schonfrist ${MIN_VERSUCHE} Läufe): ${wartet}`);
   console.log(`Kein verwertbarer Titel:             ${ohneDaten}`);
   console.log(`Unter ${MIN_MINUTEN_OHNE_TMDB} Min., nicht übernommen:    ${zuKurz}`);

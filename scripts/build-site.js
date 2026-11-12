@@ -21,6 +21,8 @@ import path from "path";
 import crypto from "crypto";
 
 const FILME_PATH = "data/filme.json";
+const WEITERLEITUNGEN_PATH = "data/weiterleitungen.json";
+const VERCEL_PATH = "vercel.json";
 const INDEX_PATH = "data/index.json";
 const FILM_DIR = "film";
 const BASE_URL = "https://www.tubefilme.de";
@@ -481,11 +483,28 @@ async function main() {
   // bei Suchmaschinen aufgebaute Sichtbarkeit wäre verloren. Genau das soll
   // der Austausch ja verhindern.
   // Alte Adressen (mit angehängter Video-ID) einmalig verwerfen
+  //
+  // Seit 12.11.2026 bekommt eine so verworfene Adresse eine Weiterleitung
+  // auf die neue (vorher lief sie auf eine 404), ebenso jede Adresse eines
+  // Eintrags, den merge-duplicates.js zusammengeführt hat. Beides steht in
+  // data/weiterleitungen.json; weggefallene Adressen werden nie neu vergeben.
+  let weiterleitungen = [];
+  try {
+    weiterleitungen = JSON.parse(await fs.readFile(WEITERLEITUNGEN_PATH, "utf-8"));
+  } catch {
+    // noch keine Weiterleitungen
+  }
+  const stichtag = new Date().toISOString().slice(0, 10);
+  let neueWeiterleitungen = 0;
   filme.forEach((m) => {
-    if (istAlteAdresse(m.slug, m.title)) delete m.slug;
+    if (istAlteAdresse(m.slug, m.title)) {
+      weiterleitungen.push({ von: m.slug, zielVideoId: m.videoId, zielSlug: null, seit: stichtag, grund: "Titel geändert" });
+      neueWeiterleitungen++;
+      delete m.slug;
+    }
   });
 
-  const vergeben = new Set(filme.map((m) => m.slug).filter(Boolean));
+  const vergeben = new Set([...filme.map((m) => m.slug).filter(Boolean), ...weiterleitungen.map((w) => w.von)]);
   let neueSlugs = 0;
   filme.forEach((m) => {
     if (m.slug) return; // bereits vergeben, bleibt für immer
@@ -505,6 +524,43 @@ async function main() {
   if (neueSlugs > 0) {
     await fs.writeFile(FILME_PATH, JSON.stringify(filme, null, 2), "utf-8");
   }
+
+  // Weiterleitungen auflösen: Ziel über die Video-ID (repair-unavailable.js
+  // zieht sie bei einem Austausch nach), sonst über die gemerkte Adresse.
+  // Ketten (A -> B, B weggefallen -> C) werden bis zum Ende verfolgt. Eine
+  // Adresse, die ein lebender Film trägt, wird nie umgeleitet.
+  const slugNachVideo = new Map(filme.map((m) => [m.videoId, m.slug]));
+  const lebend = new Set(filme.map((m) => m.slug));
+  const nachVon = new Map(weiterleitungen.map((w) => [w.von, w]));
+  for (const w of weiterleitungen) {
+    const s = slugNachVideo.get(w.zielVideoId);
+    if (s) w.zielSlug = s;
+  }
+  function ziel(w, tiefe = 0) {
+    if (tiefe > 10 || !w.zielSlug) return null;
+    if (lebend.has(w.zielSlug)) return w.zielSlug;
+    const weiter = nachVon.get(w.zielSlug);
+    return weiter ? ziel(weiter, tiefe + 1) : null;
+  }
+  const regeln = [];
+  for (const w of weiterleitungen) {
+    if (lebend.has(w.von)) continue;
+    const z = ziel(w);
+    if (z && z !== w.von) regeln.push({ source: `/${FILM_DIR}/${w.von}`, destination: `/${FILM_DIR}/${z}`, permanent: true });
+  }
+  await fs.writeFile(WEITERLEITUNGEN_PATH, JSON.stringify(weiterleitungen, null, 2), "utf-8");
+
+  // In vercel.json nur die eigenen Film-Weiterleitungen ersetzen, alles
+  // andere (Header, fremde Weiterleitungen) bleibt. Vercel erlaubt 2.048.
+  const vercel = JSON.parse(await fs.readFile(VERCEL_PATH, "utf-8"));
+  const fremde = (vercel.redirects || []).filter((r) => !String(r.source).startsWith(`/${FILM_DIR}/`));
+  if (fremde.length + regeln.length > 2048) {
+    throw new Error(`Zu viele Weiterleitungen für vercel.json: ${fremde.length + regeln.length} (Grenze 2.048)`);
+  }
+  vercel.redirects = [...fremde, ...regeln];
+  if (vercel.redirects.length === 0) delete vercel.redirects;
+  await schreibeWennGeaendert(VERCEL_PATH, JSON.stringify(vercel, null, 2) + "\n");
+  console.log(`Weiterleitungen: ${regeln.length} aktiv${neueWeiterleitungen ? `, ${neueWeiterleitungen} neu wegen geänderter Titel` : ""}`);
 
   await fs.mkdir(FILM_DIR, { recursive: true });
 

@@ -51,6 +51,7 @@ scripts/
   auto-verify.js         unsichere Zuordnungen gegen die Besetzung prüfen
   absorb-unmatched.js    nicht auffindbare Filme aus YouTube-Daten übernehmen
   fix-titles.js          Werbeüberschriften in Titeln durch echte Filmtitel ersetzen
+  merge-duplicates.js    Mehrfacheinträge ohne TMDB zusammenführen (Titel + Laufzeit)
   fetch-cast.js          Besetzung, Regie, Drehbuch von TMDB
   fetch-fsk.js           deutsche Alterseinstufung von TMDB
   repair-unavailable.js  tote Videos ersetzen oder kennzeichnen
@@ -94,12 +95,13 @@ Reihenfolge in `scan.yml` — sie ist nicht beliebig:
 | 5 | `auto-verify` | Prüft unsichere Zuordnungen gegen die bereits gespeicherte Besetzung. | keine |
 | 6 | `absorb-unmatched` | Übernimmt endgültig nicht auffindbare Filme mit YouTube-Metadaten — **nur ab 40 Minuten**. Kürzere Videos ohne TMDB-Treffer kommen nach `ignored.json` (Protokoll in `aussortiert.json`). Von TMDB bestätigte Kurzfilme (Chaplin, Keaton, DEFA-Märchen) bleiben, sie kommen über `match-tmdb`. Entscheidung 13.10.2026. | keine |
 | 7 | `fix-titles` | Setzt zuerst die von Hand ermittelten Titel aus `titel-korrekturen.json` (`titelKorrigiert`), dann: ersetzt Werbeüberschriften bei übernommenen Filmen durch den echten Titel; zweite Stufe holt den Namen aus `Den Spielfilm „X“`, `Werbesatz: NAME`, schneidet Gattungs-Segmente ab und markiert Rest-Werbesätze mit `titelUnsicher`. | keine |
+| 7m | `merge-duplicates` | Führt Mehrfacheinträge zusammen, an denen ein Eintrag ohne TMDB beteiligt ist: gleicher Titel und gleiche Laufzeit (siehe [Mehrfacheinträge ohne TMDB](#mehrfacheinträge-ohne-tmdb)). Die übrigen werden Ersatz-Uploads mit `ersatzFuer`, ihre Adressen kommen nach `weiterleitungen.json`. | keine |
 | 8 | `fetch-cast` | Besetzung/Regie/Drehbuch nachladen. Überspringt Filme, die diese Felder schon haben. | TMDB |
 | 9 | `fetch-fsk` | FSK nachladen (eigener TMDB-Endpunkt für Freigaben je Land). | TMDB |
 | 10a | `check-availability` | Prüft alle Videos auf Abspielbarkeit (gelöscht, privat, nicht einbettbar, in DE gesperrt) — rund 150 Abfragen; ein Fehler bricht den Scan nicht ab. | YouTube |
 | 10 | `repair-unavailable` | Tote Videos durch geprüfte Ersatz-Uploads ersetzen oder kennzeichnen. | YouTube |
 | 11 | `build-site` | Index, Startseite, Filmseiten, Sitemap erzeugen. | — |
-| 12 | Commit | `git add data/ film/ index.html sitemap.xml robots.txt` | — |
+| 12 | Commit | `git add data/ film/ index.html sitemap.xml robots.txt vercel.json` | — |
 
 **Warum diese Reihenfolge:**
 - `auto-verify` braucht die Besetzung aus einem *früheren* Lauf, deshalb steht es vor `fetch-cast`.
@@ -242,6 +244,16 @@ Erkennt `auto-verify` eine Zuordnung als falsch, wandert die tmdbId nach `reject
 ### 8. Kanalübergreifende Duplikate
 
 Derselbe Film über mehrere Kanäle: erster Fund gewinnt, jeder weitere wandert dokumentiert nach `duplicates.json`. Dort bleibt er als Ersatz-Upload verfügbar, falls der Hauptupload später verschwindet.
+
+### Mehrfacheinträge ohne TMDB
+
+Über die tmdbId lassen sich nur Filme mit TMDB-Treffer zusammenführen. Am 11.11.2026 standen deshalb 317 Titel mit 768 Einträgen mehrfach in der Bibliothek — „Vincent will das Geld" elfmal (Netzkino, 3× Bulldox, 3× CiNENET, 2× COMEDYPIE, TitanumX, daredo), „World War II Inferno" siebenmal. Die Regel steht einmal in `scripts/lib/doppel.js` (`gleicherFilm`, `rangfolge`):
+
+- **Derselbe Film**, wenn der Titel nach `normTitel()` gleich ist (Groß/klein, Akzente, ß/ss, Satzzeichen egal) **und** die Laufzeit höchstens 3 Minuten abweicht — bei gleichem Jahr höchstens 15 % („Körperfresser 2" 79/84 min, beide 2007).
+- **Nie** bei widersprüchlichem Jahr („Der Glöckner von Notre Dame" 1923/1996), bei zwei verschiedenen tmdbIds, oder bei demselben Kanal mit mehr als 1 Minute Abstand („THE LITTLE CARS" sind vier verschiedene daredo-Folgen, 42–50 min).
+- **Es bleibt**: der Eintrag mit TMDB-Treffer, sonst der abspielbare, sonst der mit mehr Angaben (Jahr, Besetzung, Regie, Beschreibung), sonst der mit der ältesten Adresse.
+
+Drei Stellen nutzen die Regel: `merge-duplicates.js` (nächtlich nach `fix-titles`), `absorb-unmatched.js` (ein neuer Film ohne TMDB, der schon in der Bibliothek steht, wird gleich Ersatz-Upload) und `repair-unavailable.js` (findet Ersatz-Uploads ohne tmdbId über `ersatzFuer`, die Video-ID des bleibenden Eintrags, und zieht nach einem Austausch `ersatzFuer` und die Weiterleitungsziele auf die neue Video-ID nach). Erster Lauf am 12.11.2026: 234 Gruppen, 336 Einträge zu Ersatz-Uploads, Bibliothek 8.763 → 8.427.
 
 ### 9. Plausibilitätsprüfung aller Zuordnungen
 
@@ -394,6 +406,8 @@ Jeder Film hat eine eigene Seite unter `/film/<slug>`, erzeugt von `build-site.j
 Lesbar und ohne technische Zusätze: `/film/das-china-syndrom`. Nur bei echten Titeldopplungen (rund 90 von 5.900) gibt es eine laufende Nummer: `/film/die-welle-2`.
 
 **Der Slug wird einmal vergeben und in `filme.json` gespeichert — danach nie wieder neu berechnet.** Sonst würde ein Video-Austausch die Adresse ändern, bestehende Verweise liefen ins Leere, und die bei Suchmaschinen aufgebaute Sichtbarkeit wäre verloren. Die Erkennung alter Adressformate vergleicht deshalb gegen den Titel, nicht gegen die (möglicherweise getauschte) Video-ID.
+
+**Weggefallene Adressen leiten weiter (seit 12.11.2026).** Zwei Fälle hinterlassen eine Adresse ohne Seite: ein Eintrag, den `merge-duplicates.js` zusammenführt, und ein geänderter Titel (bis dahin bekam der Film eine neue Adresse und die alte lief auf 404). Beide stehen in `data/weiterleitungen.json` (`von`, `zielVideoId`, `zielSlug`). `build-site.js` löst jedes Ziel über die Video-ID auf, folgt Ketten bis zum Ende, leitet nie eine Adresse um, die ein lebender Film trägt, und schreibt die Regeln als dauerhafte Weiterleitungen (308) nach `vercel.json` — nur die eigenen `/film/…`-Einträge, Header und andere Regeln bleiben. Weggefallene Adressen werden nie neu vergeben. Vercel erlaubt 2.048 Weiterleitungen je Projekt ([Doku](https://vercel.com/docs/redirects/configuration-redirects)); darüber bricht der Seitenbau mit einer Fehlermeldung ab.
 
 ### Startseite
 
