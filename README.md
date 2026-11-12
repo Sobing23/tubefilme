@@ -447,7 +447,7 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 58 Kanäle
+### Die 61 Kanäle
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
@@ -471,11 +471,13 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Deutsch Film Hub | keine Angabe | |
 | Deutsch Knallhart | keine Angabe | ✓ |
 | Draco Actionfilme | PLAION PICTURES | |
+| DUDU (@dudu6250) | keine Angabe — Fan-Kanal („von Fans für Fans“) | `inPruefung` seit 12.11.2026 — Rechtelage klären |
 | Dzango | PLAION PICTURES | |
 | FABELLA | PLAION PICTURES | |
 | Fantasja | PLAION PICTURES | |
 | FFF Kino | Greater Fool Network | ✓ |
 | Filmalarm | WDR Mediagroup | |
+| Filme Gucken TV (@FilmeGuckenTV) | keine Angabe — „ohne Partnerprogramm, kein Geld“ | `inPruefung` seit 12.11.2026 — Rechtelage klären |
 | Filmhof Welt | keine Angabe | |
 | Free Films Action | LEONINE / Mediawan | |
 | Free Films Emotion | LEONINE | |
@@ -508,6 +510,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Volle Power Filme | keine Angabe | |
 | weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `nurMitTmdb`, `ausschlussMuster` (Hörspiel, Hörbuch, Reiseführer, Making of, Yoga, „aus der Box“, Ratgeber, Tipps, Workout, Best of) |
 | Wolkesieben | PLAION PICTURES | |
+| XorboD (@Xorbod) | keine Angabe | `inPruefung` seit 12.11.2026 |
 | ZOMBIEWORLD | PLAION PICTURES | |
 
 **Beobachtung:** Kanäle ohne erkennbaren Rechteinhaber machen überdurchschnittlich viel Mühe — Clickbait-Titel ohne Filmnamen und hohe Ausfallquoten (Filmhof Welt verlor jeden vierten Film). Die PLAION-Kanäle überschneiden sich stark und erzeugen viele Duplikate, liefern dafür aber die meisten Ersatz-Uploads.
