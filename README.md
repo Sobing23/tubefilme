@@ -383,11 +383,15 @@ Der dritte Fall wird leicht übersehen: Jede reine Existenzprüfung hält das Vi
 
 **Läuft seit 11.10.2026 jede Nacht im Scan** (Schritt 10a, vor der Reparatur) — vorher nur auf Knopfdruck, und der letzte Lauf lag fünf Wochen zurück, sodass z. B. „Trolls World" wochenlang als schwarzer Kasten stand. Kostet rund 150 Abfragen (1 Einheit je Abfrage) und bricht den Scan bei einem Fehler nicht ab. Zusätzlich weiterhin von Hand über den Workflow „Verfügbarkeit prüfen" mit drei Eingabefeldern (Kanal, einzelnes Video, Obergrenze). **Teilprüfungen erhalten die Befunde der übrigen Filme.**
 
+**Seit wann tot (`totSeit`, seit 12.11.2026):** `geprueftAm` ist der letzte Lauf, `totSeit` bleibt vom ersten Befund an stehen; `repair-unavailable.js` überträgt es als `nichtVerfuegbarSeit` in den Film. Vorher ging das Erkennungsdatum bei jedem Lauf verloren — einmalig aus 37 Versionen der Git-Historie von `unavailable.json` nachgetragen. Stand 12.11.2026: von 521 toten Filmen 362 seit über vier Wochen, 62 seit zwei bis vier, 61 seit ein bis zwei, 36 seit dieser Woche.
+
 ### Reparieren: `repair-unavailable.js`
 
-- **Ersatz vorhanden** → Die Video-ID im bestehenden Eintrag wird gegen die eines funktionierenden Uploads aus `duplicates.json` getauscht. Adresse, Seite, Titel bleiben gleich — nur das Video läuft wieder. Besser als jede Weiterleitung.
+- **Ersatz vorhanden** → Die Video-ID im bestehenden Eintrag wird gegen die eines funktionierenden Uploads aus `duplicates.json` getauscht. Als Ersatz zählt ein Upload mit gleicher tmdbId, mit `ersatzFuer` auf diesen Film (von `merge-duplicates.js`) oder — seit 12.11.2026 — mit gleichem Titel und gleicher Laufzeit nach `gleicherFilm()` (Laufzeit aus `candidates.json`). Vorher fand die Reparatur etwa für „Guernica“ (Dzango, gelöscht) den Netzkino-Upload nicht, weil er keine tmdbId trug; 34 tote Filme hatten so einen übersehenen Kandidaten. Grenze: Ersatz-Uploads ohne tmdbId haben kein Jahr gespeichert, die Jahresprüfung greift dort nicht. Adresse, Seite, Titel bleiben gleich — nur das Video läuft wieder. Besser als jede Weiterleitung.
 - **Kein Ersatz** → Kennzeichnung `verfuegbar: false`. Der Film verschwindet aus Trefferliste und Sitemap, seine Seite bleibt mit Hinweis, ähnlichen Filmen und `noindex` bestehen.
 - **Video kommt zurück** → Kennzeichnung verschwindet beim nächsten Lauf von selbst.
+
+**Gelöscht wird nichts (Entscheidung 12.11.2026).** Tote Filme stehen weder im Raster noch in der Sitemap noch in den Vorschlägen anderer Seiten, ihre Seite trägt `noindex`. Ein Löschen brächte Besuchern nichts, nähme aber die Selbstheilung (Video kommt zurück, anderer Kanal lädt hoch), und eine Weiterleitung auf einen anderen Film wertet Google als Soft 404.
 
 **Ersatzkandidaten werden vor dem Austausch bei YouTube geprüft.** Beim ersten Lauf waren nur 15 von 108 Kandidaten tatsächlich abspielbar — ohne Prüfung wird ein totes Video schlicht durch ein ebenso totes ersetzt.
 

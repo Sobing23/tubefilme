@@ -33,6 +33,7 @@
 // zwar intakt, für das hiesige Publikum aber nicht abspielbar.
 
 import fs from "fs/promises";
+import { gleicherFilm } from "./lib/doppel.js";
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 
@@ -79,11 +80,23 @@ const DUPLICATES_PATH = "data/duplicates.json";
 const REPAIR_LOG = "data/repaired.json";
 const WEITERLEITUNGEN_PATH = "data/weiterleitungen.json";
 
-// Passt ein Ersatz-Upload zu diesem Film? Über die tmdbId oder, bei Filmen
-// ohne TMDB-Treffer, über "ersatzFuer".
+const CANDIDATES_PATH = "data/candidates.json";
+
+// Passt ein Ersatz-Upload zu diesem Film?
+//   - gleiche tmdbId, oder
+//   - "ersatzFuer" zeigt auf ihn (von merge-duplicates.js abgelegt), oder
+//   - gleicher Titel und gleiche Laufzeit (scripts/lib/doppel.js) -- seit
+//     12.11.2026. Bis dahin fand die Reparatur z.B. für "Guernica" (Dzango,
+//     gelöscht) den Netzkino-Upload desselben Films nicht, weil der eine
+//     andere oder keine tmdbId trug. Die Laufzeit kommt aus candidates.json,
+//     weil duplicates.json keine speichert.
+let laufzeiten = new Map();
 function passtZu(d, film) {
-  if (film.tmdbId) return d.tmdbId === film.tmdbId;
-  return d.ersatzFuer === film.videoId;
+  if (film.tmdbId && d.tmdbId === film.tmdbId) return true;
+  if (d.ersatzFuer === film.videoId) return true;
+  const c = laufzeiten.get(d.videoId);
+  if (!c) return false;
+  return gleicherFilm(film, { videoId: d.videoId, title: d.title, duration: c.duration, channelId: c.channelId, tmdbId: d.tmdbId });
 }
 
 async function leseJson(pfad, standard) {
@@ -99,6 +112,7 @@ async function main() {
   const unavailable = await leseJson(UNAVAILABLE_PATH, []);
   const duplicates = await leseJson(DUPLICATES_PATH, []);
   const weiterleitungen = await leseJson(WEITERLEITUNGEN_PATH, []);
+  laufzeiten = new Map((await leseJson(CANDIDATES_PATH, [])).map((c) => [c.videoId, c]));
 
   if (unavailable.length === 0) {
     console.log("Keine nicht abspielbaren Filme vermerkt -- nichts zu tun.");
@@ -139,6 +153,7 @@ async function main() {
       if (film.verfuegbar === false) {
         delete film.verfuegbar;
         delete film.nichtVerfuegbarGrund;
+        delete film.nichtVerfuegbarSeit;
         entmarkiert++;
       }
       continue;
@@ -177,6 +192,7 @@ async function main() {
       film.youtubeThumbnail = `https://i.ytimg.com/vi/${ersatz.videoId}/hqdefault.jpg`;
       delete film.verfuegbar;
       delete film.nichtVerfuegbarGrund;
+      delete film.nichtVerfuegbarSeit;
 
       verbrauchteErsatzIds.add(ersatz.videoId);
       inBibliothek.add(ersatz.videoId);
@@ -187,6 +203,7 @@ async function main() {
     // Kein Ersatz -> kennzeichnen
     film.verfuegbar = false;
     film.nichtVerfuegbarGrund = befund.grund;
+    if (befund.totSeit) film.nichtVerfuegbarSeit = befund.totSeit;
     markiert++;
   }
 

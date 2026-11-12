@@ -118,6 +118,19 @@ async function main() {
   const abfragen = Math.ceil(zuPruefen.length / BATCH);
   console.log(`Prüfe ${zuPruefen.length} Filme in ${abfragen} Abfragen...\n`);
 
+  // Seit wann ist ein Video tot? "totSeit" bleibt vom ersten Befund an
+  // stehen, "geprueftAm" ist der letzte Lauf. Bis 12.11.2026 gab es nur
+  // geprueftAm -- das Erkennungsdatum ging bei jedem Lauf verloren (einmalig
+  // aus der Git-Historie von data/unavailable.json nachgetragen).
+  let bestand = [];
+  try {
+    bestand = JSON.parse(await fs.readFile(OUT_PATH, "utf-8"));
+  } catch {
+    // noch keine Datei
+  }
+  const totSeitVorher = new Map(bestand.map((e) => [e.videoId, e.totSeit || e.geprueftAm]));
+  const heute = new Date().toISOString().slice(0, 10);
+
   const nichtVerfuegbar = [];
   const nachGrund = {};
   let geprueft = 0;
@@ -152,7 +165,8 @@ async function main() {
           tmdbId: film.tmdbId ?? null,
           grund: befund.grund,
           detail: befund.detail,
-          geprueftAm: new Date().toISOString().slice(0, 10),
+          geprueftAm: heute,
+          totSeit: totSeitVorher.get(film.videoId) || heute,
         });
         nachGrund[befund.grund] = (nachGrund[befund.grund] || 0) + 1;
       }
@@ -168,12 +182,6 @@ async function main() {
   // Bei Teilprüfungen (einzelner Film, ein Kanal) die Befunde der übrigen
   // Filme erhalten -- sonst würde eine Prüfung eines Kanals alle vorherigen
   // Ergebnisse verwerfen.
-  let bestand = [];
-  try {
-    bestand = JSON.parse(await fs.readFile(OUT_PATH, "utf-8"));
-  } catch {
-    // noch keine Datei
-  }
   const geprueftIds = new Set(zuPruefen.map((m) => m.videoId));
   const uebrig = bestand.filter((e) => !geprueftIds.has(e.videoId));
   const gesamt = [...uebrig, ...nichtVerfuegbar];
