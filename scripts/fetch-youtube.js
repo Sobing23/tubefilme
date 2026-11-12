@@ -8,6 +8,15 @@
 // nur so lange, bis wir dieses Video wiedertreffen, und brechen dann ab --
 // alles Ältere ist garantiert schon bekannt. Ein Kanal ohne Eintrag in
 // state.json (neu hinzugefügt) wird einmalig komplett gescannt.
+//
+// PLAYLISTS (seit 12.11.2026): Ein Eintrag mit "playlistId" liest statt der
+// Uploads des Kanals nur diese Playlist -- für Kanäle, die neben Filmen vor
+// allem anderes hochladen (DasFliegendeGehirn: TV-Mitschnitte, Filme nur in
+// der Playlist "Filme"). Eine selbst angelegte Playlist ist NICHT
+// neueste-zuerst sortiert, neue Videos können überall stehen. Deshalb wird
+// sie bei jedem Lauf vollständig gelesen (50 Videos = 1 Unit) und ersetzt
+// die Rohdaten: Was der Kanal aus der Playlist nimmt, fällt auch hier raus.
+// Gelöschte und private Videos (ohne Dauer) werden übersprungen.
 
 import fs from "fs/promises";
 import path from "path";
@@ -119,16 +128,19 @@ function buildVideoObjects(rawItems, durations, channel) {
 }
 
 async function processChannel(channel, state) {
-  console.log(`\n-> ${channel.name} (${channel.channelId})`);
+  const istPlaylist = Boolean(channel.playlistId);
+  console.log(`\n-> ${channel.name} (${channel.channelId}${istPlaylist ? `, Playlist ${channel.playlistId}` : ""})`);
 
-  const playlistId = uploadsPlaylistId(channel.channelId);
-  const knownLastVideoId = state[channel.channelId]?.lastVideoId || null;
+  const playlistId = istPlaylist ? channel.playlistId : uploadsPlaylistId(channel.channelId);
+  const knownLastVideoId = istPlaylist ? null : state[channel.channelId]?.lastVideoId || null;
   const isFirstScan = !knownLastVideoId;
 
   console.log(
-    isFirstScan
-      ? "   Erster Scan dieses Kanals -- vollständiger Durchlauf"
-      : `   Inkrementeller Scan (Stopp bei ${knownLastVideoId})`
+    istPlaylist
+      ? "   Playlist -- wird bei jedem Lauf vollständig gelesen"
+      : isFirstScan
+        ? "   Erster Scan dieses Kanals -- vollständiger Durchlauf"
+        : `   Inkrementeller Scan (Stopp bei ${knownLastVideoId})`
   );
 
   const rawItems = await fetchNewPlaylistItems(playlistId, knownLastVideoId);
@@ -140,25 +152,37 @@ async function processChannel(channel, state) {
 
   const videoIds = rawItems.map((i) => i.contentDetails.videoId);
   const durations = await fetchDurations(videoIds);
-  const newVideos = buildVideoObjects(rawItems, durations, channel);
+  let newVideos = buildVideoObjects(rawItems, durations, channel);
 
   const outPath = path.join(RAW_DIR, `${channel.channelId}.json`);
   const existing = await loadJson(outPath, []);
-  const merged = dedupeByVideoId([...newVideos, ...existing]); // neueste zuerst, ohne Duplikate
+  let merged;
+  let anzahlNeu;
+  if (istPlaylist) {
+    // videos.list liefert für gelöschte/private Videos nichts -> keine Dauer
+    newVideos = dedupeByVideoId(newVideos.filter((v) => v.duration));
+    const bekannt = new Set(existing.map((v) => v.videoId));
+    anzahlNeu = newVideos.filter((v) => !bekannt.has(v.videoId)).length;
+    merged = newVideos;
+  } else {
+    anzahlNeu = newVideos.length;
+    merged = dedupeByVideoId([...newVideos, ...existing]); // neueste zuerst, ohne Duplikate
+  }
 
   await fs.mkdir(RAW_DIR, { recursive: true });
   await fs.writeFile(outPath, JSON.stringify(merged, null, 2), "utf-8");
   console.log(
-    `   ${newVideos.length} neue Videos verarbeitet, ${merged.length} insgesamt gespeichert (dedupliziert)`
+    `   ${anzahlNeu} neue Videos verarbeitet, ${merged.length} insgesamt gespeichert (dedupliziert)`
   );
 
   // Neuestes Video dieses Laufs wird der neue Referenzpunkt fürs nächste Mal
+  // (bei Playlists nur zur Information, dort wird immer alles gelesen)
   state[channel.channelId] = {
-    lastVideoId: newVideos[0].videoId,
+    lastVideoId: newVideos[0]?.videoId || null,
     lastRunAt: new Date().toISOString(),
   };
 
-  return newVideos.length;
+  return anzahlNeu;
 }
 
 async function main() {
