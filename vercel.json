@@ -1900,6 +1900,21 @@
       "source": "/film/colorado-zwei-halunken-im-goldrausch",
       "destination": "/film/colorado-zwei-halunken-im-goldrausch-2",
       "permanent": true
+    },
+    {
+      "source": "/film/summer-of-84-ganzerfilm-halloween",
+      "destination": "/film/summer-of-84",
+      "permanent": true
+    },
+    {
+      "source": "/film/aire-die-letzte-zuflucht-ganzerfilm",
+      "destination": "/film/aire-die-letzte-zuflucht",
+      "permanent": true
+    },
+    {
+      "source": "/film/ganzer-spielfilm-mit-hannes-jaenicke-fritzi-haberlandt-lars",
+      "destination": "/film/heimatfilm",
+      "permanent": true
     }
   ]
 }
