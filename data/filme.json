@@ -25131,7 +25131,10 @@
     "slug": "wunder-einer-winternacht",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-14"
   },
   {
     "videoId": "WkyNnfXe_2w",
@@ -122538,9 +122541,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "TZxEQGs9v4Y",
-    "youtubeTitle": "Panman (2011) [Horror] [Komödie] Pfanne des Todes – Hunger auf Liebe | Ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/TZxEQGs9v4Y/hqdefault.jpg",
+    "videoId": "AkdymKUG6sA",
+    "youtubeTitle": "Panman (2011) [Horror] [Komödie] | Ab in die Pfanne! B-Movie-Kult | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AkdymKUG6sA/hqdefault.jpg",
     "duration": "PT1H21M8S",
     "publishedAt": "2025-09-20T16:00:06Z",
     "channelName": "CiNENET Deutschland",
@@ -122578,10 +122581,7 @@
     "slug": "bis-das-blut-kocht",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-10-13"
+    "plausibelVersion": 4
   },
   {
     "videoId": "aFv5f3ntcf0",
@@ -127079,12 +127079,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "b262fXVS0_s",
-    "youtubeTitle": "Mercy Christmas (2017) [Horror] [Komödie] 🎅🍗 Festmahl des Grauens 🎄 Ganzer Film auf deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/b262fXVS0_s/hqdefault.jpg",
+    "videoId": "DVlAREgTNzE",
+    "youtubeTitle": "Mercy Christmas - Bitte zu Tisch! - Er ist das Hauptgericht beim Weihnachtsessen! - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DVlAREgTNzE/hqdefault.jpg",
     "duration": "PT1H21M29S",
     "publishedAt": "2024-11-25T18:00:06Z",
-    "channelName": "CiNENET Deutschland",
+    "channelName": "Moviedome",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 423383,
     "title": "Mercy Christmas - Bitte zu Tisch!",
@@ -127120,10 +127120,7 @@
     "slug": "mercy-christmas-bitte-zu-tisch",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-11-10"
+    "plausibelVersion": 4
   },
   {
     "videoId": "ffue28GThms",
@@ -132257,12 +132254,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "24ey7FxSYx4",
-    "youtubeTitle": "Christmas Manger | WEIHNACHTS-DRAMA für die ganze Familie | Weihnachtsfilme Deutsch komplett",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/24ey7FxSYx4/hqdefault.jpg",
+    "videoId": "bFh_fhRFlEs",
+    "youtubeTitle": "Der Weihnachtsstall (WEIHNACHTSFILM in voller Länge, ganze Weihnachtsfilme komplett auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/bFh_fhRFlEs/hqdefault.jpg",
     "duration": "PT1H29M51S",
     "publishedAt": "2025-11-28T17:15:01Z",
-    "channelName": "Movies Select",
+    "channelName": "Netzkino",
     "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
     "tmdbId": 560447,
     "title": "Der Weihnachtsstall",
@@ -132296,10 +132293,7 @@
     "slug": "der-weihnachtsstall",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
-    "nichtVerfuegbarSeit": "2026-11-06"
+    "plausibelVersion": 4
   },
   {
     "videoId": "6UdHqWhAiC8",
@@ -326427,9 +326421,9 @@
     "slug": "moerderisch"
   },
   {
-    "videoId": "LSzlPZTAkv4",
-    "youtubeTitle": "New Police Story (2004) | Ganzer Film [Deutsch]",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/LSzlPZTAkv4/hqdefault.jpg",
+    "videoId": "XLvAXYp9VFs",
+    "youtubeTitle": "New Police Story (2004) | Ganzer Film mit Jackie Chan auf deutsch [Action]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XLvAXYp9VFs/hqdefault.jpg",
     "duration": "PT2H2M59S",
     "publishedAt": "2026-11-07T17:00:07Z",
     "channelName": "daredo TV",
@@ -333393,7 +333387,10 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "mitten-im-krieg-rettete-er-eine-fremd-frau-doch-sie-verbarg"
+    "slug": "mitten-im-krieg-rettete-er-eine-fremd-frau-doch-sie-verbarg",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-14"
   },
   {
     "videoId": "mZ7FNqTQwtM",
@@ -344535,7 +344532,10 @@
       "James G. Hirsch"
     ],
     "fsk": null,
-    "slug": "a-mother-s-testimony"
+    "slug": "a-mother-s-testimony",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-14"
   },
   {
     "videoId": "jrL2jLWJfyU",
@@ -344660,7 +344660,10 @@
       "Stuart Alexander"
     ],
     "fsk": null,
-    "slug": "above-beyond"
+    "slug": "above-beyond",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-14"
   },
   {
     "videoId": "buYDQpNIhHg",
@@ -352043,5 +352046,477 @@
     "writer": [],
     "fsk": null,
     "slug": "billy-graham-ein-leben-fur-die-gute-tat"
+  },
+  {
+    "videoId": "71gB_K7M-LU",
+    "youtubeTitle": "Ein neuer Auftrag führt sie zur Liebe ihres Lebens | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/71gB_K7M-LU/hqdefault.jpg",
+    "duration": "PT1H30M20S",
+    "publishedAt": "2026-11-13T16:00:16Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1040812,
+    "title": "Let Love Grow",
+    "originalTitle": "Let Love Grow",
+    "overview": "",
+    "releaseDate": "2023-02-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/23nUWpHeJjmVjLcbfvUAebWWI0H.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sv9XejagdxAiDa0anetVETDUGr4.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Let Love Grow\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Britton Webb",
+      "Jennifer Bonner",
+      "Roy Lynam",
+      "Larissa Maloney",
+      "Isabella Godoy"
+    ],
+    "director": [
+      "Demián Castro",
+      "Damián Romay"
+    ],
+    "writer": [
+      "Amy Meyerson",
+      "Erin La Rosa"
+    ],
+    "fsk": null,
+    "slug": "let-love-grow"
+  },
+  {
+    "videoId": "dzK0OD1IBL0",
+    "youtubeTitle": "Diesen spanischen Horrorfilm muss man gesehen haben: The Elderly (2022) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dzK0OD1IBL0/hqdefault.jpg",
+    "duration": "PT1H35M33S",
+    "publishedAt": "2026-11-13T19:15:35Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 994128,
+    "title": "The Elderly",
+    "originalTitle": "Viejos",
+    "overview": "Nachdem sich die alte Marta das Leben genommen hat, zieht ihr Ehemann Manuel zur Familie seines Sohnes. Seit dem Vorfall ist er jedoch nicht mehr derselbe, wird immer aggressiver und gerät oft in Streitigkeiten. Während eine Hitzewelle allen zusetzt, wird die Stimmung in der kleinen Wohnung immer schlechter. Eines Abends ist es so weit: Manuel eröffnet seiner Familie, dass er sie alle töten wird.",
+    "releaseDate": "2023-04-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vg9fpwAXhJhMJplX5CTH4UeA2uA.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/bKWFetR4injOJXOGHeLuTD7wHI4.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      27,
+      53,
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Zorion Eguileor",
+      "Gustavo Salmerón",
+      "Paula Gallego",
+      "Irene Anula",
+      "Juan Acedo"
+    ],
+    "director": [
+      "Fernando González Gómez",
+      "Raúl Cerezo"
+    ],
+    "writer": [
+      "Rubén Sánchez Trigos",
+      "Raúl Cerezo",
+      "Javier Trigales"
+    ],
+    "fsk": "16",
+    "slug": "the-elderly"
+  },
+  {
+    "videoId": "gJhvTYJzpJg",
+    "youtubeTitle": "Das Portal in die Vergangenheit: Avengers Grimm 2: Time Wars (2018) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gJhvTYJzpJg/hqdefault.jpg",
+    "duration": "PT1H27M33S",
+    "publishedAt": "2026-11-13T15:15:37Z",
+    "channelName": "Utopja",
+    "channelId": "UC5FelnKqltzYS3H1LPlC-Xg",
+    "tmdbId": 521720,
+    "title": "Avengers Grimm 2 - Time Wars",
+    "originalTitle": "Avengers Grimm: Time Wars",
+    "overview": "Magdalena (Katherine Maya), einst Herrscherin über das verloren gegangene Königreich Atlantis, kehrt aus ihrem nassen Grab zurück, um mit ihren Meermännern die Herrschaft über die Welt zu übernehmen und sich den Märchenprinzen (Michael Marcel) zum Mann zu nehmen.  Nur die Avengers Grimm, in der Gestalt von Schneewittchen (Marah Fairclough), Rotkäppchen, Dornröschen und Alice können die moderne Menschheit vor Magdalenas Schreckensherrschaft retten. Doch dazu müssen sie verhindern, dass Magdalena in grauer Vorzeit einen mächtigen Zauberring erhält, der es ihr erst ermöglichen wird, zurück in die Welt der Lebenden zu kommen.Nur Alice ist in der Lage, ein Dimensions-Tor zu öffnen, dass den vier Märchengestalten die Reise zurück in die Zeit ermöglichen kann. Können sie noch verhindern, dass Magdalena den Ring und somit den Schlüssel zu unbegrenzter Macht erhält ...?",
+    "releaseDate": "2018-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nNlDEQ4ksXpzpu3M230Yba6zMQv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sORO7a1cSghfWE5GD4cSJ0qTN8O.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      28,
+      12,
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Lauren Parkinson",
+      "Marah Fairclough",
+      "Christina Licciardi",
+      "Elizabeth Peterson",
+      "Eric Feltes"
+    ],
+    "director": [
+      "Maximilian Elfeldt"
+    ],
+    "writer": [
+      "Jeremy M. Inman"
+    ],
+    "fsk": "16",
+    "slug": "avengers-grimm-2-time-wars"
+  },
+  {
+    "videoId": "qrty99vvGYw",
+    "youtubeTitle": "PLÖTZLICH STAR (2011) | Selena Gomez zwischen Luxus, Liebe und einer großen Lüge! (Teenie Komödie)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/qrty99vvGYw/hqdefault.jpg",
+    "duration": "PT1H48M46S",
+    "publishedAt": "2026-11-13T11:00:37Z",
+    "channelName": "Nanoki",
+    "channelId": "UCF2IFFQyO5gbhvOCObh1WTQ",
+    "tmdbId": 59860,
+    "title": "Plötzlich Star",
+    "originalTitle": "Monte Carlo",
+    "overview": "Grace, Emma und Meg haben all ihre Gespartes zusammengekratzt, um sich einen Traum-Urlaub in Paris zu gönnen, bevor Meg in den Ehe-Hafen einläuft. Nach einer Reihe peinlicher Pannen ist ihnen die gute Laune für einen Augenblick abhanden gekommen. Doch das ändert sich schlagartig, als Grace in der Lobby eines Nobel-Hotels plötzlich für eine britische Thronerbin gehalten wird. Ehe sie wissen, wie ihnen geschieht, befinden sich die Mädels auf dem Weg nach Monte Carlo und in ein glamouröses Abenteuer...",
+    "releaseDate": "2011-07-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rbTt0jxtLE46yL7jkKjz0JHzzRF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aD7XtR408aKDiBo4wJcO0sksvBw.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      12,
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 109,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Selena Gómez",
+      "Katie Cassidy",
+      "Leighton Meester",
+      "Cory Monteith",
+      "Andie MacDowell"
+    ],
+    "director": [
+      "Thomas Bezucha"
+    ],
+    "writer": [
+      "Thomas Bezucha",
+      "Maria Maggenti",
+      "April Blair"
+    ],
+    "fsk": "6",
+    "slug": "ploetzlich-star"
+  },
+  {
+    "videoId": "Yqqo5wniSpc",
+    "youtubeTitle": "Shot in the Dark - Den Tod vor Augen (PSYCHOTHRILLER ganzer Film Deutsch, Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Yqqo5wniSpc/hqdefault.jpg",
+    "duration": "PT1H23M14S",
+    "publishedAt": "2026-11-13T18:00:18Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 870110,
+    "title": "Shot in the Dark",
+    "originalTitle": "Shot in the Dark",
+    "overview": "Wir befinden uns am Ende der 1990er: Vor zwei Jahren beging William Langston (Kristoffer McMillan) einen schweren Fehler, der sein Leben aus der Bahn werfen sollte. Seitdem besteht dieses eigentlich nur noch aus Selbstmitleid, unkontrolliertem Trinken und ziellosem vor sich hin Vegetieren. Selbst seine besten, ältesten Freunde wissen nicht mehr, wie sie ihm helfen könnten, um ihn aus dem emotionalen Loch herauszuhelfen. Gleichzeitig treibt in der Kleinstadt ein Serienmörder namens Joshua Ferrell (Austin Hébert) sein Unwesen. Eines Tages findet sich William, von Ferrell gefesselt und auf grausame Weise gefoltert, in seinem eigenen Keller wieder. Eben spielte er noch mit dem Gedanken, sich selbst zu töten, nun muss sich William seinen schlimmsten Ängsten und der Gewissheit seiner Sterblichkeit stellen.",
+    "releaseDate": "2021-10-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hB89jFMyI3aKlPy91UonTDFKwkM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xM0MAjNltCiLZnlwZTbkQdDXsAI.jpg",
+    "voteAverage": 4.3,
+    "genreIds": [
+      27,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 83,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jacqueline Toboni",
+      "Kelley Mack",
+      "Christine Donlon",
+      "Austin Hébert",
+      "Will Harris"
+    ],
+    "director": [
+      "Keene McRae"
+    ],
+    "writer": [
+      "Lane Thomas",
+      "Kristoffer McMillan",
+      "Keene McRae"
+    ],
+    "fsk": "18",
+    "slug": "shot-in-the-dark"
+  },
+  {
+    "videoId": "B8c4L1LluvI",
+    "youtubeTitle": "Christmas on 5th Avenue (ROMANTISCHER WEIHNACHTSFILM in voller Länge, Filme Deutsch komplett 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/B8c4L1LluvI/hqdefault.jpg",
+    "duration": "PT1H29M48S",
+    "publishedAt": "2026-11-13T16:00:25Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 882968,
+    "title": "Christmas on 5th Avenue",
+    "originalTitle": "Christmas on 5th Avenue",
+    "overview": "Die hoffnungslose Romantikerin Eva betreibt einen Concierge-Service und zu Weihnachten brummt das Geschäft. Als sie das Angebot erhält, ein wunderschönes Penthouse auf der 5th Avenue weihnachtlich zu dekorieren und währenddessen dort zu wohnen, ergreift sie die Chance. Doch dann taucht überraschend der wahre Bewohner auf, der zurückgezogen lebende griesgrämige Bestsellerautor Lucas Blade. Kann Eva rechtzeitig zu Weihnachten sein kaltes Herz erweichen?",
+    "releaseDate": "2021-11-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/n72RnshZdPGzpUqIiINT2Frzmcf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8azo79XONFzslTjdqZPhPNiAdfy.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kathryn Davis",
+      "Olivier Renaud",
+      "Nigel Bennett",
+      "Randy Thomas",
+      "Kara Duncan"
+    ],
+    "director": [
+      "Amy Force"
+    ],
+    "writer": [
+      "Neale Kimmel"
+    ],
+    "fsk": null,
+    "slug": "christmas-on-5th-avenue"
+  },
+  {
+    "videoId": "lO0kz8ypMyw",
+    "youtubeTitle": "Der Schrecken von Kung Fu | 4K | Italowestern | Tony Anthony | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/lO0kz8ypMyw/hqdefault.jpg",
+    "duration": "PT1H25M54S",
+    "publishedAt": "2026-11-13T18:00:06Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 70409,
+    "title": "Der Schrecken von Kung Fu",
+    "originalTitle": "Lo straniero di silenzio",
+    "overview": "Klondike, USA. Duch Zufall trifft Der Fremde auf einen Japaner, der von drei Banditen verfolgt und schlussendlich auch getötet wird. Kurz bevor dieser jedoch das zeitliche segnet, übergibt er dem Fremden eine Schriftrolle, die 20.000 Dollar wert sein soll für denjenigen, der sie einem gewissen Moturi nach Osaka in Japan bringt. Kein Wunder, dass sich 'Der Fremde' auf den Weg macht. Doch im Land der aufgehenden Sonne angelangt, ist er mit allerlei Problemen konfrontiert: So spricht er nicht nur kein Wort japanisch, sondern wird auch noch von den Einwohnern alles andere als freundlich empfangen. Alle sind hinter der Schriftrolle her und nur mit Müh' und List kommt er bei Moturi an, doch auch hier will man ihm noch immer von allen Seiten an den Kragen.",
+    "releaseDate": "1968-06-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/b5V6hH2VzTyI5e7EK0aICYlfggx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4SUDlUKa91dwadqyGllV9hv6ZKz.jpg",
+    "voteAverage": 5.5,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tony Anthony",
+      "Lloyd Battista",
+      "Rita Maura",
+      "大前均",
+      "Kanji Ohara"
+    ],
+    "director": [
+      "Luigi Vanzi"
+    ],
+    "writer": [
+      "Vincenzo Cerami",
+      "Tony Anthony",
+      "Giancarlo Ferrando"
+    ],
+    "fsk": null,
+    "slug": "der-schrecken-von-kung-fu"
+  },
+  {
+    "videoId": "HoRxNH9ROSM",
+    "youtubeTitle": "Freiheit oder Tod (HUGO BECKER in HISTORIEN DRAMA | Blutiger Aufstand in der Vendée | Ganzer Film)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/HoRxNH9ROSM/hqdefault.jpg",
+    "duration": "PT1H38M26S",
+    "publishedAt": "2026-11-13T16:30:08Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 950792,
+    "title": "Freiheit oder Tod",
+    "originalTitle": "Vaincre ou mourir",
+    "overview": "Die anfängliche Begeisterung über die Französischen Revolution von 1789 weicht schnell der Ernüchterung: Korruption, Unterdrückung und Zwangsrekrutierung durch die Regierung der Ersten Republik treiben einfache Bauern und Handwerker auf die Barrikaden. Unter dem ehemaligen Marineoffizier François de Charette (Hugo Becker) formt sich innerhalb weniger Monate eine schlagkräftige, schwer fassbare Armee, die zur Gegenrevolution in einen blutigen Kampf um Selbstbestimmung und Freiheit zieht.",
+    "releaseDate": "2023-01-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2HR7wLJ24LZZ3WLYPA9IgG8dtsN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4jCtAIDdSIyi5vc1qBRLryweQaY.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      36,
+      28,
+      10752
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 115,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Hugo Becker",
+      "Rod Paradot",
+      "Gilles Cohen",
+      "Grégory Fitoussi",
+      "Constance Gay"
+    ],
+    "director": [
+      "Vincent Mottez",
+      "Paul Mignot"
+    ],
+    "writer": [
+      "Vincent Mottez"
+    ],
+    "fsk": "16",
+    "slug": "freiheit-oder-tod"
+  },
+  {
+    "videoId": "yZFoQRHSaRs",
+    "youtubeTitle": "Maybe, Baby!  (KOMÖDIE in voller Länge, Deutsche Filme ansehen, Drama Komödie ganzer Film)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yZFoQRHSaRs/hqdefault.jpg",
+    "duration": "PT1H16M27S",
+    "publishedAt": "2026-11-13T15:00:25Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 518118,
+    "title": "Maybe, Baby!",
+    "originalTitle": "Maybe, Baby!",
+    "overview": "Die Mittdreißigerin Marie ist schon so lange mit Sascha zusammen, dass sie oft gar nicht mehr weiß, wie lange überhaupt. Mittlerweile haben beide nur noch an Maries fruchtbaren Tagen Sex, weil sie endlich ein Kind bekommen wollen. Doch in ihr kommen immer wieder Zweifel auf, ob sie das überhaupt wirklich will oder nicht doch lieber ein freies Leben führen möchte. Als es ihr eines Tages zu viel wird, flieht sie mit ihrem Liebhaber Lukas in eine kleine Berghütte in den Tiroler Alpen. Dort möchte Marie einfach nur in Ruhe Sex und Zweisamkeit genießen, doch sie muss feststellen, dass Sascha offenbar eine ganz ähnliche Idee hatte und in der Hütte mit seiner älteren Affäre Birgit ein paar schöne Stunden verbringen möchte. Noch dazu ist der Lift ausgefallen, so dass die vier wohl oder übel gemeinsam auf der Hütte festsitzen. Marie bleibt nichts anderes übrig, als sich endlich mit ihrer Beziehung und dem Thema Kinderkriegen auseinanderzusetzen.",
+    "releaseDate": "2018-04-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7myymrHr6begIAybVmLtVahhlma.jpg",
+    "backdropUrl": null,
+    "voteAverage": 5.7,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 79,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Julia Becker",
+      "Marc Ben Puch",
+      "Christian Natter",
+      "Charlotte Crome",
+      "Anna König"
+    ],
+    "director": [
+      "Julia Becker"
+    ],
+    "writer": [
+      "Julia Becker"
+    ],
+    "fsk": "12",
+    "slug": "maybe-baby"
+  },
+  {
+    "videoId": "7Sc1XJBsfcA",
+    "youtubeTitle": "Bats 2: Blutige Ernte - Bats: Human Harvest (2007) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/7Sc1XJBsfcA/hqdefault.jpg",
+    "duration": "PT1H27M27S",
+    "publishedAt": "2026-11-13T17:00:11Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 70024,
+    "title": "Bats 2: Blutige Ernte",
+    "originalTitle": "Bats: Human Harvest",
+    "overview": "Dr. Benton Walsh, einer der führenden, amerikanischen Experten für Biowaffen, ist den Amerikanern untreu geworden und hat sein Wissen an Terroristen verkauft. In der Tschechischen Republik mitten im dichten Wald von Belzan führt er Experimente an Vampirfledermäusen durch. Diese wurden Genetisch so verändert, dass sie speziell Menschen angreifen und töten, auch tagsüber. Der Wald wird von einheimischen gemieden, denn keiner der ihn betritt, verlässt ihn wieder lebendig. Eine amerikanische Delta-Eliteeinheit wird dorthin geschickt, um den verlorenen Sohn wieder zurückzuholen. Doch sie treffen auf einen Feind, gegen den Schusswaffen nicht viel anhaben können. Riesige Schwärme von Killerfledermäusen ...",
+    "releaseDate": "2007-11-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ykRiMerjJPWeVlPamivyWhBgnM0.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/k65PVjsaGXax4eXh0Pk2Ufgr6fK.jpg",
+    "voteAverage": 4.7,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tomas Arana",
+      "David Chokachi",
+      "Michael Jace",
+      "Pollyanna McIntosh",
+      "Martin Papazian"
+    ],
+    "director": [
+      "Jamie Dixon"
+    ],
+    "writer": [
+      "Chris Denk",
+      "Brett Merryman"
+    ],
+    "fsk": "18",
+    "slug": "bats-2-blutige-ernte"
+  },
+  {
+    "videoId": "ByTiMO27xco",
+    "youtubeTitle": "Ein Sommer in New York (2007) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ByTiMO27xco/hqdefault.jpg",
+    "duration": "PT1H37M30S",
+    "publishedAt": "2026-11-13T17:00:08Z",
+    "channelName": "daredo TV",
+    "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",
+    "tmdbId": 12473,
+    "title": "Ein Sommer in New York - The Visitor",
+    "originalTitle": "The Visitor",
+    "overview": "Walter Vale, einst brillanter Wirtschaftsprofessor und seit fünf Jahren Witwer, lässt sich ziellos durch sein inhaltsleeres Leben in einem Vorort in Connecticut treiben. Bis er zu einer Konferenz nach New York geschickt wird, wo er seit dem Tod seiner Frau nicht mehr war. In seinen vier Wänden in Manhattan angekommen, wartet auch schon eine große Überraschung auf ihn. Der eigentlich leerstehende Zweitwohnsitz wird von einem jungen Paar bewohnt, dem Araber Tarek und derSenegalesin Zainab. Nach einem ersten Schreck auf beiden Seiten stellt sich heraus, dass Walters Wohnung den beiden illegal vermietet wurde. Er entschließt sich, die beiden Fremden bei sich wohnen zu lassen, bis sie etwas Neues gefunden haben. Gerade als er sich mit seinen Mitbewohnern nicht nur arrangiert, sondern auch angefreundet hat, wird Tarek in der U-Bahn verhaftet und als illegaler Ausländer in Abschiebehaft genommen.",
+    "releaseDate": "2008-02-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jUxAHYnlw4ikpTbEO2AAdcDqISL.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uybT3vd3lvvdQZdK4YAZTG7cmOa.jpg",
+    "voteAverage": 7.136,
+    "genreIds": [
+      80,
+      18,
+      10402
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 104,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Richard Jenkins",
+      "Haaz Sleiman",
+      "Danai Gurira",
+      "Hiam Abbass",
+      "Marian Seldes"
+    ],
+    "director": [
+      "Tom McCarthy"
+    ],
+    "writer": [
+      "Tom McCarthy"
+    ],
+    "fsk": "0",
+    "slug": "ein-sommer-in-new-york-the-visitor"
   }
 ]

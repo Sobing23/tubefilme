@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "videoId": "nNJ1N7JCGSQ",
+    "youtubeTitle": "10 JAHRE BESCHÜTZTE ER SIE – DOCH EIN MANN WAR GEFÄHRLICHER ALS ALLE ZOMBIES | Ganzer Film HD",
+    "suchbegriff": "10 JAHRE BESCHÜTZTE ER SIE – DOCH EIN MANN WAR GEFÄHRLICHER ALS ALLE ZOMBIES",
+    "erwartetesJahr": null,
+    "grund": "kein TMDB-Treffer",
+    "tmdbTopKandidat": null
+  },
+  {
+    "videoId": "s9xIVU56OX4",
+    "youtubeTitle": "„Oldboy“-Star Choi Min-sik vs. Koreas letzter Tiger – Eine Jagd ohne Gnade | Ganzer Film auf Deutsch",
+    "suchbegriff": "Daeho",
+    "erwartetesJahr": null,
+    "grund": "Ein-Wort-Suchbegriff \"Daeho\" ohne Jahr/Besetzung -- Rest des Titels (\"oldboy star choi min sik koreas letzter tiger jagd ohne gnade\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 982843,
+      "title": "The Great Flood",
+      "release_date": "2025-09-18"
+    }
+  },
+  {
+    "videoId": "s2V22eyVtXY",
+    "youtubeTitle": "Baby (KRIMI THRILLER in voller Länge, Thriller Filme auf Deutsch, Kriminalfilm komplett kostenlos)",
+    "suchbegriff": "Baby",
+    "erwartetesJahr": "2002",
+    "grund": "3 Zuordnungen bereits verworfen -- \"Baby Blue\" ohne harten Beleg nicht übernommen",
+    "tmdbTopKandidat": {
+      "id": 1610768,
+      "title": "Baby Blue",
+      "release_date": "2002-08-14"
+    }
+  },
+  {
+    "videoId": "sSOhzE4H-XU",
+    "youtubeTitle": "😱 Eine Schwangere Fürchtet Um Ihr Ungeborenes Baby! Ein Packender Thriller | Ganzer Film",
+    "suchbegriff": "Eine Schwangere Fürchtet Um Ihr Ungeborenes Baby! Ein Packender Thriller",
+    "erwartetesJahr": null,
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert -2)",
+    "tmdbTopKandidat": {
+      "id": 922848,
+      "title": "Deadly Doula",
+      "release_date": "2022-01-08"
+    }
+  }
+]
