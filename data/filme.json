@@ -65096,7 +65096,10 @@
     "slug": "mrs-winterbourne",
     "plausibel": "titel",
     "runtime": 105,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-15"
   },
   {
     "videoId": "0_1_Jj-6uIk",
@@ -116814,7 +116817,10 @@
     "slug": "schrei-wenn-der-tingler-kommt",
     "plausibel": "titel",
     "runtime": 82,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-15"
   },
   {
     "videoId": "NROSXJ1gmMI",
@@ -208141,7 +208147,10 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "er-suchte-die-moerder-seines-bruders"
+    "slug": "er-suchte-die-moerder-seines-bruders",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-15"
   },
   {
     "videoId": "2IivW5tzce8",
@@ -208700,7 +208709,10 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "run-fast-or-fly-high"
+    "slug": "run-fast-or-fly-high",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-15"
   },
   {
     "videoId": "e-Vopob9duY",
@@ -209665,12 +209677,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "na0bqoQNvoc",
-    "youtubeTitle": "Spannender Western Klassiker: Auf heißer Fährte | Fred MacMurray | Drama auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/na0bqoQNvoc/hqdefault.jpg",
+    "videoId": "hsUyANVTamg",
+    "youtubeTitle": "AUF HEISSER FÄHRTE – Face of a Fugitive (GNADENLOSER Western voller Spannung & Rache,Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/hsUyANVTamg/hqdefault.jpg",
     "duration": "PT1H20M40S",
     "publishedAt": "2026-04-17T16:30:31Z",
-    "channelName": "Retroflix",
+    "channelName": "Bronco",
     "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
     "tmdbId": 39558,
     "title": "Auf heißer Fährte",
@@ -324565,7 +324577,7 @@
     "fsk": null,
     "slug": "awakening-the-last-dream",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarGrund": "geloescht",
     "nichtVerfuegbarSeit": "2026-11-06"
   },
   {
@@ -338623,7 +338635,10 @@
       "Shana Feste"
     ],
     "fsk": "12",
-    "slug": "country-strong"
+    "slug": "country-strong",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-15"
   },
   {
     "videoId": "ckz8LSCMRyg",
@@ -352518,5 +352533,463 @@
     ],
     "fsk": "0",
     "slug": "ein-sommer-in-new-york-the-visitor"
+  },
+  {
+    "videoId": "m4ewJ6jot2g",
+    "youtubeTitle": "😱Diesen Film Werden Sie Noch Lange In Erinnerung Behalten🎬Am Ende steht der Tod | Ganzer auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/m4ewJ6jot2g/hqdefault.jpg",
+    "duration": "PT1H27M13S",
+    "publishedAt": "2026-11-14T16:04:11Z",
+    "channelName": "NEORA",
+    "channelId": "UC2MtVsxZ4v7mnC7W_WHeR4w",
+    "tmdbId": 44315,
+    "title": "Tick Tock",
+    "originalTitle": "Tick Tock",
+    "overview": "",
+    "releaseDate": "2000-09-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tRnecTme22sve8v6uhYowcU8ULE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fWsAtEBdyR2FN8LEjweyElf3nQy.jpg",
+    "voteAverage": 4.4,
+    "genreIds": [
+      80,
+      53,
+      9648,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (8 Filme) -- Laufzeit entschied: TMDB 90 min, Video 87 min · Zuordnungswert 105 (Suchbegriff: \"Tick Tock\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Megan Ward",
+      "Kristin Minter",
+      "Linden Ashby",
+      "John Ratzenberger",
+      "David Dukes"
+    ],
+    "director": [
+      "Kevin Tenney"
+    ],
+    "writer": [
+      "Kevin Tenney"
+    ],
+    "fsk": null,
+    "slug": "tick-tock"
+  },
+  {
+    "videoId": "oTp-iQuerGU",
+    "youtubeTitle": "Die letzte Nacht in Mailand / L'ultima notte di Amore | GANZER FILM | 4K | Die letzte Schicht",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oTp-iQuerGU/hqdefault.jpg",
+    "duration": "PT2H5M17S",
+    "publishedAt": "2026-11-14T18:00:00Z",
+    "channelName": "Kino Deutsch",
+    "channelId": "UCBHYbV2w8dE__bS6fNdCbpw",
+    "tmdbId": 978870,
+    "title": "Die letzte Nacht in Mailand",
+    "originalTitle": "L'ultima notte di Amore",
+    "overview": "Satte 35 Jahre steht Franco Amore schon im Dienst der Polizei der italienischen, vielerorts von Korruption und Verbrechen zerfressenen Großstadt Mailand. Der im Gegensatz zu manchen seiner Kollegen immer gewissenhafte und durchgehend korrekte Cop steht nun kurz vor der Pensionierung. Als Pazifist, der in seiner Freizeit Gedichte schreibt, ist er besonders stolz darauf, dass er während seiner kompletten Karriere nicht ein einziges Mal auf einen anderen Menschen geschossen hat. Doch dann klingelt am Abend seines letzten Arbeitstags das Telefon und er wird in einen schicksalhaften Vorfall verwickelt, der nicht nur Francos eben noch so geordnetes Weltbild, sondern sein ganzes Leben als Beamter, als Ehemann und loyaler Freund auf den Kopf stellt. Denn plötzlich ist er zu einer folgenschweren Entscheidung gezwungen.",
+    "releaseDate": "2023-03-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/myjMqBzmiNQbuOzKoLmODMHptOq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mUwtIH6Zl9tcl3Vo5IHoj5zG8MZ.jpg",
+    "voteAverage": 7.116,
+    "genreIds": [
+      53,
+      80
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"L'ultima notte di Amore\")",
+    "runtime": 124,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Pierfrancesco Favino",
+      "Linda Caridi",
+      "Antonio Gerardi",
+      "Francesco Di Leva",
+      "Katia Mironova"
+    ],
+    "director": [
+      "Andrea Di Stefano"
+    ],
+    "writer": [
+      "Andrea Di Stefano"
+    ],
+    "fsk": "16",
+    "slug": "die-letzte-nacht-in-mailand"
+  },
+  {
+    "videoId": "JPrW1jcfhuk",
+    "youtubeTitle": "Project Almanac | 2015 | 4K | Sci-Fi Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JPrW1jcfhuk/hqdefault.jpg",
+    "duration": "PT1H41M52S",
+    "publishedAt": "2026-11-14T18:00:07Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 227719,
+    "title": "Project Almanac",
+    "originalTitle": "Project Almanac",
+    "overview": "Die Freunde David und Quinn werden an ihrer Highschool von den anderen nur als Nerds belächelt. Da gelingt ihnen das Kunststück, den Prototypen einer Zeitmaschine zum Laufen zu bringen. Dank passend getimter Zeitreisen werden sie zu Stars auf jeder Party, bestehen ihre Prüfungen spielend und gewinnen im Lotto. Doch als David wegen seiner heimlichen Liebe einen Alleingang wagt, droht das Zeitgefüge irreparable Schäden zu nehmen.",
+    "releaseDate": "2015-01-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2I5HDlyZtlZwFowvihvkaSKz3jr.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/y5T0ZpRAsM0yCqwk0NPRHtF8tyr.jpg",
+    "voteAverage": 6.82,
+    "genreIds": [
+      878,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 106,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jonny Weston",
+      "Sofia Black-D'Elia",
+      "Sam Lerner",
+      "Allen Evangelista",
+      "Virginia Gardner"
+    ],
+    "director": [
+      "Dean Israelite"
+    ],
+    "writer": [
+      "Jason Pagan",
+      "Andrew Deutschman"
+    ],
+    "fsk": "6",
+    "slug": "project-almanac"
+  },
+  {
+    "videoId": "phb-g6HrIbU",
+    "youtubeTitle": "Für die Liebe noch zu mager? - Drama / Liebeskomödie / Jugendfilm (1973) DEFA",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/phb-g6HrIbU/hqdefault.jpg",
+    "duration": "PT1H26M9S",
+    "publishedAt": "2026-11-14T14:00:29Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 255159,
+    "title": "Für die Liebe noch zu mager",
+    "originalTitle": "Für die Liebe noch zu mager",
+    "overview": "Susanne ist 18 Jahre alt und Facharbeiterin in einem Textilbetrieb. Sie ist fleißig und immer da, wenn es Arbeit gibt oder jemand Hilfe braucht, zu Hause und im Betrieb. Am Ende der Maidemonstration werden ihr alle Fahnen in die Hand gedrückt, bei der GST-Übung ist sie die aktivste, aber beim Tanz wird sie als letzte aufgefordert. Dass auch sie Wünsche hat, bemerkt keiner - auch der etwas versponnene Lutz nicht, in den sie verliebt ist. Die beiden sind zusammen aufgewachsen, doch dass sie inzwischen erwachsen sind, sieht er nicht. Das egoistische Verhalten ihrer Freundin Daisy löst eine Wandlung in Susanne aus. Sie entwickelt Selbstbewusstsein, Rückschläge inbegriffen, und erobert sich Lutz. Die beiden verbringen eine kurze, glückliche Zeit. Als Lutz eines Tages von dannen zieht, er will die Welt erobern, verabschiedet Susanne ihn mit einem weinenden und einem lachenden Auge.",
+    "releaseDate": "1974-04-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xOlaPcjHlA7JzqK95WoffeHHq4K.jpg",
+    "backdropUrl": null,
+    "voteAverage": 6.1,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Simone von Zglinicki",
+      "Christian Steyer",
+      "Norbert Christian",
+      "Uwe Kockisch",
+      "Fred Delmare"
+    ],
+    "director": [
+      "Bernhard Stephan"
+    ],
+    "writer": [
+      "Bernhard Stephan",
+      "Manfred Freitag",
+      "Joachim Nestler"
+    ],
+    "fsk": null,
+    "slug": "fuer-die-liebe-noch-zu-mager"
+  },
+  {
+    "videoId": "I0XIHpGIDa8",
+    "youtubeTitle": "Willkommen im Süden (ITALIENISCHE KOMÖDIE ganzer Film, Komödie in voller Länge auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/I0XIHpGIDa8/hqdefault.jpg",
+    "duration": "PT1H45M40S",
+    "publishedAt": "2026-11-14T18:30:11Z",
+    "channelName": "COMEDYPIE",
+    "channelId": "UCSxzhmROaWxdX5h_1WRppuA",
+    "tmdbId": 48415,
+    "title": "Willkommen im Süden",
+    "originalTitle": "Benvenuti al sud",
+    "overview": "In Willkommen im Süden dreht sich alles um den Süden Italiens. “Ich hab gesagt, ich sei behindert.” Mit diesem Satz eröffnet der Postbeamte Alberto Colombo seiner Frau, dass seine Lüge die Versetzung nach Mailand zunichte machte. Denn der Schwindel fliegt auf, und anstatt gekündigt zu werden, wird Alberto in den Süden Italiens strafversetzt. Für den Norditaliener und seine Familie bedeutet Süditalien der blanke Horror: Mafiosi und andere Gauner, Dreck auf den Straßen und ein Dialekt, den niemand so wirklich versteht.",
+    "releaseDate": "2010-10-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/763PpcJS7WLsjPhscI9qpesRt0m.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/o4f4gGWLFCYNLJhl2W5mXKHKnqr.jpg",
+    "voteAverage": 6.716,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 102,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Claudio Bisio",
+      "Alessandro Siani",
+      "Angela Finocchiaro",
+      "Valentina Lodovini",
+      "Nando Paone"
+    ],
+    "director": [
+      "Luca Miniero"
+    ],
+    "writer": [
+      "Massimo Gaudioso"
+    ],
+    "fsk": "0",
+    "slug": "willkommen-im-sueden"
+  },
+  {
+    "videoId": "sGDoKh10XgU",
+    "youtubeTitle": "Der Kapitän (1971) mit Heinz Rühmann – Maritime Filmkomödie voller Humor",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sGDoKh10XgU/hqdefault.jpg",
+    "duration": "PT1H28M26S",
+    "publishedAt": "2026-11-14T11:34:54Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 103331,
+    "title": "Der Kapitän",
+    "originalTitle": "Der Kapitän",
+    "overview": "Kapitän Ebbs ist ein älterer, erfahrener Seemann, der jedoch ausschließlich auf Frachtern gefahren ist. Während sein derzeitiger alter Kahn, die Martin Luther, zur Überholung in die Werft muss, gibt ihm die Reederei das Kommando auf dem eleganten Kreuzfahrtschiff Julia, um einen erkrankten Kollegen vorübergehend zu ersetzen. Der raue Ebbs findet nur mühsam in seine neue Tätigkeit hinein und tritt anfänglich von einem gesellschaftlichen Fettnäpfchen ins andere.",
+    "releaseDate": "1971-10-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pCXNxOMRHuVeXUe5x72nIJ2M9Xx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/76QHuMFDxm3FYhgiUnE81QxOZpE.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      35,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Heinz Rühmann",
+      "Johanna Matz",
+      "Horst Tappert",
+      "Ernst Stankovski",
+      "Horst Janson"
+    ],
+    "director": [
+      "Kurt Hoffmann"
+    ],
+    "writer": [
+      "Franz Seitz Junior"
+    ],
+    "fsk": "6",
+    "slug": "der-kapitaen"
+  },
+  {
+    "videoId": "Wovh_BFFvm8",
+    "youtubeTitle": "Familienfieber (2014) [Komödie] | Beim Kennenlernen der Schwiegereltern | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Wovh_BFFvm8/hqdefault.jpg",
+    "duration": "PT1H17M35S",
+    "publishedAt": "2026-11-14T17:00:26Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 300886,
+    "title": "Familienfieber",
+    "originalTitle": "Familienfieber",
+    "overview": "Majas und Uwes Beziehung steckt in der Routine des Alltags fest. Alina, Tochter von Maja und Uwe hingegen ruft im Rahmen ihrer neuentdeckten Liebe Nico zum Familientreffen mit Nicos Eltern auf. Schlecht vorbereitet geht es zu einem Ort in Brandenburg – doch die geplante Familienzusammenführung hält noch Überraschungen bereit…\r Eine heimliche Affäre stört die vermeintliche Harmonie zweier Paare.",
+    "releaseDate": "2014-01-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9m9GLaV5T0j3N1RoEPJDtAvMP06.jpg",
+    "backdropUrl": null,
+    "voteAverage": 4.9,
+    "genreIds": [
+      18,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 78,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Deborah Kaufmann",
+      "Kathrin Waligura",
+      "Jörg Witte",
+      "Peter Trabner",
+      "Anais Urban"
+    ],
+    "director": [
+      "Nico Sommer"
+    ],
+    "writer": [],
+    "fsk": "0",
+    "slug": "familienfieber"
+  },
+  {
+    "videoId": "N_xqAacJvMU",
+    "youtubeTitle": "Guess Who - Meine Tochter kriegst du nicht! (GANZER FILM mit ASHTON KUTCHER, Romantische Komödie)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/N_xqAacJvMU/hqdefault.jpg",
+    "duration": "PT1H45M27S",
+    "publishedAt": "2026-11-14T15:00:19Z",
+    "channelName": "FABELLA",
+    "channelId": "UCww-ReMpc2FgiGb6vIQddWg",
+    "tmdbId": 11638,
+    "title": "Guess who - Meine Tochter kriegst du nicht!",
+    "originalTitle": "Guess Who",
+    "overview": "Simon Green und seine afroamerikanische Freundin Theresa sind zu einem Fest bei den Jones, Theresas Eltern, eingeladen. Bei dieser Gelegenheit möchte sie ihren Eltern Simon vorstellen und ihnen ihre Hochzeitspläne verkünden. Doch ihr Vater Percy ist geschockt, dass seine Tochter mit einem Weißen zusammen ist und misstraut ihm. Als er auch noch herausfindet, dass Simon erst vor kurzem seinen Job verloren und Theresa nichts davon gesagt hat, wird die Beziehung der beiden auf eine schwere Probe gestellt.",
+    "releaseDate": "2005-03-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dY3ejZYsMrcbnxLHWuSBnhhnfHo.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pfojsC4a1wLzWGPZjHJBM1vIbUh.jpg",
+    "voteAverage": 6.062,
+    "genreIds": [
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 105,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bernie Mac",
+      "Ashton Kutcher",
+      "Zoe Saldaña",
+      "Judith Scott",
+      "Hal Williams"
+    ],
+    "director": [
+      "Kevin Rodney Sullivan"
+    ],
+    "writer": [
+      "Peter Tolan",
+      "David Ronn",
+      "Jay Scherick"
+    ],
+    "fsk": "0",
+    "slug": "guess-who-meine-tochter-kriegst-du-nicht"
+  },
+  {
+    "videoId": "6COcy2kBJno",
+    "youtubeTitle": "Doctor Faustus (1968) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/6COcy2kBJno/hqdefault.jpg",
+    "duration": "PT1H27M28S",
+    "publishedAt": "2026-11-14T17:00:08Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 95404,
+    "title": "Doktor Faustus",
+    "originalTitle": "Doctor Faustus",
+    "overview": "Konventionell illustrierende Verfilmung des Faust-Dramas von Christopher Marlowe mit Richard Burton in der Hauptrolle und als Regisseur.",
+    "releaseDate": "1967-10-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1XcaYFrN0OQ3cEH8gXHlRaZDXfa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kxU3gDDG3lsxbZvaoibthOEVgeF.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      9648,
+      18,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 93,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Richard Burton",
+      "Elizabeth Taylor",
+      "Richard Durden",
+      "Andreas Teuber",
+      "Ian Marter"
+    ],
+    "director": [
+      "Richard Burton",
+      "Nevill Coghill"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "doktor-faustus"
+  },
+  {
+    "videoId": "nNJ1N7JCGSQ",
+    "youtubeTitle": "10 JAHRE BESCHÜTZTE ER SIE – DOCH EIN MANN WAR GEFÄHRLICHER ALS ALLE ZOMBIES | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nNJ1N7JCGSQ/hqdefault.jpg",
+    "duration": "PT1H51M28S",
+    "publishedAt": "2026-11-13T12:52:00Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "10 JAHRE BESCHÜTZTE ER SIE - DOCH EIN MANN WAR GEFÄHRLICHER ALS ALLE ZOMBIES",
+    "originalTitle": null,
+    "overview": "Zombie Film, Ganzer Film HD, Zombie Apokalypse, Zombie Thriller, Endzeitfilm, Survival Horror, Action Horror, Infizierte, tödliches Virus, Virus Ausbruch, Zombie Horde, Überlebenskampf, Postapokalypse, Endzeit Thriller, Zombie Angriff, Horror Action, Überlebende, Weltuntergang, Zombie Filme 2025, Silent Zone, Horrorfilm, Amerikanischer Actionfilm, Science Fiction Horror, Zombie Überlebensfilm, Filme in voller Länge, Action Thriller, gefährlicher Wissenschaftler, Kampf ums Überleben",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "10-jahre-beschuetzte-er-sie-doch-ein-mann-war-gefaehrlicher"
+  },
+  {
+    "videoId": "s9xIVU56OX4",
+    "youtubeTitle": "„Oldboy“-Star Choi Min-sik vs. Koreas letzter Tiger – Eine Jagd ohne Gnade | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/s9xIVU56OX4/hqdefault.jpg",
+    "duration": "PT2H19M47S",
+    "publishedAt": "2026-11-13T17:00:19Z",
+    "channelName": "Pandastorm Pictures",
+    "channelId": "UCg4OrITaT-hkDpv4mwko20w",
+    "tmdbId": null,
+    "title": "„Oldboy“-Star Choi Min-sik vs. Koreas letzter Tiger - Eine Jagd ohne Gnade",
+    "originalTitle": null,
+    "overview": "Korea 1925 unter japanischer Besatzung: Der Witwer Chun Man-duk, der als bester Jäger im Königreich Korea gilt, lebt mit seinem Sohn Seok zurückgezogen am Fuße der majestätischen Berge. Zur Demonstration ihrer Macht plant die japanische Armee den dort umherstreifenden letzten Tiger Koreas auszurotten, der von den Einheimischen so gefürchtet wie verehrt wird.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Park Hoon-jung (New World",
+      "The Witch: Subversion",
+      "Night in Paradise)"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "oldboy-star-choi-min-sik-vs-koreas-letzter-tiger-eine-jagd-o"
+  },
+  {
+    "videoId": "sSOhzE4H-XU",
+    "youtubeTitle": "😱 Eine Schwangere Fürchtet Um Ihr Ungeborenes Baby! Ein Packender Thriller | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sSOhzE4H-XU/hqdefault.jpg",
+    "duration": "PT1H27M43S",
+    "publishedAt": "2026-11-13T19:21:52Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": null,
+    "title": "Labor, Lies and Murder",
+    "originalTitle": null,
+    "overview": "Willkommen auf dem ultimativen YouTube-Kanal für alle, die Filme lieben! Hier findest du ganze Spielfilme in HD-Qualität – von Action, Thriller, Horror und Drama bis zu Romantik, Abenteuer und Comedy. Tauche ein in eine Welt voller Spannung, Emotionen und unvergesslicher Geschichten.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "labor-lies-and-murder"
   }
 ]

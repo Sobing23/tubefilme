@@ -9052,5 +9052,15 @@
     "title": "Das Rote Meer (Red Sea): Einzigartige Unterwasserwelten & Korallenriffe",
     "tmdbId": null,
     "channelName": "Movie360"
+  },
+  {
+    "datum": "2026-11-15",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Jahr widerspricht (TMDB 2023, Video 1988) -- wird neu gesucht",
+    "videoId": "kSymh4ezF5E",
+    "youtubeTitle": "Die Caine-Meuterei vor Gericht - The Caine Mutiny Court-Martial (1988) | Ganzer Film auf Deutsch",
+    "title": "Die Caine-Meuterei vor Gericht",
+    "tmdbId": 1018332,
+    "channelName": "Making Legends"
   }
 ]
