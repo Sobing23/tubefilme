@@ -3812,5 +3812,15 @@
     "title": "Billy Graham: Ein außergewöhnliches Leben",
     "tmdbId": 509361,
     "channelName": "Glaubensfilme"
+  },
+  {
+    "datum": "2026-11-16",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "ufLtotohYuY",
+    "youtubeTitle": "POWER OF ROME | GANZER FILM | 4K | Rom mit neuen Augen",
+    "title": "Power of Rome",
+    "tmdbId": 799299,
+    "channelName": "Kino Deutsch"
   }
 ]

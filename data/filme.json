@@ -97564,7 +97564,10 @@
     "slug": "die-rache-des-karatetigers",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-16"
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -226991,7 +226994,7 @@
     "fsk": null,
     "slug": "american-sophomore",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarGrund": "geloescht",
     "nichtVerfuegbarSeit": "2026-11-11"
   },
   {
@@ -352991,5 +352994,738 @@
     "writer": [],
     "fsk": null,
     "slug": "labor-lies-and-murder"
+  },
+  {
+    "videoId": "t7EiFnHl9Eg",
+    "youtubeTitle": "Final Day - Das Ende der Welt (2009 | Ein Riss zerreißt Amerika | Ganzer Film | HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/t7EiFnHl9Eg/hqdefault.jpg",
+    "duration": "PT1H26M23S",
+    "publishedAt": "2026-11-15T15:15:05Z",
+    "channelName": "Utopja",
+    "channelId": "UC5FelnKqltzYS3H1LPlC-Xg",
+    "tmdbId": 30289,
+    "title": "Final Day – Das Ende der Welt",
+    "originalTitle": "MegaFault",
+    "overview": "Seismologin Dr. Lane hält gerade einen Vortrag über Erdbeben, als gewaltige Eruptionen ganz Nordamerika erschüttern und einen sofortigen Fronteinsatz der Wissenschaftlerin nötig erscheinen lassen. Während also ihre Familie nach Colorado fliegt (und dort vom Erdbeben überrascht wird), eilt Dr. Lane ins Epizentrum und muss feststellen, dass man sich offensichtlich erst am Beginn einer die Welt bedrohenden Kettenreaktion befindet. Das einzige, was jetzt noch das Ende der Menschheit verhindern kann, ist ein von Menschenhand gefertigtes Gegenerdbeben.",
+    "releaseDate": "2009-10-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wa3v5osMnFaEUImfMiWOTIjv2lQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8vuUwoOV1yGesQEm2p3fnmp7nzg.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      10770,
+      28,
+      12,
+      878
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Brittany Murphy",
+      "Eriq La Salle",
+      "Paul Logan",
+      "Bruce Davison",
+      "Justin Hartley"
+    ],
+    "director": [
+      "David Michael Latt"
+    ],
+    "writer": [
+      "Paul Bales"
+    ],
+    "fsk": null,
+    "slug": "final-day-das-ende-der-welt"
+  },
+  {
+    "videoId": "b3IKwu4Ml8g",
+    "youtubeTitle": "ON OUR WATCH / E noi come stronzi rimanemmo a guardare | GANZER FILM | 4K | Vom Manager zum Kurier",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/b3IKwu4Ml8g/hqdefault.jpg",
+    "duration": "PT1H48M18S",
+    "publishedAt": "2026-11-15T18:00:07Z",
+    "channelName": "Alle Filme Auf Deutsch",
+    "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA",
+    "tmdbId": 647809,
+    "title": "E noi come stronzi rimanemmo a guardare",
+    "originalTitle": "E noi come stronzi rimanemmo a guardare",
+    "overview": "",
+    "releaseDate": "2021-10-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fliDojAYPtosZrKSlXmTMaQ37zN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/mVdQlzKKLXlErVSqmBwgtwAqF4D.jpg",
+    "voteAverage": 6.5,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (2 Filme) -- Laufzeit entschied: TMDB 108 min, Video 108 min · Zuordnungswert 111 (Suchbegriff: \"E noi come stronzi rimanemmo a guardare\")",
+    "runtime": 108,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Fabio De Luigi",
+      "Ilenia Pastorelli",
+      "Pif",
+      "Valeria Solarino",
+      "Maurizio Marchetti"
+    ],
+    "director": [
+      "Pif"
+    ],
+    "writer": [
+      "Michele Astori",
+      "Pif"
+    ],
+    "fsk": null,
+    "slug": "e-noi-come-stronzi-rimanemmo-a-guardare"
+  },
+  {
+    "videoId": "Rl8A5FJ-h8I",
+    "youtubeTitle": "Ballistic CUT (PSYCHOTHRILLER mit JENNIFER CARPENTER ganzer Film Deutsch, Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Rl8A5FJ-h8I/hqdefault.jpg",
+    "duration": "PT1H30M14S",
+    "publishedAt": "2026-11-15T18:00:24Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 1243741,
+    "title": "Ballistic",
+    "originalTitle": "Ballistic",
+    "overview": "",
+    "releaseDate": "2026-04-17",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mTcXNQHnabavseapSfcAKhTnC3V.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hC11CgiCUdpCwG1I6dSY18nJXrP.jpg",
+    "voteAverage": 5.871,
+    "genreIds": [
+      53,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Lena Headey",
+      "Hamza Haq",
+      "Amybeth McNulty",
+      "Jordan Kronis",
+      "Enrico Colantoni"
+    ],
+    "director": [
+      "Chad Faust"
+    ],
+    "writer": [
+      "Chad Faust"
+    ],
+    "fsk": null,
+    "slug": "ballistic"
+  },
+  {
+    "videoId": "jlE6xsZ68UU",
+    "youtubeTitle": "Eurotrip | 2004 | 4K | Bekannte Komödie auf Deutsch | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jlE6xsZ68UU/hqdefault.jpg",
+    "duration": "PT1H13M21S",
+    "publishedAt": "2026-11-15T18:00:09Z",
+    "channelName": "Bigtime",
+    "channelId": "UCMo_16a109pQo75cZOtNObg",
+    "tmdbId": 9352,
+    "title": "Eurotrip",
+    "originalTitle": "EuroTrip",
+    "overview": "Scott hielt Mieke, seine Briefbekanntschaft aus Berlin, immer für einen Kerl. Doch kurz nachdem er „ihn“ übelst beleidigt hat, muss er feststellen, dass Mieke die Frau seiner Träume ist. Dumm nur, dass sie jetzt auf keine E-Mail mehr antworten will. Also macht sich Scott kurzerhand mit seinem Kumpel Cooper und den Zwillingen Jenny und Jamie auf nach Europa.",
+    "releaseDate": "2004-02-20",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sQaTcyKN52bwS4YiYrhCUljfimq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/kg8na5u6qdCydm7cK7p2I0zQmgr.jpg",
+    "voteAverage": 6.634,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Scott Mechlowicz",
+      "Jacob Pitts",
+      "Michelle Trachtenberg",
+      "Travis Wester",
+      "Vinnie Jones"
+    ],
+    "director": [
+      "Jeff Schaffer",
+      "David Mandel",
+      "Alec Berg"
+    ],
+    "writer": [
+      "David Mandel",
+      "Jeff Schaffer",
+      "Alec Berg"
+    ],
+    "fsk": "12",
+    "slug": "eurotrip"
+  },
+  {
+    "videoId": "akEZXcU_nZo",
+    "youtubeTitle": "Verdammt zu leben - verdammt zu sterben | 4K | Fabio Testi | Westernfilm | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/akEZXcU_nZo/hqdefault.jpg",
+    "duration": "PT1H36M52S",
+    "publishedAt": "2026-11-15T18:00:24Z",
+    "channelName": "Grjngo Westernfilme",
+    "channelId": "UCOoN2oMOjSYbj8MqJqoG9Yw",
+    "tmdbId": 48855,
+    "title": "Verdammt zu leben - verdammt zu sterben!",
+    "originalTitle": "I quattro dell'apocalisse",
+    "overview": "Die \"Vier apokalyptischen Reiter\" sind der Falschspieler Stubby Preston, die schwangere Hure Bunny O'Neil, der Trinker Clem und der psychisch verrückte Bud. Alle vier konnten aus dem Gefängnis einer Stadt voller Selbstjustitzler fliehen, und sind in der Prärie Utahs auf der Suche nach Nahrung und Wasser. Eine Weile werden sie begleitet von dem Outlaw Chaco, der sie jedoch letzten Endes unter Drogen setzt, sie foltert, die Hure vergewaltigt, und sie hilflos in der Wüste zurücklässt. Stubby schwört blutige Rache, und gemeinsam setzen sie ihre nun erschwerte Reise fort, auf der Suche nach der rettenden Zivilisation und dem sadistischen Peiniger...",
+    "releaseDate": "1975-08-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gkqKHzfVNysoo5vEtbfDTw2Gi6Q.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/i6Xty6GN05CL4DJQx1PqQZlFM2J.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 104,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Fabio Testi",
+      "Lynne Frederick",
+      "Michael J. Pollard",
+      "Harry Baird",
+      "Tomas Milian"
+    ],
+    "director": [
+      "Lucio Fulci"
+    ],
+    "writer": [
+      "Ennio De Concini",
+      "Bret Harte"
+    ],
+    "fsk": "16",
+    "slug": "verdammt-zu-leben-verdammt-zu-sterben"
+  },
+  {
+    "videoId": "WUfrloGjcFs",
+    "youtubeTitle": "Die Heiligen Vier Könige (1998) mit Joachim Fuchsberger [Drama] [Bibel] | Weihnachten 2026 Filme",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WUfrloGjcFs/hqdefault.jpg",
+    "duration": "PT1H36M52S",
+    "publishedAt": "2026-11-15T09:00:25Z",
+    "channelName": "Glaubensfilme",
+    "channelId": "UCQ-CTVMUyNArCK3OqozlKCQ",
+    "tmdbId": 311532,
+    "title": "Die heiligen vier Könige",
+    "originalTitle": "Il quarto Re",
+    "overview": "Alazar, ein einfacher Bauer und Imker, begegnet den drei Weisen Kaspar, Melchior und Balthasar, die sich auf den Weg gemacht haben, um die Ankunft des Messias auf Erden zu feiern. Alazars magische Bienen verwandeln sich auf wundersame Weise in den Schweif jenes hellen Kometen, der die vier zur Krippe führt. Zunächst ist der tapfere junge Bauernsohn drauf und dran, die Weisen ihrem Schicksal zu überlassen, da er durch deren Zauberkräfte gegen seinen Willen gezwungen wurde, seine schwangere Frau Izirah zurückzulassen.",
+    "releaseDate": "1997-12-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qsmAGUHsYQto7UkW9PQF2mLDcfd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wMinbjErQift48b7W6GQVr2cS6n.jpg",
+    "voteAverage": 6.3,
+    "genreIds": [
+      18,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Raoul Bova",
+      "Maria Grazia Cucinotta",
+      "Daniel Ceccaldi",
+      "Joachim Fuchsberger",
+      "Billy Dee Williams"
+    ],
+    "director": [
+      "Stefano Reali"
+    ],
+    "writer": [
+      "Enzo De Caro",
+      "Jurij Markovič Nagibin",
+      "Enrico Medioli"
+    ],
+    "fsk": null,
+    "slug": "die-heiligen-vier-koenige"
+  },
+  {
+    "videoId": "-JVz2Qlryck",
+    "youtubeTitle": "Der Maulkorb | 1958 | HeimatfilmeTV",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-JVz2Qlryck/hqdefault.jpg",
+    "duration": "PT1H30M12S",
+    "publishedAt": "2026-11-15T14:45:12Z",
+    "channelName": "Heimatfilme",
+    "channelId": "UCV8yejshmlsns86C-ZeO16Q",
+    "tmdbId": 95639,
+    "title": "Der Maulkorb",
+    "originalTitle": "Der Maulkorb",
+    "overview": "Die Geschichte spielt zur Kaiserzeit in einer rheinischen Stadt. Der Landesherr soll eine Rede gehalten haben, über die jedoch nichts in der Zeitung zu finden ist. Bald mehren sich die Gerüchte über den Inhalt, so soll der Kaiser über die ewigen Nörgler gewettert haben und Goethe zitiert haben – welches Zitat genau ist jedoch nicht bekannt. Am Stammtisch, wo auch der Staatsanwalt Treskow sitzt, empören sich die Bürger bei reichlichem Weinkonsum darüber. Am nächsten Morgen trägt das Denkmal des Landesherrn einen Maulkorb.  Dem verkaterten Staatsanwalt von Treskow wird der Fall übertragen, ermittelt wird wegen Majestätsbeleidigung, ohne zu ahnen, dass er selbst der Täter ist .....",
+    "releaseDate": "1958-09-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sWc6IOTkB5etTZyzFaj1cxTe8TJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7gTsLGcQ9LldR8yrtfENpYbVjNi.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "O.E. Hasse",
+      "Hertha Feiler",
+      "Hansjörg Felmy",
+      "Corny Collins",
+      "Robert Meyn"
+    ],
+    "director": [
+      "Wolfgang Staudte"
+    ],
+    "writer": [
+      "Manfred Barthel",
+      "Eckart Hachfeld"
+    ],
+    "fsk": "12",
+    "slug": "der-maulkorb"
+  },
+  {
+    "videoId": "TCt_oRvw0Hw",
+    "youtubeTitle": "RYAN GOSLING als NEONAZI: Inside A Skinhead | Provokantes Psychodrama | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/TCt_oRvw0Hw/hqdefault.jpg",
+    "duration": "PT1H38M13S",
+    "publishedAt": "2026-11-15T17:15:36Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 4012,
+    "title": "Inside a Skinhead",
+    "originalTitle": "The Believer",
+    "overview": "Danny Balint ist ein junger jüdischer Mann, der in New York lebt. In den Nächten studiert er religiöse Schriften und lehrt hebräisch, während sich tagsüber eine komplett unterschiedliche Persönlichkeit herauskristallisiert. Danny wird von einer Kraft magnetisiert, die im völligen Gegensatz zu seinem Erbe steht: Neo-Faschismus. Basierend auf wahren Ereignissen erzählt dieser überraschende Psycho-Thriller vom Abtauchen in eine Welt der Gewalt. Aber es ist nicht nur die Gewalt in den Straßen, sondern die innere Gewalt und der Kampf in ihm selbst, einem Mann, der nicht aus seiner jüdischen Identität fliehen kann.",
+    "releaseDate": "2001-08-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7EUxVGl7KHvZajWsyiNzY5onanU.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/poWdvGi83EKQjhAZAF9meQSS5yL.jpg",
+    "voteAverage": 6.871,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ryan Gosling",
+      "Summer Phoenix",
+      "Theresa Russell",
+      "Billy Zane",
+      "Garret Dillahunt"
+    ],
+    "director": [
+      "Henry Bean"
+    ],
+    "writer": [
+      "Henry Bean",
+      "Mark Jacobson"
+    ],
+    "fsk": "18",
+    "slug": "inside-a-skinhead"
+  },
+  {
+    "videoId": "zY7G-WVkHSg",
+    "youtubeTitle": "Fire Down Below (1997) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zY7G-WVkHSg/hqdefault.jpg",
+    "duration": "PT1H55M35S",
+    "publishedAt": "2026-11-15T17:00:33Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": 14289,
+    "title": "Fire Down Below",
+    "originalTitle": "Fire Down Below",
+    "overview": "In einer Kleinstadt im US-Bundesstaat Kentucky wird ein Bundesmarschall auf mysteriöse Weise ermordet. Jack Taggart, ebenfalls US-Marschall, wird in das verschlafene Nest geschickt, um den Mord an seinem Kollegen aufzuklären. Die Einwohner des Örtchens schweigen zu dem Vorfall, was die Ermittlungen Taggarts erschwert. Er stößt bei seinen Nachforschungen dennoch auf die Gründe, weshalb sein Kollege vor Ort war und offenbar umgebracht wurde. Die Berglandschaft um den kleinen Ort ist wegen üblen Wasser-und Luftverschmutzungen offenbar ein gigantischer Ablageplatz für Giftmüll jeglicher Art. Alle Spuren führen zu dem zwielichtigen Minentycoon Orin Hanner  der die kleine Stadt mit einer relativ geringen Menge an Finanzmitteln zum Schweigen gebracht hat. Um eine gewaltige Umweltkatastrophe zu verhindern, greift Taggart gnadenlos durch und deckt unter Einsatz seines Lebens die Machenschaften Hanners und seiner Leute auf.",
+    "releaseDate": "1997-09-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9IbdNGv8WTbLBp8kn46lsiSsJwZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iWoQUcMpEZlq5yAALb08LtACr9.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      28,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 104,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Steven Seagal",
+      "Marg Helgenberger",
+      "Stephen Lang",
+      "Brad Hunt",
+      "Kris Kristofferson"
+    ],
+    "director": [
+      "Félix Alcalá"
+    ],
+    "writer": [
+      "Jeb Stuart",
+      "Philip Morton"
+    ],
+    "fsk": "18",
+    "slug": "fire-down-below"
+  },
+  {
+    "videoId": "eVm4jsHbAmo",
+    "youtubeTitle": "Ein Arm. Ein Schwert. Ein letzter Kampf: Das blutige Schwert des Königstigers (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/eVm4jsHbAmo/hqdefault.jpg",
+    "duration": "PT1H44M44S",
+    "publishedAt": "2026-11-15T11:00:13Z",
+    "channelName": "Hakunan",
+    "channelId": "UCXrDDm2V6MA-Ia2ICUD9qjw",
+    "tmdbId": 54178,
+    "title": "Das goldene Schwert des Königstigers",
+    "originalTitle": "獨臂刀",
+    "overview": "Als sein Diener für ihn sein Leben opfert, nimmt der alte Schwertmeister Chi Yu-Feng dessen Sohn als Schüler und Sohn auf. Nach langjähriger Ausbildung ist er bereit, die Schule des Meisters zu übernehmen. Doch dessen Tochter kann ihre Eifersucht nicht mehr zügeln, stellt ihm eine Falle und hackt ihm im Kampf den rechten Arm ab. Eine junge Fischerin findet und pflegt ihn. Er trainiert den Schwertkampf mit einem Arm und gerät bald in einen Konflikt zw. Chi Yu-Feng und einem seiner Konkurrenten. Er will nun seinem alten Meister helfen....",
+    "releaseDate": "1967-07-26",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1e6yjWMP3xfGKSQtCqPnGjARQ4h.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jZlUG3Vs6HAVPr7JedmfoMIxeZW.jpg",
+    "voteAverage": 6.896,
+    "genreIds": [
+      28,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 111,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Wang Yu",
+      "焦姣",
+      "Tien Feng",
+      "Violet Pan Ying-Zi",
+      "Yang Chih-Ching"
+    ],
+    "director": [
+      "Chang Cheh"
+    ],
+    "writer": [
+      "Chang Cheh",
+      "Ni Kuang"
+    ],
+    "fsk": "18",
+    "slug": "das-goldene-schwert-des-koenigstigers"
+  },
+  {
+    "videoId": "yQwpyjygyPw",
+    "youtubeTitle": "Laura Tonke in einer schrägen Liebeskomödie: Zwei im falschen Film (ROMANZE, ganzer film, HD filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yQwpyjygyPw/hqdefault.jpg",
+    "duration": "PT1H36M44S",
+    "publishedAt": "2026-11-15T16:30:34Z",
+    "channelName": "Heimatkino",
+    "channelId": "UChJySzurS1PVmE_gvVQX_ng",
+    "tmdbId": 434007,
+    "title": "Zwei im falschen Film",
+    "originalTitle": "Zwei im falschen Film",
+    "overview": "Heinz und Hans sind ein ganz normales Paar. Um ihren Jahrestag zu feiern, gehen sie ins Kino – ein Liebesfilm steht auf dem Programm. Nur so recht will die romantische Stimmung von der Leinwand auf die beiden nicht überspringen. Was ganz beiläufig beginnt, wird zur Existenzfrage der Beziehung, denn sie stellen fest: nichts ist mehr wie im Film!",
+    "releaseDate": "2018-05-31",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7Qu4fu9wqzenPdb0m7ixTCSf1UX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gJ9Rz5O55pVH0k5uTfdoFq3Wjat.jpg",
+    "voteAverage": 4.7,
+    "genreIds": [
+      35,
+      10749,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 107,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Laura Tonke",
+      "Marc Hosemann",
+      "David Bredin",
+      "Katrin Wichmann",
+      "Christine Schorn"
+    ],
+    "director": [
+      "Laura Lackmann"
+    ],
+    "writer": [
+      "Laura Lackmann"
+    ],
+    "fsk": "12",
+    "slug": "zwei-im-falschen-film"
+  },
+  {
+    "videoId": "oEYHnu6keN4",
+    "youtubeTitle": "Der schwarze Pfad - Devour (2005) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oEYHnu6keN4/hqdefault.jpg",
+    "duration": "PT1H29M48S",
+    "publishedAt": "2026-11-15T17:00:27Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 14147,
+    "title": "Devour - Der schwarze Pfad",
+    "originalTitle": "DeVour",
+    "overview": "Warum er diese Vorahnungen, die sich alle um Mord und Selbstverstümmelung drehen, hat, kann sich Jake Gray auch nicht erklären. Er weiß nur, dass diese ihn langsam in den Wahnsinn treiben, wenn er nicht bald Hilfe erfährt. Doch dann hört er von seinen Freunden Dakota und Conrad von dem mysteriösen Videospiel  Das Spiel stellt verschiedene Aufgaben, die er bewältigen muss, um weiterspielen zu können. Eines Tages wird jedoch Conrad tot neben zwei weiteren Leichen gefunden. Langsam beginnt er daran zu zweifeln, dass es sich bei dem Spiel nur um ein Spiel handelt und macht sich zusammen mit seiner neuen Freundin Marisol auf die Suche nach den Entwicklern.",
+    "releaseDate": "2005-10-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ondD4TXy06jhwIrh1IaJ6cd6b5N.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/sWKXgvGWzqj5Hi16isjZyGkp7ld.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Der schwarze Pfad - Devour\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jensen Ackles",
+      "Shannyn Sossamon",
+      "Dominique Swain",
+      "William Sadler",
+      "Teach Grant"
+    ],
+    "director": [
+      "David Winkler"
+    ],
+    "writer": [
+      "Seth Gross",
+      "Adam Gross"
+    ],
+    "fsk": null,
+    "slug": "devour-der-schwarze-pfad"
+  },
+  {
+    "videoId": "nYVeuedUk2I",
+    "youtubeTitle": "Dieser Thriller lässt dich NICHT LOS! Sie beginnt eine Affäre mit einem Psychopathen! | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nYVeuedUk2I/hqdefault.jpg",
+    "duration": "PT1H23M9S",
+    "publishedAt": "2026-11-15T15:00:35Z",
+    "channelName": "KinoWelt Deutsch",
+    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "tmdbId": 59996,
+    "title": "Cold Heart",
+    "originalTitle": "Cold Heart",
+    "overview": "Eine verheiratete Frau lässt sich auf eine Affäre mit dem charmanten, aber soziopathischen jungen Patienten ihres Mannes ein; doch als sie zu ihrem Ehemann zurückkehrt, wird sie von ihrem ehemaligen Liebhaber gestalkt.",
+    "releaseDate": "2001-02-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lXHPkjlXFlclX4KMq0wVGQ2KkQN.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/nzvvtEzQ8xSGyeL7VyMkc12D3q5.jpg",
+    "voteAverage": 5,
+    "genreIds": [
+      53,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Nastassja Kinski",
+      "Jeff Fahey",
+      "Josh Holloway",
+      "Hudson Leick",
+      "Janne Olivia Campbell"
+    ],
+    "director": [
+      "Dennis Dimster"
+    ],
+    "writer": [
+      "Zvia Dimbort",
+      "Dennis Dimster"
+    ],
+    "fsk": null,
+    "slug": "cold-heart"
+  },
+  {
+    "videoId": "UWLYuXsN1DQ",
+    "youtubeTitle": "Ein THRILLERFILM, dessen Rätsel du erst ganz am Ende lösen kannst | AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/UWLYuXsN1DQ/hqdefault.jpg",
+    "duration": "PT1H35M35S",
+    "publishedAt": "2026-11-14T16:00:30Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Pretty Little Victim",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "pretty-little-victim"
+  },
+  {
+    "videoId": "uiJKuIZBM1E",
+    "youtubeTitle": "😱 Sie spielten mit VOODOO-MAGIE… und erweckten das BÖSE! | Filme deutsch komplet 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/uiJKuIZBM1E/hqdefault.jpg",
+    "duration": "PT1H20M42S",
+    "publishedAt": "2026-11-14T16:15:40Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Sacrificial",
+    "originalTitle": null,
+    "overview": "In einem abgelegenen und geheimnisvollen Teil der Everglades treibt ein seltsamer Voodoo-Kult sein Unwesen. Seine Anhänger verehren eine erfundene Gottheit namens Kwanga. An der Spitze der Sekte stehen der Hohepriester De Obayah und die Priesterin Brigitte – ein gieriges und skrupelloses Paar, das für den eigenen Vorteil zu allem bereit ist. Hinter religiösen Zeremonien und mystischen Ritualen verbergen sich gefährliche Geheimnisse, Manipulationen und ein unstillbarer Machtgier. Doch wie weit werden sie gehen, um ihre Ziele zu erreichen?",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "sacrificial"
+  },
+  {
+    "videoId": "G9zVhel_c_o",
+    "youtubeTitle": "Ein Unruhiger Geist | DRAMA | Ganzer Film | Film Komplett auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/G9zVhel_c_o/hqdefault.jpg",
+    "duration": "PT1H32M10S",
+    "publishedAt": "2026-11-14T16:00:35Z",
+    "channelName": "Boxoffice",
+    "channelId": "UCTV_D_lkt6ZfPZgAuFO8ZcQ",
+    "tmdbId": null,
+    "title": "Ein Unruhiger Geist",
+    "originalTitle": null,
+    "overview": "Ein einsames junges Mädchen flüchtet in ein selbst gezeichnetes Haus, wo sie einen kranken Jungen kennenlernt – bis ihre Traumwelt zum Albtraum wird.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "ein-unruhiger-geist"
+  },
+  {
+    "videoId": "HA_SS_wDlnw",
+    "youtubeTitle": "Er sucht seine verschwundene Mutter… doch eine geheime Organisation ist ihm dicht auf den Fersen",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/HA_SS_wDlnw/hqdefault.jpg",
+    "duration": "PT1H27M1S",
+    "publishedAt": "2026-11-14T14:00:22Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Er sucht seine verschwundene Mutter… doch eine geheime Organisation ist ihm dicht auf den Fersen",
+    "originalTitle": null,
+    "overview": "Jarod ist ein außergewöhnlich intelligenter Mann mit der seltenen Fähigkeit, nahezu jede berufliche Identität anzunehmen. Seit seiner Kindheit wurde er von einer geheimnisvollen Organisation namens „The Centre“ kontrolliert, die seine außergewöhnlichen Fähigkeiten für ihre eigenen Ziele ausnutzte. Doch Jarod konnte entkommen. Seitdem versucht er verzweifelt, seine verschwundene Familie wiederzufinden und die Wahrheit über seine Vergangenheit herauszufinden. Als ein mysteriöses Foto seiner Mutter und einer weiteren Frau auftaucht, entdeckt Jarod einen entscheidenden Hinweis. Die Spur führt ihn auf eine abgelegene Insel vor der schottischen Küste. Dort soll sich ein uraltes Geheimnis verbergen, das eng mit den Ursprüngen der Organisation verbunden ist. Doch Jarod ist nicht allein. Miss Parker, eine entschlossene Agentin, die ihn seit Jahren verfolgt, erreicht ebenfalls die geheimnisvolle I",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "er-sucht-seine-verschwundene-mutter-doch-eine-geheime-organi"
+  },
+  {
+    "videoId": "FroD8DfNRB4",
+    "youtubeTitle": "🍿🤣  Diese verrückte Komödie stellt alles auf den Kopf | Das Superweib | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FroD8DfNRB4/hqdefault.jpg",
+    "duration": "PT1H24M54S",
+    "publishedAt": "2026-11-14T14:07:44Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": null,
+    "title": "Das Superweib",
+    "originalTitle": null,
+    "overview": "Eine leichte, romantische Komödie über Liebe, familiäre Schwierigkeiten, unerwartete Wendungen und eine Frau, die sich selbst neu entdecken muss. Franziska ist eine romantische, lebensfrohe Frau, die zwei Kinder großzieht und versucht, das Familienleben aufrechtzuerhalten, während ihr Mann, ein Filmregisseur, beruflich ständig um die Welt reist. Alles scheint wie immer, doch eines Tages beschließt Franziska, sich eine eigene Wohnung zu kaufen. Da begegnet sie Enno Winkel – einem ungewöhnlichen Anwalt, der Scheidungsfälle mit Vorliebe bearbeitet. Was als normale Anfrage nach juristischer Hilfe beginnt, gerät unerwartet außer Kontrolle, denn Enno organisiert ihre Scheidung, bevor Franziska überhaupt realisiert, was vor sich geht. Ein völlig neuer Lebensabschnitt beginnt für die Protagonistin, voller komischer Situationen, unerwarteter Bekanntschaften und schwieriger Entscheidungen. Wird Fr",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "das-superweib"
+  },
+  {
+    "videoId": "Al0HwTPFDOU",
+    "youtubeTitle": "Unter der Sonne Marokkos (2002) | Ganzer Film [Deutsch]",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Al0HwTPFDOU/hqdefault.jpg",
+    "duration": "PT1H45M57S",
+    "publishedAt": "2026-11-14T17:00:10Z",
+    "channelName": "daredo TV",
+    "channelId": "UCxXbH7GLYnpfwcmDxoKIN-g",
+    "tmdbId": null,
+    "title": "Unter der Sonne Marokkos",
+    "originalTitle": null,
+    "overview": "Als der britische Juwelendieb Valentin Valentin (Jeremy Irons) nach einem missglückten Raubzug in Marokko strandet, leidet er unter rätselhaften Gedächtnislücken und beschließt, sein bisheriges Leben hinter sich zu lassen. Zur gleichen Zeit flieht die französische Sängerin Jane Lester (Patricia Kaas) nach einer gescheiterten Liebesbeziehung nach Marokko, wo sie ebenfalls mit Erinnerungslücken und persönlichen Problemen zu kämpfen hat. In einem luxuriösen Hotel begegnen sich die beiden Außenseiter und fühlen sich trotz ihrer unterschiedlichen Lebensgeschichten sofort zueinander hingezogen. Während Valentin versucht, seine Vergangenheit als Dieb zu vergessen, sucht Jane nach einem Ausweg aus den Verstrickungen ihres bisherigen Lebens. Zwischen den beiden entwickelt sich eine ungewöhnliche Liebesgeschichte, die von geheimnisvollen Begegnungen, unerwarteten Wendungen und der Suche nach einem",
+    "releaseDate": "2002-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Claude Lelouch"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "unter-der-sonne-marokkos"
+  },
+  {
+    "videoId": "1CRI_E6ivfI",
+    "youtubeTitle": "Wenn sture Herzen plötzlich füreinander schlagen | Lilly Schönauer Dreierpack",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1CRI_E6ivfI/hqdefault.jpg",
+    "duration": "PT4H25M48S",
+    "publishedAt": "2026-11-14T18:00:37Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Wenn sture Herzen plötzlich füreinander schlagen",
+    "originalTitle": null,
+    "overview": "Im idyllischen Weinland prallen die Ansichten eines sturköpfigen Bestsellerautors und einer engagierten Lektoratsassistentin aufeinander, als sie gemeinsam für Recherchen auf dem elterlichen Weingut eintreffen. Familienkonflikte, verheimlichte Gefühle und der Druck des Verlags bringen die Beteiligten emotional an ihre Grenzen, während eine überraschende Nähe langsam alte Wunden heilt. Im zweiten Teil des Films stehen eine alleinstehende Mutter und ein berühmter Dirigent im Mittelpunkt, deren unverhoffte Begegnung das geordnete Leben beider Protagonisten völlig auf den Kopf stellt. Zwischen beruflicher Leidenschaft, familiären Verpflichtungen und unerwarteten Lebenswendungen kämpfen die Hauptfiguren um ihr persönliches Glück. Aufgewühlte Herzen und schicksalhafte Wendungen begleiten die Figuren auf ihrem Weg zu Versöhnung und echter Zuneigung.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "wenn-sture-herzen-ploetzlich-fuereinander-schlagen"
   }
 ]
