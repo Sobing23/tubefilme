@@ -208395,7 +208395,10 @@
     "fsk": "12",
     "slug": "attentat-auf-richard-nixon",
     "runtime": 95,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-17"
   },
   {
     "videoId": "nI6iDmf9Z-g",
@@ -264490,7 +264493,10 @@
     "slug": "der-preis-der-freiheit",
     "runtime": 86,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-17"
   },
   {
     "videoId": "K8VW-ZeTOgo",
@@ -314708,12 +314714,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "PEq-oAxZrWA",
-    "youtubeTitle": "💥 Explosiver Action-Thriller | Ein Mord Veränderte Sein Leben… Nun Holt Er Sich Seine RACHE! | Film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/PEq-oAxZrWA/hqdefault.jpg",
+    "videoId": "WbKiQV8E1O8",
+    "youtubeTitle": "Prison Fighter [HD] (Martial-Arts Film | deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WbKiQV8E1O8/hqdefault.jpg",
     "duration": "PT1H31M56S",
     "publishedAt": "2026-10-04T15:37:53Z",
-    "channelName": "Unfassbare Filme",
+    "channelName": "weloadtv",
     "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
     "tmdbId": 77935,
     "title": "Prison Fighter",
@@ -314839,12 +314845,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "c8bgOOAILQk",
-    "youtubeTitle": "🔥Ein Privatdetektiv Gegen Eine Armee Von Killern – Jetzt Beginnt Die BRUTALE Jagd!",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/c8bgOOAILQk/hqdefault.jpg",
+    "videoId": "wDa2qxPUtTc",
+    "youtubeTitle": "🎬 Er jagt Gangster um ein tödliches Geheimnis! | Action-Thriller | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/wDa2qxPUtTc/hqdefault.jpg",
     "duration": "PT1H32M3S",
     "publishedAt": "2026-08-29T14:54:46Z",
-    "channelName": "Unfassbare Filme",
+    "channelName": "KinoWelt Deutsch",
     "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
     "tmdbId": 28019,
     "title": "Give 'em Hell, Malone",
@@ -318981,7 +318987,10 @@
       "Michael Dougherty"
     ],
     "fsk": "16",
-    "slug": "duestere-legenden-3"
+    "slug": "duestere-legenden-3",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-17"
   },
   {
     "videoId": "eFPTaBbt0Sg",
@@ -333037,7 +333046,10 @@
     "writer": [],
     "fsk": null,
     "titelKorrigiert": true,
-    "slug": "somehow"
+    "slug": "somehow",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-11-17"
   },
   {
     "videoId": "38COmmP4PiA",
@@ -352786,7 +352798,10 @@
       "Franz Seitz Junior"
     ],
     "fsk": "6",
-    "slug": "der-kapitaen"
+    "slug": "der-kapitaen",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-17"
   },
   {
     "videoId": "Wovh_BFFvm8",
@@ -353727,5 +353742,308 @@
     "writer": [],
     "fsk": null,
     "slug": "wenn-sture-herzen-ploetzlich-fuereinander-schlagen"
+  },
+  {
+    "videoId": "kMMkj0a7Tcg",
+    "youtubeTitle": "Sie verliebt sich in einen Mann, der ihr hilft, wieder an sich zu glauben | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kMMkj0a7Tcg/hqdefault.jpg",
+    "duration": "PT1H28M36S",
+    "publishedAt": "2026-11-16T16:00:09Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1017364,
+    "title": "Inspiring Love",
+    "originalTitle": "Inspiring Love",
+    "overview": "",
+    "releaseDate": "2023-02-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mTsL0q43neVkcOQErXBuaFe2VWe.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lUoVmB7JumLZolsNJsQac3qiKxw.jpg",
+    "voteAverage": 6.6,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Inspiring Love\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Donna Benedicto",
+      "Jeremy Guilbaut",
+      "Kate Twa",
+      "Roark Critchlow",
+      "Ben Afful"
+    ],
+    "director": [
+      "Nicholas Humphries"
+    ],
+    "writer": [
+      "Caroline Portu"
+    ],
+    "fsk": null,
+    "slug": "inspiring-love"
+  },
+  {
+    "videoId": "rN2sqJUgF1M",
+    "youtubeTitle": "💖 Ein Weihnachtsfilm voller Hoffnung und Wärme ❤️ Sie findet die Liebe im verschneiten Alaska",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rN2sqJUgF1M/hqdefault.jpg",
+    "duration": "PT1H28M16S",
+    "publishedAt": "2026-11-16T20:18:49Z",
+    "channelName": "NEORA",
+    "channelId": "UC2MtVsxZ4v7mnC7W_WHeR4w",
+    "tmdbId": 882978,
+    "title": "Christmas Beneath the Stars",
+    "originalTitle": "Christmas Beneath the Stars",
+    "overview": "",
+    "releaseDate": "2021-12-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qlR0zJIxai6x8xc5ipGfaAMipU4.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/xl2XkIWASoECnAiI5JznLk269U8.jpg",
+    "voteAverage": 4.5,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 105 (Suchbegriff: \"Christmas Beneath the Stars\")",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Vanessa Smythe",
+      "Steve Belford",
+      "Kym Wyatt McKenzie",
+      "Maddy Foley",
+      "Richard Barlow"
+    ],
+    "director": [
+      "Lane Shefter Bishop"
+    ],
+    "writer": [
+      "Isabel Dréan"
+    ],
+    "fsk": null,
+    "slug": "christmas-beneath-the-stars"
+  },
+  {
+    "videoId": "iIFTnzct8Kc",
+    "youtubeTitle": "Das Mädel aus dem Böhmerwald | 1936 | Dick & Doof Klassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/iIFTnzct8Kc/hqdefault.jpg",
+    "duration": "PT58M39S",
+    "publishedAt": "2026-11-16T18:00:22Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 82036,
+    "title": "Dick und Doof - Das Mädel aus dem Böhmerwald",
+    "originalTitle": "The Bohemian Girl",
+    "overview": "Eine Gruppe von Zigeunern, unter ihnen Stan und Ollie, campiert auf den Ländereien des Grafen Arnheim. Der Geliebte von Ollies Frau wird im Schloß aufgegriffen und ausgepeitscht. Aus Rache entführt dieser die kleine Tochter des Grafen, Arline. Nach zwölf Jahren kehren Stan und Ollie mit Arline in die Gegend zurück. Der Graf erkennt in Arline seine Tochter wieder – leider zu spät für Stan und Ollie, die bereits in der Folterkammer verformt wurden",
+    "releaseDate": "1936-02-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ajDXoatPMXqrMWM5WUJ3wpvXyeR.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iJvMryam7HMfsTH02m9fe6doPN1.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      35,
+      10402
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 71,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Stan Laurel",
+      "Oliver Hardy",
+      "Thelma Todd",
+      "Antonio Moreno",
+      "Darla Hood"
+    ],
+    "director": [
+      "James W. Horne",
+      "Charley Rogers"
+    ],
+    "writer": [
+      "Frank Butler"
+    ],
+    "fsk": null,
+    "slug": "dick-und-doof-das-maedel-aus-dem-boehmerwald"
+  },
+  {
+    "videoId": "QlLb5-2YMi0",
+    "youtubeTitle": "🔥 Dieser Film ist absolut fesselnd! Zwei Polizisten im Kampf gegen eine skrupellose Drogenmafia | HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/QlLb5-2YMi0/hqdefault.jpg",
+    "duration": "PT1H44M15S",
+    "publishedAt": "2026-11-16T14:02:16Z",
+    "channelName": "Lichtprojektor",
+    "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
+    "tmdbId": 642266,
+    "title": "Justified Force",
+    "originalTitle": "Justified Force",
+    "overview": "",
+    "releaseDate": "2019-11-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jNDuFAkcjw1yzAFk7lThLOGxCYB.jpg",
+    "backdropUrl": null,
+    "voteAverage": 8,
+    "genreIds": [
+      80,
+      28,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"JUSTIFIED FORCE\")",
+    "runtime": 105,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Matt Monaco",
+      "Kevin Karrick",
+      "Robert Paine",
+      "Bryan Hurd",
+      "Holly Lazo"
+    ],
+    "director": [
+      "Michael Fredianelli"
+    ],
+    "writer": [
+      "Stan Szeto",
+      "Michael Fredianelli"
+    ],
+    "fsk": null,
+    "slug": "justified-force"
+  },
+  {
+    "videoId": "-INlLtD6Y7I",
+    "youtubeTitle": "Sie findet Beweise für das Verbrechen an der früheren Zimmerbewohnerin | THRILLERFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-INlLtD6Y7I/hqdefault.jpg",
+    "duration": "PT1H29M44S",
+    "publishedAt": "2026-11-15T16:00:37Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Deadly Dormitory",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "deadly-dormitory"
+  },
+  {
+    "videoId": "Dsbt7SyL5_k",
+    "youtubeTitle": "😂 Komödie für die ganze familie | eine nacht, ein bett… und jede menge probleme!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Dsbt7SyL5_k/hqdefault.jpg",
+    "duration": "PT1H21M29S",
+    "publishedAt": "2026-11-15T16:02:19Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Komödie für die ganze familie",
+    "originalTitle": null,
+    "overview": "Der Film entführt die Zuschauer hinter die Kulissen der deutschen Erotikfilmindustrie, wo Ehrgeiz, Geld, Ruhm und der Wunsch nach schnellem Erfolg auf persönliche Dramen und unerwartete Situationen treffen.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "komoedie-fuer-die-ganze-familie"
+  },
+  {
+    "videoId": "kSymh4ezF5E",
+    "youtubeTitle": "Die Caine-Meuterei vor Gericht - The Caine Mutiny Court-Martial (1988) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kSymh4ezF5E/hqdefault.jpg",
+    "duration": "PT1H40M26S",
+    "publishedAt": "2026-11-14T17:00:17Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": null,
+    "title": "Die Caine-Meuterei vor Gericht - The Caine Mutiny Court-Martial",
+    "originalTitle": null,
+    "overview": "Während eines lebensbedrohlichen Sturms auf See kommt es an Bord des US-Kriegsschiffs Caine zu einer verhängnisvollen Befehlsverweigerung: Der erste Offizier übernimmt gewaltsam das Kommando, da der Kapitän Anzeichen schwerer psychischer Instabilität zeigt. Dieser Akt führt zu einem hochbrisanten Kriegsgerichtsverfahren, in dem dem Angeklagten wegen Meuterei die Todesstrafe droht. Vor Gericht entspinnt sich unter der Regie von Robert Altman ein intensives Kammerspiel und psychologisches Duell zwischen Anklage und Verteidigung. Im Zuge der Befragungen von Offizieren und Medizinern verschwimmt die Grenze zwischen notwendiger Zivilcourage und verräterischem Ungehorsam, während das tragische Schicksal eines hochdekorierten Kommandanten offen gelegt wird.",
+    "releaseDate": "1988-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "die-caine-meuterei-vor-gericht-the-caine-mutiny-court-martia"
+  },
+  {
+    "videoId": "zl8IpmYXURU",
+    "youtubeTitle": "Das Amazonen-Kartell - Freejack (1992) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zl8IpmYXURU/hqdefault.jpg",
+    "duration": "PT1H49M41S",
+    "publishedAt": "2026-11-15T17:00:37Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": null,
+    "title": "Das Amazonen-Kartell - Freejack",
+    "originalTitle": null,
+    "overview": "Der Rennfahrer Alex Furlong verunglückt 1991 tödlich, wird jedoch im letzten Moment per Zeitreise in das dystopische Jahr 2009 verfrachtet. Dort dienen Menschen aus der Vergangenheit reichten Eliten als neue Körperhüllen für ein ewiges Leben. Als Furlong die Flucht gelingt, wird er als ungesetzlicher „Freejack“ zum Gejagten hochgerüsteter Kopfgeldjäger. Auf der Flucht durch ein verfallenes New York versucht er, seine frühere Liebe Julie zu finden und die Drahtzieher der Jagd zu entlarven.",
+    "releaseDate": "1992-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "das-amazonen-kartell-freejack"
+  },
+  {
+    "videoId": "jNFXfghF3oI",
+    "youtubeTitle": "😱 Ein Schriftsteller Kämpft Gegen Seine Dunkelsten Geheimnisse! | Packender Thriller | Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jNFXfghF3oI/hqdefault.jpg",
+    "duration": "PT1H20M22S",
+    "publishedAt": "2026-11-15T20:24:14Z",
+    "channelName": "Unfassbare Filme",
+    "channelId": "UCxjFB79ChibMp-hr1vlK7sg",
+    "tmdbId": null,
+    "title": "The Perception",
+    "originalTitle": null,
+    "overview": "Ein inspirierter Schriftsteller, eine aufstrebende Schauspielerin und ein Haus mit düsterer Vergangenheit. Was wie ein Neuanfang wirkt, wird bald zu einem unheimlichen Erlebnis voller Geheimnisse und rätselhafter Ereignisse. Die Vergangenheit holt sie ein, und sie entdecken, dass das alte Haus mehr verbirgt, als sie sich vorstellen konnten. Doch was lauert wohl hinter seinen verschlossenen Türen? Achtung!",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "the-perception"
   }
 ]
