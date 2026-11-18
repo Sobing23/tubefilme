@@ -1195,12 +1195,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "L1Oc11S7JDE",
-    "youtubeTitle": "Der wilde Haufen von Navarone (KRIEGSFILM KLASSIKER mit HARRISON FORD Filme Deutsch komplett 2026)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/L1Oc11S7JDE/hqdefault.jpg",
+    "videoId": "WvGwaiMMT0U",
+    "youtubeTitle": "Der wilde Haufen von Navarone - Force 10 from Navarone (1978) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WvGwaiMMT0U/hqdefault.jpg",
     "duration": "PT1H58M38S",
     "publishedAt": "2026-06-13T17:00:28Z",
-    "channelName": "Netzkino",
+    "channelName": "Making Legends",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 17339,
     "title": "Der wilde Haufen von Navarone",
@@ -314735,8 +314735,7 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"Fist 2 Fist\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Jino Kang ",
       "Bill Duff",
@@ -314866,8 +314865,7 @@
       53
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Give 'em Hell Malone\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Thomas Jane",
       "Ving Rhames",
@@ -326485,7 +326483,10 @@
       "袁錦麟"
     ],
     "fsk": "16",
-    "slug": "new-police-story"
+    "slug": "new-police-story",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-18"
   },
   {
     "videoId": "pSegfLiweO0",
@@ -333048,7 +333049,7 @@
     "titelKorrigiert": true,
     "slug": "somehow",
     "verfuegbar": false,
-    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarGrund": "geloescht",
     "nichtVerfuegbarSeit": "2026-11-17"
   },
   {
@@ -354045,5 +354046,184 @@
     "writer": [],
     "fsk": null,
     "slug": "the-perception"
+  },
+  {
+    "videoId": "0XaopmHcTLQ",
+    "youtubeTitle": "VERSCHWÖRUNG GEGEN DEN WEIHNACHTSMANN | Weihnachtsfilm-Klassiker | Familienkomödie",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/0XaopmHcTLQ/hqdefault.jpg",
+    "duration": "PT1H24M21S",
+    "publishedAt": "2026-11-17T17:30:11Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": 97294,
+    "title": "Verschwörung gegen den Weihnachtsmann",
+    "originalTitle": "Like Father, Like Santa",
+    "overview": "Ein amerikanischer Spielzeughersteller ist seiner Konkurrenz immer um eine Nasenlänge voraus, da er einen Spion im Betrieb des Weihnachtsmannes hat. Als durch eine Panne der Kontakt abreißt, muss der Unternehmer, der eigentlich nichts von Weihnachten hält, selbst zum Nordpol fahren und sieht sich mit einem beispiellosen Chaos konfrontiert. Er versucht, Weihnachten für seinen Betrieb zu retten, und begreift, dass das Glück seiner Familie und aller Kinder der Welt auf dem Spiel steht. Mit typisch amerikanischer Naivität vorgetragene Weihnachtsgeschichte, die in ihrer Grundstruktur ein wenig die \"Scrooge\"-Geschichte von Charles Dickens anklingen lässt.",
+    "releaseDate": "1998-12-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/o3iM7sdJ9b9RTinvq0CSLBlMUKo.jpg",
+    "backdropUrl": null,
+    "voteAverage": 5.8,
+    "genreIds": [
+      10751,
+      35,
+      14,
+      10770
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "niedrig",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 81 (Suchbegriff: \"VERSCHWÖRUNG GEGEN DEN WEIHNACHTSMANN\")",
+    "runtime": 105,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Harry Hamlin",
+      "Megan Gallagher",
+      "Curtis Blanck",
+      "William Hootkins",
+      "Gary Frank"
+    ],
+    "director": [
+      "Michael M. Scott"
+    ],
+    "writer": [
+      "Mark Valenti"
+    ],
+    "fsk": null,
+    "slug": "verschwoerung-gegen-den-weihnachtsmann"
+  },
+  {
+    "videoId": "OBLtG6UeFTY",
+    "youtubeTitle": "💔 Ihre liebe war für alle verboten! | Romantisches Drama 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/OBLtG6UeFTY/hqdefault.jpg",
+    "duration": "PT1H16M51S",
+    "publishedAt": "2026-11-17T16:26:13Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": 64577,
+    "title": "Ein Sommer voller Zärtlichkeit",
+    "originalTitle": "Il sole nella pelle",
+    "overview": "Die junge Lisa aus wohlhabendem Hause verliebt sich in den Hippie Robert – sehr zum Unmut ihres Vaters. Entgegen dessen Verbots fährt sie per Anhalter mit Robert zum Strandhaus ihrer Eltern und unternimmt einen Törn mit dem elterlichen Segelboot. Als sie auf einer Sandbank zum Liegen kommen, schwimmen sie auf eine weitestgehend unberührte Insel hinaus und genießen das Dasein und ihre Liebe. Ihr Vater hat jedoch derweil die Polizei alarmiert und zwei Jäger beobachten das Treiben des jungen Pärchens, das sie prompt missinterpretieren.",
+    "releaseDate": "1971-04-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kNTG5WxfcnqNJZ7nRbvrcuL5euV.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/otXGZAi4Nt1ETKZQXoSXxa1O0JE.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Il sole nella pelle\")",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Alessio Orano",
+      "Ornella Muti",
+      "Luigi Pistilli",
+      "Chris Avram",
+      "Roby Ruberti"
+    ],
+    "director": [
+      "Giorgio Stegani"
+    ],
+    "writer": [
+      "Giorgio Stegani"
+    ],
+    "fsk": null,
+    "slug": "ein-sommer-voller-zaertlichkeit"
+  },
+  {
+    "videoId": "BMEEpio09lw",
+    "youtubeTitle": "der Mann im Sattel | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/BMEEpio09lw/hqdefault.jpg",
+    "duration": "PT1H23M16S",
+    "publishedAt": "2026-11-17T12:00:30Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 266458,
+    "title": "Der Mann im Sattel",
+    "originalTitle": "Der Mann im Sattel",
+    "overview": "",
+    "releaseDate": "1945-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": 8,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"der Mann im Sattel\")",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Harry Piel",
+      "Charlott Daudert",
+      "Paul Westermeier",
+      "Paul Bildt",
+      "Walter Gross"
+    ],
+    "director": [
+      "Harry Piel"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "der-mann-im-sattel"
+  },
+  {
+    "videoId": "oCgdMOW5ugg",
+    "youtubeTitle": "5 MILLIONEN IN DIAMANTEN VERSTECKT – JETZT JAGEN IHN ALLE BIS IN DEN TODEStrakt | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oCgdMOW5ugg/hqdefault.jpg",
+    "duration": "PT1H30M1S",
+    "publishedAt": "2026-11-16T10:36:37Z",
+    "channelName": "Volle Power Filme",
+    "channelId": "UC-W2gLviKYA-G9FlERrOfsg",
+    "tmdbId": null,
+    "title": "5 MILLIONEN IN DIAMANTEN VERSTECKT - JETZT JAGEN IHN ALLE BIS IN DEN TODEStrakt",
+    "originalTitle": null,
+    "overview": "Während brutale Wärter, gefährliche Häftlinge und seine ehemaligen Komplizen Jagd auf den Schatz machen, schmiedet der Dieb mit einem Mitgefangenen einen verzweifelten Fluchtplan.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "5-millionen-in-diamanten-versteckt-jetzt-jagen-ihn-alle-bis"
+  },
+  {
+    "videoId": "2-IpFF8wlVY",
+    "youtubeTitle": "Zwei junge Killerinnen sollen einen Mann töten – doch er wartet bereits auf sie",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2-IpFF8wlVY/hqdefault.jpg",
+    "duration": "PT1H23M39S",
+    "publishedAt": "2026-11-16T18:45:20Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Zwei junge Killerinnen sollen einen Mann töten - doch er wartet bereits auf sie",
+    "originalTitle": null,
+    "overview": "Violet und Daisy sind zwei ungewöhnliche junge Frauen, die ein gefährliches Doppelleben führen. Auf den ersten Blick wirken sie wie zwei harmlose Freundinnen, die sich für Mode, Süßigkeiten und ihre Lieblingssängerin interessieren. Doch hinter ihrer unschuldigen Erscheinung verbirgt sich eine tödliche Wahrheit. Die beiden arbeiten als professionelle Auftragskillerinnen. Als sie von ihrem Kontaktmann Russ einen scheinbar einfachen Auftrag erhalten, sehen sie darin die perfekte Gelegenheit, schnell Geld für ihre Wünsche zu verdienen. Ihr Ziel ist Michael, ein zurückgezogen lebender Mann in New York. Der Plan scheint unkompliziert: In seine Wohnung eindringen, ihn beseitigen und anschließend verschwinden. Doch als die beiden Killerinnen ihrem Opfer gegenüberstehen, erleben sie eine unglaubliche Überraschung. Michael scheint überhaupt keine Angst zu haben. Im Gegenteil: Er erwartet die beide",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "zwei-junge-killerinnen-sollen-einen-mann-toeten-doch-er-wart"
   }
 ]
