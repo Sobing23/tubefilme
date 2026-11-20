@@ -121657,9 +121657,9 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "-RrH2oYwWOQ",
-    "youtubeTitle": "The Killing Tree (2022) [Horror] [Komödie] Böser Baum auf der Jadg | ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/-RrH2oYwWOQ/hqdefault.jpg",
+    "videoId": "FxoM5obx_uk",
+    "youtubeTitle": "The Killing Tree (2022) [Horror] [Komödie] | Weihnachtsbaum der Hölle | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/FxoM5obx_uk/hqdefault.jpg",
     "duration": "PT1H10M22S",
     "publishedAt": "2025-12-01T18:00:27Z",
     "channelName": "CiNENET Deutschland",
@@ -121696,10 +121696,7 @@
     "slug": "the-killing-tree",
     "plausibel": "titel",
     "runtime": 73,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-11-10"
+    "plausibelVersion": 4
   },
   {
     "videoId": "K4ONd9eH4-o",
@@ -319781,7 +319778,10 @@
       "Juliana Wimbles"
     ],
     "fsk": "6",
-    "slug": "weihnachten-im-rampenlicht"
+    "slug": "weihnachten-im-rampenlicht",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-20"
   },
   {
     "videoId": "EQ3xBAXPCOE",
@@ -326489,10 +326489,7 @@
       "袁錦麟"
     ],
     "fsk": "16",
-    "slug": "new-police-story",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
-    "nichtVerfuegbarSeit": "2026-11-18"
+    "slug": "new-police-story"
   },
   {
     "videoId": "pSegfLiweO0",
@@ -354773,5 +354770,332 @@
     "writer": [],
     "fsk": null,
     "slug": "wenn-verbotene-gefuehle-ploetzlich-das-leben-bestimmen"
+  },
+  {
+    "videoId": "1RG7NnQAea4",
+    "youtubeTitle": "DIE UNVERGESSLICHE WEIHNACHTSNACHT | Romantik-Klassiker | Barbara Stanwyck",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/1RG7NnQAea4/hqdefault.jpg",
+    "duration": "PT1H30M19S",
+    "publishedAt": "2026-11-19T17:30:26Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": 29617,
+    "title": "Die unvergessliche Weihnachtsnacht",
+    "originalTitle": "Remember the Night",
+    "overview": "Kurz vor Weihnachten wird Lee Leander beim Stehlen erwischt. Es ist ihre dritte Straftat, weswegen John Sargent sie vor Gericht bringen will. Doch die Verhandlung wird verschoben, da es schwer ist, während der Weihnachtszeit eine Verurteilung zu erwirken. Sargent entwickelt Mitleid für Lee und sorgt dafür, dass sie auf Kaution freikommt. Er nimmt sie mit zu seiner Mutter, um dort Weihnachten zu feiern. Umgeben von einer liebevollen Familie, die im starken Kontrast zu Lees eigener familiärer Geschichte steht, sprühen zwischen Lee und John die Funken. Sie verlieben sich, doch noch gibt es ein Problem: Was wird aus dem kommenden Prozess?",
+    "releaseDate": "1940-01-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5uaney0cVlQDc1c6D8dv2iPcOjT.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/myCAFAWAugRGorbrqOIUvUtmZzx.jpg",
+    "voteAverage": 7.316,
+    "genreIds": [
+      35,
+      10749,
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Barbara Stanwyck",
+      "Fred MacMurray",
+      "Beulah Bondi",
+      "Elizabeth Patterson",
+      "Willard Robertson"
+    ],
+    "director": [
+      "Mitchell Leisen"
+    ],
+    "writer": [
+      "Preston Sturges"
+    ],
+    "fsk": null,
+    "slug": "die-unvergessliche-weihnachtsnacht"
+  },
+  {
+    "videoId": "z_1prD6W2yE",
+    "youtubeTitle": "Weihnachtsmann aus Leidenschaft (KOMÖDIE ganzer Film, Weihnachtsfilme in voller Länge auf Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/z_1prD6W2yE/hqdefault.jpg",
+    "duration": "PT1H28M27S",
+    "publishedAt": "2026-11-19T18:00:11Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 36494,
+    "title": "Weihnachtsmann aus Leidenschaft",
+    "originalTitle": "A Different Kind of Christmas",
+    "overview": "Was wäre wohl, wenn der Weihnachtsmann in der Nachbarschaft leben würde? Es wäre ein Paradies für Kinder, nicht jedoch für eine junge Frau, die als Staatsanwältin tätig ist und sich für ihren Vater schämt. Denn seitdem ihre Mutter starb, hat sich ihr Vater ganz und gar in sein Leben als Weihnachtsmann zurückgezogen. Er hat sein Haus wahrlich in das Nordpolheim des Weihnachtsmanns verwandelt und seinen Lebenszweck darin gefunden, Kindern diesen magischen Ort zu zeigen. Nun jedoch soll die Tochter ihm in ihrer Funktion als Staatsanwältin untersagen, diesen Weihnachtsbetrieb weiter aufrecht zu erhalten. Aber während sie sich dieser Aufgabe widmet, wird ihr klar, dass an ihrem Vater, am Weihnachtsmann, mehr dran ist, als man mit bloßem Auge erkennen kann...",
+    "releaseDate": "1996-12-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3PICAjMnui1e2ZSA9hYUTdPeXcw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rcAuDsTPFTAUAB0NNcIMAT3rB3j.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      18,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Shelley Long",
+      "Barry Bostwick",
+      "Richard K. Olsen",
+      "Nathan Lawrence",
+      "Nancy McLoughlin"
+    ],
+    "director": [
+      "Tom McLoughlin"
+    ],
+    "writer": [
+      "Bart Baker"
+    ],
+    "fsk": "12",
+    "slug": "weihnachtsmann-aus-leidenschaft"
+  },
+  {
+    "videoId": "dw6d1YgvSDk",
+    "youtubeTitle": "Hilfe, ich habe meine Eltern geschrumpft (2018) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dw6d1YgvSDk/hqdefault.jpg",
+    "duration": "PT1H38M54S",
+    "publishedAt": "2026-11-19T15:00:17Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": 454545,
+    "title": "Hilfe, ich hab meine Eltern geschrumpft",
+    "originalTitle": "Hilfe, ich hab meine Eltern geschrumpft",
+    "overview": "Für Felix läuft es eigentlich mittlerweile richtig gut am Otto-Leonhard-Gymnasium, wo noch immer der Geist des gleichnamigen Schulgründers herumspukt. Doch zu dem wohlwollenden Gespenst gesellt sich zum Leidwesen der Schüler auch der Geist der garstigen ehemaligen Direktorin Hulda Stechbarth. Und auch zu Hause liegen die Dinge im Argen: Felix' Eltern Peter und Sandra wollen mit ihm nach Dubai ziehen, wo sein Vater ein neues Jobangebot hat. Felix wünscht sich, dass seine Eltern auch mal das tun, was er will, und wie zuvor geht dieser Wunsch prompt in Erfüllung, als Mama und Papa nach einer Begegnung mit der wiederauferstandenen Hulda geschrumpft werden. Fortan muss sich Felix nicht nur um seine winzigen Eltern kümmern, sondern auch erneut die Schule retten, denn Hulda hat die aktuelle Direktorin Dr. Schmitt-Gössenwein gefangengenommen und möchte die ganze Schule in ihre Gewalt bringen.",
+    "releaseDate": "2018-01-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qTD3ErhG3NlS6vV3PXZ0mxyRfsW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/8KqItkpbLGSQzJQdO3HR4SARrkF.jpg",
+    "voteAverage": 5.125,
+    "genreIds": [
+      35,
+      12,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 125 (Suchbegriff: \"Hilfe, ich habe meine Eltern geschrumpft\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Oskar Keymer",
+      "Lina Hüesker",
+      "Otto Waalkes",
+      "Andrea Sawatzki",
+      "Axel Stein"
+    ],
+    "director": [
+      "Tim Trageser"
+    ],
+    "writer": [
+      "Gerrit Hermans"
+    ],
+    "fsk": "6",
+    "slug": "hilfe-ich-hab-meine-eltern-geschrumpft"
+  },
+  {
+    "videoId": "-qQwy7L1wU0",
+    "youtubeTitle": "Es geschah in diesem Sommer - Loss of Innocence (1961) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-qQwy7L1wU0/hqdefault.jpg",
+    "duration": "PT1H35M50S",
+    "publishedAt": "2026-11-19T17:00:04Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": 194806,
+    "title": "Es geschah in diesem Sommer",
+    "originalTitle": "The Greengage Summer",
+    "overview": "Charmanter Film über das Erwachsenwerden vor unbeschwert-sommerlicher Kulisse: Die unbekümmerte Joss verliebt sich während ihrer Ferien in einem französischen Schlosshotel zum ersten Mal. Ihr Auserwählter ist zwar charmant, aber leider kriminell: Eliot verdient seine Brötchen als Juwelendieb. Außerdem hat er nebenher auch noch ein Verhältnis mit Hotelbesitzerin Zizi.",
+    "releaseDate": "1961-05-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mOFCR94jw0QroKMWr4RrjTQmiur.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1FbLBMXdo6kssUAbfrsODsbfFHX.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      35,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kenneth More",
+      "Danielle Darrieux",
+      "Susannah York",
+      "Claude Nollier",
+      "Jane Asher"
+    ],
+    "director": [
+      "Lewis Gilbert"
+    ],
+    "writer": [
+      "Rumer Godden",
+      "Howard E. Koch"
+    ],
+    "fsk": null,
+    "slug": "es-geschah-in-diesem-sommer"
+  },
+  {
+    "videoId": "MD8vAtxjPO8",
+    "youtubeTitle": "Jurassic Domination - Genmanipulierte Dinosaurier greifen an! Harter Actionfilm - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MD8vAtxjPO8/hqdefault.jpg",
+    "duration": "PT1H24M18S",
+    "publishedAt": "2026-11-19T15:00:20Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 992090,
+    "title": "Jurassic Domination",
+    "originalTitle": "Jurassic Domination",
+    "overview": "US-General Greer (Eric Roberts) sitzt nervös im Pentagon und erteilt seiner Untergebenen Colonel Ramirez (Bernadette) Anweisungen übers Telefon. Ramirez soll mit einem kleinen Team von Elite-Soldaten zwei ausgebrochene Allosaurier finden und zur Strecke bringen, die die Bewohner eines sonst eher gemütlichen, in den Bergen gelegenen Kleinstädtchens terrorisieren. Die Operation muss möglichst ohne Aufsehen vonstatten gehen, da die Regierung selbst die Schuld an dieser Katastrophe trägt. Hatten doch einst Wissenschaftler in ihrem Auftrag die vor Äonen ausgestorbenen Urviecher geklont und sie durch Gen-Manipulation nahezu unverwundbar gemacht. Was nur so lange eine gute Idee war, bis die Dinosaurier ausbrachen und sich über unschuldige Menschen hermachten …",
+    "releaseDate": "2022-07-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vnJW78GCymF5ZfJ5i1q0cRcugA1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/f0Rmk2GzRxNRiw8VLiWtYHtVEz8.jpg",
+    "voteAverage": 5.318,
+    "genreIds": [
+      28,
+      878,
+      12,
+      27,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jamie Bernadette",
+      "DeAngelo Davis",
+      "Kahlo De Jesus Buffington",
+      "Alissa Filoramo",
+      "Eric Guilmette"
+    ],
+    "director": [
+      "Brian Nowak"
+    ],
+    "writer": [
+      "Jason Tozier"
+    ],
+    "fsk": null,
+    "slug": "jurassic-domination"
+  },
+  {
+    "videoId": "HFRrKOf5bio",
+    "youtubeTitle": "Wer ist der Killer? Ein Meisterwerk des Giallo | Blutige Schatten (Thriller auf Deutsch HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/HFRrKOf5bio/hqdefault.jpg",
+    "duration": "PT1H48M47S",
+    "publishedAt": "2026-11-19T17:15:11Z",
+    "channelName": "Movie360",
+    "channelId": "UCsMdJzPiTH_TGpWSLg9fPrA",
+    "tmdbId": 99261,
+    "title": "Blutiger Schatten",
+    "originalTitle": "Solamente nero",
+    "overview": "Das Grauen schleicht durch die Gassen von Venedig. Eine Serie grausamer Morde hält die Menschen in Angst und Schrecken. Stefano, ein junger Wissenschaftler besucht seinen Bruder Pablo, einen Priester, und wird in die Ereignisse mit hineingezogen. Er stellt eigene Ermittlungen an und stößt auf okkulte und längst vergangene Dinge, die sein und das Leben aller anderen gefährden.",
+    "releaseDate": "1978-06-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hqdibbhruEQwl6O4OgH6cqcXJsb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/otb0Qr7dgdS3fiPkJq3txaruFLI.jpg",
+    "voteAverage": 6.26,
+    "genreIds": [
+      27,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 109,
+    "plausibel": "besetzung",
+    "plausibelVersion": 4,
+    "cast": [
+      "Lino Capolicchio",
+      "Stefania Casini",
+      "Craig Hill",
+      "Massimo Serato",
+      "Juliette Mayniel"
+    ],
+    "director": [
+      "Antonio Bido"
+    ],
+    "writer": [
+      "Marisa Andalò",
+      "Antonio Bido",
+      "Domenico Malan"
+    ],
+    "fsk": null,
+    "slug": "blutiger-schatten"
+  },
+  {
+    "videoId": "MW1BNqmXzok",
+    "youtubeTitle": "Der Schlüssel - The Key (1958) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MW1BNqmXzok/hqdefault.jpg",
+    "duration": "PT2H6M38S",
+    "publishedAt": "2026-11-19T17:00:37Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 102081,
+    "title": "Der Schlüssel",
+    "originalTitle": "The Key",
+    "overview": "Kriegsjahr 1941: Großbritannien fürchtet sich vor einer drohenden deutschen Invasion. Da wird David Ross zum Commander eines Hochseeschleppers ernannt, der die Aufgabe hat, havarierte Kriegsschiffe in den Hafen zu schleppen. Die Schiffe haben allerdings den Nachteil, dass sie schwerfällig und unzureichend bewaffnet sind. Trotzdem fühlt sich Ross bald wohl im Kreis der Schlepperkapitäne. Seine Freude wächst, als er seinen alten Freund Chris Ford beim Seenotrettungsdienst wiedertrifft.  Es dauert nicht lange, und David wird von Chris gebeten, ihn zu besuchen. Kaum in der Wohnung eingetroffen, staunt er nicht schlecht, als ihm sein Freund Stella vorstellt, eine attraktive junge Frau italienischer Abstammung, der das Appartement gehört.",
+    "releaseDate": "1958-05-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lgCgGkloj5PBWYI2cxfegprBfQy.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/q87fkPucgvWSv7D5nQUa0JXCMqd.jpg",
+    "voteAverage": 6.1,
+    "genreIds": [
+      18,
+      10749,
+      10752
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 134,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "William Holden",
+      "Sophia Loren",
+      "Trevor Howard",
+      "Bernard Lee",
+      "Oskar Homolka"
+    ],
+    "director": [
+      "Carol Reed"
+    ],
+    "writer": [
+      "Carl Foreman"
+    ],
+    "fsk": "12",
+    "slug": "der-schluessel"
+  },
+  {
+    "videoId": "T4E_EPeQrvc",
+    "youtubeTitle": "Hannahs Rache – Hannah's Law (2012) | Ganzer Action Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/T4E_EPeQrvc/hqdefault.jpg",
+    "duration": "PT1H26M40S",
+    "publishedAt": "2026-11-18T17:00:00Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": null,
+    "title": "Hannahs Rache - Hannah's Law",
+    "originalTitle": null,
+    "overview": "Nachdem ihre Familie im Kindesalter von der skrupellosen McMurphy-Bande ausgelöscht wurde, schwört Hannah Beaumont unerbittliche Vergeltung. Aus dem Waisenmädchen wird eine treffsichere Kopfgeldjägerin, die das Gesetz in einer gnadenlosen Ära selbst in die Hand nimmt. Gemeinsam mit Revolver-Ikonen wie Wyatt Earp und Doc Holliday zieht sie eine blutige Spur durch die Grenzstädte des Wilden Westens, stets getrieben vom brennenden Durst nach Rache. Als die Konfrontation mit ihren Erzfeinden eskaliert, entbrennt ein bleihaltiger Showdown, der nicht nur das Schicksal der Stadt besiegelt, sondern auch eine dunkle Wahrheit über ihre Vergangenheit enthüllt.",
+    "releaseDate": "2012-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "hannahs-rache-hannah-s-law"
   }
 ]
