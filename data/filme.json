@@ -46647,7 +46647,10 @@
     "slug": "blind-alley",
     "plausibel": "titel",
     "runtime": 76,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-21"
   },
   {
     "videoId": "0O9BLUTomis",
@@ -88535,7 +88538,10 @@
     "slug": "duell-am-mississippi",
     "plausibel": "titel",
     "runtime": 72,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-21"
   },
   {
     "videoId": "YUH5MlzvGlA",
@@ -101512,7 +101518,10 @@
     "slug": "mutant-das-grauen-im-all",
     "plausibel": "titel",
     "runtime": 77,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-21"
   },
   {
     "videoId": "oSqVi8mhD_Q",
@@ -157842,7 +157851,10 @@
     "fsk": "18",
     "slug": "missing-in-action-2-die-rueckkehr",
     "runtime": 95,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-21"
   },
   {
     "videoId": "CPA0Y8rSrCE",
@@ -327310,7 +327322,10 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "ein-film-voller-action-und-ueberraschungen-ein-mord-macht-zw"
+    "slug": "ein-film-voller-action-und-ueberraschungen-ein-mord-macht-zw",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-21"
   },
   {
     "videoId": "5GDsEtx68-U",
@@ -333422,34 +333437,6 @@
     "verfuegbar": false,
     "nichtVerfuegbarGrund": "geloescht",
     "nichtVerfuegbarSeit": "2026-11-14"
-  },
-  {
-    "videoId": "mZ7FNqTQwtM",
-    "youtubeTitle": "Weltengänger - Spannende Science-Fiction! Gefangen in geheimnisvollen Parallelwelten - Ganzer Film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/mZ7FNqTQwtM/hqdefault.jpg",
-    "duration": "PT1H55M35S",
-    "publishedAt": "2026-11-12T15:00:34Z",
-    "channelName": "Moviedome",
-    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
-    "tmdbId": null,
-    "title": "Weltengänger",
-    "originalTitle": null,
-    "overview": "Kirill ist ein erfolgreicher Computerspiel-Designer, bis sein Leben plötzlich auf den Kopf gestellt wird: Eine fremde Frau wohnt in seiner Wohnung und niemand scheint sich mehr an ihn zu erinnern. Als wäre seine Existenz vollständig ausgelöscht worden! Auf der Suche nach Antworten erfährt Kirill, dass er zu einem sogenannten Weltengänger bestimmt wurde, der zwischen verschiedenen Parallelwelten reisen kann. Doch hinter seiner neuen Bestimmung verbirgt sich ein gefährliches Geheimnis. Um sein altes Leben zurückzugewinnen, muss Kirill die Wahrheit über die fremden Welten herausfinden und sich mächtigen Gegnern stellen. Ein spektakuläres Sci-Fi-Fantasyabenteuer voller Action, Geheimnisse und übernatürlicher Kräfte.",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
-    "cast": [],
-    "director": [
-      "Sergei Mokrizki"
-    ],
-    "writer": [],
-    "fsk": null,
-    "slug": "weltengaenger"
   },
   {
     "videoId": "jRy36teP82k",
@@ -352814,10 +352801,7 @@
       "Franz Seitz Junior"
     ],
     "fsk": "6",
-    "slug": "der-kapitaen",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-11-17"
+    "slug": "der-kapitaen"
   },
   {
     "videoId": "Wovh_BFFvm8",
@@ -355097,5 +355081,439 @@
     "writer": [],
     "fsk": null,
     "slug": "hannahs-rache-hannah-s-law"
+  },
+  {
+    "videoId": "xKB7xEv5KH0",
+    "youtubeTitle": "Sie traf einen Mann, in den sie sich auf den ersten Blick verliebte | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/xKB7xEv5KH0/hqdefault.jpg",
+    "duration": "PT1H29M37S",
+    "publishedAt": "2026-11-20T18:00:27Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 983556,
+    "title": "Planning for Joy",
+    "originalTitle": "Planning for Joy",
+    "overview": "",
+    "releaseDate": "2022-11-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bXC3mCUMryXtwH2l6TkYpAJ174s.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gQhaZ5eROX2Qo1sfQaDizpit5R1.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      10770,
+      10749,
+      35,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Planning for Joy\")",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Chelsey Reist",
+      "Marc Trottier",
+      "Laura Yenga",
+      "Peter Louis Chouinard",
+      "Mavourneen Varcoe-Ryan"
+    ],
+    "director": [
+      "Ruby J. Munro"
+    ],
+    "writer": [
+      "Kate LaChapelle"
+    ],
+    "fsk": null,
+    "slug": "planning-for-joy"
+  },
+  {
+    "videoId": "kK2Ik2duXYo",
+    "youtubeTitle": "Ein Film, der von der ersten Minute an fesselt!🎬Eine tödliche Invasion kommt aus den Bergen Alaskas",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/kK2Ik2duXYo/hqdefault.jpg",
+    "duration": "PT1H25M24S",
+    "publishedAt": "2026-11-20T20:40:54Z",
+    "channelName": "NEORA",
+    "channelId": "UC2MtVsxZ4v7mnC7W_WHeR4w",
+    "tmdbId": 98084,
+    "title": "Marabunta - Die Killerameisen greifen an",
+    "originalTitle": "Legion of Fire: Killer Ants",
+    "overview": "Ein Insektenforscher, eine Lehrerin und der örtliche Sheriff kämpfen gegen gefährliche Killerameisen, die Tod und Verderben über eine idyllische Stadt in Alaska bringen. Ein Pärchen auf Hochzeitsreise verschwindet, Tierkadaver werden schnell ausgeweidet, und von Trend Murdoch bleibt nur noch das Skelett, obwohl sein Blut noch nicht einmal getrocknet ist. Jim analysiert die Ameisenreste und macht seine schockierende Entdeckung. Es handelt sich um eine Marabunta, eine Killerameise aus dem Dschungel Brasiliens. Das Ameisenheer bewegt sich unaufhaltsam auf die Stadt zu...",
+    "releaseDate": "1998-06-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cNpK3zhp0z3ZKL6znVMPxbz7jME.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hj8mXGTrEGX9Kyc1zw8gKw0TMp8.jpg",
+    "voteAverage": 4.053,
+    "genreIds": [
+      27,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 128 (Suchbegriff: \"Marabunta - Die Killerameisen greifen an\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Eric Lutes",
+      "Julia Campbell",
+      "Mitch Pileggi",
+      "Jeremy Foley",
+      "Bill Osborn"
+    ],
+    "director": [
+      "George Manasse",
+      "Jim Charleston"
+    ],
+    "writer": [
+      "Wink Roberts"
+    ],
+    "fsk": "12",
+    "slug": "marabunta-die-killerameisen-greifen-an"
+  },
+  {
+    "videoId": "I5QqtIMSv68",
+    "youtubeTitle": "Weltengänger (SCIFI ABENTEUER ganzer Film Deutsch, Science Fiction Filme Deutsch komplett neu 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/I5QqtIMSv68/hqdefault.jpg",
+    "duration": "PT1H55M35S",
+    "publishedAt": "2026-11-20T18:00:06Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 495601,
+    "title": "Weltengänger",
+    "originalTitle": "Черновик",
+    "overview": "Kirill ist ein junger und talentierter Computerspiel-Designer mit einem gut bezahlten Job und einer bildschönen Freundin. Er führt ein nahezu perfektes Leben – bis zu dem Tag, an dem sich alles ändert: In seiner Wohnung lebt plötzlich eine fremde Frau und weder Freunde noch Verwandte können sich an ihn erinnern. Es scheint, als wäre seine gesamte Existenz ausgelöscht worden. Auf der Suche nach Antworten findet Kirill heraus, dass er als „Weltengänger“, eine Art Wächter zwischen den Parallelwelten, auserwählt worden ist. Um sein früheres Leben zurückzugewinnen, muss Kirill das Rätsel um die geheimnisvollen Welten lösen – und entdeckt dabei etwas, das größer ist als alles, was er sich vorstellen kann!",
+    "releaseDate": "2018-05-25",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hJTa5GyPDNIslLC8MkLUsy5hLEz.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/96h6c1vikbxyNVsnRCOVy0Xvanp.jpg",
+    "voteAverage": 5.116,
+    "genreIds": [
+      14,
+      878,
+      28
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 116,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Никита Волков",
+      "Julija Peressild",
+      "Jewgeni Zyganow",
+      "Andrei Merslikin",
+      "Евгений Ткачук"
+    ],
+    "director": [
+      "Сергей Мокрицкий"
+    ],
+    "writer": [
+      "Денис Курышев",
+      "Maxim Budarin",
+      "Сергей Мокрицкий"
+    ],
+    "fsk": "12",
+    "slug": "weltengaenger-2"
+  },
+  {
+    "videoId": "g-Pn3gru1xw",
+    "youtubeTitle": "Die Henkersmahlzeit - The Last Supper (1995) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/g-Pn3gru1xw/hqdefault.jpg",
+    "duration": "PT1H31M51S",
+    "publishedAt": "2026-11-20T17:00:28Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": 12520,
+    "title": "Last Supper - Die Henkersmahlzeit",
+    "originalTitle": "The Last Supper",
+    "overview": "Eine Gruppe von linken Studenten trifft sich in einem Ferienhaus, wo sie über Politik diskutieren. Eines Abends bringen sie einen Gast mit rechtsradikalen Ansichten bei einer Streiterei in Notwehr um. Dies bringt sie auf eine Idee: Fortan sollen geladene Gäste auf ihre politischen Ansichten getestet werden. Wer rechts ist, wird vergiftet.",
+    "releaseDate": "1995-09-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/oIgPiiM0qD1mCo1SYG3Sd0vmKTa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3yLMuH0Xp5gp7Wls3LfcVn6lVU9.jpg",
+    "voteAverage": 6.539,
+    "genreIds": [
+      35,
+      53,
+      80,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Die Henkersmahlzeit - The Last Supper\")",
+    "runtime": 92,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Cameron Diaz",
+      "Ron Eldard",
+      "Annabeth Gish",
+      "Jonathan Penner",
+      "Courtney B. Vance"
+    ],
+    "director": [
+      "Stacy Title"
+    ],
+    "writer": [
+      "Dan Rosen"
+    ],
+    "fsk": null,
+    "slug": "last-supper-die-henkersmahlzeit"
+  },
+  {
+    "videoId": "-BJFOhE3ZqY",
+    "youtubeTitle": "Prophezeiung der Maya | Forscher entdeckt ein drohendes Weltuntergangsszenario | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-BJFOhE3ZqY/hqdefault.jpg",
+    "duration": "PT1H32M15S",
+    "publishedAt": "2026-11-21T08:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 72174,
+    "title": "Prophezeiung der Maya",
+    "originalTitle": "Doomsday Prophecy",
+    "overview": "Gigantische Erdbeben auf dem Meeresboden drohen das Schwarze Meer in einer Erdspalte verschwinden zu lassen. Der junge Wissenschaftler Eric Fox macht sich zusammen mit der hübschen Brooke auf die Suche nach einem mysteriösen Autor, der diese Katastrophe voraussah und einen Weg gefunden haben soll um weitere angekündigte Umweltkatastrophen zu verhindern. Doch als sie ihn tot auffinden, entdecken sie eine geheimnisvolle Wünschelrute, die ihnen die Existenz einer unbekannten Gesteinsformation der Maya voraussagt, welche die Menschheit retten kann. Eric und Brooke bleibt nur noch wenig Zeit um diese Statuen zu finden, bevor die nächste große Umweltkatastrophe droht, die Erde sprichwörtlich auseinanderzureissen.",
+    "releaseDate": "2011-08-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6nRqLlQNF54rN5lFvQ9nEAYy6IV.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/glDAEXQK9gcCncMlDTlHjbyODud.jpg",
+    "voteAverage": 4.1,
+    "genreIds": [
+      10770,
+      878,
+      12,
+      28
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jewel Staite",
+      "A.J. Buckley",
+      "Alan Dale",
+      "Bruce Ramsay",
+      "Rick Ravanello"
+    ],
+    "director": [
+      "Jason Bourque"
+    ],
+    "writer": [
+      "Shawn Linden"
+    ],
+    "fsk": "12",
+    "slug": "prophezeiung-der-maya"
+  },
+  {
+    "videoId": "s5zl0yM8Xpo",
+    "youtubeTitle": "Die Weihnachtskönigin - Eine falsche Verlobung wird zur echten Liebe! Romantischer Weihnachtsfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/s5zl0yM8Xpo/hqdefault.jpg",
+    "duration": "PT1H30M46S",
+    "publishedAt": "2026-11-20T15:00:30Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 656180,
+    "title": "Die Weihnachtskönigin",
+    "originalTitle": "A Beauty & the Beast Christmas",
+    "overview": "Ginger Holiday, eine Social-Media-Influencerin und die „Weihnachtskönigin“, verletzt sich im Gesicht und bleibt aus Scham ihrem Social-Media-Konto fern. Sie beginnt, Follower zu verlieren, und läuft Gefahr, dass die Sponsoren abspringen. Um wieder mediales Interesse zu wecken, arrangiert ihr Agent Derek eine falsche Verlobung mit Beau Bradley, einem Bad Boy, um ihre Follower zurückzugewinnen.",
+    "releaseDate": "2019-12-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cLfhEqgF2iZ6eYLCFGIAQozTKgg.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/swW5sTqfboAEnxjbdQWrNY2udeR.jpg",
+    "voteAverage": 5.3,
+    "genreIds": [
+      10770,
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 86,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Leah Pipes",
+      "Ryan Kelley",
+      "Rob Raco",
+      "Glozell Green",
+      "Carrie Keagan"
+    ],
+    "director": [
+      "Dylan Vox"
+    ],
+    "writer": [
+      "Scotty Mullen"
+    ],
+    "fsk": "12",
+    "slug": "die-weihnachtskoenigin"
+  },
+  {
+    "videoId": "DJGAUpGFUuU",
+    "youtubeTitle": "Crusader (2005) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DJGAUpGFUuU/hqdefault.jpg",
+    "duration": "PT1H35M45S",
+    "publishedAt": "2026-11-20T17:00:09Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 103568,
+    "title": "Crusader",
+    "originalTitle": "Crusader",
+    "overview": "",
+    "releaseDate": "2005-08-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/kwFS6tLzWmswDOMCZupLNaHfhZ9.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/n7qgoIw4EFLUkeTyhSlQ6laeeSY.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      28,
+      53,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Andrew McCarthy",
+      "Michael York",
+      "Richard Tyson",
+      "Ana Álvarez",
+      "Bo Derek"
+    ],
+    "director": [
+      "Bryan Goeres"
+    ],
+    "writer": [
+      "Nick Angelo"
+    ],
+    "fsk": null,
+    "slug": "crusader"
+  },
+  {
+    "videoId": "sG7l0ad9oRM",
+    "youtubeTitle": "Krieg im Spiegel - The Looking Glass War (1970) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sG7l0ad9oRM/hqdefault.jpg",
+    "duration": "PT1H47M35S",
+    "publishedAt": "2026-11-20T15:00:30Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 46358,
+    "title": "Krieg im Spiegel",
+    "originalTitle": "The Looking Glass War",
+    "overview": "Der verbitterte polnische Flüchtling Leiser erhält eine Spezialausbildung für einen gefährlichen Einsatz hinter dem eisernen Vorhang des kalten Krieges: Er soll eine geheime Raketenbasis der Russen in der DDR zu erkunden.",
+    "releaseDate": "1970-01-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/HFWfaWDz2vlzSu4jzX7jtRuADd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jrcSnUsgeKJIEiOoEdQmtxFuQWD.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      28,
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 108,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Anthony Hopkins",
+      "Christopher Jones",
+      "Pia Degermark",
+      "Ralph Richardson",
+      "Paul Rogers"
+    ],
+    "director": [
+      "Frank Pierson"
+    ],
+    "writer": [
+      "Frank Pierson"
+    ],
+    "fsk": "16",
+    "slug": "krieg-im-spiegel"
+  },
+  {
+    "videoId": "nxrDIR25FVM",
+    "youtubeTitle": "Terence Hill in der Action-Komödie Renegade – Westernfilm in voller Länge auf Deutsch kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nxrDIR25FVM/hqdefault.jpg",
+    "duration": "PT1H29M25S",
+    "publishedAt": "2026-11-19T19:15:09Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": null,
+    "title": "Terence Hill in der Action-Komödie Renegade",
+    "originalTitle": null,
+    "overview": "Der Herumtreiber Luke verdient sein Geld mit Gaunereien, bis sein Freund Moose ihn aus dem Gefängnis bittet, sich um seinen rebellischen Teenager-Sohn Matt zu kümmern.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "terence-hill-in-der-action-komoedie-renegade"
+  },
+  {
+    "videoId": "5K0FsnwgJFY",
+    "youtubeTitle": "FORSAKEN – MISSION MARS – Sein Raumschiff stürzt ab! Jetzt ist er allein auf dem Mars! (Thriller)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5K0FsnwgJFY/hqdefault.jpg",
+    "duration": "PT1H30M23S",
+    "publishedAt": "2026-11-19T18:30:00Z",
+    "channelName": "Dzango",
+    "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
+    "tmdbId": null,
+    "title": "FORSAKEN - MISSION MARS - Sein Raumschiff stürzt ab! Jetzt ist er allein auf dem Mars!",
+    "originalTitle": null,
+    "overview": "Astronaut Chapajew und seine Besatzung wird beim Anflug auf den Mars von einem heftigen Sturm überrascht. Zwar kann der Captain seine Crew retten, stürzt aber selbst ab. Alle glauben, dass er tot ist. Aber dann werden sie durch ein Signal überrascht. Er lebt, aber seine Chancen sind gering. Alle machen sich bereit, ihn zu retten. #Dzango #Spielfilm #ganzerFilm",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [
+      "Anna Banshchikova",
+      "Rodrigo Borges",
+      "Andrey Da!"
+    ],
+    "director": [
+      "Alexander Kulikov",
+      "Karina Mirzoyan",
+      "Mikhail Raskhodnikov"
+    ],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "forsaken-mission-mars-sein-raumschiff-stuerzt-ab-jetzt-ist-e"
+  },
+  {
+    "videoId": "ZE3hy7wQM60",
+    "youtubeTitle": "Terroristen besetzen zwei Ölplattformen – Roger Moore startet eine tödliche Rettungsmission | Action",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZE3hy7wQM60/hqdefault.jpg",
+    "duration": "PT1H36M29S",
+    "publishedAt": "2026-11-19T14:00:35Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Terroristen besetzen zwei Ölplattformen - Roger Moore startet eine tödliche Rettungsmission",
+    "originalTitle": null,
+    "overview": "Mitten in der rauen Nordsee beginnt eine der gefährlichsten Geiselnahmen Großbritanniens. Eine schwer bewaffnete Terroristengruppe unter der Führung des skrupellosen Lou Kramer übernimmt die Kontrolle über ein Versorgungsschiff. Die Verbrecher haben einen perfiden Plan entwickelt. Sie bringen Sprengstoff an wichtigen Ölplattformen an und drohen damit, die Anlagen zu zerstören, falls die britische Regierung ihre enormen Lösegeldforderungen nicht erfüllt. Hunderte Menschen befinden sich in unmittelbarer Lebensgefahr. Eine Explosion könnte nicht nur zahlreiche Menschenleben kosten, sondern auch verheerende wirtschaftliche und ökologische Folgen haben. Während die Regierung verzweifelt nach einer Lösung sucht, wird ein außergewöhnlicher Spezialist eingeschaltet. Rufus Excalibur ffolkes ist ein ehemaliger Marineoffizier und exzentrischer Antiterror-Experte mit einer selbst ausgebildeten Komma",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "terroristen-besetzen-zwei-oelplattformen-roger-moore-startet"
   }
 ]

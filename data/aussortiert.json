@@ -9062,5 +9062,15 @@
     "title": "Die Caine-Meuterei vor Gericht",
     "tmdbId": 1018332,
     "channelName": "Making Legends"
+  },
+  {
+    "datum": "2026-11-21",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 89 min, Video 49 min) -- wird neu gesucht",
+    "videoId": "p7JgtcP7mTg",
+    "youtubeTitle": "Stille Nacht, heilige Nacht – Buster & Chauncey und die Geschichte des Weihnachtsliedes | Film",
+    "title": "Stille Nacht, Heilige Nacht",
+    "tmdbId": 288007,
+    "channelName": "Comfy Movies"
   }
 ]

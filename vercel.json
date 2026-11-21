@@ -1915,6 +1915,11 @@
       "source": "/film/ganzer-spielfilm-mit-hannes-jaenicke-fritzi-haberlandt-lars",
       "destination": "/film/heimatfilm",
       "permanent": true
+    },
+    {
+      "source": "/film/weltengaenger",
+      "destination": "/film/weltengaenger-2",
+      "permanent": true
     }
   ]
 }
