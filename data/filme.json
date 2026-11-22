@@ -344639,7 +344639,10 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "clover-bend"
+    "slug": "clover-bend",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-22"
   },
   {
     "videoId": "2GKns5TOz_g",
@@ -344814,7 +344817,10 @@
       "Randy Duniz"
     ],
     "fsk": null,
-    "slug": "web-of-lies"
+    "slug": "web-of-lies",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-22"
   },
   {
     "videoId": "QWi8LNZIj34",
@@ -345119,7 +345125,10 @@
       "Mark Kinsey Stephenson"
     ],
     "fsk": null,
-    "slug": "der-voyeur-von-einem-spanner-verfolgt"
+    "slug": "der-voyeur-von-einem-spanner-verfolgt",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-22"
   },
   {
     "videoId": "KFi1z--MbLs",
@@ -355515,5 +355524,604 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "terroristen-besetzen-zwei-oelplattformen-roger-moore-startet"
+  },
+  {
+    "videoId": "T4bMWLta3N0",
+    "youtubeTitle": "Mit ihr zieht etwas Böses ein: Mother - Jede Familie hat ihre Dämonen (2021) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/T4bMWLta3N0/hqdefault.jpg",
+    "duration": "PT1H17M4S",
+    "publishedAt": "2026-11-21T19:15:35Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 842721,
+    "title": "Mother - Jede Familie hat ihre Dämonen",
+    "originalTitle": "Father of Flies",
+    "overview": "Der kleine Michael (Keaton Tetlow) hat eine schwierige Kindheit. Seine Mutter beging Selbstmord und er ist gezwungen, sich mit einer neuen Frau zu arrangieren, die sein Vater ins Haus geholt hat. Sie hat allerdings kein Interesse an der Mutter-Rolle und beschäftigt sich lieber mit Fernsehen und einer merkwürdigen Kosmetikmaske, die sie ständig trägt. Etwas Unheimliches scheint mit ihr eingezogen zu sein und Michael sieht sich plötzlich mit einer bedrohlichen Macht konfrontiert.",
+    "releaseDate": "2021-10-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/d6o2Afx8SMgd2huuiQbBpZmfyQM.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/iyE7pjTFDu7dPanw7SqEM0NTWYz.jpg",
+    "voteAverage": 4,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 80,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Sandra Andreis",
+      "Camilla Rutherford",
+      "Nicholas Tucci",
+      "Davi Santos",
+      "Page Ruth"
+    ],
+    "director": [
+      "Ben Charles Edwards"
+    ],
+    "writer": [
+      "Nadia Doherty",
+      "Ben Charles Edwards"
+    ],
+    "fsk": null,
+    "slug": "mother-jede-familie-hat-ihre-daemonen"
+  },
+  {
+    "videoId": "t9NL2B5XOeA",
+    "youtubeTitle": "LIEBE IST NICHT BLOSS EIN WORT | Romantik-Klassiker | Hepburn & Quinn",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/t9NL2B5XOeA/hqdefault.jpg",
+    "duration": "PT1H28M58S",
+    "publishedAt": "2026-11-21T17:30:06Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": 223694,
+    "title": "This Can't Be Love",
+    "originalTitle": "This Can't Be Love",
+    "overview": "",
+    "releaseDate": "1994-03-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zWJq4UrIyrYCjRdUcjLqBy2ljq0.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/oU6c5AYiLdtzqvWliM1UagdWeds.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      18,
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Katharine Hepburn",
+      "Anthony Quinn",
+      "Jason Bateman",
+      "Jami Gertz",
+      "Maxine Miller"
+    ],
+    "director": [
+      "Anthony Harvey"
+    ],
+    "writer": [
+      "Duane Poole"
+    ],
+    "fsk": null,
+    "slug": "this-can-t-be-love"
+  },
+  {
+    "videoId": "WiWVAhyO85E",
+    "youtubeTitle": "The Evil Within – Töte alles, was du liebst (PSYCHOHORROR ganzer Film, Filme Deutsch komplett 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WiWVAhyO85E/hqdefault.jpg",
+    "duration": "PT1H37M49S",
+    "publishedAt": "2026-11-21T18:00:06Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 444193,
+    "title": "The Evil Within - Töte alles, was du liebst",
+    "originalTitle": "The Evil Within",
+    "overview": "Der geistig behinderte Teenager Dennis lebt bei seinem Bruder John und dessen Lebensgefährtin. Als Dennis eines Tages in einen alten Spiegel blickt, befiehlt ihm sein Spiegelbild diejenigen zu ermorden, die er am meisten liebt. Widerwillig gibt der verstörte Junge der grausigen Forderung seines Abbildes nach.",
+    "releaseDate": "2017-06-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2PTfanA2YsdKUgbw27mtZ2E98QW.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/j6h5NLCwcdXSYa5RiJmC6LWHM0i.jpg",
+    "voteAverage": 5.697,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Frederick Koehler",
+      "Sean Patrick Flanery",
+      "Brianna Brown",
+      "Dina Meyer",
+      "Michael Berryman"
+    ],
+    "director": [
+      "Andrew Getty"
+    ],
+    "writer": [
+      "Andrew Getty"
+    ],
+    "fsk": "16",
+    "slug": "the-evil-within-toete-alles-was-du-liebst"
+  },
+  {
+    "videoId": "f7D9zzUk_cg",
+    "youtubeTitle": "Maschile Singolare | Mascarpone | Der Geschmack des Lebens | Ganzer Film 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/f7D9zzUk_cg/hqdefault.jpg",
+    "duration": "PT1H37M10S",
+    "publishedAt": "2026-11-21T17:30:20Z",
+    "channelName": "Deutsch Film Hub",
+    "channelId": "UCMdvU2xCSxMUJKbwq5zEC4Q",
+    "tmdbId": 826353,
+    "title": "Maschile singolare",
+    "originalTitle": "Maschile singolare",
+    "overview": "",
+    "releaseDate": "2021-11-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/25yIH1ZAzHLMd7HJreWy3ZYmgdJ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/uck1c4HIysro9LO9ok0R5Qhbcsg.jpg",
+    "voteAverage": 6.056,
+    "genreIds": [
+      18,
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (4 Filme) -- Laufzeit entschied: TMDB 101 min, Video 97 min · Zuordnungswert 111 (Suchbegriff: \"Maschile Singolare\")",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Giancarlo Commare",
+      "Eduardo Valdarnini",
+      "Gianmarco Saurino",
+      "Michela Giraud",
+      "Lorenzo Adorni"
+    ],
+    "director": [
+      "Matteo Pilati",
+      "Alessandro Guida"
+    ],
+    "writer": [
+      "Matteo Pilati",
+      "Alessandro Guida",
+      "Giuseppe Paternò Raddusa"
+    ],
+    "fsk": null,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "gesperrt_de",
+    "nichtVerfuegbarSeit": "2026-11-22",
+    "slug": "maschile-singolare"
+  },
+  {
+    "videoId": "meK4U-1jGbE",
+    "youtubeTitle": "Der Märchenmantel - Kids & Family / Trickfilm (1981) DEFA",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/meK4U-1jGbE/hqdefault.jpg",
+    "duration": "PT21M21S",
+    "publishedAt": "2026-11-21T14:00:00Z",
+    "channelName": "DEFA Filmwelt",
+    "channelId": "UCSKbHQcEk-42lL--03lbbIw",
+    "tmdbId": 1484641,
+    "title": "Der Märchenmantel",
+    "originalTitle": "Der Märchenmantel",
+    "overview": "",
+    "releaseDate": "1982-07-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zgl7OtzdKE5P5r6oJQWADDk2R8H.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/jGZnKMa2IfqT0e2ZtWJytnYmAMG.jpg",
+    "voteAverage": 0,
+    "genreIds": [
+      16,
+      14,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Besetzung/Regie konnten nicht bestätigt werden -- bitte prüfen · Zuordnungswert 133 (Suchbegriff: \"Der Märchenmantel\")",
+    "runtime": 21,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Hans Kopprasch",
+      "Achim Schmidtchen",
+      "Thea Elster",
+      "Jürgen Muck",
+      "Regina Nitzsche"
+    ],
+    "director": [
+      "Horst J. Tappert"
+    ],
+    "writer": [
+      "Horst J. Tappert"
+    ],
+    "fsk": null,
+    "slug": "der-maerchenmantel"
+  },
+  {
+    "videoId": "-E3M4nwyDrI",
+    "youtubeTitle": "Under the Boardwalk (80er Jahre Komödie auf Deutsch, Romantische Komödien in voller Länge)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/-E3M4nwyDrI/hqdefault.jpg",
+    "duration": "PT1H43M3S",
+    "publishedAt": "2026-11-21T18:30:24Z",
+    "channelName": "COMEDYPIE",
+    "channelId": "UCSxzhmROaWxdX5h_1WRppuA",
+    "tmdbId": 89909,
+    "title": "Under the Boardwalk",
+    "originalTitle": "Under the Boardwalk",
+    "overview": "Am Strand des kalifornischen Surferparadieses Santa Monica erzählt man noch heute die Geschichte des legendären Nick Rainwood, dem Anführer der Vals. Nicks Erzrivale ist Reef Yorpin, der Chef und beste Surfer der Lowks. Nick hat sich kurz vor dem alljährlichen Surfwettbewerb in Allie, die Schwester von Reef, verliebt. Reef ist außer sich, als er von der Liebe seines Feindes zu Allie erfährt.",
+    "releaseDate": "1989-04-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7MVC9sDjbv3yWwBTVYcMWNACCRb.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/fhz0ymQXVBYkhincZDBTEQN7Enp.jpg",
+    "voteAverage": 4.4,
+    "genreIds": [
+      35,
+      10749
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 102,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Keith Coogan",
+      "Danielle von Zerneck",
+      "Steve Monarque",
+      "Roxana Zal",
+      "Hunter von Leer"
+    ],
+    "director": [
+      "Fritz Kiersch"
+    ],
+    "writer": [
+      "Robert King"
+    ],
+    "fsk": null,
+    "slug": "under-the-boardwalk"
+  },
+  {
+    "videoId": "ay_lkAhHeGg",
+    "youtubeTitle": "Den Morgen wirst du nicht erleben | 1950 | James Cagney | Krimi auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ay_lkAhHeGg/hqdefault.jpg",
+    "duration": "PT1H37M44S",
+    "publishedAt": "2026-11-21T18:00:36Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 18262,
+    "title": "Den Morgen wirst du nicht erleben",
+    "originalTitle": "Kiss Tomorrow Goodbye",
+    "overview": "Ein ausgebrochener Gewaltverbrecher wird von seinem übersteigerten Geltungsbedürfnis - unbeeindruckt von den Vorhaltungen der Frau, die er liebt - zu immer neuen und gewagteren Raubüberfällen getrieben.",
+    "releaseDate": "1950-08-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nFKJEuQvqJ7ut91vwEvGrUEBTOv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qSdPDMj7qhxZOhSK4MEki6veQ4s.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 103,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "James Cagney",
+      "Barbara Payton",
+      "Helena Carter",
+      "Ward Bond",
+      "Luther Adler"
+    ],
+    "director": [
+      "Gordon Douglas"
+    ],
+    "writer": [
+      "Harry Brown"
+    ],
+    "fsk": "18",
+    "slug": "den-morgen-wirst-du-nicht-erleben"
+  },
+  {
+    "videoId": "miQI-33CPIY",
+    "youtubeTitle": "Lushins Verteidigung - The Luzhin Defence (2000) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/miQI-33CPIY/hqdefault.jpg",
+    "duration": "PT1H49M21S",
+    "publishedAt": "2026-11-21T15:00:20Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": 52654,
+    "title": "Lushins Verteidigung",
+    "originalTitle": "The Luzhin Defence",
+    "overview": "Ende der Zwanzigerjahre gilt der merkwürdig auftretende Alexander Lushin als Schach-Genie. Doch in Folge seines seltsamen Erscheinens wird er als leicht verrückt angesehen. Während eines Schachturniers am Comer See kann die junge Natalia ihre Faszination für den “Verrückten” nicht verbergen und die beiden schließen zärtliche Bande, denn Natalia hat offensichtlich Mitleid mit dem vom Schicksal gebeutelten, vereinsamten Mann. Doch dann taucht Lushins einstiger Manager mit einem teuflischen Plan auf…",
+    "releaseDate": "2000-08-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tVV3PhTO58R0CAsvWhsUkYDzIEZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/aTQQZCBNbJofoOu4TT26BUTUt1M.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      10749,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 109,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "John Turturro",
+      "Emily Watson",
+      "Geraldine James",
+      "Stuart Wilson",
+      "Fabio Sartor"
+    ],
+    "director": [
+      "Marleen Gorris"
+    ],
+    "writer": [
+      "Peter Berry"
+    ],
+    "fsk": null,
+    "slug": "lushins-verteidigung"
+  },
+  {
+    "videoId": "ZlS544xC9Sk",
+    "youtubeTitle": "Kommissar X – In den Klauen des goldenen Drachen (1966) | Deutscher Agentenfilm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZlS544xC9Sk/hqdefault.jpg",
+    "duration": "PT1H23M48S",
+    "publishedAt": "2026-11-21T10:23:45Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 4532,
+    "title": "Kommissar X - In den Klauen des goldenen Drachen",
+    "originalTitle": "Kommissar X - In den Klauen des goldenen Drachen",
+    "overview": "Nach jahrelanger harter Forschungsarbeit ist Professor Akron ein überwältigendes Resultat gelungen. Mit Hilfe seiner Erfindung kann die Wirkung von Laserstrahlen ins Unendliche verstärkt werden. In den Händen von Verbrechern ist diese Errungenschaft jedoch eine tödliche Waffe und eine Bedrohung für die ganze Welt. Jo Walker alias Kommissar X und Tom Rowland eilen nach Singapur, um den Forscher vor den ,,Klauen des goldenen Drachen\" zu schützen, Dieser Geheimbund will sich der Erfindung des Professors bemächtigen und schreckt für die Durchsetzung seiner kriminellen Ziele weder vor Erpressung, Entführung noch Mord zurück.",
+    "releaseDate": "1966-08-05",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hKkTM3kfybXC11OJT3qdfBu0TuO.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/3pHOmmH2MsTtdzqEkerYy5IcVwK.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      80
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tony Kendall",
+      "Brad Harris",
+      "Barbara Frey",
+      "Luisa Rivelli",
+      "Ernst Fritz Fürbringer"
+    ],
+    "director": [
+      "Gianfranco Parolini"
+    ],
+    "writer": [
+      "Stefan Gommermann",
+      "Gianfranco Parolini",
+      "Theo Maria Werner"
+    ],
+    "fsk": null,
+    "slug": "kommissar-x-in-den-klauen-des-goldenen-drachen"
+  },
+  {
+    "videoId": "mkonEp76nac",
+    "youtubeTitle": "Der alte und der junge König (1935) – Deutscher Filmklassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mkonEp76nac/hqdefault.jpg",
+    "duration": "PT1H40M5S",
+    "publishedAt": "2026-11-21T10:18:22Z",
+    "channelName": "All Time Classic Movies",
+    "channelId": "UClGLXmLukPBFstyT5hPfw8Q",
+    "tmdbId": 278889,
+    "title": "Der alte und der junge König",
+    "originalTitle": "Der alte und der junge König",
+    "overview": "Potsdam 1730. Der junge Kronprinz Friedrich lehnt sich gegen seinen Vater, den \"Soldatenkönig\" Friedrich Wilhelm I. auf: Anstatt sich auf seine Rolle als Thronerbe vorzubereiten, geht er lieber seinen musischen Neigungen nach. Als der König merkt, dass er seinen Sohn nicht mit Drill, Disziplin und Härte zu einem würdigen Nachfolger erziehen kann, lässt er dessen Freund Katte hinrichten und den Prinzen einkerkern. Erst auf dem Sterbebett kommt es zu einer klärenden Aussprache zwischen Vater und Sohn...",
+    "releaseDate": "1935-01-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ikMBuUSRR6ftSTdFLcoDAqs70RX.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pES3hhAOIQOYsk6oGyNBeHNw2id.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      36,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Emil Jannings",
+      "Werner Hinz",
+      "Leopoldine Konstantin",
+      "Carola Höhn",
+      "Georg Alexander"
+    ],
+    "director": [
+      "Hans Steinhoff"
+    ],
+    "writer": [
+      "Thea von Harbou",
+      "Rolf Lauckner"
+    ],
+    "fsk": null,
+    "slug": "der-alte-und-der-junge-koenig"
+  },
+  {
+    "videoId": "P528vEuuOpM",
+    "youtubeTitle": "Polly Blue Eyes (2005) [Komödie] [Krimi] | Mit Matthias Schweighöfer | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/P528vEuuOpM/hqdefault.jpg",
+    "duration": "PT1H40M26S",
+    "publishedAt": "2026-11-21T17:00:10Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 66735,
+    "title": "Polly Blue Eyes",
+    "originalTitle": "Polly Blue Eyes",
+    "overview": "Die aus dem Jugendgefängnis entlassene 20-jährige Polly will ein ehrliches Leben abseits ihrer kleinkriminellen Familie führen. Sie nimmt einen Job in einem Schnellrestaurant an und verliebt sich in den Polizisten Stefan. Ronny, der neue Freund von Pollys Schwester, überredet deren Eltern derweil zu einem Überfall auf einen Getränkemarkt, um das Startkapital zum Einstieg ins Geschäft mit Aluminium-Fertighäusern zu bekommen. Auch von Polly wird erwartet, hierbei zu helfen, obendrein muss sie sich noch Ronnys Annäherungsversuchen erwehren.",
+    "releaseDate": "2005-11-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jKn1NZfyGbYzYADFQl5jLDQVOJw.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dydFnvjIs1TSlwWJ9qLIBA6MMsq.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      35,
+      80,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Susanne Bormann",
+      "Matthias Schweighöfer",
+      "Meret Becker",
+      "Ulrich Noethen",
+      "Tom Deininger"
+    ],
+    "director": [
+      "Tomy Wigand"
+    ],
+    "writer": [],
+    "fsk": "12",
+    "slug": "polly-blue-eyes"
+  },
+  {
+    "videoId": "d-HD86PzUSE",
+    "youtubeTitle": "Nackte Zeugin - Bare Witness (2002) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/d-HD86PzUSE/hqdefault.jpg",
+    "duration": "PT1H25M15S",
+    "publishedAt": "2026-11-21T17:00:04Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 38144,
+    "title": "Nackte Zeugin",
+    "originalTitle": "Bare Witness",
+    "overview": "Die unwiderstehliche Angie Everhart und der attraktive Daniel Baldwin entfachen in der berauschenden Welt der Pornographie und Prostitution ein Feuer voller Leidenschaft, Hitze und hemmungsloser Begierde. Das auf Video mitgeschnittene Treffen eines Auftragskillers mit einem verführerischen Callgirl beweist die Verbindung zwischen einen angesehenen, aber zwielichtigen Geschäftsmann und der geplanten Ermordung eines prominenten Politikers. Außerdem zu sehen ist die talentierte Catalina Larranaga in einem Film, der einige der leidenschaftlichsten Liebesszenen zeigt, die Sie je gesehen haben. Der heißeste Erotikthriller des Jahres.",
+    "releaseDate": "2002-02-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gy7vfuMBCJDZ4UNKXmVdirVwSSi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/l5h145ufJyiS0TFPOFaEraLTL0h.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      53,
+      9648,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 88,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Angie Everhart",
+      "Daniel Baldwin",
+      "Evan MacKenzie",
+      "Catalina Larranaga",
+      "Mark Sivertsen"
+    ],
+    "director": [
+      "Kelley Cauthen"
+    ],
+    "writer": [
+      "Anthony L. Greene",
+      "Evan Spiliotopoulos"
+    ],
+    "fsk": null,
+    "slug": "nackte-zeugin"
+  },
+  {
+    "videoId": "Wz947Q4P3tQ",
+    "youtubeTitle": "Der Schwimmer - The Swimmer (1968) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Wz947Q4P3tQ/hqdefault.jpg",
+    "duration": "PT1H35M27S",
+    "publishedAt": "2026-11-21T17:00:20Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 33564,
+    "title": "Der Schwimmer",
+    "originalTitle": "The Swimmer",
+    "overview": "Ein heißer Sommertag in einem Villenviertel in Conneticutt. Der athletische Ned Merrill (Burt Lancaster) hat einen ungewöhnlichen Plan: Er will die acht Meilen bis zu seinem Haus unten am Hügel schwimmen - von Swimminpool zu Swimmingpool. Bei den ersten Stationen seiner Tour wird Ned, der zwei Jahre als verschollen galt, herzlich von seinen alten Freunden und Nachbarn gegrüßt. Doch je mehr er sich seinem Haus nähert, desto kühler gerät der Empfang - bis hin zu totaler Ablehnung. Als Ned weit nach Mitternacht bei stömenden Regen und völlig erschöpft sein Haus erreicht, enthüllt sich ein tragisches Schicksal...",
+    "releaseDate": "1968-08-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gPRdiuPei3bUYtEcBeTJm3Me4kQ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/i38PPPpZUhknR7buscEBvfLRIBW.jpg",
+    "voteAverage": 7.4,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Burt Lancaster",
+      "Janet Landgard",
+      "Janice Rule",
+      "Tony Bickley",
+      "Marge Champion"
+    ],
+    "director": [
+      "Frank Perry"
+    ],
+    "writer": [
+      "Eleanor Perry"
+    ],
+    "fsk": "12",
+    "slug": "der-schwimmer"
+  },
+  {
+    "videoId": "ZuxeYx99taA",
+    "youtubeTitle": "Mallory Must Not Die! / Il mio nome è Mallory... M come morte | GANZER FILM | 4K | Harper",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZuxeYx99taA/hqdefault.jpg",
+    "duration": "PT1H28M51S",
+    "publishedAt": "2026-11-20T18:00:00Z",
+    "channelName": "Deutsch Film Hub",
+    "channelId": "UCMdvU2xCSxMUJKbwq5zEC4Q",
+    "tmdbId": null,
+    "title": "Mallory Must Not Die! / Il mio nome è Mallory... M come morte",
+    "originalTitle": null,
+    "overview": "Bart Ambler interessiert sich für eine Ranch, auf der Colonel Harper seinen Ruhestand verbringen möchte. Harper und Larry Mallory geraten dadurch in einen Kampf um das Land. Robert Woods spielt Mallory.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "mallory-must-not-die-il-mio-nome-e-mallory-m-come-morte"
+  },
+  {
+    "videoId": "4AtOaO1v39U",
+    "youtubeTitle": "Mulan - Legende einer Kriegerin #ganzerfilm [HD] - Action | Pandastorm",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4AtOaO1v39U/hqdefault.jpg",
+    "duration": "PT1H54M6S",
+    "publishedAt": "2026-11-20T17:00:11Z",
+    "channelName": "Pandastorm Pictures",
+    "channelId": "UCg4OrITaT-hkDpv4mwko20w",
+    "tmdbId": null,
+    "title": "Mulan - Legende einer Kriegerin #ganzerfilm",
+    "originalTitle": null,
+    "overview": "Als der Kaiser alle Männer Nordchinas aufruft, sich dem Kampf gegen einfallende Barbaren zu stellen, hat das junge Mädchen Mulan Angst um die Gesundheit ihres Vaters. Um ihn zu schützen, verkleidet sie sich als Mann und tritt an seiner Stelle in die Armee ein.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Jingle Ma"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "mulan-legende-einer-kriegerin-ganzerfilm"
   }
 ]

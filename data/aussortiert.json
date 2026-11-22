@@ -9072,5 +9072,15 @@
     "title": "Stille Nacht, Heilige Nacht",
     "tmdbId": 288007,
     "channelName": "Comfy Movies"
+  },
+  {
+    "datum": "2026-11-22",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 9 min, Video 100 min) -- wird neu gesucht",
+    "videoId": "HiUhcXbW2qU",
+    "youtubeTitle": "HAVE WE EVER MET | Kennen wir uns? | Zwei Fremde, ein Schicksal | 4K",
+    "title": "Kennen wir uns?",
+    "tmdbId": 648087,
+    "channelName": "Deutsch Film Hub"
   }
 ]
