@@ -97051,12 +97051,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "fBaLUbyVTng",
-    "youtubeTitle": "Auf der Jagd nach dem Kartellboss wird er selbst zum Ziel Nummer eins | ACTIONFILM",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/fBaLUbyVTng/hqdefault.jpg",
+    "videoId": "12-gw86gLSk",
+    "youtubeTitle": "La Linea - The Line",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/12-gw86gLSk/hqdefault.jpg",
     "duration": "PT1H30M25S",
     "publishedAt": "2026-06-26T17:00:06Z",
-    "channelName": "CinemaLegenden",
+    "channelName": "CiNENET Deutschland",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 21878,
     "title": "La Linea - The Line",
@@ -153229,7 +153229,10 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "revenge-of-the-warrior"
+    "slug": "revenge-of-the-warrior",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-23"
   },
   {
     "videoId": "bRg8lWoylH0",
@@ -311854,12 +311857,12 @@
     "nichtVerfuegbarSeit": "2026-10-20"
   },
   {
-    "videoId": "NWyiKPoKWXU",
-    "youtubeTitle": "EINE WEIHNACHTSREISE VOLLER LIEBE UND ÜBERRASCHUNGEN! Abenteuerfilm",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/NWyiKPoKWXU/hqdefault.jpg",
+    "videoId": "M5a6x_vr4cw",
+    "youtubeTitle": "Christmas with the Prince (2023) [Weihnachten] [Drama] | Urbanes Fest | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/M5a6x_vr4cw/hqdefault.jpg",
     "duration": "PT1H20M49S",
     "publishedAt": "2026-09-23T15:03:18Z",
-    "channelName": "KinoWucht",
+    "channelName": "CiNENET Deutschland",
     "channelId": "UCmxqkfX9mlB9g8e0aGg94wA",
     "tmdbId": 1075739,
     "title": "Christmas with the Prince",
@@ -311892,10 +311895,7 @@
     "slug": "christmas-with-the-prince",
     "runtime": 80,
     "plausibel": "titel",
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-11-03"
+    "plausibelVersion": 4
   },
   {
     "videoId": "7RFYEQuuYlw",
@@ -352810,7 +352810,10 @@
       "Franz Seitz Junior"
     ],
     "fsk": "6",
-    "slug": "der-kapitaen"
+    "slug": "der-kapitaen",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-23"
   },
   {
     "videoId": "Wovh_BFFvm8",
@@ -356123,5 +356126,457 @@
     "writer": [],
     "fsk": null,
     "slug": "mulan-legende-einer-kriegerin-ganzerfilm"
+  },
+  {
+    "videoId": "evGyH_-R5Dc",
+    "youtubeTitle": "Diesen Film Werden Sie Mehr Als Einmal Sehen Wollen🎦WAHREN BEGEBENHEIT🎬In the Blink of an Eye🎬Ganzer",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/evGyH_-R5Dc/hqdefault.jpg",
+    "duration": "PT1H29M29S",
+    "publishedAt": "2026-11-22T17:45:00Z",
+    "channelName": "NEORA",
+    "channelId": "UC2MtVsxZ4v7mnC7W_WHeR4w",
+    "tmdbId": 100048,
+    "title": "In the Blink of an Eye",
+    "originalTitle": "In the Blink of an Eye",
+    "overview": "",
+    "releaseDate": "1996-03-24",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/836wkAxW692uWdht2jzgC4QOjPk.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hj49atjKa9sB9ubkqzMV96plmGU.jpg",
+    "voteAverage": 5.9,
+    "genreIds": [
+      18,
+      10770,
+      80
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (5 Filme) -- Laufzeit entschied: TMDB 90 min, Video 89 min (auch möglich: In The Blink Of An Eye 2005, 90 min; In the Blink of an Eye 2009, 86 min; In the Blink of an Eye 2026, 94 min) · Zuordnungswert 98 (Suchbegriff: \"In the Blink of an Eye\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Veronica Hamel",
+      "Mimi Rogers",
+      "Carlos Gómez",
+      "Jeffrey Dean Morgan",
+      "Brian Markinson"
+    ],
+    "director": [
+      "Micki Dickoff"
+    ],
+    "writer": [
+      "Rama Laurie Stagner",
+      "Dan Witt"
+    ],
+    "fsk": null,
+    "slug": "in-the-blink-of-an-eye"
+  },
+  {
+    "videoId": "czoXw4QSUio",
+    "youtubeTitle": "Die Augen des Engels (KRIMI THRILLER mit CARA DELEVIGNE Filme Deutsch komplett, ganzer Film Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/czoXw4QSUio/hqdefault.jpg",
+    "duration": "PT1H41M33S",
+    "publishedAt": "2026-11-22T16:00:17Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 254024,
+    "title": "Die Augen des Engels",
+    "originalTitle": "The Face of an Angel",
+    "overview": "Regisseur Thomas (Daniel Brühl) glaubt in einem noch immer aktuellen brisanten Mordfall den Stoff für seinen neuen Film gefunden zu haben. So soll die junge Amerikanerin Jessica Fuller (Genevieve Gaunt) gemeinsam mit ihrem Freund ihre Mitbewohnerin, eine britische Studentin, umgebracht haben. Für seine Recherchen reist Thomas in das italienische Siena, den Ort des Geschehens, an dem auch der Gerichtsprozess stattfinden soll. Dort trifft er sich mit der ambitionierten Journalistin Simone (Kate Beckinsale), die das Verfahren begleitet und bereits ein Buch über den Vorfall geschrieben hat. Aber je mehr er sich seiner Faszination für den Fall hingibt und sich mit ihm befasst, desto mehr verliert er sich selbst darin – bis ihm schließlich gar erhebliche Zweifel an seinem Vorhaben kommen. Doch alles ändert sich, als er auf die geheimnisvolle Studentin Melanie (Cara Delevingne) trifft...",
+    "releaseDate": "2014-09-06",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qCaoNIijqEWIou8iPZ0tYJSedyZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/qBPrU3oA1s3eFvPVmq4vNnkRymU.jpg",
+    "voteAverage": 5.021,
+    "genreIds": [
+      18,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Daniel Brühl",
+      "Kate Beckinsale",
+      "Cara Delevingne",
+      "Ava Acres",
+      "Corrado Invernizzi"
+    ],
+    "director": [
+      "Michael Winterbottom"
+    ],
+    "writer": [
+      "Paul Viragh"
+    ],
+    "fsk": "12",
+    "slug": "die-augen-des-engels"
+  },
+  {
+    "videoId": "5Vp5t6soQOw",
+    "youtubeTitle": "Briefe an Gott (Bewegender Film NACH WAHREN BEGEBENHEITEN in voller Länge, Filme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/5Vp5t6soQOw/hqdefault.jpg",
+    "duration": "PT1H54M6S",
+    "publishedAt": "2026-11-22T14:00:12Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 35691,
+    "title": "Briefe an Gott - Letters to God",
+    "originalTitle": "Letters to God",
+    "overview": "Basierend auf einer wahren Geschichte: Ein gegen Krebs kämpfender Junge schreibt berührende Briefe an Gott, die seiner Nachbarschaft und jedem, der mit ihnen in Kontakt kommt, Hoffnung geben. Ein argloser Aushilfspostbote, der selbst mit einigen Problemen zu kämpfen hat, wird durch die Lektüre der Briefe dazu inspiriert für sich selbst und seinen alkoholkranken Sohn für ein besseres Leben zu kämpfen.",
+    "releaseDate": "2010-04-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jt9iqaPbgq3nYTzzUPgfTH3Ho4u.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/afmdDeou88W4OOJXr1Tepu2tLjX.jpg",
+    "voteAverage": 6.848,
+    "genreIds": [
+      18,
+      10751
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 110,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Robyn Lively",
+      "Jeffrey Johnson",
+      "Maree Cheatham",
+      "Tanner Maguire",
+      "Michael Bolten"
+    ],
+    "director": [
+      "Patrick Doughtie",
+      "David Nixon"
+    ],
+    "writer": [
+      "Art D'Alessandro",
+      "Patrick Doughtie",
+      "Sandra Thrift"
+    ],
+    "fsk": "6",
+    "slug": "briefe-an-gott-letters-to-god"
+  },
+  {
+    "videoId": "8eqrZQJYI5I",
+    "youtubeTitle": "Das Geschenk der Weihnacht (WEIHNACHTSFILM ganzer Film Deutsch, Weihanchtsfilme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8eqrZQJYI5I/hqdefault.jpg",
+    "duration": "PT1H43M57S",
+    "publishedAt": "2026-11-22T12:00:32Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 771002,
+    "title": "Das Geschenk der Weihnacht",
+    "originalTitle": "The Gift of Christmas",
+    "overview": "Es ist Weihnachtszeit im Haus von George und Denise Barnett und wie jedes Jahr ist die Dekoration pünktlich angebracht und die Kinder lachen. Doch diesmal stimmt etwas nicht, denn George vermisst seinen Bruder Allen, der weit weg in Los Angeles arbeitet. Außerdem macht er sich Sorgen um seinen alten Freund Don Ford, der immer zurückgezogener lebt. Doch das Weihnachtsfest soll alles verändern.",
+    "releaseDate": "2020-11-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1PlcdUR8dXdPpxWQnXiNa63rp0q.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ntSMI9sR9QjwOfBTb9IuafQB2Ca.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 101,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Bruce Davison",
+      "Dee Wallace",
+      "Nathan Todaro",
+      "Jeff Prater",
+      "Jenn Gotzon Chandler"
+    ],
+    "director": [
+      "Tom Whitus"
+    ],
+    "writer": [
+      "John B. VanMeter",
+      "Tom Whitus"
+    ],
+    "fsk": null,
+    "slug": "das-geschenk-der-weihnacht"
+  },
+  {
+    "videoId": "WSQ8UcbFNfE",
+    "youtubeTitle": "Schäm dich, Brigitte (Wir werden das Kind schon schaukeln) | 1952 | HeimatfilmeTV",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/WSQ8UcbFNfE/hqdefault.jpg",
+    "duration": "PT1H23M54S",
+    "publishedAt": "2026-11-22T14:45:38Z",
+    "channelName": "Heimatfilme",
+    "channelId": "UCV8yejshmlsns86C-ZeO16Q",
+    "tmdbId": 205869,
+    "title": "Schäm' dich, Brigitte!",
+    "originalTitle": "Schäm' dich, Brigitte!",
+    "overview": "Als der Mathematiklehrer bei seiner Tochter einen Liebesbrief entdeckt, gerät Familienvater Felix Schneider unter Verdacht, eine heimliche Geliebte zu haben.",
+    "releaseDate": "1952-09-04",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/eg8M7CJjldvP0z7aj88bzcpAT8Z.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pGy78it5sZGKXbAI1O8cd3tgKw1.jpg",
+    "voteAverage": 7.8,
+    "genreIds": [
+      35
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 0,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Heinz Rühmann",
+      "Hans Moser",
+      "Theo Lingen",
+      "Nadja Tiller",
+      "Annie Rosar"
+    ],
+    "director": [
+      "E. W. Emo"
+    ],
+    "writer": [
+      "Karl Farkas",
+      "Gábor Vaszary"
+    ],
+    "fsk": "12",
+    "slug": "schaem-dich-brigitte"
+  },
+  {
+    "videoId": "SMnSMuPQwic",
+    "youtubeTitle": "Honey Boy (2019) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/SMnSMuPQwic/hqdefault.jpg",
+    "duration": "PT1H32M30S",
+    "publishedAt": "2026-11-22T17:00:39Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": 512263,
+    "title": "Honey Boy",
+    "originalTitle": "Honey Boy",
+    "overview": "Als der 12-jährige Otis als Kinderfernsehstar beginnt in Hollywood Erfolg zu haben , kehrt sein Vater der ehemalige Rodeo-Clown als Vormund zurück. Wenn Otis am Set kein Publikum hat, verbringt er seine Tage mit seinem Vater in einem Motel am Rande der Stadt und muss die Misshandlungen seines überheblichen Vaters ertragen.",
+    "releaseDate": "2019-11-07",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bvVXXelQ3mSY3O8eYmrhiqIjqNq.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5n2jz145P1CRdPfA296MmEZF1sQ.jpg",
+    "voteAverage": 7.017,
+    "genreIds": [
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Shia LaBeouf",
+      "Lucas Hedges",
+      "Noah Jupe",
+      "Byron Bowers",
+      "Laura San Giacomo"
+    ],
+    "director": [
+      "Alma Har'el"
+    ],
+    "writer": [
+      "Shia LaBeouf"
+    ],
+    "fsk": "12",
+    "slug": "honey-boy"
+  },
+  {
+    "videoId": "sKJDZOLxuBo",
+    "youtubeTitle": "Unglaublicher Horror-Thriller: Devilreaux (2023) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/sKJDZOLxuBo/hqdefault.jpg",
+    "duration": "PT1H33M36S",
+    "publishedAt": "2026-11-22T16:30:33Z",
+    "channelName": "TitanumX",
+    "channelId": "UCnlIBYHTpD2R3BQuE6nsSKw",
+    "tmdbId": 1131444,
+    "title": "Devilreaux",
+    "originalTitle": "Devilreaux",
+    "overview": "Mitte des 19. Jahrhunderts lynchten drei weiße Männer (u. a. Sonny King) einen jungen Schwarzen im Süden der USA. In unserer Gegenwart versucht nun eine Gruppe von partysüchtigen Jugendlichen, sich am gleichen Ort ihre Langeweile mit allerlei Schabernack auf einem alten Friedhof zu vertreiben. Ohne es zu realisieren, erwecken sie damit das Opfer von damals, den Devilreaux (Vincent M. Ward) genannten Sohn einer Voodoo-Hexe (Niki J. Crawford), wieder zum Leben. Schnell ahnen die Teenager, dass es sich hier um keinen gewöhnlichen Jungen gehandelt haben kann. Denn bewaffnet mit einer Schaufel und getrieben von dem Wunsch nach Rache für die Morde an sich und wenig später seiner Familie beginnt der Dämon eine gnadenlose Jagd auf die Nachkommen der drei Killer. Die lokale Polizistin Lt. Bobbie Briggs (Krista Grotte Saxon) versucht ihn mit allen Mitteln davon abzuhalten …",
+    "releaseDate": "2023-06-09",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/B04vvapEcnqaf0fTIcAOrVkfiE.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/izcwDUeWwgAUA0gk8pSrVdw0A5a.jpg",
+    "voteAverage": 4.7,
+    "genreIds": [
+      27
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Tony Todd",
+      "Vincent M. Ward",
+      "Jon Briddell",
+      "Meghan Carrasquillo",
+      "Jackie Quinones"
+    ],
+    "director": [
+      "Thomas J. Churchill"
+    ],
+    "writer": [
+      "Thomas J. Churchill"
+    ],
+    "fsk": null,
+    "slug": "devilreaux"
+  },
+  {
+    "videoId": "AR6XjmYOghM",
+    "youtubeTitle": "Cool Money (2005) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/AR6XjmYOghM/hqdefault.jpg",
+    "duration": "PT1H27M38S",
+    "publishedAt": "2026-11-22T17:00:05Z",
+    "channelName": "Absolute Action",
+    "channelId": "UCrBwO_Xs9GjU5kdDV09Uujw",
+    "tmdbId": 61819,
+    "title": "Cool Money",
+    "originalTitle": "Cool Money",
+    "overview": "Bobby Comfort hat sein ganzes Leben lang nichts anderes gemacht, als krumme Dinger zu drehen. Er versucht zwar, auf Flehen seiner Frau und seines Cousin, ein \"normales\" Leben auf die Reihe zu kriegen, allerdings gelingt dem gewitzten und äußerst charmanten Kleinganoven dies nicht immer, denn in der freien Welt muss man schließlich irgendwie an \"Bares\" herankommen. Als dann auch noch sein sein Freund Sam ihm einen 100%igen 10-Millionen-Dollar-Raub unter die Nase hält, sieht Bobby sofort DEN größten Coup der Geschichte: Ein perfektes Verbrechen, das ewigen Ruhm und unvorstellbar viel Geld bringt...eine traumhafte Kombination...",
+    "releaseDate": "2005-03-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7yOeYn0Os0LRxCJtBBYN8WNxNF6.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/lgp10WqkbfGqMaASacQBBrTDGcm.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      18,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "James Marsters",
+      "John Cassini",
+      "Larry Manetti",
+      "Wayne Robson",
+      "Margot Kidder"
+    ],
+    "director": [
+      "Gary Burns"
+    ],
+    "writer": [],
+    "fsk": "12",
+    "slug": "cool-money"
+  },
+  {
+    "videoId": "Zj_PA8VxVfI",
+    "youtubeTitle": "Nine Days (2020) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Zj_PA8VxVfI/hqdefault.jpg",
+    "duration": "PT2H4M9S",
+    "publishedAt": "2026-11-22T17:00:21Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 607430,
+    "title": "Nine Days",
+    "originalTitle": "Nine Days",
+    "overview": "Will verbringt seine Tage in einem abgelegenen Außenposten und sieht sich im Fernsehen den Live Point of View (POV) von Menschen an, die ihr Leben leben – bis ein Mensch stirbt und eine Stelle für ein neues Leben auf der Erde frei bleibt. Bald treffen mehrere Kandidaten – ungeborene Seelen – bei Will ein, um sich Tests zu unterziehen und ihre Fitness zu bestimmen. Wenn sie als ungeeignet erachtet werden, geraten sie schnell wieder in Vergessenheit. Aber Will steht bald vor seiner eigenen existenziellen Herausforderung in Form der freigeistigen Emma, einer Kandidatin, die nicht wie die anderen ist und ihn zwingt, sich nach innen zu wenden und mit seiner eigenen turbulenten Vergangenheit abzurechnen. Angetrieben von unerwarteter Kraft entdeckt er einen mutigen neuen Weg in seinem eigenen Leben.",
+    "releaseDate": "2021-07-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6ZemGof32GQRpAMfIK9Q2VFJdwt.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/wLewdoshX7fqzsDoMlTP5njnckP.jpg",
+    "voteAverage": 6.829,
+    "genreIds": [
+      18,
+      14
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 124,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Winston Duke",
+      "Zazie Beetz",
+      "Benedict Wong",
+      "David Rysdahl",
+      "Arianna Ortiz"
+    ],
+    "director": [
+      "Edson Oda"
+    ],
+    "writer": [
+      "Edson Oda"
+    ],
+    "fsk": "12",
+    "slug": "nine-days"
+  },
+  {
+    "videoId": "p7JgtcP7mTg",
+    "youtubeTitle": "Stille Nacht, heilige Nacht – Buster & Chauncey und die Geschichte des Weihnachtsliedes | Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/p7JgtcP7mTg/hqdefault.jpg",
+    "duration": "PT49M20S",
+    "publishedAt": "2026-11-20T15:00:13Z",
+    "channelName": "Comfy Movies",
+    "channelId": "UCMJcQ2tSjxO9ea5h0GWSTVw",
+    "tmdbId": null,
+    "title": "Stille Nacht, heilige Nacht - Buster & Chauncey und die Geschichte des Weihnachtsliedes",
+    "originalTitle": null,
+    "overview": "Im Jahr 1818 reisen die beiden musikalischen Mäuse Buster und Chauncey in das österreichische Dorf Oberndorf, um beim alljährlichen Weihnachtsspiel aufzutreten. In der dortigen Kirche freundet sich das Waisenmädchen Christina mit ihnen an, während zwei als Adlige verkleidete Diebe heimlich planen, die wertvollen Kirchenschätze zu stehlen. Durch eine wilde Verfolgungsjagd mit der Kirchenkatze wird versehentlich die Orgel zerstört, wofür Christina ungerechterweise verantwortlich gemacht und anschließend von den Dieben mitsamt der Beute entführt wird. Mit Mut und Geschick können Buster und Chauncey das Mädchen jedoch befreien, die wahren Täter entlarven und Christinas Unschuld beweisen. Da die Orgel für die anstehende Weihnachtsmesse nun unbrauchbar ist, greift Chauncey zu seiner Geige und spielt eine sanfte Melodie, die den Gemeindepfarrer dazu inspiriert, sein Gedicht musikalisch zu volle",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "stille-nacht-heilige-nacht-buster-chauncey-und-die-geschicht"
+  },
+  {
+    "videoId": "yTvPwJa-RI8",
+    "youtubeTitle": "Ein Schriftsteller nimmt einen Fremden bei sich auf – doch der könnte ein Serienmörder sein",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/yTvPwJa-RI8/hqdefault.jpg",
+    "duration": "PT1H35M38S",
+    "publishedAt": "2026-11-21T14:00:29Z",
+    "channelName": "Deutsch Knallhart",
+    "channelId": "UChdsePumnXsycplDMEVY4zw",
+    "tmdbId": null,
+    "title": "Ein Schriftsteller nimmt einen Fremden bei sich auf - doch der könnte ein Serienmörder sein",
+    "originalTitle": null,
+    "overview": "In einer abgelegenen Bergregion Frankreichs verschwinden immer wieder junge Frauen unter mysteriösen Umständen. Die Polizei befürchtet, dass ein gefährlicher Serienmörder sein Unwesen treibt. Richard ist ein erfolgloser Drehbuchautor, der mit finanziellen Problemen, Alkohol und einer schweren Schreibblockade zu kämpfen hat. Sein einsam gelegenes Haus möchte er verkaufen, doch bislang findet sich kein Käufer.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "ein-schriftsteller-nimmt-einen-fremden-bei-sich-auf-doch-der"
+  },
+  {
+    "videoId": "mbYLM_98HKE",
+    "youtubeTitle": "Aus Liebe zum Verein! Rettung des FC Köln | Eine chaotische Komödie mit Tom Gerhard & Axel Schmitt",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/mbYLM_98HKE/hqdefault.jpg",
+    "duration": "PT1H20M18S",
+    "publishedAt": "2026-11-21T18:00:20Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": null,
+    "title": "Aus Liebe zum Verein! Rettung des FC Köln",
+    "originalTitle": null,
+    "overview": "Zwei chaotische Polizisten aus Köln-Kalk geraten bei einer nächtlichen Streife völlig außer Kontrolle und landen zur Strafe in der Fahrradstaffel. Als das geliebte Maskottchen des FC Köln kurz vor dem entscheidenden Pokalspiel spurlos verschwindet, nehmen die beiden suspendierten Beamten die Ermittlungen auf eigene Faust auf. Die verwickelte Spurensuche führt die verpeilten Ermittler erst in eine Krankenhaus-Notaufnahme, dann fälschlicherweise auf die Fährte gegnerischer Fußballfans und schließlich auf einen turbulenten Traktor-Roadtrip quer durch Bayern. Nach zahlreichen Verwechslungen, einem missglückten Promi-Aufeinandertreffen und einer wilden Verfolgungsjagd auf der Autobahn erreichen die Chaoten in letzter Sekunde das Stadion. In einem furiosen Finale auf dem Spielfeld beweisen die unkonventionellen Gesetzeshüter echten Teamgeist und sorgen für die Rettung des großen Pokalspiels. D",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "aus-liebe-zum-verein-rettung-des-fc-koeln"
   }
 ]
