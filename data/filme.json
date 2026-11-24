@@ -5458,12 +5458,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "DQdC69_3kzQ",
-    "youtubeTitle": "The Marine 6: Das Todesgeschwader (ACTION ganzer Film in voller Länge, Actionfilme Deutsch komplett)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/DQdC69_3kzQ/hqdefault.jpg",
+    "videoId": "IT8yElFqEjQ",
+    "youtubeTitle": "Marine 6: Das Todesgeschwader - The Marine 6: Close Quarters (2018) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/IT8yElFqEjQ/hqdefault.jpg",
     "duration": "PT1H25M26S",
     "publishedAt": "2026-03-17T18:00:18Z",
-    "channelName": "Netzkino",
+    "channelName": "Absolute Action",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 548928,
     "title": "The Marine 6 - Das Todesgeschwader",
@@ -11256,12 +11256,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "_fk1Idmp6Fc",
-    "youtubeTitle": "Der Engel von nebenan 🎄(GANZE WEIHNACHTSFILME auf Deutsch ansehen, Komödie in voller Länge)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/_fk1Idmp6Fc/hqdefault.jpg",
+    "videoId": "gz_ez3fHAKE",
+    "youtubeTitle": "Der Engel von Nebenan (2012) [Komödie] | ganzer Film (deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/gz_ez3fHAKE/hqdefault.jpg",
     "duration": "PT1H34M30S",
     "publishedAt": "2025-11-26T16:00:59Z",
-    "channelName": "Netzkino",
+    "channelName": "CiNENET Deutschland",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 142322,
     "title": "Der Engel von nebenan",
@@ -62103,7 +62103,10 @@
     "slug": "prinz-rama-im-reich-der-mythen-und-legenden",
     "plausibel": "titel",
     "runtime": 98,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "Q7eVcWELo-g",
@@ -88926,7 +88929,10 @@
     "slug": "sein-colt-war-schneller",
     "plausibel": "titel",
     "runtime": 80,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "to_sE-jQ9pM",
@@ -206091,7 +206097,10 @@
     "fsk": null,
     "slug": "hannibal-der-albtraum-roms",
     "runtime": 89,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "soI1VU3Fy3M",
@@ -219325,7 +219334,10 @@
     "slug": "gold-raiders",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "0yXcliyU1vs",
@@ -219412,7 +219424,10 @@
     "slug": "darkslide",
     "plausibel": "titel",
     "runtime": 121,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "H4TyYA3pnEk",
@@ -221784,7 +221799,10 @@
     "fsk": null,
     "slug": "gunpoint",
     "runtime": 107,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "S4hDyg0WDYI",
@@ -221818,7 +221836,10 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "gefaehrliches-experiment-ausser-kontrolle"
+    "slug": "gefaehrliches-experiment-ausser-kontrolle",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "X-Qbj-4-Hm8",
@@ -221853,7 +221874,10 @@
     "writer": [],
     "fsk": null,
     "titelKorrigiert": true,
-    "slug": "canvas"
+    "slug": "canvas",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "jyvqbKo6yiQ",
@@ -221893,7 +221917,10 @@
     "fsk": null,
     "slug": "irl",
     "runtime": 94,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "HIc00jncbss",
@@ -221927,7 +221954,10 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "nach-dem-tod-seines-bruders-zerbricht-seine-ganze-familie"
+    "slug": "nach-dem-tod-seines-bruders-zerbricht-seine-ganze-familie",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "bLAXypVN1P4",
@@ -222072,16 +222102,19 @@
     "writer": [],
     "fsk": null,
     "titelKorrigiert": true,
-    "slug": "jesse-james-quantrill-s-raiders"
+    "slug": "jesse-james-quantrill-s-raiders",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
-    "videoId": "-LP8kDAxqcc",
-    "youtubeTitle": "Sie kehren nach Hause zurück – und werden zur Zielscheibe einer Bande | Ganzer Film auf Deutsch",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/-LP8kDAxqcc/hqdefault.jpg",
+    "videoId": "9GR407cClSM",
+    "youtubeTitle": "🔥 Ein kraftvoller KRIMINALFILM, der dir den Atem raubt | Auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9GR407cClSM/hqdefault.jpg",
     "duration": "PT1H24M37S",
     "publishedAt": "2026-04-15T14:01:30Z",
-    "channelName": "KinoWelt Deutsch",
-    "channelId": "UCy5ahYyXTmSoetwtNXibbCQ",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
     "tmdbId": null,
     "title": "Locust",
     "originalTitle": null,
@@ -251244,7 +251277,10 @@
       "Enrique Cortés"
     ],
     "fsk": "0",
-    "slug": "herr-figo-und-das-geheimnis-der-perlenfabrik"
+    "slug": "herr-figo-und-das-geheimnis-der-perlenfabrik",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "Ru3oqv2GaPw",
@@ -299468,7 +299504,10 @@
     "slug": "afflicted",
     "runtime": 85,
     "plausibel": "titel",
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "3r7RA26npz0",
@@ -311876,8 +311915,7 @@
       12
     ],
     "matchSource": "titel-fallback",
-    "matchConfidence": "mittel",
-    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"Christmas with the Prince\")",
+    "matchConfidence": "hoch",
     "cast": [
       "Richard Bobb-Semple",
       "N Walters",
@@ -317562,7 +317600,10 @@
       "Tony Bloodworth"
     ],
     "fsk": null,
-    "slug": "forced-move"
+    "slug": "forced-move",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "X6bXl8KtFEI",
@@ -325394,7 +325435,10 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "christmas-in-big-sky-country"
+    "slug": "christmas-in-big-sky-country",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "gmu5QkALyGc",
@@ -327322,10 +327366,7 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "ein-film-voller-action-und-ueberraschungen-ein-mord-macht-zw",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
-    "nichtVerfuegbarSeit": "2026-11-21"
+    "slug": "ein-film-voller-action-und-ueberraschungen-ein-mord-macht-zw"
   },
   {
     "videoId": "5GDsEtx68-U",
@@ -352348,7 +352389,10 @@
       "Neale Kimmel"
     ],
     "fsk": null,
-    "slug": "christmas-on-5th-avenue"
+    "slug": "christmas-on-5th-avenue",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-24"
   },
   {
     "videoId": "lO0kz8ypMyw",
@@ -356578,5 +356622,212 @@
     "fsk": null,
     "titelUnsicher": true,
     "slug": "aus-liebe-zum-verein-rettung-des-fc-koeln"
+  },
+  {
+    "videoId": "Onrk0iTGbpA",
+    "youtubeTitle": "Das Gesetz des Stärkeren | WESTERN KLASSIKER ganzer Film, Western Drama Filme auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Onrk0iTGbpA/hqdefault.jpg",
+    "duration": "PT45M55S",
+    "publishedAt": "2026-11-23T17:30:12Z",
+    "channelName": "Retroflix",
+    "channelId": "UCAqOXDI_Yo1-iwVgi25MsRQ",
+    "tmdbId": 49640,
+    "title": "Das Gesetz des Stärkeren",
+    "originalTitle": "The Lawless Frontier",
+    "overview": "John Tobins Eltern sind von einem mexikanischen Banditen getötet worden. Gemeinsam mit seinem alten Freund Dusty und dessen Tochter Ruby verfolgt Tobin den Mörder. Schon bald gerät er in Verdacht, selbst ein gesuchter Bandit zu sein, und muss alles daransetzen, dem Sheriff seine Unschuld zu beweisen.",
+    "releaseDate": "1934-11-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lULfvkE34YCs5idpiLXc5lpPSn8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/af0aNcgwRVsHp3AUTvofr7JMRAq.jpg",
+    "voteAverage": 4.8,
+    "genreIds": [
+      28,
+      37
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 59,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "John Wayne",
+      "Sheila Terry",
+      "Jack Rockwell",
+      "George 'Gabby' Hayes",
+      "Jay Wilsey"
+    ],
+    "director": [
+      "Robert N. Bradbury"
+    ],
+    "writer": [
+      "Robert N. Bradbury"
+    ],
+    "fsk": null,
+    "slug": "das-gesetz-des-staerkeren"
+  },
+  {
+    "videoId": "2raKsnGHtoA",
+    "youtubeTitle": "Shaolin - Die Rache der gelben Teufel (MARTIAL ARTS KLASSIKER ganzer Film Deutsch, Kung-Fu Filme)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/2raKsnGHtoA/hqdefault.jpg",
+    "duration": "PT1H27M13S",
+    "publishedAt": "2026-11-23T18:00:13Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 232606,
+    "title": "Shaolin - Die Rache der gelben Teufel",
+    "originalTitle": "通天老虎",
+    "overview": "LIANG, ein Gauner von Format, braucht dringend Geld. Um es zu beschaffen, ist ihm jedes Mittel recht. Er bekommt durch einen Mittelsmann den Auftrag, eine kostbare Antiquität außer Landes zu bringen. LIANG übergibt TSEN das gut verpackte, seltene Stück und vereinbart mit ihm, dass TSEN mit einem hohen Geldbetrag haften muss falls es auf dem Transport verloren gehen sollte. TSEN ahnt nicht, dass er einen leeren Behälter erhalten hat und von LIANG betrogen wird, und er haftet für die nicht abgelieferte Ware. Von KUNG LEE erfährt er jedoch eines Tages die Wahrheit. Beide beschließen, sich für diesen Betrug zu rächen...",
+    "releaseDate": "1980-02-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/jBrbNUZzQgkJArJE1nEqPtyrTCZ.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4RNYZcvBwDXjA0b5olBYtjKBrWk.jpg",
+    "voteAverage": 6.4,
+    "genreIds": [
+      28
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "卡薩伐",
+      "孟元文",
+      "Shi-Kwan Yen",
+      "Eddy Ko Hung",
+      "Wong Mei-Mei"
+    ],
+    "director": [
+      "高寶樹"
+    ],
+    "writer": [
+      "高寶樹"
+    ],
+    "fsk": "16",
+    "slug": "shaolin-die-rache-der-gelben-teufel"
+  },
+  {
+    "videoId": "I905QKdjWr0",
+    "youtubeTitle": "Silver Rockers (KOMÖDIE ganzer Film Deutsch, Komödien Filme Deutsch komplett, lustige Filme Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/I905QKdjWr0/hqdefault.jpg",
+    "duration": "PT1H30M26S",
+    "publishedAt": "2026-11-23T15:33:49Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 947569,
+    "title": "Silver Rockers",
+    "originalTitle": "Chœur de rockers",
+    "overview": "Da die Karriere der Rock-Sängerin Alex nicht so recht in Schwung kommen will, nimmt sie einen außergewöhnlichen Job an: Sie übernimmt die Leitung eines Seniorenchors, der eigentlich Kinderlieder singen soll. Alex entdeckt allerdings bald, dass die Senioren nur von einer Sache träumen und Rockmusik singen wollen. Die gemeinsamen Proben auf dem Weg zum ersten Auftritt erweisen sich allerdings als komplizierter als erwartet.",
+    "releaseDate": "2022-12-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/aIqazA8Wat4K5nPJBXMSvrKWY47.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/1ysn1dwF2jUJBmFAq9o35mpwcwN.jpg",
+    "voteAverage": 5.7,
+    "genreIds": [
+      10402,
+      35
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Mathilde Seigner",
+      "Zoë Sophia Garcia",
+      "Roxane Barazzuol",
+      "Kelyan Kezbari",
+      "Andréa Ferréol"
+    ],
+    "director": [
+      "Ida Techer",
+      "Luc Bricault"
+    ],
+    "writer": [
+      "Julie Manoukian",
+      "Ida Techer"
+    ],
+    "fsk": "6",
+    "slug": "silver-rockers"
+  },
+  {
+    "videoId": "tYRlS7OKpEw",
+    "youtubeTitle": "LAS VEGAS! Die verrückteste nacht ihres lebens! Filme deutsch komplet 4K",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/tYRlS7OKpEw/hqdefault.jpg",
+    "duration": "PT1H13M13S",
+    "publishedAt": "2026-11-22T16:15:54Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "LAS VEGAS! Die verrückteste nacht ihres lebens! Filme deutsch komplet",
+    "originalTitle": null,
+    "overview": "Doch aus der harmlosen Feier wird schnell ein einziges Chaos! Unerwartete Begegnungen, peinliche Situationen und völlig verrückte Erlebnisse bringen nicht nur die bevorstehende Hochzeit, sondern auch die Freundschaft der Männer in Gefahr.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true,
+    "slug": "las-vegas-die-verrueckteste-nacht-ihres-lebens-filme-deutsch"
+  },
+  {
+    "videoId": "Pv0LMVNy8Dc",
+    "youtubeTitle": "😨 Eine Frau Ermittelt in Mysteriösen Mordfällen! Krimidrama auf Deutsch | Ganzer Film HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Pv0LMVNy8Dc/hqdefault.jpg",
+    "duration": "PT1H51M26S",
+    "publishedAt": "2026-11-22T12:40:27Z",
+    "channelName": "Kinohof",
+    "channelId": "UCjFQ9Wpx1Oj607QRtWgUDKQ",
+    "tmdbId": null,
+    "title": "Die Hebamme 2 Die Hebamme 2",
+    "originalTitle": null,
+    "overview": "Auf Kinohof kannst du ganze Filme auf Deutsch kostenlos bei YouTube ansehen. Du suchst einen Spielfilm für heute Abend oder möchtest am Wochenende einen Film in voller Länge genießen? Stöbere durch unseren Kanal, entdecke verschiedene Geschichten und finde einen Film, der dich interessiert. Ob für einen gemütlichen Filmabend oder zwischendurch – hier kannst du Filme kostenlos online schauen",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "die-hebamme-2-die-hebamme-2"
+  },
+  {
+    "videoId": "uMl3_pB5ou8",
+    "youtubeTitle": "Der Nussknacker und der Mäusekönig (2015) [Animation] [Kinder] | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/uMl3_pB5ou8/hqdefault.jpg",
+    "duration": "PT1H20M31S",
+    "publishedAt": "2026-11-22T13:00:17Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": null,
+    "title": "Der Nussknacker und der Mäusekönig",
+    "originalTitle": null,
+    "overview": "Sprecher: Alicia Silverstone, Ed Asner, Drake Bell, Miranda Cosgrove, Daniella Monet",
+    "releaseDate": "2015-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [
+      16
+    ],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [
+      "Eduardo Schuldt"
+    ],
+    "writer": [],
+    "fsk": null,
+    "slug": "der-nussknacker-und-der-maeusekoenig"
   }
 ]
