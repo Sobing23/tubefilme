@@ -360,7 +360,7 @@ Ausgeschlossen werden außerdem Überschriften wie `Cast & Crew` (CiNENET) oder 
 
 Ist der gefundene Teil selbst nur Genre oder Werbung (`Martial-Arts Klassiker (1978)`, `Ganzer Film auf Deutsch (1984)`), greift die Regel nicht. Klammern mit einem Wort bleiben stehen („18 und immer (noch) Jungfrau"). **Ausnahme Comfy Movies** (Profil `pipeIstOriginaltitel`): Dort steht vorn der deutsche Titel und hinter dem `|` der Originaltitel — angezeigt wird der deutsche, gesucht wird mit beiden. `fix-titles.js` ersetzt einen bestehenden Titel nur, wenn er mit dem Vorsatz beginnt; ein schon guter Titel bleibt. Geprüft an allen 21.781 Kandidaten: im Bestand genau 19 Titel geändert, alle vorher falsch.
 
-**Grenze:** Bei manchen Kanälen — Volle Power Filme, Free Movies Deutschland, Deutsch Knallhart, Amelia, KinoWelt — nennen weder Titel noch Beschreibung je einen Filmnamen, nur Handlung. Solche Filme tragen `titelUnsicher`: Sie erscheinen nicht in den Startseiten-Reihen, stehen in `/alle` in jeder Sortierung hinten und sind im Review-Reiter **Werbetitel** gelistet. Am 10.10. waren das 354; der Großteil wurde von Hand aufgelöst (nächster Abschnitt). Am 12.11.2026 standen 179 auf der Liste: 59 aufgelöst (Originaltitel-Feld, Titel in Anführungszeichen in der Beschreibung wie bei Free Movies Deutschland, oder eindeutige Besetzung: Babluani + Statham + Rourke = „13“, Verhoeven + Huppert = „Elle“, Ferrigno + Reb Brown = „Cage“), 5 entfernt (Serienfolgen, Formel-1-Rückblick, Zeichentrickserie). **115 bleiben markiert** — fast alle von Volle Power Filme, Deutsch Knallhart und Free Movies Deutschland, deren Beschreibungen nur Handlung und Kapitelmarken enthalten, keinen einzigen Namen. Bewusst nicht geraten. Die neuen Titel machten zugleich 22 Doppel-Uploads sichtbar, die `merge-duplicates.js` zusammenführt.
+**Grenze:** Bei manchen Kanälen — Volle Power Filme, Free Movies Deutschland, Deutsch Knallhart, Amelia, KinoWelt — nennen weder Titel noch Beschreibung je einen Filmnamen, nur Handlung. Solche Filme tragen `titelUnsicher`. Seit 25.11.2026 werden sie gar nicht mehr veröffentlicht, sondern stehen auf der Warteliste (siehe [Review-Listen klein halten](#review-listen-klein-halten)); Volle Power Filme, Deutsch Knallhart und Amelia wurden deshalb entfernt. Am 10.10. waren das 354; der Großteil wurde von Hand aufgelöst (nächster Abschnitt). Am 12.11.2026 standen 179 auf der Liste: 59 aufgelöst (Originaltitel-Feld, Titel in Anführungszeichen in der Beschreibung wie bei Free Movies Deutschland, oder eindeutige Besetzung: Babluani + Statham + Rourke = „13“, Verhoeven + Huppert = „Elle“, Ferrigno + Reb Brown = „Cage“), 5 entfernt (Serienfolgen, Formel-1-Rückblick, Zeichentrickserie). **115 bleiben markiert** — fast alle von Volle Power Filme, Deutsch Knallhart und Free Movies Deutschland, deren Beschreibungen nur Handlung und Kapitelmarken enthalten, keinen einzigen Namen. Bewusst nicht geraten. Die neuen Titel machten zugleich 22 Doppel-Uploads sichtbar, die `merge-duplicates.js` zusammenführt.
 
 ### Titel von Hand: `titel-korrekturen.json`
 
@@ -567,6 +567,22 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **Bombay Nights** (PLAION, UCtHTtZzMkLYGeOTq1nWYCGA) — Hindi mit deutschen Untertiteln; die Seite listet nur deutsch synchronisierte Filme
 - **Kinderfilme** (PLAION, UCmZUsl5MLqXIhuSTVP6x-EA) — hat keine eigenen Uploads, nur Playlists mit Videos anderer Kanäle; wieder entfernt
 
+## Review-Listen klein halten
+
+Stand vor dem 25.11.2026: Unmatched 25, Kein Cover 84, Werbetitel 148. Die drei Reiter zeigten überwiegend Einträge, die sich von selbst erledigen oder die niemand lösen kann. Seitdem gilt: Im Review steht nur, was ein Mensch entscheiden muss.
+
+**Werbetitel → Warteliste.** Ein Film, dessen Titel noch ein Werbesatz ist (`titelUnsicher`), wird **nicht veröffentlicht**: keine Kachel, keine Filmseite, kein Sitemap-Eintrag, keine Adresse (`build-site.js`). Er bleibt in `filme.json` und wird in drei Stufen bearbeitet:
+
+1. **Bei jedem Scan:** `refresh-warteliste.js` holt Titel und Beschreibung frisch von YouTube (eine Abfrage je 50 Videos) und schreibt Änderungen in die Rohdatei des Kanals. `fix-titles.js` bestimmt den Titel danach neu und nimmt die Markierung weg, sobald er kein Werbesatz mehr ist. Der Film erscheint dann von selbst.
+2. **Auf Zuruf im Chat:** Die Warteliste wird von Hand durchgegangen, der Film aus Handlung, Darstellern und Hashtags bestimmt und in `titel-korrekturen.json` eingetragen. Die Korrektur-Nachsuche übernimmt TMDB-Daten nur bei passender Laufzeit.
+3. **Review-Reiter „Werbetitel“:** zeigt, was übrig ist; dort lässt sich der Titel von Hand eintragen.
+
+Erster Durchgang am 25.11.2026: 148 → 27. Drei Kanäle, die den Filmnamen systematisch verschweigen, wurden entfernt (85 Einträge, siehe „Bewusst nicht aufgenommen“), 34 Titel von Hand bestimmt, 2 Dokus entfernt.
+
+**Unmatched.** Der Reiter zeigt nur Videos, die die Schonfrist von zwei Läufen hinter sich haben (`unmatched-attempts.json`); neue Videos erledigen sich im nächsten Lauf selbst. Videos eines `nurMitTmdb`-Kanals ohne Treffer wandern nach 5 Läufen mit Datum nach `data/zurueckgestellt.json`. Anders als `ignored.json` (endgültig) ist das eine Wiedervorlage: Nach 90 Tagen nimmt `match-tmdb.js` sie aus der Liste und sucht erneut.
+
+**Kein Cover.** `refresh-posters.js` fragt für Filme mit TMDB-Treffer ohne Poster alle Poster in allen Sprachen ab (deutsch vor englisch vor sprachlos) und trägt das beste ein. Findet sich keins, setzt es `posterGeprueft` (Datum) und fragt nach 30 Tagen erneut. Der Reiter zeigt nur Filme ohne dieses Feld; die Seite zeigt in diesen Fällen ohnehin das Videovorschaubild.
+
 ### Neuen Kanal hinzufügen
 
 0. **PLAION-Kanäle finden:** YouTube-Suche nach `"PLAION PICTURES"`, Filter „Kanäle“. Alle PLAION-Kanäle nennen die Firma in der Kanalbeschreibung. Stand 20.10.2026: 17 deutschsprachige Spielfilmkanäle, davon 7 schon vorher aufgenommen.
@@ -767,7 +783,7 @@ Für einen Teil des Bestands liefert TMDB keine deutsche Einstufung. Eine Ableit
 
 - **Visuelles Design** der öffentlichen Seite
 - **Rückmeldefunktion für Besucher** (falscher Film, Video nicht abspielbar, weitere Gründe noch zu definieren) — bräuchte den ersten serverseitigen Code im Projekt, etwa eine Vercel-Function
-- **Restfälle mit Werbeüberschrift** (115, Volle Power Filme, Deutsch Knallhart, Free Movies Deutschland) — Beschreibungen ohne jeden Namen; lösbar nur über das Video selbst (Vorspann/Abspann) oder Rückfrage beim Kanal
+- **Restfälle mit Werbeüberschrift** (27 am 25.11.2026, vor allem Free Movies Deutschland und Filmhof Welt; nicht veröffentlicht, Warteliste) — Beschreibungen ohne jeden Namen; lösbar nur über das Video selbst (Vorspann/Abspann) oder Rückfrage beim Kanal
 - **1.686 Filme ohne TMDB-Treffer** — gezielt bekannte Titel heraussuchen und über `manual-matches.json` zuordnen (am 12.11.2026 für 16 weloadtv-Filme gemacht; offen u. a. „1984“ (1956), „She“, „Tarzan bei den Affen“, deren Fassungen sich über die Laufzeit nicht eindeutig zuordnen ließen)
 - **Fury (Grjngo Westernfilme)** — Zusammenschnitte einer TV-Serie (`S05 E13-17`), rutschen durch den Serienfilter, weil weder „Folge" noch „Staffel" im Titel steht. Entscheiden, ob ein globales Muster `SxxEyy` ergänzt wird
 - **„Jugend-Zeit"** (DEFA, 1978) ist derzeit als „Jugend-Zeit zu zweit" (1981) zugeordnet — prüfen

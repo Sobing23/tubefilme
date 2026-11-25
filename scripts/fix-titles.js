@@ -450,7 +450,11 @@ async function main() {
     const nurAnhaengsel = film.title.startsWith(echterTitel);
     const ausVorsatz =
       vorsatz && echterTitel === vorsatz.titel && normVergleich(film.title).startsWith(normVergleich(vorsatz.vorsatz));
-    if (!nurAnhaengsel && !istErkennbarMuell(film.title) && !ausVorsatz) continue;
+    //  4. Der Film steht auf der Warteliste (titelUnsicher) und der neu
+    //     bestimmte Titel ist kein Werbesatz mehr -- der Kanal hat Titel oder
+    //     Beschreibung bei YouTube geändert (refresh-warteliste.js).
+    const vonWarteliste = film.titelUnsicher === true && !istWerbetitel(echterTitel);
+    if (!nurAnhaengsel && !istErkennbarMuell(film.title) && !ausVorsatz && !vonWarteliste) continue;
     if (ausVorsatz && vorsatz.jahr && !film.releaseDate) film.releaseDate = `${vorsatz.jahr}-01-01`;
 
     if (beispiele.length < 12) {

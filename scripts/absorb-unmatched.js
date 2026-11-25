@@ -26,6 +26,14 @@ const UNMATCHED_PATH = "data/unmatched.json";
 const CANDIDATES_PATH = "data/candidates.json";
 const FILME_PATH = "data/filme.json";
 const ATTEMPTS_PATH = "data/unmatched-attempts.json";
+// ZURÜCKGESTELLT (seit 25.11.2026): Videos eines nurMitTmdb-Kanals, für die
+// sich auch nach MAX_VERSUCHE_NUR_TMDB Läufen kein TMDB-Treffer fand. Sie
+// standen bis dahin für immer im Review-Reiter "Unmatched". Jetzt wandern
+// sie mit Datum nach data/zurueckgestellt.json. match-tmdb.js sucht sie nach
+// 90 Tagen von selbst erneut (TMDB wächst) -- anders als ignored.json, das
+// endgültig ist.
+const ZURUECKGESTELLT_PATH = "data/zurueckgestellt.json";
+const MAX_VERSUCHE_NUR_TMDB = 5;
 const KORREKTUREN_PATH = "data/titel-korrekturen.json";
 const IGNORED_PATH = "data/ignored.json";
 const CHANNELS_PATH = "config/channels.json";
@@ -447,6 +455,13 @@ async function main() {
     // noch keine Datei
   }
   const ignoredSet = new Set(ignored);
+  let zurueckgestellt = [];
+  try {
+    zurueckgestellt = JSON.parse(await fs.readFile(ZURUECKGESTELLT_PATH, "utf-8"));
+  } catch {
+    // noch keine Datei
+  }
+  let neuZurueckgestellt = 0;
   let freigegeben = {};
   try {
     freigegeben = JSON.parse(await fs.readFile(KORREKTUREN_PATH, "utf-8")).freigeben || {};
@@ -482,6 +497,18 @@ async function main() {
     // Kanalregel gilt für alle anderen Videos weiter. Eingeführt am
     // 11.11.2026 nach der Prüfung der 651 zurückgehaltenen weloadtv-Videos.
     if (nurTmdbKanaele.has(video.channelId) && !freigegeben[videoId]) {
+      if (attempts[videoId] >= MAX_VERSUCHE_NUR_TMDB) {
+        zurueckgestellt.push({
+          videoId,
+          youtubeTitle: eintrag.youtubeTitle,
+          channelName: video.channelName,
+          seit: new Date().toISOString().slice(0, 10),
+          grund: eintrag.grund || "kein TMDB-Treffer",
+        });
+        delete attempts[videoId];
+        neuZurueckgestellt++;
+        continue;
+      }
       bleibtUnmatched.push(eintrag);
       nurTmdb++;
       continue;
@@ -591,6 +618,7 @@ async function main() {
   await fs.writeFile(UNMATCHED_PATH, JSON.stringify(bleibtUnmatched, null, 2), "utf-8");
   await fs.writeFile(ATTEMPTS_PATH, JSON.stringify(attempts, null, 2), "utf-8");
   if (alsErsatz > 0) await fs.writeFile(DUPLICATES_PATH, JSON.stringify(duplicates, null, 2), "utf-8");
+  if (neuZurueckgestellt > 0) await fs.writeFile(ZURUECKGESTELLT_PATH, JSON.stringify(zurueckgestellt, null, 2), "utf-8");
   if (zuKurz > 0) {
     await fs.writeFile(IGNORED_PATH, JSON.stringify(ignored, null, 2), "utf-8");
     await fs.writeFile(PROTOKOLL_PATH, JSON.stringify(protokoll, null, 2), "utf-8");
@@ -602,6 +630,7 @@ async function main() {
   console.log(`Kein verwertbarer Titel:             ${ohneDaten}`);
   console.log(`Unter ${MIN_MINUTEN_OHNE_TMDB} Min., nicht übernommen:    ${zuKurz}`);
   console.log(`Kanal nur mit TMDB-Treffer:          ${nurTmdb}`);
+  console.log(`Zurückgestellt (erneute Suche in 90 Tagen): ${neuZurueckgestellt}`);
   console.log(`Verbleibend in ${UNMATCHED_PATH}:    ${bleibtUnmatched.length}`);
   console.log(`Bibliothek jetzt:                    ${filme.length}`);
 }

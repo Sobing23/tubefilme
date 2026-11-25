@@ -407,13 +407,14 @@ async function loadAll() {
   // 20 MB angewachsen und wurde nur für Vorschaubild und Kanalname der
   // Unmatched-Liste gebraucht. Das Vorschaubild lässt sich direkt aus der
   // videoId bilden -- der Download hätte die Seite sonst unbenutzbar gemacht.
-  const [unmatchedR, filmeR, reviewedR, ignoredR, channelsR, coverDismissedR] = await Promise.all([
+  const [unmatchedR, filmeR, reviewedR, ignoredR, channelsR, coverDismissedR, attemptsR] = await Promise.all([
     ghGetFile("data/unmatched.json"),
     ghGetFile("data/filme.json"),
     ghGetFile("data/reviewed.json").catch(() => ({ content: [] })),
     ghGetFile("data/ignored.json").catch(() => ({ content: [] })),
     ghGetFile("config/channels.json").catch(() => ({ content: { channels: [] } })),
     ghGetFile("data/cover-dismissed.json").catch(() => ({ content: [] })),
+    ghGetFile("data/unmatched-attempts.json").catch(() => ({ content: {} })),
   ]);
 
   const unmatched = unmatchedR.content;
@@ -428,14 +429,20 @@ async function loadAll() {
   const coverDismissedSet = new Set(coverDismissed);
   allFilme = filme;
 
-  const unmatchedFiltered = unmatched.filter(u => !ignoredSet.has(u.videoId));
+  // Neue Videos warten zwei Läufe, bevor sie übernommen werden (Schonfrist).
+  // Solange erledigen sie sich von selbst und gehören nicht in diese Liste.
+  const versuche = attemptsR.content || {};
+  const unmatchedFiltered = unmatched.filter(u => !ignoredSet.has(u.videoId) && (versuche[u.videoId] || 0) >= 2);
   const niedrig = filme.filter(m => m.matchConfidence === "niedrig" && !reviewedSet.has(m.videoId));
   const fehlendeFsk = filme.filter(m => m.fsk === null || m.fsk === undefined);
   // Aus YouTube-Daten übernommene Filme haben systembedingt kein
   // TMDB-Poster -- sie zeigen im Frontend das Videovorschaubild und gehören
   // nicht in eine Warteschlange, die man abarbeiten könnte. Sonst stünden
   // hier dauerhaft mehrere hundert nicht lösbare Einträge.
-  const keinCover = filme.filter(m => !m.posterUrl && m.matchSource !== "youtube" && !coverDismissedSet.has(m.videoId));
+  // Mit "posterGeprueft" hat refresh-posters.js bei TMDB alle Poster in
+  // allen Sprachen abgefragt und keins gefunden; es fragt alle 30 Tage
+  // erneut. Diese Filme zeigen das Videovorschaubild und stehen hier nicht.
+  const keinCover = filme.filter(m => !m.posterUrl && m.matchSource !== "youtube" && !m.posterGeprueft && !coverDismissedSet.has(m.videoId));
   const werbetitel = filme.filter(m => m.titelUnsicher);
 
   document.getElementById("countUnmatched").textContent = unmatchedFiltered.length;

@@ -472,7 +472,7 @@ ${reihe("Klassiker vor 1980", klassiker, "/alle?jahrzehnt=1970")}
 }
 
 async function main() {
-  const filme = JSON.parse(await fs.readFile(FILME_PATH, "utf-8"));
+  let filme = JSON.parse(await fs.readFile(FILME_PATH, "utf-8"));
 
   // Adressbestandteil je Film festlegen -- EINMALIG und danach unveränderlich.
   //
@@ -508,6 +508,7 @@ async function main() {
   let neueSlugs = 0;
   filme.forEach((m) => {
     if (m.slug) return; // bereits vergeben, bleibt für immer
+    if (m.titelUnsicher) return; // Warteliste: keine Adresse aus einem Werbesatz
     const basis = makeSlug(m.title);
     let slug = basis;
     let n = 1;
@@ -567,6 +568,17 @@ async function main() {
   // Gemeinsames Stylesheet: einmal geschrieben, vom Browser einmal geladen
   // und für alle Filmseiten wiederverwendet.
   await schreibeWennGeaendert(path.join(FILM_DIR, "style.css"), SEITEN_CSS);
+
+  // WARTELISTE (seit 25.11.2026): Filme, deren Titel noch ein Werbesatz ist
+  // ("titelUnsicher"), werden nicht veröffentlicht -- keine Kachel, keine
+  // Filmseite, kein Eintrag in der Sitemap. Ein Film ohne Namen ist im
+  // Archiv weder zu suchen noch zu finden. Sie bleiben in data/filme.json,
+  // damit die Titelregeln sie bei jedem Lauf erneut prüfen; sobald der Titel
+  // feststeht, erscheinen sie von selbst. Bis dahin galt: aus den
+  // Empfehlungsreihen heraus, aber über /alle erreichbar.
+  const alleFilme = filme;
+  filme = alleFilme.filter((m) => !m.titelUnsicher);
+  console.log(`Warteliste (Titel unklar, nicht veröffentlicht): ${alleFilme.length - filme.length}`);
 
   // 1. Schlanker Index fürs Raster
   // Nicht verfügbare Filme erscheinen nicht mehr im Kachelraster -- niemand

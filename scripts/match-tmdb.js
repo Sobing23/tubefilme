@@ -82,6 +82,8 @@ const MANUAL_MATCHES_PATH = "data/manual-matches.json";
 const OUT_MATCHED = "data/filme.json";
 const OUT_UNMATCHED = "data/unmatched.json";
 const OUT_DUPLICATES = "data/duplicates.json";
+const ZURUECKGESTELLT_PATH = "data/zurueckgestellt.json"; // siehe absorb-unmatched.js
+const ZURUECKGESTELLT_TAGE = 90;
 const IGNORED_PATH = "data/ignored.json"; // manuell als "nicht auffindbar" markierte Videos (Review-Seite)
 const KORREKTUREN_PATH = "data/titel-korrekturen.json"; // von Hand ermittelte Titel für Werbesatz-Videos
 
@@ -1098,11 +1100,26 @@ async function main() {
     // Datei existiert noch nicht -- kein Problem
   }
 
+  // Zurückgestellte Videos (absorb-unmatched.js): 90 Tage übersprungen,
+  // danach aus der Liste genommen und damit wie ein neues Video gesucht.
+  let zurueckgestellt = [];
+  try {
+    zurueckgestellt = JSON.parse(await fs.readFile(ZURUECKGESTELLT_PATH, "utf-8"));
+  } catch {
+    // Datei existiert noch nicht -- kein Problem
+  }
+  const nochZurueck = zurueckgestellt.filter((z) => (Date.now() - Date.parse(z.seit)) / 86400000 < ZURUECKGESTELLT_TAGE);
+  if (nochZurueck.length !== zurueckgestellt.length) {
+    console.log(`Zurückgestellte Videos wieder in der Suche: ${zurueckgestellt.length - nochZurueck.length}`);
+    await fs.writeFile(ZURUECKGESTELLT_PATH, JSON.stringify(nochZurueck, null, 2), "utf-8");
+  }
+
   const alreadyProcessed = new Set([
     ...matched.map((m) => m.videoId),
     ...unmatched.map((u) => u.videoId),
     ...duplicates.map((d) => d.videoId),
     ...ignored,
+    ...nochZurueck.map((z) => z.videoId),
   ]);
 
   // Welche Filme (per tmdbId) sind schon in der Bibliothek? "Erster Kanal

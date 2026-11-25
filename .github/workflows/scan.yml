@@ -32,6 +32,15 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/fetch-youtube.js
 
+      # Warteliste (Titel ist noch ein Werbesatz): Titel und Beschreibung
+      # frisch von YouTube holen, falls der Kanal den Filmnamen nachgetragen
+      # hat. Schlägt das fehl (Kontingent), läuft der Scan weiter.
+      - name: Warteliste bei YouTube auffrischen
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/refresh-warteliste.js
+
       - name: Shorts/Trailer/Serien rausfiltern
         run: node scripts/filter-movies.js
 
@@ -96,6 +105,14 @@ jobs:
         env:
           TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
         run: node scripts/fetch-fsk.js
+
+      # Filme mit TMDB-Treffer ohne Poster: alle Poster in allen Sprachen
+      # abfragen, sonst als geprüft markieren (erneut nach 30 Tagen).
+      - name: Fehlende Poster nachsuchen
+        continue-on-error: true
+        env:
+          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+        run: node scripts/refresh-posters.js
 
       # Täglich prüfen, ob die Videos noch abspielbar sind (gelöscht, privat,
       # nicht einbettbar, in Deutschland gesperrt). Rund 150 Abfragen für die
