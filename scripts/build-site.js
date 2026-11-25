@@ -37,18 +37,26 @@ const GENRES = {
 const SEITEN_CSS = `:root{--bg:#121212;--bg-card:#1e1e1e;--text:#f2f2f2;--text-dim:#9a9a9a;--accent:#e5533c}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.5}
-header.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
+header.top{position:sticky;top:0;z-index:10;background:var(--bg);display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:16px 20px;border-bottom:1px solid #2a2a2a}
 header.top .marke{font-size:20px;font-weight:bold;color:var(--text);text-decoration:none;white-space:nowrap}
 header.top .marke span{color:var(--accent)}
-header.top .suche{flex:1;min-width:180px;max-width:420px;margin:0}
-header.top .suche input{width:100%;padding:10px 14px;border-radius:8px;border:1px solid #333;background:#1a1a1a;color:var(--text);font-size:14px}
+header.top .kopf-form{display:contents}
+header.top .search-wrap{position:relative;flex:1;min-width:180px;max-width:360px}
+header.top .search-wrap input{width:100%;padding:10px 14px;border-radius:8px;border:1px solid #333;background:#1a1a1a;color:var(--text);font-size:14px}
+header.top select,header.top .knopf{padding:10px 14px;border-radius:8px;border:1px solid #333;background:#1a1a1a;color:var(--text);font-size:14px;font-family:inherit}
+header.top .knopf{padding:10px 16px;text-decoration:none;white-space:nowrap;line-height:normal}
+header.top .knopf:hover{border-color:var(--accent)}
 header.top nav{margin-left:auto;display:flex;gap:14px;align-items:center}
 header.top nav a{color:var(--text-dim);text-decoration:none;font-size:14px;white-space:nowrap}
+header.top nav a.knopf{color:var(--text)}
 header.top nav a:hover{color:var(--text)}
 @media(max-width:640px){
-  header.top{gap:10px;padding:12px 14px}
-  header.top .suche{order:3;max-width:none;flex-basis:100%}
-  header.top nav{margin-left:auto}
+  header.top{position:static;gap:8px;padding:12px 14px}
+  header.top .marke{font-size:18px}
+  header.top .search-wrap{order:3;max-width:none;width:100%}
+  header.top select{order:4;flex:1 1 calc(50% - 4px);min-width:0;width:calc(50% - 4px)}
+  header.top .kopf-form .knopf{order:5}
+  header.top nav{order:6;margin-left:auto}
 }
 main{max-width:960px;margin:0 auto;padding:24px 20px 60px}
 h1{font-size:26px;margin:0 0 6px}
@@ -351,17 +359,67 @@ const FILME_JE_REIHE = 18;
 // Filmseiten gibt es keine Liste, auf die sie wirken könnten. Sie sähen
 // gleich aus, verhielten sich aber anders -- das wäre irreführender als ihr
 // Fehlen.
+// Gemeinsamer Seitenkopf (seit 25.11.2026): Startseite und Filmseiten
+// zeigen denselben Kopf wie /alle -- Suche, Genre, FSK, Jahrzehnt,
+// Sortierung, Zufall, dahinter "Alle Filme" und "Merkliste". Auf diesen
+// Seiten ist er ein Formular, das auf /alle führt: Wer ein Genre wählt oder
+// sucht, landet dort mit genau dieser Auswahl (alle.html liest genre, fsk,
+// jahrzehnt, sort, q, merkliste und zufall aus der Adresse). Leere Felder
+// werden vor dem Absenden abgeschaltet, damit die Adresse kurz bleibt.
+// Genres und Jahrzehnte werden beim Bauen aus dem Bestand ermittelt -- nach
+// derselben Regel wie populateGenreFilter/populateJahrFilter in alle.html.
+let KOPF_GENRES = [];
+let KOPF_JAHRZEHNTE = [];
+
+function kopfAuswahlErmitteln(filme) {
+  const genres = new Set();
+  const jahrzehnte = new Set();
+  for (const m of filme) {
+    if (m.verfuegbar === false) continue;
+    (m.genreIds || []).forEach((id) => GENRES[id] && genres.add(GENRES[id]));
+    const j = parseInt((m.releaseDate || "").slice(0, 4), 10);
+    if (j > 1880 && j < 2100) jahrzehnte.add(Math.floor(j / 10) * 10);
+  }
+  KOPF_GENRES = [...genres].sort((a, b) => a.localeCompare(b, "de"));
+  KOPF_JAHRZEHNTE = [...jahrzehnte].sort((a, b) => b - a);
+}
+
 function kopfbereich() {
+  const absenden = `onchange="this.form.requestSubmit ? this.form.requestSubmit() : this.form.submit()"`;
   return `<header class="top">
   <a class="marke" href="/">tube<span>filme</span></a>
-  <form class="suche" action="/alle" method="get" role="search">
-    <input type="search" name="q" placeholder="Filme, Genre, Schauspieler oder Regie durchsuchen..." aria-label="Filme durchsuchen">
+  <form class="kopf-form" action="/alle" method="get" role="search" onsubmit="for(const e of this.elements){if(e.name&&!e.value)e.disabled=true}">
+    <div class="search-wrap">
+      <input type="search" name="q" placeholder="Filme, Genre, Schauspieler oder Regie durchsuchen..." aria-label="Filme durchsuchen">
+    </div>
+    <select name="genre" aria-label="Genre" ${absenden}>
+      <option value="">Alle Genres</option>
+      ${KOPF_GENRES.map((g) => `<option value="${escapeHtml(g)}">${escapeHtml(g)}</option>`).join("")}
+    </select>
+    <select name="fsk" aria-label="FSK" ${absenden}>
+      <option value="">Alle FSK</option>
+      ${[0, 6, 12, 16, 18].map((f) => `<option value="${f}">FSK ${f}</option>`).join("")}
+    </select>
+    <select name="jahrzehnt" aria-label="Jahrzehnt" ${absenden}>
+      <option value="">Alle Jahre</option>
+      ${KOPF_JAHRZEHNTE.map((d) => `<option value="${d}">${d}er</option>`).join("")}
+    </select>
+    <select name="sort" aria-label="Sortierung" ${absenden}>
+      <option value="">Sortierung: Standard</option>
+      <option value="bewertung">Beste Bewertung</option>
+      <option value="az">Titel A–Z</option>
+      <option value="za">Titel Z–A</option>
+      <option value="neu">Neueste zuerst</option>
+      <option value="alt">Älteste zuerst</option>
+    </select>
+    <a class="knopf" href="/alle?zufall=1">&#127922; Zufall</a>
   </form>
   <nav>
     <a href="/alle">Alle Filme</a>
-    <a href="/alle?merkliste=1">&#9829; Merkliste</a>
+    <a class="knopf" href="/alle?merkliste=1">&#9829; Merkliste</a>
   </nav>
-</header>`;
+</header>
+<script>addEventListener("pageshow",function(){document.querySelectorAll(".kopf-form [disabled]").forEach(function(e){e.disabled=false})})</script>`;
 }
 
 function kachel(m) {
@@ -594,6 +652,8 @@ async function main() {
   const alleFilme = filme;
   filme = alleFilme.filter((m) => !m.titelUnsicher);
   console.log(`Warteliste (Titel unklar, nicht veröffentlicht): ${alleFilme.length - filme.length}`);
+
+  kopfAuswahlErmitteln(filme);
 
   // 1. Schlanker Index fürs Raster
   // Nicht verfügbare Filme erscheinen nicht mehr im Kachelraster -- niemand

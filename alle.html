@@ -260,7 +260,9 @@
     header { padding: 12px 14px; gap: 8px; }
     header .marke { font-size: 18px; }
     .search-wrap { max-width: none; width: 100%; order: 3; }
-    select { order: 4; width: 100%; }
+    select { order: 4; flex: 1 1 calc(50% - 4px); min-width: 0; width: calc(50% - 4px); }
+    #randomBtn { order: 5; }
+    header nav { order: 6; }
     #grid { padding: 14px; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); }
     #count { padding: 0 14px; }
     .player-wrap { padding: 0 12px; margin: 70px auto 30px; }
@@ -376,8 +378,10 @@
     <option value="alt">Älteste zuerst</option>
   </select>
   <button id="randomBtn">🎲 Zufall</button>
-  <button id="watchlistBtn">♥ Merkliste</button>
-  <nav><a href="/">Startseite</a></nav>
+  <nav>
+    <a href="/alle">Alle Filme</a>
+    <button id="watchlistBtn">♥ Merkliste</button>
+  </nav>
 </header>
 
 <div id="status">Lade Filme...</div>
@@ -792,6 +796,8 @@ function ausAdresseUebernehmen() {
     updateClearButton();
   }
   applyFilters();
+  // Verweis "Zufall" im Kopf der anderen Seiten
+  if (p.get("zufall") === "1") openRandomPanel();
 }
 
 function populateGenreFilter(movies) {

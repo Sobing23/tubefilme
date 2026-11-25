@@ -567,6 +567,14 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **Bombay Nights** (PLAION, UCtHTtZzMkLYGeOTq1nWYCGA) — Hindi mit deutschen Untertiteln; die Seite listet nur deutsch synchronisierte Filme
 - **Kinderfilme** (PLAION, UCmZUsl5MLqXIhuSTVP6x-EA) — hat keine eigenen Uploads, nur Playlists mit Videos anderer Kanäle; wieder entfernt
 
+## Gemeinsamer Seitenkopf
+
+Seit 25.11.2026 haben Startseite, Filmseiten und `/alle` denselben Kopf: Suche, Genre, FSK, Jahrzehnt, Sortierung, Zufall, dahinter „Alle Filme“ und „♥ Merkliste“. Der Verweis „Startseite“ ist entfallen, das Logo führt dorthin.
+
+- **Startseite und Filmseiten** (`kopfbereich()` in `build-site.js`): Der Kopf ist ein Formular auf `/alle`. Eine Auswahl oder Suche führt dorthin mit genau dieser Vorgabe (`?genre=Western`, `?fsk=12`, `?jahrzehnt=1980`, `?sort=bewertung`, `?q=…`, `?zufall=1`, `?merkliste=1`). Leere Felder werden vor dem Absenden abgeschaltet, damit die Adresse kurz bleibt. Genres und Jahrzehnte werden beim Bauen aus dem Bestand ermittelt, nach derselben Regel wie in `alle.html`.
+- **`/alle`** filtert weiter direkt auf der Seite; `ausAdresseUebernehmen()` liest die Vorgaben aus der Adresse, neu auch `zufall=1`.
+- **Schmale Bildschirme:** Die vier Auswahlfelder stehen in zwei Spalten. Auf Startseite und Filmseiten bleibt der Kopf dort nicht am oberen Rand kleben, damit er den Player nicht verdeckt.
+
 ## Personen-Links auf der Filmseite
 
 Seit 25.11.2026 sind die Namen unter „Mit“ und „Regie“ Links auf die Suche: „Leslie Nielsen“ führt im selben Fenster auf `/alle?q=leslie+nielsen` (`personenLinks()` in `build-site.js`). Die Suche in `alle.html` vergleicht ohne Groß-/Kleinschreibung mit Besetzung und Regie und zeigt alle Filme mit dieser Person. Sonderzeichen werden kodiert („Àlex Monner“ → `%C3%A0lex+monner`).
