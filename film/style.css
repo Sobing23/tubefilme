@@ -28,6 +28,8 @@ h1{font-size:26px;margin:0 0 6px}
 .meta{margin-top:20px;color:#ddd}
 .meta p{margin:0 0 14px}
 .meta .label{color:var(--text-dim);font-size:13px}
+.meta a.person{color:inherit;text-decoration:underline;text-decoration-color:#555;text-underline-offset:3px}
+.meta a.person:hover{color:var(--accent);text-decoration-color:var(--accent)}
 .similar{margin-top:34px}
 .similar h2{font-size:15px;color:var(--text-dim);font-weight:normal;margin:0 0 10px}
 .similar-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px}
