@@ -62,26 +62,6 @@
       "permanent": true
     },
     {
-      "source": "/film/der-mafiaboss-schien-unbesiegbar-bis-seine-rechte-hand-ihn-v",
-      "destination": "/film/der-mafiaboss-schien-unbesiegbar-bis-seine-rechte-hand-ihn-v-2",
-      "permanent": true
-    },
-    {
-      "source": "/film/ihre-rache-schockierte-die-polizei-2",
-      "destination": "/film/ihre-rache-schockierte-die-polizei",
-      "permanent": true
-    },
-    {
-      "source": "/film/ein-geheimnis-verwandelte-eine-normale-familie-in-verdaechti-2",
-      "destination": "/film/ein-geheimnis-verwandelte-eine-normale-familie-in-verdaechti",
-      "permanent": true
-    },
-    {
-      "source": "/film/tyson-1995",
-      "destination": "/film/tyson",
-      "permanent": true
-    },
-    {
       "source": "/film/anuk-iii-die-dunkle-flut",
       "destination": "/film/anuk-iii-die-dunkle-flut-2",
       "permanent": true
@@ -1657,18 +1637,8 @@
       "permanent": true
     },
     {
-      "source": "/film/dolph-lundgren-2",
-      "destination": "/film/dolph-lundgren",
-      "permanent": true
-    },
-    {
       "source": "/film/afrika-mon-amour-teil-2-2",
       "destination": "/film/afrika-mon-amour-teil-2",
-      "permanent": true
-    },
-    {
-      "source": "/film/25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge-2",
-      "destination": "/film/25-jahre-spaeter-tauchte-ein-mann-auf-der-ihm-wie-aus-dem-ge",
       "permanent": true
     },
     {
@@ -1754,11 +1724,6 @@
     {
       "source": "/film/romantische-geschichte-ueber-verlust-hoffnung-neue-liebe-die",
       "destination": "/film/die-melodie-der-liebe",
-      "permanent": true
-    },
-    {
-      "source": "/film/wie-ein-gescheiterter-kuenstler-eine-ganze-nation-manipulier",
-      "destination": "/film/hitler-aufstieg-des-boesen",
       "permanent": true
     },
     {
@@ -1919,6 +1884,51 @@
     {
       "source": "/film/weltengaenger",
       "destination": "/film/weltengaenger-2",
+      "permanent": true
+    },
+    {
+      "source": "/film/i-am-an-alien-als-mensch-geboren-und-doch-nicht-von-dieser-w",
+      "destination": "/film/i-am-an-alien",
+      "permanent": true
+    },
+    {
+      "source": "/film/er-kam-auf-die-insel-auf-der-die-jagd-begann",
+      "destination": "/film/the-most-dangerous-game-ein-toedliches-spiel",
+      "permanent": true
+    },
+    {
+      "source": "/film/ein-animations-abenteuerfilm-ein-ungewoehnlicher-troll-begib",
+      "destination": "/film/trolland-das-geheimnis-liegt-zu-euren-fuessen",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-jahrhundertlawine-kann-dieses-dorf-die-lawine-ueberleben",
+      "destination": "/film/die-jahrhundertlawine",
+      "permanent": true
+    },
+    {
+      "source": "/film/sie-flohen-fuer-ein-besseres-leben-doch-verloren-das-wertvol",
+      "destination": "/film/a-different-sun-es-wird-alles-wieder-gut",
+      "permanent": true
+    },
+    {
+      "source": "/film/sie-entfuehrten-seine-oma-jetzt-zeigt-der-staerkste-baer-der",
+      "destination": "/film/bamse-der-liebste-und-staerkste-baer-der-welt",
+      "permanent": true
+    },
+    {
+      "source": "/film/die-nacht-des-cyclone-mit-kris-kristofferson",
+      "destination": "/film/die-nacht-des-cyclone",
+      "permanent": true
+    },
+    {
+      "source": "/film/das-ende-einer-affaere-the-end-of-the-affair",
+      "destination": "/film/das-ende-einer-affaere",
+      "permanent": true
+    },
+    {
+      "source": "/film/las-vegas-die-verrueckteste-nacht-ihres-lebens-filme-deutsch",
+      "destination": "/film/bachelor-night-auf-nach-vegas",
       "permanent": true
     }
   ]
