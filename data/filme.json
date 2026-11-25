@@ -221762,9 +221762,9 @@
     "slug": "love-market"
   },
   {
-    "videoId": "dLVv_IDHn9c",
-    "youtubeTitle": "😨 EINE REICHE FAMILIE wird zu Geiseln genommen! | Thriller voller Angst und Spannung | Ganzer Film",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/dLVv_IDHn9c/hqdefault.jpg",
+    "videoId": "oMaog5K8rEg",
+    "youtubeTitle": "Dieser Thriller wird dich packen! EIN FREMDER NIMMT SEINE FAMILIE als Geiseln! | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/oMaog5K8rEg/hqdefault.jpg",
     "duration": "PT1H47M22S",
     "publishedAt": "2026-05-12T14:00:22Z",
     "channelName": "KinoWelt Deutsch",
@@ -221799,10 +221799,7 @@
     "fsk": null,
     "slug": "gunpoint",
     "runtime": 107,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-11-24"
+    "plausibelVersion": 4
   },
   {
     "videoId": "S4hDyg0WDYI",
@@ -232231,7 +232228,10 @@
     "writer": [],
     "fsk": null,
     "titelUnsicher": true,
-    "slug": "hinter-diesen-mauern-gelten-keine-regeln-nur-die-staerksten"
+    "slug": "hinter-diesen-mauern-gelten-keine-regeln-nur-die-staerksten",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-25"
   },
   {
     "videoId": "9gLGHfl2JYQ",
@@ -356829,5 +356829,247 @@
     "writer": [],
     "fsk": null,
     "slug": "der-nussknacker-und-der-maeusekoenig"
+  },
+  {
+    "videoId": "JQPtfP_BByI",
+    "youtubeTitle": "Mrs. Santa Claus (WEIHNACHTSFILM mit ANGELA LANSBURY in voller Länge, Weihnachstfilme Deutsch 2026)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JQPtfP_BByI/hqdefault.jpg",
+    "duration": "PT1H26M46S",
+    "publishedAt": "2026-11-24T18:00:26Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 110433,
+    "title": "Mrs. Santa Claus",
+    "originalTitle": "Mrs. Santa Claus",
+    "overview": "1910 geht Mrs. Santa Claus (Angela Lansbury) eigene Wege und entführt nach einem Streit mit Santa Claus Schlitten und Rentiere für einen kleinen Ausflug. Nachdem eines der Rentiere verletzt wird, muss sie in Manhattan notlanden. Dort findet sie Aufnahme bei einer jüdischen Familie, die Weihnachten nicht feiert und kümmert sich um politische Belange.",
+    "releaseDate": "1996-12-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/pEEHeB51XrPufbyUoa0W208zT2c.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/orQzG8L1nnah4nMkVHK7SVhnrLi.jpg",
+    "voteAverage": 6.2,
+    "genreIds": [
+      10751,
+      14,
+      10402,
+      35,
+      10770
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 91,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Angela Lansbury",
+      "Michael Jeter",
+      "Terrence Mann",
+      "Lynsey Bartilson",
+      "Bryan Murray"
+    ],
+    "director": [
+      "Terry Hughes"
+    ],
+    "writer": [
+      "Mark Saltzman"
+    ],
+    "fsk": null,
+    "slug": "mrs-santa-claus"
+  },
+  {
+    "videoId": "8N7BP1kWO1c",
+    "youtubeTitle": "DRAGON CRUSADERS – Verfluchte Tempelritter kämpfen gegen einen tödlichen Drachen! (Film Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8N7BP1kWO1c/hqdefault.jpg",
+    "duration": "PT1H30M36S",
+    "publishedAt": "2026-11-24T16:00:23Z",
+    "channelName": "Draco Actionfilme",
+    "channelId": "UCHAE4BV0_nvubIyNuCrtg3A",
+    "tmdbId": 75507,
+    "title": "Dragon Crusaders",
+    "originalTitle": "Dragon Crusaders",
+    "overview": "Eine Gruppe von Kreuzrittern auf dem Rückweg vom Orient kommt zufällig des Weges, als eine Piratenbande gerade einen befestigten Weiler überfällt und die Bevölkerung dem Erdboden gleichmacht. Die Kreuzritter greifen ein, erretten die schöne Maid, und müssen zur Kenntnis nehmen, dass Piraten nicht das einzige Problem in dieser Gegend sind. Tatsächlich kehrt jeder, der auf eine gewissse Weise zu Tode kam, als drachenähnlicher Gargoyle zurück. Nun müssen die Kreuzritter den Fluch wieder loswerden. Die Hexe, die ihn aussprach, soll dabei helfen.",
+    "releaseDate": "2011-09-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ajJMNh2gvGZtqivvaMRoq0cAjz2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/tatvngHzToApquhiX0IHqJJqnOd.jpg",
+    "voteAverage": 2.7,
+    "genreIds": [
+      14,
+      28,
+      12
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Cecily Fay",
+      "Nia Ann",
+      "Carys Eleri",
+      "Jason Beeston",
+      "Dylan Jones"
+    ],
+    "director": [
+      "Mark Atkins"
+    ],
+    "writer": [
+      "Mark Atkins"
+    ],
+    "fsk": "16",
+    "slug": "dragon-crusaders"
+  },
+  {
+    "videoId": "goGxzs-wboo",
+    "youtubeTitle": "Hope and Glory - der Krieg der Kinder | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/goGxzs-wboo/hqdefault.jpg",
+    "duration": "PT1H48M",
+    "publishedAt": "2026-11-24T16:30:31Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": 32054,
+    "title": "Hope and Glory",
+    "originalTitle": "Hope and Glory",
+    "overview": "Der zehnjährige Bill lebt in einem Londoner Vorort, während der II. Weltkrieg das kleinbürgerliche Familienidyll durcheinander bringt. Bills Vater wird in die Armee eingezogen; seine Mutter Grace seine Schwester und er bleiben allein zurück. Doch Bill läßt sich von diesen Tatsachen nicht seinen kindlichen Spaß verderben. Seine Schule wird zerbombt, so daß er den langweiligen Unterricht nicht mehr besuchen muß. Außerdem kann man Bombensplitter tauschen und es gibt jede Nacht ein tolles Feuerwerk. Als dann noch ein deutsches Flugzeug abgeschossen wird, und der Pilot mit einem Fallschirm in seinem Vorgarten landet, ist das Durcheinander perfekt",
+    "releaseDate": "1987-09-03",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3dt1Bk8HCfoYxYj7NXVlru6WT5X.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/7PktT8qvNEvGi7iTa5FEjG5DzJA.jpg",
+    "voteAverage": 6.896,
+    "genreIds": [
+      18,
+      10752,
+      10751
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 134 (Suchbegriff: \"Hope and Glory\")",
+    "runtime": 113,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Sarah Miles",
+      "David Hayman",
+      "Derrick O'Connor",
+      "Susan Wooldridge",
+      "Ian Bannen"
+    ],
+    "director": [
+      "John Boorman"
+    ],
+    "writer": [
+      "John Boorman"
+    ],
+    "fsk": "12",
+    "slug": "hope-and-glory"
+  },
+  {
+    "videoId": "UGA3bHrzbec",
+    "youtubeTitle": "Riesenhai gegen Urzeitkrokodil: Mega Shark vs Crocosaurus (2010) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/UGA3bHrzbec/hqdefault.jpg",
+    "duration": "PT1H28M35S",
+    "publishedAt": "2026-11-24T16:15:10Z",
+    "channelName": "Mockbuster",
+    "channelId": "UCXxH-t5DOtijabDffEEdMOQ",
+    "tmdbId": 52454,
+    "title": "Mega Shark vs. Crocosaurus",
+    "originalTitle": "Mega Shark vs. Crocosaurus",
+    "overview": "Bei illegalen Ausgrabungen in einer Diamantenmine im Kongo wird ein knapp 500 Meter langes Krokodil aufgeweckt, das zuvor friedlich unter der Erde schlummerte. Zeitgleich wird im Atlantik ein amerikanisches Kriegsschif von einem Riesenhai angegriffen und versenkt.",
+    "releaseDate": "2010-12-21",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/Y2nVRQWMjmtdqZ6zzo3CuvVDFa.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/5zURjqegdAzrmovQBAcYzWAaKy9.jpg",
+    "voteAverage": 3.974,
+    "genreIds": [
+      28,
+      27,
+      878
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jaleel White",
+      "Sarah Lieving",
+      "Gary Stretch",
+      "Robert Picardo",
+      "Gerald Webb"
+    ],
+    "director": [
+      "Christopher Ray"
+    ],
+    "writer": [
+      "Micho Rutare",
+      "Naomi L. Selfman"
+    ],
+    "fsk": "16",
+    "slug": "mega-shark-vs-crocosaurus"
+  },
+  {
+    "videoId": "9xUdsNGwRec",
+    "youtubeTitle": "Restrisiko | Ganzer Spielfilm mit Ulrike Folkerts, Kai Wiesinger & Matthias Koeberlin",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/9xUdsNGwRec/hqdefault.jpg",
+    "duration": "PT1H34M11S",
+    "publishedAt": "2026-11-24T16:00:14Z",
+    "channelName": "wocomoMOVIES",
+    "channelId": "UClVQAVNmaAZeEOXpOOe0OKw",
+    "tmdbId": 54429,
+    "title": "Restrisiko",
+    "originalTitle": "Restrisiko",
+    "overview": "Der Nuklearunfall im Kernkraftwerk Oldenbüttel ist die größte Katastrophe in der Geschichte der Bundesrepublik. Zwei Millionen Menschen müssen evakuiert werden. Nur die AKW-Sicherheitschefin Katja Wernecke kehrt in die kontaminierte Zone zurück, um Beweise für die Ursache des GAUs zu finden. Noch drei Monate zuvor war ihre größte Sorge, dass der Laufzeitverlängerung des AKWs nicht zugestimmt wird und damit ihr Arbeitsplatz gefährdet ist. Einen Brand im Kernkraftwerk will sie daher genauso wie ihr Vorgesetzter Werksleiter Wessel verschweigen. Nichts soll nach außen dringen und der Vorfall vertuscht werden. Trotzdem erfährt die Presse davon und berichtet umfassend. Steffen Stratmann der sich als Kommunikationsberater vorstellt, soll das lädierte Image des AKWs wieder aufpolieren. Doch noch bevor er eine langfristige Strategie ausarbeiten kann, passiert der Unfall",
+    "releaseDate": "2011-01-18",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4fAZKvoQCoB0cjI9wRdP8IQfzMi.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zyRdo28OsA7PCDqSIjP8WB3wZbX.jpg",
+    "voteAverage": 5.4,
+    "genreIds": [
+      18,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 94,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ulrike Folkerts",
+      "Thomas Sarbacher",
+      "Matthias Koeberlin",
+      "Gerhard Garbers",
+      "Kai Wiesinger"
+    ],
+    "director": [
+      "Urs Egger"
+    ],
+    "writer": [
+      "Carl-Christian Demke",
+      "Sarah Schnier"
+    ],
+    "fsk": "12",
+    "slug": "restrisiko"
+  },
+  {
+    "videoId": "XJUoSAterxA",
+    "youtubeTitle": "Am Ende des Films lösen Sie ein Rätsel, dessen Auflösung Sie verblüffen wird | FILM AUF DEUTSCH",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/XJUoSAterxA/hqdefault.jpg",
+    "duration": "PT1H25M1S",
+    "publishedAt": "2026-11-23T16:00:39Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": null,
+    "title": "Spielkameraden",
+    "originalTitle": null,
+    "overview": "Dein Ansehen ist die beste Unterstützung für die Weiterentwicklung unserer Filmwelt ❤️",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "spielkameraden"
   }
 ]

@@ -9082,5 +9082,15 @@
     "title": "Kennen wir uns?",
     "tmdbId": 648087,
     "channelName": "Deutsch Film Hub"
+  },
+  {
+    "datum": "2026-11-25",
+    "quelle": "filme.json",
+    "grund": "Plausibilität: Laufzeit widerspricht (TMDB 94 min, Video 65 min) -- wird neu gesucht",
+    "videoId": "aVyllnsZyvM",
+    "youtubeTitle": "Spasmo | GANZER FILM | 4K | Rätsel am Strand",
+    "title": "Spasmo",
+    "tmdbId": 94069,
+    "channelName": "Kino Deutsch"
   }
 ]
