@@ -17,6 +17,9 @@
 //       nurMitDeutscherBeschreibung  nur Videos mit deutsch geschriebener
 //                             Beschreibung (wocomoMOVIES, siehe
 //                             beschreibungIstDeutsch)
+//       titelTrenner          regulärer Ausdruck für ein kanaleigenes
+//                             Trennzeichen im Titel, wird zu " | " (Kixi:
+//                             einzelnes "l" oder "I", siehe mitTitelTrenner)
 //       ausschlussMuster      regulärer Ausdruck (Text), passende Titel fliegen
 //                             raus -- z.B. Mehrteiler "Teil 3/4", "Himmler 1/6"
 //   - sämtliche Videos von Kanälen mit "inPruefung": true im Profil
@@ -133,6 +136,27 @@ export function beschreibungIstDeutsch(beschreibung) {
   return de >= 5 && de > en && de > pt;
 }
 
+// Kanäle mit eigenem Trennzeichen im Videotitel. Kixi - Familienfilme
+// (25.11.2026) trennt mit einem einzelnen "l" oder "I" statt "|":
+//   "Schneewittchen und die 7 Zwerge   1959  l Fritz Genschow  l   ganzes Märchen auf deutsch"
+//   "Kalle wird Bürgermeister   1956     HD        l  ganzer Kinderfilm auf deutsch"
+// Ohne Umschreiben suchte match-tmdb.js mit dem ganzen Titel samt Werbetext.
+// Der Schalter "titelTrenner" (regulärer Ausdruck) macht daraus " | "; im
+// ersten Teil wird außerdem ein nacktes Jahr zu "(1959)" und ein
+// angehängtes "HD" entfernt. Der umgeschriebene Titel steht in
+// candidates.json, alle späteren Schritte arbeiten damit.
+export function mitTitelTrenner(video, profil) {
+  if (!profil || !profil.titelTrenner) return video;
+  const teile = (video.title || "").split(new RegExp(profil.titelTrenner)).map((t) => t.replace(/\s{2,}/g, " ").trim()).filter(Boolean);
+  if (teile.length === 0) return video;
+  teile[0] = teile[0]
+    .replace(/(\p{L})- (?=\p{L})/gu, "$1 - ") // "Vatertag- Willkommen in der Tiefsee"
+    .replace(/\s*-?\s*\bHD\s*$/, "")
+    .replace(/\s+((?:19|20)\d{2})\s*$/, " ($1)")
+    .trim();
+  return { ...video, title: teile.join(" | ") };
+}
+
 function classify(video, profil) {
   // Rohdaten eines Kanals, der aus config/channels.json entfernt wurde,
   // bleiben in data/raw liegen. Ohne diese Regel galten seine Videos als
@@ -217,7 +241,7 @@ async function main() {
       const kanalId = video.channelId || path.basename(file, ".json");
       const { include, reason } = classify(video, profile.has(kanalId) ? profile.get(kanalId) : null);
       if (include) {
-        candidates.push(video);
+        candidates.push(mitTitelTrenner(video, profile.get(kanalId)));
       } else {
         excluded.push({ ...video, ausschlussgrund: reason });
       }
