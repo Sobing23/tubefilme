@@ -5,7 +5,7 @@ Serverless betriebenes Archiv deutschsprachiger Filme, die auf YouTube legal in 
 - **Repository:** `Sobing23/tubefilme`
 - **Hosting:** Vercel, verbunden mit `main` — jeder Commit löst eine Auslieferung aus
 - **Domain:** `tubefilme.de` (bei Strato, per A-Record und CNAME auf Vercel gezeigt)
-- **Bestand (13.11.2026):** rund 8.600 Filme aus 70 Quellen (65 Kanäle, 5 Playlist-Anbieter), davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
+- **Bestand (13.11.2026):** rund 8.600 Filme aus 71 Quellen (66 Kanäle, 5 Playlist-Anbieter), davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
 
 ---
 
@@ -459,12 +459,13 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 | `mindestMinuten` | Höhere Mindestlaufzeit als die üblichen 15 Minuten. Für Kanäle, deren kurze Videos Serienfolgen ohne Serienwort im Titel sind (Nanoki: „Meine peinlichen Eltern – Ep26“, 23 Min). |
 | `nurMitDeutscherBeschreibung` | `true`: nur Videos, deren Beschreibung deutsch geschrieben ist (häufige Wörter in den ersten 600 Zeichen, Deutsch vor Englisch und Portugiesisch). Für wocomoMOVIES: derselbe Film steht dort je Sprachfassung als eigenes Video, das Wort „deutsch“ fehlt meist. |
 | `playlistIds` | Kein Profilschalter, sondern ein Feld neben `channelId`: Liste von Playlists, die statt aller Uploads gelesen werden (siehe [Neuen Kanal hinzufügen](#neuen-kanal-hinzufügen)). |
+| `titelTrenner` | Regulärer Ausdruck für ein kanaleigenes Trennzeichen im Videotitel; `filter-movies.js` macht daraus „ \| “ und schreibt den Titel so in `candidates.json`. Im ersten Teil wird ein nacktes Jahr zu „(1959)“, ein angehängtes „HD“ entfällt, „Vatertag- Willkommen“ wird zu „Vatertag - Willkommen“. Für Kixi: „Schneewittchen und die 7 Zwerge 1959 l Fritz Genschow l ganzes Märchen auf deutsch“. |
 | `nurMitTmdb` | `true`: Videos ohne TMDB-Treffer werden **nicht** aus den YouTube-Angaben übernommen, sondern bleiben in `unmatched.json`. Für gemischte Kanäle, bei denen sonst Dokus, Reise- und Ratgebervideos in die Bibliothek kämen (weloadtv: „Serengeti von A–Z“, „Motorräder – Technik, Routen, Tipps“). Einzelne geprüfte Spielfilme lassen sich über `titel-korrekturen.json` → `freigeben` trotzdem übernehmen. |
 | `inPruefung` | `true`: Der Scan sammelt die Rohdaten des Kanals (`data/raw/`), aber `filter-movies.js` lässt **kein** Video in die Bibliothek (Grund in `excluded.json`: „Kanal in Prüfung"). Für neue Kanäle, deren Eigenheiten erst an echten Daten geprüft werden. Schalter entfernen → beim nächsten Lauf werden die Videos normal verarbeitet. |
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 70 Quellen
+### Die 71 Quellen
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
@@ -510,6 +511,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | Kinohof | keine Angabe | |
 | KinoWelt Deutsch | keine Angabe |  |
 | KinoWucht | keine Angabe | |
+| Kixi - Familienfilme | Kixi Entertainment GmbH (Kanal des Rechteinhabers) | `mindestMinuten: 40`, `titelTrenner` (einzelnes „l“/„I“ statt „\|“), `pipeAlsTitelvariante: false` |
 | Lichtprojektor | keine Angabe | |
 | Making Legends | keine Angabe; gleiches Netzwerk wie CineCult Reloaded, Comfy Movies, Absolute Action | |
 | Mockbuster | PLAION PICTURES | |
@@ -544,6 +546,14 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 **Bewusst nicht aufgenommen:**
 - **XorboD** (@Xorbod, UCU8wCz7vkJVManfP3gXUZ4g), **Filme Gucken TV** (@FilmeGuckenTV, UCZV0tyYJkMUHi77lAOqkgJQ), **DUDU** (@dudu6250, UC3dI0Q_1GFzB88Jm8XS6AdA) — geprüft 12.11.2026: kein einziger Lizenzhinweis; XorboD lädt Studiofilme hoch („Under the Silver Lake“, „Blair Witch“ 2016), Filme Gucken TV „Orca, der Killerwal“ und Bud-Spencer-Filme („ohne Partnerprogramm“), DUDU ist ein Fan-Kanal. Sehr wahrscheinlich keine lizenzierten Uploads
 - **DasFliegendeGehirn** (@DasFliegendeGehirn, UCVvUfrlfDEPoFNVqTKDGJFg, Playlist „Filme“ PL266boC7LzLHYJvU-Rfo-yF-o61oPAIOW) — geprüft 12.11.2026: eigene TV- und VHS-Mitschnitte von Sammlern („ZDF-Ausstrahlung … nicht offiziell erhältliche deutsche Synchro“, „ARD-Weihnachtsprogramm 1983“ mit Ansage, „Restaurierte VHS-Kopie“), kein Lizenzhinweis. Dazu ein ZDF-Vierteiler, ein Trickfilm, eine Episode einer Fernsehreihe und ein OmU-Film unter den 32 Videos
+- **Geprüft 25.11.2026, kein Lizenzhinweis in Kanal und Videos:**
+  - **KinoReflexion** (UCVcwTyQIBRqZ5e_wm6Ph7cw) — Schwesterkanal von NEORA mit denselben Filmen, Werbesatz-Titel, Filmtitel in Zeile 2 der Beschreibung
+  - **myActionHero** (UC-xQPJ6tqaWVYavQHZ_Vz1Q) — 15 B-Actionfilme, Kanal vom November 2026; Titel stünde als „Filmtitel: …“ in der Beschreibung
+  - **MovieSpark** (UCjHTqetXAZ2Sd-9lwP9YvZw) — 36 Independent-Filme; „Name:“, Regie und Studio in der Beschreibung, dazwischen maschinell erzeugte Textbausteine
+  - **ZEIT FÜR FILM** (UCq7CXecrxamZRHmVeShNPkQ) — 45 Videos mit Werbesatz-Titeln, kein Filmtitel in der Beschreibung
+  - **KinoFalle** (UCUP4lmBxbQMdq6IsXjeb3IQ) — Kanal vom November 2026 mit „Nirgendwo in Afrika“ und „Red Cliff“
+  - **MegaAction TV** (UChaTUNJZ30cjCdXgOA6oPlQ) — 5 lange Videos mit identischem Schlagwort-Titel, sonst Clips
+- **Cult Cinema Classics** (UCycDFnpMeWzaITQSD1dWsOA, Playlist PL2gsu7VGzgdZDXz-s9EoIJuyygEsSXsxr) — geprüft 25.11.2026: fast nur englische Titel, deutsche Tonspur höchstens als Zusatzspur (11 von 153 Videos erwähnen sie), 19 mit „Subtitles“ oder „[French Audio]“, kein Lizenzhinweis
 - **ickeboo** (UCFUsqVbQm_McqZfh4EBgc-g), **Thomas Heusner** (UCw0_FxLtEHKFvoOXipACqZA) — geprüft 13.11.2026: Privatkanäle mit Studiofilmen („Sabrina“ 1995, „Bobby Deerfield“) und Fernsehmitschnitten (im Titel „(TV-Aufnahme)“), kein Lizenzhinweis
 - **Cowboy Filme - Western Movies** (@WesternMoviesDeutsch, UCtnSmfVH1brwwMk8JYmYPvw) — 590 von 819 Videos sind Serienfolgen (Bonanza, Daniel Boone, Big Valley), nur 3 Videos mit Rechtehinweis
 - **Golden Frame KINO** (UCHvggQm37DoBWI4afvIueZg) — deutsche Filme von 1930 bis 1955 ohne Lizenzhinweis
@@ -552,7 +562,7 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **Daredo TV #Doku** (@daredo-tv-doku) — Dokus
 - **PLAION-Kanäle ohne Spielfilme** — TemporaTV, Dokulymp, HistoraTV, Terragonia, Fussiwelt, AgrarFilms, FarmLandTV (Dokus), Season4U und Saving Hope (Serien), Netzkino Clips (Ausschnitte); dazu die fremdsprachigen PLAION-Ableger (UK, US, FR, IT, JP, ES)
 - **Babel Movies** — englischsprachiger „World Cinema"-Kanal, passt nicht zum deutschsprachigen Profil
-- **Braventa Films** — erwies sich nach dem ersten Scan als spanischsprachig (Kanal hatte keine Beschreibung); die 107 Videos stehen in `ignored.json`
+- **Braventa Films** (UCz8hnri6mJv2ZmHJrSvGyAA) — erwies sich nach dem ersten Scan als spanischsprachig (Kanal hatte keine Beschreibung); die 107 Videos stehen in `ignored.json`. Erneut geprüft 25.11.2026: 63 von 169 Videos haben inzwischen eine deutsche Beschreibung, aber nur Werbesatz-Titel ohne Filmnamen
 - **Bombay Nights** (PLAION, UCtHTtZzMkLYGeOTq1nWYCGA) — Hindi mit deutschen Untertiteln; die Seite listet nur deutsch synchronisierte Filme
 - **Kinderfilme** (PLAION, UCmZUsl5MLqXIhuSTVP6x-EA) — hat keine eigenen Uploads, nur Playlists mit Videos anderer Kanäle; wieder entfernt
 
