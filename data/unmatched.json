@@ -12,27 +12,27 @@
     }
   },
   {
-    "videoId": "emEWC2y-KKo",
-    "youtubeTitle": "Film Voller Spannung! Verzweifelt - Eine Mutter schöpft Verdacht | Ganze Filme | Auf Deutsch Ansehen",
-    "suchbegriff": "Film Voller Spannung! Verzweifelt - Eine Mutter schöpft Verdacht",
+    "videoId": "aVyllnsZyvM",
+    "youtubeTitle": "Spasmo | GANZER FILM | 4K | Rätsel am Strand",
+    "suchbegriff": "Spasmo",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
+    "grund": "Kein ausreichend plausibler Treffer (bester Wert 39)",
+    "tmdbTopKandidat": {
+      "id": 315011,
+      "title": "Shin Godzilla",
+      "release_date": "2016-07-29"
+    }
   },
   {
-    "videoId": "b04_RmRqDa4",
-    "youtubeTitle": "Ein CIA-Agent verliert seine Familie – jetzt jagt er ein ganzes Drogenkartell",
-    "suchbegriff": "Ein CIA-Agent verliert seine Familie – jetzt jagt er ein ganzes Drogenkartell",
+    "videoId": "1aReMPLqkUs",
+    "youtubeTitle": "😱🌲 Dieses Unheimliche Haus Wurde Zu Ihrem Letzten Zufluchtsort | Spannender Horrorfilm in HD",
+    "suchbegriff": "Dieses Unheimliche Haus Wurde Zu Ihrem Letzten Zufluchtsort",
     "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
-  },
-  {
-    "videoId": "bKjJhwZoA58",
-    "youtubeTitle": "Wenn Männer schweigen und Frauen verzweifeln: Gibt es überhaupt die perfekte Liebe? | Komödie",
-    "suchbegriff": "Wenn Männer schweigen und Frauen verzweifeln: Gibt es überhaupt die perfekte Liebe?",
-    "erwartetesJahr": null,
-    "grund": "kein TMDB-Treffer",
-    "tmdbTopKandidat": null
+    "grund": "Ein-Wort-Suchbegriff \"The Inevitable\" ohne Jahr/Besetzung -- Rest des Titels (\"dieses unheimliche haus wurde ihrem letzten zufluchtsort\") fehlt im Treffer",
+    "tmdbTopKandidat": {
+      "id": 1377602,
+      "title": "The Inevitable",
+      "release_date": "1917-04-05"
+    }
   }
 ]
