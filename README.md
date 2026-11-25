@@ -5,7 +5,7 @@ Serverless betriebenes Archiv deutschsprachiger Filme, die auf YouTube legal in 
 - **Repository:** `Sobing23/tubefilme`
 - **Hosting:** Vercel, verbunden mit `main` — jeder Commit löst eine Auslieferung aus
 - **Domain:** `tubefilme.de` (bei Strato, per A-Record und CNAME auf Vercel gezeigt)
-- **Bestand (13.11.2026):** rund 8.600 Filme aus 71 Quellen (66 Kanäle, 5 Playlist-Anbieter), davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
+- **Bestand (13.11.2026):** rund 8.600 Filme aus 68 Quellen (63 Kanäle, 5 Playlist-Anbieter), davon rund 7.900 abspielbar; rund 6.700 mit TMDB-Treffer
 
 ---
 
@@ -465,14 +465,13 @@ Die Kanäle unterscheiden sich systematisch im Aufbau von Titel und Beschreibung
 
 Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also ohne Eintrag.
 
-### Die 71 Quellen
+### Die 68 Quellen
 
 | Kanal | Rechteinhaber | Profil |
 |---|---|---|
 | Absolute Action | keine Angabe | |
 | All Time Classic Movies | keine Angabe | `nurMitDeutschHinweis` |
 | Alle Filme Auf Deutsch | keine Angabe | |
-| Amelia | keine Angabe | |
 | Artflix | Amogo Networx | ✓ |
 | Bigtime | Amogo Networx | ✓ |
 | Boxoffice | keine Angabe | |
@@ -489,7 +488,6 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | daredo TV Action & Thriller | daredo (Filmvertrieb) | |
 | DEFA Filmwelt | DEFA-Stiftung | |
 | Deutsch Film Hub | keine Angabe | |
-| Deutsch Knallhart | keine Angabe | ✓ |
 | Draco Actionfilme | PLAION PICTURES | |
 | Dzango | PLAION PICTURES | |
 | FABELLA | PLAION PICTURES | |
@@ -535,7 +533,6 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 | TV-Klassiker | Lizenz über WDR mediagroup (laut Beschreibung) | 2 Playlists (DEFA Filme, TV-Filme); `mindestMinuten: 40`, `ausschlussMuster` (Mehrteiler) |
 | Unfassbare Filme | keine Angabe | |
 | Utopja | PLAION PICTURES | |
-| Volle Power Filme | keine Angabe | |
 | weloadtv | Bridge Capital Partners (laut Beschreibung lizenziert) | `nurMitTmdb`, `ausschlussMuster` (Hörspiel, Hörbuch, Reiseführer, Making of, Yoga, „aus der Box“, Ratgeber, Tipps, Workout, Best of) |
 | wocomoMOVIES | NIKITA VENTURES | `nurMitDeutscherBeschreibung`, `pipeAlsTitelvariante: false`, `mindestMinuten: 40`, `ausschlussMuster` (Mehrteiler, Kurzfilm-Sammlungen) |
 | Wolkesieben | PLAION PICTURES | |
@@ -546,6 +543,10 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 **Bewusst nicht aufgenommen:**
 - **XorboD** (@Xorbod, UCU8wCz7vkJVManfP3gXUZ4g), **Filme Gucken TV** (@FilmeGuckenTV, UCZV0tyYJkMUHi77lAOqkgJQ), **DUDU** (@dudu6250, UC3dI0Q_1GFzB88Jm8XS6AdA) — geprüft 12.11.2026: kein einziger Lizenzhinweis; XorboD lädt Studiofilme hoch („Under the Silver Lake“, „Blair Witch“ 2016), Filme Gucken TV „Orca, der Killerwal“ und Bud-Spencer-Filme („ohne Partnerprogramm“), DUDU ist ein Fan-Kanal. Sehr wahrscheinlich keine lizenzierten Uploads
 - **DasFliegendeGehirn** (@DasFliegendeGehirn, UCVvUfrlfDEPoFNVqTKDGJFg, Playlist „Filme“ PL266boC7LzLHYJvU-Rfo-yF-o61oPAIOW) — geprüft 12.11.2026: eigene TV- und VHS-Mitschnitte von Sammlern („ZDF-Ausstrahlung … nicht offiziell erhältliche deutsche Synchro“, „ARD-Weihnachtsprogramm 1983“ mit Ansage, „Restaurierte VHS-Kopie“), kein Lizenzhinweis. Dazu ein ZDF-Vierteiler, ein Trickfilm, eine Episode einer Fernsehreihe und ein OmU-Film unter den 32 Videos
+- **Wieder entfernt am 25.11.2026, weil sie den Filmnamen systematisch verschweigen und auffällig viele Videos von YouTube gelöscht wurden** (Bibliothek gesamt: 6 % gesperrt):
+  - **Volle Power Filme** (UC-W2gLviKYA-G9FlERrOfsg) — 55 von 73 Filmen gelöscht (75 %), 40 ohne Filmnamen; darunter große Studiofilme („Insider“, „Nur noch 60 Sekunden“). Die Beschreibung behauptet eine Lizenz
+  - **Deutsch Knallhart** (UChdsePumnXsycplDMEVY4zw) — 38 von 85 ohne Filmnamen, 20 % gelöscht; darunter „Flightplan“. Die Beschreibung behauptet eine „offizielle Lizenz“
+  - **Amelia** (UCAsU4g5ehWUOH40mTbbhE5g) — 44 % gelöscht, dazu arabische Musikvideos im selben Kanal
 - **Geprüft 25.11.2026, kein Lizenzhinweis in Kanal und Videos:**
   - **KinoReflexion** (UCVcwTyQIBRqZ5e_wm6Ph7cw) — Schwesterkanal von NEORA mit denselben Filmen, Werbesatz-Titel, Filmtitel in Zeile 2 der Beschreibung
   - **myActionHero** (UC-xQPJ6tqaWVYavQHZ_Vz1Q) — 15 B-Actionfilme, Kanal vom November 2026; Titel stünde als „Filmtitel: …“ in der Beschreibung

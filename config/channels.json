@@ -7,7 +7,6 @@
       "profil": { "nurMitDeutschHinweis": true, "ausschlussMuster": "interview|erinnert sich|spricht über|glücksrad|heimfilme|tv-unterhaltung|cartoon|kleine morde|\\bteil\\W{0,3}\\d|\\d\\. teil" }
     },
     { "name": "Alle Filme Auf Deutsch", "channelId": "UCBRuxT7iCv9fcEo9s2jR_RA" },
-    { "name": "Amelia", "channelId": "UCAsU4g5ehWUOH40mTbbhE5g" },
     {
       "name": "Artflix",
       "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
@@ -42,11 +41,6 @@
     { "name": "daredo TV Action & Thriller", "channelId": "UCuu_wfeuik_xEelY9SNR7eQ" },
     { "name": "DEFA Filmwelt", "channelId": "UCSKbHQcEk-42lL--03lbbIw" },
     { "name": "Deutsch Film Hub", "channelId": "UCMdvU2xCSxMUJKbwq5zEC4Q" },
-    {
-      "name": "Deutsch Knallhart",
-      "channelId": "UChdsePumnXsycplDMEVY4zw",
-      "profil": { "pipeAlsTitelvariante": false }
-    },
     { "name": "CiNENET Klassiker", "channelId": "UCxqE8Wd3H4KaS6kxkBytIiA", "profil": { "pipeAlsTitelvariante": false, "mindestMinuten": 40, "ausschlussMuster": "\\bteil\\W{0,3}\\d" } },
     { "name": "CrimeStar", "channelId": "UCpKNAQ9LDVVx39Vx1iO1XEw", "profil": { "ausschlussMuster": "\\bteil\\W{0,3}\\d" } },
     { "name": "Glaubensfilme", "channelId": "UCQ-CTVMUyNArCK3OqozlKCQ", "profil": { "ausschlussMuster": "\\bteil\\W{0,3}\\d|doku-serie" } },
@@ -111,7 +105,6 @@
     { "name": "TitanumX", "channelId": "UCnlIBYHTpD2R3BQuE6nsSKw" },
     { "name": "Unfassbare Filme", "channelId": "UCxjFB79ChibMp-hr1vlK7sg" },
     { "name": "Utopja", "channelId": "UC5FelnKqltzYS3H1LPlC-Xg" },
-    { "name": "Volle Power Filme", "channelId": "UC-W2gLviKYA-G9FlERrOfsg" },
     {
       "name": "weloadtv",
       "channelId": "UC5E67gM-Us3gQBhNPiAg0Xg",
