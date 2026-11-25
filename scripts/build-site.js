@@ -64,6 +64,8 @@ h1{font-size:26px;margin:0 0 6px}
 .meta{margin-top:20px;color:#ddd}
 .meta p{margin:0 0 14px}
 .meta .label{color:var(--text-dim);font-size:13px}
+.meta a.person{color:inherit;text-decoration:underline;text-decoration-color:#555;text-underline-offset:3px}
+.meta a.person:hover{color:var(--accent);text-decoration-color:var(--accent)}
 .similar{margin-top:34px}
 .similar h2{font-size:15px;color:var(--text-dim);font-weight:normal;margin:0 0 10px}
 .similar-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px}
@@ -149,6 +151,19 @@ function metaBeschreibung(m) {
   }
   const teile = [m.title, jahr && `(${jahr})`, genres].filter(Boolean).join(" ");
   return `${teile} — kostenlos und in voller Länge auf Deutsch ansehen.`;
+}
+
+// Namen unter "Mit" und "Regie" als Links auf die Suche (seit 25.11.2026):
+// "Leslie Nielsen" -> /alle?q=leslie+nielsen, im selben Fenster. Die Suche
+// in alle.html vergleicht ohne Groß-/Kleinschreibung mit Besetzung und
+// Regie, findet also alle Filme mit dieser Person.
+function personenLinks(namen) {
+  return namen
+    .map((n) => {
+      const q = encodeURIComponent(n.toLowerCase().trim()).replace(/%20/g, "+");
+      return `<a class="person" href="/alle?q=${q}">${escapeHtml(n)}</a>`;
+    })
+    .join(", ");
 }
 
 function filmSeite(m, aehnliche) {
@@ -240,8 +255,8 @@ ${kopfbereich()}
 
   <div class="meta">
     <p>${escapeHtml(m.overview || "Für diesen Film liegt keine Beschreibung vor.")}</p>
-    ${m.cast && m.cast.length ? `<p><span class="label">Mit:</span> ${escapeHtml(m.cast.join(", "))}</p>` : ""}
-    ${m.director && m.director.length ? `<p><span class="label">Regie:</span> ${escapeHtml(m.director.join(", "))}</p>` : ""}
+    ${m.cast && m.cast.length ? `<p><span class="label">Mit:</span> ${personenLinks(m.cast)}</p>` : ""}
+    ${m.director && m.director.length ? `<p><span class="label">Regie:</span> ${personenLinks(m.director)}</p>` : ""}
     ${m.originalTitle && m.originalTitle !== m.title ? `<p><span class="label">Originaltitel:</span> ${escapeHtml(m.originalTitle)}</p>` : ""}
     <p><span class="label">Quelle:</span> ${escapeHtml(m.channelName)} auf YouTube</p>
   </div>

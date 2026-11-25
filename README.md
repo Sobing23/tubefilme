@@ -567,6 +567,10 @@ Fehlt ein Profil, gelten die Standardwerte — neue Kanäle funktionieren also o
 - **Bombay Nights** (PLAION, UCtHTtZzMkLYGeOTq1nWYCGA) — Hindi mit deutschen Untertiteln; die Seite listet nur deutsch synchronisierte Filme
 - **Kinderfilme** (PLAION, UCmZUsl5MLqXIhuSTVP6x-EA) — hat keine eigenen Uploads, nur Playlists mit Videos anderer Kanäle; wieder entfernt
 
+## Personen-Links auf der Filmseite
+
+Seit 25.11.2026 sind die Namen unter „Mit“ und „Regie“ Links auf die Suche: „Leslie Nielsen“ führt im selben Fenster auf `/alle?q=leslie+nielsen` (`personenLinks()` in `build-site.js`). Die Suche in `alle.html` vergleicht ohne Groß-/Kleinschreibung mit Besetzung und Regie und zeigt alle Filme mit dieser Person. Sonderzeichen werden kodiert („Àlex Monner“ → `%C3%A0lex+monner`).
+
 ## Review-Listen klein halten
 
 Stand vor dem 25.11.2026: Unmatched 25, Kein Cover 84, Werbetitel 148. Die drei Reiter zeigten überwiegend Einträge, die sich von selbst erledigen oder die niemand lösen kann. Seitdem gilt: Im Review steht nur, was ein Mensch entscheiden muss.
