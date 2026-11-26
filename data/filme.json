@@ -114016,10 +114016,7 @@
     "slug": "soloalbum",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-11-11"
+    "plausibelVersion": 4
   },
   {
     "videoId": "91IkkWQrWBw",
@@ -290722,12 +290719,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "QgdQIiTuRVU",
-    "youtubeTitle": "Manaos - Die Sklaventreiber vom Amazonas | Fabio Testi",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/QgdQIiTuRVU/hqdefault.jpg",
+    "videoId": "YtNX_GBPBWE",
+    "youtubeTitle": "Manaos - Die Sklaventreiber vom Amazonas (1979) [Abenteuer] [Action] | ganzer film auf deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YtNX_GBPBWE/hqdefault.jpg",
     "duration": "PT1H12M39S",
     "publishedAt": "2025-02-27T18:00:28Z",
-    "channelName": "Artflix",
+    "channelName": "CiNENET Deutschland",
     "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
     "tmdbId": 134502,
     "title": "Manaos – Die Sklaventreiber vom Amazonas",
@@ -313964,7 +313961,10 @@
       "Tomas Tivemark"
     ],
     "fsk": null,
-    "slug": "bamse-der-liebste-und-staerkste-baer-der-welt"
+    "slug": "bamse-der-liebste-und-staerkste-baer-der-welt",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-26"
   },
   {
     "videoId": "8G4cHM5aqM4",
@@ -352163,5 +352163,259 @@
     "writer": [],
     "fsk": null,
     "slug": "aber-vati-vati-will-nicht-heiraten"
+  },
+  {
+    "videoId": "Z2Pifero-U0",
+    "youtubeTitle": "Sie verliebte sich in ihn, ohne zu wissen, dass er Millionär war | LIEBESFILM",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Z2Pifero-U0/hqdefault.jpg",
+    "duration": "PT1H30M32S",
+    "publishedAt": "2026-11-25T16:00:54Z",
+    "channelName": "CinemaLegenden",
+    "channelId": "UC0zy7qZplGz1sX_xeXdhd_g",
+    "tmdbId": 1038762,
+    "title": "A Town Called Love",
+    "originalTitle": "A Town Called Love",
+    "overview": "",
+    "releaseDate": "2023-09-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/nAkIjtN9olHAIF7VU2UaW7W6qnF.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/baZy9Basc7Cye8fK6ROL7B8Q2bi.jpg",
+    "voteAverage": 6.1,
+    "genreIds": [
+      10770,
+      35,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 98 (Suchbegriff: \"A Town Called Love\")",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Emma Johnson",
+      "Marshall Williams",
+      "Peter Louis Chouinard",
+      "Marnie Mahannah",
+      "John Prowse"
+    ],
+    "director": [
+      "Jason James"
+    ],
+    "writer": [
+      "Rebekah Harrison"
+    ],
+    "fsk": null,
+    "slug": "a-town-called-love"
+  },
+  {
+    "videoId": "rQplsSIlams",
+    "youtubeTitle": "PARANORMALER Horrorfilm: The Mistress - Für immer vereint (2022) (HD)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/rQplsSIlams/hqdefault.jpg",
+    "duration": "PT1H45M8S",
+    "publishedAt": "2026-11-25T19:15:20Z",
+    "channelName": "Screamtime",
+    "channelId": "UC2-PuWZmDRDJJRNWfZhxTpA",
+    "tmdbId": 1094713,
+    "title": "The Mistress - Für immer vereint",
+    "originalTitle": "The Mistress",
+    "overview": "Zunächst sind Schriftsteller Parker (John Magaro) und seine Frau Madeline (Chasten Harmon) noch ganz begeistert von ihrem neuen Haus im Queen-Anne-Stil. Sie finden die altmodische Plattenkamera, die sie in ihm entdeckt haben, ebenso faszinierend wie die bezaubernden, offenbar von einem ehemaligen Bewohner stammenden Liebesbriefe. Selbst als ein Freund in ihren vier Wänden einen verrückten Unfall hat und beinahe stirbt, kommt bei ihnen kein Verdacht auf. Dann beginnt Parker jedoch immer wieder eine geheimnisvolle weibliche Figur in dem Haus zu sehen. Zunächst nimmt er an, dass es sich wohl um eine verwirrte Obdachlose handeln müsse. Doch schon bald entpuppt sich die Dame als Rebecca (Aylya Marzolf), der Geist einer Frau, die ein Jahrhundert zuvor in dem Haus Selbstmord beging, nachdem ihr verheirateter Liebhaber sie zurückgewiesen hatte …",
+    "releaseDate": "2023-07-28",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/heA24ixaP3T2fc6GPMzBO3Qi8O8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/ffZlZC91kVTmycA9kzGkTOUDpkA.jpg",
+    "voteAverage": 4.6,
+    "genreIds": [
+      27,
+      53
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 102,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "John Magaro",
+      "Chasten Harmon",
+      "Kat Cunning",
+      "Aylya Marzolf",
+      "James Carpinello"
+    ],
+    "director": [
+      "Greg Pritikin"
+    ],
+    "writer": [
+      "Greg Pritikin"
+    ],
+    "fsk": null,
+    "slug": "the-mistress-fuer-immer-vereint"
+  },
+  {
+    "videoId": "JklciViaxnU",
+    "youtubeTitle": "Forever my Love - Mein Herz schlägt für Dich! - ganzer Film auf Deutsch kostenlos schauen in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/JklciViaxnU/hqdefault.jpg",
+    "duration": "PT1H31M27S",
+    "publishedAt": "2026-11-25T23:00:07Z",
+    "channelName": "Free Films Emotion",
+    "channelId": "UC6DTsN_DKPGsPVckgfzYznw",
+    "tmdbId": 874970,
+    "title": "Forever my Love - Mein Herz schlägt für Dich!",
+    "originalTitle": "The Story of Love",
+    "overview": "Ruby, eine aufstrebende Liebes-Romanautorin, ist auf der Suche nach Inspiration und einem lukrativen Buchvertrag. Ihr Weg führt sie an den romantischen Tahoe-See, wo sie in aller Ruhe am neuen Roman arbeiten möchte. Doch die Dinge nehmen eine unerwartete Wendung, als Ruby auf Woody trifft, den charismatischen Hotelbesitzer, der mehr ist, als er auf den ersten Blick zu sein scheint. Während sie sich auf die Suche nach den richtigen Worten für ihr nächstes Buch begibt, entdeckt sie die Liebe und verändert dadurch ihr ganzes Leben.",
+    "releaseDate": "2022-02-02",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mbGRTaXJlZKuopWbeXjL6GSk631.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/h5GNGzwPwLVqjmrbK0ZnxjdkdFB.jpg",
+    "voteAverage": 6.8,
+    "genreIds": [
+      10770,
+      35,
+      10749,
+      10751
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "runtime": 85,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Brittany Bristow",
+      "Franco Lo Presti",
+      "Rosemary Dunsmore",
+      "Gianpaolo Venuta",
+      "Neil Crone"
+    ],
+    "director": [
+      "Bill Corcoran"
+    ],
+    "writer": [
+      "Courtney Cilman"
+    ],
+    "fsk": "6",
+    "slug": "forever-my-love-mein-herz-schlaegt-fuer-dich"
+  },
+  {
+    "videoId": "M1z9utQUa6E",
+    "youtubeTitle": "Erlebe eine EPISCHE Drachenjagd in Dragon Fighter - Die Entscheidungsschlacht | Ganzer Film Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/M1z9utQUa6E/hqdefault.jpg",
+    "duration": "PT1H23M53S",
+    "publishedAt": "2026-11-25T17:15:11Z",
+    "channelName": "Movies Select",
+    "channelId": "UCVb56_lmBRZDZaA8KmXL9Ug",
+    "tmdbId": 31072,
+    "title": "Dragon",
+    "originalTitle": "Dragon",
+    "overview": "In diesem Epischen Action Abenteuer ist das große Königreich von Sir Esplaine den Angriffen verfeindeter Stämme und Drachen ausgesetzt. Die junge Tochter und Prinzessin von Lord Blackthorne beschliesst, mit einigen Getreuen dem König zu Hilfe zu eilen. Dafür müssen sie jedoch durch den Schwarzen Wald von Sidhe, in dem viele böse Dämonen und Drachen zu Hause sind. Am Ende dieses Weges sind viele Kämpfer gefallen, aber auch neue Helden geboren.",
+    "releaseDate": "2006-12-12",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/wWWtWkJVng9DhNuc2EXAd4EUjQY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/hhqf0HakJPPpcYUKTw9atyzdTtp.jpg",
+    "voteAverage": 5.1,
+    "genreIds": [
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Amelia Jackson-Gray",
+      "Eliza Swenson",
+      "Matthew Wolf",
+      "Jessica Bork",
+      "Rachel Haines"
+    ],
+    "director": [
+      "Leigh Scott"
+    ],
+    "writer": [
+      "Leigh Scott",
+      "Eliza Swenson"
+    ],
+    "fsk": null,
+    "slug": "dragon"
+  },
+  {
+    "videoId": "MpmcCWtCQLY",
+    "youtubeTitle": "Sie versteckt 12 Juden im Haus eines Wehrmachts-Majors | IRENAS GEHEIMNIS - Wahre Geschichte",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MpmcCWtCQLY/hqdefault.jpg",
+    "duration": "PT2H56S",
+    "publishedAt": "2026-11-25T17:00:28Z",
+    "channelName": "Pandastorm Pictures",
+    "channelId": "UCg4OrITaT-hkDpv4mwko20w",
+    "tmdbId": 1026880,
+    "title": "Irenas Geheimnis",
+    "originalTitle": "Irena's Vow",
+    "overview": "1939, kurz nach dem Einmarsch der Nazis in Polen: Die katholische Krankenschwester Irena ist in den Wirren der Invasion von ihrer Familie getrennt worden und sich sicher, dass all ihre Lieben tot sein müssen. Die Deutschen zwingen sie zur Arbeit in einer Waffenfabrik, bevor sie in den Lebensmitteldienst versetzt wird. Weil sie die leitenden SS-Offiziere mit ihrer Kompetenz beeindruckt, wird Irena mit der Anleitung einer kleinen Gruppe von jüdischen Zwangsarbeitern betraut. Erst dadurch erfährt sie von der lebensgefährlichen Situation, in der sich ihre Schützlinge befinden, und versucht, diese um jeden Preis vor dem brutalen Kollaborateur Rokita zu schützen. Da wirft Major Eduard Rügemer ein Auge auf Irena und kommandiert sie als Haushälterin für die für ihn requirierte Villa ab. Dort angekommen bemerkt sie, wie groß das Haus ist, und beschließt, heimlich ein Dutzend Juden in ihm zu verstecken, um sie vor dem Abtransport in ein KZ zu bewahren …",
+    "releaseDate": "2024-04-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/sPvOzoJ54LDcoDxcdcqi968Lxnu.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/2NR3jzedZIcnfMvj9ii2CSbPMMj.jpg",
+    "voteAverage": 7.681,
+    "genreIds": [
+      10752,
+      18,
+      36
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 121,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Sophie Nélisse",
+      "Dougray Scott",
+      "Andrzej Seweryn",
+      "Maciej Nawrocki",
+      "Sharon Azrieli"
+    ],
+    "director": [
+      "Louise Archambault"
+    ],
+    "writer": [
+      "Dan Gordon"
+    ],
+    "fsk": null,
+    "slug": "irenas-geheimnis"
+  },
+  {
+    "videoId": "nRdj9Qg4JI0",
+    "youtubeTitle": "Der Mann mit dem Karateschlag (1973) [Action] [Eastern] | Mit Bolo Yeung | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/nRdj9Qg4JI0/hqdefault.jpg",
+    "duration": "PT1H25M16S",
+    "publishedAt": "2026-11-25T17:00:26Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 256685,
+    "title": "Der Mann mit dem Karateschlag",
+    "originalTitle": "奪命客",
+    "overview": "Mehrere Frauen werden brutal verstümmelt. Unschuldige kommen in Verdacht. Ein Totgeglaubter taucht wieder auf und bringt die Mörder nach langer Verfolgung und brutalen Karatezweikämpfen zur Strecke.",
+    "releaseDate": "1973-01-01",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hikLJxO1Wqj5s4QfIO9a8a1sUdd.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/zdVfylH4VW2ssRzWQRfKYZwr0js.jpg",
+    "voteAverage": 6,
+    "genreIds": [
+      80,
+      53,
+      27
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Christine Hui San",
+      "Prim Praphaporn",
+      "方野",
+      "韩国材",
+      "Bolo Yeung"
+    ],
+    "director": [
+      "Pichai Noylod",
+      "Chan Tongman"
+    ],
+    "writer": [
+      "Chan Tongman"
+    ],
+    "fsk": "18",
+    "slug": "der-mann-mit-dem-karateschlag"
   }
 ]

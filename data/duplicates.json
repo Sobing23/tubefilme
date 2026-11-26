@@ -14054,14 +14054,6 @@
     "bereitsVorhandenAufKanal": "Netzkino"
   },
   {
-    "videoId": "YtNX_GBPBWE",
-    "youtubeTitle": "Manaos - Die Sklaventreiber vom Amazonas (1979) [Abenteuer] [Action] | ganzer film auf deutsch",
-    "channelName": "CiNENET Deutschland",
-    "tmdbId": 134502,
-    "title": "Manaos – Die Sklaventreiber vom Amazonas",
-    "bereitsVorhandenAufKanal": "Artflix"
-  },
-  {
     "videoId": "4GLJtNwFpcU",
     "youtubeTitle": "Prometheus Trap (2012) [Science Fiction] [Action] Trick der Unendlichkeit | Ganzer Film auf Deutsch",
     "channelName": "CiNENET Deutschland",
@@ -117025,5 +117017,109 @@
     "tmdbId": 22612,
     "title": "Das Gold von Texas",
     "bereitsVorhandenAufKanal": "Retroflix"
+  },
+  {
+    "videoId": "AjOSS2x4QBw",
+    "youtubeTitle": "Der Weihnachtsurlaub | WEIHNACHTSFILME auf Deutsch, Weihnachts-Klassiker Filme, FILM NOIR",
+    "channelName": "Retroflix",
+    "tmdbId": 26530,
+    "title": "Weihnachtsurlaub",
+    "bereitsVorhandenAufKanal": "Netzkino"
+  },
+  {
+    "videoId": "Sx0yXnNlSd4",
+    "youtubeTitle": "ON OUR WATCH / E noi come stronzi rimanemmo a guardare | GANZER FILM | 4K | Gefühle im Abonnement",
+    "channelName": "Kino Deutsch",
+    "tmdbId": 647809,
+    "title": "E noi come stronzi rimanemmo a guardare",
+    "bereitsVorhandenAufKanal": "Alle Filme Auf Deutsch"
+  },
+  {
+    "videoId": "77zvgabEt28",
+    "youtubeTitle": "Der beste Zombiefilm aller Zeiten? It Stains the Sands Red (2016) (HD)",
+    "channelName": "ZOMBIEWORLD",
+    "tmdbId": 434873,
+    "title": "It Stains the Sands Red",
+    "bereitsVorhandenAufKanal": "Screamtime"
+  },
+  {
+    "videoId": "Z7Gbw_RgpJ8",
+    "youtubeTitle": "Liebe im Weihnachtspark (Romantischer WEIHNACHTSFILM mit DOLLY PARTON auf Deutsch, Weihnachtsfilme)",
+    "channelName": "Netzkino",
+    "tmdbId": 626309,
+    "title": "Liebe im Weihnachtspark",
+    "bereitsVorhandenAufKanal": "Wolkesieben"
+  },
+  {
+    "videoId": "5pkFEmZSlmU",
+    "youtubeTitle": "[HD] A Champion Heart - Freunde fürs Leben (Pferdefilm, komplettes Familiendrama auf Deutsch)",
+    "channelName": "Highresworld Deutsch",
+    "tmdbId": 500705,
+    "title": "A Champion Heart - Freunde fürs Leben",
+    "bereitsVorhandenAufKanal": "Fantasja"
+  },
+  {
+    "videoId": "izCTzvYOj7c",
+    "youtubeTitle": "Brado | Vertrauen braucht Mut | Ganzer Film 4K",
+    "channelName": "Deutsch Film Hub",
+    "tmdbId": 770719,
+    "title": "Brado",
+    "bereitsVorhandenAufKanal": "Alle Filme Auf Deutsch"
+  },
+  {
+    "videoId": "BNG225AmmmY",
+    "youtubeTitle": "Der Siebente ist dran | Randolph Scott | Westernfilm | 4K | Abenteuer | Deutsch",
+    "channelName": "Grjngo Westernfilme",
+    "tmdbId": 26502,
+    "title": "Der Siebente ist dran",
+    "bereitsVorhandenAufKanal": "Grjngo Westernfilme"
+  },
+  {
+    "videoId": "3XkY9UVZwqo",
+    "youtubeTitle": "Rififi in St. Louis | 1959 | Koloriert | Steve McQueen | Ganzer Film auf Deutsch",
+    "channelName": "Artflix",
+    "tmdbId": 5926,
+    "title": "Rififi in St. Louis",
+    "bereitsVorhandenAufKanal": "Artflix"
+  },
+  {
+    "videoId": "KGSatE_KBj4",
+    "youtubeTitle": "Ein tödlicher Auftrag wird zur Falle: Shaolin - Eine Faust die tötet (1977) (HD)",
+    "channelName": "Hakunan",
+    "tmdbId": 167704,
+    "title": "Shaolin - Eine Faust die tötet",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "Njl_3RWnjzU",
+    "youtubeTitle": "BRUTALER KUNG-FU-KLASSIKER – SHAOLIN – EINE FAUST DIE TÖTET: Rache ohne Gnade! (Asiatische Filme)",
+    "channelName": "Bulldox",
+    "tmdbId": 167704,
+    "title": "Shaolin - Eine Faust die tötet",
+    "bereitsVorhandenAufKanal": "CiNENET Deutschland"
+  },
+  {
+    "videoId": "YJtpAfL0XBQ",
+    "youtubeTitle": "Galgenvögel - Wyoming Renegades (1955) | Ganzer Film auf Deutsch",
+    "channelName": "Absolute Action",
+    "tmdbId": 111421,
+    "title": "Galgenvögel",
+    "bereitsVorhandenAufKanal": "Dzango"
+  },
+  {
+    "videoId": "nUuItWjPxKg",
+    "youtubeTitle": "🔥 EIN COP GEGEN ZWEI SKRUPELLOSE KILLER! Ein gnadenloser Krimi voller Action und Spannung",
+    "channelName": "Unfassbare Filme",
+    "tmdbId": 69569,
+    "title": "The 44 Specialist",
+    "bereitsVorhandenAufKanal": "Unfassbare Filme"
+  },
+  {
+    "videoId": "QgdQIiTuRVU",
+    "youtubeTitle": "Manaos – Die Sklaventreiber vom Amazonas",
+    "channelName": "Artflix",
+    "tmdbId": null,
+    "title": "Manaos – Die Sklaventreiber vom Amazonas",
+    "hinweis": "bei YouTube nicht mehr abspielbar (geloescht), durch anderen Upload ersetzt"
   }
 ]

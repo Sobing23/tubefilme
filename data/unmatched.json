@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "videoId": "v8lwx5ozepA",
+    "youtubeTitle": "Als die Uhr 13 schlug, geschah etwas Unglaubliches! Ein magisches Abenteuer für die ganze Familie!",
+    "suchbegriff": "Als die Uhr 13 schlug, geschah etwas Unglaubliches! Ein magisches Abenteuer für die ganze Familie!",
+    "erwartetesJahr": null,
+    "grund": "Schwache Übereinstimmung (Wert 83) ohne Bestätigung durch Titel, Jahr oder Besetzung",
+    "tmdbTopKandidat": {
+      "id": 77945,
+      "title": "Tom's geheimer Garten - Als die Uhr 13 schlug",
+      "release_date": "1999-07-02"
+    }
+  }
+]

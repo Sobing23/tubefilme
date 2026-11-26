@@ -3822,5 +3822,15 @@
     "title": "Power of Rome",
     "tmdbId": 799299,
     "channelName": "Kino Deutsch"
+  },
+  {
+    "datum": "2026-11-26",
+    "quelle": "filme.json",
+    "grund": "TMDB-Genre Dokumentarfilm",
+    "videoId": "VdbdKDSEh-o",
+    "youtubeTitle": "POWER OF ROME | GANZER FILM | 4K | Das Imperium im Stadtbild",
+    "title": "Power of Rome",
+    "tmdbId": 799299,
+    "channelName": "Alle Filme Auf Deutsch"
   }
 ]
