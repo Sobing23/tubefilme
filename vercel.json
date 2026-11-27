@@ -1930,6 +1930,11 @@
       "source": "/film/las-vegas-die-verrueckteste-nacht-ihres-lebens-filme-deutsch",
       "destination": "/film/bachelor-night-auf-nach-vegas",
       "permanent": true
+    },
+    {
+      "source": "/film/santas-wunsch-zu-weihnachten",
+      "destination": "/film/santas-wunsch-zu-weihnachten-2",
+      "permanent": true
     }
   ]
 }

@@ -6148,7 +6148,10 @@
     "slug": "breakout",
     "plausibel": "titel",
     "runtime": 89,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-27"
   },
   {
     "videoId": "dXg9oWMlgos",
@@ -22500,7 +22503,10 @@
     "slug": "hauptsache-baeren",
     "plausibel": "titel",
     "runtime": 90,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-27"
   },
   {
     "videoId": "q3Aojvwt250",
@@ -48448,12 +48454,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "wS0wT7ic3S0",
-    "youtubeTitle": "Sharktopus vs. Whalewolf (ACTION ganzer Film Deutsch, Actionfilme komplett in voller Länge)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/wS0wT7ic3S0/hqdefault.jpg",
+    "videoId": "Vc4WwDSshvU",
+    "youtubeTitle": "Sharktopus vs. Whalewolf (2015) [Horror] [Sci-Fi] 🦈🐺 Schlacht der Giganten 💥 Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/Vc4WwDSshvU/hqdefault.jpg",
     "duration": "PT1H27M3S",
     "publishedAt": "2022-03-18T18:00:20Z",
-    "channelName": "Netzkino",
+    "channelName": "CiNENET Deutschland",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 344147,
     "title": "Sharktopus vs. Whalewolf",
@@ -192018,9 +192024,9 @@
     "nichtVerfuegbarSeit": "2026-10-15"
   },
   {
-    "videoId": "Aqbi3K8B3Qc",
-    "youtubeTitle": "Reise in zauberhafte Kindheitserinnerungen | Tom's geheimer Garten | Filme Deutsch Komplett",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Aqbi3K8B3Qc/hqdefault.jpg",
+    "videoId": "v8lwx5ozepA",
+    "youtubeTitle": "Als die Uhr 13 schlug, geschah etwas Unglaubliches! Ein magisches Abenteuer für die ganze Familie!",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/v8lwx5ozepA/hqdefault.jpg",
     "duration": "PT1H42M38S",
     "publishedAt": "2026-04-23T16:00:29Z",
     "channelName": "KinoWucht",
@@ -192041,10 +192047,7 @@
     "director": [],
     "writer": [],
     "fsk": null,
-    "slug": "tom-s-geheimer-garten",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-10-15"
+    "slug": "tom-s-geheimer-garten"
   },
   {
     "videoId": "gcnu039Scpg",
@@ -243481,7 +243484,10 @@
       "上田慎一郎"
     ],
     "fsk": "16",
-    "slug": "one-cut-of-the-dead"
+    "slug": "one-cut-of-the-dead",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-27"
   },
   {
     "videoId": "6k0xYWPFsn8",
@@ -342234,37 +342240,6 @@
     "slug": "prince-of-persia-die-legende-von-omar-kinderfilme"
   },
   {
-    "videoId": "uF-X0kPrkB8",
-    "youtubeTitle": "Santas Wunsch zu Weihnachten 🎄 (Weihnachtsfilm, Familienfilm, kostenlos, ganze Weihnachtsfilm)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/uF-X0kPrkB8/hqdefault.jpg",
-    "duration": "PT1H26M27S",
-    "publishedAt": "2016-06-07T14:00:02Z",
-    "channelName": "Nanoki",
-    "channelId": "UCF2IFFQyO5gbhvOCObh1WTQ",
-    "tmdbId": null,
-    "title": "Santas Wunsch zu Weihnachten",
-    "originalTitle": null,
-    "overview": "INHALTSANGABE: Santa Claus ist traurig. Die Menschen auf der Erde sind ihm allesamt zu gierig und zu habsüchtig geworden. Also beschliesst er seinen Job an den Nagel zu hängen. Doch seine Tochter Kristen will das nicht wahrhaben. Also schlägt sie ihrem Vater vor, dass, wenn sie es schafft, eine der 'bösen' Familien auf der Erde wieder zu den 'guten' zu machen, er sich die Sache nochmal überlegt. Santa willigt ein und Kristen macht sich auf den Weg zu Erde. Doch ihre böse Schwester Rudolpha hat andere Pläne und probiert Kristen mit aller Macht zu behindern. Wird sie es trotzdem noch schaffen?",
-    "releaseDate": null,
-    "posterUrl": null,
-    "backdropUrl": null,
-    "voteAverage": null,
-    "genreIds": [],
-    "matchSource": "youtube",
-    "matchConfidence": "youtube",
-    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
-    "cast": [
-      "Kathy Ireland",
-      "John Dye"
-    ],
-    "director": [
-      "Tibor Takacs"
-    ],
-    "writer": [],
-    "fsk": null,
-    "slug": "santas-wunsch-zu-weihnachten"
-  },
-  {
     "videoId": "GO58WJQGbcI",
     "youtubeTitle": "Brüderchen & Schwesterchen (Michael Schanze, Märchenfilm, Familienfilm, komplett auf deutsch)",
     "youtubeThumbnail": "https://i.ytimg.com/vi/GO58WJQGbcI/hqdefault.jpg",
@@ -342897,7 +342872,10 @@
     ],
     "writer": [],
     "fsk": null,
-    "slug": "ursula-andress-in-ich-polier-dir-deine-glatze"
+    "slug": "ursula-andress-in-ich-polier-dir-deine-glatze",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-27"
   },
   {
     "videoId": "IdZLDixrGQ4",
@@ -352417,5 +352395,349 @@
     ],
     "fsk": "18",
     "slug": "der-mann-mit-dem-karateschlag"
+  },
+  {
+    "videoId": "pup3i7NfUdI",
+    "youtubeTitle": "🎬GANZER FILM 😢 Eine Unerwartete Schwangerschaft Stellt Das Leben Eines Reiferen Paares Auf Den Kopf",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/pup3i7NfUdI/hqdefault.jpg",
+    "duration": "PT1H29M33S",
+    "publishedAt": "2026-11-26T16:55:11Z",
+    "channelName": "NEORA",
+    "channelId": "UC2MtVsxZ4v7mnC7W_WHeR4w",
+    "tmdbId": 104613,
+    "title": "Love Lessons",
+    "originalTitle": "Love Lessons",
+    "overview": "",
+    "releaseDate": "2000-11-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/u0WV2I60BtJmUzr9jEVYfgRBRzY.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/matUO5O6Aprw5X2hrue3xdsR6wi.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      18,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Mehrdeutiger Titel (3 Filme) -- Laufzeit entschied: TMDB 97 min, Video 90 min · Zuordnungswert 98 (Suchbegriff: \"Love Lessons\")",
+    "runtime": 97,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Patty Duke",
+      "Ronny Cox",
+      "Max Martini",
+      "Rebecca Jenkins",
+      "Michael David Simms"
+    ],
+    "director": [
+      "Douglas Barr"
+    ],
+    "writer": [
+      "Jill Gascoine",
+      "Judith Feldman",
+      "Sarah Woodside Gallagher"
+    ],
+    "fsk": null,
+    "slug": "love-lessons"
+  },
+  {
+    "videoId": "ZrBA6bY-w-E",
+    "youtubeTitle": "Düsterer Horror-Thriller | Die Frau in Schwarz 2: Engel des Todes, ganzer Film auf Deutsch kostenlos",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ZrBA6bY-w-E/hqdefault.jpg",
+    "duration": "PT1H38M46S",
+    "publishedAt": "2026-11-26T19:15:07Z",
+    "channelName": "Free Films Action",
+    "channelId": "UC40R8fSroyRd52QDEBf4Mqw",
+    "tmdbId": 288158,
+    "title": "Die Frau in Schwarz 2: Engel des Todes",
+    "originalTitle": "The Woman in Black 2: Angel of Death",
+    "overview": "Großbritannien im Zweiten Weltkrieg: Das Eel Marsh Haus im abgelegenen Dorf Crythin Gifford steht schon seit Jahren leer – zumindest scheint es so, als dort die Lehrerin Eve Parkins und die Direktorin Jean Hogg mit einer Gruppe von acht Schulkindern ankommen. Deren Eltern können London nicht verlassen, haben keine Verwandten außerhalb und schicken ihre Kinder daher zum Schutz vor den Zerstörungen des Krieges weg. Doch das Herrenhaus ist kein sicheres Versteck für die vom Krieg verängstigten Kinder. Denn 40 Jahre nach der ersten Heimsuchung der totgeglaubten Frau in Schwarz wird die dunkle Vergangenheit der alten Gemäuer wieder heraufbeschworen, der Engel des Todes erwacht erneut. Mit Hilfe des Piloten Harry Burnstow versucht Eve alles, um die Kinder, die sich immer merkwürdiger verhalten, zu beschützen und die mysteriöse Geschichte der Frau in Schwarz zu enträtseln…",
+    "releaseDate": "2014-12-30",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bD2a705KZCgPzCrCYzg0D14Jya1.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/4qd3DjdLHetJMR7wKA9ufK6eG9j.jpg",
+    "voteAverage": 5.2,
+    "genreIds": [
+      53,
+      27,
+      18
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 135 (Suchbegriff: \"Die Frau in Schwarz 2: Engel des Todes\")",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Phoebe Fox",
+      "Helen McCrory",
+      "Jeremy Irvine",
+      "Oaklee Pendergast",
+      "Ned Dennehy"
+    ],
+    "director": [
+      "Tom Harper"
+    ],
+    "writer": [
+      "Jon Croker",
+      "Susan Hill"
+    ],
+    "fsk": "16",
+    "slug": "die-frau-in-schwarz-2-engel-des-todes"
+  },
+  {
+    "videoId": "GB7foD_Xlyg",
+    "youtubeTitle": "Jet Li - Kung Fu Cult Master (Martial-Arts ganzer Film in voller länge Deutsch)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/GB7foD_Xlyg/hqdefault.jpg",
+    "duration": "PT1H43M22S",
+    "publishedAt": "2026-11-26T11:00:06Z",
+    "channelName": "weloadtv",
+    "channelId": "UC5E67gM-Us3gQBhNPiAg0Xg",
+    "tmdbId": 18725,
+    "title": "Jet Li is The Hero",
+    "originalTitle": "給爸爸的信",
+    "overview": "Jet Li spielt einen Polizist der Undercover gegen einen Schmugglerring ermittelt: Zu allem übel wird er noch von Anita Mui verfolgt, die als Inspektorin der Hongkonger Polizei arbeitet. Als Jet Lis schwerkranke Frau stirbt, beschließt er seinen kleinen Sohn mit sich zu nehmen. Als Anita Mui von seinem Schicksal erfährt, beschließt sie, zusammen mit Jet Li und seinem Sohn zu arbeiten. Jet Li schafft es sogar soweit, dass er in die Organisation eingeschleust wird, doch es kommt zu Problemen, als Mitglieder des Schmugglerrings einen kleinen Spion erwischen, der aber in Wirklichkeit Je Lis Sohn ist. Jet Li soll den kleinen Jungen vor den Augen des Anführers umbringen...",
+    "releaseDate": "1995-02-08",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9obaHn6QhCA0jL1cvhb3dRwTSB8.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/gwhd2zpsk8Zy7V6pNavRyq9Izsh.jpg",
+    "voteAverage": 6.702,
+    "genreIds": [
+      28,
+      80,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 104,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jet Li",
+      "Xie Miao",
+      "Anita Mui",
+      "Blackie Ko",
+      "Yu Rongguang"
+    ],
+    "director": [
+      "Corey Yuen"
+    ],
+    "writer": [
+      "Wong Jing",
+      "Sandy Shaw"
+    ],
+    "fsk": "18",
+    "slug": "jet-li-is-the-hero"
+  },
+  {
+    "videoId": "23Pa8SpjMTw",
+    "youtubeTitle": "Santas Wunsch zu Weihnachten (ROMANTISCHE KOMÖDIE zu Weihnachten, Weihnachtsfilme Deutsch komplett)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/23Pa8SpjMTw/hqdefault.jpg",
+    "duration": "PT1H25M59S",
+    "publishedAt": "2026-11-26T18:00:33Z",
+    "channelName": "Netzkino",
+    "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
+    "tmdbId": 80376,
+    "title": "Santas Wunsch zu Weihnachten",
+    "originalTitle": "Once Upon A Christmas",
+    "overview": "Santa Claus ist von den Vorbereitungen für das Weihnachtsfest gestresst – sehr zum Ärger seiner Tochter Rudolfa, die das Fest nicht ausstehen kann und es abschaffen möchte. Der erste Schritt in diese Richtung ist der Verkauf sämtlicher Gegenstände der Weihnachtsstadt “Nordpol”. Glücklicherweise fällt eines der Objekte in die Hände von Kristin, der guten Tochter von Santa Claus, die ihre Familie und Heimat vergaß. Santa Claus hat zwei Töchter: die gute Kristin und die böse Rudolfa, die von Weihnachten genug hat und es abschaffen will. Seit dem letzten Fest lebt Kristin bei dem Witwer Bill und dessen Kindern Brittany und Kyle. Gerne würde Kristin ihn heiraten, doch sie kann es nicht, weil sie nicht mehr weiß, wer sie ist. Während alle versuchen, ihre Identität aufzuklären, beginnt in der Weihnachtsstadt “Nordpol” der Ausverkauf...",
+    "releaseDate": "2000-12-10",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/7ry6jylDli1hnesDC8h1QwLbqy2.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/rhYcuJVMekckBwKg05srdL7qLlF.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      10770,
+      10751,
+      35,
+      14
+    ],
+    "matchSource": "originaltitel+jahr",
+    "matchConfidence": "hoch",
+    "runtime": 90,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "John Dye",
+      "Kathy Ireland",
+      "Mary Donnelly-Haskell",
+      "Liz Torres",
+      "James Kirk"
+    ],
+    "director": [
+      "Tibor Takács"
+    ],
+    "writer": [
+      "Steven H. Berman"
+    ],
+    "fsk": null,
+    "slug": "santas-wunsch-zu-weihnachten-2"
+  },
+  {
+    "videoId": "UeU6cAtvA_k",
+    "youtubeTitle": "Katakomben des Grauens | 1959 | Remastered | Ken Clark | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/UeU6cAtvA_k/hqdefault.jpg",
+    "duration": "PT1H2M28S",
+    "publishedAt": "2026-11-26T18:00:31Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 22718,
+    "title": "Katakomben des Grauens",
+    "originalTitle": "Attack of the Giant Leeches",
+    "overview": "Nahe eines Sumpfgebietes in Florida verschwinden immer wieder Menschen, die von unbekannten Wesen unter Wasser gezogen werden. Dem ersten ernsthaften Zeugen glaubt jedoch niemand, stattdessen wird er als Mörder verdächtigt, auch wenn man noch keine einzige Leiche gefunden hat.  Die bringt eine Explosion ans Tageslicht und die Verursacher gleich mit: auf gigantische Größe mutierte Blutegel...",
+    "releaseDate": "1959-07-15",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lIrLcsUPF0UiK3oKxcPvLROn6Dx.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/z9yXcMBSq2UUBgM8h1V92sD7NZN.jpg",
+    "voteAverage": 4.039,
+    "genreIds": [
+      27,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 62,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Ken Clark",
+      "Yvette Vickers",
+      "Jan Shepard",
+      "Michael Emmet",
+      "Tyler McVey"
+    ],
+    "director": [
+      "Bernard L. Kowalski"
+    ],
+    "writer": [
+      "Leo Gordon"
+    ],
+    "fsk": "16",
+    "slug": "katakomben-des-grauens"
+  },
+  {
+    "videoId": "MTsBB8e_h4o",
+    "youtubeTitle": "Black Friday - Überlebenschance stark reduziert! - Horrorfilm mit Bruce Campbell - Ganzer Film",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/MTsBB8e_h4o/hqdefault.jpg",
+    "duration": "PT1H24M23S",
+    "publishedAt": "2026-11-26T15:00:17Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 765869,
+    "title": "Black Friday - Überlebenschance stark reduziert!",
+    "originalTitle": "Black Friday",
+    "overview": "In der Nacht von Thanksgiving kommt eine Gruppe verärgerter Angestellter eines Spielzeugladens widerwillig zur Arbeit, um den Laden um Mitternacht für den geschäftigsten Einkaufstag des Jahres zu öffnen. Währenddessen stürzt ein außerirdischer Parasit mit einem Meteor auf die Erde. Die Gruppe von Außenseitern, angeführt von Filialleiter Jonathan (Bruce Campbell) und dem langjährigen Angestellten Ken (Devon Sawa), findet sich bald im Kampf gegen Horden von Weihnachtseinkäufern wieder, die sich in monströse Kreaturen verwandelt haben, die am Black Friday einen mörderischen Amoklauf veranstalten wollen.",
+    "releaseDate": "2021-11-19",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vf9Ex4EwSPlwbva4ZJdljsQQOML.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/pinPGZW5r9SOFNlSLugpdLwvdyD.jpg",
+    "voteAverage": 4.9,
+    "genreIds": [
+      27,
+      35,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Devon Sawa",
+      "Ivana Baquero",
+      "Ryan Lee",
+      "Stephen Amethyst Peck",
+      "Michael Jai White"
+    ],
+    "director": [
+      "Casey Tebo"
+    ],
+    "writer": [
+      "Andy Greskoviak"
+    ],
+    "fsk": null,
+    "slug": "black-friday-ueberlebenschance-stark-reduziert"
+  },
+  {
+    "videoId": "M4yWgHq0InE",
+    "youtubeTitle": "LEGENDÄRER WESTERN – DIE LETZTE KUGEL: Ein Mann kämpft gegen die mächtigste Familie! (Westernfilm)",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/M4yWgHq0InE/hqdefault.jpg",
+    "duration": "PT1H21M17S",
+    "publishedAt": "2026-11-26T14:00:22Z",
+    "channelName": "Bronco",
+    "channelId": "UCpypMfxKgMf8uxYjlxKwumA",
+    "tmdbId": 445341,
+    "title": "Die letzte Kugel",
+    "originalTitle": "Day of the Badman",
+    "overview": "Ein Richter, der einen Mörder verurteilt hat, wird von dessen Brüdern und Gangsterfreunden bedroht und setzt trotzdem furchtlos die Hinrichtung durch.",
+    "releaseDate": "1958-01-29",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zvIyPKH0SHxEdH8lnssjOxu6eXj.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/dW26rrU8FU9R9nQxbfVYzQyq3Of.jpg",
+    "voteAverage": 6.9,
+    "genreIds": [
+      37
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 81,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Fred MacMurray",
+      "Joan Weldon",
+      "John Ericson",
+      "Robert Middleton",
+      "Marie Windsor"
+    ],
+    "director": [
+      "Harry Keller"
+    ],
+    "writer": [
+      "John W. Cunningham",
+      "Lawrence Roman"
+    ],
+    "fsk": null,
+    "slug": "die-letzte-kugel"
+  },
+  {
+    "videoId": "8dq6Cgx0qvo",
+    "youtubeTitle": "Tödliche Besessenheit: Kann sie der Schwiegermutter entkommen? | Psychothriller",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8dq6Cgx0qvo/hqdefault.jpg",
+    "duration": "PT1H27M10S",
+    "publishedAt": "2026-11-26T18:00:10Z",
+    "channelName": "Free Movies Deutschland",
+    "channelId": "UCzEM7lABab3RcmVAZXbYhig",
+    "tmdbId": 382945,
+    "title": "Tödliche Besessenheit",
+    "originalTitle": "Tödliche Besessenheit",
+    "overview": "Ein deutsches TV-Drama",
+    "releaseDate": "1994-10-09",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": 4.3,
+    "genreIds": [
+      18,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "mittel",
+    "hinweis": "Zuordnungswert 121 (Suchbegriff: \"Tödliche Besessenheit\")",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Nicole Heesters",
+      "Thomas Kretschmann",
+      "Eberhard Feik",
+      "Claudia Michelsen",
+      "Patricia Tiedke"
+    ],
+    "director": [
+      "Peter Patzak"
+    ],
+    "writer": [
+      "Knut Boeser"
+    ],
+    "fsk": null,
+    "posterGeprueft": "2026-11-27",
+    "slug": "toedliche-besessenheit"
   }
 ]
