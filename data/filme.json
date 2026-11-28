@@ -6778,12 +6778,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "3sDfDon2U_E",
-    "youtubeTitle": "Anchorman - Die Legende von Ron Burgundy (KOMÖDIE mit WILL FERRELL, ganzer Film auf Deutsch)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/3sDfDon2U_E/hqdefault.jpg",
+    "videoId": "L9OMtDMku7k",
+    "youtubeTitle": "Anchorman - Die Legende von Ron Burgundy | 2004 | Will Ferrell | Komödie auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/L9OMtDMku7k/hqdefault.jpg",
     "duration": "PT1H34M5S",
     "publishedAt": "2026-02-14T18:00:04Z",
-    "channelName": "Netzkino",
+    "channelName": "Bigtime",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 8699,
     "title": "Anchorman - Die Legende von Ron Burgundy",
@@ -7138,7 +7138,10 @@
     "slug": "jimmy-neutron-der-mutige-erfinder",
     "plausibel": "titel",
     "runtime": 83,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "P2QIaL7ikhE",
@@ -7483,7 +7486,10 @@
     "slug": "clueless-was-sonst",
     "plausibel": "titel",
     "runtime": 97,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "Wc8aP79PMzk",
@@ -7747,12 +7753,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "Ay2GFWZVXx0",
-    "youtubeTitle": "Wayne's World (KOMÖDIE ganzer Film Deutsch, Comedy Filme Deutsch komplett, Komödien in voller Länge)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Ay2GFWZVXx0/hqdefault.jpg",
+    "videoId": "4_eoizO3u6M",
+    "youtubeTitle": "Wayne's World | 1992 | 4K | Mike Myers | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/4_eoizO3u6M/hqdefault.jpg",
     "duration": "PT1H34M23S",
     "publishedAt": "2026-01-24T16:00:29Z",
-    "channelName": "Netzkino",
+    "channelName": "Bigtime",
     "channelId": "UCGkHFrwE8KEuOHPVsIOskAg",
     "tmdbId": 8872,
     "title": "Wayne's World",
@@ -9615,7 +9621,10 @@
     "slug": "eine-wie-keine",
     "plausibel": "titel",
     "runtime": 95,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "l35rZZgqinQ",
@@ -66113,7 +66122,10 @@
     "slug": "happy-christmas",
     "plausibel": "titel",
     "runtime": 82,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "EmBGLmyrwus",
@@ -87508,7 +87520,10 @@
     "slug": "der-gnadenlose-ritt",
     "plausibel": "titel",
     "runtime": 88,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "4y2gxIcq8WY",
@@ -89882,12 +89897,12 @@
     "plausibelVersion": 4
   },
   {
-    "videoId": "9ISb--jkGaU",
-    "youtubeTitle": "Monk Comes Down the Mountain | Kung-Fu, Weisheit & Action – GANZER FILM",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/9ISb--jkGaU/hqdefault.jpg",
+    "videoId": "NTCJ8SzSysA",
+    "youtubeTitle": "Monk Comes Down the Mountain (2015) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/NTCJ8SzSysA/hqdefault.jpg",
     "duration": "PT1H53M41S",
     "publishedAt": "2025-12-31T18:30:20Z",
-    "channelName": "Dzango",
+    "channelName": "Absolute Action",
     "channelId": "UCCBbsGwGocrKCPmUeu2GMhQ",
     "tmdbId": 345235,
     "title": "Monk Comes Down The Mountain",
@@ -89922,10 +89937,7 @@
     "slug": "monk-comes-down-the-mountain",
     "plausibel": "titel",
     "runtime": 113,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-10-13"
+    "plausibelVersion": 4
   },
   {
     "videoId": "_daaifRFmHo",
@@ -97541,12 +97553,12 @@
     "nichtVerfuegbarSeit": "2026-10-13"
   },
   {
-    "videoId": "Bd-60mX7uMQ",
-    "youtubeTitle": "Gangster gegen Karatekämpfer: Die Rache des Karatetigers (1973) (HD)",
-    "youtubeThumbnail": "https://i.ytimg.com/vi/Bd-60mX7uMQ/hqdefault.jpg",
+    "videoId": "zUFCWAWUWAA",
+    "youtubeTitle": "Die Rache des Karatetigers | MARTIAL ARTS KLASSIKER, Actionfilme auf Deutsch, Action Klassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/zUFCWAWUWAA/hqdefault.jpg",
     "duration": "PT1H33M51S",
     "publishedAt": "2026-06-08T16:00:06Z",
-    "channelName": "CrimeStar",
+    "channelName": "Retroflix",
     "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
     "tmdbId": 158833,
     "title": "Die Rache des Karatetigers",
@@ -97581,10 +97593,7 @@
     "slug": "die-rache-des-karatetigers",
     "plausibel": "titel",
     "runtime": 85,
-    "plausibelVersion": 4,
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "gesperrt_de",
-    "nichtVerfuegbarSeit": "2026-11-16"
+    "plausibelVersion": 4
   },
   {
     "videoId": "3JCm_6HDIR0",
@@ -118604,7 +118613,10 @@
     "slug": "der-jane-austen-club",
     "plausibel": "titel",
     "runtime": 106,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "WLf1KFF7xsw",
@@ -121523,7 +121535,10 @@
     "slug": "der-flug-der-rentiere",
     "plausibel": "titel",
     "runtime": 100,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "Vsg_2kP87SA",
@@ -167818,7 +167833,10 @@
     "fsk": "16",
     "slug": "flying-virus-ein-stich-und-du-bist-tot",
     "runtime": 95,
-    "plausibelVersion": 4
+    "plausibelVersion": 4,
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_oeffentlich",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "KqHhkIcRF5g",
@@ -313880,7 +313898,10 @@
       "Sebastian Gutierrez"
     ],
     "fsk": "16",
-    "slug": "der-todesengel-aus-der-tiefe"
+    "slug": "der-todesengel-aus-der-tiefe",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "geloescht",
+    "nichtVerfuegbarSeit": "2026-11-28"
   },
   {
     "videoId": "1I9TviSNCGQ",
@@ -345754,10 +345775,7 @@
       "Franz Seitz Junior"
     ],
     "fsk": "6",
-    "slug": "der-kapitaen",
-    "verfuegbar": false,
-    "nichtVerfuegbarGrund": "geloescht",
-    "nichtVerfuegbarSeit": "2026-11-23"
+    "slug": "der-kapitaen"
   },
   {
     "videoId": "Wovh_BFFvm8",
@@ -352739,5 +352757,407 @@
     "fsk": null,
     "posterGeprueft": "2026-11-27",
     "slug": "toedliche-besessenheit"
+  },
+  {
+    "videoId": "ba-AhCR7BVs",
+    "youtubeTitle": "Die perfekte Weihnachtshochzeit | ganzer Weihnachtsfilm auf Deutsch | mit Jessica Lowndes",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/ba-AhCR7BVs/hqdefault.jpg",
+    "duration": "PT1H28M10S",
+    "publishedAt": "2026-11-27T15:30:38Z",
+    "channelName": "Kixi - Familienfilme",
+    "channelId": "UC4lbM0AqXtucqPY1ses71Sg",
+    "tmdbId": 363479,
+    "title": "Die perfekte Weihnachtshochzeit",
+    "originalTitle": "Merry Matrimony",
+    "overview": "Brie, Art-Direktorin eines Modemagazins, landet ihren Traumauftrag. Sie soll die perfekte Weihnachtshochzeit organisieren. Es gibt nur einen Haken. Der Fotograf, mit dem sie zusammenarbeiten muss, ist ihr Exfreund Eddie. Während sie im Job in Bestform sein muss, kämpft sie mit Gefühlen aus ihrer Vergangenheit.",
+    "releaseDate": "2015-11-22",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/cgIbXIZOxKt2F9wojCl50fbDBTB.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/d9w9xuwx563jVvCx9HZorcJQUeo.jpg",
+    "voteAverage": 5.8,
+    "genreIds": [
+      10749,
+      10770
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 84,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jessica Lowndes",
+      "Christopher Russell",
+      "Farrah Aviva",
+      "Jennifer Gibson",
+      "David Reale"
+    ],
+    "director": [
+      "John Bradshaw"
+    ],
+    "writer": [
+      "Rickie Castaneda"
+    ],
+    "fsk": "6",
+    "verfuegbar": false,
+    "nichtVerfuegbarGrund": "nicht_einbettbar",
+    "nichtVerfuegbarSeit": "2026-11-28",
+    "slug": "die-perfekte-weihnachtshochzeit"
+  },
+  {
+    "videoId": "CExOLUwmMVo",
+    "youtubeTitle": "Verbrechen nach Schulschluß | 1959 | Peter van Eyck | Krimi | Filmklassiker",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/CExOLUwmMVo/hqdefault.jpg",
+    "duration": "PT1H40M39S",
+    "publishedAt": "2026-11-27T18:00:35Z",
+    "channelName": "Artflix",
+    "channelId": "UCUVH79pnWVC6aL1_uAB3ylQ",
+    "tmdbId": 268498,
+    "title": "Verbrechen nach Schulschluss",
+    "originalTitle": "Verbrechen nach Schulschluss",
+    "overview": "Gymnasiast Fabian König fliegt von der Schule und gründet eine Bande, die sich auf Diebstähle spezialisiert. Er verliebt sich in das Waisenmädchen Ulla, die ihn jedoch abweist, als sie erfährt, womit er seine Zeit verbringt. Als der Zuhälter Horst versucht, Ulla zu vergewaltigen, wird sie von Fabian gerettet. Kurz darauf wird Horsts Leiche gefunden und Fabian aufgrund der Falschaussage einer Zeugin für den Mord verurteilt. Im Gefängnis fasst er Zutrauen zum Gefängnisarzt Dr. Knittel, der ihm glaubt und die wahre Schuldige entlarven kann.",
+    "releaseDate": "1959-06-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dH2nNDlkCSJ2kK7sHbhYxSARrLv.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/yKNBRR7vxS8u1Zd4dkNg5jJ1Rxt.jpg",
+    "voteAverage": 7,
+    "genreIds": [
+      80,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 106,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Peter van Eyck",
+      "Christian Wolff",
+      "Heidi Brühl",
+      "Corny Collins",
+      "Hans Nielsen"
+    ],
+    "director": [
+      "Alfred Vohrer"
+    ],
+    "writer": [
+      "Harald G. Petersson"
+    ],
+    "fsk": null,
+    "slug": "verbrechen-nach-schulschluss"
+  },
+  {
+    "videoId": "8AUKxsnBKWs",
+    "youtubeTitle": "Life in a Year (2020) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/8AUKxsnBKWs/hqdefault.jpg",
+    "duration": "PT1H47M54S",
+    "publishedAt": "2026-11-27T17:00:38Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": 447362,
+    "title": "Life in a Year",
+    "originalTitle": "Life in a Year",
+    "overview": "Der 17-jährige Daryn lernt die sterbenskranke Isabelle kennen und verliebt sich in sie. Da Isabelle nur noch ein Jahr zu leben hat, beschließt Daryn, jeden Tag mit einzigartigen Erinnerungen und besonderen Erlebnissen zu füllen.",
+    "releaseDate": "2020-11-27",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bP7u19opmHXYeTCUwGjlLldmUMc.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/u6aGN71Hx39iX8Uv4ILRRKHmAXc.jpg",
+    "voteAverage": 8.219,
+    "genreIds": [
+      18,
+      10749
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 107,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Jaden Smith",
+      "Cara Delevingne",
+      "Cuba Gooding Jr.",
+      "Chris D'Elia",
+      "JT Neal"
+    ],
+    "director": [
+      "Mitja Okorn"
+    ],
+    "writer": [
+      "Jeffrey Addiss",
+      "Will Matthews"
+    ],
+    "fsk": "12",
+    "slug": "life-in-a-year"
+  },
+  {
+    "videoId": "EZlUQMwl-FA",
+    "youtubeTitle": "Northlander - Der Krieg der Clans | Ein Kämpfer stellt sich einer brutalen Horde | ganzer Film in HD",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/EZlUQMwl-FA/hqdefault.jpg",
+    "duration": "PT1H37M20S",
+    "publishedAt": "2026-11-28T08:00:00Z",
+    "channelName": "Planet Movies",
+    "channelId": "UCX3NCdUnrT8ATnPAicwQ6cw",
+    "tmdbId": 412280,
+    "title": "Northlander - Der Krieg der Clans",
+    "originalTitle": "The Northlander",
+    "overview": "Im Jahr 2961: Das Zeitalter der Menschen ist vorbei und die Natur erobert sich Stück für Stück sein Reich zurück. Der Krieger Cygnus wurde von seiner Matriarchin Nova auserwählt, seinen an Hunger leidenden Stamm \"Die letzte Arche\" zu retten. Dafür muss der Krieger durch die Wüste, dort soll er einen wilden Clan, der seinen Stamm vernichten will, vernichten. Doch im geheimnisvollen Land des Feindes trifft er nicht nur auf Gegner, sondern auch auf ein Geheimnis aus der Vergangenheit der Menschen - dieses Geheimnis weckt neue Hoffnungen.",
+    "releaseDate": "2016-10-14",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hM6YgSol6pqSXyWoze1d8EiYoVf.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/Uj8kB5siJJRX9gY7nx1ufBMYQY.jpg",
+    "voteAverage": 4.2,
+    "genreIds": [
+      12,
+      14,
+      878
+    ],
+    "matchSource": "originaltitel-ohne-jahr",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 98,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Corey Sevier",
+      "Roseanne Supernault",
+      "Michelle Thrush",
+      "Nathaniel Arcand",
+      "Julian Black Antelope"
+    ],
+    "director": [
+      "Benjamin Ross Hayden"
+    ],
+    "writer": [
+      "Benjamin Ross Hayden"
+    ],
+    "fsk": "12",
+    "slug": "northlander-der-krieg-der-clans"
+  },
+  {
+    "videoId": "DSRKgTIpyUA",
+    "youtubeTitle": "Monstrous - packender Horrorfilm mit Christina Ricci - Ganzer Film bei Moviedome",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/DSRKgTIpyUA/hqdefault.jpg",
+    "duration": "PT1H28M40S",
+    "publishedAt": "2026-11-28T08:00:26Z",
+    "channelName": "Moviedome",
+    "channelId": "UCh4JH8axA_jUjB8YoRnm0cg",
+    "tmdbId": 811656,
+    "title": "Monstrous",
+    "originalTitle": "Monstrous",
+    "overview": "Die junge Mutter Laura möchte ihre Vergangenheit endlich hinter sich lassen. Sie zieht in ein abgelegenes Haus an einem idyllischen kleinen See, um dort mit ihrem Sohn Cody ein neues Leben zu beginnen. Doch schon in der ersten Nacht im neuen Zuhause wird Cody von einer unheimlichen Kreatur heimgesucht – eine merkwürdige Kraft hat es auf den Jungen abgesehen. Als sich die schrecklichen Ereignisse häufen, muss Laura sich schließlich ihrer größten Angst stellen",
+    "releaseDate": "2022-05-13",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vEOZlqNHRCM0ME7rRQ79Yc2apPk.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/591Cjf3DWGAcJbQYdHmRS7fHH3z.jpg",
+    "voteAverage": 5.85,
+    "genreIds": [
+      27,
+      9648,
+      53
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "hinweis": "Besetzung/Regie stimmen mit den Angaben im Video überein",
+    "runtime": 89,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Christina Ricci",
+      "Santino Barnard",
+      "Don Baldaramos",
+      "Colleen Camp",
+      "Lew Temple"
+    ],
+    "director": [
+      "Chris Sivertson"
+    ],
+    "writer": [
+      "Carol Chrest"
+    ],
+    "fsk": "16",
+    "slug": "monstrous"
+  },
+  {
+    "videoId": "jKj-Y-Yr2Vc",
+    "youtubeTitle": "Misbegotten (1998) [Thriller] [Action] | Regie: Mark L. Lester | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/jKj-Y-Yr2Vc/hqdefault.jpg",
+    "duration": "PT1H33M20S",
+    "publishedAt": "2026-11-27T17:00:11Z",
+    "channelName": "CiNENET Deutschland",
+    "channelId": "UClyuw-OWE6taGFv0reZI6eQ",
+    "tmdbId": 197649,
+    "title": "Insemination - Wiege des Grauens",
+    "originalTitle": "Misbegotten",
+    "overview": "Nur durch künstliche Befruchtung können Paul und Caitlin ein Baby haben. Als es tatsächlich gelingt, ahnen sie nicht, dass das Sperma von dem psychopathischen Massenmörder Billy stammt, der unter der Identität seines letzten Opfers zum Samenspenden angetreten war. Mit ebenso raffinierten wie brutalen Methoden gelingt es Billy herauszufinden, wer die leibliche Mutter ist. Der wahnsinnige Billy und sein Kind! Über die glückliche Familie bricht eine Zeit des Terrors herein.",
+    "releaseDate": "1998-06-23",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lL0gcNdwsLGCbWs342uJENAXwmK.jpg",
+    "backdropUrl": null,
+    "voteAverage": 3.688,
+    "genreIds": [
+      27,
+      53,
+      18
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 95,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Kevin Dillon",
+      "Nick Mancuso",
+      "Lysette Anthony",
+      "Robert Lewis",
+      "Stefan Arngrim"
+    ],
+    "director": [
+      "Mark L. Lester"
+    ],
+    "writer": [
+      "Larry Cohen"
+    ],
+    "fsk": null,
+    "slug": "insemination-wiege-des-grauens"
+  },
+  {
+    "videoId": "42SaOxPZrD8",
+    "youtubeTitle": "Kampf um die 5. Galaxis - The Humanoid (1979) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/42SaOxPZrD8/hqdefault.jpg",
+    "duration": "PT1H36M4S",
+    "publishedAt": "2026-11-27T17:00:02Z",
+    "channelName": "CineCult Reloaded",
+    "channelId": "UCwwiMLsk1AHfPU0n88BEzHg",
+    "tmdbId": 73065,
+    "title": "Kampf um die 5. Galaxis",
+    "originalTitle": "L'umanoide",
+    "overview": "25 Jahre nach Ende des letzten Krieges im All erstrebt der größenwahnsinnige Craven die Weltherrschaft. Er scheint dabei alle Trümpfe in der Hand zu haben - seine Helfeshelfer gehorchen ihm bedingungslos, weil er ihre geheimsten Gedanken kontrolliert. Einer bricht aber aus der verbrecherischen Kette aus. Es beginnt ein gnadenloser Kampf, der für die Überlebenden der 5. Galaxis nur im totalen Krieg oder im ersehnten Frieden enden kann. Wer wird der Beherrscher des \"Kappa elements\", der alles entscheidenden Waffe?",
+    "releaseDate": "1979-04-11",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mIvtpahU9ETXpQDvqORwQkdQVsR.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/w1280/eMDc7DYW2J331gU9xis2EPDer6W.jpg",
+    "voteAverage": 3.7,
+    "genreIds": [
+      14,
+      878
+    ],
+    "matchSource": "titel-fallback",
+    "matchConfidence": "hoch",
+    "runtime": 100,
+    "plausibel": "titel",
+    "plausibelVersion": 4,
+    "cast": [
+      "Richard Kiel",
+      "Corinne Cléry",
+      "Barbara Bach",
+      "Leonard Mann",
+      "Arthur Kennedy"
+    ],
+    "director": [
+      "Aldo Lado"
+    ],
+    "writer": [
+      "Adriano Bolzoni",
+      "Aldo Lado"
+    ],
+    "fsk": null,
+    "slug": "kampf-um-die-5-galaxis"
+  },
+  {
+    "videoId": "_u_Qhty_gkU",
+    "youtubeTitle": "🎄 Weihnachtsfilm für die ganze Familie | Der Zauber von Weihnachten vereinte ihre Herzen! ❤️",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/_u_Qhty_gkU/hqdefault.jpg",
+    "duration": "PT1H29M34S",
+    "publishedAt": "2026-11-26T16:00:15Z",
+    "channelName": "KinoWucht",
+    "channelId": "UCCYMsl9VC3BR6M-iv5feZkg",
+    "tmdbId": null,
+    "title": "Dancing Through Christmas",
+    "originalTitle": null,
+    "overview": "Kurz vor Weihnachten bereitet die Ballettlehrerin Olivia eine festliche Aufführung des „Nussknackers“ vor und wählt die talentierte junge Lily für eine Rolle aus. Während der Proben lernt sie Lilys Vater Michael kennen und entwickelt allmählich romantische Gefühle für ihn.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "dancing-through-christmas"
+  },
+  {
+    "videoId": "YVK05U6zJ3w",
+    "youtubeTitle": "Ein perfekter Tag - A Perfect Day (2006) | Ganzer Film auf Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/YVK05U6zJ3w/hqdefault.jpg",
+    "duration": "PT1H30M59S",
+    "publishedAt": "2026-11-26T17:00:39Z",
+    "channelName": "Making Legends",
+    "channelId": "UCVebThBZkwkV6EKRae-Noqg",
+    "tmdbId": null,
+    "title": "Ein perfekter Tag - A Perfect Day",
+    "originalTitle": null,
+    "overview": "Auf dem absoluten Höhepunkt seiner Karriere als gefeierter Bestsellerautor und Motivationsredner erhält Rob Harlan eine erschütternde Diagnose, die sein gesamtes Leben aus den Angeln hebt und ihm nur noch wenige Wochen Zeit lässt. Während seine Ehe mit seiner Frau Allyson unter seinem blinden Ehrgeiz und seiner emotionalen Kälte bereits zerbrochen schien, zwingt ihn die Gewissheit des nahenden Todes zu einer schmerzhaften Auseinandersetzung mit seinen bisherigen Prioritäten. Inmitten dieser tiefen Lebenskrise tritt ein rätselhafter Unbekannter in sein Leben, der Rob auf eine emotionale Reise voller Selbstreflexion, Reue und der Suche nach Vergebung führt. Dieses berührende Drama beleuchtet eindringlich den Konflikt zwischen gesellschaftlichem Erfolg und echter menschlicher Nähe und stellt die Frage, was am Ende eines Lebens wirklich zählt.",
+    "releaseDate": "2006-01-01",
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "ein-perfekter-tag-a-perfect-day"
+  },
+  {
+    "videoId": "dMvMfFbh924",
+    "youtubeTitle": "Aleekah ist die Größte | kompletter Film | Deutsch",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/dMvMfFbh924/hqdefault.jpg",
+    "duration": "PT1H48M22S",
+    "publishedAt": "2026-11-26T12:00:24Z",
+    "channelName": "Sony Pics at Home DE",
+    "channelId": "UCXsB2iMamYqS_t-Kpo61tOw",
+    "tmdbId": null,
+    "title": "Aleekah ist die Größte",
+    "originalTitle": null,
+    "overview": "Die 11-jährige Akeelah hat es nicht leicht. Ihr Vater ist tot, ihre Mutter vernachlässigt sie und die Geschwister und Mitschüler nerven meistens. Aber sie ist eine schlaue Schülerin. Um einer Strafe wegen Schulschwänzens zu entgehen, macht sie bei einem Buchstabierwettbewerb mit. Wider Erwarten schafft Akeelah den 1. Platz und ihr Leben verändert sich komplett",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "slug": "aleekah-ist-die-groesste"
+  },
+  {
+    "videoId": "fAtpqG-gnDk",
+    "youtubeTitle": "Eine Stewardess gerät in Neapel mitten in einen blutigen Bandenkrieg | Ich polier' dir deine Glatze",
+    "youtubeThumbnail": "https://i.ytimg.com/vi/fAtpqG-gnDk/hqdefault.jpg",
+    "duration": "PT1H25M38S",
+    "publishedAt": "2026-11-26T17:30:38Z",
+    "channelName": "Movie360",
+    "channelId": "UCsMdJzPiTH_TGpWSLg9fPrA",
+    "tmdbId": null,
+    "title": "Eine Stewardess gerät in Neapel mitten in einen blutigen Bandenkrieg",
+    "originalTitle": null,
+    "overview": "An der Seite des schlagkräftigen Silvera (Woody Strode) und verfolgt von gnadenlosen Verbrechern (darunter Marc Porel) liefert sich Nora wilde Verfolgungsjagden durch die Gassen Neapels und packende Schießereien. Inszeniert von Genre-Meister Fernando Di Leo und gemeinsam mit Enzo Dell'Aquila geschrieben, verbindet dieser Kultfilm der 70er Jahre rasante Action, schwarzen Humor und unverwechselbares Retro-Kino-Flair zu einem unvergesslichen Filmerlebnis.",
+    "releaseDate": null,
+    "posterUrl": null,
+    "backdropUrl": null,
+    "voteAverage": null,
+    "genreIds": [],
+    "matchSource": "youtube",
+    "matchConfidence": "youtube",
+    "hinweis": "Aus den YouTube-Angaben übernommen -- bei TMDB nicht gefunden",
+    "cast": [],
+    "director": [],
+    "writer": [],
+    "fsk": null,
+    "titelUnsicher": true
   }
 ]
